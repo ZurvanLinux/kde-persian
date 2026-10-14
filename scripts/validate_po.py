@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import re
 import subprocess
 import sys
 import polib
@@ -6,6 +7,9 @@ from pathlib import Path
 
 BASE_DIR = Path("/Users/mohammad/Documents/GitHub/kde-persian")
 WORK_FA = BASE_DIR / "work" / "fa"
+
+# Invalid transliterated unit patterns like %1 میب, %1 گیب, %1 می‌ب, %1 گی‌ب
+INVALID_UNIT_REGEX = re.compile(r"%\d+\s*(?:می‌ب|گی‌ب|کی‌ب|تی‌ب|پی‌ب|ی‌ب|ز‌ب|میب|گیب|کیب|تیب|پیب)")
 
 def validate_file(po_path: Path) -> list[str]:
     errors = []
@@ -22,7 +26,9 @@ def validate_file(po_path: Path) -> list[str]:
         texts = [entry.msgstr] if not entry.msgid_plural else list(entry.msgstr_plural.values())
         for t in texts:
             if "\u064a" in t or "\u0643" in t:
-                errors.append(f"Arabic Yeh/Kaf found in msgid: {entry.msgid[:40]!r}")
+                errors.append(f"Arabic Yeh/Kaf found in msgstr: {entry.msgid[:40]!r}")
+            if INVALID_UNIT_REGEX.search(t):
+                errors.append(f"Invalid transliterated unit found in msgstr: {t!r} for msgid: {entry.msgid!r}")
     return errors
 
 def main():

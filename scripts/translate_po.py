@@ -29,6 +29,11 @@ GLOSSARY_PATH = BASE_DIR / "glossary" / "glossary.json"
 # Matches Qt/KDE placeholders (%1, %L1, %n), C-printf (%s, %d, %1$s), env vars ($HOME), and XML/KUIT tags
 PlaceholderRegex = re.compile(r"(%\d+\$[a-zA-Z]|%L?\d+|%[a-zA-Z]|\$\{?[A-Za-z0-9_]+\}?|<[^>]+>)")
 DesktopPrefixRegex = re.compile(r"^([A-Za-z0-9_-]+=)(.*)$", flags=re.DOTALL)
+UnitSymbolRegex = re.compile(
+    r"^(%L?\d+)\s*(B|KB|MB|GB|TB|PB|EB|ZB|YB|KiB|MiB|GiB|TiB|PiB|EiB|ZiB|YiB"
+    r"|B/s|KB/s|MB/s|GB/s|TB/s|KiB/s|MiB/s|GiB/s|TiB/s"
+    r"|bps|Kbps|Mbps|Gbps|Hz|kHz|MHz|GHz|dpi|ppi|px|pt)$"
+)
 
 SYSTEM_PROMPT = """You are the Lead Persian (fa_IR) Localization Architect for KDE Plasma 6.
 You are translating Graphical User Interface (GUI) components: window titles, buttons, menus, dialog boxes, tooltips, and command-line option descriptions into fluent, standard modern Persian software terminology.
@@ -79,7 +84,17 @@ CRITICAL KDE & PERSIAN LOCALIZATION RULES:
 9. PLURAL FORMS:
    - KDE Persian uses `nplurals=2; plural=(n != 1);`.
    - When `msgid_plural` is non-empty, return an array of 2 strings: `[singular_form, plural_form]`, matching the exact placeholders of `msgid` in `singular_form` and `msgid_plural` in `plural_form`.
-10. OUTPUT FORMAT:
+10. UNITS OF MEASUREMENT & TECHNICAL SYMBOLS (CRITICAL):
+   - Standard international unit symbols/abbreviations MUST NEVER be phonetically transliterated into Persian letters (e.g., NEVER write "می‌ب", "گی‌ب", "کی‌ب", "تی‌ب", "پی‌ب", "مب", "گب").
+   - Digital storage & memory unit symbols MUST remain in ASCII:
+     * "%1 B" -> "%1 B"
+     * "%1 KB" -> "%1 KB", "%1 MB" -> "%1 MB", "%1 GB" -> "%1 GB", "%1 TB" -> "%1 TB", "%1 PB" -> "%1 PB"
+     * "%1 KiB" -> "%1 KiB", "%1 MiB" -> "%1 MiB", "%1 GiB" -> "%1 GiB", "%1 TiB" -> "%1 TiB", "%1 PiB" -> "%1 PiB"
+   - Rates, frequencies, and dimensions MUST remain in ASCII:
+     * "%1 bps", "%1 Kbps", "%1 Mbps", "%1 Gbps", "%1 KiB/s", "%1 MiB/s"
+     * "%1 Hz", "%1 kHz", "%1 MHz", "%1 GHz", "%1 px", "%1 pt", "%1 dpi"
+   - When unit names are full English words (e.g., "bytes", "megabytes", "seconds"), translate normally to Persian words ("بایت", "مگابایت", "ثانیه").
+11. OUTPUT FORMAT:
    - Return ONLY a valid JSON object mapping each item ID ("0", "1", ...) to its translated string (or 2-element list for plurals). Do not wrap in markdown code fences."""
 
 
@@ -341,6 +356,17 @@ def process_pot_file(rel_pot_path: Path, model: str, batch_size: int = 25, force
     for e in po:
         if e.obsolete or e.msgid == "":
             continue
+
+        # Deterministic preservation for standard international unit symbols (e.g., %1 MiB -> %1 MiB)
+        if UnitSymbolRegex.match(e.msgid.strip()):
+            if e.msgid_plural:
+                e.msgstr_plural = {0: e.msgid.strip(), 1: e.msgid_plural.strip()}
+            else:
+                e.msgstr = e.msgid.strip()
+            if "fuzzy" in e.flags:
+                e.flags.remove("fuzzy")
+            continue
+
         if not force and e.translated():
             continue
         pending_entries.append(e)
