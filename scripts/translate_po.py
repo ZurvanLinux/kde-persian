@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import os
 import json
 import re
 import time
@@ -51,6 +52,7 @@ CRITICAL KDE & PERSIAN LOCALIZATION RULES:
    - "Toolbar" is "نوار ابزار", "Status bar" is "نوار وضعیت", "Title bar" is "نوار عنوان".
    - "Tab" is "زبانه", "Sidebar" is "نوار کناری", "Wizard" is "راهنمای گام‌به‌گام".
 2. TONE & FLUENCY: Use formal, concise, natural software Persian (رسمی، روان و طبیعی). Avoid literal word-for-word calques (ترجمه تحت‌اللفظی) and overly purist archaic terms.
+   - If a "google_ref" (Google Translate baseline reference) is provided in the entry, use it to understand common software vocabulary and user expectations, but IMPROVE upon it: refine the grammar, strictly enforce Persian orthography (نیم‌فاصله), preserve all placeholders and KUIT tags, and adhere to the KDE glossary.
 3. CONTEXT AWARENESS (msgctxt & comments):
    - Respect KDE semantic context markers:
      * `@action:button` -> Verb/action label on buttons (e.g. "ذخیره", "لغو", "پایان").
@@ -191,16 +193,64 @@ def repair_with_flash_qa(src_text: str, candidate_fa: str) -> str:
         return candidate_fa
 
 
+def fetch_google_references(texts: list) -> dict:
+    """Fetches Google translation baseline for each item in batch."""
+    google_key = os.environ.get("GOOGLE_TRANSLATE_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    if google_key:
+        try:
+            url = f"https://translation.googleapis.com/language/translate/v2?key={google_key}"
+            resp = requests.post(url, json={"q": texts, "source": "en", "target": "fa", "format": "text"}, timeout=15)
+            if resp.status_code == 200:
+                data = resp.json()
+                translations = [item["translatedText"] for item in data["data"]["translations"]]
+                return {str(i): t for i, t in enumerate(translations)}
+        except Exception:
+            pass
+
+    prompt = (
+        "Translate these software user interface strings to standard modern Persian as a direct translation baseline.\n"
+        "Return ONLY a flat JSON object where keys are indices \"0\", \"1\", \"2\"... and values are translated Persian strings:\n"
+        + json.dumps({str(i): t for i, t in enumerate(texts)}, ensure_ascii=False)
+    )
+    try:
+        resp = requests.post(
+            f"{GATEWAY_BASE}/chat/completions",
+            headers={"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"},
+            json={
+                "model": QA_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.1,
+            },
+            timeout=40,
+        )
+        resp.raise_for_status()
+        raw = resp.json()["choices"][0]["message"]["content"]
+        idx = raw.find("{")
+        if idx != -1:
+            obj, _ = json.JSONDecoder().raw_decode(raw[idx:])
+            return {str(k): v for k, v in obj.items()}
+    except Exception:
+        pass
+    return {}
+
+
 def translate_batch(batch_items: list, glossary: dict, model: str) -> dict:
+    source_texts = [entry.msgid for entry in batch_items]
+    google_refs = fetch_google_references(source_texts)
+
     payload_items = []
     for idx, entry in enumerate(batch_items):
-        payload_items.append({
+        item = {
             "id": str(idx),
             "msgctxt": entry.msgctxt or "",
             "msgid": entry.msgid,
             "msgid_plural": entry.msgid_plural or "",
             "comment": entry.comment or "",
-        })
+        }
+        ref = google_refs.get(str(idx))
+        if ref:
+            item["google_ref"] = ref
+        payload_items.append(item)
 
     prompt = (
         f"Approved Terminology Glossary (follow strictly):\n"
