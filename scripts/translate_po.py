@@ -188,10 +188,13 @@ def translate_batch(batch_items: list, glossary: dict, model: str) -> dict:
     )
 
     raw_response = call_anthropic_messages(model, SYSTEM_PROMPT, prompt)
+    m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", raw_response, flags=re.DOTALL)
+    if m:
+        return json.loads(m.group(1))
     cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw_response.strip(), flags=re.MULTILINE)
     match = re.search(r"\{.*\}", cleaned, flags=re.DOTALL)
     if match:
-        cleaned = match.group(0)
+        return json.loads(match.group(0))
     return json.loads(cleaned)
 
 
