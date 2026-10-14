@@ -1,0 +1,137 @@
+# translation of kcm_kwindesktop.po to Persian
+# Saied Taghavi <s.taghavi@gmail.com>, 2008.
+# Ali Sarchami <ali.sarchami@gmail.com>, 2012.
+# Mohammad Reza Mirdamadi <mohi@linuxshop.ir>, 2012.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_kwindesktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-14 00:45+0000\n"
+"PO-Revision-Date: 2026-10-14 22:42+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: kde-persian-pipeline (claude-opus-4-6)\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: desktopsmodel.cpp:188
+#, kde-format
+msgctxt "A numbered name for virtual desktops"
+msgid "Desktop %1"
+msgid_plural "Desktop %1"
+msgstr[0] "میزکار %1"
+msgstr[1] "میزکار %1"
+
+#: desktopsmodel.cpp:476
+#, kde-format
+msgid "There was an error connecting to the compositor."
+msgstr "خطایی در اتصال به ترکیب‌کننده رخ داد."
+
+#: desktopsmodel.cpp:672
+#, kde-format
+msgid "There was an error saving the settings to the compositor."
+msgstr "خطایی در ذخیرهٔ تنظیمات در ترکیب‌کننده رخ داد."
+
+#: desktopsmodel.cpp:675
+#, kde-format
+msgid "There was an error requesting information from the compositor."
+msgstr "خطایی در درخواست اطلاعات از ترکیب‌کننده رخ داد."
+
+#: ui/main.qml:26
+#, kde-format
+msgctxt "@text:label Number of rows, label associated to a number input field"
+msgid "Rows:"
+msgstr "سطرها:"
+
+#: ui/main.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Desktop"
+msgstr "افزودن میزکار"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "@action:button"
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: ui/main.qml:100
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove"
+msgstr "حذف"
+
+#: ui/main.qml:119
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Apply new name"
+msgstr "اعمال نام جدید"
+
+#: ui/main.qml:132
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel rename"
+msgstr "لغو تغییر نام"
+
+#: ui/main.qml:179
+#, kde-format
+msgid ""
+"Virtual desktops have been changed outside this settings application. Saving"
+" now will overwrite the changes."
+msgstr ""
+"میزکارهای مجازی از خارج از این برنامهٔ تنظیمات تغییر کرده‌اند. ذخیره کردن "
+"اکنون، تغییرات را بازنویسی خواهد کرد."
+
+#: ui/main.qml:195
+#, kde-format
+msgid "Row %1"
+msgstr "سطر %1"
+
+#: ui/main.qml:209
+#, kde-format
+msgid "Options:"
+msgstr "گزینه‌ها:"
+
+#: ui/main.qml:211
+#, kde-format
+msgid "Navigation wraps around"
+msgstr "ناوبری به‌صورت حلقوی"
+
+#: ui/main.qml:225
+#, kde-format
+msgid "Switch desktops independently for each screen"
+msgstr "تعویض میزکارها به‌طور مستقل برای هر صفحهٔ نمایش"
+
+#: ui/main.qml:243
+#, kde-format
+msgid "Show animation when switching:"
+msgstr "نمایش پویانمایی هنگام تعویض:"
+
+#: ui/main.qml:294
+#, kde-format
+msgid "Show on-screen display when switching:"
+msgstr "نمایش نمایشگر روی صفحه هنگام تعویض:"
+
+#: ui/main.qml:313
+#, kde-format
+msgid "%1 ms"
+msgstr "%1 میلی‌ثانیه"
+
+#: ui/main.qml:337
+#, kde-format
+msgid "Show desktop layout indicators"
+msgstr "نمایش نشانگرهای چیدمان میزکار"

@@ -1,0 +1,207 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_kwinxwayland package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_kwinxwayland\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 00:46+0000\n"
+"PO-Revision-Date: 2026-10-14 22:45+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: kde-persian-pipeline (claude-opus-4-6)\n"
+
+#: ui/main.qml:28
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Legacy X11 apps with global shortcuts and other features accessed while "
+"running in the background need to be able to listen for keystrokes all the "
+"time.<nl/><nl/>If you use any of these apps, you can choose your preferred "
+"balance of security and compatibility here."
+msgstr ""
+"برنامه‌های قدیمی X11 که میانبرهای سراسری و دیگر امکانات را هنگام اجرا در "
+"پس‌زمینه استفاده می‌کنند، باید بتوانند همیشه ضربات کلید را شنود "
+"کنند.<nl/><nl/>اگر از هر یک از این برنامه‌ها استفاده می‌کنید، می‌توانید "
+"تعادل دلخواه خود بین امنیت و سازگاری را در اینجا انتخاب کنید."
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "@title:group"
+msgid "Listening for keystrokes:"
+msgstr "شنود ضربات کلید:"
+
+#: ui/main.qml:52
+#, kde-format
+msgctxt "@option:radio Listening for keystrokes is prohibited"
+msgid "Prohibited"
+msgstr "ممنوع"
+
+#: ui/main.qml:61
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Most secure; global shortcuts will not work in X11 apps"
+msgstr "امن‌ترین حالت؛ میانبرهای سراسری در برنامه‌های X11 کار نخواهند کرد"
+
+#: ui/main.qml:67
+#, kde-format
+msgctxt "@option:radio Listening for keystrokes is allowed for…"
+msgid "Only the Meta, Control, Alt, and Shift keys"
+msgstr "فقط کلیدهای Meta، Control، Alt و Shift"
+
+#: ui/main.qml:76
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"High security; push-to-talk and other modifier-only global shortcuts will "
+"work in X11 apps"
+msgstr ""
+"امنیت بالا؛ فشار-برای-صحبت و دیگر میانبرهای سراسری فقط-کلید-تغییردهنده در "
+"برنامه‌های X11 کار خواهند کرد"
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@option:radio Listening for keystrokes is allowed for…"
+msgid ""
+"As above, plus any key pressed while the Control, Alt, or Meta key is also "
+"pressed"
+msgstr ""
+"مانند بالا، به‌علاوهٔ هر کلیدی که هم‌زمان با کلید Control، Alt یا Meta فشرده"
+" شود"
+
+#: ui/main.qml:90
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Moderate security; all global shortcuts will work in X11 apps"
+msgstr "امنیت متوسط؛ همهٔ میانبرهای سراسری در برنامه‌های X11 کار خواهند کرد"
+
+#: ui/main.qml:96
+#, kde-format
+msgctxt "@option:radio Listening for keystrokes is always allowed"
+msgid "Always allowed"
+msgstr "همیشه مجاز"
+
+#: ui/main.qml:105
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Least secure; all X11 apps will be able to see any text you type into any "
+"application"
+msgstr ""
+"کم‌ترین امنیت؛ همهٔ برنامه‌های X11 قادر خواهند بود هر متنی که در هر "
+"برنامه‌ای تایپ می‌کنید را ببینند"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Note that using this setting will reduce system security and permit "
+"malicious software to steal passwords and spy on the text that you type. "
+"Make sure you understand and accept this risk."
+msgstr ""
+"توجه داشته باشید که استفاده از این تنظیم، امنیت سامانه را کاهش می‌دهد و به "
+"نرم‌افزارهای مخرب اجازهٔ سرقت گذرواژه‌ها و جاسوسی از متنی که تایپ می‌کنید را"
+" می‌دهد. مطمئن شوید که این خطر را درک و قبول می‌کنید."
+
+#: ui/main.qml:118
+#, kde-format
+msgctxt "@title:group"
+msgid "Listening for mouse buttons:"
+msgstr "شنود دکمه‌های موشی:"
+
+#: ui/main.qml:121
+#, kde-format
+msgctxt "@option:radio Listening for mouse buttons is allowed"
+msgid "Allowed"
+msgstr "مجاز"
+
+#: ui/main.qml:130
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Moderate security; global shortcuts involving mouse buttons will work in X11"
+" apps"
+msgstr ""
+"امنیت متوسط؛ میانبرهای سراسری شامل دکمه‌های موشی در برنامه‌های X11 کار "
+"خواهند کرد"
+
+#: ui/main.qml:141
+#, kde-format
+msgctxt "@title:group"
+msgid "Control of pointer and keyboard:"
+msgstr "کنترل نشانگر و صفحه‌کلید:"
+
+#: ui/main.qml:146
+#, kde-format
+msgctxt ""
+"@option:check Allowed control of pointer and keyboard without asking for "
+"permissions for allowed apps"
+msgid "Allowed apps"
+msgstr "برنامه‌های مجاز"
+
+#: ui/main.qml:156
+#, kde-format
+msgctxt "@action:button"
+msgid "See Allowed Applications…"
+msgstr "مشاهدهٔ برنامه‌های مجاز…"
+
+#: ui/main.qml:167
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Moderate security; XWayland-using apps claiming to be something on this list"
+" will be able to take control of the computer, because XWayland-using apps’ "
+"identities can’t be verified"
+msgstr ""
+"امنیت متوسط؛ برنامه‌های استفاده‌کنندهٔ XWayland که ادعای حضور در این فهرست "
+"را دارند، قادر خواهند بود کنترل رایانه را در دست بگیرند، زیرا هویت "
+"برنامه‌های استفاده‌کنندهٔ XWayland قابل تأیید نیست"
+
+#: ui/main.qml:173
+#, kde-format
+msgctxt ""
+"@option:radio Allow control of pointer and keyboard without asking for "
+"permission"
+msgid "Allow without asking for permission"
+msgstr "مجاز بدون درخواست اجازه"
+
+#: ui/main.qml:182
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Least secure; all X11 apps will be able to take control of the computer"
+msgstr ""
+"کم‌ترین امنیت؛ همهٔ برنامه‌های X11 قادر خواهند بود کنترل رایانه را در دست "
+"بگیرند"
+
+#: ui/main.qml:189
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Note that using this setting will drastically reduce system security and "
+"permit malicious software to take complete control of your pointer and "
+"keyboard. Make sure you understand and accept this risk."
+msgstr ""
+"توجه داشته باشید که استفاده از این تنظیم، امنیت سامانه را به شدت کاهش می‌دهد"
+" و به نرم‌افزارهای مخرب اجازهٔ کنترل کامل نشانگر و صفحه‌کلید شما را می‌دهد. "
+"مطمئن شوید که این خطر را درک و قبول می‌کنید."
+
+#: ui/main.qml:197
+#, kde-format
+msgctxt ""
+"@title:window title of the page opened by the 'See allowed applications' "
+"button"
+msgid "Applications allowed to control the pointer and keyboard"
+msgstr "برنامه‌های مجاز به کنترل نشانگر و صفحه‌کلید"
+
+#: ui/main.qml:217
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of the app/binary"
+msgid "Do not allow %1 to control the pointer and keyboard without asking"
+msgstr "اجازه ندادن به %1 برای کنترل نشانگر و صفحه‌کلید بدون درخواست"
