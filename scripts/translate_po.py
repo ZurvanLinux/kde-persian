@@ -22,6 +22,12 @@ API_KEY = "sk-4a8eb48773bd4f4482fd11a1a39526a2"
 CORE_MODEL = "claude-opus-4-6"
 BULK_MODEL = "claude-sonnet-4-6"
 QA_MODEL = "gemini-3.8-flash-high"
+FALLBACK_GEMINI_MODELS = [
+    "gemini-3.8-flash-high",
+    "gemini-3.8-flash",
+    "gemini-3.8-flash-medium",
+    "gemini-3.5-flash-high",
+]
 
 BASE_DIR = Path("/Users/mohammad/Documents/GitHub/kde-persian")
 GLOSSARY_PATH = BASE_DIR / "glossary" / "glossary.json"
@@ -158,21 +164,64 @@ def call_anthropic_messages(model: str, system_prompt: str, user_content: str) -
         "system": system_prompt,
         "messages": [{"role": "user", "content": user_content}],
     }
-    for attempt in range(4):
+    resp = requests.post(url, headers=headers, json=payload, timeout=90)
+    resp.raise_for_status()
+    data = resp.json()
+    if "error" in data:
+        raise RuntimeError(f"Claude API error: {data['error']}")
+    for block in data.get("content", []):
+        if block.get("type") == "text":
+            return block.get("text", "")
+    raise RuntimeError("Empty response from Claude gateway")
+
+
+def call_gemini_chat(model: str, system_prompt: str, user_content: str) -> str:
+    url = f"{GATEWAY_BASE}/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {API_KEY}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_content},
+        ],
+        "temperature": 0.1,
+    }
+    resp = requests.post(url, headers=headers, json=payload, timeout=60)
+    resp.raise_for_status()
+    data = resp.json()
+    if "error" in data:
+        raise RuntimeError(f"Gemini API error: {data['error']}")
+    return data["choices"][0]["message"]["content"]
+
+
+def call_llm(model: str, system_prompt: str, user_content: str) -> str:
+    """Tries the requested model, and automatically falls back to Gemini models if Claude is rate-limited or unavailable."""
+    models_to_try = [model]
+    if model.startswith("claude"):
+        alt_claude = "claude-sonnet-4-6" if model == "claude-opus-4-6" else "claude-opus-4-6"
+        models_to_try.append(alt_claude)
+        models_to_try.extend(FALLBACK_GEMINI_MODELS)
+    else:
+        for m in FALLBACK_GEMINI_MODELS:
+            if m not in models_to_try:
+                models_to_try.append(m)
+
+    last_error = None
+    for current_model in models_to_try:
         try:
-            resp = requests.post(url, headers=headers, json=payload, timeout=180)
-            resp.raise_for_status()
-            data = resp.json()
-            for block in data.get("content", []):
-                if block.get("type") == "text":
-                    return block.get("text", "")
+            if current_model.startswith("claude"):
+                return call_anthropic_messages(current_model, system_prompt, user_content)
+            else:
+                return call_gemini_chat(current_model, system_prompt, user_content)
         except Exception as exc:
-            if attempt == 3:
-                raise
-            wait_sec = 2 ** (attempt + 1)
-            print(f"  [!] Gateway retry {attempt + 1}/3 in {wait_sec}s: {exc}")
-            time.sleep(wait_sec)
-    raise RuntimeError("Empty response from gateway")
+            last_error = exc
+            print(f"  [!] Model {current_model} unavailable ({exc}). Switching to fallback...")
+            time.sleep(1)
+
+    raise RuntimeError(f"All candidate models exhausted. Last error: {last_error}")
 
 
 def repair_with_flash_qa(src_text: str, candidate_fa: str) -> str:
@@ -276,7 +325,7 @@ def translate_batch(batch_items: list, glossary: dict, model: str) -> dict:
         f"Entries:\n{json.dumps(payload_items, ensure_ascii=False, indent=2)}"
     )
 
-    raw_response = call_anthropic_messages(model, SYSTEM_PROMPT, prompt)
+    raw_response = call_llm(model, SYSTEM_PROMPT, prompt)
     m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", raw_response, flags=re.DOTALL)
     if m:
         try:
