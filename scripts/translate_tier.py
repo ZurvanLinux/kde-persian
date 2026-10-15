@@ -49,6 +49,7 @@ def main():
     parser.add_argument("--batch-size", type=int, default=25)
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--engine", choices=["dual", "google"], default="dual", help="Translation engine: dual or google")
+    parser.add_argument("--concurrency", type=int, default=4, help="Number of concurrent requests (default: 4)")
     parser.add_argument("--finish-in-progress", action="store_true", help="Only complete the remaining strings in kio, plasma-workspace, plasma-desktop, plasma-nm")
     parser.add_argument("--after-in-progress-google", action="store_true", help="Finish in-progress repos first with dual engine, then translate all remaining repos with google engine")
     args = parser.parse_args()
@@ -71,7 +72,7 @@ def main():
             rel_path = pot_path.relative_to(templates_root)
             print(f"\n[In-Progress {idx}/{len(in_progress_pots)}] Target: {rel_path}")
             try:
-                process_pot_file(rel_path, model=CORE_MODEL, batch_size=args.batch_size, force=args.force, engine="dual")
+                process_pot_file(rel_path, model=CORE_MODEL, batch_size=args.batch_size, force=args.force, engine="dual", concurrency=args.concurrency)
             except Exception as exc:
                 print(f"✗ Error on {rel_path}: {exc}")
 
@@ -87,7 +88,7 @@ def main():
             rel_path = pot_path.relative_to(templates_root)
             print(f"\n[Google Engine {idx}/{len(remaining_pots)}] Target: {rel_path}")
             try:
-                process_pot_file(rel_path, model=CORE_MODEL, batch_size=max(args.batch_size, 35), force=args.force, engine="google")
+                process_pot_file(rel_path, model=CORE_MODEL, batch_size=max(args.batch_size, 35), force=args.force, engine="google", concurrency=args.concurrency)
             except Exception as exc:
                 print(f"✗ Error on {rel_path}: {exc}")
         return
@@ -118,12 +119,12 @@ def main():
         pot_files = sorted(templates_root.rglob("*.pot"))
         model = BULK_MODEL
 
-    print(f"==> Starting translation queue ({len(pot_files)} POT files) with model={model}, engine={args.engine}")
+    print(f"==> Starting translation queue ({len(pot_files)} POT files) with model={model}, engine={args.engine}, concurrency={args.concurrency}")
     for idx, pot_path in enumerate(pot_files, 1):
         rel_path = pot_path.relative_to(templates_root)
         print(f"\n[{idx}/{len(pot_files)}] Target: {rel_path}")
         try:
-            process_pot_file(rel_path, model=model, batch_size=args.batch_size, force=args.force, engine=args.engine)
+            process_pot_file(rel_path, model=model, batch_size=args.batch_size, force=args.force, engine=args.engine, concurrency=args.concurrency)
         except Exception as exc:
             print(f"✗ Error on {rel_path}: {exc}")
 

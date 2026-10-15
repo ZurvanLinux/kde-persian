@@ -8,6 +8,7 @@ import polib
 import requests
 from pathlib import Path
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor
 
 # Contributor Identity (Upstream KDE Header Standard)
 TRANSLATOR_NAME = "Mohammad Shafiee Sarvestani"
@@ -189,7 +190,7 @@ def call_gemini_chat(model: str, system_prompt: str, user_content: str) -> str:
         ],
         "temperature": 0.1,
     }
-    resp = requests.post(url, headers=headers, json=payload, timeout=90)
+    resp = requests.post(url, headers=headers, json=payload, timeout=35)
     resp.raise_for_status()
     data = resp.json()
     if "error" in data:
@@ -496,7 +497,36 @@ def save_po_with_legacy_header(po: polib.POFile, out_po_file: Path, header_comme
     out_po_file.write_text(header_comments + "\n" + content_body, encoding="utf-8")
 
 
-def process_pot_file(rel_pot_path: Path, model: str = CORE_MODEL, batch_size: int = 25, force: bool = False, engine: str = "dual"):
+def apply_batch_translations(batch: list, translations: dict, engine: str):
+    for idx, entry in enumerate(batch):
+        if entry.msgctxt == "NAME OF TRANSLATORS" and entry.msgid == "Your names":
+            entry.msgstr = "محمد شفیعی سروستانی"
+            if "fuzzy" in entry.flags:
+                entry.flags.remove("fuzzy")
+            continue
+        if entry.msgctxt == "EMAIL OF TRANSLATORS" and entry.msgid == "Your emails":
+            entry.msgstr = TRANSLATOR_EMAIL
+            if "fuzzy" in entry.flags:
+                entry.flags.remove("fuzzy")
+            continue
+
+        result = translations.get(str(idx))
+        if result is None:
+            continue
+        if entry.msgid_plural and isinstance(result, list):
+            f0 = repair_with_flash_qa(entry.msgid, normalize_persian_orthography(result[0], entry.msgid))
+            f1_raw = result[1] if len(result) > 1 else result[0]
+            f1 = repair_with_flash_qa(entry.msgid_plural, normalize_persian_orthography(f1_raw, entry.msgid_plural))
+            entry.msgstr_plural = {0: f0, 1: f1}
+        elif isinstance(result, str):
+            clean_str = normalize_persian_orthography(result, entry.msgid)
+            entry.msgstr = repair_with_flash_qa(entry.msgid, clean_str)
+
+        if "fuzzy" in entry.flags:
+            entry.flags.remove("fuzzy")
+
+
+def process_pot_file(rel_pot_path: Path, model: str = CORE_MODEL, batch_size: int = 25, force: bool = False, engine: str = "dual", concurrency: int = 4):
     pot_file = BASE_DIR / "upstream" / "templates" / rel_pot_path
     if not pot_file.exists():
         raise FileNotFoundError(f"Template not found: {pot_file}")
@@ -573,44 +603,31 @@ def process_pot_file(rel_pot_path: Path, model: str = CORE_MODEL, batch_size: in
         return
 
     effective_batch_size = 10 if engine == "google" else batch_size
-    print(f"==> Translating {rel_pot_path} ({total_pending} pending strings) using {generator_desc}...")
+    print(f"==> Translating {rel_pot_path} ({total_pending} pending strings) using {generator_desc} (concurrency={concurrency})...")
 
-    for i in range(0, total_pending, effective_batch_size):
-        batch = pending_entries[i : i + effective_batch_size]
-        if engine == "google":
-            translations = translate_batch_google(batch, glossary)
+    step = effective_batch_size * concurrency
+    for i in range(0, total_pending, step):
+        chunk = pending_entries[i : i + step]
+        sub_batches = [chunk[j : j + effective_batch_size] for j in range(0, len(chunk), effective_batch_size)]
+
+        if len(sub_batches) == 1:
+            if engine == "google":
+                trans = translate_batch_google(sub_batches[0], glossary)
+            else:
+                trans = translate_batch(sub_batches[0], glossary, model)
+            apply_batch_translations(sub_batches[0], trans, engine)
         else:
-            translations = translate_batch(batch, glossary, model)
-
-        for idx, entry in enumerate(batch):
-            if entry.msgctxt == "NAME OF TRANSLATORS" and entry.msgid == "Your names":
-                entry.msgstr = "محمد شفیعی سروستانی"
-                if "fuzzy" in entry.flags:
-                    entry.flags.remove("fuzzy")
-                continue
-            if entry.msgctxt == "EMAIL OF TRANSLATORS" and entry.msgid == "Your emails":
-                entry.msgstr = TRANSLATOR_EMAIL
-                if "fuzzy" in entry.flags:
-                    entry.flags.remove("fuzzy")
-                continue
-
-            result = translations.get(str(idx))
-            if result is None:
-                continue
-            if entry.msgid_plural and isinstance(result, list):
-                f0 = repair_with_flash_qa(entry.msgid, normalize_persian_orthography(result[0], entry.msgid))
-                f1_raw = result[1] if len(result) > 1 else result[0]
-                f1 = repair_with_flash_qa(entry.msgid_plural, normalize_persian_orthography(f1_raw, entry.msgid_plural))
-                entry.msgstr_plural = {0: f0, 1: f1}
-            elif isinstance(result, str):
-                clean_str = normalize_persian_orthography(result, entry.msgid)
-                entry.msgstr = repair_with_flash_qa(entry.msgid, clean_str)
-
-            if "fuzzy" in entry.flags:
-                entry.flags.remove("fuzzy")
+            with ThreadPoolExecutor(max_workers=min(concurrency, len(sub_batches))) as executor:
+                if engine == "google":
+                    futures = [executor.submit(translate_batch_google, sb, glossary) for sb in sub_batches]
+                else:
+                    futures = [executor.submit(translate_batch, sb, glossary, model) for sb in sub_batches]
+                results = [f.result() for f in futures]
+            for sb, trans in zip(sub_batches, results):
+                apply_batch_translations(sb, trans, engine)
 
         save_po_with_legacy_header(po, out_po_file, header_comments)
-        print(f"  [{min(i + effective_batch_size, total_pending)}/{total_pending}] checkpoint saved")
+        print(f"  [{min(i + step, total_pending)}/{total_pending}] checkpoint saved")
 
     print(f"✓ Completed & preserved upstream history: {out_po_file}")
 
@@ -622,7 +639,8 @@ if __name__ == "__main__":
     parser.add_argument("--batch-size", type=int, default=25, help="Strings per API request")
     parser.add_argument("--force", action="store_true", help="Re-translate even if already translated in work/fa/")
     parser.add_argument("--engine", choices=["dual", "google"], default="dual", help="Translation engine: dual (LLM + Google hints) or google (Google Translate engine)")
+    parser.add_argument("--concurrency", type=int, default=4, help="Number of concurrent requests (default: 4)")
     args = parser.parse_args()
 
     chosen_model = BULK_MODEL if args.bulk else CORE_MODEL
-    process_pot_file(Path(args.pot_path), chosen_model, args.batch_size, args.force, engine=args.engine)
+    process_pot_file(Path(args.pot_path), chosen_model, args.batch_size, args.force, engine=args.engine, concurrency=args.concurrency)
