@@ -1,0 +1,408 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the okular_poppler package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_poppler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:44+0000\n"
+"PO-Revision-Date: 2026-10-15 12:05+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Google Translate\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: annots.cpp:592 formfields.cpp:539 generator_pdf.cpp:2225
+#: generator_pdf.cpp:2253
+#, kde-format
+msgid "Failed writing temporary file"
+msgstr "شکست در نوشتن پروندهٔ موقت"
+
+#: annots.cpp:608 formfields.cpp:561 generator_pdf.cpp:2276
+#, kde-format
+msgid "Failed removing file"
+msgstr "شکست در حذف پرونده"
+
+#: annots.cpp:612
+#, kde-format
+msgid "Failed renaming temporary file"
+msgstr "شکست در تغییر نام پروندهٔ موقت"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: conf/pdfsettingswidget.ui:19
+#, kde-format
+msgid "Enable overprint preview:"
+msgstr "فعال‌سازی پیش‌نمایش روچاپ:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:27
+#, kde-format
+msgid "Never"
+msgstr "هرگز"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:32
+#, kde-format
+msgid "Always"
+msgstr "همیشه"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_OverprintPreviewEnabled)
+#: conf/pdfsettingswidget.ui:37
+#, kde-format
+msgid "Automatic"
+msgstr "خودکار"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/pdfsettingswidget.ui:62
+#, kde-format
+msgid "Enhance thin lines:"
+msgstr "بهبود خطوط باریک:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox,
+#. kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:73 generator_pdf.cpp:1032
+#, kde-format
+msgid "No"
+msgstr "خیر"
+
+#. i18n: ectx: property (text), item, widget (KComboBox,
+#. kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:78
+#, kde-format
+msgid "Solid"
+msgstr "یک‌دست"
+
+#. i18n: ectx: property (text), item, widget (KComboBox,
+#. kcfg_EnhanceThinLines)
+#: conf/pdfsettingswidget.ui:83
+#, kde-format
+msgid "Shape"
+msgstr "شکل"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/pdfsettingswidget.ui:108
+#, kde-format
+msgid "Default scaling mode when printing:"
+msgstr "حالت مقیاس‌بندی پیش‌گزیده هنگام چاپ:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:116 generator_pdf.cpp:104
+#, kde-format
+msgid "Fit to printable area"
+msgstr "برازش در ناحیهٔ قابل چاپ"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:121 generator_pdf.cpp:105
+#, kde-format
+msgid "Fit to full page"
+msgstr "برازش در کل صفحه"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintScaleMode)
+#: conf/pdfsettingswidget.ui:126 generator_pdf.cpp:106
+#, kde-format
+msgid "None; print original size"
+msgstr "هیچ‌کدام؛ چاپ با اندازهٔ اصلی"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CheckOCSPServers)
+#: conf/pdfsettingswidget.ui:149
+#, kde-format
+msgid ""
+"Enabling this option will allow Okular to contact 3rd-party OCSP servers to "
+"check if the certificates used for digital signing have been revoked since "
+"their creation."
+msgstr ""
+"فعال‌سازی این گزینه به اوکولار اجازه می‌دهد تا با کارگزارهای OCSP شخص ثالث "
+"ارتباط برقرار کرده و بررسی کند که آیا گواهی‌های استفاده‌شده برای امضای "
+"دیجیتال از زمان ایجادشان باطل شده‌اند یا خیر."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckOCSPServers)
+#: conf/pdfsettingswidget.ui:152
+#, kde-format
+msgid ""
+"Check revocation of digital signatures' certificates using 3rd-party servers"
+msgstr "بررسی ابطال گواهی‌های امضای دیجیتال با استفاده از کارگزارهای شخص ثالث"
+
+#. i18n: ectx: property (text), widget (QLabel, label_signature_backend)
+#: conf/pdfsettingswidget.ui:174
+#, kde-format
+msgid "Signature backend:"
+msgstr "پشتانهٔ امضا:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_EnablePgp)
+#: conf/pdfsettingswidget.ui:200
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"These signatures can only be validated by modern Okular users with GnuPG "
+"backend activated"
+msgstr ""
+"این امضاها فقط توسط کاربران نسخه‌های جدید اوکولار با پشتانهٔ فعال GnuPG قابل"
+" اعتبارسنجی هستند"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnablePgp)
+#: conf/pdfsettingswidget.ui:203
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow PGP keys for signatures (Okular extension)"
+msgstr "مجاز دانستن کلیدهای PGP برای امضاها (افزونهٔ اوکولار)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, certDBGroupBox)
+#: conf/pdfsettingswidget.ui:210
+#, kde-format
+msgid "Certificate Database"
+msgstr "پایگاه‌دادهٔ گواهی‌ها"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseDefaultCertDB)
+#: conf/pdfsettingswidget.ui:219
+#, kde-format
+msgid "Default:"
+msgstr "پیش‌گزیده:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, customRadioButton)
+#: conf/pdfsettingswidget.ui:226
+#, kde-format
+msgid "Custom:"
+msgstr "سفارشی:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, certificatesGroup)
+#: conf/pdfsettingswidget.ui:243
+#, kde-format
+msgid "Available Certificates"
+msgstr "گواهی‌های موجود"
+
+#. i18n: ectx: property (text), widget (QPushButton, loadSignaturesButton)
+#: conf/pdfsettingswidget.ui:251
+#, kde-format
+msgid "&Load Signatures"
+msgstr "بارگذاری امضاها"
+
+#: formfields.cpp:565 generator_pdf.cpp:2280
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Failed renaming temporary file: %1"
+msgstr "شکست در تغییر نام پروندهٔ موقت: %1"
+
+#: generator_pdf.cpp:89
+#, kde-format
+msgid "PDF Options"
+msgstr "گزینه‌های PDF"
+
+#: generator_pdf.cpp:91
+#, kde-format
+msgid "Print annotations"
+msgstr "چاپ حاشیه‌نویسی‌ها"
+
+#: generator_pdf.cpp:92
+#, kde-format
+msgid "Include annotations in the printed document"
+msgstr "گنجاندن حاشیه‌نویسی‌ها در سند چاپ‌شده"
+
+#: generator_pdf.cpp:93
+#, kde-format
+msgid ""
+"Includes annotations in the printed document. You can disable this if you "
+"want to print the original unannotated document."
+msgstr ""
+"حاشیه‌نویسی‌ها را در سند چاپ‌شده می‌گنجاند. اگر می‌خواهید سند اصلی بدون "
+"حاشیه‌نویسی را چاپ کنید، می‌توانید این گزینه را غیرفعال کنید."
+
+#: generator_pdf.cpp:95
+#, kde-format
+msgid "Force rasterization"
+msgstr "شطرنجی‌سازی اجباری"
+
+#: generator_pdf.cpp:96
+#, kde-format
+msgid "Rasterize into an image before printing"
+msgstr "تبدیل به تصویر شطرنجی پیش از چاپ"
+
+#: generator_pdf.cpp:97
+#, kde-format
+msgid ""
+"Forces the rasterization of each page into an image before printing it. This"
+" usually gives somewhat worse results, but is useful when printing documents"
+" that appear to print incorrectly."
+msgstr ""
+"تبدیل هر صفحه به یک تصویر شطرنجی را پیش از چاپ اجباری می‌کند. این کار "
+"معمولاً نتایج ضعیف‌تری می‌دهد، اما برای چاپ اسنادی که به نظر می‌رسد نادرست "
+"چاپ می‌شوند مفید است."
+
+#: generator_pdf.cpp:107
+#, kde-format
+msgid "Scaling mode for the printed pages"
+msgstr "حالت مقیاس‌بندی صفحه‌های چاپ‌شده"
+
+#: generator_pdf.cpp:108
+#, kde-format
+msgid "Scale mode:"
+msgstr "حالت مقیاس:"
+
+#: generator_pdf.cpp:1030
+#, kde-format
+msgctxt "PDF v. <version>"
+msgid "PDF v. %1.%2"
+msgstr "PDF نگارش %1.%2"
+
+#: generator_pdf.cpp:1030
+#, kde-format
+msgid "Format"
+msgstr "قالب"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Encrypted"
+msgstr "رمزنگاری‌شده"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Unencrypted"
+msgstr "رمزنگاری‌نشده"
+
+#: generator_pdf.cpp:1031
+#, kde-format
+msgid "Security"
+msgstr "امنیت"
+
+#: generator_pdf.cpp:1032
+#, kde-format
+msgid "Yes"
+msgstr "بله"
+
+#: generator_pdf.cpp:1032
+#, kde-format
+msgid "Optimized"
+msgstr "بهینه‌شده"
+
+#: generator_pdf.cpp:1521
+#, kde-format
+msgid ""
+"Signed by: %1\n"
+"\n"
+"Date: %2"
+msgstr ""
+"امضاشده توسط: %1\n"
+"\n"
+"تاریخ: %2"
+
+#: generator_pdf.cpp:1744
+#, kde-format
+msgid "Using Poppler %1"
+msgstr "با استفاده از Poppler %1"
+
+#: generator_pdf.cpp:1746
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+"با استفاده از Poppler %1\n"
+"\n"
+"ساخته‌شده با Poppler %2"
+
+#: generator_pdf.cpp:1781
+#, kde-format
+msgid "PDF"
+msgstr "PDF"
+
+#: generator_pdf.cpp:1781
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr "پیکربندی پشتانهٔ PDF"
+
+#: generator_pdf.cpp:2300
+#, kde-format
+msgid ""
+"Some errors were found in the document, Okular might not be able to show the"
+" content correctly"
+msgstr ""
+"خطاهایی در سند پیدا شد؛ ممکن است اوکولار نتواند محتوا را به‌درستی نشان دهد"
+
+#: pdfsettingswidget.cpp:116
+#, kde-format
+msgctxt "@info Kind of a notice/warning"
+msgid ""
+"These signatures only work between modern versions of Okular with the GnuPG "
+"based backend activated"
+msgstr ""
+"این امضاها تنها میان نگارش‌های جدید اوکولار که پشتانهٔ مبتنی بر GnuPG در "
+"آن‌ها فعال باشد کار می‌کنند"
+
+#: pdfsettingswidget.cpp:117
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Enable PGP Signatures"
+msgstr "فعال‌سازی امضاهای PGP"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgctxt "Name of the person to whom the cerficate was issued"
+msgid "Issued to"
+msgstr "صادرشده برای"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgid "E-mail"
+msgstr "رایانامه"
+
+#: pdfsettingswidget.cpp:147
+#, kde-format
+msgctxt "Certificate expiration date"
+msgid "Expiration date"
+msgstr "تاریخ انقضا"
+
+#: pdfsettingswidget.cpp:152
+#, kde-format
+msgctxt "@button"
+msgid "List certificates"
+msgstr "فهرست گواهی‌ها"
+
+#: pdfsettingswidget.cpp:174
+#, kde-format
+msgid ""
+"You are using a Poppler library built without NSS support.\n"
+"Adding Digital Signatures isn't available for that reason"
+msgstr ""
+"از کتابخانهٔ Poppler بدون پشتیبانی NSS استفاده می‌کنید.\n"
+"به همین دلیل افزودن امضاهای دیجیتال دردسترس نیست"
+
+#: pdfsettingswidget.cpp:198
+#, kde-format
+msgctxt "certificate end validity"
+msgid "forever"
+msgstr "برای همیشه"
+
+#: pdfsettingswidget.cpp:222
+#, kde-format
+msgid "Restart needed"
+msgstr "نیاز به راه‌اندازی دوباره"
+
+#: pdfsettingswidget.cpp:222
+#, kde-format
+msgid "You need to restart Okular after changing the NSS directory settings"
+msgstr "پس از تغییر تنظیمات شاخهٔ NSS، باید اوکولار را دوباره راه‌اندازی کنید"
+
+#: pdfsignatureutils.cpp:275 pdfsignatureutils.cpp:315
+#, kde-format
+msgctxt ""
+"%1 is the thing to open (hardware or software token, certificate DB,...)"
+msgid "Enter password to open: %1"
+msgstr "گذرواژه را برای باز کردن وارد کنید: %1"

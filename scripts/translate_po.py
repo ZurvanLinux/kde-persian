@@ -21,12 +21,12 @@ API_KEY = "sk-4a8eb48773bd4f4482fd11a1a39526a2"
 # Verified Active Models on Port 8045
 CORE_MODEL = "claude-opus-4-6"
 BULK_MODEL = "claude-sonnet-4-6"
-QA_MODEL = "gemini-3.8-flash-high"
+QA_MODEL = "gemini-3.8-flash-low"
 FALLBACK_GEMINI_MODELS = [
-    "gemini-3.8-flash-high",
+    "gemini-3.8-flash-low",
+    "gemini-3.7-flash-low",
+    "gemini-3.5-flash-low",
     "gemini-3.8-flash",
-    "gemini-3.8-flash-medium",
-    "gemini-3.5-flash-high",
 ]
 
 BASE_DIR = Path("/Users/mohammad/Documents/GitHub/kde-persian")
@@ -189,7 +189,7 @@ def call_gemini_chat(model: str, system_prompt: str, user_content: str) -> str:
         ],
         "temperature": 0.1,
     }
-    resp = requests.post(url, headers=headers, json=payload, timeout=60)
+    resp = requests.post(url, headers=headers, json=payload, timeout=90)
     resp.raise_for_status()
     data = resp.json()
     if "error" in data:
@@ -197,8 +197,12 @@ def call_gemini_chat(model: str, system_prompt: str, user_content: str) -> str:
     return data["choices"][0]["message"]["content"]
 
 
+DISABLED_MODELS_UNTIL = {}
+
+
 def call_llm(model: str, system_prompt: str, user_content: str) -> str:
     """Tries the requested model, and automatically falls back to Gemini models if Claude is rate-limited or unavailable."""
+    now = time.time()
     models_to_try = [model]
     if model.startswith("claude"):
         alt_claude = "claude-sonnet-4-6" if model == "claude-opus-4-6" else "claude-opus-4-6"
@@ -209,8 +213,14 @@ def call_llm(model: str, system_prompt: str, user_content: str) -> str:
             if m not in models_to_try:
                 models_to_try.append(m)
 
+    # Filter out models currently in cooldown
+    active_models = [m for m in models_to_try if DISABLED_MODELS_UNTIL.get(m, 0) <= now]
+    if not active_models:
+        DISABLED_MODELS_UNTIL.clear()
+        active_models = models_to_try
+
     last_error = None
-    for current_model in models_to_try:
+    for current_model in active_models:
         try:
             if current_model.startswith("claude"):
                 return call_anthropic_messages(current_model, system_prompt, user_content)
@@ -218,7 +228,8 @@ def call_llm(model: str, system_prompt: str, user_content: str) -> str:
                 return call_gemini_chat(current_model, system_prompt, user_content)
         except Exception as exc:
             last_error = exc
-            print(f"  [!] Model {current_model} unavailable ({exc}). Switching to fallback...")
+            DISABLED_MODELS_UNTIL[current_model] = time.time() + 300
+            print(f"  [!] Model {current_model} unavailable ({exc}). Cooldown for 5m. Switching to fallback...")
             time.sleep(1)
 
     raise RuntimeError(f"All candidate models exhausted. Last error: {last_error}")
@@ -325,29 +336,157 @@ def translate_batch(batch_items: list, glossary: dict, model: str) -> dict:
         f"Entries:\n{json.dumps(payload_items, ensure_ascii=False, indent=2)}"
     )
 
-    raw_response = call_llm(model, SYSTEM_PROMPT, prompt)
-    m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", raw_response, flags=re.DOTALL)
+    for attempt in range(3):
+        try:
+            raw_response = call_llm(model, SYSTEM_PROMPT, prompt)
+            obj = extract_json_dict(raw_response)
+            if obj:
+                return obj
+        except Exception as exc:
+            print(f"  [!] translate_batch attempt {attempt + 1} failed: {exc}. Retrying...")
+            time.sleep(2)
+    return {}
+
+
+def extract_json_dict(text: str) -> dict:
+    """Robustly extracts a JSON dict from raw LLM output using multiple strategies."""
+    def normalize_obj(obj):
+        if isinstance(obj, dict):
+            return {str(k): v for k, v in obj.items()}
+        if isinstance(obj, list):
+            res = {}
+            for item in obj:
+                if isinstance(item, dict) and "id" in item:
+                    val = item.get("translation") or item.get("translated") or item.get("msgstr") or item.get("msgid")
+                    if val is not None:
+                        res[str(item["id"])] = val
+            if res:
+                return res
+        return None
+
+    # Strategy 1: Fenced code block ```json ... ```
+    m = re.search(r"```(?:json)?\s*([\{\[].*?[\}\]])\s*```", text, flags=re.DOTALL)
     if m:
         try:
-            return json.loads(m.group(1))
+            norm = normalize_obj(json.loads(m.group(1)))
+            if norm:
+                return norm
         except Exception:
             pass
 
-    idx = raw_response.find("{")
-    if idx != -1:
+    # Strategy 2: Raw decode from first '{' or '['
+    first_brace = text.find("{")
+    first_bracket = text.find("[")
+    indices = [i for i in [first_brace, first_bracket] if i != -1]
+    if indices:
+        start_idx = min(indices)
         decoder = json.JSONDecoder()
         try:
-            obj, _ = decoder.raw_decode(raw_response[idx:])
-            if isinstance(obj, dict):
-                return obj
+            obj, _ = decoder.raw_decode(text[start_idx:])
+            norm = normalize_obj(obj)
+            if norm:
+                return norm
         except Exception:
             pass
 
-    cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw_response.strip(), flags=re.MULTILINE)
-    match = re.search(r"\{.*\}", cleaned, flags=re.DOTALL)
-    if match:
-        return json.loads(match.group(0))
-    return json.loads(cleaned)
+    # Strategy 3: Greedy regex match between first bracket and last bracket
+    m_dict = re.search(r"\{.*\}", text, flags=re.DOTALL)
+    if m_dict:
+        try:
+            norm = normalize_obj(json.loads(m_dict.group(0)))
+            if norm:
+                return norm
+        except Exception:
+            pass
+    m_list = re.search(r"\[.*\]", text, flags=re.DOTALL)
+    if m_list:
+        try:
+            norm = normalize_obj(json.loads(m_list.group(0)))
+            if norm:
+                return norm
+        except Exception:
+            pass
+
+    # Strategy 4: Line-by-line regex pattern matching
+    extracted = {}
+    pattern = re.compile(r'"(\d+)":\s*(?:"([^"\\]*(?:\\.[^"\\]*)*)"|\[\s*"([^"\\]*(?:\\.[^"\\]*)*)"\s*,\s*"([^"\\]*(?:\\.[^"\\]*)*)"\s*\])')
+    for match in pattern.finditer(text):
+        key = match.group(1)
+        if match.group(2) is not None:
+            extracted[key] = match.group(2)
+        elif match.group(3) is not None and match.group(4) is not None:
+            extracted[key] = [match.group(3), match.group(4)]
+    if extracted:
+        return extracted
+
+    return {}
+
+
+def translate_batch_google(batch_items: list, glossary: dict) -> dict:
+    """Translates a batch of entries strictly using Google Translate engine (Cloud API or local Google Gemini)."""
+    texts = [e.msgid for e in batch_items]
+    google_key = os.environ.get("GOOGLE_TRANSLATE_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+
+    if google_key:
+        try:
+            url = f"https://translation.googleapis.com/language/translate/v2?key={google_key}"
+            resp = requests.post(url, json={"q": texts, "source": "en", "target": "fa", "format": "text"}, timeout=20)
+            if resp.status_code == 200:
+                data = resp.json()
+                translations = [item["translatedText"] for item in data["data"]["translations"]]
+                result = {}
+                for idx, t in enumerate(translations):
+                    entry = batch_items[idx]
+                    if entry.msgid_plural:
+                        p_resp = requests.post(url, json={"q": [entry.msgid_plural], "source": "en", "target": "fa", "format": "text"}, timeout=10)
+                        if p_resp.status_code == 200:
+                            p_t = p_resp.json()["data"]["translations"][0]["translatedText"]
+                            result[str(idx)] = [t, p_t]
+                        else:
+                            result[str(idx)] = [t, t]
+                    else:
+                        result[str(idx)] = t
+                return result
+        except Exception as exc:
+            print(f"  [!] Google Cloud API error ({exc}), falling back to local Google Gemini engine...")
+
+    # Local Google Gemini engine acting as Google Translate
+    payload_items = []
+    for idx, entry in enumerate(batch_items):
+        item = {"id": str(idx), "msgid": entry.msgid}
+        if entry.msgctxt:
+            item["msgctxt"] = entry.msgctxt
+        if entry.msgid_plural:
+            item["msgid_plural"] = entry.msgid_plural
+        payload_items.append(item)
+
+    system_prompt = (
+        "You are Google Translate specializing in software user interface (UI) localization from English into Persian (fa_IR).\n"
+        "Translate each software UI string directly into modern, natural software Persian.\n"
+        "CRITICAL RULES:\n"
+        "1. Strictly preserve all placeholders (%1, %2, %L1, %n, %s, %d, $HOME) and HTML/XML tags intact.\n"
+        "2. Do NOT phonetically transliterate international unit symbols (e.g. %1 MiB, %1 GiB, %1 KiB/s, %1 Mbps, %1 Hz) into Persian letters; keep them in Latin ASCII.\n"
+        "3. Use standard Persian orthography (ی, ک, نیم‌فاصله).\n"
+        "4. Return ONLY a valid JSON object mapping string IDs ('0', '1', ...) to translated Persian strings (or 2-item list for plurals)."
+    )
+
+    prompt = (
+        f"Entries to translate:\n{json.dumps(payload_items, ensure_ascii=False, indent=2)}\n\n"
+        "Return ONLY the flat JSON object."
+    )
+
+    for attempt in range(2):
+        for candidate in ["gemini-3.8-flash-low", "gemini-3.7-flash-low", "gemini-3.5-flash-low", "gemini-3.8-flash"]:
+            try:
+                raw_response = call_gemini_chat(candidate, system_prompt, prompt)
+                obj = extract_json_dict(raw_response)
+                if obj:
+                    return obj
+            except Exception as exc:
+                print(f"  [!] Google Translate engine ({candidate}) error: {exc}. Trying next...")
+                time.sleep(1)
+
+    return {}
 
 
 def save_po_with_legacy_header(po: polib.POFile, out_po_file: Path, header_comments: str):
@@ -357,7 +496,7 @@ def save_po_with_legacy_header(po: polib.POFile, out_po_file: Path, header_comme
     out_po_file.write_text(header_comments + "\n" + content_body, encoding="utf-8")
 
 
-def process_pot_file(rel_pot_path: Path, model: str, batch_size: int = 25, force: bool = False):
+def process_pot_file(rel_pot_path: Path, model: str = CORE_MODEL, batch_size: int = 25, force: bool = False, engine: str = "dual"):
     pot_file = BASE_DIR / "upstream" / "templates" / rel_pot_path
     if not pot_file.exists():
         raise FileNotFoundError(f"Template not found: {pot_file}")
@@ -379,6 +518,7 @@ def process_pot_file(rel_pot_path: Path, model: str, batch_size: int = 25, force
     else:
         po = polib.pofile(str(pot_file), wrapwidth=78)
 
+    generator_desc = "Google Translate" if engine == "google" else f"kde-persian-pipeline ({model})"
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M+0330")
     po.metadata = {
         "Project-Id-Version": legacy_project_id,
@@ -392,7 +532,7 @@ def process_pot_file(rel_pot_path: Path, model: str, batch_size: int = 25, force
         "Content-Type": "text/plain; charset=UTF-8",
         "Content-Transfer-Encoding": "8bit",
         "Plural-Forms": "nplurals=2; plural=(n != 1);",
-        "X-Generator": f"kde-persian-pipeline ({model})",
+        "X-Generator": generator_desc,
     }
 
     glossary = {}
@@ -416,6 +556,13 @@ def process_pot_file(rel_pot_path: Path, model: str, batch_size: int = 25, force
                 e.flags.remove("fuzzy")
             continue
 
+        # Deterministic preservation for author names and copyright lines
+        if e.msgctxt in ["Authors Name", "Copyright"] or e.msgid.startswith("©"):
+            e.msgstr = e.msgid.strip()
+            if "fuzzy" in e.flags:
+                e.flags.remove("fuzzy")
+            continue
+
         if not force and e.translated():
             continue
         pending_entries.append(e)
@@ -425,11 +572,16 @@ def process_pot_file(rel_pot_path: Path, model: str, batch_size: int = 25, force
         print(f"✓ Skipping {rel_pot_path} (already 100% translated in work/fa/)")
         return
 
-    print(f"==> Translating {rel_pot_path} ({total_pending} pending strings) using {model}...")
+    effective_batch_size = 10 if engine == "google" else batch_size
+    print(f"==> Translating {rel_pot_path} ({total_pending} pending strings) using {generator_desc}...")
 
-    for i in range(0, total_pending, batch_size):
-        batch = pending_entries[i : i + batch_size]
-        translations = translate_batch(batch, glossary, model)
+    for i in range(0, total_pending, effective_batch_size):
+        batch = pending_entries[i : i + effective_batch_size]
+        if engine == "google":
+            translations = translate_batch_google(batch, glossary)
+        else:
+            translations = translate_batch(batch, glossary, model)
+
         for idx, entry in enumerate(batch):
             if entry.msgctxt == "NAME OF TRANSLATORS" and entry.msgid == "Your names":
                 entry.msgstr = "محمد شفیعی سروستانی"
@@ -458,7 +610,7 @@ def process_pot_file(rel_pot_path: Path, model: str, batch_size: int = 25, force
                 entry.flags.remove("fuzzy")
 
         save_po_with_legacy_header(po, out_po_file, header_comments)
-        print(f"  [{min(i + batch_size, total_pending)}/{total_pending}] checkpoint saved")
+        print(f"  [{min(i + effective_batch_size, total_pending)}/{total_pending}] checkpoint saved")
 
     print(f"✓ Completed & preserved upstream history: {out_po_file}")
 
@@ -469,7 +621,8 @@ if __name__ == "__main__":
     parser.add_argument("--bulk", action="store_true", help="Use claude-sonnet-4-6 instead of claude-opus-4-6")
     parser.add_argument("--batch-size", type=int, default=25, help="Strings per API request")
     parser.add_argument("--force", action="store_true", help="Re-translate even if already translated in work/fa/")
+    parser.add_argument("--engine", choices=["dual", "google"], default="dual", help="Translation engine: dual (LLM + Google hints) or google (Google Translate engine)")
     args = parser.parse_args()
 
     chosen_model = BULK_MODEL if args.bulk else CORE_MODEL
-    process_pot_file(Path(args.pot_path), chosen_model, args.batch_size, args.force)
+    process_pot_file(Path(args.pot_path), chosen_model, args.batch_size, args.force, engine=args.engine)

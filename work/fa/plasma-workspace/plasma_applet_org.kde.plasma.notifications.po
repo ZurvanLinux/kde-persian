@@ -1,0 +1,477 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma_applet_org.kde.plasma.notifications package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.notifications\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-01 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 04:53+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: components/ActionContainer.qml:96
+#, kde-format
+msgctxt "Reply to message"
+msgid "Reply"
+msgstr "پاسخ"
+
+#: components/EditContextMenu.qml:32
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link Address"
+msgstr "رونوشت از نشانی پیوند"
+
+#: components/EditContextMenu.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "رونوشت"
+
+#: components/EditContextMenu.qml:61
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: components/HeadingButtons.qml:80
+#, kde-format
+msgctxt "Notification was added less than a minute ago, keep short"
+msgid "Just now"
+msgstr "هم‌اکنون"
+
+#: components/HeadingButtons.qml:86
+#, kde-format
+msgctxt "Notification was added minutes ago, keep short"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1 دقیقه پیش"
+msgstr[1] "%1 دقیقه پیش"
+
+#: components/HeadingButtons.qml:121
+#, kde-format
+msgctxt "seconds remaining, keep short"
+msgid "%1 s remaining"
+msgid_plural "%1 s remaining"
+msgstr[0] "%1 ثانیه باقی‌مانده"
+msgstr[1] "%1 ثانیه باقی‌مانده"
+
+#: components/HeadingButtons.qml:125
+#, kde-format
+msgctxt "minutes remaining, keep short"
+msgid "%1 min remaining"
+msgid_plural "%1 min remaining"
+msgstr[0] "%1 دقیقه باقی‌مانده"
+msgstr[1] "%1 دقیقه باقی‌مانده"
+
+#: components/HeadingButtons.qml:130
+#, kde-format
+msgctxt "hours remaining, keep short"
+msgid "%1 h remaining"
+msgid_plural "%1 h remaining"
+msgstr[0] "%1 ساعت باقی‌مانده"
+msgstr[1] "%1 ساعت باقی‌مانده"
+
+#: components/HeadingButtons.qml:150
+#, kde-format
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: components/HeadingButtons.qml:167
+#, kde-format
+msgctxt "Opposite of minimize"
+msgid "Restore"
+msgstr "بازگردانی"
+
+#: components/HeadingButtons.qml:168
+#, kde-format
+msgid "Minimize"
+msgstr "کمینه کردن"
+
+#: components/HeadingButtons.qml:191
+#, kde-format
+msgid "Close"
+msgstr "بستن"
+
+#: components/JobDetails.qml:52
+#, kde-format
+msgctxt "Row description, e.g. Source"
+msgid "%1:"
+msgstr "%1:"
+
+#: components/JobDetails.qml:133
+#, kde-format
+msgctxt "How many bytes have been copied"
+msgid "%2 of %1"
+msgstr "%2 از %1"
+
+#: components/JobDetails.qml:137
+#, kde-format
+msgctxt "How many files have been copied"
+msgid "%3 of %2 file"
+msgid_plural "%3 of %2 files"
+msgstr[0] "%3 از %2 پرونده"
+msgstr[1] "%3 از %2 پرونده"
+
+#: components/JobDetails.qml:140
+#, kde-format
+msgctxt "How many dirs have been copied"
+msgid "%3 of %2 folder"
+msgid_plural "%3 of %2 folders"
+msgstr[0] "%3 از %2 پوشه"
+msgstr[1] "%3 از %2 پوشه"
+
+#: components/JobDetails.qml:143
+#, kde-format
+msgctxt "How many items (that includes files and dirs) have been copied"
+msgid "%3 of %2 item"
+msgid_plural "%3 of %2 items"
+msgstr[0] "%3 از %2 مورد"
+msgstr[1] "%3 از %2 مورد"
+
+#: components/JobDetails.qml:152
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 پرونده"
+msgstr[1] "%1 پرونده"
+
+#: components/JobDetails.qml:154
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 پوشه"
+msgstr[1] "%1 پوشه"
+
+#: components/JobDetails.qml:156
+#, kde-format
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 مورد"
+msgstr[1] "%1 مورد"
+
+#: components/JobDetails.qml:173 components/SpeedChart.qml:91
+#: components/SpeedChart.qml:119 components/SpeedChart.qml:245
+#: components/SpeedChart.qml:262
+#, kde-format
+msgctxt "Bytes per second"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: components/JobItem.qml:57
+#, kde-format
+msgctxt "Hides/expands item details"
+msgid "Details"
+msgstr "جزئیات"
+
+#: components/JobItem.qml:78
+#, kde-format
+msgctxt "Resume paused job"
+msgid "Resume"
+msgstr "ادامه"
+
+#: components/JobItem.qml:79
+#, kde-format
+msgctxt "Pause running job"
+msgid "Pause"
+msgstr "مکث"
+
+#: components/JobItem.qml:93
+#, kde-format
+msgctxt "Cancel running job"
+msgid "Cancel"
+msgstr "لغو"
+
+#: components/JobItem.qml:126 components/ThumbnailStrip.qml:154
+#, kde-format
+msgid "More Options…"
+msgstr "گزینه‌های بیشتر…"
+
+#: components/JobItem.qml:154
+#, kde-format
+msgid "Open"
+msgstr "باز کردن"
+
+#: components/JobItem.qml:161 filemenu.cpp:117
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "باز کردن پوشهٔ حاوی"
+
+#: components/NotificationReplyField.qml:39
+#, kde-format
+msgctxt "Text field placeholder"
+msgid "Type a reply…"
+msgstr "نوشتن پاسخ…"
+
+#: components/NotificationReplyField.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Send"
+msgstr "ارسال"
+
+#: components/SpeedChart.qml:195
+#, kde-format
+msgid "Speed"
+msgstr "سرعت"
+
+#: components/SpeedChart.qml:257
+#, kde-format
+msgid "Average Speed"
+msgstr "میانگین سرعت"
+
+#: components/SpeedChart.qml:300
+#, kde-format
+msgctxt "Percentage of a job"
+msgid "%1%"
+msgstr "%1٪"
+
+#: components/Summary.qml:36
+#, kde-format
+msgctxt "Job name, e.g. Copying is paused"
+msgid "%1 (Paused)"
+msgstr "%1 (مکث)"
+
+#: components/Summary.qml:41
+#, kde-format
+msgctxt "Job name, e.g. Copying has failed"
+msgid "%1 (Failed)"
+msgstr "%1 (ناموفق)"
+
+#: components/Summary.qml:43
+#, kde-format
+msgid "Job Failed"
+msgstr "کار ناموفق بود"
+
+#: components/Summary.qml:47
+#, kde-format
+msgctxt "Job name, e.g. Copying has finished"
+msgid "%1 (Finished)"
+msgstr "%1 (پایان یافت)"
+
+#: components/Summary.qml:49
+#, kde-format
+msgid "Job Finished"
+msgstr "کار به پایان رسید"
+
+#: fileinfo.cpp:186
+#, kde-format
+msgid "Open with %1"
+msgstr "باز کردن با %1"
+
+#: fileinfo.cpp:190
+#, kde-format
+msgid "Open with…"
+msgstr "باز کردن با…"
+
+#: filemenu.cpp:131
+#, kde-format
+msgid "&Copy"
+msgstr "رونوشت"
+
+#: filemenu.cpp:140
+#, kde-format
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "رونوشت از مکان"
+
+#: filemenu.cpp:198
+#, kde-format
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+#: FullRepresentation.qml:81
+#, kde-format
+msgid "Do not disturb"
+msgstr "مزاحم نشوید"
+
+#: FullRepresentation.qml:131
+#, kde-format
+msgid "For 1 hour"
+msgstr "برای ۱ ساعت"
+
+#: FullRepresentation.qml:136
+#, kde-format
+msgid "For 4 hours"
+msgstr "برای ۴ ساعت"
+
+#: FullRepresentation.qml:145
+#, kde-format
+msgid "Until this evening"
+msgstr "تا عصر امروز"
+
+#: FullRepresentation.qml:155
+#, kde-format
+msgid "Until tomorrow morning"
+msgstr "تا صبح فردا"
+
+#: FullRepresentation.qml:167
+#, kde-format
+msgid "Until Monday"
+msgstr "تا دوشنبه"
+
+#: FullRepresentation.qml:174
+#, kde-format
+msgid "Until manually disabled"
+msgstr "تا زمان غیرفعال‌سازی دستی"
+
+#: FullRepresentation.qml:226
+#, kde-format
+msgctxt "Do not disturb until date"
+msgid "Automatically ends: %1"
+msgstr "پایان خودکار: %1"
+
+#: FullRepresentation.qml:238
+#, kde-format
+msgctxt "Do not disturb until app has finished (reason)"
+msgid "While %1 is active (%2)"
+msgstr "در حالی که %1 فعال است (%2)"
+
+#: FullRepresentation.qml:240
+#, kde-format
+msgctxt "Do not disturb until app has finished"
+msgid "While %1 is active"
+msgstr "در حالی که %1 فعال است"
+
+#: FullRepresentation.qml:246
+#, kde-format
+msgctxt "Do not disturb because external mirrored screens connected"
+msgid "Screens are mirrored"
+msgstr "صفحه‌نمایش‌ها آینه‌ای هستند"
+
+#: FullRepresentation.qml:250
+#, kde-format
+msgctxt "Do not disturb because fullscreen app is focused"
+msgid "Fullscreen app is focused"
+msgstr "تمرکز روی برنامهٔ تمام‌صفحه است"
+
+#: FullRepresentation.qml:510 FullRepresentation.qml:516
+#, kde-format
+msgctxt "@action:button"
+msgid "View"
+msgstr "مشاهده"
+
+#: FullRepresentation.qml:597
+#, kde-format
+msgid "Close Group"
+msgstr "بستن گروه"
+
+#: FullRepresentation.qml:619
+#, kde-format
+msgid "Show Fewer"
+msgstr "نمایش کمتر"
+
+#: FullRepresentation.qml:621
+#, kde-format
+msgctxt "Expand to show n more notifications"
+msgid "Show %1 More"
+msgstr "نمایش %1 مورد دیگر"
+
+#: FullRepresentation.qml:650 main.qml:108
+#, kde-format
+msgid "No unread notifications"
+msgstr "هیچ اعلان خوانده‌نشده‌ای وجود ندارد"
+
+#: FullRepresentation.qml:665 main.qml:77
+#, kde-format
+msgid "Notification service not available"
+msgstr "سرویس اعلان در دسترس نیست"
+
+#: FullRepresentation.qml:667
+#, kde-format
+msgctxt "Vendor and product name"
+msgid "Notifications are currently provided by '%1 %2'"
+msgstr "اعلان‌ها در حال حاضر توسط «%1 %2» ارائه می‌شوند"
+
+#: globalshortcuts.cpp:24
+#, kde-format
+msgid "Toggle do not disturb"
+msgstr "تغییر وضعیت «مزاحم نشوید»"
+
+#: globalshortcuts.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Clear Notification History"
+msgstr "پاک‌سازی تاریخچهٔ اعلان‌ها"
+
+#: globalshortcuts.cpp:52
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications Off"
+msgstr "اعلان‌ها خاموش"
+
+#: globalshortcuts.cpp:53
+#, kde-format
+msgctxt "OSD popup, keep short"
+msgid "Notifications On"
+msgstr "اعلان‌ها روشن"
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgctxt "@label OSD popup, keep short"
+msgid "Notification history cleared"
+msgstr "تاریخچهٔ اعلان‌ها پاک شد"
+
+#: main.qml:61
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 کار در حال اجرا"
+msgstr[1] "%1 کار در حال اجرا"
+
+#: main.qml:65
+#, kde-format
+msgctxt "Job title (percentage)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2٪)"
+
+#: main.qml:70
+#, kde-format
+msgid "%1 running job (%2%)"
+msgid_plural "%1 running jobs (%2%)"
+msgstr[0] "%1 کار در حال اجرا (%2٪)"
+msgstr[1] "%1 کار در حال اجرا (%2٪)"
+
+#: main.qml:83
+#, kde-format
+msgid "%1 unread notification"
+msgid_plural "%1 unread notifications"
+msgstr[0] "%1 اعلان خوانده‌نشده"
+msgstr[1] "%1 اعلان خوانده‌نشده"
+
+#: main.qml:88
+#, kde-format
+msgid "%1 active notification"
+msgid_plural "%1 active notifications"
+msgstr[0] "%1 اعلان فعال"
+msgstr[1] "%1 اعلان فعال"
+
+#: main.qml:101
+#, kde-format
+msgid "Do not disturb until %1; middle-click to exit now"
+msgstr "حالت مزاحم نشوید تا %1؛ برای خروج، اکنون کلیک وسط کنید"
+
+#: main.qml:104
+#, kde-format
+msgid "Do not disturb mode active; middle-click to exit"
+msgstr "حالت مزاحم نشوید فعال است؛ برای خروج کلیک وسط کنید"
+
+#: main.qml:110
+#, kde-format
+msgid "Middle-click to enter do not disturb mode"
+msgstr "کلیک میانی برای ورود به حالت «مزاحم نشوید»"
+
+#: main.qml:245
+#, kde-format
+msgid "Clear All Notifications"
+msgstr "پاک کردن همهٔ اعلان‌ها"
+
+#: main.qml:264
+#, kde-format
+msgid "&Configure Event Notifications and Actions…"
+msgstr "پیکربندی اعلان‌های رویداد و کنش‌ها…"

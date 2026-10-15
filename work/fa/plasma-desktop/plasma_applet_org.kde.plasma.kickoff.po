@@ -1,0 +1,406 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma_applet_org.kde.plasma.kickoff package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.kickoff\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-10 00:48+0000\n"
+"PO-Revision-Date: 2026-10-15 06:52+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: code/tools.js:32
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "حذف از علاقه‌مندی‌ها"
+
+#: code/tools.js:36
+#, kde-format
+msgid "Add to Favorites"
+msgstr "افزودن به علاقه‌مندی‌ها"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr "در همهٔ فعالیت‌ها"
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr "در فعالیت کنونی"
+
+#: code/tools.js:124
+#, kde-format
+msgid "Show in Favorites"
+msgstr "نمایش در علاقه‌مندی‌ها"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "عمومی"
+
+#: ConfigGeneral.qml:47
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "شمایل:"
+
+#: ConfigGeneral.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "تغییر شمایل اجراکنندهٔ برنامه"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+"شمایل کنونی %1 است. برای باز کردن منو جهت تغییر شمایل کنونی یا بازنشانی به "
+"شمایل پیش‌فرض کلیک کنید."
+
+#: ConfigGeneral.qml:58
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr "نام شمایل «%1» است"
+
+#: ConfigGeneral.qml:93
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "انتخاب…"
+
+#: ConfigGeneral.qml:95
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "انتخاب شمایل برای اجراکنندهٔ برنامه"
+
+#: ConfigGeneral.qml:99
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "بازنشانی به شمایل پیش‌فرض"
+
+#: ConfigGeneral.qml:105
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "حذف شمایل"
+
+#: ConfigGeneral.qml:116
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr "برچسب متنی:"
+
+#: ConfigGeneral.qml:118
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr "برای افزودن برچسب متنی، اینجا بنویسید"
+
+#: ConfigGeneral.qml:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr "بازنشانی برچسب منو"
+
+#: ConfigGeneral.qml:145
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr "هنگامی که تابلو عمودی است، نمی‌توان برچسب متنی تنظیم کرد."
+
+#: ConfigGeneral.qml:157
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "نمایش برنامه‌ها به‌صورت:"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "فقط نام"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "فقط توضیحات"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "نام (توضیحات)"
+
+#: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "توضیحات (نام)"
+
+#: ConfigGeneral.qml:167
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr "عمومی:"
+
+#: ConfigGeneral.qml:171
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "مرتب‌سازی الفبایی برنامه‌ها"
+
+#: ConfigGeneral.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+"این بر نحوهٔ مرتب‌سازی برنامه‌ها در نتایج جست‌وجو یا صفحهٔ علاقه‌مندی‌ها "
+"تأثیری ندارد."
+
+#: ConfigGeneral.qml:181
+#, kde-format
+msgctxt "@option:check"
+msgid "Use compact list item style"
+msgstr "استفاده از سبک فشردهٔ موارد فهرست"
+
+#: ConfigGeneral.qml:187
+#, kde-format
+msgctxt "@option:check"
+msgid "Highlight newly-installed applications"
+msgstr "برجسته کردن برنامه‌های تازه‌نصب‌شده"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Switch sidebar categories when hovering over them"
+msgstr "تغییر دسته‌بندی‌های نوار کناری هنگام نگه‌داشتن نشانگر روی آن‌ها"
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "پیکربندی افزونه‌های جست‌وجو…"
+
+#: ConfigGeneral.qml:208
+#, kde-format
+msgctxt "@label:group prefix for radio button group"
+msgid "Sidebar position:"
+msgstr "موقعیت نوار کناری:"
+
+#: ConfigGeneral.qml:209 ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Right"
+msgstr "راست"
+
+#: ConfigGeneral.qml:209
+#, kde-format
+msgctxt "option:radio sidebar position"
+msgid "Left"
+msgstr "چپ"
+
+#: ConfigGeneral.qml:217
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Left"
+msgstr "چپ"
+
+#: ConfigGeneral.qml:225
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show favorites:"
+msgstr "نمایش علاقه‌مندی‌ها:"
+
+#: ConfigGeneral.qml:226
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "به‌صورت شبکه‌ای"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "به‌صورت فهرستی"
+
+#: ConfigGeneral.qml:242
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show other applications:"
+msgstr "نمایش سایر برنامه‌ها:"
+
+#: ConfigGeneral.qml:243
+#, kde-format
+msgctxt ""
+"@option:radio Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "به‌صورت شبکه‌ای"
+
+#: ConfigGeneral.qml:251
+#, kde-format
+msgctxt ""
+"@option:radio Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "به‌صورت فهرستی"
+
+#: ConfigGeneral.qml:263
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show buttons for:"
+msgstr "نمایش دکمه‌ها برای:"
+
+#: ConfigGeneral.qml:264
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power"
+msgstr "خاموش کردن"
+
+#: ConfigGeneral.qml:273
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Session"
+msgstr "نشست"
+
+#: ConfigGeneral.qml:282
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power and session"
+msgstr "خاموش کردن و نشست"
+
+#: ConfigGeneral.qml:291
+#, kde-format
+msgctxt "@option:check"
+msgid "Show action button captions"
+msgstr "نمایش عنوان دکمه‌های کنش"
+
+#: Footer.qml:101
+#, kde-format
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Applications"
+msgstr "برنامه‌ها"
+
+#: Footer.qml:117
+#, kde-format
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Places"
+msgstr "جاها"
+
+#: FullRepresentation.qml:143
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "هیچ هم‌خوانی‌ای یافت نشد"
+
+#: Header.qml:86
+#, kde-format
+msgctxt "@action:button icon-only, for tooltip/Accessible"
+msgid "Open user settings"
+msgstr "باز کردن تنظیمات کاربر"
+
+#: Header.qml:276
+#, kde-format
+msgctxt ""
+"@action:button Pin widget open if it loses focus, icon-only button, for "
+"tooltip/Accessible"
+msgid "Keep Open"
+msgstr "باز نگه‌داشتن"
+
+#: KickoffGridDelegate.qml:59
+#, kde-format
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "جدید!"
+
+#: KickoffGridDelegate.qml:61
+#, kde-format
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "برنامهٔ تازه‌نصب‌شده"
+
+#: KickoffGridView.qml:116
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid "Grid with %1 rows, %2 columns"
+msgstr "شبکه با %1 سطر، %2 ستون"
+
+#: KickoffListDelegate.qml:120
+#, kde-format
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "جدید!"
+
+#: KickoffListDelegate.qml:125
+#, kde-format
+msgid "There is a newly-installed application in this category"
+msgstr "یک برنامهٔ تازه‌نصب‌شده در این دسته‌بندی وجود دارد"
+
+#: KickoffListDelegate.qml:126
+#, kde-format
+msgid "Newly-installed application"
+msgstr "برنامهٔ تازه‌نصب‌شده"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Session"
+msgstr "نشست"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Power"
+msgstr "روشن/خاموش"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "More"
+msgstr "بیشتر"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Session and Power"
+msgstr "نشست و روشن/خاموش"
+
+#: main.qml:358
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "ویرایش برنامه‌ها…"
+
+#: PlacesPage.qml:61
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "رایانه"
+
+#: PlacesPage.qml:62
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "تاریخچه"
+
+#: PlacesPage.qml:63
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "پرکاربرد"

@@ -1,0 +1,335 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-nm._json_ package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-nm._json_\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-16 00:55+0000\n"
+"PO-Revision-Date: 2026-10-15 07:30+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: applet/metadata.json
+msgctxt "X-KDE-Keywords"
+msgid "network,internet,ethernet,wireless,wifi,wlan,vpn"
+msgstr "شبکه;اینترنت;اترنت;بی‌سیم;وای‌فای;wlan;وی‌پی‌ان;"
+
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
+msgctxt "X-KDE-Keywords"
+msgid "mobile,data,network"
+msgstr "همراه;تلفن همراه;داده;شبکه;اینترنت همراه;"
+
+#: kcms/kcm_connections/kcm_networkmanagement.json
+#: kcms/kcm_connections_qml/kcm_networkmanagement_qml.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"networks,wifi,wi-"
+"fi,ethernet,mobile,cdma,gsm,lte,wimax,apn,carrier,2g,3g,4g,5g,5ge,broadband,internet,traffic,connections,websites,web,DSL,infiniband,wired,wireless,bssid,ipv4,ipv6,mac"
+" address,ip,access point,dns,gateway,wep,leap,wpa,wpa2,wpa3,dhcp,shared "
+"network,private network,public "
+"network,vpn,openvpn,wireguard,fortinet,juniper,l2tp,pptp,sstp,ssh,iodine,ipsec,anyconnect,openconnect"
+msgstr ""
+"شبکه‌ها;وای‌فای;wi-"
+"fi;wifi;اترنت;همراه;موبایل;cdma;gsm;lte;wimax;apn;اپراتور;2g;3g;4g;5g;5ge;پهن‌باند;اینترنت;ترافیک;اتصالات;وبگاه‌ها;وب;DSL;infiniband;باسیم;بی‌سیم;bssid;ipv4;ipv6;نشانی"
+" مک;ip;نقطهٔ دسترسی;dns;دروازه;گیت‌وی;wep;leap;wpa;wpa2;wpa3;dhcp;شبکهٔ "
+"اشتراکی;شبکهٔ خصوصی;شبکهٔ "
+"عمومی;وی‌پی‌ان;vpn;openvpn;wireguard;fortinet;juniper;l2tp;pptp;sstp;ssh;iodine;ipsec;anyconnect;openconnect;"
+
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
+msgctxt "X-KDE-Keywords"
+msgid "wifi,network"
+msgstr "وای‌فای;شبکه;"
+
+#: kcms/kcm_wired_mobile/kcm_mobile_wired.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"wired,network,ethernet,cat5,cat6,IP,address,DHCP,connection,cable,networking"
+msgstr "باسیم;شبکه;اترنت;cat5;cat6;IP;نشانی;DHCP;اتصال;کابل;شبکه‌سازی;"
+
+#: applet/metadata.json
+msgctxt "Name"
+msgid "Networks"
+msgstr "شبکه‌ها"
+
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
+msgctxt "Name"
+msgid "Cellular Network"
+msgstr "شبکهٔ تلفن همراه"
+
+#: kcms/kcm_connections/kcm_networkmanagement.json
+#: kcms/kcm_connections_qml/kcm_networkmanagement_qml.json
+msgctxt "Name"
+msgid "Wi-Fi & Networking"
+msgstr "وای‌فای و شبکه"
+
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
+msgctxt "Name"
+msgid "Hotspot"
+msgstr "نقطهٔ اتصال"
+
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
+msgctxt "Name"
+msgid "Wi-Fi"
+msgstr "وای‌فای"
+
+#: kcms/kcm_wired_mobile/kcm_mobile_wired.json
+msgctxt "Name"
+msgid "Wired Network"
+msgstr "شبکهٔ باسیم"
+
+#: kded/networkmanagement.json
+msgctxt "Name"
+msgid "Plasma Network Management module"
+msgstr "پودمان مدیریت شبکهٔ پلاسما"
+
+#: vpn/fortisslvpn/plasmanetworkmanagement_fortisslvpnui.json
+msgctxt "Name"
+msgid "Fortinet SSLVPN (fortisslvpn)"
+msgstr "وی‌پی‌ان SSL فورتی‌نت (fortisslvpn)"
+
+#: vpn/iodine/plasmanetworkmanagement_iodineui.json
+msgctxt "Name"
+msgid "Iodine DNS tunnel (iodine)"
+msgstr "تونل DNS آیودین (iodine)"
+
+#: vpn/l2tp/plasmanetworkmanagement_l2tpui.json
+msgctxt "Name"
+msgid "Layer 2 Tunneling Protocol (L2TP)"
+msgstr "پروتکل تونل‌زنی لایهٔ ۲ (L2TP)"
+
+#: vpn/libreswan/plasmanetworkmanagement_libreswanui.json
+msgctxt "Name"
+msgid "IPsec based VPN (libreswan)"
+msgstr "وی‌پی‌ان بر پایهٔ IPsec‏ (libreswan)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_anyconnect.json
+msgctxt "Name"
+msgid "Cisco AnyConnect Compatible VPN (openconnect)"
+msgstr "وی‌پی‌ان سازگار با Cisco AnyConnect‏ (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_arrayui.json
+msgctxt "Name"
+msgid "Array Networks Compatible VPN (openconnect)"
+msgstr "وی‌پی‌ان سازگار با Array Networks‏ (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_f5ui.json
+msgctxt "Name"
+msgid "F5 BIG-IP Compatible VPN (openconnect)"
+msgstr "وی‌پی‌ان سازگار با F5 BIG-IP‏ (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_fortinetui.json
+msgctxt "Name"
+msgid "Fortinet Compatible VPN (openconnect)"
+msgstr "وی‌پی‌ان سازگار با Fortinet‏ (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_globalprotectui.json
+msgctxt "Name"
+msgid "PAN Global Protect (openconnect)"
+msgstr "‏PAN Global Protect‏ (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_juniperui.json
+msgctxt "Name"
+msgid "Juniper SSL VPN (openconnect)"
+msgstr "وی‌پی‌ان SSL جونیپر (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_pulseui.json
+msgctxt "Name"
+msgid "Pulse Connect Secure (openconnect)"
+msgstr "‏Pulse Connect Secure‏ (openconnect)"
+
+#: vpn/openvpn/plasmanetworkmanagement_openvpnui.json
+msgctxt "Name"
+msgid "OpenVPN"
+msgstr "OpenVPN"
+
+#: vpn/pptp/plasmanetworkmanagement_pptpui.json
+msgctxt "Name"
+msgid "Point-to-Point Tunneling Protocol (PPTP)"
+msgstr "پروتکل تونل‌زنی نقطه‌به‌نقطه (PPTP)"
+
+#: vpn/ssh/plasmanetworkmanagement_sshui.json
+msgctxt "Name"
+msgid "SSH"
+msgstr "SSH"
+
+#: vpn/sstp/plasmanetworkmanagement_sstpui.json
+msgctxt "Name"
+msgid "Secure Socket Tunneling Protocol (SSTP)"
+msgstr "پروتکل تونل‌سازی سوکت امن (SSTP)"
+
+#: vpn/strongswan/plasmanetworkmanagement_strongswanui.json
+msgctxt "Name"
+msgid "IPsec based VPN (strongswan)"
+msgstr "VPN مبتنی بر IPsec (strongswan)"
+
+#: vpn/vpnc/plasmanetworkmanagement_vpncui.json
+msgctxt "Name"
+msgid "Cisco Compatible VPN (vpnc)"
+msgstr "VPN سازگار با سیسکو (vpnc)"
+
+#: applet/metadata.json
+msgctxt "Description"
+msgid "Network status and control"
+msgstr "وضعیت و کنترل شبکه"
+
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
+msgctxt "Description"
+msgid "Management of cellular networks"
+msgstr "مدیریت شبکه‌های سلولی"
+
+#: kcms/kcm_connections/kcm_networkmanagement.json
+#: kcms/kcm_connections_qml/kcm_networkmanagement_qml.json
+msgctxt "Description"
+msgid "Edit network connections"
+msgstr "ویرایش اتصال‌های شبکه"
+
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
+msgctxt "Description"
+msgid "Wi-Fi Hotspot"
+msgstr "نقطهٔ اتصال وای‌فای"
+
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
+msgctxt "Description"
+msgid "Wireless network setting"
+msgstr "تنظیم شبکهٔ بی‌سیم"
+
+#: kcms/kcm_wired_mobile/kcm_mobile_wired.json
+msgctxt "Description"
+msgid "Wired network settings"
+msgstr "تنظیمات شبکهٔ سیمی"
+
+#: kded/networkmanagement.json
+msgctxt "Description"
+msgid "Provides secrets to the NetworkManager daemon"
+msgstr "ارائهٔ اطلاعات محرمانه به دیمون NetworkManager"
+
+#: vpn/fortisslvpn/plasmanetworkmanagement_fortisslvpnui.json
+msgctxt "Description"
+msgid "Fortinet SSLVPN virtual private networks"
+msgstr "شبکه‌های خصوصی مجازی Fortinet SSLVPN"
+
+#: vpn/iodine/plasmanetworkmanagement_iodineui.json
+msgctxt "Description"
+msgid "Tunnel connections via DNS"
+msgstr "تونل‌سازی اتصال‌ها از طریق DNS"
+
+#: vpn/l2tp/plasmanetworkmanagement_l2tpui.json
+msgctxt "Description"
+msgid "Compatible with L2TP VPN servers"
+msgstr "سازگار با سرورهای L2TP VPN"
+
+#: vpn/libreswan/plasmanetworkmanagement_libreswanui.json
+#: vpn/strongswan/plasmanetworkmanagement_strongswanui.json
+msgctxt "Description"
+msgid "IPsec, IKEv1, IKEv2 based VPN"
+msgstr "VPN مبتنی بر IPsec، IKEv1 و IKEv2"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_anyconnect.json
+msgctxt "Description"
+msgid "Compatible with Cisco AnyConnect SSL VPN"
+msgstr "سازگار با Cisco AnyConnect SSL VPN"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_arrayui.json
+msgctxt "Description"
+msgid "Compatible with Array Networks SSL VPN"
+msgstr "سازگار با Array Networks SSL VPN"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_f5ui.json
+msgctxt "Description"
+msgid "Compatible with F5 BIG-IP SSL VPN"
+msgstr "سازگار با F5 BIG-IP SSL VPN"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_fortinetui.json
+msgctxt "Description"
+msgid "Compatible with Fortinet VPN"
+msgstr "سازگار با Fortinet VPN"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_globalprotectui.json
+msgctxt "Description"
+msgid "Compatible with PAN GlobalProtect SSL VPN"
+msgstr "سازگار با PAN GlobalProtect SSL VPN"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_juniperui.json
+msgctxt "Description"
+msgid "Compatible with Juniper Network Connect"
+msgstr "سازگار با Juniper Network Connect"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_pulseui.json
+msgctxt "Description"
+msgid "Compatible with Pulse Connect Secure SSL VPN"
+msgstr "سازگار با Pulse Connect Secure SSL VPN"
+
+#: vpn/openvpn/plasmanetworkmanagement_openvpnui.json
+msgctxt "Description"
+msgid "Compatible with the OpenVPN server"
+msgstr "سازگار با سرور OpenVPN"
+
+#: vpn/pptp/plasmanetworkmanagement_pptpui.json
+msgctxt "Description"
+msgid "Compatible with Microsoft and other PPTP VPN servers"
+msgstr "سازگار با سرورهای PPTP VPN مایکروسافت و سایر سرورها"
+
+#: vpn/ssh/plasmanetworkmanagement_sshui.json
+msgctxt "Description"
+msgid "Compatible with the SSH server"
+msgstr "سازگار با سرور SSH"
+
+#: vpn/sstp/plasmanetworkmanagement_sstpui.json
+msgctxt "Description"
+msgid "Compatible with Microsoft and other SSTP VPN servers"
+msgstr "سازگار با مایکروسافت و دیگر سرورهای وی‌پی‌ان SSTP"
+
+#: vpn/vpnc/plasmanetworkmanagement_vpncui.json
+msgctxt "Description"
+msgid ""
+"Compatible with various Cisco, Juniper, Netscreen and Sonicwall IPsec-based "
+"VPN gateways"
+msgstr ""
+"سازگار با دروازه‌های گوناگون وی‌پی‌ان مبتنی بر IPsec سیسکو، جونیپر، "
+"نت‌اسکرین و سونیک‌وال"
+
+#: applet/metadata.json
+msgctxt "Authors Name"
+msgid "Jan Grulich,Lukáš Tinkl"
+msgstr "یان گرولیچ، لوکاش تینکل"
+
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
+msgctxt "Authors Name"
+msgid "Tobias Fella"
+msgstr "توبیاس فلا"
+
+#: vpn/fortisslvpn/plasmanetworkmanagement_fortisslvpnui.json
+#: vpn/iodine/plasmanetworkmanagement_iodineui.json
+#: vpn/l2tp/plasmanetworkmanagement_l2tpui.json
+#: vpn/libreswan/plasmanetworkmanagement_libreswanui.json
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_globalprotectui.json
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_juniperui.json
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_pulseui.json
+#: vpn/ssh/plasmanetworkmanagement_sshui.json
+#: vpn/sstp/plasmanetworkmanagement_sstpui.json
+msgctxt "Authors Name"
+msgid "Jan Grulich"
+msgstr "یان گرولیچ"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_anyconnect.json
+#: vpn/openvpn/plasmanetworkmanagement_openvpnui.json
+#: vpn/pptp/plasmanetworkmanagement_pptpui.json
+#: vpn/strongswan/plasmanetworkmanagement_strongswanui.json
+#: vpn/vpnc/plasmanetworkmanagement_vpncui.json
+msgctxt "Authors Name"
+msgid "Lukáš Tinkl"
+msgstr "لوکاش تینکل"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_arrayui.json
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_f5ui.json
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_fortinetui.json
+msgctxt "Authors Name"
+msgid "KDE plasma"
+msgstr "پلاسمای KDE"

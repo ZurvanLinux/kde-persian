@@ -1,0 +1,224 @@
+# translation of systemsettings.po to Persian
+# Saied Taghavi <s.taghavi@gmail.com>, 2008.
+# Mohamad Reza Mirdamadi <mohi@linuxshop.ir>, 2010, 2011.
+# Mohi Mirdamadi <mohi@ubuntu.ir>, 2015.
+# SPDX-FileCopyrightText: 2025 Sohrab Behdani <behdanisohrab@proton.me>
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: systemsettings\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-21 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 01:06+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: app/ExternalAppModule.cpp:26
+#, kde-format
+msgid "%1 is an external application and has been automatically launched"
+msgstr "%1 یک برنامهٔ خارجی است و به‌طور خودکار راه‌اندازی شده است"
+
+#: app/ExternalAppModule.cpp:27
+#, kde-format
+msgid "Relaunch %1"
+msgstr "راه‌اندازی مجدد %1"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
+#: app/externalModule.ui:14
+#, kde-format
+msgid "Dialog"
+msgstr "کادر محاوره"
+
+#: app/main.cpp:61 app/SettingsBase.cpp:54
+#, kde-format
+msgid "Info Center"
+msgstr "مرکز اطلاعات"
+
+#: app/main.cpp:63
+#, kde-format
+msgid "Centralized and convenient overview of system information."
+msgstr "نمای کلی متمرکز و راحت از اطلاعات سامانه."
+
+#: app/main.cpp:65 app/main.cpp:76
+#, kde-format
+msgid "(c) 2009, Ben Cooksley"
+msgstr "(c) ۲۰۰۹، بن کوکسلی"
+
+#: app/main.cpp:72 app/qml/IntroPage.qml:51 app/SettingsBase.cpp:57
+#: runner/systemsettingsrunner.cpp:124
+#, kde-format
+msgid "System Settings"
+msgstr "تنظیمات سامانه"
+
+#: app/main.cpp:74
+#, kde-format
+msgid "Central configuration center by KDE."
+msgstr "مرکز پیکربندی متمرکز KDE."
+
+#: app/main.cpp:87
+#, kde-format
+msgid "Ben Cooksley"
+msgstr "بن کوکسلی"
+
+#: app/main.cpp:87
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: app/main.cpp:88
+#, kde-format
+msgid "Marco Martin"
+msgstr "مارکو مارتین"
+
+#: app/main.cpp:88
+#, kde-format
+msgid "Author"
+msgstr "پدیدآورنده"
+
+#: app/main.cpp:89
+#, kde-format
+msgid "Mathias Soeken"
+msgstr "ماتیاس سوکن"
+
+#: app/main.cpp:89
+#, kde-format
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: app/main.cpp:90
+#, kde-format
+msgid "Will Stephenson"
+msgstr "ویل استفنسون"
+
+#: app/main.cpp:90
+#, kde-format
+msgid "Internal module representation, internal module model"
+msgstr "نمایش داخلی ماژول، مدل داخلی ماژول"
+
+#: app/main.cpp:98
+#, kde-format
+msgid "List all possible modules"
+msgstr "فهرست کردن همهٔ ماژول‌های ممکن"
+
+#: app/main.cpp:99 app/main.cpp:160
+#, kde-format
+msgid "Configuration module to open"
+msgstr "ماژول پیکربندی برای باز کردن"
+
+#: app/main.cpp:100 app/main.cpp:161
+#, kde-format
+msgid "Arguments for the module"
+msgstr "آرگومان‌های ماژول"
+
+#: app/main.cpp:108
+#, kde-format
+msgid "The following modules are available:"
+msgstr "ماژول‌های زیر در دسترس هستند:"
+
+#: app/main.cpp:126
+#, kde-format
+msgid "No description available"
+msgstr "توضیحی در دسترس نیست"
+
+#: app/ModuleView.cpp:186
+#, kde-format
+msgid "Reset all current changes to previous values"
+msgstr "بازنشانی همهٔ تغییرات کنونی به مقادیر پیشین"
+
+#: app/ModuleView.cpp:279
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Scrollable area"
+msgstr "ناحیهٔ قابل پیمایش"
+
+#: app/ModuleView.cpp:373
+#, kde-format
+msgid ""
+"The current page has unsaved changes.\n"
+"Apply the changes or discard them?"
+msgstr ""
+"صفحهٔ کنونی تغییرات ذخیره‌نشده دارد.\n"
+"تغییرات اعمال شوند یا نادیده گرفته شوند؟"
+
+#: app/ModuleView.cpp:378
+#, kde-format
+msgid "Apply Settings"
+msgstr "اعمال تنظیمات"
+
+#: app/qml/CategoriesPage.qml:106
+#, kde-format
+msgctxt "A search yielded no results"
+msgid "No items matching your search"
+msgstr "هیچ موردی منطبق با جست‌وجوی شما یافت نشد"
+
+#: app/qml/HamburgerMenuButton.qml:25
+#, kde-format
+msgid "Show menu"
+msgstr "نمایش منو"
+
+#: app/qml/IntroPage.qml:44
+#, kde-format
+msgid "Plasma"
+msgstr "پلاسما"
+
+#: app/qml/SubCategoryPage.qml:74
+#, kde-format
+msgctxt "@action:button go back"
+msgid "Back"
+msgstr "بازگشت"
+
+#. i18n: ectx: label, entry (HighlightNonDefaultSettings), group
+#. (systemsettings_sidebar_mode)
+#: app/SettingsBase.cpp:144 app/systemsettings-config.kcfg:8
+#, kde-format
+msgid "Highlight Changed Settings"
+msgstr "برجسته کردن تنظیمات تغییریافته"
+
+#: app/SettingsBase.cpp:152
+#, kde-format
+msgctxt ""
+"@option:check the pages being referred to here are System Settings KCMs"
+msgid "Show Inapplicable Pages"
+msgstr "نمایش صفحه‌های غیرقابل‌اعمال"
+
+#: app/SettingsBase.cpp:167
+#, kde-format
+msgid "Report a Bug in the Current Page…"
+msgstr "گزارش اشکال در صفحهٔ کنونی…"
+
+#: app/SidebarMode.cpp:598
+#, kde-format
+msgid "Sidebar"
+msgstr "نوار کناری"
+
+#: app/SidebarMode.cpp:667
+#, kde-format
+msgid "Most Used"
+msgstr "پراستفاده‌ترین‌ها"
+
+#: runner/systemsettingsrunner.cpp:33
+#, kde-format
+msgid "Finds system settings modules whose names or descriptions match :q:"
+msgstr ""
+"پودمان‌های تنظیمات سامانه را که نام یا توضیحات آن‌ها با :q: مطابقت دارد پیدا"
+" می‌کند"
+
+#: runner/systemsettingsrunner.cpp:122
+#, kde-format
+msgid "System Information"
+msgstr "اطلاعات سامانه"

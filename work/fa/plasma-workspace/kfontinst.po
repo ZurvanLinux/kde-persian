@@ -1,0 +1,2286 @@
+# translation of kfontinst.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Sohrab Behdani <behdanisohrab@gmail.com>, 2026.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfontinst\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-13 00:48+0000\n"
+"PO-Revision-Date: 2026-10-15 08:52+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: kde-persian-pipeline (claude-opus-4-6)\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: apps/Installer.cpp:36 kcmfontinst/KCmFontInst.cpp:946
+#, kde-format
+msgid ""
+"Do you wish to install the font(s) for personal use (only available to you),"
+" or system-wide (available to all users)?"
+msgstr ""
+"آیا می‌خواهید قلم(ها) را برای استفادهٔ شخصی (تنها در دسترس شما) یا در سطح "
+"سامانه (در دسترس همهٔ کاربران) نصب کنید؟"
+
+#: apps/Installer.cpp:37 kcmfontinst/KCmFontInst.cpp:949
+#, kde-format
+msgid "Where to Install"
+msgstr "محل نصب"
+
+#: apps/Installer.cpp:113
+#, kde-format
+msgid "Font Installer"
+msgstr "نصب‌کنندهٔ قلم"
+
+#: apps/Installer.cpp:115
+#, kde-format
+msgid "Simple font installer"
+msgstr "نصب‌کنندهٔ سادهٔ قلم"
+
+#: apps/Installer.cpp:117 apps/Printer.cpp:327
+#, kde-format
+msgid "(C) Craig Drummond, 2007"
+msgstr "(C) Craig Drummond, 2007"
+
+#: apps/Installer.cpp:124
+#, kde-format
+msgid "Makes the dialog transient for a window specified by windowHandle"
+msgstr "کادر محاوره را برای پنجرهٔ مشخص‌شده با windowHandle گذرا می‌کند"
+
+#: apps/Installer.cpp:127
+#, kde-format
+msgid "URL to install"
+msgstr "نشانی اینترنتی برای نصب"
+
+#: apps/Printer.cpp:239
+#, kde-format
+msgid "Print"
+msgstr "چاپ"
+
+#: apps/Printer.cpp:307 kcmfontinst/DuplicatesDialog.cpp:224
+#, kde-format
+msgid "Canceling…"
+msgstr "در حال لغو…"
+
+#: apps/Printer.cpp:323
+#, kde-format
+msgid "Font Printer"
+msgstr "چاپگر قلم"
+
+#: apps/Printer.cpp:325
+#, kde-format
+msgid "Simple font printer"
+msgstr "چاپگر سادهٔ قلم"
+
+#: apps/Printer.cpp:333
+#, kde-format
+msgid "Makes the dialog transient for an X app specified by winid"
+msgstr "کادر محاوره را برای یک برنامهٔ X مشخص‌شده با winid گذرا می‌کند"
+
+#: apps/Printer.cpp:335
+#, kde-format
+msgid "Size index to print fonts"
+msgstr "شاخص اندازه برای چاپ قلم‌ها"
+
+#: apps/Printer.cpp:339
+#, kde-format
+msgid ""
+"Font to print, specified as \"Family,Style\" where Style is a 24-bit decimal"
+" number composed as: <weight><width><slant>"
+msgstr ""
+"قلم برای چاپ، مشخص‌شده به‌صورت «Family,Style» که در آن Style یک عدد ده‌دهی "
+"۲۴ بیتی متشکل از <weight><width><slant> است"
+
+#: apps/Printer.cpp:342
+#, kde-format
+msgid "File containing list of fonts to print"
+msgstr "پروندهٔ حاوی فهرست قلم‌ها برای چاپ"
+
+#: apps/Printer.cpp:344
+#, kde-format
+msgid "Remove file containing list of fonts to print"
+msgstr "حذف پروندهٔ حاوی فهرست قلم‌ها برای چاپ"
+
+#: apps/Viewer.cpp:50
+#, kde-format
+msgid "Open an existing font file"
+msgstr "باز کردن پروندهٔ قلم موجود"
+
+#: apps/Viewer.cpp:51
+#, kde-format
+msgid "Print font preview"
+msgstr "چاپ پیش‌نمایش قلم"
+
+#: apps/Viewer.cpp:68
+#, kde-format
+msgid "Select Font to View"
+msgstr "انتخاب قلم برای مشاهده"
+
+#: apps/Viewer.cpp:108
+#, kde-format
+msgid "URL to open"
+msgstr "نشانی اینترنتی برای باز کردن"
+
+#: apps/Viewer.cpp:150
+#, kde-format
+msgid "Font Viewer"
+msgstr "نمایشگر قلم"
+
+#: apps/Viewer.cpp:152
+#, kde-format
+msgid "Simple font viewer"
+msgstr "نمایشگر سادهٔ قلم"
+
+#: apps/Viewer.cpp:154
+#, kde-format
+msgid "(C) Craig Drummond, 2004-2007"
+msgstr "(C) Craig Drummond, 2004-2007"
+
+#: kcmfontinst/DuplicatesDialog.cpp:49
+#, kde-format
+msgid "Duplicate Fonts"
+msgstr "قلم‌های تکراری"
+
+#: kcmfontinst/DuplicatesDialog.cpp:79
+#, kde-format
+msgid "Scanning for duplicate fonts. Please wait…"
+msgstr "در حال پویش برای قلم‌های تکراری. لطفاً منتظر بمانید…"
+
+#: kcmfontinst/DuplicatesDialog.cpp:98
+#, kde-format
+msgid "No duplicate fonts found."
+msgstr "هیچ قلم تکراری یافت نشد."
+
+#: kcmfontinst/DuplicatesDialog.cpp:106
+#, kde-format
+msgid "Delete Marked Files"
+msgstr "حذف پرونده‌های علامت‌گذاری‌شده"
+
+#: kcmfontinst/DuplicatesDialog.cpp:108
+#, kde-format
+msgid "%1 duplicate font found."
+msgid_plural "%1 duplicate fonts found."
+msgstr[0] "%1 قلم تکراری یافت شد."
+msgstr[1] "%1 قلم تکراری یافت شد."
+
+#: kcmfontinst/DuplicatesDialog.cpp:189
+#, kde-format
+msgid ""
+"Are you sure you wish to delete:\n"
+"%1"
+msgstr ""
+"آیا مطمئن هستید که می‌خواهید حذف کنید:\n"
+"%1"
+
+#: kcmfontinst/DuplicatesDialog.cpp:195
+#, kde-format
+msgid "Are you sure you wish to delete:"
+msgstr "آیا مطمئن هستید که می‌خواهید حذف کنید:"
+
+#: kcmfontinst/DuplicatesDialog.cpp:223
+#, kde-format
+msgid "Cancel font scan?"
+msgstr "لغو پویش قلم؟"
+
+#: kcmfontinst/DuplicatesDialog.cpp:384
+#, kde-format
+msgid "Font/File"
+msgstr "قلم/پرونده"
+
+#: kcmfontinst/DuplicatesDialog.cpp:386
+#, kde-format
+msgid "Size"
+msgstr "اندازه"
+
+#: kcmfontinst/DuplicatesDialog.cpp:387
+#, kde-format
+msgid "Date"
+msgstr "تاریخ"
+
+#: kcmfontinst/DuplicatesDialog.cpp:388
+#, kde-format
+msgid "Links To"
+msgstr "پیوند به"
+
+#: kcmfontinst/DuplicatesDialog.cpp:401 kcmfontinst/FontList.cpp:1310
+#, kde-format
+msgid "Open in Font Viewer"
+msgstr "باز کردن در نمایشگر قلم"
+
+#: kcmfontinst/DuplicatesDialog.cpp:403
+#, kde-format
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+#: kcmfontinst/DuplicatesDialog.cpp:405
+#, kde-format
+msgid "Unmark for Deletion"
+msgstr "لغو علامت‌گذاری برای حذف"
+
+#: kcmfontinst/DuplicatesDialog.cpp:406
+#, kde-format
+msgid "Mark for Deletion"
+msgstr "علامت‌گذاری برای حذف"
+
+#: kcmfontinst/DuplicatesDialog.cpp:504
+#, kde-format
+msgid "Open font in font viewer?"
+msgid_plural "Open all %1 fonts in font viewer?"
+msgstr[0] "باز کردن قلم در نمایشگر قلم؟"
+msgstr[1] "باز کردن همهٔ %1 قلم در نمایشگر قلم؟"
+
+#: kcmfontinst/FontFilter.cpp:106
+#, kde-format
+msgid "Family"
+msgstr "خانواده"
+
+#: kcmfontinst/FontFilter.cpp:108
+#, kde-format
+msgid "Style"
+msgstr "سبک"
+
+#: kcmfontinst/FontFilter.cpp:110
+#, kde-format
+msgid "Foundry"
+msgstr "ریخته‌گری"
+
+#: kcmfontinst/FontFilter.cpp:112
+#, kde-format
+msgid "FontConfig Match"
+msgstr "تطبیق FontConfig"
+
+#: kcmfontinst/FontFilter.cpp:114
+#, kde-format
+msgid "File Type"
+msgstr "نوع پرونده"
+
+#: kcmfontinst/FontFilter.cpp:116
+#, kde-format
+msgid "File Name"
+msgstr "نام پرونده"
+
+#: kcmfontinst/FontFilter.cpp:118
+#, kde-format
+msgid "File Location"
+msgstr "مکان پرونده"
+
+#: kcmfontinst/FontFilter.cpp:120
+#, kde-format
+msgid "Writing System"
+msgstr "سامانهٔ نوشتاری"
+
+#: kcmfontinst/FontFilter.cpp:131
+#, kde-format
+msgid "Set Criteria"
+msgstr "تنظیم معیارها"
+
+#: kcmfontinst/FontFilter.cpp:190
+#, kde-format
+msgid "Symbol/Other"
+msgstr "نماد/سایر"
+
+#: kcmfontinst/FontFilter.cpp:268 kcmfontinst/FontFilter.cpp:336
+#, kde-format
+msgid "Filter by %1…"
+msgstr "پالایش بر پایهٔ %1…"
+
+#: kcmfontinst/FontList.cpp:548
+#, kde-format
+msgid "Font"
+msgstr "قلم"
+
+#: kcmfontinst/FontList.cpp:550
+#, kde-format
+msgid "Status"
+msgstr "وضعیت"
+
+#: kcmfontinst/FontList.cpp:564
+#, kde-format
+msgid ""
+"This column shows the status of the font family, and of the individual font "
+"styles."
+msgstr "این ستون وضعیت خانوادهٔ قلم و سبک‌های مجزای قلم را نشان می‌دهد."
+
+#: kcmfontinst/FontList.cpp:671
+#, kde-format
+msgid ""
+"<p>This list shows your installed fonts. The fonts are grouped by family, "
+"and the number in square brackets represents the number of styles in which "
+"the family is available. e.g.</p><ul><li>Times "
+"[4]<ul><li>Regular</li><li>Bold</li><li>Bold "
+"Italic</li><li>Italic</li></ul></li></ul>"
+msgstr ""
+"<p>این فهرست قلم‌های نصب‌شدهٔ شما را نشان می‌دهد. قلم‌ها بر اساس خانواده "
+"گروه‌بندی شده‌اند و عدد داخل قلاب‌ها بیانگر تعداد سبک‌هایی است که این "
+"خانواده دارد. برای نمونه:</p><ul><li>Times "
+"[4]<ul><li>عادی</li><li>ضخیم</li><li>ضخیم "
+"مورب</li><li>مورب</li></ul></li></ul>"
+
+#: kcmfontinst/FontList.cpp:950 kcmfontinst/FontList.cpp:974
+#, kde-format
+msgid "…plus %1 more"
+msgstr "…به‌علاوهٔ %1 مورد دیگر"
+
+#: kcmfontinst/FontList.cpp:1001
+#, kde-format
+msgid "%1 [%2]"
+msgstr "%1 [%2]"
+
+#: kcmfontinst/FontList.cpp:1300
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: kcmfontinst/FontList.cpp:1302 kcmfontinst/GroupList.cpp:790
+#: kcmfontinst/KCmFontInst.cpp:1112 kcmfontinst/KCmFontInst.cpp:1132
+#, kde-format
+msgid "Enable"
+msgstr "فعال‌سازی"
+
+#: kcmfontinst/FontList.cpp:1303 kcmfontinst/GroupList.cpp:791
+#: kcmfontinst/KCmFontInst.cpp:1113 kcmfontinst/KCmFontInst.cpp:1132
+#, kde-format
+msgid "Disable"
+msgstr "غیرفعال‌سازی"
+
+#: kcmfontinst/FontList.cpp:1308 kcmfontinst/GroupList.cpp:797
+#, kde-format
+msgid "Print…"
+msgstr "چاپ…"
+
+#: kcmfontinst/FontList.cpp:1312
+#, kde-format
+msgid "Reload"
+msgstr "بارگذاری مجدد"
+
+#: kcmfontinst/FontList.cpp:1690
+#, kde-format
+msgid "Open all %1 fonts in font viewer?"
+msgstr "همهٔ %1 قلم در نمایشگر قلم باز شوند؟"
+
+#: kcmfontinst/GroupList.cpp:62
+#, kde-format
+msgid "All Fonts"
+msgstr "همهٔ قلم‌ها"
+
+#: kcmfontinst/GroupList.cpp:65
+#, kde-format
+msgid "Personal Fonts"
+msgstr "قلم‌های شخصی"
+
+#: kcmfontinst/GroupList.cpp:68
+#, kde-format
+msgid "System Fonts"
+msgstr "قلم‌های سامانه"
+
+#: kcmfontinst/GroupList.cpp:71
+#, kde-format
+msgid "Unclassified"
+msgstr "دسته‌بندی‌نشده"
+
+#: kcmfontinst/GroupList.cpp:353
+#, kde-format
+msgid "Group"
+msgstr "گروه"
+
+#: kcmfontinst/GroupList.cpp:538
+#, kde-format
+msgid ""
+"<p>Do you really want to remove '<b>%1</b>'?</p><p><i>This will only remove "
+"the group, and not the actual fonts.</i></p>"
+msgstr ""
+"<p>آیا واقعاً می‌خواهید '<b>%1</b>' را حذف کنید؟</p><p><i>این کار فقط گروه "
+"را حذف می‌کند، نه خود قلم‌ها را.</i></p>"
+
+#: kcmfontinst/GroupList.cpp:542
+#, kde-format
+msgid "Remove Group"
+msgstr "حذف گروه"
+
+#: kcmfontinst/GroupList.cpp:543 kcmfontinst/GroupList.cpp:788
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#: kcmfontinst/GroupList.cpp:543
+#, kde-format
+msgid "Remove group"
+msgstr "حذف گروه"
+
+#: kcmfontinst/GroupList.cpp:589
+#, kde-format
+msgid ""
+"<h3>Font Groups</h3><p>This list displays the font groups available on your "
+"system. There are 2 main types of font groups:<ul><li><b>Standard</b> are "
+"special groups used by the font manager.<ul>%1</ul></li><li><b>Custom</b> "
+"are groups created by you. To add a font family to one of these groups "
+"simply drag it from the list of fonts, and drop onto the desired group. To "
+"remove a family from the group, drag the font onto the \"All Fonts\" "
+"group.</li></ul></p>"
+msgstr ""
+"<h3>گروه‌های قلم</h3><p>این فهرست گروه‌های قلم موجود در سامانهٔ شما را نمایش"
+" می‌دهد. ۲ نوع اصلی از گروه‌های قلم وجود دارد:<ul><li><b>استاندارد</b> "
+"گروه‌های ویژه‌ای هستند که مدیر قلم از آن‌ها استفاده "
+"می‌کند.<ul>%1</ul></li><li><b>سفارشی</b> گروه‌هایی هستند که توسط شما ایجاد "
+"شده‌اند. برای افزودن یک خانوادهٔ قلم به یکی از این گروه‌ها، کافی است آن را "
+"از فهرست قلم‌ها بکشید و روی گروه دلخواه رها کنید. برای حذف یک خانواده از "
+"گروه، قلم را روی گروه «همهٔ قلم‌ها» بکشید.</li></ul></p>"
+
+#: kcmfontinst/GroupList.cpp:597
+#, kde-format
+msgid ""
+"<li><i>All Fonts</i> contains all the fonts installed on your "
+"system.</li><li><i>Unclassified</i> contains all fonts that have not yet "
+"been placed within a \"Custom\" group.</li>"
+msgstr ""
+"<li><i>همهٔ قلم‌ها</i> شامل همهٔ قلم‌های نصب‌شده روی سامانهٔ شما "
+"است.</li><li><i>دسته‌بندی‌نشده</i> شامل همهٔ قلم‌هایی است که هنوز در یک گروه"
+" «سفارشی» قرار نگرفته‌اند.</li>"
+
+#: kcmfontinst/GroupList.cpp:600
+#, kde-format
+msgid ""
+"<li><i>All Fonts</i> contains all the fonts installed on your system - both"
+"  \"System\" and \"Personal\".</li><li><i>System</i> contains all fonts that"
+" are installed system-wide (i.e. available to all "
+"users).</li><li><i>Personal</i> contains your personal "
+"fonts.</li><li><i>Unclassified</i> contains all fonts that have not yet been"
+" placed within a \"Custom\" group.</li>"
+msgstr ""
+"<li><i>همهٔ قلم‌ها</i> شامل همهٔ قلم‌های نصب‌شده روی سامانهٔ شما است - هم "
+"«سامانه‌ای» و هم «شخصی».</li><li><i>سامانه‌ای</i> شامل همهٔ قلم‌هایی است که "
+"در سطح سامانه نصب شده‌اند (یعنی برای همهٔ کاربران در دسترس "
+"هستند).</li><li><i>شخصی</i> شامل قلم‌های شخصی شما "
+"است.</li><li><i>دسته‌بندی‌نشده</i> شامل همهٔ قلم‌هایی است که هنوز در یک گروه"
+" «سفارشی» قرار نگرفته‌اند.</li>"
+
+#: kcmfontinst/GroupList.cpp:702
+#, kde-format
+msgid "<qt>A group named <b>'%1'</b> already exists.</qt>"
+msgstr "<qt>گروهی با نام <b>'%1'</b> از قبل وجود دارد.</qt>"
+
+#: kcmfontinst/GroupList.cpp:793
+#, kde-format
+msgid "Rename…"
+msgstr "تغییر نام…"
+
+#: kcmfontinst/GroupList.cpp:802
+#, kde-format
+msgid "Export…"
+msgstr "برون‌بری…"
+
+#: kcmfontinst/GroupList.cpp:896
+#, kde-format
+msgid "Add to \"%1\"."
+msgstr "افزودن به «%1»."
+
+#: kcmfontinst/GroupList.cpp:898
+#, kde-format
+msgid "Remove from current group."
+msgstr "حذف از گروه کنونی."
+
+#: kcmfontinst/GroupList.cpp:900
+#, kde-format
+msgid "Move to personal folder."
+msgstr "انتقال به پوشهٔ شخصی."
+
+#: kcmfontinst/GroupList.cpp:902
+#, kde-format
+msgid "Move to system folder."
+msgstr "انتقال به پوشهٔ سامانه."
+
+#: kcmfontinst/JobRunner.cpp:139
+#, kde-format
+msgid "Skip"
+msgstr "رد کردن"
+
+#: kcmfontinst/JobRunner.cpp:142
+#, kde-format
+msgid "AutoSkip"
+msgstr "رد کردن خودکار"
+
+#: kcmfontinst/JobRunner.cpp:187
+#, kde-format
+msgid "<h3>Cancel?</h3><p>Are you sure you wish to cancel?</p>"
+msgstr "<h3>لغو؟</h3><p>آیا مطمئن هستید که می‌خواهید لغو کنید؟</p>"
+
+#: kcmfontinst/JobRunner.cpp:199
+#, kde-format
+msgid ""
+"<h3>Finished</h3><p>Please note that any open applications will need to be "
+"restarted in order for any changes to be noticed.</p>"
+msgstr ""
+"<h3>پایان یافت</h3><p>لطفاً توجه داشته باشید که برای مشاهدهٔ هرگونه تغییر، "
+"برنامه‌های باز باید مجدداً راه‌اندازی شوند.</p>"
+
+#: kcmfontinst/JobRunner.cpp:207
+#, kde-format
+msgid "Do not show this message again"
+msgstr "این پیام دیگر نشان داده نشود"
+
+#: kcmfontinst/JobRunner.cpp:315
+#, kde-format
+msgid "Installing"
+msgstr "در حال نصب"
+
+#: kcmfontinst/JobRunner.cpp:318
+#, kde-format
+msgid "Uninstalling"
+msgstr "در حال حذف نصب"
+
+#: kcmfontinst/JobRunner.cpp:321 kcmfontinst/JobRunner.cpp:417
+#, kde-format
+msgid "Enabling"
+msgstr "در حال فعال‌سازی"
+
+#: kcmfontinst/JobRunner.cpp:324 kcmfontinst/JobRunner.cpp:421
+#, kde-format
+msgid "Moving"
+msgstr "در حال جابه‌جایی"
+
+#: kcmfontinst/JobRunner.cpp:327
+#, kde-format
+msgid "Updating"
+msgstr "در حال به‌روزرسانی"
+
+#: kcmfontinst/JobRunner.cpp:331
+#, kde-format
+msgid "Removing"
+msgstr "در حال حذف"
+
+#: kcmfontinst/JobRunner.cpp:335
+#, kde-format
+msgid "Disabling"
+msgstr "در حال غیرفعال‌سازی"
+
+#: kcmfontinst/JobRunner.cpp:372
+#, kde-format
+msgid "Updating font configuration. Please wait…"
+msgstr "در حال به‌روزرسانی پیکربندی قلم. لطفاً صبر کنید…"
+
+#: kcmfontinst/JobRunner.cpp:444
+#, kde-format
+msgid "Unable to start backend."
+msgstr "امکان راه‌اندازی پسانه وجود ندارد."
+
+#: kcmfontinst/JobRunner.cpp:453
+#, kde-format
+msgid "Backend died, but has been restarted. Please try again."
+msgstr "پسانه از کار افتاد، اما مجدداً راه‌اندازی شد. لطفاً دوباره تلاش کنید."
+
+#: kcmfontinst/JobRunner.cpp:618 kcmfontinst/JobRunner.cpp:625
+#, kde-format
+msgid "<h3>Error</h3>"
+msgstr "<h3>خطا</h3>"
+
+#: kcmfontinst/JobRunner.cpp:693
+#, kde-format
+msgid "Failed to download <i>%1</i>"
+msgstr "بارگیری <i>%1</i> ناموفق بود"
+
+#: kcmfontinst/JobRunner.cpp:695
+#, kde-format
+msgid "System backend died. Please try again.<br><i>%1</i>"
+msgstr "پسانهٔ سامانه از کار افتاد. لطفاً دوباره تلاش کنید.<br><i>%1</i>"
+
+#: kcmfontinst/JobRunner.cpp:697
+#, kde-format
+msgid ""
+"<i>%1</i> is a bitmap font, and these have been disabled on your system."
+msgstr ""
+"<i>%1</i> یک قلم نگاشت‌بیتی است و این قلم‌ها در سامانهٔ شما غیرفعال شده‌اند."
+
+#: kcmfontinst/JobRunner.cpp:699
+#, kde-format
+msgid ""
+"<i>%1</i> contains the font <b>%2</b>, which is already installed on your "
+"system."
+msgstr ""
+"<i>%1</i> شامل قلم <b>%2</b> است که از قبل روی سامانهٔ شما نصب شده است."
+
+#: kcmfontinst/JobRunner.cpp:701
+#, kde-format
+msgid "<i>%1</i> is not a font."
+msgstr "<i>%1</i> یک قلم نیست."
+
+#: kcmfontinst/JobRunner.cpp:703
+#, kde-format
+msgid "Could not remove all files associated with <i>%1</i>"
+msgstr "امکان حذف همهٔ پرونده‌های مرتبط با <i>%1</i> وجود نداشت"
+
+#: kcmfontinst/JobRunner.cpp:705
+#, kde-format
+msgid "Failed to start the system daemon.<br><i>%1</i>"
+msgstr "راه‌اندازی دیمن سامانه ناموفق بود.<br><i>%1</i>"
+
+#: kcmfontinst/JobRunner.cpp:708 kio/KioFonts.cpp:719
+#, kde-format
+msgid "<i>%1</i> already exists."
+msgstr "<i>%1</i> از قبل وجود دارد."
+
+#: kcmfontinst/JobRunner.cpp:711
+#, kde-format
+msgid "<i>%1</i> does not exist."
+msgstr "<i>%1</i> وجود ندارد."
+
+#: kcmfontinst/JobRunner.cpp:713
+#, kde-format
+msgid "Permission denied.<br><i>%1</i>"
+msgstr "دسترسی رد شد.<br><i>%1</i>"
+
+#: kcmfontinst/JobRunner.cpp:715
+#, kde-format
+msgid "Unsupported action.<br><i>%1</i>"
+msgstr "کنش پشتیبانی‌نشده.<br><i>%1</i>"
+
+#: kcmfontinst/JobRunner.cpp:717
+#, kde-format
+msgid "Authentication failed.<br><i>%1</i>"
+msgstr "احراز هویت ناموفق بود.<br><i>%1</i>"
+
+#: kcmfontinst/JobRunner.cpp:719
+#, kde-format
+msgid "Unexpected error while processing: <i>%1</i>"
+msgstr "خطای غیرمنتظره هنگام پردازش: <i>%1</i>"
+
+#: kcmfontinst/KCmFontInst.cpp:211
+#, kde-format
+msgid "Create New Group…"
+msgstr "ایجاد گروه جدید…"
+
+#: kcmfontinst/KCmFontInst.cpp:214
+#, kde-format
+msgid "Remove Group…"
+msgstr "حذف گروه…"
+
+#: kcmfontinst/KCmFontInst.cpp:217
+#, kde-format
+msgid "Enable Fonts in Group…"
+msgstr "فعال‌سازی قلم‌ها در گروه…"
+
+#: kcmfontinst/KCmFontInst.cpp:220
+#, kde-format
+msgid "Disable Fonts in Group…"
+msgstr "غیرفعال‌سازی قلم‌ها در گروه…"
+
+#: kcmfontinst/KCmFontInst.cpp:241
+#, kde-format
+msgid "This displays a preview of the selected font."
+msgstr "این، پیش‌نمایشی از قلم انتخاب‌شده را نمایش می‌دهد."
+
+#: kcmfontinst/KCmFontInst.cpp:258
+#, kde-format
+msgid "Find Duplicates…"
+msgstr "یافتن موارد تکراری…"
+
+#: kcmfontinst/KCmFontInst.cpp:258
+#, kde-format
+msgid "Scan for Duplicate Fonts…"
+msgstr "پویش برای قلم‌های تکراری…"
+
+#: kcmfontinst/KCmFontInst.cpp:260
+#, kde-format
+msgid "Install from File…"
+msgstr "نصب از پرونده…"
+
+#: kcmfontinst/KCmFontInst.cpp:260
+#, kde-format
+msgid "Install fonts from a local file"
+msgstr "نصب قلم‌ها از یک پروندهٔ محلی"
+
+#: kcmfontinst/KCmFontInst.cpp:261
+#, kde-format
+msgid "Get New Fonts…"
+msgstr "دریافت قلم‌های جدید…"
+
+#: kcmfontinst/KCmFontInst.cpp:262
+#, kde-format
+msgid "Download new fonts"
+msgstr "بارگیری قلم‌های جدید"
+
+#: kcmfontinst/KCmFontInst.cpp:264
+#, kde-format
+msgid "Delete Selected Fonts…"
+msgstr "حذف قلم‌های انتخاب‌شده…"
+
+#: kcmfontinst/KCmFontInst.cpp:329
+#, kde-format
+msgid "Change Preview Text…"
+msgstr "تغییر متن پیش‌نمایش…"
+
+#: kcmfontinst/KCmFontInst.cpp:428
+#, kde-format
+msgid "Add Fonts"
+msgstr "افزودن قلم‌ها"
+
+#: kcmfontinst/KCmFontInst.cpp:552
+#, kde-format
+msgid "Failed to save list of fonts to print."
+msgstr "ذخیرهٔ فهرست قلم‌ها برای چاپ ناموفق بود."
+
+#: kcmfontinst/KCmFontInst.cpp:573
+#, kde-format
+msgid "Failed to start font printer."
+msgstr "راه‌اندازی چاپگر قلم ناموفق بود."
+
+#: kcmfontinst/KCmFontInst.cpp:580
+#, kde-format
+msgid ""
+"There are no printable fonts.\n"
+"You can only print non-bitmap and enabled fonts."
+msgstr ""
+"هیچ قلم قابل چاپی وجود ندارد.\n"
+"تنها می‌توانید قلم‌های غیربیت‌مپ و فعال را چاپ کنید."
+
+#: kcmfontinst/KCmFontInst.cpp:582
+#, kde-format
+msgid "Cannot Print"
+msgstr "نمی‌توان چاپ کرد"
+
+#: kcmfontinst/KCmFontInst.cpp:597
+#, kde-format
+msgid "You did not select anything to delete."
+msgstr "چیزی برای حذف انتخاب نکردید."
+
+#: kcmfontinst/KCmFontInst.cpp:597
+#, kde-format
+msgid "Nothing to Delete"
+msgstr "چیزی برای حذف نیست"
+
+#: kcmfontinst/KCmFontInst.cpp:612
+#, kde-format
+msgid "<p>Do you really want to delete</p><p>'<b>%1</b>'?</p>"
+msgstr "<p>آیا واقعاً می‌خواهید</p><p>'<b>%1</b>' را حذف کنید؟</p>"
+
+#: kcmfontinst/KCmFontInst.cpp:615
+#, kde-format
+msgid "Delete Font"
+msgstr "حذف قلم"
+
+#: kcmfontinst/KCmFontInst.cpp:622
+#, kde-format
+msgid "Do you really want to delete this font?"
+msgid_plural "Do you really want to delete these %1 fonts?"
+msgstr[0] "آیا واقعاً می‌خواهید این قلم را حذف کنید؟"
+msgstr[1] "آیا واقعاً می‌خواهید این %1 قلم را حذف کنید؟"
+
+#: kcmfontinst/KCmFontInst.cpp:624
+#, kde-format
+msgid "Delete Fonts"
+msgstr "حذف قلم‌ها"
+
+#: kcmfontinst/KCmFontInst.cpp:629
+#, kde-format
+msgid "Deleting font(s)…"
+msgstr "در حال حذف قلم(ها)…"
+
+#: kcmfontinst/KCmFontInst.cpp:644
+#, kde-format
+msgid "You did not select anything to move."
+msgstr "چیزی برای جابه‌جایی انتخاب نکردید."
+
+#: kcmfontinst/KCmFontInst.cpp:644
+#, kde-format
+msgid "Nothing to Move"
+msgstr "چیزی برای جابه‌جایی نیست"
+
+#: kcmfontinst/KCmFontInst.cpp:654
+#, kde-format
+msgid ""
+"<p>Do you really want to move</p><p>'<b>%1</b>'</p><p>from <i>%2</i> to "
+"<i>%3</i>?</p>"
+msgstr ""
+"<p>آیا واقعاً می‌خواهید</p><p>'<b>%1</b>'</p><p>را از <i>%2</i> به <i>%3</i>"
+" جابه‌جا کنید؟</p>"
+
+#: kcmfontinst/KCmFontInst.cpp:659
+#, kde-format
+msgid "Move Font"
+msgstr "جابه‌جایی قلم"
+
+#: kcmfontinst/KCmFontInst.cpp:660 kcmfontinst/KCmFontInst.cpp:672
+#, kde-format
+msgid "Move"
+msgstr "جابه‌جایی"
+
+#: kcmfontinst/KCmFontInst.cpp:665
+#, kde-format
+msgid ""
+"<p>Do you really want to move this font from <i>%2</i> to <i>%3</i>?</p>"
+msgid_plural ""
+"<p>Do you really want to move these %1 fonts from <i>%2</i> to "
+"<i>%3</i>?</p>"
+msgstr[0] ""
+"<p>آیا واقعاً می‌خواهید این قلم را از <i>%2</i> به <i>%3</i> جابه‌جا "
+"کنید؟</p>"
+msgstr[1] ""
+"<p>آیا واقعاً می‌خواهید این %1 قلم را از <i>%2</i> به <i>%3</i> جابه‌جا "
+"کنید؟</p>"
+
+#: kcmfontinst/KCmFontInst.cpp:671
+#, kde-format
+msgid "Move Fonts"
+msgstr "جابه‌جایی قلم‌ها"
+
+#: kcmfontinst/KCmFontInst.cpp:676
+#, kde-format
+msgid "Moving font(s)…"
+msgstr "در حال جابه‌جایی قلم(ها)…"
+
+#: kcmfontinst/KCmFontInst.cpp:690
+#, kde-format
+msgid "Export Group"
+msgstr "برون‌بری گروه"
+
+#: kcmfontinst/KCmFontInst.cpp:716
+#, kde-format
+msgid "No files?"
+msgstr "هیچ پرونده‌ای نیست؟"
+
+#: kcmfontinst/KCmFontInst.cpp:719
+#, kde-format
+msgid "Failed to open %1 for writing"
+msgstr "باز کردن %1 برای نوشتن ناموفق بود"
+
+#: kcmfontinst/KCmFontInst.cpp:739
+#, kde-format
+msgid "Create New Group"
+msgstr "ایجاد گروه جدید"
+
+#: kcmfontinst/KCmFontInst.cpp:739
+#, kde-format
+msgid "Name of new group:"
+msgstr "نام گروه جدید:"
+
+#: kcmfontinst/KCmFontInst.cpp:739
+#, kde-format
+msgid "New Group"
+msgstr "گروه جدید"
+
+#: kcmfontinst/KCmFontInst.cpp:767
+#, kde-format
+msgid "Preview Text"
+msgstr "متن پیش‌نمایش"
+
+#: kcmfontinst/KCmFontInst.cpp:767
+#, kde-format
+msgid "Please enter new text:"
+msgstr "لطفاً متن جدید را وارد کنید:"
+
+#: kcmfontinst/KCmFontInst.cpp:819
+#, kde-format
+msgid "Scanning font list…"
+msgstr "در حال پویش فهرست قلم‌ها…"
+
+#: kcmfontinst/KCmFontInst.cpp:878
+#, kde-format
+msgid "No fonts"
+msgstr "بدون قلم"
+
+#: kcmfontinst/KCmFontInst.cpp:883
+#, kde-format
+msgid "1 Font"
+msgid_plural "%1 Fonts"
+msgstr[0] "۱ قلم"
+msgstr[1] "%1 قلم"
+
+#: kcmfontinst/KCmFontInst.cpp:892
+#, kde-format
+msgid ""
+"<table><tr><td align=\"right\">Enabled:</td><td>%1</td></tr><tr><td "
+"align=\"right\">Disabled:</td><td>%2</td></tr><tr><td "
+"align=\"right\">Partially enabled:</td><td>%3</td></tr><tr><td "
+"align=\"right\">Total:</td><td>%4</td></tr></table>"
+msgstr ""
+"<table><tr><td align=\"right\">فعال:</td><td>%1</td></tr><tr><td "
+"align=\"right\">غیرفعال:</td><td>%2</td></tr><tr><td align=\"right\">تا حدی "
+"فعال:</td><td>%3</td></tr><tr><td "
+"align=\"right\">مجموع:</td><td>%4</td></tr></table>"
+
+#: kcmfontinst/KCmFontInst.cpp:902
+#, kde-format
+msgid ""
+"<table><tr><td align=\"right\">Enabled:</td><td>%1</td></tr><tr><td "
+"align=\"right\">Disabled:</td><td>%2</td></tr><tr><td "
+"align=\"right\">Total:</td><td>%3</td></tr></table>"
+msgstr ""
+"<table><tr><td align=\"right\">فعال:</td><td>%1</td></tr><tr><td "
+"align=\"right\">غیرفعال:</td><td>%2</td></tr><tr><td "
+"align=\"right\">مجموع:</td><td>%3</td></tr></table>"
+
+#: kcmfontinst/KCmFontInst.cpp:979
+#, kde-format
+msgid "Looking for any associated files…"
+msgstr "در حال جست‌وجوی پرونده‌های مرتبط…"
+
+#: kcmfontinst/KCmFontInst.cpp:983
+#, kde-format
+msgid "Scanning Files…"
+msgstr "در حال پویش پرونده‌ها…"
+
+#: kcmfontinst/KCmFontInst.cpp:984
+#, kde-format
+msgid "Looking for additional files to install…"
+msgstr "در حال جست‌وجوی پرونده‌های اضافی برای نصب…"
+
+#: kcmfontinst/KCmFontInst.cpp:999
+#, kde-format
+msgid "Looking for files associated with %1"
+msgstr "در حال جست‌وجوی پرونده‌های مرتبط با %1"
+
+#: kcmfontinst/KCmFontInst.cpp:1027
+#, kde-format
+msgid "Installing font(s)…"
+msgstr "در حال نصب قلم(ها)…"
+
+#: kcmfontinst/KCmFontInst.cpp:1092
+#, kde-format
+msgid "You did not select anything to enable."
+msgstr "هیچ موردی را برای فعال‌سازی انتخاب نکردید."
+
+#: kcmfontinst/KCmFontInst.cpp:1092
+#, kde-format
+msgid "You did not select anything to disable."
+msgstr "هیچ موردی را برای غیرفعال‌سازی انتخاب نکردید."
+
+#: kcmfontinst/KCmFontInst.cpp:1093
+#, kde-format
+msgid "Nothing to Enable"
+msgstr "موردی برای فعال‌سازی نیست"
+
+#: kcmfontinst/KCmFontInst.cpp:1093
+#, kde-format
+msgid "Nothing to Disable"
+msgstr "موردی برای غیرفعال‌سازی نیست"
+
+#: kcmfontinst/KCmFontInst.cpp:1107
+#, kde-format
+msgid "<p>Do you really want to enable</p><p>'<b>%1</b>'?</p>"
+msgstr "<p>آیا واقعاً می‌خواهید</p><p>'<b>%1</b>' را فعال کنید؟</p>"
+
+#: kcmfontinst/KCmFontInst.cpp:1108
+#, kde-format
+msgid "<p>Do you really want to disable</p><p>'<b>%1</b>'?</p>"
+msgstr "<p>آیا واقعاً می‌خواهید</p><p>'<b>%1</b>' را غیرفعال کنید؟</p>"
+
+#: kcmfontinst/KCmFontInst.cpp:1109
+#, kde-format
+msgid ""
+"<p>Do you really want to enable</p><p>'<b>%1</b>', contained within group "
+"'<b>%2</b>'?</p>"
+msgstr ""
+"<p>آیا واقعاً می‌خواهید</p><p>'<b>%1</b>'، موجود در گروه '<b>%2</b>' را فعال"
+" کنید؟</p>"
+
+#: kcmfontinst/KCmFontInst.cpp:1110
+#, kde-format
+msgid ""
+"<p>Do you really want to disable</p><p>'<b>%1</b>', contained within group "
+"'<b>%2</b>'?</p>"
+msgstr ""
+"<p>آیا واقعاً می‌خواهید</p><p>'<b>%1</b>'، موجود در گروه '<b>%2</b>' را "
+"غیرفعال کنید؟</p>"
+
+#: kcmfontinst/KCmFontInst.cpp:1111 kcmfontinst/KCmFontInst.cpp:1112
+#, kde-format
+msgid "Enable Font"
+msgstr "فعال‌سازی قلم"
+
+#: kcmfontinst/KCmFontInst.cpp:1111 kcmfontinst/KCmFontInst.cpp:1113
+#, kde-format
+msgid "Disable Font"
+msgstr "غیرفعال‌سازی قلم"
+
+#: kcmfontinst/KCmFontInst.cpp:1119
+#, kde-format
+msgid "Do you really want to enable this font?"
+msgid_plural "Do you really want to enable these %1 fonts?"
+msgstr[0] "آیا واقعاً می‌خواهید این قلم را فعال کنید؟"
+msgstr[1] "آیا واقعاً می‌خواهید این %1 قلم را فعال کنید؟"
+
+#: kcmfontinst/KCmFontInst.cpp:1120
+#, kde-format
+msgid "Do you really want to disable this font?"
+msgid_plural "Do you really want to disable these %1 fonts?"
+msgstr[0] "آیا واقعاً می‌خواهید این قلم را غیرفعال کنید؟"
+msgstr[1] "آیا واقعاً می‌خواهید این %1 قلم را غیرفعال کنید؟"
+
+#: kcmfontinst/KCmFontInst.cpp:1122
+#, kde-format
+msgid ""
+"<p>Do you really want to enable this font contained within group "
+"'<b>%2</b>'?</p>"
+msgid_plural ""
+"<p>Do you really want to enable these %1 fonts contained within group "
+"'<b>%2</b>'?</p>"
+msgstr[0] ""
+"<p>آیا واقعاً می‌خواهید این قلم موجود در گروه «<b>%2</b>» را فعال کنید؟</p>"
+msgstr[1] ""
+"<p>آیا واقعاً می‌خواهید این %1 قلم موجود در گروه «<b>%2</b>» را فعال "
+"کنید؟</p>"
+
+#: kcmfontinst/KCmFontInst.cpp:1126
+#, kde-format
+msgid ""
+"<p>Do you really want to disable this font contained within group "
+"'<b>%2</b>'?</p>"
+msgid_plural ""
+"<p>Do you really want to disable these %1 fonts contained within group "
+"'<b>%2</b>'?</p>"
+msgstr[0] ""
+"<p>آیا واقعاً می‌خواهید این قلم موجود در گروه «<b>%2</b>» را غیرفعال "
+"کنید؟</p>"
+msgstr[1] ""
+"<p>آیا واقعاً می‌خواهید این %1 قلم موجود در گروه «<b>%2</b>» را غیرفعال "
+"کنید؟</p>"
+
+#: kcmfontinst/KCmFontInst.cpp:1130 kcmfontinst/KCmFontInst.cpp:1132
+#, kde-format
+msgid "Enable Fonts"
+msgstr "فعال‌سازی قلم‌ها"
+
+#: kcmfontinst/KCmFontInst.cpp:1130 kcmfontinst/KCmFontInst.cpp:1132
+#, kde-format
+msgid "Disable Fonts"
+msgstr "غیرفعال‌سازی قلم‌ها"
+
+#: kcmfontinst/KCmFontInst.cpp:1139
+#, kde-format
+msgid "Enabling font(s)…"
+msgstr "در حال فعال‌سازی قلم(ها)…"
+
+#: kcmfontinst/KCmFontInst.cpp:1141
+#, kde-format
+msgid "Disabling font(s)…"
+msgstr "در حال غیرفعال‌سازی قلم(ها)…"
+
+#: kcmfontinst/PrintDialog.cpp:21
+#, kde-format
+msgid "Print Font Samples"
+msgstr "چاپ نمونه‌های قلم"
+
+#: kcmfontinst/PrintDialog.cpp:37
+#, kde-format
+msgid "Select size to print font:"
+msgstr "انتخاب اندازه برای چاپ قلم:"
+
+#: kcmfontinst/PrintDialog.cpp:41
+#, kde-format
+msgid "Waterfall"
+msgstr "آبشاری"
+
+#: kcmfontinst/PrintDialog.cpp:42
+#, kde-format
+msgid "12pt"
+msgstr "12pt"
+
+#: kcmfontinst/PrintDialog.cpp:43
+#, kde-format
+msgid "18pt"
+msgstr "18pt"
+
+#: kcmfontinst/PrintDialog.cpp:44
+#, kde-format
+msgid "24pt"
+msgstr "24pt"
+
+#: kcmfontinst/PrintDialog.cpp:45
+#, kde-format
+msgid "36pt"
+msgstr "36pt"
+
+#: kcmfontinst/PrintDialog.cpp:46
+#, kde-format
+msgid "48pt"
+msgstr "48pt"
+
+#: kio/KioFonts.cpp:209
+#, kde-format
+msgid "Can only install fonts to either \"%1\" or \"%2\"."
+msgstr "تنها می‌توان قلم‌ها را در «%1» یا «%2» نصب کرد."
+
+#: kio/KioFonts.cpp:212
+#, kde-format
+msgid ""
+"You cannot install a fonts package directly.\n"
+"Please extract %1, and install the components individually."
+msgstr ""
+"نمی‌توانید یک بستهٔ قلم را مستقیماً نصب کنید.\n"
+"لطفاً %1 را استخراج کرده و مؤلفه‌ها را به‌صورت جداگانه نصب کنید."
+
+#: kio/KioFonts.cpp:434
+#, kde-format
+msgid "Cannot copy fonts"
+msgstr "رونوشت‌برداری از قلم‌ها ممکن نیست"
+
+#: kio/KioFonts.cpp:439
+#, kde-format
+msgid "Cannot move fonts"
+msgstr "جابه‌جایی قلم‌ها ممکن نیست"
+
+#: kio/KioFonts.cpp:450
+#, kde-format
+msgid "Only fonts may be deleted."
+msgstr "تنها قلم‌ها را می‌توان حذف کرد."
+
+#: kio/KioFonts.cpp:455
+#, kde-format
+msgid "Can only remove fonts from either \"%1\" or \"%2\"."
+msgstr "تنها می‌توان قلم‌ها را از «%1» یا «%2» حذف کرد."
+
+#: kio/KioFonts.cpp:484
+#, kde-format
+msgid "Please specify \"%1\" or \"%2\"."
+msgstr "لطفاً «%1» یا «%2» را مشخص کنید."
+
+#: kio/KioFonts.cpp:502
+#, kde-format
+msgid "No special methods supported."
+msgstr "از هیچ روش ویژه‌ای پشتیبانی نمی‌شود."
+
+#: kio/KioFonts.cpp:576
+#, kde-format
+msgid "Fonts"
+msgstr "قلم‌ها"
+
+#: kio/KioFonts.cpp:705
+#, kde-format
+msgid "Failed to start the system daemon"
+msgstr "راه‌اندازی دیمن سامانه ناموفق بود"
+
+#: kio/KioFonts.cpp:707
+#, kde-format
+msgid "Backend died"
+msgstr "پسانه متوقف شد"
+
+#: kio/KioFonts.cpp:709
+#, kde-format
+msgid "%1 is a bitmap font, and these have been disabled on your system."
+msgstr ""
+"%1 یک قلم بیتی (bitmap) است و این قلم‌ها در سیستم شما غیرفعال شده‌اند."
+
+#: kio/KioFonts.cpp:712
+#, kde-format
+msgid ""
+"%1 contains the font <b>%2</b>, which is already installed on your system."
+msgstr "%1 شامل قلم <b>%2</b> است که هم‌اکنون روی سیستم شما نصب می‌باشد."
+
+#: kio/KioFonts.cpp:714
+#, kde-format
+msgid "%1 is not a font."
+msgstr "%1 یک قلم نیست."
+
+#: kio/KioFonts.cpp:716
+#, kde-format
+msgid "Could not remove all files associated with %1"
+msgstr "حذف تمام پرونده‌های مرتبط با %1 ممکن نشد"
+
+#: lib/Fc.cpp:407 lib/KfiConstants.h:108
+#, kde-format
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: lib/FcEngine.cpp:889
+#, kde-format
+msgctxt "First letter of the alphabet (in upper then lower case)"
+msgid "Aa"
+msgstr "آا"
+
+#: lib/FcEngine.cpp:892
+#, kde-format
+msgctxt ""
+"All letters of the alphabet (in upper/lower case pairs), followed by numbers"
+msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
+msgstr "آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی۰۱۲۳۴۵۶۷۸۹"
+
+#: lib/FcEngine.cpp:1054
+#, kde-format
+msgid "No characters found."
+msgstr "نویسه‌ای یافت نشد."
+
+#: lib/FcEngine.cpp:1092
+#, kde-format
+msgctxt "A sentence that uses all of the letters of the alphabet"
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr ""
+"جذبه آسمان ابری ظلمانی را، که با غرش و فریادش پرده حریر قلبم را و با طنازی "
+"ژاله‌هایش خرمن گلهای صنوبر و ثعلب را می‌لرزاند و چشمم را ضیایی، دوست دارم."
+
+#: lib/FcEngine.cpp:1097
+#, kde-format
+msgctxt "All of the letters of the alphabet, uppercase"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+msgstr "ابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی"
+
+#: lib/FcEngine.cpp:1102
+#, kde-format
+msgctxt "All of the letters of the alphabet, lowercase"
+msgid "abcdefghijklmnopqrstuvwxyz"
+msgstr "ابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی"
+
+#: lib/FcEngine.cpp:1107
+#, kde-format
+msgctxt "Numbers and characters"
+msgid "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
+msgstr "۰۱۲۳۴۵۶۷۸۹./\\<>؟«»:؛{}[]!٬٫﷼٪×،*()ـ+-=|"
+
+#: lib/FcEngine.cpp:1505
+#, kde-format
+msgid "ERROR: Could not determine font's name."
+msgstr "خطا: نام قلم را نتوانست تعیین کند."
+
+#: lib/FcEngine.cpp:1508
+#, kde-format
+msgid "%2 [1 pixel]"
+msgid_plural "%2 [%1 pixels]"
+msgstr[0] "%2 [۱ نقطه]"
+msgstr[1] "%2 [%1 نقطه]"
+
+#: lib/KfiConstants.h:22
+msgid "Personal"
+msgstr "شخصی"
+
+#: lib/KfiConstants.h:23
+msgid "System"
+msgstr "سیستم"
+
+#: lib/KfiConstants.h:24
+msgid "All"
+msgstr "همه"
+
+#: lib/KfiConstants.h:38
+msgid "Administrator"
+msgstr "سرپرست"
+
+#: lib/KfiConstants.h:75
+msgid "Thin"
+msgstr "نازک"
+
+#: lib/KfiConstants.h:76
+msgid "Extra Light"
+msgstr "خیلی سبک"
+
+#: lib/KfiConstants.h:77
+msgid "Ultra Light"
+msgstr "بیش از حد سبک"
+
+#: lib/KfiConstants.h:78
+msgid "Light"
+msgstr "سبک"
+
+#: lib/KfiConstants.h:79
+msgid "Regular"
+msgstr "منظم"
+
+#: lib/KfiConstants.h:80 lib/KfiConstants.h:98
+msgid "Normal"
+msgstr "عادی"
+
+#: lib/KfiConstants.h:81
+msgid "Medium"
+msgstr "متوسط"
+
+#: lib/KfiConstants.h:82
+msgid "Demi Bold"
+msgstr "نیم توپر"
+
+#: lib/KfiConstants.h:83
+msgid "Semi Bold"
+msgstr "نیمه توپر"
+
+#: lib/KfiConstants.h:84
+msgid "Bold"
+msgstr "توپر"
+
+#: lib/KfiConstants.h:85
+msgid "Extra Bold"
+msgstr "خیلی توپر"
+
+#: lib/KfiConstants.h:86
+msgid "Ultra Bold"
+msgstr "بیش از حد توپر"
+
+#: lib/KfiConstants.h:87
+msgid "Black"
+msgstr "سیاه"
+
+#: lib/KfiConstants.h:88
+msgid "Heavy"
+msgstr "سنگین"
+
+#: lib/KfiConstants.h:90
+msgid "Roman"
+msgstr "رومانی"
+
+#: lib/KfiConstants.h:91
+msgid "Italic"
+msgstr "کج"
+
+#: lib/KfiConstants.h:92
+msgid "Oblique"
+msgstr "مورب"
+
+#: lib/KfiConstants.h:94
+msgid "Ultra Condensed"
+msgstr "بیش از حد فشرده"
+
+#: lib/KfiConstants.h:95
+msgid "Extra Condensed"
+msgstr "خیلی فشرده"
+
+#: lib/KfiConstants.h:96
+msgid "Condensed"
+msgstr "فشرده"
+
+#: lib/KfiConstants.h:97
+msgid "Semi Condensed"
+msgstr "نیمه فشرده"
+
+#: lib/KfiConstants.h:99
+msgid "Semi Expanded"
+msgstr "نیمه گسترده"
+
+#: lib/KfiConstants.h:100
+msgid "Expanded"
+msgstr "گسترده"
+
+#: lib/KfiConstants.h:101
+msgid "Extra Expanded"
+msgstr "خیلی گسترده"
+
+#: lib/KfiConstants.h:102
+msgid "Ultra Expanded"
+msgstr "بیش از حد گسترده"
+
+#: lib/KfiConstants.h:104
+msgid "Monospaced"
+msgstr "هم‌عرض"
+
+#: lib/KfiConstants.h:105
+msgid "Charcell"
+msgstr "سلول نویسه‌ای"
+
+#: lib/KfiConstants.h:106
+msgid "Proportional"
+msgstr "متناسب"
+
+#: viewpart/CharTip.cpp:44
+#, kde-format
+msgid "Other, Control"
+msgstr "غیره، کنترل"
+
+#: viewpart/CharTip.cpp:46
+#, kde-format
+msgid "Other, Format"
+msgstr "غیره، قالب"
+
+#: viewpart/CharTip.cpp:48
+#, kde-format
+msgid "Other, Not Assigned"
+msgstr "غیره، بدون انتساب"
+
+#: viewpart/CharTip.cpp:50
+#, kde-format
+msgid "Other, Private Use"
+msgstr "غیره، استفاده خصوصی"
+
+#: viewpart/CharTip.cpp:52
+#, kde-format
+msgid "Other, Surrogate"
+msgstr "غیره، جانشین"
+
+#: viewpart/CharTip.cpp:54
+#, kde-format
+msgid "Letter, Lowercase"
+msgstr "غیره، حرف کوچک"
+
+#: viewpart/CharTip.cpp:56
+#, kde-format
+msgid "Letter, Modifier"
+msgstr "غیره، تغییردهنده"
+
+#: viewpart/CharTip.cpp:58
+#, kde-format
+msgid "Letter, Other"
+msgstr "حرف، غیره"
+
+#: viewpart/CharTip.cpp:60
+#, kde-format
+msgid "Letter, Titlecase"
+msgstr "حرف، کوچکی‌بزرگی عنوان"
+
+#: viewpart/CharTip.cpp:62
+#, kde-format
+msgid "Letter, Uppercase"
+msgstr "حرف، حرف بزرگ"
+
+#: viewpart/CharTip.cpp:64
+#, kde-format
+msgid "Mark, Spacing Combining"
+msgstr "نشان، فاصله‌گذاری ترکیبی"
+
+#: viewpart/CharTip.cpp:66
+#, kde-format
+msgid "Mark, Enclosing"
+msgstr "نشان، محصورگر"
+
+#: viewpart/CharTip.cpp:68
+#, kde-format
+msgid "Mark, Non-Spacing"
+msgstr "نشان، بدون فاصله‌گذاری"
+
+#: viewpart/CharTip.cpp:70
+#, kde-format
+msgid "Number, Decimal Digit"
+msgstr "عدد، رقم ده‌دهی"
+
+#: viewpart/CharTip.cpp:72
+#, kde-format
+msgid "Number, Letter"
+msgstr "عدد، حرف"
+
+#: viewpart/CharTip.cpp:74
+#, kde-format
+msgid "Number, Other"
+msgstr "عدد، غیره"
+
+#: viewpart/CharTip.cpp:76
+#, kde-format
+msgid "Punctuation, Connector"
+msgstr "نقطه‌گذاری، بست"
+
+#: viewpart/CharTip.cpp:78
+#, kde-format
+msgid "Punctuation, Dash"
+msgstr "نقطه‌گذاری، خط تیره"
+
+#: viewpart/CharTip.cpp:80
+#, kde-format
+msgid "Punctuation, Close"
+msgstr "نقطه‌گذاری، بستن"
+
+#: viewpart/CharTip.cpp:82
+#, kde-format
+msgid "Punctuation, Final Quote"
+msgstr "نقطه‌گذاری، نقل قول نهایی"
+
+#: viewpart/CharTip.cpp:84
+#, kde-format
+msgid "Punctuation, Initial Quote"
+msgstr "نقطه‌گذاری، نقل قول آغازین"
+
+#: viewpart/CharTip.cpp:86
+#, kde-format
+msgid "Punctuation, Other"
+msgstr "نقطه‌گذاری، غیره"
+
+#: viewpart/CharTip.cpp:88
+#, kde-format
+msgid "Punctuation, Open"
+msgstr "نقطه‌گذاری، باز کردن"
+
+#: viewpart/CharTip.cpp:90
+#, kde-format
+msgid "Symbol, Currency"
+msgstr "نماد، پول"
+
+#: viewpart/CharTip.cpp:92
+#, kde-format
+msgid "Symbol, Modifier"
+msgstr "نماد، تغییردهنده"
+
+#: viewpart/CharTip.cpp:94
+#, kde-format
+msgid "Symbol, Math"
+msgstr "نماد، ریاضی"
+
+#: viewpart/CharTip.cpp:96
+#, kde-format
+msgid "Symbol, Other"
+msgstr "نماد، غیره"
+
+#: viewpart/CharTip.cpp:98
+#, kde-format
+msgid "Separator, Line"
+msgstr "جداساز، خط"
+
+#: viewpart/CharTip.cpp:100
+#, kde-format
+msgid "Separator, Paragraph"
+msgstr "جداساز، بند"
+
+#: viewpart/CharTip.cpp:102
+#, kde-format
+msgid "Separator, Space"
+msgstr "جداساز، فاصله"
+
+#: viewpart/CharTip.cpp:152
+#, kde-format
+msgid "Category"
+msgstr "دسته"
+
+#: viewpart/CharTip.cpp:154
+#, kde-format
+msgid "UCS-4"
+msgstr "UCS-4"
+
+#: viewpart/CharTip.cpp:158
+#, kde-format
+msgid "UTF-16"
+msgstr "UTF-16"
+
+#: viewpart/CharTip.cpp:169
+#, kde-format
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#: viewpart/CharTip.cpp:186
+#, kde-format
+msgid "XML Decimal Entity"
+msgstr "مدخل ده‌دهی XML"
+
+#: viewpart/FontViewPart.cpp:90
+#, kde-format
+msgid "Show Face:"
+msgstr "نمایش چهره:"
+
+#: viewpart/FontViewPart.cpp:93
+#, kde-format
+msgid "Install…"
+msgstr "نصب…"
+
+#: viewpart/FontViewPart.cpp:114
+#, kde-format
+msgid "Change Text…"
+msgstr "تغییر متن…"
+
+#: viewpart/FontViewPart.cpp:337
+#, kde-format
+msgid "Could not read font."
+msgstr "نتوانست قلم را بخواند."
+
+#: viewpart/FontViewPart.cpp:395
+#, kde-format
+msgid "Preview String"
+msgstr "رشته پیش‌نمایش"
+
+#: viewpart/FontViewPart.cpp:395
+#, kde-format
+msgid "Please enter new string:"
+msgstr "لطفاً، رشته جدید را وارد کنید:"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: viewpart/kfontviewpart.rc:4
+#, kde-format
+msgid "&Main Toolbar"
+msgstr "نوار ابزار &اصلی"
+
+#: viewpart/PreviewSelectAction.cpp:15
+#, kde-format
+msgid "Preview Type"
+msgstr "نوع پیش‌نمایش"
+
+#: viewpart/PreviewSelectAction.cpp:33
+#, kde-format
+msgid "Standard Preview"
+msgstr "پیش‌نمایش استاندارد"
+
+#: viewpart/PreviewSelectAction.cpp:34
+#, kde-format
+msgid "All Characters"
+msgstr "همه نویسه‌ها"
+
+#: viewpart/PreviewSelectAction.cpp:42
+#, kde-format
+msgid "Unicode Block: %1"
+msgstr "بلوک یونیکد: %1"
+
+#: viewpart/PreviewSelectAction.cpp:46
+#, kde-format
+msgid "Unicode Script: %1"
+msgstr "دست‌نوشته یونیکد: %1"
+
+#: viewpart/UnicodeBlocks.h:17
+msgid "Basic Latin"
+msgstr "لاتین پایه"
+
+#: viewpart/UnicodeBlocks.h:18
+msgid "Latin-1 Supplement"
+msgstr "مکمل لاتین ۱"
+
+#: viewpart/UnicodeBlocks.h:19
+msgid "Latin Extended-A"
+msgstr "گسترده لاتین B"
+
+#: viewpart/UnicodeBlocks.h:20
+msgid "Latin Extended-B"
+msgstr "گسترده لاتین B"
+
+#: viewpart/UnicodeBlocks.h:21
+msgid "IPA Extensions"
+msgstr "پسوندهای IPA"
+
+#: viewpart/UnicodeBlocks.h:22
+msgid "Spacing Modifier Letters"
+msgstr "فاصله‌گذاری حروف تغییردهنده"
+
+#: viewpart/UnicodeBlocks.h:23
+msgid "Combining Diacritical Marks"
+msgstr "ترکیب نشانهای تشخیص"
+
+#: viewpart/UnicodeBlocks.h:24
+msgid "Greek and Coptic"
+msgstr "یونانی و قبطی"
+
+#: viewpart/UnicodeBlocks.h:25 viewpart/UnicodeScripts.h:29
+msgid "Cyrillic"
+msgstr "سریلی"
+
+#: viewpart/UnicodeBlocks.h:26
+msgid "Cyrillic Supplement"
+msgstr "مکمل سریلی"
+
+#: viewpart/UnicodeBlocks.h:27 viewpart/UnicodeScripts.h:16
+msgid "Armenian"
+msgstr "ارمنی"
+
+#: viewpart/UnicodeBlocks.h:28 viewpart/UnicodeScripts.h:42
+msgid "Hebrew"
+msgstr "عبری"
+
+#: viewpart/UnicodeBlocks.h:29 viewpart/UnicodeScripts.h:15
+msgid "Arabic"
+msgstr "عربی"
+
+#: viewpart/UnicodeBlocks.h:30 viewpart/UnicodeScripts.h:69
+msgid "Syriac"
+msgstr "سریانی"
+
+#: viewpart/UnicodeBlocks.h:31
+msgid "Arabic Supplement"
+msgstr "مکمل عربی"
+
+#: viewpart/UnicodeBlocks.h:32 viewpart/UnicodeScripts.h:75
+msgid "Thaana"
+msgstr "ثانا"
+
+#: viewpart/UnicodeBlocks.h:33
+msgid "NKo"
+msgstr "NKo"
+
+#: viewpart/UnicodeBlocks.h:34 viewpart/UnicodeScripts.h:31
+msgid "Devanagari"
+msgstr "دواناگری"
+
+#: viewpart/UnicodeBlocks.h:35 viewpart/UnicodeScripts.h:18
+msgid "Bengali"
+msgstr "بنگالی"
+
+#: viewpart/UnicodeBlocks.h:36 viewpart/UnicodeScripts.h:38
+msgid "Gurmukhi"
+msgstr "گورموخی"
+
+#: viewpart/UnicodeBlocks.h:37 viewpart/UnicodeScripts.h:37
+msgid "Gujarati"
+msgstr "گجراتی"
+
+#: viewpart/UnicodeBlocks.h:38 viewpart/UnicodeScripts.h:61
+msgid "Oriya"
+msgstr "اوریه‌ای"
+
+#: viewpart/UnicodeBlocks.h:39 viewpart/UnicodeScripts.h:73
+msgid "Tamil"
+msgstr "زبان تمیل"
+
+#: viewpart/UnicodeBlocks.h:40 viewpart/UnicodeScripts.h:74
+msgid "Telugu"
+msgstr "تلوگو"
+
+#: viewpart/UnicodeBlocks.h:41 viewpart/UnicodeScripts.h:45
+msgid "Kannada"
+msgstr "کناده"
+
+#: viewpart/UnicodeBlocks.h:42 viewpart/UnicodeScripts.h:53
+msgid "Malayalam"
+msgstr "مالایالام"
+
+#: viewpart/UnicodeBlocks.h:43 viewpart/UnicodeScripts.h:67
+msgid "Sinhala"
+msgstr "سینهالی"
+
+#: viewpart/UnicodeBlocks.h:44 viewpart/UnicodeScripts.h:76
+msgid "Thai"
+msgstr "تایلندی"
+
+#: viewpart/UnicodeBlocks.h:45 viewpart/UnicodeScripts.h:49
+msgid "Lao"
+msgstr "لائویی"
+
+#: viewpart/UnicodeBlocks.h:46 viewpart/UnicodeScripts.h:77
+msgid "Tibetan"
+msgstr "تبتی"
+
+#: viewpart/UnicodeBlocks.h:47 viewpart/UnicodeScripts.h:55
+msgid "Myanmar"
+msgstr "میانمار"
+
+#: viewpart/UnicodeBlocks.h:48 viewpart/UnicodeScripts.h:33
+msgid "Georgian"
+msgstr "گرجی"
+
+#: viewpart/UnicodeBlocks.h:49
+msgid "Hangul Jamo"
+msgstr "هانگول جامو"
+
+#: viewpart/UnicodeBlocks.h:50 viewpart/UnicodeScripts.h:32
+msgid "Ethiopic"
+msgstr "اتیوپیایی"
+
+#: viewpart/UnicodeBlocks.h:51
+msgid "Ethiopic Supplement"
+msgstr "مکمل اتیوپیایی"
+
+#: viewpart/UnicodeBlocks.h:52 viewpart/UnicodeScripts.h:24
+msgid "Cherokee"
+msgstr "چروکیایی"
+
+#: viewpart/UnicodeBlocks.h:53
+msgid "Unified Canadian Aboriginal Syllabics"
+msgstr "هجاهای بومی کانادایی یکی‌شده"
+
+#: viewpart/UnicodeBlocks.h:54 viewpart/UnicodeScripts.h:58
+msgid "Ogham"
+msgstr "اوگام"
+
+#: viewpart/UnicodeBlocks.h:55 viewpart/UnicodeScripts.h:65
+msgid "Runic"
+msgstr "رونی"
+
+#: viewpart/UnicodeBlocks.h:56 viewpart/UnicodeScripts.h:70
+msgid "Tagalog"
+msgstr "تاگالوگ"
+
+#: viewpart/UnicodeBlocks.h:57 viewpart/UnicodeScripts.h:41
+msgid "Hanunoo"
+msgstr "هانونو"
+
+#: viewpart/UnicodeBlocks.h:58 viewpart/UnicodeScripts.h:22
+msgid "Buhid"
+msgstr "بوهید"
+
+#: viewpart/UnicodeBlocks.h:59 viewpart/UnicodeScripts.h:71
+msgid "Tagbanwa"
+msgstr "تاگبانوا"
+
+#: viewpart/UnicodeBlocks.h:60 viewpart/UnicodeScripts.h:48
+msgid "Khmer"
+msgstr "خمر"
+
+#: viewpart/UnicodeBlocks.h:61 viewpart/UnicodeScripts.h:54
+msgid "Mongolian"
+msgstr "مغولی"
+
+#: viewpart/UnicodeBlocks.h:62 viewpart/UnicodeScripts.h:51
+msgid "Limbu"
+msgstr "لیمبو"
+
+#: viewpart/UnicodeBlocks.h:63 viewpart/UnicodeScripts.h:72
+msgid "Tai Le"
+msgstr "تای له"
+
+#: viewpart/UnicodeBlocks.h:64 viewpart/UnicodeScripts.h:56
+msgid "New Tai Lue"
+msgstr "تای لو جدید"
+
+#: viewpart/UnicodeBlocks.h:65
+msgid "Khmer Symbols"
+msgstr "نمادهای خمری"
+
+#: viewpart/UnicodeBlocks.h:66 viewpart/UnicodeScripts.h:21
+msgid "Buginese"
+msgstr "بوگیایی"
+
+#: viewpart/UnicodeBlocks.h:67 viewpart/UnicodeScripts.h:17
+msgid "Balinese"
+msgstr "بالیایی"
+
+#: viewpart/UnicodeBlocks.h:68
+msgid "Phonetic Extensions"
+msgstr "پسوندهای آوایی"
+
+#: viewpart/UnicodeBlocks.h:69
+msgid "Phonetic Extensions Supplement"
+msgstr "مکمل پسوندهای آوایی"
+
+#: viewpart/UnicodeBlocks.h:70
+msgid "Combining Diacritical Marks Supplement"
+msgstr "ترکیب مکمل نشانهای تشخیص"
+
+#: viewpart/UnicodeBlocks.h:71
+msgid "Latin Extended Additional"
+msgstr "گسترده لاتین اضافی"
+
+#: viewpart/UnicodeBlocks.h:72
+msgid "Greek Extended"
+msgstr "گسترده یونانی"
+
+#: viewpart/UnicodeBlocks.h:73
+msgid "General Punctuation"
+msgstr "نشانه‌گذاری عمومی"
+
+#: viewpart/UnicodeBlocks.h:74
+msgid "Superscripts and Subscripts"
+msgstr "بالانویس‌ها و زیرنویس‌ها"
+
+#: viewpart/UnicodeBlocks.h:75
+msgid "Currency Symbols"
+msgstr "نمادهای ارز"
+
+#: viewpart/UnicodeBlocks.h:76
+msgid "Combining Diacritical Marks for Symbols"
+msgstr "نشانه‌های تفکیک‌کنندهٔ ترکیبی برای نمادها"
+
+#: viewpart/UnicodeBlocks.h:77
+msgid "Letter-Like Symbols"
+msgstr "نمادهای حرف‌مانند"
+
+#: viewpart/UnicodeBlocks.h:78
+msgid "Number Forms"
+msgstr "شکل‌های عددی"
+
+#: viewpart/UnicodeBlocks.h:79
+msgid "Arrows"
+msgstr "پیکان‌ها"
+
+#: viewpart/UnicodeBlocks.h:80
+msgid "Mathematical Operators"
+msgstr "عملگرهای ریاضی"
+
+#: viewpart/UnicodeBlocks.h:81
+msgid "Miscellaneous Technical"
+msgstr "فنی متفرقه"
+
+#: viewpart/UnicodeBlocks.h:82
+msgid "Control Pictures"
+msgstr "تصاویر کنترلی"
+
+#: viewpart/UnicodeBlocks.h:83
+msgid "Optical Character Recognition"
+msgstr "بازشناسی نوری نویسه‌ها"
+
+#: viewpart/UnicodeBlocks.h:84
+msgid "Enclosed Alphanumerics"
+msgstr "حروف و اعداد محصور"
+
+#: viewpart/UnicodeBlocks.h:85
+msgid "Box Drawing"
+msgstr "رسم کادر"
+
+#: viewpart/UnicodeBlocks.h:86
+msgid "Block Elements"
+msgstr "عناصر بلوکی"
+
+#: viewpart/UnicodeBlocks.h:87
+msgid "Geometric Shapes"
+msgstr "شکل‌های هندسی"
+
+#: viewpart/UnicodeBlocks.h:88
+msgid "Miscellaneous Symbols"
+msgstr "نمادهای متفرقه"
+
+#: viewpart/UnicodeBlocks.h:89
+msgid "Dingbats"
+msgstr "دینگ‌بت‌ها"
+
+#: viewpart/UnicodeBlocks.h:90
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "نمادهای ریاضی متفرقه-A"
+
+#: viewpart/UnicodeBlocks.h:91
+msgid "Supplemental Arrows-A"
+msgstr "پیکان‌های تکمیلی-A"
+
+#: viewpart/UnicodeBlocks.h:92
+msgid "Braille Patterns"
+msgstr "الگوهای بریل"
+
+#: viewpart/UnicodeBlocks.h:93
+msgid "Supplemental Arrows-B"
+msgstr "پیکان‌های تکمیلی-B"
+
+#: viewpart/UnicodeBlocks.h:94
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "نمادهای ریاضی متفرقه-B"
+
+#: viewpart/UnicodeBlocks.h:95
+msgid "Supplemental Mathematical Operators"
+msgstr "عملگرهای ریاضی تکمیلی"
+
+#: viewpart/UnicodeBlocks.h:96
+msgid "Miscellaneous Symbols and Arrows"
+msgstr "نمادها و پیکان‌های متفرقه"
+
+#: viewpart/UnicodeBlocks.h:97 viewpart/UnicodeScripts.h:34
+msgid "Glagolitic"
+msgstr "گلاگولیتی"
+
+#: viewpart/UnicodeBlocks.h:98
+msgid "Latin Extended-C"
+msgstr "لاتین گسترش‌یافته-C"
+
+#: viewpart/UnicodeBlocks.h:99 viewpart/UnicodeScripts.h:26
+msgid "Coptic"
+msgstr "قبطی"
+
+#: viewpart/UnicodeBlocks.h:100
+msgid "Georgian Supplement"
+msgstr "مکمل گرجی"
+
+#: viewpart/UnicodeBlocks.h:101 viewpart/UnicodeScripts.h:78
+msgid "Tifinagh"
+msgstr "تیفیناغ"
+
+#: viewpart/UnicodeBlocks.h:102
+msgid "Ethiopic Extended"
+msgstr "اتیوپیایی گسترش‌یافته"
+
+#: viewpart/UnicodeBlocks.h:103
+msgid "Supplemental Punctuation"
+msgstr "علائم نگارشی تکمیلی"
+
+#: viewpart/UnicodeBlocks.h:104
+msgid "CJK Radicals Supplement"
+msgstr "مکمل ریشه‌های CJK"
+
+#: viewpart/UnicodeBlocks.h:105
+msgid "Kangxi Radicals"
+msgstr "ریشه‌های کانگ‌شی"
+
+#: viewpart/UnicodeBlocks.h:106
+msgid "Ideographic Description Characters"
+msgstr "نویسه‌های توصیف اندیشه‌نگاشت"
+
+#: viewpart/UnicodeBlocks.h:107
+msgid "CJK Symbols and Punctuation"
+msgstr "نمادها و علائم نگارشی CJK"
+
+#: viewpart/UnicodeBlocks.h:108 viewpart/UnicodeScripts.h:43
+msgid "Hiragana"
+msgstr "هیراگانا"
+
+#: viewpart/UnicodeBlocks.h:109 viewpart/UnicodeScripts.h:46
+msgid "Katakana"
+msgstr "کاتاکانا"
+
+#: viewpart/UnicodeBlocks.h:110 viewpart/UnicodeScripts.h:19
+msgid "Bopomofo"
+msgstr "بوپوموفو"
+
+#: viewpart/UnicodeBlocks.h:111
+msgid "Hangul Compatibility Jamo"
+msgstr "جاموی سازگاری هانگول"
+
+#: viewpart/UnicodeBlocks.h:112
+msgid "Kanbun"
+msgstr "کانبون"
+
+#: viewpart/UnicodeBlocks.h:113
+msgid "Bopomofo Extended"
+msgstr "بوپوموفو گسترش‌یافته"
+
+#: viewpart/UnicodeBlocks.h:114
+msgid "CJK Strokes"
+msgstr "قلم‌ضربه‌های CJK"
+
+#: viewpart/UnicodeBlocks.h:115
+msgid "Katakana Phonetic Extensions"
+msgstr "افزونه‌های آوایی کاتاکانا"
+
+#: viewpart/UnicodeBlocks.h:116
+msgid "Enclosed CJK Letters and Months"
+msgstr "حروف و ماه‌های محصور CJK"
+
+#: viewpart/UnicodeBlocks.h:117
+msgid "CJK Compatibility"
+msgstr "سازگاری CJK"
+
+#: viewpart/UnicodeBlocks.h:118
+msgid "CJK Unified Ideographs Extension A"
+msgstr "اندیشه‌نگاشت‌های یکپارچهٔ CJK افزونهٔ A"
+
+#: viewpart/UnicodeBlocks.h:119
+msgid "Yijing Hexagram Symbols"
+msgstr "نمادهای شش‌خطی یی‌جینگ"
+
+#: viewpart/UnicodeBlocks.h:120
+msgid "CJK Unified Ideographs"
+msgstr "اندیشه‌نگاشت‌های یکپارچهٔ CJK"
+
+#: viewpart/UnicodeBlocks.h:121
+msgid "Yi Syllables"
+msgstr "هجاهای یی"
+
+#: viewpart/UnicodeBlocks.h:122
+msgid "Yi Radicals"
+msgstr "ریشه‌های یی"
+
+#: viewpart/UnicodeBlocks.h:123
+msgid "Modifier Tone Letters"
+msgstr "حروف تغییردهندهٔ نواخت"
+
+#: viewpart/UnicodeBlocks.h:124
+msgid "Latin Extended-D"
+msgstr "لاتین گسترش‌یافته-D"
+
+#: viewpart/UnicodeBlocks.h:125 viewpart/UnicodeScripts.h:68
+msgid "Syloti Nagri"
+msgstr "سیلوتی ناگری"
+
+#: viewpart/UnicodeBlocks.h:126
+msgid "Phags-pa"
+msgstr "فاگس‌پا"
+
+#: viewpart/UnicodeBlocks.h:127
+msgid "Hangul Syllables"
+msgstr "هجاهای هانگول"
+
+#: viewpart/UnicodeBlocks.h:128
+msgid "High Surrogates"
+msgstr "جانشین‌های بالایی"
+
+#: viewpart/UnicodeBlocks.h:129
+msgid "High Private Use Surrogates"
+msgstr "جانشین‌های بالایی کاربرد اختصاصی"
+
+#: viewpart/UnicodeBlocks.h:130
+msgid "Low Surrogates"
+msgstr "جانشین‌های پایینی"
+
+#: viewpart/UnicodeBlocks.h:131
+msgid "Private Use Area"
+msgstr "ناحیهٔ کاربرد اختصاصی"
+
+#: viewpart/UnicodeBlocks.h:132
+msgid "CJK Compatibility Ideographs"
+msgstr "اندیشه‌نگاشت‌های سازگاری CJK"
+
+#: viewpart/UnicodeBlocks.h:133
+msgid "Alphabetic Presentation Forms"
+msgstr "شکل‌های نمایشی الفبایی"
+
+#: viewpart/UnicodeBlocks.h:134
+msgid "Arabic Presentation Forms-A"
+msgstr "شکل‌های نمایشی عربی-A"
+
+#: viewpart/UnicodeBlocks.h:135
+msgid "Variation Selectors"
+msgstr "انتخاب‌گرهای تنوع"
+
+#: viewpart/UnicodeBlocks.h:136
+msgid "Vertical Forms"
+msgstr "شکل‌های عمودی"
+
+#: viewpart/UnicodeBlocks.h:137
+msgid "Combining Half Marks"
+msgstr "نیم‌نشانه‌های ترکیبی"
+
+#: viewpart/UnicodeBlocks.h:138
+msgid "CJK Compatibility Forms"
+msgstr "شکل‌های سازگاری CJK"
+
+#: viewpart/UnicodeBlocks.h:139
+msgid "Small Form Variants"
+msgstr "گونه‌های شکل کوچک"
+
+#: viewpart/UnicodeBlocks.h:140
+msgid "Arabic Presentation Forms-B"
+msgstr "شکل‌های نمایشی عربی-B"
+
+#: viewpart/UnicodeBlocks.h:141
+msgid "Half-Width and Full-Width Forms"
+msgstr "شکل‌های نیم‌عرض و تمام‌عرض"
+
+#: viewpart/UnicodeBlocks.h:142
+msgid "Specials"
+msgstr "ویژه‌ها"
+
+#: viewpart/UnicodeBlocks.h:143
+msgid "Linear B Syllabary"
+msgstr "هجانگار خطی ب"
+
+#: viewpart/UnicodeBlocks.h:144
+msgid "Linear B Ideograms"
+msgstr "اندیشه‌نگاشت‌های خطی ب"
+
+#: viewpart/UnicodeBlocks.h:145
+msgid "Aegean Numbers"
+msgstr "اعداد اژه‌ای"
+
+#: viewpart/UnicodeBlocks.h:146
+msgid "Ancient Greek Numbers"
+msgstr "اعداد یونانی باستان"
+
+#: viewpart/UnicodeBlocks.h:147 viewpart/UnicodeScripts.h:59
+msgid "Old Italic"
+msgstr "ایتالیک باستان"
+
+#: viewpart/UnicodeBlocks.h:148 viewpart/UnicodeScripts.h:35
+msgid "Gothic"
+msgstr "گوتیک"
+
+#: viewpart/UnicodeBlocks.h:149 viewpart/UnicodeScripts.h:79
+msgid "Ugaritic"
+msgstr "اوگاریتی"
+
+#: viewpart/UnicodeBlocks.h:150 viewpart/UnicodeScripts.h:60
+msgid "Old Persian"
+msgstr "فارسی باستان"
+
+#: viewpart/UnicodeBlocks.h:151 viewpart/UnicodeScripts.h:30
+msgid "Deseret"
+msgstr "دزرت"
+
+#: viewpart/UnicodeBlocks.h:152 viewpart/UnicodeScripts.h:66
+msgid "Shavian"
+msgstr "شاوی"
+
+#: viewpart/UnicodeBlocks.h:153 viewpart/UnicodeScripts.h:62
+msgid "Osmanya"
+msgstr "عثمانیه"
+
+#: viewpart/UnicodeBlocks.h:154
+msgid "Cypriot Syllabary"
+msgstr "هجانگار قبرسی"
+
+#: viewpart/UnicodeBlocks.h:155 viewpart/UnicodeScripts.h:64
+msgid "Phoenician"
+msgstr "فنیقی"
+
+#: viewpart/UnicodeBlocks.h:156 viewpart/UnicodeScripts.h:47
+msgid "Kharoshthi"
+msgstr "خروشتی"
+
+#: viewpart/UnicodeBlocks.h:157 viewpart/UnicodeScripts.h:27
+msgid "Cuneiform"
+msgstr "میخی"
+
+#: viewpart/UnicodeBlocks.h:158
+msgid "Cuneiform Numbers and Punctuation"
+msgstr "اعداد و نشانه‌گذاری میخی"
+
+#: viewpart/UnicodeBlocks.h:159
+msgid "Byzantine Musical Symbols"
+msgstr "نمادهای موسیقی بیزانسی"
+
+#: viewpart/UnicodeBlocks.h:160
+msgid "Musical Symbols"
+msgstr "نمادهای موسیقی"
+
+#: viewpart/UnicodeBlocks.h:161
+msgid "Ancient Greek Musical Notation"
+msgstr "نشانه‌گذاری موسیقی یونان باستان"
+
+#: viewpart/UnicodeBlocks.h:162
+msgid "Tai Xuan Jing Symbols"
+msgstr "نمادهای تای ژوان جینگ"
+
+#: viewpart/UnicodeBlocks.h:163
+msgid "Counting Rod Numerals"
+msgstr "ارقام چوب‌خطی"
+
+#: viewpart/UnicodeBlocks.h:164
+msgid "Mathematical Alphanumeric Symbols"
+msgstr "نمادهای الفبایی‌عددی ریاضی"
+
+#: viewpart/UnicodeBlocks.h:165
+msgid "CJK Unified Ideographs Extension B"
+msgstr "ایده‌نگاشت‌های یکپارچهٔ CJK افزونهٔ B"
+
+#: viewpart/UnicodeBlocks.h:166
+msgid "CJK Compatibility Ideographs Supplement"
+msgstr "مکمل ایده‌نگاشت‌های سازگاری CJK"
+
+#: viewpart/UnicodeBlocks.h:167
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: viewpart/UnicodeBlocks.h:168
+msgid "Variation Selectors Supplement"
+msgstr "مکمل گزینش‌گرهای گونه"
+
+#: viewpart/UnicodeBlocks.h:169
+msgid "Supplementary Private Use Area-A"
+msgstr "ناحیهٔ استفادهٔ خصوصی مکمل-A"
+
+#: viewpart/UnicodeBlocks.h:170
+msgid "Supplementary Private Use Area-B"
+msgstr "ناحیهٔ استفادهٔ خصوصی مکمل-B"
+
+#: viewpart/UnicodeScripts.h:20
+msgid "Braille"
+msgstr "بریل"
+
+#: viewpart/UnicodeScripts.h:23
+msgid "Canadian Aboriginal"
+msgstr "بومیان کانادا"
+
+#: viewpart/UnicodeScripts.h:25
+msgid "Common"
+msgstr "مشترک"
+
+#: viewpart/UnicodeScripts.h:28
+msgid "Cypriot"
+msgstr "قبرسی"
+
+#: viewpart/UnicodeScripts.h:36
+msgid "Greek"
+msgstr "یونانی"
+
+#: viewpart/UnicodeScripts.h:39
+msgid "Han"
+msgstr "هان"
+
+#: viewpart/UnicodeScripts.h:40
+msgid "Hangul"
+msgstr "هانگول"
+
+#: viewpart/UnicodeScripts.h:44
+msgid "Inherited"
+msgstr "موروثی"
+
+#: viewpart/UnicodeScripts.h:50
+msgid "Latin"
+msgstr "لاتین"
+
+#: viewpart/UnicodeScripts.h:52
+msgid "Linear B"
+msgstr "خطی ب"
+
+#: viewpart/UnicodeScripts.h:57
+msgid "Nko"
+msgstr "ان‌کو"
+
+#: viewpart/UnicodeScripts.h:63
+msgid "Phags Pa"
+msgstr "فاگزپا"
+
+#: viewpart/UnicodeScripts.h:80
+msgid "Yi"
+msgstr "یی"

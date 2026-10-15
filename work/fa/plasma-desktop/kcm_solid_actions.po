@@ -1,0 +1,265 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Mohammad Reza Mirdamadi <mohi@linuxshop.ir>, 2012, 2013.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-31 00:46+0000\n"
+"PO-Revision-Date: 2026-10-15 05:57+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: ActionEditor.cpp:60
+#, kde-format
+msgid "Editing Action '%1'"
+msgstr "ویرایش کنش «%1»"
+
+#: ActionEditor.cpp:162
+#, kde-format
+msgid ""
+"It appears that the action name, command, icon or condition are not valid.\n"
+"Therefore, changes will not be applied."
+msgstr ""
+"به نظر می‌رسد نام کنش، فرمان، شمایل یا شرط معتبر نیستند.\n"
+"بنابراین، تغییرات اعمال نخواهند شد."
+
+#: ActionEditor.cpp:163
+#, kde-format
+msgid "Invalid action"
+msgstr "کنش نامعتبر"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GbParameter)
+#: ActionEditor.ui:17
+#, kde-format
+msgid "Edit Parameter"
+msgstr "ویرایش پارامتر"
+
+#. i18n: ectx: property (text), widget (QLabel, LblParameterType)
+#: ActionEditor.ui:43
+#, kde-format
+msgid "Parameter type:"
+msgstr "نوع پارامتر:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#: ActionEditor.ui:51
+#, kde-format
+msgid "Property Match"
+msgstr "تطابق ویژگی"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#: ActionEditor.ui:56
+#, kde-format
+msgid "Content Conjunction"
+msgstr "عطف محتوا"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#: ActionEditor.ui:61
+#, kde-format
+msgid "Content Disjunction"
+msgstr "فصل محتوا"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#: ActionEditor.ui:66
+#, kde-format
+msgid "Device Interface Match"
+msgstr "تطابق واسط دستگاه"
+
+#. i18n: ectx: property (text), widget (QLabel, LblDeviceType)
+#: ActionEditor.ui:96
+#, kde-format
+msgid "Device type:"
+msgstr "نوع دستگاه:"
+
+#. i18n: ectx: property (text), widget (QLabel, LblValueName)
+#: ActionEditor.ui:135
+#, kde-format
+msgid "Value name:"
+msgstr "نام مقدار:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbValueMatch)
+#: ActionEditor.ui:175
+#, kde-format
+msgid "Equals"
+msgstr "برابر با"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbValueMatch)
+#: ActionEditor.ui:180
+#, kde-format
+msgid "Contains"
+msgstr "شامل"
+
+#. i18n: ectx: property (text), widget (QPushButton, PbParameterReset)
+#: ActionEditor.ui:208
+#, kde-format
+msgid "Reset Parameter"
+msgstr "بازنشانی پارامتر"
+
+#. i18n: ectx: property (text), widget (QPushButton, PbParameterSave)
+#: ActionEditor.ui:215
+#, kde-format
+msgid "Save Parameter Changes"
+msgstr "ذخیرهٔ تغییرات پارامتر"
+
+#. i18n: ectx: property (toolTip), widget (KIconButton, IbActionIcon)
+#: ActionEditor.ui:247
+#, kde-format
+msgid "Action icon, click to change it"
+msgstr "شمایل کنش، برای تغییر آن کلیک کنید"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, LeActionFriendlyName)
+#: ActionEditor.ui:254
+#, kde-format
+msgid "Action name"
+msgstr "نام کنش"
+
+#. i18n: ectx: property (text), widget (QLabel, TlActionCommand)
+#: ActionEditor.ui:271
+#, kde-format
+msgid "Command: "
+msgstr "فرمان: "
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, LeActionCommand)
+#: ActionEditor.ui:283
+#, no-c-format, kde-format
+msgid ""
+"Command that will trigger the action\n"
+"This can include any or all of the following case insensitive expands:\n"
+"\n"
+"%f: The mountpoint for the device - Storage Access devices only\n"
+"%d: Path to the device node - Block devices only\n"
+"%i: The identifier of the device"
+msgstr ""
+"فرمانی که کنش را فعال می‌کند\n"
+"این می‌تواند شامل هر یک یا همهٔ بسط‌های ناوابسته به بزرگی و کوچکی حروف زیر باشد:\n"
+"\n"
+"%f: نقطهٔ اتصال دستگاه - فقط دستگاه‌های دسترسی به فضای ذخیره‌سازی\n"
+"%d: مسیر گره دستگاه - فقط دستگاه‌های بلوکی\n"
+"%i: شناسهٔ دستگاه"
+
+#. i18n: ectx: property (text), widget (QLabel, TlPredicateTree)
+#: ActionEditor.ui:300
+#, kde-format
+msgid "Devices must match the following parameters for this action:"
+msgstr "دستگاه‌ها برای این کنش باید با پارامترهای زیر تطابق داشته باشند:"
+
+#. i18n: ectx: property (text), widget (QLabel, LblActionName)
+#: AddAction.ui:19
+#, kde-format
+msgid "Action name:"
+msgstr "نام کنش:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, LeActionName)
+#: AddAction.ui:26
+#, kde-format
+msgid "Enter the name for your new action"
+msgstr "نام کنش جدید خود را وارد کنید"
+
+#: DesktopFileGenerator.cpp:25
+#, kde-format
+msgid "Solid Action Desktop File Generator"
+msgstr "تولیدکنندهٔ پروندهٔ میزکار کنش Solid"
+
+#: DesktopFileGenerator.cpp:27
+#, kde-format
+msgid ""
+"Tool to automatically generate Desktop Files from Solid DeviceInterface "
+"classes for translation"
+msgstr ""
+"ابزاری برای تولید خودکار پرونده‌های میزکار از کلاس‌های DeviceInterface سالید"
+" برای ترجمه"
+
+#: DesktopFileGenerator.cpp:29
+#, kde-format
+msgid "(c) 2009, Ben Cooksley"
+msgstr "(c) ۲۰۰۹، بن کوکسلی"
+
+#: DesktopFileGenerator.cpp:30
+#, kde-format
+msgid "Ben Cooksley"
+msgstr "بن کوکسلی"
+
+#: DesktopFileGenerator.cpp:30
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: PredicateItem.cpp:119
+#, kde-format
+msgid "The device must be of the type %1"
+msgstr "دستگاه باید از نوع %1 باشد"
+
+#: PredicateItem.cpp:122
+#, kde-format
+msgid "Any of the contained properties must match"
+msgstr "هر یک از ویژگی‌های موجود باید هم‌خوانی داشته باشد"
+
+#: PredicateItem.cpp:125
+#, kde-format
+msgid "All of the contained properties must match"
+msgstr "همهٔ ویژگی‌های موجود باید هم‌خوانی داشته باشند"
+
+#: PredicateItem.cpp:134
+#, kde-format
+msgid "The device property %1 must equal %2"
+msgstr "ویژگی %1 دستگاه باید برابر با %2 باشد"
+
+#: PredicateItem.cpp:137
+#, kde-format
+msgid "The device property %1 must contain %2"
+msgstr "ویژگی %1 دستگاه باید شامل %2 باشد"
+
+#: SolidActions.cpp:139
+#, kde-format
+msgid "It appears that the predicate for this action is not valid."
+msgstr "به نظر می‌رسد گزارهٔ این کنش معتبر نیست."
+
+#: SolidActions.cpp:139
+#, kde-format
+msgid "Error Parsing Device Conditions"
+msgstr "خطا در تجزیهٔ شرایط دستگاه"
+
+#: SolidActions.cpp:187
+#, kde-format
+msgid "No Action Selected"
+msgstr "هیچ کنشی انتخاب نشده است"
+
+#: SolidActions.cpp:208
+#, kde-format
+msgid "Cannot be deleted"
+msgstr "قابل حذف نیست"
+
+#. i18n: ectx: property (text), widget (QPushButton, PbDeleteAction)
+#: SolidActions.ui:22
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#. i18n: ectx: property (text), widget (QPushButton, PbEditAction)
+#: SolidActions.ui:29
+#, kde-format
+msgid "Edit…"
+msgstr "ویرایش…"
+
+#. i18n: ectx: property (text), widget (QPushButton, PbAddAction)
+#: SolidActions.ui:36
+#, kde-format
+msgid "Add…"
+msgstr "افزودن…"

@@ -1,0 +1,282 @@
+# translation of kcm_autostart.po to Persian
+# Saied Taghavi <s.taghavi@gmail.com>, 2008.
+# vahid fazl <vahid.fazl2000@gmail.com>, 2011.
+# Mohamad Reza Mirdamadi <mohi@linuxshop.ir>, 2011.
+# ehsan <ehsan.abdolahy@gmail.com>, 2016.
+# Mohi Mirdamadi <mohi@ubuntu.ir>, ۲۰۱۶.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-21 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 03:33+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: autostartmodel.cpp:378
+#, kde-format
+msgid "\"%1\" is not an absolute url."
+msgstr "«%1» یک نشانی اینترنتی مطلق نیست."
+
+#: autostartmodel.cpp:381
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "«%1» وجود ندارد."
+
+#: autostartmodel.cpp:384
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "«%1» یک پرونده نیست."
+
+#: autostartmodel.cpp:387
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr "«%1» خواندنی نیست."
+
+#: ui/entry.qml:30
+#, kde-format
+msgctxt "@label Stop the Systemd unit for a running process"
+msgid "Stop"
+msgstr "توقف"
+
+#: ui/entry.qml:31
+#, kde-format
+msgctxt "@label Start the Systemd unit for a currently inactive process"
+msgid "Start"
+msgstr "شروع"
+
+#: ui/entry.qml:71
+#, kde-format
+msgctxt ""
+"@label The name of a Systemd unit for an app or script that will autostart"
+msgid "Name:"
+msgstr "نام:"
+
+#: ui/entry.qml:77
+#, kde-format
+msgctxt ""
+"@label The current status (e.g. active or inactive) of a Systemd unit for an"
+" app or script that will autostart"
+msgid "Status:"
+msgstr "وضعیت:"
+
+#: ui/entry.qml:83
+#, kde-format
+msgctxt ""
+"@label A date and time follows this text, making a sentence like 'Last "
+"activated on: August 7th 11 PM 2023'"
+msgid "Last activated on:"
+msgstr "آخرین فعال‌سازی در:"
+
+#: ui/entry.qml:114
+#, kde-format
+msgid "Unable to load logs. Try refreshing."
+msgstr "بارگذاری گزارش‌ها ممکن نیست. تازه‌سازی را امتحان کنید."
+
+#: ui/entry.qml:118
+#, kde-format
+msgctxt "@action:button Refresh entry logs when it failed to load"
+msgid "Refresh"
+msgstr "تازه‌سازی"
+
+#: ui/main.qml:35
+#, kde-format
+msgid "Make Executable"
+msgstr "قابل اجرا کردن"
+
+#: ui/main.qml:55
+#, kde-format
+msgid "The file '%1' must be executable to run at logout."
+msgstr "پروندهٔ «%1» باید قابل اجرا باشد تا هنگام خروج از نشست اجرا شود."
+
+#: ui/main.qml:57
+#, kde-format
+msgid "The file '%1' must be executable to run at login."
+msgstr "پروندهٔ «%1» باید قابل اجرا باشد تا هنگام ورود اجرا شود."
+
+#: ui/main.qml:68
+#, kde-format
+msgctxt "@action:button menu button; add new application etc"
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: ui/main.qml:69
+#, kde-format
+msgctxt "@title:menu accessible menu button"
+msgid "Add new application or script"
+msgstr "افزودن برنامه یا اسکریپت جدید"
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@action:inmenu completes: add new application"
+msgid "Application…"
+msgstr "برنامه…"
+
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@action:inmenu accessible"
+msgid "Add application"
+msgstr "افزودن برنامه"
+
+#: ui/main.qml:79
+#, kde-format
+msgctxt "@action:inmenu completes: add new login script"
+msgid "Login Script…"
+msgstr "اسکریپت ورود…"
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "@action:inmenu accessible"
+msgid "Add login script"
+msgstr "افزودن اسکریپت ورود"
+
+#: ui/main.qml:85
+#, kde-format
+msgctxt "@action:inmenu completes: add new logout script"
+msgid "Logout Script…"
+msgstr "اسکریپت خروج…"
+
+#: ui/main.qml:87
+#, kde-format
+msgctxt "@action:inmenu accessible"
+msgid "Add logout script"
+msgstr "افزودن اسکریپت خروج"
+
+#: ui/main.qml:121
+#, kde-format
+msgid ""
+"%1 has not been autostarted yet. Details will be available after the system "
+"is restarted."
+msgstr ""
+"%1 هنوز به‌طور خودکار آغاز نشده است. جزئیات پس از راه‌اندازی مجدد سامانه در "
+"دسترس خواهد بود."
+
+#: ui/main.qml:133
+#, kde-format
+msgctxt "@action:button"
+msgid "Disable autostart for %1"
+msgstr "غیرفعال‌سازی آغاز خودکار برای %1"
+
+#: ui/main.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable autostart for %1"
+msgstr "فعال‌سازی آغاز خودکار برای %1"
+
+#: ui/main.qml:137
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Disable autostart"
+msgstr "غیرفعال‌سازی آغاز خودکار"
+
+#: ui/main.qml:138
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable autostart"
+msgstr "فعال‌سازی آغاز خودکار"
+
+#: ui/main.qml:159
+#, kde-format
+msgctxt ""
+"@label Entry hasn't been autostarted because system hasn't been restarted"
+msgid "Not autostarted yet"
+msgstr "هنوز به‌طور خودکار آغاز نشده است"
+
+#: ui/main.qml:168
+#, kde-format
+msgctxt "@action:button"
+msgid "See properties"
+msgstr "مشاهدهٔ ویژگی‌ها"
+
+#: ui/main.qml:179
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove entry"
+msgstr "حذف ورودی"
+
+#: ui/main.qml:195
+#, kde-format
+msgid "Applications"
+msgstr "برنامه‌ها"
+
+#: ui/main.qml:198
+#, kde-format
+msgid "Login Scripts"
+msgstr "اسکریپت‌های ورود"
+
+#: ui/main.qml:201
+#, kde-format
+msgid "Pre-startup Scripts"
+msgstr "اسکریپت‌های پیش از آغاز"
+
+#: ui/main.qml:204
+#, kde-format
+msgid "Logout Scripts"
+msgstr "اسکریپت‌های خروج"
+
+#: ui/main.qml:213
+#, kde-format
+msgid "No user-specified autostart items"
+msgstr "هیچ مورد آغاز خودکاری توسط کاربر تعیین نشده است"
+
+#: ui/main.qml:214
+#, kde-kuit-format
+msgctxt "@info 'some' refers to autostart items"
+msgid "Click the <interface>Add New</interface> button to add some"
+msgstr "برای افزودن، روی دکمهٔ <interface>افزودن جدید</interface> کلیک کنید"
+
+#: ui/main.qml:229
+#, kde-format
+msgid "Choose Login Script"
+msgstr "انتخاب اسکریپت ورود"
+
+#: ui/main.qml:249
+#, kde-format
+msgid "Choose Logout Script"
+msgstr "انتخاب اسکریپت خروج"
+
+#: unit.cpp:26
+#, kde-format
+msgctxt "@label Entry is running right now"
+msgid "Running"
+msgstr "در حال اجرا"
+
+#: unit.cpp:27
+#, kde-format
+msgctxt "@label Entry is not running right now (exited without error)"
+msgid "Not running"
+msgstr "در حال اجرا نیست"
+
+#: unit.cpp:28
+#, kde-format
+msgctxt "@label Entry is being started"
+msgid "Starting"
+msgstr "در حال آغاز"
+
+#: unit.cpp:29
+#, kde-format
+msgctxt "@label Entry is being stopped"
+msgid "Stopping"
+msgstr "در حال توقف"
+
+#: unit.cpp:30
+#, kde-format
+msgctxt "@label Entry has failed (exited with an error)"
+msgid "Failed"
+msgstr "ناموفق"
+
+#: unit.cpp:81
+#, kde-format
+msgid "Error occurred when receiving reply of GetAll call %1"
+msgstr "هنگام دریافت پاسخ فراخوانی GetAll خطایی رخ داد: %1"
+
+#: unit.cpp:153
+#, kde-format
+msgid "Failed to open journal"
+msgstr "باز کردن ژورنال ناموفق بود"

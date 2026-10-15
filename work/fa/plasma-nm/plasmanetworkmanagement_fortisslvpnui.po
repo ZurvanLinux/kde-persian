@@ -1,0 +1,141 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasmanetworkmanagement_fortisslvpnui package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmanetworkmanagement_fortisslvpnui\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-10-15 08:22+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: kde-persian-pipeline (claude-opus-4-6)\n"
+
+#. i18n: ectx: property (text), widget (QPushButton, advancedButton)
+#: fortisslvpn.ui:36
+#, kde-format
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#. i18n: ectx: property (title), widget (QGroupBox, generalGroupBox)
+#: fortisslvpn.ui:56
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#. i18n: ectx: property (text), widget (QLabel, gatewayLabel)
+#: fortisslvpn.ui:64
+#, kde-format
+msgid "Gateway:"
+msgstr "دروازه:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, gateway)
+#: fortisslvpn.ui:74
+#, kde-format
+msgid "SSLVPN server IP or name."
+msgstr "نشانی IP یا نام کارساز SSLVPN."
+
+#. i18n: ectx: property (title), widget (QGroupBox, authenticationGroupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: fortisslvpn.ui:86 fortisslvpnadvanced.ui:35
+#, kde-format
+msgid "Authentication"
+msgstr "احراز هویت"
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: fortisslvpn.ui:92
+#, kde-format
+msgid "User name:"
+msgstr "نام کاربری:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, username)
+#: fortisslvpn.ui:102
+#, kde-format
+msgid ""
+"Set the name used for authenticating the local system to the peer to <name>."
+msgstr ""
+"تنظیم نام استفاده‌شده برای احراز هویت سامانهٔ محلی نزد همتا روی <name>."
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: fortisslvpn.ui:109 fortisslvpnauth.ui:26
+#, kde-format
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#. i18n: ectx: property (toolTip), widget (PasswordField, password)
+#: fortisslvpn.ui:119
+#, kde-format
+msgid "Password passed to SSLVPN when prompted for it."
+msgstr "گذرواژه‌ای که هنگام درخواست به SSLVPN ارسال می‌شود."
+
+#. i18n: ectx: property (text), widget (QLabel, caCertLabel)
+#: fortisslvpn.ui:129
+#, kde-format
+msgid "CA Certificate:"
+msgstr "گواهی CA:"
+
+#. i18n: ectx: property (text), widget (QLabel, userCertLabel)
+#: fortisslvpn.ui:142
+#, kde-format
+msgid "User Certificate:"
+msgstr "گواهی کاربر:"
+
+#. i18n: ectx: property (text), widget (QLabel, userKeyLabel)
+#: fortisslvpn.ui:155
+#, kde-format
+msgid "User Key:"
+msgstr "کلید کاربر:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, otp)
+#: fortisslvpnadvanced.ui:43
+#, kde-format
+msgid "Use a One-Time Password"
+msgstr "استفاده از گذرواژهٔ یک‌بارمصرف"
+
+#. i18n: ectx: property (text), widget (QCheckBox, tfa)
+#: fortisslvpnadvanced.ui:50
+#, kde-format
+msgid "2FA"
+msgstr "احراز هویت دوعاملی"
+
+#. i18n: ectx: property (text), widget (QLabel, realmLabel)
+#: fortisslvpnadvanced.ui:68
+#, kde-format
+msgid "Realm:"
+msgstr "قلمرو:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: fortisslvpnadvanced.ui:87
+#, kde-format
+msgid "Security"
+msgstr "امنیت"
+
+#. i18n: ectx: property (text), widget (QLabel, trustedCertLabel)
+#: fortisslvpnadvanced.ui:93
+#, kde-format
+msgid "Trusted certificate:"
+msgstr "گواهی مورد اعتماد:"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, trustedCert)
+#: fortisslvpnadvanced.ui:106
+#, kde-format
+msgid "0123456789abcdef0123456789abcdef0123456789abcdef0123456789"
+msgstr "0123456789abcdef0123456789abcdef0123456789abcdef0123456789"
+
+#. i18n: ectx: property (text), widget (QLabel, labelOtp)
+#: fortisslvpnauth.ui:61
+#, kde-format
+msgid "One Time Password"
+msgstr "گذرواژهٔ یک‌بارمصرف"
+
+#. i18n: ectx: property (text), widget (QLabel, otpLabel)
+#: fortisslvpnauth.ui:68
+#, kde-format
+msgid "Token:"
+msgstr "توکن:"

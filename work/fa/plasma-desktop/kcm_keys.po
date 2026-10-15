@@ -1,0 +1,530 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_keys package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_keys\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-22 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 05:48+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: basemodel.cpp:158
+#, kde-format
+msgctxt "@title:group Launch app"
+msgid "Launch"
+msgstr "راه‌اندازی"
+
+#: basemodel.cpp:191
+#, kde-format
+msgctxt "@item:intable"
+msgid "Window Management"
+msgstr "مدیریت پنجره"
+
+#: basemodel.cpp:194
+#, kde-format
+msgctxt "@item:intable"
+msgid "Plasma Workspace"
+msgstr "فضای کاری پلاسما"
+
+#: globalaccelmodel.cpp:281
+#, kde-format
+msgctxt ""
+"%1 is the name of the component, %2 is the action for which saving failed"
+msgid "Error while saving shortcut %1: %2"
+msgstr "خطا هنگام ذخیرهٔ میانبر %1: %2"
+
+#: globalaccelmodel.cpp:395
+#, kde-format
+msgctxt "%1 is the name of an application"
+msgid "Error while adding %1, it seems it has no actions."
+msgstr "خطا هنگام افزودن %1، به نظر می‌رسد هیچ کنشی ندارد."
+
+#: globalaccelmodel.cpp:469
+#, kde-format
+msgid "Error while communicating with the global shortcuts service"
+msgstr "خطا هنگام ارتباط با سرویس میانبرهای سراسری"
+
+#: kcm_keys.cpp:56
+#, kde-format
+msgid "Failed to communicate with global shortcuts daemon"
+msgstr "شکست در برقراری ارتباط با دیمون میانبرهای سراسری"
+
+#: kcm_keys.cpp:380
+#, kde-kuit-format
+msgctxt ""
+"@info %2 is the name of a category inside the 'Common Actions' section"
+msgid ""
+"Shortcut <shortcut>%1</shortcut> is already assigned to the common %2 action"
+" <interface>%3</interface>.<nl/><nl/>Re-assign it to %4?"
+msgstr ""
+"میانبر <shortcut>%1</shortcut> از پیش به کنش مشترک %2 "
+"<interface>%3</interface> اختصاص یافته است.<nl/><nl/>به %4 تخصیص مجدد داده "
+"شود؟"
+
+#: kcm_keys.cpp:386
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Shortcut <shortcut>%1</shortcut> is already assigned to action "
+"<interface>%2</interface> of "
+"<application>%3</application>.<nl/><nl/>Reassign it to action "
+"<interface>%4</interface> of <application>%5</application>?"
+msgstr ""
+"میانبر <shortcut>%1</shortcut> از پیش به کنش <interface>%2</interface> از "
+"<application>%3</application> اختصاص یافته است.<nl/><nl/>به کنش "
+"<interface>%4</interface> از <application>%5</application> تخصیص مجدد داده "
+"شود؟"
+
+#: kcm_keys.cpp:396
+#, kde-format
+msgctxt "@title:window"
+msgid "Resolve Shortcut Conflict"
+msgstr "حل تداخل میانبر"
+
+#: kcm_keys.cpp:406
+#, kde-format
+msgctxt "@action:button"
+msgid "Reassign"
+msgstr "تخصیص مجدد"
+
+#: standardshortcutsmodel.cpp:34
+#, kde-format
+msgid "File"
+msgstr "پرونده"
+
+#: standardshortcutsmodel.cpp:35
+#, kde-format
+msgid "Edit"
+msgstr "ویرایش"
+
+#: standardshortcutsmodel.cpp:37
+#, kde-format
+msgid "Navigation"
+msgstr "ناوبری"
+
+#: standardshortcutsmodel.cpp:38
+#, kde-format
+msgid "View"
+msgstr "نما"
+
+#: standardshortcutsmodel.cpp:39
+#, kde-format
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: standardshortcutsmodel.cpp:40
+#, kde-format
+msgid "Help"
+msgstr "راهنما"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Applications"
+msgstr "برنامه‌ها"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Commands"
+msgstr "فرمان‌ها"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "System Services"
+msgstr "خدمات سامانه"
+
+#: ui/main.qml:27
+#, kde-format
+msgctxt "@title:group list section name"
+msgid "Common Actions"
+msgstr "کنش‌های مشترک"
+
+#: ui/main.qml:43
+#, kde-format
+msgctxt "@action:button Import shortcut scheme"
+msgid "Import…"
+msgstr "درون‌ریزی…"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Import shortcut scheme"
+msgstr "درون‌ریزی طرح میانبر"
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel Export"
+msgstr "لغو برون‌ریزی"
+
+#: ui/main.qml:50
+#, kde-format
+msgctxt "@action:button Export shortcut scheme"
+msgid "Export…"
+msgstr "برون‌ریزی…"
+
+#: ui/main.qml:53 ui/main.qml:128
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Export shortcut scheme"
+msgstr "برون‌ریزی طرح میانبر"
+
+#: ui/main.qml:66
+#, kde-format
+msgctxt "@action:button Add new shortcut"
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: ui/main.qml:74
+#, kde-format
+msgctxt "@action:menu End of the sentence 'Add New Application…'"
+msgid "Application…"
+msgstr "برنامه…"
+
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@action:menu accessible"
+msgid "Add new application"
+msgstr "افزودن برنامهٔ جدید"
+
+#: ui/main.qml:82
+#, kde-format
+msgctxt "@action:menu End of the sentence 'Add New Command or Script…'"
+msgid "Command or Script…"
+msgstr "فرمان یا اسکریپت…"
+
+#: ui/main.qml:83
+#, kde-format
+msgctxt "@action:menu accessible"
+msgid "Add new command or script"
+msgstr "افزودن فرمان یا اسکریپت جدید"
+
+#: ui/main.qml:107
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Cannot export scheme while there are unsaved changes"
+msgstr ""
+"تا زمانی که تغییرات ذخیره‌نشده وجود دارد، نمی‌توان طرح را برون‌ریزی کرد"
+
+#: ui/main.qml:120
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Select the components below that should be included in the exported scheme"
+msgstr "اجزای زیر را که باید در طرح برون‌ریزی‌شده گنجانده شوند انتخاب کنید"
+
+#: ui/main.qml:127
+#, kde-format
+msgctxt "@action:button Export shortcut scheme"
+msgid "Export"
+msgstr "برون‌ریزی"
+
+#: ui/main.qml:229
+#, kde-format
+msgctxt ""
+"@option:check accessible export shortcuts %1 is application/group name"
+msgid "Export %1"
+msgstr "برون‌ریزی %1"
+
+#: ui/main.qml:239
+#, kde-format
+msgctxt "@action:button %1 is the name of a custom command"
+msgid "Edit command for %1"
+msgstr "ویرایش فرمان برای %1"
+
+#: ui/main.qml:268
+#, kde-format
+msgctxt "@action:button %1 is the name of a shortcut category"
+msgid "Remove all shortcuts for %1"
+msgstr "حذف همهٔ میانبرها برای %1"
+
+#: ui/main.qml:290
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo deletion"
+msgstr "واگردانی حذف"
+
+#: ui/main.qml:357
+#, kde-format
+msgctxt "@info:status placeholdermessage"
+msgid "No items matched the search terms"
+msgstr "هیچ موردی با عبارت‌های جست‌وجو مطابقت نداشت"
+
+#: ui/main.qml:374
+#, kde-format
+msgctxt "@info"
+msgid "These shortcuts will be deleted when changes are applied."
+msgstr "این میانبرها هنگام اعمال تغییرات حذف خواهند شد."
+
+#: ui/main.qml:378
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo"
+msgstr "واگردانی"
+
+#: ui/main.qml:379
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo deleting shortcuts"
+msgstr "واگردانی حذف میانبرها"
+
+#: ui/main.qml:422
+#, kde-format
+msgctxt "@info:usagetip placeholdermessage"
+msgid "Select an item from the list to view its shortcuts here"
+msgstr ""
+"موردی را از فهرست انتخاب کنید تا میانبرهای آن در اینجا نمایش داده شوند"
+
+#: ui/main.qml:435
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Export Shortcut Scheme"
+msgstr "برون‌ریزی طرح میانبر"
+
+#: ui/main.qml:435 ui/main.qml:567
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Import Shortcut Scheme"
+msgstr "درون‌ریزی طرح میانبر"
+
+#: ui/main.qml:437
+#, kde-format
+msgctxt "Template for file dialog"
+msgid "Shortcut Scheme (*.kksrc)"
+msgstr "طرح میانبر (*.kksrc)"
+
+#: ui/main.qml:464
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Edit Command"
+msgstr "ویرایش فرمان"
+
+#: ui/main.qml:464
+#, kde-format
+msgctxt "@title:window dialog"
+msgid "Add Command"
+msgstr "افزودن فرمان"
+
+#: ui/main.qml:481
+#, kde-format
+msgctxt "@action:button in dialog, save changes to custom command"
+msgid "Save"
+msgstr "ذخیره"
+
+#: ui/main.qml:481
+#, kde-format
+msgctxt "@action:button in dialog, add entry as new custom command"
+msgid "Add"
+msgstr "افزودن"
+
+#: ui/main.qml:483
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Save command"
+msgstr "ذخیرهٔ دستور"
+
+#: ui/main.qml:484
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add command"
+msgstr "افزودن دستور"
+
+#: ui/main.qml:506
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter a command or choose a script file:"
+msgstr "یک دستور وارد کنید یا یک پروندهٔ اسکریپت انتخاب کنید:"
+
+#: ui/main.qml:515
+#, kde-format
+msgctxt "@label:textbox A shell command"
+msgid "Command:"
+msgstr "دستور:"
+
+#: ui/main.qml:521
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Command"
+msgstr "دستور"
+
+#: ui/main.qml:528
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose…"
+msgstr "انتخاب…"
+
+#: ui/main.qml:529
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Choose script file"
+msgstr "انتخاب پروندهٔ اسکریپت"
+
+#: ui/main.qml:537
+#, kde-format
+msgctxt "@label:textfield Human-readable name given to a shell command"
+msgid "Name:"
+msgstr "نام:"
+
+#: ui/main.qml:538
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter name here"
+msgstr "نام را اینجا وارد کنید"
+
+#: ui/main.qml:550
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Script File"
+msgstr "انتخاب پروندهٔ اسکریپت"
+
+#: ui/main.qml:552
+#, kde-format
+msgctxt ""
+"Filename filters for file dialog. Do not translate any of the filename "
+"extensions"
+msgid "Script files (.sh, .bash, .zsh, etc.) (*.*sh)"
+msgstr "پرونده‌های اسکریپت (.sh، .bash، .zsh و غیره) (*.*sh)"
+
+#: ui/main.qml:575
+#, kde-format
+msgctxt "@label:listbox regarding 'shortcut schemes'"
+msgid "Select the scheme to import:"
+msgstr "طرح را برای درون‌ریزی انتخاب کنید:"
+
+#: ui/main.qml:594
+#, kde-format
+msgctxt "@item:inlistbox regarding 'shortcut schemes'"
+msgid "Custom Scheme"
+msgstr "طرح سفارشی"
+
+#: ui/main.qml:602
+#, kde-format
+msgctxt "@action:button"
+msgid "Select File…"
+msgstr "انتخاب پرونده…"
+
+#: ui/main.qml:602
+#, kde-format
+msgctxt "@action:button import shortcut scheme"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: ui/main.qml:604
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Select shortcut scheme file"
+msgstr "انتخاب پروندهٔ طرح میانبر"
+
+#: ui/main.qml:605
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add shortcut scheme"
+msgstr "افزودن طرح میانبر"
+
+#: ui/ShortcutActionDelegate.qml:31
+#, kde-format
+msgctxt "@action:button Collapse shortcuts view"
+msgid "Collapse"
+msgstr "جمع کردن"
+
+#: ui/ShortcutActionDelegate.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Expand to configure shortcuts"
+msgstr "گسترش برای پیکربندی میانبرها"
+
+#: ui/ShortcutActionDelegate.qml:38
+#, kde-format
+msgctxt "@info:whatsthis accessible name %1 is shortcut label (not sequence)"
+msgid "Editing shortcut: %1"
+msgstr "ویرایش میانبر: %1"
+
+#: ui/ShortcutActionDelegate.qml:63
+#, kde-format
+msgctxt ""
+"%1 is the name action that is triggered by the key sequences following after"
+" :"
+msgid "%1:"
+msgstr "%1:"
+
+#: ui/ShortcutActionDelegate.qml:85
+#, kde-format
+msgctxt "@info:status"
+msgid "No active shortcuts"
+msgstr "هیچ میانبر فعالی وجود ندارد"
+
+#: ui/ShortcutActionDelegate.qml:136
+#, kde-format
+msgctxt "@title:column %1 decides if singular or plural will be used"
+msgid "Default shortcut"
+msgid_plural "Default shortcuts"
+msgstr[0] "میانبر پیش‌فرض"
+msgstr[1] "میانبرهای پیش‌فرض"
+
+#: ui/ShortcutActionDelegate.qml:138
+#, kde-format
+msgctxt "@label for shortcut with no default bindings"
+msgid "No default shortcuts"
+msgstr "هیچ میانبر پیش‌فرضی وجود ندارد"
+
+#: ui/ShortcutActionDelegate.qml:147
+#, kde-format
+msgctxt "@title:column"
+msgid "Custom shortcuts"
+msgstr "میانبرهای سفارشی"
+
+#: ui/ShortcutActionDelegate.qml:172
+#, kde-format
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is enabled."
+msgstr "میانبر پیش‌فرض %1 فعال است."
+
+#: ui/ShortcutActionDelegate.qml:172
+#, kde-format
+msgctxt "@info:whatsthis accessible name"
+msgid "Default shortcut %1 is disabled."
+msgstr "میانبر پیش‌فرض %1 غیرفعال است."
+
+#: ui/ShortcutActionDelegate.qml:223
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Delete shortcut"
+msgstr "حذف میانبر"
+
+#: ui/ShortcutActionDelegate.qml:234
+#, kde-format
+msgctxt "@action:button Add custom shortcut"
+msgid "Add…"
+msgstr "افزودن…"
+
+#: ui/ShortcutActionDelegate.qml:235
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add custom shortcut"
+msgstr "افزودن میانبر سفارشی"
+
+#: ui/ShortcutActionDelegate.qml:271
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Cancel capturing shortcut"
+msgstr "لغو ضبط میانبر"

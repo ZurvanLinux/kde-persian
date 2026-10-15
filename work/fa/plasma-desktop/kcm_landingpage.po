@@ -1,0 +1,154 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_landingpage package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_landingpage\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-10 00:48+0000\n"
+"PO-Revision-Date: 2026-10-15 05:52+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: ectx: label, entry (colorScheme), group (General)
+#: landingpage_kdeglobalssettings.kcfg:9
+#, kde-format
+msgid "Color scheme name"
+msgstr "نام طرح رنگ"
+
+#. i18n: ectx: label, entry (singleClick), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:15
+#, kde-format
+msgid "Single click to open files"
+msgstr "تک‌کلیک برای باز کردن پرونده‌ها"
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:19
+#, kde-format
+msgid "Switch the look and feel package depending on time of day"
+msgstr "تغییر بستهٔ ظاهر و احساس بر اساس زمان روز"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:23
+#, kde-format
+msgid "Global Look and Feel package"
+msgstr "بستهٔ سراسری ظاهر و احساس"
+
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:27
+#: landingpage_kdeglobalssettings.kcfg:31
+#, kde-format
+msgid "Global Look and Feel package, alternate"
+msgstr "بستهٔ سراسری ظاهر و احساس، جایگزین"
+
+#. i18n: ectx: label, entry (animationDurationFactor), group (KDE)
+#: landingpage_kdeglobalssettings.kcfg:35
+#, kde-format
+msgid "Animation speed"
+msgstr "سرعت پویانمایی"
+
+#: ui/LookAndFeelBox.qml:106
+#, kde-format
+msgctxt "@action:button"
+msgid "Change global theme"
+msgstr "تغییر پوستهٔ سراسری"
+
+#: ui/LookAndFeelBox.qml:187
+#, kde-format
+msgctxt "@label accessible"
+msgid "Global theme"
+msgstr "پوستهٔ سراسری"
+
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@title:group for light/dark quick switch"
+msgid "Theme:"
+msgstr "پوسته:"
+
+#: ui/main.qml:97
+#, kde-format
+msgctxt "Switch between dark and light look and feel packages automatically"
+msgid "Automatic"
+msgstr "خودکار"
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt ""
+"@info:tooltip 1 is the name of a light global theme, 2 is the name of a dark"
+" global theme"
+msgid "Use “%1” during the day and “%2” at night"
+msgstr "استفاده از «%1» در طول روز و «%2» در شب"
+
+#: ui/main.qml:133
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More appearance settings:"
+msgstr "تنظیمات ظاهری بیشتر:"
+
+#: ui/main.qml:200
+#, kde-format
+msgctxt "@title:slider"
+msgid "Animation speed:"
+msgstr "سرعت پویانمایی:"
+
+#: ui/main.qml:210
+#, kde-format
+msgctxt "Animation speed"
+msgid "Slow"
+msgstr "آهسته"
+
+#: ui/main.qml:217
+#, kde-format
+msgctxt "Animation speed"
+msgid "Instant"
+msgstr "آنی"
+
+#: ui/main.qml:227
+#, kde-format
+msgctxt ""
+"part of a sentence: 'Clicking files or folders [opens them/selects them]'"
+msgid "Clicking files or folders:"
+msgstr "کلیک روی پرونده‌ها یا پوشه‌ها:"
+
+#: ui/main.qml:232
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders selects them'"
+msgid "Selects them"
+msgstr "آن‌ها را انتخاب می‌کند"
+
+#: ui/main.qml:238
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Open by double-clicking instead"
+msgstr "به‌جای آن با دو بار کلیک باز شود"
+
+#: ui/main.qml:254
+#, kde-format
+msgctxt "part of a sentence: 'Clicking files or folders opens them'"
+msgid "Opens them"
+msgstr "آن‌ها را باز می‌کند"
+
+#: ui/main.qml:259
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Select by clicking on item's selection marker"
+msgstr "انتخاب با کلیک روی نشانگر انتخاب مورد"
+
+#: ui/main.qml:271
+#, kde-format
+msgctxt "@title:group translate as short as possible"
+msgid "More behavior settings:"
+msgstr "تنظیمات رفتاری بیشتر:"
+
+#: ui/main.qml:282
+#, kde-format
+msgctxt "@title:group for grid of buttons opening kcms"
+msgid "Most used pages:"
+msgstr "پرکاربردترین صفحه‌ها:"
