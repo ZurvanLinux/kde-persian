@@ -1,0 +1,170 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the messageviewer_application_gnupgwks_plugin package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: messageviewer_application_gnupgwks_plugin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-31 00:44+0000\n"
+"PO-Revision-Date: 2026-10-15 20:43+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: gnupgwksurlhandler.cpp:86
+#, kde-format
+msgid "Display key details"
+msgstr "نمایش جزئیات کلید"
+
+#: gnupgwksurlhandler.cpp:88
+#, kde-format
+msgid "Publish the key"
+msgstr "انتشار کلید"
+
+#: pgpkeyformatter.cpp:44
+#, kde-format
+msgid "No valid key data in file."
+msgstr "دادهٔ معتبری از کلید در پرونده وجود ندارد."
+
+#: pgpkeyurlhandler.cpp:48
+#, kde-format
+msgid "Import the key"
+msgstr "درون‌ریزی کلید"
+
+#: pgpkeyurlhandler.cpp:67
+#, kde-format
+msgid "An error occurred while importing the key."
+msgstr "هنگام درون‌ریزی کلید خطایی رخ داد."
+
+#: pgpkeyurlhandler.cpp:69 pgpkeyurlhandler.cpp:71
+#, kde-format
+msgctxt "@title:window"
+msgid "Import error"
+msgstr "خطای درون‌ریزی"
+
+#: pgpkeyurlhandler.cpp:71
+#, kde-format
+msgid "No keys to import where found."
+msgstr "هیچ کلیدی برای درون‌ریزی پیدا نشد."
+
+#: pgpkeyurlhandler.cpp:73
+#, kde-format
+msgid "The key has been successfully imported."
+msgstr "کلید با موفقیت درون‌ریزی شد."
+
+#: pgpkeyurlhandler.cpp:73
+#, kde-format
+msgctxt "@title:window"
+msgid "Import finished"
+msgstr "درون‌ریزی پایان یافت"
+
+#: templates/gnupgwksmessagepart.html:26
+msgid "Register your OpenPGP key with your email provider. "
+msgstr "ثبت کلید OpenPGP خود نزد ارائه‌دهندهٔ رایانامه. "
+
+#: templates/gnupgwksmessagepart.html:29
+msgid ""
+"When you register your key with your email provider other people will then "
+"be able to retrieve the key and send you encrypted emails and verify "
+"authenticity of emails you send them."
+msgstr ""
+"وقتی کلیدتان را نزد ارائه‌دهندهٔ ایمیل خود ثبت کنید، افراد دیگر می‌توانند "
+"کلید را دریافت کرده و به شما ایمیل‌های رمزگذاری‌شده بفرستند و اصالت "
+"ایمیل‌هایی که برایشان ارسال می‌کنید را بررسی کنند."
+
+#: templates/gnupgwksmessagepart.html:33
+msgid "An error occurred while publishing the key. Please try again later."
+msgstr "هنگام انتشار کلید خطایی رخ داد. لطفاً بعداً دوباره امتحان کنید."
+
+#: templates/gnupgwksmessagepart.html:35
+msgid "Register the key"
+msgstr "ثبت کلید"
+
+#: templates/gnupgwksmessagepart.html:37
+msgid ""
+"The email will be automatically deleted once you confirm the registration."
+msgstr ""
+"به‌محض اینکه ثبت‌نام را تأیید کنید، این ایمیل به‌طور خودکار حذف خواهد شد."
+
+#: templates/gnupgwksmessagepart.html:40
+msgid "Show key details"
+msgstr "نمایش جزئیات کلید"
+
+#: templates/gnupgwksmessagepart.html:44
+msgid ""
+"This is an automatically generated email. The purpose of this email is to "
+"register your OpenPGP key with your email provider."
+msgstr ""
+"این یک ایمیل به‌طور خودکار ایجادشده است. هدف این ایمیل ثبت کلید OpenPGP شما "
+"نزد ارائه‌دهندهٔ ایمیلتان است."
+
+#: templates/gnupgwksmessagepart.html:47
+msgid ""
+"Your OpenPGP key will be published on your email provider's key server. "
+"Other users will be able to retrieve the key and send you encrypted emails "
+"and verify authenticity of emails you send them."
+msgstr ""
+"کلید OpenPGP شما روی کارساز کلیدِ ارائه‌دهندهٔ ایمیلتان منتشر خواهد شد. "
+"کاربران دیگر می‌توانند این کلید را دریافت کرده و به شما ایمیل‌های "
+"رمزگذاری‌شده بفرستند و اصالت ایمیل‌هایی که برایشان ارسال می‌کنید را بررسی "
+"کنند."
+
+#: templates/pgpkeymessagepart.html:14
+msgid "OpenPGP Key"
+msgstr "کلید OpenPGP"
+
+#: templates/pgpkeymessagepart.html:18
+msgid "This is an OpenPGP key, which can be used to sign or encrypt emails."
+msgstr ""
+"این یک کلید OpenPGP است که می‌تواند برای امضا یا رمزگذاری ایمیل‌ها استفاده "
+"شود."
+
+#: templates/pgpkeymessagepart.html:23
+msgid "Loading key details…"
+msgstr "در حال بارگذاری جزئیات کلید…"
+
+#: templates/pgpkeymessagepart.html:28
+msgid "Owner:"
+msgstr "مالک:"
+
+#: templates/pgpkeymessagepart.html:32
+msgid "Created:"
+msgstr "ایجادشده:"
+
+#: templates/pgpkeymessagepart.html:37
+msgid "Fingerprint:"
+msgstr "اثرانگشت:"
+
+#: templates/pgpkeymessagepart.html:42
+msgid ""
+"This key is unknown, it could not be found in your local keyring. You may "
+"want to import this key."
+msgstr ""
+"این کلید ناشناخته است، در جاکلیدی محلی شما یافت نشد. شاید مایل به درون‌ریزی "
+"این کلید باشید."
+
+#: templates/pgpkeymessagepart.html:45
+#, kde-format
+msgid "Error while loading key: %1"
+msgstr "خطا هنگام بارگیری کلید: %1"
+
+#: templates/pgpkeymessagepart.html:47
+msgid "Hide key details"
+msgstr "پنهان کردن جزئیات کلید"
+
+#: templates/pgpkeymessagepart.html:49
+msgid "Open in Kleopatra"
+msgstr "باز کردن در کلئوپاترا"
+
+#: templates/pgpkeymessagepart.html:52
+msgid "Show key details …"
+msgstr "نمایش جزئیات کلید…"
+
+#: templates/pgpkeymessagepart.html:54
+msgid "Import key"
+msgstr "درون‌ریزی کلید"

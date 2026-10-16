@@ -1,0 +1,1164 @@
+# translation of ksudoku.po to Persian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Nazanin Kazemi <kazemi@itland.ir>, 2007, 2005.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksudoku\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-06-26 00:42+0000\n"
+"PO-Revision-Date: 2026-10-16 00:42+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/generator/sudokuboard.cpp:196 src/generator/sudokuboard.cpp:225
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: src/generator/sudokuboard.cpp:200
+#, kde-format
+msgid ""
+"After %1 tries, the best difficulty level achieved by the generator is %2, with internal difficulty rating %3, but you requested difficulty level %4.\n"
+"\n"
+"Do you wish to let the generator try again or accept the puzzle as is?\n"
+"\n"
+"Hint: you can try to increase the difficulty rating by doing the following: Continue with the 'OK' button, choose Game -> New, then change the Symmetry setting to 'No Symmetry' or some low symmetry type and then use 'Generate A Puzzle' again."
+msgstr ""
+"پس از %1 تلاش، بالاترین سطح دشواری به‌دست‌آمده توسط تولیدکننده %2 با رتبه‌بندی دشواری داخلی %3 است، اما شما سطح دشواری %4 را درخواست کرده بودید.\n"
+"\n"
+"آیا می‌خواهید به تولیدکننده اجازه دهید دوباره تلاش کند یا جدول را به همین صورت بپذیرید؟\n"
+"\n"
+"راهنمایی: می‌توانید برای افزایش رتبه دشواری این مراحل را انجام دهید: با دکمه «تأیید» ادامه دهید، بازی -> جدید را انتخاب کنید، سپس تنظیم تقارن را به «بدون تقارن» یا یک حالت تقارن پایین تغییر دهید و مجدداً از «تولید یک جدول» استفاده کنید."
+
+#: src/generator/sudokuboard.cpp:215
+#, kde-format
+msgid ""
+"It will be possible to solve the generated puzzle by logic alone. No guessing will be required.\n"
+"\n"
+"The internal difficulty rating is %1. There are %2 clues at the start and %3 moves to go."
+msgstr ""
+"حل جدول تولیدشده صرفاً با منطق امکان‌پذیر خواهد بود و نیازی به حدس زدن نیست.\n"
+"\n"
+"رتبه دشواری داخلی %1 است. در آغاز %2 سرنخ و %3 حرکت تا پایان وجود دارد."
+
+#: src/generator/sudokuboard.cpp:227
+#, kde-format
+msgid ""
+"Solving the generated puzzle will require an average of %1 guesses or branch points and if you guess wrong, backtracking will be necessary. The first guess should come after %2 moves.\n"
+"\n"
+"The internal difficulty rating is %3, there are %4 clues at the start and %5 moves to go."
+msgstr ""
+"حل جدول تولیدشده به‌طور میانگین به %1 حدس یا نقطه انشعاب نیاز دارد و در صورت حدس اشتباه، بازگشت به عقب (Backtracking) الزامی خواهد بود. اولین حدس باید پس از %2 حرکت انجام شود.\n"
+"\n"
+"رتبه دشواری داخلی %3 است، در آغاز %4 سرنخ و %5 حرکت تا پایان باقی مانده است."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintMulti)
+#: src/gui/configgame.ui:20
+#, kde-format
+msgid "When printing, try to fit more than one puzzle on a page"
+msgstr "هنگام چاپ، تلاش برای جا دادن بیش از یک پازل در یک صفحه"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowHighlights)
+#: src/gui/configgame.ui:43
+#, kde-format
+msgid "Highlight the row, column and block that contain the selected cell"
+msgstr "برجسته‌سازی سطر، ستون و بلوک شامل خانهٔ انتخاب‌شده"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowHighlights)
+#: src/gui/configgame.ui:46
+#, kde-format
+msgid ""
+"Highlight the row, column and block that contain the selected cell. Blocks "
+"may be square or irregular (as in jigsaw-type or XSudoku puzzles)."
+msgstr ""
+"برجسته‌سازی سطر، ستون و بلوک شامل خانهٔ انتخاب‌شده. بلوک‌ها ممکن است مربعی "
+"یا نامنظم باشند (مانند معماهای اره‌مویی یا XSudoku)."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHighlights)
+#: src/gui/configgame.ui:49
+#, kde-format
+msgid "Show highlights in 2-D puzzles"
+msgstr "نمایش برجسته‌سازی‌ها در پازل‌های دوبعدی"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_HighlightSameValues)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightSameValues)
+#: src/gui/configgame.ui:56 src/gui/configgame.ui:62
+#, kde-format
+msgid "Highlight cells containing the currently selected value"
+msgstr "برجسته‌سازی خانه‌های حاوی مقدار انتخاب‌شده"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox,
+#. kcfg_HighlightSameValues)
+#: src/gui/configgame.ui:59
+#, kde-format
+msgid ""
+"When you select a value, all other cells containing the same value will be "
+"highlighted. This can help you quickly identify patterns and potential "
+"conflicts."
+msgstr ""
+"هنگامی که مقداری را انتخاب می‌کنید، تمام خانه‌های دیگری که حاوی همان مقدار "
+"هستند برجسته خواهند شد. این ویژگی می‌تواند به شما در شناسایی سریع الگوها و "
+"تداخل‌های احتمالی کمک کند."
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowErrors)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowErrors)
+#: src/gui/configgame.ui:69 src/gui/configgame.ui:72
+#, kde-format
+msgid "Highlight in red any cells whose values break the Sudoku rules."
+msgstr ""
+"برجسته‌سازی خانه‌هایی که مقدار آن‌ها قوانین سودوکو را نقض می‌کند با رنگ "
+"قرمز."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowErrors)
+#: src/gui/configgame.ui:75
+#, kde-format
+msgid "Show errors"
+msgstr "نمایش خطاها"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowHighlights3D)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowHighlights3D)
+#: src/gui/configgame.ui:82 src/gui/configgame.ui:85
+#, kde-format
+msgid "Highlight the planes (blocks) that contain the selected cell."
+msgstr "برجسته‌سازی صفحاتی (بلوک‌هایی) که حاوی خانه انتخاب‌شده هستند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHighlights3D)
+#: src/gui/configgame.ui:88
+#, kde-format
+msgid "Show highlights in 3-D puzzles"
+msgstr "نمایش برجسته‌سازی‌ها در پازل‌های سه‌بعدی"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/gui/configgame.ui:150
+#, kde-format
+msgid "Mathdoku puzzle size (3-9)"
+msgstr "اندازه پازل مات‌دوکو (۳-۹)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/gui/configgame.ui:180
+#, kde-format
+msgid "Settings for 3-D Puzzles Only"
+msgstr "تنظیمات فقط برای پازل‌های سه‌بعدی"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_OverallSize3D)
+#. i18n: ectx: property (whatsThis), widget (QSlider, kcfg_OverallSize3D)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_6)
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_6)
+#: src/gui/configgame.ui:195 src/gui/configgame.ui:198
+#: src/gui/configgame.ui:241 src/gui/configgame.ui:244
+#, kde-format
+msgid "Set the relative size of 3-D cells and the spaces between them."
+msgstr "تنظیم اندازه نسبی خانه‌های سه‌بعدی و فاصله بین آن‌ها."
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/gui/configgame.ui:247
+#, kde-format
+msgid "Overall size of 3-D cells"
+msgstr "اندازه کلی خانه‌های سه‌بعدی"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_SelectionSize3D)
+#. i18n: ectx: property (whatsThis), widget (QSlider, kcfg_SelectionSize3D)
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: src/gui/configgame.ui:267 src/gui/configgame.ui:270
+#: src/gui/configgame.ui:313 src/gui/configgame.ui:316
+#, no-c-format, kde-format
+msgid "Shrink or expand a cell by up to 30% when it is selected."
+msgstr "کوچک یا بزرگ کردن یک خانه تا ۳۰٪ هنگام انتخاب شدن آن."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/gui/configgame.ui:319
+#, kde-format
+msgid "Size of selected 3-D cell"
+msgstr "اندازهٔ خانهٔ سه‌بعدی انتخاب‌شده"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_HighlightedSize3D)
+#. i18n: ectx: property (whatsThis), widget (QSlider, kcfg_HighlightedSize3D)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
+#: src/gui/configgame.ui:339 src/gui/configgame.ui:342
+#: src/gui/configgame.ui:376 src/gui/configgame.ui:379
+#, no-c-format, kde-format
+msgid "Shrink or expand cells by up to 30% when they are highlighted."
+msgstr "کوچک یا بزرگ کردن خانه‌ها تا ۳۰٪ هنگام برجسته شدن آن‌ها."
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/gui/configgame.ui:382
+#, kde-format
+msgid "Size of highlighted 3-D cells"
+msgstr "اندازهٔ خانه‌های سه‌بعدی برجسته‌شده"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_OuterCellSize3D)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_5)
+#: src/gui/configgame.ui:402 src/gui/configgame.ui:439
+#, no-c-format, kde-format
+msgid ""
+"Shrink cells by up to 60% if they are not in an NxNxN cube that contains the"
+" selected cell."
+msgstr ""
+"کوچک کردن خانه‌ها تا ۶۰٪ در صورتی که در مکعب NxNxN شامل خانهٔ انتخاب‌شده "
+"نباشند."
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, kcfg_OuterCellSize3D)
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_5)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox,
+#. kcfg_DarkenOuterCells3D)
+#: src/gui/configgame.ui:405 src/gui/configgame.ui:442
+#: src/gui/configgame.ui:462
+#, no-c-format, kde-format
+msgid ""
+"Shrink cells by up to 60% if they are not in an NxNxN cube that contains the"
+" selected cell. This is useful if a 3-D puzzle has more than one cube."
+msgstr ""
+"کوچک کردن خانه‌ها تا ۶۰٪ در صورتی که در مکعب NxNxN شامل خانهٔ انتخاب‌شده "
+"نباشند. این ویژگی زمانی مفید است که یک پازل سه‌بعدی بیش از یک مکعب داشته "
+"باشد."
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/gui/configgame.ui:445
+#, kde-format
+msgid "Size of 3-D cells outside the selected volume"
+msgstr "اندازهٔ خانه‌های سه‌بعدی خارج از حجم انتخاب‌شده"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_DarkenOuterCells3D)
+#: src/gui/configgame.ui:459
+#, kde-format
+msgid ""
+"Darken cells if they are not in an NxNxN cube that contains the selected "
+"cell."
+msgstr ""
+"تیره کردن خانه‌ها در صورتی که در مکعب NxNxN شامل خانهٔ انتخاب‌شده نباشند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DarkenOuterCells3D)
+#: src/gui/configgame.ui:465
+#, kde-format
+msgid "Darken 3-D cells outside the selected volume"
+msgstr "تیره کردن خانه‌های سه‌بعدی خارج از حجم انتخاب‌شده"
+
+#: src/gui/gamevariants.cpp:281 src/gui/gamevariants.cpp:338
+#, kde-format
+msgid "Configuration not yet implemented"
+msgstr "پیکربندی هنوز پیاده‌سازی نشده است"
+
+#: src/gui/ksudoku.cpp:83
+#, kde-format
+msgid "All Files (*)"
+msgstr "همهٔ پرونده‌ها (*)"
+
+#: src/gui/ksudoku.cpp:91
+#, kde-format
+msgid ""
+"Sorry, your solution contains mistakes.\n"
+"\n"
+"Enable \"Show errors\" in the settings to highlight them."
+msgstr ""
+"متأسفانه، راه‌حل شما دارای اشتباه است.\n"
+"\n"
+"برای برجسته‌سازی آن‌ها، «نمایش خطاها» را در تنظیمات فعال کنید."
+
+#: src/gui/ksudoku.cpp:106
+#, kde-format
+msgid "Congratulations! You made it in 1 second. With some tricks."
+msgid_plural "Congratulations! You made it in %1 seconds. With some tricks."
+msgstr[0] "تبریک! در ۱ ثانیه موفق شدید. با چند ترفند."
+msgstr[1] "تبریک! در %1 ثانیه موفق شدید. با چند ترفند."
+
+#: src/gui/ksudoku.cpp:108
+#, kde-format
+msgid "Congratulations! You made it in 1 minute. With some tricks."
+msgid_plural "Congratulations! You made it in %1 minutes. With some tricks."
+msgstr[0] "تبریک! در ۱ دقیقه موفق شدید. با چند ترفند."
+msgstr[1] "تبریک! در %1 دقیقه موفق شدید. با چند ترفند."
+
+#: src/gui/ksudoku.cpp:110 src/gui/ksudoku.cpp:117 src/gui/ksudoku.cpp:124
+#, kde-format
+msgid "1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "۱ دقیقه"
+msgstr[1] "%1 دقیقه"
+
+#: src/gui/ksudoku.cpp:110 src/gui/ksudoku.cpp:117 src/gui/ksudoku.cpp:124
+#, kde-format
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "۱ ثانیه"
+msgstr[1] "%1 ثانیه"
+
+#: src/gui/ksudoku.cpp:110
+#, kde-format
+msgctxt "The two parameters are strings like '2 minutes' or '1 second'."
+msgid "Congratulations! You made it in %1 and %2. With some tricks."
+msgstr "تبریک! در %1 و %2 موفق شدید. با چند ترفند."
+
+#: src/gui/ksudoku.cpp:113
+#, kde-format
+msgid "Congratulations! You made it in 1 second. With at least 1 pause."
+msgid_plural ""
+"Congratulations! You made it in %1 seconds. With at least 1 pause."
+msgstr[0] "تبریک! در ۱ ثانیه موفق شدید. با حداقل ۱ مکث."
+msgstr[1] "تبریک! در %1 ثانیه موفق شدید. با حداقل ۱ مکث."
+
+#: src/gui/ksudoku.cpp:115
+#, kde-format
+msgid "Congratulations! You made it in 1 minute. With at least 1 pause."
+msgid_plural ""
+"Congratulations! You made it in %1 minutes. With at least 1 pause."
+msgstr[0] "تبریک! در ۱ دقیقه موفق شدید. با حداقل ۱ مکث."
+msgstr[1] "تبریک! در %1 دقیقه موفق شدید. با حداقل ۱ مکث."
+
+#: src/gui/ksudoku.cpp:117
+#, kde-format
+msgctxt "The two parameters are strings like '2 minutes' or '1 second'."
+msgid "Congratulations! You made it in %1 and %2. With at least 1 pause."
+msgstr "تبریک! در %1 و %2 موفق شدید. با حداقل ۱ مکث."
+
+#: src/gui/ksudoku.cpp:120
+#, kde-format
+msgid "Congratulations! You made it in 1 second."
+msgid_plural "Congratulations! You made it in %1 seconds."
+msgstr[0] "تبریک! در ۱ ثانیه موفق شدید."
+msgstr[1] "تبریک! در %1 ثانیه موفق شدید."
+
+#: src/gui/ksudoku.cpp:122
+#, kde-format
+msgid "Congratulations! You made it in 1 minute."
+msgid_plural "Congratulations! You made it in %1 minutes."
+msgstr[0] "تبریک! در ۱ دقیقه موفق شدید."
+msgstr[1] "تبریک! در %1 دقیقه موفق شدید."
+
+#: src/gui/ksudoku.cpp:124
+#, kde-format
+msgctxt "The two parameters are strings like '2 minutes' or '1 second'."
+msgid "Congratulations! You made it in %1 and %2."
+msgstr "تبریک! در %1 و %2 موفق شدید."
+
+#: src/gui/ksudoku.cpp:208
+#, kde-format
+msgid "Sudoku Standard (9x9)"
+msgstr "سودوکو استاندارد (۹x۹)"
+
+#: src/gui/ksudoku.cpp:209
+#, kde-format
+msgid "The classic and fashionable game"
+msgstr "بازی کلاسیک و محبوب"
+
+#: src/gui/ksudoku.cpp:212
+#, kde-format
+msgid "Roxdoku 9 (3x3x3)"
+msgstr "راکس‌دوکو ۹ (۳x۳x۳)"
+
+#: src/gui/ksudoku.cpp:213
+#, kde-format
+msgid "The Rox 3D Sudoku"
+msgstr "سودوکو سه‌بعدی راکس"
+
+#: src/gui/ksudoku.cpp:235
+#, kde-format
+msgid "Missing Variant Name"
+msgstr "نام گونه ناموجود است"
+
+#: src/gui/ksudoku.cpp:251
+#, kde-format
+msgid "Sudoku 16x16"
+msgstr "سودوکو ۱۶x۱۶"
+
+#: src/gui/ksudoku.cpp:252
+#, kde-format
+msgid "Sudoku with 16 symbols"
+msgstr "سودوکو با ۱۶ نماد"
+
+#: src/gui/ksudoku.cpp:254
+#, kde-format
+msgid "Sudoku 25x25"
+msgstr "سودوکو ۲۵×۲۵"
+
+#: src/gui/ksudoku.cpp:255
+#, kde-format
+msgid "Sudoku with 25 symbols"
+msgstr "سودوکو با ۲۵ نماد"
+
+#: src/gui/ksudoku.cpp:258
+#, kde-format
+msgid "Roxdoku 16 (4x4x4)"
+msgstr "راکس‌دوکو ۱۶ (۴×۴×۴)"
+
+#: src/gui/ksudoku.cpp:259
+#, kde-format
+msgid "The Rox 3D sudoku with 16 symbols"
+msgstr "سودوکوی سه‌بعدی راکس با ۱۶ نماد"
+
+#: src/gui/ksudoku.cpp:261
+#, kde-format
+msgid "Roxdoku 25 (5x5x5)"
+msgstr "راکس‌دوکو ۲۵ (۵×۵×۵)"
+
+#: src/gui/ksudoku.cpp:262
+#, kde-format
+msgid "The Rox 3D sudoku with 25 symbols"
+msgstr "سودوکوی سه‌بعدی راکس با ۲۵ نماد"
+
+#: src/gui/ksudoku.cpp:314
+#, kde-format
+msgid ""
+"Mathdoku puzzles can have any size from 3x3 up to 9x9. The solution is a grid in which every row and every column contains the available digits (1-3 up to 1-9) exactly once. The grid is covered with irregularly shaped cages.\n"
+"\n"
+"Cages of size 1 are starting-values or clues, but there are not many of them. Cages of larger size have a target value and an arithmetic operator (+-x/). The digits in the cage must combine together, using the operator, to reach the target value, e.g. '12x' means that the digits must multiply together to make 12. A digit can occur more than once in a cage, provided it occurs in different rows and columns.\n"
+"\n"
+"In general, larger Mathdokus are more difficult and so are larger cages. You can select the puzzle size in KSudoku's Settings dialog and the maximum cage-size by using KSudoku's Difficulty button."
+msgstr ""
+"اندازهٔ جدول‌های مَث‌دوکو می‌تواند از ۳×۳ تا ۹×۹ باشد. راه‌حل، جدولی است که در آن هر سطر و هر ستون، ارقام موجود (۱-۳ تا ۱-۹) را دقیقاً یک بار شامل شود. جدول با قفس‌هایی با شکل‌های نامنظم پوشیده شده است.\n"
+"\n"
+"قفس‌های اندازهٔ ۱، مقادیر اولیه یا سرنخ‌ها هستند، اما تعداد آن‌ها زیاد نیست. قفس‌های بزرگ‌تر دارای یک مقدار هدف و یک عملگر ریاضی (+-x/) هستند. ارقام موجود در قفس باید با استفاده از آن عملگر با هم ترکیب شوند تا به مقدار هدف برسند؛ برای مثال، «12x» یعنی حاصل‌ضرب ارقام در یکدیگر باید ۱۲ شود. یک رقم می‌تواند بیش از یک بار در یک قفس تکرار شود، به شرطی که در سطرها و ستون‌های متفاوتی قرار داشته باشد.\n"
+"\n"
+"به‌طور کلی، مَث‌دوکوهای بزرگ‌تر و قفس‌های بزرگ‌تر دشوارتر هستند. می‌توانید اندازهٔ جدول را در پنجرهٔ تنظیمات KSudoku و حداکثر اندازهٔ قفس را با دکمهٔ سختی KSudoku انتخاب کنید."
+
+#: src/gui/ksudoku.cpp:333
+#, kde-format
+msgid "Playing Mathdoku"
+msgstr "بازی مَث‌دوکو"
+
+#: src/gui/ksudoku.cpp:337
+#, kde-format
+msgid ""
+"Killer Sudoku puzzles can have sizes 4x4 or 9x9, with either four 2x2 blocks or nine 3x3 blocks. The solution must follow Classic Sudoku rules. The difference is that there are few starting-values or clues (if any). Instead the grid is covered with irregularly shaped cages.\n"
+"\n"
+"Cages of size 1 are starting-values or clues. Cages of larger size have a target value and the digits in them must add up to that value. In Killer Sudoku, a cage cannot contain any digit more than once.\n"
+"\n"
+"In general, larger cages are more difficult. You can select the maximum cage-size by using KSudoku's Difficulty button."
+msgstr ""
+"جدول‌های سودوکوی قاتل می‌توانند دارای اندازه‌های ۴×۴ یا ۹×۹ با چهار بلوک ۲×۲ یا نه بلوک ۳×۳ باشند. راه‌حل باید از قوانین سودوکوی کلاسیک پیروی کند. تفاوت در این است که مقادیر اولیه یا سرنخ‌های بسیار کمی (در صورت وجود) در آن قرار دارد. در عوض، جدول با قفس‌هایی با شکل‌های نامنظم پوشیده شده است.\n"
+"\n"
+"قفس‌های اندازهٔ ۱ مقادیر اولیه یا سرنخ‌ها هستند. قفس‌های با اندازهٔ بزرگ‌تر دارای یک مقدار هدف هستند و مجموع ارقام درون آن‌ها باید برابر با آن مقدار شود. در سودوکوی قاتل، یک قفس نمی‌تواند شامل رقم تکراری باشد.\n"
+"\n"
+"به‌طور کلی، قفس‌های بزرگ‌تر دشوارتر هستند. می‌توانید حداکثر اندازهٔ قفس را با استفاده از دکمهٔ سختی KSudoku انتخاب کنید."
+
+#: src/gui/ksudoku.cpp:351
+#, kde-format
+msgid "Playing Killer Sudoku"
+msgstr "بازی سودوکوی قاتل"
+
+#: src/gui/ksudoku.cpp:355
+#, kde-format
+msgid ""
+"Mathdoku and Killer Sudoku puzzles have to be keyed in by working on one cage at a time. To start a cage, left click on any unused cell or enter a number in the cell that is under the cursor or enter + - / or x there. A small cage-label will appear in that cell. To extend the cage in any direction, left-click on a neigbouring cell or move the cursor there and type a Space.\n"
+"\n"
+"The number you type is the cage's value and it can have one or more digits, including zero. A cell of size 1 has to have a 1-digit number, as in a normal Sudoku puzzle. It becomes a starting-value or clue for the player.\n"
+"\n"
+"The + - / or x is the operator (Add, Subtract, Divide or Multiply). You must have one in cages of size 2 or more. In Killer Sudoku, the operator is provided automatically because it is always + or none.\n"
+"\n"
+"You can enter digits, operators and cells in any order. To complete the cage and start another cage, always press Return. If you make a mistake, the only thing to do is delete a whole cage and re-enter it. Use right click in the current cage or any earlier cage, if you wish to delete it. Alternatively, use the cursor and the Delete or Backspace key.\n"
+"\n"
+"When the grid is filled with cages, hit the Check button, to solve the puzzle and make sure there is only one solution. If the check fails, you have probably made an error somewhere in one of the cages."
+msgstr ""
+"پازل‌های مات‌دوکو و سودوکو کشنده را باید با کار روی یک قفس در هر بار وارد کرد. برای شروع یک قفس، روی هر خانهٔ استفاده‌نشده کلیک‌چپ کنید یا عددی را در خانه‌ای که زیر مکان‌نماست وارد کنید یا کاراکترهای + - / یا x را در آنجا بنویسید. برچسب کوچکی از قفس در آن خانه ظاهر خواهد شد. برای گسترش قفس در هر جهت، روی خانهٔ همسایه کلیک‌چپ کنید یا مکان‌نما را به آنجا برده و کلید فاصله (Space) را فشار دهید.\n"
+"\n"
+"عددی که تایپ می‌کنید مقدار قفس است و می‌تواند یک یا چند رقم باشد، از جمله صفر. خانه‌ای با اندازهٔ ۱ باید یک عدد تک‌رقمی داشته باشد، درست مانند پازل سودوکوی معمولی. این عدد به مقدار اولیه یا سرنخی برای بازیکن تبدیل می‌شود.\n"
+"\n"
+"علامت‌های + - / یا x عملگر هستند (جمع، تفریق، تقسیم یا ضرب). در قفس‌های با اندازهٔ ۲ یا بیشتر، حتماً باید یکی از آن‌ها را داشته باشید. در سودوکو کشنده، عملگر به‌طور خودکار ارائه می‌شود زیرا همیشه + یا بدون عملگر است.\n"
+"\n"
+"می‌توانید ارقام، عملگرها و خانه‌ها را به هر ترتیبی وارد کنید. برای تکمیل قفس و شروع قفسی دیگر، همیشه کلید Return (اینتر) را فشار دهید. اگر اشتباهی کردید، تنها کار این است که کل قفس را حذف کرده و دوباره آن را وارد کنید. اگر می‌خواهید قفس فعلی یا هر قفس قبلی را حذف کنید، در آن راست‌کلیک کنید. همچنین می‌توانید از مکان‌نما و کلید Delete یا Backspace استفاده کنید.\n"
+"\n"
+"وقتی جدول با قفس‌ها پر شد، دکمهٔ «بررسی» را بزنید تا پازل حل شود و مطمئن شوید که تنها یک راه‌حل وجود دارد. اگر بررسی ناموفق بود، احتمالاً در جایی در یکی از قفس‌ها اشتباهی رخ داده است."
+
+#: src/gui/ksudoku.cpp:385
+#, kde-format
+msgid "Data-entry for Puzzles with Cages"
+msgstr "ورود اطلاعات برای پازل‌های دارای قفس"
+
+#: src/gui/ksudoku.cpp:481
+#, kde-format
+msgid "The puzzle you entered contains some errors."
+msgstr "پازلی که وارد کرده‌اید دارای خطاهایی است."
+
+#: src/gui/ksudoku.cpp:494
+#, kde-format
+msgid ""
+"Sorry, no solutions have been found. Please check that you have entered in "
+"the puzzle completely and correctly."
+msgstr ""
+"متأسفانه هیچ راه‌حلی یافت نشد. لطفاً بررسی کنید که پازل را کامل و درست وارد "
+"کرده باشید."
+
+#: src/gui/ksudoku.cpp:497 src/gui/ksudoku.cpp:504 src/gui/ksudoku.cpp:510
+#, kde-format
+msgctxt "@title:window"
+msgid "Check Puzzle"
+msgstr "بررسی پازل"
+
+#: src/gui/ksudoku.cpp:502
+#, kde-format
+msgid ""
+"The Puzzle you entered has a unique solution and is ready to be played."
+msgstr "پازلی که وارد کردید دارای یک راه‌حل یکتاست و برای بازی آماده است."
+
+#: src/gui/ksudoku.cpp:507
+#, kde-format
+msgid ""
+"The Puzzle you entered has multiple solutions. Please check that you have "
+"entered in the puzzle completely and correctly."
+msgstr ""
+"پازلی که وارد کردید دارای چندین راه‌حل است. لطفاً بررسی کنید که پازل را کامل"
+" و درست وارد کرده باشید."
+
+#: src/gui/ksudoku.cpp:513
+#, kde-format
+msgid "Do you wish to play the puzzle now?"
+msgstr "آیا مایلید اکنون پازل را بازی کنید؟"
+
+#: src/gui/ksudoku.cpp:514
+#, kde-format
+msgctxt "@title:window"
+msgid "Play Puzzle"
+msgstr "بازی پازل"
+
+#: src/gui/ksudoku.cpp:515
+#, kde-format
+msgctxt "@action:button"
+msgid "Play"
+msgstr "بازی"
+
+#: src/gui/ksudoku.cpp:556
+#, kde-format
+msgctxt "@action"
+msgid "Enable All Messages"
+msgstr "فعال‌سازی همهٔ پیام‌ها"
+
+#: src/gui/ksudoku.cpp:573
+#, kde-format
+msgctxt "@action"
+msgid "Check"
+msgstr "بررسی"
+
+#: src/gui/ksudoku.cpp:589
+#, kde-format
+msgctxt "A level of difficulty in Sudoku puzzles"
+msgid "Diabolical"
+msgstr "شیطانی"
+
+#: src/gui/ksudoku.cpp:591
+#, kde-format
+msgctxt "A level of difficulty in Sudoku puzzles"
+msgid "Unlimited"
+msgstr "نامحدود"
+
+#: src/gui/ksudoku.cpp:602
+#, kde-format
+msgctxt "@option drop down box"
+msgid "Difficulty:"
+msgstr "دشواری:"
+
+#: src/gui/ksudoku.cpp:606
+#, kde-format
+msgctxt "@option drop down box"
+msgid "Symmetry:"
+msgstr "تقارن:"
+
+#: src/gui/ksudoku.cpp:610
+#, kde-format
+msgctxt "Symmetry of layout of clues when puzzle starts"
+msgid "Symmetry"
+msgstr "تقارن"
+
+#: src/gui/ksudoku.cpp:612
+#, kde-format
+msgid "The symmetry of layout of the clues when the puzzle starts"
+msgstr "تقارن چیدمان سرنخ‌ها هنگام شروع پازل"
+
+#: src/gui/ksudoku.cpp:614
+#, kde-format
+msgctxt "Symmetry of layout of clues"
+msgid "Diagonal"
+msgstr "مورب"
+
+#: src/gui/ksudoku.cpp:615
+#, kde-format
+msgctxt "Symmetry of layout of clues"
+msgid "Central"
+msgstr "مرکزی"
+
+#: src/gui/ksudoku.cpp:616
+#, kde-format
+msgctxt "Symmetry of layout of clues"
+msgid "Left-Right"
+msgstr "چپ-راست"
+
+#: src/gui/ksudoku.cpp:617
+#, kde-format
+msgctxt "Symmetry of layout of clues"
+msgid "Spiral"
+msgstr "مارپیچ"
+
+#: src/gui/ksudoku.cpp:618
+#, kde-format
+msgctxt "Symmetry of layout of clues"
+msgid "Four-Way"
+msgstr "چهارطرفه"
+
+#: src/gui/ksudoku.cpp:619
+#, kde-format
+msgctxt "Symmetry of layout of clues"
+msgid "Random Choice"
+msgstr "انتخاب تصادفی"
+
+#: src/gui/ksudoku.cpp:620
+#, kde-format
+msgid "No Symmetry"
+msgstr "بدون تقارن"
+
+#: src/gui/ksudoku.cpp:629
+#, kde-format
+msgctxt "@action"
+msgid "Elapsed Time:"
+msgstr "زمان سپری‌شده:"
+
+#: src/gui/ksudoku.cpp:738 src/gui/ksudoku.cpp:801
+#, kde-format
+msgctxt "@title:window"
+msgid "Error Loading Game"
+msgstr "خطا در بارگذاری بازی"
+
+#: src/gui/ksudoku.cpp:754
+#, kde-format
+msgid "Do you really want to end this game in order to start a new one?"
+msgstr ""
+"آیا واقعاً می‌خواهید این بازی را تمام کنید تا بازی جدیدی را آغاز نمایید؟"
+
+#: src/gui/ksudoku.cpp:755
+#, kde-format
+msgctxt "window title"
+msgid "New Game"
+msgstr "بازی جدید"
+
+#: src/gui/ksudoku.cpp:756
+#, kde-format
+msgctxt "@action:button"
+msgid "New Game"
+msgstr "بازی جدید"
+
+#: src/gui/ksudoku.cpp:772
+#, kde-format
+msgid "Do you really want to restart this game?"
+msgstr "آیا واقعاً می‌خواهید این بازی را از نو آغاز کنید؟"
+
+#: src/gui/ksudoku.cpp:773
+#, kde-format
+msgctxt "window title"
+msgid "Restart Game"
+msgstr "شروع مجدد بازی"
+
+#: src/gui/ksudoku.cpp:774
+#, kde-format
+msgctxt "@action:button"
+msgid "Restart Game"
+msgstr "شروع مجدد بازی"
+
+#: src/gui/ksudoku.cpp:830
+#, kde-format
+msgctxt "@title:window"
+msgid "Error Writing File"
+msgstr "خطا در نوشتن پرونده"
+
+#: src/gui/ksudoku.cpp:841
+#, kde-format
+msgid "Game_"
+msgstr "Game_"
+
+#: src/gui/ksudoku.cpp:845
+#, kde-format
+msgid "Save Game"
+msgstr "ذخیرهٔ بازی"
+
+#: src/gui/ksudoku.cpp:857
+#, kde-format
+msgid "There seems to be no puzzle to print."
+msgstr "به نظر می‌رسد پازلی برای چاپ وجود ندارد."
+
+#: src/gui/ksudoku.cpp:894
+#, kde-format
+msgctxt "@title:tab Game Section in Config"
+msgid "Game"
+msgstr "بازی"
+
+#: src/gui/ksudoku.cpp:895
+#, kde-format
+msgctxt "@title:tab"
+msgid "Theme"
+msgstr "پوسته"
+
+#: src/gui/ksudoku.cpp:927
+#, kde-format
+msgid ""
+"Warning: The Unlimited difficulty level has no limit on how many guesses or branch points are required to solve the puzzle and there is no lower limit on how soon guessing becomes necessary.\n"
+"\n"
+"Please also note that the generation of this type of puzzle might take much longer than other ones. During this time KSudoku will not respond."
+msgstr ""
+"هشدار: سطح دشواری «نامحدود» هیچ محدودیتی در تعداد حدس‌ها یا نقاط انشعاب لازم برای حل پازل ندارد و هیچ حداقل محدودیتی برای اینکه حدس زدن چقدر زود لازم شود وجود ندارد.\n"
+"\n"
+"همچنین لطفاً توجه داشته باشید که تولید این نوع پازل ممکن است بسیار بیشتر از انواع دیگر طول بکشد. در این مدت KSudoku پاسخگو نخواهد بود."
+
+#: src/gui/ksudoku.cpp:934
+#, kde-format
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "هشدار"
+
+#: src/gui/ksudoku.cpp:974
+#, kde-format
+msgid ""
+"This will enable all the dialogs that you had disabled by marking the 'Do not show this message again' option.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"این کار تمام کادرهای پیامی را که با علامت‌زدن گزینهٔ «این پیام را دیگر نشان نده» غیرفعال کرده بودید، دوباره فعال می‌کند.\n"
+"\n"
+"آیا می‌خواهید ادامه دهید؟"
+
+#: src/gui/ksudoku.cpp:978
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable"
+msgstr "فعال‌سازی"
+
+#. i18n: ectx: label, entry (HighlightSameValues), group (Options)
+#: src/gui/ksudoku.kcfg:39
+#, kde-format
+msgid "Highlight cells containing the same value"
+msgstr "برجسته‌سازی خانه‌های با مقدار یکسان"
+
+#. i18n: ectx: label, entry (Theme), group (Themes)
+#: src/gui/ksudoku.kcfg:45
+#, kde-format
+msgid "The graphical theme to be used."
+msgstr "پوستهٔ گرافیکی مورد استفاده."
+
+#. i18n: ectx: label, entry (Symbols), group (Themes)
+#: src/gui/ksudoku.kcfg:48
+#, kde-format
+msgid "Select the themes you want to use"
+msgstr "پوسته‌هایی را که می‌خواهید استفاده کنید انتخاب کنید"
+
+#: src/gui/ksudokugame.cpp:375
+#, kde-format
+msgid ""
+"In Killer Sudoku, the operator is always + or none and KSudoku automatically"
+" sets the correct choice."
+msgstr ""
+"در سودوکو کیلر، عملگر همیشه + یا بدون عملگر است و KSudoku به‌طور خودکار "
+"گزینهٔ درست را تنظیم می‌کند."
+
+#: src/gui/ksudokugame.cpp:377
+#, kde-format
+msgctxt "@title:window"
+msgid "Killer Sudoku Cage"
+msgstr "قفس سودوکو کیلر"
+
+#: src/gui/ksudokugame.cpp:423
+#, kde-format
+msgid "The cell you have selected has already been used in a cage."
+msgstr "خانه‌ای که انتخاب کرده‌اید پیش‌تر در یک قفس استفاده شده است."
+
+#: src/gui/ksudokugame.cpp:425 src/gui/ksudokugame.cpp:455
+#: src/gui/ksudokugame.cpp:480 src/gui/ksudokugame.cpp:487
+#: src/gui/ksudokugame.cpp:495 src/gui/ksudokugame.cpp:504
+#, kde-format
+msgctxt "@title:window"
+msgid "Error in Cage"
+msgstr "خطا در قفس"
+
+#: src/gui/ksudokugame.cpp:453
+#, kde-format
+msgid ""
+"The cell you have selected is not next to any cell in the cage you are "
+"creating."
+msgstr ""
+"خانه‌ای که انتخاب کرده‌اید در کنار هیچ‌یک از خانه‌های قفسی که می‌سازید نیست."
+
+#: src/gui/ksudokugame.cpp:478
+#, kde-format
+msgid ""
+"The cage you wish to complete has no cells in it yet. Please click on a cell"
+" or key in + - / x or a number."
+msgstr ""
+"قفسی که می‌خواهید کامل کنید هنوز هیچ خانه‌ای ندارد. لطفاً روی یک خانه کلیک "
+"کنید یا یکی از علامت‌های + - / x یا یک عدد را وارد کنید."
+
+#: src/gui/ksudokugame.cpp:485
+#, kde-format
+msgid ""
+"The cage you wish to complete has no value yet. Please key in a number with "
+"one or more digits."
+msgstr ""
+"قفسی که می‌خواهید کامل کنید هنوز مقداری ندارد. لطفاً یک عدد یک یا چندرقمی "
+"وارد کنید."
+
+#: src/gui/ksudokugame.cpp:493
+#, kde-format
+msgid ""
+"The cage you wish to complete has more than one cell, but it has no operator"
+" yet. Please key in + - / or x."
+msgstr ""
+"قفسی که می‌خواهید کامل کنید بیش از یک خانه دارد، اما هنوز عملگری ندارد. "
+"لطفاً یکی از علامت‌های + - / یا x را وارد کنید."
+
+#: src/gui/ksudokugame.cpp:501
+#, kde-format
+msgid ""
+"The cage you wish to complete has one cell, but its value is too large. A "
+"single-cell cage must have a value from 1 to %1 in a puzzle of this size."
+msgstr ""
+"قفسی که می‌خواهید کامل کنید دارای یک خانه است، اما مقدار آن بیش از حد بزرگ "
+"است. قفس تک‌خانه‌ای در پازلی با این اندازه باید مقداری بین ۱ تا %1 داشته "
+"باشد."
+
+#: src/gui/ksudokugame.cpp:537
+#, kde-format
+msgid "Do you wish to delete this cage?"
+msgstr "آیا می‌خواهید این قفس را حذف کنید؟"
+
+#: src/gui/ksudokugame.cpp:538 src/gui/ksudokugame.cpp:566
+#: src/gui/ksudokugame.cpp:574
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Cage"
+msgstr "حذف قفس"
+
+#: src/gui/ksudokugame.cpp:564
+#, kde-format
+msgid ""
+"The cell you have selected is not in any cage, so the Delete action will not"
+" delete anything."
+msgstr ""
+"خانه‌ای که انتخاب کرده‌اید در هیچ قفسی نیست، بنابراین عملیات حذف چیزی را حذف"
+" نخواهد کرد."
+
+#: src/gui/ksudokugame.cpp:572
+#, kde-format
+msgid "The Delete action finds that there are no cages to delete."
+msgstr "عملیات حذف نشان می‌دهد که هیچ قفسی برای حذف وجود ندارد."
+
+#. i18n: ectx: Menu (game)
+#: src/gui/ksudokuui.rc:10
+#, kde-format
+msgid "&Game"
+msgstr "بازی"
+
+#. i18n: ectx: Menu (move)
+#: src/gui/ksudokuui.rc:24
+#, kde-format
+msgid "&Move"
+msgstr "حرکت"
+
+#. i18n: ectx: Menu (help)
+#: src/gui/ksudokuui.rc:39
+#, kde-format
+msgid "&Help"
+msgstr "راهنما"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/gui/ksudokuui.rc:47
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#. i18n: ectx: ToolBar (actionsToolbar)
+#: src/gui/ksudokuui.rc:55
+#, kde-format
+msgid "Actions Toolbar"
+msgstr "نوار ابزار کنش‌ها"
+
+#: src/gui/puzzleprinter.cpp:62
+#, kde-format
+msgid "Sorry, cannot print three-dimensional puzzles."
+msgstr "متأسفانه امکان چاپ پازل‌های سه‌بعدی وجود ندارد."
+
+#: src/gui/puzzleprinter.cpp:92
+#, kde-format
+msgid ""
+"The KSudoku setting for printing several puzzles per page is currently selected.\n"
+"\n"
+"Your puzzle will be printed when no more will fit on the page or when KSudoku terminates."
+msgstr ""
+"تنظیم KSudoku برای چاپ چند پازل در هر صفحه در حال حاضر انتخاب شده است.\n"
+"\n"
+"پازل شما زمانی چاپ خواهد شد که صفحه پر شود یا برنامه KSudoku بسته شود."
+
+#: src/gui/puzzleprinter.cpp:108
+#, kde-format
+msgid "KSudoku has sent output to your printer."
+msgstr "‏KSudoku خروجی را به چاپگر شما فرستاد."
+
+#: src/gui/puzzleprinter.cpp:121
+#, kde-format
+msgctxt "@title:window"
+msgid "Print Sudoku Puzzle"
+msgstr "چاپ پازل سودوکو"
+
+#: src/gui/serializer.cpp:398
+#, kde-format
+msgid "Unable to download file: URL is empty."
+msgstr "بارگیری پرونده ممکن نیست: نشانی وب خالی است."
+
+#: src/gui/serializer.cpp:405
+#, kde-format
+msgid "Unable to open file."
+msgstr "باز کردن پرونده ممکن نیست."
+
+#: src/gui/serializer.cpp:412 src/gui/serializer.cpp:445
+#, kde-format
+msgid "Cannot read XML file on line %1"
+msgstr "خواندن پروندهٔ XML در سطر %1 امکان‌پذیر نیست"
+
+#: src/gui/serializer.cpp:439
+#, kde-format
+msgid "Unable to download file."
+msgstr "بارگیری پرونده ممکن نیست."
+
+#: src/gui/serializer.cpp:679
+#, kde-format
+msgid "Unable to create temporary file."
+msgstr "ایجاد پروندهٔ موقت ممکن نیست."
+
+#: src/gui/serializer.cpp:692
+#, kde-format
+msgid "Unable to upload file."
+msgstr "بارگذاری پرونده ممکن نیست."
+
+#: src/gui/views/gameactions.cpp:54
+#, kde-format
+msgctxt "@action"
+msgid "Select %1 (%2)"
+msgstr "انتخاب %1 (%2)"
+
+#: src/gui/views/gameactions.cpp:60
+#, kde-format
+msgctxt "@action"
+msgid "Enter %1 (%2)"
+msgstr "ورود به %1 (%2)"
+
+#: src/gui/views/gameactions.cpp:83
+#, kde-format
+msgctxt "@action"
+msgid "Mark %1 (%2)"
+msgstr "علامت‌گذاری %1 (%2)"
+
+#: src/gui/views/gameactions.cpp:95
+#, kde-format
+msgctxt "@action"
+msgid "Move Up"
+msgstr "انتقال به بالا"
+
+#: src/gui/views/gameactions.cpp:102
+#, kde-format
+msgctxt "@action"
+msgid "Move Down"
+msgstr "انتقال به پایین"
+
+#: src/gui/views/gameactions.cpp:109
+#, kde-format
+msgctxt "@action"
+msgid "Move Left"
+msgstr "انتقال به چپ"
+
+#: src/gui/views/gameactions.cpp:116
+#, kde-format
+msgctxt "@action"
+msgid "Move Right"
+msgstr "حرکت به راست"
+
+#: src/gui/views/gameactions.cpp:123
+#, kde-format
+msgctxt "@action"
+msgid "Clear Cell"
+msgstr "پاک کردن خانه"
+
+#: src/gui/welcomescreen.cpp:133
+#, kde-format
+msgid "GetNewVariant not implemented"
+msgstr "GetNewVariant پیاده‌سازی نشده است"
+
+#: src/gui/welcomescreen.cpp:146 src/gui/welcomescreen.cpp:163
+#: src/gui/welcomescreen.cpp:179
+#, kde-format
+msgid "Please select a puzzle variant."
+msgstr "لطفاً نوع پازل را انتخاب کنید."
+
+#: src/gui/welcomescreen.cpp:146 src/gui/welcomescreen.cpp:152
+#: src/gui/welcomescreen.cpp:163 src/gui/welcomescreen.cpp:169
+#: src/gui/welcomescreen.cpp:179 src/gui/welcomescreen.cpp:185
+#, kde-format
+msgctxt "@title:window"
+msgid "Unable to Start Puzzle"
+msgstr "امکان شروع پازل وجود ندارد"
+
+#: src/gui/welcomescreen.cpp:152
+#, kde-format
+msgid ""
+"Unable to create an empty puzzle of the chosen variant; please try another."
+msgstr ""
+"امکان ایجاد پازل خالی با نوع انتخاب‌شده وجود ندارد؛ لطفاً نوع دیگری را "
+"امتحان کنید."
+
+#: src/gui/welcomescreen.cpp:169
+#, kde-format
+msgid "Unable to start a puzzle of the chosen variant; please try another."
+msgstr ""
+"امکان شروع پازل با نوع انتخاب‌شده وجود ندارد؛ لطفاً نوع دیگری را امتحان "
+"کنید."
+
+#: src/gui/welcomescreen.cpp:185
+#, kde-format
+msgid "Unable to generate a puzzle of the chosen variant; please try another."
+msgstr ""
+"امکان تولید پازل با نوع انتخاب‌شده وجود ندارد؛ لطفاً نوع دیگری را امتحان "
+"کنید."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: src/gui/welcomescreen.ui:17
+#, kde-format
+msgid "Choose your Game"
+msgstr "بازی خود را انتخاب کنید"
+
+#. i18n: ectx: property (text), widget (QPushButton, getNewGameButton)
+#: src/gui/welcomescreen.ui:28
+#, kde-format
+msgid "Get New"
+msgstr "دریافت جدید"
+
+#. i18n: ectx: property (text), widget (QPushButton, startEmptyButton)
+#: src/gui/welcomescreen.ui:48
+#, kde-format
+msgid "Enter In A Puzzle"
+msgstr "ورود به یک پازل"
+
+#. i18n: ectx: property (text), widget (QPushButton, puzzleGeneratorButton)
+#: src/gui/welcomescreen.ui:55
+#, kde-format
+msgid "Generate A Puzzle"
+msgstr "تولید یک پازل"
+
+#: src/logic/puzzle.cpp:86
+#, kde-format
+msgid "Attempts to generate a puzzle failed after about 200 tries. Try again?"
+msgstr "تلاش برای تولید پازل پس از حدود ۲۰۰ بار ناموفق بود. دوباره تلاش شود؟"
+
+#: src/logic/puzzle.cpp:88
+#, kde-format
+msgctxt "@title:window"
+msgid "Mathdoku or Killer Sudoku Puzzle"
+msgstr "پازل مات‌دوکو یا سودوکو کشنده"
+
+#: src/logic/puzzle.cpp:89
+#, kde-format
+msgctxt "@action:button"
+msgid "&Try Again"
+msgstr "تلاش دوباره"
+
+#: src/logic/puzzle.cpp:102
+#, kde-format
+msgctxt "@title:window"
+msgid "Difficulty Level"
+msgstr "سطح دشواری"
+
+#: src/logic/puzzle.cpp:104
+#, kde-format
+msgctxt "@action:button"
+msgid "&Retry"
+msgstr "تلاش مجدد"
+
+#: src/main.cpp:48
+#, kde-format
+msgid "KSudoku"
+msgstr "کی‌سودوکو"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "KSudoku - Sudokus and more"
+msgstr "کی‌سودوکو - سودوکو و فراتر از آن"
+
+#: src/main.cpp:52
+#, kde-format
+msgid "(c) 2005-2007 The KSudoku Authors"
+msgstr "© ۲۰۰۵-۲۰۰۷ پدیدآورندگان KSudoku"
+
+#: src/main.cpp:54
+#, kde-format
+msgid "Francesco Rossi"
+msgstr "Francesco Rossi"
+
+#: src/main.cpp:54
+#, kde-format
+msgid "KSudoku Author"
+msgstr "پدیدآور KSudoku"
+
+#: src/main.cpp:55
+#, kde-format
+msgid "Johannes Bergmeier"
+msgstr "Johannes Bergmeier"
+
+#: src/main.cpp:55
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: src/main.cpp:56
+#, kde-format
+msgid "Ian Wadham"
+msgstr "Ian Wadham"
+
+#: src/main.cpp:56
+#, kde-format
+msgid "New puzzle generator and solver"
+msgstr "تولیدکننده و حل‌کنندهٔ جدید جدول"
+
+#: src/main.cpp:57
+#, kde-format
+msgid "Mick Kappenburg"
+msgstr "Mick Kappenburg"
+
+#: src/main.cpp:57
+#, kde-format
+msgid "Printing and export of 0.4"
+msgstr "چاپ و صادر کردن نگارش ۰٫۴"
+
+#: src/main.cpp:58
+#, kde-format
+msgid "Thanks to NeHe for OpenGL tutorials"
+msgstr "با تشکر از NeHe برای خودآموزهای OpenGL"
+
+#: src/main.cpp:59
+#, kde-format
+msgid "David Bau"
+msgstr "David Bau"
+
+#: src/main.cpp:59
+#, kde-format
+msgid ""
+"Algorithms for new puzzle generator and solver at "
+"davidbau.com/archives/2006/09/04/sudoku_generator.html"
+msgstr ""
+"الگوریتم‌های تولیدکننده و حل‌کنندهٔ پازل جدید در "
+"davidbau.com/archives/2006/09/04/sudoku_generator.html"
+
+#: src/main.cpp:67
+#, kde-format
+msgid "Document to open"
+msgstr "سند برای باز کردن"

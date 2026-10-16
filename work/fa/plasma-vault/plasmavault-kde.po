@@ -1,0 +1,621 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasmavault-kde package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmavault-kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-02 00:46+0000\n"
+"PO-Revision-Date: 2026-10-16 01:39+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: fileitemplugin/plasmavaultfileitemaction.cpp:78
+#, kde-format
+msgctxt "@action Action to unmount a vault"
+msgid "Lock this Plasma Vault"
+msgstr "قفل کردن این گاوصندوق پلاسما"
+
+#: fileitemplugin/plasmavaultfileitemaction.cpp:79
+#, kde-format
+msgctxt "@action Action to mount a vault"
+msgid "Unlock this Plasma Vault"
+msgstr "باز کردن قفل این گاوصندوق پلاسما"
+
+#: kded/engine/backend_p.cpp:46
+#, kde-format
+msgctxt "formatting the message for a command, as in encfs: not found"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:92
+#: kded/engine/backends/encfs/encfsbackend.cpp:51
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:77
+#, kde-format
+msgid "Failed to create directories, check your permissions"
+msgstr "ایجاد شاخه‌ها ناموفق بود، دسترسی‌های خود را بررسی کنید"
+
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:131
+#, kde-format
+msgid "Upgrade the vault?"
+msgstr "گاوصندوق ارتقا یابد؟"
+
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:132
+#, kde-format
+msgid ""
+"This vault was created with an older version of cryfs and needs to be upgraded.\n"
+"\n"
+"Mind that this process is irreversible and the vault will no longer work with older versions of cryfs.\n"
+"\n"
+"Do you want to perform the upgrade now?"
+msgstr ""
+"این گاوصندوق با نگارش قدیمی‌تری از cryfs ایجاد شده است و باید ارتقا یابد.\n"
+"\n"
+"توجه داشته باشید که این فرایند غیرقابل‌بازگشت است و گاوصندوق دیگر با نگارش‌های قدیمی‌تر cryfs کار نخواهد کرد.\n"
+"\n"
+"آیا می‌خواهید ارتقا را اکنون انجام دهید؟"
+
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:136
+#, kde-format
+msgid ""
+"The vault needs to be upgraded before it can be unlocked with this version "
+"of cryfs"
+msgstr ""
+"پیش از آنکه بتوان قفل گاوصندوق را با این نگارش از cryfs باز کرد، باید ارتقا "
+"داده شود"
+
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:150
+#: kded/engine/fusebackend_p.cpp:45
+#, kde-format
+msgid "The mount point directory is not empty; refusing to unlock the vault"
+msgstr "شاخهٔ نقطهٔ سوار کردن خالی نیست؛ از باز کردن قفل گاوصندوق صرف‌نظر شد"
+
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:158
+#, kde-format
+msgid "You entered the wrong password"
+msgstr "گذرواژه را اشتباه وارد کردید"
+
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:162
+#, kde-format
+msgid "The installed version of cryfs is too old to unlock this vault."
+msgstr ""
+"نگارش نصب‌شدهٔ cryfs برای باز کردن قفل این گاوصندوق بیش از حد قدیمی است."
+
+#: kded/engine/backends/cryfs/cryfsbackend.cpp:169
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:120
+#, kde-format
+msgid "Unable to perform the operation (error code %1)."
+msgstr "امکان انجام عملیات وجود ندارد (کد خطا %1)."
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:110
+#, kde-format
+msgid "The cipher directory is not empty, cannot initialise the vault."
+msgstr ""
+"پوشهٔ رمزگذاری‌شده خالی نیست، نمی‌توان گاوصندوق را مقداردهی اولیه کرد."
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:113
+#, kde-format
+msgid "The password is empty, cannot initialise the vault."
+msgstr "گذرواژه خالی است، نمی‌توان گاوصندوق را مقداردهی اولیه کرد."
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:116
+#, kde-format
+msgid ""
+"Cannot write gocryptfs.conf inside cipher directory, check your permissions."
+msgstr ""
+"امکان نوشتن gocryptfs.conf درون پوشهٔ رمزگذاری‌شده وجود ندارد، مجوزهای خود "
+"را بررسی کنید."
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:144
+#: kded/engine/fusebackend_p.cpp:192
+#, kde-format
+msgid "Failed to execute"
+msgstr "اجرا نشد"
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:154
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:169
+#: kded/engine/fusebackend_p.cpp:204
+#, kde-format
+msgid "Unable to detect the version"
+msgstr "امکان تشخیص نسخه وجود ندارد"
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:163
+#, kde-format
+msgid "Unable to detect the version, the version string is invalid"
+msgstr "امکان تشخیص نسخه وجود ندارد، رشتهٔ نسخه نامعتبر است"
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:177
+#, kde-format
+msgid "Wrong version installed. The required version is %1.%2"
+msgstr "نسخهٔ اشتباهی نصب شده است. نسخهٔ لازم %1.%2 است"
+
+#: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:180
+#: kded/engine/fusebackend_p.cpp:218
+#, kde-format
+msgid "Correct version found"
+msgstr "نسخهٔ درست پیدا شد"
+
+#: kded/engine/fusebackend_p.cpp:54
+#, kde-format
+msgid "Unable to perform the operation"
+msgstr "امکان انجام عملیات وجود ندارد"
+
+#: kded/engine/fusebackend_p.cpp:117
+#, kde-format
+msgid "This directory already contains encrypted data"
+msgstr "این شاخه از قبل حاوی داده‌های رمزگذاری‌شده است"
+
+#: kded/engine/fusebackend_p.cpp:120
+#, kde-format
+msgid ""
+"You need to select empty directories for the encrypted storage and for the "
+"mount point"
+msgstr ""
+"باید شاخه‌های خالی را برای فضای ذخیره‌سازی رمزگذاری‌شده و نقطهٔ اتصال انتخاب"
+" کنید"
+
+#: kded/engine/fusebackend_p.cpp:137
+#, kde-format
+msgid "This directory doesn't contain encrypted data"
+msgstr "این شاخه حاوی داده‌های رمزگذاری‌شده نیست"
+
+#: kded/engine/fusebackend_p.cpp:141
+#, kde-format
+msgid "You need to select an empty directory for the mount point"
+msgstr "باید یک شاخهٔ خالی برای نقطهٔ اتصال انتخاب کنید"
+
+#: kded/engine/fusebackend_p.cpp:153
+#, kde-format
+msgid "Device is already open"
+msgstr "دستگاه از قبل باز است"
+
+#: kded/engine/fusebackend_p.cpp:161
+#, kde-format
+msgid "Device is not open"
+msgstr "دستگاه باز نیست"
+
+#: kded/engine/fusebackend_p.cpp:212
+#, kde-format
+msgid "Wrong version installed. The required version is %1.%2.%3"
+msgstr "نسخهٔ نادرستی نصب شده است. نسخهٔ مورد نیاز %1.%2.%3 است"
+
+#: kded/engine/vault.cpp:243
+#, kde-format
+msgid "Unknown device"
+msgstr "دستگاه ناشناخته"
+
+#: kded/engine/vault.cpp:273
+#, kde-format
+msgid "Configured backend does not exist: %1"
+msgstr "پشتیبان پیکربندی‌شده وجود ندارد: %1"
+
+#: kded/engine/vault.cpp:278
+#, kde-format
+msgid "Mount point is not specified"
+msgstr "نقطهٔ اتصال مشخص نشده است"
+
+#: kded/engine/vault.cpp:283
+#, kde-format
+msgid "Cannot create the mount point"
+msgstr "امکان ایجاد نقطهٔ اتصال وجود ندارد"
+
+#: kded/engine/vault.cpp:288
+#, kde-format
+msgid "Configured backend cannot be instantiated: %1"
+msgstr "پشتیبان پیکربندی‌شده نمی‌تواند ایجاد شود: %1"
+
+#: kded/engine/vault.cpp:401
+#, kde-format
+msgid "This device is already registered. Cannot recreate it."
+msgstr "این دستگاه قبلاً ثبت شده است. نمی‌توان آن را دوباره ایجاد کرد."
+
+#: kded/engine/vault.cpp:405 kded/engine/vault.cpp:435
+#, kde-format
+msgid "Unknown error; unable to create the backend."
+msgstr "خطای ناشناخته؛ عدم امکان ایجاد پشتیبان."
+
+#: kded/engine/vault.cpp:431
+#, kde-format
+msgid "This device is not initialized. Cannot import it."
+msgstr "این دستگاه مقداردهی اولیه نشده است. امکان درون‌ریزی آن وجود ندارد."
+
+#: kded/engine/vault.cpp:458
+#, kde-format
+msgid "Cannot unlock an unknown vault."
+msgstr "امکان باز کردن قفل یک گاوصندوق ناشناخته وجود ندارد."
+
+#: kded/engine/vault.cpp:473
+#, kde-format
+msgid "The vault is unknown; cannot lock it."
+msgstr "گاوصندوق ناشناخته است؛ نمی‌توان آن را قفل کرد."
+
+#: kded/engine/vault.cpp:494
+#, kde-format
+msgid "Unable to lock the vault because an application is using it"
+msgstr ""
+"امکان قفل کردن گاوصندوق وجود ندارد زیرا یک برنامه در حال استفاده از آن است"
+
+#: kded/engine/vault.cpp:516
+#, kde-format
+msgid "Unable to lock the vault because it is being used by %1"
+msgstr "امکان قفل کردن گاوصندوق وجود ندارد زیرا توسط %1 در حال استفاده است"
+
+#: kded/engine/vault.cpp:540
+#, kde-format
+msgid "Failed to fetch the list of applications using this vault"
+msgstr ""
+"دریافت فهرست برنامه‌هایی که از این گاوصندوق استفاده می‌کنند ناموفق بود"
+
+#: kded/engine/vault.cpp:592
+#, kde-format
+msgid ""
+"Cannot delete the vault; there are other vaults with overlapping paths."
+msgstr ""
+"نمی‌توان گاوصندوق را حذف کرد؛ گاوصندوق‌های دیگری با مسیرهای هم‌پوشان وجود "
+"دارند."
+
+#: kded/engine/vault.cpp:597
+#, kde-format
+msgid "The vault is unknown; cannot dismantle it."
+msgstr "گاوصندوق ناشناخته است؛ امکان برچیدن آن وجود ندارد."
+
+#: kded/engine/vault.cpp:600
+#, kde-format
+msgid "Are you sure you want to delete this vault"
+msgstr "آیا از حذف این گاوصندوق مطمئن هستید؟"
+
+#: kded/engine/vault.cpp:601
+#, kde-format
+msgid ""
+"This operation will irreversibly delete the following:\n"
+"%1\n"
+"%2"
+msgstr ""
+"این عملیات موارد زیر را به‌طور برگشت‌ناپذیری حذف خواهد کرد:\n"
+"%1\n"
+"%2"
+
+#: kded/engine/vault.cpp:603
+#, kde-format
+msgid "Delete operation cancelled"
+msgstr "عملیات حذف لغو شد"
+
+#: kded/service.cpp:491
+#, kde-format
+msgid "Error deleting vault"
+msgstr "خطا در حذف گاوصندوق"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/activitieslinkingwidget.ui:22
+#, kde-format
+msgid ""
+"If you limit this vault only to certain activities, it will be shown in the "
+"applet only when you are in those activities. Furthermore, when you switch "
+"to an activity it should not be available in, it will automatically be "
+"locked."
+msgstr ""
+"اگر این گاوصندوق را فقط به فعالیت‌های خاصی محدود کنید، تنها زمانی در برنامک "
+"نمایش داده می‌شود که در آن فعالیت‌ها باشید. علاوه بر این، هنگامی که به "
+"فعالیتی بروید که نباید در آن در دسترس باشد، به‌طور خودکار قفل خواهد شد."
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkLimitActivities)
+#: kded/ui/activitieslinkingwidget.ui:32
+#, kde-format
+msgid "Limit to the selected activities:"
+msgstr "محدود کردن به فعالیت‌های انتخاب‌شده:"
+
+#: kded/ui/backendchooserwidget.cpp:74
+#, kde-format
+msgid "The specified backend is not available"
+msgstr "پشتیبان مشخص‌شده در دسترس نیست"
+
+#. i18n: ectx: property (text), widget (QLabel, labelVaultName)
+#: kded/ui/backendchooserwidget.ui:17 kded/ui/namechooserwidget.ui:22
+#, kde-format
+msgid "Vaul&t name:"
+msgstr "نام گاوصندوق:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/backendchooserwidget.ui:67
+#, kde-format
+msgid "Backend:"
+msgstr "پشتیبان:"
+
+#. i18n: ectx: property (text), widget (QPushButton, pickBackendButton)
+#: kded/ui/backendchooserwidget.ui:94
+#, kde-format
+msgid "Change"
+msgstr "تغییر"
+
+#. i18n: ectx: property (text), widget (QLabel, labelEncryptionSystem)
+#: kded/ui/backendchooserwidget.ui:132
+#, kde-format
+msgid "Choose the encryption system you want to use for this vault:"
+msgstr "سامانهٔ رمزنگاری مد نظرتان را برای این گاوصندوق انتخاب کنید:"
+
+#: kded/ui/cryfscypherchooserwidget.cpp:59
+#, kde-format
+msgid "Use the default cipher"
+msgstr "استفاده از رمز پیش‌فرض"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCypher)
+#: kded/ui/cryfscypherchooserwidget.ui:22
+#, kde-format
+msgid "Choose the used cipher:"
+msgstr "انتخاب رمز استفاده‌شده:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDevice)
+#: kded/ui/directorychooserwidget.ui:22
+#, kde-format
+msgid "Mount point:"
+msgstr "نقطهٔ اتصال:"
+
+#: kded/ui/directorypairchooserwidget.cpp:58
+#, kde-format
+msgid "The specified path does not exist"
+msgstr "مسیر مشخص‌شده وجود ندارد"
+
+#: kded/ui/directorypairchooserwidget.cpp:64
+#, kde-format
+msgid "The specified directory is not empty"
+msgstr "پوشهٔ مشخص‌شده خالی نیست"
+
+#: kded/ui/directorypairchooserwidget.cpp:70
+#, kde-format
+msgid "The specified directory is empty"
+msgstr "پوشهٔ مشخص‌شده خالی است"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDevice)
+#: kded/ui/directorypairchooserwidget.ui:22
+#, kde-format
+msgid "Encrypted data location"
+msgstr "مکان داده‌های رمزگذاری‌شده"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMountPoint)
+#: kded/ui/directorypairchooserwidget.ui:36
+#, kde-format
+msgid "Mount point"
+msgstr "نقطهٔ سوار کردن"
+
+#: kded/ui/mountdialog.cpp:20
+#, kde-format
+msgctxt "%1 is the name of the Plasma Vault to unlock"
+msgid "Unlock '%1' Plasma Vault"
+msgstr "باز کردن قفل گاوصندوق پلاسما «%1»"
+
+#: kded/ui/mountdialog.cpp:29
+#, kde-format
+msgid "Details…"
+msgstr "جزئیات…"
+
+#: kded/ui/mountdialog.cpp:38
+#, kde-format
+msgid ""
+"Command output:\n"
+"%1\n"
+"\n"
+"Error output: %2"
+msgstr ""
+"خروجی دستور:\n"
+"%1\n"
+"\n"
+"خروجی خطا: %2"
+
+#: kded/ui/mountdialog.cpp:43
+#, kde-format
+msgid "Error details"
+msgstr "جزئیات خطا"
+
+#: kded/ui/mountdialog.cpp:84
+#, kde-format
+msgid "Failed to unlock: %1"
+msgstr "شکست در باز کردن قفل: %1"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/mountdialog.ui:61
+#, kde-format
+msgid "Please enter the password to unlock this vault:"
+msgstr "لطفاً گذرواژه را برای باز کردن قفل این گاوصندوق وارد کنید:"
+
+#. i18n: ectx: property (text), widget (QLabel, pwdLabel)
+#: kded/ui/mountdialog.ui:93
+#, kde-format
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#. i18n: ectx: property (html), widget (QTextBrowser, textNotice)
+#: kded/ui/noticewidget.ui:38
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'hlv'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'hlv'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkShouldBeHidden)
+#: kded/ui/noticewidget.ui:45
+#, kde-format
+msgid "Do not show this notice again"
+msgstr "این اعلان دیگر نشان داده نشود"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkShouldBeOffline)
+#: kded/ui/offlineonlywidget.ui:34
+#, kde-format
+msgid ""
+"Go offline while this vault is open (switch off networking and bluetooth)"
+msgstr "آفلاین شدن هنگام باز بودن این گاوصندوق (خاموش کردن شبکه و بلوتوث)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/passwordchooserwidget.ui:22
+#, kde-format
+msgid ""
+"Mind that there is no way to recover a forgotten password. If you forget the"
+" password, your data is as good as gone."
+msgstr ""
+"توجه داشته باشید که هیچ راهی برای بازیابی گذرواژه فراموش‌شده وجود ندارد. اگر"
+" گذرواژه را فراموش کنید، داده‌های شما عملاً از دست رفته‌اند."
+
+#: kded/ui/vaultconfigurationdialog.cpp:47
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#: kded/ui/vaultconfigurationdialog.cpp:49
+#, kde-format
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: kded/ui/vaultconfigurationdialog.cpp:51
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: kded/ui/vaultconfigurationdialog.cpp:53 kded/ui/vaultimportingwizard.cpp:34
+#, kde-format
+msgid "EncFS"
+msgstr "EncFS"
+
+#: kded/ui/vaultconfigurationdialog.cpp:55 kded/ui/vaultimportingwizard.cpp:40
+#, kde-format
+msgid "CryFS"
+msgstr "CryFS"
+
+#: kded/ui/vaultconfigurationdialog.cpp:57 kded/ui/vaultcreationwizard.cpp:34
+#: kded/ui/vaultimportingwizard.cpp:46
+#, kde-format
+msgid "gocryptfs"
+msgstr "gocryptfs"
+
+#: kded/ui/vaultconfigurationdialog.cpp:142
+#, kde-format
+msgid "Configure"
+msgstr "پیکربندی"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog,
+#. VaultConfigurationDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, VaultImportingWizard)
+#. i18n: ectx: property (windowTitle), widget (QDialog, VaultCreationWizard)
+#: kded/ui/vaultconfigurationdialog.ui:19 kded/ui/vaultcreationwizard.ui:19
+#: kded/ui/vaultimportingwizard.ui:19
+#, kde-format
+msgid "Dialog"
+msgstr "کادر محاوره"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/vaultconfigurationdialog.ui:37
+#, kde-format
+msgid "The vault configuration can only be changed while it is locked."
+msgstr "پیکربندی گاوصندوق تنها زمانی قابل تغییر است که قفل باشد."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonCloseVault)
+#: kded/ui/vaultconfigurationdialog.ui:57
+#, kde-format
+msgid "Lock the vault"
+msgstr "قفل کردن گاوصندوق"
+
+#: kded/ui/vaultcreationwizard.cpp:86
+#, kde-format
+msgctxt "@title:window"
+msgid "Create a New Vault"
+msgstr "ایجاد یک گاوصندوق جدید"
+
+#. i18n: ectx: property (text), widget (QLabel, labelWarning)
+#: kded/ui/vaultdeletionwidget.ui:22
+#, kde-format
+msgid ""
+"This action <b>cannot</b> be undone. This will permanently delete the "
+"selected vault!"
+msgstr ""
+"این اقدام <b>قابل بازگشت نیست</b>. این کار گاوصندوق انتخاب‌شده را برای همیشه"
+" حذف خواهد کرد!"
+
+#. i18n: ectx: property (text), widget (QLabel, labelConfirm)
+#: kded/ui/vaultdeletionwidget.ui:29
+#, kde-format
+msgid "Please type in the name of the vault to confirm:"
+msgstr "لطفاً برای تأیید، نام گاوصندوق را تایپ کنید:"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonDeleteVault)
+#: kded/ui/vaultdeletionwidget.ui:44
+#, kde-format
+msgid "Delete this vault"
+msgstr "حذف این گاوصندوق"
+
+#: kded/ui/vaultimportingwizard.cpp:55
+#, kde-format
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: kded/ui/vaultimportingwizard.cpp:93
+#, kde-format
+msgctxt "@title:window"
+msgid "Import an Existing Vault"
+msgstr "درون‌ریزی یک گاوصندوق موجود"
+
+#: kded/ui/vaultwizardbase.h:39 kded/ui/vaultwizardbase.h:90
+#, kde-format
+msgid "Next"
+msgstr "بعدی"
+
+#: kded/ui/vaultwizardbase.h:80
+#, kde-format
+msgid "Create"
+msgstr "ایجاد"
+
+#: kded/ui/vaultwizardbase.h:87
+#, kde-format
+msgid "Previous"
+msgstr "قبلی"
+
+#: plasma/package/contents/ui/main.qml:53
+#, kde-format
+msgid "Create a New Vault…"
+msgstr "ایجاد یک گاوصندوق جدید…"
+
+#: plasma/package/contents/ui/main.qml:104
+#, kde-format
+msgid "No Vaults have been set up"
+msgstr "هیچ گاوصندوقی برپا نشده است"
+
+#: plasma/package/contents/ui/VaultItem.qml:42
+#, kde-format
+msgid "Lock Vault"
+msgstr "قفل کردن گاوصندوق"
+
+#: plasma/package/contents/ui/VaultItem.qml:42
+#, kde-format
+msgid "Unlock and Open"
+msgstr "باز کردن قفل و گشودن"
+
+#: plasma/package/contents/ui/VaultItem.qml:57
+#, kde-format
+msgid "Show in File Manager"
+msgstr "نمایش در مدیر پرونده"
+
+#: plasma/package/contents/ui/VaultItem.qml:64
+#, kde-format
+msgid "Forcefully Lock Vault"
+msgstr "قفل کردن اجباری گاوصندوق"
+
+#: plasma/package/contents/ui/VaultItem.qml:64
+#, kde-format
+msgid "Unlock Vault"
+msgstr "باز کردن قفل گاوصندوق"
+
+#: plasma/package/contents/ui/VaultItem.qml:75
+#, kde-format
+msgid "Configure Vault…"
+msgstr "پیکربندی گاوصندوق…"

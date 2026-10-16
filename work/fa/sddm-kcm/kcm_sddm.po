@@ -1,0 +1,296 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_sddm package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_sddm\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-06-07 00:47+0000\n"
+"PO-Revision-Date: 2026-10-16 02:55+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: sddmauthhelper.cpp:418 sddmauthhelper.cpp:438 sddmauthhelper.cpp:445
+msgid "Invalid theme package"
+msgstr "بستهٔ پوسته نامعتبر است"
+
+#: sddmauthhelper.cpp:424
+msgid "Could not open file"
+msgstr "پرونده باز نشد"
+
+#: sddmauthhelper.cpp:453
+msgid "Could not decompress archive"
+msgstr "استخراج آرشیو امکان‌پذیر نبود"
+
+#: sddmthemeinstaller.cpp:30
+#, kde-format
+msgid "SDDM theme installer"
+msgstr "نصب‌کنندهٔ پوستهٔ SDDM"
+
+#: sddmthemeinstaller.cpp:37
+#, kde-format
+msgid "Install a theme."
+msgstr "نصب یک پوسته."
+
+#: sddmthemeinstaller.cpp:38
+#, kde-format
+msgid "Uninstall a theme."
+msgstr "حذف یک پوسته."
+
+#: sddmthemeinstaller.cpp:40
+#, kde-format
+msgid "The theme to install, must be an existing archive file."
+msgstr "پوسته برای نصب، باید یک پروندهٔ آرشیو موجود باشد."
+
+#: sddmthemeinstaller.cpp:75
+#, kde-format
+msgid "Unable to install theme"
+msgstr "نصب پوسته امکان‌پذیر نیست"
+
+#: src/sddmkcm.cpp:169 src/sddmkcm.cpp:308
+msgid ""
+"Cannot proceed, user 'sddm' does not exist. Please check your SDDM install."
+msgstr ""
+"ادامه امکان‌پذیر نیست، کاربر «sddm» وجود ندارد. لطفاً نصب SDDM خود را بررسی "
+"کنید."
+
+#: src/sessionmodel.cpp:87
+#, kde-format
+msgctxt "%1 is the name of a session"
+msgid "%1 (Wayland)"
+msgstr "%1 (ویلند)"
+
+#: src/ui/Advanced.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Behavior"
+msgstr "رفتار"
+
+#: src/ui/Advanced.qml:23
+#, kde-format
+msgctxt "option:check"
+msgid "Automatically log in:"
+msgstr "ورود خودکار به سیستم:"
+
+#: src/ui/Advanced.qml:28
+#, kde-format
+msgctxt ""
+"@label:listbox, the following combobox selects the user to log in "
+"automatically"
+msgid "as user:"
+msgstr "به عنوان کاربر:"
+
+#: src/ui/Advanced.qml:100
+#, kde-format
+msgctxt ""
+"@label:listbox, the following combobox selects the session that is started "
+"automatically"
+msgid "with session"
+msgstr "با نشست"
+
+#: src/ui/Advanced.qml:131
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Auto-login does not support unlocking your KDE Wallet automatically, so it "
+"will ask you to unlock it every time you log in.<nl/><nl/>To avoid this, you"
+" can change the wallet to have a blank password. Note that this is insecure "
+"and should only be done in a trusted environment."
+msgstr ""
+"ورود خودکار از باز کردن قفل کیف پول KDE به صورت خودکار پشتیبانی نمی‌کند، "
+"بنابراین هر بار که وارد سیستم می‌شوید از شما می‌خواهد قفل آن را باز "
+"کنید.<nl/><nl/>برای جلوگیری از این امر، می‌توانید گذرواژهٔ کیف پول را خالی "
+"بگذارید. توجه داشته باشید که این کار ناامن است و فقط باید در یک محیط قابل "
+"اعتماد انجام شود."
+
+#: src/ui/Advanced.qml:136
+#, kde-format
+msgid "Open KDE Wallet Settings"
+msgstr "باز کردن تنظیمات کیف پول KDE"
+
+#: src/ui/Advanced.qml:142
+#, kde-format
+msgctxt "@option:check"
+msgid "Log in again immediately after logging off"
+msgstr "ورود دوباره بلافاصله پس از خروج از سیستم"
+
+#: src/ui/Advanced.qml:155
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Minimum user UID:"
+msgstr "کمینهٔ شناسهٔ کاربر (UID):"
+
+#: src/ui/Advanced.qml:167
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Maximum user UID:"
+msgstr "بیشینهٔ شناسهٔ کاربر (UID):"
+
+#: src/ui/Advanced.qml:182
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Halt Command:"
+msgstr "دستور توقف سیستم (Halt):"
+
+#: src/ui/Advanced.qml:215
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Reboot Command:"
+msgstr "فرمان راه‌اندازی مجدد:"
+
+#: src/ui/DetailsDialog.qml:28
+#, kde-format
+msgctxt "@title:window, %1 is the theme name, %2 the version"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: src/ui/DetailsDialog.qml:62
+#, kde-format
+msgid "No preview available"
+msgstr "پیش‌نمایشی موجود نیست"
+
+#: src/ui/DetailsDialog.qml:68
+#, kde-format
+msgctxt ""
+"%1 is a description of the theme, %2 are the authors, %3 is the license"
+msgid "%1, by %2 (%3)"
+msgstr "%1، توسط %2 (%3)"
+
+#: src/ui/main.qml:24
+#, kde-format
+msgctxt "@action:button"
+msgid "Behavior…"
+msgstr "رفتار…"
+
+#: src/ui/main.qml:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply Plasma Settings…"
+msgstr "اعمال تنظیمات پلاسما…"
+
+#: src/ui/main.qml:34
+#, kde-format
+msgctxt "@action:button"
+msgid "Install From File…"
+msgstr "نصب از پرونده…"
+
+#: src/ui/main.qml:39
+#, kde-format
+msgctxt "@action:button as in, \"get new SDDM themes\""
+msgid "Get New…"
+msgstr "دریافت جدید…"
+
+#: src/ui/main.qml:88
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "View details"
+msgstr "مشاهدهٔ جزئیات"
+
+#: src/ui/main.qml:103
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Change background"
+msgstr "تغییر پس‌زمینه"
+
+#: src/ui/main.qml:115
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove login screen theme"
+msgstr "حذف تم صفحهٔ ورود"
+
+#: src/ui/main.qml:117
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active login screen theme"
+msgstr "نمی‌توان تم فعال صفحهٔ ورود را حذف کرد"
+
+#: src/ui/main.qml:119
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed login screen themes"
+msgstr "نمی‌توان تم‌های نصب‌شده توسط سیستم برای صفحهٔ ورود را حذف کرد"
+
+#: src/ui/main.qml:146
+#, kde-format
+msgctxt "@title:window"
+msgid "Apply Plasma Settings"
+msgstr "اعمال تنظیمات پلاسما"
+
+#: src/ui/main.qml:147
+#, kde-format
+msgid ""
+"This will make the SDDM login screen reflect your customizations to the "
+"following Plasma settings:"
+msgstr ""
+"این کار باعث می‌شود صفحهٔ ورود SDDM شخصی‌سازی‌های شما را در تنظیمات پلاسمای "
+"زیر منعکس کند:"
+
+#: src/ui/main.qml:148
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><list><item>Color scheme</item><item>Cursor theme and "
+"size</item><item>Font and font rendering</item><item>NumLock "
+"preference</item><item>Plasma theme</item><item>Scaling "
+"DPI</item><item>Screen configuration (Wayland only)</item></list></para>"
+msgstr ""
+"<para><list><item>طرح رنگی</item><item>تم و اندازهٔ مکان‌نما</item><item>قلم"
+" و رندر قلم</item><item>ترجیح NumLock</item><item>تم "
+"پلاسما</item><item>مقیاس‌بندی DPI</item><item>پیکربندی صفحهٔ نمایش (فقط "
+"وی‌لند)</item></list></para>"
+
+#: src/ui/main.qml:149
+#, kde-format
+msgid ""
+"Please note that theme files must be installed globally to be reflected on "
+"the SDDM login screen."
+msgstr ""
+"لطفاً توجه داشته باشید که پرونده‌های تم باید به‌صورت سرتاسری نصب شوند تا در "
+"صفحهٔ ورود SDDM اعمال شوند."
+
+#: src/ui/main.qml:153
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "اعمال"
+
+#: src/ui/main.qml:158
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset to Default Settings"
+msgstr "بازنشانی به تنظیمات پیش‌فرض"
+
+#: src/ui/main.qml:170
+#, kde-format
+msgctxt "@title:window"
+msgid "Change Background"
+msgstr "تغییر پس‌زمینه"
+
+#: src/ui/main.qml:256
+#, kde-format
+msgid "No image selected"
+msgstr "هیچ تصویری انتخاب نشده است"
+
+#: src/ui/main.qml:261
+#, kde-format
+msgctxt "@option:check"
+msgid "Show clock"
+msgstr "نمایش ساعت"
+
+#: src/ui/main.qml:269
+#, kde-format
+msgctxt "@action:button"
+msgid "Load From File…"
+msgstr "بارگذاری از پرونده…"
+
+#: src/ui/main.qml:274
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear Image"
+msgstr "پاک کردن تصویر"

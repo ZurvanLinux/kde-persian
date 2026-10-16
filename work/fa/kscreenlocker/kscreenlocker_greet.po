@@ -1,0 +1,116 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kscreenlocker_greet package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kscreenlocker_greet\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-15 00:46+0000\n"
+"PO-Revision-Date: 2026-10-16 00:38+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: fallbacktheme/Greeter.qml:59
+msgid "Warning: Caps Lock on"
+msgstr "هشدار: کلید قفل تبدیل (Caps Lock) روشن است"
+
+#: fallbacktheme/Greeter.qml:75
+msgid "The session is locked"
+msgstr "نشست قفل شده است"
+
+#: fallbacktheme/Greeter.qml:76
+msgid "The session has been locked by %1"
+msgstr "نشست توسط %1 قفل شده است"
+
+#: fallbacktheme/Greeter.qml:83
+msgid "Password"
+msgstr "گذرواژه"
+
+#: fallbacktheme/Greeter.qml:101
+msgid "(or place your fingerprint on the reader)"
+msgstr "(یا اثر انگشت خود را روی حسگر بگذارید)"
+
+#: fallbacktheme/Greeter.qml:107
+msgid "(or use your smartcard)"
+msgstr "(یا از کارت هوشمند خود استفاده کنید)"
+
+#: fallbacktheme/Greeter.qml:116
+msgid "&Switch Users"
+msgstr "تعویض کاربر"
+
+#: fallbacktheme/Greeter.qml:123
+msgid "Un&lock"
+msgstr "باز کردن قفل"
+
+#: fallbacktheme/Greeter.qml:135
+msgid "Unlocking failed"
+msgstr "باز کردن قفل ناموفق بود"
+
+#: main.cpp:102
+#, kde-format
+msgid "Greeter for the KDE Plasma Workspaces Screen locker"
+msgstr "خوش‌آمدگوی قفل‌کنندهٔ صفحهٔ فضاهای کاری پلاسمای کی‌دی‌ای"
+
+#: main.cpp:106
+#, kde-format
+msgid "Starts the greeter in testing mode"
+msgstr "آغاز خوشامدگو در حالت آزمایشی"
+
+#: main.cpp:109
+#, kde-format
+msgid ""
+"Starts the greeter with the selected shell theme (only in Testing mode)"
+msgstr "آغاز خوشامدگو با پوستهٔ شل برگزیده (فقط در حالت آزمایشی)"
+
+#: main.cpp:113
+#, kde-format
+msgid "Lock immediately, ignoring any grace time etc."
+msgstr "قفل آنی، نادیده گرفتن هرگونه زمان مهلت و غیره."
+
+#: main.cpp:115
+#, kde-format
+msgid "Delay till the lock user interface gets shown in milliseconds."
+msgstr "تأخیر تا زمان نمایش رابط کاربری قفل، به میلی‌ثانیه."
+
+#: main.cpp:118
+#, kde-format
+msgid "Don't show any lock user interface."
+msgstr "هیچ رابط کاربری قفلی نشان داده نشود."
+
+#: pamauthenticatormodel.cpp:51
+#, kde-format
+msgctxt "authentication type in unlock dialogs"
+msgid "Password"
+msgstr "گذرواژه"
+
+#: pamauthenticatormodel.cpp:60
+#, kde-format
+msgctxt "authentication type in unlock dialogs"
+msgid "Smartcard"
+msgstr "کارت هوشمند"
+
+#: pamauthenticatormodel.cpp:67
+#, kde-format
+msgctxt "authentication type in unlock dialogs"
+msgid "Fingerprint"
+msgstr "اثر انگشت"
+
+#: pamauthenticatormodel.cpp:74
+#, kde-format
+msgctxt "authentication type in unlock dialogs - facial authentication"
+msgid "Face"
+msgstr "چهره"
+
+#: pamauthenticatormodel.cpp:82
+#, kde-format
+msgctxt ""
+"authentication type in unlock dialogs - universal 2 factor authentication "
+"(yubikey etc)"
+msgid "Universal 2 Factor"
+msgstr "عامل دوم فراگیر (U2F)"

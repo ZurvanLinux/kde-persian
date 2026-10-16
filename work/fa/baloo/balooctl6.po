@@ -1,0 +1,523 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the balooctl6 package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: balooctl6\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-26 00:39+0000\n"
+"PO-Revision-Date: 2026-10-15 13:53+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: clearcommand.cpp:30
+#, kde-format
+msgid "Immediately clear entries from the index"
+msgstr "پاک‌سازی فوری مدخل‌ها از نمایه"
+
+#: configcommand.cpp:45
+#, kde-format
+msgid "Manipulate the Baloo configuration"
+msgstr "دست‌کاری پیکربندی بالو"
+
+#: configcommand.cpp:68
+#, kde-format
+msgid "The config command can be used to manipulate the Baloo Configuration\n"
+msgstr "از دستور config می‌توان برای تغییر پیکربندی بالو استفاده کرد\n"
+
+#: configcommand.cpp:69
+#, kde-format
+msgid ""
+"Usage: balooctl config <command>\n"
+"\n"
+msgstr ""
+"کاربرد: balooctl config <command>\n"
+"\n"
+
+#: configcommand.cpp:70
+#, kde-format
+msgid "Possible Commands:\n"
+msgstr "دستورهای ممکن:\n"
+
+#: configcommand.cpp:72
+#, kde-format
+msgid "Add a value to config parameter"
+msgstr "افزودن مقدار به پارامتر پیکربندی"
+
+#: configcommand.cpp:73
+#, kde-format
+msgid "Remove a value from a config parameter"
+msgstr "حذف مقدار از پارامتر پیکربندی"
+
+#: configcommand.cpp:74
+#, kde-format
+msgid "Show the value of a config parameter"
+msgstr "نمایش مقدار یک پارامتر پیکربندی"
+
+#: configcommand.cpp:75
+#, kde-format
+msgid "Set the value of a config parameter"
+msgstr "تنظیم مقدار یک پارامتر پیکربندی"
+
+#: configcommand.cpp:76
+#, kde-format
+msgid "Display this help menu"
+msgstr "نمایش این منوی راهنما"
+
+#: configcommand.cpp:82
+#, kde-format
+msgid ""
+"The following configuration options may be listed:\n"
+"\n"
+msgstr ""
+"گزینه‌های پیکربندی زیر را می‌توان فهرست کرد:\n"
+"\n"
+
+#: configcommand.cpp:84 configcommand.cpp:367
+#, kde-format
+msgid "Controls if Baloo indexes hidden files and folders"
+msgstr ""
+"کنترل این که آیا بالو پرونده‌ها و پوشه‌های پنهان را نمایه‌سازی کند یا خیر"
+
+#: configcommand.cpp:85 configcommand.cpp:368
+#, kde-format
+msgid "Controls if Baloo indexes file content"
+msgstr "کنترل این که آیا بالو محتوای پرونده را نمایه‌سازی کند یا خیر"
+
+#: configcommand.cpp:86 configcommand.cpp:153 configcommand.cpp:244
+#, kde-format
+msgid "The list of folders which Baloo indexes"
+msgstr "فهرست پوشه‌هایی که بالو نمایه‌سازی می‌کند"
+
+#: configcommand.cpp:87 configcommand.cpp:154 configcommand.cpp:245
+#, kde-format
+msgid "The list of folders which Baloo will never index"
+msgstr "فهرست پوشه‌هایی که بالو هرگز نمایه‌سازی نخواهد کرد"
+
+#: configcommand.cpp:88 configcommand.cpp:155 configcommand.cpp:246
+#, kde-format
+msgid "The list of filters which are used to exclude files"
+msgstr "فهرست پالایه‌هایی که برای مستثنی کردن پرونده‌ها استفاده می‌شوند"
+
+#: configcommand.cpp:89 configcommand.cpp:156 configcommand.cpp:247
+#, kde-format
+msgid "The list of mimetypes which are used to exclude files"
+msgstr ""
+"فهرست نوع‌های چندرسانه‌ای (MIME) که برای مستثنی کردن پرونده‌ها استفاده "
+"می‌شوند"
+
+#: configcommand.cpp:145 configcommand.cpp:236 configcommand.cpp:359
+#: configcommand.cpp:429
+#, kde-format
+msgid "Config parameter could not be found\n"
+msgstr "پارامتر پیکربندی یافت نشد\n"
+
+#: configcommand.cpp:151 configcommand.cpp:242 configcommand.cpp:365
+#, kde-format
+msgid ""
+"The following configuration options may be modified:\n"
+"\n"
+msgstr ""
+"گزینه‌های پیکربندی زیر را می‌توان تغییر داد:\n"
+"\n"
+
+#: configcommand.cpp:164 configcommand.cpp:184 configcommand.cpp:255
+#: configcommand.cpp:290
+#, kde-format
+msgid "A folder must be provided\n"
+msgstr "یک پوشه باید مشخص شود\n"
+
+#: configcommand.cpp:172
+#, kde-format
+msgid "%1 is not in the list of include folders"
+msgstr "%1 در فهرست پوشه‌های شامل‌شده نیست"
+
+#: configcommand.cpp:192
+#, kde-format
+msgid "%1 is not in the list of exclude folders"
+msgstr "%1 در فهرست پوشه‌های استثناشده نیست"
+
+#: configcommand.cpp:204 configcommand.cpp:325
+#, kde-format
+msgid "A filter must be provided\n"
+msgstr "یک فیلتر باید مشخص شود\n"
+
+#: configcommand.cpp:210
+#, kde-format
+msgid "%1 is not in list of exclude filters"
+msgstr "%1 در فهرست فیلترهای استثناشده نیست"
+
+#: configcommand.cpp:221 configcommand.cpp:343
+#, kde-format
+msgid "A mimetype must be provided\n"
+msgstr "یک نوع MIME باید مشخص شود\n"
+
+#: configcommand.cpp:227
+#, kde-format
+msgid "%1 is not in list of exclude mimetypes"
+msgstr "%1 در فهرست نوع‌های MIME استثناشده نیست"
+
+#: configcommand.cpp:261 configcommand.cpp:296
+#, kde-format
+msgid "Path does not exist\n"
+msgstr "مسیر وجود ندارد\n"
+
+#: configcommand.cpp:266 configcommand.cpp:301
+#, kde-format
+msgid "Path is not a directory\n"
+msgstr "مسیر یک پوشه نیست\n"
+
+#: configcommand.cpp:273
+#, kde-format
+msgid "%1 is already in the list of include folders"
+msgstr "‏%1 از قبل در فهرست پوشه‌های مشمول وجود دارد"
+
+#: configcommand.cpp:278
+#, kde-format
+msgid "%1 is in the list of exclude folders"
+msgstr "‏%1 در فهرست پوشه‌های مستثنی قرار دارد"
+
+#: configcommand.cpp:308
+#, kde-format
+msgid "%1 is already in the list of exclude folders"
+msgstr "‏%1 از قبل در فهرست پوشه‌های مستثنی وجود دارد"
+
+#: configcommand.cpp:313
+#, kde-format
+msgid "%1 is in the list of include folders"
+msgstr "‏%1 در فهرست پوشه‌های مشمول قرار دارد"
+
+#: configcommand.cpp:331
+#, kde-format
+msgid "Exclude filter is already in the list\n"
+msgstr "فیلتر استثنا از قبل در فهرست وجود دارد\n"
+
+#: configcommand.cpp:349
+#, kde-format
+msgid "Exclude mimetype is already in the list\n"
+msgstr "نوع MIME استثنا از قبل در فهرست وجود دارد\n"
+
+#: configcommand.cpp:377 configcommand.cpp:404
+#, kde-format
+msgid "A value must be provided\n"
+msgstr "باید یک مقدار وارد شود\n"
+
+#: configcommand.cpp:398 configcommand.cpp:425
+#, kde-format
+msgid "Invalid value\n"
+msgstr "مقدار نامعتبر است\n"
+
+#: indexcommand.cpp:29
+#, kde-format
+msgid "Immediately index files"
+msgstr "نمایه‌سازی فوری پرونده‌ها"
+
+#: main.cpp:54
+#, kde-format
+msgid "balooctl"
+msgstr "balooctl"
+
+#: main.cpp:55
+#, kde-format
+msgid "Vishesh Handa"
+msgstr "ویشش هاندا"
+
+#: main.cpp:60
+#, kde-format
+msgid "The command to execute"
+msgstr "فرمان برای اجرا"
+
+#: main.cpp:62
+#, kde-format
+msgid "Print the status of the indexer"
+msgstr "چاپ وضعیت نمایه‎ساز"
+
+#: main.cpp:63
+#, kde-format
+msgid "Enable the file indexer"
+msgstr "فعال‌سازی نمایه‌ساز پرونده"
+
+#: main.cpp:64
+#, kde-format
+msgid "Disable the file indexer"
+msgstr "غیرفعال‌سازی نمایه‌ساز پرونده"
+
+#: main.cpp:65
+#, kde-format
+msgid "Remove the index database"
+msgstr "حذف پایگاه‌دادهٔ نمایه"
+
+#: main.cpp:66
+#, kde-format
+msgid "Suspend the file indexer"
+msgstr "تعلیق نمایه‌ساز پرونده"
+
+#: main.cpp:67
+#, kde-format
+msgid "Resume the file indexer"
+msgstr "ازسرگیری نمایه‌ساز پرونده"
+
+#: main.cpp:68
+#, kde-format
+msgid "Check for any unindexed files and index them"
+msgstr "بررسی پرونده‌های نمایه‌نشده و نمایه‌سازی آن‌ها"
+
+#: main.cpp:69
+#, kde-format
+msgid "Index the specified files"
+msgstr "نمایه‌سازی پرونده‌های مشخص‌شده"
+
+#: main.cpp:70
+#, kde-format
+msgid "Forget the specified files"
+msgstr "فراموش کردن پرونده‌های مشخص‌شده"
+
+#: main.cpp:71
+#, kde-format
+msgid "Modify the Baloo configuration"
+msgstr "تغییر پیکربندی Baloo"
+
+#: main.cpp:72
+#, kde-format
+msgid "Monitor the file indexer"
+msgstr "پایش نمایه‌ساز پرونده"
+
+#: main.cpp:73
+#, kde-format
+msgid "Display the disk space used by index"
+msgstr "نمایش فضای دیسک استفاده‌شده توسط نمایه"
+
+#: main.cpp:74
+#, kde-format
+msgid "Display files which could not be indexed"
+msgstr "نمایش پرونده‌هایی که امکان نمایه شدن نداشتند"
+
+#: main.cpp:77
+#, kde-format
+msgctxt ""
+"Format to use for status command, %1|%2|%3 are option values, %4 is a CLI "
+"command"
+msgid ""
+"Output format <%1|%2|%3>.\n"
+"The default format is \"%1\".\n"
+"Only applies to \"%4\""
+msgstr ""
+"قالب خروجی ‎<%1|%2|%3>‎.\n"
+"قالب پیش‌فرض «%1» است.\n"
+"فقط برای «%4» اعمال می‌شود"
+
+#: main.cpp:83
+#, kde-format
+msgid "format"
+msgstr "قالب"
+
+#: monitorcommand.cpp:28
+msgctxt "File index suceeded"
+msgid "Ok"
+msgstr "تأیید"
+
+#: monitorcommand.cpp:29
+msgctxt "File index skipped"
+msgid "File path ignored"
+msgstr "مسیر پرونده نادیده گرفته شد"
+
+#: monitorcommand.cpp:30
+msgctxt "File index skipped"
+msgid "File type ignored"
+msgstr "نوع پرونده نادیده گرفته شد"
+
+#: monitorcommand.cpp:31
+msgctxt "File index skipped"
+msgid "File type not supported"
+msgstr "نوع پرونده پشتیبانی نمی‌شود"
+
+#: monitorcommand.cpp:32
+msgctxt "File index skipped"
+msgid "File too large"
+msgstr "پرونده بیش از حد بزرگ است"
+
+#: monitorcommand.cpp:33
+msgctxt "File index failed"
+msgid "File not found"
+msgstr "پرونده یافت نشد"
+
+#: monitorcommand.cpp:34
+msgctxt "File index failed"
+msgid "Failed to extract metadata/content"
+msgstr "استخراج فراداده/محتوا ناموفق بود"
+
+#: monitorcommand.cpp:47
+#, kde-format
+msgctxt "Unknown index result code"
+msgid "<unknown> [%1]"
+msgstr "<unknown> [%1]"
+
+#: monitorcommand.cpp:87
+#, kde-format
+msgid "Press ctrl+c to stop monitoring\n"
+msgstr "برای توقف پایش، کلیدهای Ctrl+C را فشار دهید\n"
+
+#: monitorcommand.cpp:123
+#, kde-format
+msgid "Waiting for file indexer to start\n"
+msgstr "در حال انتظار برای شروع نمایه ساز پرونده\n"
+
+#: monitorcommand.cpp:124
+#, kde-format
+msgid "Press Ctrl+C to stop monitoring\n"
+msgstr "برای توقف پایش، کلیدهای Ctrl+C را فشار دهید\n"
+
+#: monitorcommand.cpp:131
+#, kde-format
+msgid "File indexer is running\n"
+msgstr "نمایه‌ساز پرونده در حال اجرا است\n"
+
+#: monitorcommand.cpp:147 monitorcommand.cpp:155 statuscommand.cpp:307
+#, kde-format
+msgctxt "currently indexed file"
+msgid "Indexing: %1"
+msgstr "در حال نمایه‌سازی: %1"
+
+#: monitorcommand.cpp:158
+#, kde-format
+msgctxt "index result"
+msgid ": %1\n"
+msgstr ": %1\n"
+
+#: monitorcommand.h:32
+#, kde-format
+msgid "CLI interface for monitoring Baloo"
+msgstr "رابط خط فرمان برای پایش Baloo"
+
+#: statuscommand.cpp:33
+#, kde-format
+msgid "Print the status of the Indexer"
+msgstr "چاپ وضعیت نمایه‌ساز"
+
+#: statuscommand.cpp:117
+#, kde-format
+msgid "File ignored"
+msgstr "پرونده نادیده گرفته شد"
+
+#: statuscommand.cpp:118
+#, kde-format
+msgid "Basic Indexing: Disabled"
+msgstr "نمایه‌سازی پایه‌ای: غیرفعال"
+
+#: statuscommand.cpp:119 statuscommand.cpp:120
+#, kde-format
+msgid "Basic Indexing: Scheduled"
+msgstr "نمایه‌سازی پایه‌ای: زمان‌بندی‌شده"
+
+#: statuscommand.cpp:121 statuscommand.cpp:122 statuscommand.cpp:123
+#: statuscommand.cpp:124
+#, kde-format
+msgid "Basic Indexing: Done"
+msgstr "نمایه‌سازی پایه‌ای: انجام شد"
+
+#: statuscommand.cpp:130 statuscommand.cpp:133
+#, kde-format
+msgid "Content Indexing: Scheduled"
+msgstr "نمایه‌سازی محتوا: زمان‌بندی‌شده"
+
+#: statuscommand.cpp:134
+#, kde-format
+msgid "Content Indexing: Failed"
+msgstr "نمایه‌سازی محتوا: ناموفق"
+
+#: statuscommand.cpp:135
+#, kde-format
+msgid "Content Indexing: Done"
+msgstr "نمایه‌سازی محتوا: انجام شد"
+
+#: statuscommand.cpp:142 statuscommand.cpp:182 statuscommand.cpp:230
+#, kde-format
+msgid "Ignoring non-existent file %1"
+msgstr "نادیده گرفتن پروندهٔ ناموجود %1"
+
+#: statuscommand.cpp:147 statuscommand.cpp:187 statuscommand.cpp:235
+#, kde-format
+msgid "Ignoring symlink/special file %1"
+msgstr "نادیده گرفتن پیوند نمادین/پروندهٔ ویژهٔ %1"
+
+#: statuscommand.cpp:151
+#, kde-format
+msgid "File: %1"
+msgstr "پرونده: %1"
+
+#: statuscommand.cpp:262
+#, kde-format
+msgid "Output format \"%1\" is invalid, use one of:\n"
+msgstr "قالب خروجی «%1» نامعتبر است، یکی از این‌ها را استفاده کنید:\n"
+
+#: statuscommand.cpp:264
+#, kde-format
+msgctxt "bullet list item with output format"
+msgid "- %1\n"
+msgstr "- %1\n"
+
+#: statuscommand.cpp:271
+#, kde-format
+msgid "Baloo is currently disabled. To enable, please run %1\n"
+msgstr "بالو در حال حاضر غیرفعال است. برای فعال‌سازی، لطفاً %1 را اجرا کنید\n"
+
+#: statuscommand.cpp:277
+#, kde-format
+msgid "Baloo Index could not be opened\n"
+msgstr "نمایهٔ بالو باز نشد\n"
+
+#: statuscommand.cpp:304
+#, kde-format
+msgid "Baloo File Indexer is running\n"
+msgstr "نمایه‌ساز پروندهٔ بالو در حال اجرا است\n"
+
+#: statuscommand.cpp:306 statuscommand.cpp:309
+#, kde-format
+msgid "Indexer state: %1"
+msgstr "وضعیت نمایه‌ساز: %1"
+
+#: statuscommand.cpp:313
+#, kde-format
+msgid "Baloo File Indexer is not running\n"
+msgstr "نمایه‌ساز پروندهٔ بالو در حال اجرا نیست\n"
+
+#: statuscommand.cpp:320
+#, kde-format
+msgid "Total files indexed: %1"
+msgstr "مجموع پرونده‌های نمایه‌شده: %1"
+
+#: statuscommand.cpp:321
+#, kde-format
+msgid "Files waiting for content indexing: %1"
+msgstr "پرونده‌های در انتظار نمایه محتوا: %1"
+
+#: statuscommand.cpp:322
+#, kde-format
+msgid "Files failed to index: %1"
+msgstr "پرونده‌های ناموفق در نمایه‌سازی: %1"
+
+#: statuscommand.cpp:330
+#, kde-format
+msgid "Current size of index is %1"
+msgstr "اندازه فعلی نمایه %1 است"
+
+#: statuscommand.cpp:332
+#, kde-format
+msgid "Index does not exist yet\n"
+msgstr "نمایه هنوز وجود ندارد\n"

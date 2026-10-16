@@ -1,0 +1,536 @@
+# translation of kwordquiz.po to Persian
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Reza Mirdamadi <mohi@ubuntu.ir>, 2012.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwordquiz\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-31 00:40+0000\n"
+"PO-Revision-Date: 2026-10-16 00:56+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: exporter.cpp:125
+#, kde-format
+msgid "Name:_____________________________ Date:__________"
+msgstr "نام:_____________________________ تاریخ:__________"
+
+#: exporter.cpp:173
+#, kde-format
+msgid "Score"
+msgstr "امتیاز"
+
+#: kwqcardmodel.cpp:30
+#, kde-format
+msgid "Question"
+msgstr "پرسش"
+
+#: kwqcardmodel.cpp:32
+#, kde-format
+msgid "Answer"
+msgstr "پاسخ"
+
+#: main.cpp:63
+#, kde-format
+msgid "Invalid goto given: %1. Allowed: flash, mc and qa"
+msgstr "مقصد نامعتبر برای goto مشخص شده است: %1. مقادیر مجاز: flash، mc و qa"
+
+#: main.cpp:86
+#, kde-format
+msgid "WordQuiz"
+msgstr "WordQuiz"
+
+#: main.cpp:88
+#, kde-format
+msgid "A powerful flashcard and vocabulary learning program"
+msgstr "برنامه‌ای قدرتمند برای یادگیری واژگان و فلش‌کارت"
+
+#: main.cpp:90
+#, kde-format
+msgid "(c) 2003-2010, Peter Hedlund"
+msgstr "(c) 2003-2010, Peter Hedlund"
+
+#: main.cpp:94
+#, kde-format
+msgid "Peter Hedlund"
+msgstr "پیتر هدلوند"
+
+#: main.cpp:94
+#, kde-format
+msgctxt "@info:credit"
+msgid "Original author"
+msgstr "نویسنده اصلی"
+
+#: main.cpp:95
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "کارل شوان"
+
+#: main.cpp:95
+#, kde-format
+msgctxt "@info:credit"
+msgid "Port to QML"
+msgstr "پورت به QML"
+
+#: main.cpp:96
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr "آن-ماری محفوظ"
+
+#: main.cpp:96
+#, kde-format
+msgid "KDE Edutainment Maintainer"
+msgstr "نگه‌دارنده بخش آموزشی KDE"
+
+#: main.cpp:97
+#, kde-format
+msgid "Martin Pfeiffer"
+msgstr "مارتین فایفر"
+
+#: main.cpp:97
+#, kde-format
+msgid "Leitner System and several code contributions"
+msgstr "سیستم لایتنر و مشارکت‌های متعدد در کد"
+
+#: main.cpp:111
+#, kde-format
+msgid ""
+"Type of session to start with: \n"
+"'flash' for flashcard, \n"
+"'mc' for multiple choice, \n"
+"'qa' for question and answer"
+msgstr ""
+"نوع نشست برای شروع:\n"
+"'flash' برای فلش‌کارت،\n"
+"'mc' برای چندگزینه‌ای،\n"
+"'qa' برای پرسش و پاسخ"
+
+#: main.cpp:113
+#, kde-format
+msgid "File to open"
+msgstr "پرونده برای باز کردن"
+
+#: qml/BasePage.qml:24
+#, kde-format
+msgid "Cards %1% Errors %2"
+msgstr "کارت‌ها ٪%1 خطاها %2"
+
+#: qml/BasePage.qml:26
+#, kde-format
+msgid "Cards %1/%2 Errors %3"
+msgstr "کارت‌ها %1/%2 خطاها %3"
+
+#: qml/BasePage.qml:73
+#, kde-format
+msgctxt "@label"
+msgid "Finished"
+msgstr "پایان‌یافته"
+
+#: qml/BasePage.qml:75
+#, kde-format
+msgid "You got a perfect score"
+msgstr "امتیاز کامل را کسب کردید"
+
+#: qml/BasePage.qml:75
+#, kde-format
+msgid "You made one mistake"
+msgid_plural "You made %1 mistakes"
+msgstr[0] "شما یک اشتباه داشتید"
+msgstr[1] "شما %1 اشتباه داشتید"
+
+#: qml/BasePage.qml:82
+#, kde-format
+msgid "Repeat Errors"
+msgstr "تکرار خطاها"
+
+#: qml/BasePage.qml:93
+#, kde-format
+msgid "Try Again"
+msgstr "تلاش دوباره"
+
+#: qml/DeckEditorPage.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Deck"
+msgstr "ایجاد دسته کارت"
+
+#: qml/DeckEditorPage.qml:34
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Deck"
+msgstr "ویرایش دسته کارت"
+
+#: qml/DeckEditorPage.qml:39
+#, kde-format
+msgid "Filter"
+msgstr "فیلتر"
+
+#: qml/DeckEditorPage.qml:42
+#, kde-format
+msgid "Filter..."
+msgstr "فیلتر..."
+
+#: qml/DeckEditorPage.qml:50
+#, kde-format
+msgctxt "@action:button"
+msgid "Print Preview"
+msgstr "پیش‌نمایش چاپ"
+
+#: qml/DeckEditorPage.qml:54 qml/DeckEditorPage.qml:76
+#, kde-format
+msgid "Flashcard"
+msgstr "فلش‌کارت"
+
+#: qml/DeckEditorPage.qml:60 qml/DeckEditorPage.qml:82
+#, kde-format
+msgid "List"
+msgstr "فهرست"
+
+#: qml/DeckEditorPage.qml:66 qml/DeckEditorPage.qml:88
+#, kde-format
+msgid "Exam"
+msgstr "آزمون"
+
+#: qml/DeckEditorPage.qml:72
+#, kde-format
+msgctxt "@action:button"
+msgid "Print"
+msgstr "چاپ"
+
+#: qml/DeckEditorPage.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr "ایجاد"
+
+#: qml/DeckEditorPage.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "ذخیره"
+
+#: qml/DeckEditorPage.qml:120
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Image"
+msgstr "حذف تصویر"
+
+#: qml/DeckEditorPage.qml:120
+#, kde-format
+msgctxt "@action:button"
+msgid "Link Image"
+msgstr "پیوند دادن تصویر"
+
+#: qml/DeckEditorPage.qml:122
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Sound"
+msgstr "حذف صدا"
+
+#: qml/DeckEditorPage.qml:122
+#, kde-format
+msgctxt "@action:button"
+msgid "Link Sound"
+msgstr "پیوند صدا"
+
+#: qml/DeckEditorPage.qml:155
+#, kde-format
+msgctxt "@action:button"
+msgid "Set language"
+msgstr "تنظیم زبان"
+
+#: qml/DeckEditorPage.qml:161
+#, kde-format
+msgctxt "@action:button"
+msgid "Set Language"
+msgstr "تنظیم زبان"
+
+#: qml/DeckEditorPage.qml:182
+#, kde-format
+msgid "Please Choose an Image"
+msgstr "لطفاً یک تصویر انتخاب کنید"
+
+#: qml/DeckEditorPage.qml:191
+#, kde-format
+msgid "Please Choose a Sound"
+msgstr "لطفاً یک صدا انتخاب کنید"
+
+#: qml/DeckEditorPage.qml:226
+#, kde-format
+msgctxt "@label"
+msgid "Name:"
+msgstr "نام:"
+
+#: qml/DeckEditorPage.qml:237
+#, kde-format
+msgctxt "@label"
+msgid "Author:"
+msgstr "پدیدآور:"
+
+#: qml/DeckEditorPage.qml:248
+#, kde-format
+msgctxt "@label"
+msgid "License:"
+msgstr "مجوز:"
+
+#: qml/EditAction.qml:13 qml/WelcomePage.qml:223
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit"
+msgstr "ویرایش"
+
+#: qml/FlashCardPage.qml:16 qml/MultipleChoicePage.qml:87
+#: qml/QuestionAnswerPage.qml:151
+#, kde-format
+msgctxt "@action:button"
+msgid "Check"
+msgstr "بررسی"
+
+#: qml/FlashCardPage.qml:128
+#, kde-format
+msgctxt "@action:button"
+msgid "Correct"
+msgstr "درست"
+
+#: qml/FlashCardPage.qml:146
+#, kde-format
+msgctxt "@action:button"
+msgid "Not Correct"
+msgstr "نادرست"
+
+#: qml/LanguageSelectorPage.qml:15
+#, kde-format
+msgid "Select a language"
+msgstr "انتخاب یک زبان"
+
+#: qml/Main.qml:40
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: qml/Main.qml:42
+#, kde-format
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: qml/MultipleChoicePage.qml:99 qml/QuestionAnswerPage.qml:164
+#, kde-format
+msgid "This is correct"
+msgstr "این درست است"
+
+#: qml/MultipleChoicePage.qml:99 qml/QuestionAnswerPage.qml:164
+#, kde-format
+msgid "Wrong, the correct answer was \"%1\"."
+msgstr "نادرست است، پاسخ درست «%1» بود."
+
+#: qml/MultipleChoicePage.qml:130 qml/QuestionAnswerPage.qml:195
+#, kde-format
+msgctxt "@action:button"
+msgid "Next"
+msgstr "بعدی"
+
+#: qml/MultipleChoicePage.qml:150
+#, kde-format
+msgid "Not enough words in your deck"
+msgstr "کلمات در دستهٔ شما کافی نیست"
+
+#: qml/MultipleChoicePage.qml:151
+#, kde-format
+msgid "You need at least 3 words to enable the multiple choice mode"
+msgstr "برای فعال‌سازی حالت چندگزینه‌ای دست‌کم به ۳ واژه نیاز دارید"
+
+#: qml/OptionsAction.qml:12
+#, kde-format
+msgctxt "@action:button"
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: qml/OptionsAction.qml:15
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Shuffle"
+msgstr "بر زدن"
+
+#: qml/QuestionAnswerPage.qml:143
+#, kde-format
+msgctxt "@action:button"
+msgid "Hint"
+msgstr "راهنمایی"
+
+#: qml/SettingsPage.qml:13
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: qml/SettingsPage.qml:16
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#: qml/SettingsPage.qml:22
+#, kde-format
+msgid "Show score as percentage"
+msgstr "نمایش امتیاز به صورت درصد"
+
+#: qml/SettingsPage.qml:32
+#, kde-format
+msgid "Flash Card"
+msgstr "فلش‌کارت"
+
+#: qml/SettingsPage.qml:38
+#, kde-format
+msgid "Automatically flip flashcard"
+msgstr "پشت‌ورو کردن خودکار فلش‌کارت"
+
+#: qml/SettingsPage.qml:50
+#, kde-format
+msgid "Time delay for flipping the flashcard"
+msgstr "تأخیر زمانی برای پشت‌ورو کردن فلش‌کارت"
+
+#: qml/SettingsPage.qml:63
+#, kde-format
+msgid "Multiple choice"
+msgstr "چندگزینه‌ای"
+
+#: qml/SettingsPage.qml:68
+#, kde-format
+msgid "Automatically check selected answer"
+msgstr "بررسی خودکار پاسخ انتخاب‌شده"
+
+#: qml/SettingsPage.qml:78
+#, kde-format
+msgid "Question and Answer"
+msgstr "پرسش و پاسخ"
+
+#: qml/SettingsPage.qml:84
+#, kde-format
+msgid "Count using hint as an error"
+msgstr "خطا محسوب کردن استفاده از راهنما"
+
+#: qml/SettingsPage.qml:96
+#, kde-format
+msgid "Compare answers in a case sensitive way"
+msgstr "مقایسهٔ پاسخ‌ها با حساسیت به بزرگی و کوچکی حروف"
+
+#: qml/SettingsPage.qml:111
+#, kde-format
+msgid "About KWordQuiz"
+msgstr "دربارهٔ KWordQuiz"
+
+#: qml/SettingsPage.qml:126
+#, kde-format
+msgid "About KDE"
+msgstr "دربارهٔ KDE"
+
+#: qml/WelcomePage.qml:35
+#, kde-format
+msgctxt "@title:window"
+msgid "Welcome"
+msgstr "خوش آمدید"
+
+#: qml/WelcomePage.qml:40
+#, kde-format
+msgid "Please choose a WordQuiz document"
+msgstr "لطفاً یک سند WordQuiz انتخاب کنید"
+
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "KEduDocument (*.kvtml)"
+msgstr "‏KEduDocument (*.kvtml)‎"
+
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "Wql documents (*.wql)"
+msgstr "سندهای Wql ‏(‎*.wql)"
+
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "CSV documents (*.csv)"
+msgstr "سندهای CSV ‏(‎*.csv)"
+
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "XDXF documents (*.xdxf)"
+msgstr "سندهای XDXF ‏(‎*.xdxf)"
+
+#: qml/WelcomePage.qml:58
+#, kde-format
+msgid "Welcome to WordQuiz"
+msgstr "به WordQuiz خوش آمدید"
+
+#: qml/WelcomePage.qml:70
+#, kde-format
+msgid "Open Existing Document"
+msgstr "باز کردن سند موجود"
+
+#: qml/WelcomePage.qml:76
+#, kde-format
+msgid "Create Deck"
+msgstr "ایجاد دسته کارت"
+
+#: qml/WelcomePage.qml:84
+#, kde-format
+msgid "Download Deck"
+msgstr "بارگیری دسته کارت"
+
+#: qml/WelcomePage.qml:100
+#, kde-format
+msgctxt "@title:group"
+msgid "Mode"
+msgstr "حالت"
+
+#: qml/WelcomePage.qml:137
+#, kde-format
+msgctxt "@option:check Mode selector"
+msgid "Flashcard"
+msgstr "فلش‌کارت"
+
+#: qml/WelcomePage.qml:144
+#, kde-format
+msgctxt "@option:check Mode selector"
+msgid "Multiple choice"
+msgstr "چندگزینه‌ای"
+
+#: qml/WelcomePage.qml:151
+#, kde-format
+msgctxt "@option:check Mode selector"
+msgid "Question-Answer"
+msgstr "پرسش-پاسخ"
+
+#: qml/WelcomePage.qml:157
+#, kde-format
+msgid "Decks"
+msgstr "دسته‌ها"
+
+#: qml/WelcomePage.qml:193
+#, kde-format
+msgid "Document cannot be opened"
+msgstr "سند باز نمی‌شود"
+
+#: qml/WelcomePage.qml:209
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "حذف"

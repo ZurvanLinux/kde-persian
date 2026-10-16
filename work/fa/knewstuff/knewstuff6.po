@@ -1,0 +1,986 @@
+# translation of kdelibs4.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Mahdi Foladgar <foladgar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2007.
+# Nooshin Asiaie <asiaie@itland.ir>, 2007.
+# Mohamad Reza Mirdamadi <mohi@linuxshop.ir>, 2009, 2010, 2011, 2012.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:49+0000\n"
+"PO-Revision-Date: 2026-10-15 23:54+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: attica/atticaprovider.cpp:167
+#, kde-format
+msgid "All categories are missing"
+msgstr "همه دسته‌ها مفقود هستند"
+
+#: attica/atticaprovider.cpp:352
+#, kde-format
+msgctxt ""
+"the price of a download item, parameter 1 is the currency, 2 is the price"
+msgid ""
+"This item costs %1 %2.\n"
+"Do you want to buy it?"
+msgstr ""
+"قیمت این مورد %2 %1 است.\n"
+"آیا می‌خواهید آن را بخرید؟"
+
+#: attica/atticaprovider.cpp:366
+#, kde-format
+msgid ""
+"Your account balance is too low:\n"
+"Your balance: %1\n"
+"Price: %2"
+msgstr ""
+"موجودی حساب شما کافی نیست:\n"
+"موجودی شما: %1\n"
+"قیمت: %2"
+
+#: attica/atticaprovider.cpp:398
+#, kde-format
+msgctxt "voting for an item (good/bad)"
+msgid "Your vote was recorded."
+msgstr "رأی شما ثبت شد."
+
+#: attica/atticaprovider.cpp:413
+#, kde-format
+msgid "You are now a fan."
+msgstr "اکنون شما یک طرفدار هستید."
+
+#: attica/atticaprovider.cpp:441 core/enginebase.cpp:269
+#: opds/opdsprovider.cpp:291
+#, kde-format
+msgid ""
+"The service is currently undergoing maintenance and is expected to be back "
+"in %1."
+msgstr ""
+"سرویس در حال حاضر تحت تعمیر و نگهداری است و انتظار می‌رود تا %1 دیگر در "
+"دسترس قرار گیرد."
+
+#: attica/atticaprovider.cpp:446
+#, kde-format
+msgid "Network error %1: %2"
+msgstr "خطای شبکه %1: %2"
+
+#: attica/atticaprovider.cpp:453
+#, kde-format
+msgid "Too many requests to server. Please try again in a few minutes."
+msgstr ""
+"درخواست‌های بسیار زیادی به کارساز ارسال شده است. لطفاً چند دقیقهٔ دیگر "
+"دوباره امتحان کنید."
+
+#: attica/atticaprovider.cpp:457
+#, kde-format
+msgid ""
+"The Open Collaboration Services instance %1 does not support the attempted "
+"function."
+msgstr "نمونهٔ «خدمات همکاری باز» %1 از عملکرد مورد نظر پشتیبانی نمی‌کند."
+
+#: attica/atticaprovider.cpp:461
+#, kde-format
+msgid "Unknown Open Collaboration Service API error. (%1)"
+msgstr "خطای ناشناختهٔ رابط برنامه‌نویسی «خدمات همکاری باز». (%1)"
+
+#: core/commentsmodel.cpp:154
+#, kde-format
+msgctxt ""
+"The value returned for an unknown role when requesting data from the model."
+msgid "Unknown CommentsModel role"
+msgstr "نقش ناشناخته CommentsModel"
+
+#: core/enginebase.cpp:98
+#, kde-format
+msgid ""
+"An error occurred during the installation process:\n"
+"%1"
+msgstr ""
+"خطایی هنگام فرایند نصب رخ داد:\n"
+"%1"
+
+#: core/enginebase.cpp:134
+#, kde-format
+msgid "Configuration file does not exist: \"%1\""
+msgstr "پرونده پیکربندی وجود ندارد: «%1»"
+
+#: core/enginebase.cpp:142
+#, kde-format
+msgid "Configuration file exists, but cannot be opened: \"%1\""
+msgstr "پرونده پیکربندی وجود دارد، اما باز نمی‌شود: «%1»"
+
+#: core/enginebase.cpp:149
+#, kde-format
+msgid "Configuration file is invalid: \"%1\""
+msgstr "پرونده پیکربندی نامعتبر است: «%1»"
+
+#: core/enginebase.cpp:158
+#, kde-format
+msgid "Use"
+msgstr "استفاده"
+
+#: core/enginebase.cpp:187
+#, kde-format
+msgid ""
+"Could not initialise the installation handler for %1:\n"
+"%2\n"
+"This is a critical error and should be reported to the application author"
+msgstr ""
+"راه‌اندازی کنترل‌کننده نصب برای %1 ممکن نشد:\n"
+"%2\n"
+"این یک خطای بحرانی است و باید به توسعه‌دهنده برنامه گزارش شود"
+
+#: core/enginebase.cpp:354
+#, kde-format
+msgid "Loading of providers from file: %1 failed"
+msgstr "بارگیری ارائه‌دهندگان از پرونده %1 ناموفق بود"
+
+#: core/enginebase.cpp:372
+#, kde-format
+msgid "Could not load get hot new stuff providers from file: %1"
+msgstr "بارگیری ارائه‌دهندگان «دریافت چیزهای داغ جدید» از پرونده %1 ممکن نشد"
+
+#: core/enginebase.cpp:403
+#, kde-format
+msgid "Error initializing provider."
+msgstr "خطا در راه‌اندازی ارائه‌دهنده."
+
+#: core/installation.cpp:101
+#, kde-format
+msgid "Invalid item."
+msgstr "مورد نامعتبر."
+
+#: core/installation.cpp:108
+#, kde-format
+msgid "Download of item failed: no download URL for \"%1\"."
+msgstr "بارگیری مورد ناموفق بود: نشانی وب بارگیری برای «%1» وجود ندارد."
+
+#: core/installation.cpp:139
+#, kde-format
+msgid "Download of \"%1\" failed, error: %2"
+msgstr "بارگیری «%1» ناموفق بود، خطا: %2"
+
+#: core/installation.cpp:148
+#, kde-format
+msgid ""
+"Cannot install '%1' because it points to a web page. Click <a "
+"href='%2'>here</a> to finish the installation."
+msgstr ""
+"نمی‌توان «%1» را نصب کرد زیرا به یک صفحه وب اشاره دارد. برای اتمام نصب <a "
+"href='%2'>اینجا</a> کلیک کنید."
+
+#: core/installation.cpp:186
+#, kde-format
+msgid "Could not install \"%1\": file not found."
+msgstr "نمی‌توان «%1» را نصب کرد: پرونده پیدا نشد."
+
+#: core/installation.cpp:352 core/installation.cpp:599
+#, kde-format
+msgid "Installation of %1 failed: %2"
+msgstr "نصب %1 ناموفق بود: %2"
+
+#: core/installation.cpp:386
+#, kde-format
+msgid "Could not determine the type of archive of the downloaded file %1"
+msgstr "تشخیص نوع بایگانی پرونده بارگیری‌شده %1 امکان‌پذیر نبود"
+
+#: core/installation.cpp:398
+#, kde-format
+msgid "Failed to open the archive file %1. The reported error was: %2"
+msgstr "باز کردن پرونده بایگانی %1 ناموفق بود. خطای گزارش‌شده: %2"
+
+#: core/installation.cpp:465
+#, kde-format
+msgid ""
+"This file already exists on disk (possibly due to an earlier failed download"
+" attempt). Continuing means overwriting it. Do you wish to overwrite the "
+"existing file?"
+msgstr ""
+"این پرونده از قبل روی دیسک وجود دارد (احتمالاً به دلیل تلاش ناموفق قبلی برای"
+" بارگیری). ادامه دادن به معنای بازنویسی آن است. آیا مایلید پرونده موجود "
+"رونویسی شود؟"
+
+#: core/installation.cpp:468
+#, kde-format
+msgid "Overwrite File"
+msgstr "رونویسی پرونده"
+
+#: core/installation.cpp:487
+#, kde-format
+msgid "Unable to move the file %1 to the intended destination %2"
+msgstr "امکان انتقال پروندهٔ %1 به مقصد موردنظر %2 وجود ندارد"
+
+#: core/installation.cpp:510
+#, kde-format
+msgid ""
+"The installation failed while attempting to run the command:\n"
+"%1\n"
+"\n"
+"The returned output was:\n"
+"%2"
+msgstr ""
+"نصب هنگام تلاش برای اجرای فرمان زیر شکست خورد:\n"
+"%1\n"
+"\n"
+"خروجی بازگردانده‌شده:\n"
+"%2"
+
+#: core/installation.cpp:521
+#, kde-format
+msgid ""
+"The installation failed with code %1 while attempting to run the command:\n"
+"%2\n"
+"\n"
+"The returned output was:\n"
+"%3"
+msgstr ""
+"نصب با کد %1 هنگام تلاش برای اجرای فرمان زیر شکست خورد:\n"
+"%2\n"
+"\n"
+"خروجی بازگردانده‌شده:\n"
+"%3"
+
+#: core/installation.cpp:563
+#, kde-format
+msgid ""
+"The removal of %1 failed, as the installed file %2 could not be "
+"automatically removed. You can attempt to manually delete this file, if you "
+"believe this is an error."
+msgstr ""
+"حذف %1 ناموفق بود، زیرا پروندهٔ نصب‌شدهٔ %2 به‌طور خودکار حذف نشد. اگر فکر "
+"می‌کنید این یک خطا است، می‌توانید به‌صورت دستی این پرونده را حذف کنید."
+
+#: core/installation.cpp:632
+#, kde-format
+msgid ""
+"The uninstallation process failed to successfully run the command %1\n"
+"The output of was: \n"
+"%2\n"
+"If you think this is incorrect, you can continue or cancel the uninstallation process"
+msgstr ""
+"فرایند حذف نصب نتوانست فرمان %1 را با موفقیت اجرا کند\n"
+"خروجی عبارت بود از: \n"
+"%2\n"
+"اگر فکر می‌کنید این نادرست است، می‌توانید فرایند حذف نصب را ادامه داده یا لغو کنید"
+
+#: core/jobs/filecopyworker.cpp:60
+#, kde-format
+msgid "Could not open %1 for writing"
+msgstr "امکان باز کردن %1 برای نوشتن وجود نداشت"
+
+#: core/jobs/filecopyworker.cpp:63
+#, kde-format
+msgid "Could not open %1 for reading"
+msgstr "امکان باز کردن %1 برای خواندن وجود نداشت"
+
+#: core/transaction.cpp:126
+#, kde-format
+msgid ""
+"Could not perform an installation of the entry %1 as it does not have any "
+"downloadable items defined. Please contact the author so they can fix this."
+msgstr ""
+"امکان نصب ورودی %1 وجود نداشت زیرا هیچ مورد قابل بارگیری برای آن تعریف نشده "
+"است. لطفاً با پدیدآورنده تماس بگیرید تا این مشکل را برطرف کند."
+
+#: core/transaction.cpp:341
+#, kde-format
+msgid "Pick Update Item"
+msgstr "انتخاب مورد به‌روزرسانی"
+
+#: core/transaction.cpp:343
+#, kde-format
+msgid ""
+"Please pick the item from the list below which should be used to apply this "
+"update. We were unable to identify which item to select, based on the "
+"original item, which was named %1"
+msgstr ""
+"لطفاً موردی را که باید برای اعمال این به‌روزرسانی استفاده شود، از فهرست زیر "
+"انتخاب کنید. بر اساس مورد اصلی با نام %1، امکان تشخیص این‌که کدام مورد باید "
+"انتخاب شود وجود نداشت"
+
+#: core/transaction.cpp:367
+#, kde-format
+msgid ""
+"We failed to identify a good link for updating %1, and are unable to perform"
+" the update"
+msgstr ""
+"پیوند مناسبی برای به‌روزرسانی %1 پیدا نشد و امکان انجام به‌روزرسانی وجود "
+"ندارد"
+
+#: core/transaction.cpp:460
+#, kde-format
+msgid ""
+"Failed to adopt '%1'\n"
+"%2"
+msgstr ""
+"پذیرش «%1» ناموفق بود\n"
+"%2"
+
+#: qtquick/categoriesmodel.cpp:52
+#, kde-format
+msgctxt ""
+"The first entry in the category selection list (also the default value)"
+msgid "All Categories"
+msgstr "همهٔ دسته‌ها"
+
+#: qtquick/categoriesmodel.cpp:74
+#, kde-format
+msgctxt ""
+"The string passed back in the case the requested category is not known"
+msgid "Unknown Category"
+msgstr "دستهٔ ناشناخته"
+
+#. i18nd("knewstuff6", "Download New %1…").
+#. \note For the sake of consistency, you should NOT override the text
+#. property, just set this one
+#: qtquick/qml/Button.qml:46
+#, kde-format
+msgctxt ""
+"Used to construct the button's label (which will become Download New 'this "
+"value'…)"
+msgid "Stuff"
+msgstr "موارد"
+
+#: qtquick/qml/Button.qml:47
+#, kde-format
+msgid "Download New %1…"
+msgstr "بارگیری %1 جدید…"
+
+#: qtquick/qml/Dialog.qml:47
+#, kde-format
+msgctxt "The dialog title when we know which type of stuff is being requested"
+msgid "Download New %1"
+msgstr "بارگیری %1 جدید"
+
+#: qtquick/qml/Dialog.qml:48
+#, kde-format
+msgctxt ""
+"A placeholder title used in the dialog when there is no better title "
+"available"
+msgid "Download New Stuff"
+msgstr "بارگیری موارد جدید"
+
+#: qtquick/qml/DownloadItemsSheet.qml:38
+#, kde-format
+msgid "Pick Your Installation Option"
+msgstr "گزینهٔ نصب خود را انتخاب کنید"
+
+#: qtquick/qml/DownloadItemsSheet.qml:50
+#, kde-format
+msgid ""
+"Please select the option you wish to install from the list of downloadable "
+"items below. If it is unclear which you should chose out of the available "
+"options, please contact the author of this item and ask that they clarify "
+"this through the naming of the items."
+msgstr ""
+"لطفاً گزینهٔ مورد نظر برای نصب را از فهرست موارد قابل بارگیری زیر انتخاب "
+"کنید. اگر مشخص نیست از بین گزینه‌های موجود کدام را باید انتخاب کنید، لطفاً "
+"با پدیدآورندهٔ این مورد تماس بگیرید و از او بخواهید از طریق نام‌گذاری موارد،"
+" این موضوع را شفاف کند."
+
+#: qtquick/qml/DownloadItemsSheet.qml:91
+#, kde-format
+msgid "Install"
+msgstr "نصب"
+
+#: qtquick/qml/EntryDetails.qml:92
+#, kde-format
+msgctxt ""
+"A passive notification shown when installation of an item is initiated"
+msgid "Installing %1 from %2"
+msgstr "در حال نصب %1 از %2"
+
+#: qtquick/qml/EntryDetails.qml:109
+#, kde-format
+msgctxt ""
+"Combined title for the entry details page made of the name of the entry, and"
+" the author's name"
+msgid "%1 by %2"
+msgstr "%1 اثر %2"
+
+#: qtquick/qml/EntryDetails.qml:114
+#: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:43
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:48
+#, kde-format
+msgctxt ""
+"Request installation of this item, available when there is exactly one "
+"downloadable item"
+msgid "Install"
+msgstr "نصب"
+
+#: qtquick/qml/EntryDetails.qml:115
+#: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:44
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:49
+#, kde-format
+msgctxt ""
+"Show installation options, where there is more than one downloadable item"
+msgid "Install…"
+msgstr "نصب…"
+
+#: qtquick/qml/EntryDetails.qml:131
+#: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:59
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:64
+#, kde-format
+msgctxt "Request updating of this item"
+msgid "Update"
+msgstr "به‌روزرسانی"
+
+#: qtquick/qml/EntryDetails.qml:138 qtquick/qml/Page.qml:121
+#, kde-format
+msgctxt "Request uninstallation of this item"
+msgid "Uninstall"
+msgstr "حذف نصب"
+
+#: qtquick/qml/EntryDetails.qml:160
+#, kde-format
+msgctxt ""
+"Status message to be shown when the entry is in the process of being "
+"installed OR uninstalled"
+msgid "Currently working on the item %1 by %2. Please wait…"
+msgstr "در حال پردازش مورد %1 اثر %2. لطفاً صبر کنید…"
+
+#: qtquick/qml/EntryDetails.qml:162
+#, kde-format
+msgctxt ""
+"Status message to be shown when the entry is in the process of being updated"
+msgid "Currently updating the item %1 by %2. Please wait…"
+msgstr "در حال به‌روزرسانی مورد %1 اثر %2. لطفاً صبر کنید…"
+
+#: qtquick/qml/EntryDetails.qml:164
+#, kde-format
+msgctxt ""
+"Status message which should only be shown when the entry has been given some"
+" unknown or invalid status."
+msgid ""
+"This item is currently in an invalid or unknown state. <a "
+"href=\"https://bugs.kde.org/enter_bug.cgi?product=frameworks-"
+"knewstuff\">Please report this to the KDE Community in a bug report</a>."
+msgstr ""
+"این مورد در حال حاضر در وضعیتی نامعتبر یا نامشخص قرار دارد. <a "
+"href=\"https://bugs.kde.org/enter_bug.cgi?product=frameworks-"
+"knewstuff\">لطفاً این موضوع را در قالب یک گزارش اشکال به جامعهٔ KDE گزارش "
+"دهید</a>."
+
+#: qtquick/qml/EntryDetails.qml:218
+#, kde-format
+msgid "Rating:"
+msgstr "امتیاز:"
+
+#: qtquick/qml/EntryDetails.qml:226
+#, kde-format
+msgctxt "@action:button Opens a new sub-page with comments for this entry"
+msgid "See %1 Reviews and Comments"
+msgstr "مشاهدهٔ %1 بازخورد و دیدگاه"
+
+#: qtquick/qml/EntryDetails.qml:231
+#, kde-format
+msgid "Homepage:"
+msgstr "صفحهٔ خانگی:"
+
+#: qtquick/qml/EntryDetails.qml:232
+#, kde-format
+msgctxt ""
+"A link which, when clicked, opens the website associated with the entry "
+"(this could be either one specific to the project, the author's homepage, or"
+" any other website they have chosen for the purpose)"
+msgid "Open the homepage for %1"
+msgstr "باز کردن صفحهٔ خانگی %1"
+
+#: qtquick/qml/EntryDetails.qml:238
+#, kde-format
+msgid "How To Donate:"
+msgstr "نحوهٔ کمک مالی:"
+
+#: qtquick/qml/EntryDetails.qml:239
+#, kde-format
+msgctxt ""
+"A link which, when clicked, opens a website with information on donation in "
+"support of the entry"
+msgid "Find out how to donate to this project"
+msgstr "آگاهی از نحوهٔ کمک مالی به این پروژه"
+
+#: qtquick/qml/Page.qml:147
+#, kde-kuit-format
+msgctxt "@info displayed as InlineMessage"
+msgid ""
+"Use caution when accessing user-created content shown here, as it may "
+"contain executable code that hasn't been tested by KDE or %1 for safety, "
+"stability, or quality."
+msgstr ""
+"هنگام دسترسی به محتوای ایجادشده توسط کاربر که در اینجا نشان داده شده است "
+"احتیاط کنید، زیرا ممکن است حاوی کدهای اجرایی باشد که از نظر ایمنی، پایداری "
+"یا کیفیت توسط KDE یا %1 آزمایش نشده است."
+
+#: qtquick/qml/Page.qml:148
+#, kde-format
+msgctxt "@info displayed as InlineMessage"
+msgid ""
+"User-created content shown here hasn't been tested by KDE or %1 for "
+"functionality or quality."
+msgstr ""
+"محتوای ایجادشده توسط کاربر که در اینجا نشان داده شده است، از نظر کارایی یا "
+"کیفیت توسط KDE یا %1 آزمایش نشده است."
+
+#: qtquick/qml/Page.qml:179
+#, kde-format
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "All"
+msgstr "همه"
+
+#: qtquick/qml/Page.qml:181
+#, kde-format
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "Installed"
+msgstr "نصب‌شده"
+
+#: qtquick/qml/Page.qml:183
+#, kde-format
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "Updateable"
+msgstr "قابل به‌روزرسانی"
+
+#: qtquick/qml/Page.qml:193
+#, kde-format
+msgctxt ""
+"@option:radio similar to combobox item, List option which will set the "
+"filter to show everything"
+msgid "All"
+msgstr "همه"
+
+#: qtquick/qml/Page.qml:204
+#, kde-format
+msgctxt ""
+"@option:radio similar to combobox item, List option which will set the "
+"filter so only installed items are shown"
+msgid "Installed"
+msgstr "نصب‌شده"
+
+#: qtquick/qml/Page.qml:215
+#, kde-format
+msgctxt ""
+"@option:radio similar to combobox item, List option which will set the "
+"filter so only installed items with updates available are shown"
+msgid "Updateable"
+msgstr "قابل به‌روزرسانی"
+
+#: qtquick/qml/Page.qml:228
+#, kde-format
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "Sort: Release date"
+msgstr "مرتب‌سازی: تاریخ انتشار"
+
+#: qtquick/qml/Page.qml:230
+#, kde-format
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "Sort: Name"
+msgstr "مرتب‌سازی: نام"
+
+#: qtquick/qml/Page.qml:232
+#, kde-format
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "Sort: Rating"
+msgstr "مرتب‌سازی: امتیاز"
+
+#: qtquick/qml/Page.qml:234
+#, kde-format
+msgctxt "@action:button opening menu similar to combobox, filter list"
+msgid "Sort: Downloads"
+msgstr "مرتب‌سازی: بارگیری‌ها"
+
+#: qtquick/qml/Page.qml:243
+#, kde-format
+msgctxt ""
+"@option:radio in menu, List option which will set the sort order to be "
+"alphabetical based on the name"
+msgid "Name"
+msgstr "نام"
+
+#: qtquick/qml/Page.qml:254
+#, kde-format
+msgctxt ""
+"@option:radio in menu, List option which will set the sort order to based on"
+" user ratings"
+msgid "Rating"
+msgstr "امتیاز"
+
+#: qtquick/qml/Page.qml:265
+#, kde-format
+msgctxt ""
+"@option:radio similar to combobox item, List option which will set the sort "
+"order to based on number of downloads"
+msgid "Downloads"
+msgstr "تعداد بارگیری‌ها"
+
+#: qtquick/qml/Page.qml:276
+#, kde-format
+msgctxt ""
+"@option:radio similar to combobox item, List option which will set the sort "
+"order to based on when items were most recently updated"
+msgid "Release date"
+msgstr "تاریخ انتشار"
+
+#: qtquick/qml/Page.qml:289
+#, kde-format
+msgid "Upload…"
+msgstr "بارگذاری…"
+
+#: qtquick/qml/Page.qml:290
+#, kde-format
+msgid "Learn how to add your own hot new stuff to this list"
+msgstr "آشنایی با نحوهٔ افزودن موارد جدید خود به این فهرست"
+
+#: qtquick/qml/Page.qml:300
+#, kde-format
+msgid "Go to…"
+msgstr "رفتن به…"
+
+#: qtquick/qml/Page.qml:307 qtquick/qml/Page.qml:316
+#, kde-format
+msgid "Search…"
+msgstr "جست‌وجو…"
+
+#: qtquick/qml/Page.qml:370
+#, kde-format
+msgid "Category:"
+msgstr "دسته:"
+
+#: qtquick/qml/Page.qml:390
+#, kde-format
+msgid "Contribute Your Own…"
+msgstr "مشارکت اثر خودتان…"
+
+#: qtquick/qml/private/EntryCommentDelegate.qml:103
+#, kde-format
+msgctxt ""
+"Placeholder title for when a comment has no subject, but does have a rating"
+msgid "<i>(no title)</i>"
+msgstr "<i>(بدون عنوان)</i>"
+
+#: qtquick/qml/private/EntryCommentDelegate.qml:136
+#, kde-format
+msgctxt ""
+"The author label in case the comment was written by the author of the "
+"content entry the comment is attached to"
+msgid "%1 <i>(author)</i>"
+msgstr "%1 <i>(نویسنده)</i>"
+
+#: qtquick/qml/private/EntryCommentsPage.qml:27
+#, kde-format
+msgctxt "Title for the page containing a view of the comments for the entry"
+msgid "Comments and Reviews for %1"
+msgstr "نظرات و بازبینی‌ها برای %1"
+
+#: qtquick/qml/private/EntryCommentsPage.qml:30
+#, kde-format
+msgctxt ""
+"Title for the item which is checked when all comments should be shown"
+msgid "Show All Comments"
+msgstr "نمایش همهٔ نظرات"
+
+#: qtquick/qml/private/EntryCommentsPage.qml:38
+#, kde-format
+msgctxt ""
+"Title for the item which is checked when only comments which are reviews "
+"should be shown"
+msgid "Show Reviews Only"
+msgstr "فقط نمایش بازبینی‌ها"
+
+#: qtquick/qml/private/EntryCommentsPage.qml:46
+#, kde-format
+msgctxt ""
+"Title for the item which is checked when comments which are reviews, and "
+"their children should be shown"
+msgid "Show Reviews and Replies"
+msgstr "نمایش بازبینی‌ها و پاسخ‌ها"
+
+#: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:140
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:185
+#, kde-format
+msgctxt "The number of times the item has been downloaded"
+msgid "%1 downloads"
+msgstr "%1 بارگیری"
+
+#: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:153
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:164
+#, kde-format
+msgctxt ""
+"Subheading for the tile view, located immediately underneath the name of the"
+" item"
+msgid "By <i>%1</i>"
+msgstr "توسط <i>%1</i>"
+
+#: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:46
+#, kde-format
+msgctxt ""
+"Label for the busy indicator showing an item is being installed OR "
+"uninstalled"
+msgid "Working…"
+msgstr "در حال کار…"
+
+#: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:48
+#, kde-format
+msgctxt ""
+"Label for the busy indicator showing an item is in the process of being "
+"updated"
+msgid "Updating…"
+msgstr "در حال به‌روزرسانی…"
+
+#: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:50
+#, kde-format
+msgctxt ""
+"Label for the busy indicator which should only be shown when the entry has "
+"been given some unknown or invalid status."
+msgid ""
+"Invalid or unknown state. <a "
+"href=\"https://bugs.kde.org/enter_bug.cgi?product=frameworks-"
+"knewstuff\">Please report this to the KDE Community in a bug report</a>."
+msgstr ""
+"وضعیت نامعتبر یا ناشناخته. <a "
+"href=\"https://bugs.kde.org/enter_bug.cgi?product=frameworks-"
+"knewstuff\">لطفاً این مورد را در یک گزارش باگ به جامعهٔ KDE اطلاع دهید</a>."
+
+#: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:63
+#, kde-format
+msgctxt "Label for the busy indicator showing an item is installing"
+msgid "Installing…"
+msgstr "در حال نصب…"
+
+#: qtquick/qml/private/ErrorDisplayer.qml:15
+#, kde-format
+msgctxt "Title for a dialog box which shows error messages"
+msgid "An Error Occurred"
+msgstr "خطایی رخ داد"
+
+#: qtquick/qml/private/ErrorDisplayer.qml:82
+#, kde-format
+msgid "Please try again later."
+msgstr "لطفاً بعداً دوباره امتحان کنید."
+
+#: qtquick/qml/private/GridTileDelegate.qml:120
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: qtquick/qml/private/Rating.qml:81
+#, kde-format
+msgctxt ""
+"A text representation of the rating, shown as a fraction of the max value"
+msgid "(%1/%2)"
+msgstr "(%1/%2)"
+
+#: qtquick/qml/UploadPage.qml:53
+#, kde-format
+msgctxt "@knewstuff6"
+msgid "Upload New Stuff: %1"
+msgstr "بارگذاری موارد جدید: %1"
+
+#: qtquick/qml/UploadPage.qml:114
+#, kde-format
+msgctxt ""
+"A text shown beside a busy indicator suggesting that data is being fetched"
+msgid "Updating information…"
+msgstr "در حال به‌روزرسانی اطلاعات…"
+
+#: qtquick/qml/UploadPage.qml:129
+#, kde-format
+msgctxt "The name of the KDE Store"
+msgid "KDE Store"
+msgstr "فروشگاه KDE"
+
+#: qtquick/qml/UploadPage.qml:135
+#, kde-format
+msgctxt "An unnamed provider"
+msgid "Your Provider"
+msgstr "ارائه‌دهنده شما"
+
+#: qtquick/qml/UploadPage.qml:144
+#, kde-format
+msgctxt ""
+"Text for an action which causes the specified website to be opened using the"
+" user's system default browser"
+msgid "Open Website: %1"
+msgstr "باز کردن وب‌گاه: %1"
+
+#: qtquick/qml/UploadPage.qml:152
+#, kde-format
+msgctxt ""
+"Text for an action which will attempt to send an email using the user's "
+"system default email client"
+msgid "Send Email To: %1"
+msgstr "ارسال رایانامه به: %1"
+
+#: qtquick/qml/UploadPage.qml:162
+#, kde-format
+msgctxt "A description of how to upload content to a generic provider"
+msgid ""
+"To upload new entries, or to add content to an existing entry on the KDE "
+"Store, please open the website and log in. Once you have done this, you will"
+" be able to find the My Products entry in the menu which pops up when you "
+"click your user icon. Click on this entry to go to the product management "
+"system, where you can work on your products."
+msgstr ""
+"برای بارگذاری ورودی‌های جدید یا افزودن محتوا به یک ورودی موجود در فروشگاه "
+"KDE، لطفاً وبگاه را باز کرده و وارد شوید. پس از انجام این کار، می‌توانید در "
+"منویی که با کلیک روی نماد کاربری‌تان باز می‌شود، گزینهٔ «محصولات من» را پیدا"
+" کنید. برای رفتن به سامانهٔ مدیریت محصول، روی این گزینه کلیک کنید تا بتوانید"
+" روی محصولات خود کار کنید."
+
+#: qtquick/qml/UploadPage.qml:163
+#, kde-format
+msgctxt "A description of how to upload content to the KDE Store specifically"
+msgid ""
+"To upload new entries, or to add content to an existing entry, please open "
+"the provider's website and follow the instructions there. You will likely "
+"need to create a user and log in to a product management system, where you "
+"will need to follow the instructions for how to add. Alternatively, you "
+"might be required to contact the managers of the site directly to get new "
+"content added."
+msgstr ""
+"برای بارگذاری ورودی‌های جدید یا افزودن محتوا به یک ورودی موجود، لطفاً وبگاه "
+"ارائه‌دهنده را باز کرده و دستورالعمل‌های آنجا را دنبال کنید. احتمالاً نیاز "
+"است یک کاربر ایجاد کرده و وارد سامانهٔ مدیریت محصول شوید، جایی که باید "
+"دستورالعمل‌های نحوهٔ افزودن را دنبال کنید. متناوباً، ممکن است لازم باشد برای"
+" افزودن محتوای جدید مستقیماً با مدیران سایت تماس بگیرید."
+
+#: qtquick/quickengine.cpp:82 qtquick/quickengine.cpp:168
+#: qtquick/quickengine.cpp:176
+#, kde-format
+msgid "Loading data"
+msgstr "بارگذاری داده‌ها"
+
+#: qtquick/quickengine.cpp:172
+#, kde-format
+msgid "Installing"
+msgstr "در حال نصب"
+
+#: qtquick/quickengine.cpp:227
+#, kde-format
+msgctxt ""
+"An informational message which is shown to inform the user they are not "
+"authorized to use GetHotNewStuff functionality"
+msgid ""
+"You are not authorized to Get Hot New Stuff. If you think this is in error, "
+"please contact the person in charge of your permissions."
+msgstr ""
+"شما مجاز به دریافت چیزهای داغ و تازه نیستید. اگر فکر می‌کنید این یک خطا است،"
+" لطفاً با مسئول مجوزهای خود تماس بگیرید."
+
+#: qtquick/searchpresetmodel.cpp:46
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "Back"
+msgstr "بازگشت"
+
+#: qtquick/searchpresetmodel.cpp:48
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "Popular"
+msgstr "محبوب"
+
+#: qtquick/searchpresetmodel.cpp:50
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "Featured"
+msgstr "ویژه"
+
+#: qtquick/searchpresetmodel.cpp:52
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "Restart"
+msgstr "راه‌اندازی مجدد"
+
+#: qtquick/searchpresetmodel.cpp:54
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "New"
+msgstr "جدید"
+
+#: qtquick/searchpresetmodel.cpp:56
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "Home"
+msgstr "خانه"
+
+#: qtquick/searchpresetmodel.cpp:58
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "Shelf"
+msgstr "قفسه"
+
+#: qtquick/searchpresetmodel.cpp:60
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "Up"
+msgstr "بالا"
+
+#: qtquick/searchpresetmodel.cpp:62
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "Recommended"
+msgstr "پیشنهادی"
+
+#: qtquick/searchpresetmodel.cpp:64
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "Subscriptions"
+msgstr "اشتراک‌ها"
+
+#: qtquick/searchpresetmodel.cpp:66
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "All Entries"
+msgstr "همهٔ مدخل‌ها"
+
+#: qtquick/searchpresetmodel.cpp:70
+#, kde-format
+msgctxt "Knewstuff5"
+msgid "Search Preset: %1"
+msgstr "پیش‌تنظیم جست‌وجو: %1"
+
+#: tools/knewstuff-dialog/main.cpp:30
+#, kde-format
+msgid ""
+"The KNSRC file you want to show. If none is passed, you will be presented "
+"with a dialog which lets you switch between all the config files installed "
+"into the systemwide knsrc file location"
+msgstr ""
+"پروندهٔ KNSRC که می‌خواهید نمایش دهید. اگر موردی ارسال نشود، پنجره‌ای به شما"
+" نشان داده می‌شود که امکان جابه‌جایی میان همهٔ پرونده‌های پیکربندی نصب‌شده "
+"در محل پرونده‌های knsrc سراسر سیستم را به شما می‌دهد"
+
+#: tools/knewstuff-dialog/main.cpp:34
+#, kde-format
+msgid ""
+"A kns url to show information from. The format for a kns url is kns://knsrcfile/providerid/entryid\n"
+"'knsrcfile'\n"
+"is the name of a knsrc file as might be passed directly through this tool's knsrcfile argument\n"
+"'providerid'\n"
+"is the hostname of the provider the entry should exist on\n"
+"'entryid'\n"
+"is the unique ID of an entry found in the provider specified by the knsrc file.\n"
+" An example of such a url is kns://sddmtheme.knsrc/api.kde-look.org/2059021"
+msgstr ""
+"یک نشانی kns برای نمایش اطلاعات از آن. قالب نشانی kns به شکل kns://knsrcfile/providerid/entryid است\n"
+"'knsrcfile'\n"
+"نام یک پروندهٔ knsrc است، همانند آنچه مستقیماً از طریق آرگومان knsrcfile این ابزار ارسال می‌شود\n"
+"'providerid'\n"
+"نام میزبان فراهم‌کننده‌ای است که ورودی باید روی آن موجود باشد\n"
+"'entryid'\n"
+"شناسهٔ یکتای ورودی یافت‌شده در فراهم‌کنندهٔ مشخص‌شده توسط پروندهٔ knsrc است.\n"
+"نمونه‌ای از چنین نشانی‌ای kns://sddmtheme.knsrc/api.kde-look.org/2059021 است"
+
+#: widgets/action.cpp:28 widgets/button.cpp:70
+#, kde-format
+msgctxt "@action"
+msgid "Download New Stuff…"
+msgstr "بارگیری چیزهای جدید…"

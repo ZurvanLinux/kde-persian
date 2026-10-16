@@ -1,0 +1,74 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the akonadi_vcard_resource package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_vcard_resource\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"PO-Revision-Date: 2026-10-15 20:59+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: vcardconfig.cpp:22
+#, kde-format
+msgctxt "Filedialog filter for *.vcf"
+msgid "vCard Address Book File"
+msgstr "پروندهٔ دفترچه نشانی vCard"
+
+#: vcardconfig.cpp:24
+#, kde-format
+msgid "Activities"
+msgstr "فعالیت‌ها"
+
+#: vcardresource.cpp:71
+#, kde-format
+msgid "Contact with uid '%1' not found."
+msgstr "مخاطب با شناسهٔ یکتای «%1» پیدا نشد."
+
+#: vcardresource.cpp:168 vcardresource.cpp:188
+#, kde-format
+msgid "Unable to open vCard file '%1'."
+msgstr "باز کردن پروندهٔ vCard «%1» امکان‌پذیر نیست."
+
+#. i18n: ectx: label, entry (Path), group (General)
+#: vcardresource.kcfg:10
+#, kde-format
+msgid "Path to vCard file."
+msgstr "مسیر پروندهٔ vCard."
+
+#. i18n: ectx: label, entry (DisplayName), group (General)
+#: vcardresource.kcfg:14
+#, kde-format
+msgid "Display name."
+msgstr "نام نمایشی."
+
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: vcardresource.kcfg:18
+#, kde-format
+msgid "Do not change the actual backend data."
+msgstr "داده‌های واقعی پسانه تغییر داده نشود."
+
+#. i18n: ectx: label, entry (MonitorFile), group (General)
+#: vcardresource.kcfg:22
+#, kde-format
+msgid "Monitor file for changes."
+msgstr "پایش پرونده برای تغییرات."
+
+#. i18n: ectx: label, entry (PeriodicUpdate), group (General)
+#: vcardresource.kcfg:26
+#, kde-format
+msgid "Periodically update the file."
+msgstr "به‌روزرسانی دوره‌ای پرونده."
+
+#. i18n: ectx: label, entry (UpdatePeriod), group (General)
+#: vcardresource.kcfg:30
+#, kde-format
+msgid "Automatic update period in minutes."
+msgstr "دورهٔ به‌روزرسانی خودکار برحسب دقیقه."

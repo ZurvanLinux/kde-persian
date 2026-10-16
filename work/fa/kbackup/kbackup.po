@@ -1,0 +1,878 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kbackup package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kbackup\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-25 00:48+0000\n"
+"PO-Revision-Date: 2026-10-15 19:28+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: Archiver.cxx:434
+#, kde-format
+msgid "Nothing selected for backup"
+msgstr "چیزی برای پشتیبان‌گیری انتخاب نشده است"
+
+#: Archiver.cxx:440
+#, kde-format
+msgid "The target dir '%1' is not valid"
+msgstr "شاخهٔ مقصد «%1» معتبر نیست"
+
+#: Archiver.cxx:447
+#, kde-format
+msgid "The target dir '%1' must be a local file system dir and no remote URL"
+msgstr ""
+"شاخهٔ مقصد «%1» باید شاخه‌ای در سامانهٔ پروندهٔ محلی باشد، نه یک نشانی "
+"اینترنتی دوردست"
+
+#: Archiver.cxx:460
+#, kde-format
+msgid ""
+"The target directory '%1' does not exist.\n"
+"\n"
+"Shall I create it?"
+msgstr ""
+"شاخهٔ مقصد «%1» وجود ندارد.\n"
+"\n"
+"ایجاد شود؟"
+
+#: Archiver.cxx:462
+#, kde-format
+msgctxt "@title"
+msgid "Create Directory"
+msgstr "ایجاد شاخه"
+
+#: Archiver.cxx:463
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr "ایجاد"
+
+#: Archiver.cxx:468
+#, kde-format
+msgid ""
+"Could not create the target directory '%1'.\n"
+"The operating system reports: %2"
+msgstr ""
+"ایجاد شاخهٔ مقصد «%1» ممکن نشد.\n"
+"گزارش سیستم‌عامل: %2"
+
+#: Archiver.cxx:476
+#, kde-format
+msgid "The target dir does not exist"
+msgstr "شاخهٔ مقصد وجود ندارد"
+
+#: Archiver.cxx:549
+#, kde-format
+msgid "...reducing number of kept archives to max. %1"
+msgstr "...کاهش تعداد بایگانی‌های نگه‌داشته‌شده به حداکثر %1"
+
+#: Archiver.cxx:607
+#, kde-format
+msgid "...deleting %1"
+msgstr "...در حال حذف %1"
+
+#: Archiver.cxx:631
+#, kde-format
+msgid ""
+"fetching directory listing of target failed. Can not reduce kept archives."
+msgstr ""
+"دریافت فهرست پوشه مقصد ناموفق بود. امکان کاهش بایگانی‌های نگه‌داشته‌شده وجود"
+" ندارد."
+
+#: Archiver.cxx:654
+#, kde-format
+msgid "Could not write backup timestamps into profile %1: %2"
+msgstr "امکان نوشتن برچسب‌های زمانی پشتیبان‌گیری در نمایه %1 وجود نداشت: %2"
+
+#: Archiver.cxx:658
+#, kde-format
+msgid "-- Filtered Files: %1"
+msgstr "-- پرونده‌های فیلترشده: %1"
+
+#: Archiver.cxx:661
+#, kde-format
+msgid "!! Backup finished <b>but files were skipped</b> !!"
+msgstr ""
+"!! پشتیبان‌گیری به پایان رسید <b>اما از برخی پرونده‌ها صرف‌نظر شد</b> !!"
+
+#: Archiver.cxx:663
+#, kde-format
+msgid "-- Backup successfully finished --"
+msgstr "-- پشتیبان‌گیری با موفقیت به پایان رسید --"
+
+#: Archiver.cxx:669
+#, kde-format
+msgid ""
+"The backup has finished but files were skipped.\n"
+"What do you want to do now?"
+msgstr ""
+"پشتیبان‌گیری به پایان رسید اما از برخی پرونده‌ها صرف‌نظر شد.\n"
+"اکنون می‌خواهید چه کاری انجام دهید؟"
+
+#: Archiver.cxx:671
+#, kde-format
+msgid ""
+"The backup has finished successfully.\n"
+"What do you want to do now?"
+msgstr ""
+"پشتیبان‌گیری با موفقیت به پایان رسید.\n"
+"اکنون می‌خواهید چه کاری انجام دهید؟"
+
+#: Archiver.cxx:689
+#, kde-format
+msgid "Totals: Files: %1, Size: %2, Duration: %3"
+msgstr "مجموع: پرونده‌ها: %1، اندازه: %2، مدت زمان: %3"
+
+#: Archiver.cxx:700
+#, kde-format
+msgid "...Backup aborted!"
+msgstr "...پشتیبان‌گیری لغو شد!"
+
+#: Archiver.cxx:727
+#, kde-format
+msgid "Backup cancelled"
+msgstr "پشتیبان‌گیری لغو شد"
+
+#: Archiver.cxx:747
+#, kde-format
+msgid "...finished slice %1"
+msgstr "...بخش %1 به پایان رسید"
+
+#: Archiver.cxx:762
+#, kde-format
+msgid "...uploading archive %1 to %2"
+msgstr "...در حال بارگذاری بایگانی %1 در %2"
+
+#: Archiver.cxx:780
+#, kde-format
+msgid "How shall we proceed with the upload?"
+msgstr "چگونه بارگذاری را ادامه دهیم؟"
+
+#: Archiver.cxx:780
+#, kde-format
+msgid "Upload Failed"
+msgstr "بارگذاری ناموفق بود"
+
+#: Archiver.cxx:781
+#, kde-format
+msgid "Retry"
+msgstr "تلاش مجدد"
+
+#: Archiver.cxx:781
+#, kde-format
+msgid "Change Target"
+msgstr "تغییر مقصد"
+
+#: Archiver.cxx:872
+#, kde-format
+msgid "The script '%1' could not be started."
+msgstr "اسکریپت «%1» اجرا نشد."
+
+#: Archiver.cxx:911
+#, kde-format
+msgid "The medium is full. Please insert medium Nr. %1"
+msgstr "رسانه پر است. لطفاً رسانه شماره %1 را وارد کنید"
+
+#: Archiver.cxx:955
+#, kde-format
+msgid "The file '%1' can not be opened for writing."
+msgstr "پروندهٔ «%1» برای نوشتن باز نمی‌شود."
+
+#: Archiver.cxx:959
+#, kde-format
+msgid ""
+"The file '%1' can not be opened for writing.\n"
+"\n"
+"Do you want to retry?"
+msgstr ""
+"پروندهٔ «%1» برای نوشتن باز نمی‌شود.\n"
+"\n"
+"می‌خواهید دوباره تلاش کنید؟"
+
+#: Archiver.cxx:960
+#, kde-format
+msgctxt "@title"
+msgid "Open File"
+msgstr "باز کردن پرونده"
+
+#: Archiver.cxx:961
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry"
+msgstr "تلاش مجدد"
+
+#: Archiver.cxx:981
+#, kde-format
+msgid "Could not write to archive. Maybe the medium is full."
+msgstr "نوشتن در بایگانی امکان‌پذیر نبود. ممکن است رسانه پر باشد."
+
+#: Archiver.cxx:985
+#, kde-format
+msgid ""
+"Could not write to archive.\n"
+"The operating system reports: %1"
+msgstr ""
+"نوشتن در بایگانی امکان‌پذیر نبود.\n"
+"گزارش سیستم‌عامل: %1"
+
+#: Archiver.cxx:1004
+#, kde-format
+msgid "...skipping filtered directory %1"
+msgstr "...در حال رد شدن از شاخهٔ فیلترشدهٔ %1"
+
+#: Archiver.cxx:1015
+#, kde-format
+msgid ""
+"Could not get information of directory: %1\n"
+"The operating system reports: %2"
+msgstr ""
+"دریافت اطلاعات شاخه امکان‌پذیر نبود: %1\n"
+"گزارش سیستم‌عامل: %2"
+
+#: Archiver.cxx:1025
+#, kde-format
+msgid "Directory '%1' is not readable. Skipping."
+msgstr "شاخهٔ «%1» خواندنی نیست. رد شدن."
+
+#: Archiver.cxx:1125
+#, kde-format
+msgid ""
+"Could not get information of file: %1\n"
+"The operating system reports: %2"
+msgstr ""
+"دریافت اطلاعات پرونده امکان‌پذیر نبود: %1\n"
+"گزارش سیستم‌عامل: %2"
+
+#: Archiver.cxx:1136
+#, kde-format
+msgid "Can not archive file type 'socket': %1\n"
+msgstr "نمی‌توان پرونده با نوع «سوکت» را بایگانی کرد: %1\n"
+
+#: Archiver.cxx:1220 Archiver.cxx:1299
+#, kde-format
+msgid ""
+"Could not read from file '%1'\n"
+"The operating system reports: %2"
+msgstr ""
+"خواندن از پروندهٔ «%1» ممکن نشد\n"
+"سیستم‌عامل گزارش می‌دهد: %2"
+
+#: Archiver.cxx:1268
+#, kde-format
+msgid "Could not open file '%1' for reading."
+msgstr "باز کردن پروندهٔ «%1» برای خواندن ممکن نشد."
+
+#: Archiver.cxx:1335
+#, kde-format
+msgid "...archiving file %1"
+msgstr "...در حال بایگانی پروندهٔ %1"
+
+#: Archiver.cxx:1368
+#, kde-format
+msgid ""
+"Could not read file: %1\n"
+"The operating system reports: %2"
+msgstr ""
+"خواندن پرونده ممکن نشد: %1\n"
+"سیستم‌عامل گزارش می‌دهد: %2"
+
+#: Archiver.cxx:1382
+#, kde-format
+msgid ""
+"Could not create temporary file for compressing: %1\n"
+"The operating system reports: %2"
+msgstr ""
+"ایجاد پروندهٔ موقت برای فشرده‌سازی ممکن نشد: %1\n"
+"سیستم‌عامل گزارش می‌دهد: %2"
+
+#: Archiver.cxx:1412
+#, kde-format
+msgid ""
+"Could not write to temporary file. Use the TMPDIR env-var to change the "
+"temporary directory used"
+msgstr ""
+"نوشتن در پروندهٔ موقت ممکن نشد. از متغیر محیطی TMPDIR برای تغییر پوشهٔ موقت "
+"استفاده کنید"
+
+#: Archiver.cxx:1435
+#, kde-format
+msgid "...compressing file %1"
+msgstr "...در حال فشرده‌سازی پروندهٔ %1"
+
+#: Archiver.cxx:1480
+#, kde-format
+msgid "WARNING:"
+msgstr "هشدار:"
+
+#. i18n: ectx: Menu (file)
+#: kbackupui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "پرونده"
+
+#. i18n: ectx: Menu (settings)
+#: kbackupui.rc:12
+#, kde-format
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainWidgetBase)
+#: main.cxx:47 MainWidgetBase.ui:16
+#, kde-format
+msgid "KBackup"
+msgstr "KBackup"
+
+#: main.cxx:48
+#, kde-format
+msgid "An easy to use backup program"
+msgstr "یک برنامهٔ پشتیبان‌گیری با کاربرد آسان"
+
+#: main.cxx:49
+#, kde-format
+msgid "(c) 2006 - 2018 Martin Koller"
+msgstr "(c) ۲۰۰۶ - ۲۰۱۸ Martin Koller"
+
+#: main.cxx:53
+#, kde-format
+msgid "Martin Koller"
+msgstr "Martin Koller"
+
+#: main.cxx:53
+#, kde-format
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: main.cxx:61
+#, kde-format
+msgid "Start with given profile."
+msgstr "شروع با نمایهٔ داده‌شده."
+
+#: main.cxx:63
+#, kde-format
+msgid "Script to run after finishing one archive slice."
+msgstr "کدنوشته برای اجرا پس از اتمام یک قطعه از بایگانی."
+
+#: main.cxx:65
+#, kde-format
+msgid ""
+"Automatically run the backup with the given profile and terminate when done."
+msgstr ""
+"اجرای خودکار پشتیبان‌گیری با نمایهٔ داده‌شده و بسته‌شدن برنامه پس از اتمام "
+"کار."
+
+#: main.cxx:68
+#, kde-format
+msgid ""
+"Automatically run the backup with the given profile in the background "
+"(without showing a window) and terminate when done."
+msgstr ""
+"اجرای خودکار پشتیبان‌گیری با نمایهٔ داده‌شده در پس‌زمینه (بدون نمایش پنجره) "
+"و بسته‌شدن برنامه پس از اتمام کار."
+
+#: main.cxx:73
+#, kde-format
+msgid ""
+"In autobg mode be verbose and print every single filename during backup."
+msgstr ""
+"در حالت autobg، گزارش‌ها با جزئیات کامل ارائه شوند و نام تمام پرونده‌ها "
+"هنگام پشتیبان‌گیری چاپ شود."
+
+#: main.cxx:76
+#, kde-format
+msgid ""
+"In auto/autobg mode force the backup to be a full backup instead of acting "
+"on the profile settings."
+msgstr ""
+"در حالت auto/autobg، پشتیبان‌گیری به‌جای اعمال تنظیمات نمایه، به صورت کامل "
+"اجبار شود."
+
+#: main.cxx:149 MainWindow.cxx:211
+#, kde-format
+msgid "Could not open profile '%1' for reading: %2"
+msgstr "باز کردن نمایهٔ «%1» برای خواندن ممکن نشد: %2"
+
+#: MainWidget.cxx:68
+#, kde-format
+msgid "Incremental Backup"
+msgstr "پشتیبان‌گیری افزایشی"
+
+#: MainWidget.cxx:70
+#, kde-format
+msgid "Full Backup"
+msgstr "پشتیبان‌گیری کامل"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, numBackups)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, maxSliceSize)
+#: MainWidget.cxx:165 SettingsDialog.cxx:21 SettingsDialog.ui:67
+#: SettingsDialog.ui:136
+#, kde-format
+msgid "unlimited"
+msgstr "نامحدود"
+
+#. i18n: ectx: property (text), widget (QPushButton, startButton)
+#: MainWidgetBase.ui:41 MainWindow.cxx:114
+#, kde-format
+msgid "Start Backup"
+msgstr "شروع پشتیبان‌گیری"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: MainWidgetBase.ui:69 MainWindow.cxx:117
+#, kde-format
+msgid "Cancel Backup"
+msgstr "لغو پشتیبان‌گیری"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: MainWidgetBase.ui:92
+#, kde-format
+msgid "Next Backup:"
+msgstr "پشتیبان‌گیری بعدی:"
+
+#. i18n: ectx: property (text), widget (QLabel, backupType)
+#: MainWidgetBase.ui:99
+#, kde-format
+msgid "TextLabel"
+msgstr "برچسب متنی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, forceFullBackup)
+#: MainWidgetBase.ui:106
+#, kde-format
+msgid "Force Full Backup"
+msgstr "اجبار به پشتیبان‌گیری کامل"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: MainWidgetBase.ui:121
+#, kde-format
+msgid "Target"
+msgstr "مقصد"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: MainWidgetBase.ui:127
+#, kde-format
+msgid "Folder:"
+msgstr "پوشه:"
+
+#. i18n: ectx: property (text), widget (QLabel, sliceLabel)
+#: MainWidgetBase.ui:143
+#, kde-format
+msgid "Medium:"
+msgstr "رسانه:"
+
+#. i18n: ectx: property (text), widget (QLabel, sliceNum)
+#: MainWidgetBase.ui:165
+#, kde-format
+msgid "1"
+msgstr "۱"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: MainWidgetBase.ui:185 MainWidgetBase.ui:277
+#, kde-format
+msgid "Size:"
+msgstr "اندازه:"
+
+#. i18n: ectx: property (text), widget (QLabel, capacity)
+#: MainWidgetBase.ui:201
+#, kde-format
+msgid "0 MB"
+msgstr "0 MB"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: MainWidgetBase.ui:236
+#, kde-format
+msgid "Totals"
+msgstr "مجموع"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: MainWidgetBase.ui:248
+#, kde-format
+msgid "Files:"
+msgstr "پرونده‌ها:"
+
+#. i18n: ectx: property (text), widget (QLabel, totalFiles)
+#. i18n: ectx: property (text), widget (QLabel, totalSize)
+#: MainWidgetBase.ui:258 MainWidgetBase.ui:287
+#, kde-format
+msgid "0"
+msgstr "۰"
+
+#. i18n: ectx: property (text), widget (QLabel, totalSize_2)
+#: MainWidgetBase.ui:300
+#, kde-format
+msgid "MB"
+msgstr "MB"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: MainWidgetBase.ui:335
+#, kde-format
+msgid "Duration:"
+msgstr "مدت زمان:"
+
+#. i18n: ectx: property (text), widget (QLabel, elapsedTime)
+#: MainWidgetBase.ui:345
+#, kde-format
+msgid "00:00:00"
+msgstr "00:00:00"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: MainWidgetBase.ui:387
+#, kde-format
+msgid "Warnings:"
+msgstr "هشدارها:"
+
+#. i18n: ectx: property (text), widget (QLabel, fileProgressLabel)
+#: MainWidgetBase.ui:413
+#, kde-format
+msgid "Progress:"
+msgstr "پیشرفت:"
+
+#: MainWindow.cxx:56
+#, kde-format
+msgid "New Profile"
+msgstr "نمایه جدید"
+
+#: MainWindow.cxx:60
+#, kde-format
+msgid "Load Profile..."
+msgstr "بارگذاری نمایه..."
+
+#: MainWindow.cxx:64
+#, kde-format
+msgid "Save Profile"
+msgstr "ذخیره نمایه"
+
+#: MainWindow.cxx:68
+#, kde-format
+msgid "Save Profile As..."
+msgstr "ذخیره نمایه به نام..."
+
+#: MainWindow.cxx:72
+#, kde-format
+msgid "Profile Settings..."
+msgstr "تنظیمات نمایه..."
+
+#: MainWindow.cxx:75
+#, kde-format
+msgid "Enable All Messages"
+msgstr "فعال‌سازی همهٔ پیام‌ها"
+
+#: MainWindow.cxx:77
+#, kde-format
+msgid "Dock in System Tray"
+msgstr "قرار دادن در سینی سیستم"
+
+#: MainWindow.cxx:81
+#, kde-format
+msgid "Show Hidden Files"
+msgstr "نمایش پرونده‌های پنهان"
+
+#: MainWindow.cxx:147
+#, kde-format
+msgid "There is a backup in progress. Do you want to abort it?"
+msgstr "یک پشتیبان‌گیری در حال انجام است. آیا می‌خواهید لغوش کنید؟"
+
+#: MainWindow.cxx:147
+#, kde-format
+msgid "Backup in Progress"
+msgstr "پشتیبان‌گیری در حال انجام"
+
+#: MainWindow.cxx:147
+#, kde-format
+msgid "Abort"
+msgstr "لغو"
+
+#: MainWindow.cxx:189 MainWindow.cxx:235 MainWindow.cxx:252
+#, kde-format
+msgid "Select Profile"
+msgstr "انتخاب نمایه"
+
+#: MainWindow.cxx:190 MainWindow.cxx:236 MainWindow.cxx:253
+#, kde-format
+msgid "KBackup Profile (*.kbp)"
+msgstr "نمایهٔ KBackup (*.kbp)"
+
+#: MainWindow.cxx:214 MainWindow.cxx:286
+#, kde-format
+msgid "Open failed"
+msgstr "باز کردن ناموفق بود"
+
+#: MainWindow.cxx:263
+#, kde-format
+msgid ""
+"The profile '%1' does already exist.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"نمایهٔ «%1» از قبل وجود دارد.\n"
+"آیا می‌خواهید آن را بازنویسی کنید؟"
+
+#: MainWindow.cxx:266
+#, kde-format
+msgid "Profile exists"
+msgstr "پروفایل موجود است"
+
+#: MainWindow.cxx:283
+#, kde-format
+msgid "Could not open profile '%1' for writing: %2"
+msgstr "باز کردن پروفایل «%1» برای نوشتن ممکن نبود: %2"
+
+#: MainWindow.cxx:359
+#, kde-format
+msgid ""
+"Files: %1 Size: %2 MB\n"
+"%3"
+msgstr ""
+"پرونده‌ها: %1 اندازه: %2 MB\n"
+"%3"
+
+#: Selector.cxx:252
+#, kde-format
+msgid "Name"
+msgstr "نام"
+
+#: Selector.cxx:252
+#, kde-format
+msgid "Size"
+msgstr "اندازه"
+
+#: Selector.cxx:252
+#, kde-format
+msgid "Last Modified"
+msgstr "آخرین تغییر"
+
+#: Selector.cxx:284
+#, kde-format
+msgid "Open With"
+msgstr "باز کردن با"
+
+#: Selector.cxx:292
+#, kde-format
+msgid "Delete File"
+msgstr "حذف پرونده"
+
+#: Selector.cxx:298
+#, kde-format
+msgid "Properties..."
+msgstr "ویژگی‌ها..."
+
+#: Selector.cxx:611
+#, kde-format
+msgid "Do you really want to delete '%1'?"
+msgstr "آیا واقعاً می‌خواهید «%1» را حذف کنید؟"
+
+#: Selector.cxx:612
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: Selector.cxx:623
+#, kde-format
+msgid "Could not delete directory '%1'."
+msgstr "پوشهٔ «%1» حذف نشد."
+
+#: Selector.cxx:632
+#, kde-format
+msgid ""
+"Could not delete file '%1'.\n"
+"Reason: %2"
+msgstr ""
+"پروندهٔ «%1» حذف نشد.\n"
+"دلیل: %2"
+
+#: Selector.cxx:700
+#, kde-format
+msgid "Other Application..."
+msgstr "برنامهٔ دیگر..."
+
+#: Selector.cxx:702
+#, kde-format
+msgid "File Manager"
+msgstr "مدیر پرونده"
+
+#: SettingsDialog.cxx:22
+#, kde-format
+msgid "650 MB CD"
+msgstr "سی‌دی 650 MB"
+
+#: SettingsDialog.cxx:23
+#, kde-format
+msgid "700 MB CD"
+msgstr "سی‌دی 700 MB"
+
+#: SettingsDialog.cxx:24
+#, kde-format
+msgid "4.7 GB DVD"
+msgstr "دی‌وی‌دی 4.7 GB"
+
+#: SettingsDialog.cxx:25
+#, kde-format
+msgid "8.5 GB DVD"
+msgstr "دی‌وی‌دی 8.5 GB"
+
+#: SettingsDialog.cxx:26
+#, kde-format
+msgid "9.4 GB DVD"
+msgstr "دی‌وی‌دی 9.4 GB"
+
+#: SettingsDialog.cxx:27
+#, kde-format
+msgid "17.1 GB DVD"
+msgstr "17.1 GB DVD"
+
+#: SettingsDialog.cxx:28
+#, kde-format
+msgid "custom"
+msgstr "سفارشی"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
+#: SettingsDialog.ui:16
+#, kde-format
+msgid "Profile Settings"
+msgstr "تنظیمات نمایه"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mediaNeedsChange)
+#: SettingsDialog.ui:38
+#, kde-format
+msgid ""
+"Uncheck if you want to avoid a confirmation dialog to change the medium when"
+" a slice was finished"
+msgstr ""
+"اگر نمی‌خواهید پس از پایان یک بخش، گفتگوی تأیید برای تعویض رسانه نمایش داده "
+"شود، تیک این گزینه را بردارید"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mediaNeedsChange)
+#: SettingsDialog.ui:41
+#, kde-format
+msgid "Target needs media change"
+msgstr "مقصد نیاز به تعویض رسانه دارد"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: SettingsDialog.ui:48
+#, kde-format
+msgid "Exclude Paths Filter:"
+msgstr "فیلتر مسیرهای مستثنی:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: SettingsDialog.ui:57
+#, kde-format
+msgid "Number of full backups to keep"
+msgstr "تعداد نسخه‌های پشتیبان کامل برای نگهداری"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, numBackups)
+#: SettingsDialog.ui:64
+#, kde-format
+msgid ""
+"How many full backups shall be kept in the target directory before older "
+"ones will be deleted"
+msgstr ""
+"چند نسخه پشتیبان کامل باید در پوشه مقصد نگهداری شود پیش از آنکه نسخه‌های "
+"قدیمی‌تر حذف شوند"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: SettingsDialog.ui:77
+#, kde-format
+msgid "Full Backup Interval"
+msgstr "بازه پشتیبان‌گیری کامل"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, fullBackupInterval)
+#: SettingsDialog.ui:84
+#, kde-format
+msgid "How often shall a full backup, instead of an incremental one, be done"
+msgstr ""
+"هر چند وقت یک‌بار باید به‌جای پشتیبان‌گیری افزایشی، یک نسخه پشتیبان کامل "
+"تهیه شود"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox,
+#. fullBackupInterval)
+#: SettingsDialog.ui:87
+#, kde-format
+msgid "Every Day"
+msgstr "هر روز"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, fullBackupInterval)
+#: SettingsDialog.ui:90
+#, kde-format
+msgid " days"
+msgstr " روز"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SettingsDialog.ui:105
+#, kde-format
+msgid "Archive Prefix:"
+msgstr "پیشوند آرشیو:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, filter)
+#: SettingsDialog.ui:115
+#, kde-format
+msgid ""
+"Defines wildcards for filenames which will be ignored for backup, separated "
+"by a space. E.g.: \"*.ogg *.wav\""
+msgstr ""
+"نویسه‌های عام (wildcards) را برای نام پرونده‌هایی که در پشتیبان‌گیری نادیده "
+"گرفته می‌شوند، با فاصله مشخص می‌کند. مثلاً: \"*.ogg *.wav\""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: SettingsDialog.ui:122
+#, kde-format
+msgid "Maximum Archive Size:"
+msgstr "حداکثر اندازهٔ آرشیو:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, maxSliceSize)
+#: SettingsDialog.ui:139
+#, kde-format
+msgid " MB"
+msgstr " MB"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: SettingsDialog.ui:157
+#, kde-format
+msgid "Exclude Filename Filter:"
+msgstr "پالایهٔ استثنا کردن نام پرونده:"
+
+#. i18n: ectx: property (toolTip), widget (QPlainTextEdit, dirFilter)
+#: SettingsDialog.ui:164
+#, kde-format
+msgid ""
+"<html><head/><body><p>Defines a list of absolute path patterns which are "
+"used to filter complete directories,<br/>e.g. "
+"/home/*/.mozilla/*/Cache</p></body></html>"
+msgstr ""
+"<html><head/><body><p>فهرستی از الگوهای مسیر مطلق را تعیین می‌کند که برای "
+"پالایش کل پوشه‌ها استفاده می‌شوند،<br/>مثلاً: "
+"/home/*/.mozilla/*/Cache</p></body></html>"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, compressFiles)
+#: SettingsDialog.ui:171
+#, kde-format
+msgid "Uncheck if you want to avoid compressing files at all"
+msgstr ""
+"اگر اصلاً مایل به فشرده‌سازی پرونده‌ها نیستید، علامت این گزینه را بردارید"
+
+#. i18n: ectx: property (text), widget (QCheckBox, compressFiles)
+#: SettingsDialog.ui:174
+#, kde-format
+msgid "Compress Files"
+msgstr "فشرده‌سازی پرونده‌ها"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, prefix)
+#: SettingsDialog.ui:181
+#, kde-format
+msgid "backup"
+msgstr "پشتیبان‌گیری"

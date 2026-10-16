@@ -1,0 +1,79 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma_applet_org.kde.plasma.diskquota package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.diskquota\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-18 00:45+0000\n"
+"PO-Revision-Date: 2026-10-15 21:01+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: DiskQuota.cpp:44 DiskQuota.cpp:166 DiskQuota.cpp:252
+#, kde-format
+msgid "Disk Quota"
+msgstr "سهمیهٔ دیسک"
+
+#: DiskQuota.cpp:45
+#, kde-format
+msgid "Please install 'quota'"
+msgstr "لطفاً «quota» را نصب کنید"
+
+#: DiskQuota.cpp:167
+#, kde-format
+msgid "Running quota failed"
+msgstr "اجرای quota ناموفق بود"
+
+#: DiskQuota.cpp:227
+#, kde-format
+msgctxt "usage of quota, e.g.: '/home/bla: 38% used'"
+msgid "%1: %2% used"
+msgstr "%1: %2٪ استفاده شده"
+
+#: DiskQuota.cpp:228
+#, kde-format
+msgctxt "e.g.: 12 GiB of 20 GiB"
+msgid "%1 of %2"
+msgstr "%1 از %2"
+
+#: DiskQuota.cpp:229
+#, kde-format
+msgctxt "e.g.: 8 GiB free"
+msgid "%1 free"
+msgstr "%1 آزاد"
+
+#: DiskQuota.cpp:249
+#, kde-format
+msgctxt "example: Quota: 83% used"
+msgid "Quota: %1% used"
+msgstr "سهمیه: %1٪ استفاده شده"
+
+#: DiskQuota.cpp:253
+#, kde-format
+msgid "No quota restrictions found."
+msgstr "هیچ محدودیتی برای سهمیه یافت نشد."
+
+#: qml/main.qml:75
+#, kde-format
+msgctxt "@info:status"
+msgid "No quota restrictions found"
+msgstr "هیچ محدودیتی برای سهمیه یافت نشد"
+
+#: qml/main.qml:75
+#, kde-format
+msgctxt "@info:status"
+msgid "Quota tool not found"
+msgstr "ابزار quota یافت نشد"
+
+#: qml/main.qml:76
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Please install 'quota'"
+msgstr "لطفاً «quota» را نصب کنید"

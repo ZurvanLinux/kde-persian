@@ -1,0 +1,111 @@
+# translation of kio_audiocd.po to Persian
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_audiocd\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-10-15 13:51+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: audiocd.cpp:119
+#, kde-format
+msgid "Information"
+msgstr "اطلاعات"
+
+#: audiocd.cpp:120
+#, kde-format
+msgid "Full CD"
+msgstr "سی‌دی کامل"
+
+#: audiocd.cpp:417 audiocd.cpp:421 audiocd.cpp:489 audiocd.cpp:506
+#: audiocd.cpp:684 audiocd.cpp:782 audiocd.cpp:784 audiocd.cpp:790
+#, kde-format
+msgid "CDDB Information"
+msgstr "اطلاعات CDDB"
+
+#: audiocd.cpp:460
+#, kde-format
+msgid ""
+"You cannot specify a host with this protocol. Please use the audiocd:/ "
+"format instead."
+msgstr ""
+"شما نمی‌توانید میزبانی را با این شیوه‌نامه مشخص کنید. لطفاً به جای آن از "
+"قالب ‎audiocd:/‎ استفاده کنید."
+
+#: audiocd.cpp:896
+#, kde-format
+msgctxt "The URL does not include a device name"
+msgid "Missing device specification"
+msgstr "مشخصات دستگاه موجود نیست"
+
+#: audiocd.cpp:906
+#, kde-format
+msgid ""
+"Device does not have read permissions for this account.  Check the read "
+"permissions on the device."
+msgstr ""
+"دستگاه مجوز خواندن برای این حساب را ندارد. مجوزهای خواندن دستگاه را بررسی "
+"کنید."
+
+#: audiocd.cpp:910
+#, kde-format
+msgid ""
+"Device does not have write permissions for this account.  Check the write "
+"permissions on the device."
+msgstr ""
+"دستگاه مجوز نوشتن برای این حساب را ندارد. مجوزهای نوشتن دستگاه را بررسی "
+"کنید."
+
+#: audiocd.cpp:916
+#, kde-format
+msgid ""
+"Unknown error.  If you have a cd in the drive try running cdparanoia -vsQ as"
+" yourself (not root). Do you see a track list? If not, make sure you have "
+"permission to access the CD device. If you are using SCSI emulation "
+"(possible if you have an IDE CD writer) then make sure you check that you "
+"have read and write permissions on the generic SCSI device, which is "
+"probably /dev/sg0, /dev/sg1, etc.. If it still does not work, try typing "
+"audiocd:/?device=/dev/sg0 (or similar) to tell kio_audiocd which device your"
+" CD-ROM is."
+msgstr ""
+"خطای ناشناخته. اگر لوح فشرده‌ای در گرداننده است، دستور ‎cdparanoia -vsQ‎ را "
+"با حساب کاربری خودتان (نه root) اجرا کنید. آیا فهرست قطعه‌ها را می‌بینید؟ "
+"اگر نه، مطمئن شوید که اجازهٔ دسترسی به دستگاه سی‌دی را دارید. اگر از "
+"شبیه‌سازی SCSI استفاده می‌کنید (احتمالاً اگر نویسندهٔ سی‌دی IDE دارید) مطمئن"
+" شوید که دسترسی خواندن و نوشتن روی دستگاه عمومی SCSI دارید، که احتمالاً "
+"‎/dev/sg0‎، ‏‎/dev/sg1‎ و غیره است. اگر باز هم کار نکرد، عبارت "
+"‎audiocd:/?device=/dev/sg0‎ (یا مشابه آن) را تایپ کنید تا به kio_audiocd "
+"بگویید که سی‌دی‌رام شما کدام دستگاه است."
+
+#: audiocd.cpp:994
+#, kde-format
+msgid "AudioCD: Disk damage detected on this track, risk of data corruption."
+msgstr ""
+"AudioCD: آسیب‌دیدگی دیسک روی این قطعه شناسایی شد، احتمال خراب شدن داده‌ها "
+"وجود دارد."
+
+#: audiocd.cpp:1001
+#, kde-format
+msgid "Error reading audio data for %1 from the CD"
+msgstr "خطا در خواندن داده‌های صوتی %1 از سی‌دی"
+
+#: audiocd.cpp:1011 audiocd.cpp:1089
+#, kde-format
+msgid "Could not read %1: encoding failed"
+msgstr "خواندن %1 ممکن نشد: کدگذاری ناموفق بود"
+
+#: audiocd.cpp:1220
+#, kde-format
+msgid "Track %1"
+msgstr "شیار %1"

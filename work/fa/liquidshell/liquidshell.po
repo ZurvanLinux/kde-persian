@@ -1,0 +1,981 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the liquidshell package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: liquidshell\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-04 00:47+0000\n"
+"PO-Revision-Date: 2026-10-16 01:06+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: Battery.cxx:78
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 ساعت"
+msgstr[1] "%1 ساعت"
+
+#: Battery.cxx:79
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 دقیقه"
+msgstr[1] "%1 دقیقه"
+
+#: Battery.cxx:151
+#, kde-format
+msgid "Not Charging"
+msgstr "شارژ نمی‌شود"
+
+#: Battery.cxx:152
+#, kde-format
+msgid "Fully Charged"
+msgstr "کاملاً شارژ شد"
+
+#: Battery.cxx:159
+#, kde-format
+msgid "Charging at %1%"
+msgstr "در حال شارژ در %1٪"
+
+#: Battery.cxx:161
+#, kde-format
+msgid "Time until full: "
+msgstr "زمان تا شارژ کامل: "
+
+#: Battery.cxx:165
+#, kde-format
+msgid "Discharging at %1%"
+msgstr "در حال تخلیه در %1٪"
+
+#: Battery.cxx:167
+#, kde-format
+msgid "Remaining Time: "
+msgstr "زمان باقی‌مانده: "
+
+#: Battery.cxx:193
+#, kde-format
+msgid "Power Management"
+msgstr "مدیریت مصرف برق"
+
+#: Bluetooth.cxx:64
+#, kde-format
+msgid "Bluetooth is operational"
+msgstr "بلوتوث فعال و آماده‌به‌کار است"
+
+#: Bluetooth.cxx:69
+#, kde-format
+msgid "Bluetooth is not operational"
+msgstr "بلوتوث فعال نیست"
+
+#: Bluetooth.cxx:85
+#, kde-format
+msgid "Bluetooth"
+msgstr "بلوتوث"
+
+#: ClockWidget.cxx:163
+#, kde-format
+msgid "Select Timezones..."
+msgstr "انتخاب منطقه‌های زمانی..."
+
+#: ClockWidget.cxx:169
+#, kde-format
+msgid "Select Timezones"
+msgstr "انتخاب منطقه‌های زمانی"
+
+#: ClockWidget.cxx:187
+#, kde-format
+msgid "Configure Date & Time..."
+msgstr "پیکربندی تاریخ و ساعت..."
+
+#: ClockWidget.cxx:194
+#, kde-format
+msgid "Date & Time"
+msgstr "تاریخ و ساعت"
+
+#: ClockWidgetConfigureDialog.cxx:30 PkUpdateList.cxx:204
+#, kde-format
+msgid "Filter"
+msgstr "فیلتر"
+
+#: ClockWidgetConfigureDialog.cxx:41
+#, kde-format
+msgid "Timezone"
+msgstr "منطقه زمانی"
+
+#: ClockWidgetConfigureDialog.cxx:41
+#, kde-format
+msgid "Territory"
+msgstr "ناحیه"
+
+#: ConfigureDesktopDialog.cxx:37
+#, kde-format
+msgid "Get New Wallpapers..."
+msgstr "دریافت تصویر پس‌زمینه جدید..."
+
+#: ConfigureDesktopDialog.cxx:43
+#, kde-format
+msgid "Download Wallpapers"
+msgstr "بارگیری تصاویر پس‌زمینه"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog,
+#. ConfigureDesktopDialog)
+#: ConfigureDesktopDialog.ui:15
+#, kde-format
+msgid "Configure Wallpaper"
+msgstr "پیکربندی تصویر پس‌زمینه"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ConfigureDesktopDialog.ui:23
+#, kde-format
+msgid "Background Color"
+msgstr "رنگ پس‌زمینه"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ConfigureDesktopDialog.ui:33
+#, kde-format
+msgid "Wallpaper File"
+msgstr "پرونده تصویر پس‌زمینه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ConfigureDesktopDialog.ui:67
+#, kde-format
+msgid "Scale Mode"
+msgstr "حالت مقیاس"
+
+#. i18n: ectx: property (text), widget (QRadioButton, origSizeButton)
+#: ConfigureDesktopDialog.ui:73
+#, kde-format
+msgid "Or&iginal Size"
+msgstr "اندازه اصلی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, scaledIgnoreRatioButton)
+#: ConfigureDesktopDialog.ui:80
+#, kde-format
+msgid "Sca&led Ignoring Aspect Ratio"
+msgstr "تغییر مقیاس بدون حفظ نسبت ابعاد"
+
+#. i18n: ectx: property (text), widget (QRadioButton, scaledKeepRatioButton)
+#: ConfigureDesktopDialog.ui:87
+#, kde-format
+msgid "Scale&d Keep Aspect Ratio"
+msgstr "تغییر مقیاس با حفظ نسبت ابعاد"
+
+#. i18n: ectx: property (text), widget (QRadioButton,
+#. scaledKeepRatioClipButton)
+#: ConfigureDesktopDialog.ui:94
+#, kde-format
+msgid "Scaled Keep Aspec&t Ratio and Clip"
+msgstr "مقیاس‌بندی‌شده، حفظ نسبت ابعاد و برش"
+
+#: desktop.cxx:30
+#, kde-format
+msgid "Liquidshell"
+msgstr "Liquidshell"
+
+#: desktop.cxx:31
+#, kde-format
+msgid "A QtWidgets based basic desktop shell"
+msgstr "یک پوستهٔ میزکار پایه مبتنی بر QtWidgets"
+
+#: desktop.cxx:33
+#, kde-format
+msgid "Copyright 2017 - 2026 Martin Koller"
+msgstr "حق نشر ۲۰۱۷ - ۲۰۲۶ Martin Koller"
+
+#: DesktopApplet.cxx:34 Launcher.cxx:69
+#, kde-format
+msgid "Configure..."
+msgstr "پیکربندی..."
+
+#: DesktopApplet.cxx:42
+#, kde-format
+msgid "Change Size && Position"
+msgstr "تغییر اندازه و موقعیت"
+
+#: DesktopApplet.cxx:48
+#, kde-format
+msgid "Remove this Applet"
+msgstr "حذف این برنامک"
+
+#: DesktopApplet.cxx:96
+#, kde-format
+msgid "%1: Change Size & Position"
+msgstr "%1: تغییر اندازه و موقعیت"
+
+#: DesktopApplet.cxx:136
+#, kde-format
+msgid "Remove Applet"
+msgstr "حذف برنامک"
+
+#: DesktopApplet.cxx:137
+#, kde-format
+msgid "Really remove this applet?"
+msgstr "واقعاً این برنامک حذف شود؟"
+
+#: DesktopWidget.cxx:67
+#, kde-format
+msgid "Configure Wallpaper..."
+msgstr "پیکربندی تصویر پس‌زمینه..."
+
+#: DesktopWidget.cxx:71
+#, kde-format
+msgid "Add Applet"
+msgstr "افزودن برنامک"
+
+#: DesktopWidget.cxx:75
+#, kde-format
+msgid "Weather"
+msgstr "آب‌وهوا"
+
+#: DesktopWidget.cxx:78
+#, kde-format
+msgid "Disk Usage"
+msgstr "میزان مصرف دیسک"
+
+#: DesktopWidget.cxx:81
+#, kde-format
+msgid "Picture Frame"
+msgstr "قاب عکس"
+
+#: DesktopWidget.cxx:84
+#, kde-format
+msgid "Configure Display..."
+msgstr "پیکربندی نمایشگر..."
+
+#: DesktopWidget.cxx:88 StartMenu.cxx:102
+#, kde-format
+msgid "Run Command..."
+msgstr "اجرای دستور..."
+
+#: DesktopWidget.cxx:98
+#, kde-format
+msgid "Help"
+msgstr "راهنما"
+
+#: DesktopWidget.cxx:247
+#, kde-format
+msgid "Configure Display"
+msgstr "پیکربندی نمایشگر"
+
+#: DeviceList.cxx:252
+#, kde-format
+msgid "Open with File Manager"
+msgstr "باز کردن با مدیر پرونده"
+
+#: DeviceList.cxx:335
+#, kde-format
+msgid ""
+"Device is mounted.\n"
+"Click to unmount/eject"
+msgstr ""
+"دستگاه متصل (سوار) شده است.\n"
+"برای قطع اتصال/خارج کردن کلیک کنید"
+
+#: DeviceList.cxx:336
+#, kde-format
+msgid ""
+"Device is unmounted.\n"
+"Click to mount"
+msgstr ""
+"دستگاه جدا (پیاده) شده است.\n"
+"برای اتصال کلیک کنید"
+
+#: DeviceList.cxx:347
+#, kde-format
+msgid "Unauthorized Operation"
+msgstr "عملیات غیرمجاز"
+
+#: DeviceList.cxx:348
+#, kde-format
+msgid "Device Busy"
+msgstr "دستگاه مشغول است"
+
+#: DeviceList.cxx:349
+#, kde-format
+msgid "Operation Failed"
+msgstr "عملیات ناموفق بود"
+
+#: DeviceList.cxx:350
+#, kde-format
+msgid "User Canceled"
+msgstr "لغو شده توسط کاربر"
+
+#: DeviceList.cxx:351
+#, kde-format
+msgid "Invalid Option"
+msgstr "گزینهٔ نامعتبر"
+
+#: DeviceList.cxx:352
+#, kde-format
+msgid "Missing Driver"
+msgstr "درایور موجود نیست"
+
+#: DeviceList.cxx:374
+#, kde-format
+msgid "The device can now be safely removed"
+msgstr "اکنون می‌توانید دستگاه را با خیال راحت جدا کنید"
+
+#: DeviceList.cxx:381
+#, kde-format
+msgid "Mount failed:"
+msgstr "اتصال ناموفق بود:"
+
+#: DeviceList.cxx:381
+#, kde-format
+msgid "Unmount failed:"
+msgstr "پیاده کردن ناموفق بود:"
+
+#: DeviceNotifier.cxx:23
+#, kde-format
+msgid "Device Notifier"
+msgstr "اعلان‌گر دستگاه"
+
+#: DeviceNotifier.cxx:26
+#, kde-format
+msgid "Device List"
+msgstr "فهرست دستگاه‌ها"
+
+#: DiskUsageApplet.cxx:131
+#, kde-format
+msgid "%1 free / %2"
+msgstr "%1 آزاد از %2"
+
+#: DiskUsageApplet.cxx:164
+#, kde-format
+msgid "Configure DiskUsage Applet"
+msgstr "پیکربندی برنامک مصرف دیسک"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog,
+#. WeatherAppletConfigureDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog,
+#. PictureFrameAppletConfigureDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog,
+#. DiskUsageAppletConfigureDialog)
+#: DiskUsageAppletConfigureDialog.ui:14
+#: PictureFrameAppletConfigureDialog.ui:14 WeatherAppletConfigureDialog.ui:14
+#, kde-format
+msgid "Dialog"
+msgstr "کادر محاوره‌ای"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: DiskUsageAppletConfigureDialog.ui:20 WeatherAppletConfigureDialog.ui:112
+#, kde-format
+msgid "Text"
+msgstr "متن"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: DiskUsageAppletConfigureDialog.ui:44
+#, kde-format
+msgid "Bar Text"
+msgstr "متن نوار"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: DiskUsageAppletConfigureDialog.ui:58
+#: PictureFrameAppletConfigureDialog.ui:44 WeatherAppletConfigureDialog.ui:119
+#, kde-format
+msgid "Background"
+msgstr "پس‌زمینه"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: DiskUsageAppletConfigureDialog.ui:72
+#, kde-format
+msgid "Bar Background"
+msgstr "پس‌زمینهٔ نوار"
+
+#: KdeConnect.cxx:169
+#, kde-format
+msgid "Device needs charging"
+msgstr "دستگاه نیاز به شارژ دارد"
+
+#: KdeConnect.cxx:170
+#, kde-format
+msgid ""
+"Device charge of '%1' is at %2%.\n"
+"You should charge it."
+msgstr ""
+"شارژ دستگاه «%1» روی %2٪ است.\n"
+"باید آن را شارژ کنید."
+
+#: Launcher.cxx:86
+#, kde-format
+msgid "Open Folder"
+msgstr "باز کردن پوشه"
+
+#: Network.cxx:72
+#, kde-format
+msgid "No Network Connection"
+msgstr "بدون اتصال شبکه"
+
+#: Network.cxx:82
+#, kde-format
+msgid "Full Network Connectivity (%1)"
+msgstr "اتصال کامل به شبکه (%1)"
+
+#: Network.cxx:84
+#, kde-format
+msgid "Limited Network Connectivity (%1)"
+msgstr "اتصال محدود به شبکه (%1)"
+
+#: Network.cxx:93
+#, kde-format
+msgid "IPv4 Address: %1"
+msgstr "نشانی IPv4: %1"
+
+#: Network.cxx:110
+#, kde-format
+msgid "SSID: %1"
+msgstr "نام شبکه (SSID): %1"
+
+#: Network.cxx:112
+#, kde-format
+msgid "Signal Strength: %1"
+msgstr "قدرت سیگنال: %1"
+
+#: Network.cxx:144
+#, kde-format
+msgid "VPN active"
+msgstr "VPN فعال است"
+
+#: NetworkList.cxx:213
+#, kde-format
+msgid "Configure Network Connections"
+msgstr "پیکربندی اتصال‌های شبکه"
+
+#: NetworkList.cxx:245
+#, kde-format
+msgid "Networking is enabled. Click to disable"
+msgstr "شبکه فعال است. برای غیرفعال‌سازی کلیک کنید"
+
+#: NetworkList.cxx:247
+#, kde-format
+msgid "Networking is disabled. Click to enable"
+msgstr "شبکه غیرفعال است. برای فعال‌سازی کلیک کنید"
+
+#: NetworkList.cxx:250
+#, kde-format
+msgid "Wireless Networking is enabled. Click to disable"
+msgstr "شبکهٔ بی‌سیم فعال است. برای غیرفعال‌سازی کلیک کنید"
+
+#: NetworkList.cxx:252
+#, kde-format
+msgid "Wireless Networking is disabled. Click to enable"
+msgstr "شبکهٔ بی‌سیم غیرفعال است. برای فعال‌سازی کلیک کنید"
+
+#: NotificationList.cxx:172
+#, kde-format
+msgid "Notifications"
+msgstr "اعلان‌ها"
+
+#: NotificationServer.cxx:59
+#, kde-format
+msgid "%1 notification"
+msgid_plural "%1 notifications"
+msgstr[0] "%1 اعلان"
+msgstr[1] "%1 اعلان"
+
+#: Pager.cxx:61
+#, kde-format
+msgid "Configure Virtual Desktops..."
+msgstr "پیکربندی میزکارهای مجازی..."
+
+#: Pager.cxx:68
+#, kde-format
+msgid "Configure Virtual Desktops"
+msgstr "پیکربندی میزکارهای مجازی"
+
+#: PictureFrameApplet.cxx:95
+#, kde-format
+msgid "Configure PictureFrame Applet"
+msgstr "پیکربندی ابزارک قاب عکس"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: PictureFrameAppletConfigureDialog.ui:37
+#, kde-format
+msgid "Frame"
+msgstr "فریم"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: PictureFrameAppletConfigureDialog.ui:61
+#, kde-format
+msgid "Path"
+msgstr "مسیر"
+
+#: PkUpdateList.cxx:128
+#, kde-format
+msgid "Getting details ..."
+msgstr "در حال دریافت جزئیات..."
+
+#: PkUpdateList.cxx:170
+#, kde-format
+msgid "<b>Session restart required</b><br>"
+msgstr "<b>راه‌اندازی مجدد نشست لازم است</b><br>"
+
+#: PkUpdateList.cxx:172
+#, kde-format
+msgid "<b>Reboot required</b><br>"
+msgstr "<b>راه‌اندازی مجدد سیستم لازم است</b><br>"
+
+#: PkUpdateList.cxx:188
+#, kde-format
+msgid "Software Updates"
+msgstr "به‌روزرسانی‌های نرم‌افزار"
+
+#: PkUpdateList.cxx:200
+#, kde-format
+msgid "All"
+msgstr "همه"
+
+#: PkUpdateList.cxx:213 PkUpdateList.cxx:437
+#, kde-format
+msgid "Install"
+msgstr "نصب"
+
+#: PkUpdateList.cxx:219
+#, kde-format
+msgid "Install, then Sleep"
+msgstr "نصب و سپس خواب"
+
+#: PkUpdateList.cxx:220
+#, kde-format
+msgid "Install, then Shutdown"
+msgstr "نصب و سپس خاموش کردن"
+
+#: PkUpdateList.cxx:224
+#, kde-format
+msgid "Refresh"
+msgstr "تازه‌سازی"
+
+#: PkUpdateList.cxx:431
+#, kde-format
+msgid "Install %1 package"
+msgid_plural "Install %1 packages"
+msgstr[0] "نصب %1 بسته"
+msgstr[1] "نصب %1 بسته"
+
+#: PkUpdateList.cxx:560
+#, kde-format
+msgid "System Reboot Required"
+msgstr "راه‌اندازی مجدد سیستم لازم است"
+
+#: PkUpdateList.cxx:561
+#, kde-format
+msgid "One of the installed packages requires a system reboot"
+msgstr "یکی از بسته‌های نصب‌شده به راه‌اندازی مجدد سیستم نیاز دارد"
+
+#: PkUpdateList.cxx:562
+#, kde-format
+msgid "Reboot System"
+msgstr "راه‌اندازی مجدد سیستم"
+
+#: PkUpdateList.cxx:582
+#, kde-format
+msgid "Session Restart Required"
+msgstr "راه‌اندازی مجدد نشست لازم است"
+
+#: PkUpdateList.cxx:583
+#, kde-format
+msgid "One of the installed packages requires you to logout"
+msgstr "یکی از بسته‌های نصب‌شده مستلزم خروج شما از سیستم است"
+
+#: PkUpdateList.cxx:584
+#, kde-format
+msgid "Logout"
+msgstr "خروج"
+
+#: PkUpdateList.cxx:630
+#, kde-format
+msgid "Cancel Installation"
+msgstr "لغو نصب"
+
+#: PkUpdateList.cxx:663
+#, kde-format
+msgid "Waiting"
+msgstr "در حال انتظار"
+
+#: PkUpdateList.cxx:664
+#, kde-format
+msgid "Waiting for authentication"
+msgstr "در انتظار احراز هویت"
+
+#: PkUpdateList.cxx:665
+#, kde-format
+msgid "Resolving dependencies"
+msgstr "در حال حل وابستگی‌ها"
+
+#: PkUpdateList.cxx:666
+#, kde-format
+msgid "Updating"
+msgstr "در حال به‌روزرسانی"
+
+#: PkUpdateList.cxx:667
+#, kde-format
+msgid "Installing"
+msgstr "در حال نصب"
+
+#: PkUpdateList.cxx:668
+#, kde-format
+msgid "Downloading"
+msgstr "در حال بارگیری"
+
+#: PkUpdateList.cxx:669
+#, kde-format
+msgid "Canceling"
+msgstr "در حال لغو"
+
+#: PkUpdateList.cxx:724
+#, kde-format
+msgid "Validate Signature"
+msgstr "اعتبارسنجی امضا"
+
+#: PkUpdateList.cxx:775
+#, kde-format
+msgid "Update failed"
+msgstr "به‌روزرسانی ناموفق بود"
+
+#: PkUpdateList.cxx:830
+#, kde-format
+msgid "Accept EULA"
+msgstr "پذیرش EULA"
+
+#: PkUpdateList.cxx:842
+#, kde-format
+msgid ""
+"<html>Do you accept the following license agreement for "
+"package<br>%1<br>from vendor<br>%2 ?</html>"
+msgstr ""
+"<html>آیا توافق‌نامهٔ مجوز زیر را برای بستهٔ<br>%1<br>از ارائه‌دهندهٔ<br>%2 "
+"می‌پذیرید؟</html>"
+
+#: PkUpdates.cxx:53
+#, kde-format
+msgid "Next check: %1"
+msgstr "بررسی بعدی: %1"
+
+#: PkUpdates.cxx:79
+#, kde-format
+msgid "Checking for updates ..."
+msgstr "در حال بررسی به‌روزرسانی‌ها..."
+
+#: PkUpdates.cxx:95 PkUpdates.cxx:149
+#, kde-format
+msgid "Checking for updates ... %1%"
+msgstr "در حال بررسی به‌روزرسانی‌ها... %1٪"
+
+#: PkUpdates.cxx:171
+#, kde-format
+msgid ""
+"Last check: %1\n"
+"Error on checking for updates: %2"
+msgstr ""
+"آخرین بررسی: %1\n"
+"خطا در بررسی به‌روزرسانی‌ها: %2"
+
+#: PkUpdates.cxx:174
+#, kde-format
+msgid "Software Update Error"
+msgstr "خطای به‌روزرسانی نرم‌افزار"
+
+#: PkUpdates.cxx:195
+#, kde-format
+msgid "%1 <b>security</b> update available"
+msgid_plural "%1 <b>security</b> updates available"
+msgstr[0] "%1 به‌روزرسانی <b>امنیتی</b> موجود است"
+msgstr[1] "%1 به‌روزرسانی <b>امنیتی</b> موجود است"
+
+#: PkUpdates.cxx:207
+#, kde-format
+msgid "%1 <i>important</i> update available"
+msgid_plural "%1 <i>important</i> updates available"
+msgstr[0] "%1 به‌روزرسانی <i>مهم</i> موجود است"
+msgstr[1] "%1 به‌روزرسانی <i>مهم</i> موجود است"
+
+#: PkUpdates.cxx:219
+#, kde-format
+msgid "%1 bugfix update available"
+msgid_plural "%1 bugfix updates available"
+msgstr[0] "%1 به‌روزرسانی رفع اشکال موجود است"
+msgstr[1] "%1 به‌روزرسانی رفع اشکال موجود است"
+
+#: PkUpdates.cxx:229
+#, kde-format
+msgid ""
+"Last check: %1\n"
+"No important updates available\n"
+"%2 other"
+msgid_plural ""
+"Last check: %1\n"
+"No important updates available\n"
+"%2 others"
+msgstr[0] ""
+"آخرین بررسی: %1\n"
+"هیچ به‌روزرسانی مهمی موجود نیست\n"
+"%2 مورد دیگر"
+msgstr[1] ""
+"آخرین بررسی: %1\n"
+"هیچ به‌روزرسانی مهمی موجود نیست\n"
+"%2 مورد دیگر"
+
+#: PkUpdates.cxx:240
+#, kde-format
+msgid ""
+"Last check: %1\n"
+"No updates available"
+msgstr ""
+"آخرین بررسی: %1\n"
+"هیچ به‌روزرسانی موجود نیست"
+
+#: PkUpdates.cxx:249
+#, kde-format
+msgid "<br>%1 other"
+msgid_plural "<br>%1 others"
+msgstr[0] "<br>%1 مورد دیگر"
+msgstr[1] "<br>%1 مورد دیگر"
+
+#: PkUpdates.cxx:251
+#, kde-format
+msgid "<html>Last check: %1<br>%2</html>"
+msgstr "<html>آخرین بررسی: %1<br>%2</html>"
+
+#: PkUpdates.cxx:290
+#, kde-format
+msgid "Software Updates Available"
+msgstr "به‌روزرسانی‌های نرم‌افزاری موجود است"
+
+#: PkUpdates.cxx:310
+#, kde-format
+msgid "<li>%1 more ...</li>"
+msgstr "<li>%1 مورد دیگر...</li>"
+
+#: QuickLaunch.cxx:158
+#, kde-format
+msgid "Web Browser"
+msgstr "مرورگر وب"
+
+#: StartMenu.cxx:80
+#, kde-format
+msgid "Switch User"
+msgstr "تعویض کاربر"
+
+#: StartMenu.cxx:170
+#, kde-format
+msgid "Configure Menu..."
+msgstr "پیکربندی منو..."
+
+#: SysLoad.cxx:200
+#, kde-format
+msgid "CPU %1: %2% (%3 MHz)"
+msgstr "پردازنده %1: ٪%2 (%3 MHz)"
+
+#: SysLoad.cxx:210
+#, kde-format
+msgid "Memory Total: %1 MB (%2 GB)"
+msgstr "کل حافظه: %1 MB (%2 GB)"
+
+#: SysLoad.cxx:212
+#, kde-format
+msgid "Memory Used: %1 MB (%2 GB) %3%"
+msgstr "حافظهٔ مصرفی: %1 MB (%2 GB) ٪%3"
+
+#: SysLoad.cxx:214
+#, kde-format
+msgid "Memory Free: %1 MB (%2 GB)"
+msgstr "حافظهٔ آزاد: %1 MB (%2 GB)"
+
+#: SysLoad.cxx:216
+#, kde-format
+msgid "Swap Total: %1 MB (%2 GB)"
+msgstr "کل حافظهٔ مجازی (Swap): %1 MB (%2 GB)"
+
+#: SysLoad.cxx:218
+#, kde-format
+msgid "Swap Used: %1 MB (%2 GB) %3%"
+msgstr "حافظهٔ مجازی مصرف‌شده: %1 MB (%2 GB) %3%"
+
+#: SysLoad.cxx:220
+#, kde-format
+msgid "Swap Free: %1 MB (%2 GB)"
+msgstr "حافظهٔ مجازی آزاد: %1 MB (%2 GB)"
+
+#: SysLoad.cxx:223
+#, kde-format
+msgid "Net send/receive: %1/%2 KB/sec"
+msgstr "ارسال/دریافت شبکه: %1/%2 KB/sec"
+
+#: SysLoad.cxx:227
+#, kde-format
+msgid "Net max (last %2 secs): %1 KB/sec"
+msgstr "حداکثر شبکه (%2 ثانیهٔ اخیر): %1 KB/sec"
+
+#: SysTray.cxx:302
+#, kde-format
+msgid "Show New Notifications"
+msgstr "نمایش اعلان‌های جدید"
+
+#: TaskBarButton.cxx:109
+#, kde-format
+msgid "Move To Desktop"
+msgstr "انتقال به میزکار"
+
+#: TaskBarButton.cxx:110
+#, kde-format
+msgid "All Desktops"
+msgstr "تمام میزکارها"
+
+#: TaskBarButton.cxx:117
+#, kde-format
+msgid "Close"
+msgstr "بستن"
+
+#: WeatherApplet.cxx:66
+#, kde-format
+msgid "Temperature:"
+msgstr "دما:"
+
+#: WeatherApplet.cxx:69
+#, kde-format
+msgid "Pressure:"
+msgstr "فشار:"
+
+#: WeatherApplet.cxx:72
+#, kde-format
+msgid "Humidity:"
+msgstr "رطوبت:"
+
+#: WeatherApplet.cxx:75
+#, kde-format
+msgid "Wind Speed:"
+msgstr "سرعت باد:"
+
+#: WeatherApplet.cxx:78
+#, kde-format
+msgid "Wind Direction:"
+msgstr "جهت باد:"
+
+#: WeatherApplet.cxx:128 WeatherApplet.cxx:399
+#, kde-format
+msgid "Not configured"
+msgstr "پیکربندی‌نشده"
+
+#: WeatherApplet.cxx:183
+#, kde-format
+msgid "K"
+msgstr "K"
+
+#: WeatherApplet.cxx:184
+#, kde-format
+msgid "°C"
+msgstr "°C"
+
+#: WeatherApplet.cxx:185
+#, kde-format
+msgid "°F"
+msgstr "°F"
+
+#: WeatherApplet.cxx:198 WeatherApplet.cxx:215 WeatherApplet.cxx:278
+#: WeatherApplet.cxx:279
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: WeatherApplet.cxx:201
+#, kde-format
+msgid "%1 hPa"
+msgstr "%1 hPa"
+
+#: WeatherApplet.cxx:204
+#, kde-format
+msgid "%1 %"
+msgstr "%1 ٪"
+
+#: WeatherApplet.cxx:218
+#, kde-format
+msgid "%1 °"
+msgstr "%1 °"
+
+#: WeatherApplet.cxx:375
+#, kde-format
+msgid "Configure Weather Applet"
+msgstr "پیکربندی برنامک آب‌وهوا"
+
+#: WeatherAppletConfigureDialog.cxx:75
+#, kde-format
+msgid "Downloading city list..."
+msgstr "در حال بارگیری فهرست شهرها..."
+
+#: WeatherAppletConfigureDialog.cxx:89
+#, kde-format
+msgid "Download Error"
+msgstr "خطای بارگیری"
+
+#: WeatherAppletConfigureDialog.cxx:90
+#, kde-format
+msgid "Error on downloading city list: %1"
+msgstr "خطا در بارگیری فهرست شهرها: %1"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: WeatherAppletConfigureDialog.ui:20
+#, kde-format
+msgid "API Key"
+msgstr "کلید API"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, apiKey)
+#: WeatherAppletConfigureDialog.ui:27
+#, kde-format
+msgid ""
+"The API key is needed to be allowed to get data from openweathermap.org"
+msgstr "برای دریافت داده‌ها از openweathermap.org، به کلید API نیاز است"
+
+#. i18n: ectx: property (text), widget (QPushButton, getApiKey)
+#: WeatherAppletConfigureDialog.ui:34
+#, kde-format
+msgid "Get your personal API key"
+msgstr "دریافت کلید API شخصی شما"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: WeatherAppletConfigureDialog.ui:41
+#, kde-format
+msgid "Units"
+msgstr "واحدها"
+
+#. i18n: ectx: property (text), widget (QRadioButton, metric)
+#: WeatherAppletConfigureDialog.ui:48
+#, kde-format
+msgid "&metric"
+msgstr "متریک"
+
+#. i18n: ectx: property (text), widget (QRadioButton, imperial)
+#: WeatherAppletConfigureDialog.ui:58
+#, kde-format
+msgid "&imperial"
+msgstr "امپریال"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QTreeWidget, cityList)
+#: WeatherAppletConfigureDialog.ui:65 WeatherAppletConfigureDialog.ui:92
+#, kde-format
+msgid "City"
+msgstr "شهر"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, cityList)
+#: WeatherAppletConfigureDialog.ui:97
+#, kde-format
+msgid "Country"
+msgstr "کشور"

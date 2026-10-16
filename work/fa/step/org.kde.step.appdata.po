@@ -1,0 +1,169 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the org.kde.step.appdata package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.step.appdata\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-16 00:39+0000\n"
+"PO-Revision-Date: 2026-10-16 03:11+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. (itstool) path: component/name
+#: org.kde.step.appdata.xml:6
+msgid "Step"
+msgstr "استپ"
+
+#. (itstool) path: component/summary
+#: org.kde.step.appdata.xml:7
+msgid "Interactive Physical Simulator"
+msgstr "شبیه‌ساز فیزیک تعاملی"
+
+#. (itstool) path: description/p
+#: org.kde.step.appdata.xml:9
+msgid ""
+"Step is an interactive physical simulator. It allows you to explore the "
+"physical world through simulations. It works like this: you place some "
+"bodies on the scene, add some forces such as gravity or springs, then click "
+"Simulate and Step shows you how your scene will evolve according to the laws"
+" of physics. You can change every property of the bodies/forces in your "
+"experiment (even during simulation) and see how this will change evolution "
+"of the experiment. With Step you cannot only learn but feel how physics "
+"works!"
+msgstr ""
+"استپ یک شبیه‌ساز فیزیک تعاملی است که به شما امکان می‌دهد دنیای فیزیک را از "
+"طریق شبیه‌سازی کاوش کنید. نحوه کار آن به این صورت است: چند جسم را در صحنه "
+"قرار می‌دهید، نیروهایی مانند گرانش یا فنر را اضافه می‌کنید، سپس روی "
+"«شبیه‌سازی» کلیک می‌کنید و استپ به شما نشان می‌دهد که صحنه شما طبق قوانین "
+"فیزیک چگونه تغییر خواهد کرد. شما می‌توانید تک‌تک ویژگی‌های اجسام/نیروها را "
+"در آزمایش خود تغییر دهید (حتی در طول شبیه‌سازی) و ببینید که این کار چگونه "
+"روند آزمایش را تغییر می‌دهد. با استپ نه‌تنها می‌توانید فیزیک را بیاموزید، "
+"بلکه نحوه کارکرد آن را احساس خواهید کرد!"
+
+#. (itstool) path: description/p
+#: org.kde.step.appdata.xml:10
+msgid "Features:"
+msgstr "ویژگی‌ها:"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:12
+msgid "Classical mechanical simulation in two dimensions"
+msgstr "شبیه‌سازی مکانیک کلاسیک در دو بُعد"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:13
+msgid "Particles, springs with damping, gravitational and coulomb forces"
+msgstr "ذرات، فنرهای دارای میرایی، نیروهای گرانشی و کولن"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:14
+msgid "Rigid bodies"
+msgstr "اجسام صلب"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:15
+msgid "Collision detection (currently only discrete) and handling"
+msgstr "تشخیص برخورد (در حال حاضر فقط گسسته) و مدیریت آن"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:16
+msgid ""
+"Soft (deformable) bodies simulated as user-editable particles-springs "
+"system, sound waves"
+msgstr ""
+"اجسام نرم (تغییرپذیر) شبیه‌سازی‌شده به‌عنوان سامانه ذره-فنر قابل ویرایش توسط"
+" کاربر، امواج صوتی"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:17
+msgid ""
+"Molecular dynamics (currently using Lennard-Jones potential): gas and "
+"liquid, condensation and evaporation, calculation of macroscopic quantities "
+"and their variances"
+msgstr ""
+"دینامیک مولکولی (در حال حاضر با استفاده از پتانسیل لنارد-جونز): گاز و مایع، "
+"میعان و تبخیر، محاسبه کمیت‌های ماکروسکوپی و واریانس‌های آن‌ها"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:18
+msgid ""
+"Units conversion and expression calculation: you can enter something like "
+"\"(2 days + 3 hours) * 80 km/h\" and it will be accepted as distance value "
+"(requires libqalculate)"
+msgstr ""
+"تبدیل یکاها و محاسبهٔ عبارت‌ها: می‌توانید عبارتی مانند «(2 days + 3 hours) *"
+" 80 km/h» را وارد کنید تا به عنوان مقدار مسافت پذیرفته شود (نیازمند "
+"libqalculate)"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:19
+msgid ""
+"Errors calculation and propagation: you can enter values like \"1.3 ± 0.2\" "
+"for any property and errors for all dependent properties will be calculated "
+"using statistical formulas"
+msgstr ""
+"محاسبه و انتشار خطاها: می‌توانید مقادیری مانند «1.3 ± 0.2» را برای هر ویژگی "
+"وارد کنید تا خطاهای همهٔ ویژگی‌های وابسته با استفاده از فرمول‌های آماری "
+"محاسبه شوند"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:20
+msgid ""
+"Solver error estimation: errors introduced by the solver is calculated and "
+"added to user-entered errors"
+msgstr ""
+"تخمین خطای حل‌کننده: خطاهای ناشی از حل‌کننده محاسبه شده و به خطاهای واردشده "
+"توسط کاربر اضافه می‌شوند"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:21
+msgid ""
+"Several different solvers: up to 8th order, explicit and implicit, with or "
+"without adaptive timestep (most of the solvers require GSL library)"
+msgstr ""
+"چندین حل‌کنندهٔ مختلف: تا مرتبهٔ ۸، صریح و ضمنی، با یا بدون گام زمانی تطبیقی"
+" (بیشتر حل‌کننده‌ها به کتابخانهٔ GSL نیاز دارند)"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:22
+msgid ""
+"Controller tool to easily control properties during simulation (even with "
+"custom keyboard shortcuts)"
+msgstr ""
+"ابزار کنترل‌کننده برای کنترل آسان ویژگی‌ها در طول شبیه‌سازی (حتی با "
+"میان‌برهای صفحه‌کلید سفارشی)"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:23
+msgid "Tools to visualize results: graph, meter, tracer"
+msgstr "ابزارهایی برای مصورسازی نتایج: نمودار، سنجه، ردیاب"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:24
+msgid "Context information for all objects, integrated wikipedia browser"
+msgstr "اطلاعات زمینه‌ای برای همهٔ اشیاء، مرورگر یکپارچهٔ ویکی‌پدیا"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:25
+msgid ""
+"Collection of example experiments, more can be downloaded with KNewStuff"
+msgstr ""
+"مجموعه‌ای از آزمایش‌های نمونه؛ موارد بیشتر را می‌توان با KNewStuff بارگیری "
+"کرد"
+
+#. (itstool) path: ul/li
+#: org.kde.step.appdata.xml:26
+msgid "Integrated tutorials"
+msgstr "آموزش‌های یکپارچه"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.step.appdata.xml:39
+msgid "Physical simulation in Step"
+msgstr "شبیه‌سازی فیزیکی در Step"

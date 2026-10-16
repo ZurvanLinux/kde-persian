@@ -1,0 +1,303 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdevexecutescript package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevexecutescript\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-15 21:29+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: executescriptplugin.cpp:61
+#, kde-format
+msgctxt "path to a script"
+msgid "script path"
+msgstr "مسیر اسکریپت"
+
+#: executescriptplugin.cpp:78
+#, kde-format
+msgid "No remote host set for launch configuration '%1'. Aborting start."
+msgstr ""
+"هیچ میزبان دوردستی برای پیکربندی راه‌اندازی «%1» تعیین نشده است. لغو شروع."
+
+#: executescriptplugin.cpp:97
+#, kde-format
+msgctxt "command line arguments to a script"
+msgid "arguments"
+msgstr "آرگومان‌ها"
+
+#: executescriptplugin.cpp:140
+#, kde-format
+msgid "interpreter command"
+msgstr "فرمان مفسر"
+
+#: scriptappconfig.cpp:83
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type or select an interpreter..."
+msgstr "یک مفسر تایپ یا انتخاب کنید..."
+
+#: scriptappconfig.cpp:116
+#, kde-format
+msgctxt "@title:tab"
+msgid "Configure Script Application"
+msgstr "پیکربندی برنامه اسکریپتی"
+
+#: scriptappconfig.cpp:126
+#, kde-format
+msgid "Executes Script Applications"
+msgstr "برنامه‌های اسکریپتی را اجرا می‌کند"
+
+#: scriptappconfig.cpp:136 scriptappconfig.cpp:186
+#, kde-format
+msgid "Script Application"
+msgstr "برنامه اسکریپتی"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: scriptappconfig.ui:29
+#, kde-format
+msgctxt "@title:group"
+msgid "Interpreter"
+msgstr "مفسر"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: scriptappconfig.ui:44
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Script interpreter:"
+msgstr "مفسر اسکریپت:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: scriptappconfig.ui:95
+#, kde-format
+msgctxt "@title:group"
+msgid "Script file"
+msgstr "پروندهٔ دست‌نوشته"
+
+#. i18n: ectx: property (text), widget (QRadioButton, runCurrentFile)
+#: scriptappconfig.ui:101
+#, kde-format
+msgctxt "@option:radio"
+msgid "Run the file currently open in the editor"
+msgstr "اجرای پرونده‌ای که اکنون در ویرایشگر باز است"
+
+#. i18n: ectx: property (text), widget (QRadioButton, runFixedFile)
+#: scriptappconfig.ui:111
+#, kde-format
+msgctxt "@option:radio"
+msgid "Always run the same file"
+msgstr "همیشه همین پرونده اجرا شود"
+
+#. i18n: ectx: property (text), widget (QLabel, scriptLabel)
+#: scriptappconfig.ui:123
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Script file:"
+msgstr "پروندهٔ دست‌نوشته:"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, executablePath)
+#: scriptappconfig.ui:133
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enter the absolute path to the script to run"
+msgstr "مسیر مطلق دست‌نوشته جهت اجرا را وارد کنید"
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester,
+#. executablePath)
+#: scriptappconfig.ui:136
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "/path/to/script"
+msgstr "/path/to/script"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: scriptappconfig.ui:148
+#, kde-format
+msgctxt "@title:group"
+msgid "Behavior"
+msgstr "رفتار"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: scriptappconfig.ui:160
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Arguments:"
+msgstr "آرگومان‌ها:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, arguments)
+#: scriptappconfig.ui:170
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enter arguments to give to the executable"
+msgstr "آرگومان‌های ارسالی به پروندهٔ اجرایی را وارد کنید"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: scriptappconfig.ui:177
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Working directory:"
+msgstr "شاخهٔ کاری:"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, workingDirectory)
+#: scriptappconfig.ui:187
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select a working directory for the executable"
+msgstr "انتخاب یک پوشهٔ کاری برای فایل اجرایی"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: scriptappconfig.ui:194
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Environment:"
+msgstr "محیط:"
+
+#. i18n: ectx: property (toolTip), widget
+#. (KDevelop::EnvironmentSelectionWidget, environment)
+#: scriptappconfig.ui:212
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select an environment to be used"
+msgstr "محیطی را برای استفاده انتخاب کنید"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: scriptappconfig.ui:224
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Output filter:"
+msgstr "فیلتر خروجی:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, outputFilteringMode)
+#: scriptappconfig.ui:231
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Select the filter to applied to the output. E.g. to mark errors with red "
+"text"
+msgstr ""
+"فیلتری را برای اعمال روی خروجی انتخاب کنید. مثلاً برای مشخص کردن خطاها با "
+"متن قرمز"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outputFilteringMode)
+#: scriptappconfig.ui:235
+#, kde-format
+msgctxt "@item:inlistbox output filter"
+msgid "No Filter"
+msgstr "بدون فیلتر"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outputFilteringMode)
+#: scriptappconfig.ui:240
+#, kde-format
+msgctxt "@item:inlistbox output filter"
+msgid "Compiler Filter"
+msgstr "فیلتر کامپایلر"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outputFilteringMode)
+#: scriptappconfig.ui:245
+#, kde-format
+msgctxt "@item:inlistbox output filter"
+msgid "Script Error Filter"
+msgstr "فیلتر خطای اسکریپت"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outputFilteringMode)
+#: scriptappconfig.ui:250
+#, kde-format
+msgctxt "@item:inlistbox output filter"
+msgid "Static Analysis Filter"
+msgstr "فیلتر تحلیل ایستا"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: scriptappconfig.ui:267
+#, kde-format
+msgctxt "@title:group"
+msgid "Execute on Host"
+msgstr "اجرا روی میزبان"
+
+#. i18n: ectx: property (text), widget (QCheckBox, remoteHostCheckbox)
+#: scriptappconfig.ui:273
+#, kde-format
+msgctxt "@option:check"
+msgid "Execute on remote host"
+msgstr "اجرا روی میزبان دوردست"
+
+#. i18n: ectx: property (text), widget (QLabel, remoteHostLabel)
+#: scriptappconfig.ui:285
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Remote host (ssh):"
+msgstr "میزبان دوردست (ssh):"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, remoteHost)
+#: scriptappconfig.ui:298
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "user@host"
+msgstr "user@host"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, remoteHost)
+#: scriptappconfig.ui:301
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enter a remote host (user@host)"
+msgstr "یک میزبان دوردست وارد کنید (user@host)"
+
+#: scriptappjob.cpp:43
+#, kde-format
+msgid ""
+"No environment profile specified, looks like a broken configuration, please "
+"check run configuration '%1'. Using default environment profile."
+msgstr ""
+"هیچ نمایهٔ محیطی مشخص نشده است، به نظر می‌رسد پیکربندی خراب است، لطفاً "
+"پیکربندی اجرای «%1» را بررسی کنید. از نمایهٔ محیط پیش‌فرض استفاده می‌شود."
+
+#: scriptappjob.cpp:90
+#, kde-format
+msgid "There is no active document to launch."
+msgstr "سند فعالی برای راه‌اندازی وجود ندارد."
+
+#: scriptappjob.cpp:165
+#, kde-format
+msgid "Starting: %1"
+msgstr "در حال شروع: %1"
+
+#: scriptappjob.cpp:179
+#, kde-format
+msgid "*** Killed Application ***"
+msgstr "*** برنامه کشته شد ***"
+
+#: scriptappjob.cpp:190
+#, kde-format
+msgid "*** Exited normally ***"
+msgstr "*** خروج به‌طور عادی انجام شد ***"
+
+#: scriptappjob.cpp:192
+#, kde-format
+msgid "*** Exited with return code: %1 ***"
+msgstr "*** با کد بازگشتی %1 خارج شد ***"
+
+#: scriptappjob.cpp:195
+#, kde-format
+msgid "*** Process aborted ***"
+msgstr "*** فرایند لغو شد ***"
+
+#: scriptappjob.cpp:198
+#, kde-format
+msgid "*** Crashed with return code: %1 ***"
+msgstr "*** با کد بازگشت %1 دچار فروپاشی شد ***"
+
+#: scriptappjob.cpp:213
+#, kde-format
+msgid ""
+"*** Could not start program '%1'. Make sure that the path is specified "
+"correctly ***"
+msgstr ""
+"*** اجرای برنامهٔ «%1» ممکن نشد. مطمئن شوید که مسیر به درستی مشخص شده است "
+"***"

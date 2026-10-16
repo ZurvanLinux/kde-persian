@@ -1,0 +1,591 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the keysmith package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: keysmith\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-01 00:50+0000\n"
+"PO-Revision-Date: 2026-10-15 21:52+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/app/cli.cpp:134
+#, kde-format
+msgctxt "@info (<uri> placeholder)"
+msgid ""
+"Optional account to add, formatted as otpauth:// URI (e.g. from a QR code)"
+msgstr ""
+"حساب اختیاری برای افزودن، قالب‌بندی‌شده به‌صورت نشانی otpauth:// (مثلاً از "
+"یک کد QR)"
+
+#: src/app/flows_p.cpp:111 src/app/flows_p.cpp:285
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid account"
+msgstr "حساب نامعتبر"
+
+#: src/app/flows_p.cpp:112
+#, kde-format
+msgctxt "@info:label"
+msgid ""
+"The account you are trying to add is invalid. You can either quit the app, "
+"or continue without adding the account."
+msgstr ""
+"حسابی که قصد افزودن آن را دارید نامعتبر است. می‌توانید از برنامه خارج شوید "
+"یا بدون افزودن این حساب ادامه دهید."
+
+#: src/app/flows_p.cpp:286
+#, kde-format
+msgctxt "@info:label"
+msgid ""
+"The account you are trying to add is invalid. Continue without adding the "
+"account."
+msgstr ""
+"حسابی که قصد افزودن آن را دارید نامعتبر است. بدون افزودن این حساب ادامه "
+"دهید."
+
+#: src/contents/ui/AccountEntryViewBase.qml:35
+#, kde-format
+msgctxt "Details dialog title: %1 is the name of the account"
+msgid "Details of account: %1"
+msgstr "جزئیات حساب: %1"
+
+#: src/contents/ui/AccountEntryViewBase.qml:42
+#, kde-format
+msgid "Name:"
+msgstr "نام:"
+
+#: src/contents/ui/AccountEntryViewBase.qml:49
+#, kde-format
+msgid "Issuer:"
+msgstr "صادرکننده:"
+
+#: src/contents/ui/AccountEntryViewBase.qml:56
+#, kde-format
+msgid "Mode:"
+msgstr "حالت:"
+
+#: src/contents/ui/AccountEntryViewBase.qml:57
+#, kde-format
+msgctxt "Mode of 2fa"
+msgid "HOTP"
+msgstr "HOTP"
+
+#: src/contents/ui/AccountEntryViewBase.qml:57
+#, kde-format
+msgctxt "Mode of 2fa"
+msgid "TOTP"
+msgstr "TOTP"
+
+#: src/contents/ui/AccountEntryViewBase.qml:63
+#, kde-format
+msgid "Epoch:"
+msgstr "مبدأ زمان (Epoch):"
+
+#: src/contents/ui/AccountEntryViewBase.qml:70
+#, kde-format
+msgid "Time Step:"
+msgstr "گام زمانی:"
+
+#: src/contents/ui/AccountEntryViewBase.qml:77
+#, kde-format
+msgid "Offset:"
+msgstr "انحراف (Offset):"
+
+#: src/contents/ui/AccountEntryViewBase.qml:84
+#, kde-format
+msgid "Token Length:"
+msgstr "طول توکن:"
+
+#: src/contents/ui/AccountEntryViewBase.qml:91
+#, kde-format
+msgid "Hash:"
+msgstr "هش:"
+
+#: src/contents/ui/AccountEntryViewBase.qml:100
+#, kde-format
+msgctxt "Confirm dialog title: %1 is the name of the account to remove"
+msgid "Removing account: %1"
+msgstr "در حال حذف حساب: %1"
+
+#: src/contents/ui/AccountEntryViewBase.qml:105
+#, kde-format
+msgid ""
+"<p><ul><li>Account name: %1</li><li>Account issuer: "
+"%2</li></ul></p><p>Removing this account from Keysmith will not disable two-"
+"factor authentication (2FA). Make sure you can still access your account "
+"without using Keysmith before proceeding:</p><ul><li>Make sure you have "
+"another 2FA app set up for your account, or:</li><li>Make sure you have "
+"recovery codes for your account, or:</li><li>Disable two-factor "
+"authentication on your account</li></ul>"
+msgstr ""
+"<p><ul><li>نام حساب: %1</li><li>صادرکنندهٔ حساب: %2</li></ul></p><p>حذف این "
+"حساب از Keysmith، احراز هویت دومرحله‌ای (2FA) را غیرفعال نمی‌کند. قبل از "
+"ادامه، مطمئن شوید که همچنان می‌توانید بدون استفاده از Keysmith به حساب خود "
+"دسترسی داشته باشید: </p><ul><li>مطمئن شوید برنامهٔ 2FA دیگری برای حسابتان "
+"تنظیم کرده‌اید، یا:</li><li>مطمئن شوید کدهای بازیابی حسابتان را در اختیار "
+"دارید، یا:</li><li>احراز هویت دومرحله‌ای را در حسابتان غیرفعال "
+"کنید</li></ul>"
+
+#: src/contents/ui/AccountEntryViewBase.qml:116
+#, kde-format
+msgctxt "Button confirming account removal"
+msgid "Delete Account"
+msgstr "حذف حساب"
+
+#: src/contents/ui/AccountEntryViewBase.qml:134
+#, kde-format
+msgctxt "Notification shown in a passive notification"
+msgid "Token copied to clipboard!"
+msgstr "توکن در تخته‌گیره کپی شد!"
+
+#: src/contents/ui/AccountNameForm.qml:81
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Account name:"
+msgstr "نام حساب:"
+
+#: src/contents/ui/AccountNameForm.qml:100
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Account issuer:"
+msgstr "صادرکنندهٔ حساب:"
+
+#: src/contents/ui/AccountsOverview.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Accounts"
+msgstr "حساب‌ها"
+
+#: src/contents/ui/AccountsOverview.qml:25
+#, kde-format
+msgctxt "generic error shown when adding or updating an account failed"
+msgid "Failed to update accounts"
+msgstr "به‌روزرسانی حساب‌ها ناموفق بود"
+
+#: src/contents/ui/AccountsOverview.qml:26
+#, kde-format
+msgctxt "error message shown when loading accounts from storage failed"
+msgid "Some accounts failed to load."
+msgstr "بارگیری برخی از حساب‌ها ناموفق بود."
+
+#: src/contents/ui/AccountsOverview.qml:91
+#, kde-format
+msgid "No accounts added"
+msgstr "هیچ حسابی افزوده نشده است"
+
+#: src/contents/ui/AccountsOverview.qml:96
+#, kde-format
+msgctxt ""
+"@action:button add new account, shown instead of overview list when no "
+"accounts have been added yet"
+msgid "Add Account"
+msgstr "افزودن حساب"
+
+#: src/contents/ui/AccountsOverview.qml:163
+#, kde-format
+msgctxt "@action:button add new account, shown in toolbar"
+msgid "Add"
+msgstr "افزودن"
+
+#: src/contents/ui/AccountsOverview.qml:176
+#, kde-format
+msgctxt "@action:button import accounts, shown in toolbar"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: src/contents/ui/AccountsOverview.qml:189
+#, kde-format
+msgctxt ""
+"@action:button import an account by scanning a QR code, shown in toolbar"
+msgid "Scan QR Code"
+msgstr "پویش کد QR"
+
+#: src/contents/ui/AddAccount.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Add new account"
+msgstr "افزودن حساب جدید"
+
+#: src/contents/ui/AddAccount.qml:50
+#, kde-format
+msgctxt "@action:button cancel and dismiss the add account form"
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/contents/ui/AddAccount.qml:57
+#, kde-format
+msgctxt "@action:button Dismiss the error page and quit Keysmith"
+msgid "Quit"
+msgstr "خروج"
+
+#: src/contents/ui/AddAccount.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr "افزودن"
+
+#: src/contents/ui/AddAccount.qml:86
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Account type:"
+msgstr "نوع حساب:"
+
+#: src/contents/ui/AddAccount.qml:95
+#, kde-format
+msgctxt "@option:radio"
+msgid "Time-based OTP"
+msgstr "رمز یک‌بارمصرف زمان‌محور (TOTP)"
+
+#: src/contents/ui/AddAccount.qml:106
+#, kde-format
+msgctxt "@option:radio"
+msgid "Hash-based OTP"
+msgstr "رمز یک‌بارمصرف درهم‌سازمحور (HOTP)"
+
+#: src/contents/ui/AddAccount.qml:118
+#, kde-format
+msgid "Token secret"
+msgstr "رمز توکن"
+
+#: src/contents/ui/AddAccount.qml:120
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Secret key:"
+msgstr "کلید مخفی:"
+
+#: src/contents/ui/AddAccount.qml:139
+#, kde-format
+msgctxt "Button to reveal form for configuring additional token details"
+msgid "Details"
+msgstr "جزئیات"
+
+#: src/contents/ui/AddAccount.qml:147
+#, kde-format
+msgctxt "@title:group"
+msgid "HOTP Details:"
+msgstr "جزئیات HOTP:"
+
+#: src/contents/ui/AddAccount.qml:160
+#, kde-format
+msgctxt "@label"
+msgid "TOTP Details:"
+msgstr "جزئیات TOTP:"
+
+#: src/contents/ui/ErrorPage.qml:34
+#, kde-format
+msgctxt "@action:button Button to dismiss the error page"
+msgid "Continue"
+msgstr "ادامه"
+
+#: src/contents/ui/ErrorPage.qml:41
+#, kde-format
+msgctxt "@action:button Dismiss the error page and quit Keysmtih"
+msgid "Quit"
+msgstr "خروج"
+
+#: src/contents/ui/HOTPAccountEntryView.qml:19
+#: src/contents/ui/TOTPAccountEntryView.qml:23
+#, kde-format
+msgctxt "Button to show details of a single account"
+msgid "Show details"
+msgstr "نمایش جزئیات"
+
+#: src/contents/ui/HOTPAccountEntryView.qml:28
+#: src/contents/ui/TOTPAccountEntryView.qml:34
+#, kde-format
+msgctxt "Button for removal of a single account"
+msgid "Delete account"
+msgstr "حذف حساب"
+
+#: src/contents/ui/HOTPDetailsForm.qml:27
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Counter:"
+msgstr "شمارنده:"
+
+#: src/contents/ui/HOTPDetailsForm.qml:48
+#: src/contents/ui/TOTPDetailsForm.qml:67
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Token length:"
+msgstr "طول نشانه:"
+
+#: src/contents/ui/HOTPDetailsForm.qml:63
+#, kde-format
+msgctxt "@option:check"
+msgid "Add checksum digit"
+msgstr "افزودن رقم حاصل‌جمع مقابله‌ای (چک‌سام)"
+
+#: src/contents/ui/HOTPDetailsForm.qml:75
+#, kde-format
+msgctxt "@option:check"
+msgid "Use custom truncation offset"
+msgstr "استفاده از آفست برش سفارشی"
+
+#: src/contents/ui/HOTPDetailsForm.qml:89
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Truncation offset:"
+msgstr "آفست برش:"
+
+#: src/contents/ui/ImportAccount.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Accounts"
+msgstr "درون‌ریزی حساب‌ها"
+
+#: src/contents/ui/ImportAccount.qml:57
+#, kde-format
+msgid "Import format"
+msgstr "قالب درون‌ریزی"
+
+#. i18n strings
+#: src/contents/ui/ImportAccount.qml:63
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "andOTP Encrypted JSON"
+msgstr "JSON رمزنگاری‌شدهٔ andOTP"
+
+#: src/contents/ui/ImportAccount.qml:64
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "andOTP Plain JSON"
+msgstr "JSON سادهٔ andOTP"
+
+#. i18nc("@item:inlistbox", "Aegis Encrypted JSON"), value:
+#. Models.ValidatedImportInput.AegisEncryptedJSON});
+#: src/contents/ui/ImportAccount.qml:66
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Aegis Plain JSON"
+msgstr "JSON سادهٔ Aegis"
+
+#: src/contents/ui/ImportAccount.qml:67
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "FreeOTP URIs"
+msgstr "URIهای FreeOTP"
+
+#: src/contents/ui/ImportAccount.qml:68
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "SailOTP manually decrypted JSON"
+msgstr "JSON رمزگشایی‌شدهٔ دستی SailOTP"
+
+#: src/contents/ui/ImportAccount.qml:84
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Backup file:"
+msgstr "پروندهٔ پشتیبان:"
+
+#: src/contents/ui/ImportAccount.qml:87
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No file selected"
+msgstr "هیچ پرونده‌ای انتخاب نشده است"
+
+#: src/contents/ui/ImportAccount.qml:91
+#, kde-format
+msgctxt "@title:window"
+msgid "Select file"
+msgstr "انتخاب پرونده"
+
+#: src/contents/ui/ImportAccount.qml:105
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Decryption password"
+msgstr "گذرواژهٔ رمزگشایی"
+
+#: src/contents/ui/ImportAccount.qml:107 src/contents/ui/UnlockAccounts.qml:49
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: src/contents/ui/ImportAccount.qml:118
+#, kde-format
+msgctxt "@action:button"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: src/contents/ui/KeysmithGlobalDrawer.qml:12
+#: src/contents/ui/KeysmithGlobalDrawer.qml:15
+#, kde-format
+msgid "About Keysmith"
+msgstr "دربارهٔ Keysmith"
+
+#: src/contents/ui/QRScanPage.qml:22
+#, kde-format
+msgctxt "@title"
+msgid "Scan a QR code"
+msgstr "پویش یک کد QR"
+
+#: src/contents/ui/QRScanPage.qml:34
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Select Camera"
+msgstr "انتخاب دوربین"
+
+#: src/contents/ui/QRScanPage.qml:45
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Select Camera"
+msgstr "انتخاب دوربین"
+
+#: src/contents/ui/QRScanPage.qml:64
+#, kde-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr "بستن"
+
+#: src/contents/ui/RenameAccount.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename account to add"
+msgstr "تغییر نام حساب برای افزودن"
+
+#: src/contents/ui/RenameAccount.qml:35
+#, kde-format
+msgctxt ""
+"@info:label Keysmith received an account to add via URI on e.g. commandline "
+"which is already in use"
+msgid ""
+"Another account with the same name already exists. Please correct the name "
+"or issuer for the new account."
+msgstr ""
+"حساب دیگری با همین نام از قبل وجود دارد. لطفاً نام یا صادرکننده را برای حساب"
+" جدید تصحیح کنید."
+
+#: src/contents/ui/RenameAccount.qml:49
+#, kde-format
+msgctxt "@action:button cancel and dismiss the rename account form"
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/contents/ui/RenameAccount.qml:56
+#, kde-format
+msgid "Add"
+msgstr "افزودن"
+
+#: src/contents/ui/SetupPassword.qml:21 src/contents/ui/UnlockAccounts.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Password"
+msgstr "گذرواژه"
+
+#: src/contents/ui/SetupPassword.qml:27
+#, kde-format
+msgid "Failed to set up your password"
+msgstr "تنظیم گذرواژه شما ناموفق بود"
+
+#: src/contents/ui/SetupPassword.qml:42
+#, kde-format
+msgid "Choose a password to protect your accounts"
+msgstr "گذرواژه‌ای برای محافظت از حساب‌هایتان انتخاب کنید"
+
+#: src/contents/ui/SetupPassword.qml:48
+#, kde-format
+msgctxt "@label:textbox"
+msgid "New Password:"
+msgstr "گذرواژه جدید:"
+
+#: src/contents/ui/SetupPassword.qml:61
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Verify password:"
+msgstr "تأیید گذرواژه:"
+
+#: src/contents/ui/SetupPassword.qml:72
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "اعمال"
+
+#: src/contents/ui/TokenEntryViewLabels.qml:43
+#, kde-format
+msgctxt "placeholder text if no token is available"
+msgid "(refresh)"
+msgstr "(تازه‌سازی)"
+
+#: src/contents/ui/TOTPDetailsForm.qml:27
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Timer:"
+msgstr "زمان‌سنج:"
+
+#: src/contents/ui/TOTPDetailsForm.qml:45
+#, kde-format
+msgctxt ""
+"@label:textbox Start a timer at a specific point in time given in the "
+"textbox"
+msgid "Starting at:"
+msgstr "شروع از:"
+
+#: src/contents/ui/TOTPDetailsForm.qml:79
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Hash algorithm:"
+msgstr "الگوریتم درهم‌سازی:"
+
+#: src/contents/ui/TOTPDetailsForm.qml:86
+#, kde-format
+msgctxt "@option:radio"
+msgid "SHA-1"
+msgstr "SHA-1"
+
+#: src/contents/ui/TOTPDetailsForm.qml:98
+#, kde-format
+msgctxt "@option:radio"
+msgid "SHA-256"
+msgstr "SHA-256"
+
+#: src/contents/ui/TOTPDetailsForm.qml:110
+#, kde-format
+msgctxt "@option:radio"
+msgid "SHA-512"
+msgstr "SHA-512"
+
+#: src/contents/ui/UnlockAccounts.qml:25
+#, kde-format
+msgid "Failed to unlock your accounts"
+msgstr "قفل‌گشایی حساب‌های شما ناموفق بود"
+
+#: src/contents/ui/UnlockAccounts.qml:43
+#, kde-format
+msgid "Please provide the password to unlock your accounts"
+msgstr "لطفاً برای قفل‌گشایی حساب‌های خود، گذرواژه را وارد کنید"
+
+#: src/contents/ui/UnlockAccounts.qml:61
+#, kde-format
+msgctxt "@action:button"
+msgid "Unlock"
+msgstr "قفل‌گشایی"
+
+#: src/main.cpp:70
+#, kde-format
+msgctxt "@title"
+msgid "Keysmith"
+msgstr "کیداسمیت"
+
+#: src/main.cpp:73
+#, kde-format
+msgid "generate two-factor authentication (2FA) tokens"
+msgstr "تولید نشانه‌های احراز هویت دو مرحله‌ای (2FA)"
+
+#: src/main.cpp:76
+#, kde-format
+msgid "Keysmith"
+msgstr "Keysmith"
+
+#: src/main.cpp:80
+#, kde-format
+msgid "© 2019 KDE Community"
+msgstr "© 2019 KDE Community"

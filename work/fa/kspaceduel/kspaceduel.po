@@ -1,0 +1,443 @@
+# translation of kspaceduel.po to Persian
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2007.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kspaceduel\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-16 00:39+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: dialogs.cpp:63
+msgid "Game speed:"
+msgstr "سرعت بازی:"
+
+#: dialogs.cpp:63
+msgid "Shot speed:"
+msgstr "سرعت شلیک:"
+
+#: dialogs.cpp:64 dialogs.cpp:67 dialogs.cpp:70 dialogs.cpp:71
+msgid "Energy need:"
+msgstr "انرژی مورد نیاز:"
+
+#: dialogs.cpp:64 dialogs.cpp:68
+msgid "Max number:"
+msgstr "حداکثر تعداد:"
+
+#: dialogs.cpp:65 dialogs.cpp:68
+msgid "Damage:"
+msgstr "میزان آسیب:"
+
+#: dialogs.cpp:65 dialogs.cpp:75
+msgid "Life time:"
+msgstr "طول عمر:"
+
+#: dialogs.cpp:66 dialogs.cpp:69
+msgid "Reload time:"
+msgstr "زمان بارگذاری مجدد:"
+
+#: dialogs.cpp:66
+msgid "Mine fuel:"
+msgstr "سوخت مین:"
+
+#: dialogs.cpp:67
+msgid "Activate time:"
+msgstr "زمان فعال‌سازی:"
+
+#: dialogs.cpp:69
+msgid "Acceleration:"
+msgstr "شتاب:"
+
+#: dialogs.cpp:70
+msgid "Rotation speed:"
+msgstr "سرعت چرخش:"
+
+#: dialogs.cpp:71
+msgid "Crash damage:"
+msgstr "آسیب برخورد:"
+
+#: dialogs.cpp:72
+msgid "Sun energy:"
+msgstr "انرژی خورشید:"
+
+#: dialogs.cpp:72
+msgid "Gravity:"
+msgstr "گرانش:"
+
+#: dialogs.cpp:73
+msgid "Position X:"
+msgstr "موقعیت X:"
+
+#: dialogs.cpp:73
+msgid "Position Y:"
+msgstr "موقعیت Y:"
+
+#: dialogs.cpp:74
+msgid "Velocity X:"
+msgstr "سرعت X:"
+
+#: dialogs.cpp:74
+msgid "Velocity Y:"
+msgstr "سرعت Y:"
+
+#: dialogs.cpp:75
+msgid "Appearance time:"
+msgstr "زمان پدیدار شدن:"
+
+#: dialogs.cpp:76
+msgid "Energy amount:"
+msgstr "مقدار انرژی:"
+
+#: dialogs.cpp:76
+msgid "Shield amount:"
+msgstr "مقدار سپر:"
+
+#: dialogs.cpp:169
+#, kde-format
+msgctxt "@item custom values"
+msgid "Custom"
+msgstr "سفارشی"
+
+#: dialogs.cpp:185 dialogs.cpp:404
+#, kde-format
+msgctxt "@title:tab general settings"
+msgid "General"
+msgstr "عمومی"
+
+#: dialogs.cpp:186
+#, kde-format
+msgctxt "@title:tab"
+msgid "Bullet"
+msgstr "گلوله"
+
+#: dialogs.cpp:187
+#, kde-format
+msgctxt "@title:tab Name"
+msgid "Mine"
+msgstr "مین"
+
+#: dialogs.cpp:188
+#, kde-format
+msgctxt "@title:tab"
+msgid "Ship"
+msgstr "سفینه"
+
+#: dialogs.cpp:189
+#, kde-format
+msgctxt "@title:tab the star, Sol"
+msgid "Sun"
+msgstr "خورشید"
+
+#: dialogs.cpp:190
+#, kde-format
+msgctxt "initial position and velocities of players"
+msgid "Start"
+msgstr "شروع"
+
+#: dialogs.cpp:191
+#, kde-format
+msgctxt "@title:tab"
+msgid "Powerups"
+msgstr "تقویت‌کننده‌ها"
+
+#: dialogs.cpp:404
+#, kde-format
+msgctxt "@title"
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: dialogs.cpp:407
+#, kde-format
+msgctxt "@title:tab game settings"
+msgid "Game"
+msgstr "بازی"
+
+#: dialogs.cpp:407
+#, kde-format
+msgctxt "@title"
+msgid "Game Settings"
+msgstr "تنظیمات بازی"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: general.ui:16
+#, kde-format
+msgid "Hit Points"
+msgstr "امتیازهای سلامت"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: general.ui:27
+#, kde-format
+msgid "Red player:"
+msgstr "بازیکن قرمز:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: general.ui:64
+#, kde-format
+msgid "Blue player:"
+msgstr "بازیکن آبی:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: general.ui:99
+#, kde-format
+msgid "Graphics"
+msgstr "گرافیک"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: general.ui:105
+#, kde-format
+msgid "Refresh time:"
+msgstr "زمان نوسازی:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: general.ui:149
+#, kde-format
+msgid "Red Player"
+msgstr "بازیکن قرمز"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Player0IsAi)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Player1IsAi)
+#: general.ui:160 general.ui:251
+#, kde-format
+msgid "Player is AI"
+msgstr "بازیکن هوش مصنوعی است"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: general.ui:190 general.ui:281
+#, kde-format
+msgid "Difficulty:"
+msgstr "دشواری:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty0)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty1)
+#: general.ui:204 general.ui:295
+#, kde-format
+msgid "Trainee"
+msgstr "کارآموز"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty0)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty1)
+#: general.ui:209 general.ui:300
+#, kde-format
+msgid "Normal"
+msgstr "عادی"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty0)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty1)
+#: general.ui:214 general.ui:305
+#, kde-format
+msgid "Hard"
+msgstr "سخت"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty0)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty1)
+#: general.ui:219 general.ui:310
+#, kde-format
+msgid "Insane"
+msgstr "دیوانه‌وار"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: general.ui:240
+#, kde-format
+msgid "Blue Player"
+msgstr "بازیکن آبی"
+
+#. i18n: ectx: Menu (game)
+#: kspaceduelui.rc:10
+#, kde-format
+msgid "&Game"
+msgstr "بازی"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kspaceduelui.rc:15
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#: main.cpp:24
+#, kde-format
+msgid "KSpaceDuel"
+msgstr "KSpaceDuel"
+
+#: main.cpp:26
+#, kde-format
+msgid "Space Arcade Game"
+msgstr "بازی آرکید فضایی"
+
+#: main.cpp:28
+#, kde-format
+msgid "(c) 1998-2001, Andreas Zehender"
+msgstr "© ۱۹۹۸-۲۰۰۱، Andreas Zehender"
+
+#: main.cpp:31
+#, kde-format
+msgid "Andreas Zehender"
+msgstr "Andreas Zehender"
+
+#: main.cpp:31
+#, kde-format
+msgid "Original Program"
+msgstr "برنامه اصلی"
+
+#: main.cpp:32
+#, kde-format
+msgid "Branan Riley"
+msgstr "Branan Riley"
+
+#: main.cpp:32
+#, kde-format
+msgid "SVG Renderer"
+msgstr "رندرکننده SVG"
+
+#: mainview.cpp:357 topwidget.cpp:153
+#, kde-format
+msgid " paused "
+msgstr " متوقف شد "
+
+#: mainview.cpp:510
+#, kde-format
+msgid "Press %1 to start"
+msgstr "برای شروع %1 را فشار دهید"
+
+#: mainview.cpp:559
+#, kde-format
+msgid "draw round"
+msgstr "مساوی در این دور"
+
+#: mainview.cpp:562
+#, kde-format
+msgid "blue player won the round"
+msgstr "بازیکن آبی در این دور برنده شد"
+
+#: mainview.cpp:570
+#, kde-format
+msgid "red player won the round"
+msgstr "بازیکن قرمز برنده این دور شد"
+
+#: mainview.cpp:578
+#, kde-format
+msgid "Press %1 for new round"
+msgstr "برای دور جدید %1 را فشار دهید"
+
+#: playerinfo.cpp:39 playerinfo.cpp:72
+#, kde-format
+msgid "Hit points"
+msgstr "جان"
+
+#: playerinfo.cpp:42 playerinfo.cpp:75
+#, kde-format
+msgid "Energy"
+msgstr "انرژی"
+
+#: playerinfo.cpp:45 playerinfo.cpp:78
+#, kde-format
+msgid "Wins"
+msgstr "بردها"
+
+#: structs.h:52
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: structs.h:52
+msgid "Bullet"
+msgstr "گلوله"
+
+#: structs.h:52
+msgid "Chaos"
+msgstr "آشوب"
+
+#: structs.h:52
+msgid "Lack of Energy"
+msgstr "کمبود انرژی"
+
+#: topwidget.cpp:82
+#, kde-format
+msgctxt "@action"
+msgid "&New Round"
+msgstr "دور جدید"
+
+#: topwidget.cpp:90
+#, kde-format
+msgctxt "@action start game"
+msgid "Start"
+msgstr "شروع"
+
+#: topwidget.cpp:99
+#, kde-format
+msgctxt "@action"
+msgid "Player 1 Rotate Left"
+msgstr "چرخش به چپ بازیکن ۱"
+
+#: topwidget.cpp:103
+#, kde-format
+msgctxt "@action"
+msgid "Player 1 Rotate Right"
+msgstr "چرخش به راست بازیکن ۱"
+
+#: topwidget.cpp:107
+#, kde-format
+msgctxt "@action"
+msgid "Player 1 Accelerate"
+msgstr "شتاب گرفتن بازیکن ۱"
+
+#: topwidget.cpp:111
+#, kde-format
+msgctxt "@action"
+msgid "Player 1 Shot"
+msgstr "شلیک بازیکن ۱"
+
+#: topwidget.cpp:115
+#, kde-format
+msgctxt "@action"
+msgid "Player 1 Mine"
+msgstr "مین‌گذاری بازیکن ۱"
+
+#: topwidget.cpp:120
+#, kde-format
+msgctxt "@action"
+msgid "Player 2 Rotate Left"
+msgstr "چرخش به چپ بازیکن ۲"
+
+#: topwidget.cpp:124
+#, kde-format
+msgctxt "@action"
+msgid "Player 2 Rotate Right"
+msgstr "چرخش به راست بازیکن ۲"
+
+#: topwidget.cpp:128
+#, kde-format
+msgctxt "@action"
+msgid "Player 2 Accelerate"
+msgstr "شتاب گرفتن بازیکن ۲"
+
+#: topwidget.cpp:132
+#, kde-format
+msgctxt "@action"
+msgid "Player 2 Shot"
+msgstr "شلیک بازیکن ۲"
+
+#: topwidget.cpp:136
+#, kde-format
+msgctxt "@action"
+msgid "Player 2 Mine"
+msgstr "مین بازیکن ۲"

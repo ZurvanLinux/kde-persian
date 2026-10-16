@@ -1,0 +1,325 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the libtextautogeneratetextmcpprotocol package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: libtextautogeneratetextmcpprotocol\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-12 00:49+0000\n"
+"PO-Revision-Date: 2026-10-16 00:45+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: core/server/mcpprotocolserverprotocolmanager.cpp:78
+#, kde-format
+msgid "Starting server"
+msgstr "در حال راه‌اندازی کارساز"
+
+#: core/server/mcpprotocolserverprotocolmanager.cpp:80
+#, kde-format
+msgid "Starting server on %1"
+msgstr "در حال راه‌اندازی کارساز روی %1"
+
+#: core/server/mcpprotocolserverprotocolmanager.cpp:326
+#, kde-format
+msgid "Request %1 cancelled by client"
+msgstr "درخواست %1 توسط کارگیر لغو شد"
+
+#: core/server/mcpprotocolserverprotocolmanager.cpp:343
+#, kde-format
+msgid "Error: %1"
+msgstr "خطا: %1"
+
+#: core/server/mcpprotocolserverprotocolmanager.cpp:349
+#, kde-format
+msgid "Server started"
+msgstr "کارساز راه‌اندازی شد"
+
+#: core/server/mcpprotocolserverprotocolmanager.cpp:357
+#, kde-format
+msgid "Server stopped"
+msgstr "کارساز متوقف شد"
+
+#: core/server/mcpserver.cpp:107
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "SSE"
+msgstr "SSE"
+
+#: core/server/mcpserver.cpp:109
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Standard IO"
+msgstr "ورودی/خروجی استاندارد"
+
+#: core/server/mcpserver.cpp:111
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Streamable HTTP"
+msgstr "HTTP قابل پخش جریانی"
+
+#: plugins/client/sse/mcpclientsse.cpp:43
+#: plugins/client/streamablehttp/mcpclientstreamablehttp.cpp:64
+#, kde-format
+msgid "Impossible to start client. URL is invalid."
+msgstr "راه‌اندازی کارگیر ناممکن است. نشانی وب نامعتبر است."
+
+#: plugins/client/sse/mcpclientsse.cpp:89
+#: plugins/client/streamablehttp/mcpclientstreamablehttp.cpp:94
+#, kde-format
+msgid "Server is not ready."
+msgstr "سرور آماده نیست."
+
+#: plugins/client/stdio/mcpclientstdio.cpp:79
+#, kde-format
+msgid "Impossible to start client. Command is empty."
+msgstr "راه‌اندازی کلاینت ممکن نیست. دستور خالی است."
+
+#: plugins/client/stdio/mcpclientstdio.cpp:87
+#, kde-format
+msgid "Impossible to start client. Arguments are invalid."
+msgstr "راه‌اندازی کلاینت ممکن نیست. آرگومان‌ها نامعتبر هستند."
+
+#: plugins/client/stdio/mcpclientstdio.cpp:110
+#, kde-format
+msgid "Impossible to send message. Client is not running."
+msgstr "ارسال پیام ممکن نیست. کلاینت در حال اجرا نیست."
+
+#: plugins/client/stdio/mcpclientstdio.cpp:129
+#, kde-format
+msgid "Message received from server is too big."
+msgstr "پیام دریافت‌شده از سرور بیش از حد بزرگ است."
+
+#: plugins/client/streamablehttp/mcpclientstreamablehttp.cpp:167
+#: plugins/client/streamablehttp/mcpclientstreamablehttp.cpp:172
+#: plugins/client/streamablehttp/mcpclientstreamablehttp.cpp:218
+#, kde-format
+msgid "Connection lost before receiving answer."
+msgstr "اتصال پیش از دریافت پاسخ قطع شد."
+
+#: plugins/client/streamablehttp/mcpclientstreamablehttp.cpp:394
+#, kde-format
+msgid "Session expired. Client must be restarted."
+msgstr "نشست منقضی شده است. کلاینت باید دوباره راه‌اندازی شود."
+
+#: plugins/server/sse/mcpserversse.cpp:38
+#: plugins/server/streamablehttp/mcpserverstreamablehttp.cpp:110
+#: plugins/server/streamablehttp/mcpserverstreamablehttp.cpp:120
+#, kde-format
+msgid "Impossible to start server. URL is invalid."
+msgstr "راه‌اندازی سرور ممکن نیست. نشانی اینترنتی (URL) نامعتبر است."
+
+#: plugins/server/sse/mcpserversse.cpp:89
+#, kde-format
+msgid "Sending message is not implemented yet."
+msgstr "ارسال پیام هنوز پیاده‌سازی نشده است."
+
+#: plugins/server/stdio/mcpserverstdio.cpp:54
+#: plugins/server/streamablehttp/mcpserverstreamablehttp.cpp:126
+#, kde-format
+msgid "Impossible to start server: %1"
+msgstr "راه‌اندازی سرور ممکن نیست: %1"
+
+#: plugins/server/stdio/mcpserverstdio.cpp:70
+#, kde-format
+msgid "Stdio server is not supported on this platform."
+msgstr "سرور Stdio روی این بستر پشتیبانی نمی‌شود."
+
+#: plugins/server/stdio/mcpserverstdio.cpp:90
+#: plugins/server/streamablehttp/mcpserverstreamablehttp.cpp:432
+#, kde-format
+msgid "Server is not started."
+msgstr "سرور راه‌اندازی نشده است."
+
+#: plugins/server/stdio/mcpserverstdio.cpp:154
+#, kde-format
+msgid "Message received from client is too big."
+msgstr "پیام دریافت‌شده از کلاینت بیش از حد بزرگ است."
+
+#: widgets/server/addmcpserverdialog.cpp:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Server"
+msgstr "افزودن سرور"
+
+#: widgets/server/addmcpserverdialog.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Modify Server"
+msgstr "تغییر سرور"
+
+#: widgets/server/addmcpserverrootswidget.cpp:35
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Folder…"
+msgstr "پوشه…"
+
+#: widgets/server/addmcpserverrootswidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select Folder"
+msgstr "انتخاب پوشه"
+
+#: widgets/server/addmcpserverrootswidget.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Folders that server is allowed to access"
+msgstr "پوشه‌هایی که سرور مجاز به دسترسی به آن‌ها است"
+
+#: widgets/server/addmcpserverrootswidget.cpp:57
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Folder"
+msgstr "انتخاب پوشه"
+
+#: widgets/server/addmcpserverwidget.cpp:38
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "نام:"
+
+#: widgets/server/addmcpserverwidget.cpp:42
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Icon:"
+msgstr "آیکون:"
+
+#: widgets/server/addmcpserverwidget.cpp:45
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Type:"
+msgstr "نوع:"
+
+#: widgets/server/addmcpserverwidget.cpp:60
+#, kde-format
+msgctxt "@label"
+msgid "Allowed folders:"
+msgstr "پوشه‌های مجاز:"
+
+#: widgets/server/addmcpsseserverwidget.cpp:26
+#: widgets/server/addmcpstreamablehttpserverwidget.cpp:26
+#, kde-format
+msgctxt "@label:textbox"
+msgid "URL:"
+msgstr "نشانی وب:"
+
+#: widgets/server/addmcpsseserverwidget.cpp:29
+#: widgets/server/addmcpstreamablehttpserverwidget.cpp:30
+#, kde-format
+msgctxt "@label"
+msgid "Headers:"
+msgstr "سرآیندها:"
+
+#: widgets/server/addmcpstdioserverwidget.cpp:24
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Command:"
+msgstr "فرمان:"
+
+#: widgets/server/addmcpstdioserverwidget.cpp:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Arguments:"
+msgstr "آرگومان‌ها:"
+
+#: widgets/server/addmcpstreamablehttpserverheaderconfiguredialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Custom Header"
+msgstr "افزودن سرآیند سفارشی"
+
+#: widgets/server/addmcpstreamablehttpserverheaderconfiguredialog.cpp:51
+#, kde-format
+msgctxt "@title:window"
+msgid "Modify Custom Header"
+msgstr "تغییر سرآیند سفارشی"
+
+#: widgets/server/addmcpstreamablehttpserverheaderconfigurewidget.cpp:23
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Header:"
+msgstr "سرآیند:"
+
+#: widgets/server/addmcpstreamablehttpserverheaderconfigurewidget.cpp:28
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Name: Value"
+msgstr "نام: مقدار"
+
+#: widgets/server/addmcpstreamablehttpserverheaderwidget.cpp:33
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr "افزودن"
+
+#: widgets/server/addmcpstreamablehttpserverheaderwidget.cpp:38
+#, kde-format
+msgctxt "@action:button"
+msgid "Modify"
+msgstr "تغییر"
+
+#: widgets/server/addmcpstreamablehttpserverheaderwidget.cpp:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "حذف"
+
+#: widgets/server/addmcpstreamablehttpserverheaderwidget.cpp:71
+#, kde-format
+msgctxt "@info"
+msgid "Are you sure that you want to delete this header?"
+msgstr "آیا مطمئنید که می‌خواهید این سرآیند را حذف کنید؟"
+
+#: widgets/server/addmcpstreamablehttpserverheaderwidget.cpp:72
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Header"
+msgstr "حذف سرآیند"
+
+#: widgets/server/mcpserverlistview.cpp:52
+#, kde-format
+msgctxt "@action"
+msgid "Add Server…"
+msgstr "افزودن کارساز…"
+
+#: widgets/server/mcpserverlistview.cpp:58
+#, kde-format
+msgctxt "@action"
+msgid "Edit…"
+msgstr "ویرایش…"
+
+#: widgets/server/mcpserverlistview.cpp:64
+#, kde-format
+msgctxt "@action"
+msgid "Remove Server"
+msgstr "حذف کارساز"
+
+#: widgets/server/mcpserverlistview.cpp:71
+#, kde-format
+msgctxt "@info"
+msgid "Do you want to remove this server (%1)?"
+msgstr "آیا می‌خواهید این کارساز (%1) را حذف کنید؟"
+
+#: widgets/server/mcpserverlistview.cpp:72
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Server"
+msgstr "حذف سرور"
+
+#: widgets/server/mcpserverwidget.cpp:40
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "جست‌وجو…"
+
+#: widgets/server/mcpserverwidget.cpp:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add Server…"
+msgstr "افزودن سرور…"

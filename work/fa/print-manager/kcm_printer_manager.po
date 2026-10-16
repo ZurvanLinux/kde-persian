@@ -1,0 +1,812 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_printer_manager package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_printer_manager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-08 00:48+0000\n"
+"PO-Revision-Date: 2026-10-16 01:49+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: printermanager.cpp:100
+#, kde-format
+msgid "Add a new printer"
+msgstr "افزودن چاپگر جدید"
+
+#: printermanager.cpp:102
+#, kde-format
+msgid "Add a new printer group"
+msgstr "افزودن گروه چاپگر جدید"
+
+#: printermanager.cpp:104 printermanager.cpp:106
+#, kde-format
+msgid "Configure a printer"
+msgstr "پیکربندی چاپگر"
+
+#: printermanager.cpp:325
+#, kde-format
+msgctxt "@list:item"
+msgid "IPP Everywhere™"
+msgstr "IPP Everywhere™"
+
+#: printermanager.cpp:352
+#, kde-format
+msgctxt "@list:item"
+msgid "Driverless"
+msgstr "بدون راه‌انداز"
+
+#: printermanager.cpp:355
+#, kde-format
+msgctxt "@list:item"
+msgid "PPD File"
+msgstr "پروندهٔ PPD"
+
+#: printermanager.cpp:397
+#, kde-format
+msgctxt "@info"
+msgid "Failed to get server settings: %1"
+msgstr "دریافت تنظیمات کارساز ناموفق بود: %1"
+
+#: printermanager.cpp:434
+#, kde-format
+msgctxt "@info"
+msgid "Server Settings Not Saved: (%1): %2"
+msgstr "تنظیمات کارساز ذخیره نشد: (%1): %2"
+
+#: printermanager.cpp:441
+#, kde-format
+msgctxt "@info"
+msgid "Fatal Save Server Settings: (%1): %2"
+msgstr "خطای مهلک در ذخیرهٔ تنظیمات کارساز: (%1): %2"
+
+#: scpinstaller.cpp:71
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Install Error (package: %1)\n"
+"Check authentication credentials and make sure PackageKit is installed properly."
+msgstr ""
+"خطای نصب (بسته: %1)\n"
+"اعتبارنامه‌های احراز هویت را بررسی کرده و مطمئن شوید PackageKit به‌درستی نصب شده است."
+
+#: ui/components/AddressExamples.qml:26
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Example Addresses"
+msgstr "نشانی‌های نمونه"
+
+#: ui/components/BaseDevice.qml:86
+#, kde-format
+msgctxt "@label:title"
+msgid "Printing Device"
+msgstr "دستگاه چاپ"
+
+#: ui/components/BaseDevice.qml:116
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Address:"
+msgstr "نشانی:"
+
+#: ui/components/BaseDevice.qml:126
+#, kde-format
+msgctxt "@info The printer/device address"
+msgid "Enter device address"
+msgstr "نشانی دستگاه را وارد کنید"
+
+#: ui/components/Direct.qml:25
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Choose a device connection"
+msgstr "انتخاب نوع اتصال دستگاه"
+
+#: ui/components/Drivers.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Recommended Driver"
+msgstr "انتخاب راه‌انداز توصیه‌شده"
+
+#: ui/components/Drivers.qml:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Recommended drivers are based on printer make/model and connection type"
+msgstr "راه‌اندازهای توصیه‌شده بر اساس سازنده/مدل چاپگر و نوع اتصال هستند"
+
+#: ui/components/Drivers.qml:72
+#, kde-format
+msgctxt "@action:button"
+msgid "Manual Driver Search…"
+msgstr "جستجوی دستی راه‌انداز…"
+
+#: ui/components/Drivers.qml:78
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search for and select a driver based on printer make/model"
+msgstr "جستجو و انتخاب راه‌انداز بر اساس سازنده/مدل چاپگر"
+
+#: ui/components/Lpd.qml:22
+#, kde-format
+msgctxt "@title:group"
+msgid "Line Printer Daemon (LPD) Protocol"
+msgstr "پروتکل Line Printer Daemon (LPD)"
+
+#: ui/components/Lpd.qml:23
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter the address of the LPD device"
+msgstr "نشانی دستگاه LPD را وارد کنید"
+
+#: ui/components/Lpd.qml:63
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Queue:"
+msgstr "صف:"
+
+#: ui/components/Lpd.qml:68
+#, kde-format
+msgctxt "@info:placeholder The LPD device queue name"
+msgid "LPD queue name"
+msgstr "نام صف LPD"
+
+#: ui/components/Lpd.qml:75 ui/components/ManualUri.qml:82
+#: ui/components/Socket.qml:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Continue with Address…"
+msgstr "ادامه با نشانی…"
+
+#: ui/components/Lpd.qml:92
+#, kde-format
+msgctxt "@info:status"
+msgid "Invalid LPD URL: %1"
+msgstr "نشانی وب نامعتبر LPD: %1"
+
+#: ui/components/ManualUri.qml:23
+#, kde-format
+msgctxt "@title:group"
+msgid "Find remote printing devices"
+msgstr "یافتن دستگاه‌های چاپ دوردست"
+
+#: ui/components/ManualUri.qml:24
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter the address of the remote host/device"
+msgstr "نشانی میزبان/دستگاه دوردست را وارد کنید"
+
+#: ui/components/ManualUri.qml:57
+#, kde-format
+msgctxt "@info:status"
+msgid "No Printers found at host: %1"
+msgstr "هیچ چاپگری در میزبان پیدا نشد: %1"
+
+#: ui/components/ManualUri.qml:62
+#, kde-format
+msgctxt "@info:status"
+msgid "CUPS request error (%1): %2"
+msgstr "خطای درخواست CUPS (%1): %2"
+
+#: ui/components/ManualUri.qml:72
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Printer…"
+msgstr "انتخاب چاپگر…"
+
+#: ui/components/ManualUri.qml:93
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If the printer address is known, enter it and choose "
+"<interface>Continue</interface>.  If the printer is on a remote host, enter "
+"that address and choose <interface>Search</interface>."
+msgstr ""
+"اگر نشانی چاپگر مشخص است، آن را وارد کرده و <interface>ادامه</interface> را "
+"انتخاب کنید. اگر چاپگر روی یک میزبان دوردست است، آن نشانی را وارد کرده و "
+"<interface>جست‌وجو</interface> را انتخاب کنید."
+
+#: ui/components/Smb.qml:16
+#, kde-format
+msgctxt "@title:group"
+msgid "Set up a printer on a Windows Network"
+msgstr "راه‌اندازی چاپگر در یک شبکهٔ ویندوز"
+
+#: ui/components/Smb.qml:17
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter the address of the Windows Printer"
+msgstr "نشانی چاپگر ویندوز را وارد کنید"
+
+#: ui/components/Smb.qml:45
+#, kde-format
+msgctxt "@label:textbox Authentication user name"
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#: ui/components/Smb.qml:50
+#, kde-format
+msgctxt "@label:textbox Authentication password"
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: ui/components/Smb.qml:54
+#, kde-format
+msgctxt "@action:button Accept current values and continue"
+msgid "Save Printer…"
+msgstr "ذخیرهٔ چاپگر…"
+
+#: ui/components/Smb.qml:76
+#, kde-format
+msgctxt "@info:status"
+msgid "Invalid Printer URL: %1"
+msgstr "نشانی وب چاپگر نامعتبر است: %1"
+
+#: ui/components/Socket.qml:19
+#, kde-format
+msgctxt "@title:group"
+msgid "AppSocket Protocol (aka JetDirect)"
+msgstr "پروتکل AppSocket (معروف به JetDirect)"
+
+#: ui/components/Socket.qml:20
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter the address of the AppSocket device"
+msgstr "نشانی دستگاه AppSocket را وارد کنید"
+
+#: ui/components/Socket.qml:65
+#, kde-format
+msgid "Invalid Socket URL: %1"
+msgstr "نشانی وب سوکت نامعتبر است: %1"
+
+#: ui/FindPrinter.qml:128
+#, kde-format
+msgctxt "@title:window"
+msgid "Set up a Printer Connection"
+msgstr "برپایی اتصال چاپگر"
+
+#: ui/FindPrinter.qml:132 ui/main.qml:276
+#, kde-format
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr "تازه‌سازی"
+
+#: ui/FindPrinter.qml:142
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Detected Devices"
+msgstr "نمایش دستگاه‌های شناسایی‌شده"
+
+#: ui/FindPrinter.qml:143
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Manual Options"
+msgstr "نمایش گزینه‌های دستی"
+
+#: ui/FindPrinter.qml:219
+#, kde-format
+msgctxt "@info:status"
+msgid "This feature is not available (%1)"
+msgstr "این ویژگی در دسترس نیست (%1)"
+
+#: ui/FindPrinter.qml:228
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to automatically discover any printing devices"
+msgstr "یافتن خودکار هیچ دستگاه چاپگری ممکن نشد"
+
+#: ui/FindPrinter.qml:229
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Click <interface>Refresh</interface> to try again, or choose a manual "
+"configuration option from the list.<nl/><nl/>Note: Automatic printer "
+"discovery requires this system’s firewall to allow through the “mdns” "
+"service, or be disabled."
+msgstr ""
+"روی <interface>تازه‌سازی</interface> کلیک کنید تا دوباره امتحان شود، یا "
+"گزینهٔ پیکربندی دستی را از فهرست انتخاب کنید.<nl/><nl/>نکته: شناسایی خودکار "
+"چاپگر مستلزم این است که دیوار آتش این سامانه اجازهٔ عبور به خدمت «mdns» را "
+"بدهد یا غیرفعال باشد."
+
+#: ui/FindPrinter.qml:238
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Choose a manual configuration option from the list"
+msgstr "انتخاب یک گزینهٔ پیکربندی دستی از فهرست"
+
+#: ui/Global.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "CUPS Server Settings"
+msgstr "تنظیمات کارگزار CUPS"
+
+#: ui/Global.qml:24
+#, kde-format
+msgctxt "@action:button"
+msgid "CUPS Print Server Admin"
+msgstr "مدیریت کارگزار چاپ CUPS"
+
+#: ui/Global.qml:31
+#, kde-format
+msgctxt "@action:button Reset to current settings"
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: ui/Global.qml:37
+#, kde-format
+msgctxt "@action:button Apply new settings"
+msgid "Apply"
+msgstr "اعمال"
+
+#: ui/Global.qml:89
+#, kde-format
+msgid "Please wait while the CUPS server restarts"
+msgstr "لطفاً تا راه‌اندازی مجدد کارساز CUPS منتظر بمانید"
+
+#: ui/Global.qml:127
+#, kde-format
+msgctxt "@option:check"
+msgid "Share printers connected to this system"
+msgstr "به اشتراک‌گذاری چاپگرهای متصل به این سامانه"
+
+#: ui/Global.qml:139
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow printing from the Internet"
+msgstr "اجازهٔ چاپ از طریق اینترنت"
+
+#: ui/Global.qml:145
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow remote administration"
+msgstr "اجازهٔ مدیریت از دور"
+
+#: ui/Global.qml:150
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow users to cancel any job (not just their own)"
+msgstr "اجازه به کاربران برای لغو هر کاری (نه فقط کارهای خودشان)"
+
+#: ui/InstallDialog.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Printer Setup Helpers"
+msgstr "دستیارهای برپاسازی چاپگر"
+
+#: ui/InstallDialog.qml:71
+#, kde-format
+msgctxt "@info:status"
+msgid "Install has completed successfully"
+msgstr "نصب با موفقیت کامل شد"
+
+#: ui/InstallDialog.qml:73
+#, kde-format
+msgctxt "@info:status"
+msgid "Installation failed"
+msgstr "نصب ناموفق بود"
+
+#: ui/InstallDialog.qml:75
+#, kde-format
+msgctxt "@info:status"
+msgid "Installing…"
+msgstr "در حال نصب…"
+
+#: ui/InstallDialog.qml:91
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Report this issue to %1"
+msgstr "گزارش این مشکل به %1"
+
+#: ui/main.qml:35
+#, kde-format
+msgid "new_queue"
+msgstr "new_queue"
+
+#: ui/main.qml:35
+#, kde-format
+msgid "new_group"
+msgstr "new_group"
+
+#: ui/main.qml:84
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"A printer support package that provides convenience features does not appear"
+" to be installed.<nl/><nl/>Because this distro does not include PackageKit, "
+"we cannot provide an install option. Please use your package manager to "
+"install the <command>system-config-printer</command> package manually."
+msgstr ""
+"به نظر می‌رسد بستهٔ پشتیبانی چاپگری که قابلیت‌های کمکی را فراهم می‌کند، نصب "
+"نشده است.<nl/><nl/>از آنجا که این توزیع شامل PackageKit نیست، نمی‌توانیم "
+"گزینهٔ نصب را ارائه دهیم. لطفاً از مدیر بستهٔ خود برای نصب دستی بستهٔ "
+"<command>system-config-printer</command> استفاده کنید."
+
+#: ui/main.qml:86
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"A printer support package that provides convenience features does not appear"
+" to be installed."
+msgstr ""
+"به نظر می‌رسد بستهٔ پشتیبانی چاپگری که قابلیت‌های کمکی را فراهم می‌کند، نصب "
+"نشده است."
+
+#: ui/main.qml:92
+#, kde-format
+msgctxt "@action:button Install printer setup helper package"
+msgid "Install It"
+msgstr "نصب آن"
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@action:button The thing being added is a printer"
+msgid "Add…"
+msgstr "افزودن…"
+
+#: ui/main.qml:124
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Printer…"
+msgstr "افزودن چاپگر…"
+
+#: ui/main.qml:130
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Group…"
+msgstr "افزودن گروه…"
+
+#: ui/main.qml:136
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Print Server…"
+msgstr "پیکربندی کارساز چاپ…"
+
+#: ui/main.qml:263
+#, kde-format
+msgctxt "@info:status"
+msgid "No printers are currently set up"
+msgstr "در حال حاضر هیچ چاپگری راه‌اندازی نشده است"
+
+#: ui/main.qml:264
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Click <interface>Add…</interface> to set up a new printer on this computer"
+msgstr ""
+"برای راه‌اندازی یک چاپگر جدید روی این رایانه، روی "
+"<interface>افزودن…</interface> کلیک کنید"
+
+#: ui/main.qml:273
+#, kde-format
+msgctxt "@info:status"
+msgid "Printing services not available"
+msgstr "خدمات چاپ در دسترس نیست"
+
+#: ui/main.qml:274
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Click <interface>Configure Print Server…</interface> to check settings, or "
+"verify that the CUPS system service is active."
+msgstr ""
+"برای بررسی تنظیمات روی <interface>پیکربندی کارساز چاپ…</interface> کلیک "
+"کنید، یا از فعال بودن خدمت سامانه‌ای CUPS مطمئن شوید."
+
+#: ui/main.qml:314
+#, kde-format
+msgid "Printers"
+msgstr "چاپگرها"
+
+#: ui/main.qml:314
+#, kde-format
+msgid "Printer Groups"
+msgstr "گروه‌های چاپگر"
+
+#: ui/main.qml:375
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Print Queue"
+msgstr "باز کردن صف چاپ"
+
+#: ui/main.qml:384
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Resume printing"
+msgstr "ادامهٔ چاپ"
+
+#: ui/main.qml:385
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause printing"
+msgstr "مکث چاپ"
+
+#: ui/main.qml:391
+#, kde-format
+msgctxt "@action:button Resume printing"
+msgid "Resume"
+msgstr "ادامه"
+
+#: ui/main.qml:392
+#, kde-format
+msgctxt "@action:button Pause printing"
+msgid "Pause"
+msgstr "مکث"
+
+#: ui/MakeModel.qml:91
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a printer make/model"
+msgstr "انتخاب سازنده/مدل چاپگر"
+
+#: ui/MakeModel.qml:93
+#, kde-format
+msgctxt "@title:window"
+msgid "Printer Driver (%1)"
+msgstr "راه‌انداز چاپگر (%1)"
+
+#: ui/MakeModel.qml:100
+#, kde-format
+msgctxt "@title:window"
+msgid "Printer Driver"
+msgstr "راه‌انداز چاپگر"
+
+#: ui/MakeModel.qml:146
+#, kde-format
+msgctxt "@action:button Select ipp everywhere driver"
+msgid "Use IPP Everywhere™"
+msgstr "استفاده از IPP Everywhere™"
+
+#: ui/MakeModel.qml:161
+#, kde-format
+msgid "Save"
+msgstr "ذخیره"
+
+#: ui/MakeModel.qml:166
+#, kde-format
+msgid "Select a PostScript Printer Description (PPD) file"
+msgstr "انتخاب یک پروندهٔ توصیف چاپگر پست‌اسکریپت (PPD)"
+
+#: ui/MakeModel.qml:173
+#, kde-format
+msgid "Printer model is required.  Please select a printer model."
+msgstr "مدل چاپگر الزامی است. لطفاً یک مدل چاپگر را انتخاب کنید."
+
+#: ui/MakeModel.qml:230
+#, kde-format
+msgctxt "@option:radio"
+msgid "Select Make and Model:"
+msgstr "انتخاب سازنده و مدل:"
+
+#: ui/MakeModel.qml:242
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Filter Models"
+msgstr "صافی‌کردن مدل‌ها"
+
+#: ui/MakeModel.qml:336
+#, kde-format
+msgctxt "@option:radio"
+msgid "PPD file:"
+msgstr "پروندهٔ PPD:"
+
+#: ui/MakeModel.qml:355
+#, kde-format
+msgctxt "@action:button"
+msgid "Select PPD File…"
+msgstr "انتخاب پروندهٔ PPD…"
+
+#: ui/MakeModel.qml:363
+#, kde-format
+msgid "Select"
+msgstr "انتخاب"
+
+#: ui/MakeModel.qml:364
+#, kde-format
+msgid "PostScript Printer Description Files (*.ppd)"
+msgstr "پرونده‌های شرح چاپگر پست‌اسکریپت (*.ppd)"
+
+#: ui/PrinterSettings.qml:46
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Group"
+msgstr "افزودن گروه"
+
+#: ui/PrinterSettings.qml:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Printer"
+msgstr "افزودن چاپگر"
+
+#: ui/PrinterSettings.qml:58
+#, kde-format
+msgid "Configure…"
+msgstr "پیکربندی…"
+
+#: ui/PrinterSettings.qml:63
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#: ui/PrinterSettings.qml:80
+#, kde-format
+msgctxt "@action:button"
+msgid "CUPS Printers Overview Help"
+msgstr "راهنمای نمای کلی چاپگرهای CUPS"
+
+#: ui/PrinterSettings.qml:86
+#, kde-format
+msgctxt "@action:button"
+msgid "Printer/Device Admin Page"
+msgstr "صفحهٔ مدیریت چاپگر/دستگاه"
+
+#: ui/PrinterSettings.qml:104
+#, kde-format
+msgctxt "@action:button Add printer"
+msgid "Add"
+msgstr "افزودن"
+
+#: ui/PrinterSettings.qml:105
+#, kde-format
+msgctxt "@action:button Apply changes"
+msgid "Apply"
+msgstr "اعمال"
+
+#: ui/PrinterSettings.qml:113
+#, kde-format
+msgctxt "@info:status"
+msgid "Queue name is required. Enter a unique queue name."
+msgstr "نام صف الزامی است. یک نام صف یکتا وارد کنید."
+
+#: ui/PrinterSettings.qml:118
+#, kde-format
+msgctxt "@info:status"
+msgid "Queue name must be unique. Enter a unique queue name."
+msgstr "نام صف باید یکتا باشد. یک نام صف یکتا وارد کنید."
+
+#: ui/PrinterSettings.qml:126
+#, kde-format
+msgctxt "@info:status"
+msgid "Make/Model is required. Choose \"Select\" to pick Make/Model"
+msgstr "سازنده/مدل الزامی است. برای انتخاب سازنده/مدل «انتخاب» را بزنید"
+
+#: ui/PrinterSettings.qml:136
+#, kde-format
+msgctxt "@info:status"
+msgid "Configuring %1, please wait…"
+msgstr "در حال پیکربندی %1، لطفاً صبر کنید…"
+
+#: ui/PrinterSettings.qml:178
+#, kde-format
+msgid "Failed to remove the printer: %1"
+msgstr "حذف چاپگر ناموفق بود: %1"
+
+#: ui/PrinterSettings.qml:211
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Group?"
+msgstr "گروه حذف شود؟"
+
+#: ui/PrinterSettings.qml:212
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Printer?"
+msgstr "چاپگر حذف شود؟"
+
+#: ui/PrinterSettings.qml:214
+#, kde-format
+msgctxt "@info %1 is the name of a printer or printer group"
+msgid "'%1' will be removed."
+msgstr "«%1» حذف خواهد شد."
+
+#: ui/PrinterSettings.qml:221
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Group"
+msgstr "حذف گروه"
+
+#: ui/PrinterSettings.qml:222
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Printer"
+msgstr "حذف چاپگر"
+
+#: ui/PrinterSettings.qml:231
+#, kde-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: ui/PrinterSettings.qml:353
+#, kde-format
+msgctxt "@action:check Set default printer"
+msgid "Default printer"
+msgstr "چاپگر پیش‌فرض"
+
+#: ui/PrinterSettings.qml:368
+#, kde-format
+msgctxt "@info"
+msgid "To change the default printer, set another printer as the default."
+msgstr "برای تغییر چاپگر پیش‌فرض، چاپگر دیگری را به‌عنوان پیش‌فرض تنظیم کنید."
+
+#: ui/PrinterSettings.qml:377
+#, kde-format
+msgctxt "@action:check"
+msgid "Share this group"
+msgstr "هم‌رسانی این گروه"
+
+#: ui/PrinterSettings.qml:378
+#, kde-format
+msgctxt "@action:check"
+msgid "Share this printer"
+msgstr "هم‌رسانی این چاپگر"
+
+#: ui/PrinterSettings.qml:385
+#, kde-format
+msgctxt "@action:check"
+msgid "Accepting print jobs"
+msgstr "پذیرش کارهای چاپ"
+
+#: ui/PrinterSettings.qml:433
+#, kde-format
+msgctxt "@action:button"
+msgid "Print Test Page"
+msgstr "چاپ صفحهٔ آزمایشی"
+
+#: ui/PrinterSettings.qml:439
+#, kde-format
+msgctxt "@action:button"
+msgid "Print Self-Test Page"
+msgstr "چاپ صفحه خودآزمایی"
+
+#: ui/PrinterSettings.qml:446
+#, kde-format
+msgctxt "@action:button"
+msgid "Clean Print Heads"
+msgstr "تمیز کردن هد چاپ"
+
+#: ui/PrinterSettings.qml:464
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Queue Name:"
+msgstr "نام صف:"
+
+#: ui/PrinterSettings.qml:489
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Description:"
+msgstr "توضیحات:"
+
+#: ui/PrinterSettings.qml:501
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr "مکان:"
+
+#: ui/PrinterSettings.qml:513
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Connection:"
+msgstr "اتصال:"
+
+#: ui/PrinterSettings.qml:527
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Member Printers:"
+msgstr "چاپگرهای عضو:"
+
+#: ui/PrinterSettings.qml:663
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Make/Model:"
+msgstr "سازنده/مدل:"
+
+#: ui/PrinterSettings.qml:678
+#, kde-format
+msgctxt "@action:button Select printer make/model"
+msgid "Select…"
+msgstr "انتخاب…"

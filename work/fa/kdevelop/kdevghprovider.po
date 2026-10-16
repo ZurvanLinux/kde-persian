@@ -1,0 +1,177 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdevghprovider package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevghprovider\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-15 21:31+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ghdialog.cpp:25
+#, kde-format
+msgid ""
+"You have not authorized KDevelop to use your GitHub account. If you "
+"authorize KDevelop, you will be able to fetch your public/private "
+"repositories and the repositories from your organizations."
+msgstr ""
+"شما به KDevelop اجازهٔ دسترسی به حساب GitHub خود را نداده‌اید. اگر به "
+"KDevelop مجوز دهید، قادر خواهید بود مخازن عمومی/خصوصی خود و مخازن "
+"سازمان‌هایتان را واکشی کنید."
+
+#: ghdialog.cpp:34
+#, kde-format
+msgctxt "%1 is the URL with the GitHub token settings"
+msgid "You can check the authorization for this application and others at %1"
+msgstr "می‌توانید مجوزهای این برنامه و دیگر برنامه‌ها را در %1 بررسی کنید"
+
+#: ghdialog.cpp:54
+#, kde-format
+msgid "You are logged in as <b>%1</b>.<br/>%2"
+msgstr "شما با عنوان <b>%1</b> وارد شده‌اید.<br/>%2"
+
+#: ghdialog.cpp:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Log Out"
+msgstr "خروج از حساب"
+
+#: ghdialog.cpp:64
+#, kde-format
+msgctxt "@action:button"
+msgid "Force Sync"
+msgstr "همگام‌سازی اجباری"
+
+#: ghdialog.cpp:78
+#, kde-format
+msgctxt "@action:button"
+msgid "Authorize"
+msgstr "اجازه‌دادن"
+
+#: ghdialog.cpp:92
+#, kde-format
+msgctxt "@title:window"
+msgid "GitHub Account"
+msgstr "حساب GitHub"
+
+#: ghdialog.cpp:98
+#, kde-format
+msgid "Enter a login and a password"
+msgstr "نام کاربری و گذرواژه را وارد کنید"
+
+#: ghdialog.cpp:101 ghdialog.cpp:157 ghproviderwidget.cpp:45
+#, kde-format
+msgid "Waiting for response"
+msgstr "در انتظار پاسخ"
+
+#: ghdialog.cpp:126
+#, kde-format
+msgid ""
+"Authentication failed. Please try again.\n"
+"\n"
+"Could not create token: \"%1\"\n"
+"%2"
+msgstr ""
+"احراز هویت ناموفق بود. لطفاً دوباره تلاش کنید.\n"
+"\n"
+"نشان ایجاد نشد: «%1»\n"
+"%2"
+
+#: ghdialog.cpp:129
+#, kde-format
+msgctxt "@title:window"
+msgid "GitHub Authorization Failed"
+msgstr "مجوزدهی گیت‌هاب ناموفق بود"
+
+#: ghdialog.cpp:133
+#, kde-format
+msgid ""
+"Authentication succeeded.\n"
+"\n"
+"Created token: \"%1\"\n"
+"%2"
+msgstr ""
+"احراز هویت با موفقیت انجام شد.\n"
+"\n"
+"شناسه ایجادشده: «%1»\n"
+"%2"
+
+#: ghdialog.cpp:136
+#, kde-format
+msgctxt "@title:window"
+msgid "GitHub Account Authorized"
+msgstr "حساب گیت‌هاب مجاز شد"
+
+#: ghdialog.cpp:144
+#, kde-format
+msgctxt "@title:window"
+msgid "Authentication Code"
+msgstr "کد احراز هویت"
+
+#: ghdialog.cpp:144
+#, kde-format
+msgctxt "@label:textbox"
+msgid "OTP Code:"
+msgstr "کد یک‌بارمصرف (OTP):"
+
+#: ghdialog.cpp:176
+#, kde-format
+msgid "Please, write your password here."
+msgstr "لطفاً گذرواژهٔ خود را اینجا وارد کنید."
+
+#: ghproviderplugin.cpp:35
+#, kde-format
+msgid "GitHub"
+msgstr "گیت‌هاب"
+
+#: ghproviderwidget.cpp:58
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr "جست‌وجو…"
+
+#: ghproviderwidget.cpp:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You can press the Return key if you do not want to wait."
+msgstr "اگر نمی‌خواهید منتظر بمانید، می‌توانید کلید Return را فشار دهید."
+
+#: ghproviderwidget.cpp:71
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Configure your GitHub account"
+msgstr "پیکربندی حساب گیت‌هاب شما"
+
+#: ghproviderwidget.cpp:88
+#, kde-format
+msgid ""
+"The Git plugin could not be loaded which is required to import a GitHub "
+"project."
+msgstr ""
+"بارگیری افزونهٔ گیت که برای وارد کردن پروژهٔ گیت‌هاب لازم است، ممکن نبود."
+
+#: ghproviderwidget.cpp:88
+#, kde-format
+msgctxt "@title:window"
+msgid "GitHub Provider Error"
+msgstr "خطای ارائه‌دهندهٔ گیت‌هاب"
+
+#: ghproviderwidget.cpp:106
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "User"
+msgstr "کاربر"
+
+#: ghproviderwidget.cpp:107
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Organization"
+msgstr "سازمان"

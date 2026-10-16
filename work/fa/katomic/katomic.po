@@ -1,0 +1,356 @@
+# translation of katomic.po to Persian
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2007.
+# Emil Sedgh <emilsedgh@gmail.com>, 2008.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: katomic\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:49+0000\n"
+"PO-Revision-Date: 2026-10-15 19:28+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: chooselevelsetdialog.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Level Sets"
+msgstr "مجموعه‌های مرحله"
+
+#: gamewidget.cpp:84
+#, kde-format
+msgid ""
+"Failed to load level set \"%1\". Check if it is installed on your computer."
+msgstr ""
+"بارگذاری مجموعه مرحله «%1» ناموفق بود. بررسی کنید که روی رایانه‌تان نصب شده "
+"باشد."
+
+#: gamewidget.cpp:140
+#, kde-format
+msgid "Level %1 finished. "
+msgstr "مرحلهٔ %1 به پایان رسید. "
+
+#: gamewidget.cpp:144
+#, kde-format
+msgid "Congratulations! You have a new highscore!"
+msgstr "تبریک! شما بالاترین امتیاز جدیدی کسب کردید!"
+
+#. i18n: ectx: label, entry (AnimationSpeed), group (Game)
+#: katomic.kcfg:9
+#, kde-format
+msgid "The speed of the animations."
+msgstr "سرعت پویانمایی‌ها."
+
+#. i18n: ectx: label, entry (SavedBackgroundWidth), group (General)
+#: katomic.kcfg:20
+#, kde-format
+msgid "Width of saved background"
+msgstr "عرض پس‌زمینهٔ ذخیره‌شده"
+
+#. i18n: ectx: label, entry (SavedBackgroundHeight), group (General)
+#: katomic.kcfg:24
+#, kde-format
+msgid "Height of saved background"
+msgstr "ارتفاع پس‌زمینهٔ ذخیره‌شده"
+
+#. i18n: ectx: label, entry (LastPlayedLevelSet), group (General)
+#: katomic.kcfg:28
+#, kde-format
+msgid "Last played levelset"
+msgstr "آخرین مجموعه مرحلهٔ بازی‌شده"
+
+#. i18n: ectx: Menu (settings)
+#: katomicui.rc:16
+#, kde-format
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: katomicui.rc:25
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#: levelset.cpp:268
+#, kde-format
+msgid "Noname"
+msgstr "بی‌نام"
+
+#: levelsetdelegate.cpp:81
+#, kde-format
+msgctxt "@info author attribution"
+msgid "By %1"
+msgstr "توسط %1"
+
+#: levelsetdelegate.cpp:87
+#, kde-format
+msgid ", contains 1 level"
+msgid_plural ", contains %1 levels"
+msgstr[0] "، شامل ۱ مرحله"
+msgstr[1] "، شامل %1 مرحله"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: levelsetwidget.ui:20
+#, kde-format
+msgid "Choose a level set to play:"
+msgstr "مجموعه مرحله‌ای را برای بازی انتخاب کنید:"
+
+#. i18n: ectx: property (text), widget (KNSWidgets::Button, m_pbNewStuff)
+#: levelsetwidget.ui:45
+#, kde-format
+msgid "Download New Levels…"
+msgstr "بارگیری مرحله‌های جدید…"
+
+#: main.cpp:50
+#, kde-format
+msgid "KAtomic"
+msgstr "KAtomic"
+
+#: main.cpp:52
+#, kde-format
+msgid "Atomic Entertainment Game"
+msgstr "بازی سرگرمی اتمی"
+
+#: main.cpp:54
+#, kde-format
+msgid ""
+"(c) 1998, Andreas Wuest\n"
+"(c) 2007-2009 Dmitry Suzdalev"
+msgstr ""
+"© ۱۹۹۸، Andreas Wuest\n"
+"© ۲۰۰۷-۲۰۰۹ Dmitry Suzdalev"
+
+#: main.cpp:55
+#, kde-format
+msgid "Andreas Wuest"
+msgstr "Andreas Wuest"
+
+#: main.cpp:55
+#, kde-format
+msgid "Original author"
+msgstr "نویسنده اصلی"
+
+#: main.cpp:56
+#, kde-format
+msgid "Dmitry Suzdalev"
+msgstr "Dmitry Suzdalev"
+
+#: main.cpp:56
+#, kde-format
+msgid "Porting to KDE4. Current maintainer"
+msgstr "انتقال به KDE4. نگهدارنده کنونی"
+
+#: main.cpp:57
+#, kde-format
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: main.cpp:58
+#, kde-format
+msgid "Cristian Tibirna"
+msgstr "Cristian Tibirna"
+
+#: main.cpp:59
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:60
+#, kde-format
+msgid "Dave Corrie"
+msgstr "Dave Corrie"
+
+#: main.cpp:61
+#, kde-format
+msgid "Kai Jung"
+msgstr "Kai Jung"
+
+#: main.cpp:61
+#, kde-format
+msgid "6 new levels"
+msgstr "۶ مرحله جدید"
+
+#: main.cpp:62
+#, kde-format
+msgid "Danny Allen"
+msgstr "دنی آلن"
+
+#: main.cpp:62
+#, kde-format
+msgid "Game graphics and application icon"
+msgstr "گرافیک بازی و نقشک برنامه"
+
+#: main.cpp:63
+#, kde-format
+msgid "Johann Ollivier Lapeyre"
+msgstr "یوهان اولیویه لاپیر"
+
+#: main.cpp:63
+#, kde-format
+msgid "New great SVG artwork for KDE4"
+msgstr "اثر هنری جدید و عالی SVG برای KDE4"
+
+#: main.cpp:64
+#, kde-format
+msgid "Brian Croom"
+msgstr "برایان کروم"
+
+#: main.cpp:64
+#, kde-format
+msgid "Port to use KGameRenderer"
+msgstr "انتقال برای استفاده از KGameRenderer"
+
+#: main.cpp:73
+#, kde-format
+msgid "Enable access to all levels"
+msgstr "فعال‌سازی دسترسی به همهٔ مرحله‌ها"
+
+#: main.cpp:82
+#, kde-format
+msgid ""
+"KAtomic failed to find its default level set and will quit. Please check "
+"your installation."
+msgstr ""
+"کی‌اتومیک در یافتن مجموعه مرحله‌های پیش‌فرض خود ناموفق بود و بسته خواهد شد. "
+"لطفاً نصب خود را بررسی کنید."
+
+#: toplevel.cpp:41
+#, kde-format
+msgctxt "@label"
+msgid "Level:"
+msgstr "مرحله:"
+
+#: toplevel.cpp:42
+#, kde-format
+msgctxt "@label"
+msgid "Current score:"
+msgstr "امتیاز کنونی:"
+
+#: toplevel.cpp:43
+#, kde-format
+msgctxt "@label"
+msgid "Highscore:"
+msgstr "بیشترین امتیاز:"
+
+#: toplevel.cpp:90
+#, kde-format
+msgctxt "@action"
+msgid "Previous Level"
+msgstr "مرحله قبلی"
+
+#: toplevel.cpp:97
+#, kde-format
+msgctxt "@action"
+msgid "Next Level"
+msgstr "مرحله بعدی"
+
+#: toplevel.cpp:103
+#, kde-format
+msgctxt "@action"
+msgid "Choose Level Set…"
+msgstr "انتخاب مجموعه مرحله…"
+
+#: toplevel.cpp:107
+#, kde-format
+msgctxt "@title:menu"
+msgid "Animation Speed"
+msgstr "سرعت پویانمایی"
+
+#: toplevel.cpp:110
+#, kde-format
+msgctxt "@item animation speed"
+msgid "Slow"
+msgstr "آهسته"
+
+#: toplevel.cpp:111
+#, kde-format
+msgctxt "@item animation speed"
+msgid "Normal"
+msgstr "عادی"
+
+#: toplevel.cpp:112
+#, kde-format
+msgctxt "@item animation speed"
+msgid "Fast"
+msgstr "سریع"
+
+#: toplevel.cpp:120
+#, kde-format
+msgctxt "@action"
+msgid "Undo All"
+msgstr "واگرد همه"
+
+#: toplevel.cpp:125
+#, kde-format
+msgctxt "@action"
+msgid "Redo All"
+msgstr "ازنو همه"
+
+#: toplevel.cpp:139
+#, kde-format
+msgctxt "@action"
+msgid "Atom Up"
+msgstr "اتم به بالا"
+
+#: toplevel.cpp:145
+#, kde-format
+msgctxt "@action"
+msgid "Atom Down"
+msgstr "اتم به پایین"
+
+#: toplevel.cpp:151
+#, kde-format
+msgctxt "@action"
+msgid "Atom Left"
+msgstr "اتم به چپ"
+
+#: toplevel.cpp:157
+#, kde-format
+msgctxt "@action"
+msgid "Atom Right"
+msgstr "اتم به راست"
+
+#: toplevel.cpp:163
+#, kde-format
+msgctxt "@action"
+msgid "Next Atom"
+msgstr "اتم بعدی"
+
+#: toplevel.cpp:169
+#, kde-format
+msgctxt "@action"
+msgid "Previous Atom"
+msgstr "اتم قبلی"
+
+#: toplevel.cpp:190
+#, kde-format
+msgid "Level: %1 (%2)"
+msgstr "مرحله: %1 (%2)"
+
+#: toplevel.cpp:191
+#, kde-format
+msgid "Current score: %1"
+msgstr "امتیاز فعلی: %1"
+
+#: toplevel.cpp:197
+#, kde-format
+msgid "Highscore: %1"
+msgstr "بالاترین امتیاز: %1"

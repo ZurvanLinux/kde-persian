@@ -1,0 +1,1152 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the xdg-desktop-portal-kde package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: xdg-desktop-portal-kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-16 00:48+0000\n"
+"PO-Revision-Date: 2026-10-16 03:19+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/accessdialog.cpp:26
+#, kde-format
+msgid "Request device access"
+msgstr "درخواست دسترسی به دستگاه"
+
+#: src/appchooser.cpp:101
+#, kde-format
+msgctxt "count of files to open"
+msgid "%1 files"
+msgstr "%1 پرونده"
+
+#: src/appchooserdialog.cpp:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Application"
+msgstr "انتخاب برنامه"
+
+#: src/appchooserdialog.cpp:48
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Choose an application to open <filename>%1</filename>"
+msgstr "برنامه‌ای را برای باز کردن <filename>%1</filename> انتخاب کنید"
+
+#: src/AppChooserDialog.qml:35
+#, kde-format
+msgctxt ""
+"Find some more apps that can open this content using the Discover app store"
+msgid "Find More in Discover…"
+msgstr "یافتن موارد بیشتر در دیسکاور…"
+
+#: src/AppChooserDialog.qml:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Open"
+msgstr "باز کردن"
+
+#: src/AppChooserDialog.qml:48
+#, kde-format
+msgctxt "@option:check %1 is description of a file type, like 'PNG image'"
+msgid "Set as default app to open %1 files"
+msgstr "تنظیم به‌عنوان برنامه پیش‌فرض برای باز کردن پرونده‌های %1"
+
+#: src/AppChooserDialog.qml:122
+#, kde-format
+msgid "Show All Installed Applications"
+msgstr "نمایش همه برنامه‌های نصب‌شده"
+
+#: src/AppChooserDialog.qml:135
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose Other…"
+msgstr "انتخاب دیگری…"
+
+#: src/AppChooserDialog.qml:197
+#, kde-kuit-format
+msgctxt "@info"
+msgid "%1<nl/><emphasis>Default app for this file type</emphasis>"
+msgstr "%1<nl/><emphasis>برنامهٔ پیش‌فرض برای این نوع پرونده</emphasis>"
+
+#: src/AppChooserDialog.qml:199
+#, kde-kuit-format
+msgctxt "@info"
+msgid "%1<nl/><emphasis>Last used app for this file type</emphasis>"
+msgstr ""
+"%1<nl/><emphasis>آخرین برنامهٔ استفاده‌شده برای این نوع پرونده</emphasis>"
+
+#: src/AppChooserDialog.qml:221
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Open with <command>%1</command>?"
+msgstr "با <command>%1</command> باز شود؟"
+
+#: src/AppChooserDialog.qml:223
+#, kde-format
+msgid "No matches"
+msgstr "بدون تطابق"
+
+#: src/AppChooserDialog.qml:225
+#, kde-kuit-format
+msgctxt "@info"
+msgid "No installed applications can open <filename>%1</filename>"
+msgstr "هیچ برنامهٔ نصب‌شده‌ای قادر به باز کردن <filename>%1</filename> نیست"
+
+#: src/AppChooserDialog.qml:244
+#, kde-format
+msgctxt "@option:check"
+msgid "Run in terminal"
+msgstr "اجرا در پایانه"
+
+#: src/AppChooserDialog.qml:252
+#, kde-format
+msgctxt "@option:check"
+msgid "Do not close when command exits"
+msgstr "پس از خروج دستور بسته نشود"
+
+#: src/background.cpp:134
+#, kde-format
+msgid "Background Activity"
+msgstr "فعالیت پس‌زمینه"
+
+#: src/background.cpp:137
+#, kde-format
+msgctxt "@info %1 is the name of an application"
+msgid ""
+"%1 wants to remain running when it has no visible windows. If you deny this "
+"request, the application will quit when its last window is closed."
+msgstr ""
+"%1 می‌خواهد زمانی که پنجرهٔ قابل مشاهده‌ای ندارد در حال اجرا بماند. اگر این "
+"درخواست را رد کنید، برنامه پس از بسته شدن آخرین پنجره‌اش بسته خواهد شد."
+
+#: src/background.cpp:143 src/background.cpp:160
+#, kde-format
+msgctxt ""
+"@action:button Allow the application to keep running with no open windows"
+msgid "Allow"
+msgstr "مجاز بودن"
+
+#: src/background.cpp:150
+#, kde-format
+msgctxt ""
+"@action:button Don't allow the application to keep running without any open "
+"windows"
+msgid "Deny"
+msgstr "رد کردن"
+
+#: src/background.cpp:154
+#, kde-format
+msgctxt ""
+"@title title of a dialog to confirm whether to allow an application to "
+"remain running with no visible windows"
+msgid "Deny Background Usage?"
+msgstr "استفاده در پس‌زمینه رد شود؟"
+
+#: src/background.cpp:156
+#, kde-format
+msgctxt "@info %1 is the name of an application"
+msgid ""
+"This will force %1 to quit when its last window is closed. This could cause "
+"data loss if the application has any unsaved changes when it happens."
+msgstr ""
+"این کار باعث می‌شود با بستن آخرین پنجره، %1 به اجبار بسته شود. در صورت وجود "
+"تغییرات ذخیره‌نشده در برنامه، این عمل ممکن است موجب از دست رفتن داده‌ها شود."
+
+#: src/background.cpp:161
+#, kde-format
+msgctxt ""
+"@action:button Don't allow the application to keep running without any open "
+"windows"
+msgid "Deny Anyway"
+msgstr "در هر حال رد شود"
+
+#: src/dynamiclauncher.cpp:78
+#, kde-format
+msgctxt "@info"
+msgid "Create Web Application Launcher?"
+msgstr "راه‌انداز برنامهٔ وب ایجاد شود؟"
+
+#: src/dynamiclauncher.cpp:83
+#, kde-format
+msgctxt "@info"
+msgid "Create Application Launcher?"
+msgstr "راه‌انداز برنامه ایجاد شود؟"
+
+#: src/dynamiclauncher.cpp:90
+#, kde-format
+msgctxt "@info"
+msgid ""
+"A launcher to open the following website will appear in application "
+"launchers:"
+msgstr ""
+"راه‌اندازی برای باز کردن وبگاه زیر در راه‌اندازهای برنامه ظاهر خواهد شد:"
+
+#: src/dynamiclauncher.cpp:95
+#, kde-format
+msgctxt "@info"
+msgid ""
+"A launcher to open the following application will appear in application "
+"launchers:"
+msgstr ""
+"راه‌اندازی برای باز کردن برنامهٔ زیر در راه‌اندازهای برنامه ظاهر خواهد شد:"
+
+#: src/DynamicLauncherDialog.qml:73
+#, kde-format
+msgctxt "@label name of a launcher/application"
+msgid "Name"
+msgstr "نام"
+
+#: src/DynamicLauncherDialog.qml:85
+#, kde-format
+msgctxt "@title Something asked to create a launcher for an app or a website"
+msgid "Launcher Requested"
+msgstr "درخواست ایجاد اجراکننده"
+
+#: src/DynamicLauncherDialog.qml:100
+#, kde-format
+msgctxt "@action edit launcher name/icon"
+msgid "Edit Info…"
+msgstr "ویرایش اطلاعات…"
+
+#: src/DynamicLauncherDialog.qml:106
+#, kde-format
+msgctxt "@action accept dialog and create launcher"
+msgid "Create"
+msgstr "ایجاد"
+
+#: src/DynamicLauncherDialog.qml:111
+#, kde-format
+msgctxt "@action"
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/filechooser.cpp:477
+#, kde-format
+msgid "Open"
+msgstr "باز کردن"
+
+#: src/globalshortcuts.cpp:107
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"The shortcut is already assigned to the action <interface>%1</interface> of "
+"<application>%2</application>. Re-enter it here to override that action."
+msgstr ""
+"میان‌بر قبلاً به کنش <interface>%1</interface> از "
+"<application>%2</application> اختصاص یافته است. آن را دوباره در اینجا وارد "
+"کنید تا جایگزین آن کنش شود."
+
+#: src/globalshortcuts.cpp:114
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"The shortcut is already assigned to the <interface>%1</interface> standard "
+"action."
+msgstr ""
+"میان‌بر قبلاً به کنش استاندارد <interface>%1</interface> اختصاص یافته است."
+
+#: src/globalshortcuts.cpp:128
+#, kde-kuit-format
+msgctxt "@info:tooltip %1 is a list of actions"
+msgid ""
+"The shortcut is assigned to multiple actions (<interface>%1</interface>)"
+msgstr "میان‌بر به چند کنش اختصاص یافته است (<interface>%1</interface>)"
+
+#: src/globalshortcuts.cpp:506
+#, kde-format
+msgid ", "
+msgstr "، "
+
+#: src/GlobalShortcutsDialog.qml:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Global Shortcuts Requested"
+msgstr "درخواست میان‌برهای سراسری"
+
+#: src/GlobalShortcutsDialog.qml:29
+#, kde-format
+msgctxt "@info"
+msgid ""
+"An unidentifiable application wants to register the following shortcut."
+msgid_plural ""
+"An unidentifiable application wants to register the following %1 shortcuts."
+msgstr[0] "یک برنامهٔ ناشناخته می‌خواهد کلید میان‌بر زیر را ثبت کند."
+msgstr[1] "یک برنامهٔ ناشناخته می‌خواهد %1 کلید میان‌بر زیر را ثبت کند."
+
+#: src/GlobalShortcutsDialog.qml:31
+#, kde-format
+msgctxt "@info %2 is the name of the application"
+msgid "%2 wants to register the following shortcut:"
+msgid_plural "%2 wants to register the following %1 shortcuts:"
+msgstr[0] "%2 می‌خواهد میان‌بر زیر را ثبت کند:"
+msgstr[1] "%2 می‌خواهد %1 میان‌بر زیر را ثبت کند:"
+
+#: src/GlobalShortcutsDialog.qml:91
+#, kde-format
+msgctxt "@action:button"
+msgid "See Other Shortcuts…"
+msgstr "دیدن میان‌برهای دیگر…"
+
+#: src/GlobalShortcutsDialog.qml:92
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "View other shortcuts registered by this application"
+msgstr "مشاهدهٔ دیگر میان‌برهای ثبت‌شده توسط این برنامه"
+
+#: src/inputcapture.cpp:116
+#, kde-format
+msgctxt "@title:notification"
+msgid "Input Capture Started"
+msgstr "گرفتن ورودی آغاز شد"
+
+#: src/inputcapture.cpp:119
+#, kde-kuit-format
+msgctxt "@info %1 is the name of the application"
+msgid ""
+"%1 has taken over the pointer and keyboard. Press <shortcut>%2</shortcut> to"
+" stop this."
+msgstr ""
+"%1 کنترل نشانگر و صفحه‌کلید را در دست گرفته است. برای متوقف کردن آن، "
+"<shortcut>%2</shortcut> را فشار دهید."
+
+#: src/inputcapture.cpp:124
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"An unidentifiable application has taken over the pointer and keyboard. Press"
+" <shortcut>%1</shortcut> to stop this."
+msgstr ""
+"یک برنامهٔ ناشناخته کنترل نشانگر و صفحه‌کلید را در دست گرفته است. برای متوقف"
+" کردن آن، <shortcut>%1</shortcut> را فشار دهید."
+
+#: src/inputcapture.cpp:225
+#, kde-format
+msgctxt "@title:nofication"
+msgid "Input Capture Approved"
+msgstr "گرفتن ورودی تأیید شد"
+
+#: src/inputcapture.cpp:227
+#, kde-format
+msgctxt "@info"
+msgid ""
+"An unidentifiable application will be able to take over the pointer and "
+"keyboard in the future."
+msgstr ""
+"یک برنامهٔ ناشناخته در آینده قادر خواهد بود کنترل نشانگر و صفحه‌کلید را در "
+"دست بگیرد."
+
+#: src/inputcapture.cpp:228
+#, kde-format
+msgctxt "@info"
+msgid "%1 will be able to take over the pointer and keyboard in the future."
+msgstr "%1 در آینده قادر خواهد بود کنترل نشانگر و صفحه‌کلید را در دست بگیرد."
+
+#: src/InputCaptureDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Input Capture Requested"
+msgstr "درخواست ضبط ورودی"
+
+#: src/InputCaptureDialog.qml:20
+#, kde-format
+msgctxt "@info"
+msgid ""
+"An unidentifiable application wants to take over the pointer and keyboard."
+msgstr "یک برنامهٔ ناشناس می‌خواهد کنترل نشانگر و صفحه‌کلید را به دست بگیرد."
+
+#: src/InputCaptureDialog.qml:21
+#, kde-format
+msgctxt "@info %1 is the name of the application"
+msgid "%1 wants take over the pointer and keyboard."
+msgstr "برنامهٔ %1 می‌خواهد کنترل نشانگر و صفحه‌کلید را به دست بگیرد."
+
+#: src/InputCaptureDialog.qml:23
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"While the application is capturing input, you will not be able to move the "
+"pointer yourself or type on the keyboard.<nl/><nl/>Only allow if you know "
+"which application made the request."
+msgstr ""
+"هنگامی که برنامه در حال ضبط ورودی است، نمی‌توانید نشانگر را حرکت دهید یا با "
+"صفحه‌کلید تایپ کنید.<nl/><nl/>فقط در صورتی اجازه دهید که بدانید کدام برنامه "
+"این درخواست را داده است."
+
+#: src/InputCaptureDialog.qml:24
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"While the application is capturing input, you will not be able to move the "
+"pointer yourself or type on the keyboard."
+msgstr ""
+"هنگامی که برنامه در حال ضبط ورودی است، نمی‌توانید نشانگر را حرکت دهید یا با "
+"صفحه‌کلید تایپ کنید."
+
+#: src/InputCaptureDialog.qml:29 src/RemoteDesktopDialog.qml:32
+#: src/ScreenChooserDialog.qml:194
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow the application to do this without asking next time"
+msgstr "اجازه دادن به برنامه برای انجام این کار در دفعات بعد بدون پرسش"
+
+#: src/InputCaptureDialog.qml:36
+#, kde-format
+msgctxt "@action:button Allow the application to monitor input"
+msgid "Allow"
+msgstr "اجازه دادن"
+
+#: src/InputCaptureDialog.qml:37
+#, kde-format
+msgctxt "@action:button Deny the application's request to monitor input"
+msgid "Deny"
+msgstr "رد کردن"
+
+#: src/kirigami-filepicker/api/mobilefiledialog.cpp:113
+#, kde-format
+msgid "Select Folder"
+msgstr "انتخاب پوشه"
+
+#: src/kirigami-filepicker/api/mobilefiledialog.cpp:116
+#, kde-format
+msgid "Open File"
+msgstr "باز کردن پرونده"
+
+#: src/kirigami-filepicker/api/mobilefiledialog.cpp:118
+#, kde-format
+msgid "Save File"
+msgstr "ذخیرهٔ پرونده"
+
+#: src/kirigami-filepicker/declarative/CreateDirectorySheet.qml:17
+#, kde-format
+msgid "Create New Folder"
+msgstr "ایجاد پوشهٔ جدید"
+
+#: src/kirigami-filepicker/declarative/CreateDirectorySheet.qml:32
+#, kde-format
+msgid "Folder name"
+msgstr "نام پوشه"
+
+#: src/kirigami-filepicker/declarative/FilePicker.qml:101
+#, kde-format
+msgid "File name"
+msgstr "نام پرونده"
+
+#: src/kirigami-filepicker/declarative/FilePicker.qml:117
+#, kde-format
+msgid "Create Folder"
+msgstr "ایجاد پوشه"
+
+#: src/kirigami-filepicker/declarative/FilePicker.qml:127
+#, kde-format
+msgid "Filter Filetype"
+msgstr "فیلتر نوع پرونده"
+
+#: src/kirigami-filepicker/declarative/FilePicker.qml:131
+#, kde-format
+msgid "Show Hidden Files"
+msgstr "نمایش پرونده‌های پنهان"
+
+#: src/kirigami-filepicker/declarative/FilePicker.qml:139
+#, kde-format
+msgid "Select"
+msgstr "انتخاب"
+
+#: src/outputsmodel.cpp:83
+#, kde-format
+msgid "Share region"
+msgstr "اشتراک‌گذاری ناحیه"
+
+#: src/outputsmodel.cpp:87
+#, kde-format
+msgid "Share virtual screen"
+msgstr "اشتراک‌گذاری صفحهٔ نمایش مجازی"
+
+#: src/outputsmodel.cpp:98 src/screencast.cpp:360
+#, kde-format
+msgid "Share full Workspace"
+msgstr "هم‌رسانی تمام فضای کاری"
+
+#: src/outputsmodel.cpp:133
+#, kde-format
+msgid "Laptop screen"
+msgstr "صفحه لپ‌تاپ"
+
+#: src/outputsmodel.cpp:372
+#, kde-format
+msgctxt "@info"
+msgid "Share the entire workspace across all screens"
+msgstr "هم‌رسانی کل فضای کاری در تمام صفحه‌ها"
+
+#: src/outputsmodel.cpp:374
+#, kde-format
+msgctxt "@info"
+msgid "Create a virtual screen, then share"
+msgstr "ایجاد یک صفحه مجازی و سپس هم‌رسانی"
+
+#: src/outputsmodel.cpp:376
+#, kde-format
+msgctxt "@info"
+msgid "Crops a specific area of your screens"
+msgstr "برش بخش مشخصی از صفحه‌های شما"
+
+#: src/PipeWireDelegate.qml:166
+#, kde-format
+msgctxt "@label:listbox size of a screen, width($1) x height($2"
+msgid "Resolution:"
+msgstr "تفکیک‌پذیری:"
+
+#: src/PipeWireDelegate.qml:200
+#, kde-format
+msgctxt "size of a screen, width($1) x height($2)"
+msgid "%1 × %2"
+msgstr "%1 × %2"
+
+#: src/PipeWireDelegate.qml:287
+#, kde-format
+msgctxt "@info:status"
+msgid "No windows open"
+msgstr "هیچ پنجره‌ای باز نیست"
+
+#: src/PipeWireDelegate.qml:292
+#, kde-format
+msgctxt "%1 is a number of elided icon entries"
+msgid "+%1"
+msgstr "+%1"
+
+#: src/PipeWireDelegate.qml:305
+#, kde-format
+msgctxt "@title %1 refers to a screen name"
+msgid "Share “%1”"
+msgstr "هم‌رسانی «%1»"
+
+#: src/region-select/RegionSelectOverlay.qml:150
+#, kde-format
+msgid "Start streaming:"
+msgstr "شروع پخش جریانی:"
+
+#: src/region-select/RegionSelectOverlay.qml:154
+#, kde-format
+msgid "Clear selection:"
+msgstr "پاک کردن انتخاب:"
+
+#: src/region-select/RegionSelectOverlay.qml:158
+#: src/region-select/RegionSelectOverlay.qml:202
+#, kde-format
+msgid "Cancel:"
+msgstr "لغو:"
+
+#: src/region-select/RegionSelectOverlay.qml:164
+#, kde-format
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "رها کردن کلیک چپ"
+
+#: src/region-select/RegionSelectOverlay.qml:168
+#, kde-format
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "کلیک راست"
+
+#: src/region-select/RegionSelectOverlay.qml:172
+#: src/region-select/RegionSelectOverlay.qml:212
+#, kde-format
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Escape"
+
+#: src/region-select/RegionSelectOverlay.qml:198
+#, kde-format
+msgid "Create selection:"
+msgstr "ایجاد انتخاب:"
+
+#: src/region-select/RegionSelectOverlay.qml:208
+#, kde-format
+msgctxt "Mouse action"
+msgid "Left-click and drag"
+msgstr "کلیک چپ و کشیدن"
+
+#: src/remotedesktop.cpp:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Remote Desktop Not Available"
+msgstr "میزکار از راه دور در دسترس نیست"
+
+#: src/remotedesktop.cpp:120
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The application <application>%1</application> tried to start a remote "
+"desktop session, but remote desktop is not available on this system. Please "
+"ensure you are running a Wayland session with a compatible window manager "
+"such as KWin."
+msgstr ""
+"برنامهٔ <application>%1</application> تلاش کرد یک نشست میزکار از راه دور را "
+"آغاز کند، اما میزکار از راه دور در این سامانه در دسترس نیست. لطفاً مطمئن "
+"شوید که یک نشست Wayland را با یک مدیر پنجرهٔ سازگار مانند KWin اجرا می‌کنید."
+
+#: src/remotedesktop.cpp:124
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The application <application>%1</application> tried to start a remote "
+"desktop session, but remote desktop is not available in X11 sessions. Please"
+" switch to a Wayland session and try again."
+msgstr ""
+"برنامهٔ <application>%1</application> تلاش کرد یک نشست میزکار دوردست را آغاز"
+" کند، اما میزکار دوردست در نشست‌های X11 در دسترس نیست. لطفاً به یک نشست "
+"Wayland بروید و دوباره تلاش کنید."
+
+#: src/remotedesktop.cpp:188 src/screencast.cpp:235
+#, kde-format
+msgid "Virtual Output"
+msgstr "خروجی مجازی"
+
+#: src/remotedesktop.cpp:189 src/screencast.cpp:236
+#, kde-format
+msgctxt "%1 is the application name"
+msgid "Virtual Output (shared with %1)"
+msgstr "خروجی مجازی (هم‌رسانی‌شده با %1)"
+
+#: src/remotedesktop.cpp:301
+#, kde-format
+msgctxt "@title:window title of notification about input systems taken over"
+msgid "Remote Control Started"
+msgstr "کنترل دوردست آغاز شد"
+
+#: src/remotedesktop.cpp:601
+#, kde-format
+msgctxt ""
+"SNI title that indicates there's a process remotely controlling the system"
+msgid "Remote Control"
+msgstr "کنترل دوردست"
+
+#: src/remotedesktopdialog.cpp:26
+#, kde-format
+msgctxt "Title of the dialog that requests remote input privileges"
+msgid "Remote Control Requested"
+msgstr "درخواست کنترل دوردست"
+
+#: src/remotedesktopdialog.cpp:42
+#, kde-format
+msgctxt "@info"
+msgid "Allow an unidentifiable application to gain remote control privileges?"
+msgstr ""
+"به یک برنامهٔ ناشناس اجازهٔ دسترسی به امتیازهای کنترل دوردست داده شود؟"
+
+#: src/remotedesktopdialog.cpp:43
+#, kde-format
+msgctxt "@info"
+msgid "Allow %1 to gain remote control privileges?"
+msgstr "به %1 اجازهٔ دسترسی به امتیازهای کنترل دوردست داده شود؟"
+
+#: src/remotedesktopdialog.cpp:49 src/ScreenshotDialog.qml:30
+#: src/UsbDialog.qml:26 src/WallpaperDialog.qml:42
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Only allow if you know which application made the request."
+msgstr ""
+"تنها در صورتی اجازه دهید که می‌دانید کدام برنامه این درخواست را داده است."
+
+#: src/remotedesktopdialog.cpp:56
+#, kde-format
+msgctxt "@info"
+msgid "The application will be able to:"
+msgstr "برنامه قادر خواهد بود:"
+
+#: src/remotedesktopdialog.cpp:56
+#, kde-format
+msgctxt "@info"
+msgid "%1 will be able to:"
+msgstr "%1 قادر خواهد بود:"
+
+#: src/remotedesktopdialog.cpp:60
+#, kde-format
+msgctxt ""
+"@info As in, 'an application requested access to see what’s on the screen'. "
+"'-' is Markdown, do not translate"
+msgid ""
+"\n"
+" - See what’s on the screen"
+msgstr ""
+"\n"
+" - مشاهدهٔ آنچه روی صفحه است"
+
+#: src/remotedesktopdialog.cpp:64
+#, kde-format
+msgctxt ""
+"@info As in, 'an application requested access to control input devices'. '-'"
+" is Markdown, do not translate"
+msgid ""
+"\n"
+" - Move the pointer and type keystrokes"
+msgstr ""
+"\n"
+" - جابه‌جایی نشانگر و فشردن کلیدها"
+
+#: src/remotedesktopdialog.cpp:72
+#, kde-format
+msgctxt "@info"
+msgid "An unidentifiable application is exercising remote control privileges:"
+msgstr ""
+"یک برنامهٔ غیرقابل شناسایی در حال استفاده از مجوزهای کنترل از راه دور است:"
+
+#: src/remotedesktopdialog.cpp:73
+#, kde-format
+msgctxt "@info"
+msgid "%1 is exercising remote control privileges:"
+msgstr "%1 در حال استفاده از مجوزهای کنترل از راه دور است:"
+
+#: src/remotedesktopdialog.cpp:77
+#, kde-format
+msgctxt ""
+"@info As in, 'an application is exercising privileges to access to see "
+"what’s on the screen'. '-' is Markdown, do not translate"
+msgid ""
+"\n"
+" - See what’s on the screen"
+msgstr ""
+"\n"
+" - مشاهدهٔ آنچه روی صفحه است"
+
+#: src/remotedesktopdialog.cpp:81
+#, kde-format
+msgctxt ""
+"@info As in, 'an application is exercising privileges to control input "
+"devices'. '-' is Markdown, do not translate"
+msgid ""
+"\n"
+" - Move the pointer and type keystrokes"
+msgstr ""
+"\n"
+" - جابه‌جایی نشانگر و فشردن کلیدها"
+
+#: src/RemoteDesktopDialog.qml:36
+#, kde-format
+msgctxt "@action:button Allow the application to gain extra privileges"
+msgid "Allow"
+msgstr "اجازه دادن"
+
+#: src/RemoteDesktopDialog.qml:37
+#, kde-format
+msgctxt "@action:button Deny the application gaining extra privileges"
+msgid "Deny"
+msgstr "رد کردن"
+
+#: src/screencast.cpp:154
+#, kde-format
+msgctxt "@title:window"
+msgid "Screen Sharing Not Available"
+msgstr "هم‌رسانی صفحه در دسترس نیست"
+
+#: src/screencast.cpp:156
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The application <application>%1</application> tried to start a screen "
+"sharing session but screen sharing is not available on this system. Please "
+"ensure you are running a Wayland session with a compatible window manager "
+"such as KWin."
+msgstr ""
+"برنامهٔ <application>%1</application> تلاش کرد تا یک نشست اشتراک‌گذاری صفحه "
+"را آغاز کند، اما اشتراک‌گذاری صفحه در این سامانه در دسترس نیست. لطفاً مطمئن "
+"شوید که در حال اجرای یک نشست ویلند (Wayland) با یک مدیر پنجرهٔ سازگار مانند "
+"KWin هستید."
+
+#: src/screencast.cpp:160
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The application <application>%1</application> tried to start a screen "
+"sharing session but screen sharing is not available in X11 sessions. Please "
+"switch to a Wayland session and try again."
+msgstr ""
+"برنامهٔ <application>%1</application> تلاش کرد تا یک نشست اشتراک‌گذاری صفحه "
+"را آغاز کند، اما اشتراک‌گذاری صفحه در نشست‌های X11 در دسترس نیست. لطفاً به "
+"یک نشست ویلند (Wayland) تغییر وضعیت داده و دوباره امتحان کنید."
+
+#: src/screencast.cpp:304
+#, kde-format
+msgctxt "Do not disturb mode is enabled because..."
+msgid "Screen sharing in progress"
+msgstr "اشتراک‌گذاری صفحه در حال انجام است"
+
+#: src/screencast.cpp:473
+#, kde-format
+msgctxt "@action:inmenu stops screen/window sharing"
+msgid "End"
+msgstr "پایان"
+
+#: src/screencast.cpp:487
+#, kde-format
+msgctxt "@info:tooltip %1 the app that receives the screencast"
+msgid "Sharing contents to %1"
+msgstr "اشتراک‌گذاری محتوا با %1"
+
+#: src/screencast.cpp:488
+#, kde-format
+msgctxt ""
+"SNI title that indicates there's a process seeing our windows or screens"
+msgid "Screen casting"
+msgstr "پخش صفحه"
+
+#: src/screenchooserdialog.cpp:201
+#, kde-format
+msgid "Share this screen with an unidentifiable application?"
+msgstr "این صفحه با یک برنامهٔ ناشناخته به اشتراک گذاشته شود؟"
+
+#: src/screenchooserdialog.cpp:203
+#, kde-format
+msgid "Share this screen with %1?"
+msgstr "این صفحه با %1 به اشتراک گذاشته شود؟"
+
+#: src/screenchooserdialog.cpp:208
+#, kde-format
+msgid "Choose screens to share with an unidentifiable application:"
+msgstr "صفحه‌ها را برای اشتراک‌گذاری با یک برنامهٔ ناشناخته انتخاب کنید:"
+
+#: src/screenchooserdialog.cpp:210
+#, kde-format
+msgid "Choose screens to share with %1:"
+msgstr "صفحه‌ها را برای اشتراک‌گذاری با %1 انتخاب کنید:"
+
+#: src/screenchooserdialog.cpp:214
+#, kde-format
+msgid "Choose a screen to share with an unidentifiable application:"
+msgstr "صفحه‌ای را برای هم‌رسانی با برنامه‌ای ناشناس انتخاب کنید:"
+
+#: src/screenchooserdialog.cpp:216
+#, kde-format
+msgid "Choose a screen to share with %1:"
+msgstr "صفحه‌ای را برای هم‌رسانی با %1 انتخاب کنید:"
+
+#: src/screenchooserdialog.cpp:225
+#, kde-format
+msgid "Share this window with an unidentifiable application?"
+msgstr "این پنجره با برنامه‌ای ناشناس هم‌رسانی شود؟"
+
+#: src/screenchooserdialog.cpp:227
+#, kde-format
+msgid "Share this window with %1?"
+msgstr "این پنجره با %1 هم‌رسانی شود؟"
+
+#: src/screenchooserdialog.cpp:232
+#, kde-format
+msgid "Choose windows to share with an unidentifiable application:"
+msgstr "پنجره‌هایی را برای هم‌رسانی با برنامه‌ای ناشناس انتخاب کنید:"
+
+#: src/screenchooserdialog.cpp:234
+#, kde-format
+msgid "Choose windows to share with %1:"
+msgstr "پنجره‌هایی را برای هم‌رسانی با %1 انتخاب کنید:"
+
+#: src/screenchooserdialog.cpp:238
+#, kde-format
+msgid "Choose a window to share with an unidentifiable application:"
+msgstr "پنجره‌ای را برای هم‌رسانی با برنامه‌ای ناشناس انتخاب کنید:"
+
+#: src/screenchooserdialog.cpp:240
+#, kde-format
+msgid "Choose a window to share with %1:"
+msgstr "پنجره‌ای را برای هم‌رسانی با %1 انتخاب کنید:"
+
+#: src/screenchooserdialog.cpp:247
+#, kde-format
+msgid ""
+"Create a new virtual display to share with an unidentifiable application:"
+msgstr "ایجاد یک نمایشگر مجازی جدید برای هم‌رسانی با برنامه‌ای ناشناس:"
+
+#: src/screenchooserdialog.cpp:249
+#, kde-format
+msgid "Create a new virtual display to share with %1:"
+msgstr "ایجاد یک نمایشگر مجازی جدید برای هم‌رسانی با %1:"
+
+#: src/screenchooserdialog.cpp:255
+#, kde-format
+msgid "Choose what to share with an unidentifiable application:"
+msgstr "انتخاب کنید چه چیزی با یک برنامهٔ ناشناخته به اشتراک گذاشته شود:"
+
+#: src/screenchooserdialog.cpp:257
+#, kde-format
+msgid "Choose what to share with %1:"
+msgstr "انتخاب کنید چه چیزی با %1 به اشتراک گذاشته شود:"
+
+#: src/screenchooserdialog.cpp:263
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Only share anything if you know which application made the request."
+msgstr ""
+"فقط در صورتی چیزی را به اشتراک بگذارید که می‌دانید کدام برنامه این درخواست "
+"را داده است."
+
+#: src/ScreenChooserDialog.qml:121
+#, kde-format
+msgctxt "placeholder text for searchfield"
+msgid "Search…"
+msgstr "جستجو…"
+
+#: src/ScreenChooserDialog.qml:167
+#, kde-format
+msgctxt ""
+"@label separator line label between screen selection and window selection"
+msgid "Windows"
+msgstr "پنجره‌ها"
+
+#: src/ScreenChooserDialog.qml:186
+#, kde-format
+msgctxt "@title:window"
+msgid "Screen Sharing Requested"
+msgstr "درخواست هم‌رسانی صفحهٔ نمایش"
+
+#: src/ScreenChooserDialog.qml:199
+#, kde-format
+msgid "Share"
+msgstr "اشتراک‌گذاری"
+
+#: src/screenshotdialog.cpp:117
+#, kde-format
+msgid "Full Screen"
+msgstr "تمام‌صفحه"
+
+#: src/screenshotdialog.cpp:118
+#, kde-format
+msgid "Current Screen"
+msgstr "صفحهٔ نمایش فعلی"
+
+#: src/screenshotdialog.cpp:119
+#, kde-format
+msgid "Active Window"
+msgstr "پنجرهٔ فعال"
+
+#: src/ScreenshotDialog.qml:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Screenshot Requested"
+msgstr "درخواست عکس صفحه"
+
+#: src/ScreenshotDialog.qml:28
+#, kde-format
+msgctxt "@info"
+msgid "Allow an unidentifiable application to take a screenshot?"
+msgstr "به یک برنامهٔ ناشناخته اجازه داده شود از صفحه عکس بگیرد؟"
+
+#: src/ScreenshotDialog.qml:29
+#, kde-format
+msgctxt "@info %1 is the name of an application"
+msgid "Allow %1 to take a screenshot?"
+msgstr "به %1 اجازه داده شود از صفحه عکس بگیرد؟"
+
+#: src/ScreenshotDialog.qml:42
+#, kde-format
+msgid "Capture Mode"
+msgstr "حالت ضبط"
+
+#: src/ScreenshotDialog.qml:46
+#, kde-format
+msgid "Area:"
+msgstr "ناحیه:"
+
+#: src/ScreenshotDialog.qml:51
+#, kde-format
+msgid "Delay:"
+msgstr "تأخیر:"
+
+#: src/ScreenshotDialog.qml:55
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 ثانیه"
+msgstr[1] "%1 ثانیه"
+
+#: src/ScreenshotDialog.qml:60
+#, kde-format
+msgid "Content Options"
+msgstr "گزینه‌های محتوا"
+
+#: src/ScreenshotDialog.qml:64
+#, kde-format
+msgctxt "@option:check Refers to the on-screen 'mouse pointer'"
+msgid "Include pointer"
+msgstr "شامل بودن نشانگر"
+
+#: src/ScreenshotDialog.qml:69
+#, kde-format
+msgid "Include window borders"
+msgstr "شامل بودن لبه‌های پنجره"
+
+#: src/ScreenshotDialog.qml:83
+#, kde-format
+msgctxt "@action:button Allow the application to use the screenshot"
+msgid "Allow"
+msgstr "اجازه‌دادن"
+
+#: src/ScreenshotDialog.qml:84
+#, kde-format
+msgctxt "@action:button Deny the application's request to take a screenshot"
+msgid "Deny"
+msgstr "ردکردن"
+
+#: src/ScreenshotDialog.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Take Screenshot"
+msgstr "گرفتن عکس صفحه"
+
+#: src/UsbDialog.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Device Access Requested"
+msgstr "درخواست دسترسی به دستگاه"
+
+#: src/UsbDialog.qml:23
+#, kde-format
+msgctxt "@info"
+msgid "Allow an unidentifiable application to access the following device?"
+msgid_plural ""
+"Allow an unidentifiable application to access the following devices?"
+msgstr[0] "به برنامه‌ای ناشناس اجازهٔ دسترسی به این دستگاه داده شود؟"
+msgstr[1] "به برنامه‌ای ناشناس اجازهٔ دسترسی به این دستگاه‌ها داده شود؟"
+
+#: src/UsbDialog.qml:24
+#, kde-format
+msgctxt "@info %2 is the name of the application"
+msgid "Allow %2 to access the following device?"
+msgid_plural "Allow %2 to access the following devices?"
+msgstr[0] "به %2 اجازهٔ دسترسی به این دستگاه داده شود؟"
+msgstr[1] "به %2 اجازهٔ دسترسی به این دستگاه‌ها داده شود؟"
+
+#: src/UsbDialog.qml:67
+#, kde-format
+msgctxt "@action:button Allow the application to access devices"
+msgid "Allow"
+msgstr "اجازه‌دادن"
+
+#: src/UsbDialog.qml:68
+#, kde-format
+msgctxt "@action:button Deny the application's request to access devices"
+msgid "Deny"
+msgstr "ردکردن"
+
+#: src/userinfodialog.cpp:52
+#, kde-format
+msgctxt "@title"
+msgid "Share user info with %1?"
+msgstr "اطلاعات کاربر با %1 هم‌رسانی شود؟"
+
+#: src/userinfodialog.cpp:56
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"The application will be able to see your username, full name, and profile "
+"picture.<nl/><nl/>The application did not provide a reason."
+msgstr ""
+"این برنامه قادر خواهد بود نام کاربری، نام کامل و تصویر نمایهٔ شما را "
+"ببیند.<nl/><nl/>برنامه دلیلی ارائه نکرده است."
+
+#: src/userinfodialog.cpp:57
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"The application will be able to see your username, full name, and profile "
+"picture.<nl/><nl/>Reason: “%1”"
+msgstr ""
+"برنامه قادر خواهد بود نام کاربری، نام کامل و تصویر نمایهٔ شما را "
+"ببیند.<nl/><nl/>دلیل: «%1»"
+
+#: src/UserInfoDialog.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "User Information Requested"
+msgstr "درخواست اطلاعات کاربر"
+
+#: src/UserInfoDialog.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "Share"
+msgstr "هم‌رسانی"
+
+#: src/WallpaperDialog.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Wallpaper Change Requested"
+msgstr "درخواست تغییر تصویر پس‌زمینه"
+
+#: src/WallpaperDialog.qml:25
+#, kde-format
+msgctxt "@info"
+msgid "Allow an unidentifiable application to change the desktop wallpaper?"
+msgstr "به برنامه‌ای ناشناس اجازهٔ تغییر تصویر پس‌زمینهٔ میزکار داده شود؟"
+
+#: src/WallpaperDialog.qml:27
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Allow an unidentifiable application to change the lock screen wallpaper?"
+msgstr "به برنامه‌ای ناشناس اجازهٔ تغییر تصویر پس‌زمینهٔ صفحهٔ قفل داده شود؟"
+
+#: src/WallpaperDialog.qml:29
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Allow an unidentifiable application to change desktop and lock screen "
+"wallpapers?"
+msgstr ""
+"به برنامه‌ای ناشناس اجازهٔ تغییر تصاویر پس‌زمینهٔ میزکار و صفحهٔ قفل داده "
+"شود؟"
+
+#: src/WallpaperDialog.qml:34
+#, kde-format
+msgctxt "@info %1 is the application name"
+msgid "Allow %1 to change the desktop wallpaper?"
+msgstr "به %1 اجازهٔ تغییر تصویر پس‌زمینهٔ میزکار داده شود؟"
+
+#: src/WallpaperDialog.qml:36
+#, kde-format
+msgctxt "@info %1 is the application name"
+msgid "Allow %1 to change the lock screen wallpaper?"
+msgstr "به %1 اجازهٔ تغییر تصویر پس‌زمینهٔ صفحهٔ قفل داده شود؟"
+
+#: src/WallpaperDialog.qml:38
+#, kde-format
+msgctxt "@info %1 is the application name"
+msgid "Allow %1 to change desktop and lock screen wallpapers?"
+msgstr "به %1 اجازهٔ تغییر تصاویر پس‌زمینهٔ میزکار و صفحهٔ قفل داده شود؟"
+
+#: src/WallpaperDialog.qml:55
+#, kde-format
+msgctxt "@action:button Allow the application to change the wallpaper"
+msgid "Allow"
+msgstr "اجازه دادن"
+
+#: src/WallpaperDialog.qml:56
+#, kde-format
+msgctxt ""
+"@action:button Deny the applicatinon's request to change the wallpaper"
+msgid "Deny"
+msgstr "رد کردن"
+
+#: src/waylandintegration.cpp:217 src/waylandintegration.cpp:260
+#, kde-format
+msgid "Failed to start screencasting"
+msgstr "شروع ضبط صفحه ناموفق بود"
+
+#: src/waylandintegration.cpp:381
+#, kde-format
+msgid "Remote desktop"
+msgstr "میزکار از راه دور"

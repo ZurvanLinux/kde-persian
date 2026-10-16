@@ -1,0 +1,147 @@
+# translation of kcmkio.po to Persian
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkio\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-10-16 00:02+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: bookmarks.ui:16
+#, kde-format
+msgid "Bookmarks"
+msgstr "نشانک‌ها"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowRoot)
+#: bookmarks.ui:23
+#, kde-format
+msgid ""
+"If this option is unchecked, bookmarks at the root of the hierarchy (not in a folder) are not displayed.\n"
+"If checked, they are gathered in a \"root\" folder."
+msgstr ""
+"اگر این گزینه علامت نخورده باشد، نشانک‌های ریشه سلسله‌مراتب (خارج از پوشه‌ها) نمایش داده نمی‌شوند.\n"
+"اگر علامت خورده باشد، در یک پوشه «ریشه» گردآوری می‌شوند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbShowRoot)
+#: bookmarks.ui:26
+#, kde-format
+msgid "&Show bookmarks without folder"
+msgstr "نمایش نشانک‌های بدون پوشه"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbFlattenTree)
+#: bookmarks.ui:37
+#, kde-format
+msgid ""
+"Sub-folders are shown within their parent by default. If you activate this option, sub-folders are displayed on their own.\n"
+"It looks less nice but it may help if you have a very big folder you want to spread in two columns."
+msgstr ""
+"پوشه‌های فرعی به‌طور پیش‌فرض درون پوشه والد خود نمایش داده می‌شوند. اگر این گزینه را فعال کنید، پوشه‌های فرعی به‌صورت مستقل نمایش داده خواهند شد.\n"
+"این حالت ظاهر کم‌زیباتری دارد اما اگر پوشه بسیار بزرگی دارید که می‌خواهید در دو ستون پخش شود، می‌تواند مفید باشد."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbFlattenTree)
+#: bookmarks.ui:40
+#, kde-format
+msgid "&Flatten bookmarks tree"
+msgstr "مسطح کردن درخت نشانک‌ها"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowPlaces)
+#: bookmarks.ui:47
+#, kde-format
+msgid ""
+"Show a box with KDE places (Home, Network, ...). Useful if you use konqueror"
+" as a file manager."
+msgstr ""
+"نمایش جعبه‌ای شامل مکان‌های KDE (خانه، شبکه، ...). در صورتی که از کنکورور "
+"به‌عنوان مدیر پرونده استفاده می‌کنید، مفید است."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbShowPlaces)
+#: bookmarks.ui:50
+#, kde-format
+msgid "Show system &places"
+msgstr "نمایش مکان‌های سیستم"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: bookmarks.ui:63
+#, kde-format
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: bookmarks.ui:71
+#, kde-format
+msgid ""
+"Folders are automatically distributed in several columns. The optimal number"
+" of columns depends on the width of the konqueror window and the number of "
+"bookmarks you have."
+msgstr ""
+"پوشه‌ها به‌طور خودکار در چند ستون توزیع می‌شوند. تعداد بهینه ستون‌ها به عرض "
+"پنجره کنکورور و تعداد نشانک‌های شما بستگی دارد."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: bookmarks.ui:74
+#, kde-format
+msgid "Number of columns to show:"
+msgstr "تعداد ستون‌ها برای نمایش:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowBackgrounds)
+#: bookmarks.ui:109
+#, kde-format
+msgid "Disable it on slow system to disable background images."
+msgstr ""
+"برای غیرفعال کردن تصاویر پس‌زمینه در سیستم‌های کند، این گزینه را غیرفعال "
+"کنید."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbShowBackgrounds)
+#: bookmarks.ui:112
+#, kde-format
+msgid "Show folder &backgrounds"
+msgstr "نمایش پس‌زمینه‌های پوشه"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_3)
+#: bookmarks.ui:138
+#, kde-format
+msgid "How much disk space is used to cache the pixmaps"
+msgstr ""
+"میزان فضای دیسک استفاده‌شده برای ذخیرهٔ موقت تصاویر نگاشت پیکسلی (pixmap)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: bookmarks.ui:141
+#, kde-format
+msgid "Pixmap Cache"
+msgstr "حافظهٔ موقت نگاشت پیکسلی"
+
+#. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
+#: bookmarks.ui:150
+#, kde-format
+msgid "Disk cache size:"
+msgstr "اندازهٔ حافظهٔ موقت دیسک:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbCacheSize)
+#: bookmarks.ui:163
+#, kde-format
+msgid " kB"
+msgstr " kB"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, clearCacheButton)
+#: bookmarks.ui:173
+#, kde-format
+msgid "Clear the pixmap cache"
+msgstr "پاک‌سازی حافظهٔ موقت نگاشت پیکسلی"
+
+#. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
+#: bookmarks.ui:176
+#, kde-format
+msgid "&Clear Cache"
+msgstr "پاک‌سازی حافظهٔ موقت"

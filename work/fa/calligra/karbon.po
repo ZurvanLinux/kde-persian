@@ -1,0 +1,661 @@
+# translation of karbon.po to Persian
+#
+# MaryamSadat Razavi <razavi@itland.ir>, 2007.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2007.
+# Mohamad Reza Mirdamadi <mohi@ubuntu.ir>, 2010, 2011.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: karbon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"PO-Revision-Date: 2026-10-15 14:59+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: common/commands/KarbonBooleanCommand.cpp:63 ui/KarbonView.cpp:762
+msgctxt "(qtundo-format)"
+msgid "Boolean Operation"
+msgstr "عملیات بولی"
+
+#. i18n: ectx: Menu (object_order)
+#: data/karbon.rc:16 data/karbon.rc:77
+#, kde-format
+msgid "&Order"
+msgstr "ترتیب"
+
+#. i18n: ectx: Menu (object_align)
+#: data/karbon.rc:23 data/karbon.rc:84
+#, kde-format
+msgid "&Align"
+msgstr "تراز"
+
+#. i18n: ectx: Menu (file)
+#: data/karbon.rc:34
+#, kde-format
+msgid "&File"
+msgstr "پرونده"
+
+#. i18n: ectx: Menu (edit)
+#: data/karbon.rc:38 data/karbon_readonly.rc:11
+#, kde-format
+msgid "&Edit"
+msgstr "ویرایش"
+
+#. i18n: ectx: Menu (view)
+#: data/karbon.rc:52 data/karbon_readonly.rc:17
+#, kde-format
+msgid "&View"
+msgstr "نما"
+
+#. i18n: ectx: Menu (object)
+#: data/karbon.rc:74
+#, kde-format
+msgid "&Object"
+msgstr "شیء"
+
+#. i18n: ectx: Menu (object_distribute)
+#: data/karbon.rc:94
+#, kde-format
+msgid "&Distribute"
+msgstr "توزیع"
+
+#. i18n: ectx: Menu (path)
+#: data/karbon.rc:113
+#, kde-format
+msgid "&Path"
+msgstr "مسیر"
+
+#. i18n: ectx: Menu (effects)
+#: data/karbon.rc:127
+#, kde-format
+msgid "Effe&cts"
+msgstr "جلوه‌ها"
+
+#. i18n: ectx: Menu (settings)
+#: data/karbon.rc:129
+#, kde-format
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: Menu (page)
+#: data/karbon.rc:137
+#, kde-format
+msgid "&Page"
+msgstr "صفحه"
+
+#. i18n: ectx: ToolBar (edit_toolbar)
+#: data/karbon.rc:150
+#, kde-format
+msgid "Edit"
+msgstr "ویرایش"
+
+#. i18n: ectx: ToolBar (object_toolbar)
+#: data/karbon.rc:156
+#, kde-format
+msgid "Object"
+msgstr "شیء"
+
+#. i18n: ectx: ToolBar (align_toolbar)
+#: data/karbon.rc:165
+#, kde-format
+msgid "Align"
+msgstr "تراز کردن"
+
+#. i18n: ectx: ToolBar (Effects)
+#: data/karbon.rc:174
+#, kde-format
+msgid "Effects"
+msgstr "جلوه‌ها"
+
+#. i18n: ectx: ToolBar (add_shape_toolbar)
+#: data/karbon.rc:177
+#, kde-format
+msgid "Add Shape"
+msgstr "افزودن شکل"
+
+#. i18n: ectx: ToolBar (view_toolbar)
+#: data/karbon_readonly.rc:25
+#, kde-format
+msgid "View"
+msgstr "نمایش"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:49
+#, kde-format
+msgid "&Flatten Path..."
+msgstr "تخت کردن مسیر..."
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:86
+#, kde-format
+msgid "Flatten Path"
+msgstr "تخت کردن مسیر"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:98
+#: plugins/refinepath/RefinePathPlugin.cpp:93
+#: plugins/roundcorners/RoundCornersPlugin.cpp:107
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:114
+#, kde-format
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:102
+#, kde-format
+msgid "Flatness:"
+msgstr "تختی:"
+
+#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:152
+msgctxt "(qtundo-format)"
+msgid "Flatten path"
+msgstr "تخت کردن مسیر"
+
+#: plugins/refinepath/KarbonPathRefineCommand.cpp:33
+msgctxt "(qtundo-format)"
+msgid "Refine path"
+msgstr "بهبود مسیر"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:49
+#, kde-format
+msgid "&Refine Path..."
+msgstr "بهبود مسیر..."
+
+#: plugins/refinepath/RefinePathPlugin.cpp:85
+#, kde-format
+msgid "Refine Path"
+msgstr "بهبود مسیر"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:97
+#, kde-format
+msgid "Subdivisions:"
+msgstr "بخش‌بندی‌ها:"
+
+#: plugins/roundcorners/RoundCornersCommand.cpp:30
+#: plugins/roundcorners/RoundCornersPlugin.cpp:79
+msgctxt "(qtundo-format)"
+msgid "Round Corners"
+msgstr "گرد کردن گوشه‌ها"
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:52
+#, kde-format
+msgid "&Round Corners..."
+msgstr "گرد کردن گوشه‌ها..."
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:95
+#, kde-format
+msgid "Round Corners"
+msgstr "گرد کردن گوشه‌ها"
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:111
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:129
+#, kde-format
+msgid "Radius:"
+msgstr "شعاع:"
+
+#: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:98
+msgctxt "(qtundo-format)"
+msgid "Whirl & pinch"
+msgstr "چرخش و نیشگون"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:53
+#, kde-format
+msgid "&Whirl/Pinch..."
+msgstr "چرخش/نیشگون..."
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:94
+#, kde-format
+msgid "Whirl Pinch"
+msgstr "چرخش و نیشگون"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:102
+#, kde-format
+msgid "Info"
+msgstr "اطلاعات"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:104
+#, kde-format
+msgid ""
+"The result of the Whirlpinch effect can be improved by refining the path "
+"shape beforehand."
+msgstr ""
+"نتیجهٔ جلوهٔ چرخش و نیشگون را می‌توان با اصلاح شکل مسیر از قبل، بهبود بخشید."
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:118
+#, kde-format
+msgid "Angle:"
+msgstr "زاویه:"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:122
+#, kde-format
+msgid "Pinch:"
+msgstr "نیشگون:"
+
+#: ui/commands/KarbonLayerReorderCommand.cpp:26
+#: ui/commands/KarbonLayerReorderCommand.cpp:38
+msgctxt "(qtundo-format)"
+msgid "Raise Layer"
+msgstr "بالا بردن لایه"
+
+#: ui/commands/KarbonLayerReorderCommand.cpp:28
+#: ui/commands/KarbonLayerReorderCommand.cpp:40
+msgctxt "(qtundo-format)"
+msgid "Lower Layer"
+msgstr "پایین بردن لایه"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:32
+#, kde-format
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:40
+#: ui/dialogs/KarbonConfigureDialog.cpp:41
+#: ui/widgets/KarbonConfigInterfacePage.cpp:41
+#, kde-format
+msgid "Interface"
+msgstr "رابط کاربری"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:45
+#: ui/dialogs/KarbonConfigureDialog.cpp:46
+#, kde-format
+msgid "Misc"
+msgstr "متفرقه"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:50
+#: ui/dialogs/KarbonConfigureDialog.cpp:51
+#, kde-format
+msgid "Grid"
+msgstr "شبکه"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:57
+#, kde-format
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "سند"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:58
+#, kde-format
+msgid "Document Settings"
+msgstr "تنظیمات سند"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:62
+#, kde-format
+msgctxt "@title:tab Author page"
+msgid "Author"
+msgstr "پدیدآور"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:63
+#, kde-format
+msgid "Author"
+msgstr "پدیدآور"
+
+#: ui/KarbonAboutData.h:20
+#, kde-format
+msgid "Karbon"
+msgstr "کربن"
+
+#: ui/KarbonAboutData.h:22
+#, kde-format
+msgid "A Vector Graphics Drawing Application."
+msgstr "برنامهٔ رسم گرافیک برداری."
+
+#: ui/KarbonAboutData.h:24
+#, kde-format
+msgid "(c) 2001-%1, The Karbon Developers"
+msgstr "© 2001-%1، توسعه‌دهندگان Karbon"
+
+#: ui/KarbonAboutData.h:29
+#, kde-format
+msgid "Anthony Fieroni"
+msgstr "آنتونی فیرونی (Anthony Fieroni)"
+
+#: ui/KarbonAboutData.h:29
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: ui/KarbonAboutData.h:30
+#, kde-format
+msgid "Carl Schwan"
+msgstr "کارل شوان (Carl Schwan)"
+
+#: ui/KarbonAboutData.h:31
+#, kde-format
+msgid "Port to Qt6"
+msgstr "انتقال به Qt6"
+
+#: ui/KarbonAboutData.h:35
+#, kde-format
+msgid "Rob Buis"
+msgstr "راب بویس (Rob Buis)"
+
+#: ui/KarbonAboutData.h:36
+#, kde-format
+msgid "Tomislav Lukman"
+msgstr "تومیسلاو لوکمن (Tomislav Lukman)"
+
+#: ui/KarbonAboutData.h:37
+#, kde-format
+msgid "Benoît Vautrin"
+msgstr "بنوآ وترن (Benoît Vautrin)"
+
+#: ui/KarbonAboutData.h:38 ui/KarbonAboutData.h:39 ui/KarbonAboutData.h:40
+#: ui/KarbonAboutData.h:41 ui/KarbonAboutData.h:42
+#, kde-format
+msgid "Bug fixes and improvements"
+msgstr "رفع اشکال‌ها و بهبودها"
+
+#: ui/KarbonAboutData.h:38
+#, kde-format
+msgid "Jan Hambrecht"
+msgstr "یان هامبرشت (Jan Hambrecht)"
+
+#: ui/KarbonAboutData.h:39
+#, kde-format
+msgid "Peter Simonsson"
+msgstr "پیتر سیمونسون"
+
+#: ui/KarbonAboutData.h:40
+#, kde-format
+msgid "Tim Beaulen"
+msgstr "تیم بولن"
+
+#: ui/KarbonAboutData.h:41
+#, kde-format
+msgid "Boudewijn Rempt"
+msgstr "بودوین رمپت"
+
+#: ui/KarbonAboutData.h:42
+#, kde-format
+msgid "Pierre Stirnweiss"
+msgstr "پیر اشتیرنویس"
+
+#: ui/KarbonAboutData.h:43
+#, kde-format
+msgid "Bug fixes"
+msgstr "رفع اشکالات"
+
+#: ui/KarbonAboutData.h:43
+#, kde-format
+msgid "Inge Wallin"
+msgstr "اینگه والین"
+
+#: ui/KarbonAboutData.h:44
+#, kde-format
+msgid "Alan Horkan"
+msgstr "آلن هورکان"
+
+#: ui/KarbonAboutData.h:44
+#, kde-format
+msgid "Helpful patches and advice"
+msgstr "وصله‌ها و توصیه‌های مفید"
+
+#. i18n translator strings
+#: ui/KarbonAboutData.h:47
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: ui/KarbonAboutData.h:47
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: ui/KarbonDocumentMergeCommand.cpp:113 ui/KarbonView.cpp:434
+msgctxt "(qtundo-format)"
+msgid "Insert graphics"
+msgstr "درج گرافیک"
+
+#: ui/KarbonView.cpp:369
+#, kde-format
+msgid "Choose Graphic to Add"
+msgstr "انتخاب گرافیک برای افزودن"
+
+#: ui/KarbonView.cpp:405
+#, kde-format
+msgid "Could not load image."
+msgstr "تصویر بارگیری نشد."
+
+#: ui/KarbonView.cpp:405 ui/KarbonView.cpp:410 ui/KarbonView.cpp:417
+#, kde-format
+msgid "Import graphic"
+msgstr "وارد کردن گرافیک"
+
+#: ui/KarbonView.cpp:410 ui/KarbonView.cpp:417
+#, kde-format
+msgid "Could not create image shape."
+msgstr "امکان ایجاد شکل تصویر وجود نداشت."
+
+#: ui/KarbonView.cpp:636
+msgctxt "(qtundo-format)"
+msgid "Mirror Horizontally"
+msgstr "آینه‌ای افقی"
+
+#: ui/KarbonView.cpp:638
+msgctxt "(qtundo-format)"
+msgid "Mirror Vertically"
+msgstr "آینه‌ای عمودی"
+
+#: ui/KarbonView.cpp:640
+msgctxt "(qtundo-format)"
+msgid "Mirror Horizontally and Vertically"
+msgstr "آینه‌ای افقی و عمودی"
+
+#: ui/KarbonView.cpp:695
+msgctxt "(qtundo-format)"
+msgid "Separate paths"
+msgstr "جداسازی مسیرها"
+
+#: ui/KarbonView.cpp:876
+#, kde-format
+msgid "Outline &Mode"
+msgstr "حالت خط دور"
+
+#: ui/KarbonView.cpp:884
+#, kde-format
+msgid "&Import Graphic..."
+msgstr "درون‌ریزی گرافیک..."
+
+#: ui/KarbonView.cpp:888
+#, kde-format
+msgid "Edit Guides"
+msgstr "ویرایش خطوط راهنما"
+
+#: ui/KarbonView.cpp:894
+#, kde-format
+msgctxt "Duplicate selection"
+msgid "&Duplicate"
+msgstr "تکثیر"
+
+#: ui/KarbonView.cpp:899
+#, kde-format
+msgid "Distribute Center (Horizontal)"
+msgstr "توزیع نسبت به مرکز (افقی)"
+
+#: ui/KarbonView.cpp:903
+#, kde-format
+msgid "Distribute Gaps (Horizontal)"
+msgstr "توزیع فاصله‌ها (افقی)"
+
+#: ui/KarbonView.cpp:907
+#, kde-format
+msgid "Distribute Left Borders"
+msgstr "توزیع بر اساس لبه‌های چپ"
+
+#: ui/KarbonView.cpp:911
+#, kde-format
+msgid "Distribute Right Borders"
+msgstr "توزیع بر اساس لبه‌های راست"
+
+#: ui/KarbonView.cpp:915
+#, kde-format
+msgid "Distribute Center (Vertical)"
+msgstr "توزیع نسبت به مرکز (عمودی)"
+
+#: ui/KarbonView.cpp:919
+#, kde-format
+msgid "Distribute Gaps (Vertical)"
+msgstr "توزیع فاصله‌ها (عمودی)"
+
+#: ui/KarbonView.cpp:923
+#, kde-format
+msgid "Distribute Bottom Borders"
+msgstr "توزیع بر اساس لبه‌های پایین"
+
+#: ui/KarbonView.cpp:927
+#, kde-format
+msgid "Distribute Top Borders"
+msgstr "توزیع لبه‌های بالا"
+
+#: ui/KarbonView.cpp:931
+#, kde-format
+msgid "Show Color Palette"
+msgstr "نمایش پالت رنگ"
+
+#: ui/KarbonView.cpp:933
+#, kde-format
+msgid "Show or hide color palette"
+msgstr "نمایش یا پنهان کردن پالت رنگ"
+
+#: ui/KarbonView.cpp:937
+#, kde-format
+msgid "&Clip Object"
+msgstr "برش شیء"
+
+#: ui/KarbonView.cpp:941
+#, kde-format
+msgid "&Unclip Objects"
+msgstr "لغو برش اشیاء"
+
+#: ui/KarbonView.cpp:945
+#, kde-format
+msgid "Mirror Vertically"
+msgstr "آینه‌ای عمودی"
+
+#: ui/KarbonView.cpp:949
+#, kde-format
+msgid "Mirror Horizontally"
+msgstr "آینه‌ای افقی"
+
+#: ui/KarbonView.cpp:956
+#, kde-format
+msgid "&Close Path"
+msgstr "بستن مسیر"
+
+#: ui/KarbonView.cpp:962
+#, kde-format
+msgid "Com&bine Path"
+msgstr "ترکیب مسیر"
+
+#: ui/KarbonView.cpp:968
+#, kde-format
+msgid "Se&parate Path"
+msgstr "تفکیک مسیر"
+
+#: ui/KarbonView.cpp:974
+#, kde-format
+msgid "Re&verse Path"
+msgstr "معکوس‌کردن مسیر"
+
+#: ui/KarbonView.cpp:980
+#, kde-format
+msgid "Intersect Paths"
+msgstr "اشتراک مسیرها"
+
+#: ui/KarbonView.cpp:986
+#, kde-format
+msgid "Subtract Paths"
+msgstr "تفریق مسیرها"
+
+#: ui/KarbonView.cpp:992
+#, kde-format
+msgid "Unite Paths"
+msgstr "اجتماع مسیرها"
+
+#: ui/KarbonView.cpp:998
+#, kde-format
+msgid "Exclude Paths"
+msgstr "استثناکردن مسیرها"
+
+#: ui/KarbonView.cpp:1004
+#, kde-format
+msgid "Snap Path to Grid"
+msgstr "جذب مسیر به شبکه"
+
+#: ui/KarbonView.cpp:1012
+#, kde-format
+msgid "Zoom to Selection"
+msgstr "بزرگ‌نمایی تا اندازهٔ انتخاب"
+
+#: ui/KarbonView.cpp:1016
+#, kde-format
+msgid "Zoom to Drawing"
+msgstr "بزرگ‌نمایی تا اندازهٔ طرح"
+
+#: ui/KarbonZoomController.cpp:55
+#, kde-format
+msgid "Zoom"
+msgstr "بزرگ‌نمایی"
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:58
+#, kde-format
+msgid "Show status bar:"
+msgstr "نمایش نوار وضعیت:"
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:64
+#, kde-format
+msgid "Number of recent files:"
+msgstr "تعداد پرونده‌های اخیر:"
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:70
+#, kde-format
+msgid "Palette font size:"
+msgstr "اندازهٔ قلم پالت:"
+
+#: ui/widgets/KarbonPaletteBarWidget.cpp:51
+#, kde-format
+msgid "Select palette"
+msgstr "انتخاب پالت"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:46
+#, kde-format
+msgid "Press to apply fill to selection"
+msgstr "فشار دهید تا رنگ‌آمیزی روی انتخاب اعمال شود"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:88
+#, kde-format
+msgctxt "The style has no fill"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:110
+#, kde-format
+msgid "Press to apply stroke to selection"
+msgstr "فشار دهید تا خط دور روی انتخاب اعمال شود"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:159
+#, kde-format
+msgctxt "The style has a custom stroking"
+msgid "Custom"
+msgstr "سفارشی"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:165
+#, kde-format
+msgctxt "The style has no stroking"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:185
+#, kde-format
+msgid "Stroke:"
+msgstr "خط دور:"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:190
+#, kde-format
+msgid "Fill:"
+msgstr "رنگ‌آمیزی:"

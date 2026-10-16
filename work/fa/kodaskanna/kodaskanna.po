@@ -1,0 +1,170 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kodaskanna package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kodaskanna\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-29 00:43+0000\n"
+"PO-Revision-Date: 2026-10-15 23:55+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/app/main.cpp:30
+#, kde-format
+msgid "Kodaskanna"
+msgstr "Kodaskanna"
+
+#: src/app/main.cpp:32
+#, kde-format
+msgid "Utility to scan data from codes in graphical sources."
+msgstr "ابزاری برای اسکن داده‌ها از کدها در منابع گرافیکی."
+
+#: src/app/main.cpp:34
+#, kde-format
+msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
+msgstr "حق نشر ۲۰۲۲، ۲۰۲۴، Friedrich W. H. Kossebau"
+
+#: src/app/main.cpp:38
+#, kde-format
+msgid "Friedrich W. H. Kossebau"
+msgstr "Friedrich W. H. Kossebau"
+
+#: src/app/main.cpp:38
+#, kde-format
+msgid "Author"
+msgstr "پدیدآور"
+
+#: src/app/main.cpp:47
+#, kde-format
+msgid "Image file to open."
+msgstr "پرونده تصویر برای باز کردن."
+
+#: src/app/main.cpp:48
+#, kde-format
+msgid "Enable only one scan."
+msgstr "فعال‌سازی تنها یک اسکن."
+
+#: src/clipboardexport/tool.cpp:36
+#, kde-format
+msgctxt "@action"
+msgid "Copy Text to Clipboard"
+msgstr "رونوشت از متن در تخته‌گیره"
+
+#: src/clipboardexport/tool.cpp:40
+#, kde-format
+msgctxt "@action"
+msgid "Copy Data to Clipboard"
+msgstr "رونوشت از داده در تخته‌گیره"
+
+#: src/fileexport/tool.cpp:35
+#, kde-format
+msgctxt "@action"
+msgid "Save Text As…"
+msgstr "ذخیرهٔ متن به عنوان…"
+
+#: src/fileexport/tool.cpp:39
+#, kde-format
+msgctxt "@action"
+msgid "Save Data As…"
+msgstr "ذخیرهٔ داده به عنوان…"
+
+#: src/fileexport/tool.cpp:67
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Text As"
+msgstr "ذخیرهٔ متن به عنوان"
+
+#: src/fileexport/tool.cpp:84
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Data As"
+msgstr "ذخیرهٔ داده به عنوان"
+
+#: src/imagesource/imageselecttool.cpp:66
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "باز کردن تصویر"
+
+#: src/imagesource/imageselectwidget.cpp:93
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No suitable data on the clipboard."
+msgstr "هیچ دادهٔ مناسبی در تخته‌گیره وجود ندارد."
+
+#. i18n: ectx: property (text), widget (QPushButton, openFileButton)
+#: src/imagesource/imageselectwidget.ui:49
+#, kde-format
+msgid "Select a File"
+msgstr "انتخاب یک پرونده"
+
+#. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
+#: src/imagesource/imageselectwidget.ui:89
+#, kde-format
+msgid "Paste from Clipboard"
+msgstr "چسباندن از تخته‌گیره"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/imagesource/imageselectwidget.ui:114
+#, kde-format
+msgid "or"
+msgstr "یا"
+
+#. i18n: ectx: property (text), widget (QLabel, dropMessage)
+#: src/imagesource/imageselectwidget.ui:121
+#, kde-format
+msgid "Drop an image here"
+msgstr "تصویری را اینجا رها کنید"
+
+#: src/imagesource/loadimagejob.cpp:98
+#, kde-format
+msgid "Could not load image from stdin."
+msgstr "بارگیری تصویر از stdin امکان‌پذیر نبود."
+
+#: src/imagesource/loadimagejob.cpp:100
+#, kde-format
+msgid "Could not load image from file %1."
+msgstr "بارگیری تصویر از پروندهٔ %1 امکان‌پذیر نبود."
+
+#: src/imagesource/tool.cpp:95
+#, kde-format
+msgid "Could not scan code in the image."
+msgstr "پویش کد در تصویر انجام نشد."
+
+#: src/imagesource/tool.cpp:97
+#, kde-format
+msgid "Code in the image successfully scanned."
+msgstr "کد موجود در تصویر با موفقیت پویش شد."
+
+#: src/purposeplugin/launchjob.cpp:34
+#, kde-format
+msgid "Need one URL."
+msgstr "به یک نشانی اینترنتی نیاز است."
+
+#: src/purposeplugin/launchjob.cpp:43
+#, kde-format
+msgid "Could not find Kodaskanna."
+msgstr "Kodaskanna پیدا نشد."
+
+#: src/sourcenavigation/tool.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Choose Another Source"
+msgstr "انتخاب منبعی دیگر"

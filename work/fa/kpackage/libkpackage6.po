@@ -1,0 +1,339 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the libkpackage6 package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: libkpackage6\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:49+0000\n"
+"PO-Revision-Date: 2026-10-16 00:16+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: kpackage/private/packagejobthread.cpp:164
+#, kde-format
+msgid "Could not create package root directory: %1"
+msgstr "ایجاد شاخهٔ ریشهٔ بسته ممکن نشد: %1"
+
+#: kpackage/private/packagejobthread.cpp:173
+#, kde-format
+msgid "No such file: %1"
+msgstr "چنین پرونده‌ای وجود ندارد: %1"
+
+#: kpackage/private/packagejobthread.cpp:203
+#, kde-format
+msgid "Could not open package file, unsupported archive format: %1 %2"
+msgstr "گشودن پروندهٔ بسته ممکن نشد، قالب بایگانی پشتیبانی نمی‌شود: %1 %2"
+
+#: kpackage/private/packagejobthread.cpp:211
+#, kde-format
+msgid "Could not open package file: %1"
+msgstr "گشودن پروندهٔ بسته ممکن نشد: %1"
+
+#: kpackage/private/packagejobthread.cpp:238
+#, kde-format
+msgid "Package is not considered valid"
+msgstr "بسته معتبر شناخته نمی‌شود"
+
+#: kpackage/private/packagejobthread.cpp:248
+#, kde-format
+msgid "Package plugin id not specified: %1"
+msgstr "شناسهٔ افزایهٔ بسته مشخص نشده است: %1"
+
+#: kpackage/private/packagejobthread.cpp:258
+#, kde-format
+msgid "Package plugin id %1 contains invalid characters"
+msgstr "شناسهٔ افزایهٔ بسته %1 شامل نویسه‌های نامعتبر است"
+
+#: kpackage/private/packagejobthread.cpp:277
+#, kde-format
+msgid ""
+"The new package has a different type from the old version already installed."
+msgstr "نوع بستهٔ جدید با نسخهٔ قدیمی که از قبل نصب شده متفاوت است."
+
+#: kpackage/private/packagejobthread.cpp:282
+#, kde-format
+msgid ""
+"Impossible to remove the old installation of %1 located at %2. error: %3"
+msgstr "امکان حذف نسخهٔ نصب‌شدهٔ قبلی %1 واقع در %2 وجود ندارد. خطا: %3"
+
+#: kpackage/private/packagejobthread.cpp:286
+#, kde-format
+msgid "Not installing version %1 of %2. Version %3 already installed."
+msgstr "نسخهٔ %1 از %2 نصب نمی‌شود. نسخهٔ %3 از قبل نصب شده است."
+
+#: kpackage/private/packagejobthread.cpp:290
+#, kde-format
+msgid "%1 already exists"
+msgstr "%1 از قبل وجود دارد"
+
+#: kpackage/private/packagejobthread.cpp:311
+#, kde-format
+msgid "Could not install dependency: '%1'"
+msgstr "وابستگی «%1» نصب نشد"
+
+#: kpackage/private/packagejobthread.cpp:323
+#, kde-format
+msgid "Could not move package to destination: %1"
+msgstr "انتقال بسته به مقصد ممکن نشد: %1"
+
+#: kpackage/private/packagejobthread.cpp:333
+#, kde-format
+msgid "Could not copy package to destination: %1"
+msgstr "رونوشت از بسته در مقصد ممکن نشد: %1"
+
+#: kpackage/private/packagejobthread.cpp:368
+#, kde-format
+msgid "package path was deleted manually"
+msgstr "مسیر بسته به‌صورت دستی حذف شده است"
+
+#: kpackage/private/packagejobthread.cpp:368
+#, kde-format
+msgid "%1 does not exist"
+msgstr "%1 وجود ندارد"
+
+#: kpackage/private/packagejobthread.cpp:388
+#, kde-format
+msgid "Could not delete package from: %1"
+msgstr "حذف بسته از %1 ممکن نشد"
+
+#: kpackagetool/kpackagetool.cpp:87
+#, kde-format
+msgid "Failed to generate a Package hash for %1"
+msgstr "تولید هش بسته برای %1 ناموفق بود"
+
+#: kpackagetool/kpackagetool.cpp:90
+#, kde-format
+msgid "SHA1 hash for Package at %1: '%2'"
+msgstr "درهم‌سازی SHA1 برای بسته در %1: «%2»"
+
+#: kpackagetool/kpackagetool.cpp:145
+#, kde-format
+msgid "Listing KPackageType: %1 in %2"
+msgstr "فهرست کردن KPackageType: %1 در %2"
+
+#: kpackagetool/kpackagetool.cpp:198
+#, kde-format
+msgid "Error: Plugin %1 is not installed."
+msgstr "خطا: افزونهٔ %1 نصب نشده است."
+
+#: kpackagetool/kpackagetool.cpp:212
+#, kde-format
+msgctxt ""
+"No option was given, this is the error message telling the user he needs at "
+"least one, do not translate install, remove, upgrade nor list"
+msgid "One of install, remove, upgrade or list is required."
+msgstr "یکی از موارد install،‏ remove،‏ upgrade یا list الزامی است."
+
+#: kpackagetool/kpackagetool.cpp:255 kpackagetool/kpackagetool.cpp:333
+#, kde-format
+msgid "Error: Can't find plugin metadata: %1\n"
+msgstr "خطا: فرادادهٔ افزونه پیدا نمی‌شود: %1\n"
+
+#: kpackagetool/kpackagetool.cpp:259
+#, kde-format
+msgid "Showing info for package: %1"
+msgstr "نمایش اطلاعات بسته: %1"
+
+#: kpackagetool/kpackagetool.cpp:260
+#, kde-format
+msgid "  Name       : %1"
+msgstr "  نام        : %1"
+
+#: kpackagetool/kpackagetool.cpp:261
+#, kde-format
+msgid "  Description: %1"
+msgstr "  توضیحات: %1"
+
+#: kpackagetool/kpackagetool.cpp:262
+#, kde-format
+msgid "  Plugin     : %1"
+msgstr "  افزونه     : %1"
+
+#: kpackagetool/kpackagetool.cpp:268
+#, kde-format
+msgid "  Author     : %1"
+msgstr "  پدیدآور    : %1"
+
+#: kpackagetool/kpackagetool.cpp:269
+#, kde-format
+msgid "  Path       : %1"
+msgstr "  مسیر       : %1"
+
+#: kpackagetool/kpackagetool.cpp:429
+#, kde-format
+msgctxt ""
+"The user entered conflicting options packageroot and global, this is the "
+"error message telling the user he can use only one"
+msgid ""
+"The packageroot and global options conflict with each other, please select "
+"only one."
+msgstr ""
+"گزینه‌های packageroot و global با یکدیگر تداخل دارند، لطفاً فقط یکی را "
+"انتخاب کنید."
+
+#: kpackagetool/kpackagetool.cpp:457
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr "نام ساختار KPackage"
+
+#: kpackagetool/kpackagetool.cpp:458
+#, kde-format
+msgid "Path"
+msgstr "مسیر"
+
+#: kpackagetool/kpackagetool.cpp:489
+#, kde-format
+msgid "Package types that are installable with this tool:"
+msgstr "انواع بسته‌های قابل‌نصب با این ابزار:"
+
+#: kpackagetool/kpackagetool.cpp:490
+#, kde-format
+msgid "Built in:"
+msgstr "توکار:"
+
+#: kpackagetool/kpackagetool.cpp:493
+#, kde-format
+msgid "KPackage/Generic"
+msgstr "KPackage/عمومی"
+
+#: kpackagetool/kpackagetool.cpp:494
+#, kde-format
+msgid "KPackage/GenericQML"
+msgstr "KPackage/عمومی QML"
+
+#: kpackagetool/kpackagetool.cpp:502
+#, kde-format
+msgid "Provided by plugins:"
+msgstr "ارائه‌شده توسط افزایه‌ها:"
+
+#: kpackagetool/kpackagetool.cpp:524
+#, kde-format
+msgid "Successfully upgraded %1"
+msgstr "ارتقای موفقیت‌آمیز %1"
+
+#: kpackagetool/kpackagetool.cpp:526
+#, kde-format
+msgid "Successfully installed %1"
+msgstr "%1 با موفقیت نصب شد"
+
+#: kpackagetool/kpackagetool.cpp:529
+#, kde-format
+msgid "Error: Installation of %1 failed: %2"
+msgstr "خطا: نصب %1 ناموفق بود: %2"
+
+#: kpackagetool/kpackagetool.cpp:541
+#, kde-format
+msgid "Upgrading package from file: %1"
+msgstr "در حال ارتقای بسته از پرونده: %1"
+
+#: kpackagetool/kpackagetool.cpp:548
+#, kde-format
+msgid "Successfully uninstalled %1"
+msgstr "%1 با موفقیت حذف شد"
+
+#: kpackagetool/kpackagetool.cpp:550
+#, kde-format
+msgid "Error: Uninstallation of %1 failed: %2"
+msgstr "خطا: حذف %1 ناموفق بود: %2"
+
+#: kpackagetool/main.cpp:36
+#, kde-format
+msgid "KPackage Manager"
+msgstr "مدیر KPackage"
+
+#: kpackagetool/options.h:11
+#, kde-format
+msgctxt "Do not translate <path>"
+msgid "Generate a SHA1 hash for the package at <path>"
+msgstr "تولید یک درهم‌ساز SHA1 برای بسته در <path>"
+
+#: kpackagetool/options.h:18
+#, kde-format
+msgid "For install or remove, operates on packages installed for all users."
+msgstr "برای نصب یا حذف، روی بسته‌های نصب‌شده برای همهٔ کاربران اعمال می‌شود."
+
+#: kpackagetool/options.h:27
+#, kde-format
+msgctxt ""
+"theme, wallpaper, etc. are keywords, but they may be translated, as both "
+"versions are recognized by the application (if translated, should be same as"
+" messages with 'package type' context below)"
+msgid ""
+"The type of package, corresponding to the service type of the package "
+"plugin, e.g. KPackage/Generic, Plasma/Theme, Plasma/Wallpaper, "
+"Plasma/Applet, etc."
+msgstr ""
+"نوع بسته، مطابق با نوع خدمت افزونهٔ بسته، مانند KPackage/Generic، "
+"Plasma/Theme، Plasma/Wallpaper، Plasma/Applet و غیره."
+
+#: kpackagetool/options.h:36
+#, kde-format
+msgctxt "Do not translate <path>"
+msgid "Install the package at <path>"
+msgstr "نصب بسته در <path>"
+
+#: kpackagetool/options.h:43
+#, kde-format
+msgctxt "Do not translate <name>"
+msgid "Show information of package <name>"
+msgstr "نمایش اطلاعات بستهٔ <name>"
+
+#: kpackagetool/options.h:50
+#, kde-format
+msgctxt "Do not translate <path>"
+msgid "Upgrade the package at <path>"
+msgstr "ارتقای بسته در <path>"
+
+#: kpackagetool/options.h:56
+#, kde-format
+msgid "List installed packages"
+msgstr "فهرست بسته‌های نصب‌شده"
+
+#: kpackagetool/options.h:61
+#, kde-format
+msgid "List all known package types that can be installed"
+msgstr "فهرست همهٔ انواع بسته‌های شناخته‌شده که می‌توانند نصب شوند"
+
+#: kpackagetool/options.h:67
+#, kde-format
+msgctxt "Do not translate <name>"
+msgid "Remove the package named <name>"
+msgstr "حذف بسته با نام <name>"
+
+#: kpackagetool/options.h:74
+#, kde-format
+msgid ""
+"Absolute path to the package root. If not supplied, then the standard data "
+"directories for this KDE session will be searched instead."
+msgstr ""
+"مسیر مطلق به ریشهٔ بسته. در صورت مشخص نشدن، شاخه‌های دادهٔ استاندارد این "
+"نشست KDE جست‌وجو خواهند شد."
+
+#: kpackagetool/options.h:82
+#, kde-format
+msgctxt "Do not translate <path>"
+msgid "Outputs the metadata for the package <path>"
+msgstr "خروجی دادن فراداده برای بستهٔ <path>"
+
+#: kpackagetool/options.h:89
+#, kde-format
+msgctxt "Do not translate <path>"
+msgid "Outputs the metadata for the package into <path>"
+msgstr "خروجی دادن فراداده برای بسته به <path>"

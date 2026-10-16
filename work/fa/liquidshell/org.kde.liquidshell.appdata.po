@@ -1,0 +1,173 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the org.kde.liquidshell.appdata package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.liquidshell.appdata\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-14 00:46+0000\n"
+"PO-Revision-Date: 2026-10-16 01:06+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. (itstool) path: component/name
+#: org.kde.liquidshell.appdata.xml:4
+msgid "liquidshell"
+msgstr "liquidshell"
+
+#. (itstool) path: component/summary
+#. (itstool) path: description/p
+#: org.kde.liquidshell.appdata.xml:5 org.kde.liquidshell.appdata.xml:10
+msgid "liquidshell is an alternative to plasmashell"
+msgstr "liquidshell جایگزینی برای plasmashell است"
+
+#. (itstool) path: description/p
+#: org.kde.liquidshell.appdata.xml:11
+msgid ""
+"It does not use QtQuick but instead relies on QtWidgets, therefore no "
+"hardware graphics acceleration is needed."
+msgstr ""
+"از QtQuick استفاده نمی‌کند بلکه بر QtWidgets متکی است، بنابراین به "
+"شتاب‌دهنده گرافیکی سخت‌افزاری نیازی ندارد."
+
+#. (itstool) path: description/p
+#: org.kde.liquidshell.appdata.xml:13
+msgid "Main Features:"
+msgstr "ویژگی‌های اصلی:"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:15
+msgid "Wallpaper per virtual desktop"
+msgstr "تصویر پس‌زمینه مجزا برای هر میزکار مجازی"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:16
+msgid "No animations, no CPU hogging, low Memory footprint"
+msgstr "بدون پویانمایی، بدون اشغال بیش از حد پردازنده، ردپای کم در حافظه"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:17
+msgid "Instant startup"
+msgstr "راه‌اندازی فوری"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:18
+msgid "No use of activities"
+msgstr "عدم استفاده از فعالیت‌ها (Activities)"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:19
+msgid "QtWidgets based, therefore follows widget style from systemsettings"
+msgstr ""
+"مبتنی بر QtWidgets، بنابراین از سبک ویجت‌های systemsettings پیروی می‌کند"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:20
+msgid ""
+"Icons are used from your globally defined icon theme from systemsettings"
+msgstr "از نمادهای تم نماد سراسری تعیین‌شده در systemsettings استفاده می‌شود"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:21
+msgid ""
+"Colors are used from your globally defined color theme from systemsettings"
+msgstr ""
+"رنگ‌ها از تم رنگی سراسری تعریف‌شدهٔ شما در تنظیمات سیستم (systemsettings) "
+"گرفته می‌شوند"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:22
+msgid ""
+"Can additionally be styled with css by passing the commandline option "
+"-stylesheet filename.css (see included example stylesheet.css)"
+msgstr ""
+"می‌توان علاوه بر این، با استفاده از گزینهٔ خط فرمان ‎-stylesheet "
+"filename.css‎ به آن سبک css داد (نمونهٔ موجود stylesheet.css را ببینید)"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:23
+msgid ""
+"uses existing KDE dialogs for most configurations, e.g. StartMenu, Virtual "
+"Desktops, Bluetooth, Network"
+msgstr ""
+"برای بیشتر پیکربندی‌ها از کادرهای گفتگوی موجود KDE استفاده می‌کند، مانند "
+"منوی آغاز، میزکارهای مجازی، بلوتوث، شبکه"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:24
+msgid "One bottom DesktopPanel"
+msgstr "یک پانل میزکار در پایین"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:25
+msgid "Desktop Applets"
+msgstr "برنامک‌های میزکار"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:43
+msgid "Added install options (sleep/shutdown after install)"
+msgstr "گزینه‌های نصب اضافه شد (به خواب رفتن/خاموش شدن پس از نصب)"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:44
+msgid "Improved EULA handling on package installation"
+msgstr "بهبود مدیریت توافق‌نامهٔ کاربر نهایی (EULA) هنگام نصب بسته"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:45
+msgid "Added long format of time and date display to calendar popup"
+msgstr "نمایش قالب طولانی تاریخ و ساعت به پنجرهٔ بازشوی تقویم اضافه شد"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:46
+msgid "Create default folder for storing quicklaunch apps"
+msgstr "ایجاد پوشهٔ پیش‌فرض برای ذخیرهٔ برنامه‌های راه‌اندازی سریع"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:47
+msgid "SysLoad widget width depends on CPU count"
+msgstr "عرض ابزارک بار سیستم (SysLoad) به تعداد پردازنده‌ها بستگی دارد"
+
+#. (itstool) path: ul/li
+#. (itstool) path: description/p
+#: org.kde.liquidshell.appdata.xml:48 org.kde.liquidshell.appdata.xml:54
+msgid "Bugfixes and adjustments to newer KDE components"
+msgstr "رفع اشکالات و سازگاری با مؤلفه‌های جدیدتر KDE"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:60
+msgid "Notifications show how long they remain open (small animation)"
+msgstr "اعلان‌ها مدت‌زمان باز ماندن خود را نشان می‌دهند (پویانمایی کوچک)"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:61
+msgid "Weather Applet shows moon phase"
+msgstr "برنامک آب‌وهوا وضعیت ماه را نشان می‌دهد"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:62
+msgid ""
+"Disk Usage Applet watches for mount/unmount to react quicker for update"
+msgstr ""
+"برنامک مصرف دیسک، سوار/پیاده شدن را برای واکنش سریع‌تر جهت به‌روزرسانی زیر "
+"نظر می‌گیرد"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:63
+msgid "Display improvements in software updates component"
+msgstr "بهبودهای نمایشی در مؤلفهٔ به‌روزرسانی‌های نرم‌افزار"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:64
+msgid ""
+"Added DBUS-Menu support (some apps don't provide own menu but only via DBUS,"
+" e.g. MS teams)"
+msgstr ""
+"پشتیبانی از DBUS-Menu اضافه شد (برخی برنامه‌ها منوی اختصاصی ارائه نمی‌دهند و"
+" فقط از طریق DBUS در دسترس هستند، مانند MS Teams)"

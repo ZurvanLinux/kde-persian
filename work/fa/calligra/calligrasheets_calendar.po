@@ -1,0 +1,123 @@
+# translation of kspreadinsertcalendar.po to Persian
+#
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2007.
+# Mohamad Reza Mirdamadi <mohi@ubuntu.ir>, 2010.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kspreadinsertcalendar\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"PO-Revision-Date: 2026-10-15 14:55+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CalendarTool.cpp:62
+#, kde-format
+msgid ""
+"End date is before start date! Please make sure that end date comes after "
+"start date."
+msgstr ""
+"تاریخ پایان قبل از تاریخ شروع است! لطفاً مطمئن شوید که تاریخ پایان بعد از "
+"تاریخ شروع قرار دارد."
+
+#: CalendarTool.cpp:62 CalendarTool.cpp:69
+#, kde-format
+msgid "Error"
+msgstr "خطا"
+
+#: CalendarTool.cpp:68
+#, kde-format
+msgid ""
+"Calendars should not be longer than 10 years. If you really need such long "
+"periods you need to split them up."
+msgstr ""
+"تقویم‌ها نباید طولانی‌تر از ۱۰ سال باشند. اگر واقعاً به چنین دوره‌های طولانی"
+" نیاز دارید، باید آن‌ها را تقسیم کنید."
+
+#: CalendarTool.cpp:76
+#, kde-format
+msgid ""
+"Start and end dates are equal! Only one day will be inserted, do you want to"
+" continue?"
+msgstr ""
+"تاریخ‌های شروع و پایان یکسان هستند! فقط یک روز درج خواهد شد، آیا می‌خواهید "
+"ادامه دهید؟"
+
+#: CalendarTool.cpp:77 CalendarTool.cpp:87 CalendarTool.cpp:111
+#, kde-format
+msgid "Warning"
+msgstr "هشدار"
+
+#: CalendarTool.cpp:86
+#, kde-format
+msgid ""
+"Creating a calendar for a longer period than a year can take up a lot of "
+"space, do you want to continue?"
+msgstr ""
+"ایجاد تقویم برای دوره‌ای طولانی‌تر از یک سال ممکن است فضای زیادی اشغال کند، "
+"آیا می‌خواهید ادامه دهید؟"
+
+#: CalendarTool.cpp:109
+#, kde-format
+msgid ""
+"The area where the calendar is inserted is NOT empty, are you sure you want "
+"to continue, overwriting existing data? If you choose No the area that would"
+" be required for the desired calendar will be selected so you can see what "
+"data would be overwritten."
+msgstr ""
+"ناحیه‌ای که تقویم در آن درج می‌شود خالی نیست، آیا مطمئن هستید که می‌خواهید "
+"ادامه دهید و داده‌های موجود بازنویسی شوند؟ اگر «خیر» را انتخاب کنید، ناحیهٔ "
+"مورد نیاز برای تقویم دلخواه انتخاب خواهد شد تا بتوانید ببینید چه داده‌هایی "
+"بازنویسی می‌شوند."
+
+#: CalendarTool.cpp:120
+msgctxt "(qtundo-format)"
+msgid "Insert Calendar"
+msgstr "درج تقویم"
+
+#: CalendarTool.cpp:126
+#, kde-format
+msgid "Calendar from %1 to %2"
+msgstr "تقویم از %1 تا %2"
+
+#: CalendarTool.cpp:166
+#, kde-format
+msgid "week"
+msgstr "هفته"
+
+#: CalendarToolFactory.cpp:22
+#, kde-format
+msgid "Calendar"
+msgstr "تقویم"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CalendarToolWidget)
+#: CalendarToolWidget.ui:14
+#, kde-format
+msgid "Calendar Tool"
+msgstr "ابزار تقویم"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_insertButton)
+#: CalendarToolWidget.ui:20
+#, kde-format
+msgid "Insert"
+msgstr "درج"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: CalendarToolWidget.ui:27
+#, kde-format
+msgid "End date:"
+msgstr "تاریخ پایان:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: CalendarToolWidget.ui:47
+#, kde-format
+msgid "Start date:"
+msgstr "تاریخ شروع:"

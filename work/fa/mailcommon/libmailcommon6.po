@@ -1,0 +1,3109 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the libmailcommon6 package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: libmailcommon6\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-29 00:46+0000\n"
+"PO-Revision-Date: 2026-10-16 01:07+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: collectionpage/collectionexpirypage.cpp:23
+#, kde-format
+msgctxt "@title:tab Expiry settings for a folder."
+msgid "Expiry"
+msgstr "انقضا"
+
+#: collectionpage/collectionexpirywidget.cpp:36
+#, kde-format
+msgctxt "Expire messages after %1"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] "%v روز"
+msgstr[1] "%v روز"
+
+#: collectionpage/collectionexpirywidget.cpp:37
+#: collectionpage/collectionexpirywidget.cpp:43
+#: collectionpage/collectionexpirywidget.cpp:55
+#, kde-format
+msgid "Never"
+msgstr "هرگز"
+
+#: collectionpage/collectionexpirywidget.cpp:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Settings and Expire Now"
+msgstr "ذخیرهٔ تنظیمات و منقضی کردن در همین لحظه"
+
+#: collectionpage/collectionexpirywidget.cpp:68
+#, kde-format
+msgctxt "@option:check"
+msgid "Expire messages with invalid date"
+msgstr "منقضی کردن پیام‌ها با تاریخ نامعتبر"
+
+#: collectionpage/collectionexpirywidget.cpp:74
+#, kde-format
+msgid "Expire read messages after:"
+msgstr "انقضای پیام‌های خوانده‌شده پس از:"
+
+#: collectionpage/collectionexpirywidget.cpp:77
+#, kde-format
+msgid "Expire unread messages after:"
+msgstr "انقضای پیام‌های خوانده‌نشده پس از:"
+
+#: collectionpage/collectionexpirywidget.cpp:91
+#, kde-format
+msgid "Move expired messages to:"
+msgstr "انتقال پیام‌های منقضی‌شده به:"
+
+#: collectionpage/collectionexpirywidget.cpp:102
+#, kde-format
+msgid "Delete expired messages permanently"
+msgstr "حذف دائمی پیام‌های منقضی‌شده"
+
+#: collectionpage/collectionexpirywidget.cpp:173
+#, kde-format
+msgid ""
+"Please select a folder to expire messages into.\n"
+"If this is not done, expired messages will be permanently deleted."
+msgstr ""
+"لطفاً پوشه‌ای را برای انتقال پیام‌های منقضی‌شده انتخاب کنید.\n"
+"در غیر این صورت، پیام‌های منقضی‌شده برای همیشه حذف خواهند شد."
+
+#: collectionpage/collectionexpirywidget.cpp:174
+#, kde-format
+msgctxt "@title:window"
+msgid "No Folder Selected"
+msgstr "هیچ پوشه‌ای انتخاب نشده است"
+
+#: collectionpage/collectionexpirywidget.cpp:188
+#, kde-format
+msgid ""
+"Please select a different folder than the current folder to expire messages into.\n"
+"If this is not done, expired messages will be permanently deleted."
+msgstr ""
+"لطفاً برای انتقال پیام‌های منقضی‌شده، پوشه‌ای غیر از پوشهٔ فعلی را انتخاب کنید.\n"
+"در غیر این صورت، پیام‌های منقضی‌شده برای همیشه حذف خواهند شد."
+
+#: collectionpage/collectionexpirywidget.cpp:190
+#, kde-format
+msgctxt "@title:window"
+msgid "Wrong Folder Selected"
+msgstr "پوشهٔ اشتباه انتخاب شده است"
+
+#: collectionpage/collectiongeneralpage.cpp:44
+#, kde-format
+msgctxt "@title:tab General settings for a folder."
+msgid "General"
+msgstr "عمومی"
+
+#: collectionpage/collectiongeneralpage.cpp:65
+#, kde-format
+msgctxt "@label:textbox Name of the folder."
+msgid "Folder &Name:"
+msgstr "نام پوشه:"
+
+#: collectionpage/collectiongeneralpage.cpp:110
+#, kde-format
+msgid "Share unread state with all users"
+msgstr "هم‌رسانی وضعیت خوانده‌نشده با همهٔ کاربران"
+
+#: collectionpage/collectiongeneralpage.cpp:113
+#, kde-format
+msgid ""
+"If enabled, the unread state of messages in this folder will be the same for"
+" all users having access to this folder. If disabled (the default), every "
+"user with access to this folder has their own unread state."
+msgstr ""
+"در صورت فعال بودن، وضعیت خوانده‌نشده بودن پیام‌ها در این پوشه برای همهٔ "
+"کاربرانی که به این پوشه دسترسی دارند یکسان خواهد بود. در صورت غیرفعال بودن "
+"(پیش‌فرض)، هر کاربرِ دارای دسترسی به این پوشه، وضعیت خوانده‌نشدهٔ مخصوص به "
+"خود را خواهد داشت."
+
+#: collectionpage/collectiongeneralpage.cpp:212
+#, kde-format
+msgid ""
+"You have configured this folder to contain groupware information. That means"
+" that this folder will disappear once the configuration dialog is closed."
+msgstr ""
+"شما این پوشه را طوری پیکربندی کرده‌اید که حاوی اطلاعات نرم‌افزار گروهی "
+"(گروه‌افزار) باشد. این بدان معناست که پس از بستن پنجرهٔ پیکربندی، این پوشه "
+"ناپدید خواهد شد."
+
+#: collectionpage/collectiongeneralwidget.cpp:25
+#, kde-format
+msgctxt "@option:check"
+msgid "Act on new/unread mail in this folder"
+msgstr "واکنش به نامه‌های جدید/خوانده‌نشده در این پوشه"
+
+#: collectionpage/collectiongeneralwidget.cpp:27
+#, kde-format
+msgid ""
+"<qt><p>If this option is enabled then you will be notified about new/unread "
+"mail in this folder. Moreover, going to the next/previous folder with unread"
+" messages will stop at this folder.</p><p>Uncheck this option if you do not "
+"want to be notified about new/unread mail in this folder and if you want "
+"this folder to be skipped when going to the next/previous folder with unread"
+" messages. This is useful for ignoring any new/unread mail in your trash and"
+" spam folder.</p></qt>"
+msgstr ""
+"<qt><p>اگر این گزینه فعال باشد، از وجود نامه‌های جدید/خوانده‌نشده در این "
+"پوشه مطلع خواهید شد. علاوه بر این، هنگام رفتن به پوشهٔ بعدی/قبلی دارای "
+"پیام‌های خوانده‌نشده، توقف در این پوشه انجام می‌شود.</p><p>اگر نمی‌خواهید از"
+" نامه‌های جدید/خوانده‌نشده در این پوشه باخبر شوید و می‌خواهید هنگام رفتن به "
+"پوشهٔ بعدی/قبلی دارای پیام‌های خوانده‌نشده از این پوشه رد شوید، تیک این "
+"گزینه را بردارید. این قابلیت برای نادیده گرفتن نامه‌های جدید/خوانده‌نشده در "
+"پوشهٔ زباله‌دان و هرزنامه مفید است.</p></qt>"
+
+#: collectionpage/collectiongeneralwidget.cpp:38
+#, kde-format
+msgctxt "@option:check"
+msgid "Keep replies in this folder"
+msgstr "نگه‌داری پاسخ‌ها در این پوشه"
+
+#: collectionpage/collectiongeneralwidget.cpp:40
+#, kde-format
+msgid ""
+"Check this option if you want replies you write to mails in this folder to "
+"be put in this same folder after sending, instead of in the configured sent-"
+"mail folder."
+msgstr ""
+"اگر می‌خواهید پاسخ‌هایی که برای نامه‌های این پوشه می‌نویسید، پس از ارسال به "
+"جای پوشهٔ پیش‌فرض نامه‌های ارسالی، در همین پوشه قرار گیرند، این گزینه را "
+"علامت بزنید."
+
+#: collectionpage/collectiongeneralwidget.cpp:46
+#, kde-format
+msgctxt "@option:check"
+msgid "Hide this folder in the folder selection dialog"
+msgstr "پنهان‌سازی این پوشه در گفت‌وگوی انتخاب پوشه"
+
+#: collectionpage/collectiongeneralwidget.cpp:48
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you do not want this folder to be shown in folder "
+"selection dialogs, such as the <interface>Jump to Folder</interface> dialog."
+msgstr ""
+"اگر نمی‌خواهید این پوشه در گفت‌وگوهای انتخاب پوشه، مانند گفت‌وگوی "
+"<interface>پرش به پوشه</interface> نمایش داده شود، این گزینه را علامت بزنید."
+
+#: collectionpage/collectiongeneralwidget.cpp:54
+#, kde-format
+msgctxt "@option:check"
+msgid "Use &default identity"
+msgstr "استفاده از هویت پیش‌فرض"
+
+#: collectionpage/collectiongeneralwidget.cpp:60
+#, kde-format
+msgid ""
+"Select the sender identity to be used when writing new mail or replying to "
+"mail in this folder. This means that if you are in one of your work folders,"
+" you can make KMail use the corresponding sender email address, signature "
+"and signing or encryption keys automatically. Identities can be set up in "
+"the main configuration dialog. (Settings -> Configure KMail)"
+msgstr ""
+"هویت فرستنده را برای استفاده هنگام نوشتن نامهٔ جدید یا پاسخ دادن به نامه‌ها "
+"در این پوشه انتخاب کنید. به این معنی که اگر در یکی از پوشه‌های کاری‌تان "
+"هستید، می‌توانید کاری کنید که KMail نشانی رایانامه، امضا و کلیدهای امضا یا "
+"رمزگذاری فرستندهٔ مربوط را به‌طور خودکار به کار ببرد. هویت‌ها را می‌توان در "
+"گفت‌وگوی اصلی پیکربندی تنظیم کرد. (تنظیمات -> پیکربندی KMail)"
+
+#: collectionpage/collectiongeneralwidget.cpp:66
+#, kde-format
+msgid "&Sender identity:"
+msgstr "هویت فرستنده:"
+
+#: collectionpage/collectiontemplateswidget.cpp:20
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom message templates in this folder"
+msgstr "استفاده از الگوهای پیام سفارشی در این پوشه"
+
+#: collectionpage/collectiontemplateswidget.cpp:42
+#, kde-format
+msgctxt "@action:button"
+msgid "&Copy Global Templates"
+msgstr "رونوشت از الگوهای سراسری"
+
+#: collectionpage/collectionviewwidget.cpp:27
+#, kde-format
+msgctxt "@option:check"
+msgid "Use default message list aggregation:"
+msgstr "استفاده از تجمیع فهرست پیام‌های پیش‌فرض:"
+
+#: collectionpage/collectionviewwidget.cpp:29
+#, kde-format
+msgctxt "@option:check"
+msgid "Use default message list theme"
+msgstr "استفاده از تم پیش‌فرض فهرست پیام‌ها"
+
+#: collectionpage/collectionviewwidget.cpp:31
+#, kde-format
+msgctxt "@option:radio"
+msgid "Prefer HTML to text"
+msgstr "ترجیح HTML به متن"
+
+#: collectionpage/collectionviewwidget.cpp:32
+#, kde-format
+msgctxt "@option:radio"
+msgid "Prefer text to HTML"
+msgstr "ترجیح متن به HTML"
+
+#: collectionpage/collectionviewwidget.cpp:33
+#, kde-format
+msgctxt "@option:radio"
+msgid "Use Global Settings"
+msgstr "استفاده از تنظیمات سراسری"
+
+#: collectionpage/collectionviewwidget.cpp:40
+#, kde-format
+msgid "Show Sender/Receiver Column in List of Messages"
+msgstr "نمایش ستون فرستنده/گیرنده در فهرست پیام‌ها"
+
+#: collectionpage/collectionviewwidget.cpp:43
+#, kde-format
+msgctxt "@item:inlistbox Show default value."
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: collectionpage/collectionviewwidget.cpp:44
+#, kde-format
+msgctxt "@item:inlistbox Show sender."
+msgid "Sender"
+msgstr "فرستنده"
+
+#: collectionpage/collectionviewwidget.cpp:45
+#, kde-format
+msgctxt "@item:inlistbox Show receiver."
+msgid "Receiver"
+msgstr "گیرنده"
+
+#: collectionpage/collectionviewwidget.cpp:46
+#, kde-format
+msgid "Sho&w column:"
+msgstr "نمایش ستون:"
+
+#: collectionpage/collectionviewwidget.cpp:77
+#, kde-format
+msgid "Message format:"
+msgstr "قالب پیام:"
+
+#: filter/dialog/filteractionmissingaccountdialog.cpp:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Account"
+msgstr "انتخاب حساب"
+
+#: filter/dialog/filteractionmissingaccountdialog.cpp:36
+#, kde-format
+msgid "Filter account is missing. Please select account to use with filter \"%1\""
+msgstr ""
+"حساب پالایه یافت نشد. لطفاً حسابی را برای استفاده در پالایهٔ «%1» انتخاب "
+"کنید"
+
+#: filter/dialog/filteractionmissingfolderdialog.cpp:38
+#: folder/folderrequester.cpp:74
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Folder"
+msgstr "انتخاب پوشه"
+
+#: filter/dialog/filteractionmissingfolderdialog.cpp:41
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Folder path was \"%1\"."
+msgstr "مسیر پوشه «%1» بود."
+
+#: filter/dialog/filteractionmissingfolderdialog.cpp:46
+#, kde-format
+msgctxt "@label:textbox"
+msgid "The following folders can be used for this filter:"
+msgstr "از پوشه‌های زیر می‌توان برای این پالایه استفاده کرد:"
+
+#: filter/dialog/filteractionmissingfolderdialog.cpp:67
+#, kde-format
+msgid "Please select a folder:"
+msgstr "لطفاً یک پوشه انتخاب کنید:"
+
+#: filter/dialog/filteractionmissingfolderdialog.cpp:70
+#, kde-format
+msgid ""
+"Filter folder is missing. Please select a folder to use with filter \"%1\":"
+msgstr ""
+"پوشهٔ پالایه یافت نشد. لطفاً پوشه‌ای را برای استفاده در پالایهٔ «%1» انتخاب "
+"کنید:"
+
+#: filter/dialog/filteractionmissingidentitydialog.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Identity"
+msgstr "انتخاب هویت"
+
+#: filter/dialog/filteractionmissingidentitydialog.cpp:35
+#, kde-format
+msgid ""
+"Filter identity is missing. Please select an identity to use with filter "
+"\"%1\""
+msgstr ""
+"هویت پالایه یافت نشد. لطفاً هویتی را برای استفاده در پالایهٔ «%1» انتخاب "
+"کنید"
+
+#: filter/dialog/filteractionmissingsoundurldialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Select sound"
+msgstr "انتخاب صدا"
+
+#: filter/dialog/filteractionmissingsoundurldialog.cpp:32
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Sound file was \"%1\"."
+msgstr "پرونده صوتی «%1» بود."
+
+#: filter/dialog/filteractionmissingsoundurldialog.cpp:39
+#, kde-format
+msgid "Sound file is missing. Please select a sound to use with filter \"%1\""
+msgstr ""
+"پرونده صوتی موجود نیست. لطفاً یک صدا برای استفاده با پالایه «%1» انتخاب کنید"
+
+#: filter/dialog/filteractionmissingtagdialog.cpp:34
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Tag"
+msgstr "انتخاب برچسب"
+
+#: filter/dialog/filteractionmissingtagdialog.cpp:37
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Tag was \"%1\"."
+msgstr "برچسب «%1» بود."
+
+#: filter/dialog/filteractionmissingtagdialog.cpp:44
+#, kde-format
+msgid "Filter tag is missing. Please select a tag to use with filter \"%1\""
+msgstr ""
+"برچسب پالایه موجود نیست. لطفاً برچسبی برای استفاده با پالایه «%1» انتخاب "
+"کنید"
+
+#: filter/dialog/filteractionmissingtagdialog.cpp:68
+#, kde-format
+msgid "Add Tag…"
+msgstr "افزودن برچسب…"
+
+#: filter/dialog/filteractionmissingtemplatedialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Template"
+msgstr "انتخاب الگو"
+
+#: filter/dialog/filteractionmissingtemplatedialog.cpp:34
+#, kde-format
+msgid ""
+"Filter template is missing. Please select a template to use with filter "
+"\"%1\""
+msgstr ""
+"الگوی پالایه موجود نیست. لطفاً الگویی برای استفاده با پالایه «%1» انتخاب "
+"کنید"
+
+#: filter/dialog/filteractionmissingtransportdialog.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Transport"
+msgstr "انتخاب شیوه انتقال"
+
+#: filter/dialog/filteractionmissingtransportdialog.cpp:35
+#, kde-format
+msgid ""
+"Filter transport is missing. Please select a transport to use with filter "
+"\"%1\""
+msgstr ""
+"شیوه انتقال پالایه موجود نیست. لطفاً یک شیوه انتقال برای استفاده با پالایه "
+"«%1» انتخاب کنید"
+
+#: filter/dialog/selectthunderbirdfilterfilesdialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Select thunderbird filter files"
+msgstr "انتخاب پرونده‌های پالایهٔ تاندربرد"
+
+#: filter/dialog/selectthunderbirdfilterfileswidget.cpp:33
+#, kde-format
+msgid " (default)"
+msgstr " (پیش‌فرض)"
+
+#: filter/dialog/selectthunderbirdfilterfileswidget.cpp:118
+#, kde-format
+msgid "Thunderbird File (*.dat)"
+msgstr "پروندهٔ تاندربرد (‎*.dat)"
+
+#: filter/filteractions/filteraction.cpp:132
+#, kde-format
+msgid "### \"action '%1' not supported\""
+msgstr "### \"کنش '%1' پشتیبانی نمی‌شود\""
+
+#: filter/filteractions/filteractionaddheader.cpp:24
+#, kde-format
+msgid "Add Header"
+msgstr "افزودن سرآیند"
+
+#: filter/filteractions/filteractionaddheader.cpp:76
+#, kde-format
+msgctxt "@label:textbox"
+msgid "With value:"
+msgstr "با مقدار:"
+
+#: filter/filteractions/filteractionaddheader.cpp:220
+#, kde-format
+msgid "The header name was missing."
+msgstr "نام سرآیند وجود نداشت."
+
+#: filter/filteractions/filteractionaddheader.cpp:226
+#, kde-format
+msgid "The header value was missing."
+msgstr "مقدار سرآیند وجود نداشت."
+
+#: filter/filteractions/filteractionaddtag.cpp:26
+#, kde-format
+msgid "Add Tag"
+msgstr "افزودن برچسب"
+
+#: filter/filteractions/filteractionaddtag.cpp:147
+#, kde-format
+msgid "No tag selected."
+msgstr "هیچ برچسبی انتخاب نشده است."
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:33
+#, kde-format
+msgid "Add to Address Book"
+msgstr "افزودن به دفترچهٔ نشانی"
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:34
+#, kde-format
+msgctxt "Email sender"
+msgid "From"
+msgstr "از"
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:35
+#, kde-format
+msgctxt "Email recipient"
+msgid "To"
+msgstr "به"
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:36
+#: search/searchpatternedit.cpp:52
+#, kde-format
+msgid "CC"
+msgstr "رونوشت"
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:37
+#, kde-format
+msgid "BCC"
+msgstr "رونوشت مخفی"
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:40
+#, kde-format
+msgid "KMail Filter"
+msgstr "فیلتر KMail"
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:117
+#, kde-format
+msgctxt "@label:textbox"
+msgid "with category"
+msgstr "با دسته‌بندی"
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:125
+#, kde-format
+msgctxt "@label:textbox"
+msgid "in address book"
+msgstr "در دفترچهٔ نشانی"
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:135
+#, kde-format
+msgid ""
+"This defines the preferred address book.\n"
+"If it is not accessible, the filter will fallback to the default address book."
+msgstr ""
+"این گزینه دفترچهٔ نشانی ترجیحی را مشخص می‌کند.\n"
+"اگر در دسترس نباشد، فیلتر از دفترچهٔ نشانی پیش‌فرض استفاده خواهد کرد."
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:287
+#, kde-format
+msgid "Header type selected is unknown."
+msgstr "نوع سرآیند انتخاب‌شده ناشناخته است."
+
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:293
+#, kde-format
+msgid "No addressbook selected."
+msgstr "هیچ دفترچه نشانی‌ای انتخاب نشده است."
+
+#: filter/filteractions/filteractioncopy.cpp:19
+#, kde-format
+msgid "Copy Into Folder"
+msgstr "رونوشت به پوشه"
+
+#: filter/filteractions/filteractioncopy.cpp:68
+#: filter/filteractions/filteractionmove.cpp:66
+#, kde-format
+msgid "Folder destination was not defined."
+msgstr "پوشه مقصد تعیین نشده بود."
+
+#: filter/filteractions/filteractiondecrypt.cpp:27
+#: filter/filteractions/filteractiondecrypt.cpp:40
+#, kde-format
+msgid "Decrypt"
+msgstr "رمزگشایی"
+
+#: filter/filteractions/filteractiondecrypt.cpp:95
+#, kde-format
+msgid "<b>Warning:</b> Decrypted emails may be uploaded to a server!"
+msgstr ""
+"<b>هشدار:</b> رایانامه‌های رمزگشایی‌شده ممکن است در یک کارساز بارگذاری شوند!"
+
+#: filter/filteractions/filteractiondecrypt.cpp:97
+#, kde-format
+msgid ""
+"<p>If the email folder that you are filtering into is connected to a remote "
+"account (like an IMAP-Server) the decrypted content will go there.</p>"
+msgstr ""
+"<p>اگر پوشه رایانامه‌ای که در حال پالایش به آن هستید به یک حساب دوردست "
+"(مانند کارساز IMAP) متصل باشد، محتوای رمزگشایی‌شده به آنجا منتقل خواهد "
+"شد.</p>"
+
+#: filter/filteractions/filteractiondelete.cpp:18
+#, kde-format
+msgid "Delete Message"
+msgstr "حذف پیام"
+
+#: filter/filteractions/filteractiondelete.cpp:41
+#, kde-format
+msgid "Be careful, mails will be removed."
+msgstr "مراقب باشید، رایانامه‌ها حذف خواهند شد."
+
+#: filter/filteractions/filteractionencrypt.cpp:46
+#, kde-format
+msgid "Encrypt"
+msgstr "رمزگذاری"
+
+#: filter/filteractions/filteractionencrypt.cpp:207
+#, kde-format
+msgid "No encryption key has been selected"
+msgstr "هیچ کلید رمزگذاری انتخاب نشده است"
+
+#: filter/filteractions/filteractionencrypt.cpp:243
+#, kde-format
+msgid "Re-encrypt encrypted emails with this key"
+msgstr "رمزگذاری مجدد رایانامه‌های رمزگذاری‌شده با این کلید"
+
+#: filter/filteractions/filteractionencrypt.cpp:253
+#, kde-format
+msgid "<b>Warning:</b> Seckey necessary to read emails."
+msgstr "<b>هشدار:</b> کلید مخفی برای خواندن رایانامه‌ها ضروری است."
+
+#: filter/filteractions/filteractionencrypt.cpp:255
+#, kde-format
+msgid ""
+"<p>Once an email has been encrypted you will need a crypto setup with your "
+"secret key to access the contents again.</p><p>If you keep emails stored on "
+"an email server and use several clients, each of them must be configured to "
+"enable decryption.</p>"
+msgstr ""
+"<p>پس از رمزگذاری یک رایانامه، برای دسترسی دوباره به محتوای آن به یک "
+"پیکربندی رمزنگاری به همراه کلید مخفی خود نیاز خواهید داشت.</p><p>اگر "
+"رایانامه‌ها را روی یک کارساز رایانامه نگه می‌دارید و از چند کلاینت استفاده "
+"می‌کنید، هر یک از آن‌ها باید برای فعال‌سازی رمزگشایی پیکربندی شوند.</p>"
+
+#: filter/filteractions/filteractionexec.cpp:15
+#, kde-format
+msgid "Execute Command"
+msgstr "اجرای فرمان"
+
+#: filter/filteractions/filteractionexec.cpp:36
+#, kde-format
+msgid "Missing command."
+msgstr "فرمان موجود نیست."
+
+#: filter/filteractions/filteractionforward.cpp:38
+#, kde-format
+msgctxt "Forward directly not with a command"
+msgid "Forward To"
+msgstr "بازفرستادن به"
+
+#: filter/filteractions/filteractionforward.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The addressee to whom the message will be forwarded."
+msgstr "مخاطبی که پیام به او بازفرستاده خواهد شد."
+
+#: filter/filteractions/filteractionforward.cpp:95
+#, kde-format
+msgid "The filter will forward the message to the addressee entered here."
+msgstr "پالایه، پیام را به مخاطب واردشده در اینجا بازمی‌فرستد."
+
+#: filter/filteractions/filteractionforward.cpp:102
+#: filter/filteractions/filteractionforward.cpp:201
+#, kde-format
+msgid "Default Template"
+msgstr "قالب پیش‌فرض"
+
+#: filter/filteractions/filteractionforward.cpp:113
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The template used when forwarding"
+msgstr "قالب مورد استفاده هنگام بازفرستادن"
+
+#: filter/filteractions/filteractionforward.cpp:114
+#, kde-format
+msgid "Set the forwarding template that will be used with this filter."
+msgstr "الگوی بازفرستادنی که با این پالایه استفاده خواهد شد را تنظیم کنید."
+
+#: filter/filteractions/filteractionforward.cpp:229
+#, kde-format
+msgid "Forward to %1 with default template"
+msgstr "بازفرستادن به %1 با الگوی پیش‌فرض"
+
+#: filter/filteractions/filteractionforward.cpp:231
+#, kde-format
+msgid "Forward to %1 with template %2"
+msgstr "بازفرستادن به %1 با الگوی %2"
+
+#: filter/filteractions/filteractionforward.cpp:237
+#: filter/filteractions/filteractionreplyto.cpp:47
+#, kde-format
+msgid "Email address was not defined."
+msgstr "نشانی رایانامه تعریف نشده بود."
+
+#: filter/filteractions/filteractionmove.cpp:23
+#, kde-format
+msgid "Move Into Folder"
+msgstr "انتقال به پوشه"
+
+#: filter/filteractions/filteractionpipethrough.cpp:20
+#, kde-format
+msgctxt "pipe through with command"
+msgid "Pipe Through"
+msgstr "هدایت از طریق لوله"
+
+#: filter/filteractions/filteractionpipethrough.cpp:36
+#, kde-format
+msgid "No action defined."
+msgstr "هیچ کُنشی تعریف نشده است."
+
+#: filter/filteractions/filteractionplaysound.cpp:22
+#, kde-format
+msgid "Play Sound"
+msgstr "پخش صدا"
+
+#: filter/filteractions/filteractionplaysound.cpp:78
+#, kde-format
+msgid "Sound file was not defined."
+msgstr "پروندهٔ صوتی تعریف نشده بود."
+
+#: filter/filteractions/filteractionredirect.cpp:27
+#, kde-format
+msgid "Redirect To"
+msgstr "تغییر مسیر به"
+
+#: filter/filteractions/filteractionredirect.cpp:71
+#, kde-format
+msgid "Email address was missing."
+msgstr "نشانی رایانامه وجود نداشت."
+
+#: filter/filteractions/filteractionremoveheader.cpp:22
+#, kde-format
+msgid "Remove Header"
+msgstr "حذف سرآیند"
+
+#: filter/filteractions/filteractionremoveheader.cpp:96
+#, kde-format
+msgid "Header name undefined."
+msgstr "نام سرآیند تعریف نشده است."
+
+#: filter/filteractions/filteractionreplyto.cpp:20
+#, kde-format
+msgid "Set Reply-To To"
+msgstr "تنظیم «پاسخ به» به"
+
+#: filter/filteractions/filteractionrewriteheader.cpp:28
+#, kde-format
+msgid "Rewrite Header"
+msgstr "بازنویسی سرآیند"
+
+#: filter/filteractions/filteractionrewriteheader.cpp:45
+#, kde-format
+msgid "Header not defined"
+msgstr "سرآیند تعریف نشده است"
+
+#: filter/filteractions/filteractionrewriteheader.cpp:51
+#, kde-format
+msgid "Search string is empty."
+msgstr "رشتهٔ جست‌وجو خالی است."
+
+#: filter/filteractions/filteractionrewriteheader.cpp:110
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Replace:"
+msgstr "جایگزینی:"
+
+#: filter/filteractions/filteractionrewriteheader.cpp:121
+#, kde-format
+msgctxt "@label:textbox"
+msgid "With:"
+msgstr "با:"
+
+#: filter/filteractions/filteractionsendfakedisposition.cpp:29
+#, kde-format
+msgid "Send Fake MDN"
+msgstr "ارسال MDN جعلی"
+
+#: filter/filteractions/filteractionsendfakedisposition.cpp:34
+#, kde-format
+msgctxt "MDN type"
+msgid "Ignore"
+msgstr "نادیده‌گرفتن"
+
+#: filter/filteractions/filteractionsendfakedisposition.cpp:35
+#, kde-format
+msgctxt "MDN type"
+msgid "Displayed"
+msgstr "نمایش‌داده‌شده"
+
+#: filter/filteractions/filteractionsendfakedisposition.cpp:36
+#, kde-format
+msgctxt "MDN type"
+msgid "Deleted"
+msgstr "حذف‌شده"
+
+#: filter/filteractions/filteractionsendfakedisposition.cpp:37
+#, kde-format
+msgctxt "MDN type"
+msgid "Dispatched"
+msgstr "ارسال‌شده"
+
+#: filter/filteractions/filteractionsendfakedisposition.cpp:38
+#, kde-format
+msgctxt "MDN type"
+msgid "Processed"
+msgstr "پردازش‌شده"
+
+#: filter/filteractions/filteractionsendfakedisposition.cpp:39
+#, kde-format
+msgctxt "MDN type"
+msgid "Denied"
+msgstr "ردشده"
+
+#: filter/filteractions/filteractionsendfakedisposition.cpp:40
+#, kde-format
+msgctxt "MDN type"
+msgid "Failed"
+msgstr "ناموفق"
+
+#: filter/filteractions/filteractionsendfakedisposition.cpp:116
+#, kde-format
+msgid "Fake type undefined."
+msgstr "نوع ساختگی تعریف نشده است."
+
+#: filter/filteractions/filteractionsendreceipt.cpp:21
+#, kde-format
+msgid "Confirm Delivery"
+msgstr "تأیید تحویل"
+
+#: filter/filteractions/filteractionsetidentity.cpp:30
+#, kde-format
+msgid "Set Identity To"
+msgstr "تنظیم هویت به"
+
+#: filter/filteractions/filteractionsetstatus.cpp:22
+#, kde-format
+msgid "Mark As"
+msgstr "علامت‌گذاری به‌عنوان"
+
+#: filter/filteractions/filteractionsetstatus.cpp:34
+#, kde-format
+msgid "Status not specified."
+msgstr "وضعیت مشخص نشده است."
+
+#: filter/filteractions/filteractionsettransport.cpp:37
+#, kde-format
+msgid "Set Transport To"
+msgstr "تنظیم شیوهٔ ارسال روی"
+
+#: filter/filteractions/filteractionsettransport.cpp:152
+#, kde-format
+msgid "Mail transport not defined."
+msgstr "شیوهٔ ارسال نامه تعریف نشده است."
+
+#: filter/filteractions/filteractionstatus.cpp:33
+#, kde-format
+msgctxt "msg status"
+msgid "Important"
+msgstr "مهم"
+
+#: filter/filteractions/filteractionstatus.cpp:34
+#, kde-format
+msgctxt "msg status"
+msgid "Read"
+msgstr "خوانده‌شده"
+
+#: filter/filteractions/filteractionstatus.cpp:35
+#, kde-format
+msgctxt "msg status"
+msgid "Unread"
+msgstr "خوانده‌نشده"
+
+#: filter/filteractions/filteractionstatus.cpp:36
+#, kde-format
+msgctxt "msg status"
+msgid "Replied"
+msgstr "پاسخ‌داده‌شده"
+
+#: filter/filteractions/filteractionstatus.cpp:37
+#, kde-format
+msgctxt "msg status"
+msgid "Forwarded"
+msgstr "هدایت‌شده"
+
+#: filter/filteractions/filteractionstatus.cpp:38
+#, kde-format
+msgctxt "msg status"
+msgid "Watched"
+msgstr "دنبال‌شده"
+
+#: filter/filteractions/filteractionstatus.cpp:39
+#, kde-format
+msgctxt "msg status"
+msgid "Ignored"
+msgstr "نادیده‌گرفته‌شده"
+
+#: filter/filteractions/filteractionstatus.cpp:40
+#, kde-format
+msgctxt "msg status"
+msgid "Spam"
+msgstr "هرزنامه"
+
+#: filter/filteractions/filteractionstatus.cpp:41
+#, kde-format
+msgctxt "msg status"
+msgid "Ham"
+msgstr "غیر هرزنامه"
+
+#: filter/filteractions/filteractionstatus.cpp:42
+#, kde-format
+msgctxt "msg status"
+msgid "Action Item"
+msgstr "مورد اقدام"
+
+#: filter/filteractions/filteractionstatus.cpp:102
+#, kde-format
+msgid "Status is missing."
+msgstr "وضعیت وجود ندارد."
+
+#: filter/filteractions/filteractionunsetstatus.cpp:21
+#, kde-format
+msgctxt "action: to unset the status"
+msgid "Unset Status"
+msgstr "لغو تنظیم وضعیت"
+
+#: filter/filteractions/filteractionunsetstatus.cpp:39
+#, kde-format
+msgid "Status not defined."
+msgstr "وضعیت تعریف نشده است."
+
+#: filter/filteractions/filteractionwidget.cpp:69
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Please select an action."
+msgstr "لطفاً کنشی را انتخاب کنید."
+
+#: filter/filteractions/filteractionwithurl.cpp:22
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Help"
+msgstr "راهنما"
+
+#: filter/filteractions/filteractionwithurl.cpp:64
+#, kde-format
+msgid "You can get specific header when you use %{headername}."
+msgstr "می‌توانید با استفاده از %{headername} سرآیند خاصی را دریافت کنید."
+
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:34
+#, kde-format
+msgctxt "@title:window"
+msgid "Convert to Sieve Script"
+msgstr "تبدیل به اسکریپت Sieve"
+
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:41
+#, kde-format
+msgid "Save…"
+msgstr "ذخیره…"
+
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:64
+#, kde-format
+msgctxt "@action:button"
+msgid "Share…"
+msgstr "هم‌رسانی…"
+
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:77
+#, kde-format
+msgid "Sieve Files (*.siv);;All Files (*)"
+msgstr "پرونده‌های Sieve ‏(*.siv)‎;;همهٔ پرونده‌ها (*)"
+
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:78
+#, kde-format
+msgctxt "@title:window"
+msgid "Convert to Script Sieve"
+msgstr "تبدیل به اسکریپت Sieve"
+
+#: filter/filterimporter/filterimportergmail.cpp:48
+#, kde-format
+msgid "Gmail filter %1"
+msgstr "فیلتر جیمیل %1"
+
+#: filter/filterimporter/filterimporterprocmail.cpp:54
+#, kde-format
+msgid "Procmail filter %1"
+msgstr "فیلتر Procmail %1"
+
+#: filter/filterimporterexporter.cpp:112
+#, kde-format
+msgid ""
+"The following filters have not been saved because they were invalid (e.g. "
+"containing no actions or no search rules)."
+msgstr ""
+"فیلترهای زیر ذخیره نشدند زیرا نامعتبر بودند (برای نمونه، بدون اقدام یا بدون "
+"قاعدهٔ جستجو بودند)."
+
+#: filter/filterimporterexporter.cpp:138
+#, kde-format
+msgctxt "@title:window"
+msgid "Import KMail Filters"
+msgstr "وارد کردن فیلترهای KMail"
+
+#: filter/filterimporterexporter.cpp:146
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Evolution Filters"
+msgstr "وارد کردن فیلترهای Evolution"
+
+#: filter/filterimporterexporter.cpp:150
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Sylpheed Filters"
+msgstr "وارد کردن پالایه‌های Sylpheed"
+
+#: filter/filterimporterexporter.cpp:154
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Procmail Filters"
+msgstr "وارد کردن پالایه‌های Procmail"
+
+#: filter/filterimporterexporter.cpp:158
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Balsa Filters"
+msgstr "وارد کردن پالایه‌های Balsa"
+
+#: filter/filterimporterexporter.cpp:162
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Claws Mail Filters"
+msgstr "وارد کردن پالایه‌های Claws Mail"
+
+#: filter/filterimporterexporter.cpp:166
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Gmail Filters"
+msgstr "وارد کردن پالایه‌های جیمیل"
+
+#: filter/filterimporterexporter.cpp:180 filter/filterimporterexporter.cpp:216
+#: filter/filterimporterexporter.cpp:236
+#, kde-format
+msgid ""
+"The selected file is not readable. Your file access permissions might be "
+"insufficient."
+msgstr ""
+"پروندهٔ انتخاب‌شده خواندنی نیست. ممکن است مجوزهای دسترسی پروندهٔ شما کافی "
+"نباشد."
+
+#: filter/filterimporterexporter.cpp:316
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Filters"
+msgstr "برون‌ریزی پالایه‌ها"
+
+#: filter/filterselectiondialog.cpp:26
+#, kde-format
+msgctxt "@action:button"
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: filter/filterselectiondialog.cpp:27
+#, kde-format
+msgctxt "@action:button"
+msgid "Unselect All"
+msgstr "لغو انتخاب همه"
+
+#: filter/filterselectiondialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Filters"
+msgstr "انتخاب پالایه‌ها"
+
+#: filter/filterselectiondialog.cpp:42 filter/kmfilterlistbox.cpp:53
+#: folder/foldertreewidget.cpp:84
+#, kde-format
+msgctxt "@info Displayed grayed-out inside the textbox, verb to search"
+msgid "Search"
+msgstr "جستجو"
+
+#: filter/invalidfilters/invalidfilterdialog.cpp:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid Filters"
+msgstr "فیلترهای نامعتبر"
+
+#: filter/invalidfilters/invalidfilterdialog.cpp:37
+#, kde-format
+msgid "Discard"
+msgstr "دور انداختن"
+
+#: filter/invalidfilters/invalidfilterwidget.cpp:22
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"The following filters are invalid (e.g. containing no actions or no search "
+"rules). Discard or edit invalid filters?"
+msgstr ""
+"فیلترهای زیر نامعتبر هستند (مثلاً بدون کنش یا بدون قاعدهٔ جستجو هستند). "
+"فیلترهای نامعتبر دور انداخته شوند یا ویرایش شوند؟"
+
+#: filter/kmfilteraccountlist.cpp:24
+#, kde-format
+msgid "Account Name"
+msgstr "نام حساب"
+
+#: filter/kmfilteraccountlist.cpp:24
+#, kde-format
+msgid "Type"
+msgstr "نوع"
+
+#: filter/kmfilterdialog.cpp:72
+#, kde-format
+msgctxt "@title:window"
+msgid "Filter Rules"
+msgstr "قواعد فیلتر"
+
+#: filter/kmfilterdialog.cpp:90
+#, kde-format
+msgid "Import…"
+msgstr "درون‌ریزی…"
+
+#: filter/kmfilterdialog.cpp:92
+#, kde-format
+msgid "Export…"
+msgstr "برون‌ریزی…"
+
+#: filter/kmfilterdialog.cpp:94
+#, kde-format
+msgid "Convert to…"
+msgstr "تبدیل به…"
+
+#: filter/kmfilterdialog.cpp:98
+#, kde-format
+msgctxt "@action"
+msgid "KMail filters"
+msgstr "فیلترهای KMail"
+
+#: filter/kmfilterdialog.cpp:102
+#, kde-format
+msgctxt "@action"
+msgid "Thunderbird filters"
+msgstr "فیلترهای تاندربرد"
+
+#: filter/kmfilterdialog.cpp:106
+#, kde-format
+msgctxt "@action"
+msgid "Evolution filters"
+msgstr "فیلترهای اولوشن"
+
+#: filter/kmfilterdialog.cpp:110
+#, kde-format
+msgctxt "@action"
+msgid "Sylpheed filters"
+msgstr "فیلترهای Sylpheed"
+
+#: filter/kmfilterdialog.cpp:114
+#, kde-format
+msgctxt "@action"
+msgid "Procmail filters"
+msgstr "فیلترهای Procmail"
+
+#: filter/kmfilterdialog.cpp:118
+#, kde-format
+msgctxt "@action"
+msgid "Balsa filters"
+msgstr "فیلترهای Balsa"
+
+#: filter/kmfilterdialog.cpp:122
+#, kde-format
+msgctxt "@action"
+msgid "Claws Mail filters"
+msgstr "فیلترهای Claws Mail"
+
+#: filter/kmfilterdialog.cpp:126
+#, kde-format
+msgctxt "@action"
+msgid "Icedove Mail filters"
+msgstr "فیلترهای Icedove Mail"
+
+#: filter/kmfilterdialog.cpp:132
+#, kde-format
+msgctxt "@action"
+msgid "Gmail filters"
+msgstr "فیلترهای جیمیل"
+
+#: filter/kmfilterdialog.cpp:140
+#, kde-format
+msgctxt "@action"
+msgid "Sieve script"
+msgstr "کدنوشتهٔ Sieve"
+
+#: filter/kmfilterdialog.cpp:162
+#, kde-format
+msgid "Available Filters"
+msgstr "صافی‌های موجود"
+
+#: filter/kmfilterdialog.cpp:168
+#, kde-format
+msgctxt "General mail filter settings."
+msgid "General"
+msgstr "عمومی"
+
+#: filter/kmfilterdialog.cpp:172
+#, kde-format
+msgctxt "Advanced mail filter settings."
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: filter/kmfilterdialog.cpp:182
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Filter actions:"
+msgstr "کنش‌های صافی:"
+
+#: filter/kmfilterdialog.cpp:193
+#, kde-format
+msgctxt "@option:check"
+msgid "Apply this filter to incoming messages:"
+msgstr "اعمال این صافی روی پیام‌های ورودی:"
+
+#: filter/kmfilterdialog.cpp:203
+#, kde-format
+msgctxt "@option:radio"
+msgid "From all accounts"
+msgstr "از همهٔ حساب‌ها"
+
+#: filter/kmfilterdialog.cpp:207
+#, kde-format
+msgctxt "@option:radio"
+msgid "From all but online IMAP accounts"
+msgstr "از همهٔ حساب‌ها به‌جز حساب‌های برخط IMAP"
+
+#: filter/kmfilterdialog.cpp:211
+#, kde-format
+msgctxt "@option:radio"
+msgid "From selected accounts only"
+msgstr "فقط از حساب‌های انتخاب‌شده"
+
+#: filter/kmfilterdialog.cpp:219
+#, kde-format
+msgctxt "@option:check"
+msgid "Apply this filter to &sent messages"
+msgstr "اعمال این صافی روی پیام‌های فرستاده‌شده"
+
+#: filter/kmfilterdialog.cpp:221
+#, kde-format
+msgid ""
+"<p>The filter will be triggered <b>after</b> the message is sent and it will"
+" only affect the local copy of the message.</p><p>If the recipient's copy "
+"also needs to be modified, please use \"Apply this filter <b>before</b> "
+"sending messages\".</p>"
+msgstr ""
+"<p>صافی <b>پس از</b> ارسال پیام اجرا خواهد شد و فقط روی نسخهٔ محلی پیام اثر "
+"می‌گذارد.</p><p>اگر نسخهٔ گیرنده نیز باید تغییر کند، لطفاً از «اعمال این "
+"صافی <b>پیش از</b> ارسال پیام‌ها» استفاده کنید.</p>"
+
+#: filter/kmfilterdialog.cpp:227
+#, kde-format
+msgctxt "@option:check"
+msgid "Apply this filter &before sending messages"
+msgstr "اعمال این فیلتر قبل از ارسال پیام‌ها"
+
+#: filter/kmfilterdialog.cpp:229
+#, kde-format
+msgid ""
+"<p>The filter will be triggered <b>before</b> the message is sent and it "
+"will affect both the local copy and the sent copy of the message.</p><p>This"
+" is required if the recipient's copy also needs to be modified.</p>"
+msgstr ""
+"<p>فیلتر <b>پیش از</b> ارسال پیام فعال خواهد شد و روی هر دو نسخهٔ محلی و "
+"ارسالی پیام اثر خواهد گذاشت.</p><p>این گزینه زمانی لازم است که نسخهٔ گیرنده "
+"نیز نیاز به تغییر داشته باشد.</p>"
+
+#: filter/kmfilterdialog.cpp:234
+#, kde-format
+msgctxt "@option:check"
+msgid "Apply this filter on manual &filtering"
+msgstr "اعمال این فیلتر هنگام فیلتر کردن دستی"
+
+#: filter/kmfilterdialog.cpp:237
+#, kde-format
+msgctxt "@option:check"
+msgid "Apply this filter on inbound emails in all folders"
+msgstr "اعمال این فیلتر روی رایانامه‌های ورودی در تمام پوشه‌ها"
+
+#: filter/kmfilterdialog.cpp:239
+#, kde-format
+msgid ""
+"<p>The filter will be applied on inbound emails from all folders belonging "
+"to all accounts selected above. This is useful when using local filters with"
+" IMAP accounts where new emails may have already been moved to different "
+"folders by server-side filters.</p>"
+msgstr ""
+"<p>این فیلتر روی رایانامه‌های ورودی از تمام پوشه‌های متعلق به همهٔ حساب‌های "
+"انتخاب‌شده در بالا اعمال خواهد شد. این ویژگی هنگام استفاده از فیلترهای محلی "
+"با حساب‌های IMAP مفید است؛ جایی که ممکن است رایانامه‌های جدید قبلاً توسط "
+"فیلترهای سمت سرور به پوشه‌های دیگری منتقل شده باشند.</p>"
+
+#: filter/kmfilterdialog.cpp:245
+#, kde-format
+msgctxt "@option:check"
+msgid "If this filter &matches, stop processing here"
+msgstr "اگر این فیلتر تطابق داشت، پردازش در اینجا متوقف شود"
+
+#: filter/kmfilterdialog.cpp:248
+#, kde-format
+msgctxt "@option:check"
+msgid "Add this filter to the Apply Filter menu"
+msgstr "افزودن این فیلتر به منوی «اعمال فیلتر»"
+
+#: filter/kmfilterdialog.cpp:266
+#, kde-format
+msgctxt "@option:check"
+msgid "Additionally add this filter to the toolbar"
+msgstr "افزودن این فیلتر به نوار ابزار علاوه بر منو"
+
+#: filter/kmfilterdialog.cpp:273
+#, kde-format
+msgid "Shortcut:"
+msgstr "میان‌بر:"
+
+#: filter/kmfilterdialog.cpp:279
+#, kde-format
+msgid "Icon for this filter:"
+msgstr "شمایل برای این فیلتر:"
+
+#: filter/kmfilterdialog.cpp:287
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Run selected filter(s) on: "
+msgstr "اجرای فیلتر(های) انتخاب‌شده روی: "
+
+#: filter/kmfilterdialog.cpp:293
+#, kde-format
+msgctxt "@action:button"
+msgid "Run Now"
+msgstr "اکنون اجرا شود"
+
+#: filter/kmfilterdialog.cpp:420
+#, kde-format
+msgctxt "@info"
+msgid "Unable to apply this filter since there are no folders selected."
+msgstr "امکان اعمال این فیلتر وجود ندارد زیرا هیچ پوشه‌ای انتخاب نشده است."
+
+#: filter/kmfilterdialog.cpp:421
+#, kde-format
+msgctxt "@title:window"
+msgid "No folder selected."
+msgstr "هیچ پوشه‌ای انتخاب نشده است."
+
+#: filter/kmfilterdialog.cpp:428
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Some filters were changed and not saved yet. You must save your filters "
+"before they can be applied."
+msgstr ""
+"برخی از فیلترها تغییر یافته‌اند و هنوز ذخیره نشده‌اند. پیش از اعمال فیلترها "
+"باید آن‌ها را ذخیره کنید."
+
+#: filter/kmfilterdialog.cpp:430 filter/kmfilterdialog.cpp:712
+#, kde-format
+msgctxt "@title:window"
+msgid "Filters changed."
+msgstr "فیلترها تغییر یافتند."
+
+#: filter/kmfilterdialog.cpp:437
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Unable to apply a filter since there are no filters currently selected."
+msgstr ""
+"امکان اعمال فیلتر وجود ندارد زیرا در حال حاضر هیچ فیلتری انتخاب نشده است."
+
+#: filter/kmfilterdialog.cpp:438
+#, kde-format
+msgctxt "@title:window"
+msgid "No filters selected."
+msgstr "هیچ فیلتری انتخاب نشده است."
+
+#: filter/kmfilterdialog.cpp:662
+#, kde-format
+msgid "No filter was imported."
+msgstr "هیچ فیلتری وارد نشد."
+
+#: filter/kmfilterdialog.cpp:673
+#, kde-format
+msgid "Filters which were imported:"
+msgstr "فیلترهایی که وارد شدند:"
+
+#: filter/kmfilterdialog.cpp:685
+#, kde-format
+msgid "No filter found."
+msgstr "هیچ پالایه‌ای پیدا نشد."
+
+#: filter/kmfilterdialog.cpp:710
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Some filters were changed and not saved yet.<br>You must save your filters "
+"before they can be exported."
+msgstr ""
+"برخی پالایه‌ها تغییر یافته‌اند و هنوز ذخیره نشده‌اند.<br>پیش از صدور "
+"پالایه‌ها باید آن‌ها را ذخیره کنید."
+
+#: filter/kmfilterdialog.cpp:716
+#, kde-format
+msgid "We cannot convert all KMail filters to sieve scripts but we can try :)"
+msgstr ""
+"ما نمی‌توانیم همهٔ پالایه‌های KMail را به اسکریپت‌های sieve تبدیل کنیم، اما "
+"می‌توانیم تلاش کنیم :)"
+
+#: filter/kmfilterdialog.cpp:717 filter/kmfilterdialog.cpp:733
+#, kde-format
+msgctxt "@title:window"
+msgid "Convert KMail filters to sieve scripts"
+msgstr "تبدیل پالایه‌های KMail به اسکریپت‌های sieve"
+
+#: filter/kmfilterdialog.cpp:733
+#, kde-format
+msgid "No filters selected."
+msgstr "هیچ پالایه‌ای انتخاب نشده است."
+
+#: filter/kmfilterlistbox.cpp:43
+#, kde-format
+msgid ""
+"<qt><p>This is the list of defined filters. They are processed top-to-"
+"bottom.</p><p>Click on any filter to edit it using the controls in the "
+"right-hand half of the dialog.</p></qt>"
+msgstr ""
+"<qt><p>این فهرست پالایه‌های تعریف‌شده است. آن‌ها از بالا به پایین پردازش "
+"می‌شوند.</p><p>روی هر پالایه‌ای کلیک کنید تا با استفاده از کنترل‌های نیمهٔ "
+"راست پنجره، آن را ویرایش کنید.</p></qt>"
+
+#: filter/kmfilterlistbox.cpp:85
+#, kde-format
+msgctxt "Move selected filter up."
+msgid "Up"
+msgstr "بالا"
+
+#: filter/kmfilterlistbox.cpp:86
+#, kde-format
+msgctxt "Move selected filter down."
+msgid "Down"
+msgstr "پایین"
+
+#: filter/kmfilterlistbox.cpp:87
+#, kde-format
+msgctxt "Move selected filter to the top."
+msgid "Top"
+msgstr "بالاترین"
+
+#: filter/kmfilterlistbox.cpp:88
+#, kde-format
+msgctxt "Move selected filter to the bottom."
+msgid "Bottom"
+msgstr "پایین‌ترین"
+
+#: filter/kmfilterlistbox.cpp:90
+#, kde-format
+msgid ""
+"<qt><p>Click this button to move the currently-selected filter <em>up</em> "
+"one in the list above.</p><p>This is useful since the order of the filters "
+"in the list determines the order in which they are tried on messages: The "
+"topmost filter gets tried first.</p><p>If you have clicked this button "
+"accidentally, you can undo this by clicking on the <em>Down</em> "
+"button.</p></qt>"
+msgstr ""
+"<qt><p>برای انتقال پالایهٔ انتخاب‌شدهٔ کنونی به اندازهٔ یک مورد به "
+"<em>بالا</em> در فهرست بالا، این دکمه را فشار دهید.</p><p>این کار از آن جهت "
+"مفید است که ترتیب پالایه‌ها در فهرست، ترتیب اعمال آن‌ها روی پیام‌ها را مشخص "
+"می‌کند: بالاترین پالایه زودتر از همه اعمال می‌شود.</p><p>اگر این دکمه را به "
+"اشتباه فشار داده‌اید، می‌توانید با کلیک روی دکمهٔ <em>پایین</em> آن را خنثی "
+"کنید.</p></qt>"
+
+#: filter/kmfilterlistbox.cpp:98
+#, kde-format
+msgid ""
+"<qt><p>Click this button to move the currently-selected filter <em>down</em>"
+" one in the list above.</p><p>This is useful since the order of the filters "
+"in the list determines the order in which they are tried on messages: The "
+"topmost filter gets tried first.</p><p>If you have clicked this button "
+"accidentally, you can undo this by clicking on the <em>Up</em> "
+"button.</p></qt>"
+msgstr ""
+"<qt><p>برای انتقال پالایهٔ انتخاب‌شدهٔ کنونی به اندازهٔ یک مورد به "
+"<em>پایین</em> در فهرست بالا، این دکمه را فشار دهید.</p><p>این کار از آن جهت"
+" مفید است که ترتیب پالایه‌ها در فهرست، ترتیب اعمال آن‌ها روی پیام‌ها را مشخص"
+" می‌کند: بالاترین پالایه زودتر از همه اعمال می‌شود.</p><p>اگر این دکمه را به"
+" اشتباه فشار داده‌اید، می‌توانید با کلیک روی دکمهٔ <em>بالا</em> آن را خنثی "
+"کنید.</p></qt>"
+
+#: filter/kmfilterlistbox.cpp:106
+#, kde-format
+msgid ""
+"<qt><p>Click this button to move the currently-selected filter to bottom of "
+"list.</p><p>This is useful since the order of the filters in the list "
+"determines the order in which they are tried on messages: The topmost filter"
+" gets tried first.</p></qt>"
+msgstr ""
+"<qt><p>برای انتقال پالایهٔ انتخاب‌شدهٔ کنونی به پایین‌ترین جایگاه در فهرست، "
+"این دکمه را فشار دهید.</p><p>این کار از آن جهت مفید است که ترتیب پالایه‌ها "
+"در فهرست، ترتیب اعمال آن‌ها روی پیام‌ها را مشخص می‌کند: بالاترین پالایه "
+"زودتر از همه اعمال می‌شود.</p></qt>"
+
+#: filter/kmfilterlistbox.cpp:112
+#, kde-format
+msgid ""
+"<qt><p>Click this button to move the currently-selected filter to top of "
+"list.</p><p>This is useful since the order of the filters in the list "
+"determines the order in which they are tried on messages: The topmost filter"
+" gets tried first.</p></qt>"
+msgstr ""
+"<qt><p>برای انتقال پالایهٔ انتخاب‌شدهٔ کنونی به بالاترین جایگاه در فهرست، "
+"این دکمه را فشار دهید.</p><p>این کار از آن جهت مفید است که ترتیب پالایه‌ها "
+"در فهرست، ترتیب اعمال آن‌ها روی پیام‌ها را مشخص می‌کند: بالاترین پالایه "
+"زودتر از همه اعمال می‌شود.</p></qt>"
+
+#: filter/kmfilterlistbox.cpp:142
+#, kde-format
+msgctxt "@action:button in filter list manipulator"
+msgid "New"
+msgstr "جدید"
+
+#: filter/kmfilterlistbox.cpp:143
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy"
+msgstr "رونوشت"
+
+#: filter/kmfilterlistbox.cpp:144
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Delete"
+msgstr "حذف"
+
+#: filter/kmfilterlistbox.cpp:145
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: filter/kmfilterlistbox.cpp:147
+#, kde-format
+msgid ""
+"<qt><p>Click this button to create a new filter.</p><p>The filter will be "
+"inserted just before the currently-selected one, but you can always change "
+"that later on.</p><p>If you have clicked this button accidentally, you can "
+"undo this by clicking on the <em>Delete</em> button.</p></qt>"
+msgstr ""
+"<qt><p>برای ایجاد یک پالایهٔ جدید این دکمه را فشار دهید.</p><p>این پالایه "
+"درست قبل از پالایهٔ انتخاب‌شدهٔ کنونی درج می‌شود، اما همیشه می‌توانید آن را "
+"بعداً تغییر دهید.</p><p>اگر این دکمه را به اشتباه فشار داده‌اید، می‌توانید "
+"با کلیک روی دکمهٔ <em>حذف</em> آن را خنثی کنید.</p></qt>"
+
+#: filter/kmfilterlistbox.cpp:154
+#, kde-format
+msgid ""
+"<qt><p>Click this button to copy a filter.</p><p>If you have clicked this "
+"button accidentally, you can undo this by clicking on the <em>Delete</em> "
+"button.</p></qt>"
+msgstr ""
+"<qt><p>برای رونوشت گرفتن از یک پالایه این دکمه را فشار دهید.</p><p>اگر این "
+"دکمه را به اشتباه فشار داده‌اید، می‌توانید با کلیک روی دکمهٔ <em>حذف</em> آن"
+" را خنثی کنید.</p></qt>"
+
+#: filter/kmfilterlistbox.cpp:158
+#, kde-format
+msgid ""
+"<qt><p>Click this button to <em>delete</em> the currently-selected filter "
+"from the list above.</p><p>There is no way to get the filter back once it is"
+" deleted, but you can always leave the dialog by clicking <em>Cancel</em> to"
+" discard the changes made.</p></qt>"
+msgstr ""
+"<qt><p>برای <em>حذف</em> پالایهٔ انتخاب‌شدهٔ کنونی از فهرست بالا، روی این "
+"دکمه کلیک کنید.</p><p>پس از حذف پالایه راهی برای بازگرداندن آن وجود ندارد، "
+"اما همیشه می‌توانید با کلیک روی <em>لغو</em>، پنجره را ببندید تا تغییرات "
+"انجام‌شده نادیده گرفته شوند.</p></qt>"
+
+#: filter/kmfilterlistbox.cpp:165
+#, kde-format
+msgid ""
+"<qt><p>Click this button to rename the currently-selected "
+"filter.</p><p>Filters are named automatically, as long as they start with "
+"\"&lt;\".</p><p>If you have renamed a filter accidentally and want automatic"
+" naming back, click this button and select <em>Clear</em> followed by "
+"<em>OK</em> in the appearing dialog.</p></qt>"
+msgstr ""
+"<qt><p>برای تغییر نام پالایهٔ انتخاب‌شدهٔ کنونی، روی این دکمه کلیک "
+"کنید.</p><p>تا زمانی که نام پالایه‌ها با «&lt;» شروع شود، به‌طور خودکار "
+"نام‌گذاری می‌شوند.</p><p>اگر نام پالایه‌ای را تصادفی تغییر داده‌اید و "
+"می‌خواهید به نام‌گذاری خودکار برگردد، روی این دکمه کلیک کرده و در پنجره‌ای "
+"که ظاهر می‌شود <em>پاک‌کردن</em> و سپس <em>تأیید</em> را انتخاب "
+"کنید.</p></qt>"
+
+#: filter/kmfilterlistbox.cpp:293
+#, kde-format
+msgid "unnamed"
+msgstr "بی‌نام"
+
+#: filter/kmfilterlistbox.cpp:447
+#, kde-format
+msgid "Do you want to remove the filter \"%1\"?"
+msgstr "آیا می‌خواهید پالایهٔ «%1» را حذف کنید؟"
+
+#: filter/kmfilterlistbox.cpp:447
+#, kde-format
+msgid "Do you want to remove selected filters?"
+msgstr "آیا می‌خواهید پالایه‌های انتخاب‌شده را حذف کنید؟"
+
+#: filter/kmfilterlistbox.cpp:448
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Filter"
+msgstr "حذف پالایه"
+
+#: filter/kmfilterlistbox.cpp:448
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Filters"
+msgstr "حذف پالایه‌ها"
+
+#: filter/kmfilterlistbox.cpp:664
+#, kde-format
+msgid "Rename Filter"
+msgstr "تغییر نام پالایه"
+
+#: filter/kmfilterlistbox.cpp:665
+#, kde-format
+msgid ""
+"Rename filter \"%1\" to:\n"
+"(leave the field empty for automatic naming)"
+msgstr ""
+"تغییر نام پالایهٔ «%1» به:\n"
+"(برای نام‌گذاری خودکار، فیلد را خالی بگذارید)"
+
+#: filter/mailfilter.cpp:132
+#, kde-format
+msgid "<b>Applying filter action:</b> %1"
+msgstr "<b>اعمال کنش پالایه:</b> %1"
+
+#: filter/mailfilter.cpp:141
+#, kde-format
+msgid "A critical error occurred. Processing stops here."
+msgstr "خطای بحرانی رخ داد. پردازش در اینجا متوقف می‌شود."
+
+#: filter/mailfilter.cpp:148
+#, kde-format
+msgid "A problem was found while applying this action."
+msgstr "هنگام اعمال این اقدام، مشکلی پیدا شد."
+
+#: filter/mailfilter.cpp:428
+#, kde-format
+msgid "<qt>Too many filter actions in filter rule <b>%1</b>.</qt>"
+msgstr ""
+"<qt>اقدامات پالایه در قاعدهٔ پالایهٔ <b>%1</b> بیش از حد مجاز است.</qt>"
+
+#: filter/mailfilter.cpp:462
+#, kde-format
+msgid ""
+"<qt>Unknown filter action <b>%1</b><br />in filter rule <b>%2</b>.<br "
+"/>Ignoring it.</qt>"
+msgstr ""
+"<qt>اقدام پالایهٔ ناشناختهٔ <b>%1</b><br />در قاعدهٔ پالایهٔ <b>%2</b>.<br "
+"/>نادیده گرفته می‌شود.</qt>"
+
+#: filter/mailfilter.cpp:570
+#, kde-format
+msgid "Any action defined."
+msgstr "هر اقدام تعریف‌شده."
+
+#: filter/soundtestwidget.cpp:35 filter/soundtestwidget.cpp:117
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Play"
+msgstr "پخش"
+
+#: filter/soundtestwidget.cpp:64
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Sound File"
+msgstr "انتخاب پروندهٔ صوتی"
+
+#: filter/soundtestwidget.cpp:114
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "مکث"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: filter/ui/filterconfigwidget.ui:19
+#, kde-format
+msgid "Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: filter/ui/filterconfigwidget.ui:45
+#, kde-format
+msgid "Criteria"
+msgstr "معیارها"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: filter/ui/filterconfigwidget.ui:87
+#, kde-format
+msgid "Actions"
+msgstr "اقدامات"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: filter/ui/filterconfigwidget.ui:129
+#, kde-format
+msgid "Apply options"
+msgstr "گزینه‌های اِعمال"
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyToIncomingCB)
+#: filter/ui/filterconfigwidget.ui:138
+#, kde-format
+msgid "Apply to incoming messages"
+msgstr "اِعمال روی پیام‌های دریافتی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyToSentCB)
+#: filter/ui/filterconfigwidget.ui:145
+#, kde-format
+msgid "Apply to sent messages"
+msgstr "اِعمال روی پیام‌های ارسالی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyBeforeSendCB)
+#: filter/ui/filterconfigwidget.ui:152
+#, kde-format
+msgid "Apply before sending messages"
+msgstr "اِعمال پیش از ارسال پیام‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyManuallyCB)
+#: filter/ui/filterconfigwidget.ui:159
+#, kde-format
+msgid "Apply on manual filtering"
+msgstr "اِعمال در پالایش دستی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stopIfMatchesCB)
+#: filter/ui/filterconfigwidget.ui:169
+#, kde-format
+msgid "Stop processing if matches"
+msgstr "توقف پردازش در صورت تطابق"
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectFile)
+#: filter/ui/selectthunderbirdfilterfileswidget.ui:29
+#, kde-format
+msgid "Select File:"
+msgstr "انتخاب پرونده:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectFromConfig)
+#: filter/ui/selectthunderbirdfilterfileswidget.ui:45
+#, kde-format
+msgid "Select file from config:"
+msgstr "انتخاب پرونده از پیکربندی:"
+
+#: folder/accountconfigorderdialog.cpp:55
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Accounts Order"
+msgstr "ویرایش ترتیب حساب‌ها"
+
+#: folder/accountconfigorderdialog.cpp:72
+#, kde-format
+msgctxt "@option:check"
+msgid "Use custom order"
+msgstr "استفاده از ترتیب سفارشی"
+
+#: folder/accountconfigorderdialog.cpp:89
+#, kde-format
+msgctxt "Move selected account up."
+msgid "Up"
+msgstr "بالا"
+
+#: folder/accountconfigorderdialog.cpp:97
+#, kde-format
+msgctxt "Move selected account down."
+msgid "Down"
+msgstr "پایین"
+
+#: folder/folderrequester.cpp:46
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Select Folder"
+msgstr "انتخاب پوشه"
+
+#: folder/folderrequester.cpp:117
+#, kde-format
+msgid "Local Folders"
+msgstr "پوشه‌های محلی"
+
+#: folder/folderrequester.cpp:127 folder/folderrequester.cpp:145
+#, kde-format
+msgid "Please select a folder"
+msgstr "لطفاً یک پوشه انتخاب کنید"
+
+#: folder/folderselectiondialog.cpp:65
+#, kde-format
+msgctxt "@action:button"
+msgid "&New Subfolder…"
+msgstr "زیرپوشهٔ جدید…"
+
+#: folder/folderselectiondialog.cpp:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new subfolder under the currently selected folder"
+msgstr "ایجاد یک زیرپوشهٔ جدید درون پوشهٔ انتخاب‌شدهٔ فعلی"
+
+#: folder/folderselectiondialog.cpp:126
+#, kde-format
+msgid "&New Subfolder…"
+msgstr "زیرپوشهٔ جدید…"
+
+#: folder/folderselectiondialog.cpp:177
+#, kde-format
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr "پوشهٔ جدید"
+
+#: folder/folderselectiondialog.cpp:177
+#, kde-format
+msgctxt "@label:textbox, name of a thing"
+msgid "Name"
+msgstr "نام"
+
+#: folder/folderselectiondialog.cpp:194
+#, kde-format
+msgid "Could not create folder: %1"
+msgstr "ایجاد پوشه ممکن نشد: %1"
+
+#: folder/folderselectiondialog.cpp:194
+#, kde-format
+msgctxt "@title:window"
+msgid "Folder creation failed"
+msgstr "ایجاد پوشه ناموفق بود"
+
+#: folder/foldertreeview.cpp:129
+#, kde-format
+msgid "View Columns"
+msgstr "نمایش ستون‌ها"
+
+#: folder/foldertreeview.cpp:139
+#, kde-format
+msgid "Icon Size"
+msgstr "اندازهٔ آیکون"
+
+#: folder/foldertreeview.cpp:155
+#, kde-format
+msgid "Display Tooltips"
+msgstr "نمایش پیش‌نمایش متنی"
+
+#: folder/foldertreeview.cpp:159
+#, kde-format
+msgctxt "@action:inmenu Always display tooltips"
+msgid "Always"
+msgstr "همیشه"
+
+#: folder/foldertreeview.cpp:166
+#, kde-format
+msgctxt "@action:inmenu Never display tooltips."
+msgid "Never"
+msgstr "هرگز"
+
+#: folder/foldertreeview.cpp:173
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Sort Items"
+msgstr "مرتب‌سازی موارد"
+
+#: folder/foldertreeview.cpp:177
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Automatically, by Current Column"
+msgstr "خودکار، بر اساس ستون فعلی"
+
+#: folder/foldertreeview.cpp:184
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Manually, by Drag And Drop"
+msgstr "دستی، با کشیدن و رها کردن"
+
+#: folder/foldertreeview.cpp:474 folder/foldertreeview.cpp:516
+#, kde-format
+msgid "<qt>Go to the next unread message in folder <b>%1</b>?</qt>"
+msgstr "<qt>به پیام خوانده‌نشده بعدی در پوشه <b>%1</b> برود؟</qt>"
+
+#: folder/foldertreeview.cpp:475 folder/foldertreeview.cpp:517
+#, kde-format
+msgctxt "@title:window"
+msgid "Go to Next Unread Message"
+msgstr "رفتن به پیام خوانده‌نشده بعدی"
+
+#: folder/foldertreeview.cpp:476 folder/foldertreeview.cpp:518
+#, kde-format
+msgctxt "@action:button"
+msgid "Go To"
+msgstr "برو به"
+
+#: folder/foldertreeview.cpp:477 folder/foldertreeview.cpp:519
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Go To"
+msgstr "نرو به"
+
+#: folder/foldertreewidget.cpp:78
+#, kde-format
+msgctxt "@label:textbox"
+msgid "You can start typing to filter the list of folders."
+msgstr "برای پالایش فهرست پوشه‌ها می‌توانید شروع به نوشتن کنید."
+
+#: folder/foldertreewidget.cpp:322
+#, kde-format
+msgid "You can start typing to filter the list of folders."
+msgstr "برای پالایش فهرست پوشه‌ها می‌توانید شروع به تایپ کنید."
+
+#: folder/foldertreewidget.cpp:322
+#, kde-format
+msgid "Path: (%1)"
+msgstr "مسیر: (%1)"
+
+#: folder/foldertreewidgetproxymodel.cpp:242
+#, kde-format
+msgid "%1 (Offline)"
+msgstr "%1 (برون‌خط)"
+
+#: folder/foldertreewidgetproxymodel.cpp:247
+#, kde-format
+msgctxt ""
+"%1 is the name of a mailbox, %2 is a percentage. Keep this string short!"
+msgid "%1 (Reached %2% quota)"
+msgstr "%1 (%2٪ سهمیه پُر شده)"
+
+#: job/backupjob.cpp:95
+#, kde-format
+msgid "Unable to retrieve folder list."
+msgstr "امکان بازیابی فهرست پوشه‌ها وجود ندارد."
+
+#: job/backupjob.cpp:122
+#, kde-format
+msgid "The operation was canceled by the user."
+msgstr "عملیات توسط کاربر لغو شد."
+
+#: job/backupjob.cpp:152
+#, kde-format
+msgid "Failed to archive the folder '%1'."
+msgstr "بایگانی پوشهٔ «%1» ناموفق بود."
+
+#: job/backupjob.cpp:156
+#, kde-format
+msgctxt "@title:window"
+msgid "Archiving failed"
+msgstr "بایگانی ناموفق بود"
+
+#: job/backupjob.cpp:166
+#, kde-format
+msgid "Unable to finalize the archive file."
+msgstr "امکان نهایی‌سازی پروندهٔ بایگانی وجود ندارد."
+
+#: job/backupjob.cpp:171
+#, kde-format
+msgid "Archiving finished"
+msgstr "بایگانی پایان یافت"
+
+#: job/backupjob.cpp:182
+#, kde-format
+msgid ""
+"Archiving folder '%1' successfully completed. The archive was written to the"
+" file '%2'."
+msgstr ""
+"بایگانی پوشهٔ «%1» با موفقیت انجام شد. بایگانی در پروندهٔ «%2» نوشته شد."
+
+#: job/backupjob.cpp:188
+#, kde-format
+msgid "1 message of size %2 was archived."
+msgid_plural "%1 messages with the total size of %2 were archived."
+msgstr[0] "۱ پیام با اندازهٔ %2 بایگانی شد."
+msgstr[1] "%1 پیام با اندازهٔ مجموع %2 بایگانی شدند."
+
+#: job/backupjob.cpp:192
+#, kde-format
+msgid "The archive file has a size of %1."
+msgstr "پروندهٔ بایگانی اندازه‌ای معادل %1 دارد."
+
+#: job/backupjob.cpp:194
+#, kde-format
+msgctxt "@title:window"
+msgid "Archiving finished"
+msgstr "بایگانی پایان یافت"
+
+#: job/backupjob.cpp:244
+#, kde-format
+msgid "Failed to write a message into the archive folder '%1'."
+msgstr "نوشتن پیام در پوشهٔ بایگانی «%1» ناموفق بود."
+
+#: job/backupjob.cpp:268
+#, kde-format
+msgid "Downloading a message in folder '%1' failed."
+msgstr "بارگیری پیام در پوشهٔ «%1» ناموفق بود."
+
+#: job/backupjob.cpp:334
+#, kde-format
+msgid "Archiving folder %1"
+msgstr "بایگانی پوشهٔ %1"
+
+#: job/backupjob.cpp:359
+#, kde-format
+msgid "Unable to create folder structure for folder '%1' within archive file."
+msgstr "ایجاد ساختار پوشه برای پوشهٔ «%1» در پروندهٔ بایگانی امکان‌پذیر نیست."
+
+#: job/backupjob.cpp:371
+#, kde-format
+msgid "Unable to get message list for folder %1."
+msgstr "دریافت فهرست پیام‌ها برای پوشهٔ %1 امکان‌پذیر نیست."
+
+#: job/backupjob.cpp:409
+#, kde-format
+msgid "Unable to open archive for writing."
+msgstr "امکان باز کردن بایگانی برای نوشتن وجود ندارد."
+
+#: job/backupjob.cpp:413
+#, kde-format
+msgid "Archiving"
+msgstr "بایگانی‌کردن"
+
+#: job/expiredeletejob.cpp:66
+#, kde-format
+msgid "Removed 1 old message from folder %2."
+msgid_plural "Removed %1 old messages from folder %2."
+msgstr[0] "۱ پیام قدیمی از پوشهٔ %2 حذف شد."
+msgstr[1] "%1 پیام قدیمی از پوشهٔ %2 حذف شدند."
+
+#: job/expiredeletejob.cpp:70
+#, kde-format
+msgid "Removing old messages from folder %1 was canceled."
+msgstr "حذف پیام‌های قدیمی از پوشهٔ %1 لغو شد."
+
+#: job/expiredeletejob.cpp:74
+#, kde-format
+msgid "Removing old messages from folder %1 failed."
+msgstr "حذف پیام‌های قدیمی از پوشهٔ %1 ناموفق بود."
+
+#: job/expirejob.cpp:157
+#, kde-format
+msgid "Removing 1 old message from folder %2…"
+msgid_plural "Removing %1 old messages from folder %2…"
+msgstr[0] "در حال حذف ۱ پیام قدیمی از پوشهٔ %2…"
+msgstr[1] "در حال حذف %1 پیام قدیمی از پوشهٔ %2…"
+
+#: job/expirejob.cpp:164
+#, kde-format
+msgid "Cannot expire messages from folder %1: destination folder %2 not found"
+msgstr "انقضای پیام‌های پوشهٔ %1 امکان‌پذیر نیست: پوشهٔ مقصد %2 یافت نشد"
+
+#: job/expirejob.cpp:180
+#, kde-format
+msgid "Moving 1 old message from folder %2 to folder %3…"
+msgid_plural "Moving %1 old messages from folder %2 to folder %3…"
+msgstr[0] "در حال انتقال ۱ پیام قدیمی از پوشهٔ %2 به پوشهٔ %3…"
+msgstr[1] "در حال انتقال %1 پیام قدیمی از پوشهٔ %2 به پوشهٔ %3…"
+
+#: job/expiremovejob.cpp:127
+#, kde-format
+msgid "Moved 1 old message from folder %2 to folder %3."
+msgid_plural "Moved %1 old messages from folder %2 to folder %3."
+msgstr[0] "۱ پیام قدیمی از پوشهٔ %2 به پوشهٔ %3 منتقل شد."
+msgstr[1] "%1 پیام قدیمی از پوشهٔ %2 به پوشهٔ %3 منتقل شد."
+
+#: job/expiremovejob.cpp:136
+#, kde-format
+msgid "Moving old messages from folder %1 to folder %2 was canceled."
+msgstr "انتقال پیام‌های قدیمی از پوشهٔ %1 به پوشهٔ %2 لغو شد."
+
+#: job/expiremovejob.cpp:143
+#, kde-format
+msgid "Moving old messages from folder %1 to folder %2 failed."
+msgstr "انتقال پیام‌های قدیمی از پوشهٔ %1 به پوشهٔ %2 ناموفق بود."
+
+#: kernel/mailkernel.cpp:184 kernel/mailkernel.cpp:206
+#, kde-format
+msgid "You do not have read/write permission to your inbox folder."
+msgstr "شما مجوز خواندن/نوشتن برای پوشهٔ صندوق ورودی خود را ندارید."
+
+#: kernel/mailkernel.cpp:235
+#, kde-format
+msgid "The Email program encountered a fatal error and will terminate now"
+msgstr "برنامهٔ رایانامه با یک خطای مهلک مواجه شد و اکنون بسته خواهد شد"
+
+#: kernel/mailkernel.cpp:238
+#, kde-format
+msgid ""
+"The Email program encountered a fatal error and will terminate now.\n"
+"The error was:\n"
+"%1"
+msgstr ""
+"برنامهٔ رایانامه با یک خطای مهلک مواجه شد و اکنون بسته خواهد شد.\n"
+"خطا عبارت بود از:\n"
+"%1"
+
+#: search/searchpattern.cpp:237
+#, kde-format
+msgctxt "name used for a virgin filter"
+msgid "unknown"
+msgstr "ناشناخته"
+
+#: search/searchpattern.cpp:245
+#, kde-format
+msgid "(match any of the following)"
+msgstr "(تطابق با هر یک از موارد زیر)"
+
+#: search/searchpattern.cpp:248
+#, kde-format
+msgid "(match all of the following)"
+msgstr "(تطابق با همه موارد زیر)"
+
+#: search/searchpattern.cpp:251
+#, kde-format
+msgid "(match all messages)"
+msgstr "(تطابق با همه پیام‌ها)"
+
+#: search/searchpatternedit.cpp:41
+msgid "Complete Message"
+msgstr "پیام کامل"
+
+#: search/searchpatternedit.cpp:42
+msgid "Body of Message"
+msgstr "متن پیام"
+
+#: search/searchpatternedit.cpp:43
+msgid "Anywhere in Headers"
+msgstr "هر کجای سرآیندها"
+
+#: search/searchpatternedit.cpp:44
+msgid "All Recipients"
+msgstr "همه گیرندگان"
+
+#: search/searchpatternedit.cpp:45
+msgid "Size in Bytes"
+msgstr "اندازه به بایت"
+
+#: search/searchpatternedit.cpp:46
+msgid "Age in Days"
+msgstr "قدمت به روز"
+
+#: search/searchpatternedit.cpp:47
+msgid "Message Status"
+msgstr "وضعیت پیام"
+
+#: search/searchpatternedit.cpp:48
+msgid "Message Tag"
+msgstr "برچسب پیام"
+
+#: search/searchpatternedit.cpp:49
+msgid "Subject"
+msgstr "موضوع"
+
+#: search/searchpatternedit.cpp:50
+msgid "From"
+msgstr "از"
+
+#: search/searchpatternedit.cpp:51
+msgid "To"
+msgstr "به"
+
+#: search/searchpatternedit.cpp:53
+msgid "Reply To"
+msgstr "پاسخ به"
+
+#: search/searchpatternedit.cpp:54
+msgid "Organization"
+msgstr "سازمان"
+
+#: search/searchpatternedit.cpp:55
+msgid "Date"
+msgstr "تاریخ"
+
+#: search/searchpatternedit.cpp:56
+msgid "Encryption"
+msgstr "رمزگذاری"
+
+#: search/searchpatternedit.cpp:57
+msgid "Attachment"
+msgstr "پیوست"
+
+#: search/searchpatternedit.cpp:58
+msgid "Invitation"
+msgstr "دعوت‌نامه"
+
+#: search/searchpatternedit.cpp:146
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Choose or type your own criteria"
+msgstr "معیار خود را انتخاب کرده یا تایپ کنید"
+
+#: search/searchpatternedit.cpp:147
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Choose or type your own criteria"
+msgstr "معیار خود را انتخاب کرده یا تایپ کنید"
+
+#: search/searchpatternedit.cpp:584
+#, kde-format
+msgctxt "@option:radio"
+msgid "Match a&ll of the following"
+msgstr "تطابق با همه موارد زیر"
+
+#: search/searchpatternedit.cpp:585
+#, kde-format
+msgctxt "@option:radio"
+msgid "Match an&y of the following"
+msgstr "تطابق با هر یک از موارد زیر"
+
+#: search/searchpatternedit.cpp:587
+#, kde-format
+msgctxt "@option:radio"
+msgid "Match all messages"
+msgstr "تطابق با همه پیام‌ها"
+
+#: search/searchpatternedit.cpp:598
+#, kde-format
+msgid "Filter criteria:"
+msgstr "معیار فیلتر:"
+
+#: search/searchrule/searchrule.cpp:185
+#, kde-format
+msgid "equal"
+msgstr "برابر"
+
+#: search/searchrule/searchrule.cpp:188
+#, kde-format
+msgid "not equal"
+msgstr "نابرابر"
+
+#: search/searchrule/searchrule.cpp:191
+#, kde-format
+msgid "is greater"
+msgstr "بزرگ‌تر است"
+
+#: search/searchrule/searchrule.cpp:194
+#, kde-format
+msgid "is less or equal"
+msgstr "کوچک‌تر یا مساوی است"
+
+#: search/searchrule/searchrule.cpp:197
+#, kde-format
+msgid "is less"
+msgstr "کمتر است"
+
+#: search/searchrule/searchrule.cpp:200
+#, kde-format
+msgid "is greater or equal"
+msgstr "بزرگ‌تر یا مساوی است"
+
+#: search/searchrule/searchrule.cpp:203
+#, kde-format
+msgid "is in addressbook"
+msgstr "در دفترچه نشانی است"
+
+#: search/searchrule/searchrule.cpp:206
+#, kde-format
+msgid "is not in addressbook"
+msgstr "در دفترچه نشانی نیست"
+
+#: search/searchrule/searchrule.cpp:209 search/searchrule/searchrule.cpp:212
+#, kde-format
+msgid "is in category"
+msgstr "در دسته است"
+
+#: search/searchrule/searchrule.cpp:215
+#: search/widgethandler/messagerulewidgethandler.cpp:28
+#: search/widgethandler/messagerulewidgethandler.cpp:145
+#, kde-format
+msgid "has an attachment"
+msgstr "پیوست دارد"
+
+#: search/searchrule/searchrule.cpp:218
+#, kde-format
+msgid "has not an attachment"
+msgstr "پیوست ندارد"
+
+#: search/searchrule/searchrule.cpp:221
+#, kde-format
+msgid "has an invitation"
+msgstr "دعوت‌نامه دارد"
+
+#: search/searchrule/searchrule.cpp:224
+#, kde-format
+msgid "has not an invitation"
+msgstr "دعوت‌نامه ندارد"
+
+#: search/searchrule/searchrule.cpp:227
+#, kde-format
+msgid "start with"
+msgstr "شروع با"
+
+#: search/searchrule/searchrule.cpp:230
+#, kde-format
+msgid "not start with"
+msgstr "شروع نشود با"
+
+#: search/searchrule/searchrule.cpp:233
+#, kde-format
+msgid "end with"
+msgstr "پایان یابد با"
+
+#: search/searchrule/searchrule.cpp:236
+#, kde-format
+msgid "not end with"
+msgstr "پایان نیابد با"
+
+#: search/searchrule/searchrule.cpp:239
+#, kde-format
+msgid "none"
+msgstr "هیچ‌کدام"
+
+#: search/searchrule/searchrule.cpp:242
+#: search/widgethandler/headersrulerwidgethandler.cpp:25
+#: search/widgethandler/messagerulewidgethandler.cpp:24
+#: search/widgethandler/tagrulewidgethandler.cpp:93
+#: search/widgethandler/textrulerwidgethandler.cpp:24
+#, kde-format
+msgid "contains"
+msgstr "شامل می‌شود"
+
+#: search/searchrule/searchrule.cpp:245
+#, kde-format
+msgid "not contains"
+msgstr "شامل نمی‌شود"
+
+#: search/searchrule/searchrule.cpp:248
+#, kde-format
+msgid "has regexp"
+msgstr "دارای عبارت باقاعده"
+
+#: search/searchrule/searchrule.cpp:251
+#, kde-format
+msgid "not regexp"
+msgstr "عبارت باقاعده نباشد"
+
+#: search/searchrule/searchrule.cpp:265
+#, kde-format
+msgid "size equals not supported"
+msgstr "«برابر بودن اندازه» پشتیبانی نمی‌شود"
+
+#: search/searchrule/searchrule.cpp:268
+#, kde-format
+msgid "size not equals not supported"
+msgstr "«نابرابر بودن اندازه» پشتیبانی نمی‌شود"
+
+#: search/searchrule/searchrule.cpp:301 search/searchrule/searchrule.cpp:409
+#: search/searchrule/searchrule.cpp:492
+#, kde-format
+msgid "\"%1\" is not supported with condition \"%2\""
+msgstr "«%1» با شرط «%2» پشتیبانی نمی‌شود"
+
+#: search/searchrule/searchrule.cpp:307
+#, kde-format
+msgid "<status> not implemented/supported"
+msgstr "<status> پیاده‌سازی/پشتیبانی نشده است"
+
+#: search/searchrule/searchrule.cpp:310
+#, kde-format
+msgid "<any header> not implemented/supported"
+msgstr "<any header> پیاده‌سازی/پشتیبانی نشده است"
+
+#: search/searchrule/searchrule.cpp:313
+#, kde-format
+msgid "<contents> not implemented/supported"
+msgstr "<contents> پیاده‌سازی/پشتیبانی نشده است"
+
+#: search/searchrule/searchrule.cpp:316
+#, kde-format
+msgid "<age in days> not implemented/supported"
+msgstr "<age in days> پیاده‌سازی/پشتیبانی نشده است"
+
+#: search/searchrule/searchrule.cpp:319
+#, kde-format
+msgid "<date> not implemented/supported"
+msgstr "<date> پیاده‌سازی/پشتیبانی نشده است"
+
+#: search/searchrule/searchrule.cpp:322
+#, kde-format
+msgid "<recipients> not implemented/supported"
+msgstr "<recipients> پیاده‌سازی/پشتیبانی نشده است"
+
+#: search/searchrule/searchrule.cpp:324
+#, kde-format
+msgid "<Tag> is not supported"
+msgstr "<Tag> پشتیبانی نمی‌شود"
+
+#: search/searchrule/searchrule.cpp:327
+#, kde-format
+msgid "<message> not implemented/supported"
+msgstr "<message> پیاده‌سازی/پشتیبانی نشده است"
+
+#: search/searchrule/searchruledate.cpp:20
+#, kde-format
+msgid "Date is not valid."
+msgstr "تاریخ معتبر نیست."
+
+#: search/searchrule/searchrulenumerical.cpp:137
+#, kde-format
+msgid "Content is not a number."
+msgstr "محتوا یک عدد نیست."
+
+#: search/searchrule/searchrulestring.cpp:243
+#, kde-format
+msgid "String is empty."
+msgstr "رشته خالی است."
+
+#: search/widgethandler/attachmentwidgethandler.cpp:17
+#: search/widgethandler/invitationwidgethandler.cpp:17
+msgid "has"
+msgstr "دارد"
+
+#: search/widgethandler/attachmentwidgethandler.cpp:17
+#: search/widgethandler/invitationwidgethandler.cpp:17
+msgid "has not"
+msgstr "ندارد"
+
+#: search/widgethandler/attachmentwidgethandler.cpp:51
+#, kde-format
+msgctxt "@label:textbox"
+msgid "attachments"
+msgstr "پیوست‌ها"
+
+#: search/widgethandler/attachmentwidgethandler.cpp:88
+#, kde-format
+msgid "has attachment"
+msgstr "پیوست دارد"
+
+#: search/widgethandler/daterulewidgethandler.cpp:22
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:21
+#: search/widgethandler/numericrulewidgethandler.cpp:21
+msgid "is equal to"
+msgstr "برابر است با"
+
+#: search/widgethandler/daterulewidgethandler.cpp:23
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:22
+#: search/widgethandler/numericrulewidgethandler.cpp:22
+msgid "is not equal to"
+msgstr "برابر نیست با"
+
+#: search/widgethandler/daterulewidgethandler.cpp:24
+msgid "is after"
+msgstr "بعد از است"
+
+#: search/widgethandler/daterulewidgethandler.cpp:25
+msgid "is before or equal to"
+msgstr "قبل یا برابر با است"
+
+#: search/widgethandler/daterulewidgethandler.cpp:26
+msgid "is before"
+msgstr "قبل از است"
+
+#: search/widgethandler/daterulewidgethandler.cpp:27
+msgid "is after or equal to"
+msgstr "بعد یا مساوی با است"
+
+#: search/widgethandler/encryptionwidgethandler.cpp:17
+#: search/widgethandler/statusrulewidgethandler.cpp:18
+msgid "is"
+msgstr "هست"
+
+#: search/widgethandler/encryptionwidgethandler.cpp:17
+#: search/widgethandler/statusrulewidgethandler.cpp:18
+msgid "is not"
+msgstr "نیست"
+
+#: search/widgethandler/encryptionwidgethandler.cpp:51
+#, kde-format
+msgctxt "@label:textbox"
+msgid "encrypted"
+msgstr "رمزگذاری‌شده"
+
+#: search/widgethandler/encryptionwidgethandler.cpp:88
+#, kde-format
+msgid "is encrypted"
+msgstr "رمزگذاری‌شده است"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:26
+#: search/widgethandler/messagerulewidgethandler.cpp:25
+#: search/widgethandler/tagrulewidgethandler.cpp:94
+#: search/widgethandler/textrulerwidgethandler.cpp:25
+msgid "does not contain"
+msgstr "شامل نمی‌شود"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:27
+#: search/widgethandler/tagrulewidgethandler.cpp:95
+#: search/widgethandler/textrulerwidgethandler.cpp:26
+msgid "equals"
+msgstr "برابر است با"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:28
+#: search/widgethandler/tagrulewidgethandler.cpp:96
+#: search/widgethandler/textrulerwidgethandler.cpp:27
+msgid "does not equal"
+msgstr "برابر نیست با"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:29
+#: search/widgethandler/textrulerwidgethandler.cpp:28
+msgid "starts with"
+msgstr "شروع می‌شود با"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:30
+#: search/widgethandler/textrulerwidgethandler.cpp:29
+msgid "does not start with"
+msgstr "شروع نمی‌شود با"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:31
+#: search/widgethandler/textrulerwidgethandler.cpp:30
+msgid "ends with"
+msgstr "پایان می‌یابد با"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:32
+#: search/widgethandler/textrulerwidgethandler.cpp:31
+msgid "does not end with"
+msgstr "پایان نمی‌یابد با"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:34
+#: search/widgethandler/messagerulewidgethandler.cpp:26
+#: search/widgethandler/tagrulewidgethandler.cpp:97
+#: search/widgethandler/textrulerwidgethandler.cpp:33
+msgid "matches regular expr."
+msgstr "منطبق با عبارت باقاعده است"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:35
+#: search/widgethandler/messagerulewidgethandler.cpp:27
+#: search/widgethandler/tagrulewidgethandler.cpp:98
+#: search/widgethandler/textrulerwidgethandler.cpp:34
+msgid "does not match reg. expr."
+msgstr "منطبق با عبارت باقاعده نیست"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:36
+#: search/widgethandler/headersrulerwidgethandler.cpp:149
+#, kde-format
+msgid "is in address book"
+msgstr "در دفترچه نشانی است"
+
+#: search/widgethandler/headersrulerwidgethandler.cpp:37
+#: search/widgethandler/headersrulerwidgethandler.cpp:151
+#, kde-format
+msgid "is not in address book"
+msgstr "در دفترچه نشانی نیست"
+
+#: search/widgethandler/invitationwidgethandler.cpp:51
+#, kde-format
+msgctxt "@label:textbox"
+msgid "invitation"
+msgstr "دعوت‌نامه"
+
+#: search/widgethandler/invitationwidgethandler.cpp:88
+#, kde-format
+msgid "has invitation"
+msgstr "دارای دعوت‌نامه است"
+
+#: search/widgethandler/messagerulewidgethandler.cpp:29
+#: search/widgethandler/messagerulewidgethandler.cpp:147
+#, kde-format
+msgid "has no attachment"
+msgstr "پیوست ندارد"
+
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:23
+#: search/widgethandler/numericrulewidgethandler.cpp:23
+msgid "is greater than"
+msgstr "بزرگ‌تر است از"
+
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:24
+#: search/widgethandler/numericrulewidgethandler.cpp:24
+msgid "is less than or equal to"
+msgstr "کوچک‌تر یا مساوی است با"
+
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:25
+#: search/widgethandler/numericrulewidgethandler.cpp:25
+msgid "is less than"
+msgstr "کوچک‌تر است از"
+
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:26
+#: search/widgethandler/numericrulewidgethandler.cpp:26
+msgid "is greater than or equal to"
+msgstr "بزرگ‌تر یا مساوی است با"
+
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:157
+#, kde-format
+msgctxt "spinbox suffix: unit for kilobyte"
+msgid " kB"
+msgstr " kB"
+
+#: search/widgethandler/numericrulewidgethandler.cpp:157
+#, kde-format
+msgctxt "Unit suffix where units are days."
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] "%v روز"
+msgstr[1] "%v روز"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:28
+msgctxt "message status"
+msgid "Important"
+msgstr "مهم"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:29
+msgctxt "message status"
+msgid "Action Item"
+msgstr "اقدام لازم"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:30
+msgctxt "message status"
+msgid "Unread"
+msgstr "خوانده‌نشده"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:31
+msgctxt "message status"
+msgid "Read"
+msgstr "خوانده‌شده"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:32
+msgctxt "message status"
+msgid "Deleted"
+msgstr "حذف‌شده"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:33
+msgctxt "message status"
+msgid "Replied"
+msgstr "پاسخ‌داده‌شده"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:34
+msgctxt "message status"
+msgid "Forwarded"
+msgstr "بازفرستاده‌شده"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:35
+msgctxt "message status"
+msgid "Queued"
+msgstr "در صف"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:36
+msgctxt "message status"
+msgid "Sent"
+msgstr "ارسال‌شده"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:37
+msgctxt "message status"
+msgid "Watched"
+msgstr "دنبال‌شده"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:38
+msgctxt "message status"
+msgid "Ignored"
+msgstr "نادیده‌گرفته‌شده"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:39
+msgctxt "message status"
+msgid "Spam"
+msgstr "هرزنامه"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:40
+msgctxt "message status"
+msgid "Ham"
+msgstr "غیرهرازنامه"
+
+#: search/widgethandler/statusrulewidgethandler.cpp:41
+msgctxt "message status"
+msgid "Has Attachment"
+msgstr "پیوست دارد"
+
+#: snippets/snippetattachmentwidget.cpp:28
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Click on button for selecting attachment file"
+msgstr "برای انتخاب پروندهٔ پیوست روی دکمه کلیک کنید"
+
+#: snippets/snippetattachmentwidget.cpp:34
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select Attachments"
+msgstr "انتخاب پیوست‌ها"
+
+#: snippets/snippetattachmentwidget.cpp:35
+#, kde-format
+msgid "…"
+msgstr "…"
+
+#: snippets/snippetcustomfileattachmentnamedialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Customize File Name Attachment"
+msgstr "شخصی‌سازی نام پروندهٔ پیوست"
+
+#: snippets/snippetcustomfileattachmentnamewidget.cpp:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Filename:"
+msgstr "نام پرونده:"
+
+#: snippets/snippetcustomfileattachmentnamewidget.cpp:47
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert Variables"
+msgstr "درج متغیرها"
+
+#: snippets/snippetselectattachmentdialog.cpp:23
+#: snippets/snippetselectattachmentwidget.cpp:52
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Attachments"
+msgstr "انتخاب پیوست‌ها"
+
+#: snippets/snippetselectattachmentwidget.cpp:45
+#, kde-format
+msgid "Do you want to delete selected attachment?"
+msgstr "آیا می‌خواهید پیوست انتخاب‌شده را حذف کنید؟"
+
+#: snippets/snippetsmanager.cpp:156
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#: snippets/snippetsmanager.cpp:162
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Snippet"
+msgstr "افزودن قطعه‌کد"
+
+#: snippets/snippetsmanager.cpp:228
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Snippet"
+msgstr "ویرایش قطعه‌کد"
+
+#: snippets/snippetsmanager.cpp:288
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove snippet \"%1\"?<nl/><warning>There is no way to"
+" undo the removal.</warning>"
+msgstr ""
+"آیا واقعاً می‌خواهید قطعه‌کد «%1» را حذف کنید؟<nl/><warning>هیچ راهی برای "
+"بازگرداندن این حذف وجود ندارد.</warning>"
+
+#: snippets/snippetsmanager.cpp:307
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Group"
+msgstr "افزودن گروه"
+
+#: snippets/snippetsmanager.cpp:332
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Group"
+msgstr "ویرایش گروه"
+
+#: snippets/snippetsmanager.cpp:361
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove group \"%1\" along with all its "
+"snippets?<nl/><warning>There is no way to undo the removal.</warning>"
+msgstr ""
+"آیا واقعاً می‌خواهید گروه «%1» را به همراه تمام قطعه‌کدهای آن حذف "
+"کنید؟<nl/><warning>هیچ راهی برای بازگرداندن این حذف وجود ندارد.</warning>"
+
+#: snippets/snippetsmanager.cpp:371
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to remove group \"%1\"?"
+msgstr "آیا واقعاً می‌خواهید گروه «%1» را حذف کنید؟"
+
+#: snippets/snippetsmanager.cpp:439 snippets/snippetsmanager.cpp:468
+#, kde-format
+msgctxt "@action"
+msgid "Snippet %1"
+msgstr "قطعه‌کد %1"
+
+#: snippets/snippetsmanager.cpp:561
+#, kde-format
+msgctxt "@action"
+msgid "Add Snippet…"
+msgstr "افزودن قطعه‌کد…"
+
+#: snippets/snippetsmanager.cpp:563
+#, kde-format
+msgctxt "@action"
+msgid "Edit Snippet…"
+msgstr "ویرایش قطعه‌کد…"
+
+#: snippets/snippetsmanager.cpp:565
+#, kde-format
+msgctxt "@action"
+msgid "Remove Snippet"
+msgstr "حذف قطعه‌کد"
+
+#: snippets/snippetsmanager.cpp:568
+#, kde-format
+msgctxt "@action"
+msgid "Add Group…"
+msgstr "افزودن گروه…"
+
+#: snippets/snippetsmanager.cpp:570
+#, kde-format
+msgctxt "@action"
+msgid "Rename Group…"
+msgstr "تغییر نام گروه…"
+
+#: snippets/snippetsmanager.cpp:572
+#, kde-format
+msgctxt "@action"
+msgid "Remove Group"
+msgstr "حذف گروه"
+
+#: snippets/snippetsmanager.cpp:575
+#, kde-format
+msgctxt "@action"
+msgid "Insert Snippet"
+msgstr "درج قطعه‌کد"
+
+#: snippets/snippetsmodel.cpp:524 snippets/snippetsmodel.cpp:553
+#, kde-format
+msgid "Do you want to update snippet?"
+msgstr "آیا می‌خواهید قطعه‌کد را به‌روزرسانی کنید؟"
+
+#: snippets/snippetsmodel.cpp:525 snippets/snippetsmodel.cpp:554
+#, kde-format
+msgctxt "@title:window"
+msgid "Update snippet"
+msgstr "به‌روزرسانی قطعه‌کد"
+
+#: snippets/snippetsmodel.cpp:526 snippets/snippetsmodel.cpp:555
+#, kde-format
+msgctxt "@action:button"
+msgid "Update"
+msgstr "به‌روزرسانی"
+
+#: snippets/snippettreeview.cpp:65
+#, kde-format
+msgid "Text Snippets"
+msgstr "قطعه‌متن‌ها"
+
+#: snippets/snippetvariabledialog.cpp:34
+#, kde-format
+msgctxt "@title:window"
+msgid "Enter Values for Variables"
+msgstr "ورود مقادیر متغیرها"
+
+#: snippets/snippetvariabledialog.cpp:37
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Enter the replacement values for '%1':"
+msgstr "ورود مقادیر جایگزین برای «%1»:"
+
+#: snippets/snippetvariabledialog.cpp:42
+#, kde-format
+msgctxt "@option:check"
+msgid "Make value &default"
+msgstr "مقدار پیش‌فرض شود"
+
+#: snippets/snippetvariabledialog.cpp:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Enable this to save the value entered to the right as the default value for "
+"this variable"
+msgstr ""
+"این گزینه را فعال کنید تا مقدار واردشده در سمت راست به‌عنوان مقدار پیش‌فرض "
+"این متغیر ذخیره شود"
+
+#: snippets/snippetvariabledialog.cpp:48
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If you enable this option, the value entered to the right will be saved. If "
+"you use the same variable later, even in another snippet, the value entered "
+"to the right will be the default value for that variable."
+msgstr ""
+"اگر این گزینه را فعال کنید، مقدار واردشده در سمت راست ذخیره خواهد شد. اگر "
+"بعداً از همین متغیر، حتی در قطعه‌کد دیگری استفاده کنید، مقدار واردشده در سمت"
+" راست مقدار پیش‌فرض آن متغیر خواهد بود."
+
+#: snippets/snippetwidget.cpp:58
+#, kde-format
+msgid ""
+"Enter a keyword here to enable fast insertion of this snippet while writing "
+"an email. For instance if you choose \"greeting\" as the keyword, you can "
+"then type \\greeting in your email and then press the tab key, and it will "
+"be replaced with the contents of this snippet."
+msgstr ""
+"یک کلیدواژه در اینجا وارد کنید تا درج سریع این قطعه‌کد هنگام نوشتن رایانامه "
+"فعال شود. برای نمونه اگر «greeting» را به‌عنوان کلیدواژه برگزینید، می‌توانید"
+" در رایانامهٔ خود greeting\\ را تایپ کرده و سپس کلید تب (Tab) را بفشارید تا "
+"با محتوای این قطعه‌کد جایگزین شود."
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: snippets/ui/snippetwidget.ui:32
+#, kde-format
+msgid "&Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabelGroup)
+#: snippets/ui/snippetwidget.ui:50
+#, kde-format
+msgctxt "Group to which the snippet belongs."
+msgid "Group:"
+msgstr "گروه:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: snippets/ui/snippetwidget.ui:69
+#, kde-format
+msgid "Subject:"
+msgstr "موضوع:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: snippets/ui/snippetwidget.ui:88
+#, kde-format
+msgid "To:"
+msgstr "به:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: snippets/ui/snippetwidget.ui:101
+#, kde-format
+msgid "Cc:"
+msgstr "رونوشت:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: snippets/ui/snippetwidget.ui:114
+#, kde-format
+msgid "Bcc:"
+msgstr "رونوشت پنهان:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel)
+#: snippets/ui/snippetwidget.ui:127
+#, kde-format
+msgid "&Snippet:"
+msgstr "قطعه‌کد:"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButtonVariables)
+#: snippets/ui/snippetwidget.ui:157
+#, kde-format
+msgid "Variables"
+msgstr "متغیرها"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: snippets/ui/snippetwidget.ui:181
+#, kde-format
+msgid "Attachments:"
+msgstr "پیوست‌ها:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: snippets/ui/snippetwidget.ui:193
+#, kde-format
+msgid "Keyword:"
+msgstr "کلیدواژه:"
+
+#. i18n: ectx: property (text), widget (QLabel, keyWidgetLabel)
+#: snippets/ui/snippetwidget.ui:212
+#, kde-format
+msgid "Sho&rtcut:"
+msgstr "میان‌بُر:"
+
+#: tag/addtagdialog.cpp:39
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Tag"
+msgstr "افزودن برچسب"
+
+#: tag/addtagdialog.cpp:76
+#, kde-format
+msgid "Tag %1 already exists"
+msgstr "برچسب %1 از قبل وجود دارد"
+
+#: tag/tagwidget.cpp:63
+#, kde-format
+msgctxt "@label:listbox Name of the tag"
+msgid "Name:"
+msgstr "نام:"
+
+#: tag/tagwidget.cpp:70
+#, kde-format
+msgctxt "@option:check"
+msgid "Change te&xt color:"
+msgstr "تغییر رنگ متن:"
+
+#: tag/tagwidget.cpp:82
+#, kde-format
+msgctxt "@option:check"
+msgid "Change &background color:"
+msgstr "تغییر رنگ پس‌زمینه:"
+
+#: tag/tagwidget.cpp:94
+#, kde-format
+msgctxt "@option:check"
+msgid "Change fo&nt:"
+msgstr "تغییر قلم:"
+
+#: tag/tagwidget.cpp:100
+#, kde-format
+msgctxt "@option:check"
+msgid "&Bold"
+msgstr "پررنگ"
+
+#: tag/tagwidget.cpp:104
+#, kde-format
+msgctxt "@option:check"
+msgid "&Italics"
+msgstr "مورب"
+
+#: tag/tagwidget.cpp:122
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Message tag &icon:"
+msgstr "نماد برچسب پیام:"
+
+#: tag/tagwidget.cpp:133
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Shortc&ut:"
+msgstr "میان‌بر:"
+
+#: tag/tagwidget.cpp:144
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable &toolbar button"
+msgstr "فعال‌سازی دکمهٔ نوار ابزار"
+
+#: widgets/favoritecollectionwidget.cpp:91
+#, kde-format
+msgid "Icon size"
+msgstr "اندازهٔ نماد"
+
+#: widgets/favoritecollectionwidget.cpp:110
+#, kde-format
+msgid "Mode"
+msgstr "حالت"
+
+#: widgets/favoritecollectionwidget.cpp:114
+#, kde-format
+msgctxt "@action"
+msgid "List Mode"
+msgstr "حالت فهرستی"
+
+#: widgets/favoritecollectionwidget.cpp:124
+#, kde-format
+msgctxt "@action"
+msgid "Icon Mode"
+msgstr "حالت نمادی"
+
+#: widgets/favoritecollectionwidget.cpp:235
+#, kde-format
+msgid "Drop your favorite folders here…"
+msgstr "پوشه‌های برگزیدهٔ خود را اینجا رها کنید…"
+
+#: widgets/redirectdialog.cpp:67
+#, kde-format
+msgid "Resend-To:"
+msgstr "ارسال مجدد به:"
+
+#: widgets/redirectdialog.cpp:70
+#, kde-format
+msgid "Resend-Cc:"
+msgstr "رونوشت ارسال مجدد:"
+
+#: widgets/redirectdialog.cpp:73
+#, kde-format
+msgid "Resend-Bcc:"
+msgstr "رونوشت مخفی ارسال مجدد:"
+
+#: widgets/redirectdialog.cpp:102
+#, kde-format
+msgctxt "@title:window"
+msgid "Redirect Message"
+msgstr "تغییر مسیر پیام"
+
+#: widgets/redirectdialog.cpp:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select the recipient addresses to redirect to:"
+msgstr "نشانی‌های گیرنده را برای تغییر مسیر انتخاب کنید:"
+
+#: widgets/redirectdialog.cpp:152
+#, kde-format
+msgid "Identity:"
+msgstr "هویت:"
+
+#: widgets/redirectdialog.cpp:156
+#, kde-format
+msgid "Transport:"
+msgstr "انتقال:"
+
+#: widgets/redirectdialog.cpp:158
+#, kde-format
+msgctxt "@action:button"
+msgid "&Send Now"
+msgstr "ارسال اکنون"
+
+#: widgets/redirectdialog.cpp:159
+#, kde-format
+msgctxt "@action:button"
+msgid "Send &Later"
+msgstr "ارسال در آینده"
+
+#: widgets/redirectdialog.cpp:207
+#, kde-format
+msgid "You cannot redirect the message without an address."
+msgstr "نمی‌توانید پیام را بدون نشانی تغییر مسیر دهید."
+
+#: widgets/redirectdialog.cpp:207
+#, kde-format
+msgctxt "@title:window"
+msgid "Empty Redirection Address"
+msgstr "نشانی تغییر مسیر خالی است"
+
+#: widgets/redirectwidget.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use the Address-Selection Dialog"
+msgstr "استفاده از گفت‌وگوی گزینش نشانی"
+
+#: widgets/redirectwidget.cpp:41
+#, kde-format
+msgid ""
+"This button opens a separate dialog where you can select recipients out of "
+"all available addresses."
+msgstr ""
+"این دکمه گفت‌وگوی جداگانه‌ای را باز می‌کند که در آن می‌توانید گیرندگان را از"
+" میان همهٔ نشانی‌های موجود انتخاب کنید."

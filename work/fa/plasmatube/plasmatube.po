@@ -1,0 +1,1085 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasmatube package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmatube\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-31 00:44+0000\n"
+"PO-Revision-Date: 2026-10-16 01:46+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: api/invidious/invidiousapi.cpp:112 api/piped/pipedapi.cpp:90
+#: controllers/logincontroller.cpp:37
+#, kde-format
+msgid "Username or password is wrong."
+msgstr "نام کاربری یا گذرواژه اشتباه است."
+
+#: api/invidious/invidiousapi.cpp:397 api/peertube/peertubeapi.cpp:408
+#: api/piped/pipedapi.cpp:327
+#, kde-format
+msgid "Server returned no valid JSON."
+msgstr "کارساز JSON معتبری برنگرداند."
+
+#: api/invidious/invidiousapi.cpp:406 api/peertube/peertubeapi.cpp:417
+#: api/piped/pipedapi.cpp:336
+#, kde-format
+msgid "Server returned the status code %1"
+msgstr "کارساز کد وضعیت %1 را بازگرداند"
+
+#: controllers/logincontroller.cpp:40
+#, kde-format
+msgid "This instance has disabled the registration."
+msgstr "این نمونه ثبت‌نام را غیرفعال کرده است."
+
+#: controllers/videocontroller.cpp:71
+#, kde-format
+msgid "Playing video"
+msgstr "پخش ویدیو"
+
+#: main.cpp:52
+#, kde-format
+msgid "PlasmaTube"
+msgstr "پلاسماتیوب"
+
+#: main.cpp:54
+#, kde-format
+msgid "YouTube client"
+msgstr "کلاینت یوتیوب"
+
+#: main.cpp:56
+#, kde-format
+msgid "© 2019-2025 Linus Jahn, 2019-2025 KDE Community"
+msgstr "© 2019-2025 Linus Jahn, 2019-2025 KDE Community"
+
+#: main.cpp:57
+#, kde-format
+msgid "Linus Jahn"
+msgstr "لینوس یان"
+
+#: main.cpp:57
+#, kde-format
+msgid "Creator"
+msgstr "سازنده"
+
+#: main.cpp:58
+#, kde-format
+msgid "Joshua Goins"
+msgstr "جاشوا گوینز"
+
+#: main.cpp:59
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: main.cpp:63
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: main.cpp:63
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: models/peertubeinstancesmodel.cpp:32
+#, kde-format
+msgid "No server description provided."
+msgstr "توضیحاتی برای سرور ارائه نشده است."
+
+#: models/videolistmodel.cpp:18 ui/components/Sidebar.qml:142
+#, kde-format
+msgid "Subscriptions"
+msgstr "اشتراک‌ها"
+
+#: models/videolistmodel.cpp:20
+#, kde-format
+msgctxt "@action:button All trending videos"
+msgid "All"
+msgstr "همه"
+
+#: models/videolistmodel.cpp:22
+#, kde-format
+msgctxt "@action:button Trending gaming videos"
+msgid "Gaming"
+msgstr "بازی"
+
+#: models/videolistmodel.cpp:24
+#, kde-format
+msgctxt "@action:button Trending movie videos"
+msgid "Movies"
+msgstr "فیلم‌ها"
+
+#: models/videolistmodel.cpp:26
+#, kde-format
+msgctxt "@action:button Trending music videos"
+msgid "Music"
+msgstr "موسیقی"
+
+#: models/videolistmodel.cpp:28
+#, kde-format
+msgctxt "@action:button Trending news videos"
+msgid "News"
+msgstr "اخبار"
+
+#: models/videolistmodel.cpp:30
+#, kde-format
+msgctxt "@action:button Video watch history"
+msgid "History"
+msgstr "تاریخچه"
+
+#: models/videolistmodel.cpp:156
+#, kde-format
+msgid "Search results for \"%1\""
+msgstr "نتایج جستجو برای «%1»"
+
+#: ui/android/ShareAction.qml:15 ui/android/ShareMenu.qml:15
+#: ui/components/ShareAction.qml:17 ui/components/ShareMenu.qml:15
+#, kde-format
+msgid "Share"
+msgstr "هم‌رسانی"
+
+#: ui/android/ShareAction.qml:16 ui/components/ShareAction.qml:18
+#, kde-format
+msgid "Share the selected media"
+msgstr "هم‌رسانی رسانهٔ انتخاب‌شده"
+
+#: ui/ChannelPage.qml:37 ui/FeedPage.qml:47 ui/PlaylistPage.qml:35
+#: ui/SearchPage.qml:160 ui/settings/NetworkProxyPage.qml:44
+#, kde-format
+msgid "Proxy Settings"
+msgstr "تنظیمات پیشکار"
+
+#: ui/ChannelPage.qml:46
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Open in Browser"
+msgstr "باز کردن در مرورگر"
+
+#: ui/ChannelPage.qml:151
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Videos"
+msgstr "ویدیوها"
+
+#: ui/ChannelPage.qml:157
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Playlists"
+msgstr "فهرست‌های پخش"
+
+#: ui/ChannelPage.qml:188 ui/FeedPage.qml:59 ui/PlaylistPage.qml:55
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No Videos"
+msgstr "بدون ویدیو"
+
+#: ui/ChannelPage.qml:206 ui/Main.qml:251 ui/PlaylistsPage.qml:26
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No Playlists"
+msgstr "بدون فهرست پخش"
+
+#: ui/components/BottomNavBar.qml:70
+#, kde-format
+msgid "Videos"
+msgstr "ویدیوها"
+
+#: ui/components/BottomNavBar.qml:82 ui/SearchPage.qml:16
+#, kde-format
+msgid "Search"
+msgstr "جستجو"
+
+#: ui/components/BottomNavBar.qml:93 ui/videoplayer/VideoControls.qml:326
+#, kde-format
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: ui/components/BottomNavBar.qml:98 ui/components/Sidebar.qml:192
+#: ui/loginflow/WelcomePage.qml:84
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: ui/components/Comments.qml:97
+#, kde-format
+msgctxt "@action:button Load more comments"
+msgid "Load more"
+msgstr "بارگذاری بیشتر"
+
+#: ui/components/Comments.qml:104
+#, kde-format
+msgctxt "@info"
+msgid "No comments"
+msgstr "بدون دیدگاه"
+
+#: ui/components/PlaylistGridItem.qml:53
+#, kde-format
+msgid "%1 video"
+msgid_plural "%1 videos"
+msgstr[0] "%1 ویدیو"
+msgstr[1] "%1 ویدیو"
+
+#: ui/components/ShareDialog.qml:33
+#, kde-format
+msgid "Sharing failed"
+msgstr "اشتراک‌گذاری ناموفق بود"
+
+#: ui/components/Sidebar.qml:127
+#, kde-format
+msgid "Trending"
+msgstr "محبوب‌ترین‌ها"
+
+#: ui/components/Sidebar.qml:157 ui/PlaylistsPage.qml:13
+#, kde-format
+msgid "Playlists"
+msgstr "فهرست‌های پخش"
+
+#: ui/components/Sidebar.qml:172
+#, kde-format
+msgid "History"
+msgstr "تاریخچه"
+
+#: ui/components/Sidebar.qml:189
+#, kde-format
+msgctxt "@action:button Open settings dialog"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: ui/components/SourceSwitcher.qml:53 ui/settings/SourcesPage.qml:63
+#, kde-format
+msgid "Invidious"
+msgstr "Invidious"
+
+#: ui/components/SourceSwitcher.qml:55 ui/settings/SourcesPage.qml:65
+#, kde-format
+msgid "PeerTube"
+msgstr "PeerTube"
+
+#: ui/components/SourceSwitcher.qml:57 ui/settings/SourcesPage.qml:67
+#, kde-format
+msgid "Piped"
+msgstr "Piped"
+
+#: ui/components/SourceSwitcher.qml:72
+#: ui/components/SourceSwitcherDialog.qml:28
+#, kde-format
+msgid "Switch Source"
+msgstr "تغییر منبع"
+
+#: ui/components/SourceSwitcherDialog.qml:55
+#, kde-format
+msgid "Add Source"
+msgstr "افزودن منبع"
+
+#: ui/components/SourceSwitcherDialog.qml:59
+#, kde-format
+msgid "Add a new video source"
+msgstr "افزودن یک منبع ویدیویی جدید"
+
+#: ui/components/SubscriptionButton.qml:61
+#, kde-format
+msgctxt ""
+"@action:button Unsubscribe to this channel, %1 is the sub count if provided"
+msgid "Unsubscribe%1"
+msgstr "لغو اشتراک%1"
+
+#: ui/components/SubscriptionButton.qml:63
+#, kde-format
+msgctxt ""
+"@action:button Subscribe to this channel, %1 is the sub count if provided"
+msgid "Subscribe%1"
+msgstr "اشتراک%1"
+
+#: ui/components/SubscriptionButton.qml:73
+#, kde-format
+msgid "Please log in to subscribe to channels."
+msgstr "لطفاً برای اشتراک در کانال‌ها وارد سیستم شوید."
+
+#: ui/components/VideoGridItem.qml:72
+#, kde-format
+msgctxt "Short label for a livestream that's live"
+msgid "Live"
+msgstr "زنده"
+
+#: ui/components/VideoGridItem.qml:79
+#, kde-format
+msgctxt "Short label for a short video"
+msgid "Short"
+msgstr "کوتاه"
+
+#: ui/components/VideoGridItem.qml:157 ui/components/VideoListItem.qml:148
+#, kde-format
+msgid "No views"
+msgstr "بدون بازدید"
+
+#: ui/components/VideoGridItem.qml:159 ui/components/VideoListItem.qml:150
+#: ui/videoplayer/VideoPlayer.qml:428
+#, kde-format
+msgid "%1 views"
+msgstr "%1 بازدید"
+
+#: ui/components/VideoGridItem.qml:162
+#, kde-format
+msgid "<i>live now</i>"
+msgstr "<i>هم‌اکنون زنده</i>"
+
+#: ui/components/VideoListItem.qml:160
+#, kde-format
+msgid " • %1"
+msgstr " • %1"
+
+#: ui/components/VideoMenu.qml:33
+#, kde-format
+msgid "Play Now"
+msgstr "پخش اکنون"
+
+#: ui/components/VideoMenu.qml:33
+#, kde-format
+msgid "Play"
+msgstr "پخش"
+
+#: ui/components/VideoMenu.qml:43
+#, kde-format
+msgid "Play Next"
+msgstr "پخش بعدی"
+
+#: ui/components/VideoMenu.qml:52
+#, kde-format
+msgid "Play in Picture-in-Picture"
+msgstr "پخش در تصویر در تصویر"
+
+#: ui/components/VideoMenu.qml:67
+#, kde-format
+msgid "Mark as Unwatched"
+msgstr "علامت‌گذاری به‌عنوان دیده‌نشده"
+
+#: ui/components/VideoMenu.qml:67
+#, kde-format
+msgid "Mark as Watched"
+msgstr "علامت‌گذاری به‌عنوان دیده‌شده"
+
+#: ui/components/VideoMenu.qml:81
+#, kde-format
+msgid "Add to Playlist…"
+msgstr "افزودن به فهرست پخش…"
+
+#: ui/components/VideoMenu.qml:88
+#, kde-format
+msgid "Remove from Playlist"
+msgstr "حذف از فهرست پخش"
+
+#: ui/FeedPage.qml:34
+#, kde-format
+msgctxt "@info:status Network status"
+msgid "Failed to contact server: %1. Please check your proxy settings."
+msgstr ""
+"برقراری ارتباط با کارساز ناموفق بود: %1. لطفاً تنظیمات پیشکار خود را بررسی "
+"کنید."
+
+#: ui/loginflow/AddInvidiousPage.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Invidious Source"
+msgstr "افزودن منبع Invidious"
+
+#: ui/loginflow/AddPeerTubePage.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Add PeerTube Source"
+msgstr "افزودن منبع PeerTube"
+
+#: ui/loginflow/AddPipedPage.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Piped Source"
+msgstr "افزودن منبع Piped"
+
+#: ui/loginflow/InstancesPage.qml:42
+#, kde-format
+msgid "Search or enter URL…"
+msgstr "جست‌وجو یا وارد کردن نشانی وب…"
+
+#: ui/loginflow/InstancesPage.qml:57
+#, kde-format
+msgid "Custom Server"
+msgstr "سرور سفارشی"
+
+#: ui/loginflow/InstancesPage.qml:67
+#, kde-format
+msgid "Public Servers"
+msgstr "سرورهای عمومی"
+
+#: ui/loginflow/InstancesPage.qml:98
+#, kde-format
+msgid "No Public Servers"
+msgstr "هیچ سرور عمومی‌ای وجود ندارد"
+
+#: ui/loginflow/InstancesPage.qml:99
+#, kde-format
+msgid "Enter a server URL manually in the search field."
+msgstr "نشانی وب سرور را به‌صورت دستی در کادر جستجو وارد کنید."
+
+#: ui/loginflow/SelectSourcePage.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Add a Video Source"
+msgstr "افزودن منبع ویدیو"
+
+#: ui/loginflow/SelectSourcePage.qml:39
+#, kde-format
+msgid "Visit Website"
+msgstr "مشاهدهٔ وبگاه"
+
+#: ui/loginflow/SelectSourcePage.qml:62
+#, kde-format
+msgid "Add Invidious Source"
+msgstr "افزودن منبع Invidious"
+
+#: ui/loginflow/SelectSourcePage.qml:63 ui/loginflow/SelectSourcePage.qml:95
+#, kde-format
+msgid "Watch YouTube videos"
+msgstr "تماشای ویدیوهای یوتیوب"
+
+#: ui/loginflow/SelectSourcePage.qml:78
+#, kde-format
+msgid "Add PeerTube Source"
+msgstr "افزودن منبع PeerTube"
+
+#: ui/loginflow/SelectSourcePage.qml:79
+#, kde-format
+msgid "Watch PeerTube videos"
+msgstr "تماشای ویدیوهای PeerTube"
+
+#: ui/loginflow/SelectSourcePage.qml:94
+#, kde-format
+msgid "Add Piped Source"
+msgstr "افزودن منبع Piped"
+
+#: ui/loginflow/WelcomePage.qml:17 ui/settings/SourcesPage.qml:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Welcome"
+msgstr "خوش آمدید"
+
+#: ui/loginflow/WelcomePage.qml:45
+#, kde-format
+msgctxt "@info"
+msgid "PlasmaTube"
+msgstr "پلاسماتیوب"
+
+#: ui/loginflow/WelcomePage.qml:54
+#, kde-format
+msgctxt "@info"
+msgid "Watch YouTube and PeerTube videos."
+msgstr "ویدیوهای یوتیوب و پیرتیوب را تماشا کنید."
+
+#: ui/loginflow/WelcomePage.qml:68
+#, kde-format
+msgctxt "@action:button"
+msgid "Add a Video Source"
+msgstr "افزودن یک منبع ویدیو"
+
+#: ui/loginflow/WelcomePage.qml:82
+#, kde-format
+msgctxt "@action:button Application settings"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: ui/LoginPage.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Log in"
+msgstr "ورود"
+
+#: ui/LoginPage.qml:67
+#, kde-format
+msgid "Username"
+msgstr "نام کاربری"
+
+#: ui/LoginPage.qml:81 ui/settings/NetworkProxyPage.qml:90
+#, kde-format
+msgid "Password"
+msgstr "گذرواژه"
+
+#: ui/LoginPage.qml:96
+#, kde-format
+msgid "Log in"
+msgstr "ورود"
+
+#: ui/LoginPage.qml:104
+#, kde-format
+msgid "Username must not be empty!"
+msgstr "نام کاربری نباید خالی باشد!"
+
+#: ui/LoginPage.qml:109
+#, kde-format
+msgid "Password must not be empty!"
+msgstr "گذرواژه نباید خالی باشد!"
+
+#: ui/Main.qml:221
+#, kde-format
+msgctxt "@title"
+msgid "Add to Playlist"
+msgstr "افزودن به فهرست پخش"
+
+#: ui/PlaylistPage.qml:42
+#, kde-format
+msgctxt "@action:button Play the playlist"
+msgid "Play"
+msgstr "پخش"
+
+#: ui/SearchPage.qml:88
+#, kde-format
+msgid "Sort By:"
+msgstr "مرتب‌سازی بر اساس:"
+
+#: ui/SearchPage.qml:92
+#, kde-format
+msgid "Rating"
+msgstr "امتیاز"
+
+#: ui/SearchPage.qml:104
+#, kde-format
+msgid "Relevance"
+msgstr "ارتباط"
+
+#: ui/SearchPage.qml:117
+#, kde-format
+msgid "Upload Date"
+msgstr "تاریخ بارگذاری"
+
+#: ui/SearchPage.qml:129
+#, kde-format
+msgid "View Count"
+msgstr "تعداد بازدید"
+
+#: ui/SearchPage.qml:175
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No Results"
+msgstr "نتیجه‌ای یافت نشد"
+
+#: ui/settings/AccountCard.qml:22
+#, kde-format
+msgid "Currently logged in as %1."
+msgstr "در حال حاضر با عنوان %1 وارد شده‌اید."
+
+#: ui/settings/AccountCard.qml:39
+#, kde-format
+msgctxt "@action:button"
+msgid "Log out"
+msgstr "خروج"
+
+#: ui/settings/AccountCard.qml:41
+#, kde-format
+msgctxt "@action:button"
+msgid "Log in"
+msgstr "ورود"
+
+#: ui/settings/AccountCard.qml:45
+#, kde-format
+msgid "Subscribe to channels, keep track of watched videos and more."
+msgstr "مشترک شدن در کانال‌ها، پیگیری ویدیوهای دیده‌شده و موارد دیگر."
+
+#: ui/settings/BaseSourcePage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Source"
+msgstr "ویرایش منبع"
+
+#: ui/settings/BaseSourcePage.qml:20
+#, kde-format
+msgid "Remove Source…"
+msgstr "حذف منبع…"
+
+#: ui/settings/BaseSourcePage.qml:21
+#, kde-format
+msgid "Cannot remove the only source."
+msgstr "نمی‌توان تنها منبع موجود را حذف کرد."
+
+#: ui/settings/BaseSourcePage.qml:32
+#, kde-format
+msgctxt "@title"
+msgid "Remove Source"
+msgstr "حذف منبع"
+
+#: ui/settings/BaseSourcePage.qml:33
+#, kde-format
+msgctxt "@label"
+msgid "Are you sure you want to remove this source?"
+msgstr "آیا مطمئنید که می‌خواهید این منبع را حذف کنید؟"
+
+#: ui/settings/GeneralPage.qml:14 ui/settings/SettingsPage.qml:15
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#: ui/settings/GeneralPage.qml:22
+#, kde-format
+msgid "Preferred Video Quality"
+msgstr "کیفیت ویدیوی ترجیحی"
+
+#: ui/settings/GeneralPage.qml:23
+#, kde-format
+msgid ""
+"This selected quality will be used if available, otherwise the highest "
+"available quality is used."
+msgstr ""
+"کیفیت انتخابی در صورت در دسترس بودن استفاده خواهد شد، در غیر این صورت "
+"بالاترین کیفیت موجود استفاده می‌شود."
+
+#: ui/settings/GeneralPage.qml:29
+#, kde-format
+msgctxt "@info video resolution"
+msgid "2160p"
+msgstr "2160p"
+
+#: ui/settings/GeneralPage.qml:33
+#, kde-format
+msgctxt "@info video resolution"
+msgid "1440p"
+msgstr "1440p"
+
+#: ui/settings/GeneralPage.qml:37
+#, kde-format
+msgctxt "@info video resolution"
+msgid "1080p"
+msgstr "1080p"
+
+#: ui/settings/GeneralPage.qml:41
+#, kde-format
+msgctxt "@info video resolution"
+msgid "720p"
+msgstr "720p"
+
+#: ui/settings/GeneralPage.qml:45
+#, kde-format
+msgctxt "@info video resolution"
+msgid "480p"
+msgstr "480p"
+
+#: ui/settings/GeneralPage.qml:49
+#, kde-format
+msgctxt "@info video resolution"
+msgid "360p"
+msgstr "360p"
+
+#: ui/settings/GeneralPage.qml:53
+#, kde-format
+msgctxt "@info video resolution"
+msgid "240p"
+msgstr "240p"
+
+#: ui/settings/GeneralPage.qml:57
+#, kde-format
+msgctxt "@info video resolution"
+msgid "144p"
+msgstr "144p"
+
+#: ui/settings/GeneralPage.qml:75
+#, kde-format
+msgctxt "@option:check Hide short-form videos"
+msgid "Hide Shorts"
+msgstr "پنهان کردن ویدیوهای کوتاه (Shorts)"
+
+#: ui/settings/GeneralPage.qml:76
+#, kde-format
+msgid "Hide short-form videos designed for viewing on a mobile device."
+msgstr ""
+"پنهان کردن ویدیوهای کوتاهی که برای مشاهده در دستگاه‌های تلفن همراه طراحی "
+"شده‌اند."
+
+#: ui/settings/GeneralPage.qml:93
+#, kde-format
+msgctxt "@option:check"
+msgid "Check for sponsored segments"
+msgstr "بررسی بخش‌های دارای حامی مالی"
+
+#: ui/settings/GeneralPage.qml:94
+#, kde-format
+msgid ""
+"Show a notification when a community-submitted segment (typically a "
+"sponsorship) is in the video. This feature requires contacting a 3rd-party "
+"service."
+msgstr ""
+"نمایش اعلان هنگامی که بخشی ثبت‌شده توسط جامعه (معمولاً تبلیغات یا حامی مالی)"
+" در ویدیو وجود دارد. این ویژگی نیازمند ارتباط با یک سرویس شخص ثالث است."
+
+#: ui/settings/GeneralPage.qml:111
+#, kde-format
+msgctxt "@option:check"
+msgid "Skip sponsored segments"
+msgstr "رد کردن بخش‌های دارای حامی مالی"
+
+#: ui/settings/GeneralPage.qml:112
+#, kde-format
+msgid "Automatically skip sponsored segments in the video."
+msgstr "رد کردن خودکار بخش‌های دارای حامی مالی در ویدیو."
+
+#: ui/settings/InvidiousSourcePage.qml:15
+#: ui/settings/PeerTubeSourcePage.qml:11
+#, kde-format
+msgid "Account"
+msgstr "حساب کاربری"
+
+#: ui/settings/InvidiousSourcePage.qml:37
+#, kde-format
+msgid "Preferences"
+msgstr "ترجیحات"
+
+#: ui/settings/InvidiousSourcePage.qml:42
+#, kde-format
+msgid "Autoplay videos"
+msgstr "پخش خودکار ویدیوها"
+
+#: ui/settings/InvidiousSourcePage.qml:43
+#, kde-format
+msgid ""
+"Whether to start playing videos immediately, or wait until the play button "
+"is pressed."
+msgstr "پخش فوری ویدیوها، یا منتظر ماندن تا زمان فشرده شدن دکمهٔ پخش."
+
+#: ui/settings/InvidiousSourcePage.qml:58
+#, kde-format
+msgid "Default Page"
+msgstr "صفحه پیش‌فرض"
+
+#: ui/settings/InvidiousSourcePage.qml:59
+#, kde-format
+msgid "The first page to load when switching to this source."
+msgstr "نخستین صفحه‌ای که هنگام رفتن به این منبع بارگیری می‌شود."
+
+#: ui/settings/InvidiousSourcePage.qml:64
+#, kde-format
+msgctxt "@info Search page"
+msgid "Search"
+msgstr "جست‌وجو"
+
+#: ui/settings/InvidiousSourcePage.qml:68
+#, kde-format
+msgctxt "@info Trending page"
+msgid "Trending"
+msgstr "داغ‌ترین‌ها"
+
+#: ui/settings/InvidiousSourcePage.qml:72
+#, kde-format
+msgctxt "@info Subscriptions page"
+msgid "Subscriptions"
+msgstr "اشتراک‌ها"
+
+#: ui/settings/InvidiousSourcePage.qml:76
+#, kde-format
+msgctxt "@info Playlists page"
+msgid "Playlists"
+msgstr "فهرست‌های پخش"
+
+#: ui/settings/NetworkProxyPage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Network Proxy"
+msgstr "پیشکار شبکه"
+
+#: ui/settings/NetworkProxyPage.qml:26
+#, kde-format
+msgid "System Default"
+msgstr "پیش‌فرض سامانه"
+
+#: ui/settings/NetworkProxyPage.qml:36
+#, kde-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: ui/settings/NetworkProxyPage.qml:52
+#, kde-format
+msgid "Host"
+msgstr "میزبان"
+
+#: ui/settings/NetworkProxyPage.qml:63
+#, kde-format
+msgid "Port"
+msgstr "درگاه"
+
+#: ui/settings/NetworkProxyPage.qml:82
+#, kde-format
+msgid "User"
+msgstr "کاربر"
+
+#: ui/settings/NetworkProxyPage.qml:106
+#, kde-format
+msgid "Apply"
+msgstr "اعمال"
+
+#: ui/settings/SettingsPage.qml:21 ui/settings/SourcesPage.qml:17
+#, kde-format
+msgid "Sources"
+msgstr "منابع"
+
+#: ui/settings/SettingsPage.qml:27
+#, kde-format
+msgid "Network Proxy"
+msgstr "پیشکار شبکه"
+
+#: ui/settings/SettingsPage.qml:33
+#, kde-format
+msgid "About PlasmaTube"
+msgstr "دربارهٔ پلاسما‌تیوب"
+
+#: ui/settings/SettingsPage.qml:39
+#, kde-format
+msgid "About KDE"
+msgstr "دربارهٔ کی‌دی‌ای"
+
+#: ui/settings/SourcesPage.qml:21
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Source…"
+msgstr "افزودن منبع…"
+
+#: ui/SubscriptionListPage.qml:24
+#, kde-format
+msgctxt "@title:window List of subscribed channels"
+msgid "Subscribed Channels"
+msgstr "کانال‌های مشترک‌شده"
+
+#: ui/SubscriptionListPage.qml:33
+#, kde-format
+msgid "Importing Completed"
+msgstr "درون‌ریزی تکمیل شد"
+
+#: ui/SubscriptionListPage.qml:33
+#, kde-format
+msgid "Exporting Completed"
+msgstr "برون‌ریزی کامل شد"
+
+#: ui/SubscriptionListPage.qml:36
+#, kde-format
+msgid "Imported %1 new subscription."
+msgid_plural "Imported %1 new subscriptions."
+msgstr[0] "%1 اشتراک جدید درون‌ریزی شد."
+msgstr[1] "%1 اشتراک جدید درون‌ریزی شدند."
+
+#: ui/SubscriptionListPage.qml:38
+#, kde-format
+msgid "All imported channels were already subscribed to."
+msgstr "تمام کانال‌های درون‌ریزی‌شده از قبل مشترک شده بودند."
+
+#: ui/SubscriptionListPage.qml:41
+#, kde-format
+msgid "Exported %1 subscription."
+msgid_plural "Exported %1 subscriptions."
+msgstr[0] "%1 اشتراک برون‌ریزی شد."
+msgstr[1] "%1 اشتراک برون‌ریزی شدند."
+
+#: ui/SubscriptionListPage.qml:50
+#, kde-format
+msgctxt "@title:window Error while import/export"
+msgid "Error"
+msgstr "خطا"
+
+#: ui/SubscriptionListPage.qml:58
+#, kde-format
+msgctxt "@action:button Import subscriptions"
+msgid "Import…"
+msgstr "درون‌ریزی…"
+
+#: ui/SubscriptionListPage.qml:63
+#, kde-format
+msgctxt "@title:window Import the OPML file"
+msgid "Import OPML Subscriptions"
+msgstr "درون‌ریزی اشتراک‌های OPML"
+
+#: ui/SubscriptionListPage.qml:64
+#, kde-format
+msgctxt "@action:button Import the OPML file"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: ui/SubscriptionListPage.qml:69
+#, kde-format
+msgctxt "@action:button Export subscriptions"
+msgid "Export…"
+msgstr "برون‌ریزی…"
+
+#: ui/SubscriptionListPage.qml:74
+#, kde-format
+msgctxt "@title:window Export the OPML file"
+msgid "Export OPML Subscriptions"
+msgstr "برون‌ریزی اشتراک‌های OPML"
+
+#: ui/SubscriptionListPage.qml:75
+#, kde-format
+msgctxt "@action:button Export the OPML file"
+msgid "Export"
+msgstr "برون‌ریزی"
+
+#: ui/SubscriptionListPage.qml:102
+#, kde-format
+msgid "Importing…"
+msgstr "در حال درون‌ریزی…"
+
+#: ui/SubscriptionListPage.qml:102
+#, kde-format
+msgid "Exporting…"
+msgstr "در حال برون‌ریزی…"
+
+#: ui/SubscriptionListPage.qml:177
+#, kde-format
+msgid "No channels"
+msgstr "بدون کانال"
+
+#: ui/SubscriptionsPage.qml:12
+#, kde-format
+msgctxt "@action:button View subscribed channels"
+msgid "Subscribed Channels"
+msgstr "کانال‌های مشترک‌شده"
+
+#: ui/TrendingPage.qml:15
+#, kde-format
+msgctxt "@title Trending videos"
+msgid "Trending"
+msgstr "پرطرفدار"
+
+#: ui/videoplayer/PictureInPictureVideo.qml:14
+#, kde-format
+msgid "Picture in Picture"
+msgstr "تصویر در تصویر"
+
+#: ui/videoplayer/VideoControls.qml:106
+#, kde-format
+msgctxt "@action:button"
+msgid "Video settings"
+msgstr "تنظیمات ویدیو"
+
+#: ui/videoplayer/VideoControls.qml:139
+#, kde-format
+msgctxt "@action:button"
+msgid "Seek backward"
+msgstr "پرش به عقب"
+
+#: ui/videoplayer/VideoControls.qml:181
+#, kde-format
+msgctxt "@action:button"
+msgid "Play"
+msgstr "پخش"
+
+#: ui/videoplayer/VideoControls.qml:226
+#, kde-format
+msgctxt "@action:button"
+msgid "Seek forward"
+msgstr "پرش به جلو"
+
+#: ui/videoplayer/VideoControls.qml:269
+#, kde-format
+msgctxt "@action:button"
+msgid "Fullscreen"
+msgstr "تمام‌صفحه"
+
+#: ui/videoplayer/VideoControls.qml:296
+#, kde-format
+msgctxt "@action:button"
+msgid "Picture-in-picture"
+msgstr "تصویر در تصویر"
+
+#: ui/videoplayer/VideoPlayer.qml:112
+#, kde-format
+msgctxt "@action:button"
+msgid "Hide player"
+msgstr "پنهان کردن پخش‌کننده"
+
+#: ui/videoplayer/VideoPlayer.qml:135
+#, kde-format
+msgctxt "@action:button"
+msgid "Add to Playlist…"
+msgstr "افزودن به فهرست پخش…"
+
+#: ui/videoplayer/VideoPlayer.qml:181
+#, kde-format
+msgctxt "@info"
+msgid "Error Loading Video"
+msgstr "خطا در بارگیری ویدیو"
+
+#: ui/videoplayer/VideoPlayer.qml:186
+#, kde-format
+msgctxt "@action:button"
+msgid "Open in Browser"
+msgstr "باز کردن در مرورگر"
+
+#: ui/videoplayer/VideoPlayer.qml:339
+#, kde-format
+msgid "Copy Video URL"
+msgstr "رونوشت از نشانی اینترنتی ویدیو"
+
+#: ui/videoplayer/VideoPlayer.qml:347
+#, kde-format
+msgid "Video Statistics"
+msgstr "آمار ویدیو"
+
+#: ui/videoplayer/VideoPlayer.qml:436
+#, kde-format
+msgid "%1 Likes"
+msgstr "%1 پسند"
+
+#: ui/videoplayer/VideoPlayer.qml:447
+#, kde-format
+msgctxt "@info"
+msgid "No description was set for this video."
+msgstr "توضیحاتی برای این ویدیو ثبت نشده است."
+
+#: ui/videoplayer/VideoPlayer.qml:487
+#, kde-format
+msgid "Comments"
+msgstr "نظرات"
+
+#: ui/videoplayer/VideoPlayer.qml:518
+#, kde-format
+msgid "Recommended"
+msgstr "پیشنهادی"
+
+#: ui/videoplayer/VideoPlayer.qml:524
+#, kde-format
+msgctxt "@info"
+msgid "No recommended videos"
+msgstr "ویدیوی پیشنهادی وجود ندارد"
+
+#: ui/videoplayer/VideoPlayer.qml:610
+#, kde-format
+msgid "The sponsored segment of the video has been skipped"
+msgstr "بخش تبلیغاتی ویدیو رد شد"
+
+#: ui/videoplayer/VideoPlayer.qml:618
+#, kde-format
+msgid "This segment of the video is sponsored"
+msgstr "این بخش از ویدیو تبلیغاتی است"
+
+#: ui/videoplayer/VideoPlayer.qml:639
+#, kde-format
+msgctxt "@action:button"
+msgid "Skip"
+msgstr "رد کردن"
+
+#: ui/videoplayer/VideoQueueView.qml:35
+#, kde-format
+msgid "Queue"
+msgstr "صف"
+
+#: ui/videoplayer/VideoQueueView.qml:44
+#, kde-format
+msgctxt "@action:button Clear playlist"
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: ui/videoplayer/VideoQueueView.qml:81
+#, kde-format
+msgid "Loading…"
+msgstr "در حال بارگیری…"

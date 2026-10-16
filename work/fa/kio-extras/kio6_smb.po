@@ -1,0 +1,190 @@
+# translation of kio_smb.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_smb\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-05 00:45+0000\n"
+"PO-Revision-Date: 2026-10-15 23:28+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kio_smb_auth.cpp:42
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>There are various options for authenticating on SMB "
+"shares.</para><para><placeholder>username</placeholder>: When authenticating"
+" within a home network the username on the server is "
+"sufficient</para><para><placeholder>username@domain.com</placeholder>: "
+"Modern corporate logon names are formed like e-mail "
+"addresses</para><para><placeholder>DOMAIN\\username</placeholder>: For "
+"ancient corporate networks or workgroups you may need to prefix the NetBIOS "
+"domain name (pre-Windows "
+"2000)</para><para><placeholder>anonymous</placeholder>: Anonymous logins can"
+" be attempted using empty username and password. Depending on server "
+"configuration non-empty usernames may be required</para>"
+msgstr ""
+"<para>گزینه‌های مختلفی برای احراز هویت در اشتراک‌های SMB وجود "
+"دارد.</para><para><placeholder>username</placeholder>: هنگام احراز هویت در "
+"یک شبکهٔ خانگی، نام کاربری در کارساز کفایت "
+"می‌کند</para><para><placeholder>username@domain.com</placeholder>: نام‌های "
+"ورود به سیستم سازمانی مدرن مانند نشانی‌های رایانامه تشکیل "
+"می‌شوند</para><para><placeholder>DOMAIN\\username</placeholder>: برای "
+"شبکه‌ها یا کارگروه‌های سازمانی قدیمی ممکن است لازم باشد نام دامنهٔ NetBIOS "
+"را به عنوان پیشوند قرار دهید (پیش از Windows "
+"2000)</para><para><placeholder>anonymous</placeholder>: ورودهای ناشناس را "
+"می‌توان با استفاده از نام کاربری و گذرواژهٔ خالی امتحان کرد. بسته به "
+"پیکربندی کارساز، ممکن است به نام‌های کاربری غیرخالی نیاز باشد</para>"
+
+#: kio_smb_auth.cpp:51
+#, kde-format
+msgid "<qt>Please enter authentication information for <b>%1</b></qt>"
+msgstr "<qt>لطفاً اطلاعات احراز هویت را برای <b>%1</b> وارد کنید</qt>"
+
+#: kio_smb_auth.cpp:54
+#, kde-format
+msgid ""
+"Please enter authentication information for:\n"
+"Server = %1\n"
+"Share = %2"
+msgstr ""
+"لطفاً اطلاعات احراز هویت را وارد کنید برای:\n"
+"کارساز = %1\n"
+"اشتراک = %2"
+
+#: kio_smb_browse.cpp:45
+#, kde-format
+msgctxt "@item the top of the shares that can be browsed"
+msgid "Shared Folders (SMB)"
+msgstr "پوشه‌های به‌اشتراک‌گذاشته‌شده (SMB)"
+
+#: kio_smb_browse.cpp:76
+#, kde-format
+msgid ""
+"%1:\n"
+"Unknown file type, neither directory or file."
+msgstr ""
+"%1:\n"
+"نوع پرونده نامشخص است، نه شاخه است و نه پرونده."
+
+#: kio_smb_browse.cpp:298
+#, kde-format
+msgid ""
+"Unable to find any workgroups in your local network. This might be caused by"
+" an enabled firewall."
+msgstr ""
+"هیچ کارگروهی در شبکهٔ محلی شما یافت نشد. این ممکن است به دلیل فعال بودن "
+"دیوار آتش باشد."
+
+#: kio_smb_browse.cpp:303
+#, kde-format
+msgid "No media in device for %1"
+msgstr "هیچ رسانه‌ای در دستگاه برای %1 وجود ندارد"
+
+#: kio_smb_browse.cpp:309
+#, kde-format
+msgid "Could not connect to host for %1"
+msgstr "اتصال به میزبان برای %1 امکان‌پذیر نبود"
+
+#: kio_smb_browse.cpp:321
+#, kde-format
+msgid "Error while connecting to server responsible for %1"
+msgstr "خطا هنگام اتصال به کارساز مربوط به %1"
+
+#: kio_smb_browse.cpp:327
+#, kde-format
+msgid "Share could not be found on given server"
+msgstr "اشتراک در کارساز ارائه‌شده یافت نشد"
+
+#: kio_smb_browse.cpp:329
+#, kde-format
+msgid "Bad file descriptor"
+msgstr "توصیف‌کننده پرونده نادرست است"
+
+#: kio_smb_browse.cpp:337
+#, kde-format
+msgid ""
+"The given name could not be resolved to a unique server. Make sure your "
+"network is setup without any name conflicts between names used by Windows "
+"and by UNIX name resolution."
+msgstr ""
+"نام ارائه‌شده قابل تحلیل به یک کارساز یکتا نبود. مطمئن شوید که شبکه‌تان بدون"
+" هیچ‌گونه تداخل نامی بین نام‌های مورد استفاده ویندوز و تحلیل نام یونیکس "
+"راه‌اندازی شده باشد."
+
+#: kio_smb_browse.cpp:346
+#, kde-format
+msgctxt ""
+"@info:status smb failed to reach the server (e.g. server offline or network "
+"failure). %1 is an ip address or hostname"
+msgid "%1: Host unreachable"
+msgstr "%1: میزبان در دسترس نیست"
+
+#: kio_smb_browse.cpp:350
+#, kde-format
+msgid ""
+"libsmbclient reported an error, but did not specify what the problem is. This might indicate a severe problem with your network - but also might indicate a problem with libsmbclient.\n"
+"If you want to help us, please provide a tcpdump of the network interface while you try to browse (be aware that it might contain private data, so do not post it if you are unsure about that - you can send it privately to the developers if they ask for it)"
+msgstr ""
+"‏libsmbclient خطایی گزارش کرد، اما مشخص نکرد که مشکل چیست. این ممکن است نشان‌دهنده یک مشکل جدی در شبکه شما باشد - یا شاید نشان‌دهنده مشکلی در libsmbclient باشد.\n"
+"اگر مایلید به ما کمک کنید، لطفاً هنگام تلاش برای مرور، یک tcpdump از رابط شبکه ارائه دهید (توجه داشته باشید که ممکن است حاوی داده‌های خصوصی باشد، بنابراین اگر در این مورد مطمئن نیستید آن را عمومی ارسال نکنید - در صورت درخواست توسعه‌دهندگان می‌توانید آن را به صورت خصوصی ارسال کنید)"
+
+#: kio_smb_browse.cpp:362
+#, kde-format
+msgctxt "%1 is an error number, %2 either a pretty string or the number"
+msgid "Unknown error condition: [%1] %2"
+msgstr "شرایط خطای ناشناخته: [%1] %2"
+
+#: kio_smb_browse.cpp:379
+#, kde-kuit-format
+msgid "Error occurred while trying to access %1<nl/>%2"
+msgstr "هنگام تلاش برای دسترسی به %1 خطایی رخ داد<nl/>%2"
+
+#: kio_smb_file.cpp:35
+#, kde-format
+msgid "libsmbclient failed to create context"
+msgstr "‏libsmbclient در ایجاد زمینه ناموفق بود"
+
+#: kio_smb_mount.cpp:163 kio_smb_mount.cpp:189
+#, kde-format
+msgid ""
+"\n"
+"Make sure that the samba package is installed properly on your system."
+msgstr ""
+"\n"
+"مطمئن شوید که بسته samba به درستی روی سیستم شما نصب شده است."
+
+#: kio_smb_mount.cpp:173
+#, kde-format
+msgid ""
+"Mounting of share \"%1\" from host \"%2\" by user \"%3\" failed.\n"
+"%4"
+msgstr ""
+"سوار کردن اشتراک «%1» از میزبان «%2» توسط کاربر «%3» ناموفق بود.\n"
+"%4"
+
+#: kio_smb_mount.cpp:198
+#, kde-format
+msgid ""
+"Unmounting of mountpoint \"%1\" failed.\n"
+"%2"
+msgstr ""
+"پیاده کردن نقطه اتصال «%1» ناموفق بود.\n"
+"%2"
+
+#: wsdiscoverer.cpp:164
+#, kde-kuit-format
+msgctxt ""
+"host entry when no pretty name is available. %1 likely is an IP address"
+msgid "Unknown Device @ <resource>%1</resource>"
+msgstr "دستگاه ناشناخته در <resource>%1</resource>"

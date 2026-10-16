@@ -1,0 +1,728 @@
+# translation of kreversi.po to Persian
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kreversi\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-16 00:23+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: commondefs.cpp:31
+#, kde-format
+msgid "Blue"
+msgstr "آبی"
+
+#: commondefs.cpp:31
+#, kde-format
+msgid "Red"
+msgstr "قرمز"
+
+#. i18n: ectx: property (text), widget (QLabel, blackLabel)
+#: commondefs.cpp:32 startgamedialog.ui:24
+#, kde-format
+msgid "Black"
+msgstr "سیاه"
+
+#. i18n: ectx: property (text), widget (QLabel, whiteLabel)
+#: commondefs.cpp:32 startgamedialog.ui:146
+#, kde-format
+msgid "White"
+msgstr "سفید"
+
+#: kexthighscore.cpp:198
+#, kde-format
+msgid "Score"
+msgstr "امتیاز"
+
+#: kexthighscore.cpp:201
+#, kde-format
+msgid "Mean Score"
+msgstr "میانگین امتیاز"
+
+#: kexthighscore.cpp:206
+#, kde-format
+msgid "Best Score"
+msgstr "بهترین امتیاز"
+
+#: kexthighscore.cpp:210
+#, kde-format
+msgid "Elapsed Time"
+msgstr "زمان سپری‌شده"
+
+#: kexthighscore_gui.cpp:147
+#, kde-format
+msgctxt "@title:tab"
+msgid "Best &Scores"
+msgstr "بهترین امتیازها"
+
+#: kexthighscore_gui.cpp:152
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Players"
+msgstr "بازیکنان"
+
+#: kexthighscore_gui.cpp:157
+#, kde-format
+msgctxt "@title:tab"
+msgid "Statistics"
+msgstr "آمار"
+
+#: kexthighscore_gui.cpp:163
+#, kde-format
+msgctxt "@title:tab"
+msgid "Histogram"
+msgstr "بافت‌نگار"
+
+#: kexthighscore_gui.cpp:170
+#, kde-format
+msgid "View world-wide highscores"
+msgstr "مشاهدهٔ بالاترین امتیازهای جهانی"
+
+#: kexthighscore_gui.cpp:176
+#, kde-format
+msgid "View world-wide players"
+msgstr "مشاهدهٔ بازیکنان جهانی"
+
+#: kexthighscore_gui.cpp:221
+#, kde-format
+msgctxt "@title:window"
+msgid "Highscores"
+msgstr "بالاترین امتیازها"
+
+#: kexthighscore_gui.cpp:327
+#, kde-format
+msgid "Winner"
+msgstr "برنده"
+
+#: kexthighscore_gui.cpp:365
+#, kde-format
+msgid "Won Games"
+msgstr "بازی‌های برده"
+
+#: kexthighscore_gui.cpp:393
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Highscores"
+msgstr "پیکربندی بالاترین امتیازها"
+
+#: kexthighscore_gui.cpp:406
+#, kde-format
+msgctxt "@title:tan"
+msgid "Main"
+msgstr "اصلی"
+
+#: kexthighscore_gui.cpp:421 kexthighscore_gui.cpp:460
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Nickname:"
+msgstr "نام مستعار:"
+
+#: kexthighscore_gui.cpp:432
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Comment:"
+msgstr "نظر:"
+
+#: kexthighscore_gui.cpp:442
+#, kde-format
+msgctxt "@option:check"
+msgid "World-wide highscores enabled"
+msgstr "امتیازهای بالای جهانی فعال باشد"
+
+#: kexthighscore_gui.cpp:449
+#, kde-format
+msgctxt "@title:tab"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: kexthighscore_gui.cpp:455
+#, kde-format
+msgctxt "@title:group"
+msgid "Registration Data"
+msgstr "داده‌های ثبت‌نام"
+
+#: kexthighscore_gui.cpp:466
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Key:"
+msgstr "کلید:"
+
+#: kexthighscore_gui.cpp:473 kexthighscore_gui.cpp:516
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "حذف"
+
+#: kexthighscore_gui.cpp:518
+#, kde-format
+msgid ""
+"This will permanently remove your registration key. You will not be able to "
+"use the currently registered nickname anymore."
+msgstr ""
+"این کار کلید ثبت‌نام شما را برای همیشه حذف خواهد کرد. دیگر قادر به استفاده "
+"از نام مستعار ثبت‌شدهٔ فعلی نخواهید بود."
+
+#: kexthighscore_gui.cpp:561
+#, kde-format
+msgid "Please choose a non empty nickname."
+msgstr "لطفاً یک نام مستعار غیرخالی انتخاب کنید."
+
+#: kexthighscore_gui.cpp:565
+#, kde-format
+msgid "Nickname already in use. Please choose another one"
+msgstr "نام مستعار در حال حاضر استفاده می‌شود. لطفاً نام دیگری انتخاب کنید"
+
+#: kexthighscore_gui.cpp:586
+#, kde-format
+msgctxt "@title:window"
+msgid "Enter Your Nickname"
+msgstr "نام مستعار خود را وارد کنید"
+
+#: kexthighscore_gui.cpp:595
+#, kde-format
+msgid "Congratulations, you have won!"
+msgstr "تبریک، شما بردید!"
+
+#: kexthighscore_gui.cpp:600
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Enter your nickname:"
+msgstr "نام مستعار خود را وارد کنید:"
+
+#: kexthighscore_gui.cpp:608
+#, kde-format
+msgctxt "@option:check"
+msgid "Do not ask again."
+msgstr "دیگر پرسیده نشود."
+
+#: kexthighscore_internal.cpp:33
+msgid "anonymous"
+msgstr "ناشناس"
+
+#: kexthighscore_internal.cpp:258
+#, kde-format
+msgid "Games Count"
+msgstr "تعداد بازی‌ها"
+
+#: kexthighscore_internal.cpp:265
+#, kde-format
+msgid "Comment"
+msgstr "نظر"
+
+#: kexthighscore_internal.cpp:587
+msgid "Undefined error."
+msgstr "خطای تعریف‌نشده."
+
+#: kexthighscore_internal.cpp:588
+msgid "Missing argument(s)."
+msgstr "نشانوند(های) مفقود."
+
+#: kexthighscore_internal.cpp:589
+msgid "Invalid argument(s)."
+msgstr "آرگومان(های) نامعتبر."
+
+#: kexthighscore_internal.cpp:591
+msgid "Unable to connect to MySQL server."
+msgstr "عدم امکان اتصال به سرور MySQL."
+
+#: kexthighscore_internal.cpp:592
+msgid "Unable to select database."
+msgstr "عدم امکان انتخاب پایگاه داده."
+
+#: kexthighscore_internal.cpp:593
+msgid "Error on database query."
+msgstr "خطا در پرس‌وجوی پایگاه داده."
+
+#: kexthighscore_internal.cpp:594
+msgid "Error on database insert."
+msgstr "خطا در درج در پایگاه داده."
+
+#: kexthighscore_internal.cpp:596
+msgid "Nickname already registered."
+msgstr "نام مستعار قبلاً ثبت شده است."
+
+#: kexthighscore_internal.cpp:597
+msgid "Nickname not registered."
+msgstr "نام مستعار ثبت نشده است."
+
+#: kexthighscore_internal.cpp:598
+msgid "Invalid key."
+msgstr "کلید نامعتبر است."
+
+#: kexthighscore_internal.cpp:599
+msgid "Invalid submit key."
+msgstr "کلید ارسال نامعتبر است."
+
+#: kexthighscore_internal.cpp:601
+msgid "Invalid level."
+msgstr "سطح نامعتبر است."
+
+#: kexthighscore_internal.cpp:602
+msgid "Invalid score."
+msgstr "امتیاز نامعتبر است."
+
+#: kexthighscore_internal.cpp:606
+msgid "Unable to contact world-wide highscore server"
+msgstr "عدم امکان برقراری ارتباط با کارساز امتیازات برتر جهانی"
+
+#: kexthighscore_internal.cpp:616
+#, kde-format
+msgid "Unable to open temporary file."
+msgstr "عدم امکان باز کردن پرونده موقت."
+
+#: kexthighscore_internal.cpp:625
+#, kde-format
+msgid "Server URL: %1"
+msgstr "نشانی وب کارساز: %1"
+
+#: kexthighscore_internal.cpp:647
+#, kde-format
+msgctxt "@title:window"
+msgid "Message from World-Wide High Scores Server"
+msgstr "پیام از کارساز امتیازات برتر جهانی"
+
+#: kexthighscore_internal.cpp:653
+#, kde-format
+msgid "Invalid answer from world-wide highscores server."
+msgstr "پاسخ نامعتبر از کارساز امتیازات برتر جهانی."
+
+#: kexthighscore_internal.cpp:654
+#, kde-format
+msgid "Raw message: %1"
+msgstr "پیام خام: %1"
+
+#: kexthighscore_internal.cpp:666
+#, kde-format
+msgid "Invalid answer from world-wide highscores server (missing item: %1)."
+msgstr "پاسخ نامعتبر از کارساز امتیازات برتر جهانی (مورد مفقود: %1)."
+
+#: kexthighscore_tab.cpp:32
+#, kde-format
+msgid "all"
+msgstr "همه"
+
+#: kexthighscore_tab.cpp:61
+#, kde-format
+msgid "Select player:"
+msgstr "انتخاب بازیکن:"
+
+#: kexthighscore_tab.cpp:97
+msgid "Total:"
+msgstr "مجموع:"
+
+#: kexthighscore_tab.cpp:97
+msgid "Won:"
+msgstr "برد:"
+
+#: kexthighscore_tab.cpp:97
+msgid "Lost:"
+msgstr "باخت:"
+
+#: kexthighscore_tab.cpp:98
+msgid "Draw:"
+msgstr "مساوی:"
+
+#: kexthighscore_tab.cpp:101
+msgid "Current:"
+msgstr "فعلی:"
+
+#: kexthighscore_tab.cpp:101
+msgid "Max won:"
+msgstr "بیشترین برد:"
+
+#: kexthighscore_tab.cpp:101
+msgid "Max lost:"
+msgstr "بیشترین باخت:"
+
+#: kexthighscore_tab.cpp:116
+#, kde-format
+msgctxt "@title:group"
+msgid "Game Counts"
+msgstr "تعداد بازی‌ها"
+
+#: kexthighscore_tab.cpp:129
+#, kde-format
+msgctxt "@title:group"
+msgid "Trends"
+msgstr "روندها"
+
+#: kexthighscore_tab.cpp:217
+#, kde-format
+msgctxt "@title:column"
+msgid "From"
+msgstr "از"
+
+#: kexthighscore_tab.cpp:218
+#, kde-format
+msgctxt "@title:column"
+msgid "To"
+msgstr "به"
+
+#: kexthighscore_tab.cpp:219
+#, kde-format
+msgctxt "@title:column"
+msgid "Count"
+msgstr "تعداد"
+
+#: kexthighscore_tab.cpp:220
+#, kde-format
+msgctxt "@title:column"
+msgid "Percent"
+msgstr "درصد"
+
+#. i18n: ectx: label, entry (AnimationSpeed), group (Game)
+#: kreversi.kcfg:9
+#, kde-format
+msgid "The speed of the animations."
+msgstr "سرعت پویانمایی‌ها."
+
+#. i18n: ectx: label, entry (CompetitiveGameChoice), group (Game)
+#: kreversi.kcfg:18
+#, kde-format
+msgid "Whether to play competitively in contrast to casually."
+msgstr "اینکه بازی به صورت رقابتی انجام شود یا تفننی."
+
+#. i18n: ectx: label, entry (UseColoredChips), group (Game)
+#: kreversi.kcfg:22
+#, kde-format
+msgid "Whether to use colored chips instead of black and white ones."
+msgstr ""
+"اینکه به‌جای مهره‌های سیاه و سفید از مهره‌های رنگی استفاده شود یا خیر."
+
+#. i18n: ectx: Menu (view)
+#: kreversiui.rc:13
+#, kde-format
+msgid "&View"
+msgstr "نما"
+
+#. i18n: ectx: Menu (settings)
+#: kreversiui.rc:18
+#, kde-format
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kreversiui.rc:25
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#: kreversiview.cpp:261
+#, kde-format
+msgid "Red can not perform any move. It is blue turn again."
+msgstr "قرمز حرکتی ندارد. دوباره نوبت آبی است."
+
+#: kreversiview.cpp:262
+#, kde-format
+msgid "White can not perform any move. It is black turn again."
+msgstr "سفید نمی‌تواند حرکتی انجام دهد. دوباره نوبت سیاه است."
+
+#: kreversiview.cpp:271
+#, kde-format
+msgid "Blue can not perform any move. It is red turn again."
+msgstr "آبی نمی‌تواند حرکتی انجام دهد. دوباره نوبت قرمز است."
+
+#: kreversiview.cpp:272
+#, kde-format
+msgid "Black can not perform any move. It is white turn again."
+msgstr "سیاه نمی‌تواند حرکتی انجام دهد. دوباره نوبت سفید است."
+
+#: main.cpp:43
+#, kde-format
+msgid "KReversi"
+msgstr "KReversi"
+
+#: main.cpp:45
+#, kde-format
+msgid "KDE Reversi Board Game"
+msgstr "بازی تخته‌ای رورسی کی‌دی‌ای"
+
+#: main.cpp:47
+#, kde-format
+msgid ""
+"(c) 1997-2000, Mario Weilguni\n"
+"(c) 2004-2006, Inge Wallin\n"
+"(c) 2006, Dmitry Suzdalev"
+msgstr ""
+"© ۱۹۹۷-۲۰۰۰، Mario Weilguni\n"
+"© ۲۰۰۴-۲۰۰۶، Inge Wallin\n"
+"© ۲۰۰۶، Dmitry Suzdalev"
+
+#: main.cpp:50
+#, kde-format
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#: main.cpp:50 main.cpp:51
+#, kde-format
+msgid "Original author"
+msgstr "نویسنده اصلی"
+
+#: main.cpp:51
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: main.cpp:52
+#, kde-format
+msgid "Dmitry Suzdalev"
+msgstr "Dmitry Suzdalev"
+
+#: main.cpp:52
+#, kde-format
+msgid "Game rewrite for KDE4. Current maintainer."
+msgstr "بازنویسی بازی برای KDE4. نگهدارندهٔ کنونی."
+
+#: main.cpp:53
+#, kde-format
+msgid "Simon Hürlimann"
+msgstr "Simon Hürlimann"
+
+#: main.cpp:53
+#, kde-format
+msgid "Action refactoring"
+msgstr "بازآفرینی کنش"
+
+#: main.cpp:54
+#, kde-format
+msgid "Mats Luthman"
+msgstr "Mats Luthman"
+
+#: main.cpp:54
+#, kde-format
+msgid "Game engine, ported from his JAVA applet."
+msgstr "موتور بازی، پورت‌شده از اپلت جاوای او."
+
+#: main.cpp:55
+#, kde-format
+msgid "Arne Klaassen"
+msgstr "Arne Klaassen"
+
+#: main.cpp:55
+#, kde-format
+msgid "Original raytraced chips."
+msgstr "مهره‌های پرتوگیری‌شدهٔ اصلی."
+
+#: main.cpp:56
+#, kde-format
+msgid "Mauricio Piacentini"
+msgstr "Mauricio Piacentini"
+
+#: main.cpp:56
+#, kde-format
+msgid "Vector chips and background for KDE4."
+msgstr "مهره‌های برداری و پس‌زمینه برای KDE4."
+
+#: main.cpp:57
+#, kde-format
+msgid "Brian Croom"
+msgstr "Brian Croom"
+
+#: main.cpp:57
+#, kde-format
+msgid "Port rendering code to KGameRenderer"
+msgstr "انتقال کد رندر به KGameRenderer"
+
+#: main.cpp:58
+#, kde-format
+msgid "Denis Kuplyakov"
+msgstr "دنیس کوپلیاکوف (Denis Kuplyakov)"
+
+#: main.cpp:58
+#, kde-format
+msgid "Port rendering code to QML, redesign and a lot of improvements"
+msgstr "انتقال کد رندر به QML، بازطراحی و بهبودهای فراوان"
+
+#: main.cpp:66
+#, kde-format
+msgid "Start with demo game playing"
+msgstr "شروع با اجرای بازی نمایشی"
+
+#: mainwindow.cpp:49
+#, kde-format
+msgid "Press start game!"
+msgstr "شروع بازی را فشار دهید!"
+
+#: mainwindow.cpp:64
+#, kde-format
+msgctxt "@title:window"
+msgid "Move History"
+msgstr "تاریخچهٔ حرکت‌ها"
+
+#: mainwindow.cpp:111
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Last Move"
+msgstr "نمایش آخرین حرکت"
+
+#: mainwindow.cpp:116
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Legal Moves"
+msgstr "نمایش حرکت‌های مجاز"
+
+#: mainwindow.cpp:121
+#, kde-format
+msgctxt "@title:menu"
+msgid "Animation Speed"
+msgstr "سرعت پویانمایی"
+
+#: mainwindow.cpp:125
+#, kde-format
+msgctxt "@item:inmenu animation speed"
+msgid "Slow"
+msgstr "آهسته"
+
+#: mainwindow.cpp:126
+#, kde-format
+msgctxt "@item:inmenu animation speed"
+msgid "Normal"
+msgstr "عادی"
+
+#: mainwindow.cpp:127
+#, kde-format
+msgctxt "@item:inmenu animation speed"
+msgid "Fast"
+msgstr "سریع"
+
+#: mainwindow.cpp:133
+#, kde-format
+msgctxt "@option:check"
+msgid "Use Colored Chips"
+msgstr "استفاده از مهره‌های رنگی"
+
+#: mainwindow.cpp:141
+#, kde-format
+msgctxt "@action"
+msgid "Show Move History"
+msgstr "نمایش تاریخچهٔ حرکت‌ها"
+
+#: mainwindow.cpp:219 mainwindow.cpp:234 mainwindow.cpp:247 mainwindow.cpp:255
+#, kde-format
+msgid "Game is drawn!"
+msgstr "بازی مساوی شد!"
+
+#: mainwindow.cpp:222 mainwindow.cpp:237
+#, kde-format
+msgid "You win!"
+msgstr "شما بردید!"
+
+#: mainwindow.cpp:225 mainwindow.cpp:240
+#, kde-format
+msgid "You have lost!"
+msgstr "شما باختید!"
+
+#: mainwindow.cpp:249 mainwindow.cpp:251 mainwindow.cpp:257 mainwindow.cpp:259
+#, kde-format
+msgid "%1 has won!"
+msgstr "%1 برنده شد!"
+
+#: mainwindow.cpp:265 mainwindow.cpp:266 mainwindow.cpp:268 mainwindow.cpp:269
+#, kde-format
+msgid ""
+"\n"
+"%1: %2"
+msgstr ""
+"\n"
+"%1: %2"
+
+#: mainwindow.cpp:272
+#, kde-format
+msgctxt "@title:window"
+msgid "Game Over"
+msgstr "پایان بازی"
+
+#: mainwindow.cpp:339
+#, kde-format
+msgid "GAME OVER"
+msgstr "پایان بازی"
+
+#: mainwindow.cpp:344 mainwindow.cpp:345 mainwindow.cpp:351 mainwindow.cpp:352
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: mainwindow.cpp:348
+#, kde-format
+msgid "%1 turn"
+msgstr "نوبت %1"
+
+#: mainwindow.cpp:355
+#, kde-format
+msgid "%1's turn"
+msgstr "نوبت %1"
+
+#: mainwindow.cpp:365 startgamedialog.cpp:155 startgamedialog.cpp:169
+#, kde-format
+msgid "Computer"
+msgstr "رایانه"
+
+#: startgamedialog.cpp:26
+#, kde-format
+msgctxt "@title:window"
+msgid "New game"
+msgstr "بازی جدید"
+
+#: startgamedialog.cpp:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Game"
+msgstr "شروع بازی"
+
+#: startgamedialog.cpp:37
+#, kde-format
+msgid "Let's start playing!"
+msgstr "بیایید بازی را شروع کنیم!"
+
+#: startgamedialog.cpp:38
+#, kde-format
+msgctxt "@action:button"
+msgid "Quit"
+msgstr "خروج"
+
+#: startgamedialog.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Quit KReversi"
+msgstr "خروج از KReversi"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: startgamedialog.ui:79 startgamedialog.ui:201
+#, kde-format
+msgid "Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: startgamedialog.ui:96 startgamedialog.ui:218
+#, kde-format
+msgid "Skill level:"
+msgstr "سطح مهارت:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: startgamedialog.ui:124
+#, kde-format
+msgid "VS"
+msgstr "در برابر"

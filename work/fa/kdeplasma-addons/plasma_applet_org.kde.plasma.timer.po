@@ -1,0 +1,209 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma_applet_org.kde.plasma.timer package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.timer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-25 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 21:05+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CompactRepresentation.qml:133
+#, kde-format
+msgctxt "@action:button"
+msgid "Pause Timer"
+msgstr "مکث زمان‌سنج"
+
+#: CompactRepresentation.qml:133
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Timer"
+msgstr "شروع زمان‌سنج"
+
+#: CompactRepresentation.qml:196 CompactRepresentation.qml:214
+#, kde-format
+msgctxt "remaining time"
+msgid "%1s"
+msgid_plural "%1s"
+msgstr[0] "%1 ثانیه"
+msgstr[1] "%1 ثانیه"
+
+#: config.qml:13
+#, kde-format
+msgctxt "@title"
+msgid "General"
+msgstr "عمومی"
+
+#: config.qml:19
+#, kde-format
+msgctxt "@title"
+msgid "Predefined Timers"
+msgstr "زمان‌سنج‌های ازپیش‌تعریف‌شده"
+
+#: configGeneral.qml:33
+#, kde-format
+msgctxt "@title:label"
+msgid "Display:"
+msgstr "نمایش:"
+
+#: configGeneral.qml:38
+#, kde-format
+msgctxt "@option:check"
+msgid "Show title:"
+msgstr "نمایش عنوان:"
+
+#: configGeneral.qml:55
+#, kde-format
+msgctxt "@option:check"
+msgid "Show remaining time"
+msgstr "نمایش زمان باقی‌مانده"
+
+#: configGeneral.qml:61
+#, kde-format
+msgctxt "@option:check"
+msgid "Show seconds"
+msgstr "نمایش ثانیه‌ها"
+
+#: configGeneral.qml:66
+#, kde-format
+msgctxt "@option:check"
+msgid "Show timer toggle"
+msgstr "نمایش دکمهٔ تغییر وضعیت زمان‌سنج"
+
+#: configGeneral.qml:71
+#, kde-format
+msgctxt "@option:check"
+msgid "Show progress bar"
+msgstr "نمایش نوار پیشرفت"
+
+#: configGeneral.qml:81
+#, kde-format
+msgctxt "@title:label"
+msgid "On timeout:"
+msgstr "هنگام پایان زمان:"
+
+#: configGeneral.qml:85
+#, kde-format
+msgctxt "@option:check"
+msgid "Show notification:"
+msgstr "نمایش اعلان:"
+
+#: configGeneral.qml:97
+#, kde-format
+msgctxt "@placeholder"
+msgid "Timer finished"
+msgstr "زمان‌سنج به پایان رسید"
+
+#: configGeneral.qml:107
+#, kde-format
+msgctxt "@option:check"
+msgid "Run command:"
+msgstr "اجرای فرمان:"
+
+#: configGeneral.qml:119
+#, kde-format
+msgctxt "@placeholder, only translate the message in single quotes"
+msgid "kdialog --msgbox 'Timer finished'"
+msgstr "kdialog --msgbox 'زمان‌سنج به پایان رسید'"
+
+#: configTimes.qml:22
+#, kde-format
+msgctxt "@action:button Add timer"
+msgid "Add"
+msgstr "افزودن"
+
+#: configTimes.qml:87
+#, kde-format
+msgid ""
+"If you add predefined timers here, they will appear in the widget’s context "
+"menu."
+msgstr ""
+"اگر زمان‌سنج‌های ازپیش‌تعریف‌شده را اینجا بیفزایید، در منوی زمینهٔ ابزارک "
+"نمایش داده خواهند شد."
+
+#: configTimes.qml:125
+#, kde-format
+msgid "Scroll over digits to change time"
+msgstr "برای تغییر زمان روی ارقام پیمایش کنید"
+
+#: configTimes.qml:132
+#, kde-format
+msgid "Apply"
+msgstr "اعمال"
+
+#: configTimes.qml:140
+#, kde-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: configTimes.qml:149
+#, kde-format
+msgid "Edit"
+msgstr "ویرایش"
+
+#: configTimes.qml:158
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: main.qml:68
+#, kde-format
+msgid "%1 is running"
+msgstr "%1 در حال اجرا است"
+
+#: main.qml:70
+#, kde-format
+msgid "%1 not running"
+msgstr "%1 در حال اجرا نیست"
+
+#: main.qml:73
+#, kde-format
+msgid "Remaining time left: %1 second"
+msgid_plural "Remaining time left: %1 seconds"
+msgstr[0] "زمان باقی‌مانده: %1 ثانیه"
+msgstr[1] "زمان باقی‌مانده: %1 ثانیه"
+
+#: main.qml:73
+#, kde-format
+msgid ""
+"Use mouse wheel to change digits or choose from predefined timers in the "
+"context menu"
+msgstr ""
+"از چرخ ماوس برای تغییر ارقام یا انتخاب از زمان‌سنج‌های پیش‌فرض در منوی زمینه"
+" استفاده کنید"
+
+#: main.qml:90
+#, kde-format
+msgid "Timer"
+msgstr "زمان‌سنج"
+
+#: main.qml:91
+#, kde-format
+msgid "Timer finished"
+msgstr "زمان‌سنج به پایان رسید"
+
+#: main.qml:131
+#, kde-format
+msgctxt "@action"
+msgid "&Start"
+msgstr "شروع"
+
+#: main.qml:136
+#, kde-format
+msgctxt "@action"
+msgid "S&top"
+msgstr "توقف"
+
+#: main.qml:141
+#, kde-format
+msgctxt "@action"
+msgid "&Reset"
+msgstr "بازنشانی"

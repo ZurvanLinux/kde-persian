@@ -1,0 +1,2066 @@
+# translation of konqueror.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohamad Reza Mirdamadi <mohi@ubuntu.ir>, 2010, 2011, 2012.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: konqueror\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:46+0000\n"
+"PO-Revision-Date: 2026-10-16 00:05+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/configdialog.cpp:73
+#, kde-format
+msgctxt ""
+"@title:tab The file manager behavior tab. Also used in the list of tabs for "
+"consistency"
+msgid "File Manager Behavior"
+msgstr "رفتار مدیر پرونده"
+
+#: src/downloadactionquestion.cpp:160
+#, kde-format
+msgctxt "@label Type of file"
+msgid "Type: %1"
+msgstr "نوع: %1"
+
+#: src/downloadactionquestion.cpp:168
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Remember action for files of this type"
+msgstr "به‌خاطرسپاری کنش برای پرونده‌های این نوع"
+
+#: src/downloadactionquestion.cpp:281
+#, kde-format
+msgctxt "@info"
+msgid "Save '%1'?"
+msgstr "«%1» ذخیره شود؟"
+
+#: src/downloadactionquestion.cpp:283
+#, kde-format
+msgctxt "@info"
+msgid "Open '%1'?"
+msgstr "«%1» باز شود؟"
+
+#: src/downloadactionquestion.cpp:301
+#, kde-format
+msgctxt "@label:button"
+msgid "&Open with..."
+msgstr "باز کردن با..."
+
+#: src/downloadactionquestion.cpp:309 src/downloadactionquestion.cpp:462
+#, kde-format
+msgctxt "@label:button"
+msgid "&Open with %1"
+msgstr "باز کردن با %1"
+
+#: src/downloadactionquestion.cpp:318
+#, kde-format
+msgctxt "@label:button"
+msgid "&Open with"
+msgstr "باز کردن با"
+
+#: src/downloadactionquestion.cpp:334
+#, kde-format
+msgctxt "@label:button"
+msgid "&Display in %1"
+msgstr "نمایش در %1"
+
+#: src/downloadactionquestion.cpp:346
+#, kde-format
+msgctxt "@label:button"
+msgid "&Display in"
+msgstr "نمایش در"
+
+#: src/downloadactionquestion.cpp:368
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open &with %1"
+msgstr "باز کردن با %1"
+
+#: src/downloadactionquestion.cpp:400
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Display &in %1"
+msgstr "نمایش در %1"
+
+#: src/downloadactionquestion.cpp:422
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Viewers not supporting this file"
+msgstr "نمایشگرهایی که از این پرونده پشتیبانی نمی‌کنند"
+
+#: src/downloadactionquestion.cpp:426
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Viewers unlikely to display the file"
+msgstr "نمایشگرهایی که بعید است پرونده را نمایش دهند"
+
+#: src/downloadactionquestion.cpp:427
+#, kde-format
+msgctxt "The name of the file the user wants to open"
+msgid "this file"
+msgstr "این پرونده"
+
+#: src/downloadactionquestion.cpp:428
+#, kde-format
+msgid ""
+"<p>Viewers which aren't supposed to be able to display %1. Using them will "
+"most likely fail.</p><p>These choices are provided in case the detected file"
+" type is incorrect or if a viewer can display %1 even if it doesn't "
+"officially support it.</p>"
+msgstr ""
+"<p>نمایشگرهایی که قرار نیست بتوانند %1 را نمایش دهند. استفاده از آن‌ها به "
+"احتمال زیاد ناموفق خواهد بود.</p><p>این گزینه‌ها برای مواردی ارائه شده‌اند "
+"که نوع پرونده شناسایی‌شده نادرست باشد، یا اینکه نمایشگری بتواند %1 را حتی در"
+" صورت عدم پشتیبانی رسمی، نمایش دهد.</p>"
+
+#: src/downloadactionquestion.cpp:449
+#, kde-format
+msgctxt "@label File name"
+msgid "Name: %1"
+msgstr "نام: %1"
+
+#: src/downloadactionquestion.cpp:451
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This is the file name suggested by the server"
+msgstr "این نام پرونده پیشنهادی توسط کارساز است"
+
+#: src/konqapplication.cpp:115
+#, kde-format
+msgid ""
+"<p>You're running Konqueror as root. This requires enabling a highly "
+"insecure mode in the browser component.</p><p>What do you want to do?</p>"
+msgstr ""
+"<p>شما در حال اجرای کانکرور به‌عنوان ریشه (root) هستید. این کار نیازمند "
+"فعال‌سازی یک حالت بسیار ناامن در مؤلفهٔ مرورگر است.</p><p>می‌خواهید چه کاری "
+"انجام دهید؟</p>"
+
+#: src/konqapplication.cpp:158
+#, kde-format
+msgid "Konqueror"
+msgstr "کانکرور"
+
+#: src/konqapplication.cpp:159
+#, kde-format
+msgid "Web browser, file manager and document viewer."
+msgstr "مرورگر وب، مدیر پرونده و نمایش‌دهندهٔ سند."
+
+#: src/konqapplication.cpp:161
+#, kde-format
+msgid "(C) 1999-2023, The Konqueror developers"
+msgstr "© ۱۹۹۹–۲۰۲۳، توسعه‌دهندگان کانکرور"
+
+#: src/konqapplication.cpp:175
+#, kde-format
+msgid "Stefano Crocco"
+msgstr "استفانو کروکو (Stefano Crocco)"
+
+#: src/konqapplication.cpp:175
+#, kde-format
+msgid "Current maintainer"
+msgstr "نگه‌دارندهٔ کنونی"
+
+#: src/konqapplication.cpp:176
+#, kde-format
+msgid "David Faure"
+msgstr "دیوید فور (David Faure)"
+
+#: src/konqapplication.cpp:176
+#, kde-format
+msgid ""
+"Developer (framework, parts, JavaScript, I/O library) and former maintainer"
+msgstr ""
+"توسعه‌دهنده (چارچوب، قطعات، جاوااسکریپت، کتابخانهٔ I/O) و نگه‌دارندهٔ سابق"
+
+#: src/konqapplication.cpp:177
+#, kde-format
+msgid "Simon Hausmann"
+msgstr "سایمون هاسمن (Simon Hausmann)"
+
+#: src/konqapplication.cpp:177
+#, kde-format
+msgid "Developer (framework, parts)"
+msgstr "توسعه‌دهنده (چارچوب، قطعات)"
+
+#: src/konqapplication.cpp:178
+#, kde-format
+msgid "Michael Reiher"
+msgstr "Michael Reiher"
+
+#: src/konqapplication.cpp:178 src/konqapplication.cpp:206
+#: src/konqapplication.cpp:212
+#, kde-format
+msgid "Developer (framework)"
+msgstr "توسعه‌دهنده (چارچوب)"
+
+#: src/konqapplication.cpp:179
+#, kde-format
+msgid "Matthias Welk"
+msgstr "Matthias Welk"
+
+#: src/konqapplication.cpp:179
+#, kde-format
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: src/konqapplication.cpp:180
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: src/konqapplication.cpp:180
+#, kde-format
+msgid "Developer (List views)"
+msgstr "توسعه‌دهنده (نماهای فهرست)"
+
+#: src/konqapplication.cpp:181
+#, kde-format
+msgid "Michael Brade"
+msgstr "Michael Brade"
+
+#: src/konqapplication.cpp:181
+#, kde-format
+msgid "Developer (List views, I/O library)"
+msgstr "توسعه‌دهنده (نماهای فهرست، کتابخانهٔ ورودی/خروجی)"
+
+#: src/konqapplication.cpp:182
+#, kde-format
+msgid "Lars Knoll"
+msgstr "Lars Knoll"
+
+#: src/konqapplication.cpp:182 src/konqapplication.cpp:183
+#: src/konqapplication.cpp:184 src/konqapplication.cpp:186
+#: src/konqapplication.cpp:187 src/konqapplication.cpp:189
+#: src/konqapplication.cpp:190 src/konqapplication.cpp:191
+#: src/konqapplication.cpp:192 src/konqapplication.cpp:194
+#, kde-format
+msgid "Developer (HTML rendering engine)"
+msgstr "توسعه‌دهنده (موتور رندر HTML)"
+
+#: src/konqapplication.cpp:183
+#, kde-format
+msgid "Dirk Mueller"
+msgstr "دیرک مولر"
+
+#: src/konqapplication.cpp:184
+#, kde-format
+msgid "Peter Kelly"
+msgstr "پیتر کلی"
+
+#: src/konqapplication.cpp:185
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "والدو باستیان"
+
+#: src/konqapplication.cpp:185
+#, kde-format
+msgid "Developer (HTML rendering engine, I/O library)"
+msgstr "توسعه‌دهنده (موتور پردازش HTML، کتابخانهٔ ورودی/خروجی)"
+
+#: src/konqapplication.cpp:186
+#, kde-format
+msgid "Germain Garand"
+msgstr "ژرمن گاراند"
+
+#: src/konqapplication.cpp:187 src/konqapplication.cpp:215
+#, kde-format
+msgid "Leo Savernik"
+msgstr "لئو ساورنیک"
+
+#: src/konqapplication.cpp:188
+#, kde-format
+msgid "Stephan Kulow"
+msgstr "اشتفان کلوف"
+
+#: src/konqapplication.cpp:188
+#, kde-format
+msgid ""
+"Developer (HTML rendering engine, I/O library, regression test framework)"
+msgstr ""
+"توسعه‌دهنده (موتور پردازش HTML، کتابخانهٔ ورودی/خروجی، چارچوب آزمون رگرسیون)"
+
+#: src/konqapplication.cpp:189
+#, kde-format
+msgid "Antti Koivisto"
+msgstr "آنتی کوئیویستو"
+
+#: src/konqapplication.cpp:190
+#, kde-format
+msgid "Zack Rusin"
+msgstr "زک راسین"
+
+#: src/konqapplication.cpp:191
+#, kde-format
+msgid "Tobias Anton"
+msgstr "توبیاس آنتون"
+
+#: src/konqapplication.cpp:192
+#, kde-format
+msgid "Lubos Lunak"
+msgstr "لوبوش لونک"
+
+#: src/konqapplication.cpp:193
+#, kde-format
+msgid "Maks Orlovich"
+msgstr "ماکس اورلوویچ"
+
+#: src/konqapplication.cpp:193 src/konqapplication.cpp:195
+#, kde-format
+msgid "Developer (HTML rendering engine, JavaScript)"
+msgstr "توسعه‌دهنده (موتور پردازش HTML، جاوااسکریپت)"
+
+#: src/konqapplication.cpp:194
+#, kde-format
+msgid "Allan Sandfeld Jensen"
+msgstr "آلن سندفلد جنسن"
+
+#: src/konqapplication.cpp:195
+#, kde-format
+msgid "Apple Safari Developers"
+msgstr "توسعه‌دهندگان اپل سافاری"
+
+#: src/konqapplication.cpp:196
+#, kde-format
+msgid "Harri Porten"
+msgstr "هری پورتن"
+
+#: src/konqapplication.cpp:196
+#, kde-format
+msgid "Developer (JavaScript)"
+msgstr "توسعه‌دهنده (جاوااسکریپت)"
+
+#: src/konqapplication.cpp:197
+#, kde-format
+msgid "Koos Vriezen"
+msgstr "کوس فریزین"
+
+#: src/konqapplication.cpp:197
+#, kde-format
+msgid "Developer (Java applets and other embedded objects)"
+msgstr "توسعه‌دهنده (برنامک‌های جاوا و سایر اشیاء تعبیه‌شده)"
+
+#: src/konqapplication.cpp:198
+#, kde-format
+msgid "Matt Koss"
+msgstr "Matt Koss"
+
+#: src/konqapplication.cpp:198 src/konqapplication.cpp:199
+#, kde-format
+msgid "Developer (I/O library)"
+msgstr "توسعه‌دهنده (کتابخانهٔ I/O)"
+
+#: src/konqapplication.cpp:199
+#, kde-format
+msgid "Alex Zepeda"
+msgstr "Alex Zepeda"
+
+#: src/konqapplication.cpp:200
+#, kde-format
+msgid "Richard Moore"
+msgstr "Richard Moore"
+
+#: src/konqapplication.cpp:200 src/konqapplication.cpp:201
+#, kde-format
+msgid "Developer (Java applet support)"
+msgstr "توسعه‌دهنده (پشتیبانی از اپلت جاوا)"
+
+#: src/konqapplication.cpp:201
+#, kde-format
+msgid "Dima Rogozin"
+msgstr "Dima Rogozin"
+
+#: src/konqapplication.cpp:202
+#, kde-format
+msgid "Wynn Wilkes"
+msgstr "Wynn Wilkes"
+
+#: src/konqapplication.cpp:202
+#, kde-format
+msgid ""
+"Developer (Java 2 security manager support,\n"
+" and other major improvements to applet support)"
+msgstr ""
+"توسعه‌دهنده (پشتیبانی از مدیر امنیت جاوا ۲،\n"
+" و سایر بهبودهای عمده در پشتیبانی از اپلت)"
+
+#: src/konqapplication.cpp:203
+#, kde-format
+msgid "Stefan Schimanski"
+msgstr "Stefan Schimanski"
+
+#: src/konqapplication.cpp:203
+#, kde-format
+msgid "Developer (Netscape plugin support)"
+msgstr "توسعه‌دهنده (پشتیبانی از افزونهٔ نت‌اسکیپ)"
+
+#: src/konqapplication.cpp:204
+#, kde-format
+msgid "George Staikos"
+msgstr "جورج استایکوس"
+
+#: src/konqapplication.cpp:204
+#, kde-format
+msgid "Developer (SSL, Netscape plugins)"
+msgstr "توسعه‌دهنده (SSL، افزایه‌های نت‌اسکیپ)"
+
+#: src/konqapplication.cpp:205
+#, kde-format
+msgid "Dawit Alemayehu"
+msgstr "داویت آلمایهو"
+
+#: src/konqapplication.cpp:205
+#, kde-format
+msgid "Developer (I/O library, Authentication support)"
+msgstr "توسعه‌دهنده (کتابخانهٔ ورودی/خروجی، پشتیبانی از احراز هویت)"
+
+#: src/konqapplication.cpp:206
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "کارستن فایفر"
+
+#: src/konqapplication.cpp:207
+#, kde-format
+msgid "Torsten Rahn"
+msgstr "تورستن ران"
+
+#: src/konqapplication.cpp:207
+#, kde-format
+msgid "Graphics/icons"
+msgstr "گرافیک/نقشک‌ها"
+
+#: src/konqapplication.cpp:208
+#, kde-format
+msgid "Torben Weis"
+msgstr "توربن وایس"
+
+#: src/konqapplication.cpp:208
+#, kde-format
+msgid "KFM author"
+msgstr "پدیدآور KFM"
+
+#: src/konqapplication.cpp:209
+#, kde-format
+msgid "Joseph Wenninger"
+msgstr "جوزف ونینگر"
+
+#: src/konqapplication.cpp:209
+#, kde-format
+msgid "Developer (navigation panel framework)"
+msgstr "توسعه‌دهنده (چارچوب پنل ناوبری)"
+
+#: src/konqapplication.cpp:210
+#, kde-format
+msgid "Stephan Binner"
+msgstr "Stephan Binner"
+
+#: src/konqapplication.cpp:210
+#, kde-format
+msgid "Developer (misc stuff)"
+msgstr "توسعه‌دهنده (موارد گوناگون)"
+
+#: src/konqapplication.cpp:211
+#, kde-format
+msgid "Ivor Hewitt"
+msgstr "Ivor Hewitt"
+
+#: src/konqapplication.cpp:211
+#, kde-format
+msgid "Developer (AdBlock filter)"
+msgstr "توسعه‌دهنده (فیلتر AdBlock)"
+
+#: src/konqapplication.cpp:212
+#, kde-format
+msgid "Eduardo Robles Elvira"
+msgstr "Eduardo Robles Elvira"
+
+#: src/konqapplication.cpp:213
+#, kde-format
+msgid "Matthias Kalle Dalheimer"
+msgstr "Matthias Kalle Dalheimer"
+
+#: src/konqapplication.cpp:214
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: src/konqapplication.cpp:215
+#, kde-format
+msgid ""
+"JavaScript access controls\n"
+"Per-domain policies extensions"
+msgstr ""
+"کنترل‌های دسترسی جاوااسکریپت\n"
+"افزونه‌های خط‌مشی به ازای دامنه"
+
+#: src/konqapplication.cpp:226
+#, kde-format
+msgid "Start without a default window, when called without URLs"
+msgstr "شروع بدون پنجره پیش‌فرض، هنگام فراخوانی بدون نشانی اینترنتی"
+
+#: src/konqapplication.cpp:227
+#, kde-format
+msgid ""
+"Preload for later use. This mode does not support URLs on the command line"
+msgstr ""
+"پیش‌بارگذاری برای استفادهٔ بعدی. این حالت از نشانی‌های اینترنتی در خط فرمان "
+"پشتیبانی نمی‌کند"
+
+#: src/konqapplication.cpp:228
+#, kde-format
+msgid "Profile to open (DEPRECATED, IGNORED)"
+msgstr "نمایه برای باز کردن (منسوخ، نادیده‌گرفته‌شده)"
+
+#: src/konqapplication.cpp:228
+#, kde-format
+msgid "profile"
+msgstr "نمایه"
+
+#: src/konqapplication.cpp:229
+#, kde-format
+msgid "List available sessions and exit"
+msgstr "فهرست کردن نشست‌های موجود و خروج"
+
+#: src/konqapplication.cpp:230
+#, kde-format
+msgid "Session to open"
+msgstr "نشست برای باز کردن"
+
+#: src/konqapplication.cpp:230
+#, kde-format
+msgid "session"
+msgstr "نشست"
+
+#: src/konqapplication.cpp:231
+#, kde-format
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr ""
+"نوع MIME مورد استفاده برای این نشانی (مثلاً text/html یا inode/directory)"
+
+#: src/konqapplication.cpp:231
+#, kde-format
+msgid "mimetype"
+msgstr "نوع MIME"
+
+#: src/konqapplication.cpp:232
+#, kde-format
+msgid "Part to use (e.g. khtml or kwebkitpart)"
+msgstr "بخش مورد استفاده (مثلاً khtml یا kwebkitpart)"
+
+#: src/konqapplication.cpp:232
+#, kde-format
+msgid "service"
+msgstr "خدمت"
+
+#: src/konqapplication.cpp:233
+#, kde-format
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+"برای نشانی‌هایی که به پرونده‌ها اشاره می‌کنند، به جای باز کردن خود پرونده، "
+"شاخه را باز کرده و پرونده را انتخاب می‌کند"
+
+#: src/konqapplication.cpp:234
+#, kde-format
+msgid "The files/URLs opened by the application will be deleted after use"
+msgstr "پرونده‌ها/نشانی‌های بازشده توسط برنامه، پس از استفاده حذف خواهند شد"
+
+#: src/konqapplication.cpp:236
+#, kde-format
+msgid ""
+"Create a new Konqueror process, even if one already exists. Meant to be used"
+" only when developing Konqueror itself"
+msgstr ""
+"ایجاد یک فرایند جدید کانکرور، حتی اگر قبلاً وجود داشته باشد. فقط برای "
+"استفاده هنگام توسعه خود کانکرور در نظر گرفته شده است"
+
+#: src/konqapplication.cpp:238
+#, kde-format
+msgid "Location to open"
+msgstr "مکان برای باز کردن"
+
+#: src/konqapplication.cpp:353
+#, kde-format
+msgctxt "The session asked by the user doesn't exist or can't be opened"
+msgid "Session %1 couldn't be opened"
+msgstr "نشست %1 باز نشد"
+
+#: src/konqapplication.cpp:483
+#, kde-format
+msgid ""
+"You can't pass URLs when using the --preload switch. The URLs will be "
+"ignored\n"
+msgstr ""
+"هنگام استفاده از سوئیچ ‎--preload نمی‌توانید نشانی اینترنتی وارد کنید. "
+"نشانی‌ها نادیده گرفته خواهند شد\n"
+
+#: src/konqapplication.cpp:580
+#, kde-format
+msgid "Are you sure you want to quit Konqueror? This will close all windows"
+msgstr "آیا از خروج از کانکرور مطمئن هستید؟ این کار همه پنجره‌ها را می‌بندد"
+
+#: src/konqapplication.cpp:581 src/konqmainwindow.cpp:4879
+#: src/konqmainwindow.cpp:5653
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "تأییدیه"
+
+#: src/konqapplication.cpp:583
+#, kde-format
+msgid "Close current window"
+msgstr "بستن پنجره کنونی"
+
+#: src/konqclosedwindowsmanager.cpp:209 src/konqmainwindow.cpp:4948
+#: src/konqmainwindow.cpp:4994
+#, kde-format
+msgid "no name"
+msgstr "بدون نام"
+
+#: src/konqextensionmanager.cpp:52
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Extensions"
+msgstr "پیکربندی افزونه‌ها"
+
+#: src/konqextensionmanager.cpp:72
+#, kde-format
+msgid "Extensions"
+msgstr "افزونه‌ها"
+
+#: src/konqfactory.cpp:66
+#, kde-format
+msgid ""
+"There was an error loading the module %1.\n"
+"The diagnostics is:\n"
+"%2"
+msgstr ""
+"هنگام بارگذاری پودمان %1 خطایی رخ داد.\n"
+"پیام عیب‌یابی عبارت است از:\n"
+"%2"
+
+#: src/konqframestatusbar.cpp:135
+#, kde-format
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will"
+" automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+"علامت زدن این گزینه در حداقل دو نما، آن نماها را «پیوندیافته» می‌کند. سپس، "
+"با تغییر پوشه در یک نما، نماهای دیگری که با آن پیوند دارند به‌طور خودکار "
+"به‌روزرسانی می‌شوند تا پوشهٔ فعلی را نمایش دهند. این ویژگی به‌ویژه با انواع "
+"مختلف نماها، مانند درخت پوشه همراه با نمای شمایلی یا نمای دقیق و احتمالاً "
+"پنجرهٔ شبیه‌ساز پایانه، بسیار مفید است."
+
+#: src/konqframestatusbar.cpp:146
+#, kde-format
+msgctxt "%p is the percent value, % is the percent sign"
+msgid "%p%"
+msgstr "٪%p"
+
+#: src/konqframestatusbar.cpp:182
+#, kde-format
+msgid "Close View"
+msgstr "بستن نما"
+
+#: src/konqframestatusbar.cpp:260
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:262
+#, kde-format
+msgid "Stalled"
+msgstr "متوقف‌شده"
+
+#: src/konqguiclients.cpp:52
+#, kde-format
+msgid "Preview &in %1"
+msgstr "پیش‌نمایش در %1"
+
+#: src/konqguiclients.cpp:122
+#, kde-format
+msgid "Show %1"
+msgstr "نمایش %1"
+
+#: src/konqhistorydialog.cpp:39
+#, kde-format
+msgctxt "@title:window"
+msgid "History"
+msgstr "تاریخچه"
+
+#: src/konqhistorydialog.cpp:55 src/konqhistoryview.cpp:142
+#, kde-format
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "مرتب‌سازی"
+
+#: src/konqhistorymodel.cpp:223
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
+"%3<br />Number of times visited: %4</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center><hr />آخرین بازدید: %2<br />نخستین بازدید: "
+"%3<br />تعداد دفعات بازدید: %4</qt>"
+
+#: src/konqhistorymodel.cpp:317
+#, kde-format
+msgid "Local"
+msgstr "محلی"
+
+#: src/konqhistorymodel.cpp:320
+#, kde-format
+msgid "Miscellaneous"
+msgstr "متفرقه"
+
+#: src/konqhistoryview.cpp:55 src/konqmainwindow.cpp:4416
+#, kde-format
+msgid "Open in New &Window"
+msgstr "باز کردن در پنجره جدید"
+
+#: src/konqhistoryview.cpp:60
+#, kde-format
+msgid "Open in New Tab"
+msgstr "باز کردن در برگه جدید"
+
+#: src/konqhistoryview.cpp:65
+#, kde-format
+msgid "Open in Current Tab"
+msgstr "باز کردن در برگه فعلی"
+
+#: src/konqhistoryview.cpp:69
+#, kde-format
+msgid "&Copy Link Address"
+msgstr "رونوشت از نشانی پیوند"
+
+#: src/konqhistoryview.cpp:74
+#, kde-format
+msgid "&Remove Entry"
+msgstr "حذف مدخل"
+
+#: src/konqhistoryview.cpp:81
+#, kde-format
+msgid "C&lear History"
+msgstr "پاک کردن تاریخچه"
+
+#: src/konqhistoryview.cpp:86
+#, kde-format
+msgid "&Preferences..."
+msgstr "ترجیحات..."
+
+#: src/konqhistoryview.cpp:93
+#, kde-format
+msgid "By &Name"
+msgstr "بر اساس نام"
+
+#: src/konqhistoryview.cpp:99
+#, kde-format
+msgid "By &Date"
+msgstr "بر اساس تاریخ"
+
+#: src/konqhistoryview.cpp:109
+#, kde-format
+msgid "Search in history"
+msgstr "جست‌وجو در تاریخچه"
+
+#: src/konqhistoryview.cpp:170
+#, kde-format
+msgid "Do you really want to clear the entire history?"
+msgstr "آیا واقعاً می‌خواهید کل تاریخچه را پاک کنید؟"
+
+#: src/konqhistoryview.cpp:171
+#, kde-format
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "پاک کردن تاریخچه؟"
+
+#: src/konqmainwindow.cpp:764
+#, kde-format
+msgctxt "@title:tab"
+msgid "Loading..."
+msgstr "در حال بارگذاری..."
+
+#: src/konqmainwindow.cpp:796
+#, kde-format
+msgid "Access denied"
+msgstr "دسترسی رد شد"
+
+#: src/konqmainwindow.cpp:1573
+#, kde-format
+msgid "Open File"
+msgstr "باز کردن پرونده"
+
+#: src/konqmainwindow.cpp:1637
+#, kde-format
+msgid "Canceled."
+msgstr "لغو شد."
+
+#: src/konqmainwindow.cpp:1673
+#, kde-format
+msgid ""
+"This page contains changes that have not been submitted.\n"
+"Reloading the page will discard these changes."
+msgstr ""
+"این صفحه شامل تغییراتی است که ثبت نشده‌اند.\n"
+"بارگیری مجدد صفحه، این تغییرات را نادیده خواهد گرفت."
+
+#: src/konqmainwindow.cpp:1674 src/konqmainwindow.cpp:2316
+#: src/konqmainwindow.cpp:2405 src/konqmainwindow.cpp:2437
+#: src/konqmainwindow.cpp:2480 src/konqmainwindow.cpp:2502
+#: src/konqmainwindow.cpp:4913
+#, kde-format
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "تغییرات نادیده گرفته شوند؟"
+
+#: src/konqmainwindow.cpp:1674 src/konqmainwindow.cpp:2316
+#: src/konqmainwindow.cpp:2405 src/konqmainwindow.cpp:2437
+#: src/konqmainwindow.cpp:2480 src/konqmainwindow.cpp:2503
+#: src/konqmainwindow.cpp:4913
+#, kde-format
+msgid "&Discard Changes"
+msgstr "نادیده گرفتن تغییرات"
+
+#: src/konqmainwindow.cpp:1991 src/konqmainwindow.cpp:1997
+#, kde-format
+msgid "Home Folder"
+msgstr "پوشهٔ آغازه"
+
+#: src/konqmainwindow.cpp:1992 src/konqmainwindow.cpp:3429
+#, kde-format
+msgid "Home"
+msgstr "آغازه"
+
+#: src/konqmainwindow.cpp:1998
+#, kde-format
+msgid "Navigate to your 'Home Folder'"
+msgstr "رفتن به «پوشهٔ آغازه» خود"
+
+#: src/konqmainwindow.cpp:1999
+#, kde-format
+msgid "Navigate to your local 'Home Folder'"
+msgstr "رفتن به «پوشهٔ آغازه» محلی خود"
+
+#: src/konqmainwindow.cpp:2002
+#, kde-format
+msgid "Home Page"
+msgstr "صفحهٔ خانگی"
+
+#: src/konqmainwindow.cpp:2004
+#, kde-format
+msgid "Navigate to your 'Home Page'"
+msgstr "رفتن به «صفحهٔ خانگی» خود"
+
+#: src/konqmainwindow.cpp:2005
+#, kde-format
+msgid ""
+"<html>Navigate to your 'Home Page'<br /><br />You can configure the location"
+" where this button takes you under <b>Settings -> Configure Konqueror -> "
+"General</b>.</html>"
+msgstr ""
+"<html>رفتن به «صفحهٔ آغازه»<br /><br />می‌توانید مقصدی را که این دکمه شما را"
+" به آن می‌برد در <b>تنظیمات -> پیکربندی Konqueror -> عمومی</b> پیکربندی "
+"کنید.</html>"
+
+#: src/konqmainwindow.cpp:2315
+#, kde-format
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Detaching the tab will discard these changes."
+msgstr ""
+"این زبانه حاوی تغییراتی است که ارسال نشده‌اند.\n"
+"جدا کردن زبانه این تغییرات را نادیده خواهد گرفت."
+
+#: src/konqmainwindow.cpp:2404
+#, kde-format
+msgid ""
+"This view contains changes that have not been submitted.\n"
+"Closing the view will discard these changes."
+msgstr ""
+"این نما حاوی تغییراتی است که ارسال نشده‌اند.\n"
+"بستن نما این تغییرات را نادیده خواهد گرفت."
+
+#: src/konqmainwindow.cpp:2436
+#, kde-format
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing the tab will discard these changes."
+msgstr ""
+"این زبانه حاوی تغییراتی است که ارسال نشده‌اند.\n"
+"بستن زبانه این تغییرات را نادیده خواهد گرفت."
+
+#: src/konqmainwindow.cpp:2462
+#, kde-format
+msgid "Do you really want to close all other tabs?"
+msgstr "آیا واقعاً می‌خواهید همهٔ زبانه‌های دیگر را ببندید؟"
+
+#: src/konqmainwindow.cpp:2463 src/konqmainwindow.cpp:3509 src/konqtabs.cpp:74
+#, kde-format
+msgid "Close &Other Tabs"
+msgstr "بستن زبانه‌های دیگر"
+
+#: src/konqmainwindow.cpp:2463
+#, kde-format
+msgctxt "@title:window"
+msgid "Close Other Tabs Confirmation"
+msgstr "تأیید بستن زبانه‌های دیگر"
+
+#: src/konqmainwindow.cpp:2479
+#, kde-format
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing other tabs will discard these changes."
+msgstr ""
+"این زبانه حاوی تغییراتی است که ارسال نشده‌اند.\n"
+"بستن زبانه‌های دیگر این تغییرات را نادیده خواهد گرفت."
+
+#: src/konqmainwindow.cpp:2501
+#, kde-format
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Reloading all tabs will discard these changes."
+msgstr ""
+"این زبانه حاوی تغییراتی است که ارسال نشده‌اند.\n"
+"بارگیری مجدد همهٔ زبانه‌ها این تغییرات را نادیده خواهد گرفت."
+
+#: src/konqmainwindow.cpp:2558
+#, kde-format
+msgctxt "@title:window"
+msgid "Enter Target"
+msgstr "ورود هدف"
+
+#: src/konqmainwindow.cpp:2565
+#, kde-format
+msgid "<qt><b>%1</b> is not valid</qt>"
+msgstr "<qt><b>%1</b> معتبر نیست</qt>"
+
+#: src/konqmainwindow.cpp:2575
+#, kde-format
+msgid "Copy selected files from %1 to:"
+msgstr "رونوشت از پرونده‌های گزیده از %1 به:"
+
+#: src/konqmainwindow.cpp:2588
+#, kde-format
+msgid "Move selected files from %1 to:"
+msgstr "انتقال پرونده‌های گزیده از %1 به:"
+
+#: src/konqmainwindow.cpp:2753
+#, kde-format
+msgctxt "This menu entry empties the closed items history"
+msgid "Empty Closed Items History"
+msgstr "خالی کردن تاریخچهٔ موارد بسته‌شده"
+
+#: src/konqmainwindow.cpp:2773
+#, kde-format
+msgid "Save As..."
+msgstr "ذخیره به نام..."
+
+#: src/konqmainwindow.cpp:2775
+#, kde-format
+msgid "Manage..."
+msgstr "مدیریت..."
+
+#: src/konqmainwindow.cpp:3319
+#, kde-format
+msgid "New &Window"
+msgstr "پنجرهٔ جدید"
+
+#: src/konqmainwindow.cpp:3324
+#, kde-format
+msgid "&Duplicate Window"
+msgstr "تکثیر پنجره"
+
+#: src/konqmainwindow.cpp:3329
+#, kde-format
+msgid "Send &Link Address..."
+msgstr "ارسال نشانی پیوند..."
+
+#: src/konqmainwindow.cpp:3333
+#, kde-format
+msgid "S&end File..."
+msgstr "ارسال پرونده..."
+
+#: src/konqmainwindow.cpp:3337
+#, kde-format
+msgid "&Open Location"
+msgstr "گشودن مکان"
+
+#: src/konqmainwindow.cpp:3343
+#, kde-format
+msgid "&Open File..."
+msgstr "گشودن پرونده..."
+
+#: src/konqmainwindow.cpp:3348
+#, kde-format
+msgid "&Find File..."
+msgstr "یافتن پرونده..."
+
+#: src/konqmainwindow.cpp:3357
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Other Windows"
+msgstr "بستن پنجره‌های دیگر"
+
+#: src/konqmainwindow.cpp:3358
+#, kde-format
+msgid "Closes all windows except this one"
+msgstr "همهٔ پنجره‌ها به‌جز این پنجره را می‌بندد"
+
+#: src/konqmainwindow.cpp:3360
+#, kde-format
+msgid "Closes all windows except this one. It doesn't close preloaded windows"
+msgstr ""
+"همهٔ پنجره‌ها به‌جز این پنجره را می‌بندد. پنجره‌های از پیش بارگذاری‌شده بسته"
+" نمی‌شوند"
+
+#: src/konqmainwindow.cpp:3364
+#, kde-format
+msgctxt "@action:inmenu quit Konqueror"
+msgid "Quit Konqueror"
+msgstr "خروج از کانکرر"
+
+#: src/konqmainwindow.cpp:3366
+#, kde-format
+msgid "Closes all Konqueror windows and quits the application"
+msgstr "همهٔ پنجره‌های کانکرر را بسته و از برنامه خارج می‌شود"
+
+#: src/konqmainwindow.cpp:3370
+#, kde-format
+msgctxt "@action:inmenu close current window"
+msgid "Close Window"
+msgstr "بستن پنجره"
+
+#: src/konqmainwindow.cpp:3372
+#, kde-format
+msgid "Close this window"
+msgstr "بستن این پنجره"
+
+#: src/konqmainwindow.cpp:3374
+#, kde-format
+msgid "Close this window, quitting Konqueror if it is the only window"
+msgstr "بستن این پنجره، و خروج از کانکرور در صورتی که تنها پنجره باشد"
+
+#: src/konqmainwindow.cpp:3376
+#, kde-format
+msgid "Lock to Current Location"
+msgstr "قفل کردن روی مکان فعلی"
+
+#: src/konqmainwindow.cpp:3379
+#, kde-format
+msgctxt "This option links konqueror views"
+msgid "Lin&k View"
+msgstr "پیوند نما"
+
+#: src/konqmainwindow.cpp:3384
+#, kde-format
+msgid "&Up"
+msgstr "بالا"
+
+#: src/konqmainwindow.cpp:3394
+#, kde-format
+msgid "Closed Items"
+msgstr "موردهای بسته‌شده"
+
+#: src/konqmainwindow.cpp:3407
+#, kde-format
+msgid "Sessions"
+msgstr "نشست‌ها"
+
+#: src/konqmainwindow.cpp:3434
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Most Often Visited"
+msgstr "بیشترین بازدیدها"
+
+#: src/konqmainwindow.cpp:3438
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Recently Visited"
+msgstr "به‌تازگی بازدیدشده"
+
+#: src/konqmainwindow.cpp:3447
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Show History"
+msgstr "نمایش تاریخچه"
+
+#: src/konqmainwindow.cpp:3459
+#, kde-format
+msgid "Configure Extensions..."
+msgstr "پیکربندی افزونه‌ها..."
+
+#: src/konqmainwindow.cpp:3463
+#, kde-format
+msgid "Configure Spell Checking..."
+msgstr "پیکربندی غلط‌یابی املایی..."
+
+#: src/konqmainwindow.cpp:3469
+#, kde-format
+msgid "Split View &Left/Right"
+msgstr "تقسیم نما به چپ/راست"
+
+#: src/konqmainwindow.cpp:3474
+#, kde-format
+msgid "Split View &Top/Bottom"
+msgstr "تقسیم نما به بالا/پایین"
+
+#: src/konqmainwindow.cpp:3479 src/konqtabs.cpp:41
+#, kde-format
+msgid "&New Tab"
+msgstr "برگهٔ جدید"
+
+#: src/konqmainwindow.cpp:3488
+#, kde-format
+msgid "&Duplicate Current Tab"
+msgstr "تکثیر برگهٔ کنونی"
+
+#: src/konqmainwindow.cpp:3493
+#, kde-format
+msgid "Detach Current Tab"
+msgstr "جداسازی برگهٔ کنونی"
+
+#: src/konqmainwindow.cpp:3498
+#, kde-format
+msgid "&Close Active View"
+msgstr "بستن نمای فعال"
+
+#: src/konqmainwindow.cpp:3503
+#, kde-format
+msgid "Close Current Tab"
+msgstr "بستن برگهٔ کنونی"
+
+#: src/konqmainwindow.cpp:3513
+#, kde-format
+msgid "Activate Next Tab"
+msgstr "فعال‌سازی برگهٔ بعدی"
+
+#: src/konqmainwindow.cpp:3517
+#, kde-format
+msgid "Activate Previous Tab"
+msgstr "فعال‌سازی برگهٔ قبلی"
+
+#: src/konqmainwindow.cpp:3524
+#, kde-format
+msgid "Activate Tab %1"
+msgstr "فعال‌سازی برگهٔ %1"
+
+#: src/konqmainwindow.cpp:3529
+#, kde-format
+msgid "Move Tab Left"
+msgstr "انتقال برگه به چپ"
+
+#: src/konqmainwindow.cpp:3534
+#, kde-format
+msgid "Move Tab Right"
+msgstr "انتقال برگه به راست"
+
+#: src/konqmainwindow.cpp:3539
+#, kde-format
+msgid "Protect Window"
+msgstr "محافظت از پنجره"
+
+#: src/konqmainwindow.cpp:3545
+#, kde-format
+msgid "Dump Debug Info"
+msgstr "تخلیهٔ اطلاعات اشکال‌زدایی"
+
+#: src/konqmainwindow.cpp:3563
+#, kde-format
+msgid "&Reload"
+msgstr "بارگذاری مجدد"
+
+#: src/konqmainwindow.cpp:3568 src/konqtabs.cpp:68
+#, kde-format
+msgid "&Reload All Tabs"
+msgstr "بارگذاری مجدد همهٔ برگه‌ها"
+
+#: src/konqmainwindow.cpp:3576
+#, kde-format
+msgid "&Force Reload"
+msgstr "بارگذاری مجدد اجباری"
+
+#: src/konqmainwindow.cpp:3601
+#, kde-format
+msgid "&Stop"
+msgstr "توقف"
+
+#: src/konqmainwindow.cpp:3610
+#, kde-format
+msgid "Throbber"
+msgstr "نشانگر فعالیت"
+
+#: src/konqmainwindow.cpp:3614 src/konqmainwindow.cpp:3617
+#, kde-format
+msgid "L&ocation: "
+msgstr "مکان: "
+
+#: src/konqmainwindow.cpp:3624
+#, kde-format
+msgid "Location Bar"
+msgstr "نوار مکان"
+
+#: src/konqmainwindow.cpp:3630
+#, kde-format
+msgid ""
+"<html>Location Bar<br /><br />Enter a web address or search term.</html>"
+msgstr ""
+"<html>نوار مکان<br /><br />یک نشانی وب یا عبارت جستجو را وارد کنید.</html>"
+
+#: src/konqmainwindow.cpp:3634
+#, kde-format
+msgid "Clear Location Bar"
+msgstr "پاک کردن نوار مکان"
+
+#: src/konqmainwindow.cpp:3637
+#, kde-format
+msgid ""
+"<html>Clear Location bar<br /><br />Clears the contents of the location "
+"bar.</html>"
+msgstr ""
+"<html>پاک کردن نوار مکان<br /><br />محتویات نوار مکان را پاک می‌کند.</html>"
+
+#: src/konqmainwindow.cpp:3642
+#, kde-format
+msgid "&Bookmarks"
+msgstr "نشانک‌ها"
+
+#: src/konqmainwindow.cpp:3663
+#, kde-format
+msgid "Kon&queror Introduction"
+msgstr "آشنایی با کانکرور"
+
+#: src/konqmainwindow.cpp:3668
+#, kde-format
+msgid "Go"
+msgstr "برو"
+
+#: src/konqmainwindow.cpp:3670
+#, kde-format
+msgid ""
+"<html>Go<br /><br />Goes to the page that has been entered into the location"
+" bar.</html>"
+msgstr ""
+"<html>برو<br /><br />به صفحه‌ای می‌رود که در نوار مکان وارد شده است.</html>"
+
+#: src/konqmainwindow.cpp:3678
+#, kde-format
+msgid ""
+"<html>Enter the parent folder<br /><br />For instance, if the current "
+"location is file:/home/%1 clicking this button will take you to "
+"file:/home.</html>"
+msgstr ""
+"<html>ورود به پوشه والد<br /><br />برای نمونه، اگر مکان فعلی file:/home/%1 "
+"باشد، کلیک روی این دکمه شما را به file:/home خواهد برد.</html>"
+
+#: src/konqmainwindow.cpp:3681
+#, kde-format
+msgid "Enter the parent folder"
+msgstr "ورود به پوشهٔ والد"
+
+#: src/konqmainwindow.cpp:3683 src/konqmainwindow.cpp:3684
+#, kde-format
+msgid "Move backwards one step in the browsing history"
+msgstr "یک مرحله به عقب در تاریخچهٔ مرور"
+
+#: src/konqmainwindow.cpp:3686 src/konqmainwindow.cpp:3687
+#, kde-format
+msgid "Move forward one step in the browsing history"
+msgstr "یک مرحله به جلو در تاریخچهٔ مرور"
+
+#: src/konqmainwindow.cpp:3689 src/konqmainwindow.cpp:3690
+#, kde-format
+msgid "Move backwards one step in the closed tabs history"
+msgstr "یک مرحله به عقب در تاریخچهٔ برگه‌های بسته‌شده"
+
+#: src/konqmainwindow.cpp:3692
+#, kde-format
+msgid ""
+"<html>Reload the currently displayed document<br /><br />This may, for "
+"example, be needed to refresh web pages that have been modified since they "
+"were loaded, in order to make the changes visible.</html>"
+msgstr ""
+"<html>بارگذاری مجدد سند در حال نمایش<br /><br />برای مثال، این کار ممکن است "
+"برای تازه‌سازی صفحه‌های وبی که از زمان بارگذاری تغییر کرده‌اند نیاز باشد تا "
+"تغییرات نمایان شوند.</html>"
+
+#: src/konqmainwindow.cpp:3695
+#, kde-format
+msgid "Reload the currently displayed document"
+msgstr "بارگذاری مجدد سند در حال نمایش"
+
+#: src/konqmainwindow.cpp:3697
+#, kde-format
+msgid ""
+"<html>Reload all currently displayed documents in tabs<br /><br />This may, "
+"for example, be needed to refresh web pages that have been modified since "
+"they were loaded, in order to make the changes visible.</html>"
+msgstr ""
+"<html>بارگذاری مجدد همهٔ اسناد در حال نمایش در برگه‌ها<br /><br />برای مثال،"
+" این کار ممکن است برای تازه‌سازی صفحه‌های وبی که از زمان بارگذاری تغییر "
+"کرده‌اند نیاز باشد تا تغییرات نمایان شوند.</html>"
+
+#: src/konqmainwindow.cpp:3700
+#, kde-format
+msgid "Reload all currently displayed document in tabs"
+msgstr "بارگذاری مجدد همهٔ اسناد در حال نمایش در برگه‌ها"
+
+#: src/konqmainwindow.cpp:3702
+#, kde-format
+msgid ""
+"<html>Stop loading the document<br /><br />All network transfers will be "
+"stopped and Konqueror will display the content that has been received so "
+"far.</html>"
+msgstr ""
+"<html>توقف بارگذاری سند<br /><br />همهٔ انتقال‌های شبکه متوقف خواهند شد و "
+"Konqueror محتوایی را که تا کنون دریافت شده است نمایش می‌دهد.</html>"
+
+#: src/konqmainwindow.cpp:3706
+#, kde-format
+msgid ""
+"<html>Reload the currently displayed document<br /><br />This may, for "
+"example, be needed to refresh web pages that have been modified since they "
+"were loaded, in order to make the changes visible. Any images on the page "
+"are downloaded again, even if cached copies exist.</html>"
+msgstr ""
+"<html>بارگذاری مجدد سند در حال نمایش<br /><br />برای مثال، این کار ممکن است "
+"برای تازه‌سازی صفحه‌های وبی که از زمان بارگذاری تغییر کرده‌اند نیاز باشد تا "
+"تغییرات نمایان شوند. همهٔ تصاویر موجود در صفحه حتی در صورت وجود نسخه‌های "
+"درون حافظهٔ پنهان، دوباره بارگیری می‌شوند.</html>"
+
+#: src/konqmainwindow.cpp:3710
+#, kde-format
+msgid ""
+"Force a reload of the currently displayed document and any contained images"
+msgstr "بارگیری مجدد اجباری سند در حال نمایش و تمام تصاویر درون آن"
+
+#: src/konqmainwindow.cpp:3712
+#, kde-format
+msgid "Stop loading the document"
+msgstr "توقف بارگیری سند"
+
+#: src/konqmainwindow.cpp:3714
+#, kde-format
+msgid ""
+"<html>Cut the currently selected text or item(s) and move it to the system "
+"clipboard<br /><br />This makes it available to the <b>Paste</b> command in "
+"Konqueror and other KDE applications.</html>"
+msgstr ""
+"<html>بریدن متن یا موارد انتخاب‌شدهٔ فعلی و انتقال آن به بریده‌دان سیستم<br "
+"/><br />این کار آن را برای فرمان <b>چسباندن</b> در کنکرور و سایر برنامه‌های "
+"KDE در دسترس قرار می‌دهد.</html>"
+
+#: src/konqmainwindow.cpp:3718
+#, kde-format
+msgid "Move the selected text or item(s) to the clipboard"
+msgstr "انتقال متن یا موارد انتخاب‌شده به بریده‌دان"
+
+#: src/konqmainwindow.cpp:3720
+#, kde-format
+msgid ""
+"<html>Copy the currently selected text or item(s) to the system clipboard<br"
+" /><br />This makes it available to the <b>Paste</b> command in Konqueror "
+"and other KDE applications.</html>"
+msgstr ""
+"<html>رونوشت از متن یا موارد انتخاب‌شدهٔ فعلی در بریده‌دان سیستم<br /><br "
+"/>این کار آن را برای فرمان <b>چسباندن</b> در کنکرور و سایر برنامه‌های KDE در"
+" دسترس قرار می‌دهد.</html>"
+
+#: src/konqmainwindow.cpp:3724
+#, kde-format
+msgid "Copy the selected text or item(s) to the clipboard"
+msgstr "رونوشت از متن یا موارد انتخاب‌شده در بریده‌دان"
+
+#: src/konqmainwindow.cpp:3726
+#, kde-format
+msgid ""
+"<html>Paste the previously cut or copied clipboard contents<br /><br />This "
+"also works for text copied or cut from other KDE applications.</html>"
+msgstr ""
+"<html>چسباندن محتوای بریده‌شده یا رونوشت‌شدهٔ قبلی از بریده‌دان<br /><br "
+"/>این ویژگی برای متن‌های رونوشت یا بریده‌شده از سایر برنامه‌های KDE نیز کار "
+"می‌کند.</html>"
+
+#: src/konqmainwindow.cpp:3729
+#, kde-format
+msgid "Paste the clipboard contents"
+msgstr "چسباندن محتوای بریده‌دان"
+
+#: src/konqmainwindow.cpp:3731
+#, kde-format
+msgid ""
+"<html>Print the currently displayed document<br /><br />You will be "
+"presented with a dialog where you can set various options, such as the "
+"number of copies to print and which printer to use.<br /><br />This dialog "
+"also provides access to special KDE printing services such as creating a PDF"
+" file from the current document.</html>"
+msgstr ""
+"<html>چاپ سند در حال نمایش<br /><br />کادر محاوره‌ای به شما نشان داده خواهد "
+"شد که در آن می‌توانید گزینه‌های مختلفی مانند تعداد نسخه‌های چاپ و چاپگر مورد"
+" نظر را تعیین کنید.<br /><br />این کادر همچنین دسترسی به خدمات چاپ ویژهٔ KDE"
+" مانند ایجاد پروندهٔ PDF از سند فعلی را فراهم می‌کند.</html>"
+
+#: src/konqmainwindow.cpp:3737
+#, kde-format
+msgid "Print the current document"
+msgstr "چاپ سند فعلی"
+
+#: src/konqmainwindow.cpp:3739
+#, kde-format
+msgid ""
+"A locked view cannot change folders. Use in combination with 'link view' to "
+"explore many files from one folder"
+msgstr ""
+"یک نمای قفل‌شده نمی‌تواند پوشه‌ها را تغییر دهد. برای مرور پرونده‌های متعدد "
+"از یک پوشه، همراه با «پیوند نما» استفاده کنید"
+
+#: src/konqmainwindow.cpp:3740
+#, kde-format
+msgid ""
+"Sets the view as 'linked'. A linked view follows folder changes made in "
+"other linked views."
+msgstr ""
+"نما را به‌عنوان «پیوندشده» تنظیم می‌کند. یک نمای پیوندشده تغییرات پوشه را در"
+" سایر نماهای پیوندشده دنبال می‌کند."
+
+#: src/konqmainwindow.cpp:3744
+#, kde-format
+msgid "&Inspect Current Page"
+msgstr "بازرسی صفحهٔ کنونی"
+
+#: src/konqmainwindow.cpp:3745
+#, kde-format
+msgid ""
+"<html>Shows the developer tools for the current page<br/><br/>The current "
+"view is split in two and the developer tools are displayed in the second "
+"half"
+msgstr ""
+"<html>ابزارهای توسعه‌دهنده را برای صفحهٔ کنونی نمایش می‌دهد<br/><br/>نمای "
+"کنونی به دو قسمت تقسیم شده و ابزارهای توسعه‌دهنده در نیمهٔ دوم نمایش داده "
+"می‌شوند"
+
+#: src/konqmainwindow.cpp:3746
+#, kde-format
+msgid "Shows the developer tools for the current page"
+msgstr "ابزارهای توسعه‌دهنده را برای صفحهٔ کنونی نمایش می‌دهد"
+
+#: src/konqmainwindow.cpp:3748
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Mark the current window as protected"
+msgstr "علامت‌گذاری پنجرهٔ کنونی به‌عنوان محافظت‌شده"
+
+#: src/konqmainwindow.cpp:3750
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<p>Mark the current window as protected.</p><p>Konqueror will never open "
+"external links in a protected window.</p>"
+msgstr ""
+"<p>علامت‌گذاری پنجرهٔ کنونی به‌عنوان محافظت‌شده.</p><p>کنکرور هرگز پیوندهای "
+"خارجی را در یک پنجرهٔ محافظت‌شده باز نخواهد کرد.</p>"
+
+#: src/konqmainwindow.cpp:3912
+#, kde-format
+msgid "Copy &Files..."
+msgstr "رونوشت از پرونده‌ها…"
+
+#: src/konqmainwindow.cpp:3916
+#, kde-format
+msgid "M&ove Files..."
+msgstr "انتقال پرونده‌ها…"
+
+#: src/konqmainwindow.cpp:4244
+#, kde-format
+msgid ""
+"You have requested to open more than 20 bookmarks in tabs. This might take a"
+" while. Continue?"
+msgstr ""
+"درخواست باز کردن بیش از ۲۰ نشانک در زبانه‌ها را داده‌اید. این کار ممکن است "
+"کمی طول بکشد. ادامه می‌دهید؟"
+
+#: src/konqmainwindow.cpp:4246
+#, kde-format
+msgctxt "@title:window"
+msgid "Open bookmarks folder in new tabs"
+msgstr "باز کردن پوشهٔ نشانک‌ها در زبانه‌های جدید"
+
+#: src/konqmainwindow.cpp:4247
+#, kde-format
+msgctxt "@action:button"
+msgid "Open"
+msgstr "باز کردن"
+
+#: src/konqmainwindow.cpp:4409
+#, kde-format
+msgid "Open in T&his Window"
+msgstr "باز کردن در همین پنجره"
+
+#: src/konqmainwindow.cpp:4410
+#, kde-format
+msgid "Open the document in current window"
+msgstr "باز کردن سند در پنجرهٔ کنونی"
+
+#: src/konqmainwindow.cpp:4417
+#, kde-format
+msgid "Open the document in a new window"
+msgstr "باز کردن سند در پنجره‌ای جدید"
+
+#: src/konqmainwindow.cpp:4423
+#, kde-format
+msgid "Open in &New Tab"
+msgstr "باز کردن در زبانهٔ جدید"
+
+#: src/konqmainwindow.cpp:4425
+#, kde-format
+msgid "Open the document in a new tab"
+msgstr "باز کردن سند در زبانه‌ای جدید"
+
+#: src/konqmainwindow.cpp:4691
+#, kde-format
+msgid "&Open With"
+msgstr "باز کردن با"
+
+#: src/konqmainwindow.cpp:4704
+#, kde-format
+msgid "Open with %1"
+msgstr "باز کردن با %1"
+
+#: src/konqmainwindow.cpp:4754
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "&View Mode"
+msgstr "حالت نما"
+
+#: src/konqmainwindow.cpp:4877
+#, kde-format
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr "چندین برگه در این پنجره باز است، آیا مطمئنید که می‌خواهید خارج شوید؟"
+
+#: src/konqmainwindow.cpp:4881
+#, kde-format
+msgid "C&lose Current Tab"
+msgstr "بستن برگهٔ فعلی"
+
+#: src/konqmainwindow.cpp:4909
+#, kde-format
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing the window will discard these changes."
+msgstr ""
+"این برگه شامل تغییراتی است که ارسال نشده‌اند.\n"
+"بستن پنجره باعث لغو این تغییرات خواهد شد."
+
+#: src/konqmainwindow.cpp:4910
+#, kde-format
+msgid ""
+"This page contains changes that have not been submitted.\n"
+"Closing the window will discard these changes."
+msgstr ""
+"این صفحه شامل تغییراتی است که ارسال نشده‌اند.\n"
+"بستن پنجره باعث لغو این تغییرات خواهد شد."
+
+#: src/konqmainwindow.cpp:5070
+#, kde-format
+msgid ""
+"Your sidebar is not functional or unavailable. A new entry cannot be added."
+msgstr ""
+"نوار کناری شما کار نمی‌کند یا در دسترس نیست. افزودن مورد جدید امکان‌پذیر "
+"نیست."
+
+#: src/konqmainwindow.cpp:5070 src/konqmainwindow.cpp:5077
+#, kde-format
+msgctxt "@title:window"
+msgid "Web Sidebar"
+msgstr "نوار کناری وب"
+
+#: src/konqmainwindow.cpp:5075
+#, kde-format
+msgid "Add new web extension \"%1\" to your sidebar?"
+msgstr "افزونهٔ وب جدید «%1» به نوار کناری افزوده شود؟"
+
+#: src/konqmainwindow.cpp:5077
+#, kde-format
+msgid "Add"
+msgstr "افزودن"
+
+#: src/konqmainwindow.cpp:5077
+#, kde-format
+msgid "Do Not Add"
+msgstr "افزوده نشود"
+
+#: src/konqmainwindow.cpp:5515
+#, kde-format
+msgid ""
+"Your proxy configuration can't be used with the QtWebEngine HTML engine. No proxy will be used\n"
+"\n"
+" QtWebEngine only support a fixed proxy, so proxy auto-configuration (PAC) and Web Proxy Auto-Discovery protocol can't be used with QtWebEngine. If you need a proxy, please select the system proxy configuration or specify a proxy URL manually in the settings dialog. Do you want to change proxy settings now?"
+msgstr ""
+"پیکربندی پیشکار شما با موتور HTML کیوت‌وب‌انجین (QtWebEngine) قابل استفاده نیست. هیچ پیشکاری استفاده نخواهد شد.\n"
+"\n"
+"کیوت‌وب‌انجین فقط از پیشکار ثابت پشتیبانی می‌کند، بنابراین پیکربندی خودکار پیشکار (PAC) و پروتکل کشف خودکار پیشکار وب (WPAD) با آن قابل استفاده نیستند. در صورت نیاز به پیشکار، لطفاً پیکربندی پیشکار سامانه را انتخاب کنید یا یک نشانی اینترنتی پیشکار را به‌صورت دستی در پنجرهٔ تنظیمات مشخص کنید. آیا می‌خواهید تنظیمات پیشکار را اکنون تغییر دهید؟"
+
+#: src/konqmainwindow.cpp:5520
+#, kde-format
+msgid "Unsupported proxy configuration"
+msgstr "پیکربندی پروکسی پشتیبانی‌نشده"
+
+#: src/konqmainwindow.cpp:5520
+#, kde-format
+msgid "Don't use a proxy"
+msgstr "از پروکسی استفاده نشود"
+
+#: src/konqmainwindow.cpp:5521 src/konqmainwindow.cpp:5549
+#, kde-format
+msgid "Show proxy configuration dialog"
+msgstr "نمایش گفت‌وگوی پیکربندی پروکسی"
+
+#: src/konqmainwindow.cpp:5545
+#, kde-format
+msgid ""
+"Your proxy configuration can't be used with the QtWebEngine HTML engine "
+"because it doesn't support having different proxies for the HTTP and HTTPS "
+"protocols. Your current settings are:<p><b>HTTP proxy:</b> "
+"<tt>%1</tt></p><p><b>HTTPS proxy: </b><tt>%2</tt></p>What do you want to do?"
+msgstr ""
+"پیکربندی پروکسی شما نمی‌تواند با موتور HTML کیوت وب‌انجین استفاده شود، زیرا "
+"از پروکسی‌های متفاوت برای پروتکل‌های HTTP و HTTPS پشتیبانی نمی‌کند. تنظیمات "
+"کنونی شما عبارتند از:<p><b>پروکسی HTTP:</b> <tt>%1</tt></p><p><b>پروکسی "
+"HTTPS: </b><tt>%2</tt></p>می‌خواهید چه کاری انجام دهید؟"
+
+#: src/konqmainwindow.cpp:5548
+#, kde-format
+msgid "Conflicting proxy configuration"
+msgstr "تداخل در پیکربندی پروکسی"
+
+#: src/konqmainwindow.cpp:5549
+#, kde-format
+msgid "Use HTTP proxy (only this time)"
+msgstr "استفاده از پروکسی HTTP (تنها این بار)"
+
+#: src/konqmainwindow.cpp:5549
+#, kde-format
+msgid "Use HTTPS proxy (only this time)"
+msgstr "استفاده از پروکسی HTTPS (تنها این بار)"
+
+#: src/konqmainwindow.cpp:5565
+#, kde-format
+msgid ""
+"You have entered Complete Full Screen mode (the user interface is completely"
+" hidden). You can exit it by pressing the keyboard shortcut for Full Screen "
+"Mode (%1)"
+msgstr ""
+"شما وارد حالت تمام‌صفحه کامل شده‌اید (رابط کاربری کاملاً پنهان است). "
+"می‌توانید با فشردن میان‌بر صفحه‌کلید حالت تمام‌صفحه (%1) از آن خارج شوید"
+
+#: src/konqmainwindow.cpp:5652
+#, kde-format
+msgid ""
+"You are closing all windows except this one. Are you sure you want to "
+"continue?"
+msgstr ""
+"شما در حال بستن تمام پنجره‌ها به‌جز این پنجره هستید. آیا مطمئنید که "
+"می‌خواهید ادامه دهید؟"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/konqnewsessiondlg_base.ui:28
+#, kde-format
+msgid "Save open &tabs and windows for easy retrieval"
+msgstr "ذخیرهٔ زبانه‌ها و پنجره‌های باز برای دسترسی آسان"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pAllWindows)
+#: src/konqnewsessiondlg_base.ui:34
+#, kde-format
+msgid "A&ll open windows"
+msgstr "همهٔ پنجره‌های باز"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pCurrentWindow)
+#: src/konqnewsessiondlg_base.ui:44
+#, kde-format
+msgid "Onl&y current window"
+msgstr "فقط پنجرهٔ فعلی"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSessionName)
+#: src/konqnewsessiondlg_base.ui:56
+#, kde-format
+msgid "Session n&ame:"
+msgstr "نام نشست:"
+
+#: src/konqsessiondialog.cpp:50
+#, kde-format
+msgctxt "@tooltip:session list"
+msgid "Uncheck the sessions or windows you do not want to be restored"
+msgstr "تیک نشست‌ها یا پنجره‌هایی را که نمی‌خواهید بازیابی شوند بردارید"
+
+#: src/konqsessiondialog.cpp:95
+#, kde-format
+msgctxt "@item:treewidget"
+msgid "Session %1"
+msgstr "نشست %1"
+
+#: src/konqsessiondialog.cpp:116
+#, kde-format
+msgctxt "@item:treewidget"
+msgid "Window %1  (on Desktop %2)"
+msgstr "پنجرهٔ %1 (در میزکار %2)"
+
+#. i18n. Otherwise it would be easier to just use what is in the session file
+#: src/konqsessiondialog.cpp:119
+#, kde-format
+msgctxt "@item:treewidget"
+msgid "Window %1"
+msgstr "پنجرهٔ %1"
+
+#: src/konqsessiondialog.cpp:269
+#, kde-format
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "نشست بازیابی شود؟"
+
+#: src/konqsessiondialog.cpp:290
+#, kde-format
+msgid ""
+"Konqueror did not close correctly. Would you like to restore these previous "
+"sessions?"
+msgstr ""
+"کنکورور به‌درستی بسته نشد. آیا می‌خواهید این نشست‌های قبلی را بازیابی کنید؟"
+
+#: src/konqsessiondialog.cpp:305
+#, kde-format
+msgid "Do not ask again"
+msgstr "دیگر پرسیده نشود"
+
+#: src/konqsessiondialog.cpp:319
+#, kde-format
+msgctxt "@action:button yes"
+msgid "Restore Session"
+msgstr "بازیابی نشست"
+
+#: src/konqsessiondialog.cpp:320
+#, kde-format
+msgctxt "@action:button no"
+msgid "Do Not Restore"
+msgstr "بازیابی نشود"
+
+#: src/konqsessiondialog.cpp:321
+#, kde-format
+msgctxt "@action:button ask later"
+msgid "Ask Me Later"
+msgstr "بعداً بپرس"
+
+#: src/konqsessiondialog.cpp:359
+#, kde-format
+msgctxt "@tooltip:copy url to clipboard"
+msgid "Copy url to clipboard:  %1"
+msgstr "رونوشت از نشانی وب در بریده‌دان: %1"
+
+#: src/konqsessiondlg.cpp:70
+#, kde-format
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "مدیریت نشست‌ها"
+
+#: src/konqsessiondlg.cpp:178
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "تغییر نام نشست"
+
+#: src/konqsessiondlg.cpp:234
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "ذخیرهٔ نشست"
+
+#: src/konqsessiondlg.cpp:270
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr "نشستی با نام «%1» از قبل وجود دارد، می‌خواهید بازنویسی شود؟"
+
+#: src/konqsessiondlg.cpp:271
+#, kde-format
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr "نشست موجود است. بازنویسی شود؟"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pNewButton)
+#: src/konqsessiondlg_base.ui:26
+#, kde-format
+msgctxt "@action:button New session"
+msgid "New..."
+msgstr "جدید…"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pSaveCurrentButton)
+#: src/konqsessiondlg_base.ui:33
+#, kde-format
+msgctxt "@action:button Save current session"
+msgid "Save Current..."
+msgstr "ذخیرهٔ فعلی…"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pRenameButton)
+#: src/konqsessiondlg_base.ui:40
+#, kde-format
+msgctxt "@action:button Rename session"
+msgid "Rename..."
+msgstr "تغییر نام…"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pDeleteButton)
+#: src/konqsessiondlg_base.ui:47
+#, kde-format
+msgctxt "@action:button Delete session"
+msgid "Delete"
+msgstr "حذف"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. m_pOpenTabsInsideCurrentWindow)
+#: src/konqsessiondlg_base.ui:73
+#, kde-format
+msgid "Open tabs inside current window"
+msgstr "باز کردن برگه‌ها درون پنجرهٔ فعلی"
+
+#: src/konqstatusbarmessagelabel.cpp:95
+#, kde-format
+msgctxt "@info"
+msgid "Close"
+msgstr "بستن"
+
+#: src/konqstatusbarmessagelabel.cpp:96
+#, kde-format
+msgid "Close"
+msgstr "بستن"
+
+#: src/konqstatusbarmessagelabel.cpp:175
+#, kde-format
+msgid "Error: %1"
+msgstr "خطا: %1"
+
+#: src/konqtabs.cpp:45
+#, kde-format
+msgid "&Duplicate Tab"
+msgstr "تکثیر برگه"
+
+#: src/konqtabs.cpp:49
+#, kde-format
+msgid "&Reload Tab"
+msgstr "بارگذاری مجدد برگه"
+
+#: src/konqtabs.cpp:56
+#, kde-format
+msgid "All Tabs"
+msgstr "همهٔ برگه‌ها"
+
+#: src/konqtabs.cpp:59
+#, kde-format
+msgid "D&etach Tab"
+msgstr "جدا کردن برگه"
+
+#: src/konqtabs.cpp:64
+#, kde-format
+msgid "&Close Tab"
+msgstr "بستن برگه"
+
+#: src/konqtabs.cpp:140
+#, kde-format
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it"
+" active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the"
+" tab width."
+msgstr ""
+"این نوار شامل فهرست برگه‌های باز فعلی است. برای فعال کردن یک برگه، روی آن "
+"کلیک کنید. همچنین می‌توانید از میان‌برهای صفحه‌کلید برای پیمایش میان برگه‌ها"
+" استفاده کنید. متن روی برگه نشان‌دهندهٔ محتوای باز در آن است؛ در صورتی که "
+"عنوان برای جا شدن در پهنای برگه کوتاه شده باشد، می‌توانید نشانگر ماوس را روی"
+" برگه قرار دهید تا عنوان کامل را ببینید."
+
+#: src/konqtabs.cpp:174
+#, kde-format
+msgid "Open a new tab"
+msgstr "باز کردن یک برگهٔ جدید"
+
+#: src/konqtabs.cpp:183
+#, kde-format
+msgid "Close the current tab"
+msgstr "بستن برگهٔ فعلی"
+
+#. i18n: ectx: Menu (file)
+#: src/konqueror.rc:5
+#, kde-format
+msgid "&File"
+msgstr "پرونده"
+
+#. i18n: ectx: Menu (edit)
+#: src/konqueror.rc:27
+#, kde-format
+msgid "&Edit"
+msgstr "ویرایش"
+
+#. i18n: ectx: Menu (view)
+#: src/konqueror.rc:36
+#, kde-format
+msgid "&View"
+msgstr "نمایش"
+
+#. i18n: ectx: Menu (go)
+#: src/konqueror.rc:47
+#, kde-format
+msgid "&Go"
+msgstr "برو"
+
+#. i18n: ectx: Menu (tools)
+#: src/konqueror.rc:57
+#, kde-format
+msgid "&Tools"
+msgstr "ابزارها"
+
+#. i18n: ectx: Menu (settings)
+#: src/konqueror.rc:62
+#, kde-format
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: Menu (window)
+#: src/konqueror.rc:81
+#, kde-format
+msgid "&Window"
+msgstr "پنجره"
+
+#. i18n: ectx: Menu (help)
+#: src/konqueror.rc:99
+#, kde-format
+msgid "&Help"
+msgstr "راهنما"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/konqueror.rc:104
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#. i18n: ectx: ToolBar (extraToolBar)
+#: src/konqueror.rc:115
+#, kde-format
+msgid "Extra Toolbar"
+msgstr "نوار ابزار اضافی"
+
+#. i18n: ectx: ToolBar (locationToolBar)
+#: src/konqueror.rc:122
+#, kde-format
+msgid "Location Toolbar"
+msgstr "نوار ابزار مکان"
+
+#. i18n: ectx: ToolBar (bookmarkToolBar)
+#: src/konqueror.rc:128
+#, kde-format
+msgid "Bookmark Toolbar"
+msgstr "نوار ابزار نشانک‌ها"
+
+#: src/konqundomanager.cpp:91 src/konqundomanager.cpp:248
+#, kde-format
+msgid "Und&o: Closed Tab"
+msgstr "واگرد: برگهٔ بسته‌شده"
+
+#: src/konqundomanager.cpp:93 src/konqundomanager.cpp:104
+#: src/konqundomanager.cpp:148
+#, kde-format
+msgid "Und&o: Closed Window"
+msgstr "واگرد: پنجرهٔ بسته‌شده"
+
+#: src/konqundomanager.cpp:106
+#, kde-format
+msgid "Und&o"
+msgstr "واگرد"
+
+#: src/konqview.cpp:1322
+#, kde-format
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"صفحه‌ای که قصد مشاهدهٔ آن را دارید نتیجهٔ داده‌های فرم ارسال‌شده است. اگر "
+"داده‌ها را دوباره بفرستید، هر عملی که فرم انجام داده است (مانند جست‌وجو یا "
+"خرید برخط) تکرار خواهد شد. "
+
+#: src/konqview.cpp:1324
+#, kde-format
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "هشدار"
+
+#: src/konqview.cpp:1324
+#, kde-format
+msgid "Resend"
+msgstr "ارسال دوباره"
+
+#: src/urlloader.cpp:400
+#, kde-format
+msgctxt "Execute an executable file"
+msgid "Execute"
+msgstr "اجرا"
+
+#: src/urlloader.cpp:403
+#, kde-format
+msgctxt "Display an executable file inside Konqueror"
+msgid "Display"
+msgstr "نمایش"
+
+#: src/urlloader.cpp:410
+#, kde-kuit-format
+msgctxt ""
+"@info The user has to decide whether to execute an executable file or "
+"display it"
+msgid ""
+"<filename>%1</filename> can be executed. Do you want to execute it or to "
+"display it?"
+msgstr ""
+"پروندهٔ <filename>%1</filename> قابل اجرا است. می‌خواهید آن را اجرا کنید یا "
+"نمایش دهید؟"
+
+#: src/urlloader.cpp:416
+#, kde-kuit-format
+msgctxt ""
+"@info The user has to decide whether to execute an executable file or not"
+msgid "<filename>%1</filename> can be executed. Do you want to execute it?"
+msgstr ""
+"پروندهٔ <filename>%1</filename> قابل اجرا است. می‌خواهید آن را اجرا کنید؟"
+
+#: src/urlloader.cpp:768
+#, kde-format
+msgid "Save As"
+msgstr "ذخیره به نام"
+
+#: src/urlloader.cpp:825
+#, kde-format
+msgid ""
+"There appears to be a configuration error. You have associated Konqueror "
+"with %1, but it cannot handle this file type."
+msgstr ""
+"به نظر می‌رسد خطایی در پیکربندی وجود دارد. شما کنکرور را با %1 مرتبط "
+"کرده‌اید، اما نمی‌تواند این نوع پرونده را مدیریت کند."

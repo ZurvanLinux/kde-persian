@@ -1,0 +1,533 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the karchive6_qt package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: karchive6_qt\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-15 19:23+0330\n"
+"PO-Revision-Date: 2026-10-15 19:23+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: k7zip.cpp:2568
+msgctxt "K7Zip|"
+msgid "Could not get underlying device"
+msgstr "دستگاه زیربنایی دریافت نشد"
+
+#: k7zip.cpp:2576
+msgctxt "K7Zip|"
+msgid "Read header failed"
+msgstr "خواندن سرآیند ناموفق بود"
+
+#: k7zip.cpp:2582
+msgctxt "K7Zip|"
+msgid "Check signature failed"
+msgstr "بررسی امضا ناموفق بود"
+
+#: k7zip.cpp:2605
+msgctxt "K7Zip|"
+msgid "Bad CRC"
+msgstr "CRC نامعتبر"
+
+#: k7zip.cpp:2614
+msgctxt "K7Zip|"
+msgid "Next header size is too big"
+msgstr "اندازهٔ سرآیند بعدی خیلی بزرگ است"
+
+#: k7zip.cpp:2619
+msgctxt "K7Zip|"
+msgid "Next header size is less than zero"
+msgstr "اندازهٔ سرآیند بعدی کمتر از صفر است"
+
+#: k7zip.cpp:2630
+#, qt-format
+msgctxt "K7Zip|"
+msgid "Failed read next header size; should read %1, read %2"
+msgstr ""
+"خواندن اندازهٔ سرآیند بعدی ناموفق بود؛ باید %1 خوانده می‌شد، %2 خوانده شد"
+
+#: k7zip.cpp:2643
+msgctxt "K7Zip|"
+msgid "Bad next header CRC"
+msgstr "CRC سرآیند بعدی نامعتبر است"
+
+#: k7zip.cpp:2651
+msgctxt "K7Zip|"
+msgid "Error in header"
+msgstr "خطا در سرآیند"
+
+#: k7zip.cpp:2669 k7zip.cpp:2702
+msgctxt "K7Zip|"
+msgid "Password needed for this archive"
+msgstr "برای این بایگانی به گذرواژه نیاز است"
+
+#: k7zip.cpp:2675
+msgctxt "K7Zip|"
+msgid "Wrong header type"
+msgstr "نوع سرآیند نادرست است"
+
+#: k7zip.cpp:2685 k7zip.cpp:2691
+msgctxt "K7Zip|"
+msgid "Not implemented"
+msgstr "پیاده‌سازی نشده است"
+
+#: k7zip.cpp:2697
+msgctxt "K7Zip|"
+msgid "Error while reading main streams information"
+msgstr "خطا هنگام خواندن اطلاعات جریان‌های اصلی"
+
+#: k7zip.cpp:2720
+msgctxt "K7Zip|"
+msgid "Error while reading header"
+msgstr "خطا هنگام خواندن سرآیند"
+
+#: k7zip.cpp:2728 k7zip.cpp:2736
+#, qt-format
+msgctxt "K7Zip|"
+msgid "Archive has %1 files which is more than the supported amount (%2)"
+msgstr "آرشیو حاوی %1 پرونده است که بیشتر از مقدار پشتیبانی‌شده (%2) می‌باشد"
+
+#: k7zip.cpp:2794
+msgctxt "K7Zip|"
+msgid "Error reading modification time"
+msgstr "خطا در خواندن زمان تغییر"
+
+#: k7zip.cpp:2840
+msgctxt "K7Zip|"
+msgid "Error reading MTime"
+msgstr "خطا در خواندن MTime"
+
+#: k7zip.cpp:2847
+msgctxt "K7Zip|"
+msgid "Invalid"
+msgstr "نامعتبر"
+
+#: k7zip.cpp:2871
+#, qt-format
+msgctxt "K7Zip|"
+msgid "Read size failed (checkRecordsSize: %1, d->pos - ppp: %2, size: %3)"
+msgstr ""
+"خواندن اندازه ناموفق بود (checkRecordsSize: %1, d->pos - ppp: %2, size: %3)"
+
+#: k7zip.cpp:2917
+msgctxt "K7Zip|"
+msgid "contents"
+msgstr "محتویات"
+
+#: k7zip.cpp:3115
+msgctxt "K7Zip|"
+msgid "Write error"
+msgstr "خطای نوشتن"
+
+#: k7zip.cpp:3145
+msgctxt "K7Zip|"
+msgid "Failed while encoding header"
+msgstr "شکست هنگام کدگذاری سرایند"
+
+#: k7zip.cpp:3189
+msgctxt "K7Zip|"
+msgid "No file currently selected"
+msgstr "در حال حاضر هیچ پرونده‌ای انتخاب نشده است"
+
+#: k7zip.cpp:3213 k7zip.cpp:3265 k7zip.cpp:3305
+msgctxt "K7Zip|"
+msgid "Application error: 7-Zip file must be open before being written into"
+msgstr "خطای برنامه: پروندهٔ 7-Zip باید پیش از نوشته‌شدن باز باشد"
+
+#: k7zip.cpp:3219 k7zip.cpp:3311
+msgctxt "K7Zip|"
+msgid "Application error: attempted to write into non-writable 7-Zip file"
+msgstr "خطای برنامه: تلاش برای نوشتن در پروندهٔ 7-Zip غیرقابل نوشتن"
+
+#: kar.cpp:53 kar.cpp:60 kar.cpp:67 kar.cpp:74
+msgctxt "KAr|"
+msgid "Cannot write to AR file"
+msgstr "نمی‌توان در پروندهٔ AR نوشت"
+
+#: kar.cpp:87
+#, qt-format
+msgctxt "KAr|"
+msgid "Unsupported mode %1"
+msgstr "حالت پشتیبانی‌نشدهٔ %1"
+
+#: kar.cpp:98
+msgctxt "KAr|"
+msgid "Invalid main magic"
+msgstr "امضای جادویی اصلی نامعتبر است"
+
+#: kar.cpp:115
+msgctxt "KAr|"
+msgid "Invalid magic"
+msgstr "امضای جادویی نامعتبر است"
+
+#: kar.cpp:126
+msgctxt "KAr|"
+msgid "Invalid size"
+msgstr "اندازهٔ نامعتبر"
+
+#: kar.cpp:146
+msgctxt "KAr|"
+msgid "Invalid longfilename reference"
+msgstr "ارجاع نام پرونده طولانی نامعتبر است"
+
+#: kar.cpp:150
+msgctxt "KAr|"
+msgid "Invalid longfilename position reference"
+msgstr "ارجاع موقعیت نام پرونده طولانی نامعتبر است"
+
+#: karchive.cpp:178
+msgctxt "KArchive|"
+msgid "No filename or device was specified"
+msgstr "هیچ نام پرونده یا دستگاهی مشخص نشده است"
+
+#: karchive.cpp:183
+#, qt-format
+msgctxt "KArchive|"
+msgid "Could not open device in mode %1"
+msgstr "باز کردن دستگاه در حالت %1 امکان‌پذیر نبود"
+
+#: karchive.cpp:210
+#, qt-format
+msgctxt "KArchive|"
+msgid "QSaveFile creation for %1 failed: %2"
+msgstr "ایجاد QSaveFile برای %1 شکست خورد: %2"
+
+#: karchive.cpp:229
+#, qt-format
+msgctxt "KArchive|"
+msgid "Unsupported mode %1"
+msgstr "حالت پشتیبانی‌نشده %1"
+
+#: karchive.cpp:238
+msgctxt "KArchive|"
+msgid "Archive already closed"
+msgstr "بایگانی از قبل بسته شده است"
+
+#: karchive.cpp:286
+#, qt-format
+msgctxt "KArchive|"
+msgid "%1 doesn't exist or is not a regular file."
+msgstr "%1 وجود ندارد یا یک پرونده عادی نیست."
+
+#: karchive.cpp:292
+#, qt-format
+msgctxt "KArchive|"
+msgid ""
+"Failed accessing the file %1 for adding to the archive. The error was: %2"
+msgstr "دسترسی به پرونده %1 برای افزودن به بایگانی ناموفق بود. خطا: %2"
+
+#: karchive.cpp:338
+#, qt-format
+msgctxt "KArchive|"
+msgid "Couldn't open file %1: %2"
+msgstr "پرونده %1 باز نشد: %2"
+
+#: karchive.cpp:372
+#, qt-format
+msgctxt "KArchive|"
+msgid "Directory %1 does not exist"
+msgstr "پوشهٔ %1 وجود ندارد"
+
+#: karchive.cpp:446
+#, qt-format
+msgctxt "KArchive|"
+msgid "Writing failed: %1"
+msgstr "نوشتن ناموفق بود: %1"
+
+#: karchive_p.h:59
+msgctxt "QIODevice|"
+msgid "Unknown error"
+msgstr "خطای ناشناخته"
+
+#: kcompressiondevice.cpp:514
+msgctxt "KCompressionDevice|"
+msgid "Could not write. Partition full?"
+msgstr "نوشتن ممکن نبود. آیا دیسک پر است؟"
+
+#: krcc.cpp:83 krcc.cpp:90 krcc.cpp:97 krcc.cpp:104
+msgctxt "KRcc|"
+msgid "Cannot write to RCC file"
+msgstr "امکان نوشتن در پروندهٔ RCC وجود ندارد"
+
+#: krcc.cpp:117
+#, qt-format
+msgctxt "KRcc|"
+msgid "Unsupported mode %1"
+msgstr "حالت پشتیبانی‌نشدهٔ %1"
+
+#: krcc.cpp:124
+#, qt-format
+msgctxt "KRcc|"
+msgid "Failed to register resource %1 under prefix %2"
+msgstr "ثبت منبع %1 با پیشوند %2 ناموفق بود"
+
+#: ktar.cpp:349
+#, qt-format
+msgctxt "KTar|"
+msgid "File %1 does not exist"
+msgstr "پروندهٔ %1 وجود ندارد"
+
+#: ktar.cpp:356
+#, qt-format
+msgctxt "KTar|"
+msgid "Archive %1 is corrupt"
+msgstr "بایگانی %1 خراب است"
+
+#: ktar.cpp:360
+msgctxt "KTar|"
+msgid "Disk full"
+msgstr "دیسک پر است"
+
+#: ktar.cpp:394
+msgctxt "KTar|"
+msgid "Could not get underlying device"
+msgstr "دریافت دستگاه زیرین امکان‌پذیر نبود"
+
+#: ktar.cpp:409
+msgctxt "KTar|"
+msgid "Could not read tar header"
+msgstr "سرآیند tar خوانده نشد"
+
+#: ktar.cpp:592 ktar.cpp:607
+#, qt-format
+msgctxt "KTar|"
+msgid "Failed to write back temp file: %1"
+msgstr "بازنویسی پروندهٔ موقت ناموفق بود: %1"
+
+#: ktar.cpp:653
+#, qt-format
+msgctxt "KTar|"
+msgid "Couldn't write alignment: %1"
+msgstr "تراز کردن نوشته نشد: %1"
+
+#: ktar.cpp:755 ktar.cpp:765
+#, qt-format
+msgctxt "KTar|"
+msgid "Couldn't write long link: %1"
+msgstr "پیوند طولانی نوشته نشد: %1"
+
+#: ktar.cpp:786 ktar.cpp:869 ktar.cpp:938
+msgctxt "KTar|"
+msgid "Application error: TAR file must be open before being written into"
+msgstr "خطای برنامه: پروندهٔ TAR پیش از نوشته‌شدن باید باز شود"
+
+#: ktar.cpp:792
+msgctxt "KTar|"
+msgid "Application error: attempted to write into non-writable 7-Zip file"
+msgstr "خطای برنامه: تلاش برای نوشتن در پروندهٔ غیرقابل‌نوشتن 7-Zip"
+
+#: ktar.cpp:799
+#, qt-format
+msgctxt "KTar|"
+msgid "Application limitation: Can not add file larger than %1 bytes"
+msgstr "محدودیت برنامه: نمی‌توان پرونده‌ای بزرگ‌تر از %1 بایت افزود"
+
+#: ktar.cpp:853
+#, qt-format
+msgctxt "KTar|"
+msgid "Failed to write header: %1"
+msgstr "نوشتن سرآیند ناموفق بود: %1"
+
+#: ktar.cpp:875 ktar.cpp:944
+msgctxt "KTar|"
+msgid "Application error: attempted to write into non-writable TAR file"
+msgstr "خطای برنامه: تلاش برای نوشتن در پروندهٔ غیرقابل‌نوشتن TAR"
+
+#: kzip.cpp:497 kzip.cpp:522
+#, qt-format
+msgctxt "KZip|"
+msgid "Invalid ZIP file. Unexpected end of file. (Error code: %1)"
+msgstr "پروندهٔ ZIP نامعتبر است. پایان غیرمنتظرهٔ پرونده. (کد خطا: %1)"
+
+#: kzip.cpp:548
+msgctxt "KZip|"
+msgid "Invalid ZIP file. Negative name length"
+msgstr "پروندهٔ ZIP نامعتبر است. طول نام منفی است"
+
+#: kzip.cpp:553
+msgctxt "KZip|"
+msgid "Invalid ZIP file. Name not completely read (#2)"
+msgstr "پروندهٔ ZIP نامعتبر است. نام به‌طور کامل خوانده نشد (شماره ۲)"
+
+#: kzip.cpp:571
+msgctxt "KZip|"
+msgid "Invalid ZIP File. Broken ExtraField."
+msgstr "پروندهٔ ZIP نامعتبر است. ExtraField خراب است."
+
+#: kzip.cpp:592 kzip.cpp:615
+msgctxt "KZip|"
+msgid "Could not seek to next header token"
+msgstr "امکان رفتن به نشانهٔ سرآیند بعدی وجود ندارد"
+
+#: kzip.cpp:607
+msgctxt "KZip|"
+msgid "Invalid ZIP file. Unexpected end of file. (#5)"
+msgstr "پروندهٔ ZIP نامعتبر است. پایان غیرمنتظرهٔ پرونده. (شماره ۵)"
+
+#: kzip.cpp:622
+msgctxt "KZip|"
+msgid "Could not seek to file compressed size"
+msgstr "امکان رفتن به اندازهٔ فشرده‌شدهٔ پرونده وجود ندارد"
+
+#: kzip.cpp:638
+msgctxt "KZip|"
+msgid "Invalid ZIP file. Unexpected end of file. (#1)"
+msgstr "پروندهٔ ZIP نامعتبر است. پایان غیرمنتظرهٔ پرونده. (شماره ۱)"
+
+#: kzip.cpp:675
+msgctxt "KZip|"
+msgid ""
+"Invalid ZIP file, central entry too short (not long enough for valid entry)"
+msgstr ""
+"پروندهٔ ZIP نامعتبر است، مدخل مرکزی بیش از حد کوتاه است (برای یک مدخل معتبر "
+"به اندازهٔ کافی بلند نیست)"
+
+#: kzip.cpp:690
+msgctxt "KZip|"
+msgid "Invalid ZIP file, file path name length is zero"
+msgstr "پروندهٔ ZIP نامعتبر است، طول نام مسیر پرونده صفر است"
+
+#: kzip.cpp:696
+#, qt-format
+msgctxt "KZip|"
+msgid ""
+"Invalid ZIP file, unable to read %1 + %2 bytes for filename and extra data "
+"at offset %3"
+msgstr ""
+"پروندهٔ ZIP نامعتبر است، خواندن %1 + %2 بایت برای نام پرونده و داده‌های "
+"اضافی در آفست %3 امکان‌پذیر نیست"
+
+#: kzip.cpp:740
+#, qt-format
+msgctxt "KZip|"
+msgid ""
+"Invalid ZIP file, inconsistent Local Header Offset in Central Directory at "
+"%1"
+msgstr ""
+"پروندهٔ ZIP نامعتبر است، آفست سرایند محلی (Local Header Offset) در دایرکتوری"
+" مرکزی (Central Directory) در %1 ناسازگار است"
+
+#: kzip.cpp:775
+msgctxt "KZip|"
+msgid "Invalid ZIP file, found empty entry name"
+msgstr "پروندهٔ ZIP نامعتبر است، نام ورودی خالی یافت شد"
+
+#: kzip.cpp:817
+#, qt-format
+msgctxt "KZip|"
+msgid "File %1 is in folder %2, but %3 is actually a file."
+msgstr "پروندهٔ %1 در پوشهٔ %2 قرار دارد، اما %3 در واقع یک پرونده است."
+
+#: kzip.cpp:828
+msgctxt "KZip|"
+msgid "Could not seek to next entry"
+msgstr "پرش به ورودی بعدی امکان‌پذیر نبود"
+
+#: kzip.cpp:857
+msgctxt "KZip|"
+msgid "Not a ZIP file, no Local File Header found."
+msgstr ""
+"پروندهٔ ZIP نیست، هیچ سرایند پروندهٔ محلی (Local File Header) یافت نشد."
+
+#: kzip.cpp:861
+#, qt-format
+msgctxt "KZip|"
+msgid "Invalid ZIP file. Unrecognized header at offset %1"
+msgstr "پروندهٔ ZIP نامعتبر است. سرایند ناشناخته در آفست %1"
+
+#: kzip.cpp:888
+#, qt-format
+msgctxt "KZip|"
+msgid "Could not seek to next file header: %1"
+msgstr "پرش به سرایند پروندهٔ بعدی امکان‌پذیر نبود: %1"
+
+#: kzip.cpp:914 kzip.cpp:924 kzip.cpp:1088
+#, qt-format
+msgctxt "KZip|"
+msgid "Could not write file header: %1"
+msgstr "نوشتن سرایند پرونده امکان‌پذیر نبود: %1"
+
+#: kzip.cpp:936
+#, qt-format
+msgctxt "KZip|"
+msgid "Could not seek to Zip64 extra field: %1"
+msgstr "پرش به فیلد اضافی Zip64 امکان‌پذیر نبود: %1"
+
+#: kzip.cpp:944
+#, qt-format
+msgctxt "KZip|"
+msgid "Could not write Zip64 compressed size: %1"
+msgstr "نوشتن اندازهٔ فشردهٔ Zip64 امکان‌پذیر نبود: %1"
+
+#: kzip.cpp:1131
+#, qt-format
+msgctxt "KZip|"
+msgid "Could not write Zip64 EOCD record: %1"
+msgstr "نوشتن رکورد Zip64 EOCD امکان‌پذیر نبود: %1"
+
+#: kzip.cpp:1150
+#, qt-format
+msgctxt "KZip|"
+msgid "Could not write Zip64 EOCD locator: %1"
+msgstr "نوشتن مکان‌یاب Zip64 EOCD امکان‌پذیر نبود: %1"
+
+#: kzip.cpp:1212
+#, qt-format
+msgctxt "KZip|"
+msgid "Could not write central dir record: %1"
+msgstr "نوشتن رکورد دایرکتوری مرکزی امکان‌پذیر نبود: %1"
+
+#: kzip.cpp:1248
+msgctxt "KZip|"
+msgid "Application error: ZIP file must be open before being written into"
+msgstr "خطای برنامه: پروندهٔ ZIP باید قبل از نوشته‌شدن باز باشد"
+
+#: kzip.cpp:1254
+msgctxt "KZip|"
+msgid "Application error: attempted to write into non-writable ZIP file"
+msgstr "خطای برنامه: تلاش برای نوشتن در پروندهٔ ZIP غیرقابل نوشتن"
+
+#: kzip.cpp:1260
+msgctxt "KZip|"
+msgid "Cannot create a device. Disk full?"
+msgstr "امکان ایجاد دستگاه وجود ندارد. دیسک پر است؟"
+
+#: kzip.cpp:1266
+msgctxt "KZip|"
+msgid "Cannot seek in ZIP file. Disk full?"
+msgstr "امکان پرش (seek) در پروندهٔ ZIP وجود ندارد. دیسک پر است؟"
+
+#: kzip.cpp:1421
+msgctxt "KZip|"
+msgid "Could not write to the archive. Disk full?"
+msgstr "نوشتن در بایگانی امکان‌پذیر نبود. دیسک پر است؟"
+
+#: kzip.cpp:1440
+#, qt-format
+msgctxt "KZip|"
+msgid "Could not open compression device: %1"
+msgstr "باز کردن دستگاه فشرده‌سازی امکان‌پذیر نبود: %1"
+
+#: kzip.cpp:1523
+msgctxt "KZip|"
+msgid "No file or device"
+msgstr "پرونده یا دستگاهی وجود ندارد"
+
+#: kzip.cpp:1540
+#, qt-format
+msgctxt "KZip|"
+msgid "Error writing data chunk: %1"
+msgstr "خطا در نوشتن تکه داده: %1"
+
+#: kzip.cpp:1553
+#, qt-format
+msgctxt "KZip|"
+msgid "Error writing data: %1"
+msgstr "خطا در نوشتن داده: %1"

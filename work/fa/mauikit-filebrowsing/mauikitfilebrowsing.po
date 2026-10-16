@@ -1,0 +1,602 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the mauikitfilebrowsing package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: mauikitfilebrowsing\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-10-16 01:15+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/code/fmlist.cpp:52 src/code/fmlist.cpp:94 src/code/fmlist.cpp:161
+#, kde-format
+msgid "Nothing here!"
+msgstr "چیزی اینجا نیست!"
+
+#: src/code/fmlist.cpp:52 src/code/fmlist.cpp:94 src/code/fmlist.cpp:161
+#, kde-format
+msgid "This place seems to be empty"
+msgstr "به نظر می‌رسد این مکان خالی است"
+
+#: src/code/fmlist.cpp:83 src/code/fmlist.cpp:221 src/code/fmlist.cpp:755
+#: src/controls.6/FileDialog.qml:252
+#, kde-format
+msgid "Error"
+msgstr "خطا"
+
+#: src/code/fmlist.cpp:83 src/code/fmlist.cpp:221
+#, kde-format
+msgid "This URL cannot be listed"
+msgstr "نمی‌توان موارد این نشانی اینترنتی را فهرست کرد"
+
+#: src/code/fmlist.cpp:355
+#, kde-format
+msgid "Loading content"
+msgstr "بارگیری محتوا"
+
+#: src/code/fmlist.cpp:355
+#, kde-format
+msgid "Almost ready!"
+msgstr "تقریباً آماده است!"
+
+#: src/code/fmlist.cpp:755
+#, kde-format
+msgid "No path to perform the search"
+msgstr "مسیری برای انجام جستجو وجود ندارد"
+
+#: src/code/fmstatic.cpp:33
+#, kde-format
+msgid "Places"
+msgstr "مکان‌ها"
+
+#: src/code/fmstatic.cpp:34
+#, kde-format
+msgid "Bookmarks"
+msgstr "نشانک‌ها"
+
+#: src/code/fmstatic.cpp:35 src/code/fmstatic.cpp:45
+#, kde-format
+msgid "Drives"
+msgstr "درایوها"
+
+#: src/code/fmstatic.cpp:36
+#, kde-format
+msgid "Apps"
+msgstr "برنامه‌ها"
+
+#: src/code/fmstatic.cpp:37 src/code/fmstatic.cpp:44
+#, kde-format
+msgid "Remote"
+msgstr "از راه دور"
+
+#: src/code/fmstatic.cpp:38
+#, kde-format
+msgid "Removable"
+msgstr "جداشدنی"
+
+#: src/code/fmstatic.cpp:39
+#, kde-format
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: src/code/fmstatic.cpp:40 src/controls.6/FileBrowser.qml:482
+#, kde-format
+msgid "Trash"
+msgstr "سطل زباله"
+
+#: src/code/fmstatic.cpp:41 src/code/placeslist.cpp:119
+#, kde-format
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: src/code/fmstatic.cpp:42
+#, kde-format
+msgid "Search"
+msgstr "جستجو"
+
+#: src/code/fmstatic.cpp:43
+#, kde-format
+msgid "Cloud"
+msgstr "ابری"
+
+#: src/code/fmstatic.cpp:46
+#, kde-format
+msgid "Others"
+msgstr "غیره"
+
+#: src/code/fmstatic.cpp:47
+#, kde-format
+msgid "Quick"
+msgstr "سریع"
+
+#: src/code/placeslist.cpp:113
+#, kde-format
+msgid "Favorite"
+msgstr "نشان کردن"
+
+#: src/code/syncing.cpp:207
+#, kde-format
+msgid ""
+"The remote server requires authentication to serve the content but the "
+"credentials provided were not accepted (if any)"
+msgstr ""
+"سرور دوردست برای ارائه محتوا به احراز هویت نیاز دارد، اما اعتبارنامه‌های "
+"ارائه‌شده (در صورت وجود) پذیرفته نشدند"
+
+#: src/code/syncing.cpp:211
+#, kde-format
+msgid ""
+"the remote server refused the connection (the server is not accepting "
+"requests"
+msgstr "سرور دوردست اتصال را رد کرد (سرور درخواست‌ها را نمی‌پذیرد)"
+
+#: src/code/syncing.cpp:215
+#, kde-format
+msgid ""
+"the remote server closed the connection prematurely, before the entire reply"
+" was received and processed"
+msgstr ""
+"سرور دوردست اتصال را پیش از موعد و قبل از دریافت و پردازش کامل پاسخ بست"
+
+#: src/code/syncing.cpp:219
+#, kde-format
+msgid "the remote host name was not found (invalid hostname)"
+msgstr "نام میزبان دوردست پیدا نشد (نام میزبان نامعتبر است)"
+
+#: src/code/syncing.cpp:223
+#, kde-format
+msgid "the connection to the remote server timed out"
+msgstr "مهلت اتصال به سرور دوردست به پایان رسید"
+
+#: src/code/syncing.cpp:227
+#, kde-format
+msgid ""
+"the operation was canceled via calls to abort() or close() before it was "
+"finished."
+msgstr "عملیات قبل از پایان از طریق فراخوانی ()abort یا ()close لغو شد."
+
+#: src/code/syncing.cpp:231
+#, kde-format
+msgid ""
+"the SSL/TLS handshake failed and the encrypted channel could not be "
+"established. The sslErrors() signal should have been emitted."
+msgstr ""
+"دست‌تکانی SSL/TLS ناموفق بود و کانال رمزگذاری‌شده برقرار نشد. سیگنال "
+"()sslErrors باید ارسال شده باشد."
+
+#: src/code/syncing.cpp:236
+#, kde-format
+msgid ""
+"the connection was broken due to disconnection from the network, however the"
+" system has initiated roaming to another access point. The request should be"
+" resubmitted and will be processed as soon as the connection is re-"
+"established."
+msgstr ""
+"اتصال به دلیل قطع ارتباط از شبکه قطع شد، با این حال سیستم رومینگ به نقطه "
+"دسترسی دیگری را آغاز کرده است. درخواست باید مجدداً ارسال شود و به محض "
+"برقراری مجدد اتصال پردازش خواهد شد."
+
+#: src/code/syncing.cpp:240
+#, kde-format
+msgid ""
+"the connection was broken due to disconnection from the network or failure "
+"to start the network."
+msgstr ""
+"اتصال به دلیل قطع ارتباط از شبکه یا عدم موفقیت در راه‌اندازی شبکه قطع شد."
+
+#: src/code/syncing.cpp:244
+#, kde-format
+msgid ""
+"the background request is not currently allowed due to platform policy."
+msgstr "درخواست پس‌زمینه در حال حاضر به‌دلیل خط‌مشی بستر مجاز نیست."
+
+#: src/code/syncing.cpp:248
+#, kde-format
+msgid ""
+"while following redirects, the maximum limit was reached. The limit is by "
+"default set to 50 or as set by QNetworkRequest::setMaxRedirectsAllowed(). "
+"(This value was introduced in 5.6.)"
+msgstr ""
+"هنگام دنبال کردن تغییرمسیرها، حد مجاز پر شد. این حد به‌طور پیش‌فرض روی ۵۰ "
+"تنظیم شده یا توسط QNetworkRequest::setMaxRedirectsAllowed()‎ مشخص می‌شود. "
+"(این مقدار در ۵٫۶ معرفی شد.)"
+
+#: src/code/syncing.cpp:252
+#, kde-format
+msgid ""
+"while following redirects, the network access API detected a redirect from a"
+" encrypted protocol (https) to an unencrypted one (http)."
+msgstr ""
+"هنگام دنبال کردن تغییرمسیرها، API دسترسی به شبکه یک تغییرمسیر از پروتکل "
+"رمزگذاری‌شده (https) به رمزگذاری‌نشده (http) را شناسایی کرد."
+
+#: src/code/syncing.cpp:256
+#, kde-format
+msgid ""
+"the connection to the proxy server was refused (the proxy server is not "
+"accepting requests)"
+msgstr "اتصال به کارساز پروکسی رد شد (کارساز پروکسی درخواستی نمی‌پذیرد)"
+
+#: src/code/syncing.cpp:260
+#, kde-format
+msgid ""
+"the proxy server closed the connection prematurely, before the entire reply "
+"was received and processed"
+msgstr ""
+"کارساز پروکسی اتصال را پیش از موعد و قبل از دریافت و پردازش کامل پاسخ بست"
+
+#: src/code/syncing.cpp:264
+#, kde-format
+msgid "the proxy host name was not found (invalid proxy hostname)"
+msgstr "نام میزبان پروکسی پیدا نشد (نام میزبان پروکسی نامعتبر است)"
+
+#: src/code/syncing.cpp:268
+#, kde-format
+msgid ""
+"the connection to the proxy timed out or the proxy did not reply in time to "
+"the request sent"
+msgstr ""
+"زمان اتصال به پروکسی پایان یافت یا پروکسی در زمان مناسب به درخواست ارسال‌شده"
+" پاسخ نداد"
+
+#: src/code/syncing.cpp:272
+#, kde-format
+msgid ""
+"the proxy requires authentication in order to honour the request but did not"
+" accept any credentials offered (if any)"
+msgstr ""
+"پروکسی برای پذیرش درخواست به احراز هویت نیاز دارد، اما اعتبارنامه‌های "
+"ارائه‌شده (در صورت وجود) را نپذیرفت"
+
+#: src/code/syncing.cpp:276
+#, kde-format
+msgid ""
+"the access to the remote content was denied (similar to HTTP error 403)"
+msgstr "دسترسی به محتوای دوردست رد شد (مشابه خطای HTTP 403)"
+
+#: src/code/syncing.cpp:280
+#, kde-format
+msgid "the operation requested on the remote content is not permitted"
+msgstr "عملیات درخواست‌شده روی محتوای دوردست مجاز نیست"
+
+#: src/code/syncing.cpp:284
+#, kde-format
+msgid ""
+"the remote content was not found at the server (similar to HTTP error 404)"
+msgstr "محتوای دوردست در سرور یافت نشد (مشابه خطای HTTP 404)"
+
+#: src/code/syncing.cpp:288
+#, kde-format
+msgid ""
+"the request needed to be sent again, but this failed for example because the"
+" upload data could not be read a second time."
+msgstr ""
+"درخواست باید دوباره ارسال می‌شد، اما این کار ناموفق بود؛ برای مثال به این "
+"دلیل که داده‌های بارگذاری برای بار دوم قابل خواندن نبودند."
+
+#: src/code/syncing.cpp:292
+#, kde-format
+msgid "the server is unable to handle the request at this time."
+msgstr "سرور در حال حاضر قادر به رسیدگی به این درخواست نیست."
+
+#: src/code/syncing.cpp:296
+#, kde-format
+msgid ""
+"There was an unknown error with the remote server or your internet "
+"connection."
+msgstr ""
+"خطای ناشناخته‌ای در ارتباط با سرور دوردست یا اتصال اینترنت شما رخ داد."
+
+#: src/controls.6/FileBrowser.qml:345
+#, kde-format
+msgid "Back"
+msgstr "بازگشت"
+
+#: src/controls.6/FileBrowser.qml:358
+#, kde-format
+msgid "Filter"
+msgstr "فیلتر"
+
+#: src/controls.6/FileBrowser.qml:427
+#, kde-format
+msgid "Empty Trash"
+msgstr "خالی کردن سطل زباله"
+
+#: src/controls.6/FileBrowser.qml:438
+#, kde-format
+msgid "Quit"
+msgstr "خروج"
+
+#: src/controls.6/FileBrowser.qml:439
+#, kde-format
+msgid "Are you sure you want to quit the current search in progress?"
+msgstr "آیا مطمئن هستید که می‌خواهید از جستجوی جاری در حال انجام خارج شوید؟"
+
+#: src/controls.6/FileBrowser.qml:460
+#, kde-format
+msgid "Removing %1 files"
+msgstr "در حال حذف %1 پرونده"
+
+#: src/controls.6/FileBrowser.qml:461
+#, kde-format
+msgid ""
+"Delete %1  \n"
+"Total freed space %2"
+msgstr ""
+"حذف %1  \n"
+"مجموع فضای آزادشده %2"
+
+#: src/controls.6/FileBrowser.qml:466 src/controls.6/FileBrowser.qml:891
+#: src/controls.6/FileDialog.qml:205 src/controls.6/OpenWithDialog.qml:79
+#: src/controls.6/private/BrowserView.qml:369
+#: src/controls.6/TagsDialog.qml:102
+#, kde-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/controls.6/FileBrowser.qml:472 src/controls.6/TagsDialog.qml:165
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#. i18nd("mauikitfilebrowsing", "New folder") : i18nd("mauikitfilebrowsing",
+#. "New file")
+#: src/controls.6/FileBrowser.qml:515
+#, kde-format
+msgid "Create a new folder or a file with a custom name."
+msgstr "ایجاد یک پوشه یا پرونده جدید با نام سفارشی."
+
+#: src/controls.6/FileBrowser.qml:534 src/controls.6/FileDialog.qml:447
+#, kde-format
+msgid "Name"
+msgstr "نام"
+
+#: src/controls.6/FileBrowser.qml:547
+#, kde-format
+msgid "Folder"
+msgstr "پوشه"
+
+#: src/controls.6/FileBrowser.qml:555
+#, kde-format
+msgid "File"
+msgstr "پرونده"
+
+#. i18nd("mauikitfilebrowsing", "Rename")
+#: src/controls.6/FileBrowser.qml:573
+#, kde-format
+msgid "Enter the new name for the file."
+msgstr "نام جدید پرونده را وارد کنید."
+
+#: src/controls.6/FileBrowser.qml:579
+#, kde-format
+msgid "New name"
+msgstr "نام جدید"
+
+#: src/controls.6/FileBrowser.qml:839
+#: src/controls.6/private/BrowserView.qml:331
+#, kde-format
+msgid "Copy Here"
+msgstr "رونوشت در اینجا"
+
+#: src/controls.6/FileBrowser.qml:852
+#: src/controls.6/private/BrowserView.qml:343
+#, kde-format
+msgid "Move Here"
+msgstr "انتقال به اینجا"
+
+#: src/controls.6/FileBrowser.qml:865
+#: src/controls.6/private/BrowserView.qml:355
+#, kde-format
+msgid "Link Here"
+msgstr "پیوند در اینجا"
+
+#: src/controls.6/FileBrowser.qml:878
+#, kde-format
+msgid "Open Here"
+msgstr "باز کردن در اینجا"
+
+#: src/controls.6/FileBrowser.qml:1288
+#, kde-format
+msgid "Search: %1"
+msgstr "جست‌وجو: %1"
+
+#: src/controls.6/FileDialog.qml:211 src/controls.6/TagsDialog.qml:96
+#, kde-format
+msgid "Save"
+msgstr "ذخیره"
+
+#: src/controls.6/FileDialog.qml:211
+#, kde-format
+msgid "Open"
+msgstr "باز کردن"
+
+#: src/controls.6/FileDialog.qml:242
+#, kde-format
+msgid "File name..."
+msgstr "نام پرونده..."
+
+#: src/controls.6/FileDialog.qml:253
+#, kde-format
+msgid ""
+"A file named '%1' already exists!\n"
+" This action will overwrite '%1'. Are you sure you want to do this?"
+msgstr ""
+"پرونده‌ای با نام «%1» از قبل وجود دارد!\n"
+"این اقدام «%1» را بازنویسی خواهد کرد. آیا از انجام این کار مطمئنید؟"
+
+#: src/controls.6/FileDialog.qml:312
+#, kde-format
+msgid "Toogle SideBar"
+msgstr "تغییر وضعیت نوار کناری"
+
+#: src/controls.6/FileDialog.qml:354
+#, kde-format
+msgid "View type"
+msgstr "نوع نما"
+
+#: src/controls.6/FileDialog.qml:359
+#, kde-format
+msgid "List"
+msgstr "فهرست"
+
+#: src/controls.6/FileDialog.qml:374
+#, kde-format
+msgid "Grid"
+msgstr "شبکه‌ای"
+
+#: src/controls.6/FileDialog.qml:394
+#, kde-format
+msgid "Sort by"
+msgstr "مرتب‌سازی بر اساس"
+
+#: src/controls.6/FileDialog.qml:399
+#, kde-format
+msgid "Type"
+msgstr "نوع"
+
+#: src/controls.6/FileDialog.qml:411
+#, kde-format
+msgid "Date"
+msgstr "تاریخ"
+
+#: src/controls.6/FileDialog.qml:423
+#, kde-format
+msgid "Modified"
+msgstr "تغییریافته"
+
+#: src/controls.6/FileDialog.qml:435
+#, kde-format
+msgid "Size"
+msgstr "اندازه"
+
+#: src/controls.6/FileDialog.qml:461
+#, kde-format
+msgid "Show Folders First"
+msgstr "نمایش اول پوشه‌ها"
+
+#: src/controls.6/FileDialog.qml:474
+#, kde-format
+msgid "Group"
+msgstr "گروه‌بندی"
+
+#: src/controls.6/NewTagDialog.qml:56 src/controls.6/NewTagDialog.qml:59
+#, kde-format
+msgid "New tags"
+msgstr "برچسب‌های جدید"
+
+#: src/controls.6/NewTagDialog.qml:57
+#, kde-format
+msgid ""
+"Create new tags to organize your files. You can create multiple tags "
+"separated by a comma."
+msgstr ""
+"برای سازمان‌دهی پرونده‌هایتان، برچسب‌های جدید ایجاد کنید. می‌توانید چندین "
+"برچسب را با ویرگول از هم جدا کنید."
+
+#: src/controls.6/OpenWithDialog.qml:74
+#, kde-format
+msgid "Open with"
+msgstr "باز کردن با"
+
+#: src/controls.6/OpenWithDialog.qml:108 src/controls.6/TagsDialog.qml:216
+#, kde-format
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "۱ مورد"
+msgstr[1] "%1 مورد"
+
+#: src/controls.6/PlacesListBrowser.qml:117 src/controls.6/TagsDialog.qml:159
+#, kde-format
+msgid "Edit"
+msgstr "ویرایش"
+
+#: src/controls.6/PlacesListBrowser.qml:122
+#, kde-format
+msgid "Hide"
+msgstr "پنهان کردن"
+
+#: src/controls.6/PlacesListBrowser.qml:127
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#: src/controls.6/private/BrowserView.qml:296
+#, kde-format
+msgid "Directory already exists."
+msgstr "پوشه از قبل وجود دارد."
+
+#: src/controls.6/private/BrowserView.qml:299
+#, kde-format
+msgid "Looks good."
+msgstr "خوب به نظر می‌رسد."
+
+#: src/controls.6/private/BrowserView.qml:303
+#, kde-format
+msgid "Merge %1 files"
+msgstr "ادغام %1 پرونده"
+
+#: src/controls.6/private/BrowserView.qml:304
+#, kde-format
+msgid "Give a name to the new directory where all files will be merge."
+msgstr ""
+"نامی برای پوشهٔ جدید که همهٔ پرونده‌ها در آن ادغام خواهند شد، وارد کنید."
+
+#: src/controls.6/private/BrowserView.qml:306
+#, kde-format
+msgid "Directory name"
+msgstr "نام شاخه"
+
+#: src/controls.6/private/BrowserView.qml:316
+#, kde-format
+msgid "Merge Here"
+msgstr "ادغام در اینجا"
+
+#: src/controls.6/private/BrowserView.qml:395
+#: src/controls.6/private/BrowserView.qml:565
+#, kde-format
+msgid " items"
+msgstr " مورد"
+
+#: src/controls.6/private/TagList.qml:32
+#, kde-format
+msgid "Add tags..."
+msgstr "افزودن برچسب‌ها..."
+
+#: src/controls.6/TagsDialog.qml:114
+#, kde-format
+msgid "Filter or add a new tag"
+msgstr "فیلتر یا افزودن برچسب جدید"
+
+#: src/controls.6/TagsDialog.qml:141
+#, kde-format
+msgid "Delete %1"
+msgstr "حذف %1"
+
+#: src/controls.6/TagsDialog.qml:142
+#, kde-format
+msgid ""
+"Are you sure you want to delete this tag? This action can not be undone."
+msgstr "آیا از حذف این برچسب اطمینان دارید؟ این عمل قابل بازگشت نیست."
+
+#: src/controls.6/TagsDialog.qml:188
+#, kde-format
+msgid "No Tags!"
+msgstr "بدون برچسب!"
+
+#: src/controls.6/TagsDialog.qml:189
+#, kde-format
+msgid "Create new tags to organize your files."
+msgstr "برای سازمان‌دهی پرونده‌های خود برچسب‌های جدید بسازید."
+
+#: src/controls.6/TagsDialog.qml:291
+#, kde-format
+msgid "No tags yet."
+msgstr "هنوز برچسبی وجود ندارد."

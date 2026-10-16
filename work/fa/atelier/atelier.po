@@ -1,0 +1,609 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the atelier package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: atelier\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-29 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 13:45+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/dialogs/choosefiledialog.cpp:45
+#, kde-format
+msgid "Choose a file to print:"
+msgstr "پرونده‌ای را برای چاپ انتخاب کنید:"
+
+#: src/dialogs/profilesdialog.cpp:30
+#, kde-format
+msgid "Profiles"
+msgstr "نمایه‌ها"
+
+#: src/main.cpp:42
+#, kde-format
+msgid "Atelier"
+msgstr "آتلیه"
+
+#: src/main.cpp:46
+#, kde-format
+msgid "Printer Host for 3DPrinters"
+msgstr "میزبان چاپگر برای چاپگرهای سه‌بعدی"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "© 2016"
+msgstr "© 2016"
+
+#: src/main.cpp:58
+#, kde-format
+msgid "Lays Rodrigues"
+msgstr "Lays Rodrigues"
+
+#: src/main.cpp:59 src/main.cpp:62 src/main.cpp:63
+#, kde-format
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: src/main.cpp:62
+#, kde-format
+msgid "Chris Rizzitello"
+msgstr "Chris Rizzitello"
+
+#: src/main.cpp:63
+#, kde-format
+msgid "Patrick Pereira"
+msgstr "Patrick Pereira"
+
+#: src/main.cpp:64
+#, kde-format
+msgid "Tomaz Canabrava"
+msgstr "Tomaz Canabrava"
+
+#: src/main.cpp:64
+#, kde-format
+msgid "Contributor"
+msgstr "مشارکت‌کننده"
+
+#: src/main.cpp:65
+#, kde-format
+msgid "Using AtCore: %1"
+msgstr "استفاده از AtCore: %1"
+
+#: src/mainwindow.cpp:127
+#, kde-format
+msgid "Create new instance"
+msgstr "ایجاد نمونه جدید"
+
+#: src/mainwindow.cpp:144
+#, kde-format
+msgid "Connect a printer"
+msgstr "اتصال یک چاپگر"
+
+#: src/mainwindow.cpp:158 src/widgets/atcoreinstancewidget.cpp:227
+#: src/widgets/atcoreinstancewidget.cpp:465
+#, kde-format
+msgid "Error"
+msgstr "خطا"
+
+#: src/mainwindow.cpp:158
+#, kde-format
+msgid ""
+"There's no GCode file open.\n"
+"Please select a file and try again."
+msgstr ""
+"هیچ پروندهٔ GCodeی باز نیست.\n"
+"لطفاً یک پرونده را انتخاب کرده و دوباره تلاش کنید."
+
+#: src/mainwindow.cpp:174
+#, kde-format
+msgid "Document Modified"
+msgstr "سند تغییر یافته است"
+
+#: src/mainwindow.cpp:175
+#, kde-format
+msgid ""
+"%1 \n"
+"Contains unsaved changes that will not be in the print.\n"
+"Would you like to save them before printing?"
+msgstr ""
+"%1 \n"
+"شامل تغییرات ذخیره‌نشده‌ای است که در چاپ اعمال نخواهند شد.\n"
+"آیا می‌خواهید پیش از چاپ آن‌ها را ذخیره کنید؟"
+
+#: src/mainwindow.cpp:267
+#, kde-format
+msgid "Welcome"
+msgstr "خوش آمدید"
+
+#: src/mainwindow.cpp:268
+#, kde-format
+msgid "3D"
+msgstr "سه‌بعدی"
+
+#: src/mainwindow.cpp:269
+#, kde-format
+msgid "GCode"
+msgstr "GCode"
+
+#: src/mainwindow.cpp:270
+#, kde-format
+msgid "Video"
+msgstr "ویدیو"
+
+#: src/mainwindow.cpp:282
+#, kde-format
+msgid "&Open"
+msgstr "باز کردن"
+
+#: src/mainwindow.cpp:289
+#, kde-format
+msgid "&New Connection"
+msgstr "اتصال جدید"
+
+#: src/mainwindow.cpp:296
+#, kde-format
+msgid "&Profiles"
+msgstr "پروفایل‌ها"
+
+#: src/mainwindow.cpp:306
+#, kde-format
+msgid "&Quit"
+msgstr "خروج"
+
+#: src/mainwindow.cpp:316
+#, kde-format
+msgid "Open GCode"
+msgstr "باز کردن GCode"
+
+#: src/mainwindow.cpp:316
+#, kde-format
+msgid "GCode(*.gco *.gcode);;All Files(*.*)"
+msgstr "GCode(*.gco *.gcode);;همهٔ فایل‌ها(*.*)"
+
+#: src/mainwindow.cpp:354 src/widgets/atcoreinstancewidget.cpp:450
+#, kde-format
+msgid "Printing"
+msgstr "در حال چاپ"
+
+#: src/mainwindow.cpp:354
+#, kde-format
+msgid ""
+"Currently printing! \n"
+"Are you sure you want to close?"
+msgstr ""
+"در حال چاپ! \n"
+"آیا مطمئن هستید که می‌خواهید ببندید؟"
+
+#: src/mainwindow.cpp:405
+#, kde-format
+msgid "Save Selected"
+msgstr "ذخیره موارد انتخابی"
+
+#: src/mainwindow.cpp:415 src/mainwindow.cpp:433
+#, kde-format
+msgid "Save Failed"
+msgstr "ذخیره‌سازی ناموفق بود"
+
+#: src/mainwindow.cpp:415 src/mainwindow.cpp:433
+#, kde-format
+msgid "Failed to save file: %1"
+msgstr "ذخیره پرونده ناموفق بود: %1"
+
+#: src/mainwindow.cpp:428
+#, kde-format
+msgid "Save All"
+msgstr "ذخیره همه"
+
+#: src/mainwindow.cpp:443
+#, kde-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/mainwindow.cpp:451
+#, kde-format
+msgid "Discard Changes"
+msgstr "نادیده گرفتن تغییرات"
+
+#: src/mainwindow.cpp:459
+#, kde-format
+msgid "Files with Unsaved Changes."
+msgstr "پرونده‌های دارای تغییرات ذخیره‌نشده."
+
+#: src/widgets/atcoreinstancewidget.cpp:93
+#, kde-format
+msgid "Controls"
+msgstr "کنترل‌ها"
+
+#: src/widgets/atcoreinstancewidget.cpp:94
+#, kde-format
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: src/widgets/atcoreinstancewidget.cpp:95
+#, kde-format
+msgid "Sd Card"
+msgstr "کارت SD"
+
+#: src/widgets/atcoreinstancewidget.cpp:122
+#, kde-format
+msgid "Home:"
+msgstr "مبدأ:"
+
+#: src/widgets/atcoreinstancewidget.cpp:125
+#, kde-format
+msgid "All"
+msgstr "همه"
+
+#: src/widgets/atcoreinstancewidget.cpp:141
+#: src/widgets/atcoreinstancewidget.cpp:160
+#: src/widgets/atcoreinstancewidget.cpp:445
+#, kde-format
+msgid "Print"
+msgstr "چاپ"
+
+#: src/widgets/atcoreinstancewidget.cpp:144
+#, kde-format
+msgid "Pause Print"
+msgstr "توقف موقت چاپ"
+
+#: src/widgets/atcoreinstancewidget.cpp:151
+#, kde-format
+msgid "Resume Print"
+msgstr "ادامه چاپ"
+
+#: src/widgets/atcoreinstancewidget.cpp:157
+#, kde-format
+msgid "Stop"
+msgstr "توقف"
+
+#: src/widgets/atcoreinstancewidget.cpp:165
+#, kde-format
+msgid "Disable Motors"
+msgstr "غیرفعال کردن موتورها"
+
+#: src/widgets/atcoreinstancewidget.cpp:177
+#, kde-format
+msgid "Device"
+msgstr "دستگاه"
+
+#: src/widgets/atcoreinstancewidget.cpp:185
+#, kde-format
+msgid "Profile"
+msgstr "نمایه"
+
+#: src/widgets/atcoreinstancewidget.cpp:197
+#: src/widgets/atcoreinstancewidget.cpp:428
+#, kde-format
+msgid "Connect"
+msgstr "اتصال"
+
+#: src/widgets/atcoreinstancewidget.cpp:209
+#, kde-format
+msgid "Connection Error"
+msgstr "خطای اتصال"
+
+#: src/widgets/atcoreinstancewidget.cpp:210
+#, kde-format
+msgid ""
+"Your machine did not respond after 20 seconds.\n"
+"\n"
+"Before connecting again check that your printer is on and your are connecting using the correct BAUD Rate for your device."
+msgstr ""
+"دستگاه شما پس از ۲۰ ثانیه پاسخ نداد.\n"
+"\n"
+"پیش از اتصال مجدد، بررسی کنید که چاپگر روشن باشد و با نرخ باود (BAUD Rate) صحیح برای دستگاه خود متصل شده باشید."
+
+#: src/widgets/atcoreinstancewidget.cpp:220
+#, kde-format
+msgid "No Profiles!"
+msgstr "نمایه‌ای وجود ندارد!"
+
+#: src/widgets/atcoreinstancewidget.cpp:221
+#, kde-format
+msgid ""
+"Connecting requires creating a profile for your printer. Create a profile in"
+" the next dialog then try again."
+msgstr ""
+"اتصال نیازمند ایجاد یک نمایه برای چاپگر شما است. در پنجره بعدی یک نمایه "
+"ایجاد کرده و سپس دوباره تلاش کنید."
+
+#: src/widgets/atcoreinstancewidget.cpp:227
+#, kde-format
+msgid "Please, connect a serial device to continue!"
+msgstr "لطفاً برای ادامه، یک دستگاه سریال متصل کنید!"
+
+#: src/widgets/atcoreinstancewidget.cpp:263
+#, kde-format
+msgid "Connect a Printer"
+msgstr "اتصال یک چاپگر"
+
+#: src/widgets/atcoreinstancewidget.cpp:290
+#, kde-format
+msgid "Push: %1"
+msgstr "فشار دادن: %1"
+
+#: src/widgets/atcoreinstancewidget.cpp:295
+#, kde-format
+msgid "Display: %1"
+msgstr "نمایش: %1"
+
+#: src/widgets/atcoreinstancewidget.cpp:315
+#, kde-format
+msgid "Relative Move: %1, %2"
+msgstr "حرکت نسبی: %1، %2"
+
+#: src/widgets/atcoreinstancewidget.cpp:328
+#, kde-format
+msgid "Print Error"
+msgstr "خطای چاپ"
+
+#: src/widgets/atcoreinstancewidget.cpp:328
+#: src/widgets/atcoreinstancewidget.cpp:337
+#, kde-format
+msgid "You must select a file from the list"
+msgstr "باید پرونده‌ای را از فهرست انتخاب کنید"
+
+#: src/widgets/atcoreinstancewidget.cpp:337
+#, kde-format
+msgid "Delete Error"
+msgstr "خطای حذف"
+
+#: src/widgets/atcoreinstancewidget.cpp:347
+#, kde-format
+msgid "Filename Empty"
+msgstr "نام پرونده خالی است"
+
+#: src/widgets/atcoreinstancewidget.cpp:347
+#, kde-format
+msgid "No filename sent from calling method, please check and try again."
+msgstr ""
+"هیچ نام پرونده‌ای از متد فراخوان ارسال نشده است، لطفاً بررسی و دوباره تلاش "
+"کنید."
+
+#: src/widgets/atcoreinstancewidget.cpp:351
+#, kde-format
+msgid "File not found"
+msgstr "پرونده پیدا نشد"
+
+#: src/widgets/atcoreinstancewidget.cpp:351
+#, kde-format
+msgid ""
+"%1 \n"
+"Is not readable, please check and try again."
+msgstr ""
+"%1 \n"
+"قابل خواندن نیست، لطفاً بررسی و دوباره تلاش کنید."
+
+#: src/widgets/atcoreinstancewidget.cpp:355
+#, kde-format
+msgid "Printing: %1"
+msgstr "در حال چاپ: %1"
+
+#: src/widgets/atcoreinstancewidget.cpp:391
+#, kde-format
+msgid "Disconnect"
+msgstr "قطع اتصال"
+
+#: src/widgets/atcoreinstancewidget.cpp:395
+#, kde-format
+msgid "Connecting…"
+msgstr "در حال اتصال…"
+
+#: src/widgets/atcoreinstancewidget.cpp:396
+#, kde-format
+msgid "Attempting to Connect"
+msgstr "در حال تلاش برای اتصال"
+
+#: src/widgets/atcoreinstancewidget.cpp:405
+#, kde-format
+msgid "Connected to %1"
+msgstr "متصل به %1"
+
+#: src/widgets/atcoreinstancewidget.cpp:423
+#, kde-format
+msgid "Not Connected"
+msgstr "متصل نیست"
+
+#: src/widgets/atcoreinstancewidget.cpp:426
+#, kde-format
+msgid "Serial disconnected"
+msgstr "ارتباط سریال قطع شد"
+
+#: src/widgets/atcoreinstancewidget.cpp:437
+#, kde-format
+msgid "Starting Print"
+msgstr "شروع چاپ"
+
+#: src/widgets/atcoreinstancewidget.cpp:442
+#, kde-format
+msgid "Finished Print"
+msgstr "پایان چاپ"
+
+#: src/widgets/atcoreinstancewidget.cpp:447
+#, kde-format
+msgid "Finished Print Job"
+msgstr "عملیات چاپ پایان یافت"
+
+#: src/widgets/atcoreinstancewidget.cpp:452
+#, kde-format
+msgid "Pause"
+msgstr "مکث"
+
+#: src/widgets/atcoreinstancewidget.cpp:456
+#, kde-format
+msgid "Paused"
+msgstr "متوقف شد"
+
+#: src/widgets/atcoreinstancewidget.cpp:457
+#, kde-format
+msgid "Resume"
+msgstr "ادامه"
+
+#: src/widgets/atcoreinstancewidget.cpp:461
+#, kde-format
+msgid "Stopping Print"
+msgstr "در حال توقف چاپ"
+
+#: src/widgets/atcoreinstancewidget.cpp:468
+#, kde-format
+msgid "Unknown AtCore State, %1"
+msgstr "وضعیت نامشخص AtCore، %1"
+
+#: src/widgets/atcoreinstancewidget.cpp:542
+#, kde-format
+msgid "Found %1 Ports"
+msgstr "%1 درگاه پیدا شد"
+
+#: src/widgets/atcoreinstancewidget.cpp:544
+#, kde-format
+msgid "No available ports! Please connect a serial device to continue!"
+msgstr "هیچ درگاهی در دسترس نیست! لطفاً برای ادامه یک دستگاه سریال متصل کنید!"
+
+#: src/widgets/atcoreinstancewidget.cpp:587
+#: src/widgets/atcoreinstancewidget.cpp:590
+#: src/widgets/atcoreinstancewidget.cpp:594
+#: src/widgets/atcoreinstancewidget.cpp:605
+#: src/widgets/atcoreinstancewidget.cpp:606
+#, kde-format
+msgid "Actual Bed"
+msgstr "بستر واقعی"
+
+#: src/widgets/atcoreinstancewidget.cpp:597
+#: src/widgets/atcoreinstancewidget.cpp:601
+#: src/widgets/atcoreinstancewidget.cpp:608
+#, kde-format
+msgid "Target Bed"
+msgstr "بستر هدف"
+
+#: src/widgets/atcoreinstancewidget.cpp:617
+#: src/widgets/atcoreinstancewidget.cpp:621
+#: src/widgets/atcoreinstancewidget.cpp:625
+#: src/widgets/atcoreinstancewidget.cpp:636
+#: src/widgets/atcoreinstancewidget.cpp:637
+#, kde-format
+msgid "Actual Ext.1"
+msgstr "اکسترودر ۱ واقعی"
+
+#: src/widgets/atcoreinstancewidget.cpp:628
+#: src/widgets/atcoreinstancewidget.cpp:632
+#: src/widgets/atcoreinstancewidget.cpp:639
+#, kde-format
+msgid "Target Ext.1"
+msgstr "اکسترودر ۱ هدف"
+
+#: src/widgets/bedextruderwidget.cpp:29
+#, kde-format
+msgid "Bed"
+msgstr "بستر"
+
+#: src/widgets/bedextruderwidget.cpp:30
+#, kde-format
+msgid "HotEnd"
+msgstr "هات‌اند"
+
+#: src/widgets/bedextruderwidget.cpp:38
+#, kde-format
+msgid "Active Extruder:"
+msgstr "اکسترودر فعال:"
+
+#: src/widgets/videomonitorwidget.cpp:34
+#, kde-format
+msgid "Source url:"
+msgstr "نشانی وب مبدأ:"
+
+#: src/widgets/videomonitorwidget.cpp:40
+#, kde-format
+msgid ""
+"Valid Urls:\n"
+"        http://www.example.com/stream.avi\n"
+"        rtp://@:1234\n"
+"        mms://mms.examples.com/stream.asx\n"
+"        rtsp://server.example.org:8080/test.sdp"
+msgstr ""
+"نشانی‌های وب معتبر:\n"
+"        http://www.example.com/stream.avi\n"
+"        rtp://@:1234\n"
+"        mms://mms.examples.com/stream.asx\n"
+"        rtsp://server.example.org:8080/test.sdp"
+
+#: src/widgets/videomonitorwidget.cpp:87
+#, kde-format
+msgid "Error: "
+msgstr "خطا: "
+
+#: src/widgets/welcomewidget.cpp:52
+#, kde-format
+msgid "Welcome to Atelier!"
+msgstr "به Atelier خوش آمدید!"
+
+#: src/widgets/welcomewidget.cpp:68
+#, kde-format
+msgid "Quick Connect Guide"
+msgstr "راهنمای اتصال سریع"
+
+#: src/widgets/welcomewidget.cpp:72
+#, kde-format
+msgid "1 - Create a Profile."
+msgstr "۱ - ایجاد یک نمایه."
+
+#: src/widgets/welcomewidget.cpp:72
+#, kde-format
+msgid "2 - Select the device."
+msgstr "۲ - انتخاب دستگاه."
+
+#: src/widgets/welcomewidget.cpp:72
+#, kde-format
+msgid "3 - Select the profile and connect."
+msgstr "۳ - انتخاب نمایه و اتصال."
+
+#: src/widgets/welcomewidget.cpp:77
+#, kde-format
+msgid "Having a connection problem?"
+msgstr "مشکل در اتصال دارید؟"
+
+#: src/widgets/welcomewidget.cpp:81
+#, kde-format
+msgid "See the info section of the Log for common problems."
+msgstr "برای مشکلات متداول، بخش اطلاعات گزارش را ببینید."
+
+#: src/widgets/welcomewidget.cpp:84
+#, kde-format
+msgid "Atelier news!"
+msgstr "اخبار Atelier!"
+
+#: src/widgets/welcomewidget.cpp:90
+#, kde-format
+msgid "Get Involved"
+msgstr "مشارکت"
+
+#: src/widgets/welcomewidget.cpp:94
+#, kde-format
+msgid "Join our %1Matrix Room%2!"
+msgstr "به %1اتاق ماتریکس%2 ما بپیوندید!"
+
+#: src/widgets/welcomewidget.cpp:98
+#, kde-format
+msgid "You can also find us on Libera Chat IRC #kde-atelier"
+msgstr "همچنین می‌توانید ما را در IRC لیبرا چت، کانال kde-atelier# پیدا کنید"
+
+#: src/widgets/welcomewidget.cpp:185
+#, kde-format
+msgid "Failed to fetch the News."
+msgstr "دریافت اخبار ناموفق بود."

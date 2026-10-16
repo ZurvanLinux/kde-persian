@@ -1,0 +1,1037 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the userfeedbackconsole6_qt package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: userfeedbackconsole6_qt\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-16 00:54+0330\n"
+"PO-Revision-Date: 2026-10-16 00:54+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: analytics/analyticsview.cpp:77
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Time Interval"
+msgstr "بازهٔ زمانی"
+
+#: analytics/analyticsview.cpp:88
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Chart Mode"
+msgstr "حالت نمودار"
+
+#: analytics/analyticsview.cpp:126
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Copy"
+msgstr "رونوشت"
+
+#: analytics/analyticsview.cpp:258
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Export Data"
+msgstr "برون‌ریزی داده‌ها"
+
+#: analytics/analyticsview.cpp:264
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Export Failed"
+msgstr "برون‌ریزی ناموفق بود"
+
+#: analytics/analyticsview.cpp:264 analytics/analyticsview.cpp:281
+#, qt-format
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Could not open file: %1"
+msgstr "پرونده باز نشد: %1"
+
+#: analytics/analyticsview.cpp:270
+#, qt-format
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Data samples of %1 exported to %2."
+msgstr "نمونه‌های دادهٔ %1 به %2 صادر شد."
+
+#: analytics/analyticsview.cpp:275
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Import Data"
+msgstr "درون‌ریزی داده‌ها"
+
+#: analytics/analyticsview.cpp:281 analytics/analyticsview.cpp:286
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Import Failed"
+msgstr "درون‌ریزی ناموفق بود"
+
+#: analytics/analyticsview.cpp:286
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Selected file contains no valid data."
+msgstr "پروندهٔ انتخاب‌شده حاوی دادهٔ معتبری نیست."
+
+#: analytics/analyticsview.cpp:293
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Data samples imported."
+msgstr "نمونه‌های داده درون‌ریزی شدند."
+
+#: analytics/analyticsview.ui:33
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Charts"
+msgstr "نمودارها"
+
+#: analytics/analyticsview.ui:41
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Aggregation:"
+msgstr "تجمیع:"
+
+#: analytics/analyticsview.ui:108
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Aggregated Data"
+msgstr "داده‌های تجمیع‌شده"
+
+#: analytics/analyticsview.ui:118
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Raw Data"
+msgstr "داده‌های خام"
+
+#: analytics/analyticsview.ui:138
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Year"
+msgstr "سال"
+
+#: analytics/analyticsview.ui:141
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Aggregate data by year."
+msgstr "تجمیع داده‌ها بر اساس سال."
+
+#: analytics/analyticsview.ui:149
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Month"
+msgstr "ماه"
+
+#: analytics/analyticsview.ui:152
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Aggregate data by month."
+msgstr "تجمیع داده‌ها بر اساس ماه."
+
+#: analytics/analyticsview.ui:160
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Week"
+msgstr "هفته"
+
+#: analytics/analyticsview.ui:163
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Aggregate data by week."
+msgstr "تجمیع داده‌ها بر اساس هفته."
+
+#: analytics/analyticsview.ui:171
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Day"
+msgstr "روز"
+
+#: analytics/analyticsview.ui:174
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Aggregate data by day."
+msgstr "تجمیع داده‌ها بر اساس روز."
+
+#: analytics/analyticsview.ui:182
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Export Data..."
+msgstr "برون‌ریزی داده‌ها..."
+
+#: analytics/analyticsview.ui:185
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Export all recorded data."
+msgstr "برون‌ریزی همه داده‌های ضبط‌شده."
+
+#: analytics/analyticsview.ui:193
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Import Data..."
+msgstr "درون‌ریزی داده‌ها..."
+
+#: analytics/analyticsview.ui:196
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Import data samples."
+msgstr "درون‌ریزی نمونه‌های داده."
+
+#: analytics/analyticsview.ui:204
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Reload Data"
+msgstr "بارگیری دوباره داده‌ها"
+
+#: analytics/analyticsview.ui:207
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Refresh data from the server."
+msgstr "تازه‌سازی داده‌ها از کارساز."
+
+#: analytics/analyticsview.ui:218
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Timeline Chart"
+msgstr "نمودار خط زمان"
+
+#: analytics/analyticsview.ui:221
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Show development over time."
+msgstr "نمایش روند توسعه در طول زمان."
+
+#: analytics/analyticsview.ui:232
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "&Singular Chart"
+msgstr "نمودار تکی"
+
+#: analytics/analyticsview.ui:235
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Show chart for a single time interval."
+msgstr "نمایش نمودار برای یک بازهٔ زمانی مشخص."
+
+#: analytics/analyticsview.ui:243
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Export &Chart..."
+msgstr "برون‌ریزی نمودار..."
+
+#: analytics/analyticsview.ui:246
+msgctxt "KUserFeedback::Console::AnalyticsView|"
+msgid "Export the current chart as image, SVG or PDF."
+msgstr "برون‌ریزی نمودار کنونی به عنوان تصویر، SVG یا PDF."
+
+#: analytics/chartexportdialog.cpp:50
+msgctxt "KUserFeedback::Console::ChartExportDialog|"
+msgid "Export Chart"
+msgstr "برون‌ریزی نمودار"
+
+#: analytics/chartexportdialog.ui:14
+msgctxt "KUserFeedback::Console::ChartExportDialog|"
+msgid "Dialog"
+msgstr "کادر محاوره"
+
+#: analytics/chartexportdialog.ui:22
+msgctxt "KUserFeedback::Console::ChartExportDialog|"
+msgid "F&ile name:"
+msgstr "نام پرونده:"
+
+#: analytics/chartexportdialog.ui:35
+msgctxt "KUserFeedback::Console::ChartExportDialog|"
+msgid "..."
+msgstr "..."
+
+#: analytics/chartexportdialog.ui:44
+msgctxt "KUserFeedback::Console::ChartExportDialog|"
+msgid "I&mage"
+msgstr "تصویر"
+
+#: analytics/chartexportdialog.ui:56
+msgctxt "KUserFeedback::Console::ChartExportDialog|"
+msgid "W&idth:"
+msgstr "عرض:"
+
+#: analytics/chartexportdialog.ui:66 analytics/chartexportdialog.ui:92
+msgctxt "KUserFeedback::Console::ChartExportDialog|"
+msgid "px"
+msgstr "px"
+
+#: analytics/chartexportdialog.ui:82
+msgctxt "KUserFeedback::Console::ChartExportDialog|"
+msgid "Height:"
+msgstr "ارتفاع:"
+
+#: analytics/chartexportdialog.ui:110
+msgctxt "KUserFeedback::Console::ChartExportDialog|"
+msgid "SV&G"
+msgstr "SVG"
+
+#: analytics/chartexportdialog.ui:117
+msgctxt "KUserFeedback::Console::ChartExportDialog|"
+msgid "P&DF"
+msgstr "PDF"
+
+#: analytics/totalaggregator.cpp:34
+msgctxt "KUserFeedback::Console::TotalAggregator|"
+msgid "Samples"
+msgstr "نمونه‌ها"
+
+#: connectdialog.cpp:25
+msgctxt "KUserFeedback::Console::ConnectDialog|"
+msgid "Connect"
+msgstr "اتصال"
+
+#: connectdialog.ui:14
+msgctxt "KUserFeedback::Console::ConnectDialog|"
+msgid "Connect To Analytics Server"
+msgstr "اتصال به کارساز تحلیلگر"
+
+#: connectdialog.ui:22
+msgctxt "KUserFeedback::Console::ConnectDialog|"
+msgid "Server &name:"
+msgstr "نام کارساز:"
+
+#: connectdialog.ui:32
+msgctxt "KUserFeedback::Console::ConnectDialog|"
+msgid "&User name:"
+msgstr "نام کاربری:"
+
+#: connectdialog.ui:45
+msgctxt "KUserFeedback::Console::ConnectDialog|"
+msgid "P&assword:"
+msgstr "گذرواژه:"
+
+#: connectdialog.ui:78
+msgctxt "KUserFeedback::Console::ConnectDialog|"
+msgid "Server UR&L:"
+msgstr "نشانی اینترنتی کارساز:"
+
+#: jobs/handshakejob.cpp:26
+#, qt-format
+msgctxt "KUserFeedback::Console::HandshakeJob|"
+msgid "Connected to %1."
+msgstr "به %1 متصل شد."
+
+#: jobs/handshakejob.cpp:55
+#, qt-format
+msgctxt "KUserFeedback::Console::HandshakeJob|"
+msgid "Incompatible protocol: %1."
+msgstr "پروتکل ناسازگار: %1."
+
+#: jobs/handshakejob.cpp:62
+#, qt-format
+msgctxt "KUserFeedback::Console::HandshakeJob|"
+msgid "Updated database schema from version %1 to %2."
+msgstr "شمای پایگاه‌داده از نسخهٔ %1 به %2 به‌روزرسانی شد."
+
+#: jobs/productexportjob.cpp:36
+msgctxt "KUserFeedback::Console::ProductExportJob|"
+msgid "Product not found."
+msgstr "محصول یافت نشد."
+
+#: jobs/productexportjob.cpp:63 jobs/productexportjob.cpp:83
+#: jobs/productexportjob.cpp:103
+#, qt-format
+msgctxt "KUserFeedback::Console::ProductExportJob|"
+msgid "Could not open file: %1"
+msgstr "پرونده باز نشد: %1"
+
+#: jobs/productimportjob.cpp:37
+#, qt-format
+msgctxt "KUserFeedback::Console::ProductImportJob|"
+msgid "Unable to open file: %1"
+msgstr "ناتوان در باز کردن پرونده: %1"
+
+#: jobs/productimportjob.cpp:43
+msgctxt "KUserFeedback::Console::ProductImportJob|"
+msgid "Invalid product schema file."
+msgstr "پروندهٔ شمای محصول نامعتبر است."
+
+#: jobs/securityscanjob.cpp:54
+msgctxt "KUserFeedback::Console::SecurityScanJob|"
+msgid "No issues found."
+msgstr "هیچ مشکلی یافت نشد."
+
+#: jobs/securityscanjob.cpp:75
+#, qt-format
+msgctxt "KUserFeedback::Console::SecurityScanJob|"
+msgid "Access to %1 is not protected!"
+msgstr "دسترسی به %1 محافظت نشده است!"
+
+#: jobs/securityscanjob.cpp:78
+#, qt-format
+msgctxt "KUserFeedback::Console::SecurityScanJob|"
+msgid "Access to %1 is protected (%2)."
+msgstr "دسترسی به %1 محافظت شده است (%2)."
+
+#: mainwindow.cpp:80 mainwindow.cpp:142
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Unsaved Schema Changes"
+msgstr "تغییرات ذخیره‌نشدهٔ طرحواره"
+
+#: mainwindow.cpp:81
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid ""
+"You have unsaved changes in the schema editor. Do you really want to close "
+"it and discard your changes?"
+msgstr ""
+"شما تغییرات ذخیره‌نشده‌ای در ویرایشگر طرحواره دارید. آیا واقعاً می‌خواهید آن"
+" را ببندید و تغییراتتان را لغو کنید؟"
+
+#: mainwindow.cpp:130
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "About User Feedback Console"
+msgstr "دربارهٔ کنسول بازخورد کاربر"
+
+#: mainwindow.cpp:130
+#, qt-format
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid ""
+"Version: %1\n"
+"License: MIT\n"
+"Copyright ⓒ 2017 Volker Krause <vkrause@kde.org>"
+msgstr ""
+"نسخه: %1\n"
+"مجوز: MIT\n"
+"حق نشر ⓒ 2017 Volker Krause <vkrause@kde.org>"
+
+#: mainwindow.cpp:143
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid ""
+"You have unsaved changes in the schema editor, do you really want to open "
+"another product and discard your changes?"
+msgstr ""
+"شما تغییرات ذخیره‌نشده‌ای در ویرایشگر طرحواره دارید، آیا واقعاً می‌خواهید "
+"محصول دیگری را باز کرده و تغییرات خود را نادیده بگیرید؟"
+
+#: mainwindow.cpp:172
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Usage ratio of the analytics view, survey editor and schema editor."
+msgstr "نسبت استفاده از نمای تحلیل‌ها، ویرایشگر نظرسنجی و ویرایشگر طرحواره."
+
+#: mainwindow.cpp:219
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Connection Failure"
+msgstr "خطا در برقراری اتصال"
+
+#: mainwindow.cpp:219
+#, qt-format
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Failed to connect to server: %1"
+msgstr "اتصال به کارساز ناموفق بود: %1"
+
+#: mainwindow.cpp:226
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Add New Product"
+msgstr "افزودن محصول جدید"
+
+#: mainwindow.cpp:226
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Product Identifier:"
+msgstr "شناسهٔ محصول:"
+
+#: mainwindow.cpp:248
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Delete Product"
+msgstr "حذف محصول"
+
+#: mainwindow.cpp:249
+#, qt-format
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Do you really want to delete product %1 with all its data?"
+msgstr "آیا واقعاً می‌خواهید محصول %1 را همراه با تمام داده‌هایش حذف کنید؟"
+
+#: mainwindow.cpp:266
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Import Product"
+msgstr "درون‌ریزی محصول"
+
+#: mainwindow.cpp:272 mainwindow.cpp:278 mainwindow.cpp:297
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Import Failed"
+msgstr "درون‌ریزی ناموفق بود"
+
+#: mainwindow.cpp:272 mainwindow.cpp:297
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Could not open file."
+msgstr "پرونده باز نشد."
+
+#: mainwindow.cpp:278
+#, qt-format
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Import error: %1"
+msgstr "خطای درون‌ریزی: %1"
+
+#: mainwindow.cpp:281
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Product imported successfully."
+msgstr "محصول با موفقیت درون‌ریزی شد."
+
+#: mainwindow.cpp:291
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Export Product"
+msgstr "برون‌بری محصول"
+
+#: mainwindow.cpp:303
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Export Failed"
+msgstr "برون‌ریزی ناموفق بود"
+
+#: mainwindow.cpp:303
+#, qt-format
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Export error: %1"
+msgstr "خطای برون‌ریزی: %1"
+
+#: mainwindow.cpp:306
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Product exported successfully."
+msgstr "محصول با موفقیت برون‌ریزی شد."
+
+#: mainwindow.cpp:355
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Unsaved Changes"
+msgstr "تغییرات ذخیره‌نشده"
+
+#: mainwindow.cpp:356
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid ""
+"There are unsaved changes in the schema editor. Do you want to discard them "
+"and close the application?"
+msgstr ""
+"تغییرات ذخیره‌نشده‌ای در ویرایشگر طرح‌واره وجود دارد. آیا می‌خواهید آن‌ها را"
+" نادیده بگیرید و برنامه را ببندید؟"
+
+#: mainwindow.ui:14
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "User Feedback Console"
+msgstr "کنسول بازخورد کاربر"
+
+#: mainwindow.ui:50
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&File"
+msgstr "پرونده"
+
+#: mainwindow.ui:58
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Pro&ducts"
+msgstr "محصولات"
+
+#: mainwindow.ui:67
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&Survey"
+msgstr "نظرسنجی"
+
+#: mainwindow.ui:72
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Anal&ytics"
+msgstr "تحلیل‌ها"
+
+#: mainwindow.ui:77
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&Help"
+msgstr "راهنما"
+
+#: mainwindow.ui:85
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "S&chema"
+msgstr "طرح‌واره"
+
+#: mainwindow.ui:90
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&Window"
+msgstr "پنجره"
+
+#: mainwindow.ui:95
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&View"
+msgstr "نمایش"
+
+#: mainwindow.ui:113
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Log Messages"
+msgstr "پیام‌های گزارش"
+
+#: mainwindow.ui:132
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Products"
+msgstr "محصولات"
+
+#: mainwindow.ui:160
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "View Toolbar"
+msgstr "نوار ابزار نما"
+
+#: mainwindow.ui:186
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&Connect to Server..."
+msgstr "اتصال به سرور..."
+
+#: mainwindow.ui:189
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Connect to analytics server."
+msgstr "اتصال به سرور تجزیه‌وتحلیل."
+
+#: mainwindow.ui:192
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "F2"
+msgstr "F2"
+
+#: mainwindow.ui:200
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&Quit"
+msgstr "خروج"
+
+#: mainwindow.ui:203
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Quit the user feedback console."
+msgstr "خروج از پیشانهٔ بازخورد کاربر."
+
+#: mainwindow.ui:214
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&Add Product..."
+msgstr "افزودن محصول..."
+
+#: mainwindow.ui:217
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Add a new product."
+msgstr "افزودن یک محصول جدید."
+
+#: mainwindow.ui:225
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&Delete Product"
+msgstr "حذف محصول"
+
+#: mainwindow.ui:228
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Delete product and all associated data."
+msgstr "حذف محصول و تمام داده‌های مرتبط با آن."
+
+#: mainwindow.ui:236
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&About..."
+msgstr "درباره..."
+
+#: mainwindow.ui:239
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Information about this program."
+msgstr "اطلاعات دربارهٔ این برنامه."
+
+#: mainwindow.ui:247
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&Contribute..."
+msgstr "مشارکت..."
+
+#: mainwindow.ui:250
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Help to make this application better for you!"
+msgstr "به بهتر شدن این برنامه برای خودتان کمک کنید!"
+
+#: mainwindow.ui:261
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&Schema"
+msgstr "طرح‌واره"
+
+#: mainwindow.ui:264
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Edit product telemetry schema."
+msgstr "ویرایش طرح‌واره دورسنجی محصول."
+
+#: mainwindow.ui:275
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "S&urveys"
+msgstr "نظرسنجی‌ها"
+
+#: mainwindow.ui:278
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Manage product surveys."
+msgstr "مدیریت نظرسنجی‌های محصول."
+
+#: mainwindow.ui:289
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "&Analytics"
+msgstr "تحلیل‌ها"
+
+#: mainwindow.ui:292
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Analyze product telemetry."
+msgstr "تحلیل دورسنجی محصول."
+
+#: mainwindow.ui:300
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "User Manual..."
+msgstr "راهنمای کاربر..."
+
+#: mainwindow.ui:303
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Show the user manual"
+msgstr "نمایش راهنمای کاربر"
+
+#: mainwindow.ui:311
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Import Product..."
+msgstr "وارد کردن محصول..."
+
+#: mainwindow.ui:314
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Import product settings and data."
+msgstr "وارد کردن تنظیمات و داده‌های محصول."
+
+#: mainwindow.ui:322
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Export Product..."
+msgstr "برون‌ریزی محصول..."
+
+#: mainwindow.ui:325
+msgctxt "KUserFeedback::Console::MainWindow|"
+msgid "Export all product settings and data."
+msgstr "برون‌ریزی همهٔ تنظیمات و داده‌های محصول."
+
+#: model/aggregationeditormodel.cpp:61
+msgctxt "KUserFeedback::Console::AggregationEditorModel|"
+msgid "<none>"
+msgstr "<none>"
+
+#: model/aggregationeditormodel.cpp:90
+msgctxt "KUserFeedback::Console::AggregationEditorModel|"
+msgid "Name"
+msgstr "نام"
+
+#: model/aggregationeditormodel.cpp:91
+msgctxt "KUserFeedback::Console::AggregationEditorModel|"
+msgid "Type"
+msgstr "نوع"
+
+#: model/aggregationeditormodel.cpp:92
+msgctxt "KUserFeedback::Console::AggregationEditorModel|"
+msgid "Element"
+msgstr "عنصر"
+
+#: model/aggregationelementeditmodel.cpp:48
+msgctxt "KUserFeedback::Console::AggregationElementEditModel|"
+msgid "<new element>"
+msgstr "<new element>"
+
+#: model/aggregationelementeditmodel.cpp:60
+msgctxt "KUserFeedback::Console::AggregationElementEditModel|"
+msgid "Element"
+msgstr "عنصر"
+
+#: model/categoryaggregationmodel.cpp:103
+msgctxt "KUserFeedback::Console::CategoryAggregationModel|"
+msgid "[empty]"
+msgstr "[خالی]"
+
+#: model/datamodel.cpp:158
+msgctxt "KUserFeedback::Console::DataModel|"
+msgid "Timestamp"
+msgstr "مهر زمانی"
+
+#: model/numericaggregationmodel.cpp:78
+msgctxt "KUserFeedback::Console::NumericAggregationModel|"
+msgid "Lower Extreme"
+msgstr "حد پایین"
+
+#: model/numericaggregationmodel.cpp:79
+msgctxt "KUserFeedback::Console::NumericAggregationModel|"
+msgid "Lower Quartile"
+msgstr "چارک اول (پایین)"
+
+#: model/numericaggregationmodel.cpp:80
+msgctxt "KUserFeedback::Console::NumericAggregationModel|"
+msgid "Median"
+msgstr "میانه"
+
+#: model/numericaggregationmodel.cpp:81
+msgctxt "KUserFeedback::Console::NumericAggregationModel|"
+msgid "Upper Quartile"
+msgstr "چارک سوم (بالا)"
+
+#: model/numericaggregationmodel.cpp:82
+msgctxt "KUserFeedback::Console::NumericAggregationModel|"
+msgid "Upper Extreme"
+msgstr "حد بالا"
+
+#: model/productmodel.cpp:82
+msgctxt "KUserFeedback::Console::ProductModel|"
+msgid "Products"
+msgstr "محصولات"
+
+#: model/ratiosetaggregationmodel.cpp:87
+msgctxt "KUserFeedback::Console::RatioSetAggregationModel|"
+msgid "[empty]"
+msgstr "[خالی]"
+
+#: model/schemamodel.cpp:145
+msgctxt "KUserFeedback::Console::SchemaModel|"
+msgid "Name"
+msgstr "نام"
+
+#: model/schemamodel.cpp:146
+msgctxt "KUserFeedback::Console::SchemaModel|"
+msgid "Type"
+msgstr "نوع"
+
+#: model/surveymodel.cpp:110
+msgctxt "KUserFeedback::Console::SurveyModel|"
+msgid "Name"
+msgstr "نام"
+
+#: model/surveymodel.cpp:111
+msgctxt "KUserFeedback::Console::SurveyModel|"
+msgid "URL"
+msgstr "نشانی وب"
+
+#: model/surveymodel.cpp:112
+msgctxt "KUserFeedback::Console::SurveyModel|"
+msgid "Active"
+msgstr "فعال"
+
+#: model/surveymodel.cpp:113
+msgctxt "KUserFeedback::Console::SurveyModel|"
+msgid "Target"
+msgstr "هدف"
+
+#: model/timeaggregationmodel.cpp:153
+msgctxt "KUserFeedback::Console::TimeAggregationModel|"
+msgid "Time"
+msgstr "زمان"
+
+#: model/timeaggregationmodel.cpp:154
+msgctxt "KUserFeedback::Console::TimeAggregationModel|"
+msgid "Samples"
+msgstr "نمونه‌ها"
+
+#: schemaeditor/aggregationeditwidget.cpp:99
+msgctxt "KUserFeedback::Console::AggregationEditWidget|"
+msgid "Delete Aggregation"
+msgstr "حذف تجمیع"
+
+#: schemaeditor/aggregationeditwidget.cpp:100
+msgctxt "KUserFeedback::Console::AggregationEditWidget|"
+msgid "Do you want to delete the currently selected aggregation?"
+msgstr "آیا می‌خواهید تجمیع انتخاب‌شدهٔ کنونی را حذف کنید؟"
+
+#: schemaeditor/aggregationeditwidget.ui:60
+msgctxt "KUserFeedback::Console::AggregationEditWidget|"
+msgid "&Add"
+msgstr "افزودن"
+
+#: schemaeditor/aggregationeditwidget.ui:67
+msgctxt "KUserFeedback::Console::AggregationEditWidget|"
+msgid "&Delete"
+msgstr "حذف"
+
+#: schemaeditor/aggregationeditwidget.ui:83
+msgctxt "KUserFeedback::Console::AggregationEditWidget|"
+msgid "Add &Aggregation"
+msgstr "افزودن تجمیع"
+
+#: schemaeditor/aggregationeditwidget.ui:86
+msgctxt "KUserFeedback::Console::AggregationEditWidget|"
+msgid "Add a new aggregation."
+msgstr "افزودن یک تجمیع جدید."
+
+#: schemaeditor/aggregationeditwidget.ui:94
+msgctxt "KUserFeedback::Console::AggregationEditWidget|"
+msgid "&Delete Aggregation"
+msgstr "حذف تجمیع"
+
+#: schemaeditor/aggregationeditwidget.ui:97
+msgctxt "KUserFeedback::Console::AggregationEditWidget|"
+msgid "Delete the currently selected aggregation."
+msgstr "حذف تجمیع انتخاب‌شده کنونی."
+
+#: schemaeditor/schemaeditor.cpp:40
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Source Templates"
+msgstr "الگوهای منبع"
+
+#: schemaeditor/schemaeditor.cpp:119
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Export Schema"
+msgstr "برون‌ریزی طرح‌واره"
+
+#: schemaeditor/schemaeditor.cpp:125
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Export Failed"
+msgstr "برون‌ریزی ناموفق بود"
+
+#: schemaeditor/schemaeditor.cpp:125 schemaeditor/schemaeditor.cpp:140
+#, qt-format
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Could not open file: %1"
+msgstr "امکان باز کردن پرونده وجود ندارد: %1"
+
+#: schemaeditor/schemaeditor.cpp:129
+#, qt-format
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Schema of %1 exported to %2."
+msgstr "طرح‌واره %1 به %2 برون‌ریزی شد."
+
+#: schemaeditor/schemaeditor.cpp:134
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Import Schema"
+msgstr "درون‌ریزی طرح‌واره"
+
+#: schemaeditor/schemaeditor.cpp:140 schemaeditor/schemaeditor.cpp:145
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Import Failed"
+msgstr "درون‌ریزی ناموفق بود"
+
+#: schemaeditor/schemaeditor.cpp:145
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Selected file contains no valid product schema."
+msgstr "پروندهٔ انتخاب‌شده شامل هیچ شِمای محصول معتبری نیست."
+
+#: schemaeditor/schemaeditor.cpp:153
+#, qt-format
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Schema of %1 imported from %2."
+msgstr "شِمای %1 از %2 وارد شد."
+
+#: schemaeditor/schemaeditor.ui:33
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Schema"
+msgstr "شِما"
+
+#: schemaeditor/schemaeditor.ui:38
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Aggregation"
+msgstr "تجمع"
+
+#: schemaeditor/schemaeditor.ui:49
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "&Save Schema"
+msgstr "ذخیرهٔ شِما"
+
+#: schemaeditor/schemaeditor.ui:52
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Save changes to the product schema."
+msgstr "ذخیرهٔ تغییرات در شِمای محصول."
+
+#: schemaeditor/schemaeditor.ui:60
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "&Import Schema..."
+msgstr "وارد کردن شِما..."
+
+#: schemaeditor/schemaeditor.ui:63
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Import a schema for this product."
+msgstr "وارد کردن یک شِما برای این محصول."
+
+#: schemaeditor/schemaeditor.ui:71
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "&Export Schema..."
+msgstr "برون‌ریزی شِما..."
+
+#: schemaeditor/schemaeditor.ui:74
+msgctxt "KUserFeedback::Console::SchemaEditor|"
+msgid "Export the schema of this product."
+msgstr "برون‌ریزی شِمای این محصول."
+
+#: schemaeditor/schemaeditwidget.cpp:72
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Add Source"
+msgstr "افزودن منبع"
+
+#: schemaeditor/schemaeditwidget.cpp:72 schemaeditor/schemaeditwidget.cpp:81
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Name:"
+msgstr "نام:"
+
+#: schemaeditor/schemaeditwidget.cpp:81
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Add Source Element"
+msgstr "افزودن عنصر منبع"
+
+#: schemaeditor/schemaeditwidget.cpp:96
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Delete Source"
+msgstr "حذف منبع"
+
+#: schemaeditor/schemaeditwidget.cpp:97
+#, qt-format
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid ""
+"Do you really want to delete the source '%1', and all recorded data for it?"
+msgstr ""
+"آیا واقعاً می‌خواهید منبع «%1» و همهٔ داده‌های ثبت‌شده برای آن را حذف کنید؟"
+
+#: schemaeditor/schemaeditwidget.cpp:102
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Delete Schema Entry"
+msgstr "حذف مدخل طرح‌واره"
+
+#: schemaeditor/schemaeditwidget.cpp:103
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Do you really want to delete this entry, and all recorded data for it?"
+msgstr ""
+"آیا واقعاً می‌خواهید این مدخل و همهٔ داده‌های ثبت‌شده برای آن را حذف کنید؟"
+
+#: schemaeditor/schemaeditwidget.ui:30
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "&Delete"
+msgstr "حذف"
+
+#: schemaeditor/schemaeditwidget.ui:33
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Delete the selected element or entry."
+msgstr "حذف عنصر یا مدخل انتخاب‌شده."
+
+#: schemaeditor/schemaeditwidget.ui:36
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Del"
+msgstr "Del"
+
+#: schemaeditor/schemaeditwidget.ui:44
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Add &Source..."
+msgstr "افزودن منبع..."
+
+#: schemaeditor/schemaeditwidget.ui:47
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Add a new data source."
+msgstr "افزودن یک منبع داده جدید."
+
+#: schemaeditor/schemaeditwidget.ui:55
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Add Source &Element..."
+msgstr "افزودن عنصر منبع..."
+
+#: schemaeditor/schemaeditwidget.ui:58
+msgctxt "KUserFeedback::Console::SchemaEditWidget|"
+msgid "Add an element to a data source."
+msgstr "افزودن یک عنصر به منبع داده."
+
+#: surveyeditor/surveydialog.ui:14
+msgctxt "KUserFeedback::Console::SurveyDialog|"
+msgid "Survey"
+msgstr "نظرسنجی"
+
+#: surveyeditor/surveydialog.ui:22
+msgctxt "KUserFeedback::Console::SurveyDialog|"
+msgid "&Name:"
+msgstr "نام:"
+
+#: surveyeditor/surveydialog.ui:35
+msgctxt "KUserFeedback::Console::SurveyDialog|"
+msgid "&URL:"
+msgstr "نشانی وب:"
+
+#: surveyeditor/surveydialog.ui:50
+msgctxt "KUserFeedback::Console::SurveyDialog|"
+msgid "Targeting e&xpression:"
+msgstr "عبارت هدف‌گیری:"
+
+#: surveyeditor/surveyeditor.cpp:105
+msgctxt "KUserFeedback::Console::SurveyEditor|"
+msgid "Delete Survey"
+msgstr "حذف نظرسنجی"
+
+#: surveyeditor/surveyeditor.cpp:106
+msgctxt "KUserFeedback::Console::SurveyEditor|"
+msgid "Do you really want to delete the selected survey?"
+msgstr "آیا واقعاً می‌خواهید نظرسنجی انتخاب‌شده را حذف کنید؟"
+
+#: surveyeditor/surveyeditor.ui:45
+msgctxt "KUserFeedback::Console::SurveyEditor|"
+msgid "&Add Survey..."
+msgstr "افزودن نظرسنجی..."
+
+#: surveyeditor/surveyeditor.ui:48
+msgctxt "KUserFeedback::Console::SurveyEditor|"
+msgid "Add new survey."
+msgstr "افزودن نظرسنجی جدید."
+
+#: surveyeditor/surveyeditor.ui:56
+msgctxt "KUserFeedback::Console::SurveyEditor|"
+msgid "&Delete Survey"
+msgstr "حذف نظرسنجی"
+
+#: surveyeditor/surveyeditor.ui:59
+msgctxt "KUserFeedback::Console::SurveyEditor|"
+msgid "Delete a survey."
+msgstr "حذف یک نظرسنجی."
+
+#: surveyeditor/surveyeditor.ui:67
+msgctxt "KUserFeedback::Console::SurveyEditor|"
+msgid "&Edit Survey..."
+msgstr "ویرایش نظرسنجی..."
+
+#: surveyeditor/surveyeditor.ui:70
+msgctxt "KUserFeedback::Console::SurveyEditor|"
+msgid "Edit the currently selected survey."
+msgstr "ویرایش نظرسنجی انتخاب‌شده کنونی."

@@ -1,0 +1,1754 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the yakuake package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: yakuake\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-30 00:48+0000\n"
+"PO-Revision-Date: 2026-10-16 03:20+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: app/config/appearancesettings.cpp:151
+#, kde-kuit-format
+msgctxt "@item:inlistbox Unknown skin author"
+msgid "Unknown"
+msgstr "ناشناس"
+
+#: app/config/appearancesettings.cpp:196
+#, kde-format
+msgctxt "@title:window"
+msgid "Select the skin archive to install"
+msgstr "انتخاب بایگانی پوسته برای نصب"
+
+#: app/config/appearancesettings.cpp:242
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Unable to list the skin archive contents."
+msgstr "امکان فهرست‌کردن محتوای بایگانی پوسته وجود ندارد."
+
+#: app/config/appearancesettings.cpp:274
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This skin appears to be already installed and you lack the required "
+"permissions to overwrite it."
+msgstr ""
+"به نظر می‌رسد این پوسته از قبل نصب شده است و شما مجوز لازم برای بازنویسی آن "
+"را ندارید."
+
+#: app/config/appearancesettings.cpp:279
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This skin appears to be already installed. Do you want to overwrite it?"
+msgstr ""
+"به نظر می‌رسد این پوسته از قبل نصب شده است. آیا می‌خواهید روی آن بازنویسی "
+"شود؟"
+
+#: app/config/appearancesettings.cpp:280
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Skin Already Exists"
+msgstr "پوسته از قبل موجود است"
+
+#: app/config/appearancesettings.cpp:281
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Reinstall Skin"
+msgstr "نصب مجدد پوسته"
+
+#: app/config/appearancesettings.cpp:299
+#, kde-kuit-format
+msgctxt "@title:Window"
+msgid "Could Not Delete Skin"
+msgstr "پوسته حذف نشد"
+
+#: app/config/appearancesettings.cpp:324
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Unable to locate required files in the skin archive.<nl/><nl/>The archive "
+"appears to be invalid."
+msgstr ""
+"پرونده‌های مورد نیاز در بایگانی پوسته پیدا نشدند.<nl/><nl/>به نظر می‌رسد "
+"بایگانی نامعتبر است."
+
+#: app/config/appearancesettings.cpp:327
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The skin archive file could not be opened."
+msgstr "پرونده بایگانی پوسته باز نشد."
+
+#: app/config/appearancesettings.cpp:332
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Cannot Install Skin"
+msgstr "نمی‌توان پوسته را نصب کرد"
+
+#: app/config/appearancesettings.cpp:376
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Do you want to remove \"%1\" by %2?"
+msgstr "آیا می‌خواهید «%1» اثر %2 را حذف کنید؟"
+
+#: app/config/appearancesettings.cpp:377
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Remove Skin"
+msgstr "حذف پوسته"
+
+#: app/config/appearancesettings.cpp:471
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The following skin is missing required files. Thus it was "
+"removed:<ul>%2</ul>"
+msgid_plural ""
+"The following skins are missing required files. Thus they were "
+"removed:<ul>%2</ul>"
+msgstr[0] "پوستهٔ زیر فاقد پرونده‌های لازم است؛ بنابراین حذف شد:<ul>%2</ul>"
+msgstr[1] ""
+"پوسته‌های زیر فاقد پرونده‌های لازم هستند؛ بنابراین حذف شدند:<ul>%2</ul>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
+#: app/config/appearancesettings.ui:29 app/config/behaviorsettings.ui:20
+#, kde-format
+msgctxt "@title:group Group box label"
+msgid "General"
+msgstr "عمومی"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox,
+#. kcfg_TerminalHighlightOnManualActivation)
+#: app/config/appearancesettings.ui:35
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Enabling this option will make Yakuake briefly display a colored overlay "
+"above the newly focused terminal when moving focus between multiple "
+"terminals in a session, as well as over the currently focused terminal when "
+"switching to a session with multiple terminals."
+msgstr ""
+"با فعال کردن این گزینه، هنگام جابه‌جایی تمرکز میان پایانه‌های متعدد در یک "
+"نشست، یا هنگام تغییر نشست به نشستی با چند پایانه، یاکوآکه پوشش رنگی کوتاهی "
+"را روی پایانه‌ای که به‌تازگی فعال شده نمایش می‌دهد."
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_TerminalHighlightOnManualActivation)
+#: app/config/appearancesettings.ui:38
+#, kde-format
+msgctxt "@option:check"
+msgid "Highlight terminals when moving focus between them"
+msgstr "برجسته‌سازی پایانه‌ها هنگام جابه‌جایی تمرکز بین آن‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideSkinBorders)
+#: app/config/appearancesettings.ui:45
+#, kde-format
+msgid "Hide borders"
+msgstr "پنهان‌سازی حاشیه‌ها"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: app/config/appearancesettings.ui:55
+#, kde-format
+msgctxt "@title:group"
+msgid "Window Background"
+msgstr "پس‌زمینهٔ پنجره"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
+#: app/config/appearancesettings.ui:63
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Background color:"
+msgstr "رنگ پس‌زمینه:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Translucency)
+#: app/config/appearancesettings.ui:92
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Translucency requires support by the selected skin as well as your desktop "
+"environment. The default skin supports translucency."
+msgstr ""
+"نیمه‌شفافی نیازمند پشتیبانی توسط پوستهٔ انتخاب‌شده و همچنین محیط رومیزی "
+"شماست. پوستهٔ پیش‌فرض از نیمه‌شفافی پشتیبانی می‌کند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Translucency)
+#: app/config/appearancesettings.ui:95
+#, kde-format
+msgctxt "@option:check"
+msgid "Use skin translucency if supported"
+msgstr "استفاده از نیمه‌شفافی پوسته در صورت پشتیبانی"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundColorOpacityLabel)
+#: app/config/appearancesettings.ui:126
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Background color opacity:"
+msgstr "کدری رنگ پس‌زمینه:"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox,
+#. kcfg_BackgroundColorOpacity)
+#: app/config/appearancesettings.ui:136
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"When using translucency, the background color will be filled in using the "
+"given opacity before the skin elements are painted on top of the background."
+" This allows influencing the opacity and color tint of translucent areas of "
+"the skin."
+msgstr ""
+"هنگام استفاده از نیمه‌شفافی، رنگ پس‌زمینه با استفاده از کدری تعیین‌شده، پیش "
+"از رسم عناصر پوسته روی پس‌زمینه، پر خواهد شد. این ویژگی امکان تأثیرگذاری بر "
+"کدری و ته‌رنگ نواحی نیمه‌شفاف پوسته را فراهم می‌کند."
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Width)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Height)
+#. i18n: ectx: property (suffix), widget (QSpinBox,
+#. kcfg_BackgroundColorOpacity)
+#: app/config/appearancesettings.ui:139 app/config/windowsettings.ui:146
+#: app/config/windowsettings.ui:200
+#, no-c-format, kde-format
+msgctxt "@label Spinbox unit suffix"
+msgid "%"
+msgstr "٪"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: app/config/appearancesettings.ui:170
+#, kde-format
+msgctxt "@title:group"
+msgid "Skin"
+msgstr "پوسته"
+
+#. i18n: ectx: property (text), widget (KNSWidgets::Button, ghnsButton)
+#: app/config/appearancesettings.ui:176
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Skins..."
+msgstr "دریافت پوسته‌های جدید..."
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: app/config/appearancesettings.ui:186
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Skin"
+msgstr "حذف پوسته"
+
+#. i18n: ectx: property (text), widget (QPushButton, installButton)
+#: app/config/appearancesettings.ui:196
+#, kde-format
+msgctxt "@action:button"
+msgid "Install Skin..."
+msgstr "نصب پوسته..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FocusFollowsMouse)
+#: app/config/behaviorsettings.ui:26
+#, kde-format
+msgctxt "@option:check"
+msgid "Focus terminals when the mouse pointer is moved over them"
+msgstr "تمرکز روی پایانه‌ها هنگام حرکت دادن نشانگر موشی روی آن‌ها"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ToggleToFocus)
+#: app/config/behaviorsettings.ui:42
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If this option is enabled, the shortcut normally used to open and retract "
+"the window will give it focus, rather than close it, if it has previously "
+"lost focus. Unless the window is set to show on all virtual desktops, this "
+"may cause the window manager to switch to the virtual desktop it currently "
+"resides on."
+msgstr ""
+"اگر این گزینه فعال باشد، میان‌بُری که معمولاً برای باز و جمع کردن پنجره "
+"استفاده می‌شود، در صورتی که پنجره قبلاً فوکوس را از دست داده باشد، به جای "
+"بستن، به آن فوکوس می‌دهد. مگر اینکه پنجره طوری تنظیم شده باشد که در همهٔ "
+"میزکارهای مجازی نشان داده شود، این کار ممکن است باعث شود مدیر پنجره به "
+"میزکار مجازی‌ای که پنجره در حال حاضر در آن قرار دارد تغییر کند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ToggleToFocus)
+#: app/config/behaviorsettings.ui:45
+#, kde-format
+msgctxt "@option:check"
+msgid "Use Open/Retract action to focus window"
+msgstr "استفاده از کنش باز/جمع کردن برای فوکوس پنجره"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepAbove)
+#: app/config/behaviorsettings.ui:61
+#, kde-format
+msgctxt "@option:check"
+msgid "Keep window above other windows"
+msgstr "نگه‌داشتن پنجره بالاتر از دیگر پنجره‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_OpenAfterStart)
+#: app/config/behaviorsettings.ui:84
+#, kde-format
+msgctxt "@option:check"
+msgid "Open window after program start"
+msgstr "باز کردن پنجره پس از شروع برنامه"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PollMouse)
+#: app/config/behaviorsettings.ui:91
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If this option is enabled, the window will automatically open when the mouse"
+" pointer is moved to the same edge of the screen that it would open on when "
+"using the shortcut."
+msgstr ""
+"اگر این گزینه فعال باشد، وقتی اشاره‌گر موش به همان لبه‌ای از صفحه حرکت داده "
+"شود که هنگام استفاده از میان‌بُر باز می‌شد، پنجره به‌طور خودکار باز می‌شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PollMouse)
+#: app/config/behaviorsettings.ui:94
+#, kde-format
+msgctxt "@option:check"
+msgid "Open window when the mouse pointer touches the screen edge"
+msgstr "باز کردن پنجره هنگام برخورد اشاره‌گر موش به لبهٔ صفحه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberFullscreen)
+#: app/config/behaviorsettings.ui:101
+#, kde-format
+msgid "Remember and restore window fullscreen state"
+msgstr "به‌خاطرسپاری و بازگردانی وضعیت تمام‌صفحهٔ پنجره"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSystrayIcon)
+#: app/config/behaviorsettings.ui:108
+#, kde-format
+msgid "Show system tray icon"
+msgstr "نمایش نشانک سینی سامانه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepOpen)
+#: app/config/behaviorsettings.ui:118
+#, kde-format
+msgctxt "@option:check"
+msgid "Keep window open when it loses focus"
+msgstr "باز نگه‌داشتن پنجره هنگام از دست دادن فوکوس"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_KeepOpenAfterLastSessionCloses)
+#: app/config/behaviorsettings.ui:141
+#, kde-format
+msgctxt "@option:check"
+msgid "Keep window open after the last session is closed"
+msgstr "باز نگه‌داشتن پنجره پس از بسته شدن آخرین نشست"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: app/config/behaviorsettings.ui:151
+#, kde-format
+msgctxt "@title:group"
+msgid "Dialogs"
+msgstr "کادرهای محاوره"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ConfirmQuit)
+#: app/config/behaviorsettings.ui:157
+#, kde-format
+msgctxt "@option:check"
+msgid "Confirm quit when more than one session is open"
+msgstr "تأیید خروج هنگام باز بودن بیش از یک نشست"
+
+#: app/config/skinlistdelegate.cpp:124 app/config/skinlistdelegate.cpp:164
+#, kde-kuit-format
+msgctxt "@item:intext"
+msgid "by %1"
+msgstr "توسط %1"
+
+#: app/config/windowsettings.cpp:19
+#, kde-kuit-format
+msgctxt "@item:inlistbox"
+msgid "Screen %1"
+msgstr "صفحهٔ %1"
+
+#: app/config/windowsettings.cpp:99 app/mainwindow.cpp:702
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Hiding Title Bar"
+msgstr "پنهان‌سازی نوار عنوان"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_0)
+#: app/config/windowsettings.ui:32
+#, kde-format
+msgid "Title Bar"
+msgstr "نوار عنوان"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTitleBar)
+#: app/config/windowsettings.ui:38
+#, kde-format
+msgid "Show title bar"
+msgstr "نمایش نوار عنوان"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
+#: app/config/windowsettings.ui:54
+#, kde-format
+msgctxt "@title:group"
+msgid "Tab Bar"
+msgstr "نوار زبانه"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_DynamicTabTitles)
+#: app/config/windowsettings.ui:69
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If this option is enabled, the information about the active terminal's "
+"contents that is normally shown in the title bar will also be shown on the "
+"tab bar. You can modify the format of the information in the terminal "
+"profile."
+msgstr ""
+"اگر این گزینه فعال باشد، اطلاعات مربوط به محتوای پایانهٔ فعال که معمولاً در "
+"نوار عنوان نمایش داده می‌شود، در نوار زبانه نیز نشان داده خواهد شد. "
+"می‌توانید قالب این اطلاعات را در نمایهٔ پایانه تغییر دهید."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DynamicTabTitles)
+#: app/config/windowsettings.ui:72
+#, kde-format
+msgctxt "@option:check"
+msgid "Show title bar contents in tab labels"
+msgstr "نمایش محتوای نوار عنوان در برچسب‌های زبانه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTabBar)
+#: app/config/windowsettings.ui:95
+#, kde-format
+msgctxt "@option:check"
+msgid "Show the tab bar"
+msgstr "نمایش نوار زبانه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: app/config/windowsettings.ui:105
+#, kde-format
+msgctxt "@title:group"
+msgid "Size and Animation"
+msgstr "اندازه و پویانمایی"
+
+#. i18n: ectx: property (text), widget (QLabel, widthLabel)
+#: app/config/windowsettings.ui:111
+#, kde-format
+msgctxt "@label:slider"
+msgid "Width:"
+msgstr "عرض:"
+
+#. i18n: ectx: property (text), widget (QLabel, heightLabel)
+#: app/config/windowsettings.ui:165
+#, kde-format
+msgctxt "@label:slider"
+msgid "Height:"
+msgstr "ارتفاع:"
+
+#. i18n: ectx: property (text), widget (QLabel, durationLabel)
+#: app/config/windowsettings.ui:219
+#, kde-format
+msgctxt "@label:slider"
+msgid "Duration:"
+msgstr "مدت زمان:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, framesSpinBox)
+#: app/config/windowsettings.ui:251
+#, kde-format
+msgctxt "@label Spinbox unit suffix"
+msgid "ms"
+msgstr "میلی‌ثانیه"
+
+#. i18n: ectx: property (prefix), widget (QSpinBox, framesSpinBox)
+#: app/config/windowsettings.ui:254
+#, kde-format
+msgctxt "@label Spinbox unit prefix"
+msgid "~"
+msgstr "~"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseWMAssist)
+#: app/config/windowsettings.ui:270
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If this option is enabled, Yakuake will ask the window manager to perform "
+"the window open/retract animation. If the window manager is unable to "
+"provide the requested service, Yakuake will fall back to an animation "
+"strategy of progressively adjusting the window mask."
+msgstr ""
+"اگر این گزینه فعال باشد، یاکوآکه از مدیر پنجره می‌خواهد پویانمایی باز "
+"شدن/جمع شدن پنجره را انجام دهد. اگر مدیر پنجره نتواند سرویس درخواست‌شده را "
+"ارائه دهد، یاکوآکه به راهبرد پویانمایی تنظیم تدریجی ماسک پنجره بازمی‌گردد."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseWMAssist)
+#: app/config/windowsettings.ui:273
+#, kde-format
+msgctxt "@option:check"
+msgid "Ask the window manager to perform the animation"
+msgstr "درخواست از مدیر پنجره برای اجرای پویانمایی"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: app/config/windowsettings.ui:283
+#, kde-format
+msgctxt "@title:group"
+msgid "Position"
+msgstr "موقعیت"
+
+#. i18n: ectx: property (text), widget (QLabel, leftLabel)
+#: app/config/windowsettings.ui:291
+#, kde-format
+msgctxt "@item:inrange Direction to move the window in"
+msgid "Left"
+msgstr "چپ"
+
+#. i18n: ectx: property (text), widget (QLabel, rightLabel)
+#: app/config/windowsettings.ui:323
+#, kde-format
+msgctxt "@item:inrange Direction to move the window in"
+msgid "Right"
+msgstr "راست"
+
+#. i18n: ectx: property (text), widget (QLabel, screenLabel)
+#: app/config/windowsettings.ui:337
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Open on screen:"
+msgstr "باز شدن در صفحهٔ نمایش:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Screen)
+#: app/config/windowsettings.ui:348
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "At mouse location"
+msgstr "در موقعیت موشی"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Screen)
+#: app/config/windowsettings.ui:353
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Screen 1"
+msgstr "صفحهٔ نمایش ۱"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowOnAllDesktops)
+#: app/config/windowsettings.ui:376
+#, kde-format
+msgctxt "@option:check"
+msgid "Show on all desktops"
+msgstr "نمایش در همهٔ میزکارها"
+
+#. i18n: ectx: label, entry (Screen), group (Window)
+#: app/config/yakuake.kcfg:9
+#, kde-format
+msgctxt "@label"
+msgid "Screen to use"
+msgstr "صفحهٔ نمایش مورداستفاده"
+
+#. i18n: ectx: whatsthis, entry (Screen), group (Window)
+#: app/config/yakuake.kcfg:10
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The screen on which the application window will appear. 0 is understood to "
+"be the screen the mouse pointer is on."
+msgstr ""
+"صفحهٔ نمایشی که پنجرهٔ برنامه در آن ظاهر خواهد شد. ۰ به معنای صفحهٔ نمایشی "
+"است که اشاره‌گر موشی روی آن قرار دارد."
+
+#. i18n: ectx: label, entry (Width), group (Window)
+#: app/config/yakuake.kcfg:14
+#, kde-format
+msgctxt "@label"
+msgid "Window width"
+msgstr "عرض پنجره"
+
+#. i18n: ectx: whatsthis, entry (Width), group (Window)
+#: app/config/yakuake.kcfg:15
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Width of the application window as a percentage of the screen."
+msgstr "عرض پنجرهٔ برنامه به صورت درصدی از صفحهٔ نمایش."
+
+#. i18n: ectx: label, entry (Height), group (Window)
+#: app/config/yakuake.kcfg:21
+#, kde-format
+msgctxt "@label"
+msgid "Window height"
+msgstr "ارتفاع پنجره"
+
+#. i18n: ectx: whatsthis, entry (Height), group (Window)
+#: app/config/yakuake.kcfg:22
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Height of the application window as a percentage of the screen."
+msgstr "ارتفاع پنجرهٔ برنامه برحسب درصدی از صفحهٔ نمایش."
+
+#. i18n: ectx: label, entry (Position), group (Window)
+#: app/config/yakuake.kcfg:28
+#, kde-format
+msgctxt "@label"
+msgid "Window position"
+msgstr "موقعیت پنجره"
+
+#. i18n: ectx: whatsthis, entry (Position), group (Window)
+#: app/config/yakuake.kcfg:29
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Center point of the application window, as a percentage, measured from the "
+"left-hand edge of the screen."
+msgstr ""
+"نقطهٔ مرکز پنجرهٔ برنامه، به‌صورت درصدی سنجیده‌شده از لبهٔ چپ صفحهٔ نمایش."
+
+#. i18n: ectx: label, entry (ShowOnAllDesktops), group (Window)
+#: app/config/yakuake.kcfg:35
+#, kde-format
+msgctxt "@label"
+msgid "Show window on all desktops"
+msgstr "نمایش پنجره در همهٔ میزکارها"
+
+#. i18n: ectx: whatsthis, entry (ShowOnAllDesktops), group (Window)
+#: app/config/yakuake.kcfg:36
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether to show the window on all desktops."
+msgstr "این‌که پنجره در تمام میزکارها نمایش داده شود یا خیر."
+
+#. i18n: ectx: label, entry (KeepOpen), group (Window)
+#: app/config/yakuake.kcfg:40
+#, kde-format
+msgctxt "@label"
+msgid "Keep window open"
+msgstr "باز نگه داشتن پنجره"
+
+#. i18n: ectx: whatsthis, entry (KeepOpen), group (Window)
+#: app/config/yakuake.kcfg:41
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether to keep the application window open when it loses focus."
+msgstr "این‌که پنجرهٔ برنامه هنگام از دست دادن تمرکز باز بماند یا خیر."
+
+#. i18n: ectx: label, entry (KeepOpenAfterLastSessionCloses), group (Window)
+#: app/config/yakuake.kcfg:45
+#, kde-format
+msgctxt "@label"
+msgid "Keep window open after last session closes"
+msgstr "باز نگه داشتن پنجره پس از بسته‌شدن آخرین نشست"
+
+#. i18n: ectx: whatsthis, entry (KeepOpenAfterLastSessionCloses), group
+#. (Window)
+#: app/config/yakuake.kcfg:46
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether to keep the application window open after the last session is "
+"closed."
+msgstr "این‌که پنجرهٔ برنامه پس از بسته شدن آخرین نشست باز بماند یا خیر."
+
+#. i18n: ectx: label, entry (ToggleToFocus), group (Window)
+#: app/config/yakuake.kcfg:50
+#, kde-format
+msgctxt "@label"
+msgid "Use open/retract shortcut to focus window"
+msgstr "استفاده از میان‌بر بازکردن/جمع‌کردن برای تمرکز روی پنجره"
+
+#. i18n: ectx: whatsthis, entry (ToggleToFocus), group (Window)
+#: app/config/yakuake.kcfg:51
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether the open/retract keyboard shortcut can be used to focus the "
+"application window when it is already open."
+msgstr ""
+"اینکه آیا می‌توان از میان‌بر صفحه‌کلید بازکردن/جمع‌کردن برای متمرکز شدن روی "
+"پنجره برنامه در صورت باز بودن آن استفاده کرد یا خیر."
+
+#. i18n: ectx: label, entry (KeepAbove), group (Window)
+#: app/config/yakuake.kcfg:55
+#, kde-format
+msgctxt "@label"
+msgid "Keep window on top"
+msgstr "نگه‌داشتن پنجره در بالا"
+
+#. i18n: ectx: whatsthis, entry (KeepAbove), group (Window)
+#: app/config/yakuake.kcfg:56
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether to keep the application window above other windows on the screen."
+msgstr ""
+"اینکه آیا پنجره برنامه بالاتر از سایر پنجره‌ها در صفحه نگه داشته شود یا خیر."
+
+#. i18n: ectx: label, entry (ShowTitleBar), group (Window)
+#: app/config/yakuake.kcfg:60
+#, kde-format
+msgctxt "@label"
+msgid "Show title bar"
+msgstr "نمایش نوار عنوان"
+
+#. i18n: ectx: whatsthis, entry (ShowTitleBar), group (Window)
+#: app/config/yakuake.kcfg:61
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether to show the title bar in the application window."
+msgstr "اینکه آیا نوار عنوان در پنجره برنامه نمایش داده شود یا خیر."
+
+#. i18n: ectx: label, entry (ShowTabBar), group (Window)
+#: app/config/yakuake.kcfg:65
+#, kde-format
+msgctxt "@label"
+msgid "Show tab bar"
+msgstr "نمایش نوار برگه"
+
+#. i18n: ectx: whatsthis, entry (ShowTabBar), group (Window)
+#: app/config/yakuake.kcfg:66
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether to show the tab bar in the application window."
+msgstr "اینکه آیا نوار برگه در پنجره برنامه نمایش داده شود یا خیر."
+
+#. i18n: ectx: label, entry (DynamicTabTitles), group (Window)
+#: app/config/yakuake.kcfg:70
+#, kde-format
+msgctxt "@label"
+msgid "Dynamic tab titles"
+msgstr "عناوین پویای برگه‌ها"
+
+#. i18n: ectx: whatsthis, entry (DynamicTabTitles), group (Window)
+#: app/config/yakuake.kcfg:71
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether to update tab titles along with the title bar."
+msgstr ""
+"اینکه آیا عناوین برگه‌ها هم‌گام با نوار عنوان به‌روزرسانی شوند یا خیر."
+
+#. i18n: ectx: label, entry (ShowSystrayIcon), group (Window)
+#: app/config/yakuake.kcfg:75
+#, kde-format
+msgctxt "@label"
+msgid "Show a system tray icon"
+msgstr "نمایش نشانک در سینی سیستم"
+
+#. i18n: ectx: whatsthis, entry (ShowSystrayIcon), group (Window)
+#: app/config/yakuake.kcfg:76
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether to show a system tray icon."
+msgstr "این که آیا نشانکی در سینی سیستم نمایش داده شود یا خیر."
+
+#. i18n: ectx: label, entry (FocusFollowsMouse), group (Behavior)
+#: app/config/yakuake.kcfg:82
+#, kde-format
+msgctxt "@label"
+msgid "Focus follows mouse"
+msgstr "تمرکز با حرکت موشی"
+
+#. i18n: ectx: whatsthis, entry (FocusFollowsMouse), group (Behavior)
+#: app/config/yakuake.kcfg:83
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether an individual terminal in a session will be given focus when the "
+"mouse pointer is moved above it."
+msgstr ""
+"این که آیا هنگام بردن نشانگر موشی روی یک پایانهٔ مشخص در یک نشست، به آن "
+"تمرکز داده شود یا خیر."
+
+#. i18n: ectx: label, entry (OpenAfterStart), group (Behavior)
+#: app/config/yakuake.kcfg:87
+#, kde-format
+msgctxt "@label"
+msgid "Open after start"
+msgstr "باز کردن پس از آغاز"
+
+#. i18n: ectx: whatsthis, entry (OpenAfterStart), group (Behavior)
+#: app/config/yakuake.kcfg:88
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether the application window should be opened after program start."
+msgstr "این که آیا پنجرهٔ برنامه پس از آغاز برنامه باز شود یا خیر."
+
+#. i18n: ectx: label, entry (RememberFullscreen), group (Behavior)
+#: app/config/yakuake.kcfg:92
+#, kde-format
+msgctxt "@label"
+msgid "Remember window fullscreen state"
+msgstr "به‌خاطرسپاری وضعیت تمام‌صفحهٔ پنجره"
+
+#. i18n: ectx: whatsthis, entry (RememberFullscreen), group (Behavior)
+#: app/config/yakuake.kcfg:93
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether the window will be shown fullscreen again when it has been "
+"previously."
+msgstr ""
+"این که آیا پنجره در صورتی که پیش‌تر تمام‌صفحه بوده، دوباره تمام‌صفحه نشان "
+"داده شود یا خیر."
+
+#. i18n: ectx: label, entry (Skin), group (Appearance)
+#: app/config/yakuake.kcfg:99
+#, kde-format
+msgctxt "@label"
+msgid "Skin"
+msgstr "پوسته"
+
+#. i18n: ectx: whatsthis, entry (Skin), group (Appearance)
+#: app/config/yakuake.kcfg:100
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The skin to be used by the application window."
+msgstr "پوسته‌ای که توسط پنجرهٔ برنامه استفاده می‌شود."
+
+#. i18n: ectx: label, entry (SkinInstalledWithKns), group (Appearance)
+#: app/config/yakuake.kcfg:104
+#, kde-format
+msgctxt "@label"
+msgid "Skin installed by KNS"
+msgstr "پوستهٔ نصب‌شده با KNS"
+
+#. i18n: ectx: whatsthis, entry (SkinInstalledWithKns), group (Appearance)
+#: app/config/yakuake.kcfg:105
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether the currently active skin was installed via KNS."
+msgstr "این که آیا پوستهٔ فعال کنونی از طریق KNS نصب شده است یا خیر."
+
+#. i18n: ectx: label, entry (Translucency), group (Appearance)
+#: app/config/yakuake.kcfg:109
+#, kde-format
+msgctxt "@label"
+msgid "Use translucent background"
+msgstr "استفاده از پس‌زمینهٔ نیمه‌شفاف"
+
+#. i18n: ectx: whatsthis, entry (Translucency), group (Appearance)
+#: app/config/yakuake.kcfg:110
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether to make use of XComposite ARGB translucency."
+msgstr "این که آیا از شفافیت ARGB از طریق XComposite استفاده شود یا خیر."
+
+#. i18n: ectx: label, entry (BackgroundColor), group (Appearance)
+#: app/config/yakuake.kcfg:114
+#, kde-format
+msgctxt "@label"
+msgid "Window background color"
+msgstr "رنگ پس‌زمینهٔ پنجره"
+
+#. i18n: ectx: whatsthis, entry (BackgroundColor), group (Appearance)
+#: app/config/yakuake.kcfg:115
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Background color painted below skin elements."
+msgstr "رنگ پس‌زمینه که زیر عناصر پوسته رسم می‌شود."
+
+#. i18n: ectx: label, entry (BackgroundColorOpacity), group (Appearance)
+#: app/config/yakuake.kcfg:119
+#, kde-format
+msgctxt "@label"
+msgid "Background color opacity"
+msgstr "میزان ماتی رنگ پس‌زمینه"
+
+#. i18n: ectx: whatsthis, entry (BackgroundColorOpacity), group (Appearance)
+#: app/config/yakuake.kcfg:120
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The opacity of the background color fill when using translucency."
+msgstr "میزان ماتی پرکنندهٔ رنگ پس‌زمینه هنگام استفاده از نیمه‌شفافی."
+
+#. i18n: ectx: label, entry (TerminalHighlightOnManualActivation), group
+#. (Appearance)
+#: app/config/yakuake.kcfg:126
+#, kde-format
+msgctxt "@label"
+msgid "Highlight newly focused terminals"
+msgstr "برجسته‌سازی پایانه‌های تازه متمرکزشده"
+
+#. i18n: ectx: whatsthis, entry (TerminalHighlightOnManualActivation), group
+#. (Appearance)
+#: app/config/yakuake.kcfg:127
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether to briefly display a colored overlay above the newly focused "
+"terminal when moving focus between multiple terminals in a session, as well "
+"as over the currently focused terminal when switching to a session with "
+"multiple terminals."
+msgstr ""
+"این که آیا هنگام جابه‌جایی تمرکز بین چند پایانه در یک نشست، و همچنین روی "
+"پایانهٔ دارای تمرکز فعلی هنگام رفتن به نشستی با چند پایانه، یک لایهٔ رنگی "
+"موقت روی پایانهٔ تازه متمرکزشده نمایش داده شود یا خیر."
+
+#. i18n: ectx: label, entry (HideSkinBorders), group (Appearance)
+#: app/config/yakuake.kcfg:131
+#, kde-format
+msgctxt "@label"
+msgid "Hide the borders defined by the skin"
+msgstr "پنهان کردن حاشیه‌های تعریف‌شده توسط پوسته"
+
+#. i18n: ectx: whatsthis, entry (HideSkinBorders), group (Appearance)
+#: app/config/yakuake.kcfg:132
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Skins can define borders around the terminal including the tabbar. This "
+"option, when turned on, will overwrite the border settings defined by the "
+"skin and hide all borders."
+msgstr ""
+"پوسته‌ها می‌توانند در اطراف ترمینال، از جمله نوار زبانه‌ها، حاشیه تعریف "
+"کنند. در صورت فعال بودن، این گزینه تنظیمات حاشیهٔ مشخص‌شده توسط پوسته را "
+"بازنویسی کرده و تمام حاشیه‌ها را پنهان می‌کند."
+
+#. i18n: ectx: label, entry (TerminalHighlightOpacity), group (Appearance)
+#: app/config/yakuake.kcfg:136
+#, kde-format
+msgctxt "@label"
+msgid "Terminal highlight opacity"
+msgstr "کدری برجسته‌سازی ترمینال"
+
+#. i18n: ectx: whatsthis, entry (TerminalHighlightOpacity), group (Appearance)
+#: app/config/yakuake.kcfg:137
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The opacity of the colored overlay used to highlight a terminal."
+msgstr "میزان کدری لایهٔ رنگی مورد استفاده برای برجسته‌سازی ترمینال."
+
+#. i18n: ectx: label, entry (TerminalHighlightDuration), group (Appearance)
+#: app/config/yakuake.kcfg:143
+#, kde-format
+msgctxt "@label"
+msgid "Terminal highlight duration"
+msgstr "مدت‌زمان برجسته‌سازی ترمینال"
+
+#. i18n: ectx: whatsthis, entry (TerminalHighlightDuration), group
+#. (Appearance)
+#: app/config/yakuake.kcfg:144
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The duration of the terminal highlight overlay."
+msgstr "مدت‌زمان نمایش لایهٔ برجسته‌سازی ترمینال."
+
+#. i18n: ectx: label, entry (KeyboardInputBlockIndicatorColor), group
+#. (Appearance)
+#: app/config/yakuake.kcfg:150
+#, kde-format
+msgctxt "@label"
+msgid "Keyboard input block indicator color"
+msgstr "رنگ نشانگر مسدود شدن ورودی صفحه‌کلید"
+
+#. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorColor), group
+#. (Appearance)
+#: app/config/yakuake.kcfg:151
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The color of the keyboard input block indicator overlay."
+msgstr "رنگ لایهٔ نشانگر مسدود شدن ورودی صفحه‌کلید."
+
+#. i18n: ectx: label, entry (KeyboardInputBlockIndicatorOpacity), group
+#. (Appearance)
+#: app/config/yakuake.kcfg:155
+#, kde-format
+msgctxt "@label"
+msgid "Keyboard input block indicator opacity"
+msgstr "کدری نشانگر مسدود شدن ورودی صفحه‌کلید"
+
+#. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorOpacity), group
+#. (Appearance)
+#: app/config/yakuake.kcfg:156
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The opacity of the keyboard input block indicator overlay."
+msgstr "میزان کدری لایهٔ نشانگر مسدود شدن ورودی صفحه‌کلید."
+
+#. i18n: ectx: label, entry (KeyboardInputBlockIndicatorDuration), group
+#. (Appearance)
+#: app/config/yakuake.kcfg:162
+#, kde-format
+msgctxt "@label"
+msgid "Keyboard input block indicator duration"
+msgstr "مدت‌زمان نشانگر مسدود شدن ورودی صفحه‌کلید"
+
+#. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorDuration), group
+#. (Appearance)
+#: app/config/yakuake.kcfg:163
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The duration of the keyboard input block indicator overlay."
+msgstr "مدت‌زمان نمایش لایهٔ نشانگر مسدود شدن ورودی صفحه‌کلید."
+
+#. i18n: ectx: label, entry (UseWMAssist), group (Animation)
+#: app/config/yakuake.kcfg:171
+#, kde-format
+msgctxt "@label"
+msgid "Attempt to use the window manager to animate the window"
+msgstr "تلاش برای استفاده از مدیر پنجره جهت متحرک‌سازی پنجره"
+
+#. i18n: ectx: whatsthis, entry (UseWMAssist), group (Animation)
+#: app/config/yakuake.kcfg:172
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether to try and let the window manager perform the window open/retract "
+"animation. Yakuake will fall back to an animation strategy of progressively "
+"adjusting the window mask if the window manager is unable to provide the "
+"requested service."
+msgstr ""
+"این‌که آیا سعی شود اجرای پویانمایی باز شدن/جمع شدن پنجره به مدیر پنجره "
+"واگذار شود یا خیر. اگر مدیر پنجره قادر به ارائهٔ سرویس درخواستی نباشد، "
+"یاکواکه به روش پویانمایی با تنظیم تدریجی ماسک پنجره بازمی‌گردد."
+
+#. i18n: ectx: label, entry (Frames), group (Animation)
+#: app/config/yakuake.kcfg:176
+#, kde-format
+msgctxt "@label"
+msgid "Animation frames"
+msgstr "فریم‌های پویانمایی"
+
+#. i18n: ectx: whatsthis, entry (Frames), group (Animation)
+#: app/config/yakuake.kcfg:177
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The number of frames of the open/retract animation. One frame is taken to be"
+" 10 miliseconds."
+msgstr ""
+"تعداد فریم‌های پویانمایی باز شدن/جمع شدن. هر فریم معادل ۱۰ میلی‌ثانیه در نظر"
+" گرفته می‌شود."
+
+#. i18n: ectx: label, entry (PollMouse), group (AutoOpen)
+#: app/config/yakuake.kcfg:185
+#, kde-format
+msgctxt "@label"
+msgid "Auto-open window"
+msgstr "باز کردن خودکار پنجره"
+
+#. i18n: ectx: whatsthis, entry (PollMouse), group (AutoOpen)
+#: app/config/yakuake.kcfg:186
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether to automatically open the application window when the mouse pointer "
+"is found at the edge of the screen."
+msgstr ""
+"این‌که آیا با قرار گرفتن نشانگر موش هنگام رسیدن به لبهٔ صفحه، پنجرهٔ برنامه "
+"به‌طور خودکار باز شود یا خیر."
+
+#. i18n: ectx: label, entry (PollInterval), group (AutoOpen)
+#: app/config/yakuake.kcfg:190
+#, kde-format
+msgctxt "@label"
+msgid "Mouse pointer poll interval"
+msgstr "فاصلهٔ زمانی بررسی موقعیت نشانگر موش"
+
+#. i18n: ectx: whatsthis, entry (PollInterval), group (AutoOpen)
+#: app/config/yakuake.kcfg:191
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The interval during which the mouse pointer position will be checked to "
+"determine whether or not it is at the same edge of the screen as the window."
+msgstr ""
+"فاصلهٔ زمانی‌ای که طی آن موقعیت نشانگر موش بررسی می‌شود تا مشخص شود که در "
+"همان لبهٔ صفحه که پنجره قرار دارد هست یا خیر."
+
+#. i18n: ectx: label, entry (FirstRun), group (Dialogs)
+#: app/config/yakuake.kcfg:197
+#, kde-format
+msgctxt "@label"
+msgid "Application first run"
+msgstr "نخستین اجرای برنامه"
+
+#. i18n: ectx: whatsthis, entry (FirstRun), group (Dialogs)
+#: app/config/yakuake.kcfg:198
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Whether this is the first time the application is run."
+msgstr "آیا این نخستین باری است که برنامه اجرا می‌شود یا خیر."
+
+#. i18n: ectx: label, entry (ConfirmQuit), group (Dialogs)
+#: app/config/yakuake.kcfg:202
+#, kde-format
+msgctxt "@label"
+msgid "Confirm quit with multiple sessions"
+msgstr "تأیید خروج هنگام وجود چندین نشست"
+
+#. i18n: ectx: whatsthis, entry (ConfirmQuit), group (Dialogs)
+#: app/config/yakuake.kcfg:203
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Whether to prompt the user before quitting the application when multiple "
+"sessions are open."
+msgstr ""
+"آیا هنگام باز بودن چندین نشست، پیش از خروج از برنامه از کاربر سؤال شود یا "
+"خیر."
+
+#: app/firstrundialog.cpp:21
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "First Run"
+msgstr "نخستین اجرا"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
+#: app/firstrundialog.ui:46
+#, kde-format
+msgctxt "@title"
+msgid "Welcome to Yakuake"
+msgstr "به یاکواکه خوش آمدید"
+
+#. i18n: ectx: property (text), widget (QLabel, introLabel)
+#: app/firstrundialog.ui:53
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Before starting to use the application, you might want to change the "
+"keyboard shortcut used to open and retract the Yakuake window:"
+msgstr ""
+"پیش از آغاز استفاده از برنامه، شاید بخواهید میان‌بر صفحه‌کلید مورد استفاده "
+"برای باز کردن و جمع‌کردن پنجرهٔ یاکواکه را تغییر دهید:"
+
+#. i18n: ectx: property (text), widget (QLabel, outroLabel)
+#: app/firstrundialog.ui:130
+#, kde-format
+msgctxt "@info"
+msgid "You can change the shortcut later at any time via the menu."
+msgstr "می‌توانید بعداً در هر زمان از طریق منو این میان‌بر را تغییر دهید."
+
+#: app/main.cpp:25
+#, kde-kuit-format
+msgctxt "@title"
+msgid "<application>Yakuake</application>"
+msgstr "<application>یاکواکه</application>"
+
+#: app/main.cpp:27
+#, kde-kuit-format
+msgctxt "@title"
+msgid "A drop-down terminal emulator based on KDE Konsole technology."
+msgstr "شبیه‌ساز پایانهٔ کرکره‌ای مبتنی بر فناوری کنسول KDE."
+
+#: app/main.cpp:29
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "(c) 2008-2018 The Yakuake Team"
+msgstr "حق نشر ۲۰۰۸-۲۰۱۸ تیم Yakuake"
+
+#: app/main.cpp:36
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Eike Hein"
+msgstr "Eike Hein"
+
+#: app/main.cpp:36
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Maintainer, Lead Developer"
+msgstr "نگه‌دارنده، توسعه‌دهندهٔ اصلی"
+
+#: app/main.cpp:37
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Francois Chazal"
+msgstr "Francois Chazal"
+
+#: app/main.cpp:37
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Project Founder, Legacy skin (Inactive)"
+msgstr "بنیان‌گذار پروژه، پوستهٔ قدیمی (غیرفعال)"
+
+#: app/main.cpp:38
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Daniel 'suslik' D."
+msgstr "Daniel 'suslik' D."
+
+#: app/main.cpp:38
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Plastik skin"
+msgstr "پوستهٔ پلاستیک"
+
+#: app/main.cpp:39
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Juan Carlos Torres"
+msgstr "Juan Carlos Torres"
+
+#: app/main.cpp:40
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Tab bar drag and drop support, Prevent Closing toggle"
+msgstr "پشتیبانی از کشیدن و رها کردن نوار زبانه، تغییر وضعیت جلوگیری از بستن"
+
+#: app/main.cpp:42
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Gustavo Ribeiro Croscato"
+msgstr "Gustavo Ribeiro Croscato"
+
+#: app/main.cpp:43
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Icon on tabs with Prevent Closing enabled"
+msgstr "آیکون روی زبانه‌هایی با قابلیت «جلوگیری از بستن» فعال"
+
+#: app/main.cpp:45
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Danilo Cesar Lemes de Paula"
+msgstr "Danilo Cesar Lemes de Paula"
+
+#: app/main.cpp:46
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Actions to grow terminals"
+msgstr "کنش‌هایی برای گسترش پایانه‌ها"
+
+#: app/main.cpp:49
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: app/main.cpp:49
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: app/mainwindow.cpp:198
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Are you sure you want to quit?"
+msgstr "آیا مطمئنید که می‌خواهید خارج شوید؟"
+
+#: app/mainwindow.cpp:205
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<warning>There are multiple open sessions, <emphasis>some of which you have "
+"locked to prevent closing them accidentally.</emphasis> These will be killed"
+" if you continue.</warning>"
+msgstr ""
+"<warning>چندین نشست باز وجود دارد، <emphasis>که برخی از آن‌ها را برای "
+"جلوگیری از بسته شدن تصادفی قفل کرده‌اید.</emphasis> اگر ادامه دهید، این "
+"نشست‌ها متوقف خواهند شد.</warning>"
+
+#: app/mainwindow.cpp:208
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<warning>There are multiple open sessions. These will be killed if you "
+"continue.</warning>"
+msgstr ""
+"<warning>چندین نشست باز وجود دارد. اگر ادامه دهید، این نشست‌ها متوقف خواهند "
+"شد.</warning>"
+
+#: app/mainwindow.cpp:211
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<warning>There are one or more open sessions that you have locked to prevent"
+" closing them accidentally. These will be killed if you continue.</warning>"
+msgstr ""
+"<warning>یک یا چند نشست باز وجود دارد که برای جلوگیری از بسته شدن تصادفی "
+"آن‌ها را قفل کرده‌اید. اگر ادامه دهید، این نشست‌ها متوقف خواهند "
+"شد.</warning>"
+
+#: app/mainwindow.cpp:217
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Really Quit?"
+msgstr "واقعاً خارج می‌شوید؟"
+
+#: app/mainwindow.cpp:248
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Open/Retract Yakuake"
+msgstr "باز کردن/جمع کردن یاکوآکه"
+
+#: app/mainwindow.cpp:257
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Keep window open when it loses focus"
+msgstr "باز نگه داشتن پنجره هنگام از دست رفتن فوکوس"
+
+#: app/mainwindow.cpp:262
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Manage Profiles..."
+msgstr "مدیریت نمایه‌ها..."
+
+#: app/mainwindow.cpp:267
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Edit Current Profile..."
+msgstr "ویرایش نمایهٔ کنونی..."
+
+#: app/mainwindow.cpp:275
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Increase Window Width"
+msgstr "افزایش پهنای پنجره"
+
+#: app/mainwindow.cpp:280
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Decrease Window Width"
+msgstr "کاهش پهنای پنجره"
+
+#: app/mainwindow.cpp:285
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Increase Window Height"
+msgstr "افزایش ارتفاع پنجره"
+
+#: app/mainwindow.cpp:290
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Decrease Window Height"
+msgstr "کاهش ارتفاع پنجره"
+
+#: app/mainwindow.cpp:295
+#, kde-kuit-format
+msgctxt "@action"
+msgid "New Session"
+msgstr "نشست جدید"
+
+#: app/mainwindow.cpp:301
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Two Terminals, Horizontally"
+msgstr "دو پایانه، افقی"
+
+#: app/mainwindow.cpp:306
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Two Terminals, Vertically"
+msgstr "دو پایانه، عمودی"
+
+#: app/mainwindow.cpp:311
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Four Terminals, Grid"
+msgstr "چهار پایانه، شبکه‌ای"
+
+#: app/mainwindow.cpp:316
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Close Session"
+msgstr "بستن نشست"
+
+#: app/mainwindow.cpp:325
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Previous Session"
+msgstr "نشست قبلی"
+
+#: app/mainwindow.cpp:331
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Next Session"
+msgstr "نشست بعدی"
+
+#: app/mainwindow.cpp:337
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Move Session Left"
+msgstr "انتقال نشست به چپ"
+
+#: app/mainwindow.cpp:346
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Move Session Right"
+msgstr "انتقال نشست به راست"
+
+#: app/mainwindow.cpp:355
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Grow Terminal to the Right"
+msgstr "بزرگ کردن پایانه از راست"
+
+#: app/mainwindow.cpp:364
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Grow Terminal to the Left"
+msgstr "بزرگ کردن پایانه از چپ"
+
+#: app/mainwindow.cpp:373
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Grow Terminal to the Top"
+msgstr "بزرگ کردن پایانه از بالا"
+
+#: app/mainwindow.cpp:382
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Grow Terminal to the Bottom"
+msgstr "گسترش پایانه به پایین"
+
+#: app/mainwindow.cpp:391
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Rename Session..."
+msgstr "تغییر نام نشست..."
+
+#: app/mainwindow.cpp:400
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Previous Terminal"
+msgstr "پایانهٔ قبلی"
+
+#: app/mainwindow.cpp:406
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Next Terminal"
+msgstr "پایانهٔ بعدی"
+
+#: app/mainwindow.cpp:412
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Close Active Terminal"
+msgstr "بستن پایانهٔ فعال"
+
+#: app/mainwindow.cpp:421
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Split Left/Right"
+msgstr "تقسیم چپ/راست"
+
+#: app/mainwindow.cpp:430
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Split Top/Bottom"
+msgstr "تقسیم بالا/پایین"
+
+#: app/mainwindow.cpp:439
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Split Automatically"
+msgstr "تقسیم خودکار"
+
+#: app/mainwindow.cpp:448
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Prevent Closing"
+msgstr "جلوگیری از بسته‌شدن"
+
+#: app/mainwindow.cpp:456 app/tabbar.cpp:190
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Disable Keyboard Input"
+msgstr "غیرفعال‌سازی ورودی صفحه‌کلید"
+
+#: app/mainwindow.cpp:464 app/tabbar.cpp:235
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Monitor for Activity"
+msgstr "پایش برای فعالیت"
+
+#: app/mainwindow.cpp:473 app/tabbar.cpp:280
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Monitor for Silence"
+msgstr "پایش برای سکوت"
+
+#: app/mainwindow.cpp:482
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Toggle Titlebar"
+msgstr "تغییر وضعیت نوار عنوان"
+
+#: app/mainwindow.cpp:489
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Switch to Session %1"
+msgstr "جابه‌جایی به نشست %1"
+
+#: app/mainwindow.cpp:644
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Activity detected in monitored terminal in session \"%1\"."
+msgstr "فعالیت در پایانهٔ تحت پایش در نشست «%1» شناسایی شد."
+
+#: app/mainwindow.cpp:658
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Silence detected in monitored terminal in session \"%1\"."
+msgstr "سکوت در پایانهٔ تحت پایش در نشست «%1» شناسایی شد."
+
+#: app/mainwindow.cpp:717
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "راهنما"
+
+#: app/mainwindow.cpp:723
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Quick Options"
+msgstr "گزینه‌های سریع"
+
+#: app/mainwindow.cpp:729
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Screen"
+msgstr "صفحه"
+
+#: app/mainwindow.cpp:734
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Width"
+msgstr "عرض"
+
+#: app/mainwindow.cpp:739
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Height"
+msgstr "ارتفاع"
+
+#: app/mainwindow.cpp:742
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: app/mainwindow.cpp:758
+#, kde-kuit-format
+msgctxt "@item:inmenu"
+msgid "At mouse location"
+msgstr "در موقعیت موشی"
+
+#: app/mainwindow.cpp:764
+#, kde-kuit-format
+msgctxt "@item:inmenu"
+msgid "Screen %1"
+msgstr "صفحهٔ نمایش %1"
+
+#: app/mainwindow.cpp:800 app/mainwindow.cpp:822
+#, kde-format
+msgid "%1%"
+msgstr "%1٪"
+
+#: app/mainwindow.cpp:887
+#, kde-kuit-format
+msgctxt "@title Preferences page name"
+msgid "Window"
+msgstr "پنجره"
+
+#: app/mainwindow.cpp:893
+#, kde-kuit-format
+msgctxt "@title Preferences page name"
+msgid "Behavior"
+msgstr "رفتار"
+
+#: app/mainwindow.cpp:896
+#, kde-kuit-format
+msgctxt "@title Preferences page name"
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: app/mainwindow.cpp:978
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<application>Yakuake</application> was unable to load a skin. It is likely "
+"that it was installed incorrectly.<nl/><nl/>The application will now quit."
+msgstr ""
+"<application>یاکوآکه</application> نتوانست پوسته را بارگذاری کند. احتمالاً "
+"به طور نادرست نصب شده است.<nl/><nl/>برنامه اکنون بسته خواهد شد."
+
+#: app/mainwindow.cpp:980
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Cannot Load Skin"
+msgstr "نمی‌توان پوسته را بارگذاری کرد"
+
+#: app/mainwindow.cpp:1735
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Press <shortcut>%1</shortcut> to open"
+msgstr "برای باز کردن <shortcut>%1</shortcut> را فشار دهید"
+
+#: app/sessionstack.cpp:255
+#, kde-format
+msgid ""
+"The D-Bus method runCommand was just used.  There are security concerns "
+"about allowing these methods to be public.  If desired, these methods can be"
+" changed to internal use only by re-compiling Yakuake. <p>This warning will "
+"only show once for this Yakuake instance.</p>"
+msgstr ""
+"روش D-Bus به نام runCommand همین الان استفاده شد. نگرانی‌های امنیتی دربارهٔ "
+"عمومی بودن این روش‌ها وجود دارد. در صورت تمایل، می‌توانید با کامپایل مجدد "
+"Yakuake این روش‌ها را تنها برای استفادهٔ داخلی تنظیم کنید. <p>این هشدار فقط "
+"یک‌بار برای این نمونهٔ Yakuake نمایش داده خواهد شد.</p>"
+
+#: app/sessionstack.cpp:732
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<warning>You have locked this session to prevent accidental closing of "
+"terminals.</warning>"
+msgstr ""
+"<warning>شما این نشست را برای جلوگیری از بسته شدن تصادفی پایانه‌ها قفل "
+"کرده‌اید.</warning>"
+
+#: app/sessionstack.cpp:736
+#, kde-format
+msgctxt "@info"
+msgid "Are you sure you want to close this session?"
+msgstr "آیا مطمئن هستید که می‌خواهید این نشست را ببندید؟"
+
+#: app/sessionstack.cpp:738
+#, kde-format
+msgctxt "@info"
+msgid "Are you sure you want to close this terminal?"
+msgstr "آیا مطمئن هستید که می‌خواهید این پایانه را ببندید؟"
+
+#: app/sessionstack.cpp:742
+#, kde-format
+msgctxt "@title:window"
+msgid "Really Close?"
+msgstr "واقعاً بسته شود؟"
+
+#: app/tabbar.cpp:39
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Tab Bar</title><para>The tab bar allows you to switch between "
+"sessions. You can double-click a tab to edit its label.</para>"
+msgstr ""
+"<title>نوار زبانه</title><para>نوار زبانه به شما امکان می‌دهد بین نشست‌ها "
+"جابه‌جا شوید. با دوبار کلیک روی یک زبانه می‌توانید برچسب آن را ویرایش "
+"کنید.</para>"
+
+#: app/tabbar.cpp:58
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Disable Keyboard Input"
+msgstr "غیرفعال کردن ورودی صفحه‌کلید"
+
+#: app/tabbar.cpp:59
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Monitor for Activity"
+msgstr "پایش برای فعالیت"
+
+#: app/tabbar.cpp:60
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Monitor for Silence"
+msgstr "پایش برای سکوت"
+
+#: app/tabbar.cpp:69
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "New Session"
+msgstr "نشست جدید"
+
+#: app/tabbar.cpp:70
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "Adds a new session. Press and hold to select session type from menu."
+msgstr ""
+"یک نشست جدید اضافه می‌کند. برای انتخاب نوع نشست از منو، فشار داده و نگه "
+"دارید."
+
+#: app/tabbar.cpp:75
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Close Session"
+msgstr "بستن نشست"
+
+#: app/tabbar.cpp:76
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "Closes the active session."
+msgstr "نشست فعال را می‌بندد."
+
+#: app/tabbar.cpp:194
+#, kde-kuit-format
+msgctxt "@action"
+msgid "For This Session"
+msgstr "برای این نشست"
+
+#: app/tabbar.cpp:211
+#, kde-kuit-format
+msgctxt "@action"
+msgid "For Terminal %1"
+msgstr "برای پایانهٔ %1"
+
+#: app/tabbar.cpp:239 app/tabbar.cpp:284
+#, kde-kuit-format
+msgctxt "@action"
+msgid "In This Session"
+msgstr "در این نشست"
+
+#: app/tabbar.cpp:256 app/tabbar.cpp:301
+#, kde-kuit-format
+msgctxt "@action"
+msgid "In Terminal %1"
+msgstr "در پایانهٔ %1"
+
+#: app/tabbar.cpp:933
+#, kde-kuit-format
+msgctxt "@title:tab"
+msgid "Shell"
+msgstr "پوسته"
+
+#: app/tabbar.cpp:935
+#, kde-kuit-format
+msgctxt "@title:tab"
+msgid "Shell No. %1"
+msgstr "پوستهٔ شمارهٔ %1"
+
+#: app/terminal.cpp:163
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<application>Yakuake</application> was unable to load the "
+"<application>Konsole</application> component.<nl/> A "
+"<application>Konsole</application> installation is required to use Yakuake."
+msgstr ""
+"<application>یاکوآکه</application> نتوانست مؤلفهٔ "
+"<application>کنسول</application> را بارگیری کند.<nl/> برای استفاده از "
+"یاکوآکه، نصب بودن <application>کنسول</application> الزامی است."
+
+#: app/titlebar.cpp:23
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Title Bar</title><para>The title bar displays the session title if "
+"available.</para>"
+msgstr ""
+"<title>نوار عنوان</title><para>نوار عنوان، عنوان نشست را در صورت دردسترس "
+"بودن نمایش می‌دهد.</para>"
+
+#: app/titlebar.cpp:36
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Keep window open when it loses focus"
+msgstr "باز نگه داشتن پنجره هنگام از دست رفتن تمرکز"
+
+#: app/titlebar.cpp:37
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "If this is checked, the window will stay open when it loses focus."
+msgstr ""
+"اگر این گزینه علامت زده شود، پنجره با از دست دادن تمرکز باز خواهد ماند."
+
+#: app/titlebar.cpp:44
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Open Menu"
+msgstr "باز کردن منو"
+
+#: app/titlebar.cpp:45
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "Opens the main menu."
+msgstr "منوی اصلی را باز می‌کند."
+
+#: app/titlebar.cpp:50
+#, kde-kuit-format
+msgctxt "@info:tooltip Quits the application"
+msgid "Quit"
+msgstr "خروج"
+
+#: app/titlebar.cpp:51
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "Quits the application."
+msgstr "از برنامه خارج می‌شود."

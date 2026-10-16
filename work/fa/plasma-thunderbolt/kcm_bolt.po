@@ -1,0 +1,189 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_bolt package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_bolt\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-20 00:44+0000\n"
+"PO-Revision-Date: 2026-10-16 01:39+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ui/DeviceView.qml:56
+#, kde-format
+msgid "Vendor:"
+msgstr "سازنده:"
+
+#: ui/DeviceView.qml:60
+#, kde-format
+msgid "UID:"
+msgstr "شناسه کاربر (UID):"
+
+#: ui/DeviceView.qml:64
+#, kde-format
+msgid "Status:"
+msgstr "وضعیت:"
+
+#: ui/DeviceView.qml:69
+#, kde-format
+msgid "Authorized at:"
+msgstr "مجازشده در:"
+
+#: ui/DeviceView.qml:74
+#, kde-format
+msgid "Connected at:"
+msgstr "متصل‌شده در:"
+
+#: ui/DeviceView.qml:79
+#, kde-format
+msgid "Enrolled at:"
+msgstr "ثبت‌نام‌شده در:"
+
+#: ui/DeviceView.qml:83
+#, kde-format
+msgid "Yes"
+msgstr "بله"
+
+#: ui/DeviceView.qml:83
+#, kde-format
+msgid "No"
+msgstr "خیر"
+
+#: ui/DeviceView.qml:84
+#, kde-format
+msgid "Trusted:"
+msgstr "قابل اعتماد:"
+
+#: ui/DeviceView.qml:94
+#, kde-format
+msgid "Authorizing…"
+msgstr "در حال مجاز کردن…"
+
+#: ui/DeviceView.qml:94
+#, kde-format
+msgid "Authorize"
+msgstr "اجازه‌دادن"
+
+#: ui/DeviceView.qml:105 ui/DeviceView.qml:125
+#, kde-format
+msgid "Failed to enroll device <b>%1</b>: %2"
+msgstr "ثبت دستگاه <b>%1</b> ناموفق بود: %2"
+
+#: ui/DeviceView.qml:112
+#, kde-format
+msgid "Trust this Device"
+msgstr "اعتماد به این دستگاه"
+
+#: ui/DeviceView.qml:133
+#, kde-format
+msgid "Revoke Trust"
+msgstr "لغو اعتماد"
+
+#: ui/DeviceView.qml:145
+#, kde-format
+msgid "Error changing device trust: <b>%1</b>: %2"
+msgstr "خطا در تغییر وضعیت اعتماد به دستگاه: <b>%1</b>: %2"
+
+#: ui/DeviceView.qml:161
+#, kde-format
+msgid ""
+"Hint: trusted device will be automatically authorized the next time it is "
+"connected to the computer."
+msgstr ""
+"نکته: دفعهٔ بعد که دستگاه قابل‌اعتماد به رایانه متصل شود، به‌طور خودکار مجاز"
+" خواهد شد."
+
+#: ui/DeviceView.qml:162
+#, kde-format
+msgid ""
+"Hint: an untrusted device needs to be manually authorized each time it is "
+"connected to the computer."
+msgstr ""
+"نکته: هربار که دستگاه غیرقابل‌اعتماد به رایانه متصل شود، باید به‌صورت دستی "
+"مجاز شود."
+
+#: ui/main.qml:31
+#, kde-format
+msgctxt "@option:check Enable Thunderbolt subsystem"
+msgid "Enable"
+msgstr "فعال‌سازی"
+
+#: ui/main.qml:32
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Thunderbolt subsystem"
+msgstr "فعال‌سازی زیرسیستم تاندربولت"
+
+#: ui/main.qml:63
+#, kde-format
+msgid "Thunderbolt support has been disabled in BIOS"
+msgstr "پشتیبانی از تاندربولت در بایوس (BIOS) غیرفعال شده است"
+
+#: ui/main.qml:64
+#, kde-format
+msgid "Follow your system manufacturer's guide to enable Thunderbolt support"
+msgstr ""
+"برای فعال‌سازی پشتیبانی از تاندربولت، راهنمای سازندهٔ سیستم خود را دنبال "
+"کنید"
+
+#: ui/main.qml:70
+#, kde-format
+msgid "No Thunderbolt devices connected"
+msgstr "هیچ دستگاه تاندربولتی متصل نیست"
+
+#: ui/main.qml:71
+#, kde-format
+msgid "Plug in a Thunderbolt device"
+msgstr "یک دستگاه تاندربولت وصل کنید"
+
+#: ui/main.qml:85
+#, kde-format
+msgid "Thunderbolt subsystem is disabled or unavailable"
+msgstr "زیرسیستم تاندربولت غیرفعال یا دردسترس نیست"
+
+#: ui/main.qml:86
+#, kde-format
+msgid ""
+"If the device supports Thunderbolt, try plugging in a Thunderbolt device"
+msgstr ""
+"اگر دستگاه از تاندربولت پشتیبانی می‌کند، وصل کردن یک دستگاه تاندربولت را "
+"امتحان کنید"
+
+#: ui/utils.js:18
+msgid "Disconnected"
+msgstr "قطع شد"
+
+#: ui/utils.js:21
+msgid "Connecting"
+msgstr "در حال اتصال"
+
+#: ui/utils.js:24
+msgid "Connected"
+msgstr "متصل شد"
+
+#: ui/utils.js:28
+msgid "Authorization Error"
+msgstr "خطای مجوزدهی"
+
+#: ui/utils.js:31
+msgid "Authorizing"
+msgstr "در حال صدور مجوز"
+
+#: ui/utils.js:36
+msgid "Reduced Functionality"
+msgstr "عملکرد کاهش‌یافته"
+
+#: ui/utils.js:38
+msgid "Connected & Authorized"
+msgstr "متصل و مجاز"
+
+#: ui/utils.js:46
+msgid "Trusted"
+msgstr "مورد اعتماد"

@@ -1,0 +1,2765 @@
+# translation of akregator.po to Persian
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohamad Reza Mirdamadi <mohi@ubuntu.ir>, 2010, 2012.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: akregator\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-07 00:49+0000\n"
+"PO-Revision-Date: 2026-10-15 13:17+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: ./src/about/introduction_akregator.html:18
+msgid ""
+"Feed readers provide a convenient way to browse different kinds of content, "
+"including news, blogs, and other content from online sites. Instead of "
+"checking all your favorite web sites manually for updates, Akregator "
+"collects the content for you."
+msgstr ""
+"خوراک‌خوان‌ها روش مناسبی را برای مرور انواع مختلف محتوا از جمله اخبار، "
+"وب‌نوشت‌ها و سایر محتواهای وبگاه‌های برخط فراهم می‌کنند. به‌جای بررسی دستی "
+"همهٔ وبگاه‌های موردعلاقه‌تان برای به‌روزرسانی‌ها، آکرگاتور محتوا را برای شما"
+" جمع‌آوری می‌کند."
+
+#: ./src/about/introduction_akregator.html:19
+msgid ""
+"For more information about using Akregator, check the <a "
+"href='https://kontact.kde.org/components/akregator/'>Akregator website</a>. "
+"If you do not want to see this page anymore, <a "
+"href='config:/disable_introduction'>click here</a>."
+msgstr ""
+"برای اطلاعات بیشتر در مورد استفاده از آکرگاتور، <a "
+"href='https://kontact.kde.org/components/akregator/'>وبگاه آکرگاتور</a> را "
+"بررسی کنید. اگر دیگر نمی‌خواهید این صفحه را ببینید، <a "
+"href='config:/disable_introduction'>اینجا کلیک کنید</a>."
+
+#: ./src/formatter/html/combinedview.html:24
+msgid "Mark as Read"
+msgstr "علامت‌گذاری به عنوان خوانده‌شده"
+
+#: ./src/formatter/html/combinedview.html:27
+msgid "Mark as Unread"
+msgstr "علامت‌گذاری به عنوان خوانده‌نشده"
+
+#: ./src/formatter/html/combinedview.html:31
+msgid "Remove Important Status"
+msgstr "حذف وضعیت مهم"
+
+#: ./src/formatter/html/combinedview.html:33
+msgid "Mark as Important"
+msgstr "علامت‌گذاری به عنوان مهم"
+
+#: ./src/formatter/html/combinedview.html:35
+msgid "Open Link in External Browser"
+msgstr "باز کردن پیوند در مرورگر خارجی"
+
+#: ./src/formatter/html/combinedview.html:36
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:112
+#, kde-format
+msgid "Open In Background Tab"
+msgstr "باز کردن در برگهٔ پس‌زمینه"
+
+#: ./src/formatter/html/combinedview.html:37
+msgid "Send File Address"
+msgstr "ارسال نشانی پرونده"
+
+#: ./src/formatter/html/combinedview.html:38
+msgid "Send Link Address"
+msgstr "ارسال نشانی پیوند"
+
+#: ./src/formatter/html/combinedview.html:39
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:98
+#, kde-format
+msgid "Delete Article"
+msgstr "حذف مقاله"
+
+#: ./src/formatter/html/normalview.html:19
+msgid ""
+"<b>Note:</b> For security reasons, external reference is blocked (See "
+"configure dialog)."
+msgstr ""
+"<b>نکته:</b> به دلایل امنیتی، ارجاع خارجی مسدود شده است (گفت‌وگوی پیکربندی "
+"را ببینید)."
+
+#: configuration/akregator_config_accounts.cpp:39
+#, kde-format
+msgctxt "@title:column"
+msgid "Account"
+msgstr "حساب"
+
+#: configuration/akregator_config_accounts.cpp:39
+#, kde-format
+msgctxt "@title:column"
+msgid "Type"
+msgstr "نوع"
+
+#: configuration/akregator_config_accounts.cpp:45
+#, kde-format
+msgctxt "@action:button Add account"
+msgid "Add…"
+msgstr "افزودن…"
+
+#: configuration/akregator_config_accounts.cpp:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Modify…"
+msgstr "تغییر…"
+
+#: configuration/akregator_config_accounts.cpp:47
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "حذف"
+
+#: configuration/akregator_config_accounts.cpp:134
+#, kde-format
+msgid ""
+"Do you really want to remove the account “%1”?\n"
+"This removes the account’s folder from the feed tree and deletes its stored credentials; the server is not affected."
+msgstr ""
+"آیا واقعاً می‌خواهید حساب «%1» را حذف کنید؟\n"
+"با این کار، پوشهٔ حساب از درخت خوراک برداشته شده و اطلاعات کاربری ذخیره‌شدهٔ آن پاک می‌شود؛ کارساز تحت تأثیر قرار نمی‌گیرد."
+
+#: configuration/akregator_config_accounts.cpp:138
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Account"
+msgstr "حذف حساب"
+
+#: configuration/akregator_config_archive.cpp:37
+#, kde-format
+msgctxt "Limit feed archive size to:"
+msgid "%v article"
+msgid_plural "%v articles"
+msgstr[0] "%v مقاله"
+msgstr[1] "%v مقاله"
+
+#: configuration/akregator_config_archive.cpp:38
+#, kde-format
+msgctxt "Delete articles older than:"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] "%v روز"
+msgstr[1] "%v روز"
+
+#: configuration/akregator_config_general.cpp:33
+#, kde-format
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " دقیقه"
+msgstr[1] " دقیقه"
+
+#: configuration/akregatorconfigurepluginlistwidget.cpp:55
+#, kde-format
+msgid "Webengine Plugins"
+msgstr "پلاگین‌های موتور وب"
+
+#: configuration/settings_advanced.cpp:25
+#, kde-format
+msgctxt "Mark selected article read after"
+msgid "%v second"
+msgid_plural "%v seconds"
+msgstr[0] "%v ثانیه"
+msgstr[1] "%v ثانیه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configuration/ui/settings_advancedbase.ui:30
+#, kde-format
+msgid "Article List"
+msgstr "فهرست مقاله‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseMarkReadDelay)
+#: configuration/ui/settings_advancedbase.ui:38
+#, kde-format
+msgid "Mar&k selected article read after"
+msgstr "علامت‌گذاری مقالهٔ انتخاب‌شده به‌عنوان خوانده‌شده پس از"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_ResetQuickFilterOnNodeChange)
+#: configuration/ui/settings_advancedbase.ui:73
+#, kde-format
+msgid "Reset search bar when changing feeds"
+msgstr "بازنشانی نوار جست‌وجو هنگام تغییر خوراک‌ها"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: configuration/ui/settings_appearance.ui:30
+#, kde-format
+msgid "Article List Colors"
+msgstr "رنگ‌های فهرست مقاله‌ها"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_unreadArticles)
+#: configuration/ui/settings_appearance.ui:53
+#, kde-format
+msgid "Unread articles:"
+msgstr "مقاله‌های خوانده‌نشده:"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_newArticles)
+#: configuration/ui/settings_appearance.ui:76
+#, kde-format
+msgid "New articles:"
+msgstr "مقاله‌های جدید:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseCustomColors)
+#: configuration/ui/settings_appearance.ui:98
+#, kde-format
+msgid "Use custom colors"
+msgstr "استفاده از رنگ‌های سفارشی"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: configuration/ui/settings_appearance.ui:121
+#, kde-format
+msgid "Font Size"
+msgstr "اندازه قلم"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_MinimumFontSize)
+#: configuration/ui/settings_appearance.ui:127
+#, kde-format
+msgid "Minimum font size:"
+msgstr "حداقل اندازه قلم:"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_MediumFontSize)
+#: configuration/ui/settings_appearance.ui:176
+#, kde-format
+msgid "Medium font size:"
+msgstr "اندازه قلم متوسط:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configuration/ui/settings_appearance.ui:228
+#, kde-format
+msgid "Fonts"
+msgstr "قلم‌ها"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: configuration/ui/settings_appearance.ui:234
+#, kde-format
+msgid "Standard font:"
+msgstr "قلم استاندارد:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: configuration/ui/settings_appearance.ui:244
+#, kde-format
+msgid "Fixed font:"
+msgstr "قلم عرض‌ثابت:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: configuration/ui/settings_appearance.ui:254
+#, kde-format
+msgid "Serif font:"
+msgstr "قلم سریف:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: configuration/ui/settings_appearance.ui:264
+#, kde-format
+msgid "Sans serif font:"
+msgstr "قلم بدون گوشه (Sans serif):"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configuration/ui/settings_archive.ui:30
+#, kde-format
+msgid "Default Archive Settings"
+msgstr "تنظیمات پیش‌فرض بایگانی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_DisableArchiving)
+#: configuration/ui/settings_archive.ui:36
+#, kde-format
+msgid "Disa&ble archiving"
+msgstr "غیرفعال کردن بایگانی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_KeepAllArticles)
+#. i18n: ectx: property (text), widget (QRadioButton, rb_keepAllArticles)
+#: configuration/ui/settings_archive.ui:43
+#: src/ui/feedpropertieswidgetbase.ui:335
+#, kde-format
+msgid "&Keep all articles"
+msgstr "نگه‌داری همه مقاله‌ها"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_LimitArticleNumber)
+#: configuration/ui/settings_archive.ui:64
+#, kde-format
+msgid "Limit feed archi&ve size to:"
+msgstr "محدود کردن اندازهٔ بایگانی فید به:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_LimitArticleAge)
+#: configuration/ui/settings_archive.ui:100
+#, kde-format
+msgid "Delete articles older than: "
+msgstr "حذف مقاله‌های قدیمی‌تر از: "
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_DoNotExpireImportantArticles)
+#: configuration/ui/settings_archive.ui:138
+#, kde-format
+msgid "Do not expire important articles"
+msgstr "مقاله‌های مهم منقضی نشوند"
+
+#. i18n: ectx: property (text), widget (QLabel, LMBlabel)
+#: configuration/ui/settings_browser.ui:20
+#, kde-format
+msgid "Left mouse click:"
+msgstr "کلیک چپ موش‌واره:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LMBBehaviour)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
+#: configuration/ui/settings_browser.ui:28
+#: configuration/ui/settings_browser.ui:54
+#: src/actions/actionmanagerimpl.cpp:348
+#, kde-format
+msgid "Open in Tab"
+msgstr "باز کردن در برگه"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LMBBehaviour)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
+#: configuration/ui/settings_browser.ui:33
+#: configuration/ui/settings_browser.ui:59
+#: src/actions/actionmanagerimpl.cpp:354
+#, kde-format
+msgid "Open in Background Tab"
+msgstr "باز کردن در برگهٔ پس‌زمینه"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LMBBehaviour)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MMBBehaviour)
+#: configuration/ui/settings_browser.ui:38
+#: configuration/ui/settings_browser.ui:64
+#: src/actions/actionmanagerimpl.cpp:360
+#, kde-format
+msgid "Open in External Browser"
+msgstr "باز کردن در مرورگر خارجی"
+
+#. i18n: ectx: property (text), widget (QLabel, MMBlabel)
+#: configuration/ui/settings_browser.ui:46
+#, kde-format
+msgid "Middle mouse click:"
+msgstr "کلیک وسط موشواره:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, externalBrowserGroupBox)
+#: configuration/ui/settings_browser.ui:74
+#, kde-format
+msgid "External Browsing"
+msgstr "مرور خارجی"
+
+#. i18n: ectx: property (text), widget (QLineEdit,
+#. kcfg_ExternalBrowserCustomCommand)
+#: configuration/ui/settings_browser.ui:83
+#, no-c-format, kde-format
+msgid "firefox %u"
+msgstr "firefox %u"
+
+#. i18n: ectx: property (text), widget (QRadioButton,
+#. kcfg_ExternalBrowserUseCustomCommand)
+#: configuration/ui/settings_browser.ui:90
+#, kde-format
+msgid "Use &this command:"
+msgstr "استفاده از این دستور:"
+
+#. i18n: ectx: property (text), widget (QRadioButton,
+#. kcfg_ExternalBrowserUseKdeDefault)
+#: configuration/ui/settings_browser.ui:97
+#, kde-format
+msgid "Use default web &browser"
+msgstr "استفاده از مرورگر وب پیش‌فرض"
+
+#. i18n: ectx: property (title), widget (QGroupBox, tabsGroupBox)
+#: configuration/ui/settings_browser.ui:110
+#, kde-format
+msgid "Tabs"
+msgstr "برگه‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysShowTabBar)
+#. i18n: ectx: label, entry, group (Browser)
+#: configuration/ui/settings_browser.ui:116 interfaces/akregator.kcfg:207
+#, kde-format
+msgid "Always show the tab bar"
+msgstr "همیشه نوار برگه نشان داده شود"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CloseButtonOnTabs)
+#: configuration/ui/settings_browser.ui:123
+#, kde-format
+msgid "Show close button on each tab"
+msgstr "نمایش دکمهٔ بستن روی هر برگه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_NewWindowInTab)
+#. i18n: ectx: label, entry, group (Browser)
+#: configuration/ui/settings_browser.ui:130 interfaces/akregator.kcfg:217
+#, kde-format
+msgid "Open links in new tab instead of in new window"
+msgstr "باز کردن پیوندها در برگهٔ جدید به‌جای پنجرهٔ جدید"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configuration/ui/settings_browser.ui:140
+#, kde-format
+msgid "Security"
+msgstr "امنیت"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckPhishingUrl)
+#: configuration/ui/settings_browser.ui:146
+#, kde-format
+msgid "Verify URLs using Google’s Safe Browsing API"
+msgstr "اعتبارسنجی نشانی‌های اینترنتی با استفاده از API مرور امن گوگل"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableJavascript)
+#. i18n: ectx: label, entry, group (Browser)
+#: configuration/ui/settings_browser.ui:153 interfaces/akregator.kcfg:203
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "فعال‌سازی جاوااسکریپت"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: configuration/ui/settings_browser.ui:163
+#, kde-format
+msgid "Accessibility"
+msgstr "دسترسی‌پذیری"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccessKeyEnabled)
+#: configuration/ui/settings_browser.ui:169
+#, kde-format
+msgid "Enable Access Key activation with Ctrl key"
+msgstr "فعال‌سازی کلید دسترسی با کلید Ctrl"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: configuration/ui/settings_general.ui:30
+#, kde-format
+msgctxt "global settings"
+msgid "Global"
+msgstr "سراسری"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTrayIcon)
+#: configuration/ui/settings_general.ui:36
+#, kde-format
+msgid "Show tra&y icon"
+msgstr "نمایش نماد در سینی سیستم"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowUnreadInTaskbar)
+#: configuration/ui/settings_general.ui:43
+#, kde-format
+msgid "Show unread articles in Taskbar"
+msgstr "نمایش مقالات خوانده‌نشده در نوار وظیفه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideReadFeeds)
+#. i18n: ectx: label, entry, group (View)
+#: configuration/ui/settings_general.ui:50 interfaces/akregator.kcfg:9
+#, kde-format
+msgid "Hide feeds with no unread articles"
+msgstr "پنهان‌سازی فیدهای بدون مقالهٔ خوانده‌نشده"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_LockFeedsInPlace)
+#: configuration/ui/settings_general.ui:57
+#, kde-format
+msgid "Lock feeds in place"
+msgstr "قفل کردن فیدها در جای خود"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoExpandFolders)
+#. i18n: ectx: whatsthis, entry, group (View)
+#: configuration/ui/settings_general.ui:64 interfaces/akregator.kcfg:27
+#, kde-format
+msgid "Auto-expand folders containing unread articles"
+msgstr "باز کردن خودکار پوشه‌های حاوی مقاله‌های خوانده‌نشده"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseNotifications)
+#: configuration/ui/settings_general.ui:74
+#, kde-format
+msgid "Select this if you want to get notified when there are new articles."
+msgstr ""
+"اگر می‌خواهید هنگام رسیدن مقاله‌های جدید مطلع شوید، این گزینه را انتخاب "
+"کنید."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseNotifications)
+#: configuration/ui/settings_general.ui:77
+#, kde-format
+msgid "Use &notifications for all feeds"
+msgstr "استفاده از اعلانات برای همهٔ خوراک‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_DisableSaveAsNotification)
+#: configuration/ui/settings_general.ui:84
+#, kde-format
+msgid "Disable save as finished notification"
+msgstr "غیرفعال‌سازی اعلان پایان ذخیره‌سازی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseIntervalFetch)
+#: configuration/ui/settings_general.ui:91
+#, kde-format
+msgid "&Use interval fetching"
+msgstr "استفاده از دریافت در بازه‌های زمانی"
+
+#. i18n: ectx: property (text), widget (QLabel, autoFetchIntervalLabel)
+#: configuration/ui/settings_general.ui:119
+#, kde-format
+msgid "Fetch feeds every:"
+msgstr "دریافت خوراک‌ها هر:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PlasmaActivitySupport)
+#: configuration/ui/settings_general.ui:157
+#, kde-format
+msgid "Enable Plasma Activities integration"
+msgstr "فعال‌سازی یکپارچه‌سازی با فعالیت‌های پلاسما"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: configuration/ui/settings_general.ui:167
+#, kde-format
+msgid "Startup"
+msgstr "راه‌اندازی"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_MarkAllFeedsReadOnStartup)
+#: configuration/ui/settings_general.ui:173
+#, kde-format
+msgid "Mark &all feeds as read on startup"
+msgstr "علامت‌گذاری همهٔ خوراک‌ها به عنوان خوانده‌شده هنگام راه‌اندازی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FetchOnStartup)
+#: configuration/ui/settings_general.ui:180
+#, kde-format
+msgid "Fetch all fee&ds on startup"
+msgstr "دریافت همهٔ خوراک‌ها هنگام راه‌اندازی"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configuration/ui/settings_general.ui:190
+#, kde-format
+msgid "Network"
+msgstr "شبکه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseHTMLCache)
+#: configuration/ui/settings_general.ui:196
+#, kde-format
+msgid "Use the &browser cache (less network traffic)"
+msgstr "استفاده از حافظهٔ پنهان مرورگر (ترافیک شبکهٔ کمتر)"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_LoadExternalReferences)
+#: configuration/ui/settings_security.ui:17
+#, kde-format
+msgid "Allow article preview to load external references"
+msgstr "اجازه به پیش‌نمایش مقاله برای بارگیری ارجاع‌های خارجی"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_LoadExternalReferences)
+#: configuration/ui/settings_security.ui:20
+#, kde-format
+msgid ""
+"Allow the article preview to load external references from the Internet. "
+"This may allow websites or third parties to observe the articles that you "
+"have viewed."
+msgstr ""
+"اجازه به پیش‌نمایش مقاله برای بارگیری ارجاع‌های خارجی از اینترنت. این کار "
+"ممکن است به وب‌گاه‌ها یا اشخاص ثالث اجازه دهد مقالاتی را که مشاهده کرده‌اید،"
+" ببینند."
+
+#: export/akregatorstorageexporter.cpp:282
+#, kde-format
+msgid "Akregator Export for %1"
+msgstr "برون‌ریزی آکرگاتور برای %1"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:10
+#, kde-format
+msgid "Hides feeds with no unread articles"
+msgstr "پنهان کردن خوراک‌های بدون مقالهٔ خوانده‌نشده"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:21
+#, kde-format
+msgid "Prevent feeds from being moved in the list"
+msgstr "جلوگیری از جابه‌جایی خوراک‌ها در فهرست"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:22
+#, kde-format
+msgid "Locks feeds where they are"
+msgstr "قفل کردن خوراک‌ها در جای خود"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:26
+#, kde-format
+msgid "Auto-Expand folders with unread articles"
+msgstr "باز کردن خودکار پوشه‌های دارای مقالهٔ خوانده‌نشده"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:31 src/actions/actionmanagerimpl.cpp:342
+#, kde-format
+msgid "Show Quick Filter"
+msgstr "نمایش پالایهٔ سریع"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:32
+#, kde-format
+msgid "Show Quick Filter Bar"
+msgstr "نمایش نوار فیلتر سریع"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:36
+#, kde-format
+msgid "Status Filter"
+msgstr "فیلتر وضعیت"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:37
+#, kde-format
+msgid "Stores the last status filter setting"
+msgstr "آخرین تنظیمات فیلتر وضعیت را ذخیره می‌کند"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:41
+#, kde-format
+msgid "Text Filter"
+msgstr "فیلتر متن"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:42
+#, kde-format
+msgid "Stores the last search line text"
+msgstr "آخرین متن خط جستجو را ذخیره می‌کند"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:45
+#, kde-format
+msgid "View Mode"
+msgstr "حالت نما"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:46
+#, kde-format
+msgid "Article display mode."
+msgstr "حالت نمایش مقاله."
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:50
+#, kde-format
+msgid "Sizes for first splitter"
+msgstr "اندازه‌های جداکننده اول"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:51
+#, kde-format
+msgid "First (usually vertical) splitter widget sizes."
+msgstr "اندازه‌های ابزارک جداکننده اول (معمولاً عمودی)."
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:55
+#, kde-format
+msgid "Sizes for second splitter"
+msgstr "اندازه‌های جداکننده دوم"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:56
+#, kde-format
+msgid "Second (usually horizontal) splitter widget sizes."
+msgstr "اندازه‌های ویجت جداکنندهٔ دوم (معمولاً افقی)."
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:97
+#, kde-format
+msgid "Archive Mode"
+msgstr "حالت بایگانی"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:101
+#, kde-format
+msgid "Keep All Articles"
+msgstr "نگه‌داری همهٔ مقاله‌ها"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:102
+#, kde-format
+msgid "Save an unlimited number of articles."
+msgstr "ذخیرهٔ تعداد نامحدود مقاله."
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:105
+#, kde-format
+msgid "Limit Number of Articles"
+msgstr "محدود کردن تعداد مقاله‌ها"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:106
+#, kde-format
+msgid "Limit the number of articles in a feed"
+msgstr "محدود کردن تعداد مقاله‌ها در یک فید"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:109
+#, kde-format
+msgid "Delete Expired Articles"
+msgstr "حذف مقاله‌های منقضی‌شده"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:110
+#, kde-format
+msgid "Delete expired articles"
+msgstr "حذف مقاله‌های منقضی‌شده"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:113
+#, kde-format
+msgid "Disable Archiving"
+msgstr "غیرفعال‌سازی بایگانی"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:114
+#, kde-format
+msgid "Do not save any articles"
+msgstr "هیچ مقاله‌ای ذخیره نشود"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:119
+#, kde-format
+msgid "Expiry Age"
+msgstr "مدت انقضا"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:120
+#, kde-format
+msgid "Default expiry age for articles in days."
+msgstr "مدت پیش‌فرض انقضای مقاله‌ها برحسب روز."
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:124
+#, kde-format
+msgid "Article Limit"
+msgstr "محدودیت تعداد مقاله‌ها"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:125
+#, kde-format
+msgid "Number of articles to keep per feed."
+msgstr "تعداد مقالاتی که برای هر خوراک نگهداری می‌شوند."
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:129
+#, kde-format
+msgid "Do Not Expire Important Articles"
+msgstr "مقاله‌های مهم منقضی نشوند"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:130
+#, kde-format
+msgid ""
+"When this option is enabled, articles you marked as important will not be "
+"removed when limit the archive size by either age or number of the articles."
+msgstr ""
+"با فعال‌سازی این گزینه، هنگام محدود کردن اندازهٔ بایگانی بر اساس قدمت یا "
+"تعداد مقاله‌ها، مواردی که به‌عنوان مهم علامت زده‌اید حذف نخواهند شد."
+
+#. i18n: ectx: label, entry, group (Network)
+#: interfaces/akregator.kcfg:136
+#, kde-format
+msgid "Concurrent Fetches"
+msgstr "واکشی‌های هم‌زمان"
+
+#. i18n: ectx: whatsthis, entry, group (Network)
+#: interfaces/akregator.kcfg:137
+#, kde-format
+msgid "Number of concurrent fetches"
+msgstr "تعداد واکشی‌های هم‌زمان"
+
+#. i18n: ectx: label, entry, group (Network)
+#: interfaces/akregator.kcfg:141
+#, kde-format
+msgid "Use HTML Cache"
+msgstr "استفاده از حافظهٔ موقت HTML"
+
+#. i18n: ectx: whatsthis, entry, group (Network)
+#: interfaces/akregator.kcfg:142
+#, kde-format
+msgid ""
+"Use the KDE-wide HTML cache settings when downloading feeds, to avoid "
+"unnecessary traffic. Disable only when necessary."
+msgstr ""
+"استفاده از تنظیمات سرتاسری حافظهٔ موقت HTML در KDE هنگام بارگیری خوراک‌ها "
+"برای جلوگیری از ترافیک غیرضروری. فقط در صورت لزوم غیرفعال شود."
+
+#. i18n: ectx: whatsthis, entry, group (Network)
+#: interfaces/akregator.kcfg:146
+#, kde-format
+msgid ""
+"This option allows user to specify custom user-agent string instead of using"
+" the default one. This is here because some proxies may interrupt the "
+"connection because of having “gator” in the name."
+msgstr ""
+"این گزینه به کاربر امکان می‌دهد به‌جای استفاده از رشتهٔ عامل کاربر (user-"
+"agent) پیش‌فرض، یک رشتهٔ سفارشی تعیین کند. این قابلیت به این دلیل قرار داده "
+"شده است که برخی از پیشکارها (پروکسی‌ها) ممکن است اتصال را به دلیل وجود واژهٔ"
+" «gator» در نام قطع کنند."
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:152
+#, kde-format
+msgid "Fetch on startup"
+msgstr "دریافت هنگام راه‌اندازی"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:153
+#, kde-format
+msgid "Fetch feedlist on startup."
+msgstr "دریافت فهرست فیدها هنگام راه‌اندازی."
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:157
+#, kde-format
+msgid "Mark all feeds as read on startup"
+msgstr "علامت‌گذاری همهٔ فیدها به‌عنوان خوانده‌شده هنگام راه‌اندازی"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:158
+#, kde-format
+msgid "Mark all feeds as read on startup."
+msgstr "علامت‌گذاری همهٔ فیدها به‌عنوان خوانده‌شده هنگام راه‌اندازی."
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:162
+#, kde-format
+msgid "Use interval fetching"
+msgstr "استفاده از دریافت دوره‌ای"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:163
+#, no-c-format, kde-format
+msgid "Fetch all feeds every %1 minutes."
+msgstr "دریافت همهٔ فیدها هر %1 دقیقه یک‌بار."
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:167
+#, kde-format
+msgid "Interval for autofetching"
+msgstr "فاصلهٔ زمانی برای دریافت خودکار"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:168
+#, kde-format
+msgid "Interval for autofetching in minutes."
+msgstr "فاصلهٔ زمانی برای دریافت خودکار برحسب دقیقه."
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:172
+#, kde-format
+msgid "Use notifications"
+msgstr "استفاده از اعلان‌ها"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:173
+#, kde-format
+msgid "Specifies if the balloon notifications are used or not."
+msgstr "مشخص می‌کند که آیا از اعلان‌های بادکنکی استفاده شود یا خیر."
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:177
+#, kde-format
+msgid "Show tray icon"
+msgstr "نمایش نماد سینی سیستم"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:178
+#, kde-format
+msgid "Specifies if the tray icon is shown or not."
+msgstr "مشخص می‌کند که آیا نماد سینی سیستم نمایش داده شود یا خیر."
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:182
+#, kde-format
+msgid "Show Unread In Taskbar"
+msgstr "نمایش خوانده‌نشده‌ها در نوار وظیفه"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:183
+#, kde-format
+msgid "Specifies if we show unread article in taskbar."
+msgstr ""
+"مشخص می‌کند که آیا مقاله‌های خوانده‌نشده در نوار وظیفه نمایش داده شوند یا "
+"خیر."
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:196
+#, kde-format
+msgid "Enabled Plasma Activity"
+msgstr "فعالیت پلاسما فعال شد"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:208
+#, kde-format
+msgid "Always show the tab bar, even when only one tab is open"
+msgstr "نمایش همیشگی نوار زبانه، حتی زمانی که فقط یک زبانه باز است"
+
+#. i18n: ectx: label, entry, group (Browser)
+#: interfaces/akregator.kcfg:212
+#, kde-format
+msgid "Show close buttons on tabs"
+msgstr "نمایش دکمه‌های بستن روی زبانه‌ها"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:213
+#, kde-format
+msgid "Show close buttons on tabs instead of icons"
+msgstr "نمایش دکمه‌های بستن روی زبانه‌ها به‌جای نمادها"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:218
+#, kde-format
+msgid ""
+"Open a link which would normally open in a new window (external browser) in "
+"a new tab instead"
+msgstr ""
+"باز کردن پیوندهایی که معمولاً در پنجره‌ای جدید (مرورگر خارجی) باز می‌شوند در"
+" یک زبانه‌ی جدید"
+
+#. i18n: ectx: label, entry, group (Browser)
+#: interfaces/akregator.kcfg:222
+#, kde-format
+msgid "Use default KDE web browser"
+msgstr "استفاده از مرورگر وب پیش‌فرض KDE"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:223
+#, kde-format
+msgid "Use KDE web browser when opening in external browser."
+msgstr "استفاده از مرورگر وب KDE هنگام باز کردن در مرورگر خارجی."
+
+#. i18n: ectx: label, entry, group (Browser)
+#: interfaces/akregator.kcfg:227
+#, kde-format
+msgid "Use this command:"
+msgstr "استفاده از این دستور:"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:228
+#, kde-format
+msgid "Use the specified command when opening in external browser."
+msgstr "استفاده از دستور مشخص‌شده هنگام باز کردن در مرورگر خارجی."
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:232
+#, no-c-format, kde-format
+msgid "Command to launch external browser. URL will substitute for %u."
+msgstr ""
+"دستور برای راه‌اندازی مرورگر خارجی. نشانی اینترنتی (URL) جایگزین %u خواهد "
+"شد."
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:236
+#, kde-format
+msgid "What the click with left mouse button should do."
+msgstr "عملی که کلیک با دکمه چپ موشواره باید انجام دهد."
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:245
+#, kde-format
+msgid "What the click with middle mouse button should do."
+msgstr "عملی که کلیک با دکمه وسط موشواره باید انجام دهد."
+
+#. i18n: ectx: label, entry, group (Advanced)
+#: interfaces/akregator.kcfg:270
+#, kde-format
+msgid "Archive Backend"
+msgstr "پشتانهٔ بایگانی"
+
+#. i18n: ectx: whatsthis, entry (UseMarkReadDelay), group (Advanced)
+#: interfaces/akregator.kcfg:274
+#, kde-format
+msgid "Whether to delay before marking an article as read upon selecting it."
+msgstr ""
+"این‌که آیا پیش از علامت‌گذاری مقاله به‌عنوان خوانده‌شده پس از انتخاب آن، "
+"تاخیر وجود داشته باشد یا خیر."
+
+#. i18n: ectx: whatsthis, entry (MarkReadDelay), group (Advanced)
+#: interfaces/akregator.kcfg:278
+#, kde-format
+msgid ""
+"Configurable delay between selecting an article and it being marked as read."
+msgstr ""
+"تاخیر قابل تنظیم بین انتخاب یک مقاله و علامت‌گذاری آن به‌عنوان خوانده‌شده."
+
+#. i18n: ectx: whatsthis, entry, group (Advanced)
+#: interfaces/akregator.kcfg:282
+#, kde-format
+msgid "Resets the quick filter when changing feeds."
+msgstr "هنگام تغییر خوراک‌ها، پالایهٔ سریع را بازنشانی می‌کند."
+
+#: kontactplugin/akregator_plugin.cpp:29 src/aboutdata.cpp:21
+#: src/akregator_part.cpp:129
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:148
+#: src/mainwidget.cpp:135 src/mainwidget.cpp:1329 src/trayicon.cpp:40
+#: src/trayicon.cpp:53
+#, kde-format
+msgid "Akregator"
+msgstr "Akregator"
+
+#: kontactplugin/akregator_plugin.cpp:31
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Feed..."
+msgstr "خوراک جدید..."
+
+#: kontactplugin/akregator_plugin.cpp:34
+#, kde-format
+msgctxt "@info:status"
+msgid "Create a new feed"
+msgstr "ایجاد خوراک جدید"
+
+#: kontactplugin/akregator_plugin.cpp:35
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "You will be presented with a dialog where you can add a new feed."
+msgstr ""
+"گفت‌وگویی به شما نمایش داده می‌شود که می‌توانید در آن یک خوراک جدید اضافه "
+"کنید."
+
+#: src/aboutdata.cpp:23
+#, kde-format
+msgid "A KDE Feed Reader"
+msgstr "یک خوراک‌خوان KDE"
+
+#: src/aboutdata.cpp:25
+#, kde-format
+msgid "Copyright © 2004–%1 Akregator authors"
+msgstr "حق نشر © ۲۰۰۴–%1 پدیدآورندگان Akregator"
+
+#: src/aboutdata.cpp:29
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: src/aboutdata.cpp:29
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: src/aboutdata.cpp:30
+#, kde-format
+msgctxt "@info:credit"
+msgid "Frank Osterfeld"
+msgstr "Frank Osterfeld"
+
+#: src/aboutdata.cpp:30
+#, kde-format
+msgid "Former maintainer"
+msgstr "نگه‌دارندهٔ پیشین"
+
+#: src/aboutdata.cpp:31
+#, kde-format
+msgctxt "@info:credit"
+msgid "Teemu Rytilahti"
+msgstr "Teemu Rytilahti"
+
+#: src/aboutdata.cpp:31 src/aboutdata.cpp:32 src/aboutdata.cpp:33
+#: src/aboutdata.cpp:34
+#, kde-format
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: src/aboutdata.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "Sashmit Bhaduri"
+msgstr "Sashmit Bhaduri"
+
+#: src/aboutdata.cpp:33
+#, kde-format
+msgctxt "@info:credit"
+msgid "Pierre Habouzit"
+msgstr "Pierre Habouzit"
+
+#: src/aboutdata.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Stanislav Karchebny"
+msgstr "Stanislav Karchebny"
+
+#: src/aboutdata.cpp:35
+#, kde-format
+msgctxt "@info:credit"
+msgid "Gary Cramblitt"
+msgstr "Gary Cramblitt"
+
+#: src/aboutdata.cpp:35 src/aboutdata.cpp:36 src/aboutdata.cpp:37
+#, kde-format
+msgid "Contributor"
+msgstr "مشارکت‌کننده"
+
+#: src/aboutdata.cpp:36
+#, kde-format
+msgctxt "@info:credit"
+msgid "Stephan Binner"
+msgstr "Stephan Binner"
+
+#: src/aboutdata.cpp:37
+#, kde-format
+msgctxt "@info:credit"
+msgid "Christof Musik"
+msgstr "Christof Musik"
+
+#: src/aboutdata.cpp:38
+#, kde-format
+msgctxt "@info:credit"
+msgid "Anne-Marie Mahfouf"
+msgstr "آن ماری مفوف"
+
+#: src/aboutdata.cpp:38
+#, kde-format
+msgid "Handbook"
+msgstr "راهنما"
+
+#: src/aboutdata.cpp:39
+#, kde-format
+msgctxt "@info:credit"
+msgid "Frerich Raabe"
+msgstr "فرریخ رابه"
+
+#: src/aboutdata.cpp:39
+#, kde-format
+msgid "Author of librss"
+msgstr "نویسندهٔ librss"
+
+#: src/aboutdata.cpp:40
+#, kde-format
+msgctxt "@info:credit"
+msgid "Eckhart Woerner"
+msgstr "اکهارت وورنر"
+
+#: src/aboutdata.cpp:40
+#, kde-format
+msgid "Bug tracker management, Usability improvements"
+msgstr "مدیریت ردیاب اشکال، بهبودهای کارایی‌پذیری"
+
+#: src/aboutdata.cpp:41
+#, kde-format
+msgctxt "@info:credit"
+msgid "Heinrich Wendel"
+msgstr "هاینریش وندل"
+
+#: src/aboutdata.cpp:41
+#, kde-format
+msgid "Tons of bug fixes"
+msgstr "انبوهی از رفع اشکالات"
+
+#: src/aboutdata.cpp:42
+#, kde-format
+msgctxt "@info:credit"
+msgid "Eike Hein"
+msgstr "آیکه هاین"
+
+#: src/aboutdata.cpp:42
+#, kde-format
+msgid "‘Delayed mark as read’ feature"
+msgstr "ویژگی «علامت‌گذاری با تأخیر به عنوان خوانده‌شده»"
+
+#: src/aboutdata.cpp:43
+#, kde-format
+msgctxt "@info:credit"
+msgid "Marcel Dierkes"
+msgstr "Marcel Dierkes"
+
+#: src/aboutdata.cpp:43
+#, kde-format
+msgid "Icons"
+msgstr "نمادها"
+
+#: src/aboutdata.cpp:44
+#, kde-format
+msgctxt "@info:credit"
+msgid "George Staikos"
+msgstr "George Staikos"
+
+#: src/aboutdata.cpp:44
+#, kde-format
+msgid "Insomnia"
+msgstr "بی‌خوابی"
+
+#: src/aboutdata.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Philipp Droessler"
+msgstr "Philipp Droessler"
+
+#: src/aboutdata.cpp:45
+#, kde-format
+msgid "Gentoo Ebuild"
+msgstr "ای‌بیلد جنتو"
+
+#: src/actions/actionmanagerimpl.cpp:71 src/actions/actionmanagerimpl.cpp:311
+#, kde-format
+msgid "&Fetch Feed"
+msgstr "واکشی خوراک"
+
+#: src/actions/actionmanagerimpl.cpp:72 src/actions/actionmanagerimpl.cpp:267
+#, kde-format
+msgid "&Delete Feed"
+msgstr "حذف خوراک"
+
+#: src/actions/actionmanagerimpl.cpp:73 src/actions/actionmanagerimpl.cpp:273
+#, kde-format
+msgid "&Edit Feed…"
+msgstr "ویرایش خوراک…"
+
+#: src/actions/actionmanagerimpl.cpp:74 src/actions/actionmanagerimpl.cpp:330
+#, kde-format
+msgid "&Mark Feed as Read"
+msgstr "علامت‌گذاری خوراک به‌عنوان خوانده‌شده"
+
+#: src/actions/actionmanagerimpl.cpp:90
+#, kde-format
+msgid "&Fetch Feeds"
+msgstr "دریافت خوراک‌ها"
+
+#: src/actions/actionmanagerimpl.cpp:91
+#, kde-format
+msgid "&Delete Folder"
+msgstr "حذف پوشه"
+
+#: src/actions/actionmanagerimpl.cpp:92
+#, kde-format
+msgid "&Rename Folder"
+msgstr "تغییر نام پوشه"
+
+#: src/actions/actionmanagerimpl.cpp:93
+#, kde-format
+msgid "&Mark Feeds as Read"
+msgstr "علامت‌گذاری خوراک‌ها به‌عنوان خوانده‌شده"
+
+#: src/actions/actionmanagerimpl.cpp:205
+#, kde-format
+msgid "&Import Feeds…"
+msgstr "درون‌ریزی خوراک‌ها…"
+
+#: src/actions/actionmanagerimpl.cpp:209
+#, kde-format
+msgid "&Export Feeds…"
+msgstr "برون‌ریزی خوراک‌ها…"
+
+#: src/actions/actionmanagerimpl.cpp:215
+#, kde-format
+msgctxt "@action"
+msgid "Add Online Account…"
+msgstr "افزودن حساب برخط…"
+
+#: src/actions/actionmanagerimpl.cpp:224
+#, kde-format
+msgid "&Configure Akregator…"
+msgstr "پیکربندی آکرگاتور…"
+
+#: src/actions/actionmanagerimpl.cpp:243
+#, kde-format
+msgid "&Open Homepage"
+msgstr "باز کردن صفحهٔ خانگی"
+
+#: src/actions/actionmanagerimpl.cpp:249
+#, kde-format
+msgid "Reload All Tabs"
+msgstr "بارگیری مجدد همهٔ برگه‌ها"
+
+#: src/actions/actionmanagerimpl.cpp:255
+#, kde-format
+msgid "&Add Feed…"
+msgstr "افزودن خوراک…"
+
+#: src/actions/actionmanagerimpl.cpp:261
+#, kde-format
+msgid "Ne&w Folder…"
+msgstr "پوشهٔ جدید…"
+
+#: src/actions/actionmanagerimpl.cpp:286
+#, kde-format
+msgid "&Normal View"
+msgstr "نمای عادی"
+
+#: src/actions/actionmanagerimpl.cpp:295
+#, kde-format
+msgid "&Widescreen View"
+msgstr "نمای صفحه‌عریض"
+
+#: src/actions/actionmanagerimpl.cpp:304
+#, kde-format
+msgid "C&ombined View"
+msgstr "نمای ترکیبی"
+
+#: src/actions/actionmanagerimpl.cpp:317
+#, kde-format
+msgid "Fe&tch All Feeds"
+msgstr "دریافت همهٔ خوراک‌ها"
+
+#: src/actions/actionmanagerimpl.cpp:323
+#, kde-format
+msgid "C&ancel Feed Fetches"
+msgstr "لغو دریافت خوراک‌ها"
+
+#: src/actions/actionmanagerimpl.cpp:336
+#, kde-format
+msgid "Ma&rk All Feeds as Read"
+msgstr "علامت‌گذاری همهٔ خوراک‌ها به‌عنوان خوانده‌شده"
+
+#: src/actions/actionmanagerimpl.cpp:365
+#, kde-format
+msgctxt "@action"
+msgid "Copy Article Link Address"
+msgstr "رونوشت از نشانی پیوند مقاله"
+
+#: src/actions/actionmanagerimpl.cpp:370
+#, kde-format
+msgid "Pre&vious Unread Article"
+msgstr "مقالهٔ خوانده‌نشدهٔ قبلی"
+
+#: src/actions/actionmanagerimpl.cpp:376
+#, kde-format
+msgid "Ne&xt Unread Article"
+msgstr "مقالهٔ خوانده‌نشدهٔ بعدی"
+
+#: src/actions/actionmanagerimpl.cpp:384
+#, kde-format
+msgid "&Delete"
+msgstr "حذف"
+
+#: src/actions/actionmanagerimpl.cpp:389
+#, kde-format
+msgid "&Mark As"
+msgstr "علامت‌گذاری به‌عنوان"
+
+#: src/actions/actionmanagerimpl.cpp:393
+#, kde-format
+msgctxt "as in: mark as read"
+msgid "&Read"
+msgstr "خوانده‌شده"
+
+#: src/actions/actionmanagerimpl.cpp:395
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Mark selected article as read"
+msgstr "علامت‌گذاری مقالهٔ انتخاب‌شده به‌عنوان خوانده‌شده"
+
+#: src/actions/actionmanagerimpl.cpp:401
+#, kde-format
+msgctxt "as in: mark as new"
+msgid "&New"
+msgstr "جدید"
+
+#: src/actions/actionmanagerimpl.cpp:404
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Mark selected article as new"
+msgstr "علامت‌گذاری مقالهٔ انتخاب‌شده به‌عنوان جدید"
+
+#: src/actions/actionmanagerimpl.cpp:409
+#, kde-format
+msgctxt "as in: mark as unread"
+msgid "&Unread"
+msgstr "خوانده‌نشده"
+
+#: src/actions/actionmanagerimpl.cpp:411
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Mark selected article as unread"
+msgstr "علامت‌گذاری مقالهٔ انتخاب‌شده به‌عنوان خوانده‌نشده"
+
+#: src/actions/actionmanagerimpl.cpp:417
+#, kde-format
+msgid "&Mark as Important"
+msgstr "علامت‌گذاری به‌عنوان مهم"
+
+#: src/actions/actionmanagerimpl.cpp:421
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove &Important Mark"
+msgstr "حذف نشان مهم"
+
+#: src/actions/actionmanagerimpl.cpp:425
+#, kde-format
+msgid "Move Node Up"
+msgstr "انتقال گره به بالا"
+
+#: src/actions/actionmanagerimpl.cpp:430
+#, kde-format
+msgid "Move Node Down"
+msgstr "انتقال گره به پایین"
+
+#: src/actions/actionmanagerimpl.cpp:435
+#, kde-format
+msgid "Move Node Left"
+msgstr "انتقال گره به چپ"
+
+#: src/actions/actionmanagerimpl.cpp:440
+#, kde-format
+msgid "Move Node Right"
+msgstr "انتقال گره به راست"
+
+#: src/actions/actionmanagerimpl.cpp:446
+#, kde-format
+msgid "Send &Link Address…"
+msgstr "ارسال نشانی پیوند…"
+
+#: src/actions/actionmanagerimpl.cpp:451
+#, kde-format
+msgid "Send &File…"
+msgstr "ارسال پرونده…"
+
+#: src/actions/actionmanagerimpl.cpp:457
+#, kde-format
+msgctxt "@action"
+msgid "Set Focus to Quick Search"
+msgstr "تمرکز روی جستجوی سریع"
+
+#: src/actions/actionmanagerimpl.cpp:463
+#, kde-format
+msgid "What’s new"
+msgstr "تازه‌ها"
+
+#: src/actions/actionmanagerimpl.cpp:504
+#, kde-format
+msgid "&Previous Article"
+msgstr "مقالهٔ قبلی"
+
+#: src/actions/actionmanagerimpl.cpp:508
+#, kde-format
+msgid "&Next Article"
+msgstr "مقالهٔ بعدی"
+
+#: src/actions/actionmanagerimpl.cpp:523
+#, kde-format
+msgid "&Previous Feed"
+msgstr "خوراک قبلی"
+
+#: src/actions/actionmanagerimpl.cpp:528
+#, kde-format
+msgid "&Next Feed"
+msgstr "خوراک بعدی"
+
+#: src/actions/actionmanagerimpl.cpp:534
+#, kde-format
+msgid "N&ext Unread Feed"
+msgstr "خوراک ناخواندهٔ بعدی"
+
+#: src/actions/actionmanagerimpl.cpp:540
+#, kde-format
+msgid "Prev&ious Unread Feed"
+msgstr "خوراک ناخواندهٔ قبلی"
+
+#: src/actions/actionmanagerimpl.cpp:545
+#, kde-format
+msgid "Go to Top of Tree"
+msgstr "رفتن به بالای درخت"
+
+#: src/actions/actionmanagerimpl.cpp:550
+#, kde-format
+msgid "Go to Bottom of Tree"
+msgstr "رفتن به پایین درخت"
+
+#: src/actions/actionmanagerimpl.cpp:555
+#, kde-format
+msgid "Go Left in Tree"
+msgstr "رفتن به چپ در درخت"
+
+#: src/actions/actionmanagerimpl.cpp:560
+#, kde-format
+msgid "Go Right in Tree"
+msgstr "رفتن به راست در درخت"
+
+#: src/actions/actionmanagerimpl.cpp:565
+#, kde-format
+msgid "Go Up in Tree"
+msgstr "رفتن به بالا در درخت"
+
+#: src/actions/actionmanagerimpl.cpp:570
+#, kde-format
+msgid "Go Down in Tree"
+msgstr "پایین رفتن در درخت"
+
+#: src/actions/actionmanagerimpl.cpp:576
+#, kde-format
+msgid "Hide Read Feeds"
+msgstr "پنهان کردن فیدهای خوانده‌شده"
+
+#: src/actions/actionmanagerimpl.cpp:582
+#, kde-format
+msgid "Lock Feeds In Place"
+msgstr "قفل کردن فیدها در جای خود"
+
+#: src/actions/actionmanagerimpl.cpp:588
+#, kde-format
+msgid "Auto-expand folders with unread articles"
+msgstr "باز کردن خودکار پوشه‌های حاوی مقالات خوانده‌نشده"
+
+#: src/actions/actionmanagerimpl.cpp:603
+#, kde-format
+msgid "Select Next Tab"
+msgstr "انتخاب برگهٔ بعدی"
+
+#: src/actions/actionmanagerimpl.cpp:608
+#, kde-format
+msgid "Select Previous Tab"
+msgstr "انتخاب برگهٔ قبلی"
+
+#: src/actions/actionmanagerimpl.cpp:622
+#, kde-format
+msgid "Mute"
+msgstr "بی‌صدا"
+
+#: src/actions/actionmanagerimpl.cpp:626
+#, kde-format
+msgid "Unmute"
+msgstr "با صدا"
+
+#: src/actions/actionmanagerimpl.cpp:629
+#, kde-format
+msgctxt "@action"
+msgid "Speak Text"
+msgstr "خواندن متن"
+
+#: src/actions/actionmanagerimpl.cpp:634
+#, kde-format
+msgid "&Find in Message…"
+msgstr "یافتن در پیام…"
+
+#: src/actions/actionmanagerimpl.cpp:641
+#, kde-format
+msgctxt "@action"
+msgid "Copy Tab Address"
+msgstr "رونوشت از نشانی برگه"
+
+#: src/actions/actionmanagerimpl.cpp:646
+#, kde-format
+msgid "Close Tab"
+msgstr "بستن برگه"
+
+#: src/actions/actionmanagerimpl.cpp:659
+#, kde-format
+msgctxt "@action"
+msgid "Activate Tab %1"
+msgstr "فعال‌سازی برگهٔ %1"
+
+#: src/actions/actions.cpp:21
+#, kde-format
+msgid "Open Link in New &Tab"
+msgstr "باز کردن پیوند در برگهٔ جدید"
+
+#: src/actions/actions.cpp:28
+#, kde-format
+msgid "Open Link in External &Browser"
+msgstr "باز کردن پیوند در مرورگر خارجی"
+
+#: src/addfeeddialog.cpp:51
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Feed"
+msgstr "افزودن خوراک"
+
+#: src/addfeeddialog.cpp:101
+#, kde-format
+msgid "Downloading %1"
+msgstr "در حال بارگیری %1"
+
+#: src/addfeeddialog.cpp:117
+#, kde-format
+msgid "Feed not found from %1."
+msgstr "خوراکی از %1 پیدا نشد."
+
+#: src/addfeeddialog.cpp:123
+#, kde-format
+msgid "Feed found, downloading…"
+msgstr "خوراک پیدا شد، در حال بارگیری…"
+
+#: src/akregator_options.h:22 src/akregator_options.h:29
+#, kde-format
+msgctxt "@info:shell"
+msgid "Add a feed with the given URL"
+msgstr "افزودن خوراک با نشانی اینترنتی داده‌شده"
+
+#: src/akregator_options.h:24
+#, kde-format
+msgctxt "@info:shell"
+msgid "When adding feeds, place them in this group"
+msgstr "هنگام افزودن خوراک‌ها، آن‌ها را در این گروه قرار بده"
+
+#: src/akregator_options.h:25
+#, kde-format
+msgid "Group Name"
+msgstr "نام گروه"
+
+#: src/akregator_options.h:26
+#, kde-format
+msgctxt "@info:shell"
+msgid "Hide main window on startup"
+msgstr "مخفی کردن پنجرهٔ اصلی هنگام راه‌اندازی"
+
+#: src/akregator_options.h:31
+#, kde-format
+msgctxt "@info:shell"
+msgid "Lists the available options for user feedback"
+msgstr "گزینه‌های موجود برای بازخورد کاربر را فهرست می‌کند"
+
+#: src/akregator_part.cpp:81
+#, kde-format
+msgid "Feeds"
+msgstr "خوراک‌ها"
+
+#: src/akregator_part.cpp:92
+#, kde-format
+msgid "Planet KDE"
+msgstr "سیارهٔ KDE"
+
+#: src/akregator_part.cpp:97
+#, kde-format
+msgid "KDE Apps"
+msgstr "برنامه‌های KDE"
+
+#: src/akregator_part.cpp:103
+#, kde-format
+msgid "Spanish feeds"
+msgstr "خوراک‌های اسپانیایی"
+
+#: src/akregator_part.cpp:107
+#, kde-format
+msgid "Planet KDE España"
+msgstr "سیارهٔ KDE اسپانیا"
+
+#: src/akregator_part.cpp:425
+#, kde-format
+msgid ""
+"Access denied: Cannot save feed list to <b>%1</b>. Please check your "
+"permissions."
+msgstr ""
+"دسترسی رد شد: ذخیرهٔ فهرست خوراک در <b>%1</b> امکان‌پذیر نیست. لطفاً مجوزهای"
+" خود را بررسی کنید."
+
+#: src/akregator_part.cpp:426 src/akregator_part.cpp:479
+#, kde-format
+msgctxt "@title:window"
+msgid "Write Error"
+msgstr "خطای نوشتن"
+
+#: src/akregator_part.cpp:462
+#, kde-format
+msgid "Could not import the file %1 (no valid OPML)"
+msgstr "پروندهٔ %1 وارد نشد (OPML معتبری نیست)"
+
+#: src/akregator_part.cpp:462 src/command/loadfeedlistcommand.cpp:73
+#, kde-format
+msgctxt "@title:window"
+msgid "OPML Parsing Error"
+msgstr "خطای تجزیهٔ OPML"
+
+#: src/akregator_part.cpp:466
+#, kde-format
+msgid ""
+"The file %1 could not be read, check if it exists or if it is readable for "
+"the current user."
+msgstr ""
+"پروندهٔ %1 خوانده نشد؛ بررسی کنید که وجود داشته باشد یا برای کاربر کنونی "
+"قابل خواندن باشد."
+
+#: src/akregator_part.cpp:467 src/command/loadfeedlistcommand.cpp:146
+#, kde-format
+msgctxt "@title:window"
+msgid "Read Error"
+msgstr "خطای خواندن"
+
+#: src/akregator_part.cpp:478
+#, kde-format
+msgid "Access denied: cannot write to file %1. Please check your permissions."
+msgstr ""
+"دسترسی رد شد: نوشتن در پروندهٔ %1 ممکن نیست. لطفاً مجوزهای خود را بررسی "
+"کنید."
+
+#: src/akregator_part.cpp:494 src/akregator_part.cpp:503
+#, kde-format
+msgid "OPML Outlines (%1);;All Files (*)"
+msgstr "طرح‌های کلی OPML ‏(%1);;همهٔ پرونده‌ها (*)"
+
+#: src/akregator_part.cpp:628
+#, kde-format
+msgid "Imported Folder"
+msgstr "پوشهٔ واردشده"
+
+#: src/articlejobs.cpp:184
+#, kde-format
+msgid "The feed to be listed was already removed."
+msgstr "خوراکی که قرار بود فهرست شود، قبلاً حذف شده بود."
+
+#: src/articlelistview.cpp:163 src/subscription/subscriptionlistview.cpp:182
+#, kde-format
+msgid "Columns"
+msgstr "ستون‌ها"
+
+#: src/articlelistview.cpp:221
+#, kde-format
+msgid "No result found"
+msgstr "هیچ نتیجه‌ای یافت نشد"
+
+#: src/articlelistview.cpp:382
+#, kde-format
+msgid ""
+"<h2>Article list</h2>Here you can browse articles from the currently "
+"selected feed. You can also manage articles, as marking them as persistent "
+"(“Mark as Important”) or delete them, using the right mouse button menu. To "
+"view the web page of the article, you can open the article internally in a "
+"tab or in an external browser window."
+msgstr ""
+"<h2>فهرست مقاله‌ها</h2>در اینجا می‌توانید مقاله‌های خوراک انتخاب‌شده را مرور"
+" کنید. همچنین می‌توانید با استفاده از منوی کلیک‌راست، مقاله‌ها را مدیریت "
+"کنید، مانند علامت‌گذاری آن‌ها به‌عنوان ماندگار («علامت‌گذاری به‌عنوان مهم») "
+"یا حذف آن‌ها. برای مشاهده صفحه وب مقاله، می‌توانید مقاله را به‌صورت داخلی در"
+" یک زبانه یا در پنجره مرورگر خارجی باز کنید."
+
+#: src/articlemodel.cpp:76
+#, kde-format
+msgctxt "Articlelist's column header"
+msgid "Title"
+msgstr "عنوان"
+
+#: src/articlemodel.cpp:78
+#, kde-format
+msgctxt "Articlelist's column header"
+msgid "Feed"
+msgstr "خوراک"
+
+#: src/articlemodel.cpp:80
+#, kde-format
+msgctxt "Articlelist's column header"
+msgid "Date"
+msgstr "تاریخ"
+
+#: src/articlemodel.cpp:82
+#, kde-format
+msgctxt "Articlelist's column header"
+msgid "Author"
+msgstr "نویسنده"
+
+#: src/articlemodel.cpp:84
+#, kde-format
+msgctxt "Articlelist's column header"
+msgid "Description"
+msgstr "توضیحات"
+
+#: src/articlemodel.cpp:86
+#, kde-format
+msgctxt "Articlelist's column header"
+msgid "Content"
+msgstr "محتوا"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:149
+#, kde-format
+msgid "Akregator is a KDE news feed reader."
+msgstr "اکرگیتور یک خوراک‌خوان اخبار KDE است."
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:193
+#, kde-format
+msgctxt "@title:window"
+msgid "Save As"
+msgstr "ذخیره به‌نام"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:277
+#: src/frame/webengine/akrwebengineviewer.cpp:114
+#, kde-format
+msgid "&Save Link As…"
+msgstr "ذخیره پیوند با نام…"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:281
+#: src/frame/webengine/akrwebengineviewer.cpp:118
+#, kde-format
+msgid "Copy &Link Address"
+msgstr "رونوشت از نشانی پیوند"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:289
+#: src/frame/webengine/akrwebengineviewer.cpp:126
+#, kde-format
+msgctxt "@action"
+msgid "Copy Image URL"
+msgstr "رونوشت از نشانی تصویر"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:293
+#: src/frame/webengine/akrwebengineviewer.cpp:130
+#, kde-format
+msgctxt "@action"
+msgid "Save Image…"
+msgstr "ذخیرهٔ تصویر…"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:384
+#, kde-format
+msgid "Disable"
+msgstr "غیرفعال‌سازی"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:385
+#, kde-format
+msgid "Keep Enabled"
+msgstr "فعال نگه داشتن"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:387
+#, kde-format
+msgid "Are you sure you want to disable this introduction page?"
+msgstr "آیا مطمئنید که می‌خواهید این صفحهٔ معرفی را غیرفعال کنید؟"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:388
+#, kde-format
+msgctxt "@title:window"
+msgid "Disable Introduction Page"
+msgstr "غیرفعال‌سازی صفحهٔ معرفی"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:418
+#, kde-format
+msgid "This web site is a malware, do you want to continue to show it?"
+msgstr "این وبگاه بدافزار است، آیا می‌خواهید به نمایش آن ادامه دهید؟"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:419
+#, kde-format
+msgctxt "@title:window"
+msgid "Malware"
+msgstr "بدافزار"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:431
+#, kde-format
+msgid "The network is broken."
+msgstr "شبکه قطع است."
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:431
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:434
+#, kde-format
+msgctxt "@title:window"
+msgid "Check Phishing Url"
+msgstr "بررسی نشانی فیشینگ"
+
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:434
+#, kde-format
+msgid "The url %1 is not valid."
+msgstr "نشانی %1 معتبر نیست."
+
+#: src/command/createfoldercommand.cpp:49
+#, kde-format
+msgid "Add Folder"
+msgstr "افزودن پوشه"
+
+#: src/command/createfoldercommand.cpp:49
+#, kde-format
+msgid "Folder name:"
+msgstr "نام پوشه:"
+
+#: src/command/deletesubscriptioncommand.cpp:41
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to delete this folder and its feeds and "
+"subfolders?</qt>"
+msgstr ""
+"<qt>آیا مطمئنید می‌خواهید این پوشه و خوراک‌ها و زیرپوشه‌هایش را حذف "
+"کنید؟</qt>"
+
+#: src/command/deletesubscriptioncommand.cpp:42
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to delete folder <b>%1</b> and its feeds and "
+"subfolders?</qt>"
+msgstr ""
+"<qt>آیا مطمئنید می‌خواهید پوشهٔ <b>%1</b> و خوراک‌ها و زیرپوشه‌هایش را حذف "
+"کنید؟</qt>"
+
+#: src/command/deletesubscriptioncommand.cpp:46
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Folder"
+msgstr "حذف پوشه"
+
+#: src/command/deletesubscriptioncommand.cpp:63
+#, kde-format
+msgid "<qt>Are you sure you want to delete this feed?</qt>"
+msgstr "<qt>آیا مطمئنید می‌خواهید این خوراک را حذف کنید؟</qt>"
+
+#: src/command/deletesubscriptioncommand.cpp:65
+#, kde-format
+msgid "<qt>Are you sure you want to delete feed <b>%1</b>?</qt>"
+msgstr "<qt>آیا مطمئنید می‌خواهید خوراک <b>%1</b> را حذف کنید؟</qt>"
+
+#: src/command/deletesubscriptioncommand.cpp:70
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Feed"
+msgstr "حذف خوراک"
+
+#: src/command/importfeedlistcommand.cpp:48
+#, kde-format
+msgid "Imported Feeds"
+msgstr "خوراک‌های واردشده"
+
+#: src/command/importfeedlistcommand.cpp:77
+#, kde-format
+msgid "Add Imported Folder"
+msgstr "افزودن پوشه واردشده"
+
+#: src/command/importfeedlistcommand.cpp:78
+#, kde-format
+msgid "Imported folder name:"
+msgstr "نام پوشه واردشده:"
+
+#: src/command/loadfeedlistcommand.cpp:65
+#, kde-format
+msgid ""
+"<qt>The standard feed list is corrupted (invalid OPML). A backup was "
+"created:<p><b>%1</b></p></qt>"
+msgstr ""
+"<qt>فهرست خوراک استاندارد خراب است (OPML نامعتبر). یک نسخهٔ پشتیبان ایجاد "
+"شد:<p><b>%1</b></p></qt>"
+
+#: src/command/loadfeedlistcommand.cpp:69
+#, kde-format
+msgid ""
+"<qt>The standard feed list is corrupted (invalid OPML). Could not create a "
+"backup.</qt>"
+msgstr ""
+"<qt>فهرست خوراک استاندارد خراب است (OPML نامعتبر). ایجاد نسخهٔ پشتیبان "
+"امکان‌پذیر نبود.</qt>"
+
+#: src/command/loadfeedlistcommand.cpp:131
+#, kde-format
+msgid "Opening Feed List…"
+msgstr "در حال باز کردن فهرست خوراک…"
+
+#: src/command/loadfeedlistcommand.cpp:145
+#, kde-format
+msgid "<qt>Could not open feed list (%1) for reading.</qt>"
+msgstr "<qt>باز کردن فهرست خوراک (%1) برای خواندن امکان‌پذیر نبود.</qt>"
+
+#: src/command/loadfeedlistcommand.cpp:157
+#, kde-format
+msgctxt "error message window caption"
+msgid "XML Parsing Error"
+msgstr "خطای تجزیه XML"
+
+#: src/command/loadfeedlistcommand.cpp:159
+#, kde-kuit-format
+msgid ""
+"<qt><p>XML parsing error in line %1, column %2 of %3:</p><p>%4</p></qt>"
+msgstr "<qt><p>خطای تجزیه XML در سطر %1، ستون %2 از %3:</p><p>%4</p></qt>"
+
+#: src/command/loadfeedlistcommand.cpp:166
+#, kde-format
+msgid ""
+"<qt>The standard feed list is corrupted (invalid XML). A backup was "
+"created:<p><b>%1</b></p></qt>"
+msgstr ""
+"<qt>فهرست خوراک استاندارد خراب شده است (XML نامعتبر). یک نسخهٔ پشتیبان ایجاد"
+" شد:<p><b>%1</b></p></qt>"
+
+#: src/command/loadfeedlistcommand.cpp:170
+#, kde-format
+msgid ""
+"<qt>The standard feed list is corrupted (invalid XML). Could not create a "
+"backup.</qt>"
+msgstr ""
+"<qt>فهرست خوراک استاندارد خراب شده است (XML نامعتبر). ایجاد نسخهٔ پشتیبان "
+"ممکن نبود.</qt>"
+
+#: src/crashwidget/crashwidget.cpp:23
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"Akregator did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr "آکرگاتور به‌درستی بسته نشد. آیا می‌خواهید نشست قبلی بازیابی شود؟"
+
+#: src/crashwidget/crashwidget.cpp:39
+#, kde-format
+msgid "Restore Session"
+msgstr "بازیابی نشست"
+
+#: src/crashwidget/crashwidget.cpp:45
+#, kde-format
+msgid "Do Not Restore Session"
+msgstr "نشست بازیابی نشود"
+
+#: src/crashwidget/crashwidget.cpp:51
+#, kde-format
+msgid "Ask me later"
+msgstr "بعداً بپرس"
+
+#. i18n: ectx: Menu (edit)
+#: src/data/akregator_part.rc:16 src/data/akregator_shell.rc:11
+#, kde-format
+msgid "&Edit"
+msgstr "ویرایش"
+
+#. i18n: ectx: Menu (view)
+#: src/data/akregator_part.rc:24 src/data/akregator_shell.rc:16
+#, kde-format
+msgid "&View"
+msgstr "نمای"
+
+#. i18n: ectx: Menu (go)
+#: src/data/akregator_part.rc:39 src/data/akregator_shell.rc:24
+#, kde-format
+msgid "&Go"
+msgstr "رفتن"
+
+#. i18n: ectx: Menu (feed)
+#: src/data/akregator_part.rc:52 src/data/akregator_shell.rc:29
+#, kde-format
+msgid "Fee&d"
+msgstr "خوراک"
+
+#. i18n: ectx: Menu (article)
+#: src/data/akregator_part.rc:65 src/data/akregator_shell.rc:34
+#, kde-format
+msgid "&Article"
+msgstr "مقاله"
+
+#. i18n: ectx: Menu (settings)
+#: src/data/akregator_part.rc:82 src/data/akregator_shell.rc:39
+#, kde-format
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: Menu (help)
+#: src/data/akregator_part.rc:92
+#, kde-format
+msgid "&Help"
+msgstr "راهنما"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/data/akregator_part.rc:100 src/data/akregator_shell.rc:54
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#. i18n: ectx: Menu (file)
+#: src/data/akregator_shell.rc:4
+#, kde-format
+msgid "&File"
+msgstr "پرونده"
+
+#: src/feed/feedlist.cpp:162
+#, kde-format
+msgid "All Feeds"
+msgstr "همهٔ خوراک‌ها"
+
+#: src/feed/feedpropertiesdialog.cpp:39
+#, kde-format
+msgid "Activities"
+msgstr "فعالیت‌ها"
+
+#: src/feed/feedpropertiesdialog.cpp:64 src/feed/feedpropertiesdialog.cpp:119
+#, kde-format
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "دقیقه"
+msgstr[1] "دقیقه"
+
+#: src/feed/feedpropertiesdialog.cpp:65 src/feed/feedpropertiesdialog.cpp:120
+#, kde-format
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] "ساعت"
+msgstr[1] "ساعت"
+
+#: src/feed/feedpropertiesdialog.cpp:66 src/feed/feedpropertiesdialog.cpp:121
+#, kde-format
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "روز"
+msgstr[1] "روز"
+
+#: src/feed/feedpropertiesdialog.cpp:96 src/feed/feedpropertiesdialog.cpp:158
+#, kde-format
+msgctxt "@title:window"
+msgid "Feed Properties"
+msgstr "ویژگی‌های خوراک"
+
+#: src/feed/feedpropertiesdialog.cpp:122
+#, kde-format
+msgctxt "never fetch new articles"
+msgid "Never"
+msgstr "هرگز"
+
+#: src/feed/feedpropertiesdialog.cpp:124
+#, kde-format
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] "%v روز"
+msgstr[1] "%v روز"
+
+#: src/feed/feedpropertiesdialog.cpp:125
+#, kde-format
+msgid "%v article"
+msgid_plural "%v articles"
+msgstr[0] "%v مقاله"
+msgstr[1] "%v مقاله"
+
+#: src/feed/feedpropertiesdialog.cpp:158
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of %1"
+msgstr "ویژگی‌های %1"
+
+#: src/formatter/articleformatter.cpp:37
+#, kde-format
+msgid "(%1, %2)"
+msgstr "(%1، %2)"
+
+#: src/formatter/grantleeviewformatter.cpp:171
+#: src/formatter/grantleeviewformatter.cpp:230
+#, kde-format
+msgid " (no unread articles)"
+msgstr " (بدون مقالهٔ خوانده‌نشده)"
+
+#: src/formatter/grantleeviewformatter.cpp:173
+#: src/formatter/grantleeviewformatter.cpp:232
+#, kde-format
+msgid " (1 unread article)"
+msgid_plural " (%1 unread articles)"
+msgstr[0] "(1 مقالهٔ خوانده‌نشده)"
+msgstr[1] " (%1 مقالهٔ خوانده‌نشده)"
+
+#: src/formatter/grantleeviewformatter.cpp:188
+#, kde-format
+msgid "<b>Description:</b> %1<br />"
+msgstr "<b>توضیحات:</b> %1<br />"
+
+#: src/formatter/grantleeviewformatter.cpp:195
+#, kde-format
+msgid "<b>Homepage:</b> <a href=\"%1\">%1</a>"
+msgstr "<b>صفحهٔ اصلی:</b> <a href=\"%1\">%1</a>"
+
+#: src/formatter/grantleeviewformatter.cpp:202
+#, kde-format
+msgid "<b>Copyright:</b> %1</a>"
+msgstr "<b>حق نشر:</b> %1</a>"
+
+#: src/formatter/grantleeviewformatter.cpp:265
+#, kde-format
+msgid "Date"
+msgstr "تاریخ"
+
+#: src/formatter/grantleeviewformatter.cpp:266
+#, kde-format
+msgid "Comment"
+msgstr "دیدگاه"
+
+#: src/formatter/grantleeviewformatter.cpp:267
+#, kde-format
+msgid "Complete Story"
+msgstr "داستان کامل"
+
+#: src/formatter/grantleeviewformatter.cpp:268
+#, kde-format
+msgid "Author"
+msgstr "نویسنده"
+
+#: src/formatter/grantleeviewformatter.cpp:269
+#, kde-format
+msgid "Enclosure"
+msgstr "پیوست"
+
+#: src/frame/frame.cpp:22
+#, kde-format
+msgid "Untitled"
+msgstr "بدون عنوان"
+
+#: src/frame/frame.cpp:142
+#, kde-format
+msgid "Loading…"
+msgstr "در حال بارگیری…"
+
+#: src/frame/frame.cpp:156
+#, kde-format
+msgid "Loading canceled"
+msgstr "بارگیری لغو شد"
+
+#: src/frame/frame.cpp:168
+#, kde-format
+msgid "Loading completed"
+msgstr "بارگیری کامل شد"
+
+#: src/mainwidget.cpp:191
+#, kde-format
+msgid "You can view multiple articles in several open tabs."
+msgstr "می‌توانید چندین مقاله را در چند زبانهٔ باز مشاهده کنید."
+
+#: src/mainwidget.cpp:195
+#, kde-format
+msgid "Articles list."
+msgstr "فهرست مقاله‌ها."
+
+#: src/mainwidget.cpp:257 src/mainwidget.cpp:681
+#, kde-format
+msgid "Articles"
+msgstr "مقاله‌ها"
+
+#: src/mainwidget.cpp:282
+#, kde-format
+msgid "About"
+msgstr "درباره"
+
+#: src/mainwidget.cpp:820
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to mark <b>all articles in the feed</b> as "
+"read?</qt>"
+msgstr ""
+"<qt>آیا مطمئنید می‌خواهید <b>همهٔ مقاله‌های موجود در خوراک</b> را به‌عنوان "
+"خوانده‌شده علامت بزنید؟</qt>"
+
+#: src/mainwidget.cpp:821
+#, kde-format
+msgctxt "@title:window"
+msgid "Mark Feed as Read"
+msgstr "علامت‌گذاری خوراک به‌عنوان خوانده‌شده"
+
+#: src/mainwidget.cpp:824
+#, kde-format
+msgid "<qt>Are you sure you want to mark <b>all feeds</b> as read?</qt>"
+msgstr ""
+"<qt>آیا مطمئنید می‌خواهید <b>همهٔ خوراک‌ها</b> را به‌عنوان خوانده‌شده علامت "
+"بزنید؟</qt>"
+
+#: src/mainwidget.cpp:826
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to mark <b>all feeds in the folder</b> as "
+"read?</qt>"
+msgstr ""
+"<qt>آیا مطمئنید می‌خواهید <b>همهٔ خوراک‌های موجود در پوشه</b> را به‌عنوان "
+"خوانده‌شده علامت بزنید؟</qt>"
+
+#: src/mainwidget.cpp:828
+#, kde-format
+msgctxt "@title:window"
+msgid "Mark Feeds as Read"
+msgstr "علامت‌گذاری خوراک‌ها به‌عنوان خوانده‌شده"
+
+#: src/mainwidget.cpp:892 src/mainwidget.cpp:901 src/mainwidget.cpp:1302
+#, kde-format
+msgid "Networking is not available."
+msgstr "شبکه در دسترس نیست."
+
+#: src/mainwidget.cpp:909
+#, kde-format
+msgid "Fetching Feeds…"
+msgstr "در حال دریافت خوراک‌ها…"
+
+#: src/mainwidget.cpp:1107
+#, kde-format
+msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
+msgstr "<qt>آیا مطمئنید که می‌خواهید مقالهٔ <b>%1</b> را حذف کنید؟</qt>"
+
+#: src/mainwidget.cpp:1110
+#, kde-format
+msgid "<qt>Are you sure you want to delete the selected article?</qt>"
+msgid_plural ""
+"<qt>Are you sure you want to delete the %1 selected articles?</qt>"
+msgstr[0] "<qt>آیا مطمئنید که می‌خواهید مقالهٔ برگزیده را حذف کنید؟</qt>"
+msgstr[1] "<qt>آیا مطمئنید که می‌خواهید %1 مقالهٔ برگزیده را حذف کنید؟</qt>"
+
+#: src/mainwidget.cpp:1117
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Article"
+msgstr "حذف مقاله"
+
+#: src/mainwidget.cpp:1299
+#, kde-format
+msgid "Networking is available now."
+msgstr "شبکه اکنون در دسترس است."
+
+#: src/mainwindow.cpp:126
+#, kde-format
+msgid ""
+"<qt>This will hide the menu bar completely. You can show it again by typing "
+"%1.</qt>"
+msgstr ""
+"<qt>این کار نوار منو را کاملاً پنهان می‌کند. می‌توانید با فشردن کلیدهای %1 "
+"دوباره آن را نمایش دهید.</qt>"
+
+#: src/mainwindow.cpp:129
+#, kde-format
+msgctxt "@title:window"
+msgid "Hide menu bar"
+msgstr "پنهان‌سازی نوار منو"
+
+#: src/mainwindow.cpp:162
+#, kde-format
+msgid ""
+"Could not find the Akregator part; please check your installation.\n"
+"%1"
+msgstr ""
+"بخش آکرگاتور (Akregator) پیدا نشد؛ لطفاً نصب خود را بررسی کنید.\n"
+"%1"
+
+#: src/notificationmanager.cpp:50
+#, kde-format
+msgid ""
+"Feed added:\n"
+" %1"
+msgstr ""
+"خوراک افزوده شد:\n"
+" %1"
+
+#: src/notificationmanager.cpp:57
+#, kde-format
+msgid ""
+"Feeds added:\n"
+" %1"
+msgstr ""
+"خوراک‌ها افزوده شدند:\n"
+" %1"
+
+#: src/notificationmanager.cpp:71
+#, kde-format
+msgid "<i>and 1 other</i>"
+msgid_plural "<i>and %1 others</i>"
+msgstr[0] "<i>و ۱ مورد دیگر</i>"
+msgstr[1] "<i>و %1 مورد دیگر</i>"
+
+#: src/plugins/addaccountwizard.cpp:22
+#: src/plugins/miniflux/minifluxplugin.cpp:90
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Online Account"
+msgstr "افزودن حساب برخط"
+
+#: src/plugins/addaccountwizard.cpp:27
+#, kde-format
+msgctxt "@title:tab, wizard page for selecting the account type"
+msgid "Account Type"
+msgstr "نوع حساب"
+
+#: src/plugins/addaccountwizard.cpp:31
+#, kde-format
+msgctxt "@title:tab, wizard page with the account settings"
+msgid "Account Settings"
+msgstr "تنظیمات حساب"
+
+#: src/plugins/miniflux/minifluxaccountdialog.cpp:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Miniflux Account Settings"
+msgstr "تنظیمات حساب Miniflux"
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:26
+#, kde-format
+msgctxt "@action:button"
+msgid "Test Connection"
+msgstr "آزمایش اتصال"
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:31
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "My Miniflux"
+msgstr "Miniflux من"
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:32
+#, kde-format
+msgid "Account Name:"
+msgstr "نام حساب:"
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:34
+#, kde-format
+msgid "Server URL:"
+msgstr "نشانی وب سرور:"
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:36
+#, kde-format
+msgid "API Token:"
+msgstr "توکن API:"
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:100
+#, kde-format
+msgid "Please enter a valid server URL and API token."
+msgstr "لطفاً یک نشانی سرور و توکن API معتبر وارد کنید."
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:100
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid Input"
+msgstr "ورودی نامعتبر"
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:111
+#, kde-format
+msgid "Successfully connected to the Miniflux server."
+msgstr "اتصال به سرور Miniflux با موفقیت برقرار شد."
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:111
+#, kde-format
+msgctxt "@title:window"
+msgid "Connection Successful"
+msgstr "اتصال موفقیت‌آمیز بود"
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:113
+#, kde-format
+msgid "Failed to connect: %1"
+msgstr "اتصال ناموفق بود: %1"
+
+#: src/plugins/miniflux/minifluxaccountwidget.cpp:113
+#, kde-format
+msgctxt "@title:window"
+msgid "Connection Failed"
+msgstr "اتصال ناموفق"
+
+#: src/plugins/miniflux/minifluxplugin.cpp:73
+#, kde-format
+msgid "Miniflux"
+msgstr "Miniflux"
+
+#: src/plugins/miniflux/minifluxplugin.cpp:90
+#, kde-format
+msgid "An account named “%1” already exists."
+msgstr "حسابی با نام «%1» از قبل وجود دارد."
+
+#: src/progressmanager.cpp:127
+#, kde-format
+msgid "Fetch completed"
+msgstr "واکشی کامل شد"
+
+#: src/progressmanager.cpp:136
+#, kde-format
+msgid "Fetch error"
+msgstr "خطا در واکشی"
+
+#: src/progressmanager.cpp:145
+#, kde-format
+msgid "Fetch aborted"
+msgstr "دریافت لغو شد"
+
+#: src/subscription/subscriptionlistjobs.cpp:54
+#, kde-format
+msgid "Feed list was deleted"
+msgstr "فهرست خوراک حذف شد"
+
+#: src/subscription/subscriptionlistjobs.cpp:64
+#, kde-format
+msgid "Node or destination folder not found"
+msgstr "گره یا پوشهٔ مقصد یافت نشد"
+
+#: src/subscription/subscriptionlistjobs.cpp:71
+#, kde-format
+msgid "Cannot move folder %1 to its own subfolder %2"
+msgstr "نمی‌توان پوشهٔ %1 را به زیرپوشهٔ خودش %2 منتقل کرد"
+
+#: src/subscription/subscriptionlistmodel.cpp:54
+#, kde-format
+msgid "Timeout on remote server"
+msgstr "پایان مهلت زمانی در سرور دوردست"
+
+#: src/subscription/subscriptionlistmodel.cpp:56
+#, kde-format
+msgid "Unknown host"
+msgstr "میزبان ناشناخته"
+
+#: src/subscription/subscriptionlistmodel.cpp:58
+#, kde-format
+msgid "Feed file not found on remote server"
+msgstr "پروندهٔ خوراک در سرور دوردست یافت نشد"
+
+#: src/subscription/subscriptionlistmodel.cpp:60
+#, kde-format
+msgid "Could not read feed (invalid XML)"
+msgstr "خواندن خوراک ممکن نبود (XML نامعتبر)"
+
+#: src/subscription/subscriptionlistmodel.cpp:62
+#, kde-format
+msgid "Could not read feed (unknown format)"
+msgstr "خواندن خوراک ممکن نبود (قالب ناشناخته)"
+
+#: src/subscription/subscriptionlistmodel.cpp:64
+#, kde-format
+msgid "Could not read feed (invalid feed)"
+msgstr "خواندن خوراک ممکن نبود (خوراک نامعتبر)"
+
+#: src/subscription/subscriptionlistmodel.cpp:271
+#, kde-format
+msgid "Could not fetch feed: %1"
+msgstr "دریافت خوراک ممکن نشد: %1"
+
+#: src/subscription/subscriptionlistmodel.cpp:320
+#, kde-format
+msgctxt "Feedlist's column header"
+msgid "Feeds"
+msgstr "خوراک‌ها"
+
+#: src/subscription/subscriptionlistmodel.cpp:322
+#, kde-format
+msgctxt "Feedlist's column header"
+msgid "Unread"
+msgstr "خوانده‌نشده"
+
+#: src/subscription/subscriptionlistmodel.cpp:324
+#, kde-format
+msgctxt "Feedlist's column header"
+msgid "Total"
+msgstr "کل"
+
+#: src/tabwidget.cpp:98
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close the current tab"
+msgstr "بستن برگهٔ فعلی"
+
+#: src/tabwidget.cpp:101
+#, kde-format
+msgid "Close tab"
+msgstr "بستن برگه"
+
+#: src/tabwidget.cpp:124
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Detach Tab"
+msgstr "جدا کردن برگه"
+
+#: src/tabwidget.cpp:132
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload Tab"
+msgstr "بارگذاری مجدد برگه"
+
+#: src/tabwidget.cpp:135
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Tab Address"
+msgstr "رونوشت از نشانی برگه"
+
+#: src/tabwidget.cpp:141
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "بستن برگه"
+
+#: src/tabwidget.cpp:145
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close All Other Tabs"
+msgstr "بستن همهٔ زبانه‌های دیگر"
+
+#: src/tabwidget.cpp:149
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close All Tabs"
+msgstr "بستن همهٔ زبانه‌ها"
+
+#: src/trayicon.cpp:54
+#, kde-format
+msgid "There are no unread articles"
+msgstr "هیچ مقالهٔ خوانده‌نشده‌ای وجود ندارد"
+
+#: src/trayicon.cpp:54
+#, kde-format
+msgid "1 unread article"
+msgid_plural "%1 unread articles"
+msgstr[0] "۱ مقالهٔ خوانده‌نشده"
+msgstr[1] "%1 مقالهٔ خوانده‌نشده"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget,
+#. Akregator::AddFeedWidgetBase)
+#: src/ui/addfeedwidgetbase.ui:14
+#, kde-format
+msgid "Add Feed"
+msgstr "افزودن خوراک"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/ui/addfeedwidgetbase.ui:122
+#, kde-format
+msgid "Add New Source"
+msgstr "افزودن منبع جدید"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/ui/addfeedwidgetbase.ui:135
+#, kde-format
+msgid "Feed &URL:"
+msgstr "نشانی خوراک:"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget,
+#. Akregator::FeedPropertiesWidgetBase)
+#: src/ui/feedpropertieswidgetbase.ui:20
+#, kde-format
+msgid "Feed Properties"
+msgstr "ویژگی‌های خوراک"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab1)
+#: src/ui/feedpropertieswidgetbase.ui:45
+#, kde-format
+msgid "&General"
+msgstr "عمومی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_updateInterval)
+#: src/ui/feedpropertieswidgetbase.ui:57
+#, kde-format
+msgid "U&se a custom update interval"
+msgstr "استفاده از بازهٔ زمانی به‌روزرسانی سفارشی"
+
+#. i18n: ectx: property (text), widget (QLabel, updateLabel)
+#: src/ui/feedpropertieswidgetbase.ui:91
+#, kde-format
+msgid "Update ever&y:"
+msgstr "به‌روز‌رسانی هر:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_useNotification)
+#: src/ui/feedpropertieswidgetbase.ui:120
+#, kde-format
+msgid "Notify when new articles arri&ve"
+msgstr "اطلاع‌رسانی هنگام رسیدن مقاله‌های جدید"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/ui/feedpropertieswidgetbase.ui:135
+#, kde-format
+msgid "&URL:"
+msgstr "نشانی وب:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: src/ui/feedpropertieswidgetbase.ui:145
+#, kde-format
+msgid "&Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, feedNameEdit)
+#: src/ui/feedpropertieswidgetbase.ui:164
+#, kde-format
+msgid "Display name of RSS column"
+msgstr "نام نمایشی ستون RSS"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/ui/feedpropertieswidgetbase.ui:174
+#, kde-format
+msgid "Comment:"
+msgstr "توضیح:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#: src/ui/feedpropertieswidgetbase.ui:197
+#, kde-format
+msgid "Ar&chive"
+msgstr "بایگانی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_globalDefault)
+#: src/ui/feedpropertieswidgetbase.ui:209
+#, kde-format
+msgid "&Use default settings"
+msgstr "استفاده از تنظیمات پیش‌فرض"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_disableArchiving)
+#: src/ui/feedpropertieswidgetbase.ui:219
+#, kde-format
+msgid "Di&sable archiving"
+msgstr "غیرفعال‌سازی بایگانی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_limitArticleNumber)
+#: src/ui/feedpropertieswidgetbase.ui:250
+#, kde-format
+msgid "Limit archi&ve to:"
+msgstr "محدود کردن بایگانی به:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_limitArticleAge)
+#: src/ui/feedpropertieswidgetbase.ui:280
+#, kde-format
+msgid "&Delete articles older than:"
+msgstr "حذف مقاله‌های قدیمی‌تر از:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab3)
+#: src/ui/feedpropertieswidgetbase.ui:343
+#, kde-format
+msgid "Adva&nced"
+msgstr "پیشرفته"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_loadWebsite)
+#: src/ui/feedpropertieswidgetbase.ui:376
+#, kde-format
+msgid "Load the &full website when reading articles"
+msgstr "بارگذاری وب‌سایت کامل هنگام خواندن مقاله‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_markRead)
+#: src/ui/feedpropertieswidgetbase.ui:383
+#, kde-format
+msgid "Mar&k articles as read when they arrive"
+msgstr "علامت‌گذاری مقاله‌ها به عنوان خوانده‌شده به محض دریافت"
+
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:42
+#, kde-format
+msgid "Disable Introduction"
+msgstr "غیرفعال کردن معرفی"
+
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:60
+#, kde-format
+msgid "&Copy Email Address"
+msgstr "کپی نشانی رایانامه"
+
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:69
+#, kde-format
+msgid "Address copied to clipboard."
+msgstr "نشانی در بریده‌دان کپی شد."
+
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:100
+#, kde-format
+msgid "Mark Article as Read"
+msgstr "علامت‌گذاری مقاله به عنوان خوانده‌شده"
+
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:102
+#, kde-format
+msgid "Mark Article as Unread"
+msgstr "علامت‌گذاری مقاله به عنوان خوانده‌نشده"
+
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:104
+#, kde-format
+msgid "Change Important Flag"
+msgstr "تغییر نشان مهم"
+
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:106
+#, kde-format
+msgid "Send the URL of the article"
+msgstr "ارسال نشانی وب (URL) مقاله"
+
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:108
+#, kde-format
+msgid "Send the Html Page of Article"
+msgstr "ارسال صفحهٔ HTML مقاله"
+
+#: src/urlhandler/webengine/urlhandlerwebengine.cpp:110
+#, kde-format
+msgid "Open In External Browser"
+msgstr "باز کردن در مرورگر خارجی"
+
+#: src/widgets/searchbar.cpp:46
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search articles…"
+msgstr "جستجوی مقاله‌ها…"
+
+#: src/widgets/searchbar.cpp:127
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search articles…<%1>"
+msgstr "جستجوی مقاله‌ها…<%1>"
+
+#: src/widgets/statussearchbuttons.cpp:31
+#, kde-format
+msgid "All Articles"
+msgstr "همهٔ مقاله‌ها"
+
+#: src/widgets/statussearchbuttons.cpp:41
+#, kde-format
+msgctxt "New articles filter"
+msgid "New"
+msgstr "جدید"
+
+#: src/widgets/statussearchbuttons.cpp:50
+#, kde-format
+msgctxt "Unread articles filter"
+msgid "Unread"
+msgstr "خوانده‌نشده"
+
+#: src/widgets/statussearchbuttons.cpp:59
+#, kde-format
+msgctxt "Read articles filter"
+msgid "Read"
+msgstr "خوانده‌شده"
+
+#: src/widgets/statussearchbuttons.cpp:68
+#, kde-format
+msgctxt "Important articles filter"
+msgid "Important"
+msgstr "مهم"

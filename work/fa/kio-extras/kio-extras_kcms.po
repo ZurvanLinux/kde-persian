@@ -1,0 +1,728 @@
+# translation of kcmkio.po to Persian
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkio\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-28 00:45+0000\n"
+"PO-Revision-Date: 2026-10-15 23:28+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: ectx: label, entry (MarkPartial), group (&lt;default&gt;)
+#: proxy/kioslave.kcfg:12
+#, kde-format
+msgid "Mark partially uploaded files"
+msgstr "علامت‌گذاری پرونده‌های تا حدی بارگذاری‌شده"
+
+#. i18n: ectx: whatsthis, entry (MarkPartial), group (&lt;default&gt;)
+#: proxy/kioslave.kcfg:13
+#, kde-format
+msgid ""
+"While a file is being uploaded its extension is \".part\". When fully "
+"uploaded it is renamed to its real name."
+msgstr ""
+"تا زمانی که پرونده‌ای در حال بارگذاری است، پسوند آن «‎.part» خواهد بود. پس "
+"از بارگذاری کامل، به نام واقعی‌اش تغییر می‌یابد."
+
+#: proxy/ui/main.qml:33
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Restart running applications to make these changes take effect for them."
+msgstr ""
+"برای اعمال این تغییرات روی برنامه‌های در حال اجرا، آن‌ها را بازراه‌اندازی "
+"کنید."
+
+#: proxy/ui/main.qml:49
+#, kde-format
+msgctxt "@label"
+msgid "No proxy"
+msgstr "بدون پیشکار"
+
+#: proxy/ui/main.qml:65
+#, kde-format
+msgctxt "@label"
+msgid "Detect proxy configuration automatically"
+msgstr "تشخیص خودکار پیکربندی پیشکار"
+
+#: proxy/ui/main.qml:75
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Automatic Configuration, also known as Web Proxy Auto-Discovery (WPAD), is "
+"almost never the correct configuration. Enabling it when it is not required "
+"may slow down network access and make your network less secure. Your network"
+" administrator will know whether enabling it is required."
+msgstr ""
+"پیکربندی خودکار، که به عنوان «کشف خودکار پیشکار وب» (WPAD) نیز شناخته "
+"می‌شود، تقریباً هرگز پیکربندی صحیحی نیست. فعال کردن آن در مواقع غیرضروری "
+"ممکن است دسترسی به شبکه را کند کرده و امنیت شبکه شما را کاهش دهد. مدیر شبکه "
+"شما می‌داند که آیا فعال‌سازی آن لازم است یا خیر."
+
+#: proxy/ui/main.qml:83
+#, kde-format
+msgctxt "@label"
+msgid "Use proxy auto-configuration URL"
+msgstr "استفاده از نشانی اینترنتی پیکربندی خودکار پیشکار"
+
+#: proxy/ui/main.qml:104
+#, kde-format
+msgctxt "@label:button"
+msgid "Choose file…"
+msgstr "انتخاب پرونده…"
+
+#: proxy/ui/main.qml:119
+#, kde-format
+msgctxt "@label"
+msgid "Use system proxy configuration"
+msgstr "استفاده از پیکربندی پیشکار سامانه"
+
+#: proxy/ui/main.qml:129
+#, kde-format
+msgctxt "@action:button"
+msgid "Auto-Detect"
+msgstr "تشخیص خودکار"
+
+#: proxy/ui/main.qml:137
+#, kde-format
+msgctxt "@label"
+msgid "HTTP proxy:"
+msgstr "پیشکار HTTP:"
+
+#: proxy/ui/main.qml:143
+#, kde-format
+msgctxt "@label"
+msgid "SSL proxy:"
+msgstr "پیشکار SSL:"
+
+#: proxy/ui/main.qml:149
+#, kde-format
+msgctxt "@label"
+msgid "FTP proxy:"
+msgstr "پیشکار FTP:"
+
+#: proxy/ui/main.qml:155
+#, kde-format
+msgctxt "@label"
+msgid "SOCKS proxy:"
+msgstr "پیشکار SOCKS:"
+
+#: proxy/ui/main.qml:161 proxy/ui/main.qml:304
+#, kde-format
+msgctxt "@label"
+msgid "Exceptions:"
+msgstr "استثناها:"
+
+#: proxy/ui/main.qml:162 proxy/ui/main.qml:301
+#, kde-format
+msgctxt "@placeholder"
+msgid "Comma-separated list of IP addresses"
+msgstr "فهرست نشانی‌های IP، جداشده با کاما"
+
+#: proxy/ui/main.qml:171
+#, kde-format
+msgctxt "@label"
+msgid "Show the value of the environment variables"
+msgstr "نمایش مقدار متغیرهای محیطی"
+
+#: proxy/ui/main.qml:178
+#, kde-format
+msgctxt "@label"
+msgid "Use manually-specified proxy configuration"
+msgstr "استفاده از پیکربندی پیشکار به‌صورت دستی"
+
+#: proxy/ui/main.qml:196
+#, kde-format
+msgctxt "@title"
+msgid "HTTP Proxy"
+msgstr "پیشکار HTTP"
+
+#: proxy/ui/main.qml:219
+#, kde-format
+msgctxt "@label"
+msgid "Use this proxy server for all protocols"
+msgstr "استفاده از این کارساز پیشکار برای همهٔ پروتکل‌ها"
+
+#: proxy/ui/main.qml:233
+#, kde-format
+msgctxt "@title"
+msgid "SSL Proxy"
+msgstr "پیشکار SSL"
+
+#: proxy/ui/main.qml:256
+#, kde-format
+msgctxt "@title"
+msgid "FTP Proxy"
+msgstr "پیشکار FTP"
+
+#: proxy/ui/main.qml:279
+#, kde-format
+msgctxt "@title"
+msgid "SOCKS Proxy"
+msgstr "پیشکار SOCKS"
+
+#: proxy/ui/main.qml:320
+#, kde-format
+msgctxt "@label"
+msgid "Use proxy settings only for addresses in the exceptions list"
+msgstr "استفاده از تنظیمات پیشکار فقط برای نشانی‌های موجود در فهرست استثناها"
+
+#: proxy/ui/main.qml:363
+#, kde-format
+msgctxt "@label"
+msgid "Url:"
+msgstr "نشانی وب:"
+
+#: proxy/ui/main.qml:387
+#, kde-format
+msgctxt "@label"
+msgid "Port:"
+msgstr "درگاه:"
+
+#: proxy/ui/main.qml:410
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Open Proxy Auto-Configuration File"
+msgstr "باز کردن پروندهٔ پیکربندی خودکار پیشکار"
+
+#: proxy/ui/main.qml:411
+#, kde-format
+msgctxt "@label"
+msgid "Proxy auto-configuration files (*.pac)"
+msgstr "پرونده‌های پیکربندی خودکار پیشکار (‎*.pac)"
+
+#: proxy/wpad-detector/module.cpp:75
+#, kde-format
+msgctxt "@title"
+msgid "Slow network performance detected"
+msgstr "کندی عملکرد شبکه شناسایی شد"
+
+#: proxy/wpad-detector/module.cpp:77
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Automatic proxy discovery has been enabled, but is reducing the system's "
+"network performance. Check your proxy settings to make sure that using this "
+"setting is really necessary."
+msgstr ""
+"کشف خودکار پیشکار فعال شده است، اما عملکرد شبکهٔ سامانه را کاهش می‌دهد. "
+"تنظیمات پیشکار خود را بررسی کنید تا مطمئن شوید که استفاده از این تنظیم "
+"واقعاً لازم است."
+
+#: proxy/wpad-detector/module.cpp:84
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Settings"
+msgstr "باز کردن تنظیمات"
+
+#: proxy/wpad-detector/module.cpp:89
+#, kde-format
+msgctxt "@action:button ignore notification"
+msgid "Ignore Forever"
+msgstr "نادیده گرفتن برای همیشه"
+
+#: trash/kcmtrash.cpp:207
+#, kde-format
+msgid ""
+"<para>KDE's wastebin is configured to use the <b>Finder</b>'s "
+"Trash.<br></para>"
+msgstr ""
+"<para>سطل زبالهٔ KDE برای استفاده از سطل زبالهٔ <b>فایندر</b> پیکربندی شده "
+"است.<br></para>"
+
+#: trash/kcmtrash.cpp:209
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Emptying KDE's wastebin will remove only KDE's trash items, "
+"while<br>emptying the Trash through the Finder will delete "
+"everything.</para><para>KDE's trash items will show up in a folder called "
+"KDE.trash, in the Trash can.</para>"
+msgstr ""
+"<para>خالی کردن سطل زبالهٔ KDE فقط موارد مربوط به سطل زبالهٔ KDE را حذف "
+"می‌کند، در حالی که<br>خالی کردن سطل زباله از طریق فایندر همه‌چیز را پاک "
+"خواهد کرد.</para><para>موارد سطل زبالهٔ KDE در پوشه‌ای به نام KDE.trash در "
+"سطل زباله نمایش داده خواهند شد.</para>"
+
+#: trash/kcmtrash.cpp:250
+#, kde-format
+msgid "Delete files older than"
+msgstr "حذف پرونده‌های قدیمی‌تر از"
+
+#: trash/kcmtrash.cpp:253
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Check this box to allow <emphasis strong='true'>automatic "
+"deletion</emphasis> of files that are older than the value specified. Leave "
+"this disabled to <emphasis strong='true'>not</emphasis> automatically delete"
+" any items after a certain timespan</para>"
+msgstr ""
+"<para>این جعبه را علامت بزنید تا <emphasis strong='true'>حذف "
+"خودکار</emphasis> پرونده‌هایی که قدیمی‌تر از مقدار مشخص‌شده هستند مجاز شود. "
+"این گزینه را غیرفعال بگذارید تا پس از یک بازهٔ زمانی معین، هیچ موردی به‌طور "
+"خودکار حذف <emphasis strong='true'>نشود</emphasis>.</para>"
+
+#: trash/kcmtrash.cpp:260
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] "%v روز"
+msgstr[1] "%v روز"
+
+#: trash/kcmtrash.cpp:262
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Set the number of days that files can remain in the trash. Any files "
+"older than this will be automatically deleted.</para>"
+msgstr ""
+"<para>تعداد روزهایی را که پرونده‌ها می‌توانند در سطل زباله باقی بمانند تنظیم"
+" کنید. هر پرونده‌ای قدیمی‌تر از این مقدار به‌طور خودکار حذف خواهد شد.</para>"
+
+#: trash/kcmtrash.cpp:266
+#, kde-format
+msgid "Cleanup:"
+msgstr "پاک‌سازی:"
+
+#: trash/kcmtrash.cpp:269
+#, kde-format
+msgid "Limit to"
+msgstr "محدود کردن به"
+
+#: trash/kcmtrash.cpp:271
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Check this box to limit the trash to the maximum amount of disk space "
+"that you specify below. Otherwise, it will be unlimited.</para>"
+msgstr ""
+"<para>این گزینه را علامت بزنید تا سطل زباله به حداکثر فضای دیسکی که در زیر "
+"مشخص می‌کنید، محدود شود. در غیر این صورت، نامحدود خواهد بود.</para>"
+
+#: trash/kcmtrash.cpp:274
+#, kde-format
+msgid "Size:"
+msgstr "اندازه:"
+
+#: trash/kcmtrash.cpp:280
+#, kde-format
+msgctxt "@label:spinbox Percent value"
+msgid "%v%"
+msgstr "٪%v"
+
+#: trash/kcmtrash.cpp:281
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the maximum percent of disk space that will be used for the "
+"trash.</para>"
+msgstr ""
+"<para>این، بیشترین درصد فضای دیسک است که برای سطل زباله استفاده خواهد "
+"شد.</para>"
+
+#: trash/kcmtrash.cpp:286
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the calculated amount of disk space that will be allowed for "
+"the trash, the maximum.</para>"
+msgstr ""
+"<para>این، مقدار محاسبه‌شدهٔ فضای دیسک است که به عنوان حداکثر برای سطل زباله"
+" مجاز خواهد بود.</para>"
+
+#: trash/kcmtrash.cpp:290
+#, kde-format
+msgid "Show a warning"
+msgstr "نمایش هشدار"
+
+#: trash/kcmtrash.cpp:291
+#, kde-format
+msgid "Delete oldest files from trash"
+msgstr "حذف قدیمی‌ترین پرونده‌ها از سطل زباله"
+
+#: trash/kcmtrash.cpp:292
+#, kde-format
+msgid "Delete biggest files from trash"
+msgstr "حذف بزرگ‌ترین پرونده‌ها از سطل زباله"
+
+#: trash/kcmtrash.cpp:294
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>When the size limit is reached, it will prefer to delete the type of "
+"files that you specify, first. If this is set to warn you, it will do so "
+"instead of automatically deleting files.</para>"
+msgstr ""
+"<para>هنگامی که اندازه به حد مجاز برسد، ترجیح می‌دهد ابتدا نوع پرونده‌هایی "
+"را که مشخص کرده‌اید حذف کند. اگر روی حالت هشدار تنظیم شده باشد، به‌جای حذف "
+"خودکار پرونده‌ها، به شما هشدار خواهد داد.</para>"
+
+#: trash/kcmtrash.cpp:296
+#, kde-format
+msgid "Full trash:"
+msgstr "سطل زبالهٔ پر:"
+
+#: webshortcuts/ikwsopts.cpp:42
+#, kde-format
+msgctxt "@title:column Name label from web search keyword column"
+msgid "Name"
+msgstr "نام"
+
+#: webshortcuts/ikwsopts.cpp:44
+#, kde-format
+msgctxt "@title:column"
+msgid "Keywords"
+msgstr "کلیدواژه‌ها"
+
+#: webshortcuts/ikwsopts.cpp:46
+#, kde-format
+msgctxt "@title:column"
+msgid "Preferred"
+msgstr "ترجیحی"
+
+#: webshortcuts/ikwsopts.cpp:104
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Check to select this web search keyword as preferred."
+msgstr "برای انتخاب این کلیدواژهٔ جستجوی وب به‌عنوان ترجیحی، علامت بزنید."
+
+#: webshortcuts/ikwsopts.cpp:224
+#, kde-format
+msgctxt "@item:inlistbox No default web search keyword"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: webshortcuts/ikwsopts.cpp:269
+#, kde-format
+msgid "Search F&ilters"
+msgstr "فیلترهای جستجو"
+
+#: webshortcuts/ikwsopts.cpp:299
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Web search keywords allow you to quickly search or look up words on "
+"the Internet. They work in Plasma's <application>KRunner</application> "
+"search, <application>Konqueror</application>'s address bar, and in any other"
+" applications that support them. For example, to search for information "
+"about the KDE project using the Google search engine, you can simply type "
+"<icode>gg:KDE</icode> or <icode>google:KDE</icode>.</para>"
+msgstr ""
+"<para>کلیدواژه‌های جستجوی وب به شما امکان می‌دهند تا واژه‌ها را به‌سرعت در "
+"اینترنت جستجو کرده یا معنای آن‌ها را پیدا کنید. آن‌ها در جستجوی "
+"<application>KRunner</application> پلاسما، نوار نشانی "
+"<application>Konqueror</application>، و هر برنامهٔ دیگری که از آن‌ها "
+"پشتیبانی کند کار می‌کنند. به‌عنوان مثال، برای جستجوی اطلاعات پیرامون پروژهٔ "
+"KDE با استفاده از موتور جستجوی گوگل، به‌سادگی می‌توانید "
+"<icode>gg:KDE</icode> یا <icode>google:KDE</icode> را تایپ کنید.</para>"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbEnableShortcuts)
+#: webshortcuts/ikwsopts_ui.ui:17
+#, kde-format
+msgid ""
+"Check to recognise and use the web search keywords in applications that can "
+"use them"
+msgstr ""
+"علامت بزنید تا کلیدواژه‌های جستجوی وب در برنامه‌هایی که می‌توانند از آن‌ها "
+"استفاده کنند، شناسایی شده و به کار روند"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbEnableShortcuts)
+#: webshortcuts/ikwsopts_ui.ui:20
+#, kde-format
+msgid "&Enable Web search keywords"
+msgstr "فعال‌سازی کلیدواژه‌های جستجوی وب"
+
+#. i18n: ectx: property (text), widget (QLabel, lbQuickHelp)
+#: webshortcuts/ikwsopts_ui.ui:36
+#, kde-format
+msgid "<a href=\"whatsthis\">How do these work?</a>"
+msgstr "<a href=\"whatsthis\">این‌ها چگونه کار می‌کنند؟</a>"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. cbUseSelectedShortcutsOnly)
+#: webshortcuts/ikwsopts_ui.ui:52
+#, kde-format
+msgid ""
+"<p>Check to only use the preferred web search keywords, as selected in the "
+"list below, where necessary.</p><p>If this is checked, then applications "
+"that can only show a limited number of search keywords (for example, "
+"Konqueror when text on a page is selected) will only show the preferred "
+"keywords.</p>"
+msgstr ""
+"<p>علامت بزنید تا در صورت لزوم، فقط از کلیدواژه‌های ترجیحی جستجوی وب، "
+"همان‌طور که در فهرست زیر انتخاب شده‌اند، استفاده شود.</p><p>اگر این گزینه "
+"علامت زده شود، برنامه‌هایی که فقط می‌توانند تعداد محدودی از کلیدواژه‌های "
+"جستجو را نشان دهند (برای مثال، کانکرور هنگام انتخاب متن در یک صفحه)، فقط "
+"کلیدواژه‌های ترجیحی را نشان خواهند داد.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbUseSelectedShortcutsOnly)
+#: webshortcuts/ikwsopts_ui.ui:55
+#, kde-format
+msgid "&Use preferred keywords only"
+msgstr "فقط استفاده از کلیدواژه‌های ترجیحی"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, searchLineEdit)
+#: webshortcuts/ikwsopts_ui.ui:62
+#, kde-format
+msgid "Search..."
+msgstr "جستجو…"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pbNew)
+#: webshortcuts/ikwsopts_ui.ui:96
+#, kde-format
+msgid "Add a new Web search keyword"
+msgstr "افزودن کلیدواژه جستجوی وب جدید"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbNew)
+#: webshortcuts/ikwsopts_ui.ui:99
+#, kde-format
+msgid "&New…"
+msgstr "جدید…"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pbChange)
+#: webshortcuts/ikwsopts_ui.ui:109
+#, kde-format
+msgid "Modify the highlighted Web search keyword"
+msgstr "تغییر کلیدواژه برجسته‌شده جستجوی وب"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbChange)
+#: webshortcuts/ikwsopts_ui.ui:112
+#, kde-format
+msgid "Ed&it…"
+msgstr "ویرایش…"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pbDelete)
+#: webshortcuts/ikwsopts_ui.ui:122
+#, kde-format
+msgid "Delete the highlighted Web search keyword"
+msgstr "حذف کلیدواژه برجسته‌شده جستجوی وب"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#: webshortcuts/ikwsopts_ui.ui:125
+#, kde-format
+msgid "De&lete"
+msgstr "حذف"
+
+#. i18n: ectx: property (text), widget (QLabel, lbDefaultEngine)
+#: webshortcuts/ikwsopts_ui.ui:161
+#, kde-format
+msgid "Default Web &search keyword:"
+msgstr "کلیدواژه پیش‌فرض جستجوی وب:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cmbDefaultEngine)
+#: webshortcuts/ikwsopts_ui.ui:186
+#, kde-format
+msgid ""
+"<p>Select a default web search keyword.</p><p>This may be used by "
+"applications which automatically search if input cannot be recognised, for "
+"example in Konqueror's address bar.  This keyword will be used for the "
+"search. To disable this feature select <tt>(None)</tt> from the list.</p>"
+msgstr ""
+"<p>یک کلیدواژهٔ پیش‌فرض برای جستجوی وب انتخاب کنید.</p><p>این کلیدواژه ممکن "
+"است توسط برنامه‌هایی که در صورت عدم تشخیص ورودی به‌طور خودکار جستجو می‌کنند "
+"(مثلاً در نوار آدرس Konqueror) استفاده شود. از این کلیدواژه برای جستجو "
+"استفاده خواهد شد. برای غیرفعال کردن این ویژگی، <tt>(هیچ‌کدام)</tt> را از "
+"فهرست انتخاب کنید.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, lbDelimiter)
+#: webshortcuts/ikwsopts_ui.ui:202
+#, kde-format
+msgid "&Keyword delimiter:"
+msgstr "جداکنندهٔ کلیدواژه:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cmbDelimiter)
+#: webshortcuts/ikwsopts_ui.ui:221
+#, kde-format
+msgid ""
+"Choose the delimiter to separate the keyword from the phrase or word to be "
+"searched."
+msgstr ""
+"جداکننده را برای تفکیک کلیدواژه از عبارت یا کلمهٔ مورد جستجو انتخاب کنید."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbDelimiter)
+#: webshortcuts/ikwsopts_ui.ui:225
+#, kde-format
+msgctxt "Colon as keyword delimiter"
+msgid "Colon"
+msgstr "دو نقطه"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbDelimiter)
+#: webshortcuts/ikwsopts_ui.ui:230
+#, kde-format
+msgctxt "Space as keyword delimiter"
+msgid "Space"
+msgstr "فاصله"
+
+#: webshortcuts/searchproviderdlg.cpp:48
+#, kde-format
+msgctxt "@item:inlistbox The default character set"
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: webshortcuts/searchproviderdlg.cpp:51
+#, kde-format
+msgid "Edit Web Search Keyword"
+msgstr "ویرایش کلیدواژهٔ جستجوی وب"
+
+#: webshortcuts/searchproviderdlg.cpp:59
+#, kde-format
+msgid "New Web Search Keyword"
+msgstr "کلیدواژهٔ جدید جستجوی وب"
+
+#: webshortcuts/searchproviderdlg.cpp:120
+#, kde-format
+msgid ""
+"The keyword \"%1\" is already assigned to \"%2\". Please choose a different "
+"one."
+msgstr ""
+"کلیدواژهٔ «%1» قبلاً به «%2» اختصاص یافته است. لطفاً کلیدواژهٔ دیگری انتخاب "
+"کنید."
+
+#: webshortcuts/searchproviderdlg.cpp:125
+#, kde-format
+msgctxt "- web short cut (e.g. gg): what it refers to (e.g. Google)"
+msgid "- %1: \"%2\""
+msgstr "- %1: «%2»"
+
+#: webshortcuts/searchproviderdlg.cpp:129
+#, kde-format
+msgid ""
+"The following keywords are already assigned. Please choose different ones.\n"
+"%1"
+msgstr ""
+"کلیدواژه‌های زیر قبلاً تخصیص داده شده‌اند. لطفاً موارد دیگری را انتخاب کنید.\n"
+"%1"
+
+#: webshortcuts/searchproviderdlg.cpp:142
+#, kde-format
+msgid ""
+"The URL does not contain a %1 placeholder for the user query.\n"
+"This means that the same page is always going to be visited, regardless of the text typed in with the keyword."
+msgstr ""
+"نشانی وب فاقد جای‌نگه‌دار %1 برای پرس‌وجوی کاربر است.\n"
+"این بدان معناست که صرف‌نظر از متن تایپ‌شده به همراه کلیدواژه، همیشه همان صفحه باز خواهد شد."
+
+#: webshortcuts/searchproviderdlg.cpp:147
+#, kde-format
+msgid "Keep It"
+msgstr "نگه‌داشتن آن"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbName)
+#: webshortcuts/searchproviderdlg_ui.ui:17
+#, kde-format
+msgid "Enter the human-readable name of the search provider here."
+msgstr ""
+"نام قابل خواندن توسط انسان برای ارائه‌دهندهٔ جست‌وجو را اینجا وارد کنید."
+
+#. i18n: ectx: property (text), widget (QLabel, lbName)
+#: webshortcuts/searchproviderdlg_ui.ui:23
+#, kde-format
+msgid "&Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbQuery)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, leQuery)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, leQuery)
+#: webshortcuts/searchproviderdlg_ui.ui:42
+#: webshortcuts/searchproviderdlg_ui.ui:64
+#: webshortcuts/searchproviderdlg_ui.ui:70
+#, kde-format
+msgid ""
+"<qt>\n"
+"Enter the URI that is used to perform a search on the search engine here.<br/>The whole text to be searched for can be specified as \\{@} or \\{0}.<br/>\n"
+"Recommended is \\{@}, since it removes all query variables (name=value) from the resulting string, whereas \\{0} will be substituted with the unmodified query string.<br/>You can use \\{1} ... \\{n} to specify certain words from the query and \\{name} to specify a value given by 'name=value' in the user query.<br/>In addition it is possible to specify multiple references (names, numbers and strings) at once (\\{name1,name2,...,\"string\"}).<br/>The first matching value (from the left) will be used as the substitution value for the resulting URI.<br/>A quoted string can be used as the default value if nothing matches from the left of the reference list.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"نشانی اینترنتی (URI) را که برای انجام جست‌وجو در موتور جست‌وجو استفاده می‌شود اینجا وارد کنید.<br/>تمام متنی که باید جست‌وجو شود می‌تواند به‌صورت \\{@} یا \\{0} مشخص شود.<br/>\n"
+"استفاده از \\{@} توصیه می‌شود، زیرا همه متغیرهای پرس‌وجو (name=value) را از رشتهٔ حاصل حذف می‌کند، در حالی که \\{0} با رشتهٔ پرس‌وجوی تغییرنیافته جایگزین می‌شود.<br/>می‌توانید از \\{1} ... \\{n} برای مشخص کردن کلمات خاصی از پرس‌وجو و از \\{name} برای تعیین مقدار داده‌شده توسط «name=value» در پرس‌وجوی کاربر استفاده کنید.<br/>علاوه بر این، می‌توان چندین مرجع (نام‌ها، اعداد و رشته‌ها) را به‌طور هم‌زمان مشخص کرد (\\{name1,name2,...,\"string\"}).<br/>اولین مقدار منطبق (از چپ) به‌عنوان مقدار جایگزین برای URI حاصل استفاده خواهد شد.<br/>یک رشتهٔ داخل گیومه می‌تواند به‌عنوان مقدار پیش‌فرض استفاده شود اگر هیچ‌چیز از سمت چپ فهرست مراجع مطابقت نداشته باشد.\n"
+"</qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, lbQuery)
+#: webshortcuts/searchproviderdlg_ui.ui:48
+#, kde-format
+msgid "&URL:"
+msgstr "نشانی وب:"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, cbCharset)
+#: webshortcuts/searchproviderdlg_ui.ui:83
+#, kde-format
+msgid ""
+"Select the character set that will be used to encode your search query."
+msgstr ""
+"مجموعه نویسه‌ای را که برای کدگذاری پرس‌وجوی جست‌وجوی شما استفاده می‌شود "
+"انتخاب کنید."
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, leShortcut)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, leShortcut)
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbShortcut)
+#: webshortcuts/searchproviderdlg_ui.ui:92
+#: webshortcuts/searchproviderdlg_ui.ui:97
+#: webshortcuts/searchproviderdlg_ui.ui:116
+#, kde-format
+msgid ""
+"<qt>\n"
+"The keywords entered here can be used as a pseudo-URI scheme in KDE. For example, the keyword <b>av</b> can be used as in <b>av</b>:<b>my search</b>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"کلیدواژه‌های واردشده در اینجا می‌توانند به‌عنوان یک طرح شبه‌URI در KDE استفاده شوند. برای مثال، کلیدواژهٔ <b>av</b> می‌تواند به‌صورت <b>av</b>:<b>جست‌وجوی من</b> استفاده شود\n"
+"</qt>"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, leName)
+#: webshortcuts/searchproviderdlg_ui.ui:104
+#, kde-format
+msgid ""
+"<html><head/><body><p>Enter the human-readable name of the Web search "
+"keyword here.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>نام قابل خواندن برای انسان کلیدواژهٔ جست‌وجوی وب را "
+"اینجا وارد کنید.</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, leName)
+#: webshortcuts/searchproviderdlg_ui.ui:107
+#, kde-format
+msgid ""
+"<html><head/><body><p>Enter the human-readable name of the Web search "
+"keyword shortcut here.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>نام خوانا برای انسانِ میان‌بُر کلیدواژهٔ جست‌وجوی وب "
+"را اینجا وارد کنید.</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, lbShortcut)
+#: webshortcuts/searchproviderdlg_ui.ui:119
+#, kde-format
+msgid "&Keywords:"
+msgstr "کلیدواژه‌ها:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbCharset)
+#: webshortcuts/searchproviderdlg_ui.ui:132
+#, kde-format
+msgid "Select the character set that will be used to encode your search query"
+msgstr ""
+"مجموعه نویسه‌ای را که برای کدگذاری پرسمان جست‌وجوی شما استفاده می‌شود، "
+"انتخاب کنید"
+
+#. i18n: ectx: property (text), widget (QLabel, lbCharset)
+#: webshortcuts/searchproviderdlg_ui.ui:135
+#, kde-format
+msgid "&Character set:"
+msgstr "مجموعه نویسه‌ها:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pbPaste)
+#: webshortcuts/searchproviderdlg_ui.ui:158
+#, kde-format
+msgid "Insert query placeholder"
+msgstr "درج جانگهدار پرسمان"

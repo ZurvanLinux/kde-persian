@@ -1,0 +1,6303 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdevplatform package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevplatform\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-29 00:44+0000\n"
+"PO-Revision-Date: 2026-10-15 21:36+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: debugger/breakpoint/breakpoint.cpp:195
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Error"
+msgstr "خطا"
+
+#: debugger/breakpoint/breakpoint.cpp:201
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Dirty"
+msgstr "تغییریافته"
+
+#: debugger/breakpoint/breakpoint.cpp:203
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pending"
+msgstr "در انتظار"
+
+#: debugger/breakpoint/breakpoint.cpp:205
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clean"
+msgstr "دست‌نخورده"
+
+#: debugger/breakpoint/breakpoint.cpp:238
+#, kde-format
+msgctxt "location (address)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: debugger/breakpoint/breakpointdetails.cpp:48
+#: debugger/breakpoint/breakpointdetails.cpp:127
+#, kde-format
+msgid "Not hit yet"
+msgstr "هنوز برخورد نکرده"
+
+#: debugger/breakpoint/breakpointdetails.cpp:52
+#, kde-format
+msgid "Ignore"
+msgstr "نادیده گرفتن"
+
+#: debugger/breakpoint/breakpointdetails.cpp:60
+#, kde-format
+msgid "next hits"
+msgstr "برخوردهای بعدی"
+
+#: debugger/breakpoint/breakpointdetails.cpp:112
+#, kde-format
+msgid "Breakpoint is <a href=\"pending\">pending</a>"
+msgstr "نقطه توقف <a href=\"pending\">در انتظار</a> است"
+
+#: debugger/breakpoint/breakpointdetails.cpp:115
+#, kde-format
+msgid "Breakpoint is <a href=\"dirty\">dirty</a>"
+msgstr "نقطه توقف <a href=\"dirty\">نامعتبر</a> است"
+
+#: debugger/breakpoint/breakpointdetails.cpp:118
+#, kde-format
+msgid "Breakpoint is active"
+msgstr "نقطه توقف فعال است"
+
+#: debugger/breakpoint/breakpointdetails.cpp:125
+#, kde-format
+msgid "Hit %1 time"
+msgid_plural "Hit %1 times"
+msgstr[0] "%1 بار رخ داده است"
+msgstr[1] "%1 بار رخ داده است"
+
+#: debugger/breakpoint/breakpointdetails.cpp:129
+#, kde-format
+msgid "Breakpoint has errors"
+msgstr "نقطه توقف دارای خطا است"
+
+#: debugger/breakpoint/breakpointdetails.cpp:142
+#, kde-format
+msgid ""
+"<b>Breakpoint is pending</b><p>Pending breakpoints are those that have been "
+"passed to GDB, but which are not yet installed in the target, because GDB "
+"cannot find the function or file to which the breakpoint refers. The most "
+"common case is a breakpoint in a shared library: GDB will insert this "
+"breakpoint only when the library is loaded.</p>"
+msgstr ""
+"<b>نقطه توقف در انتظار است</b><p>نقاط توقف در انتظار مواردی هستند که به GDB "
+"ارسال شده‌اند اما هنوز روی هدف اعمال نشده‌اند، زیرا GDB نمی‌تواند تابع یا "
+"پرونده‌ای را که نقطه توقف به آن اشاره دارد پیدا کند. رایج‌ترین حالت، نقطه "
+"توقف در یک کتابخانه مشترک است: GDB تنها زمانی این نقطه توقف را درج می‌کند که"
+" کتابخانه بارگیری شده باشد.</p>"
+
+#: debugger/breakpoint/breakpointdetails.cpp:155
+#, kde-format
+msgid ""
+"<b>Breakpoint is dirty</b><p>The breakpoint has not yet been passed to the "
+"debugger.</p>"
+msgstr ""
+"<b>نقطه توقف تغییر کرده است</b><p>نقطه توقف هنوز به اشکال‌زدا ارسال نشده "
+"است.</p>"
+
+#: debugger/breakpoint/breakpointmodel.cpp:119
+#, kde-format
+msgid "Breakpoint"
+msgstr "نقطه توقف"
+
+#: debugger/breakpoint/breakpointmodel.cpp:378
+#, kde-format
+msgid "Breakpoint not found"
+msgstr "نقطه توقف پیدا نشد"
+
+#: debugger/breakpoint/breakpointmodel.cpp:378
+#, kde-format
+msgid "Couldn't find breakpoint at %1:%2"
+msgstr "نقطه توقف در %1:%2 پیدا نشد"
+
+#: debugger/breakpoint/breakpointmodel.cpp:384
+#, kde-format
+msgid "&Breakpoint"
+msgstr "نقطهٔ توقف"
+
+#: debugger/breakpoint/breakpointmodel.cpp:390
+#, kde-format
+msgid "&Disable Breakpoint"
+msgstr "غیرفعال کردن نقطهٔ توقف"
+
+#: debugger/breakpoint/breakpointmodel.cpp:391
+#, kde-format
+msgid "&Enable Breakpoint"
+msgstr "فعال کردن نقطهٔ توقف"
+
+#: debugger/breakpoint/breakpointmodel.cpp:394
+#, kde-format
+msgid "&Bookmark"
+msgstr "نشانک"
+
+#: debugger/breakpoint/breakpointmodel.cpp:436
+#: debugger/variable/variablecollection.cpp:422
+#: debugger/variable/variabletooltip.cpp:79
+#, kde-format
+msgid "Type"
+msgstr "نوع"
+
+#: debugger/breakpoint/breakpointmodel.cpp:437
+#, kde-format
+msgid "Location"
+msgstr "مکان"
+
+#: debugger/breakpoint/breakpointmodel.cpp:438
+#, kde-format
+msgid "Condition"
+msgstr "شرط"
+
+#: debugger/breakpoint/breakpointmodel.cpp:442
+#, kde-format
+msgid "Active status"
+msgstr "وضعیت فعال"
+
+#: debugger/breakpoint/breakpointmodel.cpp:443
+#, kde-format
+msgid "State"
+msgstr "وضعیت"
+
+#: debugger/breakpoint/breakpointmodel.cpp:667
+#, kde-format
+msgid ""
+"A breakpoint cannot be added to an untitled document. Please save the "
+"document first."
+msgstr ""
+"نمی‌توان به یک سند بدون عنوان نقطهٔ توقف افزود. لطفاً ابتدا سند را ذخیره "
+"کنید."
+
+#: debugger/breakpoint/breakpointwidget.cpp:59
+#, kde-format
+msgctxt "@title:window"
+msgid "Debugger Breakpoints"
+msgstr "نقطه‌های توقف اشکال‌زدا"
+
+#: debugger/breakpoint/breakpointwidget.cpp:60
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Displays a list of breakpoints with their current status. Clicking on a "
+"breakpoint item allows you to change the breakpoint and will take you to the"
+" source in the editor window."
+msgstr ""
+"فهرستی از نقطه‌های توقف را همراه با وضعیت کنونی‌شان نمایش می‌دهد. کلیک روی "
+"یک نقطهٔ توقف به شما امکان تغییر آن را می‌دهد و شما را به مبدأ در پنجرهٔ "
+"ویرایشگر هدایت می‌کند."
+
+#: debugger/breakpoint/breakpointwidget.cpp:86
+#, kde-format
+msgid "Breakpoint Details"
+msgstr "جزئیات نقطهٔ توقف"
+
+#: debugger/breakpoint/breakpointwidget.cpp:95
+#, kde-format
+msgid "New code breakpoint ..."
+msgstr "نقطهٔ توقف کد جدید..."
+
+#: debugger/breakpoint/breakpointwidget.cpp:96
+#, kde-format
+msgid "Enter condition ..."
+msgstr "شرط را وارد کنید..."
+
+#: debugger/breakpoint/breakpointwidget.cpp:124
+#, kde-format
+msgctxt "New breakpoint"
+msgid "&New"
+msgstr "جدید"
+
+#: debugger/breakpoint/breakpointwidget.cpp:128
+#, kde-format
+msgctxt "Code breakpoint"
+msgid "&Code"
+msgstr "کد"
+
+#: debugger/breakpoint/breakpointwidget.cpp:136
+#, kde-format
+msgctxt "Data breakpoint"
+msgid "Data &Write"
+msgstr "نوشتن داده"
+
+#: debugger/breakpoint/breakpointwidget.cpp:139
+#, kde-format
+msgctxt "Data read breakpoint"
+msgid "Data &Read"
+msgstr "خواندن داده"
+
+#: debugger/breakpoint/breakpointwidget.cpp:142
+#, kde-format
+msgctxt "Data access breakpoint"
+msgid "Data &Access"
+msgstr "دسترسی به داده"
+
+#: debugger/breakpoint/breakpointwidget.cpp:147
+#, kde-format
+msgid "&Delete"
+msgstr "حذف"
+
+#: debugger/breakpoint/breakpointwidget.cpp:156
+#, kde-format
+msgid "Disable &All"
+msgstr "غیرفعال‌سازی همه"
+
+#: debugger/breakpoint/breakpointwidget.cpp:157
+#, kde-format
+msgid "&Enable All"
+msgstr "فعال‌سازی همه"
+
+#: debugger/breakpoint/breakpointwidget.cpp:158
+#, kde-format
+msgid "&Remove All"
+msgstr "حذف همه"
+
+#: debugger/framestack/framestackmodel.cpp:187
+#, kde-format
+msgctxt "#thread-id at function-name or address"
+msgid "#%1 at %2 (crashed)"
+msgstr "‫#%1 در %2 (از کار افتاده)"
+
+#: debugger/framestack/framestackmodel.cpp:189
+#, kde-format
+msgctxt "#thread-id at function-name or address"
+msgid "#%1 at %2"
+msgstr "‫#%1 در %2"
+
+#: debugger/framestack/framestackmodel.cpp:290
+#, kde-format
+msgid "Depth"
+msgstr "عمق"
+
+#: debugger/framestack/framestackmodel.cpp:292
+#: language/duchain/navigation/abstractnavigationcontext.cpp:522
+#, kde-format
+msgid "Function"
+msgstr "تابع"
+
+#: debugger/framestack/framestackmodel.cpp:294
+#, kde-format
+msgid "Source"
+msgstr "مبدأ"
+
+#: debugger/framestack/framestackwidget.cpp:68
+#, kde-format
+msgid ""
+"<b>Frame stack</b>Often referred to as the \"call stack\", this is a list "
+"showing which function is currently active, and what called each function to"
+" get to this point in your program. By clicking on an item you can see the "
+"values in any of the previous calling functions."
+msgstr ""
+"<b>پشتهٔ فریم</b>معمولاً به عنوان «پشتهٔ فراخوانی» نامیده می‌شود، این فهرستی"
+" است که نشان می‌دهد در حال حاضر کدام تابع فعال است و چه چیزی هر تابع را "
+"فراخوانی کرده تا به این نقطه از برنامه برسد. با کلیک بر روی هر مورد "
+"می‌توانید مقادیر موجود در هر یک از توابع فراخواننده قبلی را مشاهده کنید."
+
+#: debugger/framestack/framestackwidget.cpp:104
+#, kde-format
+msgid "Threads:"
+msgstr "رشته‌ها:"
+
+#: debugger/framestack/framestackwidget.cpp:231
+#, kde-format
+msgctxt "#frame function() at file"
+msgid "#%1 %2() at %3\n"
+msgstr "‎#%1 %2() در %3\n"
+
+#: debugger/framestack/framestackwidget.cpp:234
+#, kde-format
+msgctxt "#frame function() at file:line"
+msgid "#%1 %2() at %3:%4\n"
+msgstr "‎#%1 %2() در %3:%4\n"
+
+#: debugger/interfaces/ibreakpointcontroller.cpp:87
+#, kde-format
+msgid "Breakpoint hit: %1"
+msgstr "نقطه توقف فعال شد: %1"
+
+#: debugger/interfaces/ibreakpointcontroller.cpp:93
+#, kde-format
+msgid "Watchpoint hit: %1"
+msgstr "نقطه نظارت فعال شد: %1"
+
+#: debugger/util/pathmappings.cpp:86
+#, kde-format
+msgid "Remote Path"
+msgstr "مسیر دوردست"
+
+#: debugger/util/pathmappings.cpp:88
+#, kde-format
+msgid "Local Path"
+msgstr "مسیر محلی"
+
+#: debugger/util/pathmappings.cpp:217
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: debugger/variable/variablecollection.cpp:221
+#: language/duchain/problem.cpp:190 shell/filteredproblemstore.cpp:155
+#, kde-format
+msgid "Error"
+msgstr "خطا"
+
+#: debugger/variable/variablecollection.cpp:243
+#, kde-format
+msgid "Auto"
+msgstr "خودکار"
+
+#: debugger/variable/variablecollection.cpp:418
+#, kde-format
+msgid "Locals"
+msgstr "متغیرهای محلی"
+
+#. i18n: ectx: property (text), widget (QLabel, configName)
+#: debugger/variable/variablecollection.cpp:422
+#: debugger/variable/variabletooltip.cpp:79
+#: shell/launchconfigurationdialog.ui:110
+#, kde-format
+msgid "Name"
+msgstr "نام"
+
+#: debugger/variable/variablecollection.cpp:422
+#: debugger/variable/variabletooltip.cpp:79
+#, kde-format
+msgid "Value"
+msgstr "مقدار"
+
+#: debugger/variable/variabletooltip.cpp:115
+#, kde-format
+msgid "Watch This"
+msgstr "دیده‌بانی این"
+
+#: debugger/variable/variabletooltip.cpp:117
+#, kde-format
+msgid "Stop on Change"
+msgstr "توقف هنگام تغییر"
+
+#: debugger/variable/variablewidget.cpp:87
+#, kde-format
+msgid "Debugger Variables"
+msgstr "متغیرهای اشکال‌زدا"
+
+#: debugger/variable/variablewidget.cpp:105
+#, kde-format
+msgctxt "@option:check"
+msgid "Auto-resize columns on click"
+msgstr "تغییر اندازهٔ خودکار ستون‌ها با کلیک"
+
+#: debugger/variable/variablewidget.cpp:121
+#, kde-format
+msgid ""
+"<b>Variable tree</b>The variable tree allows you to see the values of local "
+"variables and arbitrary expressions.<br />Local variables are displayed "
+"automatically and are updated as you step through your program. For each "
+"expression you enter, you can either evaluate it once, or \"watch\" it (make"
+" it auto-updated). Expressions that are not auto-updated can be updated "
+"manually from the context menu. Expressions can be renamed to more "
+"descriptive names by clicking on the name column.<br />To change the value "
+"of a variable or an expression, click on the value.<br />"
+msgstr ""
+"<b>درخت متغیرها</b>درخت متغیرها به شما امکان می‌دهد مقادیر متغیرهای محلی و "
+"عبارت‌های دلخواه را ببینید.<br />متغیرهای محلی به‌طور خودکار نمایش داده "
+"می‌شوند و با گام‌به‌گام پیش رفتن در برنامه، به‌روزرسانی می‌شوند. برای هر "
+"عبارتی که وارد می‌کنید، می‌توانید آن را یک‌بار ارزیابی کنید یا آن را "
+"«دیده‌بانی» (به‌روزرسانی خودکار) کنید. عبارت‌هایی که به‌طور خودکار "
+"به‌روزرسانی نمی‌شوند را می‌توان به‌صورت دستی از منوی زمینه به‌روزرسانی کرد. "
+"با کلیک بر روی ستون نام، می‌توانید نام عبارت‌ها را به نام‌های گویاتری تغییر "
+"دهید.<br />برای تغییر مقدار یک متغیر یا عبارت، روی مقدار کلیک کنید.<br />"
+
+#: debugger/variable/variablewidget.cpp:135
+#, kde-format
+msgid "<b>Expression entry</b>Type in expression to watch."
+msgstr "<b>ورودی عبارت</b>عبارتی را برای دیده‌بانی وارد کنید."
+
+#: debugger/variable/variablewidget.cpp:212
+#, kde-format
+msgid "&Format"
+msgstr "قالب‌بندی"
+
+#: debugger/variable/variablewidget.cpp:217
+#, kde-format
+msgid "&Natural"
+msgstr "طبیعی"
+
+#: debugger/variable/variablewidget.cpp:222
+#, kde-format
+msgid "&Binary"
+msgstr "دودویی"
+
+#: debugger/variable/variablewidget.cpp:227
+#, kde-format
+msgid "&Octal"
+msgstr "هشت‌هشتی"
+
+#: debugger/variable/variablewidget.cpp:232
+#, kde-format
+msgid "&Decimal"
+msgstr "ده‌دهی"
+
+#: debugger/variable/variablewidget.cpp:237
+#, kde-format
+msgid "&Hexadecimal"
+msgstr "شانزده‌شانزدهی"
+
+#: debugger/variable/variablewidget.cpp:252
+#, kde-format
+msgid "Remove Watch Variable"
+msgstr "حذف متغیر دیده‌بان"
+
+#: debugger/variable/variablewidget.cpp:259
+#, kde-format
+msgid "&Copy Value"
+msgstr "رونوشت از مقدار"
+
+#: debugger/variable/variablewidget.cpp:264
+#, kde-format
+msgid "&Stop on Change"
+msgstr "توقف هنگام تغییر"
+
+#: debugger/variable/variablewidget.cpp:287
+#, kde-format
+msgctxt "%1 - the name of a GDB variable, e.g. \"$1\""
+msgid "%1 (last function return value)"
+msgstr "%1 (آخرین مقدار بازگشتی تابع)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: documentation/documentationfindwidget.ui:42
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Find:"
+msgstr "یافتن:"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, nextButton)
+#: documentation/documentationfindwidget.ui:56
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Jump to next match"
+msgstr "پرش به مورد منطبق بعدی"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, previousButton)
+#: documentation/documentationfindwidget.ui:69
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Jump to previous match"
+msgstr "پرش به مورد منطبق قبلی"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, matchCase)
+#: documentation/documentationfindwidget.ui:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Match case sensitive"
+msgstr "تطابق حساس به حروف بزرگ و کوچک"
+
+#: documentation/documentationview.cpp:38
+#: shell/settings/documentationpreferences.cpp:25
+#, kde-format
+msgid "Documentation"
+msgstr "مستندات"
+
+#: documentation/documentationview.cpp:69
+#, kde-format
+msgctxt "@action go back"
+msgid "Back"
+msgstr "بازگشت"
+
+#: documentation/documentationview.cpp:74
+#, kde-format
+msgctxt "@action go forward"
+msgid "Forward"
+msgstr "جلو"
+
+#: documentation/documentationview.cpp:79
+#, kde-format
+msgctxt "@action go to start page"
+msgid "Home"
+msgstr "خانه"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit,
+#. branchFilterEdit)
+#: documentation/documentationview.cpp:93 shell/sessioncontroller.cpp:585
+#: vcs/dvcs/ui/branchmanager.ui:143
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr "جستجو..."
+
+#: documentation/documentationview.cpp:111
+#, kde-format
+msgctxt "@action"
+msgid "Find in Text..."
+msgstr "یافتن در متن..."
+
+#: documentation/documentationview.cpp:112
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Find in text of current documentation page"
+msgstr "یافتن در متن صفحهٔ مستندات فعلی"
+
+#: interfaces/contextmenuextension.cpp:133
+#, kde-format
+msgctxt "@title:menu"
+msgid "Debug"
+msgstr "اشکال‌زدایی"
+
+#: interfaces/contextmenuextension.cpp:134
+#, kde-format
+msgctxt "@title:menu"
+msgid "Refactor"
+msgstr "بازسازی کد"
+
+#: interfaces/contextmenuextension.cpp:136
+#, kde-format
+msgctxt "@title:menu"
+msgid "Analyze Current File With"
+msgstr "تحلیل پروندهٔ فعلی با"
+
+#: interfaces/contextmenuextension.cpp:137
+#, kde-format
+msgctxt "@title:menu"
+msgid "Analyze Current Project With"
+msgstr "تحلیل پروژهٔ فعلی با"
+
+#: interfaces/isourceformatter.cpp:221
+#, kde-format
+msgid ""
+"The executable %1 cannot be found. Please make sure it is installed and can "
+"be executed. <br />The plugin will not work until you fix this problem."
+msgstr ""
+"فایل اجرایی %1 پیدا نشد. لطفاً مطمئن شوید که نصب شده و قابل اجراست.<br />این"
+" افزونه تا زمانی که این مشکل را برطرف نکنید کار نخواهد کرد."
+
+#: language/assistant/renameaction.cpp:69
+#, kde-format
+msgid "Rename \"%1\" to \"%2\""
+msgstr "تغییر نام «%1» به «%2»"
+
+#: language/assistant/renameaction.cpp:109
+#: language/assistant/renamefileaction.cpp:77
+#: language/codegen/basicrefactoring.cpp:343
+#: language/codegen/basicrefactoring.cpp:353
+#: language/codegen/basicrefactoring.cpp:367
+#, kde-format
+msgid "Failed to apply changes: %1"
+msgstr "اعمال تغییرات ناموفق بود: %1"
+
+#: language/assistant/renameassistant.cpp:108
+#, kde-format
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: language/assistant/renamefileaction.cpp:50
+#, kde-format
+msgid "Rename file from \"%1\" to \"%2\"."
+msgstr "تغییر نام پرونده از «%1» به «%2»."
+
+#: language/backgroundparser/backgroundparser.cpp:309
+#, kde-format
+msgid "Parsing: %1"
+msgstr "تجزیه: %1"
+
+#: language/backgroundparser/backgroundparser.cpp:615
+#: shell/settings/bgpreferences.cpp:68
+#, kde-format
+msgid "Background Parser"
+msgstr "تجزیه‌کننده پس‌زمینه"
+
+#: language/backgroundparser/parsejob.cpp:313
+#, kde-format
+msgctxt "%1: filename"
+msgid "Skipped file that is too large: '%1'"
+msgstr "از پرونده بسیار بزرگ صرف‌نظر شد: «%1»"
+
+#: language/backgroundparser/parsejob.cpp:315
+#, kde-format
+msgctxt "%1: file size, %2: limit file size"
+msgid "The file is %1 and exceeds the limit of %2."
+msgstr "حجم پرونده %1 است و از حد مجاز %2 فراتر می‌رود."
+
+#: language/backgroundparser/parsejob.cpp:327
+#, kde-format
+msgid "Could not open file '%1'"
+msgstr "پروندهٔ «%1» باز نشد"
+
+#: language/backgroundparser/parsejob.cpp:330
+#, kde-format
+msgid "File could not be read from disk."
+msgstr "خواندن پرونده از دیسک ممکن نبود."
+
+#: language/backgroundparser/parsejob.cpp:333
+#, kde-format
+msgid "File could not be opened."
+msgstr "باز کردن پرونده ممکن نبود."
+
+#: language/backgroundparser/parsejob.cpp:336
+#, kde-format
+msgid "File could not be read from disk due to permissions."
+msgstr "به‌دلیل مجوزها، خواندن پرونده از دیسک ممکن نبود."
+
+#: language/backgroundparser/parseprojectjob.cpp:74
+#, kde-format
+msgid "Process 1 file in %2"
+msgid_plural "Process %1 files in %2"
+msgstr[0] "پردازش ۱ پرونده در %2"
+msgstr[1] "پردازش %1 پرونده در %2"
+
+#: language/classmodel/allclassesfolder.cpp:22
+#, kde-format
+msgid "All projects classes"
+msgstr "تمام کلاس‌های پروژه‌ها"
+
+#: language/classmodel/classmodelnode.cpp:338
+#, kde-format
+msgid "Base classes"
+msgstr "کلاس‌های پایه"
+
+#: language/classmodel/classmodelnode.cpp:369
+#, kde-format
+msgid "Derived classes"
+msgstr "کلاس‌های مشتق‌شده"
+
+#: language/classmodel/projectfolder.cpp:18
+#, kde-format
+msgid "Classes in project %1"
+msgstr "کلاس‌ها در پروژهٔ %1"
+
+#: language/codecompletion/codecompletionitem.cpp:126
+#, kde-format
+msgid "not implemented"
+msgstr "پیاده‌سازی نشده"
+
+#: language/codegen/basicrefactoring.cpp:91
+#, kde-format
+msgctxt "@action"
+msgid "Rename \"%1\"..."
+msgstr "تغییر نام «%1»..."
+
+#: language/codegen/basicrefactoring.cpp:221
+#, kde-format
+msgid "No declaration under cursor"
+msgstr "هیچ اعلانی زیر مکان‌نما نیست"
+
+#: language/codegen/basicrefactoring.cpp:227
+#, kde-format
+msgid "Declaration is located in non-writable file %1."
+msgstr "اعلان در پروندهٔ غیرقابل‌نوشتن %1 قرار دارد."
+
+#: language/codegen/basicrefactoring.cpp:296
+#, kde-format
+msgctxt "@title:window Renaming some declaration"
+msgid "Rename \"%1\""
+msgstr "تغییر نام «%1»"
+
+#: language/codegen/basicrefactoring.cpp:300
+#, kde-format
+msgctxt "@title:tab"
+msgid "Uses"
+msgstr "موارد استفاده"
+
+#: language/codegen/basicrefactoring.cpp:302
+#, kde-format
+msgctxt "@title:tab"
+msgid "Declaration Info"
+msgstr "اطلاعات اعلان"
+
+#: language/codegen/basicrefactoring.cpp:309
+#, kde-format
+msgid "Renaming \"%1\" to \"%2\""
+msgstr "در حال تغییر نام «%1» به «%2»"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RenameDialog)
+#: language/codegen/basicrefactoring.ui:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "تغییر نام"
+
+#. i18n: ectx: property (text), widget (QLabel, newNameLabel)
+#: language/codegen/basicrefactoring.ui:22
+#, kde-format
+msgctxt "@label:textbox"
+msgid "&New name:"
+msgstr "نام جدید:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, goButton)
+#: language/codegen/basicrefactoring.ui:35
+#, kde-format
+msgid ""
+"<html><head/><body><p>&quot;Note: All overloaded functions, overloads, "
+"forward-declarations, etc. will be renamed too&quot;</p></body></html>"
+msgstr ""
+"<html><head/><body><p>&quot;توجه: همهٔ توابع سربارگذاری‌شده، سربارها، "
+"اعلان‌های پیشاپیش و غیره نیز تغییر نام خواهند یافت&quot;</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, goButton)
+#: language/codegen/basicrefactoring.ui:38
+#, kde-format
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "تغییر نام"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: language/codegen/basicrefactoring.ui:45
+#, kde-format
+msgctxt "@action:button"
+msgid "&Cancel"
+msgstr "انصراف"
+
+#: language/codegen/documentchangeset.cpp:112
+#, kde-format
+msgctxt "text range line:column->line:column"
+msgid "%1:%2->%3:%4"
+msgstr "%1:%2->%3:%4"
+
+#: language/codegen/documentchangeset.cpp:252
+#, kde-format
+msgid "Could not rename '%1' to '%2'"
+msgstr "تغییر نام «%1» به «%2» امکان‌پذیر نبود"
+
+#: language/codegen/documentchangeset.cpp:342
+#, kde-format
+msgctxt ""
+"Inconsistent change in <filename> between <range>, found <oldText> "
+"(encountered <foundText>) -> <newText>"
+msgid "Inconsistent change in %1 between %2, found %3 (encountered \"%4\") -> \"%5\""
+msgstr "تغییر ناسازگار در %1 میان %2، یافت‌شده %3 (برخورد با «%4») -> «%5»"
+
+#: language/codegen/documentchangeset.cpp:363
+#, kde-format
+msgid "Could not replace text in the document: %1"
+msgstr "جایگزینی متن در سند امکان‌پذیر نبود: %1"
+
+#: language/codegen/documentchangeset.cpp:467
+#, kde-format
+msgctxt ""
+"Inconsistent change in <document> at <range> = <oldText> (encountered "
+"<encountered>) -> <newText>"
+msgid "Inconsistent change in %1 at %2 = \"%3\"(encountered \"%4\") -> \"%5\""
+msgstr "تغییر ناسازگار در %1 در %2 = «%3» (برخورد با «%4») -> «%5»"
+
+#: language/codegen/documentchangeset.cpp:539
+#, kde-format
+msgctxt ""
+"Inconsistent change-request at <document>:intersecting changes: <previous-"
+"oldText> -> <previous-newText> @<range> & <new-oldText> -> <new-newText> "
+"@<range>"
+msgid ""
+"Inconsistent change-request at %1; intersecting changes: \"%2\"->\"%3\"@%4 &"
+" \"%5\"->\"%6\"@%7 "
+msgstr ""
+"درخواست تغییر ناسازگار در %1؛ تغییرات متداخل: «%2»->«%3»@%4 و «%5»->«%6»@%7 "
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RefactoringDialog)
+#: language/codegen/progressdialogs/refactoringdialog.ui:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Refactoring"
+msgstr "بازآرایی"
+
+#. i18n: ectx: property (text), widget (QPushButton, abortButton)
+#: language/codegen/progressdialogs/refactoringdialog.ui:27
+#, kde-format
+msgctxt "@action:button"
+msgid "&Abort"
+msgstr "لغو"
+
+#: language/duchain/aliasdeclaration.cpp:47
+#, kde-format
+msgid "Alias %1 as %2"
+msgstr "نام مستعار %1 به‌صورت %2"
+
+#: language/duchain/aliasdeclaration.cpp:50
+#, kde-format
+msgid "Lost alias %1"
+msgstr "نام مستعار %1 از دست رفت"
+
+#: language/duchain/classfunctiondeclaration.cpp:89
+#, kde-format
+msgid "invalid member-function %1 type %2"
+msgstr "تابع عضو نامعتبر %1 از نوع %2"
+
+#: language/duchain/declarationid.cpp:204
+#, kde-format
+msgid "(unknown direct declaration)"
+msgstr "(اعلان مستقیم ناشناخته)"
+
+#: language/duchain/declarationid.cpp:207
+#, kde-format
+msgid "(missing)"
+msgstr "(ناموجود)"
+
+#: language/duchain/forwarddeclaration.cpp:50
+#, kde-format
+msgid "context-free forward-declaration %1"
+msgstr "اعلان رو به جلو بدون بافتار %1"
+
+#: language/duchain/namespacealiasdeclaration.cpp:94
+#, kde-format
+msgid "Import %1 as %2"
+msgstr "درون‌ریزی %1 به‌صورت %2"
+
+#: language/duchain/namespacealiasdeclaration.cpp:96
+#, kde-format
+msgid "Import %1"
+msgstr "درون‌ریزی %1"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:89
+#, kde-format
+msgid "lost declaration"
+msgstr "اعلان ازدست‌رفته"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:96
+#, kde-format
+msgid "Back to %1<br />"
+msgstr "بازگشت به %1<br />"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:116
+#, kde-format
+msgid "enumerator "
+msgstr "شمارنده "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:137
+#, kde-format
+msgid " :[value-dependent]"
+msgstr " :[وابسته به مقدار]"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:159
+#, kde-format
+msgid "namespace %1 "
+msgstr "فضای نام %1 "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:170
+#, kde-format
+msgid "enumeration %1 "
+msgstr "شمارش %1 "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:179
+#, kde-format
+msgid "(resolved forward-declaration: "
+msgstr "(اعلان پیشاپیش حل‌شده: "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:182
+#, kde-format
+msgid ") "
+msgstr ") "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:184
+#, kde-format
+msgid "(unresolved forward-declaration) "
+msgstr "(اعلان پیشاپیش حل‌نشده) "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:199
+#, kde-format
+msgid "possible resolution from"
+msgstr "وضوح احتمالی از"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:214
+#, kde-format
+msgid "Returns: "
+msgstr "بازمی‌گرداند: "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:216
+#, kde-format
+msgid "Type: "
+msgstr "نوع: "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:235
+#, kde-format
+msgid "Enum: "
+msgstr "شمارش: "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:237
+#, kde-format
+msgid "Container: "
+msgstr "ظرف: "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:245
+#, kde-format
+msgid "Scope: %1 "
+msgstr "دامنه: %1 "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:263
+#, kde-format
+msgid "Access: %1 "
+msgstr "دسترسی: %1 "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:282
+#, kde-format
+msgid "Kind: %1 %2 "
+msgstr "نوع: %1 %2 "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:284
+#, kde-format
+msgid "Kind: %1 "
+msgstr "نوع: %1 "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:288
+#, kde-format
+msgid "Deprecated"
+msgstr "منسوخ‌شده"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:288
+#, kde-format
+msgid "Status: %1 "
+msgstr "وضعیت: %1 "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:298
+#, kde-format
+msgid "Def.: "
+msgstr "تعریف: "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:300
+#, kde-format
+msgid "Decl.: "
+msgstr "اعلان: "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:310
+#, kde-format
+msgid " Def.: "
+msgstr " تعریف: "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:320
+#, kde-format
+msgid " Decl.: "
+msgstr " اعلان: "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:328
+#, kde-format
+msgid "Show uses"
+msgstr "نمایش موارد استفاده"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:367
+#, kde-format
+msgid "Show documentation for "
+msgstr "نمایش مستندات برای "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:471
+#, kde-format
+msgctxt "An anonymous declaration (class, function, etc.)"
+msgid "<anonymous>"
+msgstr "<anonymous>"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:488
+#, kde-format
+msgid "Overrides a "
+msgstr "بازنویسی یک "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:489
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:516
+#, kde-format
+msgid "function"
+msgstr "تابع"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:491
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:519
+#, kde-format
+msgid " from "
+msgstr " از "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:515
+#, kde-format
+msgid "Hides a "
+msgstr "پنهان‌سازی یک "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:539
+#, kde-format
+msgid "Overridden in "
+msgstr "بازنویسی‌شده در "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:556
+#, kde-format
+msgid "Overriders possible, show all"
+msgstr "احتمال بازنویسی‌های دیگر، نمایش همه"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:557
+#, kde-format
+msgid "More overriders possible, show all"
+msgstr "احتمال بازنویسی‌های بیشتر، نمایش همه"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:567
+#, kde-format
+msgid "Inherited by "
+msgstr "به‌ارث‌رسیده توسط "
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:582
+#, kde-format
+msgid "Inheriters possible, show all"
+msgstr "احتمال وارث‌های دیگر، نمایش همه"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:583
+#, kde-format
+msgid "More inheriters possible, show all"
+msgstr "احتمال وارث‌های بیشتر، نمایش همه"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:790
+#, kde-format
+msgctxt "A declaration that is unknown"
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:816
+#, kde-format
+msgctxt "tells if a declaration is defining the variable's value"
+msgid "definition"
+msgstr "تعریف"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:821
+#, kde-format
+msgctxt "as in c++ forward declaration"
+msgid "forward"
+msgstr "پیش‌اعلان"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:826
+#, kde-format
+msgctxt "a variable that won't change, const"
+msgid "constant"
+msgstr "ثابت"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:885
+#, kde-format
+msgid "1 Byte"
+msgid_plural "%1 Bytes"
+msgstr[0] "۱ بایت"
+msgstr[1] "%1 بایت"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:886
+#, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] "۱ بیت"
+msgstr[1] "%1 بیت"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:888
+#, kde-format
+msgid "offset in parent: %1"
+msgstr "انحراف در والد: %1"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:889
+#, kde-format
+msgctxt "%1: bytes, %2: bits"
+msgid "%1, %2"
+msgstr "%1، %2"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:894
+#, kde-format
+msgid "size: %1 Bytes"
+msgstr "اندازه: %1 بایت"
+
+#: language/duchain/navigation/abstractdeclarationnavigationcontext.cpp:898
+#, kde-format
+msgid "aligned to: %1 Bytes"
+msgstr "تراز با: %1 بایت"
+
+#: language/duchain/navigation/abstractincludenavigationcontext.cpp:87
+#, kde-format
+msgid "Declarations:"
+msgstr "اعلان‌ها:"
+
+#: language/duchain/navigation/abstractincludenavigationcontext.cpp:93
+#, kde-format
+msgid "not parsed yet"
+msgstr "هنوز تجزیه نشده است"
+
+#: language/duchain/navigation/abstractincludenavigationcontext.cpp:103
+#, kde-format
+msgctxt "Files included into this file"
+msgid "Includes"
+msgstr "شامل‌ها"
+
+#: language/duchain/navigation/abstractincludenavigationcontext.cpp:106
+#, kde-format
+msgctxt "Count of files this file was included into"
+msgid "Included by"
+msgstr "شامل‌شده در"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:504
+#, kde-format
+msgid "Typedef"
+msgstr "تعریف نوع (Typedef)"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:507
+#, kde-format
+msgid "Class"
+msgstr "کلاس"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:509
+#, kde-format
+msgid "Variable"
+msgstr "متغیر"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:511
+#, kde-format
+msgid "Namespace"
+msgstr "فضای نام"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:516
+#, kde-format
+msgid "Namespace import"
+msgstr "وارد کردن فضای نام"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:518
+#, kde-format
+msgid "Namespace alias"
+msgstr "نام مستعار فضای نام"
+
+#: language/duchain/navigation/abstractnavigationcontext.cpp:525
+#, kde-format
+msgid "Forward Declaration"
+msgstr "اعلان رو به جلو"
+
+#: language/duchain/navigation/abstractnavigationwidget.cpp:190
+#, kde-format
+msgid ""
+"(Hold <em>Alt</em> to show. Navigate via arrow keys, activate by pressing "
+"<em>Enter</em>)"
+msgstr ""
+"(برای نمایش، کلید <em>Alt</em> را نگه دارید. با کلیدهای جهت‌نما پیمایش کنید "
+"و با فشردن <em>Enter</em> فعال کنید)"
+
+#: language/duchain/navigation/abstractnavigationwidget.cpp:192
+#, kde-format
+msgid "(Hold <em>Alt</em> to show this tooltip)"
+msgstr "(برای نمایش این راهنما، <em>Alt</em> را نگه دارید)"
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:85
+#, kde-format
+msgid "Problem"
+msgstr "مشکل"
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:114
+#, kde-format
+msgid "Problem in <i>%1</i>"
+msgstr "مشکل در <i>%1</i>"
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:118
+#, kde-format
+msgid "Location: "
+msgstr "مکان: "
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:156
+#: language/duchain/navigation/problemnavigationcontext.cpp:166
+#, kde-format
+msgid "<br>See: "
+msgstr "<br>ببینید: "
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:159
+#, kde-format
+msgid " in "
+msgstr " در "
+
+#: language/duchain/navigation/problemnavigationcontext.cpp:194
+#, kde-format
+msgid "Solution (%1)"
+msgstr "راهکار (%1)"
+
+#: language/duchain/navigation/usescollector.cpp:413
+#, kde-format
+msgid "%1 still needs an update!"
+msgstr "%1 هنوز نیازمند به‌روزرسانی است!"
+
+#: language/duchain/navigation/usesnavigationcontext.cpp:41
+#, kde-format
+msgid "Uses of "
+msgstr "موارد استفاده از "
+
+#: language/duchain/navigation/usesnavigationcontext.cpp:46
+#, kde-format
+msgid "Uses of %1"
+msgstr "موارد استفاده از %1"
+
+#: language/duchain/navigation/useswidget.cpp:130
+#, kde-format
+msgctxt "refers to a line in source code"
+msgid "Line <b>%1</b>:"
+msgstr "خط <b>%1</b>:"
+
+#: language/duchain/navigation/useswidget.cpp:211
+#: language/duchain/navigation/useswidget.cpp:218
+#, kde-format
+msgctxt "Refers to a line in source code"
+msgid "Line <b>%1</b>:"
+msgstr "خط <b>%1</b>:"
+
+#: language/duchain/navigation/useswidget.cpp:413
+#, kde-format
+msgid "Unknown context"
+msgstr "بافت ناشناخته"
+
+#: language/duchain/navigation/useswidget.cpp:420
+#: shell/launchconfigurationdialog.cpp:481
+#, kde-format
+msgid "Global"
+msgstr "سراسری"
+
+#: language/duchain/navigation/useswidget.cpp:444
+#, kde-format
+msgctxt "%1: source file"
+msgid "In %1"
+msgstr "در %1"
+
+#: language/duchain/navigation/useswidget.cpp:474
+#, kde-format
+msgid "Definition"
+msgstr "تعریف"
+
+#: language/duchain/navigation/useswidget.cpp:474
+#, kde-format
+msgid "Declaration"
+msgstr "اعلان"
+
+#: language/duchain/navigation/useswidget.cpp:512
+#, kde-format
+msgctxt "%1: number of uses, %2: filename with uses"
+msgid "%2: 1 use"
+msgid_plural "%2: %1 uses"
+msgstr[0] "%2: ۱ استفاده"
+msgstr[1] "%2: %1 استفاده"
+
+#: language/duchain/navigation/useswidget.cpp:518
+#: language/duchain/navigation/useswidget.cpp:559
+#, kde-format
+msgctxt "Refers to closing a UI element"
+msgid "Collapse"
+msgstr "جمع کردن"
+
+#: language/duchain/navigation/useswidget.cpp:555
+#, kde-format
+msgctxt "Refers to opening a UI element"
+msgid "Expand"
+msgstr "گسترش دادن"
+
+#: language/duchain/navigation/useswidget.cpp:640
+#, kde-format
+msgid "1 use found"
+msgid_plural "%1 uses found"
+msgstr[0] "۱ مورد استفاده پیدا شد"
+msgstr[1] "%1 مورد استفاده پیدا شد"
+
+#: language/duchain/navigation/useswidget.cpp:642
+#, kde-format
+msgid "Expand all"
+msgstr "گسترش همه"
+
+#: language/duchain/navigation/useswidget.cpp:644
+#, kde-format
+msgid "Collapse all"
+msgstr "جمع‌کردن همه"
+
+#: language/duchain/problem.cpp:192 shell/filteredproblemstore.cpp:156
+#, kde-format
+msgid "Warning"
+msgstr "هشدار"
+
+#: language/duchain/problem.cpp:194 shell/filteredproblemstore.cpp:157
+#, kde-format
+msgid "Hint"
+msgstr "راهنمایی"
+
+#: language/duchain/problem.cpp:203 shell/problem.cpp:76
+#, kde-format
+msgid "Disk"
+msgstr "دیسک"
+
+#: language/duchain/problem.cpp:205 shell/problem.cpp:77
+#, kde-format
+msgid "Preprocessor"
+msgstr "پیش‌پردازنده"
+
+#: language/duchain/problem.cpp:207 shell/problem.cpp:78
+#, kde-format
+msgid "Lexer"
+msgstr "تحلیل‌گر لغوی"
+
+#: language/duchain/problem.cpp:209 shell/problem.cpp:79
+#, kde-format
+msgid "Parser"
+msgstr "تجزیه‌کننده"
+
+#: language/duchain/problem.cpp:211
+#, kde-format
+msgid "Definition-Use Chain"
+msgstr "زنجیره تعریف-استفاده"
+
+#: language/duchain/problem.cpp:213 shell/problem.cpp:81
+#, kde-format
+msgid "Semantic analysis"
+msgstr "تحلیل معنایی"
+
+#: language/duchain/problem.cpp:215
+#, kde-format
+msgid "To-do"
+msgstr "برای انجام"
+
+#: language/duchain/problem.cpp:218 shell/problem.cpp:75
+#, kde-format
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: language/duchain/problem.cpp:225
+#, kde-format
+msgctxt ""
+"<severity>: <description> in <url>:[<range>]: <explanation> (found by "
+"<source>)"
+msgid "%1: %2 in %3:[(%4,%5),(%6,%7)]: %8 (found by %9)"
+msgstr "%1: %2 در %3:[(%4,%5),(%6,%7)]: %8 (یافت‌شده توسط %9)"
+
+#: language/duchain/problem.cpp:233
+#, kde-format
+msgid "<no explanation>"
+msgstr "<no explanation>"
+
+#: language/duchain/types/containertypes.cpp:74
+#, kde-format
+msgid "%1 of %2"
+msgstr "%1 از %2"
+
+#: language/duchain/types/containertypes.cpp:84
+#: language/duchain/types/containertypes.cpp:85
+#, kde-format
+msgid "unknown"
+msgstr "ناشناخته"
+
+#: language/duchain/types/containertypes.cpp:87
+#, kde-format
+msgid "%1 of %2 : %3"
+msgstr "%1 از %2 : %3"
+
+#: language/util/debuglanguageparserhelper.h:179
+#, kde-format
+msgid ""
+"files or - to read from STDIN, the latter is the default if nothing is "
+"provided"
+msgstr ""
+"فایل‌ها یا - برای خواندن از STDIN؛ در صورت مشخص نشدن چیزی، مورد دوم پیش‌فرض "
+"است"
+
+#: language/util/debuglanguageparserhelper.h:182
+#, kde-format
+msgid "print generated AST tree"
+msgstr "چاپ درخت AST تولیدشده"
+
+#: language/util/debuglanguageparserhelper.h:183
+#, kde-format
+msgid "print generated token stream"
+msgstr "چاپ جریان توکن تولیدشده"
+
+#: language/util/debuglanguageparserhelper.h:184
+#, kde-format
+msgid "code to parse"
+msgstr "کد برای تجزیه"
+
+#: outputview/outputexecutejob.cpp:186
+#, kde-format
+msgid "No build directory specified for a builder job."
+msgstr "هیچ پوشه ساختی برای کار سازنده مشخص نشده است."
+
+#: outputview/outputexecutejob.cpp:188
+#, kde-format
+msgid "No working directory specified for a process."
+msgstr "هیچ پوشه کاری برای فرایند مشخص نشده است."
+
+#: outputview/outputexecutejob.cpp:200
+#, kde-format
+msgid "Invalid build directory '%1'"
+msgstr "پوشه ساخت نامعتبر «%1»"
+
+#: outputview/outputexecutejob.cpp:202
+#, kde-format
+msgid "Invalid working directory '%1'"
+msgstr "پوشه کاری نامعتبر «%1»"
+
+#: outputview/outputexecutejob.cpp:209
+#, kde-format
+msgid "Build directory '%1' is not a local path"
+msgstr "پوشه ساخت «%1» یک مسیر محلی نیست"
+
+#: outputview/outputexecutejob.cpp:211
+#, kde-format
+msgid "Working directory '%1' is not a local path"
+msgstr "پوشه کاری «%1» یک مسیر محلی نیست"
+
+#: outputview/outputexecutejob.cpp:222
+#, kde-format
+msgid "Build directory '%1' does not exist or is not a directory"
+msgstr "پوشه ساخت «%1» وجود ندارد یا یک پوشه نیست"
+
+#: outputview/outputexecutejob.cpp:224
+#, kde-format
+msgid "Working directory '%1' does not exist or is not a directory"
+msgstr "پوشه کاری «%1» وجود ندارد یا یک پوشه نیست"
+
+#: outputview/outputexecutejob.cpp:282
+#, kde-format
+msgid "Failed to specify program to start: %1"
+msgstr "مشخص کردن برنامه برای شروع ناموفق بود: %1"
+
+#: outputview/outputexecutejob.cpp:283
+#, kde-format
+msgid "*** %1 ***"
+msgstr "*** %1 ***"
+
+#: outputview/outputexecutejob.cpp:309
+#, kde-format
+msgid "*** Killed process ***"
+msgstr "*** فرایند متوقف شد (Kill) ***"
+
+#: outputview/outputexecutejob.cpp:313
+#, kde-format
+msgid "*** Warning: could not kill the process ***"
+msgstr "*** هشدار: فرایند متوقف نشد ***"
+
+#: outputview/outputexecutejob.cpp:335
+#, kde-format
+msgid "%1 has failed to start"
+msgstr "شروع %1 ناموفق بود"
+
+#: outputview/outputexecutejob.cpp:339
+#, kde-format
+msgid "%1 has crashed"
+msgstr "%1 با خرابی بسته شد"
+
+#: outputview/outputexecutejob.cpp:343
+#, kde-format
+msgid "Read error"
+msgstr "خطای خواندن"
+
+#: outputview/outputexecutejob.cpp:347
+#, kde-format
+msgid "Write error"
+msgstr "خطای نوشتن"
+
+#: outputview/outputexecutejob.cpp:351
+#, kde-format
+msgid "Waiting for the process has timed out"
+msgstr "مهلت انتظار برای فرایند به پایان رسید"
+
+#: outputview/outputexecutejob.cpp:355
+#, kde-format
+msgid "Exit code %1"
+msgstr "کد خروج %1"
+
+#: outputview/outputexecutejob.cpp:362
+#, kde-format
+msgid "*** Failure: %1 ***"
+msgstr "*** شکست: %1 ***"
+
+#: outputview/outputexecutejob.cpp:380
+#, kde-format
+msgid "*** Finished ***"
+msgstr "*** پایان یافت ***"
+
+#: project/abstractfilemanagerplugin.cpp:325
+#, kde-format
+msgid ""
+"The base folder of project <b>%1</b> got deleted or moved outside of KDevelop.\n"
+"The project has to be closed."
+msgstr ""
+"پوشهٔ پایهٔ پروژهٔ <b>%1</b> در خارج از KDevelop حذف یا جابه‌جا شده است.\n"
+"پروژه باید بسته شود."
+
+#: project/abstractfilemanagerplugin.cpp:328
+#, kde-format
+msgctxt "@title:window"
+msgid "Project Folder Deleted"
+msgstr "پوشهٔ پروژه حذف شد"
+
+#: project/abstractfilemanagerplugin.cpp:354
+#, kde-format
+msgid ""
+"You tried to rename '%1' to '%2', but the latter is filtered and will be hidden.\n"
+"Do you want to continue?"
+msgstr ""
+"شما سعی کردید «%1» را به «%2» تغییر نام دهید، اما مورد دومی فیلتر شده است و پنهان خواهد شد.\n"
+"آیا می‌خواهید ادامه دهید؟"
+
+#: project/builderjob.cpp:75
+#, kde-format
+msgctxt "@info:status"
+msgid "build"
+msgstr "ساخت"
+
+#: project/builderjob.cpp:77
+#, kde-format
+msgctxt "@info:status"
+msgid "clean"
+msgstr "پاک‌سازی"
+
+#: project/builderjob.cpp:79
+#, kde-format
+msgctxt "@info:status"
+msgid "configure"
+msgstr "پیکربندی"
+
+#: project/builderjob.cpp:81
+#, kde-format
+msgctxt "@info:status"
+msgid "install"
+msgstr "نصب"
+
+#: project/builderjob.cpp:83
+#, kde-format
+msgctxt "@info:status"
+msgid "prune"
+msgstr "هرس کردن"
+
+#: project/builderjob.cpp:248
+#, kde-format
+msgctxt "Unspecified set of build items (e. g. projects, targets)"
+msgid "Various items"
+msgstr "موردهای گوناگون"
+
+#: project/helper.cpp:67
+#, kde-format
+msgid "Cannot remove folder <i>%1</i>."
+msgstr "نمی‌توان پوشهٔ <i>%1</i> را حذف کرد."
+
+#: project/helper.cpp:68
+#, kde-format
+msgid "Cannot remove file <i>%1</i>."
+msgstr "نمی‌توان پروندهٔ <i>%1</i> را حذف کرد."
+
+#: project/helper.cpp:86
+#, kde-format
+msgid "The file <i>%1</i> already exists."
+msgstr "پروندهٔ <i>%1</i> از پیش وجود دارد."
+
+#: project/helper.cpp:96
+#, kde-format
+msgid "Cannot create file <i>%1</i>."
+msgstr "نمی‌توان پروندهٔ <i>%1</i> را ایجاد کرد."
+
+#: project/helper.cpp:115
+#, kde-format
+msgid "Cannot create folder <i>%1</i>."
+msgstr "نمی‌توان پوشهٔ <i>%1</i> را ایجاد کرد."
+
+#: project/importprojectjob.cpp:55
+#, kde-format
+msgid "Project Import: %1"
+msgstr "وارد کردن پروژه: %1"
+
+#: project/importprojectjob.cpp:89
+#, kde-format
+msgid "Project import canceled."
+msgstr "وارد کردن پروژه لغو شد."
+
+#: project/projectbuildsetmodel.cpp:286
+#, kde-format
+msgctxt "@title:column buildset item name"
+msgid "Name"
+msgstr "نام"
+
+#: project/projectbuildsetmodel.cpp:288
+#, kde-format
+msgctxt "@title:column buildset item path"
+msgid "Path"
+msgstr "مسیر"
+
+#: project/projectchangesmodel.cpp:317
+#, kde-format
+msgctxt "@item:intext"
+msgid "no branch"
+msgstr "بدون شاخه"
+
+#: project/projectchangesmodel.cpp:318
+#, kde-format
+msgctxt "project name (branch name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: project/projectitemlineedit.cpp:158
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter the path to an item from the projects tree..."
+msgstr "مسیر یک مورد از درخت پروژه‌ها را وارد کنید..."
+
+#: project/projectitemlineedit.cpp:160
+#, kde-format
+msgctxt "@action"
+msgid "Select..."
+msgstr "انتخاب..."
+
+#: project/projectitemlineedit.cpp:187
+#, kde-format
+msgctxt "@title:window"
+msgid "Select an Item"
+msgstr "انتخاب یک مورد"
+
+#: project/projectitemlineedit.cpp:197
+#, kde-format
+msgid "Select the item you want to get the path from."
+msgstr "موردی را که می‌خواهید مسیر آن را دریافت کنید انتخاب نمایید."
+
+#. i18n: ectx: property (toolTip), widget (ProjectItemLineEdit,
+#. targetDependency)
+#: project/widgets/dependencieswidget.ui:32
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enter a dependency to add to the list"
+msgstr "وابستگی را برای افزودن به فهرست وارد کنید"
+
+#. i18n: ectx: property (placeholderText), widget (ProjectItemLineEdit,
+#. targetDependency)
+#: project/widgets/dependencieswidget.ui:35
+#, kde-format
+msgctxt "@info:placedholder"
+msgid "Enter a dependency to add to the list..."
+msgstr "وابستگی را برای افزودن به فهرست وارد کنید..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addDependency)
+#: project/widgets/dependencieswidget.ui:55
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add the listed target to the dependency list"
+msgstr "افزودن هدف فهرست‌شده به فهرست وابستگی‌ها"
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, dependencies)
+#: project/widgets/dependencieswidget.ui:68
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "List of indirect dependent targets."
+msgstr "فهرست هدف‌های وابسته غیرمستقیم."
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, dependencies)
+#: project/widgets/dependencieswidget.ui:71
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This list should contain targets that the application does not directly "
+"depend on, but for which an action needs to be taken before running the "
+"application."
+msgstr ""
+"این فهرست باید شامل اهدافی باشد که برنامه مستقیماً به آن‌ها وابسته نیست، اما"
+" پیش از اجرای برنامه باید اقدامی برایشان انجام شود."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeDependency)
+#: project/widgets/dependencieswidget.ui:87
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove the selected dependencies from the list"
+msgstr "حذف وابستگی‌های انتخاب‌شده از فهرست"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, moveDepUp)
+#: project/widgets/dependencieswidget.ui:103
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Move the selected dependency up in the list"
+msgstr "انتقال وابستگی انتخاب‌شده به بالا در فهرست"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, moveDepDown)
+#: project/widgets/dependencieswidget.ui:119
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Move the selected dependency down in the list"
+msgstr "انتقال وابستگی انتخاب‌شده به پایین در فهرست"
+
+#: serialization/itemrepository.h:318 serialization/itemrepository.h:1890
+#, kde-format
+msgid "Failed writing to %1, probably the disk is full"
+msgstr "نوشتن در %1 ناموفق بود، احتمالاً دیسک پر است"
+
+#: serialization/itemrepositoryregistry.cpp:75
+#, kde-format
+msgid "The previous session crashed."
+msgid_plural "Session crashed %1 times in a row."
+msgstr[0] "نشست قبلی با خرابی مواجه شد."
+msgstr[1] "نشست %1 بار پیاپی با خرابی مواجه شد."
+
+#: serialization/itemrepositoryregistry.cpp:77
+#, kde-format
+msgctxt "tty action"
+msgid "Clear cache"
+msgstr "پاک‌سازی حافظهٔ پنهان"
+
+#: serialization/itemrepositoryregistry.cpp:78
+#, kde-format
+msgctxt "@title"
+msgid "Session Crashed"
+msgstr "خرابی نشست"
+
+#: serialization/itemrepositoryregistry.cpp:79
+#, kde-format
+msgid ""
+"The crash may be caused by a corruption of cached data.\n"
+"\n"
+"Press Clear if you want KDevelop to clear the cache, otherwise press Continue if you are sure the crash has another origin."
+msgstr ""
+"این خرابی ممکن است به دلیل خرابی داده‌های حافظهٔ پنهان رخ داده باشد.\n"
+"\n"
+"اگر می‌خواهید KDevelop حافظهٔ پنهان را پاک کند، «پاک‌سازی» را بزنید؛ در غیر این صورت، اگر مطمئن هستید خرابی دلیل دیگری دارد، «ادامه» را فشار دهید."
+
+#: serialization/itemrepositoryregistry.cpp:81
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear Cache"
+msgstr "پاک‌سازی حافظهٔ پنهان"
+
+#: serialization/itemrepositoryregistry.cpp:82
+#, kde-format
+msgctxt "@action:button"
+msgid "Continue"
+msgstr "ادامه"
+
+#: shell/areadisplay.cpp:44
+#, kde-format
+msgid ""
+"Execute actions to change the area.<br />An area is a tool view "
+"configuration for a specific use case. From here you can also navigate back "
+"to the default code area."
+msgstr ""
+"اقدامات را برای تغییر ناحیه اجرا کنید.<br />یک ناحیه، پیکربندی نمای ابزار "
+"برای یک مورد کاربرد خاص است. از اینجا می‌توانید به ناحیه پیش‌فرض کد نیز "
+"برگردید."
+
+#: shell/areadisplay.cpp:70
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Back to Code"
+msgstr "بازگشت به کد"
+
+#: shell/configdialog.cpp:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: shell/configdialog.cpp:84
+#, kde-format
+msgid ""
+"The settings of the current module have changed.\n"
+"Do you want to apply the changes or discard them?"
+msgstr ""
+"تنظیمات پودمان فعلی تغییر کرده است.\n"
+"آیا می‌خواهید تغییرات اعمال شوند یا نادیده گرفته شوند؟"
+
+#: shell/configdialog.cpp:86
+#, kde-format
+msgctxt "@title:window"
+msgid "Apply Settings"
+msgstr "اعمال تنظیمات"
+
+#: shell/core.cpp:183
+#, kde-format
+msgid ""
+"<p>Could not find any plugins during startup.<br/>Please make sure "
+"QT_PLUGIN_PATH is set correctly.</p>Refer to <a "
+"href=\"https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source#Set_up_the_runtime_environment\">this"
+" article</a> for more information."
+msgstr ""
+"<p>هنگام راه‌اندازی هیچ افزونه‌ای یافت نشد.<br/>لطفاً مطمئن شوید "
+"QT_PLUGIN_PATH به درستی تنظیم شده باشد.</p>برای اطلاعات بیشتر به <a "
+"href=\"https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source#Set_up_the_runtime_environment\">این"
+" مقاله</a> مراجعه کنید."
+
+#: shell/core.cpp:191
+#, kde-format
+msgctxt "@title:window"
+msgid "No Plugins Found"
+msgstr "هیچ افزونه‌ای یافت نشد"
+
+#: shell/debugcontroller.cpp:51
+#, kde-format
+msgctxt "@title:window"
+msgid "Variables"
+msgstr "متغیرها"
+
+#: shell/debugcontroller.cpp:83
+#, kde-format
+msgid "Debugger"
+msgstr "اشکال‌زدا"
+
+#: shell/debugcontroller.cpp:113
+#, kde-format
+msgctxt "@title:window"
+msgid "Frame Stack"
+msgstr "پشتهٔ فریم"
+
+#: shell/debugcontroller.cpp:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Breakpoints"
+msgstr "نقطه‌های توقف"
+
+#: shell/debugcontroller.cpp:191
+#, kde-format
+msgid "&Restart"
+msgstr "راه‌اندازی مجدد"
+
+#: shell/debugcontroller.cpp:192
+#, kde-format
+msgid "Restart program"
+msgstr "راه‌اندازی مجدد برنامه"
+
+#: shell/debugcontroller.cpp:193
+#, kde-format
+msgid "Restarts applications from the beginning."
+msgstr "برنامه‌ها را از ابتدا بازنشانی می‌کند."
+
+#: shell/debugcontroller.cpp:199
+#, kde-format
+msgctxt "@action"
+msgid "Interrupt"
+msgstr "وقفه"
+
+#: shell/debugcontroller.cpp:200
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Interrupt application"
+msgstr "ایجاد وقفه در برنامه"
+
+#: shell/debugcontroller.cpp:201
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Interrupts the debugged process or current debugger command."
+msgstr ""
+"در فرایند در حال اشکال‌زدایی یا فرمان فعلی اشکال‌زدا وقفه ایجاد می‌کند."
+
+#: shell/debugcontroller.cpp:205
+#, kde-format
+msgctxt "@action"
+msgid "Run to &Cursor"
+msgstr "اجرا تا مکان‌نما"
+
+#: shell/debugcontroller.cpp:206
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Run to cursor"
+msgstr "اجرا تا مکان‌نما"
+
+#: shell/debugcontroller.cpp:207
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Continues execution until the cursor position is reached."
+msgstr "اجرا را تا رسیدن به موقعیت مکان‌نما ادامه می‌دهد."
+
+#: shell/debugcontroller.cpp:212
+#, kde-format
+msgctxt "@action"
+msgid "Set E&xecution Position to Cursor"
+msgstr "تنظیم موقعیت اجرا روی مکان‌نما"
+
+#: shell/debugcontroller.cpp:213
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Jump to cursor"
+msgstr "پرش به مکان‌نما"
+
+#: shell/debugcontroller.cpp:214
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Continue execution from the current cursor position."
+msgstr "ادامهٔ اجرا از موقعیت کنونی مکان‌نما."
+
+#: shell/debugcontroller.cpp:218
+#, kde-format
+msgctxt "@action"
+msgid "Step &Over"
+msgstr "رد شدن"
+
+#: shell/debugcontroller.cpp:220
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Step over the next line"
+msgstr "رد شدن از سطر بعدی"
+
+#: shell/debugcontroller.cpp:221
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Executes one line of source in the current source file. If the source line "
+"is a call to a function the whole function is executed and the app will stop"
+" at the line following the function call."
+msgstr ""
+"یک سطر از مبدأ را در پروندهٔ مبدأ کنونی اجرا می‌کند. اگر سطر مبدأ فراخوانی "
+"یک تابع باشد، کل تابع اجرا می‌شود و برنامه در سطر پس از فراخوانی تابع متوقف "
+"خواهد شد."
+
+#: shell/debugcontroller.cpp:229
+#, kde-format
+msgctxt "@action"
+msgid "Step over Ins&truction"
+msgstr "رد شدن از دستورالعمل"
+
+#: shell/debugcontroller.cpp:230
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Step over instruction"
+msgstr "رد شدن از دستورالعمل"
+
+#: shell/debugcontroller.cpp:231
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Steps over the next assembly instruction."
+msgstr "از دستورالعمل اسمبلی بعدی رد می‌شود."
+
+#: shell/debugcontroller.cpp:236
+#, kde-format
+msgctxt "@action"
+msgid "Step &Into"
+msgstr "ورود به تابع"
+
+#: shell/debugcontroller.cpp:238
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Step into the next statement"
+msgstr "ورود به دستور بعدی"
+
+#: shell/debugcontroller.cpp:239
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Executes exactly one line of source. If the source line is a call to a "
+"function then execution will stop after the function has been entered."
+msgstr ""
+"دقیقاً یک خط از کد منبع را اجرا می‌کند. اگر خط منبع فراخوانی یک تابع باشد، "
+"اجرا پس از ورود به تابع متوقف خواهد شد."
+
+#: shell/debugcontroller.cpp:246
+#, kde-format
+msgctxt "@action"
+msgid "Step into I&nstruction"
+msgstr "ورود به دستورالعمل"
+
+#: shell/debugcontroller.cpp:247
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Step into instruction"
+msgstr "ورود به دستورالعمل اسمبلی"
+
+#: shell/debugcontroller.cpp:248
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Steps into the next assembly instruction."
+msgstr "وارد دستورالعمل اسمبلی بعدی می‌شود."
+
+#: shell/debugcontroller.cpp:252
+#, kde-format
+msgctxt "@action"
+msgid "Step O&ut"
+msgstr "خروج از تابع"
+
+#: shell/debugcontroller.cpp:254
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Step out of the current function"
+msgstr "خروج از تابع فعلی"
+
+#: shell/debugcontroller.cpp:256
+#, kde-format
+msgctxt "@whatsthis"
+msgid ""
+"Executes the application until the currently executing function is "
+"completed. The debugger will then display the line after the original call "
+"to that function. If program execution is in the outermost frame (i.e. in "
+"<code>main()</code>) then this operation has no effect.<br>After stepping "
+"out of a non-<code>void</code> function, its return value and type are "
+"displayed in a variable named <code>%1</code> in a section <i>%2</i> of '%3'"
+" tool view."
+msgstr ""
+"برنامه را تا زمانی که تابع در حال اجرای فعلی به پایان برسد اجرا می‌کند. سپس "
+"اشکال‌زدا خط بعد از فراخوانی اولیه به آن تابع را نمایش می‌دهد. اگر اجرای "
+"برنامه در بیرونی‌ترین فریم (یعنی در <code>main()</code>) باشد، این عملیات "
+"هیچ تاثیری ندارد.<br>پس از خروج از یک تابع غیر <code>void</code>، مقدار "
+"بازگشتی و نوع آن در متغیری به نام <code>%1</code> در بخش <i>%2</i> از نمای "
+"ابزار «%3» نمایش داده می‌شود."
+
+#: shell/debugcontroller.cpp:269
+#, kde-format
+msgctxt "@action"
+msgid "Toggle Breakpoint"
+msgstr "تغییر وضعیت نقطه توقف"
+
+#: shell/debugcontroller.cpp:270
+#, kde-format
+msgid "Ctrl+Alt+B"
+msgstr "Ctrl+Alt+B"
+
+#: shell/debugcontroller.cpp:271
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Toggle breakpoint"
+msgstr "تغییر وضعیت نقطهٔ توقف"
+
+#: shell/debugcontroller.cpp:272
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Toggles the breakpoint at the current line in editor."
+msgstr "نقطهٔ توقف را در خط فعلیِ ویرایشگر تغییر وضعیت می‌دهد."
+
+#: shell/debugcontroller.cpp:276
+#, kde-format
+msgctxt "@action"
+msgid "Show Current Line"
+msgstr "نمایش خط فعلی"
+
+#: shell/debugcontroller.cpp:277
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the current execution position"
+msgstr "نمایش موقعیت اجرای فعلی"
+
+#: shell/debugcontroller.cpp:278
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Jumps to the execution line in the editor."
+msgstr "به خط در حال اجرا در ویرایشگر می‌پرد."
+
+#: shell/debugcontroller.cpp:291
+#, kde-format
+msgctxt "@action:button"
+msgid "Abort Current Session"
+msgstr "لغو نشست فعلی"
+
+#: shell/debugcontroller.cpp:497 shell/runcontroller.cpp:473
+#, kde-format
+msgctxt "@action"
+msgid "Debug Launch"
+msgstr "راه‌اندازی اشکال‌زدایی"
+
+#: shell/debugcontroller.cpp:499 shell/runcontroller.cpp:476
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Debug current launch"
+msgstr "اشکال‌زدایی راه‌اندازی فعلی"
+
+#: shell/debugcontroller.cpp:500 shell/runcontroller.cpp:477
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Executes the target or the program specified in currently active launch "
+"configuration inside a Debugger."
+msgstr ""
+"هدف یا برنامهٔ مشخص‌شده در پیکربندی راه‌اندازی فعال فعلی را درون یک "
+"اشکال‌زدا اجرا می‌کند."
+
+#: shell/debugcontroller.cpp:504
+#, kde-format
+msgctxt "@action"
+msgid "&Continue"
+msgstr "ادامه"
+
+#: shell/debugcontroller.cpp:506
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Continue application execution"
+msgstr "ادامهٔ اجرای برنامه"
+
+#: shell/debugcontroller.cpp:507
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Continues the execution of your application in the debugger. This only takes"
+" effect when the application has been halted by the debugger (i.e. a "
+"breakpoint has been activated or the interrupt was pressed)."
+msgstr ""
+"اجرای برنامهٔ شما را در اشکال‌زدا ادامه می‌دهد. این مورد تنها زمانی اثر دارد"
+" که برنامه توسط اشکال‌زدا متوقف شده باشد (مثلاً نقطهٔ توقفی فعال شده باشد یا"
+" وقفه فشرده شده باشد)."
+
+#. i18n: ectx: ToolBar (debugToolBar)
+#: shell/debugger/kdevdebuggershellui.rc:25
+#, kde-format
+msgid "Debugger Toolbar"
+msgstr "نوار ابزار اشکال‌زدا"
+
+#: shell/documentationcontroller.cpp:114
+#, kde-format
+msgctxt "@action"
+msgid "Show Documentation"
+msgstr "نمایش مستندات"
+
+#: shell/documentationcontroller.cpp:121 shell/documentationcontroller.cpp:230
+#, kde-format
+msgctxt "@title:window"
+msgid "Documentation"
+msgstr "مستندات"
+
+#: shell/documentcontroller.cpp:61 sublime/urldocument.cpp:59
+#, kde-format
+msgid "Untitled"
+msgstr "بی‌عنوان"
+
+#: shell/documentcontroller.cpp:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Open File"
+msgstr "باز کردن پرونده"
+
+#: shell/documentcontroller.cpp:119
+#, kde-format
+msgid "*|Text File\n"
+msgstr "*|پروندهٔ متنی\n"
+
+#: shell/documentcontroller.cpp:316
+#, kde-format
+msgid ""
+"KDevelop could not find the editor for file '%1' of type %2.\n"
+"Do you want to open it as plain text?"
+msgstr ""
+"کی‌دولپ نتوانست ویرایشگر را برای پروندهٔ «%1» از نوع %2 پیدا کند.\n"
+"آیا می‌خواهید آن را به عنوان متن ساده باز کنید؟"
+
+#: shell/documentcontroller.cpp:319
+#, kde-format
+msgctxt "@title:window"
+msgid "Could Not Find Editor"
+msgstr "ویرایشگر پیدا نشد"
+
+#: shell/documentcontroller.cpp:320
+#, kde-format
+msgctxt "@action:button"
+msgid "Open as Plain Text"
+msgstr "گشودن به عنوان متن ساده"
+
+#: shell/documentcontroller.cpp:321
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Open"
+msgstr "گشوده نشود"
+
+#: shell/documentcontroller.cpp:609
+#, kde-format
+msgctxt "@action"
+msgid "&Open..."
+msgstr "گشودن..."
+
+#: shell/documentcontroller.cpp:612
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open file"
+msgstr "گشودن پرونده"
+
+#: shell/documentcontroller.cpp:613
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Opens a file for editing."
+msgstr "پرونده‌ای را برای ویرایش می‌گشاید."
+
+#: shell/documentcontroller.cpp:617
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr ""
+"پرونده‌هایی را که اخیراً گشوده‌اید فهرست می‌کند و به شما اجازه می‌دهد آن‌ها "
+"را دوباره به‌آسانی بگشایید."
+
+#: shell/documentcontroller.cpp:622
+#, kde-format
+msgctxt "@action"
+msgid "Save Al&l"
+msgstr "ذخیره همه"
+
+#: shell/documentcontroller.cpp:624
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Save all open documents"
+msgstr "ذخیره همه سندهای باز"
+
+#: shell/documentcontroller.cpp:625
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Save all open documents, prompting for additional information when "
+"necessary."
+msgstr ""
+"همه سندهای باز را ذخیره می‌کند و در صورت نیاز، اطلاعات اضافی را جویا می‌شود."
+
+#: shell/documentcontroller.cpp:631
+#, kde-format
+msgctxt "@action"
+msgid "Reload All"
+msgstr "بارگیری مجدد همه"
+
+#: shell/documentcontroller.cpp:633
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Revert all open documents"
+msgstr "بازگردانی همهٔ سندهای باز"
+
+#: shell/documentcontroller.cpp:634
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Revert all open documents, returning to the previously saved state."
+msgstr "بازگردانی همهٔ سندهای باز به وضعیت ذخیره‌شدهٔ قبلی."
+
+#: shell/documentcontroller.cpp:640
+#, kde-format
+msgctxt "@action"
+msgid "&Close"
+msgstr "بستن"
+
+#: shell/documentcontroller.cpp:642
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close file"
+msgstr "بستن پرونده"
+
+#: shell/documentcontroller.cpp:643
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Closes current file."
+msgstr "پروندهٔ کنونی را می‌بندد."
+
+#: shell/documentcontroller.cpp:648
+#, kde-format
+msgctxt "@action"
+msgid "Clos&e All"
+msgstr "بستن همه"
+
+#: shell/documentcontroller.cpp:650
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close all open documents"
+msgstr "بستن همهٔ سندهای باز"
+
+#: shell/documentcontroller.cpp:651
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Close all open documents, prompting for additional information when "
+"necessary."
+msgstr "بستن همهٔ سندهای باز، و درخواست اطلاعات بیشتر در صورت نیاز."
+
+#: shell/documentcontroller.cpp:657
+#, kde-format
+msgctxt "@action"
+msgid "Close All Ot&hers"
+msgstr "بستن همهٔ موارد دیگر"
+
+#: shell/documentcontroller.cpp:659
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close all other documents"
+msgstr "بستن همهٔ سندهای دیگر"
+
+#: shell/documentcontroller.cpp:660
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Close all open documents, with the exception of the currently active "
+"document."
+msgstr "بستن همهٔ سندهای باز، به‌جز سندی که در حال حاضر فعال است."
+
+#: shell/documentcontroller.cpp:665
+#, kde-format
+msgctxt "@action"
+msgid "Show Annotate on Current Document"
+msgstr "نمایش حاشیه‌نویسی در سند فعلی"
+
+#: shell/documentcontroller.cpp:666
+#, kde-format
+msgctxt "@action"
+msgid "Annotate"
+msgstr "حاشیه‌نویسی"
+
+#: shell/documentcontroller.cpp:1288
+#, kde-format
+msgid ""
+"Could not annotate the document because it is not part of a version-"
+"controlled project."
+msgstr ""
+"امکان حاشیه‌نویسی سند وجود ندارد زیرا بخشی از یک پروژهٔ تحت کنترل نسخه نیست."
+
+#: shell/editorconfigpage.cpp:44
+#, kde-format
+msgctxt "@title:tab"
+msgid "Editor"
+msgstr "ویرایشگر"
+
+#: shell/editorconfigpage.cpp:54
+#, kde-format
+msgid "Configure Text Editor"
+msgstr "پیکربندی ویرایشگر متن"
+
+#: shell/environmentconfigurebutton.cpp:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Configure environment variables"
+msgstr "پیکربندی متغیرهای محیطی"
+
+#: shell/ktexteditorpluginintegration.cpp:330
+#, kde-format
+msgctxt ""
+"%1 - the plugin name; %2 - the list of disabled languages; %3 - the "
+"environment variable name; %5 - whether the environment variable is "
+"currently set"
+msgid ""
+"The following languages are supported much better by dedicated KDevelop "
+"plugins, and so are disabled in the %1 plugin to prevent conflicts: "
+"<var>%2</var>. In order to compare the levels of support or work around "
+"severe bugs, disable the dedicated KDevelop plugin(s) and set the "
+"environment variable <var>%3</var> (<span style='color:%4'>%5</span>)."
+msgstr ""
+"زبان‌های زیر توسط افزونه‌های اختصاصی KDevelop بسیار بهتر پشتیبانی می‌شوند، "
+"بنابراین برای جلوگیری از تداخل، در افزونهٔ %1 غیرفعال شده‌اند: "
+"<var>%2</var>. برای مقایسهٔ سطوح پشتیبانی یا رفع اشکالات جدی، افزونه(های) "
+"اختصاصی KDevelop را غیرفعال کرده و متغیر محیطی <var>%3</var> را مقداردهی "
+"کنید (<span style='color:%4'>%5</span>)."
+
+#: shell/ktexteditorpluginintegration.cpp:338
+#, kde-format
+msgctxt "a certain environment variable is ..."
+msgid "currently set"
+msgstr "در حال حاضر تنظیم شده است"
+
+#: shell/ktexteditorpluginintegration.cpp:339
+#, kde-format
+msgctxt "a certain environment variable is ..."
+msgid "currently unset"
+msgstr "در حال حاضر تنظیم‌نشده"
+
+#: shell/ktexteditorpluginintegration.cpp:492
+#, kde-format
+msgctxt "@title:window"
+msgid "Messages"
+msgstr "پیام‌ها"
+
+#: shell/launchconfigurationdialog.cpp:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Launch Configurations"
+msgstr "پیکربندی‌های راه‌اندازی"
+
+#: shell/launchconfigurationdialog.cpp:57
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add a new launch configuration."
+msgstr "افزودن یک پیکربندی راه‌اندازی جدید."
+
+#: shell/launchconfigurationdialog.cpp:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Delete selected launch configuration."
+msgstr "حذف پیکربندی راه‌اندازی انتخاب‌شده."
+
+#: shell/launchconfigurationdialog.cpp:173
+#, kde-format
+msgid ""
+"No launch configurations available. (Is any of the Execute plugins loaded?)"
+msgstr ""
+"هیچ پیکربندی راه‌اندازی در دسترسی نیست. (آیا هیچ‌یک از پلاگین‌های Execute "
+"بارگذاری شده‌اند؟)"
+
+#: shell/launchconfigurationdialog.cpp:196
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rename Configuration"
+msgstr "تغییر نام پیکربندی"
+
+#: shell/launchconfigurationdialog.cpp:197
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete Configuration"
+msgstr "حذف پیکربندی"
+
+#: shell/launchconfigurationdialog.cpp:252
+#, kde-format
+msgid ""
+"Selected Launch Configuration has unsaved changes. Do you want to save it?"
+msgstr ""
+"پیکربندی راه‌اندازی انتخاب‌شده تغییرات ذخیره‌نشده دارد. آیا می‌خواهید ذخیره "
+"شود؟"
+
+#: shell/launchconfigurationdialog.cpp:253
+#, kde-format
+msgctxt "@title:window"
+msgid "Unsaved Changes"
+msgstr "تغییرات ذخیره‌نشده"
+
+#: shell/launchconfigurationdialog.cpp:325
+#, kde-format
+msgctxt "%1 is a launcher name"
+msgid "No configuration is needed for '%1'"
+msgstr "هیچ پیکربندی‌ای برای «%1» نیاز نیست"
+
+#: shell/launchconfigurationdialog.cpp:369
+#, kde-format
+msgid ""
+"<i>Select a configuration to edit from the left,<br>or click the \"Add\" "
+"button to add a new one.</i>"
+msgstr ""
+"<i>یک پیکربندی را از سمت چپ برای ویرایش انتخاب کنید،<br>یا روی دکمهٔ "
+"«افزودن» کلیک کنید تا مورد جدیدی اضافه شود.</i>"
+
+#: shell/launchconfigurationdialog.cpp:437
+#, kde-format
+msgid "Editing %2: <b>%1</b>"
+msgstr "در حال ویرایش %2: <b>%1</b>"
+
+#: shell/launchconfigurationdialog.cpp:710
+#, kde-format
+msgctxt "@title:column Name of the Launch Configurations"
+msgid "Name"
+msgstr "نام"
+
+#: shell/launchconfigurationdialog.cpp:713
+#, kde-format
+msgctxt ""
+"@title:column Type of the Launch Configurations (i.e. Python Application, "
+"C++ Application)"
+msgid "Type"
+msgstr "نوع"
+
+#. i18n: ectx: property (text), widget (QPushButton, addConfig)
+#: shell/launchconfigurationdialog.ui:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr "افزودن"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteConfig)
+#: shell/launchconfigurationdialog.ui:39
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "حذف"
+
+#. i18n: ectx: property (text), widget (QLabel, debugLabel)
+#: shell/launchconfigurationdialog.ui:84
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Debugger:"
+msgstr "اشکال‌زدا:"
+
+#: shell/loadedpluginsdialog.cpp:279
+#, kde-format
+msgctxt "@title:window"
+msgid "Loaded Plugins"
+msgstr "پلاگین‌های بارگذاری‌شده"
+
+#: shell/loadedpluginsdialog.cpp:285
+#, kde-format
+msgid "<html><font size=\"4\">Plugins loaded for <b>%1</b></font></html>"
+msgstr ""
+"<html><font size=\"4\">پلاگین‌های بارگذاری‌شده برای <b>%1</b></font></html>"
+
+#: shell/mainwindow.cpp:476
+#, kde-format
+msgid " (read only)"
+msgstr " (فقط خواندنی)"
+
+#: shell/mainwindow_p.cpp:224
+#, kde-format
+msgctxt "@info:tooltip %1 = application name"
+msgid "Configure %1"
+msgstr "پیکربندی %1"
+
+#: shell/mainwindow_p.cpp:225
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Lets you customize %1."
+msgstr "به شما امکان می‌دهد %1 را سفارشی‌سازی کنید."
+
+#: shell/mainwindow_p.cpp:228
+#, kde-format
+msgctxt "@action"
+msgid "Configure Notifications..."
+msgstr "پیکربندی اعلان‌ها..."
+
+#: shell/mainwindow_p.cpp:229
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Configure notifications"
+msgstr "پیکربندی اعلان‌ها"
+
+#: shell/mainwindow_p.cpp:230
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Shows a dialog that lets you configure notifications."
+msgstr "پنجره‌ای را نشان می‌دهد که به شما امکان پیکربندی اعلان‌ها را می‌دهد."
+
+#: shell/mainwindow_p.cpp:234
+#, kde-format
+msgctxt "@action"
+msgid "Loaded Plugins"
+msgstr "افزونه‌های بارگذاری‌شده"
+
+#: shell/mainwindow_p.cpp:235
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show a list of all loaded plugins"
+msgstr "نمایش فهرستی از تمام افزونه‌های بارگذاری‌شده"
+
+#: shell/mainwindow_p.cpp:236
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Shows a dialog with information about all loaded plugins."
+msgstr ""
+"پنجره‌ای حاوی اطلاعات دربارهٔ تمام افزونه‌های بارگذاری‌شده را نشان می‌دهد."
+
+#: shell/mainwindow_p.cpp:239
+#, kde-format
+msgctxt "@action"
+msgid "&Next Window"
+msgstr "پنجرهٔ بعدی"
+
+#: shell/mainwindow_p.cpp:242
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Next window"
+msgstr "پنجرهٔ بعدی"
+
+#: shell/mainwindow_p.cpp:243
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Switches to the next window."
+msgstr "به پنجرهٔ بعدی می‌رود."
+
+#: shell/mainwindow_p.cpp:247
+#, kde-format
+msgctxt "@action"
+msgid "&Previous Window"
+msgstr "پنجرهٔ قبلی"
+
+#: shell/mainwindow_p.cpp:250
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Previous window"
+msgstr "پنجرهٔ قبلی"
+
+#: shell/mainwindow_p.cpp:251
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Switches to the previous window."
+msgstr "به پنجرهٔ قبلی می‌رود."
+
+#: shell/mainwindow_p.cpp:255
+#, kde-format
+msgctxt "@action"
+msgid "Jump to Next Outputmark"
+msgstr "پرش به نشان خروجی بعدی"
+
+#: shell/mainwindow_p.cpp:261
+#, kde-format
+msgctxt "@action"
+msgid "Jump to Previous Outputmark"
+msgstr "پرش به نشان خروجی قبلی"
+
+#: shell/mainwindow_p.cpp:268
+#, kde-format
+msgctxt "@action"
+msgid "Split View &Top/Bottom"
+msgstr "دو نیم کردن نما به بالا/پایین"
+
+#: shell/mainwindow_p.cpp:271
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Split horizontal"
+msgstr "دو نیم کردن افقی"
+
+#: shell/mainwindow_p.cpp:272
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Splits the current view horizontally."
+msgstr "نمای کنونی را به صورت افقی دو نیم می‌کند."
+
+#: shell/mainwindow_p.cpp:276
+#, kde-format
+msgctxt "@action"
+msgid "Split View &Left/Right"
+msgstr "تقسیم نما چپ/راست"
+
+#: shell/mainwindow_p.cpp:279
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Split vertical"
+msgstr "تقسیم عمودی"
+
+#: shell/mainwindow_p.cpp:280
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Splits the current view vertically."
+msgstr "نمای فعلی را به‌صورت عمودی تقسیم می‌کند."
+
+#: shell/mainwindow_p.cpp:283
+#, kde-format
+msgctxt "@action"
+msgid "&Next Split View"
+msgstr "نمای تقسیم‌شدهٔ بعدی"
+
+#: shell/mainwindow_p.cpp:286
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Next split view"
+msgstr "نمای تقسیم‌شدهٔ بعدی"
+
+#: shell/mainwindow_p.cpp:287
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Switches to the next split view."
+msgstr "به نمای تقسیم‌شدهٔ بعدی می‌رود."
+
+#: shell/mainwindow_p.cpp:291
+#, kde-format
+msgctxt "@action"
+msgid "&Previous Split View"
+msgstr "نمای تقسیم‌شدهٔ قبلی"
+
+#: shell/mainwindow_p.cpp:294
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Previous split view"
+msgstr "نمای تقسیم‌شدهٔ قبلی"
+
+#: shell/mainwindow_p.cpp:295
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Switches to the previous split view."
+msgstr "به نمای تقسیم‌شدهٔ قبلی می‌رود."
+
+#: shell/mainwindow_p.cpp:303
+#, kde-format
+msgctxt "@action new file"
+msgid "&New"
+msgstr "جدید"
+
+#: shell/mainwindow_p.cpp:304
+#, kde-format
+msgctxt "@action Shorter Text for 'New File' shown in the toolbar"
+msgid "New"
+msgstr "جدید"
+
+#: shell/mainwindow_p.cpp:306
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "New file"
+msgstr "پروندهٔ جدید"
+
+#: shell/mainwindow_p.cpp:307
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Creates an empty file."
+msgstr "یک پروندهٔ خالی ایجاد می‌کند."
+
+#: shell/mainwindow_p.cpp:312
+#, kde-format
+msgctxt "@action"
+msgid "&Add Tool View..."
+msgstr "افزودن نمای ابزار..."
+
+#: shell/mainwindow_p.cpp:314
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add tool view"
+msgstr "افزودن نمای ابزار"
+
+#: shell/mainwindow_p.cpp:315
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Adds a new tool view to this window."
+msgstr "یک نمای ابزار جدید به این پنجره می‌افزاید."
+
+#: shell/mainwindow_p.cpp:320
+#, kde-format
+msgid "&Window Color Scheme"
+msgstr "طرح رنگ پنجره"
+
+#: shell/mainwindow_p.cpp:354
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Split View Top/Bottom"
+msgstr "دو نیم کردن نما به بالا/پایین"
+
+#: shell/mainwindow_p.cpp:357
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Split View Left/Right"
+msgstr "دو نیم کردن نما به چپ/راست"
+
+#: shell/mainwindow_p.cpp:361
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New File"
+msgstr "پروندهٔ جدید"
+
+#: shell/mainwindow_p.cpp:367
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload"
+msgstr "بارگیری مجدد"
+
+#: shell/mainwindow_p.cpp:370
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload All"
+msgstr "بارگیری مجدد همه"
+
+#: shell/mainwindow_p.cpp:410
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add Tool View"
+msgstr "افزودن نمای ابزار"
+
+#: shell/mainwindow_p.cpp:433
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Lock the Panel from Hiding"
+msgstr "قفل کردن تابلو برای جلوگیری از پنهان‌شدن"
+
+#: shell/openprojectdialog.cpp:132
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All Project Files"
+msgstr "همه پرونده‌های پروژه"
+
+#: shell/openprojectdialog.cpp:141
+#, kde-format
+msgctxt "@title:tab"
+msgid "Select Source"
+msgstr "انتخاب منبع"
+
+#: shell/openprojectdialog.cpp:149
+#, kde-format
+msgid ""
+"Select a build system setup file, existing KDevelop project, or any folder "
+"to open as a project"
+msgstr ""
+"پرونده برپایی سامانه ساخت، پروژه کی‌دولپ موجود، یا هر پوشه‌ای را برای باز "
+"شدن به‌عنوان پروژه انتخاب کنید"
+
+#: shell/openprojectdialog.cpp:156 shell/openprojectdialog.cpp:177
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Project"
+msgstr "باز کردن پروژه"
+
+#: shell/openprojectdialog.cpp:165
+#, kde-format
+msgctxt "@title:tab"
+msgid "Project Information"
+msgstr "اطلاعات پروژه"
+
+#: shell/openprojectdialog.cpp:228
+#, kde-format
+msgid "Open \"%1\" as project"
+msgstr "باز کردن «%1» به‌عنوان پروژه"
+
+#: shell/openprojectdialog.cpp:232
+#, kde-format
+msgid "Selected URL is invalid"
+msgstr "نشانی وب انتخاب‌شده نامعتبر است"
+
+#: shell/openprojectdialog.cpp:277
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Open existing file \"%1\""
+msgstr "باز کردن پروندهٔ موجود «%1»"
+
+#: shell/partcontroller.cpp:228
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Use this command to show or hide the view's statusbar."
+msgstr "از این فرمان برای نمایش یا پنهان‌سازی نوار وضعیت نما استفاده کنید."
+
+#: shell/partdocument.cpp:109
+#, kde-format
+msgid "The document \"%1\" has unsaved changes. Would you like to save them?"
+msgstr "سند «%1» تغییرات ذخیره‌نشده دارد. می‌خواهید آن‌ها را ذخیره کنید؟"
+
+#: shell/partdocument.cpp:110 shell/partdocument.cpp:117
+#, kde-format
+msgctxt "@title:window"
+msgid "Close Document"
+msgstr "بستن سند"
+
+#: shell/partdocument.cpp:114
+#, kde-format
+msgid ""
+"The document \"%1\" has unsaved changes and was modified by an external process.\n"
+"Do you want to overwrite the external changes?"
+msgstr ""
+"سند «%1» تغییرات ذخیره‌نشده دارد و توسط یک فرایند بیرونی نیز تغییر یافته است.\n"
+"آیا می‌خواهید تغییرات بیرونی بازنویسی شوند؟"
+
+#: shell/partdocument.cpp:118 shell/textdocument.cpp:410
+#, kde-format
+msgctxt "@action:button"
+msgid "Overwrite External Changes"
+msgstr "بازنویسی تغییرات بیرونی"
+
+#: shell/problem.cpp:40
+#, kde-format
+msgid "Plugin"
+msgstr "افزونه"
+
+#: shell/problem.cpp:80
+#, kde-format
+msgid "DuchainBuilder"
+msgstr "DuchainBuilder"
+
+#: shell/problem.cpp:82
+#, kde-format
+msgid "Todo"
+msgstr "کارهای انجام‌دادنی"
+
+#: shell/problem.cpp:167
+#, kde-format
+msgctxt "@item problem severity"
+msgid "Hint"
+msgstr "راهنمایی"
+
+#: shell/problem.cpp:168
+#, kde-format
+msgctxt "@item problem severity"
+msgid "Warning"
+msgstr "هشدار"
+
+#: shell/problem.cpp:169
+#, kde-format
+msgctxt "@item problem severity"
+msgid "Error"
+msgstr "خطا"
+
+#: shell/problemmodel.cpp:37
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Re-parse all watched documents"
+msgstr "تجزیهٔ مجدد همهٔ سندهای دیده‌بانی‌شده"
+
+#: shell/problemmodel.cpp:323
+#, kde-format
+msgctxt "@title:column source of problem"
+msgid "Source"
+msgstr "منبع"
+
+#: shell/problemmodel.cpp:325
+#, kde-format
+msgctxt "@title:column problem description"
+msgid "Problem"
+msgstr "مشکل"
+
+#: shell/problemmodel.cpp:327
+#, kde-format
+msgctxt "@title:column file where problem was found"
+msgid "File"
+msgstr "پرونده"
+
+#: shell/problemmodel.cpp:329
+#, kde-format
+msgctxt "@title:column line number with problem"
+msgid "Line"
+msgstr "سطر"
+
+#: shell/problemmodel.cpp:331
+#, kde-format
+msgctxt "@title:column column number with problem"
+msgid "Column"
+msgstr "ستون"
+
+#: shell/progresswidget/progressdialog.cpp:144
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel this operation"
+msgstr "لغو این عملیات"
+
+#: shell/progresswidget/progressmanager.cpp:87
+#, kde-format
+msgctxt "@info"
+msgid "Aborting..."
+msgstr "در حال لغو..."
+
+#: shell/progresswidget/statusbarprogresswidget.cpp:99
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open detailed progress dialog"
+msgstr "باز کردن گفت‌وگوی پیشرفت با جزئیات"
+
+#: shell/progresswidget/statusbarprogresswidget.cpp:337
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Hide detailed progress window"
+msgstr "مخفی کردن پنجرهٔ پیشرفت با جزئیات"
+
+#: shell/progresswidget/statusbarprogresswidget.cpp:341
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show detailed progress window"
+msgstr "نمایش پنجرهٔ پیشرفت با جزئیات"
+
+#: shell/project.cpp:99
+#, kde-format
+msgid "Loading Project %1"
+msgstr "بارگذاری پروژهٔ %1"
+
+#: shell/project.cpp:107
+#, kde-format
+msgctxt "%1: Project name"
+msgid "Loading %1"
+msgstr "در حال بارگذاری %1"
+
+#: shell/project.cpp:226
+#, kde-format
+msgid ""
+"Unable to load the project file %1.<br>The project has been removed from the"
+" session."
+msgstr ""
+"بارگذاری پروندهٔ پروژهٔ %1 امکان‌پذیر نیست.<br>پروژه از نشست حذف شده است."
+
+#: shell/project.cpp:252
+#, kde-format
+msgid "Unable to create hidden dir (%1) for developer file"
+msgstr "امکان ایجاد شاخهٔ مخفی (%1) برای پروندهٔ توسعه‌دهنده وجود ندارد"
+
+#: shell/project.cpp:268
+#, kde-format
+msgid "Unable to get project file: %1"
+msgstr "امکان دریافت پروندهٔ پروژه وجود ندارد: %1"
+
+#: shell/project.cpp:308
+#, kde-format
+msgid "Could not load %1, a project with the same name '%2' is already open."
+msgstr "بارگذاری %1 ممکن نشد، پروژه‌ای با همین نام «%2» از قبل باز است."
+
+#: shell/project.cpp:339
+#, kde-format
+msgid ""
+"Could not load project management plugin <b>%1</b>.<br>Check that the "
+"required programs are installed, or see console output for more information."
+msgstr ""
+"بارگذاری افزونهٔ مدیریت پروژهٔ <b>%1</b> انجام نشد.<br>بررسی کنید که "
+"برنامه‌های لازم نصب باشند، یا برای اطلاعات بیشتر خروجی کنسول را ببینید."
+
+#: shell/project.cpp:349
+#, kde-format
+msgid ""
+"The project importing plugin (%1) does not support the IProjectFileManager "
+"interface."
+msgstr ""
+"افزونهٔ وارد کردن پروژه (%1) از رابط IProjectFileManager پشتیبانی نمی‌کند."
+
+#: shell/project.cpp:402
+#, kde-format
+msgid "Could not open project."
+msgstr "پروژه باز نشد."
+
+#: shell/project.cpp:560
+#, kde-format
+msgid ""
+"Could not store developer specific project configuration.\n"
+"Attention: The project settings you changed will be lost."
+msgstr ""
+"ذخیرهٔ پیکربندی اختصاصی توسعه‌دهنده برای پروژه انجام نشد.\n"
+"توجه: تنظیمات تغییریافتهٔ پروژه از دست خواهند رفت."
+
+#: shell/projectcontroller.cpp:157
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Project %1"
+msgstr "پیکربندی پروژهٔ %1"
+
+#: shell/projectcontroller.cpp:300
+#, kde-format
+msgid "Invalid Location: %1"
+msgstr "مکان نامعتبر: %1"
+
+#: shell/projectcontroller.cpp:310
+#, kde-format
+msgid "Already opening %1, not opening again"
+msgstr "%1 در حال حاضر باز است، مجدداً باز نمی‌شود"
+
+#: shell/projectcontroller.cpp:467
+#, kde-format
+msgctxt "@action:button"
+msgid "Override"
+msgstr "رونویسی"
+
+#: shell/projectcontroller.cpp:468
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Continue to open the project and use the just provided project configuration"
+msgstr "ادامهٔ باز کردن پروژه و استفاده از پیکربندی ارائه‌شدهٔ کنونی پروژه"
+
+#: shell/projectcontroller.cpp:469
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Existing File"
+msgstr "باز کردن پروندهٔ موجود"
+
+#: shell/projectcontroller.cpp:470
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Continue to open the project but use the existing project configuration"
+msgstr "ادامه باز کردن پروژه با استفاده از پیکربندی موجود پروژه"
+
+#: shell/projectcontroller.cpp:472
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel and do not open the project"
+msgstr "لغو و باز نکردن پروژه"
+
+#: shell/projectcontroller.cpp:475
+#, kde-format
+msgid ""
+"There already exists a project configuration file at %1.\n"
+"Do you want to override it or open the existing file?"
+msgstr ""
+"از قبل یک پروندهٔ پیکربندی پروژه در %1 وجود دارد.\n"
+"آیا می‌خواهید آن را بازنویسی کنید یا پروندهٔ موجود را باز کنید؟"
+
+#: shell/projectcontroller.cpp:478
+#, kde-format
+msgctxt "@title:window"
+msgid "Override Existing Project Configuration"
+msgstr "بازنویسی پیکربندی موجود پروژه"
+
+#: shell/projectcontroller.cpp:496
+#, kde-format
+msgid "Unable to create configuration file %1"
+msgstr "امکان ایجاد پروندهٔ پیکربندی %1 وجود ندارد"
+
+#: shell/projectcontroller.cpp:510
+#, kde-format
+msgid "Reopen the current project?"
+msgstr "پروژهٔ فعلی دوباره باز شود؟"
+
+#: shell/projectcontroller.cpp:511
+#, kde-format
+msgctxt "@action:button"
+msgid "Reopen"
+msgstr "باز کردن مجدد"
+
+#: shell/projectcontroller.cpp:552
+#, kde-format
+msgctxt "@action"
+msgid "Open / Import Project..."
+msgstr "باز کردن / وارد کردن پروژه..."
+
+#: shell/projectcontroller.cpp:553
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open or import project"
+msgstr "باز کردن یا وارد کردن پروژه"
+
+#: shell/projectcontroller.cpp:554
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Open an existing KDevelop project or import an existing Project into "
+"KDevelop. This entry allows one to select a KDevelop project file or an "
+"existing directory to open it in KDevelop. When opening an existing "
+"directory that does not yet have a KDevelop project file, the file will be "
+"created."
+msgstr ""
+"باز کردن یک پروژهٔ موجود KDevelop یا وارد کردن یک پروژه به KDevelop. این "
+"گزینه امکان انتخاب یک پروندهٔ پروژهٔ KDevelop یا شاخه‌ای موجود برای باز کردن"
+" در KDevelop را فراهم می‌کند. هنگام باز کردن شاخه‌ای موجود که هنوز پروندهٔ "
+"پروژهٔ KDevelop ندارد، پرونده ایجاد خواهد شد."
+
+#: shell/projectcontroller.cpp:565
+#, kde-format
+msgctxt "@action"
+msgid "Fetch Project..."
+msgstr "واکشی پروژه..."
+
+#: shell/projectcontroller.cpp:567
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Fetch project"
+msgstr "واکشی پروژه"
+
+#: shell/projectcontroller.cpp:568
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Guides the user through the project fetch and then imports it into KDevelop."
+msgstr ""
+"کاربر را در مراحل واکشی پروژه راهنمایی کرده و سپس آن را به کی‌دولوپ وارد "
+"می‌کند."
+
+#: shell/projectcontroller.cpp:583
+#, kde-format
+msgctxt "@action"
+msgid "Close Project(s)"
+msgstr "بستن پروژه‌(ها)"
+
+#: shell/projectcontroller.cpp:585
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Closes all currently selected projects"
+msgstr "همه پروژه‌های انتخاب‌شده فعلی را می‌بندد"
+
+#: shell/projectcontroller.cpp:591
+#, kde-format
+msgctxt "@action"
+msgid "Open Configuration..."
+msgstr "باز کردن پیکربندی..."
+
+#: shell/projectcontroller.cpp:597
+#, kde-format
+msgctxt "@action"
+msgid "Commit Current Project..."
+msgstr "کامیت پروژه کنونی..."
+
+#: shell/projectcontroller.cpp:598
+#, kde-format
+msgctxt "@action"
+msgid "Commit..."
+msgstr "کامیت..."
+
+#: shell/projectcontroller.cpp:609
+#, kde-format
+msgctxt "@action"
+msgid "Open Recent Project"
+msgstr "باز کردن پروژه اخیر"
+
+#: shell/projectcontroller.cpp:610
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Opens recently opened project."
+msgstr "پروژه‌ای که به‌تازگی باز شده بود را باز می‌کند."
+
+#: shell/projectcontroller.cpp:615
+#, kde-format
+msgctxt "@action"
+msgid "Open Project for Current File"
+msgstr "باز کردن پروژه برای پروندهٔ کنونی"
+
+#: shell/projectcontroller.cpp:764
+#, kde-format
+msgid "Project already open: %1"
+msgstr "پروژه از قبل باز است: %1"
+
+#: shell/projectcontroller.cpp:768
+#, kde-format
+msgid "No active document"
+msgstr "هیچ سند فعالی وجود ندارد"
+
+#: shell/projectcontroller.cpp:849
+#, kde-format
+msgctxt "@title:window"
+msgid "Project Already Open"
+msgstr "پروژه از قبل باز است"
+
+#: shell/projectcontroller.cpp:852
+#, kde-format
+msgid ""
+"The project you're trying to open is already open in at least one other "
+"session.<br>What do you want to do?"
+msgstr ""
+"پروژه‌ای که می‌خواهید باز کنید، از قبل دست‌کم در یک نشست دیگر باز "
+"است.<br>می‌خواهید چه کاری انجام دهید؟"
+
+#: shell/projectcontroller.cpp:856
+#, kde-format
+msgctxt "@option:radio"
+msgid "Add project to current session"
+msgstr "افزودن پروژه به نشست کنونی"
+
+#: shell/projectcontroller.cpp:860
+#, kde-format
+msgctxt "@option:radio"
+msgid "Open session %1"
+msgstr "باز کردن نشست %1"
+
+#: shell/projectcontroller.cpp:921
+#, kde-format
+msgid "No enabled plugin supports this repository URL: %1"
+msgstr "هیچ افزونهٔ فعالی از این نشانی وب مخزن پشتیبانی نمی‌کند: %1"
+
+#: shell/projectcontroller.cpp:1225
+#, kde-format
+msgctxt "@action"
+msgid "Reparse the Entire Project"
+msgstr "تجزیهٔ مجدد کل پروژه"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#. i18n: ectx: property (toolTip), widget (QComboBox, managerCombo)
+#: shell/projectinfopage.ui:29 shell/projectinfopage.ui:56
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the Management Plugin to use for this project"
+msgstr "افزونهٔ مدیریتی مورد استفاده برای این پروژه را انتخاب کنید"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/projectinfopage.ui:32
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Project manager:"
+msgstr "مدیر پروژه:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, nameEdit)
+#: shell/projectinfopage.ui:39 shell/projectinfopage.ui:49
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Provide a name for the project"
+msgstr "نامی برای پروژه مشخص کنید"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/projectinfopage.ui:42 shell/settings/environmentwidget.cpp:175
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "نام:"
+
+#: shell/projectsourcepage.cpp:44
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "From File System"
+msgstr "از سامانهٔ پرونده"
+
+#: shell/projectsourcepage.cpp:179
+#, kde-format
+msgid "Could not create the directory: %1"
+msgstr "امکان ایجاد شاخه وجود ندارد: %1"
+
+#: shell/projectsourcepage.cpp:208
+#, kde-format
+msgctxt "Format of the progress bar text. progress and info"
+msgid "%1 : %p%"
+msgstr "%1 : %p%"
+
+#: shell/projectsourcepage.cpp:249
+#, kde-format
+msgid ""
+"You need to specify a valid or nonexistent directory to check out a project"
+msgstr ""
+"برای واکشی (Check out) پروژه باید یک شاخهٔ معتبر یا ناموجود را مشخص کنید"
+
+#: shell/projectsourcepage.cpp:251
+#, kde-format
+msgid "You need to specify the source for your remote project"
+msgstr "باید منبع پروژهٔ دوردست خود را مشخص کنید"
+
+#: shell/projectsourcepage.cpp:253
+#, kde-format
+msgid "You need to specify an empty folder as your project destination"
+msgstr "باید یک پوشهٔ خالی را به‌عنوان مقصد پروژهٔ خود مشخص کنید"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/projectsourcepage.ui:37
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Source:"
+msgstr "منبع:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: shell/projectsourcepage.ui:49
+#, kde-format
+msgctxt "@title:group"
+msgid "Destination"
+msgstr "مقصد"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/projectsourcepage.ui:55
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Directory:"
+msgstr "شاخه:"
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, workingDir)
+#: shell/projectsourcepage.ui:62
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Select the directory to use..."
+msgstr "انتخاب شاخه برای استفاده..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, sourceBox)
+#: shell/projectsourcepage.ui:78
+#, kde-format
+msgctxt "@title:group"
+msgid "Source"
+msgstr "مبدأ"
+
+#. i18n: ectx: property (text), widget (QPushButton, get)
+#: shell/projectsourcepage.ui:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Get"
+msgstr "دریافت"
+
+#: shell/runcontroller.cpp:89
+#, kde-format
+msgctxt "launch mode"
+msgid "Debug"
+msgstr "اشکال‌زدایی"
+
+#: shell/runcontroller.cpp:98
+#, kde-format
+msgctxt "launch mode"
+msgid "Profile"
+msgstr "پروفایل"
+
+#: shell/runcontroller.cpp:107
+#, kde-format
+msgctxt "launch mode"
+msgid "Execute"
+msgstr "اجرا"
+
+#: shell/runcontroller.cpp:438
+#, kde-format
+msgid "The current launch configuration does not support the '%1' mode."
+msgstr "پیکربندی راه‌اندازی فعلی از حالت «%1» پشتیبانی نمی‌کند."
+
+#: shell/runcontroller.cpp:458
+#, kde-format
+msgctxt "@action"
+msgid "Configure Launches..."
+msgstr "پیکربندی راه‌اندازی‌ها..."
+
+#: shell/runcontroller.cpp:461
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open Launch Configuration Dialog"
+msgstr "باز کردن گفتگوی پیکربندی راه‌اندازی"
+
+#: shell/runcontroller.cpp:462
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Opens a dialog to setup new launch configurations, or to change the existing"
+" ones."
+msgstr ""
+"گفتگویی را برای راه‌اندازی پیکربندی‌های جدید یا تغییر موارد موجود باز "
+"می‌کند."
+
+#: shell/runcontroller.cpp:465
+#, kde-format
+msgctxt "@action"
+msgid "Execute Launch"
+msgstr "اجرای راه‌اندازی"
+
+#: shell/runcontroller.cpp:466
+#, kde-format
+msgctxt "@action Short text for 'Execute Launch' used in the toolbar"
+msgid "Execute"
+msgstr "اجرا"
+
+#: shell/runcontroller.cpp:468
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Execute current launch"
+msgstr "اجرای راه‌اندازی فعلی"
+
+#: shell/runcontroller.cpp:469
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Executes the target or the program specified in currently active launch "
+"configuration."
+msgstr ""
+"هدف یا برنامه مشخص‌شده در پیکربندی راه‌اندازی فعال فعلی را اجرا می‌کند."
+
+#: shell/runcontroller.cpp:475
+#, kde-format
+msgctxt "@action Short text for 'Debug Launch' used in the toolbar"
+msgid "Debug"
+msgstr "اشکال‌زدایی"
+
+#. i18n("Profile Launch"), this);
+#. profileAction->setToolTip(i18nc("@info:tooltip", "Profile current
+#. launch"));
+#. profileAction->setWhatsThis(i18nc("@info:whatsthis", "Executes the target
+#. or the program specified in currently active launch configuration inside a
+#. Profiler."));
+#. ac->addAction("run_profile", profileAction);
+#. connect(profileAction, SIGNAL(triggered(bool)), this, SLOT(slotProfile()));
+#: shell/runcontroller.cpp:489
+#, kde-format
+msgctxt "@action"
+msgid "Stop All Jobs"
+msgstr "توقف همهٔ کارها"
+
+#: shell/runcontroller.cpp:490
+#, kde-format
+msgctxt "@action Short text for 'Stop All Jobs' used in the toolbar"
+msgid "Stop All"
+msgstr "توقف همه"
+
+#: shell/runcontroller.cpp:493
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Stop all currently running jobs"
+msgstr "توقف همهٔ کارهای در حال اجرای فعلی"
+
+#: shell/runcontroller.cpp:494
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Requests that all running jobs are stopped."
+msgstr "درخواست توقف تمام کارهای در حال اجرا."
+
+#: shell/runcontroller.cpp:500
+#, kde-format
+msgctxt "@action"
+msgid "Stop"
+msgstr "توقف"
+
+#: shell/runcontroller.cpp:502
+#, kde-format
+msgctxt "@action Short text for 'Stop' used in the toolbar"
+msgid "Stop"
+msgstr "توقف"
+
+#: shell/runcontroller.cpp:503
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Menu allowing to stop individual jobs"
+msgstr "منوی توقف کارهای تکی"
+
+#: shell/runcontroller.cpp:504
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "List of jobs that can be stopped individually."
+msgstr "فهرست کارهایی که می‌توان به صورت تکی متوقف کرد."
+
+#: shell/runcontroller.cpp:508
+#, kde-format
+msgctxt "@title:menu"
+msgid "Current Launch Configuration"
+msgstr "پیکربندی راه‌اندازی فعلی"
+
+#: shell/runcontroller.cpp:509
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Current launch configuration"
+msgstr "پیکربندی راه‌اندازی فعلی"
+
+#: shell/runcontroller.cpp:510
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select which launch configuration to run when run is invoked."
+msgstr "انتخاب کنید کدام پیکربندی راه‌اندازی هنگام فراخوانی «اجرا» اجرا شود."
+
+#: shell/runcontroller.cpp:623
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "<%1> Unnamed job"
+msgstr "<%1> کار بدون نام"
+
+#: shell/runcontroller.cpp:1006
+#, kde-format
+msgid "New %1 Launcher"
+msgstr "راه‌انداز %1 جدید"
+
+#: shell/runcontroller.cpp:1043
+#, kde-format
+msgctxt "@title:menu"
+msgid "%1 As..."
+msgstr "%1 به عنوان..."
+
+#: shell/runtimecontroller.cpp:27
+#, kde-format
+msgid "Host System"
+msgstr "سیستم میزبان"
+
+#: shell/runtimecontroller.cpp:88
+#, kde-format
+msgid "Allows to select a runtime"
+msgstr "امکان انتخاب یک زمان اجرا (Runtime) را می‌دهد"
+
+#: shell/runtimecontroller.cpp:92
+#, kde-format
+msgid "Runtime: %1"
+msgstr "زمان اجرا: %1"
+
+#: shell/savedialog.cpp:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Modified Files?"
+msgstr "پرونده‌های تغییریافته ذخیره شوند؟"
+
+#: shell/savedialog.cpp:52
+#, kde-format
+msgid "The following files have been modified. Save them?"
+msgstr "پرونده‌های زیر تغییر یافته‌اند. ذخیره شوند؟"
+
+#: shell/savedialog.cpp:70
+#, kde-format
+msgctxt "@action:button"
+msgid "Save &None"
+msgstr "هیچ‌کدام ذخیره نشود"
+
+#: shell/savedialog.cpp:71
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Discard all modifications"
+msgstr "دور ریختن همه تغییرات"
+
+#: shell/session.cpp:139 shell/session.cpp:162
+#, kde-format
+msgid "(no projects)"
+msgstr "(بدون پروژه)"
+
+#: shell/sessionchooserdialog.cpp:36
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Delete session"
+msgstr "حذف نشست"
+
+#: shell/sessionchooserdialog.cpp:49
+#, kde-format
+msgctxt "@title:window"
+msgid "Pick a Session"
+msgstr "انتخاب یک نشست"
+
+#: shell/sessionchooserdialog.cpp:62
+#, kde-format
+msgctxt "@action:button"
+msgid "Run"
+msgstr "اجرا"
+
+#: shell/sessionchooserdialog.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Active session.\n"
+"pid %1, app %2, host %3"
+msgstr ""
+"نشست فعال.\n"
+"شناسه فرایند: %1، برنامه: %2، میزبان: %3"
+
+#: shell/sessionchooserdialog.cpp:96
+#, kde-format
+msgid "Running"
+msgstr "در حال اجرا"
+
+#: shell/sessionchooserdialog.cpp:191
+#, kde-format
+msgctxt "@title:window"
+msgid "Cannot Delete Session"
+msgstr "امکان حذف نشست وجود ندارد"
+
+#: shell/sessionchooserdialog.cpp:192
+#, kde-format
+msgctxt "@info"
+msgid "<p>Cannot delete a locked session."
+msgstr "<p>نمی‌توان نشست قفل‌شده را حذف کرد."
+
+#: shell/sessionchooserdialog.cpp:195
+#, kde-format
+msgctxt "@info"
+msgid "<p>The session <b>%1</b> is locked by %2 on %3 (PID %4)."
+msgstr "<p>نشست <b>%1</b> توسط %2 در %3 (PID %4) قفل شده است."
+
+#: shell/sessionchooserdialog.cpp:203
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The session <b>%1</b> and all contained settings will be deleted. The "
+"projects will stay unaffected. Do you really want to continue?"
+msgstr ""
+"نشست <b>%1</b> و همهٔ تنظیمات درون آن حذف خواهند شد. پروژه‌ها دست‌نخورده "
+"باقی می‌مانند. آیا واقعاً می‌خواهید ادامه دهید؟"
+
+#: shell/sessionchooserdialog.cpp:204
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Session"
+msgstr "حذف نشست"
+
+#: shell/sessioncontroller.cpp:134
+#, kde-format
+msgctxt "@title:window"
+msgid "Start New Session"
+msgstr "شروع نشست جدید"
+
+#: shell/sessioncontroller.cpp:135 shell/sessioncontroller.cpp:157
+#, kde-format
+msgctxt "@label:textbox"
+msgid "New session name:"
+msgstr "نام نشست جدید:"
+
+#: shell/sessioncontroller.cpp:144
+#, kde-format
+msgid ""
+"The current session and all contained settings will be deleted. The projects"
+" will stay unaffected. Do you really want to continue?"
+msgstr ""
+"نشست فعلی و تمام تنظیمات موجود در آن حذف خواهند شد. پروژه‌ها بدون تغییر باقی"
+" می‌مانند. آیا واقعاً می‌خواهید ادامه دهید؟"
+
+#: shell/sessioncontroller.cpp:157
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "تغییر نام نشست"
+
+#: shell/sessioncontroller.cpp:260
+#, kde-format
+msgid "Session Manager"
+msgstr "مدیر نشست"
+
+#: shell/sessioncontroller.cpp:272
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Start New Session"
+msgstr "شروع نشست جدید"
+
+#: shell/sessioncontroller.cpp:273
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Start a new KDevelop instance with an empty session"
+msgstr "شروع یک نمونهٔ جدید کی‌دولوپ با یک نشست خالی"
+
+#: shell/sessioncontroller.cpp:281
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Start New Named Session..."
+msgstr "شروع نشست نام‌دار جدید..."
+
+#: shell/sessioncontroller.cpp:282
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Start a new KDevelop instance with an empty named session"
+msgstr "شروع یک نمونهٔ جدید کی‌دولوپ با یک نشست نام‌دار خالی"
+
+#: shell/sessioncontroller.cpp:288
+#, kde-format
+msgctxt "@action"
+msgid "Rename Current Session..."
+msgstr "تغییر نام نشست فعلی..."
+
+#: shell/sessioncontroller.cpp:294
+#, kde-format
+msgctxt "@action"
+msgid "Delete Current Session..."
+msgstr "حذف نشست فعلی..."
+
+#: shell/sessioncontroller.cpp:298
+#, kde-format
+msgctxt "@action"
+msgid "Quit"
+msgstr "خروج"
+
+#: shell/sessioncontroller.cpp:518
+#, kde-format
+msgid "Copy of %1"
+msgstr "رونوشت از %1"
+
+#: shell/sessioncontroller.cpp:608
+#, kde-format
+msgctxt "@title:column"
+msgid "Identity"
+msgstr "هویت"
+
+#: shell/sessioncontroller.cpp:609
+#, kde-format
+msgctxt "@title:column"
+msgid "Contents"
+msgstr "محتویات"
+
+#: shell/sessioncontroller.cpp:610
+#, kde-format
+msgctxt "@title:column"
+msgid "State"
+msgstr "وضعیت"
+
+#: shell/sessioncontroller.cpp:611
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "نام"
+
+#: shell/sessioncontroller.cpp:617
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Filter:"
+msgstr "صافی:"
+
+#: shell/sessioncontroller.cpp:649
+#, kde-format
+msgid "Create New Session"
+msgstr "ایجاد نشست جدید"
+
+#: shell/sessionlock.cpp:159
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Running %1 instance (PID: %2) detected, making this one visible instead of "
+"starting a new one"
+msgstr ""
+"نمونهٔ در حال اجرای %1 (شناسهٔ فرایند: %2) شناسایی شد؛ به‌جای راه‌اندازی "
+"نمونهٔ جدید، همین نمونه نمایان می‌شود"
+
+#: shell/sessionlock.cpp:164
+#, kde-format
+msgctxt "@info:shell"
+msgid "Running %1 instance (PID: %2) is apparently hung"
+msgstr "به نظر می‌رسد نمونهٔ در حال اجرای %1 (شناسهٔ فرایند: %2) قفل کرده است"
+
+#: shell/sessionlock.cpp:170
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The given application did not respond to a DBUS call, it may have crashed or"
+" is hanging."
+msgstr ""
+"برنامهٔ مشخص‌شده به فراخوانی DBUS پاسخ نداد؛ ممکن است از کار افتاده یا متوقف"
+" شده باشد."
+
+#: shell/sessionlock.cpp:175
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Failed to lock the session <em>%1</em>, already locked by %2 on %3 (PID %4)."
+msgstr ""
+"قفل کردن نشست <em>%1</em> ناموفق بود، پیش‌تر توسط %2 روی %3 قفل شده است "
+"(شناسهٔ فرآیند: %4)."
+
+#: shell/sessionlock.cpp:179
+#, kde-format
+msgctxt "@info"
+msgid "Failed to lock the session <em>%1</em> (lock-file unavailable)."
+msgstr "قفل کردن نشست <em>%1</em> ناموفق بود (پروندهٔ قفل در دسترس نیست)."
+
+#: shell/sessionlock.cpp:183
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<p>Please, close the offending application instance or choose another "
+"session to launch.</p>"
+msgstr ""
+"<p>لطفاً نمونهٔ برنامهٔ تداخل‌کننده را ببندید یا نشست دیگری را برای "
+"راه‌اندازی انتخاب کنید.</p>"
+
+#: shell/sessionlock.cpp:189
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry Startup"
+msgstr "تلاش دوباره برای راه‌اندازی"
+
+#: shell/sessionlock.cpp:192
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose Another Session"
+msgstr "انتخاب نشستی دیگر"
+
+#: shell/sessionlock.cpp:202
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to Lock Session %1"
+msgstr "شکست در قفل کردن نشست %1"
+
+#: shell/sessionlock.cpp:210
+#, kde-format
+msgctxt "@info"
+msgid "The session %1 is already active in another running instance."
+msgstr "نشست %1 در نمونهٔ دیگری در حال اجرا فعال است."
+
+#: shell/settings/analyzerspreferences.cpp:25
+#, kde-format
+msgid "Analyzers"
+msgstr "تحلیل‌گرها"
+
+#: shell/settings/analyzerspreferences.cpp:35
+#, kde-format
+msgid "Configure Analyzers"
+msgstr "پیکربندی تحلیل‌گرها"
+
+#: shell/settings/bgpreferences.cpp:73
+#, kde-format
+msgid "Configure Background Parser"
+msgstr "پیکربندی تجزیه‌گر پس‌زمینه"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, kcfg_enable)
+#: shell/settings/bgpreferences.ui:20
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Enables or disables the background parser.<br>If unsure, leave it "
+"enabled. Disabling the background parser will disable large parts of "
+"KDevelop's functionality.</p>"
+msgstr ""
+"<p>تجزیه‌گر پس‌زمینه را فعال یا غیرفعال می‌کند.<br>اگر مطمئن نیستید، آن را "
+"فعال بگذارید. غیرفعال کردن تجزیه‌گر پس‌زمینه بخش بزرگی از قابلیت‌های "
+"KDevelop را غیرفعال خواهد کرد.</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_enable)
+#: shell/settings/bgpreferences.ui:23
+#, kde-format
+msgctxt "@title:group"
+msgid "Enable Background Parser"
+msgstr "فعال‌سازی تجزیه‌گر پس‌زمینه"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_delay)
+#: shell/settings/bgpreferences.ui:35 shell/settings/bgpreferences.ui:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The time to wait before the document is re-analyzed when you edit it."
+msgstr "مدت‌زمان انتظار پیش از تجزیه‌وتحلیل مجدد سند هنگام ویرایش آن."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/settings/bgpreferences.ui:38
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Delay:"
+msgstr "تأخیر:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_delay)
+#: shell/settings/bgpreferences.ui:48
+#, kde-format
+msgctxt "@item:valuesuffix"
+msgid " ms"
+msgstr " میلی‌ثانیه"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_threads)
+#: shell/settings/bgpreferences.ui:61 shell/settings/bgpreferences.ui:71
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The maximum number of parallel instances the background parser uses. If "
+"unsure, select 1 or 2."
+msgstr ""
+"حداکثر تعداد نمونه‌های موازی که تجزیه‌گر پس‌زمینه استفاده می‌کند. اگر مطمئن "
+"نیستید، ۱ یا ۲ را انتخاب کنید."
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: shell/settings/bgpreferences.ui:64
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Maximum number of threads:"
+msgstr "حداکثر تعداد رشته‌ها:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_threads)
+#: shell/settings/bgpreferences.ui:74
+#, kde-format
+msgctxt "@item:valuesuffix"
+msgid " threads"
+msgstr " رشته"
+
+#: shell/settings/documentationpreferences.cpp:35
+#, kde-format
+msgid "Configure Documentation"
+msgstr "پیکربندی مستندات"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showPreviewCheckBox)
+#: shell/settings/editstyledialog.ui:42
+#, kde-format
+msgid ""
+"Toggle preview visibility for this style.\n"
+"Preview should be disabled for styles whose formatting depends on the file path."
+msgstr ""
+"تغییر وضعیت نمایش پیش‌نمایش برای این سبک.\n"
+"پیش‌نمایش باید برای سبک‌هایی که قالب‌بندی آن‌ها به مسیر پرونده بستگی دارد، غیرفعال شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showPreviewCheckBox)
+#: shell/settings/editstyledialog.ui:45
+#, kde-format
+msgid "Show Preview"
+msgstr "نمایش پیش‌نمایش"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPreview)
+#. i18n: ectx: property (text), widget (QLabel, previewLabel)
+#: shell/settings/editstyledialog.ui:69
+#: shell/sourceformatterselectionedit.ui:112
+#, kde-format
+msgctxt "@label"
+msgid "Preview:"
+msgstr "پیش‌نمایش:"
+
+#: shell/settings/environmentpreferences.cpp:79
+#, kde-format
+msgid "Environment"
+msgstr "محیط"
+
+#: shell/settings/environmentpreferences.cpp:84
+#, kde-format
+msgid "Configure Environment Variables"
+msgstr "پیکربندی متغیرهای محیطی"
+
+#: shell/settings/environmentprofilelistmodel.cpp:48
+#, kde-format
+msgid "%1 (default profile)"
+msgstr "%1 (نمایه پیش‌فرض)"
+
+#: shell/settings/environmentprofilemodel.cpp:91
+#, kde-format
+msgctxt "@title:column"
+msgid "Variable"
+msgstr "متغیر"
+
+#: shell/settings/environmentprofilemodel.cpp:93
+#, kde-format
+msgctxt "@title:column"
+msgid "Value"
+msgstr "مقدار"
+
+#: shell/settings/environmentwidget.cpp:81
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter variable..."
+msgstr "متغیر را وارد کنید..."
+
+#: shell/settings/environmentwidget.cpp:169
+#, kde-format
+msgctxt "@title:window"
+msgid "Enter Name of New Environment Profile"
+msgstr "نام نمایهٔ محیطی جدید را وارد کنید"
+
+#: shell/settings/environmentwidget.cpp:233
+#, kde-format
+msgctxt "@title:window"
+msgid "Batch Edit Mode"
+msgstr "حالت ویرایش دسته‌ای"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/settings/environmentwidget.ui:22
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Environment profile:"
+msgstr "نمایهٔ محیط:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addProfileButton)
+#: shell/settings/environmentwidget.ui:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add profile..."
+msgstr "افزودن نمایه…"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, cloneProfileButton)
+#: shell/settings/environmentwidget.ui:49
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clone profile..."
+msgstr "شبیه‌سازی نمایه…"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeProfileButton)
+#: shell/settings/environmentwidget.ui:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove profile"
+msgstr "حذف نمایه"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton,
+#. setAsDefaultProfileButton)
+#: shell/settings/environmentwidget.ui:69
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set as default"
+msgstr "تنظیم به‌عنوان پیش‌فرض"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeVariableButton)
+#: shell/settings/environmentwidget.ui:114
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove variable"
+msgstr "حذف متغیر"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, batchModeEditButton)
+#: shell/settings/environmentwidget.ui:130
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Batch edit mode"
+msgstr "حالت ویرایش دسته‌ای"
+
+#: shell/settings/languagepreferences.cpp:34
+#, kde-format
+msgctxt "@item:valuesuffix"
+msgid " file"
+msgid_plural " files"
+msgstr[0] " پرونده"
+msgstr[1] " پرونده"
+
+#: shell/settings/languagepreferences.cpp:82
+#, kde-format
+msgid "Language Support"
+msgstr "پشتیبانی زبان"
+
+#: shell/settings/languagepreferences.cpp:87
+#, kde-format
+msgid "Configure Code-Completion and Semantic Highlighting"
+msgstr "پیکربندی تکمیل خودکار کد و برجسته‌سازی معنایی"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: shell/settings/languagepreferences.ui:29
+#, kde-format
+msgctxt "@title:group"
+msgid "Code Completion"
+msgstr "تکمیل خودکار کد"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_6)
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_automaticInvocation)
+#: shell/settings/languagepreferences.ui:35
+#: shell/settings/languagepreferences.ui:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "If disabled, the code completion widget will never show automatically."
+msgstr ""
+"در صورت غیرفعال بودن، ویجت تکمیل کد هرگز به طور خودکار نشان داده نخواهد شد."
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: shell/settings/languagepreferences.ui:38
+#, kde-format
+msgctxt "@label"
+msgid "Enable automatic invocation:"
+msgstr "فعال‌سازی فراخوانی خودکار:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_7)
+#: shell/settings/languagepreferences.ui:58
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Choose whether to display additional information for the currently selected "
+"codecompletion item."
+msgstr ""
+"انتخاب کنید که آیا اطلاعات تکمیلی برای مورد انتخابی فعلی تکمیل کد نمایش داده"
+" شود یا خیر."
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: shell/settings/languagepreferences.ui:61
+#, kde-format
+msgctxt "@label"
+msgid "Additional information for current item:"
+msgstr "اطلاعات تکمیلی برای مورد فعلی:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_showMultiLineSelectionInformation)
+#: shell/settings/languagepreferences.ui:71
+#, kde-format
+msgctxt "info:tooltip"
+msgid ""
+"Choose whether to display additional information for the currently selected "
+"code completion item."
+msgstr ""
+"انتخاب کنید که آیا اطلاعات تکمیلی برای مورد انتخابی فعلی تکمیل کد نمایش داده"
+" شود یا خیر."
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_completionDetail)
+#: shell/settings/languagepreferences.ui:81
+#: shell/settings/languagepreferences.ui:94
+#, kde-format
+msgid ""
+"<p>The code completion UI has a minimal mode and a detailed mode.<br>Choose "
+"in what cases full code completion will be displayed.</p>"
+msgstr ""
+"<p>رابط کاربری تکمیل کد دارای یک حالت کمینه و یک حالت باجزئیات "
+"است.<br>انتخاب کنید در چه مواردی تکمیل کد کامل نمایش داده شود.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/settings/languagepreferences.ui:84
+#, kde-format
+msgctxt "@label"
+msgid "Detailed completion:"
+msgstr "تکمیل باجزئیات:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_completionDetail)
+#: shell/settings/languagepreferences.ui:101
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Never"
+msgstr "هرگز"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_completionDetail)
+#: shell/settings/languagepreferences.ui:106
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "When Invoked Manually"
+msgstr "هنگام فراخوانی دستی"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_completionDetail)
+#: shell/settings/languagepreferences.ui:111
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always"
+msgstr "همیشه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: shell/settings/languagepreferences.ui:122
+#, kde-format
+msgctxt "@title:group"
+msgid "Semantic Code Highlighting"
+msgstr "برجسته‌سازی معنایی کد"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, localColorizationLabel)
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_localColorization)
+#: shell/settings/languagepreferences.ui:131
+#: shell/settings/languagepreferences.ui:144
+#, kde-format
+msgid ""
+"<p>This setting decides about the intensity of colors for local variables, "
+"for example function arguments, variables and the like.</p>"
+msgstr ""
+"<p>این تنظیم، شدت رنگ‌ها را برای متغیرهای محلی، مانند آرگومان‌های تابع، "
+"متغیرها و موارد مشابه تعیین می‌کند.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, localColorizationLabel)
+#: shell/settings/languagepreferences.ui:134
+#, kde-format
+msgctxt "@label:slider"
+msgid "Local colorization intensity:"
+msgstr "شدت رنگ‌آمیزی محلی:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_globalColorSource)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_9)
+#: shell/settings/languagepreferences.ui:166
+#: shell/settings/languagepreferences.ui:183
+#, kde-format
+msgid ""
+"<p>By default, the global colors for types, functions, namespaces and so "
+"forth are auto-generated and will adapt to the selected editor theme based "
+"on the global colorization intensity. If you want to have full control over "
+"the colors, you can instead use the editor theme as color source. You can "
+"then fine tune the colors in the settings under Editor &gt; Color Themes "
+"&gt; Highlighting Text Styles &gt; KDevelop/Semantic Colors.</p>"
+msgstr ""
+"<p>به‌طور پیش‌فرض، رنگ‌های سراسری برای انواع، توابع، فضاهای نام و غیره "
+"به‌طور خودکار تولید می‌شوند و بر اساس شدت رنگ‌آمیزی سراسری با تم ویرایشگر "
+"انتخابی تطبیق می‌یابند. اگر می‌خواهید کنترل کاملی بر رنگ‌ها داشته باشید، "
+"می‌توانید به‌جای آن از تم ویرایشگر به‌عنوان منبع رنگ استفاده کنید. سپس "
+"می‌توانید رنگ‌ها را در تنظیمات بخش «ویرایشگر &gt; تم‌های رنگی &gt; سبک‌های "
+"متن برجسته‌سازی &gt; رنگ‌های KDevelop/معنایی» دقیق‌تر تنظیم کنید.</p>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_globalColorSource)
+#: shell/settings/languagepreferences.ui:170
+#, kde-format
+msgid "Auto-Generated"
+msgstr "تولید خودکار"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_globalColorSource)
+#: shell/settings/languagepreferences.ui:175
+#, kde-format
+msgid "From Editor Theme"
+msgstr "از تم ویرایشگر"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: shell/settings/languagepreferences.ui:186
+#, kde-format
+msgid "Global colors:"
+msgstr "رنگ‌های سراسری:"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_globalColorization)
+#. i18n: ectx: property (toolTip), widget (QLabel, globalColorizationLabel)
+#: shell/settings/languagepreferences.ui:196
+#: shell/settings/languagepreferences.ui:218
+#, kde-format
+msgid ""
+"<p>This settings lets you change the intensity of globally accessible types,"
+" for example classes, methods, functions etc.</p>"
+msgstr ""
+"<p>این تنظیمات به شما امکان می‌دهد شدت انواع در دسترس به‌صورت سراسری، مانند "
+"کلاس‌ها، متدها، توابع و غیره را تغییر دهید.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, globalColorizationLabel)
+#: shell/settings/languagepreferences.ui:221
+#, kde-format
+msgctxt "@label:slider"
+msgid "Global colorization intensity:"
+msgstr "شدت رنگ‌آمیزی سراسری:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_4)
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_highlightSemanticProblems)
+#: shell/settings/languagepreferences.ui:231
+#: shell/settings/languagepreferences.ui:244
+#, kde-format
+msgid ""
+"<p>Highlight semantic problems, such as non-existent or inaccessible "
+"declarations.</p>"
+msgstr ""
+"<p>برجسته‌سازی مشکلات معنایی، مانند اعلان‌های ناموجود یا غیرقابل‌دسترس.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: shell/settings/languagepreferences.ui:234
+#, kde-format
+msgctxt "@label"
+msgid "Highlight semantic problems:"
+msgstr "برجسته‌سازی مشکلات معنایی:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_5)
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_highlightProblematicLines)
+#: shell/settings/languagepreferences.ui:254
+#: shell/settings/languagepreferences.ui:267
+#, kde-format
+msgid ""
+"<p>When enabled, lines with errors will get additionally highlighted and "
+"their positions get marked in the scrollbar.</p>"
+msgstr ""
+"<p>در صورت فعال بودن، سطرهای دارای خطا به‌طور جداگانه برجسته می‌شوند و "
+"موقعیت آن‌ها در نوار پیمایش علامت‌گذاری خواهد شد.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: shell/settings/languagepreferences.ui:257
+#, kde-format
+msgctxt "@label"
+msgid "Highlight problematic lines:"
+msgstr "برجسته‌سازی خطوط دارای مشکل:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, boldDeclarationsLabel)
+#: shell/settings/languagepreferences.ui:277
+#, kde-format
+msgid ""
+"<html><head/><body><p>Use bold font for declarations such as classes, "
+"functions, local variables, etc.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>استفاده از قلم پررنگ برای اعلان‌هایی مانند کلاس‌ها، "
+"توابع، متغیرهای محلی و غیره.</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, boldDeclarationsLabel)
+#: shell/settings/languagepreferences.ui:280
+#, kde-format
+msgctxt "@label"
+msgid "Bold font for declarations:"
+msgstr "قلم پررنگ برای اعلان‌ها:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: shell/settings/languagepreferences.ui:293
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Problems shown as inline notes:"
+msgstr "مشکلات نمایش‌یافته به‌صورت یادداشت‌های درون‌خطی:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_problemInlineNotesLevel)
+#: shell/settings/languagepreferences.ui:304
+#, kde-format
+msgctxt "@item:inlistbox inline problems shown"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_problemInlineNotesLevel)
+#: shell/settings/languagepreferences.ui:309
+#, kde-format
+msgctxt "@item:inlistbox inline problems shown"
+msgid "Errors"
+msgstr "خطاها"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_problemInlineNotesLevel)
+#: shell/settings/languagepreferences.ui:314
+#, kde-format
+msgctxt "@item:inlistbox inline problems shown"
+msgid "Warnings and Errors"
+msgstr "هشدارها و خطاها"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_problemInlineNotesLevel)
+#: shell/settings/languagepreferences.ui:319
+#, kde-format
+msgctxt "@item:inlistbox inline problems shown"
+msgid "Hints, Warnings and Errors"
+msgstr "راهنمایی‌ها، هشدارها و خطاها"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#: shell/settings/languagepreferences.ui:327
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Space-separated list of words that make a comment represent a TODO item"
+msgstr ""
+"فهرست جداشده با فاصله‌ای از واژگانی که یک نظر را به یک مورد «انجام کار» "
+"(TODO) تبدیل می‌کنند"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: shell/settings/languagepreferences.ui:330
+#, kde-format
+msgctxt "@label:textbox"
+msgid "TODO marker words:"
+msgstr "واژه‌های نشانگر TODO:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_todoMarkerWords)
+#: shell/settings/languagepreferences.ui:340
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Space-separated list of words that make a comment represent a TODO item."
+msgstr ""
+"فهرست جداشده با فاصله‌ای از واژگانی که یک نظر را به یک مورد «انجام کار» "
+"(TODO) تبدیل می‌کنند."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: shell/settings/languagepreferences.ui:369
+#, kde-format
+msgctxt "@title:group"
+msgid "Project Parsing"
+msgstr "تجزیهٔ پروژه"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#. i18n: ectx: property (toolTip), widget (KPluralHandlingSpinBox,
+#. kcfg_minFilesForSimplifiedParsing)
+#: shell/settings/languagepreferences.ui:379
+#: shell/settings/languagepreferences.ui:399
+#, kde-format
+msgid ""
+"<p>When a project contains more files than this number, the project will be\n"
+"parsed in simplified mode, increasing the efficiency by gathering less information. Global code navigation and quickopen capabilities will be reduced.</p>"
+msgstr ""
+"<p>هنگامی که یک پروژه حاوی پرونده‌های بیشتری نسبت به این تعداد باشد، در حالت"
+" ساده‌شده تجزیه خواهد شد که با جمع‌آوری اطلاعات کمتر، کارایی را افزایش "
+"می‌دهد. قابلیت‌های ناوبری سراسری در کد و بازکردن سریع کاهش خواهند یافت.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/settings/languagepreferences.ui:382
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Minimum project size for simplified parsing:"
+msgstr "حداقل اندازهٔ پروژه برای تجزیهٔ ساده‌شده:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: shell/settings/languagepreferences.ui:415
+#, kde-format
+msgctxt "@title:group"
+msgid "Storage and Memory Use"
+msgstr "میزان مصرف فضای ذخیره‌سازی و حافظه"
+
+#. i18n: ectx: property (text), widget (QLabel,
+#. label_precompiledPreambleStorage)
+#: shell/settings/languagepreferences.ui:421
+#, kde-format
+msgctxt "@label"
+msgid "Store precompiled preambles in:"
+msgstr "ذخیرهٔ مقدمه‌های پیش‌کامپایل‌شده در:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox,
+#. kcfg_precompiledPreambleStorage)
+#: shell/settings/languagepreferences.ui:436
+#, kde-format
+msgid ""
+"<p>Precompiled preambles remain in the temporary directory after KDevelop crashes and are deleted only when the same session is started again.<br>\n"
+"When the preambles are stored in memory, they are guaranteed to disappear on exit even if KDevelop crashes.<br>\n"
+"Choosing the Session Temporary Directory storage makes sense on systems where RAM is limited and the temporary directory does not use tmpfs, because the preamble files can occupy gigabytes of space.<br>\n"
+"Changing this option takes effect after restarting KDevelop.<br>\n"
+"This option has effect only if KDevelop has been built against Clang version 17 or later.\n"
+"</p>"
+msgstr ""
+"<p>پیش‌درآمدهای از پیش کامپایل‌شده پس از خرابی KDevelop در شاخهٔ موقت باقی می‌مانند و فقط زمانی پاک می‌شوند که همان نشست دوباره آغاز شود.<br>\n"
+"هنگامی که پیش‌درآمدها در حافظه ذخیره شوند، تضمین می‌شود که در هنگام خروج ناپدید شوند، حتی اگر KDevelop از کار بیفتد.<br>\n"
+"انتخاب فضای ذخیره‌سازی «شاخهٔ موقت نشست» در سیستم‌هایی که RAM محدودی دارند و شاخهٔ موقت از tmpfs استفاده نمی‌کند منطقی است، زیرا پرونده‌های پیش‌درآمد می‌توانند چندین گیگابایت فضا اشغال کنند.<br>\n"
+"تغییر این گزینه پس از راه‌اندازی مجدد KDevelop اعمال می‌شود.<br>\n"
+"این گزینه تنها در صورتی اثر دارد که KDevelop با Clang نسخهٔ 17 یا بالاتر ساخته شده باشد.\n"
+"</p>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_precompiledPreambleStorage)
+#: shell/settings/languagepreferences.ui:440
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Memory"
+msgstr "حافظه"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_precompiledPreambleStorage)
+#: shell/settings/languagepreferences.ui:445
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Session Temporary Directory"
+msgstr "شاخهٔ موقت نشست"
+
+#: shell/settings/pluginpreferences.cpp:35
+#, kde-format
+msgctxt "@title:group"
+msgid "Core"
+msgstr "هسته"
+
+#: shell/settings/pluginpreferences.cpp:36
+#, kde-format
+msgctxt "@title:group"
+msgid "Project Management"
+msgstr "مدیریت پروژه"
+
+#: shell/settings/pluginpreferences.cpp:37
+#, kde-format
+msgctxt "@title:group"
+msgid "Version Control"
+msgstr "کنترل نسخه"
+
+#: shell/settings/pluginpreferences.cpp:38
+#, kde-format
+msgctxt "@title:group"
+msgid "Utilities"
+msgstr "ابزارها"
+
+#: shell/settings/pluginpreferences.cpp:39
+#, kde-format
+msgctxt "@title:group"
+msgid "Documentation"
+msgstr "مستندات"
+
+#: shell/settings/pluginpreferences.cpp:40
+#, kde-format
+msgctxt "@title:group"
+msgid "Language Support"
+msgstr "پشتیبانی زبان"
+
+#: shell/settings/pluginpreferences.cpp:41
+#, kde-format
+msgctxt "@title:group"
+msgid "Debugging"
+msgstr "اشکال‌زدایی"
+
+#: shell/settings/pluginpreferences.cpp:42
+#, kde-format
+msgctxt "@title:group"
+msgid "Testing"
+msgstr "آزمایش"
+
+#: shell/settings/pluginpreferences.cpp:43
+#, kde-format
+msgctxt "@title:group"
+msgid "Analyzers"
+msgstr "تحلیل‌گرها"
+
+#: shell/settings/pluginpreferences.cpp:44
+#, kde-format
+msgctxt "@title:group"
+msgid "Runtimes"
+msgstr "محیط‌های زمان اجرا"
+
+#: shell/settings/pluginpreferences.cpp:45
+#, kde-format
+msgctxt "@title:group"
+msgid "Other"
+msgstr "دیگر"
+
+#: shell/settings/pluginpreferences.h:27
+#, kde-format
+msgid "Plugins"
+msgstr "پلاگین‌ها"
+
+#: shell/settings/pluginpreferences.h:28
+#, kde-format
+msgid "Configure Plugins"
+msgstr "پیکربندی پلاگین‌ها"
+
+#. i18n: ectx: label, entry (parseAllProjectSources), group (Project Manager)
+#: shell/settings/projectconfig.kcfg:11
+#, kde-format
+msgid ""
+"Schedule all project source code to be parsed by the language support in the"
+" background"
+msgstr ""
+"زمان‌بندی تمام کدهای منبع پروژه برای تجزیه توسط پشتیبانی زبان در پس‌زمینه"
+
+#. i18n: ectx: whatsthis, entry (parseAllProjectSources), group (Project
+#. Manager)
+#: shell/settings/projectconfig.kcfg:15
+#, kde-format
+msgid ""
+"If this option is set, KDevelop will schedule all source code\n"
+"        found by the current build system for parsing by the appropriate language\n"
+"        support part.  This will enable more complete language support, but may\n"
+"        be slower."
+msgstr ""
+"اگر این گزینه تنظیم شود، KDevelop تمام کدهای منبع یافت‌شده توسط سامانهٔ ساخت"
+" فعلی را برای تجزیه توسط بخش پشتیبانی زبان مربوطه زمان‌بندی می‌کند. این کار "
+"پشتیبانی کامل‌تری از زبان را ممکن می‌سازد، اما ممکن است کندتر باشد."
+
+#. i18n: ectx: whatsthis, entry (projectsBaseDirectory), group (Project
+#. Manager)
+#: shell/settings/projectconfig.kcfg:19
+#, kde-format
+msgid "Chooses the base directory where new projects are created."
+msgstr "پوشهٔ پایه‌ای را که پروژه‌های جدید در آن ایجاد می‌شوند انتخاب می‌کند."
+
+#. i18n: ectx: label, entry (saveDocuments), group (Project Manager)
+#: shell/settings/projectconfig.kcfg:23
+#, kde-format
+msgid "Save all open documents before building anything"
+msgstr "ذخیرهٔ تمام سندهای باز پیش از ساخت هر چیز"
+
+#. i18n: ectx: whatsthis, entry (saveDocuments), group (Project Manager)
+#: shell/settings/projectconfig.kcfg:24
+#, kde-format
+msgid ""
+"If this option is set all open documents will be automatically saved before "
+"any build is started."
+msgstr ""
+"اگر این گزینه تنظیم شود، تمام سندهای باز پیش از شروع هر ساخت به‌طور خودکار "
+"ذخیره می‌شوند."
+
+#: shell/settings/projectpreferences.cpp:44
+#, kde-format
+msgid "Projects"
+msgstr "پروژه‌ها"
+
+#: shell/settings/projectpreferences.cpp:49
+#, kde-format
+msgid "Configure Projects"
+msgstr "پیکربندی پروژه‌ها"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#. i18n: ectx: property (toolTip), widget (KUrlRequester,
+#. kcfg_projectsBaseDirectory)
+#: shell/settings/projectpreferences.ui:22
+#: shell/settings/projectpreferences.ui:35
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the base directory where new projects are to be created"
+msgstr "پوشهٔ پایه‌ای را که پروژه‌های جدید باید در آن ایجاد شوند انتخاب کنید"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: shell/settings/projectpreferences.ui:25
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Projects base directory:"
+msgstr "شاخهٔ پایهٔ پروژه‌ها:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_parseAllProjectSources)
+#: shell/settings/projectpreferences.ui:47
+#, kde-format
+msgctxt "@info:tolltip"
+msgid "Parse all files in a project after the project has been opened"
+msgstr "تجزیهٔ تمام پرونده‌های پروژه پس از باز شدن آن"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_parseAllProjectSources)
+#: shell/settings/projectpreferences.ui:50
+#, kde-format
+msgctxt "@option:check"
+msgid "Schedule all project files for parsing"
+msgstr "زمان‌بندی تمام پرونده‌های پروژه برای تجزیه"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_saveDocuments)
+#: shell/settings/projectpreferences.ui:57
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Save all modified documents when the \"build\" action is triggered"
+msgstr "ذخیرهٔ تمام سندهای تغییریافته هنگام اجرای کنش «ساخت»"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_saveDocuments)
+#: shell/settings/projectpreferences.ui:60
+#, kde-format
+msgctxt "@option:check"
+msgid "Save all documents before building"
+msgstr "ذخیرهٔ تمام سندها پیش از ساخت"
+
+#: shell/settings/runtimespreferences.cpp:23
+#, kde-format
+msgid "Runtimes"
+msgstr "زمان‌های اجرا"
+
+#: shell/settings/runtimespreferences.cpp:33
+#, kde-format
+msgid "Configure Runtimes"
+msgstr "پیکربندی زمان‌های اجرا"
+
+#: shell/settings/sourceformattersettings.cpp:75
+#: shell/sourceformattercontroller.cpp:220
+#, kde-format
+msgid "Source Formatter"
+msgstr "قالب‌بند کد مبدأ"
+
+#: shell/settings/sourceformattersettings.cpp:80
+#, kde-format
+msgid "Configure Source Formatter"
+msgstr "پیکربندی قالب‌بند کد مبدأ"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: shell/settings/sourceformattersettings.ui:20
+#, kde-format
+msgctxt "@title:group"
+msgid "General"
+msgstr "عمومی"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. chkKateOverrideIndentation)
+#: shell/settings/sourceformattersettings.ui:26
+#, kde-format
+msgctxt "@info:tolltip"
+msgid ""
+"Override the editor indentation mode according to the formatting style for "
+"documents without Kate modeline."
+msgstr ""
+"نادیده‌گرفتن حالت تورفتگی ویرایشگر بر اساس سبک قالب‌بندی برای سندهای بدون خط"
+" حالت کیت (Kate modeline)."
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkKateOverrideIndentation)
+#: shell/settings/sourceformattersettings.ui:29
+#, kde-format
+msgctxt "@option:check"
+msgid "Override Kate Indentation Mode"
+msgstr "نادیده‌گرفتن حالت تورفتگی کیت"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkKateModelines)
+#: shell/settings/sourceformattersettings.ui:36
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Add a Kate modeline according to the formatting style to formatted "
+"documents."
+msgstr ""
+"افزودن خط حالت کیت (Kate modeline) به سندهای قالب‌بندی‌شده، بر اساس سبک "
+"قالب‌بندی."
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkKateModelines)
+#: shell/settings/sourceformattersettings.ui:39
+#, kde-format
+msgctxt "@option:check"
+msgid "Add Kate Modeline"
+msgstr "افزودن خط حالت کیت"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: shell/settings/sourceformattersettings.ui:55
+#, kde-format
+msgctxt "@title:group"
+msgid "Formatting Styles"
+msgstr "سبک‌های قالب‌بندی"
+
+#: shell/settings/templateconfig.cpp:39
+#, kde-format
+msgid "Templates"
+msgstr "الگوها"
+
+#: shell/settings/templateconfig.cpp:44
+#, kde-format
+msgid "Configure Templates"
+msgstr "پیکربندی الگوها"
+
+#: shell/settings/templatepage.cpp:30
+#, kde-format
+msgctxt "@action:button"
+msgid "Get More Templates"
+msgstr "دریافت الگوهای بیشتر"
+
+#. i18n: ectx: property (text), widget (QPushButton, loadButton)
+#: shell/settings/templatepage.ui:26
+#, kde-format
+msgctxt "@action:button"
+msgid "Load Template From File"
+msgstr "بارگذاری الگو از پرونده"
+
+#. i18n: ectx: property (text), widget (QPushButton, extractButton)
+#: shell/settings/templatepage.ui:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Clone Template"
+msgstr "همتاسازی الگو"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, UiConfig)
+#: shell/settings/uiconfig.ui:14 shell/settings/uipreferences.cpp:46
+#, kde-format
+msgid "User Interface"
+msgstr "رابط کاربری"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: shell/settings/uiconfig.ui:23
+#, kde-format
+msgctxt "@title:group"
+msgid "Dock Window Behavior"
+msgstr "رفتار پنجرهٔ مهار"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_4)
+#. i18n: ectx: property (toolTip), widget (QComboBox,
+#. kcfg_BottomLeftCornerOwner)
+#: shell/settings/uiconfig.ui:29 shell/settings/uiconfig.ui:49
+#, kde-format
+msgid ""
+"<p>Controls whether the bottom left corner is occupied by the dock at the "
+"left, or by the dock at the bottom.</p>"
+msgstr ""
+"<p>کنترل می‌کند که گوشهٔ پایین سمت چپ توسط مهار سمت چپ اشغال شود یا مهار "
+"پایین.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: shell/settings/uiconfig.ui:32
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Bottom left corner occupied by:"
+msgstr "گوشهٔ پایین چپ اشغال‌شده توسط:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_5)
+#. i18n: ectx: property (toolTip), widget (QComboBox,
+#. kcfg_BottomRightCornerOwner)
+#: shell/settings/uiconfig.ui:39 shell/settings/uiconfig.ui:66
+#, kde-format
+msgid ""
+"<p>Controls whether the bottom right corner is occupied by the dock at the "
+"right, or by the dock at the bottom.</p>"
+msgstr ""
+"<p>کنترل می‌کند که گوشهٔ پایین سمت راست توسط مهار سمت راست اشغال شود یا مهار"
+" پایین.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: shell/settings/uiconfig.ui:42
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Bottom right corner occupied by:"
+msgstr "گوشهٔ پایین راست اشغال‌شده توسط:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_BottomLeftCornerOwner)
+#: shell/settings/uiconfig.ui:53
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Left Dock"
+msgstr "داک چپ"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_BottomLeftCornerOwner)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_BottomRightCornerOwner)
+#: shell/settings/uiconfig.ui:58 shell/settings/uiconfig.ui:75
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Bottom Dock"
+msgstr "داک پایین"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_BottomRightCornerOwner)
+#: shell/settings/uiconfig.ui:70
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Right Dock"
+msgstr "داک راست"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: shell/settings/uiconfig.ui:86
+#, kde-format
+msgctxt "@title:group"
+msgid "Tabbed Browsing"
+msgstr "مرور با برگه"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_TabBarOpenAfterCurrent)
+#: shell/settings/uiconfig.ui:92
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Controls whether to open new tabs next to the active one."
+msgstr "کنترل می‌کند که برگه‌های جدید در کنار برگهٔ فعال باز شوند یا خیر."
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_TabBarOpenAfterCurrent)
+#: shell/settings/uiconfig.ui:95
+#, kde-format
+msgctxt "@option:check"
+msgid "Open new tab after current"
+msgstr "باز کردن برگهٔ جدید پس از برگهٔ فعلی"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_TabBarArrangeBuddies)
+#: shell/settings/uiconfig.ui:106
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"When enabled, plugins can group related files side by side.\n"
+"For example, a header file will be opened next to the implementation file."
+msgstr ""
+"در صورت فعال بودن، افزونه‌ها می‌توانند پرونده‌های مرتبط را کنار هم گروه‌بندی کنند.\n"
+"برای مثال، یک پروندهٔ سرآیند در کنار پروندهٔ پیاده‌سازی باز خواهد شد."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabBarArrangeBuddies)
+#: shell/settings/uiconfig.ui:109
+#, kde-format
+msgctxt "@option:check"
+msgid "Arrange related documents side by side"
+msgstr "چیدن سندهای مرتبط در کنار هم"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TabBarVisibility)
+#: shell/settings/uiconfig.ui:116
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Enables or disables the display of the tab bar at the top of the editor "
+"window."
+msgstr "نمایش نوار برگه را در بالای پنجرهٔ ویرایشگر فعال یا غیرفعال می‌کند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabBarVisibility)
+#: shell/settings/uiconfig.ui:119
+#, kde-format
+msgctxt "@option:check"
+msgid "Show tabs"
+msgstr "نمایش برگه‌ها"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CloseButtonsOnTabs)
+#: shell/settings/uiconfig.ui:129
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Enables or disables the display of a close button in each tab in the tab bar"
+" at the top of the editor window."
+msgstr ""
+"نمایش یا عدم نمایش دکمه بستن را در هر برگه در نوار برگه‌ها در بالای پنجره "
+"ویرایشگر فعال یا غیرفعال می‌کند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CloseButtonsOnTabs)
+#: shell/settings/uiconfig.ui:132
+#, kde-format
+msgctxt "@option:check"
+msgid "Show close buttons on tabs"
+msgstr "نمایش دکمه‌های بستن روی برگه‌ها"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: shell/settings/uiconfig.ui:145
+#, kde-format
+msgctxt "@title:group"
+msgid "Coloring"
+msgstr "رنگ‌آمیزی"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ColorizeByProject)
+#: shell/settings/uiconfig.ui:151
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"When enabled, tabs and other widgets are colored based on the project "
+"affiliation"
+msgstr ""
+"در صورت فعال بودن، برگه‌ها و سایر ابزارک‌ها بر اساس وابستگی به پروژه "
+"رنگ‌آمیزی می‌شوند"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ColorizeByProject)
+#: shell/settings/uiconfig.ui:154
+#, kde-format
+msgctxt "@option:check"
+msgid "Color widgets based on the project affiliation"
+msgstr "رنگ‌آمیزی ابزارک‌ها بر اساس وابستگی به پروژه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, projectTreeGroupBox)
+#: shell/settings/uiconfig.ui:167
+#, kde-format
+msgctxt "@title:group"
+msgid "Project Tree"
+msgstr "درخت پروژه"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_RecursiveProjectTreeCollapse)
+#: shell/settings/uiconfig.ui:173
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Collapse all child items whenever an item in the project tree is collapsed."
+msgstr "جمع‌کردن همه موارد فرزند، هر زمان که موردی در درخت پروژه جمع شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_RecursiveProjectTreeCollapse)
+#: shell/settings/uiconfig.ui:176
+#, kde-format
+msgctxt "@option:check"
+msgid "Collapse items recursively"
+msgstr "جمع‌کردن بازگشتی موارد"
+
+#: shell/settings/uipreferences.cpp:56
+#, kde-format
+msgid "Configure User Interface"
+msgstr "پیکربندی رابط کاربری"
+
+#: shell/sourceformattercontroller.cpp:226
+#, kde-format
+msgctxt "@action"
+msgid "&Reformat Source"
+msgstr "قالب‌بندی مجدد کد مبدأ"
+
+#: shell/sourceformattercontroller.cpp:230
+#, kde-format
+msgctxt "@action"
+msgid "Reformat Line"
+msgstr "قالب‌بندی مجدد سطر"
+
+#: shell/sourceformattercontroller.cpp:234
+#, kde-format
+msgctxt "@action"
+msgid "Reformat Files..."
+msgstr "قالب‌بندی مجدد پرونده‌ها..."
+
+#: shell/sourceformattercontroller.cpp:235
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Format file(s) using the configured source formatter(s)"
+msgstr "قالب‌بندی پرونده(ها) با استفاده از قالب‌بند(های) مبدأ پیکربندی‌شده"
+
+#: shell/sourceformattercontroller.cpp:237
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Formatting functionality using the configured source formatter(s)."
+msgstr "قابلیت قالب‌بندی با استفاده از قالب‌بند(های) مبدأ پیکربندی‌شده."
+
+#: shell/sourceformattercontroller.cpp:614
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reformat selection or file using <i>%1</i> (<b>%2</b>)"
+msgstr "قالب‌بندی مجدد انتخاب یا پرونده با استفاده از <i>%1</i> (<b>%2</b>)"
+
+#: shell/sourceformattercontroller.cpp:617
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Reformats selected text or the entire file if nothing is selected, using "
+"<i>%1</i> tool with <b>%2</b> style."
+msgstr ""
+"متن انتخاب‌شده یا در صورت عدم انتخاب، کل پرونده را با ابزار <i>%1</i> و سبک "
+"<b>%2</b> بازقالب‌بندی می‌کند."
+
+#: shell/sourceformattercontroller.cpp:619
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reformat current line using <i>%1</i> (<b>%2</b>)"
+msgstr "قالب‌بندی مجدد سطر جاری با استفاده از <i>%1</i> (<b>%2</b>)"
+
+#: shell/sourceformattercontroller.cpp:622
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Source reformatting of line under cursor using <i>%1</i> tool with <b>%2</b>"
+" style."
+msgstr "قالب‌بندی مجدد سطر زیر مکان‌نما با ابزار <i>%1</i> و سبک <b>%2</b>."
+
+#: shell/sourceformattercontroller.cpp:626
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reformat selection or file using the configured source formatter"
+msgstr ""
+"قالب‌بندی مجدد انتخاب یا پرونده با استفاده از قالب‌بند مبدأ پیکربندی‌شده"
+
+#: shell/sourceformattercontroller.cpp:628
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Reformats selected text or the entire file if nothing is selected, using the"
+" configured source formatter."
+msgstr ""
+"متن انتخاب‌شده یا در صورت عدم انتخاب، کل پرونده را با استفاده از قالب‌بند "
+"مبدأ پیکربندی‌شده بازقالب‌بندی می‌کند."
+
+#: shell/sourceformattercontroller.cpp:630
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reformat current line using the configured source formatter"
+msgstr "قالب‌بندی مجدد سطر فعلی با استفاده از قالب‌بند سورس پیکربندی‌شده"
+
+#: shell/sourceformattercontroller.cpp:632
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Source reformatting of line under cursor using the configured source "
+"formatter."
+msgstr ""
+"قالب‌بندی مجدد سورس سطر زیر مکان‌نما با استفاده از قالب‌بند سورس "
+"پیکربندی‌شده."
+
+#: shell/sourceformattercontroller.cpp:867
+#, kde-format
+msgctxt "@title:window"
+msgid "Reformat Files?"
+msgstr "پرونده‌ها مجدداً قالب‌بندی شوند؟"
+
+#: shell/sourceformattercontroller.cpp:868
+#, kde-format
+msgid "Reformat all files in the selected folder?"
+msgstr "تمام پرونده‌های موجود در پوشهٔ انتخاب‌شده مجدداً قالب‌بندی شوند؟"
+
+#: shell/sourceformattercontroller.cpp:872
+#, kde-format
+msgctxt "@action:button"
+msgid "Reformat"
+msgstr "قالب‌بندی مجدد"
+
+#: shell/sourceformatterjob.cpp:36
+#, kde-format
+msgid "Reformatting"
+msgstr "در حال قالب‌بندی مجدد"
+
+#: shell/sourceformatterjob.cpp:47
+#, kde-format
+msgid "Reformat Files"
+msgstr "قالب‌بندی مجدد پرونده‌ها"
+
+#: shell/sourceformatterjob.cpp:58
+#, kde-format
+msgid "Reformatting one file"
+msgid_plural "Reformatting %1 files"
+msgstr[0] "در حال قالب‌بندی مجدد یک پرونده"
+msgstr[1] "در حال قالب‌بندی مجدد %1 پرونده"
+
+#: shell/sourceformatterselectionedit.cpp:1077
+#, kde-format
+msgid ""
+"The style %1 is also used for the following languages:\n"
+"%2.\n"
+"Are you sure you want to delete it?"
+msgstr ""
+"سبک %1 برای زبان‌های زیر نیز استفاده شده است:\n"
+"%2.\n"
+"آیا از حذف آن اطمینان دارید؟"
+
+#: shell/sourceformatterselectionedit.cpp:1079
+#, kde-format
+msgctxt "@title:window"
+msgid "Deleting Style"
+msgstr "در حال حذف سبک"
+
+#: shell/sourceformatterselectionedit.cpp:1139
+#, kde-format
+msgid "New %1"
+msgstr "%1 جدید"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: shell/sourceformatterselectionedit.ui:29
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Language:"
+msgstr "زبان:"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, usageHelpButton)
+#: shell/sourceformatterselectionedit.ui:44
+#, kde-format
+msgid "How to configure formatting styles"
+msgstr "نحوهٔ پیکربندی سبک‌های قالب‌بندی"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, usageHelpButton)
+#: shell/sourceformatterselectionedit.ui:49
+#, kde-format
+msgid ""
+"<p>Select languages you use one by one from the <i>Language</i> combobox below, pick the desired formatter and style for each. <i>Ctrl+Click</i> a selected style to unselect it.</p>\n"
+"<p>Configuring the right formatter and style for each used language is very important: not only explicit <i>Reformat Source</i>/<i>Line</i>/<i>Files...</i> actions are affected, but also the formatting of auto-generated, auto-refactored or auto-fixed code (for example, <i>Rename</i> context menu action).</p>\n"
+"<p>Note that KDevelop formats all <i>*.h</i> files with formatter and style configured for <i>C</i> language, even C++ headers that belong to a pure C++ project. This occurs because source formatter maps MIME types to languages.</p>"
+msgstr ""
+"<p>زبان‌های مورد استفاده خود را یکی‌یکی از جعبهٔ کشویی <i>زبان</i> در زیر انتخاب کرده و قالب‌بند و سبک دلخواه را برای هرکدام برگزینید. برای لغو انتخاب یک سبک، <i>Ctrl+کلیک</i> کنید.</p>\n"
+"<p>پیکربندی قالب‌بند و سبک مناسب برای هر زبان مورد استفاده بسیار مهم است: این کار نه تنها بر کنش‌های صریح <i>قالب‌بندی مجدد مبدأ</i>/<i>سطر</i>/<i>پرونده‌ها...</i> تأثیر می‌گذارد، بلکه بر قالب‌بندی کدهای تولیدشدهٔ خودکار، بازسازی‌شدهٔ خودکار یا اصلاح‌شدهٔ خودکار نیز مؤثر است (برای مثال، کنش منوی زمینه‌ای <i>تغییر نام</i>).</p>\n"
+"<p>توجه داشته باشید که کی‌دولوپ تمام پرونده‌های <i>*.h</i> را با قالب‌بند و سبکی که برای زبان <i>C</i> پیکربندی شده قالب‌بندی می‌کند، حتی سراینده‌های ++C که متعلق به یک پروژهٔ کاملاً ++C هستند. این اتفاق به این دلیل رخ می‌دهد که قالب‌بند مبدأ انواع MIME را به زبان‌ها نگاشت می‌کند.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: shell/sourceformatterselectionedit.ui:134
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Formatter:"
+msgstr "قالب‌بند:"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton,
+#. formatterDescriptionButton)
+#: shell/sourceformatterselectionedit.ui:152
+#, kde-format
+msgid "Description of a selected formatter"
+msgstr "توضیحات قالب‌بند انتخاب‌شده"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: shell/sourceformatterselectionedit.ui:183
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Style:"
+msgstr "سبک:"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnNewStyle)
+#: shell/sourceformatterselectionedit.ui:201
+#, kde-format
+msgctxt "@action:button"
+msgid "New"
+msgstr "جدید"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnEditStyle)
+#: shell/sourceformatterselectionedit.ui:208
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit..."
+msgstr "ویرایش..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnDelStyle)
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: shell/sourceformatterselectionedit.ui:215
+#: shell/workingsets/workingsettooltipwidget.cpp:94
+#: vcs/dvcs/ui/branchmanager.ui:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "حذف"
+
+#: shell/textdocument.cpp:405
+#, kde-format
+msgid ""
+"The file \"%1\" is modified on disk.\n"
+"\n"
+"Are you sure you want to overwrite it? (External changes will be lost.)"
+msgstr ""
+"پروندهٔ «%1» روی دیسک تغییر کرده است.\n"
+"\n"
+"آیا مطمئنید که می‌خواهید آن را بازنویسی کنید؟ (تغییرات بیرونی از دست خواهند رفت.)"
+
+#: shell/textdocument.cpp:409
+#, kde-format
+msgctxt "@title:window"
+msgid "Document Externally Modified"
+msgstr "سند در خارج از برنامه تغییر یافته است"
+
+#: shell/textdocument.cpp:665
+#, kde-format
+msgid " Line: %1 Col: %2 "
+msgstr " سطر: %1 ستون: %2 "
+
+#: shell/uicontroller.cpp:81
+#, kde-format
+msgctxt "area"
+msgid "Code"
+msgstr "کد"
+
+#: shell/uicontroller.cpp:92
+#, kde-format
+msgctxt "area"
+msgid "Debug"
+msgstr "اشکال‌زدایی"
+
+#: shell/uicontroller.cpp:101
+#, kde-format
+msgctxt "area"
+msgid "Review"
+msgstr "بازبینی"
+
+#: shell/uicontroller.cpp:500
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Tool View to Add"
+msgstr "انتخاب نمای ابزار برای افزودن"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:75
+#, kde-format
+msgid "<b>Active Working Set</b>"
+msgstr "<b>مجموعهٔ کاری فعال</b>"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:77
+#, kde-format
+msgid "<b>Working Set</b>"
+msgstr "<b>مجموعهٔ کاری</b>"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:95
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this working set. The contained documents are not affected."
+msgstr "حذف این مجموعهٔ کاری. اسناد موجود در آن تحت تأثیر قرار نخواهند گرفت."
+
+#: shell/workingsets/workingsettooltipwidget.cpp:121
+#, kde-format
+msgctxt "@label"
+msgid "Documents:"
+msgstr "سندها:"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:129
+#, kde-format
+msgctxt "@action:button"
+msgid "Add All"
+msgstr "افزودن همه"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:130
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Add all documents that are part of this working set to the currently active "
+"working set"
+msgstr "افزودن همهٔ اسناد عضو این مجموعهٔ کاری به مجموعهٔ کاری فعال فعلی"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:137
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove All"
+msgstr "حذف همه"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:138
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Remove all documents that are part of this working set from the currently "
+"active working set"
+msgstr "حذف همهٔ اسناد عضو این مجموعهٔ کاری از مجموعهٔ کاری فعال فعلی"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:169
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Click to open and activate this document."
+msgstr "برای باز کردن و فعال‌سازی این سند کلیک کنید."
+
+#: shell/workingsets/workingsettooltipwidget.cpp:280
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this file from the current working set"
+msgstr "حذف این پرونده از مجموعهٔ کاری فعلی"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:285
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add this file to the current working set"
+msgstr "افزودن این پرونده به مجموعهٔ کاری فعلی"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:314
+#, kde-format
+msgctxt "@action:button"
+msgid "Stash"
+msgstr "اندوختن"
+
+#: shell/workingsets/workingsettooltipwidget.cpp:320
+#, kde-format
+msgctxt "@action:button"
+msgid "Load"
+msgstr "بارگذاری"
+
+#: sublime/container.cpp:352
+#, kde-format
+msgid "Line: 00000 Col: 000"
+msgstr "خط: ۰۰۰۰۰ ستون: ۰۰۰"
+
+#: sublime/container.cpp:386
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show sorted list of opened documents"
+msgstr "نمایش فهرست مرتب‌شدهٔ سندهای باز"
+
+#: sublime/container.cpp:398
+#, kde-format
+msgctxt "@info"
+msgid "(Press Ctrl+Tab to switch)"
+msgstr "(کلیدهای میانبر Ctrl+Tab را برای جابه‌جایی فشار دهید)"
+
+#: sublime/container.cpp:779
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Filename"
+msgstr "رونوشت از نام پرونده"
+
+#: sublime/container.cpp:782
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close"
+msgstr "بستن"
+
+#: sublime/container.cpp:784
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close All Other"
+msgstr "بستن بقیه"
+
+#: sublime/container.cpp:786
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close All"
+msgstr "بستن همه"
+
+#: sublime/idealbuttonbarwidget.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Toggle '%1' tool view"
+msgstr "تغییر وضعیت نمای ابزار «%1»"
+
+#: sublime/idealbuttonbarwidget.cpp:352
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Right click to add new tool views."
+msgstr "برای افزودن نماهای ابزار جدید راست‌کلیک کنید."
+
+#: sublime/idealcontroller.cpp:88
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 Toolbar"
+msgstr "نوار ابزار %1"
+
+#: sublime/idealcontroller.cpp:381
+#, kde-format
+msgid "Left Button Bar"
+msgstr "نوار دکمه چپ"
+
+#: sublime/idealcontroller.cpp:382
+#, kde-format
+msgid "Right Button Bar"
+msgstr "نوار دکمه راست"
+
+#: sublime/idealcontroller.cpp:387
+#, kde-format
+msgid "Bottom Button Bar"
+msgstr "نوار دکمه پایین"
+
+#: sublime/idealdockwidget.cpp:121
+#, kde-format
+msgctxt "@title:menu"
+msgid "Tool View Position"
+msgstr "موقعیت نمای ابزار"
+
+#: sublime/idealdockwidget.cpp:125
+#, kde-format
+msgctxt "@option:radio tool view position"
+msgid "Left"
+msgstr "چپ"
+
+#: sublime/idealdockwidget.cpp:126
+#, kde-format
+msgctxt "@option:radio tool view position"
+msgid "Bottom"
+msgstr "پایین"
+
+#: sublime/idealdockwidget.cpp:127
+#, kde-format
+msgctxt "@option:radio tool view position"
+msgid "Right"
+msgstr "راست"
+
+#: sublime/idealdockwidget.cpp:128
+#, kde-format
+msgctxt "@option:radio tool view position"
+msgid "Detached"
+msgstr "جداشده"
+
+#: sublime/idealdockwidget.cpp:150
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Assign Shortcut..."
+msgstr "اختصاص میان‌بر..."
+
+#: sublime/idealdockwidget.cpp:151
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use this shortcut to trigger visibility of the tool view."
+msgstr "از این میان‌بر برای تغییر وضعیت نمایانی نمای ابزار استفاده کنید."
+
+#: sublime/idealdockwidget.cpp:154
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Tool View"
+msgstr "حذف نمای ابزار"
+
+#: sublime/idealdockwidget.cpp:166
+#, kde-format
+msgctxt "@title:window"
+msgid "Assign Shortcut For '%1' Tool View"
+msgstr "تخصیص میان‌بر برای نمای ابزار «%1»"
+
+#: sublime/mainwindow_p.cpp:49
+#, kde-format
+msgctxt "@option:check"
+msgid "Concentration Mode"
+msgstr "حالت تمرکز"
+
+#: sublime/mainwindow_p.cpp:51
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove most of the controls so you can focus on what matters"
+msgstr "حذف بیشتر کنترل‌ها تا بتوانید روی آنچه مهم است تمرکز کنید"
+
+#: sublime/mainwindow_p.cpp:60
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Left Dock"
+msgstr "نمایش لنگرگاه چپ"
+
+#: sublime/mainwindow_p.cpp:64
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Right Dock"
+msgstr "نمایش لنگرگاه راست"
+
+#: sublime/mainwindow_p.cpp:68
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Bottom Dock"
+msgstr "نمایش لنگرگاه پایین"
+
+#: sublime/mainwindow_p.cpp:72
+#, kde-format
+msgctxt "@action"
+msgid "Focus Editor"
+msgstr "تمرکز روی ویرایشگر"
+
+#: sublime/mainwindow_p.cpp:77
+#, kde-format
+msgctxt "@action"
+msgid "Hide/Restore Docks"
+msgstr "پنهان‌سازی/بازیابی لنگرگاه‌ها"
+
+#: sublime/mainwindow_p.cpp:82
+#, kde-format
+msgctxt "@action"
+msgid "Next Tool View"
+msgstr "نمای ابزار بعدی"
+
+#: sublime/mainwindow_p.cpp:88
+#, kde-format
+msgctxt "@action"
+msgid "Previous Tool View"
+msgstr "نمای ابزار پیشین"
+
+#: sublime/mainwindow_p.cpp:94
+#, kde-format
+msgctxt "@title:menu"
+msgid "Tool Views"
+msgstr "نماهای ابزار"
+
+#: sublime/mainwindow_p.cpp:644
+#, kde-format
+msgctxt "@action"
+msgid "Close"
+msgstr "بستن"
+
+#: sublime/mainwindow_p.cpp:645
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close message"
+msgstr "بستن پیام"
+
+#: util/duchainify/main.cpp:268
+#, kde-format
+msgid "duchainify"
+msgstr "duchainify"
+
+#: util/duchainify/main.cpp:269
+#, kde-format
+msgid "DUChain builder application"
+msgstr "برنامهٔ سازندهٔ DUChain"
+
+#: util/duchainify/main.cpp:270
+#, kde-format
+msgid "(c) 2009 David Nolden"
+msgstr "حق نشر ۲۰۰۹ دیوید نولدن"
+
+#: util/duchainify/main.cpp:276
+#, kde-format
+msgid "file or directory"
+msgstr "پرونده یا شاخه"
+
+#: util/duchainify/main.cpp:279
+#, kde-format
+msgid "Show warnings"
+msgstr "نمایش هشدارها"
+
+#: util/duchainify/main.cpp:281
+#, kde-format
+msgid "Show warnings and debug output"
+msgstr "نمایش هشدارها و خروجی اشکال‌زدایی"
+
+#: util/duchainify/main.cpp:283
+#, kde-format
+msgid "Enforce an update of the top-contexts corresponding to the given files"
+msgstr "اجبار به به‌روزرسانی بافتارهای بالایی متناظر با پرونده‌های داده‌شده"
+
+#: util/duchainify/main.cpp:287
+#, kde-format
+msgid ""
+"Enforce an update of the top-contexts corresponding to the given files and "
+"all included files"
+msgstr ""
+"اجبار به به‌روزرسانی بافتارهای بالایی متناظر با پرونده‌های داده‌شده و همهٔ "
+"پرونده‌های گنجانده‌شده"
+
+#: util/duchainify/main.cpp:289
+#, kde-format
+msgid "Number of threads to use"
+msgstr "تعداد رشته‌ها برای استفاده"
+
+#: util/duchainify/main.cpp:292
+#, kde-format
+msgid ""
+"Features to build. Options: empty, simplified-visible-declarations, visible-"
+"declarations (default), all-declarations, all-declarations-and-uses, all-"
+"declarations-and-uses-and-AST"
+msgstr ""
+"ویژگی‌ها برای ساخت. گزینه‌ها: empty، simplified-visible-declarations، "
+"visible-declarations (پیش‌فرض)، all-declarations، all-declarations-and-uses،"
+" all-declarations-and-uses-and-AST"
+
+#: util/duchainify/main.cpp:296
+#, kde-format
+msgid "Print complete Definition-Use Chain on successful parse"
+msgstr "چاپ کامل زنجیرهٔ تعریف-استفاده در صورت تجزیهٔ موفق"
+
+#: util/duchainify/main.cpp:298
+#, kde-format
+msgid "Print parent contexts when dumping contexts"
+msgstr "چاپ بافتارهای والد هنگام تخلیهٔ بافتارها"
+
+#: util/duchainify/main.cpp:300
+#, kde-format
+msgid "Print complete DUChain Definitions repository on successful parse"
+msgstr "چاپ مخزن کامل تعاریف DUChain در صورت تجزیهٔ موفق"
+
+#: util/duchainify/main.cpp:303
+#, kde-format
+msgid ""
+"Print complete DUChain PersistentSymbolTable repository on successful parse"
+msgstr ""
+"چاپ کامل مخزن PersistentSymbolTable مربوط به DUChain در صورت تجزیهٔ موفق"
+
+#: util/duchainify/main.cpp:306
+#, kde-format
+msgid ""
+"Number defining the maximum depth where declaration details are printed"
+msgstr ""
+"عددی که بیشینهٔ عمقی را که در آن جزئیات اعلان چاپ می‌شوند تعیین می‌کند"
+
+#: util/duchainify/main.cpp:309
+#, kde-format
+msgid "Dump DUChain graph (in .dot format)"
+msgstr "تخلیهٔ گراف DUChain (در قالب ‎.dot)"
+
+#: util/duchainify/main.cpp:311
+#, kde-format
+msgid "Print problems encountered during parsing"
+msgstr "چاپ اشکالات رخ‌داده در حین تجزیه"
+
+#: util/duchainify/main.cpp:313
+#, kde-format
+msgid "Recursively dump errors from imported contexts."
+msgstr "تخلیه بازگشتی خطاهای زمینه‌های واردشده."
+
+#: util/environmentselectionmodel.cpp:40
+#, kde-format
+msgctxt "@title:column"
+msgid "Profile"
+msgstr "نمایه"
+
+#: util/environmentselectionmodel.cpp:51
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Use default profile (currently: %1)"
+msgstr "استفاده از نمایه پیش‌فرض (در حال حاضر: %1)"
+
+#: util/environmentselectionmodel.cpp:55
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 (does not exist)"
+msgstr "%1 (وجود ندارد)"
+
+#: util/jobstatus.cpp:29
+#, kde-format
+msgid "Task aborted"
+msgstr "تکلیف ساقط شد"
+
+#: util/projecttestjob.cpp:81
+#, kde-format
+msgid "Run all tests in %1"
+msgstr "اجرای همه آزمون‌ها در %1"
+
+#: util/shellutils.cpp:175
+#, kde-format
+msgid ""
+"You don't have write permissions for the following files; add write "
+"permissions for owner before saving?"
+msgstr ""
+"شما مجوز نوشتن برای پرونده‌های زیر را ندارید؛ آیا پیش از ذخیره، مجوز نوشتن "
+"برای مالک اضافه شود؟"
+
+#: util/shellutils.cpp:178
+#, kde-format
+msgctxt "@title:window"
+msgid "Some Files are Write-Protected"
+msgstr "برخی پرونده‌ها در برابر نوشتن محافظت شده‌اند"
+
+#: util/shellutils.cpp:179
+#, kde-format
+msgctxt "@action:button"
+msgid "Set Write Permissions"
+msgstr "تنظیم مجوزهای نوشتن"
+
+#: util/shellutils.cpp:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Ignore"
+msgstr "نادیده‌گرفتن"
+
+#: util/shellutils.cpp:192
+#, kde-format
+msgid "Failed adding write permissions for some files."
+msgstr "افزودن مجوزهای نوشتن برای برخی پرونده‌ها ناموفق بود."
+
+#: util/shellutils.cpp:193
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed Setting Permissions"
+msgstr "تنظیم ناموفق مجوزها"
+
+#: util/shellutils.cpp:232
+#, kde-format
+msgctxt ""
+"%1 - entry name, e.g. 'arguments' or 'executable path'; %2 - launch "
+"configuration name"
+msgid ""
+"There is a quoting error in the %1 for the launch configuration '%2'. "
+"Aborting start."
+msgstr ""
+"یک خطای نقل‌قول (کوتیشن) در %1 برای پیکربندی راه‌اندازی «%2» وجود دارد. لغو "
+"شروع."
+
+#: util/shellutils.cpp:238
+#, kde-format
+msgctxt ""
+"%1 - entry name, e.g. 'arguments' or 'executable path'; %2 - launch "
+"configuration name"
+msgid ""
+"A shell meta character was included in the %1 for the launch configuration "
+"'%2', this is not supported currently. Aborting start."
+msgstr ""
+"یک نویسهٔ فراگیر پوسته در %1 برای پیکربندی راه‌اندازی «%2» گنجانده شده است "
+"که در حال حاضر پشتیبانی نمی‌شود. لغو شروع."
+
+#: util/shellutils.cpp:247
+#, kde-format
+msgctxt ""
+"%1 - entry name, e.g. 'arguments' or 'executable path'; %2 - error code; %3 "
+"- launch configuration name"
+msgid ""
+"KShell::splitArgs(<the %1>) reported an unknown error code %2 for the launch"
+" configuration '%3'. Aborting start."
+msgstr ""
+"تابع KShell::splitArgs(<the %1>) کد خطای ناشناختهٔ %2 را برای پیکربندی "
+"راه‌اندازی «%3» گزارش داد. لغو شروع."
+
+#: util/shellutils.cpp:274
+#, kde-format
+msgctxt ""
+"%1 - entry name, e.g. 'executable path' or 'external terminal command'; %2 -"
+" launch configuration name"
+msgid ""
+"Splitting the %1 for the launch configuration '%2' yields an empty list. "
+"Aborting start."
+msgstr ""
+"تفکیک %1 برای پیکربندی راه‌اندازی «%2» منجر به یک فهرست خالی می‌شود. لغو "
+"شروع."
+
+#: util/shellutils.cpp:291
+#, kde-format
+msgctxt ""
+"%1 - entry name, e.g. 'external terminal command' or 'interpreter command'; "
+"%2 - launch configuration name"
+msgid "Empty %1 specified for the launch configuration '%2'. Aborting start."
+msgstr "مقدار %1 برای پیکربندی راه‌اندازی «%2» خالی مشخص شده است. لغو شروع."
+
+#: util/shellutils.cpp:306
+#, kde-format
+msgctxt ""
+"%1 - entry name, e.g. 'executable path' or 'script path'; %2 - launch "
+"configuration name"
+msgid ""
+"No valid %1 specified for the launch configuration '%2'. Aborting start."
+msgstr "هیچ %1 معتبری برای پیکربندی راه‌اندازی «%2» مشخص نشده است. لغو شروع."
+
+#: vcs/dvcs/dvcsjob.cpp:166
+#, kde-format
+msgid "Working Directory does not exist: %1"
+msgstr "پوشهٔ کاری وجود ندارد: %1"
+
+#: vcs/dvcs/dvcsjob.cpp:175
+#, kde-format
+msgid "Working Directory is not absolute: %1"
+msgstr "پوشهٔ کاری مطلق نیست: %1"
+
+#: vcs/dvcs/dvcsjob.cpp:225
+#, kde-format
+msgid ""
+"Process '%1' exited with status %2\n"
+"%3"
+msgstr ""
+"فرایند «%1» با وضعیت %2 خارج شد\n"
+"%3"
+
+#: vcs/dvcs/dvcsjob.cpp:256
+#, kde-format
+msgid "Command finished with error %1."
+msgstr "فرمان با خطای %1 پایان یافت."
+
+#: vcs/dvcs/dvcsjob.cpp:270
+#, kde-format
+msgid "Command exited with value %1."
+msgstr "فرمان با مقدار %1 خارج شد."
+
+#: vcs/dvcs/dvcsjob.cpp:370
+#, kde-format
+msgid "error: %1"
+msgstr "خطا: %1"
+
+#: vcs/dvcs/dvcsplugin.cpp:96
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Branches..."
+msgstr "شاخه‌ها..."
+
+#: vcs/dvcs/ui/branchmanager.cpp:40
+#, kde-format
+msgctxt "@title:window"
+msgid "Branch Manager"
+msgstr "مدیریت شاخه‌ها"
+
+#: vcs/dvcs/ui/branchmanager.cpp:114
+#, kde-format
+msgid ""
+"You must select a base branch from the list before creating a new branch."
+msgstr "پیش از ایجاد شاخهٔ جدید باید یک شاخهٔ پایه از فهرست انتخاب کنید."
+
+#: vcs/dvcs/ui/branchmanager.cpp:119
+#, kde-format
+msgctxt "@title:window"
+msgid "New Branch"
+msgstr "شاخهٔ جدید"
+
+#: vcs/dvcs/ui/branchmanager.cpp:119
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name of the new branch:"
+msgstr "نام شاخهٔ جدید:"
+
+#: vcs/dvcs/ui/branchmanager.cpp:126
+#, kde-format
+msgid ""
+"Branch \"%1\" already exists.\n"
+"Please, choose another name."
+msgstr ""
+"شاخهٔ «%1» از قبل وجود دارد.\n"
+"لطفاً نام دیگری انتخاب کنید."
+
+#: vcs/dvcs/ui/branchmanager.cpp:140
+#, kde-format
+msgid ""
+"Currently at the branch \"%1\".\n"
+"To delete it, please change to another branch."
+msgstr ""
+"در حال حاضر در شاخهٔ «%1» هستید.\n"
+"برای حذف آن، لطفاً به شاخهٔ دیگری بروید."
+
+#: vcs/dvcs/ui/branchmanager.cpp:147
+#, kde-format
+msgid "Are you sure you want to irreversibly delete the branch '%1'?"
+msgstr "آیا مطمئنید که می‌خواهید شاخهٔ «%1» را به طور برگشت‌ناپذیری حذف کنید؟"
+
+#: vcs/dvcs/ui/branchmanager.cpp:167 vcs/dvcs/ui/branchmanager.cpp:246
+#, kde-format
+msgid "Already on branch \"%1\"\n"
+msgstr "از قبل در شاخهٔ «%1» هستید\n"
+
+#: vcs/dvcs/ui/branchmanager.cpp:188
+#, kde-format
+msgid ""
+"Branch \"%1\" doesn't exists.\n"
+"Please, choose another name."
+msgstr ""
+"شاخهٔ «%1» وجود ندارد.\n"
+"لطفاً نام دیگری انتخاب کنید."
+
+#: vcs/dvcs/ui/branchmanager.cpp:196
+#, kde-format
+msgid "You must select a branch to merge into current one from the list."
+msgstr "باید شاخه‌ای را از فهرست انتخاب کنید تا در شاخهٔ فعلی ادغام شود."
+
+#: vcs/dvcs/ui/branchmanager.cpp:234 vcs/widgets/vcsdiffpatchsources.cpp:299
+#, kde-format
+msgid "Could not create a patch for the current version."
+msgstr "امکان ایجاد وصله برای نسخهٔ فعلی وجود نداشت."
+
+#: vcs/dvcs/ui/branchmanager.cpp:269
+#, kde-format
+msgctxt "@titlew:indow"
+msgid "Unable to Retrieve Diff"
+msgstr "عدم امکان دریافت تفاوت‌ها (Diff)"
+
+#: vcs/dvcs/ui/branchmanager.cpp:276
+#, kde-format
+msgid "There are no committed differences."
+msgstr "هیچ تفاوت ثبت‌شده‌ای وجود ندارد."
+
+#: vcs/dvcs/ui/branchmanager.cpp:277 vcs/vcspluginhelper.cpp:279
+#, kde-format
+msgctxt "@title:window"
+msgid "VCS Support"
+msgstr "پشتیبانی از VCS"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, newButton)
+#: vcs/dvcs/ui/branchmanager.ui:31
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Creates new branch based on the selected branch"
+msgstr "ایجاد شاخهٔ جدید بر اساس شاخهٔ انتخاب‌شده"
+
+#. i18n: ectx: property (text), widget (QPushButton, newButton)
+#: vcs/dvcs/ui/branchmanager.ui:34
+#, kde-format
+msgctxt "@action:button new branch"
+msgid "New"
+msgstr "جدید"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteButton)
+#: vcs/dvcs/ui/branchmanager.ui:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The same as git branch -D"
+msgstr "همانند git branch -D"
+
+#. i18n: ectx: property (text), widget (QPushButton, renameButton)
+#: vcs/dvcs/ui/branchmanager.ui:51 vcs/models/brancheslistmodel.cpp:69
+#, kde-format
+msgctxt "@action:button"
+msgid "Rename"
+msgstr "تغییر نام"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, diffButton)
+#: vcs/dvcs/ui/branchmanager.ui:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Show changes between the current branch (or staging area, if not empty) "
+"and the last commit on the selected branch.</p>"
+msgstr ""
+"<p>نمایش تغییرات بین شاخهٔ فعلی (یا ناحیهٔ آماده‌سازی، اگر خالی نباشد) و "
+"آخرین کامیت در شاخهٔ انتخاب‌شده.</p>"
+
+#. i18n: ectx: property (text), widget (QPushButton, diffButton)
+#: vcs/dvcs/ui/branchmanager.ui:80
+#, kde-format
+msgctxt "@action:button"
+msgid "Compare to Branch"
+msgstr "مقایسه با شاخه"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, checkoutButton)
+#: vcs/dvcs/ui/branchmanager.ui:103
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Checkout to the selected branch"
+msgstr "جابه‌جایی به شاخهٔ انتخاب‌شده (Checkout)"
+
+#. i18n: ectx: property (text), widget (QPushButton, checkoutButton)
+#: vcs/dvcs/ui/branchmanager.ui:106
+#, kde-format
+msgctxt "@action:button checkout a version"
+msgid "Checkout"
+msgstr "وارسی (Checkout)"
+
+#. i18n: ectx: property (text), widget (QPushButton, mergeButton)
+#: vcs/dvcs/ui/branchmanager.ui:116
+#, kde-format
+msgctxt "@action:button merge a branch"
+msgid "Merge"
+msgstr "ادغام"
+
+#. i18n: ectx: property (text), widget (QLabel, labelUrl)
+#: vcs/dvcs/ui/dvcsimportmetadatawidget.ui:19
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Source directory:"
+msgstr "پوشهٔ منبع:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: vcs/dvcs/ui/dvcsimportmetadatawidget.ui:29
+#: vcs/widgets/vcsdiffpatchsources.cpp:49
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Commit message:"
+msgstr "پیام ثبت:"
+
+#: vcs/models/brancheslistmodel.cpp:63
+#, kde-format
+msgid "Branch \"%1\" already exists."
+msgstr "شاخهٔ «%1» از قبل وجود دارد."
+
+#: vcs/models/brancheslistmodel.cpp:68
+#, kde-format
+msgid "Are you sure you want to rename \"%1\" to \"%2\"?"
+msgstr "آیا مطمئنید که می‌خواهید نام «%1» را به «%2» تغییر دهید؟"
+
+#: vcs/models/vcsannotationmodel.cpp:116
+#, kde-format
+msgid "Author:"
+msgstr "پدیدآور:"
+
+#: vcs/models/vcsannotationmodel.cpp:117
+#, kde-format
+msgid "Date:"
+msgstr "تاریخ:"
+
+#: vcs/models/vcsannotationmodel.cpp:118
+#, kde-format
+msgid "Commit message:"
+msgstr "پیام ثبت:"
+
+#: vcs/models/vcseventmodel.cpp:88
+#, kde-format
+msgctxt "@title:column"
+msgid "Revision"
+msgstr "بازبینی"
+
+#: vcs/models/vcseventmodel.cpp:90
+#, kde-format
+msgctxt "@title:column"
+msgid "Message"
+msgstr "پیام"
+
+#: vcs/models/vcseventmodel.cpp:92
+#, kde-format
+msgctxt "@title:column"
+msgid "Author"
+msgstr "پدیدآور"
+
+#: vcs/models/vcseventmodel.cpp:94
+#, kde-format
+msgctxt "@title:column"
+msgid "Date"
+msgstr "تاریخ"
+
+#: vcs/models/vcsfilechangesmodel.cpp:32
+#, kde-format
+msgctxt "@item file was added to versioncontrolsystem"
+msgid "Added"
+msgstr "افزوده‌شده"
+
+#: vcs/models/vcsfilechangesmodel.cpp:34
+#, kde-format
+msgctxt "@item file was deleted from versioncontrolsystem"
+msgid "Deleted"
+msgstr "حذف‌شده"
+
+#: vcs/models/vcsfilechangesmodel.cpp:36
+#, kde-format
+msgctxt "@item file is conflicting (versioncontrolsystem)"
+msgid "Has Conflicts"
+msgstr "دارای تداخل"
+
+#: vcs/models/vcsfilechangesmodel.cpp:38
+#, kde-format
+msgctxt "@item version controlled file was modified"
+msgid "Modified"
+msgstr "تغییریافته"
+
+#: vcs/models/vcsfilechangesmodel.cpp:40
+#, kde-format
+msgctxt "@item file is up to date in versioncontrolsystem"
+msgid "Up To Date"
+msgstr "به‌روز"
+
+#: vcs/models/vcsfilechangesmodel.cpp:43
+#, kde-format
+msgctxt "@item file is not known to versioncontrolsystem"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: vcs/models/vcsfilechangesmodel.cpp:45
+#, kde-format
+msgctxt "@item Unknown VCS file status, probably a backend error"
+msgid "?"
+msgstr "؟"
+
+#: vcs/models/vcsfilechangesmodel.cpp:137
+#, kde-format
+msgctxt "@title:column"
+msgid "Filename"
+msgstr "نام پرونده"
+
+#: vcs/models/vcsfilechangesmodel.cpp:138
+#, kde-format
+msgctxt "@title:column"
+msgid "Status"
+msgstr "وضعیت"
+
+#: vcs/models/vcsitemeventmodel.cpp:46
+#, kde-format
+msgctxt "@item"
+msgid "Added"
+msgstr "افزوده‌شده"
+
+#: vcs/models/vcsitemeventmodel.cpp:48
+#, kde-format
+msgctxt "@item"
+msgid "Deleted"
+msgstr "حذف‌شده"
+
+#: vcs/models/vcsitemeventmodel.cpp:50
+#, kde-format
+msgctxt "@item"
+msgid "Modified"
+msgstr "تغییریافته"
+
+#: vcs/models/vcsitemeventmodel.cpp:52
+#, kde-format
+msgctxt "@item"
+msgid "Copied"
+msgstr "رونوشت‌شده"
+
+#: vcs/models/vcsitemeventmodel.cpp:54
+#, kde-format
+msgctxt "@item"
+msgid "Replaced"
+msgstr "جایگزین‌شده"
+
+#: vcs/models/vcsitemeventmodel.cpp:61
+#, kde-format
+msgctxt "separates an action list"
+msgid ", "
+msgstr "، "
+
+#: vcs/models/vcsitemeventmodel.cpp:85
+#, kde-format
+msgctxt "@title:column"
+msgid "Location"
+msgstr "مکان"
+
+#: vcs/models/vcsitemeventmodel.cpp:86
+#, kde-format
+msgctxt "@title:column"
+msgid "Actions"
+msgstr "کنش‌ها"
+
+#: vcs/models/vcsitemeventmodel.cpp:87
+#, kde-format
+msgctxt "@title:column"
+msgid "Source Location"
+msgstr "مکان منبع"
+
+#: vcs/models/vcsitemeventmodel.cpp:88
+#, kde-format
+msgctxt "@title:column"
+msgid "Source Revision"
+msgstr "بازبینی منبع"
+
+#: vcs/vcspluginhelper.cpp:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Commit..."
+msgstr "ارسال..."
+
+#: vcs/vcspluginhelper.cpp:84
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Update"
+msgstr "به‌روزرسانی"
+
+#: vcs/vcspluginhelper.cpp:85
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add"
+msgstr "افزودن"
+
+#: vcs/vcspluginhelper.cpp:86
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Differences..."
+msgstr "نمایش تفاوت‌ها..."
+
+#: vcs/vcspluginhelper.cpp:87
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Revert"
+msgstr "بازگردانی"
+
+#: vcs/vcspluginhelper.cpp:88 vcs/vcspluginhelper.cpp:456
+#, kde-format
+msgctxt "@action:inmenu revision history"
+msgid "History..."
+msgstr "تاریخچه..."
+
+#: vcs/vcspluginhelper.cpp:89
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Annotation..."
+msgstr "یادداشت‌نویسی..."
+
+#: vcs/vcspluginhelper.cpp:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Diff..."
+msgstr "نمایش تفاوت..."
+
+#: vcs/vcspluginhelper.cpp:91
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Diff (All Files)..."
+msgstr "نمایش تفاوت (همه پرونده‌ها)..."
+
+#: vcs/vcspluginhelper.cpp:92
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Push"
+msgstr "فرستادن (Push)"
+
+#: vcs/vcspluginhelper.cpp:93
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Pull"
+msgstr "دریافت (Pull)"
+
+#: vcs/vcspluginhelper.cpp:278
+#, kde-format
+msgid "There are no differences."
+msgstr "هیچ تفاوتی وجود ندارد."
+
+#: vcs/vcspluginhelper.cpp:285
+#, kde-format
+msgctxt "@title:window"
+msgid "Unable to Get Differences"
+msgstr "ناتوان در دریافت تفاوت‌ها"
+
+#: vcs/vcspluginhelper.cpp:356
+#, kde-format
+msgctxt "@title:window %1: path or URL, %2: name of a version control system"
+msgid "%2 History (%1)"
+msgstr "تاریخچهٔ %2 (%1)"
+
+#: vcs/vcspluginhelper.cpp:420
+#, kde-format
+msgid ""
+"Cannot display annotations, missing interface "
+"KTextEditor::AnnotationInterface for the editor."
+msgstr ""
+"نمایش حاشیه‌نویسی‌ها ممکن نیست، رابط KTextEditor::AnnotationInterface برای "
+"ویرایشگر وجود ندارد."
+
+#: vcs/vcspluginhelper.cpp:424
+#, kde-format
+msgid ""
+"Cannot execute annotate action because the document was not found, or was not a text document:\n"
+"%1"
+msgstr ""
+"اجرای عمل حاشیه‌نویسی ممکن نیست زیرا سند پیدا نشد یا یک سند متنی نبود:\n"
+"%1"
+
+#: vcs/vcspluginhelper.cpp:451 vcs/widgets/vcseventwidget.cpp:46
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Revision Id"
+msgstr "رونوشت از شناسهٔ بازبینی"
+
+#: vcs/widgets/standardvcslocationwidget.cpp:23
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter the repository URL..."
+msgstr "نشانی وب مخزن را وارد کنید..."
+
+#: vcs/widgets/vcsannotationitemdelegate.cpp:53
+#, kde-format
+msgctxt "@item age"
+msgid "%1 year"
+msgid_plural "%1 years"
+msgstr[0] "%1 سال"
+msgstr[1] "%1 سال"
+
+#: vcs/widgets/vcsannotationitemdelegate.cpp:63
+#, kde-format
+msgctxt "@item age"
+msgid "%1 month"
+msgid_plural "%1 months"
+msgstr[0] "%1 ماه"
+msgstr[1] "%1 ماه"
+
+#: vcs/widgets/vcsannotationitemdelegate.cpp:67
+#, kde-format
+msgctxt "@item age"
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 روز"
+msgstr[1] "%1 روز"
+
+#: vcs/widgets/vcsannotationitemdelegate.cpp:69
+#, kde-format
+msgctxt "@item age"
+msgid "Today"
+msgstr "امروز"
+
+#: vcs/widgets/vcsannotationitemdelegate.cpp:285
+#, kde-format
+msgctxt "By: commit author"
+msgid "By: %1"
+msgstr "توسط: %1"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, VcsCommitDialog)
+#: vcs/widgets/vcscommitdialog.ui:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Files to Commit"
+msgstr "انتخاب پرونده‌ها برای ثبت (Commit)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: vcs/widgets/vcscommitdialog.ui:23
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Commit files:"
+msgstr "ثبت پرونده‌ها:"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:53
+#, kde-format
+msgid "Old Messages"
+msgstr "پیام‌های قدیمی"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:109
+#, kde-format
+msgid ""
+"For more detailed information please see the Version Control tool view."
+msgstr "برای اطلاعات دقیق‌تر لطفاً نمای ابزار کنترل نسخه را ببینید."
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:111
+#, kde-format
+msgid "Unable to commit"
+msgstr "ثبت امکان‌پذیر نیست"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:111
+#, kde-format
+msgctxt "@title:window"
+msgid "Commit Unsuccessful"
+msgstr "ثبت ناموفق بود"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:224
+#, kde-format
+msgctxt "@action:button To make a commit"
+msgid "Commit"
+msgstr "ثبت"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:257
+#, kde-format
+msgid ""
+"<qt>Files will be committed:\n"
+"<ul>%1</ul>\n"
+"With message:\n"
+" <pre>%2</pre></qt>"
+msgstr ""
+"<qt>پرونده‌ها ثبت خواهند شد:\n"
+"<ul>%1</ul>\n"
+"با پیام:\n"
+" <pre>%2</pre></qt>"
+
+#: vcs/widgets/vcsdiffpatchsources.cpp:259
+#, kde-format
+msgctxt "@title:window"
+msgid "About to Commit to Repository"
+msgstr "در شرف ثبت در مخزن"
+
+#: vcs/widgets/vcsdiffwidget.cpp:86
+#, kde-format
+msgctxt "@label"
+msgid "Difference between revision %1 and %2:"
+msgstr "تفاوت بین بازبینی %1 و %2:"
+
+#. i18n: ectx: property (text), widget (QLabel, revLabel)
+#: vcs/widgets/vcsdiffwidget.ui:28
+#, kde-format
+msgctxt "@label"
+msgid "Difference between revisions:"
+msgstr "تفاوت بین بازبینی‌ها:"
+
+#: vcs/widgets/vcseventwidget.cpp:78
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Diff to Previous Revision"
+msgstr "مقایسه با بازبینی قبلی"
+
+#: vcs/widgets/vcseventwidget.cpp:81
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Diff between Revisions"
+msgstr "مقایسه بین بازبینی‌ها"
+
+#: vcs/widgets/vcseventwidget.cpp:138
+#, kde-format
+msgctxt "@title:window"
+msgid "Difference To Previous"
+msgstr "تفاوت با قبلی"
+
+#: vcs/widgets/vcseventwidget.cpp:167
+#, kde-format
+msgctxt "@title:window"
+msgid "Difference between Revisions"
+msgstr "تفاوت بین بازبینی‌ها"

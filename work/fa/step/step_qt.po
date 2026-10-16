@@ -1,0 +1,2293 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the step_qt package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: step_qt\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-16 03:12+0330\n"
+"PO-Revision-Date: 2026-10-16 03:12+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: body.cc:13
+msgctxt "ObjectClass|"
+msgid "Body"
+msgstr "جسم"
+
+#: body.cc:13
+msgctxt "ObjectDescription|"
+msgid "Body"
+msgstr "جسم"
+
+#: collisionsolver.cc:19
+msgctxt "ObjectClass|"
+msgid "CollisionSolver"
+msgstr "حل‌کنندهٔ برخورد"
+
+#: collisionsolver.cc:20 solver.cc:16
+msgctxt "PropertyDescription|"
+msgid "Allowed absolute tolerance"
+msgstr "میزان تلورانس مطلق مجاز"
+
+#: collisionsolver.cc:20 solver.cc:16
+msgctxt "PropertyName|"
+msgid "toleranceAbs"
+msgstr "toleranceAbs"
+
+#: collisionsolver.cc:21 solver.cc:19
+msgctxt "PropertyDescription|"
+msgid "Maximal local error during last step"
+msgstr "حداکثر خطای محلی در طول گام آخر"
+
+#: collisionsolver.cc:21 solver.cc:19
+msgctxt "PropertyName|"
+msgid "localError"
+msgstr "localError"
+
+#: collisionsolver.cc:23
+msgctxt "ObjectClass|"
+msgid "GJKCollisionSolver"
+msgstr "حل‌کنندهٔ برخورد GJK"
+
+#: constraintsolver.cc:20
+msgctxt "ObjectClass|"
+msgid "ConstraintSolver"
+msgstr "حل‌کنندهٔ قید"
+
+#: constraintsolver.cc:24
+msgctxt "ObjectClass|"
+msgid "CGConstraintSolver"
+msgstr "حل‌کنندهٔ قید CG"
+
+#: coulombforce.cc:14
+msgctxt "ObjectClass|"
+msgid "CoulombForce"
+msgstr "CoulombForce"
+
+#: coulombforce.cc:14
+msgctxt "ObjectDescription|"
+msgid "Coulomb force"
+msgstr "نیروی کولن"
+
+#: coulombforce.cc:16
+msgctxt "PropertyName|"
+msgid "coulombConst"
+msgstr "coulombConst"
+
+#: coulombforce.cc:16 coulombforce.cc:21
+msgctxt "Units|"
+msgid "N m²/C²"
+msgstr "N m²/C²"
+
+#: coulombforce.cc:17
+msgctxt "PropertyDescription|"
+msgid "Coulomb constant"
+msgstr "ثابت کولن"
+
+#: coulombforce.cc:19
+msgctxt "ObjectClass|"
+msgid "CoulombForceErrors"
+msgstr "CoulombForceErrors"
+
+#: coulombforce.cc:19
+msgctxt "ObjectDescription|"
+msgid "Errors class for CoulombForce"
+msgstr "کلاس خطاها برای CoulombForce"
+
+#: coulombforce.cc:21
+msgctxt "PropertyName|"
+msgid "coulombConstVariance"
+msgstr "coulombConstVariance"
+
+#: coulombforce.cc:22
+msgctxt "PropertyDescription|"
+msgid "Coulomb constant variance"
+msgstr "واریانس ثابت کولن"
+
+#: eulersolver.cc:15
+msgctxt "ObjectClass|"
+msgid "GenericEulerSolver"
+msgstr "GenericEulerSolver"
+
+#: eulersolver.cc:15
+msgctxt "ObjectDescription|"
+msgid "Generic Euler solver"
+msgstr "حل‌کنندهٔ عمومی اویلر"
+
+#: eulersolver.cc:16
+msgctxt "ObjectClass|"
+msgid "EulerSolver"
+msgstr "حل‌کنندهٔ اویلر"
+
+#: eulersolver.cc:16
+msgctxt "ObjectDescription|"
+msgid "Non-adaptive Euler solver"
+msgstr "حل‌کنندهٔ غیرتطبیقی اویلر"
+
+#: eulersolver.cc:17
+msgctxt "ObjectClass|"
+msgid "AdaptiveEulerSolver"
+msgstr "حل‌کنندهٔ تطبیقی اویلر"
+
+#: eulersolver.cc:17
+msgctxt "ObjectDescription|"
+msgid "Adaptive Euler solver"
+msgstr "حل‌کنندهٔ تطبیقی اویلر"
+
+#: force.cc:14
+msgctxt "ObjectClass|"
+msgid "Force"
+msgstr "نیرو"
+
+#: force.cc:14
+msgctxt "ObjectDescription|"
+msgid "Force"
+msgstr "نیرو"
+
+#: gas.cc:15
+msgctxt "ObjectClass|"
+msgid "GasParticle"
+msgstr "ذرهٔ گاز"
+
+#: gas.cc:15
+msgctxt "ObjectDescription|"
+msgid "Gas particle"
+msgstr "ذرهٔ گاز"
+
+#: gas.cc:17
+msgctxt "ObjectClass|"
+msgid "GasLJForce"
+msgstr "نیروی لنارد-جونز گاز"
+
+#: gas.cc:17
+msgctxt "ObjectDescription|"
+msgid "Lennard-Jones force"
+msgstr "نیروی لنارد-جونز"
+
+#: gas.cc:19
+msgctxt "PropertyDescription|"
+msgid "Potential depth"
+msgstr "عمق پتانسیل"
+
+#: gas.cc:19
+msgctxt "PropertyName|"
+msgid "depth"
+msgstr "عمق"
+
+#: gas.cc:19 gas.cc:25 gas.cc:47 gas.cc:62 particle.cc:25 particle.cc:41
+#: rigidbody.cc:37 rigidbody.cc:68
+msgctxt "Units|"
+msgid "J"
+msgstr "J"
+
+#: gas.cc:20
+msgctxt "PropertyDescription|"
+msgid "Distance at which the force is zero"
+msgstr "فاصله‌ای که در آن نیرو صفر است"
+
+#: gas.cc:20
+msgctxt "PropertyName|"
+msgid "rmin"
+msgstr "rmin"
+
+#: gas.cc:20 gas.cc:21 gas.cc:27 gas.cc:33 gas.cc:35 joints.cc:17 joints.cc:23
+#: joints.cc:24 joints.cc:28 joints.cc:31 joints.cc:33 joints.cc:35
+#: joints.cc:36 motor.cc:19 motor.cc:26 particle.cc:17 particle.cc:29
+#: rigidbody.cc:16 rigidbody.cc:41 rigidbody.cc:72 rigidbody.cc:77
+#: rigidbody.cc:80 softbody.cc:24 spring.cc:18 spring.cc:19 spring.cc:24
+#: spring.cc:26 spring.cc:28 spring.cc:29 spring.cc:35 spring.cc:37
+#: spring.cc:43 spring.cc:45 spring.cc:47 spring.cc:49 tool.cc:26 tool.cc:27
+#: tool.cc:33 tool.cc:34 tool.cc:55 tool.cc:56 tool.cc:67 tool.cc:68
+#: tool.cc:86 tool.cc:88 tool.cc:89
+msgctxt "Units|"
+msgid "m"
+msgstr "m"
+
+#: gas.cc:21
+msgctxt "PropertyDescription|"
+msgid "Cut-off distance"
+msgstr "فاصلهٔ قطع"
+
+#: gas.cc:21
+msgctxt "PropertyName|"
+msgid "cutoff"
+msgstr "قطع"
+
+#: gas.cc:23
+msgctxt "ObjectClass|"
+msgid "GasLJForceErrors"
+msgstr "GasLJForceErrors"
+
+#: gas.cc:23
+msgctxt "ObjectDescription|"
+msgid "Errors class for GasLJForce"
+msgstr "کلاس خطاها برای GasLJForce"
+
+#: gas.cc:25
+msgctxt "PropertyName|"
+msgid "depthVariance"
+msgstr "واریانس عمق"
+
+#: gas.cc:26
+msgctxt "PropertyDescription|"
+msgid "Potential depth variance"
+msgstr "واریانس عمق پتانسیل"
+
+#: gas.cc:27
+msgctxt "PropertyName|"
+msgid "rminVariance"
+msgstr "واریانس rmin"
+
+#: gas.cc:28
+msgctxt "PropertyDescription|"
+msgid "Variance of the distance at which the force is zero"
+msgstr "واریانس فاصله‌ای که در آن نیرو صفر است"
+
+#: gas.cc:32
+msgctxt "ObjectClass|"
+msgid "Gas"
+msgstr "گاز"
+
+#: gas.cc:32
+msgctxt "ObjectDescription|"
+msgid "Particle gas"
+msgstr "گاز ذرات"
+
+#: gas.cc:33
+msgctxt "PropertyName|"
+msgid "measureRectCenter"
+msgstr "مرکز مستطیل اندازه‌گیری"
+
+#: gas.cc:34
+msgctxt "PropertyDescription|"
+msgid "Center of the rect for measurements"
+msgstr "مرکز مستطیل برای اندازه‌گیری‌ها"
+
+#: gas.cc:35
+msgctxt "PropertyName|"
+msgid "measureRectSize"
+msgstr "اندازه مستطیل اندازه‌گیری"
+
+#: gas.cc:36
+msgctxt "PropertyDescription|"
+msgid "Size of the rect for measurements"
+msgstr "اندازه مستطیل برای اندازه‌گیری‌ها"
+
+#: gas.cc:37
+msgctxt "PropertyName|"
+msgid "rectVolume"
+msgstr "حجم مستطیل"
+
+#: gas.cc:37
+msgctxt "Units|"
+msgid "m²"
+msgstr "m²"
+
+#: gas.cc:38
+msgctxt "PropertyDescription|"
+msgid "Volume of the measureRect"
+msgstr "حجم مستطیل اندازه‌گیری"
+
+#: gas.cc:39
+msgctxt "PropertyName|"
+msgid "rectParticleCount"
+msgstr "تعداد ذرات مستطیل"
+
+#: gas.cc:40
+msgctxt "PropertyDescription|"
+msgid "Count of particles in the measureRect"
+msgstr "تعداد ذرات در مستطیل اندازه‌گیری"
+
+#: gas.cc:41
+msgctxt "PropertyName|"
+msgid "rectConcentration"
+msgstr "غلظت مستطیل"
+
+#: gas.cc:41
+msgctxt "Units|"
+msgid "1/m²"
+msgstr "1/m²"
+
+#: gas.cc:42
+msgctxt "PropertyDescription|"
+msgid "Concentration of particles in the measureRect"
+msgstr "غلظت ذرات در مستطیل اندازه‌گیری"
+
+#: gas.cc:43
+msgctxt "PropertyName|"
+msgid "rectPressure"
+msgstr "فشار مستطیل"
+
+#: gas.cc:43 gas.cc:58
+msgctxt "Units|"
+msgid "Pa"
+msgstr "Pa"
+
+#: gas.cc:44
+msgctxt "PropertyDescription|"
+msgid "Pressure of particles in the measureRect"
+msgstr "فشار ذرات در measureRect"
+
+#: gas.cc:45
+msgctxt "PropertyName|"
+msgid "rectTemperature"
+msgstr "rectTemperature"
+
+#: gas.cc:45 gas.cc:60
+msgctxt "Units|"
+msgid "K"
+msgstr "K"
+
+#: gas.cc:46
+msgctxt "PropertyDescription|"
+msgid "Temperature of particles in the measureRect"
+msgstr "دمای ذرات در measureRect"
+
+#: gas.cc:47
+msgctxt "PropertyName|"
+msgid "rectMeanKineticEnergy"
+msgstr "rectMeanKineticEnergy"
+
+#: gas.cc:48
+msgctxt "PropertyDescription|"
+msgid "Mean kinetic energy of particles in the measureRect"
+msgstr "میانگین انرژی جنبشی ذرات در measureRect"
+
+#: gas.cc:49
+msgctxt "PropertyName|"
+msgid "rectMeanVelocity"
+msgstr "rectMeanVelocity"
+
+#: gas.cc:49 gas.cc:64 particle.cc:18 particle.cc:31 rigidbody.cc:19
+#: rigidbody.cc:46 softbody.cc:26
+msgctxt "Units|"
+msgid "m/s"
+msgstr "m/s"
+
+#: gas.cc:50
+msgctxt "PropertyDescription|"
+msgid "Mean velocity of particles in the measureRect"
+msgstr "میانگین سرعت ذرات در measureRect"
+
+#: gas.cc:51
+msgctxt "PropertyName|"
+msgid "rectMeanParticleMass"
+msgstr "rectMeanParticleMass"
+
+#: gas.cc:51 gas.cc:53 gas.cc:66 gas.cc:68 particle.cc:22 particle.cc:37
+#: particle.cc:49 rigidbody.cc:30 rigidbody.cc:59 softbody.cc:38
+msgctxt "Units|"
+msgid "kg"
+msgstr "kg"
+
+#: gas.cc:52
+msgctxt "PropertyDescription|"
+msgid "Mean mass of particles in the measureRect"
+msgstr "جرم میانگین ذرات در measureRect"
+
+#: gas.cc:53
+msgctxt "PropertyName|"
+msgid "rectMass"
+msgstr "rectMass"
+
+#: gas.cc:54
+msgctxt "PropertyDescription|"
+msgid "Total mass of particles in the measureRect"
+msgstr "جرم کل ذرات در measureRect"
+
+#: gas.cc:57
+msgctxt "ObjectClass|"
+msgid "GasErrors"
+msgstr "GasErrors"
+
+#: gas.cc:57
+msgctxt "ObjectDescription|"
+msgid "Errors class for Gas"
+msgstr "کلاس خطاها برای Gas"
+
+#: gas.cc:58
+msgctxt "PropertyName|"
+msgid "rectPressureVariance"
+msgstr "rectPressureVariance"
+
+#: gas.cc:59
+msgctxt "PropertyDescription|"
+msgid "Variance of pressure of particles in the measureRect"
+msgstr "واریانس فشار ذرات در measureRect"
+
+#: gas.cc:60
+msgctxt "PropertyName|"
+msgid "rectTemperatureVariance"
+msgstr "rectTemperatureVariance"
+
+#: gas.cc:61
+msgctxt "PropertyDescription|"
+msgid "Variance of temperature of particles in the measureRect"
+msgstr "واریانس دمای ذرات در measureRect"
+
+#: gas.cc:62
+msgctxt "PropertyName|"
+msgid "rectMeanKineticEnergyVariance"
+msgstr "واریانس میانگین انرژی جنبشی مستطیل"
+
+#: gas.cc:63
+msgctxt "PropertyDescription|"
+msgid "Variance of mean kinetic energy of particles in the measureRect"
+msgstr "واریانس میانگین انرژی جنبشی ذرات در measureRect"
+
+#: gas.cc:64
+msgctxt "PropertyName|"
+msgid "rectMeanVelocityVariance"
+msgstr "واریانس میانگین سرعت مستطیل"
+
+#: gas.cc:65
+msgctxt "PropertyDescription|"
+msgid "Variance of mean velocity of particles in the measureRect"
+msgstr "واریانس میانگین سرعت ذرات در measureRect"
+
+#: gas.cc:66
+msgctxt "PropertyName|"
+msgid "rectMeanParticleMassVariance"
+msgstr "واریانس میانگین جرم ذرات مستطیل"
+
+#: gas.cc:67
+msgctxt "PropertyDescription|"
+msgid "Variance of mean mass of particles in the measureRect"
+msgstr "واریانس میانگین جرم ذرات در measureRect"
+
+#: gas.cc:68
+msgctxt "PropertyName|"
+msgid "rectMassVariance"
+msgstr "واریانس جرم مستطیل"
+
+#: gas.cc:69
+msgctxt "PropertyDescription|"
+msgid "Variance of total mass of particles in the measureRect"
+msgstr "واریانس جرم کل ذرات در measureRect"
+
+#: gravitation.cc:15
+msgctxt "ObjectClass|"
+msgid "GravitationForce"
+msgstr "نیروی گرانش"
+
+#: gravitation.cc:15
+msgctxt "ObjectDescription|"
+msgid "Gravitation force"
+msgstr "نیروی گرانش"
+
+#: gravitation.cc:17
+msgctxt "PropertyName|"
+msgid "gravitationConst"
+msgstr "gravitationConst"
+
+#: gravitation.cc:17 gravitation.cc:22
+msgctxt "Units|"
+msgid "N m²/kg²"
+msgstr "N m²/kg²"
+
+#: gravitation.cc:18
+msgctxt "PropertyDescription|"
+msgid "Gravitation constant"
+msgstr "ثابت گرانش"
+
+#: gravitation.cc:20
+msgctxt "ObjectClass|"
+msgid "GravitationForceErrors"
+msgstr "GravitationForceErrors"
+
+#: gravitation.cc:20
+msgctxt "ObjectDescription|"
+msgid "Errors class for GravitationForce"
+msgstr "کلاس خطاها برای GravitationForce"
+
+#: gravitation.cc:22
+msgctxt "PropertyName|"
+msgid "gravitationConstVariance"
+msgstr "gravitationConstVariance"
+
+#: gravitation.cc:23
+msgctxt "PropertyDescription|"
+msgid "Gravitation constant variance"
+msgstr "واریانس ثابت گرانش"
+
+#: gravitation.cc:25
+msgctxt "ObjectClass|"
+msgid "WeightForce"
+msgstr "WeightForce"
+
+#: gravitation.cc:25
+msgctxt "ObjectDescription|"
+msgid "Weight force"
+msgstr "نیروی وزن"
+
+#: gravitation.cc:27
+msgctxt "PropertyDescription|"
+msgid "Weight constant"
+msgstr "ثابت وزن"
+
+#: gravitation.cc:27
+msgctxt "PropertyName|"
+msgid "weightConst"
+msgstr "weightConst"
+
+#: gravitation.cc:27 gravitation.cc:32 particle.cc:19 particle.cc:33
+#: rigidbody.cc:22 rigidbody.cc:51 softbody.cc:31
+msgctxt "Units|"
+msgid "m/s²"
+msgstr "m/s²"
+
+#: gravitation.cc:30
+msgctxt "ObjectClass|"
+msgid "WeightForceErrors"
+msgstr "WeightForceErrors"
+
+#: gravitation.cc:30
+msgctxt "ObjectDescription|"
+msgid "Errors class for WeightForce"
+msgstr "کلاس خطاها برای WeightForce"
+
+#: gravitation.cc:32
+msgctxt "PropertyName|"
+msgid "weightConstVariance"
+msgstr "weightConstVariance"
+
+#: gravitation.cc:33
+msgctxt "PropertyDescription|"
+msgid "Weight constant variance"
+msgstr "واریانس ثابت وزن"
+
+#: gslsolver.cc:18
+msgctxt "ObjectClass|"
+msgid "GslGenericSolver"
+msgstr "GslGenericSolver"
+
+#: gslsolver.cc:18
+msgctxt "ObjectDescription|"
+msgid "GSL generic solver"
+msgstr "حل‌کننده عمومی GSL"
+
+#: gslsolver.cc:20
+msgctxt "ObjectClass|"
+msgid "GslSolver"
+msgstr "GslSolver"
+
+#: gslsolver.cc:20
+msgctxt "ObjectDescription|"
+msgid "GSL non-adaptive solver"
+msgstr "حل‌کننده غیرانطباقی GSL"
+
+#: gslsolver.cc:23
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveSolver"
+msgstr "GslAdaptiveSolver"
+
+#: gslsolver.cc:23
+msgctxt "ObjectDescription|"
+msgid "GSL adaptive solver"
+msgstr "حل‌کننده انطباقی GSL"
+
+#: gslsolver.cc:26
+msgctxt "ObjectClass|"
+msgid "GslRK2Solver"
+msgstr "GslRK2Solver"
+
+#: gslsolver.cc:26
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta second-order solver from GSL library"
+msgstr "حل‌کننده مرتبه دوم رونگه-کوتا از کتابخانه GSL"
+
+#: gslsolver.cc:28
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK2Solver"
+msgstr "GslAdaptiveRK2Solver"
+
+#: gslsolver.cc:28
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta second-order solver from GSL library"
+msgstr "حل‌کننده مرتبه دوم رونگه-کوتای انطباقی از کتابخانه GSL"
+
+#: gslsolver.cc:31
+msgctxt "ObjectClass|"
+msgid "GslRK4Solver"
+msgstr "GslRK4Solver"
+
+#: gslsolver.cc:31
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta classical fourth-order solver from GSL library"
+msgstr "حل‌کننده مرتبه چهارم کلاسیک رونگه-کوتا از کتابخانه GSL"
+
+#: gslsolver.cc:33
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK4Solver"
+msgstr "GslAdaptiveRK4Solver"
+
+#: gslsolver.cc:33
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta classical fourth-order solver from GSL library"
+msgstr "حل‌کنندهٔ مرتبه چهارم کلاسیک تطبیقی رونگه-کوتا از کتابخانهٔ GSL"
+
+#: gslsolver.cc:36
+msgctxt "ObjectClass|"
+msgid "GslRKF45Solver"
+msgstr "GslRKF45Solver"
+
+#: gslsolver.cc:36
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+msgstr "حل‌کنندهٔ رونگه-کوتا-فلبرگ (۴،۵) از کتابخانهٔ GSL"
+
+#: gslsolver.cc:38
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRKF45Solver"
+msgstr "GslAdaptiveRKF45Solver"
+
+#: gslsolver.cc:38
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+msgstr "حل‌کنندهٔ تطبیقی رونگه-کوتا-فلبرگ (۴،۵) از کتابخانهٔ GSL"
+
+#: gslsolver.cc:41
+msgctxt "ObjectClass|"
+msgid "GslRKCKSolver"
+msgstr "GslRKCKSolver"
+
+#: gslsolver.cc:41
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+msgstr "حل‌کنندهٔ رونگه-کوتا کش-کارپ (۴،۵) از کتابخانهٔ GSL"
+
+#: gslsolver.cc:43
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRKCKSolver"
+msgstr "GslAdaptiveRKCKSolver"
+
+#: gslsolver.cc:43
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+msgstr "حل‌کنندهٔ تطبیقی رونگه-کوتا کش-کارپ (۴،۵) از کتابخانهٔ GSL"
+
+#: gslsolver.cc:46
+msgctxt "ObjectClass|"
+msgid "GslRK8PDSolver"
+msgstr "GslRK8PDSolver"
+
+#: gslsolver.cc:46
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+msgstr "حل‌کننده رونگه-کوتا پرینس-دورماند (۸،۹) از کتابخانه GSL"
+
+#: gslsolver.cc:48
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK8PDSolver"
+msgstr "GslAdaptiveRK8PDSolver"
+
+#: gslsolver.cc:48
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+msgstr "حل‌کننده تطبیقی رونگه-کوتا پرینس-دورماند (۸،۹) از کتابخانه GSL"
+
+#: gslsolver.cc:51
+msgctxt "ObjectClass|"
+msgid "GslRK2IMPSolver"
+msgstr "GslRK2IMPSolver"
+
+#: gslsolver.cc:51
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta implicit second-order solver from GSL library"
+msgstr "حل‌کننده ضمنی مرتبه دوم رونگه-کوتا از کتابخانه GSL"
+
+#: gslsolver.cc:53
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK2IMPSolver"
+msgstr "GslAdaptiveRK2IMPSolver"
+
+#: gslsolver.cc:53
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta implicit second-order solver from GSL library"
+msgstr "حل‌کننده تطبیقی ضمنی مرتبه دوم رونگه-کوتا از کتابخانه GSL"
+
+#: gslsolver.cc:56
+msgctxt "ObjectClass|"
+msgid "GslRK4IMPSolver"
+msgstr "GslRK4IMPSolver"
+
+#: gslsolver.cc:56
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta implicit fourth-order solver from GSL library"
+msgstr "حل‌کننده ضمنی مرتبه چهارم رونگه-کوتا از کتابخانه GSL"
+
+#: gslsolver.cc:58
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK4IMPSolver"
+msgstr "GslAdaptiveRK4IMPSolver"
+
+#: gslsolver.cc:58
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta implicit fourth-order solver from GSL library"
+msgstr "حل‌کننده مرتبه چهارم ضمنی رانگ-کوتا تطبیقی از کتابخانه GSL"
+
+#: item.cc:15
+msgctxt "ObjectClass|"
+msgid "Item"
+msgstr "مورد"
+
+#: item.cc:15
+msgctxt "ObjectDescription|"
+msgid "Item"
+msgstr "مورد"
+
+#: item.cc:17
+msgctxt "PropertyName|"
+msgid "color"
+msgstr "رنگ"
+
+#: item.cc:18
+msgctxt "PropertyDescription|"
+msgid "Item color"
+msgstr "رنگ مورد"
+
+#: itemgroup.cc:15
+msgctxt "ObjectClass|"
+msgid "ItemGroup"
+msgstr "گروه مورد"
+
+#: itemgroup.cc:15
+msgctxt "ObjectDescription|"
+msgid "ItemGroup"
+msgstr "گروه مورد"
+
+#: joint.cc:14
+msgctxt "ObjectClass|"
+msgid "Joint"
+msgstr "مفصل"
+
+#: joint.cc:14
+msgctxt "ObjectDescription|"
+msgid "Joint"
+msgstr "مفصل"
+
+#: joints.cc:14
+msgctxt "ObjectClass|"
+msgid "Anchor"
+msgstr "مهار"
+
+#: joints.cc:14
+msgctxt "ObjectDescription|"
+msgid "Anchor: fixes position of the body"
+msgstr "مهار: موقعیت جسم را ثابت می‌کند"
+
+#: joints.cc:16 joints.cc:22 motor.cc:18 motor.cc:25
+msgctxt "PropertyDescription|"
+msgid "Body"
+msgstr "جسم"
+
+#: joints.cc:16 joints.cc:22 motor.cc:18 motor.cc:25 tool.cc:85
+msgctxt "PropertyName|"
+msgid "body"
+msgstr "جسم"
+
+#: joints.cc:17 tool.cc:88
+msgctxt "PropertyDescription|"
+msgid "Position"
+msgstr "موقعیت"
+
+#: joints.cc:17 joints.cc:24 particle.cc:17 rigidbody.cc:16 softbody.cc:24
+#: tool.cc:26 tool.cc:33 tool.cc:55 tool.cc:67 tool.cc:88
+msgctxt "PropertyName|"
+msgid "position"
+msgstr "موقعیت"
+
+#: joints.cc:18
+msgctxt "PropertyDescription|"
+msgid "Angle"
+msgstr "زاویه"
+
+#: joints.cc:18 rigidbody.cc:17
+msgctxt "PropertyName|"
+msgid "angle"
+msgstr "زاویه"
+
+#: joints.cc:18 rigidbody.cc:17 rigidbody.cc:43
+msgctxt "Units|"
+msgid "rad"
+msgstr "rad"
+
+#: joints.cc:20
+msgctxt "ObjectClass|"
+msgid "Pin"
+msgstr "پین"
+
+#: joints.cc:20
+msgctxt "ObjectDescription|"
+msgid "Pin: fixes position of a given point on the body"
+msgstr "پین: موقعیت نقطهٔ مشخصی از جسم را ثابت می‌کند"
+
+#: joints.cc:23
+msgctxt "PropertyDescription|"
+msgid "Position on the body"
+msgstr "موقعیت روی جسم"
+
+#: joints.cc:23 motor.cc:19 motor.cc:26 tool.cc:86
+msgctxt "PropertyName|"
+msgid "localPosition"
+msgstr "موقعیت محلی"
+
+#: joints.cc:24
+msgctxt "PropertyDescription|"
+msgid "Position in the world"
+msgstr "موقعیت در جهان"
+
+#: joints.cc:26
+msgctxt "ObjectClass|"
+msgid "Stick"
+msgstr "میله"
+
+#: joints.cc:26
+msgctxt "ObjectDescription|"
+msgid "Massless stick which can be connected to bodies"
+msgstr "میله بدون جرم که می‌تواند به اجسام متصل شود"
+
+#: joints.cc:28
+msgctxt "PropertyDescription|"
+msgid "Rest length of the stick"
+msgstr "طول طبیعی میله"
+
+#: joints.cc:28 spring.cc:18
+msgctxt "PropertyName|"
+msgid "restLength"
+msgstr "طول طبیعی"
+
+#: joints.cc:29 spring.cc:22
+msgctxt "PropertyDescription|"
+msgid "Body1"
+msgstr "جسم ۱"
+
+#: joints.cc:29 spring.cc:22
+msgctxt "PropertyName|"
+msgid "body1"
+msgstr "جسم ۱"
+
+#: joints.cc:30 spring.cc:23
+msgctxt "PropertyDescription|"
+msgid "Body2"
+msgstr "جسم ۲"
+
+#: joints.cc:30 spring.cc:23
+msgctxt "PropertyName|"
+msgid "body2"
+msgstr "جسم ۲"
+
+#: joints.cc:31 spring.cc:24
+msgctxt "PropertyName|"
+msgid "localPosition1"
+msgstr "موقعیت محلی ۱"
+
+#: joints.cc:32 spring.cc:25
+msgctxt "PropertyDescription|"
+msgid "Local position 1"
+msgstr "موقعیت محلی ۱"
+
+#: joints.cc:33 spring.cc:26
+msgctxt "PropertyName|"
+msgid "localPosition2"
+msgstr "موقعیت محلی ۲"
+
+#: joints.cc:34 spring.cc:27
+msgctxt "PropertyDescription|"
+msgid "Local position 2"
+msgstr "موقعیت محلی ۲"
+
+#: joints.cc:35 spring.cc:28
+msgctxt "PropertyDescription|"
+msgid "Position1"
+msgstr "موقعیت ۱"
+
+#: joints.cc:35 spring.cc:28
+msgctxt "PropertyName|"
+msgid "position1"
+msgstr "موقعیت ۱"
+
+#: joints.cc:36 spring.cc:29
+msgctxt "PropertyDescription|"
+msgid "Position2"
+msgstr "موقعیت ۲"
+
+#: joints.cc:36 spring.cc:29
+msgctxt "PropertyName|"
+msgid "position2"
+msgstr "موقعیت ۲"
+
+#: joints.cc:39
+msgctxt "ObjectClass|"
+msgid "Rope"
+msgstr "طناب"
+
+#: joints.cc:39
+msgctxt "ObjectDescription|"
+msgid "Massless rope which can be connected to bodies"
+msgstr "طناب بدون جرم که می‌تواند به جسم‌ها متصل شود"
+
+#: motor.cc:16
+msgctxt "ObjectClass|"
+msgid "LinearMotor"
+msgstr "موتور خطی"
+
+#: motor.cc:16
+msgctxt "ObjectDescription|"
+msgid "Linear motor: applies a constant force to a given position of the body"
+msgstr "موتور خطی: نیروی ثابتی را به موقعیت مشخصی از جسم وارد می‌کند"
+
+#: motor.cc:19 motor.cc:26
+msgctxt "PropertyDescription|"
+msgid "Position of the motor on a body"
+msgstr "موقعیت موتور روی یک جسم"
+
+#: motor.cc:20
+msgctxt "PropertyDescription|"
+msgid "Value of the force, acting on the body"
+msgstr "مقدار نیروی وارد بر جسم"
+
+#: motor.cc:20
+msgctxt "PropertyName|"
+msgid "forceValue"
+msgstr "مقدار نیرو"
+
+#: motor.cc:20 particle.cc:21 particle.cc:35 rigidbody.cc:27 rigidbody.cc:56
+#: softbody.cc:36 spring.cc:30 spring.cc:51
+msgctxt "Units|"
+msgid "N"
+msgstr "N"
+
+#: motor.cc:21
+msgctxt "PropertyDescription|"
+msgid "Rotate the force vector in sync with body rotation"
+msgstr "چرخش بردار نیرو همگام با چرخش جسم"
+
+#: motor.cc:21
+msgctxt "PropertyName|"
+msgid "rigidlyFixed"
+msgstr "کاملاً ثابت"
+
+#: motor.cc:23
+msgctxt "ObjectClass|"
+msgid "CircularMotor"
+msgstr "موتور دایره‌ای"
+
+#: motor.cc:23
+msgctxt "ObjectDescription|"
+msgid "Circular motor: applies a constant torque to the body"
+msgstr "موتور دایره‌ای: اعمال گشتاور ثابت بر جسم"
+
+#: motor.cc:27
+msgctxt "PropertyDescription|"
+msgid "Value of the torque, acting on the body"
+msgstr "مقدار گشتاور وارد بر جسم"
+
+#: motor.cc:27
+msgctxt "PropertyName|"
+msgid "torqueValue"
+msgstr "مقدار گشتاور"
+
+#: motor.cc:27 rigidbody.cc:28 rigidbody.cc:57 softbody.cc:37
+msgctxt "Units|"
+msgid "N m"
+msgstr "N m"
+
+#: object.cc:13
+msgctxt "ObjectClass|"
+msgid "Object"
+msgstr "شیء"
+
+#: object.cc:13
+msgctxt "ObjectDescription|"
+msgid "Object"
+msgstr "شیء"
+
+#: object.cc:14
+msgctxt "PropertyDescription|"
+msgid "Object name"
+msgstr "نام شیء"
+
+#: object.cc:14
+msgctxt "PropertyName|"
+msgid "name"
+msgstr "نام"
+
+#: objecterrors.cc:14
+msgctxt "ObjectClass|"
+msgid "ObjectErrors"
+msgstr "خطاهای شیء"
+
+#: objecterrors.cc:14
+msgctxt "ObjectDescription|"
+msgid "ObjectErrors"
+msgstr "خطاهای شیء"
+
+#: particle.cc:15
+msgctxt "ObjectClass|"
+msgid "Particle"
+msgstr "ذره"
+
+#: particle.cc:15
+msgctxt "ObjectDescription|"
+msgid "Simple zero-size particle"
+msgstr "ذره ساده با اندازه صفر"
+
+#: particle.cc:17
+msgctxt "PropertyDescription|"
+msgid "position"
+msgstr "موقعیت"
+
+#: particle.cc:18
+msgctxt "PropertyDescription|"
+msgid "velocity"
+msgstr "سرعت"
+
+#: particle.cc:18 rigidbody.cc:19 softbody.cc:26
+msgctxt "PropertyName|"
+msgid "velocity"
+msgstr "سرعت"
+
+#: particle.cc:19 rigidbody.cc:22 softbody.cc:31
+msgctxt "PropertyName|"
+msgid "acceleration"
+msgstr "شتاب"
+
+#: particle.cc:20
+msgctxt "PropertyDescription|"
+msgid "acceleration"
+msgstr "شتاب"
+
+#: particle.cc:21
+msgctxt "PropertyDescription|"
+msgid "force"
+msgstr "نیرو"
+
+#: particle.cc:21 rigidbody.cc:27 softbody.cc:36 spring.cc:30
+msgctxt "PropertyName|"
+msgid "force"
+msgstr "نیرو"
+
+#: particle.cc:22
+msgctxt "PropertyDescription|"
+msgid "mass"
+msgstr "جرم"
+
+#: particle.cc:22 rigidbody.cc:30 softbody.cc:38
+msgctxt "PropertyName|"
+msgid "mass"
+msgstr "جرم"
+
+#: particle.cc:23 rigidbody.cc:33
+msgctxt "PropertyDescription|"
+msgid "momentum"
+msgstr "تکانه"
+
+#: particle.cc:23 rigidbody.cc:33
+msgctxt "PropertyName|"
+msgid "momentum"
+msgstr "تکانه"
+
+#: particle.cc:23 particle.cc:39 rigidbody.cc:33 rigidbody.cc:63
+msgctxt "Units|"
+msgid "kg m/s"
+msgstr "kg m/s"
+
+#: particle.cc:25 rigidbody.cc:37
+msgctxt "PropertyDescription|"
+msgid "kinetic energy"
+msgstr "انرژی جنبشی"
+
+#: particle.cc:25 rigidbody.cc:37
+msgctxt "PropertyName|"
+msgid "kineticEnergy"
+msgstr "انرژی جنبشی"
+
+#: particle.cc:28
+msgctxt "ObjectClass|"
+msgid "ParticleErrors"
+msgstr "خطاهای ذره"
+
+#: particle.cc:28
+msgctxt "ObjectDescription|"
+msgid "Errors class for Particle"
+msgstr "کلاس خطاها برای ذره"
+
+#: particle.cc:29 rigidbody.cc:41
+msgctxt "PropertyName|"
+msgid "positionVariance"
+msgstr "واریانس موقعیت"
+
+#: particle.cc:30 rigidbody.cc:42
+msgctxt "PropertyDescription|"
+msgid "position variance"
+msgstr "واریانس موقعیت"
+
+#: particle.cc:31 rigidbody.cc:46
+msgctxt "PropertyName|"
+msgid "velocityVariance"
+msgstr "واریانس سرعت"
+
+#: particle.cc:32 rigidbody.cc:47
+msgctxt "PropertyDescription|"
+msgid "velocity variance"
+msgstr "واریانس سرعت"
+
+#: particle.cc:33 rigidbody.cc:51
+msgctxt "PropertyName|"
+msgid "accelerationVariance"
+msgstr "واریانس شتاب"
+
+#: particle.cc:34 rigidbody.cc:52
+msgctxt "PropertyDescription|"
+msgid "acceleration variance"
+msgstr "واریانس شتاب"
+
+#: particle.cc:35 rigidbody.cc:56 spring.cc:51
+msgctxt "PropertyName|"
+msgid "forceVariance"
+msgstr "واریانس نیرو"
+
+#: particle.cc:36 rigidbody.cc:56
+msgctxt "PropertyDescription|"
+msgid "force variance"
+msgstr "واریانس نیرو"
+
+#: particle.cc:37 rigidbody.cc:59
+msgctxt "PropertyName|"
+msgid "massVariance"
+msgstr "واریانس جرم"
+
+#: particle.cc:38 rigidbody.cc:60
+msgctxt "PropertyDescription|"
+msgid "mass variance"
+msgstr "واریانس جرم"
+
+#: particle.cc:39 rigidbody.cc:63
+msgctxt "PropertyName|"
+msgid "momentumVariance"
+msgstr "واریانس تکانه"
+
+#: particle.cc:40 rigidbody.cc:64
+msgctxt "PropertyDescription|"
+msgid "momentum variance"
+msgstr "واریانس تکانه"
+
+#: particle.cc:41 rigidbody.cc:68
+msgctxt "PropertyName|"
+msgid "kineticEnergyVariance"
+msgstr "واریانس انرژی جنبشی"
+
+#: particle.cc:42 rigidbody.cc:69
+msgctxt "PropertyDescription|"
+msgid "kinetic energy variance"
+msgstr "واریانس انرژی جنبشی"
+
+#: particle.cc:44
+msgctxt "ObjectClass|"
+msgid "ChargedParticle"
+msgstr "ذره باردار"
+
+#: particle.cc:44
+msgctxt "ObjectDescription|"
+msgid "Charged zero-size particle"
+msgstr "ذره باردار با اندازه صفر"
+
+#: particle.cc:45
+msgctxt "PropertyDescription|"
+msgid "charge"
+msgstr "بار"
+
+#: particle.cc:45
+msgctxt "PropertyName|"
+msgid "charge"
+msgstr "بار"
+
+#: particle.cc:45
+msgctxt "Units|"
+msgid "C"
+msgstr "C"
+
+#: particle.cc:47
+msgctxt "ObjectClass|"
+msgid "ChargedParticleErrors"
+msgstr "خطاهای ذره باردار"
+
+#: particle.cc:47
+msgctxt "ObjectDescription|"
+msgid "Errors class for ChargedParticle"
+msgstr "کلاس خطاها برای ذره باردار"
+
+#: particle.cc:49
+msgctxt "PropertyName|"
+msgid "chargeVariance"
+msgstr "واریانس بار"
+
+#: particle.cc:50
+msgctxt "PropertyDescription|"
+msgid "charge variance"
+msgstr "واریانس بار"
+
+#: rigidbody.cc:15
+msgctxt "ObjectClass|"
+msgid "RigidBody"
+msgstr "جسم صلب"
+
+#: rigidbody.cc:15
+msgctxt "ObjectDescription|"
+msgid "Generic rigid body"
+msgstr "جسم صلب عمومی"
+
+#: rigidbody.cc:16 softbody.cc:24
+msgctxt "PropertyDescription|"
+msgid "Position of the center of mass"
+msgstr "موقعیت مرکز جرم"
+
+#: rigidbody.cc:17
+msgctxt "PropertyDescription|"
+msgid "Rotation angle"
+msgstr "زاویهٔ چرخش"
+
+#: rigidbody.cc:19 softbody.cc:26
+msgctxt "PropertyDescription|"
+msgid "Velocity of the center of mass"
+msgstr "سرعت مرکز جرم"
+
+#: rigidbody.cc:20 softbody.cc:27
+msgctxt "PropertyDescription|"
+msgid "Angular velocity of the body"
+msgstr "سرعت زاویه‌ای جسم"
+
+#: rigidbody.cc:20 softbody.cc:27
+msgctxt "PropertyName|"
+msgid "angularVelocity"
+msgstr "سرعت زاویه‌ای"
+
+#: rigidbody.cc:20 rigidbody.cc:48 softbody.cc:27
+msgctxt "Units|"
+msgid "rad/s"
+msgstr "rad/s"
+
+#: rigidbody.cc:23 softbody.cc:32
+msgctxt "PropertyDescription|"
+msgid "Acceleration of the center of mass"
+msgstr "شتاب مرکز جرم"
+
+#: rigidbody.cc:24 softbody.cc:33
+msgctxt "PropertyName|"
+msgid "angularAcceleration"
+msgstr "شتاب زاویه‌ای"
+
+#: rigidbody.cc:24 rigidbody.cc:53 softbody.cc:33
+msgctxt "Units|"
+msgid "rad/s²"
+msgstr "rad/s²"
+
+#: rigidbody.cc:25 softbody.cc:34
+msgctxt "PropertyDescription|"
+msgid "Angular acceleration of the body"
+msgstr "شتاب زاویه‌ای جسم"
+
+#: rigidbody.cc:27 softbody.cc:36
+msgctxt "PropertyDescription|"
+msgid "Force that acts upon the body"
+msgstr "نیروی وارد بر جسم"
+
+#: rigidbody.cc:28 softbody.cc:37
+msgctxt "PropertyDescription|"
+msgid "Torque that acts upon the body"
+msgstr "گشتاور وارد بر جسم"
+
+#: rigidbody.cc:28 softbody.cc:37
+msgctxt "PropertyName|"
+msgid "torque"
+msgstr "گشتاور"
+
+#: rigidbody.cc:30 softbody.cc:38
+msgctxt "PropertyDescription|"
+msgid "Total mass of the body"
+msgstr "جرم کل جسم"
+
+#: rigidbody.cc:31 softbody.cc:39
+msgctxt "PropertyName|"
+msgid "inertia"
+msgstr "لختی"
+
+#: rigidbody.cc:31 rigidbody.cc:61 softbody.cc:39
+msgctxt "Units|"
+msgid "kg m²"
+msgstr "kg m²"
+
+#: rigidbody.cc:32 softbody.cc:40
+msgctxt "PropertyDescription|"
+msgid "Inertia \"tensor\" of the body"
+msgstr "«تانسور» لختی جسم"
+
+#: rigidbody.cc:35
+msgctxt "PropertyDescription|"
+msgid "angular momentum"
+msgstr "تکانه زاویه‌ای"
+
+#: rigidbody.cc:35 softbody.cc:28
+msgctxt "PropertyName|"
+msgid "angularMomentum"
+msgstr "تکانه زاویه‌ای"
+
+#: rigidbody.cc:35 rigidbody.cc:65
+msgctxt "Units|"
+msgid "kg m² rad/s"
+msgstr "kg m² rad/s"
+
+#: rigidbody.cc:40
+msgctxt "ObjectClass|"
+msgid "RigidBodyErrors"
+msgstr "RigidBodyErrors"
+
+#: rigidbody.cc:40
+msgctxt "ObjectDescription|"
+msgid "Errors class for RigidBody"
+msgstr "کلاس خطاها برای جسم صلب (RigidBody)"
+
+#: rigidbody.cc:43
+msgctxt "PropertyName|"
+msgid "angleVariance"
+msgstr "واریانس زاویه"
+
+#: rigidbody.cc:44
+msgctxt "PropertyDescription|"
+msgid "angle variance"
+msgstr "واریانس زاویه"
+
+#: rigidbody.cc:48
+msgctxt "PropertyName|"
+msgid "angularVelocityVariance"
+msgstr "واریانس سرعت زاویه‌ای"
+
+#: rigidbody.cc:49
+msgctxt "PropertyDescription|"
+msgid "angularVelocity variance"
+msgstr "واریانس سرعت زاویه‌ای"
+
+#: rigidbody.cc:53
+msgctxt "PropertyName|"
+msgid "angularAccelerationVariance"
+msgstr "واریانس شتاب زاویه‌ای"
+
+#: rigidbody.cc:54
+msgctxt "PropertyDescription|"
+msgid "angularAcceleration variance"
+msgstr "واریانس شتاب زاویه‌ای"
+
+#: rigidbody.cc:57
+msgctxt "PropertyDescription|"
+msgid "torque variance"
+msgstr "واریانس گشتاور"
+
+#: rigidbody.cc:57
+msgctxt "PropertyName|"
+msgid "torqueVariance"
+msgstr "واریانس گشتاور"
+
+#: rigidbody.cc:61
+msgctxt "PropertyName|"
+msgid "inertiaVariance"
+msgstr "واریانس لختی"
+
+#: rigidbody.cc:62
+msgctxt "PropertyDescription|"
+msgid "inertia variance"
+msgstr "واریانس لختی"
+
+#: rigidbody.cc:65
+msgctxt "PropertyName|"
+msgid "angularMomentumVariance"
+msgstr "واریانس تکانه زاویه‌ای"
+
+#: rigidbody.cc:66
+msgctxt "PropertyDescription|"
+msgid "angular momentum variance"
+msgstr "واریانس تکانه زاویه‌ای"
+
+#: rigidbody.cc:71
+msgctxt "ObjectClass|"
+msgid "Disk"
+msgstr "دیسک"
+
+#: rigidbody.cc:71
+msgctxt "ObjectDescription|"
+msgid "Rigid disk"
+msgstr "دیسک صلب"
+
+#: rigidbody.cc:72
+msgctxt "PropertyDescription|"
+msgid "Radius of the disk"
+msgstr "شعاع دیسک"
+
+#: rigidbody.cc:72
+msgctxt "PropertyName|"
+msgid "radius"
+msgstr "شعاع"
+
+#: rigidbody.cc:74
+msgctxt "ObjectClass|"
+msgid "BasePolygon"
+msgstr "چندضلعی پایه"
+
+#: rigidbody.cc:74
+msgctxt "ObjectDescription|"
+msgid "Base polygon body"
+msgstr "جسم چندضلعی پایه"
+
+#: rigidbody.cc:76
+msgctxt "ObjectClass|"
+msgid "Box"
+msgstr "جعبه"
+
+#: rigidbody.cc:76
+msgctxt "ObjectDescription|"
+msgid "Rigid box"
+msgstr "جعبه صلب"
+
+#: rigidbody.cc:77
+msgctxt "PropertyDescription|"
+msgid "Size of the box"
+msgstr "اندازه جعبه"
+
+#: rigidbody.cc:77 tool.cc:27 tool.cc:34 tool.cc:56 tool.cc:68
+msgctxt "PropertyName|"
+msgid "size"
+msgstr "اندازه"
+
+#: rigidbody.cc:79
+msgctxt "ObjectClass|"
+msgid "Polygon"
+msgstr "چندضلعی"
+
+#: rigidbody.cc:79
+msgctxt "ObjectDescription|"
+msgid "Rigid polygon body"
+msgstr "جسم چندضلعی صلب"
+
+#: rigidbody.cc:80
+msgctxt "PropertyDescription|"
+msgid "Vertex list"
+msgstr "فهرست رأس‌ها"
+
+#: rigidbody.cc:80
+msgctxt "PropertyName|"
+msgid "vertices"
+msgstr "رأس‌ها"
+
+#: softbody.cc:19
+msgctxt "ObjectClass|"
+msgid "SoftBodyParticle"
+msgstr "SoftBodyParticle"
+
+#: softbody.cc:19
+msgctxt "ObjectDescription|"
+msgid "SoftBody particle"
+msgstr "ذره جسم نرم"
+
+#: softbody.cc:20
+msgctxt "ObjectClass|"
+msgid "SoftBodySpring"
+msgstr "SoftBodySpring"
+
+#: softbody.cc:20
+msgctxt "ObjectDescription|"
+msgid "SoftBody spring"
+msgstr "فنر جسم نرم"
+
+#: softbody.cc:21
+msgctxt "ObjectClass|"
+msgid "SoftBody"
+msgstr "SoftBody"
+
+#: softbody.cc:21
+msgctxt "ObjectDescription|"
+msgid "Deformable SoftBody"
+msgstr "جسم نرم تغییرشکل‌پذیر"
+
+#: softbody.cc:22
+msgctxt "PropertyDescription|"
+msgid "Show internal items"
+msgstr "نمایش موارد داخلی"
+
+#: softbody.cc:22
+msgctxt "PropertyName|"
+msgid "showInternalItems"
+msgstr "نمایش موارد داخلی"
+
+#: softbody.cc:28
+msgctxt "Units|"
+msgid "kg m²/s"
+msgstr "kg m²/s"
+
+#: softbody.cc:29
+msgctxt "PropertyDescription|"
+msgid "Angular momentum of the body"
+msgstr "تکانه زاویه‌ای جسم"
+
+#: softbody.cc:41
+msgctxt "PropertyName|"
+msgid "borderParticleNames"
+msgstr "نام‌های ذرات مرزی"
+
+#: softbody.cc:42
+msgctxt "PropertyDescription|"
+msgid "Border particle names (temporal property)"
+msgstr "نام‌های ذرات مرزی (ویژگی زمانی)"
+
+#: solver.cc:13
+msgctxt "ObjectClass|"
+msgid "Solver"
+msgstr "حل‌کننده"
+
+#: solver.cc:13
+msgctxt "ObjectDescription|"
+msgid "Solver"
+msgstr "حل‌کننده"
+
+#: solver.cc:14
+msgctxt "PropertyDescription|"
+msgid "Solver type"
+msgstr "نوع حل‌کننده"
+
+#: solver.cc:14
+msgctxt "PropertyName|"
+msgid "solverType"
+msgstr "نوع حل‌کننده"
+
+#: solver.cc:15
+msgctxt "PropertyDescription|"
+msgid "Step size"
+msgstr "اندازه گام"
+
+#: solver.cc:15
+msgctxt "PropertyName|"
+msgid "stepSize"
+msgstr "اندازه گام"
+
+#: solver.cc:15 world.cc:23
+msgctxt "Units|"
+msgid "s"
+msgstr "s"
+
+#: solver.cc:17
+msgctxt "PropertyDescription|"
+msgid "Allowed relative tolerance"
+msgstr "رواداری نسبی مجاز"
+
+#: solver.cc:17
+msgctxt "PropertyName|"
+msgid "toleranceRel"
+msgstr "رواداری نسبی"
+
+#: solver.cc:18
+msgctxt "PropertyDescription|"
+msgid "Count of dynamic variables"
+msgstr "تعداد متغیرهای پویا"
+
+#: solver.cc:18
+msgctxt "PropertyName|"
+msgid "dimension"
+msgstr "بُعد"
+
+#: solver.cc:20
+msgctxt "PropertyDescription|"
+msgid "Maximal local error ratio during last step"
+msgstr "حداکثر نسبت خطای محلی در طول گام قبلی"
+
+#: solver.cc:20
+msgctxt "PropertyName|"
+msgid "localErrorRatio"
+msgstr "نسبت خطای محلی"
+
+#: spring.cc:16
+msgctxt "ObjectClass|"
+msgid "Spring"
+msgstr "فنر"
+
+#: spring.cc:16
+msgctxt "ObjectDescription|"
+msgid "Massless spring which can be connected to bodies"
+msgstr "فنر بدون جرم که می‌تواند به اجسام متصل شود"
+
+#: spring.cc:18
+msgctxt "PropertyDescription|"
+msgid "Rest length"
+msgstr "طول در حالت استراحت"
+
+#: spring.cc:19
+msgctxt "PropertyDescription|"
+msgid "Current length"
+msgstr "طول فعلی"
+
+#: spring.cc:19
+msgctxt "PropertyName|"
+msgid "length"
+msgstr "طول"
+
+#: spring.cc:20
+msgctxt "PropertyDescription|"
+msgid "Stiffness"
+msgstr "سفتی"
+
+#: spring.cc:20
+msgctxt "PropertyName|"
+msgid "stiffness"
+msgstr "سفتی"
+
+#: spring.cc:20 spring.cc:39 spring.cc:41
+msgctxt "Units|"
+msgid "N/m"
+msgstr "N/m"
+
+#: spring.cc:21
+msgctxt "PropertyDescription|"
+msgid "Damping"
+msgstr "میرایی"
+
+#: spring.cc:21
+msgctxt "PropertyName|"
+msgid "damping"
+msgstr "میرایی"
+
+#: spring.cc:21
+msgctxt "Units|"
+msgid "N s/m"
+msgstr "N s/m"
+
+#: spring.cc:30
+msgctxt "PropertyDescription|"
+msgid "Spring tension force"
+msgstr "نیروی کشش فنر"
+
+#: spring.cc:33
+msgctxt "ObjectClass|"
+msgid "SpringErrors"
+msgstr "SpringErrors"
+
+#: spring.cc:33
+msgctxt "ObjectDescription|"
+msgid "Errors class for Spring"
+msgstr "کلاس خطاهای مربوط به فنر"
+
+#: spring.cc:35
+msgctxt "PropertyName|"
+msgid "restLengthVariance"
+msgstr "واریانس طول اولیه"
+
+#: spring.cc:36
+msgctxt "PropertyDescription|"
+msgid "Rest length variance"
+msgstr "واریانس طول اولیه"
+
+#: spring.cc:37
+msgctxt "PropertyName|"
+msgid "lengthVariance"
+msgstr "واریانس طول فعلی"
+
+#: spring.cc:38
+msgctxt "PropertyDescription|"
+msgid "Current length variance"
+msgstr "واریانس طول فعلی"
+
+#: spring.cc:39
+msgctxt "PropertyName|"
+msgid "stiffnessVariance"
+msgstr "واریانس سختی"
+
+#: spring.cc:40
+msgctxt "PropertyDescription|"
+msgid "Stiffness variance"
+msgstr "واریانس سختی"
+
+#: spring.cc:41
+msgctxt "PropertyName|"
+msgid "dampingVariance"
+msgstr "واریانس میرایی"
+
+#: spring.cc:42
+msgctxt "PropertyDescription|"
+msgid "Damping variance"
+msgstr "واریانس میرایی"
+
+#: spring.cc:43
+msgctxt "PropertyName|"
+msgid "localPosition1Variance"
+msgstr "واریانس موقعیت محلی ۱"
+
+#: spring.cc:44
+msgctxt "PropertyDescription|"
+msgid "Local position 1 variance"
+msgstr "واریانس موقعیت محلی ۱"
+
+#: spring.cc:45
+msgctxt "PropertyName|"
+msgid "localPosition2Variance"
+msgstr "واریانس موقعیت محلی ۲"
+
+#: spring.cc:46
+msgctxt "PropertyDescription|"
+msgid "Local position 2 variance"
+msgstr "واریانس موقعیت محلی ۲"
+
+#: spring.cc:47
+msgctxt "PropertyName|"
+msgid "position1Variance"
+msgstr "واریانس موقعیت ۱"
+
+#: spring.cc:48
+msgctxt "PropertyDescription|"
+msgid "Position1 variance"
+msgstr "واریانس موقعیت ۱"
+
+#: spring.cc:49
+msgctxt "PropertyName|"
+msgid "position2Variance"
+msgstr "واریانس موقعیت ۲"
+
+#: spring.cc:50
+msgctxt "PropertyDescription|"
+msgid "Position2 variance"
+msgstr "واریانس موقعیت ۲"
+
+#: spring.cc:52
+msgctxt "PropertyDescription|"
+msgid "Spring tension force variance"
+msgstr "واریانس نیروی کشش فنر"
+
+#: tool.cc:14
+msgctxt "ObjectClass|"
+msgid "NoteImage"
+msgstr "NoteImage"
+
+#: tool.cc:14
+msgctxt "ObjectDescription|"
+msgid "NoteImage: an image embedded in Note"
+msgstr "NoteImage: تصویری جاسازی‌شده در یادداشت"
+
+#: tool.cc:16
+msgctxt "PropertyDescription|"
+msgid "Image data"
+msgstr "داده‌های تصویر"
+
+#: tool.cc:16
+msgctxt "PropertyName|"
+msgid "image"
+msgstr "تصویر"
+
+#: tool.cc:19
+msgctxt "ObjectClass|"
+msgid "NoteFormula"
+msgstr "NoteFormula"
+
+#: tool.cc:19
+msgctxt "ObjectDescription|"
+msgid "NoteFormula: a formula embedded in Note"
+msgstr "NoteFormula: یک فرمول جاسازی‌شده در یادداشت"
+
+#: tool.cc:21
+msgctxt "PropertyDescription|"
+msgid "Formula code"
+msgstr "کد فرمول"
+
+#: tool.cc:21
+msgctxt "PropertyName|"
+msgid "code"
+msgstr "کد"
+
+#: tool.cc:24
+msgctxt "ObjectClass|"
+msgid "Note"
+msgstr "یادداشت"
+
+#: tool.cc:24
+msgctxt "ObjectDescription|"
+msgid "Note: displays a textual note on the scene"
+msgstr "یادداشت: یک یادداشت متنی را در صحنه نمایش می‌دهد"
+
+#: tool.cc:26
+msgctxt "PropertyDescription|"
+msgid "Note position on the scene"
+msgstr "موقعیت یادداشت در صحنه"
+
+#: tool.cc:27
+msgctxt "PropertyDescription|"
+msgid "Note size on the scene"
+msgstr "اندازه یادداشت در صحنه"
+
+#: tool.cc:28
+msgctxt "PropertyDescription|"
+msgid "Text"
+msgstr "متن"
+
+#: tool.cc:28
+msgctxt "PropertyName|"
+msgid "text"
+msgstr "متن"
+
+#: tool.cc:31
+msgctxt "ObjectClass|"
+msgid "Graph"
+msgstr "نمودار"
+
+#: tool.cc:31
+msgctxt "ObjectDescription|"
+msgid "Graph: plots a graph of any properties"
+msgstr "نمودار: ترسیم نموداری از هر ویژگی"
+
+#: tool.cc:33
+msgctxt "PropertyDescription|"
+msgid "Graph position on the scene"
+msgstr "موقعیت نمودار در صحنه"
+
+#: tool.cc:34
+msgctxt "PropertyDescription|"
+msgid "Graph size on the scene"
+msgstr "اندازه نمودار در صحنه"
+
+#: tool.cc:35
+msgctxt "PropertyDescription|"
+msgid "X axis: object"
+msgstr "محور X: شیء"
+
+#: tool.cc:35
+msgctxt "PropertyName|"
+msgid "objectX"
+msgstr "objectX"
+
+#: tool.cc:36
+msgctxt "PropertyDescription|"
+msgid "X axis: object property"
+msgstr "محور X: ویژگی شیء"
+
+#: tool.cc:36
+msgctxt "PropertyName|"
+msgid "propertyX"
+msgstr "propertyX"
+
+#: tool.cc:37
+msgctxt "PropertyDescription|"
+msgid "X axis: vector index"
+msgstr "محور X: نمایه بردار"
+
+#: tool.cc:37
+msgctxt "PropertyName|"
+msgid "indexX"
+msgstr "indexX"
+
+#: tool.cc:38
+msgctxt "PropertyDescription|"
+msgid "Y axis: object"
+msgstr "محور Y: شیء"
+
+#: tool.cc:38
+msgctxt "PropertyName|"
+msgid "objectY"
+msgstr "objectY"
+
+#: tool.cc:39
+msgctxt "PropertyDescription|"
+msgid "Y axis: property"
+msgstr "محور Y: ویژگی"
+
+#: tool.cc:39
+msgctxt "PropertyName|"
+msgid "propertyY"
+msgstr "propertyY"
+
+#: tool.cc:40
+msgctxt "PropertyDescription|"
+msgid "Y axis: vector index"
+msgstr "محور Y: نمایه بردار"
+
+#: tool.cc:40
+msgctxt "PropertyName|"
+msgid "indexY"
+msgstr "indexY"
+
+#: tool.cc:41
+msgctxt "PropertyDescription|"
+msgid "Auto-limits along X axis"
+msgstr "حدود خودکار در امتداد محور X"
+
+#: tool.cc:41
+msgctxt "PropertyName|"
+msgid "autoLimitsX"
+msgstr "autoLimitsX"
+
+#: tool.cc:42
+msgctxt "PropertyDescription|"
+msgid "Auto-limits along Y axis"
+msgstr "حدود خودکار در امتداد محور Y"
+
+#: tool.cc:42
+msgctxt "PropertyName|"
+msgid "autoLimitsY"
+msgstr "حدود خودکار Y"
+
+#: tool.cc:43
+msgctxt "PropertyDescription|"
+msgid "Limits along X axis"
+msgstr "حدود در امتداد محور X"
+
+#: tool.cc:43
+msgctxt "PropertyName|"
+msgid "limitsX"
+msgstr "حدود X"
+
+#: tool.cc:44
+msgctxt "PropertyDescription|"
+msgid "Limits along Y axis"
+msgstr "حدود در امتداد محور Y"
+
+#: tool.cc:44
+msgctxt "PropertyName|"
+msgid "limitsY"
+msgstr "حدود Y"
+
+#: tool.cc:45
+msgctxt "PropertyDescription|"
+msgid "Show points on the graph"
+msgstr "نمایش نقاط روی نمودار"
+
+#: tool.cc:45
+msgctxt "PropertyName|"
+msgid "showPoints"
+msgstr "نمایش نقاط"
+
+#: tool.cc:46
+msgctxt "PropertyDescription|"
+msgid "Show lines on the graph"
+msgstr "نمایش خطوط روی نمودار"
+
+#: tool.cc:46
+msgctxt "PropertyName|"
+msgid "showLines"
+msgstr "نمایش خطوط"
+
+#: tool.cc:47
+msgctxt "PropertyDescription|"
+msgid "Current value"
+msgstr "مقدار فعلی"
+
+#: tool.cc:47
+msgctxt "PropertyName|"
+msgid "currentValue"
+msgstr "مقدار فعلی"
+
+#: tool.cc:48 tool.cc:89
+msgctxt "PropertyDescription|"
+msgid "points"
+msgstr "نقطه‌ها"
+
+#: tool.cc:48 tool.cc:89
+msgctxt "PropertyName|"
+msgid "points"
+msgstr "نقطه‌ها"
+
+#: tool.cc:49
+msgctxt "PropertyName|"
+msgid "unitsX"
+msgstr "واحدهای X"
+
+#: tool.cc:49
+msgctxt "PropertyName|"
+msgid "Units along X axis"
+msgstr "واحدها در امتداد محور X"
+
+#: tool.cc:50
+msgctxt "PropertyName|"
+msgid "unitsY"
+msgstr "واحدهای Y"
+
+#: tool.cc:50
+msgctxt "PropertyName|"
+msgid "Units along Y axis"
+msgstr "واحدها در امتداد محور Y"
+
+#: tool.cc:53
+msgctxt "ObjectClass|"
+msgid "Meter"
+msgstr "سنجش‌گر"
+
+#: tool.cc:53
+msgctxt "ObjectDescription|"
+msgid "Meter: displays any property on the scene"
+msgstr "سنجش‌گر: نمایش هر ویژگی در صحنه"
+
+#: tool.cc:55
+msgctxt "PropertyDescription|"
+msgid "Meter position on the scene"
+msgstr "موقعیت سنجش‌گر در صحنه"
+
+#: tool.cc:56
+msgctxt "PropertyDescription|"
+msgid "Meter size on the scene"
+msgstr "اندازهٔ سنجش‌گر در صحنه"
+
+#: tool.cc:57
+msgctxt "PropertyDescription|"
+msgid "Observed object"
+msgstr "شیء تحت مشاهده"
+
+#: tool.cc:57 tool.cc:69
+msgctxt "PropertyName|"
+msgid "object"
+msgstr "شیء"
+
+#: tool.cc:58
+msgctxt "PropertyDescription|"
+msgid "Observed property"
+msgstr "ویژگی تحت مشاهده"
+
+#: tool.cc:58 tool.cc:70
+msgctxt "PropertyName|"
+msgid "property"
+msgstr "ویژگی"
+
+#: tool.cc:59 tool.cc:71
+msgctxt "PropertyDescription|"
+msgid "Vector index"
+msgstr "نمایهٔ بردار"
+
+#: tool.cc:59 tool.cc:71
+msgctxt "PropertyName|"
+msgid "index"
+msgstr "نمایه"
+
+#: tool.cc:60
+msgctxt "PropertyDescription|"
+msgid "Display digits"
+msgstr "ارقام نمایشی"
+
+#: tool.cc:60
+msgctxt "PropertyName|"
+msgid "digits"
+msgstr "ارقام"
+
+#: tool.cc:61 tool.cc:78
+msgctxt "PropertyDescription|"
+msgid "Value"
+msgstr "مقدار"
+
+#: tool.cc:61 tool.cc:78
+msgctxt "PropertyName|"
+msgid "value"
+msgstr "مقدار"
+
+#: tool.cc:62
+msgctxt "PropertyDescription|"
+msgid "Units of measured property"
+msgstr "واحدهای ویژگی اندازه‌گیری‌شده"
+
+#: tool.cc:62 tool.cc:80
+msgctxt "PropertyName|"
+msgid "units"
+msgstr "واحدها"
+
+#: tool.cc:65
+msgctxt "ObjectClass|"
+msgid "Controller"
+msgstr "کنترل‌کننده"
+
+#: tool.cc:65
+msgctxt "ObjectDescription|"
+msgid "Controller: allows to easily control any property"
+msgstr "کنترل‌کننده: امکان کنترل آسان هر ویژگی را فراهم می‌کند"
+
+#: tool.cc:67
+msgctxt "PropertyDescription|"
+msgid "Controller position on the scene"
+msgstr "موقعیت کنترل‌کننده در صحنه"
+
+#: tool.cc:68
+msgctxt "PropertyDescription|"
+msgid "Controller size on the scene"
+msgstr "اندازهٔ کنترل‌کننده در صحنه"
+
+#: tool.cc:69
+msgctxt "PropertyDescription|"
+msgid "Controlled object"
+msgstr "شیء کنترل‌شده"
+
+#: tool.cc:70
+msgctxt "PropertyDescription|"
+msgid "Controlled property"
+msgstr "ویژگی کنترل‌شده"
+
+#: tool.cc:72
+msgctxt "PropertyDescription|"
+msgid "Limits"
+msgstr "حدود"
+
+#: tool.cc:72
+msgctxt "PropertyName|"
+msgid "limits"
+msgstr "حدود"
+
+#: tool.cc:73
+msgctxt "PropertyName|"
+msgid "increaseShortcut"
+msgstr "میان‌بر افزایش"
+
+#: tool.cc:74
+msgctxt "PropertyDescription|"
+msgid "Shortcut to increase the value"
+msgstr "میان‌بر برای افزایش مقدار"
+
+#: tool.cc:75
+msgctxt "PropertyName|"
+msgid "decreaseShortcut"
+msgstr "میان‌بر کاهش"
+
+#: tool.cc:76
+msgctxt "PropertyDescription|"
+msgid "Shortcut to decrease the value"
+msgstr "میان‌بر برای کاهش مقدار"
+
+#: tool.cc:77
+msgctxt "PropertyDescription|"
+msgid "Increment value"
+msgstr "مقدار افزایش"
+
+#: tool.cc:77
+msgctxt "PropertyName|"
+msgid "increment"
+msgstr "گام افزایش"
+
+#: tool.cc:80
+msgctxt "PropertyDescription|"
+msgid "Units of controlled property"
+msgstr "واحدهای ویژگی کنترل‌شده"
+
+#: tool.cc:83
+msgctxt "ObjectClass|"
+msgid "Tracer"
+msgstr "ردیاب"
+
+#: tool.cc:83
+msgctxt "ObjectDescription|"
+msgid "Tracer: traces trajectory of a point on a body"
+msgstr "ردیاب: مسیر حرکت یک نقطه روی جسم را رسم می‌کند"
+
+#: tool.cc:85
+msgctxt "PropertyDescription|"
+msgid "Traced body"
+msgstr "جسم ردگیری‌شده"
+
+#: tool.cc:87
+msgctxt "PropertyDescription|"
+msgid "Local position"
+msgstr "موقعیت محلی"
+
+#: world.cc:20
+msgctxt "ObjectClass|"
+msgid "Tool"
+msgstr "ابزار"
+
+#: world.cc:20
+msgctxt "ObjectDescription|"
+msgid "Tool"
+msgstr "ابزار"
+
+#: world.cc:22
+msgctxt "ObjectClass|"
+msgid "World"
+msgstr "جهان"
+
+#: world.cc:22
+msgctxt "ObjectDescription|"
+msgid "World"
+msgstr "جهان"
+
+#: world.cc:23
+msgctxt "PropertyDescription|"
+msgid "Current time"
+msgstr "زمان فعلی"
+
+#: world.cc:23
+msgctxt "PropertyName|"
+msgid "time"
+msgstr "زمان"
+
+#: world.cc:24
+msgctxt "PropertyDescription|"
+msgid "Simulation speed scale"
+msgstr "مقیاس سرعت شبیه‌سازی"
+
+#: world.cc:24
+msgctxt "PropertyName|"
+msgid "timeScale"
+msgstr "مقیاس زمان"
+
+#: world.cc:25
+msgctxt "PropertyName|"
+msgid "errorsCalculation"
+msgstr "محاسبهٔ خطاها"
+
+#: world.cc:26
+msgctxt "PropertyDescription|"
+msgid "Enable global error calculation"
+msgstr "فعال‌سازی محاسبهٔ سراسری خطا"
+
+#: xmlfile.cc:191
+msgctxt "QObject|"
+msgid "The file is not a StepCoreXML file."
+msgstr "پرونده یک پروندهٔ StepCoreXML نیست."
+
+#: xmlfile.cc:237
+#, qt-format
+msgctxt "QObject|"
+msgid "Unknown item type \"%1\""
+msgstr "نوع مورد ناشناخته «%1»"
+
+#: xmlfile.cc:258
+#, qt-format
+msgctxt "QObject|"
+msgid "Unknown solver type \"%1\""
+msgstr "نوع حل‌کنندهٔ ناشناخته «%1»"
+
+#: xmlfile.cc:272
+#, qt-format
+msgctxt "QObject|"
+msgid "Unknown collisionSolver type \"%1\""
+msgstr "نوع collisionSolver ناشناخته «%1»"
+
+#: xmlfile.cc:286
+#, qt-format
+msgctxt "QObject|"
+msgid "Unknown constraint solver type \"%1\""
+msgstr "نوع حل‌کنندهٔ قید ناشناخته «%1»"
+
+#: xmlfile.cc:314
+#, qt-format
+msgctxt "QObject|"
+msgid "Wrong ID attribute value for %1"
+msgstr "مقدار مشخصهٔ شناسه (ID) نادرست برای %1"
+
+#: xmlfile.cc:319
+#, qt-format
+msgctxt "QObject|"
+msgid "Non-unique ID attribute value for %1"
+msgstr "مقدار مشخصهٔ شناسه (ID) غیریکتا برای %1"
+
+#: xmlfile.cc:347 xmlfile.cc:361
+#, qt-format
+msgctxt "QObject|"
+msgid "Property \"%1\" of \"%2\" has illegal value"
+msgstr "ویژگی «%1» از «%2» دارای مقدار نامجاز است"
+
+#: xmlfile.cc:374
+msgctxt "QObject|"
+msgid "File is not writable."
+msgstr "پرونده قابل نوشتن نیست."

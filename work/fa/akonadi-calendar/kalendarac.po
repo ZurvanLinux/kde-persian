@@ -1,0 +1,257 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kalendarac package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kalendarac\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-08 00:46+0000\n"
+"PO-Revision-Date: 2026-10-15 13:04+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: alarmnotification.cpp:51
+#, kde-format
+msgid "View"
+msgstr "نمایش"
+
+#: alarmnotification.cpp:63
+#, kde-format
+msgctxt "incidence is a to-do"
+msgid "To-do"
+msgstr "وظیفه"
+
+#: alarmnotification.cpp:63
+#, kde-format
+msgctxt "incidence is an event"
+msgid "Event"
+msgstr "رویداد"
+
+#: alarmnotification.cpp:66
+#, kde-format
+msgid "To-do due at %1"
+msgstr "سررسید وظیفه در %1"
+
+#: alarmnotification.cpp:70
+#, kde-format
+msgctxt "Event starts in 5 minutes"
+msgid "%2 starts in %1 minute"
+msgid_plural "%2 starts in %1 minutes"
+msgstr[0] "%2 تا %1 دقیقهٔ دیگر آغاز می‌شود"
+msgstr[1] "%2 تا %1 دقیقهٔ دیگر آغاز می‌شود"
+
+#: alarmnotification.cpp:74
+#, kde-format
+msgctxt "Event starts at 10:00"
+msgid "%1 starts at %2"
+msgstr "%1 در ساعت %2 آغاز می‌شود"
+
+#: alarmnotification.cpp:76
+#, kde-format
+msgctxt "Event started at 10:00"
+msgid "%1 started at %2"
+msgstr "%1 در ساعت %2 آغاز شد"
+
+#: alarmnotification.cpp:82
+#, kde-format
+msgctxt "Event starts on <DATE> at <TIME>"
+msgid "%1 starts on %2 at %3"
+msgstr "%1 در %2 در ساعت %3 آغاز می‌شود"
+
+#: alarmnotification.cpp:88
+#, kde-format
+msgctxt "Event started on <DATE> at <TIME>"
+msgid "%1 started on %2 at %3"
+msgstr "%1 در %2، ساعت %3 شروع شد"
+
+#: alarmnotification.cpp:97
+#, kde-format
+msgctxt "Event starts on <DATE>"
+msgid "%1 starts on %2"
+msgstr "%1 در %2 شروع می‌شود"
+
+#: alarmnotification.cpp:99
+#, kde-format
+msgctxt "Event started on <DATE>"
+msgid "%1 started on %2"
+msgstr "%1 در %2 شروع شد"
+
+#: alarmnotification.cpp:124
+#, kde-format
+msgid "Remind in 5 mins"
+msgstr "یادآوری تا ۵ دقیقه دیگر"
+
+#: alarmnotification.cpp:130
+#, kde-format
+msgid "Remind later..."
+msgstr "یادآوری در زمانی دیگر..."
+
+#: alarmnotification.cpp:136
+#, kde-format
+msgctxt "dismiss a reminder notification for an event"
+msgid "Dismiss"
+msgstr "رد کردن"
+
+#: alarmnotification.cpp:212
+#, kde-format
+msgid "Open URL"
+msgstr "باز کردن نشانی وب"
+
+#: alarmnotification.cpp:230
+#, kde-format
+msgid "Map"
+msgstr "نقشه"
+
+#: kalendaracmain.cpp:25
+#, kde-format
+msgctxt "@title"
+msgid "Reminders"
+msgstr "یادآورها"
+
+#: kalendaracmain.cpp:28
+#, kde-format
+msgid "Calendar Reminder Service"
+msgstr "سرویس یادآور تقویم"
+
+#: kalendaracmain.cpp:32
+#, kde-format
+msgid "(c) KDE Community 2021-2024"
+msgstr "© جامعهٔ کی‌دی‌ای ۲۰۲۱-۲۰۲۴"
+
+#: kalendaracmain.cpp:33
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: kalendaracmain.cpp:34 kalendaracmain.cpp:38
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: kalendaracmain.cpp:37
+#, kde-format
+msgctxt "@info:credit"
+msgid "Clau Cambra"
+msgstr "Clau Cambra"
+
+#: suspenddialog.cpp:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Remind Later"
+msgstr "یادآوری در بعد"
+
+#: suspenddialog.cpp:75
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Suspend &duration:"
+msgstr "مدت تعلیق:"
+
+#: suspenddialog.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Suspend the reminders by this amount of time"
+msgstr "به تعویق انداختن یادآورها به این میزان زمان"
+
+#: suspenddialog.cpp:84
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Each reminder for the selected incidences will be suspended by this number "
+"of time units. You can choose the time units (typically minutes) in the "
+"adjacent selector."
+msgstr ""
+"هر یادآور برای رخدادهای انتخاب‌شده به این تعداد واحد زمانی به تعویق خواهد "
+"افتاد. می‌توانید واحد زمانی را (معمولاً دقیقه) در گزینشگر مجاور انتخاب کنید."
+
+#: suspenddialog.cpp:92
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of minutes"
+msgid "minute(s)"
+msgstr "دقیقه"
+
+#: suspenddialog.cpp:93
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of hours"
+msgid "hour(s)"
+msgstr "ساعت"
+
+#: suspenddialog.cpp:94
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of days"
+msgid "day(s)"
+msgstr "روز"
+
+#: suspenddialog.cpp:95
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of weeks"
+msgid "week(s)"
+msgstr "هفته"
+
+#: suspenddialog.cpp:96
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Suspend the reminders using this time unit"
+msgstr "به تعویق انداختن یادآورها با این واحد زمانی"
+
+#: suspenddialog.cpp:98
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Each reminder for the selected incidences will be suspended using this time "
+"unit. You can set the number of time units in the adjacent number entry "
+"input."
+msgstr ""
+"هر یادآور برای رویدادهای انتخاب‌شده با این واحد زمانی به تعویق خواهد افتاد. "
+"می‌توانید تعداد واحدهای زمانی را در ورودی عددی مجاور تنظیم کنید."
+
+#: suspenddialog.cpp:111
+#, kde-format
+msgctxt "@action:button"
+msgid "Remind Later"
+msgstr "یادآوری در آینده"
+
+#: suspenddialog.cpp:112
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remind me again after the specified interval"
+msgstr "یادآوری دوباره پس از فاصلهٔ زمانی مشخص‌شده"
+
+#: suspenddialog.cpp:113
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button to be reminded again about this incidence after the "
+"specified amount of time."
+msgstr ""
+"این دکمه را فشار دهید تا پس از گذشت مدت‌زمان مشخص‌شده، دوباره دربارهٔ این "
+"رویداد به شما یادآوری شود."
+
+#: suspenddialog.cpp:117
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "لغو"
+
+#: suspenddialog.cpp:118
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel reminding later, show the notification again"
+msgstr "لغو یادآوری در آینده، نمایش دوبارهٔ اعلان"

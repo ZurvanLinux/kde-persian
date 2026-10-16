@@ -1,0 +1,714 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the libmailtransport6 package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: libmailtransport6\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-08 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 23:41+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgid "Unnamed"
+msgstr "بی‌نام"
+
+#. i18n: ectx: label, entry (id), group (Transport $(transportId))
+#: mailtransport.kcfg:12
+#, kde-format
+msgid "Unique identifier"
+msgstr "شناسهٔ یکتا"
+
+#. i18n: ectx: label, entry (name), group (Transport $(transportId))
+#: mailtransport.kcfg:16
+#, kde-format
+msgid "User-visible transport name"
+msgstr "نام انتقال قابل‌مشاهده برای کاربر"
+
+#. i18n: ectx: whatsthis, entry (name), group (Transport $(transportId))
+#: mailtransport.kcfg:17
+#, kde-format
+msgid "The name that will be used when referring to this server."
+msgstr "نامی که هنگام ارجاع به این کارساز استفاده خواهد شد."
+
+#. i18n: ectx: label, entry (host), group (Transport $(transportId))
+#: mailtransport.kcfg:30
+#, kde-format
+msgid "Host name of the server"
+msgstr "نام میزبان کارساز"
+
+#. i18n: ectx: whatsthis, entry (host), group (Transport $(transportId))
+#: mailtransport.kcfg:31
+#, kde-format
+msgid "The domain name or numerical address of the SMTP server."
+msgstr "نام دامنه یا نشانی عددی کارساز SMTP."
+
+#. i18n: ectx: label, entry (port), group (Transport $(transportId))
+#: mailtransport.kcfg:34
+#, kde-format
+msgid "Port number of the server"
+msgstr "شمارهٔ درگاه کارساز"
+
+#. i18n: ectx: whatsthis, entry (port), group (Transport $(transportId))
+#: mailtransport.kcfg:35
+#, kde-format
+msgid ""
+"The port number that the SMTP server is listening on. The default port is "
+"465."
+msgstr ""
+"شمارهٔ درگاهی که کارساز SMTP روی آن گوش می‌دهد. درگاه پیش‌فرض ۴۶۵ است."
+
+#. i18n: ectx: label, entry (userName), group (Transport $(transportId))
+#: mailtransport.kcfg:39
+#, kde-format
+msgid "User name needed for login"
+msgstr "نام کاربری موردنیاز برای ورود"
+
+#. i18n: ectx: whatsthis, entry (userName), group (Transport $(transportId))
+#: mailtransport.kcfg:40
+#, kde-format
+msgid "The user name to send to the server for authorization."
+msgstr "نام کاربری برای ارسال به کارساز جهت احراز هویت."
+
+#. i18n: ectx: label, entry (precommand), group (Transport $(transportId))
+#: mailtransport.kcfg:43
+#, kde-format
+msgid "Command to execute before sending a mail"
+msgstr "فرمان جهت اجرا پیش از ارسال رایانامه"
+
+#. i18n: ectx: whatsthis, entry (precommand), group (Transport $(transportId))
+#: mailtransport.kcfg:44
+#, kde-format
+msgid ""
+"A command to run locally, prior to sending email. This can be used to set up"
+" SSH tunnels, for example. Leave it empty if no command should be run."
+msgstr ""
+"فرمانی برای اجرای محلی، قبل از ارسال رایانامه. برای مثال، می‌تواند برای "
+"راه‌اندازی تونل‌های SSH استفاده شود. در صورتی که نیازی به اجرای فرمان نیست، "
+"آن را خالی بگذارید."
+
+#. i18n: ectx: label, entry (options), group (Transport $(transportId))
+#: mailtransport.kcfg:47
+#, kde-format
+msgid "Options added to mailtransport method"
+msgstr "گزینه‌های اضافه‌شده به روش انتقال رایانامه"
+
+#. i18n: ectx: label, entry (requiresAuthentication), group (Transport
+#. $(transportId))
+#: mailtransport.kcfg:50
+#, kde-format
+msgid "Server requires authentication"
+msgstr "کارساز نیازمند احراز هویت است"
+
+#. i18n: ectx: whatsthis, entry (requiresAuthentication), group (Transport
+#. $(transportId))
+#: mailtransport.kcfg:51
+#, kde-format
+msgid ""
+"Check this option if your SMTP server requires authentication before "
+"accepting mail. This is known as 'Authenticated SMTP' or simply ASMTP."
+msgstr ""
+"اگر کارساز SMTP شما پیش از پذیرش رایانامه نیاز به احراز هویت دارد، این گزینه"
+" را علامت بزنید. این ویژگی با عنوان «SMTP احراز هویت‌شده» یا به‌سادگی ASMTP "
+"شناخته می‌شود."
+
+#. i18n: ectx: label, entry (storePassword), group (Transport $(transportId))
+#: mailtransport.kcfg:55
+#, kde-format
+msgid "Store password"
+msgstr "ذخیرهٔ گذرواژه"
+
+#. i18n: ectx: whatsthis, entry (storePassword), group (Transport
+#. $(transportId))
+#: mailtransport.kcfg:58
+#, kde-format
+msgid ""
+"Check this option to have your password stored.\n"
+"If KWallet is available the password will be stored there, which is considered safe.\n"
+"However, if KWallet is not available, the password will be stored in the configuration file. The password is stored in an obfuscated format, but should not be considered secure from decryption efforts if access to the configuration file is obtained."
+msgstr ""
+"این گزینه را برای ذخیرهٔ گذرواژه‌تان علامت بزنید.\n"
+"اگر KWallet در دسترس باشد، گذرواژه در آن ذخیره خواهد شد که امن تلقی می‌شود.\n"
+"با این حال، اگر KWallet در دسترس نباشد، گذرواژه در پروندهٔ پیکربندی ذخیره خواهد شد. گذرواژه در قالبی مبهم ذخیره می‌شود، اما در صورت دسترسی به پروندهٔ پیکربندی، نباید در برابر تلاش‌های رمزگشایی امن در نظر گرفته شود."
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: mailtransport.kcfg:62
+#, kde-format
+msgid "Encryption method used for communication"
+msgstr "روش رمزنگاری مورد استفاده برای ارتباط"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: mailtransport.kcfg:65
+#, kde-format
+msgid "No encryption"
+msgstr "بدون رمزنگاری"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: mailtransport.kcfg:68
+#, kde-format
+msgid "SSL/TLS encryption"
+msgstr "رمزنگاری SSL/TLS"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: mailtransport.kcfg:71
+#, kde-format
+msgid "STARTTLS encryption"
+msgstr "رمزگذاری STARTTLS"
+
+#. i18n: ectx: label, entry (authenticationType), group (Transport
+#. $(transportId))
+#: mailtransport.kcfg:77
+#, kde-format
+msgid "Authentication method"
+msgstr "روش احراز هویت"
+
+#. i18n: ectx: label, entry (specifyHostname), group (Transport
+#. $(transportId))
+#. i18n: ectx: label, entry (localHostname), group (Transport $(transportId))
+#. i18n: ectx: label, entry (specifySenderOverwriteAddress), group (Transport
+#. $(transportId))
+#. i18n: ectx: label, entry (senderOverwriteAddress), group (Transport
+#. $(transportId))
+#: mailtransport.kcfg:94 mailtransport.kcfg:99 mailtransport.kcfg:103
+#: mailtransport.kcfg:108
+#, kde-format
+msgid "<!-- TODO -->"
+msgstr "<!-- TODO -->"
+
+#. i18n: ectx: whatsthis, entry (specifyHostname), group (Transport
+#. $(transportId))
+#: mailtransport.kcfg:95
+#, kde-format
+msgid ""
+"Check this option to use a custom hostname when identifying to the mail "
+"server. This is useful when your system's hostname may not be set correctly "
+"or to mask your system's true hostname."
+msgstr ""
+"این گزینه را علامت بزنید تا هنگام شناسایی در کارساز نامه از یک نام میزبان "
+"سفارشی استفاده شود. این قابلیت زمانی مفید است که نام میزبان سیستم شما "
+"به‌درستی تنظیم نشده باشد یا بخواهید نام میزبان واقعی سیستمتان را پنهان کنید."
+
+#. i18n: ectx: whatsthis, entry (localHostname), group (Transport
+#. $(transportId))
+#: mailtransport.kcfg:100
+#, kde-format
+msgid "Enter the hostname that should be used when identifying to the server."
+msgstr "نام میزبانی را که باید هنگام شناسایی در کارساز استفاده شود وارد کنید."
+
+#. i18n: ectx: whatsthis, entry (specifySenderOverwriteAddress), group
+#. (Transport $(transportId))
+#: mailtransport.kcfg:104
+#, kde-format
+msgid ""
+"Check this option to use a custom sender address when identifying to the "
+"mail server. If not checked, the address from the identity is used."
+msgstr ""
+"این گزینه را علامت بزنید تا هنگام شناسایی در کارساز نامه از نشانی فرستندهٔ "
+"سفارشی استفاده شود. در صورت عدم انتخاب، از نشانی هویت استفاده می‌شود."
+
+#. i18n: ectx: whatsthis, entry (senderOverwriteAddress), group (Transport
+#. $(transportId))
+#: mailtransport.kcfg:109
+#, kde-format
+msgid ""
+"Enter the address that should be used to overwrite the default sender "
+"address."
+msgstr "نشانی‌ای را که باید جایگزین نشانی فرستندهٔ پیش‌فرض شود وارد کنید."
+
+#. i18n: ectx: label, entry (useProxy), group (Transport $(transportId))
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useProxy)
+#: mailtransport.kcfg:112 plugins/smtp/smtpsettings.ui:287
+#, kde-format
+msgid "Connect using the system proxy settings"
+msgstr "اتصال با استفاده از تنظیمات پیشکار سیستم"
+
+#. i18n: ectx: whatsthis, entry (useProxy), group (Transport $(transportId))
+#: mailtransport.kcfg:113
+#, kde-format
+msgid ""
+"If checked, the system proxy settings will be used to connect to the mail "
+"server."
+msgstr ""
+"در صورت علامت زدن، از تنظیمات پیشکار سیستم برای اتصال به کارساز نامه استفاده"
+" خواهد شد."
+
+#: plugins/smtp/smtpconfigwidget.cpp:152
+#, kde-format
+msgid "The password to send to the server for authorization."
+msgstr "گذرواژه‌ای که برای مجازشماری به کارساز ارسال می‌شود."
+
+#: plugins/smtp/smtpconfigwidget.cpp:164 servertest.cpp:554
+#, kde-format
+msgctxt "Percent value; %p is the value, % is the percent sign"
+msgid "%p%"
+msgstr "٪%p"
+
+#: plugins/smtp/smtpconfigwidget.cpp:202
+#, kde-format
+msgid "Activities"
+msgstr "فعالیت‌ها"
+
+#: plugins/smtp/smtpconfigwidget.cpp:304
+#, kde-format
+msgid ""
+"Failed to check capabilities. Please verify port and authentication mode."
+msgstr ""
+"بررسی قابلیت‌ها ناموفق بود. لطفاً درگاه و حالت احراز هویت را بررسی کنید."
+
+#: plugins/smtp/smtpconfigwidget.cpp:305
+#, kde-format
+msgctxt "@title:window"
+msgid "Check Capabilities Failed"
+msgstr "بررسی قابلیت‌ها ناموفق بود"
+
+#: plugins/smtp/smtpjob.cpp:225
+#, kde-format
+msgid "You need to supply a username and a password to use this SMTP server."
+msgstr "برای استفاده از این کارساز SMTP باید نام کاربری و گذرواژه ارائه دهید."
+
+#: plugins/smtp/smtpmailtransportplugin.cpp:30
+#, kde-format
+msgctxt "@option SMTP transport"
+msgid "SMTP"
+msgstr "SMTP"
+
+#: plugins/smtp/smtpmailtransportplugin.cpp:31
+#, kde-format
+msgid "An SMTP server on the Internet"
+msgstr "یک کارساز SMTP در اینترنت"
+
+#: plugins/smtp/smtpmailtransportplugin.cpp:41
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure account"
+msgstr "پیکربندی حساب"
+
+#. i18n: ectx: attribute (title), widget (QWidget, smptTab)
+#: plugins/smtp/smtpsettings.ui:37
+#, kde-format
+msgctxt "general smtp settings"
+msgid "General"
+msgstr "عمومی"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: plugins/smtp/smtpsettings.ui:43
+#, kde-format
+msgid "Account Information"
+msgstr "اطلاعات حساب"
+
+#. i18n: ectx: property (text), widget (QLabel, hostLabel)
+#: plugins/smtp/smtpsettings.ui:50
+#, kde-format
+msgid "Outgoing &mail server:"
+msgstr "کارساز رایانامهٔ خروجی:"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_requiresAuthentication)
+#: plugins/smtp/smtpsettings.ui:70
+#, kde-format
+msgid "Server &requires authentication"
+msgstr "کارساز نیاز به احراز هویت دارد"
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: plugins/smtp/smtpsettings.ui:80
+#, kde-format
+msgid "&Login:"
+msgstr "ورود:"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: plugins/smtp/smtpsettings.ui:106
+#, kde-format
+msgid "P&assword:"
+msgstr "گذرواژه:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_storePassword)
+#: plugins/smtp/smtpsettings.ui:129
+#, kde-format
+msgid "&Store SMTP password"
+msgstr "ذخیرهٔ گذرواژهٔ SMTP"
+
+#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
+#: plugins/smtp/smtpsettings.ui:150
+#, kde-format
+msgctxt "advanced smtp settings"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_2)
+#: plugins/smtp/smtpsettings.ui:156
+#, kde-format
+msgid "Connection Settings"
+msgstr "تنظیمات اتصال"
+
+#. i18n: ectx: property (text), widget (QLabel, noAuthPossible)
+#: plugins/smtp/smtpsettings.ui:175
+#, kde-format
+msgid "This server does not support authentication"
+msgstr "این کارساز از احراز هویت پشتیبانی نمی‌کند"
+
+#. i18n: ectx: property (text), widget (QPushButton, checkCapabilities)
+#: plugins/smtp/smtpsettings.ui:192
+#, kde-format
+msgid "Auto Detect"
+msgstr "تشخیص خودکار"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/smtp/smtpsettings.ui:219
+#, kde-format
+msgid "Encryption:"
+msgstr "رمزنگاری:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionNone)
+#: plugins/smtp/smtpsettings.ui:228
+#, kde-format
+msgid "&None"
+msgstr "هیچ‌کدام"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionSsl)
+#: plugins/smtp/smtpsettings.ui:235
+#, kde-format
+msgid "&SSL/TLS"
+msgstr "SSL/TLS"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionTls)
+#: plugins/smtp/smtpsettings.ui:242
+#, kde-format
+msgid "START&TLS"
+msgstr "STARTTLS"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: plugins/smtp/smtpsettings.ui:251
+#, kde-format
+msgid "&Port:"
+msgstr "درگاه:"
+
+#. i18n: ectx: property (text), widget (QLabel, authLabel)
+#: plugins/smtp/smtpsettings.ui:277
+#, kde-format
+msgid "Authentication:"
+msgstr "احراز هویت:"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_3)
+#: plugins/smtp/smtpsettings.ui:296
+#, kde-format
+msgid "SMTP Settings"
+msgstr "تنظیمات SMTP"
+
+#. i18n: ectx: property (text), widget (QLabel, hostnameLabel)
+#: plugins/smtp/smtpsettings.ui:306
+#, kde-format
+msgid "Hostna&me:"
+msgstr "نام میزبان:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/smtp/smtpsettings.ui:332
+#, kde-format
+msgid "Sender Address:"
+msgstr "نشانی فرستنده:"
+
+#. i18n: ectx: property (text), widget (QLabel, precommandLabel)
+#: plugins/smtp/smtpsettings.ui:349
+#, kde-format
+msgid "Precommand:"
+msgstr "دستور مقدماتی:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_specifyHostname)
+#: plugins/smtp/smtpsettings.ui:379
+#, kde-format
+msgid "Sen&d custom hostname to server"
+msgstr "ارسال نام میزبان سفارشی به کارساز"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_specifySenderOverwriteAddress)
+#: plugins/smtp/smtpsettings.ui:386
+#, kde-format
+msgid "Use custom sender address"
+msgstr "استفاده از نشانی فرستندهٔ سفارشی"
+
+#: precommandjob.cpp:68
+#, kde-format
+msgid "Executing precommand '%1'."
+msgstr "در حال اجرای پیش‌فرمان «%1»."
+
+#: precommandjob.cpp:75
+#, kde-format
+msgid "Unable to start precommand '%1'."
+msgstr "ناتوان در شروع پیش‌فرمان «%1»."
+
+#: precommandjob.cpp:77
+#, kde-format
+msgid "Error while executing precommand '%1'."
+msgstr "خطا هنگام اجرای پیش‌فرمان «%1»."
+
+#: precommandjob.cpp:93
+#, kde-format
+msgid "The precommand crashed."
+msgstr "پیش‌فرمان با خرابی مواجه شد."
+
+#: precommandjob.cpp:96
+#, kde-format
+msgid "The precommand exited with code %1."
+msgstr "پیش‌فرمان با کد %1 خارج شد."
+
+#: transport.cpp:83
+#, kde-format
+msgctxt ""
+"%1: name; %2: number appended to it to make it unique among a list of names"
+msgid "%1 #%2"
+msgstr "%1 #%2"
+
+#: transport.cpp:133
+#, kde-format
+msgctxt "Authentication method"
+msgid "Clear text"
+msgstr "متن آشکار"
+
+#: transport.cpp:137
+#, kde-format
+msgctxt "Authentication method"
+msgid "Anonymous"
+msgstr "ناشناس"
+
+#: transport.cpp:168
+#, kde-format
+msgctxt "An unknown transport type"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: transport.cpp:212
+#, kde-format
+msgid ""
+"QKeychain not found a backend for storing your password. It is strongly recommended to use strong backend for managing your passwords.\n"
+"However, the password can be stored in the configuration file instead. The password is stored in an obfuscated format, but should not be considered secure from decryption efforts if access to the configuration file is obtained.\n"
+"Do you want to store the password for server '%1' in the configuration file?"
+msgstr ""
+"برنامهٔ QKeychain هیچ پس‌انه‌ای برای ذخیرهٔ گذرواژهٔ شما نیافت. اکیداً توصیه می‌شود برای مدیریت گذرواژه‌های خود از یک پسانهٔ امن استفاده کنید.\n"
+"با این حال، می‌توان گذرواژه را در پروندهٔ پیکربندی ذخیره کرد. گذرواژه در قالبی مبهم ذخیره می‌شود، اما در صورت دسترسی به پروندهٔ پیکربندی نباید در برابر تلاش‌های رمزگشایی ایمن تلقی شود.\n"
+"آیا می‌خواهید گذرواژهٔ کارساز «%1» در پروندهٔ پیکربندی ذخیره شود؟"
+
+#: transport.cpp:221
+#, kde-format
+msgctxt "@title:window"
+msgid "KWallet Not Available"
+msgstr "کیف پول کی‌دی‌ای (KWallet) در دسترس نیست"
+
+#: transport.cpp:222
+#, kde-format
+msgctxt "@action:button"
+msgid "Store Password"
+msgstr "ذخیرهٔ گذرواژه"
+
+#: transport.cpp:223
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Store Password"
+msgstr "عدم ذخیرهٔ گذرواژه"
+
+#: transportjob.cpp:122
+#, kde-format
+msgid "The outgoing account \"%1\" is not correctly configured."
+msgstr "حساب خروجی «%1» به‌درستی پیکربندی نشده است."
+
+#: transportmanager.cpp:221
+#, kde-format
+msgid "You must create an outgoing account before sending."
+msgstr "پیش از ارسال باید یک حساب خروجی ایجاد کنید."
+
+#: transportmanager.cpp:222
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Account Now?"
+msgstr "اکنون حساب ایجاد شود؟"
+
+#: transportmanager.cpp:223
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Account Now"
+msgstr "اکنون حساب ایجاد شود"
+
+#: transportmanager.cpp:601
+#, kde-format
+msgid ""
+"The following mail transports store their passwords in an unencrypted configuration file.\n"
+"For security reasons, please consider migrating these passwords to KWallet, the KDE Wallet management tool,\n"
+"which stores sensitive data for you in a strongly encrypted file.\n"
+"Do you want to migrate your passwords to KWallet?"
+msgstr ""
+"انتقال‌دهنده‌های ایمیل زیر، گذرواژه‌های خود را در یک پروندهٔ پیکربندی رمزنگاری‌نشده ذخیره می‌کنند.\n"
+"به دلایل امنیتی، لطفاً انتقال این گذرواژه‌ها به KWallet (ابزار مدیریت کیف پول کی‌دی‌ای) را مد نظر قرار دهید که داده‌های حساس شما را در یک پروندهٔ با رمزنگاری قوی ذخیره می‌کند.\n"
+"آیا می‌خواهید گذرواژه‌های خود را به KWallet منتقل کنید؟"
+
+#: transportmanager.cpp:608
+#, kde-format
+msgctxt "@title:window"
+msgid "Question"
+msgstr "پرسش"
+
+#: transportmanager.cpp:609
+#, kde-format
+msgctxt "@action:button"
+msgid "Migrate"
+msgstr "مهاجرت"
+
+#: transportmanager.cpp:610
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep"
+msgstr "نگه‌داشتن"
+
+#: transportmodel.cpp:70
+#, kde-format
+msgctxt "Default transport"
+msgid " (default)"
+msgstr " (پیش‌فرض)"
+
+#: transportmodel.cpp:93
+#, kde-format
+msgctxt "@title:column email transport name"
+msgid "Name"
+msgstr "نام"
+
+#: transportmodel.cpp:95
+#, kde-format
+msgctxt "@title:column email transport type"
+msgid "Type"
+msgstr "نوع"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AddTransportDialog)
+#: ui/addtransportdialog.ui:20
+#, kde-format
+msgid "Step One: Select Transport Type"
+msgstr "مرحلهٔ یک: انتخاب نوع انتقال"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/addtransportdialog.ui:38
+#, kde-format
+msgctxt "The name of a mail transport"
+msgid "Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, setDefault)
+#: ui/addtransportdialog.ui:48
+#, kde-format
+msgid "Make this the default outgoing account"
+msgstr "تبدیل به حساب خروجی پیش‌فرض"
+
+#. i18n: ectx: property (text), widget (QLabel, descLabel)
+#: ui/addtransportdialog.ui:61
+#, kde-format
+msgid "Select an account type from the list below:"
+msgstr "یک نوع حساب از فهرست زیر انتخاب کنید:"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, typeListView)
+#: ui/addtransportdialog.ui:81
+#, kde-format
+msgid "Type"
+msgstr "نوع"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, typeListView)
+#: ui/addtransportdialog.ui:86
+#, kde-format
+msgid "Description"
+msgstr "توضیحات"
+
+#. i18n: ectx: property (text), widget (QPushButton, editButton)
+#: ui/transportmanagementwidgetng.ui:17
+#, kde-format
+msgid "&Modify…"
+msgstr "تغییر…"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: ui/transportmanagementwidgetng.ui:42
+#, kde-format
+msgid "Remo&ve"
+msgstr "حذف"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: ui/transportmanagementwidgetng.ui:49
+#, kde-format
+msgid "A&dd…"
+msgstr "افزودن…"
+
+#. i18n: ectx: property (text), widget (QPushButton, renameButton)
+#: ui/transportmanagementwidgetng.ui:56
+#, kde-format
+msgid "&Rename"
+msgstr "تغییر نام"
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultButton)
+#: ui/transportmanagementwidgetng.ui:76
+#, kde-format
+msgid "&Set as Default"
+msgstr "تنظیم به‌عنوان پیش‌فرض"
+
+#. i18n: ectx: property (text), widget (QCheckBox, transportOnCurrentActivity)
+#: ui/transportmanagementwidgetng.ui:83
+#, kde-format
+msgid "Show only transports on current activity"
+msgstr "فقط نمایش انتقال‌ها در فعالیت کنونی"
+
+#: widgets/addtransportdialogng.cpp:94
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Outgoing Account"
+msgstr "ایجاد حساب خروجی"
+
+#: widgets/addtransportdialogng.cpp:97
+#, kde-format
+msgctxt "create and configure a mail transport"
+msgid "Create and Configure"
+msgstr "ایجاد و پیکربندی"
+
+#: widgets/transportmanagementwidgetng.cpp:161
+#, kde-format
+msgid "Do you want to remove outgoing account '%1'?"
+msgstr "آیا می‌خواهید حساب خروجی «%1» را حذف کنید؟"
+
+#: widgets/transportmanagementwidgetng.cpp:162
+#, kde-format
+msgid "Do you really want to remove this %1 outgoing account?"
+msgid_plural "Do you really want to remove these %1 outgoing accounts?"
+msgstr[0] "آیا واقعاً می‌خواهید این %1 حساب خروجی را حذف کنید؟"
+msgstr[1] "آیا واقعاً می‌خواهید این %1 حساب خروجی را حذف کنید؟"
+
+#: widgets/transportmanagementwidgetng.cpp:165
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove outgoing account?"
+msgstr "حذف حساب خروجی؟"
+
+#: widgets/transportmanagementwidgetng.cpp:195
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add…"
+msgstr "افزودن…"
+
+#: widgets/transportmanagementwidgetng.cpp:200
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Modify…"
+msgstr "تغییر…"
+
+#: widgets/transportmanagementwidgetng.cpp:203
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: widgets/transportmanagementwidgetng.cpp:207
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove"
+msgstr "حذف"
+
+#: widgets/transportmanagementwidgetng.cpp:215
+#, kde-format
+msgid "Set as Default"
+msgstr "تنظیم به‌عنوان پیش‌فرض"

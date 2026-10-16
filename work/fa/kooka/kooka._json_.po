@@ -1,0 +1,171 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kooka._json_ package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kooka._json_\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:00+0000\n"
+"PO-Revision-Date: 2026-10-16 00:10+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: plugins/destination/application/kookadestination-application.json
+msgctxt "Name"
+msgid "Application"
+msgstr "برنامه"
+
+#: plugins/destination/clipboard/kookadestination-clipboard.json
+msgctxt "Name"
+msgid "Copy Image"
+msgstr "رونوشت از تصویر"
+
+#: plugins/destination/gallery/kookadestination-gallery.json
+msgctxt "Name"
+msgid "Scan Gallery"
+msgstr "نگارخانهٔ پویش"
+
+#: plugins/destination/multipage/kookadestination-multipage.json
+msgctxt "Name"
+msgid "Multiple Pages"
+msgstr "چندین صفحه"
+
+#: plugins/destination/null/kookadestination-null.json
+msgctxt "Name"
+msgid "Discard Image"
+msgstr "دور انداختن تصویر"
+
+#: plugins/destination/print/kookadestination-print.json
+msgctxt "Name"
+msgid "Print Image"
+msgstr "چاپ تصویر"
+
+#: plugins/destination/save/kookadestination-save.json
+msgctxt "Name"
+msgid "Save Image"
+msgstr "ذخیرهٔ تصویر"
+
+#: plugins/destination/share/kookadestination-share.json
+msgctxt "Name"
+msgid "Share Image"
+msgstr "هم‌رسانی تصویر"
+
+#: plugins/ocr/gocr/kookaocr-gocr.json
+msgctxt "Name"
+msgid "GOCR"
+msgstr "GOCR"
+
+#: plugins/ocr/ocrad/kookaocr-ocrad.json
+msgctxt "Name"
+msgid "OCRAD"
+msgstr "OCRAD"
+
+#: plugins/ocr/tesseract/kookaocr-tesseract.json
+msgctxt "Name"
+msgid "Tesseract"
+msgstr "تسراکت"
+
+#: plugins/destination/application/kookadestination-application.json
+msgctxt "Description"
+msgid "Open the scanned image in an application"
+msgstr "باز کردن تصویر پویش‌شده در یک برنامه"
+
+#: plugins/destination/clipboard/kookadestination-clipboard.json
+msgctxt "Description"
+msgid "Copy the scanned image to the clipboard"
+msgstr "رونوشت از تصویر پویش‌شده در تخته‌گیره"
+
+#: plugins/destination/gallery/kookadestination-gallery.json
+msgctxt "Description"
+msgid "Save the scanned image to the scan gallery"
+msgstr "ذخیره تصویر پویش‌شده در نگارخانهٔ پویش"
+
+#: plugins/destination/multipage/kookadestination-multipage.json
+msgctxt "Description"
+msgid "Assemble scanned images into multiple pages"
+msgstr "سرهم‌بندی تصاویر پویش‌شده در چندین صفحه"
+
+#: plugins/destination/null/kookadestination-null.json
+msgctxt "Description"
+msgid "Discard the scanned image"
+msgstr "دور انداختن تصویر پویش‌شده"
+
+#: plugins/destination/print/kookadestination-print.json
+msgctxt "Description"
+msgid "Print the scanned image"
+msgstr "چاپ تصویر پویش‌شده"
+
+#: plugins/destination/save/kookadestination-save.json
+msgctxt "Description"
+msgid "Save the scanned image"
+msgstr "ذخیره تصویر پویش‌شده"
+
+#: plugins/destination/share/kookadestination-share.json
+msgctxt "Description"
+msgid "Share the scanned image"
+msgstr "هم‌رسانی تصویر پویش‌شده"
+
+#: plugins/ocr/gocr/kookaocr-gocr.json
+msgctxt "Description"
+msgid ""
+"<emphasis>GOCR</emphasis> (sometimes known as <emphasis>JOCR</emphasis>) is "
+"an open source OCR engine, originally started by Joerg&nbsp;Schulenburg and "
+"now with a team of active developers.<nl/><nl/>See <link "
+"url=\"http://jocr.sourceforge.net\">jocr.sourceforge.net</link> for more "
+"information on GOCR."
+msgstr ""
+"<emphasis>GOCR</emphasis> (که گاهی با نام <emphasis>JOCR</emphasis> شناخته "
+"می‌شود) یک موتور متن‌خوان (OCR) متن‌باز است که در ابتدا توسط یورگ شولنبورگ "
+"(Joerg&nbsp;Schulenburg) آغاز شد و اکنون توسط تیمی از توسعه‌دهندگان فعال پیش"
+" برده می‌شود.<nl/><nl/>برای اطلاعات بیشتر دربارهٔ GOCR به <link "
+"url=\"http://jocr.sourceforge.net\">jocr.sourceforge.net</link> مراجعه کنید."
+
+#: plugins/ocr/ocrad/kookaocr-ocrad.json
+msgctxt "Description"
+msgid ""
+"<emphasis>OCRAD</emphasis> is a free software OCR engine by "
+"Antonio&nbsp;Diaz, part of the GNU&nbsp;Project.<nl/><nl/>Images for OCR "
+"should be scanned in black/white (lineart) mode. Best results are achieved "
+"if the characters are at least 20&nbsp;pixels high. Problems may arise, as "
+"usual, with very bold or very light or broken characters, or with merged "
+"character groups.<nl/><nl/>See <link "
+"url=\"http://www.gnu.org/software/ocrad/ocrad.html\">www.gnu.org/software/ocrad/ocrad.html</link>"
+" for more information on OCRAD."
+msgstr ""
+"<emphasis>OCRAD</emphasis> یک موتور نویسه‌خوان نوری (OCR) نرم‌افزار آزاد از "
+"Antonio&nbsp;Diaz و بخشی از پروژهٔ گنو (GNU&nbsp;Project) "
+"است.<nl/><nl/>تصاویر ارسالی برای OCR باید در حالت سیاه‌وسفید (lineart) اسکن "
+"شوند. بهترین نتایج زمانی حاصل می‌شوند که ارتفاع نویسه‌ها حداقل ۲۰&nbsp;پیکسل"
+" باشد. مانند همیشه، ممکن است در نویسه‌های بسیار توپر (بولد)، بسیار کم‌رنگ، "
+"شکسته یا نویسه‌های به‌هم‌چسبیده مشکلاتی رخ دهد.<nl/><nl/>برای اطلاعات بیشتر "
+"دربارهٔ OCRAD، به <link "
+"url=\"http://www.gnu.org/software/ocrad/ocrad.html\">www.gnu.org/software/ocrad/ocrad.html</link>"
+" مراجعه کنید."
+
+#: plugins/ocr/tesseract/kookaocr-tesseract.json
+msgctxt "Description"
+msgid ""
+"<emphasis>Tesseract</emphasis> is a free software OCR engine, originally "
+"developed at HP&nbsp;Labs and now sponsored by Google. It supports multiple "
+"languages and scripts (including right-to-left text) and page layout "
+"analysis.<nl/><nl/>The best results are achieved if scanned characters are "
+"at least 20&nbsp;pixels high. Problems may arise with excessively skewed or "
+"rotated images, or if dark borders are present.<nl/><nl/>See <link "
+"url=\"https://github.com/tesseract-ocr/tesseract\">github.com/tesseract-"
+"ocr/tesseract</link> for more information on Tesseract."
+msgstr ""
+"<emphasis>تسراکت (Tesseract)</emphasis> یک موتور نویسه‌خوان نوری (OCR) "
+"نرم‌افزار آزاد است که ابتدا در آزمایشگاه‌های اچ‌پی (HP&nbsp;Labs) توسعه "
+"یافته و اکنون توسط گوگل حمایت می‌شود. این موتور از چندین زبان و خط (از جمله "
+"متن‌های راست‌به‌چپ) و همچنین تحلیل چیدمان صفحه پشتیبانی "
+"می‌کند.<nl/><nl/>بهترین نتایج زمانی به‌دست می‌آیند که ارتفاع نویسه‌های "
+"اسکن‌شده حداقل ۲۰&nbsp;پیکسل باشد. ممکن است با تصاویری که بیش‌ازحد کج شده یا"
+" چرخیده‌اند، یا دارای حاشیه‌های تیره هستند، مشکلاتی ایجاد شود.<nl/><nl/>برای"
+" اطلاعات بیشتر دربارهٔ تسراکت، به <link url=\"https://github.com/tesseract-"
+"ocr/tesseract\">github.com/tesseract-ocr/tesseract</link> مراجعه کنید."

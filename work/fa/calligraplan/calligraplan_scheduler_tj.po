@@ -1,0 +1,251 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the calligraplan_scheduler_tj package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: calligraplan_scheduler_tj\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"PO-Revision-Date: 2026-10-15 15:04+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: PlanTJPlugin.cpp:43
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>TaskJuggler Scheduler</title><para>This is a slightly modified "
+"version of the scheduler used in TaskJuggler. It has been enhanced to handle"
+" resource units.</para><para>Scheduling backwards is simulated by scheduling"
+" all tasks as late as possible.</para><para><note>Plan does not utilize all "
+"of its functionality.</note></para>"
+msgstr ""
+"<title>زمان‌بند TaskJuggler</title><para>این یک نسخه با تغییرات جزئی از "
+"زمان‌بند استفاده‌شده در TaskJuggler است. این نسخه برای مدیریت واحدهای منابع "
+"بهبود یافته است.</para><para>زمان‌بندی رو به عقب با زمان‌بندی تمام وظایف در "
+"دیرترین زمان ممکن شبیه‌سازی می‌شود.</para><para><note>Plan از همهٔ "
+"قابلیت‌های آن استفاده نمی‌کند.</note></para>"
+
+#: PlanTJScheduler.cpp:151
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Init"
+msgstr "راه‌اندازی اولیه"
+
+#: PlanTJScheduler.cpp:158
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Re-calculate project from start time: %1"
+msgstr "محاسبهٔ مجدد پروژه از زمان شروع: %1"
+
+#: PlanTJScheduler.cpp:164
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Schedule project from start time: %1"
+msgstr "زمان‌بندی پروژه از زمان شروع: %1"
+
+#: PlanTJScheduler.cpp:166
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Project target finish time: %1"
+msgstr "زمان پایان هدف پروژه: %1"
+
+#: PlanTJScheduler.cpp:169
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Schedule project from end time: %1"
+msgstr "زمان‌بندی پروژه از زمان پایان: %1"
+
+#: PlanTJScheduler.cpp:185
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Schedule"
+msgstr "زمان‌بندی"
+
+#: PlanTJScheduler.cpp:192
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Failed to schedule project"
+msgstr "زمان‌بندی پروژه انجام نشد"
+
+#: PlanTJScheduler.cpp:203
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Update"
+msgstr "به‌روزرسانی"
+
+#: PlanTJScheduler.cpp:211
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Finish"
+msgstr "پایان"
+
+#: PlanTJScheduler.cpp:226
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Failed to find scenario to schedule"
+msgstr "یافتن سناریو برای زمان‌بندی ناموفق بود"
+
+#: PlanTJScheduler.cpp:428
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Project scheduled to start at %1 and finish at %2"
+msgstr "پروژه برای شروع در %1 و پایان در %2 زمان‌بندی شد"
+
+#: PlanTJScheduler.cpp:476
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Invalid start time"
+msgstr "زمان شروع نامعتبر است"
+
+#: PlanTJScheduler.cpp:480
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Invalid end time"
+msgstr "زمان پایان نامعتبر است"
+
+#: PlanTJScheduler.cpp:509
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Scheduled milestone: %1"
+msgstr "مرحلهٔ زمان‌بندی‌شده: %1"
+
+#: PlanTJScheduler.cpp:511
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Scheduled task: %1 - %2"
+msgstr "وظیفهٔ زمان‌بندی‌شده: %1 - %2"
+
+#: PlanTJScheduler.cpp:614
+#, kde-format
+msgctxt "1=type of constraint"
+msgid "%1: Failed to meet constraint. Negative float=%2"
+msgstr "%1: عدم موفقیت در برآورده‌کردن قید. شناوری منفی=%2"
+
+#: PlanTJScheduler.cpp:630
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Failed to meet dependency. Negative float=%1"
+msgstr "عدم موفقیت در برآورده‌کردن وابستگی. شناوری منفی=%1"
+
+#: PlanTJScheduler.cpp:780
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Failed to add as predecessor to task '%1'"
+msgstr "افزودن به‌عنوان پیش‌نیاز وظیفهٔ «%1» ناموفق بود"
+
+#: PlanTJScheduler.cpp:791
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Failed to add as successor to task '%1'"
+msgstr "افزودن به‌عنوان پس‌نیاز وظیفهٔ «%1» ناموفق بود"
+
+#: PlanTJScheduler.cpp:812
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Dependency type '%1' not handled. Using FinishStart."
+msgstr "نوع وابستگی «%1» پشتیبانی نمی‌شود. استفاده از FinishStart."
+
+#: PlanTJScheduler.cpp:873
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "%1: Invalid start constraint"
+msgstr "%1: محدودیت شروع نامعتبر"
+
+#: PlanTJScheduler.cpp:886
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "%1: Invalid end constraint"
+msgstr "%1: محدودیت پایان نامعتبر"
+
+#: PlanTJScheduler.cpp:909
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Unhandled time constraint type"
+msgstr "نوع محدودیت زمانی پشتیبانی‌نشده"
+
+#: PlanTJScheduler.cpp:920 PlanTJScheduler.cpp:938
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Could not use the correct calendar for calculation of task duration"
+msgstr "امکان استفاده از تقویم درست برای محاسبهٔ مدت وظیفه وجود نداشت"
+
+#: PlanTJScheduler.cpp:986
+#, kde-format
+msgid "Recalculate, earliest start: %1"
+msgstr "محاسبهٔ مجدد، زودترین شروع: %1"
+
+#: PlanTJScheduler.cpp:1000
+#, kde-format
+msgid "Task has started. Remaining effort: %1d"
+msgstr "وظیفه شروع شده است. تلاش باقی‌مانده: %1d"
+
+#: PlanTJScheduler.cpp:1018
+#, kde-format
+msgid "No working hours defined for resource: %1"
+msgstr "هیچ ساعت کاری برای این منبع تعریف نشده است: %1"
+
+#: PlanTJScheduler.cpp:1080
+#, kde-format
+msgid "Scheduling started: %1"
+msgstr "زمان‌بندی آغاز شد: %1"
+
+#: PlanTJScheduler.cpp:1082
+#, kde-format
+msgid "Recalculating from: %1"
+msgstr "محاسبهٔ مجدد از: %1"
+
+#: PlanTJScheduler.cpp:1091 PlanTJScheduler.cpp:1174
+#, kde-format
+msgid "Scheduling canceled"
+msgstr "زمان‌بندی لغو شد"
+
+#: PlanTJScheduler.cpp:1094
+#, kde-format
+msgid "Scheduling finished at %1, elapsed time: %2 seconds"
+msgstr "زمان‌بندی در %1 پایان یافت، زمان سپری‌شده: %2 ثانیه"
+
+#: PlanTJScheduler.cpp:1111 PlanTJScheduler.cpp:1155
+#, kde-format
+msgid "Scheduling interval: %1 - %2, granularity: %3 minutes"
+msgstr "بازه زمان‌بندی: %1 - %2، ریزدانگی: %3 دقیقه"
+
+#: PlanTJScheduler.cpp:1116 PlanTJScheduler.cpp:1161
+#, kde-format
+msgid "Invalid project, start > end"
+msgstr "پروژه نامعتبر است، شروع > پایان"
+
+#: PlanTJScheduler.cpp:1125 PlanTJScheduler.cpp:1170
+#, kde-format
+msgid "Project check failed"
+msgstr "بررسی پروژه ناموفق بود"
+
+#: PlanTJScheduler.cpp:1133
+#, kde-format
+msgid "Scheduled: %1 - %2"
+msgstr "زمان‌بندی‌شده: %1 - %2"
+
+#: PlanTJScheduler.cpp:1135
+#, kde-format
+msgid "Scheduling failed"
+msgstr "زمان‌بندی ناموفق بود"
+
+#: PlanTJScheduler.cpp:1139 PlanTJScheduler.cpp:1180
+#, kde-format
+msgid "Project scheduling failed"
+msgstr "زمان‌بندی پروژه ناموفق بود"
+
+#: PlanTJScheduler.cpp:1241
+#, kde-format
+msgid ""
+"Appointment with load (%1) less than available resource units (%2) not "
+"supported"
+msgstr ""
+"قرار ملاقات با بار کاری (%1) کمتر از واحدهای منبع موجود (%2) پشتیبانی "
+"نمی‌شود"

@@ -1,0 +1,781 @@
+# translation of kaddressbook.po to Persian
+# MaryamSadat Razavi <razavi@itland.ir>, 2006, 2007.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kaddressbook\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-31 00:44+0000\n"
+"PO-Revision-Date: 2026-10-15 20:39+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: csv/csvimportexportplugininterface.cpp:36
+#, kde-format
+msgid "Export CSV file…"
+msgstr "برون‌ریزی پروندهٔ CSV…"
+
+#: csv/csvimportexportplugininterface.cpp:37
+#, kde-format
+msgid "Export contacts to a file in comma separated value format."
+msgstr "برون‌ریزی مخاطبان در یک پرونده با قالب مقادیر جداشده با کاما."
+
+#: csv/csvimportexportplugininterface.cpp:42
+#, kde-format
+msgid "Import CSV file…"
+msgstr "درون‌ریزی پروندهٔ CSV…"
+
+#: csv/csvimportexportplugininterface.cpp:43
+#, kde-format
+msgid "Import contacts from a file in comma separated value format."
+msgstr "درون‌ریزی مخاطبان از یک پرونده با قالب مقادیر جداشده با کاما."
+
+#: csv/csvimportexportplugininterface.cpp:148
+#: gmx/gmximportexportplugininterface.cpp:81
+#: ldif/ldifimportexportplugininterface.cpp:124
+#: vcards/vcardimportexportplugininterface.cpp:347
+#, kde-format
+msgid "Which contact do you want to export?"
+msgstr "کدام مخاطب را می‌خواهید برون‌ریزی کنید؟"
+
+#: csv/csvimportexportplugininterface.cpp:158
+#: gmx/gmximportexportplugininterface.cpp:91
+#: ldif/ldifimportexportplugininterface.cpp:134
+#: vcards/vcardimportexportplugininterface.cpp:359
+#, kde-format
+msgid "You have not selected any contacts to export."
+msgstr "هیچ مخاطبی را برای برون‌ریزی انتخاب نکرده‌اید."
+
+#: csv/csvimportexportplugininterface.cpp:187
+#: gmx/gmximportexportplugininterface.cpp:125
+#: ldif/ldifimportexportplugininterface.cpp:155
+#, kde-format
+msgid "<qt>Unable to open file <b>%1</b></qt>"
+msgstr "<qt>باز کردن پروندهٔ <b>%1</b> ممکن نیست</qt>"
+
+#: csv/csvimportexportplugininterface.cpp:199
+#: gmx/gmximportexportplugininterface.cpp:140
+#: ldif/ldifimportexportplugininterface.cpp:185
+#, kde-format
+msgid "<qt>Unable to open file <b>%1</b>.</qt>"
+msgstr "<qt>باز کردن پروندهٔ <b>%1</b> ممکن نیست.</qt>"
+
+#: csv/import/csvimportdialog.cpp:169
+#, kde-format
+msgctxt "@title:window"
+msgid "CSV Import Dialog"
+msgstr "گفت‌وگوی درون‌ریزی CSV"
+
+#: csv/import/csvimportdialog.cpp:224
+#, kde-format
+msgctxt "@label"
+msgid "Importing contacts"
+msgstr "در حال درون‌ریزی مخاطبان"
+
+#: csv/import/csvimportdialog.cpp:295
+#, kde-format
+msgctxt "@label"
+msgid "File to import:"
+msgstr "پرونده برای وارد کردن:"
+
+#: csv/import/csvimportdialog.cpp:303
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select a csv file to import"
+msgstr "انتخاب یک پروندهٔ csv برای وارد کردن"
+
+#: csv/import/csvimportdialog.cpp:305
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button to start a file chooser that will allow you to select a "
+"csv file to import."
+msgstr ""
+"روی این دکمه کلیک کنید تا گزینشگر پرونده‌ای باز شود که به شما امکان انتخاب "
+"پروندهٔ csv برای وارد کردن را می‌دهد."
+
+#: csv/import/csvimportdialog.cpp:312
+#, kde-format
+msgctxt "@title:group"
+msgid "Delimiter"
+msgstr "جداکننده"
+
+#: csv/import/csvimportdialog.cpp:322
+#, kde-format
+msgctxt "@option:radio Field separator"
+msgid "Comma"
+msgstr "کاما"
+
+#: csv/import/csvimportdialog.cpp:323
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a comma"
+msgstr "تنظیم جداکنندهٔ فیلد روی کاما"
+
+#: csv/import/csvimportdialog.cpp:324
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the comma as a field separator."
+msgstr ""
+"اگر پروندهٔ csv شما از کاما به‌عنوان جداکنندهٔ فیلد استفاده می‌کند، این "
+"گزینه را انتخاب کنید."
+
+#: csv/import/csvimportdialog.cpp:329
+#, kde-format
+msgctxt "@option:radio Field separator"
+msgid "Semicolon"
+msgstr "نقطه‌ویرگول"
+
+#: csv/import/csvimportdialog.cpp:330
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a semicolon"
+msgstr "تنظیم جداکنندهٔ فیلد روی نقطه‌ویرگول"
+
+#: csv/import/csvimportdialog.cpp:331
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the semicolon as a field separator."
+msgstr ""
+"اگر پروندهٔ csv شما از نقطه‌ویرگول به‌عنوان جداکنندهٔ فیلد استفاده می‌کند، "
+"این گزینه را انتخاب کنید."
+
+#: csv/import/csvimportdialog.cpp:335
+#, kde-format
+msgctxt "@option:radio Field separator"
+msgid "Tabulator"
+msgstr "تب"
+
+#: csv/import/csvimportdialog.cpp:336
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a tab character"
+msgstr "تنظیم جداکنندهٔ ستون روی نویسهٔ تب"
+
+#: csv/import/csvimportdialog.cpp:337
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the tab character as a field "
+"separator."
+msgstr ""
+"اگر پروندهٔ csv شما از نویسهٔ تب به عنوان جداکنندهٔ ستون استفاده می‌کند، این"
+" گزینه را انتخاب کنید."
+
+#: csv/import/csvimportdialog.cpp:341
+#, kde-format
+msgctxt "@option:radio Field separator"
+msgid "Space"
+msgstr "فاصله"
+
+#: csv/import/csvimportdialog.cpp:342
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a space character"
+msgstr "تنظیم جداکنندهٔ ستون روی نویسهٔ فاصله"
+
+#: csv/import/csvimportdialog.cpp:343
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the space character as a field "
+"separator."
+msgstr ""
+"اگر پروندهٔ csv شما از نویسهٔ فاصله به عنوان جداکنندهٔ ستون استفاده می‌کند، "
+"این گزینه را انتخاب کنید."
+
+#: csv/import/csvimportdialog.cpp:347
+#, kde-format
+msgctxt "@option:radio Custom field separator"
+msgid "Other"
+msgstr "سایر"
+
+#: csv/import/csvimportdialog.cpp:348
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a custom character"
+msgstr "تنظیم جداکنندهٔ ستون روی یک نویسهٔ سفارشی"
+
+#: csv/import/csvimportdialog.cpp:350
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if to use some other character as the field delimiter for"
+" the data in your csv file."
+msgstr ""
+"اگر می‌خواهید از نویسهٔ دیگری به عنوان جداکنندهٔ ستون‌ها برای داده‌های "
+"پروندهٔ csv خود استفاده کنید، این گزینه را انتخاب کنید."
+
+#: csv/import/csvimportdialog.cpp:356
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the custom delimiter character"
+msgstr "تنظیم نویسهٔ جداکنندهٔ سفارشی"
+
+#: csv/import/csvimportdialog.cpp:358
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter a custom character to use as the delimiter character. If you enter "
+"more than 1 character, only the first will be used and the remaining "
+"characters will be ignored."
+msgstr ""
+"یک نویسهٔ سفارشی را برای استفاده به عنوان نویسهٔ جداکننده وارد کنید. اگر بیش"
+" از ۱ نویسه وارد کنید، فقط اولین نویسه استفاده خواهد شد و بقیه نویسه‌ها "
+"نادیده گرفته می‌شوند."
+
+#: csv/import/csvimportdialog.cpp:364
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Text quote:"
+msgstr "نقل‌قول متن:"
+
+#: csv/import/csvimportdialog.cpp:370
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the quote character"
+msgstr "نویسهٔ نقل‌قول را انتخاب کنید"
+
+#: csv/import/csvimportdialog.cpp:372
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose the character that your csv data uses to \"quote\" the field "
+"delimiter if that character happens to occur within the data.  For example, "
+"if the comma is the field delimiter, then any comma occurring with the data "
+"will be \"quoted\" by the character specified here."
+msgstr ""
+"نویسه‌ای را انتخاب کنید که داده‌های csv شما برای «نقل‌قول کردن» جداکنندهٔ "
+"فیلد استفاده می‌کنند (در صورتی که آن نویسه تصادفاً درون داده‌ها وجود داشته "
+"باشد). برای مثال، اگر کاما جداکنندهٔ فیلد باشد، هر کامایی که در داده‌ها باشد"
+" با نویسه‌ای که در اینجا مشخص شده «نقل‌قول» خواهد شد."
+
+#: csv/import/csvimportdialog.cpp:377
+#, kde-format
+msgctxt "@item:inlistbox Quote character option"
+msgid "\""
+msgstr "\""
+
+#: csv/import/csvimportdialog.cpp:378
+#, kde-format
+msgctxt "@item:inlistbox Quote character option"
+msgid "'"
+msgstr "'"
+
+#: csv/import/csvimportdialog.cpp:379
+#, kde-format
+msgctxt "@item:inlistbox Quote character option"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: csv/import/csvimportdialog.cpp:383
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Date format:"
+msgstr "قالب تاریخ:"
+
+#: csv/import/csvimportdialog.cpp:391
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"<para><list><item>y: year with 2 digits</item><item>Y: year with 4 "
+"digits</item><item>m: month with 1 or 2 digits</item><item>M: month with 2 "
+"digits</item><item>d: day with 1 or 2 digits</item><item>D: day with 2 "
+"digits</item><item>H: hours with 2 digits</item><item>I: minutes with 2 "
+"digits</item><item>S: seconds with 2 digits</item></list></para>"
+msgstr ""
+"<para><list><item>y: سال دو رقمی</item><item>Y: سال چهار رقمی</item><item>m:"
+" ماه یک یا دو رقمی</item><item>M: ماه دو رقمی</item><item>d: روز یک یا دو "
+"رقمی</item><item>D: روز دو رقمی</item><item>H: ساعت دو رقمی</item><item>I: "
+"دقیقه دو رقمی</item><item>S: ثانیه دو رقمی</item></list></para>"
+
+#: csv/import/csvimportdialog.cpp:402
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify a format to use for dates included in your csv data. Use the "
+"following sequences to help you define the "
+"format:</para><para><list><item>y: year with 2 digits</item><item>Y: year "
+"with 4 digits</item><item>m: month with 1 or 2 digits</item><item>M: month "
+"with 2 digits</item><item>d: day with 1 or 2 digits</item><item>D: day with "
+"2 digits</item><item>H: hours with 2 digits</item><item>I: minutes with 2 "
+"digits</item><item>S: seconds with 2 "
+"digits</item></list></para><para>Example: \"Y-M-D\" corresponds to a date "
+"like \"2012-01-04\"</para>"
+msgstr ""
+"<para>قالبی را برای استفاده در تاریخ‌های موجود در داده‌های csv خود مشخص "
+"کنید. از دنباله‌های زیر برای کمک به تعیین قالب استفاده "
+"کنید:</para><para><list><item>y: سال دو رقمی</item><item>Y: سال چهار "
+"رقمی</item><item>m: ماه یک یا دو رقمی</item><item>M: ماه دو "
+"رقمی</item><item>d: روز یک یا دو رقمی</item><item>D: روز دو "
+"رقمی</item><item>H: ساعت دو رقمی</item><item>I: دقیقه دو رقمی</item><item>S:"
+" ثانیه دو رقمی</item></list></para><para>مثال: «Y-M-D» متناظر با تاریخی "
+"مانند «2012-01-04» است</para>"
+
+#: csv/import/csvimportdialog.cpp:418
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Text codec:"
+msgstr "کدک متن:"
+
+#: csv/import/csvimportdialog.cpp:424
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the text codec"
+msgstr "انتخاب کدک متن"
+
+#: csv/import/csvimportdialog.cpp:425
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose the character encoding of the data in your csv file."
+msgstr "کدگذاری نویسه‌های داده‌ها در پروندهٔ csv خود را انتخاب کنید."
+
+#: csv/import/csvimportdialog.cpp:429
+#, kde-format
+msgctxt "@option:check"
+msgid "Skip first row of file"
+msgstr "نادیده گرفتن سطر اول پرونده"
+
+#: csv/import/csvimportdialog.cpp:431
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Skip first row of csv file when importing"
+msgstr "نادیده گرفتن سطر اول پروندهٔ csv هنگام درون‌ریزی"
+
+#: csv/import/csvimportdialog.cpp:433
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want the import to skip over the first row of the csv "
+"data. In many cases, the first line of a csv file will be a comment line "
+"describing the order of the data fields included in the file."
+msgstr ""
+"اگر می‌خواهید در فرایند درون‌ریزی، سطر اول داده‌های csv نادیده گرفته شود، "
+"این گزینه را علامت بزنید. در بسیاری از موارد، خط اول یک پروندهٔ csv خط "
+"توضیحی است که ترتیب فیلدهای دادهٔ موجود در پرونده را شرح می‌دهد."
+
+#: csv/import/csvimportdialog.cpp:449
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply Template…"
+msgstr "اعمال الگو…"
+
+#: csv/import/csvimportdialog.cpp:450
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Template…"
+msgstr "ذخیرهٔ الگو…"
+
+#: csv/import/csvimportdialog.cpp:471
+#, kde-format
+msgctxt "@item:inlistbox Codec setting"
+msgid "Local (%1)"
+msgstr "محلی (%1)"
+
+#: csv/import/csvimportdialog.cpp:472
+#, kde-format
+msgctxt "@item:inlistbox Codec setting"
+msgid "Latin1"
+msgstr "Latin1"
+
+#: csv/import/csvimportdialog.cpp:473
+#, kde-format
+msgctxt "@item:inlistbox Codec setting"
+msgid "Unicode"
+msgstr "یونیکد"
+
+#: csv/import/csvimportdialog.cpp:474
+#, kde-format
+msgctxt "@item:inlistbox Codec setting"
+msgid "Microsoft Unicode"
+msgstr "یونیکد مایکروسافت"
+
+#: csv/import/csvimportdialog.cpp:575
+#, kde-format
+msgctxt "@info:status"
+msgid "You must assign at least one column."
+msgstr "باید دست‌کم یک ستون اختصاص دهید."
+
+#: csv/import/csvimportdialog.cpp:585
+#, kde-format
+msgctxt "@label"
+msgid "There are no templates available yet."
+msgstr "هنوز هیچ الگویی در دسترس نیست."
+
+#: csv/import/csvimportdialog.cpp:585
+#, kde-format
+msgctxt "@title:window"
+msgid "No templates available"
+msgstr "الگویی در دسترس نیست"
+
+#: csv/import/csvimportdialog.cpp:650
+#, kde-format
+msgctxt "@title:window"
+msgid "Template Name"
+msgstr "نام الگو"
+
+#: csv/import/csvimportdialog.cpp:650
+#, kde-format
+msgctxt "@info"
+msgid "Please enter a name for the template:"
+msgstr "لطفاً یک نام برای الگو وارد کنید:"
+
+#: csv/import/csvimportdialog.cpp:700
+#, kde-format
+msgctxt "@info:status"
+msgid "Cannot open input file."
+msgstr "پروندهٔ ورودی باز نمی‌شود."
+
+#: csv/import/qcsvreader.cpp:92
+#, kde-format
+msgid "Device is not open"
+msgstr "دستگاه باز نیست"
+
+#: csv/import/templateselectiondialog.cpp:183
+#, kde-format
+msgctxt "@label"
+msgid "Do you really want to delete template '%1'?"
+msgstr "واقعاً می‌خواهید الگوی «%1» را حذف کنید؟"
+
+#: csv/import/templateselectiondialog.cpp:204
+#, kde-format
+msgctxt "@title:window"
+msgid "Template Selection"
+msgstr "انتخاب الگو"
+
+#: csv/import/templateselectiondialog.cpp:207
+#, kde-format
+msgctxt "@info"
+msgid "Please select a template, that matches the CSV file:"
+msgstr "لطفاً الگویی را که با پروندهٔ CSV مطابقت دارد انتخاب کنید:"
+
+#: gmx/gmximportexportplugininterface.cpp:26
+#, kde-format
+msgid "GMX address book file (*.gmxa)"
+msgstr "پروندهٔ دفترچه نشانی GMX ‏(‎*.gmxa)"
+
+#: gmx/gmximportexportplugininterface.cpp:41
+#, kde-format
+msgid "Import GMX file…"
+msgstr "درون‌ریزی پروندهٔ GMX…"
+
+#: gmx/gmximportexportplugininterface.cpp:42
+#, kde-format
+msgid "Import contacts from a GMX address book file."
+msgstr "درون‌ریزی مخاطبان از یک پروندهٔ دفترچه نشانی GMX."
+
+#: gmx/gmximportexportplugininterface.cpp:47
+#, kde-format
+msgid "Export GMX file…"
+msgstr "برون‌ریزی پروندهٔ GMX…"
+
+#: gmx/gmximportexportplugininterface.cpp:48
+#, kde-format
+msgid "Export contacts to a GMX address book file."
+msgstr "برون‌ریزی مخاطبان به یک پروندهٔ دفترچه نشانی GMX."
+
+#: gmx/gmximportexportplugininterface.cpp:434
+#: ldif/ldifimportexportplugininterface.cpp:81
+#: windows-contacts/importwindowcontact.cpp:27
+#, kde-format
+msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
+msgstr "<qt>باز کردن <b>%1</b> برای خواندن امکان‌پذیر نیست.</qt>"
+
+#: gmx/gmximportexportplugininterface.cpp:447
+#, kde-format
+msgid "%1 is not a GMX address book file."
+msgstr "‏%1 یک پروندهٔ دفترچه نشانی GMX نیست."
+
+#: ldap/ldapimportexportplugininterface.cpp:26
+#, kde-format
+msgid "Import From LDAP server…"
+msgstr "درون‌ریزی از سرور LDAP…"
+
+#: ldap/ldapimportexportplugininterface.cpp:27
+#, kde-format
+msgid "Import contacts from an LDAP server."
+msgstr "درون‌ریزی مخاطبین از یک سرور LDAP."
+
+#: ldif/ldifimportexportplugininterface.cpp:37
+#, kde-format
+msgid "Import LDIF file…"
+msgstr "درون‌ریزی پروندهٔ LDIF…"
+
+#: ldif/ldifimportexportplugininterface.cpp:38
+#, kde-format
+msgid "Import contacts from an LDIF file."
+msgstr "درون‌ریزی مخاطبین از یک پروندهٔ LDIF."
+
+#: ldif/ldifimportexportplugininterface.cpp:43
+#, kde-format
+msgid "Export LDIF file…"
+msgstr "برون‌بری پروندهٔ LDIF…"
+
+#: ldif/ldifimportexportplugininterface.cpp:44
+#, kde-format
+msgid "Export contacts to an LDIF file."
+msgstr "برون‌بری مخاطبین به یک پروندهٔ LDIF."
+
+#: ldif/ldifimportexportplugininterface.cpp:107
+#, kde-format
+msgid "LDif Files"
+msgstr "پرونده‌های LDif"
+
+#: ldif/ldifimportexportplugininterface.cpp:145
+#, kde-format
+msgid "LDif Files (*.ldif)"
+msgstr "پرونده‌های LDif ‏(‎*.ldif)"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:23
+#, kde-format
+msgctxt "@title:group"
+msgid "Fields to be exported"
+msgstr "فیلدهای برون‌بری"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:30
+#, kde-format
+msgctxt "@option:check"
+msgid "Private fields"
+msgstr "فیلدهای خصوصی"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:31
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export private fields"
+msgstr "برون‌بری فیلدهای خصوصی"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:33
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's private fields to the "
+"vCard output file."
+msgstr ""
+"اگر می‌خواهید فیلدهای خصوصی مخاطب به پروندهٔ خروجی vCard صادر شوند، این "
+"گزینه را علامت بزنید."
+
+#: vcards/engine/vcardexportselectionwidget.cpp:37
+#, kde-format
+msgctxt "@option:check"
+msgid "Business fields"
+msgstr "فیلدهای کاری"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:38
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export business fields"
+msgstr "صادر کردن فیلدهای کاری"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:40
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's business fields to the "
+"vCard output file."
+msgstr ""
+"اگر می‌خواهید فیلدهای کاری مخاطب به پروندهٔ خروجی vCard صادر شوند، این گزینه"
+" را علامت بزنید."
+
+#: vcards/engine/vcardexportselectionwidget.cpp:44
+#, kde-format
+msgctxt "@option:check"
+msgid "Other fields"
+msgstr "سایر فیلدها"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export other fields"
+msgstr "صادر کردن سایر فیلدها"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:47
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's other fields to the vCard"
+" output file."
+msgstr ""
+"اگر می‌خواهید سایر فیلدهای مخاطب به پروندهٔ خروجی vCard صادر شوند، این گزینه"
+" را علامت بزنید."
+
+#: vcards/engine/vcardexportselectionwidget.cpp:51
+#, kde-format
+msgctxt "@option:check"
+msgid "Encryption keys"
+msgstr "کلیدهای رمزگذاری"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:52
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export encryption keys"
+msgstr "صادر کردن کلیدهای رمزگذاری"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:54
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's encryption keys to the "
+"vCard output file."
+msgstr ""
+"اگر می‌خواهید کلیدهای رمزگذاری مخاطب به پروندهٔ خروجی vCard صادر شوند، این "
+"گزینه را علامت بزنید."
+
+#: vcards/engine/vcardexportselectionwidget.cpp:58
+#, kde-format
+msgctxt "@option:check"
+msgid "Pictures"
+msgstr "تصاویر"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export pictures"
+msgstr "برون‌ریزی تصاویر"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:61
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's picture to the vCard "
+"output file."
+msgstr ""
+"اگر می‌خواهید تصویر مخاطب در پروندهٔ خروجی vCard صادر شود، این گزینه را "
+"علامت بزنید."
+
+#: vcards/engine/vcardexportselectionwidget.cpp:65
+#, kde-format
+msgctxt "@title:group"
+msgid "Export options"
+msgstr "گزینه‌های برون‌ریزی"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:71
+#, kde-format
+msgctxt "@option:check"
+msgid "Display name as full name"
+msgstr "نام نمایشی به‌عنوان نام کامل"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:72
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export display name as full name"
+msgstr "برون‌ریزی نام نمایشی به‌عنوان نام کامل"
+
+#: vcards/engine/vcardexportselectionwidget.cpp:74
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's display name in the "
+"vCard's full name field.  This may be required to get the name shown "
+"correctly in GMail or Android."
+msgstr ""
+"اگر می‌خواهید نام نمایشی مخاطب در فیلد نام کامل vCard قرار گیرد، این گزینه "
+"را علامت بزنید. این مورد ممکن است برای نمایش درست نام در جیمیل یا اندروید "
+"لازم باشد."
+
+#: vcards/engine/vcardviewerdialog.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Import vCard"
+msgstr "درون‌ریزی vCard"
+
+#: vcards/engine/vcardviewerdialog.cpp:52
+#, kde-format
+msgctxt "@info"
+msgid "Do you want to import this contact into your address book?"
+msgstr "آیا می‌خواهید این مخاطب را به دفترچهٔ نشانی خود وارد کنید؟"
+
+#: vcards/engine/vcardviewerdialog.cpp:62
+#, kde-format
+msgctxt "@action:button"
+msgid "Import All…"
+msgstr "درون‌ریزی همه…"
+
+#: vcards/vcardimportexportplugininterface.cpp:45
+#, kde-format
+msgid "Import vCard…"
+msgstr "درون‌ریزی vCard…"
+
+#: vcards/vcardimportexportplugininterface.cpp:46
+#, kde-format
+msgid "Import contacts from a vCard file."
+msgstr "درون‌ریزی مخاطبان از یک پروندهٔ vCard."
+
+#: vcards/vcardimportexportplugininterface.cpp:53
+#, kde-format
+msgid "Export contacts to a vCard file."
+msgstr "برون‌ریزی مخاطبان به یک پروندهٔ vCard."
+
+#: vcards/vcardimportexportplugininterface.cpp:54
+#, kde-format
+msgid "Export vCard…"
+msgstr "برون‌ریزی vCard…"
+
+#: vcards/vcardimportexportplugininterface.cpp:86
+#, kde-format
+msgid "vCard (*.vcf *.vcard *.vct *.gcrd);;All files (*)"
+msgstr "‏vCard (*.vcf *.vcard *.vct *.gcrd);;همه پرونده‌ها (*)"
+
+#: vcards/vcardimportexportplugininterface.cpp:87
+#, kde-format
+msgctxt "@title:window"
+msgid "Select vCard to Import"
+msgstr "انتخاب vCard برای درون‌ریزی"
+
+#: vcards/vcardimportexportplugininterface.cpp:98
+#, kde-format
+msgctxt "@title:window"
+msgid "vCard Import Failed"
+msgstr "درون‌ریزی vCard ناموفق بود"
+
+#: vcards/vcardimportexportplugininterface.cpp:112
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>Unable to access vCard:</para><para>%1</para>"
+msgstr "<para>دسترسی به vCard امکان‌پذیر نیست:</para><para>%1</para>"
+
+#: vcards/vcardimportexportplugininterface.cpp:402
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You have selected a list of contacts, shall they be exported to several "
+"files?"
+msgstr ""
+"فهرستی از مخاطبان را انتخاب کرده‌اید؛ آیا می‌خواهید در چندین پرونده "
+"برون‌ریزی شوند؟"
+
+#: vcards/vcardimportexportplugininterface.cpp:405
+#, kde-format
+msgctxt "@action:button"
+msgid "Export to One File"
+msgstr "برون‌ریزی در یک پرونده"
+
+#: vcards/vcardimportexportplugininterface.cpp:406
+#, kde-format
+msgctxt "@action:button"
+msgid "Export to Several Files"
+msgstr "برون‌ریزی در چند پرونده"
+
+#: windows-contacts/windowscontactimportexportplugininterface.cpp:30
+#, kde-format
+msgid "Import Windows Contact file…"
+msgstr "درون‌ریزی پروندهٔ مخاطب ویندوز…"
+
+#: windows-contacts/windowscontactimportexportplugininterface.cpp:31
+#, kde-format
+msgid "Import contacts from windows contact file."
+msgstr "درون‌ریزی مخاطبین از پروندهٔ مخاطب ویندوز."
+
+#: windows-contacts/windowscontactimportexportplugininterface.cpp:69
+#, kde-format
+msgid "Windows Contact file (*.contact)"
+msgstr "پروندهٔ مخاطب ویندوز (‎*.contact)"

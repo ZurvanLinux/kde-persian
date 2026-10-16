@@ -1,0 +1,2533 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the akonadiclient package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadiclient\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"PO-Revision-Date: 2026-10-15 13:12+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/abstractcommand.cpp:51
+#, kde-format
+msgctxt "@info:shell"
+msgid "The name of the command"
+msgstr "نام دستور"
+
+#: src/abstractcommand.cpp:54
+#, kde-format
+msgctxt "@info:shell"
+msgid "Give help for the specified command"
+msgstr "ارائهٔ راهنما برای دستور مشخص‌شده"
+
+#: src/abstractcommand.cpp:107 src/main.cpp:67
+#, kde-format
+msgctxt "@info:shell"
+msgid "Options for command"
+msgstr "گزینه‌های دستور"
+
+#: src/abstractcommand.cpp:107 src/main.cpp:67
+#, kde-format
+msgctxt "@info:shell"
+msgid "[options]"
+msgstr "[گزینه‌ها]"
+
+#: src/abstractcommand.cpp:114
+#, kde-format
+msgctxt "@info:shell"
+msgid "Assume that a collection is specified"
+msgstr "فرض اینکه یک مجموعه مشخص شده است"
+
+#: src/abstractcommand.cpp:118
+#, kde-format
+msgctxt "@info:shell"
+msgid "Assume that an item is specified"
+msgstr "فرض اینکه یک مورد مشخص شده است"
+
+#: src/abstractcommand.cpp:126
+#, kde-format
+msgctxt "@info:shell"
+msgid "Run without making any actual changes"
+msgstr "اجرا بدون اعمال هیچ‌گونه تغییر واقعی"
+
+#: src/abstractcommand.cpp:141
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot specify as both an item and a collection"
+msgstr "نمی‌توان هم به عنوان مورد و هم به عنوان مجموعه مشخص کرد"
+
+#: src/abstractcommand.cpp:161
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid collection/item argument '%1', %2"
+msgstr "آرگومان مجموعه/مورد نامعتبر «%1»، %2"
+
+#: src/abstractcommand.cpp:179
+#, kde-format
+msgctxt "@info:shell %1 is subcommand name, %2 is error message"
+msgid "%2, see 'help %1'"
+msgstr "%2، «help %1» را ببینید"
+
+#: src/abstractcommand.cpp:182
+#, kde-format
+msgctxt ""
+"@info:shell %1 is application name, %2 is subcommand name, %3 is error "
+"message"
+msgid "%3, see '%1 help %2'"
+msgstr "%3، «%1 help %2» را ببینید"
+
+#: src/abstractcommand.cpp:198
+#, kde-format
+msgctxt "@info:shell"
+msgid "Dangerous or destructive operations are not allowed"
+msgstr "عملیات خطرناک یا مخرب مجاز نیستند"
+
+#: src/abstractcommand.cpp:199
+#, kde-format
+msgctxt "@info:shell"
+msgid "Set %1=\"%2\" in environment"
+msgstr "تنظیم %1=\"%2\" در محیط"
+
+#: src/abstractcommand.cpp:255
+#, kde-format
+msgctxt "@info:shell"
+msgid "Save location '%1' exists but is not a directory"
+msgstr "محل ذخیره «%1» وجود دارد اما یک پوشه نیست"
+
+#: src/abstractcommand.cpp:263
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot create save directory '%1'"
+msgstr "امکان ایجاد پوشه ذخیره «%1» وجود ندارد"
+
+#: src/addcommand.cpp:41
+msgctxt "info:shell"
+msgid "Add items to a collection"
+msgstr "افزودن موارد به یک مجموعه"
+
+#: src/addcommand.cpp:59
+#, kde-format
+msgid "Base directory for input files/directories, default is current"
+msgstr "پوشه پایه برای پرونده‌ها/پوشه‌های ورودی، پیش‌فرض پوشه جاری است"
+
+#: src/addcommand.cpp:60
+#, kde-format
+msgid "directory"
+msgstr "پوشه"
+
+#: src/addcommand.cpp:63
+#, kde-format
+msgid "Flat mode, do not duplicate subdirectory structure"
+msgstr "حالت مسطح، ساختار زیرپوشه تکرار نشود"
+
+#: src/addcommand.cpp:66
+#, kde-format
+msgid "MIME type of added items, default is to auto-detect"
+msgstr "نوع MIME موارد اضافه‌شده؛ پیش‌فرض تشخیص خودکار است"
+
+#: src/addcommand.cpp:67
+#, kde-format
+msgid "mimetype"
+msgstr "نوع MIME"
+
+#: src/addcommand.cpp:70
+#, kde-format
+msgctxt "@info:shell"
+msgid "The collection to add to: an ID, path or Akonadi URL"
+msgstr "مجموعه جهت افزودن به آن: یک شناسه، مسیر یا نشانی وب آکونادی"
+
+#: src/addcommand.cpp:71
+#, kde-format
+msgctxt "@info:shell"
+msgid "Files or directories to add to the collection"
+msgstr "پرونده‌ها یا پوشه‌ها برای افزودن به مجموعه"
+
+#: src/addcommand.cpp:71
+#, kde-format
+msgid "files..."
+msgstr "پرونده‌ها..."
+
+#: src/addcommand.cpp:77 src/createcommand.cpp:63 src/listcommand.cpp:64
+#: src/renamecommand.cpp:52
+#, kde-format
+msgctxt "@info:shell"
+msgid "Missing collection argument"
+msgstr "آرگومان مجموعه وجود ندارد"
+
+#: src/addcommand.cpp:79
+#, kde-format
+msgctxt "@info:shell"
+msgid "No file or directory arguments"
+msgstr "هیچ آرگومان پرونده یا پوشه‌ای مشخص نشده است"
+
+#: src/addcommand.cpp:95
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid MIME type argument '%1'"
+msgstr "آرگومان نوع MIME نامعتبر «%1»"
+
+#: src/addcommand.cpp:104
+#, kde-format
+msgctxt "@info:shell"
+msgid "Base directory '%1' not found"
+msgstr "پوشهٔ پایه «%1» یافت نشد"
+
+#: src/addcommand.cpp:125
+#, kde-format
+msgid "File '%1' does not exist"
+msgstr "پروندهٔ «%1» وجود ندارد"
+
+#: src/addcommand.cpp:128
+#, kde-format
+msgid "Error accessing file '%1'"
+msgstr "خطا در دسترسی به پروندهٔ «%1»"
+
+#: src/addcommand.cpp:156
+#, kde-format
+msgctxt "@info:shell"
+msgid "No valid file or directory arguments"
+msgstr "هیچ آرگومان پرونده یا پوشهٔ معتبری وجود ندارد"
+
+#: src/addcommand.cpp:166
+#, kde-format
+msgid "No more directories to process"
+msgstr "پوشهٔ دیگری برای پردازش وجود ندارد"
+
+#: src/addcommand.cpp:190 src/addcommand.cpp:212
+#, kde-format
+msgid "Directory ‘%1’ no longer exists"
+msgstr "پوشهٔ «%1» دیگر وجود ندارد"
+
+#: src/addcommand.cpp:229
+#, kde-format
+msgid "Fetching collection \"%3\" in parent %1 \"%2\""
+msgstr "در حال دریافت مجموعهٔ «%3» در والد %1 «%2»"
+
+#: src/addcommand.cpp:241
+#, kde-format
+msgid "Need to create collection for '%1'"
+msgstr "نیاز به ایجاد مجموعه برای «%1» است"
+
+#: src/addcommand.cpp:253
+#, kde-format
+msgid "No more files to process"
+msgstr "پروندهٔ دیگری برای پردازش وجود ندارد"
+
+#: src/addcommand.cpp:264 src/updatecommand.cpp:86
+#, kde-format
+msgctxt "@info:shell"
+msgid "File ‘%1’ does not exist"
+msgstr "پروندهٔ «%1» وجود ندارد"
+
+#: src/addcommand.cpp:270 src/updatecommand.cpp:94
+#, kde-format
+msgctxt "@info:shell"
+msgid "File ‘%1’ cannot be read"
+msgstr "پروندهٔ «%1» خوانده نمی‌شود"
+
+#: src/addcommand.cpp:278
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot determine MIME type of file ‘%1’"
+msgstr "امکان تشخیص نوع MIME پروندهٔ «%1» وجود ندارد"
+
+#: src/addcommand.cpp:287
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot determine parent collection for file ‘%1’"
+msgstr "امکان تشخیص مجموعهٔ والد پروندهٔ «%1» وجود ندارد"
+
+#: src/addcommand.cpp:293
+#, kde-format
+msgid "Creating item in collection %1 \"%2\" from '%3' size %4"
+msgstr "در حال ایجاد مورد در مجموعهٔ %1 «%2» از «%3» با اندازهٔ %4"
+
+#: src/addcommand.cpp:315
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot fetch target collection, %1"
+msgstr "امکان واکشی مجموعهٔ مقصد وجود ندارد، %1"
+
+#: src/addcommand.cpp:325
+#, kde-format
+msgid "Root folder is %1 \"%2\""
+msgstr "پوشهٔ ریشه %1 «%2» است"
+
+#: src/addcommand.cpp:373
+#, kde-format
+msgid "Error fetching collection %1 \"%2\", %3"
+msgstr "خطا در واکشی مجموعهٔ %1 «%2»، %3"
+
+#: src/addcommand.cpp:386
+#, kde-format
+msgid "Changed maildir folder name to '%1'"
+msgstr "نام پوشهٔ maildir به «%1» تغییر یافت"
+
+#: src/addcommand.cpp:396
+#, kde-format
+msgid "Creating collection \"%3\" under parent %1 \"%2\""
+msgstr "در حال ایجاد مجموعهٔ «%3» زیر والد %1 «%2»"
+
+#: src/addcommand.cpp:414
+#, kde-format
+msgctxt "@info:shell"
+msgid "Failed to add ‘%1’, %2"
+msgstr "افزودن «%1» شکست خورد، %2"
+
+#: src/addcommand.cpp:418
+#, kde-format
+msgid "Added file '%2' as item %1"
+msgstr "پروندهٔ «%2» به‌عنوان مورد %1 اضافه شد"
+
+#: src/agentscommand.cpp:37
+msgctxt "info:shell"
+msgid "Manage Akonadi agents"
+msgstr "مدیریت کارگزاران آکونادی"
+
+#: src/agentscommand.cpp:51
+#, kde-format
+msgid "List all agents"
+msgstr "فهرست کردن تمام کارگزاران"
+
+#: src/agentscommand.cpp:54
+#, kde-format
+msgid "Set state \"online\" or \"offline\" for specified agents"
+msgstr "تنظیم وضعیت «برخط» یا «برون‌خط» برای کارگزاران مشخص‌شده"
+
+#: src/agentscommand.cpp:55
+#, kde-format
+msgctxt "@info:shell"
+msgid "state"
+msgstr "وضعیت"
+
+#: src/agentscommand.cpp:58
+#, kde-format
+msgid "Get state for the specified agent"
+msgstr "دریافت وضعیت برای کارگزار مشخص‌شده"
+
+#: src/agentscommand.cpp:61
+#, kde-format
+msgid "Show information about the specified agent"
+msgstr "نمایش اطلاعات دربارهٔ کارگزار مشخص‌شده"
+
+#: src/agentscommand.cpp:64
+#, kde-format
+msgid "Restart the specified agent"
+msgstr "راه‌اندازی مجدد کارگزار مشخص‌شده"
+
+#: src/agentscommand.cpp:67
+#, kde-format
+msgctxt "@info:shell"
+msgid "Agents to operate on"
+msgstr "کارگزاران برای اعمال عملیات"
+
+#: src/agentscommand.cpp:67
+#, kde-format
+msgctxt "@info:shell"
+msgid "[agents...]"
+msgstr "[کارگزاران...]"
+
+#: src/agentscommand.cpp:80
+#, kde-format
+msgctxt "@info:shell"
+msgid "No agents or options specified"
+msgstr "هیچ کارگزار یا گزینه‌ای مشخص نشده است"
+
+#: src/agentscommand.cpp:98
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid state '%1'"
+msgstr "وضعیت نامعتبر «%1»"
+
+#: src/agentscommand.cpp:102
+#, kde-format
+msgctxt "@info:shell"
+msgid "No option specified"
+msgstr "هیچ گزینه‌ای مشخص نشده است"
+
+#: src/agentscommand.cpp:143
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid parameters"
+msgstr "پارامترهای نامعتبر"
+
+#: src/agentscommand.cpp:179 src/agentscommand.cpp:211
+#: src/agentscommand.cpp:229 src/agentscommand.cpp:255
+#, kde-format
+msgctxt "@info:shell"
+msgid "No agent exists with the identifier '%1'"
+msgstr "هیچ عاملی با شناسهٔ «%1» وجود ندارد"
+
+#: src/agentscommand.cpp:238
+#, kde-format
+msgctxt "@info:shell"
+msgid "ID:      "
+msgstr "شناسه:   "
+
+#: src/agentscommand.cpp:239
+#, kde-format
+msgctxt "@info:shell"
+msgid "Name:    "
+msgstr "نام:     "
+
+#: src/agentscommand.cpp:240
+#, kde-format
+msgctxt "@info:shell"
+msgid "Status:  "
+msgstr "وضعیت:   "
+
+#: src/attributescommand.cpp:80
+msgctxt "info:shell"
+msgid "Show or update attributes for a collection"
+msgstr "نمایش یا به‌روزرسانی ویژگی‌های یک مجموعه"
+
+#: src/attributescommand.cpp:93
+#, kde-format
+msgid "Show the collection attributes (the default operation)"
+msgstr "نمایش ویژگی‌های مجموعه (عملیات پیش‌فرض)"
+
+#: src/attributescommand.cpp:96
+#, kde-format
+msgid "Add an attribute"
+msgstr "افزودن یک ویژگی"
+
+#: src/attributescommand.cpp:99
+#, kde-format
+msgid "Modify an existing attribute"
+msgstr "تغییر یک ویژگی موجود"
+
+#: src/attributescommand.cpp:102
+#, kde-format
+msgid "Delete an existing attribute"
+msgstr "حذف یک ویژگی موجود"
+
+#: src/attributescommand.cpp:105
+#, kde-format
+msgid "Show or interpret the attribute value as hex encoded"
+msgstr "نمایش یا تفسیر مقدار ویژگی به‌صورت کدگذاری‌شده با مبنای شانزده"
+
+#: src/attributescommand.cpp:108
+#, kde-format
+msgid "Save current folder attributes"
+msgstr "ذخیرهٔ ویژگی‌های پوشهٔ فعلی"
+
+#: src/attributescommand.cpp:111
+#, kde-format
+msgid "Check current against saved folder attributes"
+msgstr "بررسی ویژگی‌های فعلی پوشه در برابر ویژگی‌های ذخیره‌شده"
+
+#: src/attributescommand.cpp:114
+#, kde-format
+msgid "Restore changed folder attributes"
+msgstr "بازیابی ویژگی‌های تغییریافتهٔ پوشه"
+
+#: src/attributescommand.cpp:125
+#, kde-format
+msgctxt "@info:shell"
+msgid "The collection: an ID, path or Akonadi URL"
+msgstr "مجموعه: یک شناسه، مسیر یا نشانی اینترنتی آکونادی"
+
+#: src/attributescommand.cpp:126 src/groupcommand.cpp:78
+#, kde-format
+msgctxt "@info:shell"
+msgid "Arguments for the operation"
+msgstr "آرگومان‌های عملیات"
+
+#: src/attributescommand.cpp:126 src/groupcommand.cpp:78
+#, kde-format
+msgid "args..."
+msgstr "آرگومان‌ها..."
+
+#: src/attributescommand.cpp:142
+#, kde-format
+msgctxt "@info:shell"
+msgid "Hex encoded string expected, but length %1 is not even"
+msgstr "رشته با کدگذاری مبنای شانزده مورد انتظار بود، اما طول %1 زوج نیست"
+
+#: src/attributescommand.cpp:149
+#, kde-format
+msgctxt "@info:shell"
+msgid "Hex encoded value contained invalid characters"
+msgstr "مقدار کدگذاری‌شدهٔ هگز شامل نویسه‌های نامعتبر بود"
+
+#: src/attributescommand.cpp:206
+#, kde-format
+msgctxt "@info:shell"
+msgid "Only one operation mode option may be specified"
+msgstr "فقط یک گزینهٔ حالت عملیات می‌تواند مشخص شود"
+
+#: src/attributescommand.cpp:211 src/dumpcommand.cpp:74
+#: src/exportcommand.cpp:50
+#, kde-format
+msgctxt "@info:shell"
+msgid "No collection specified"
+msgstr "هیچ مجموعه‌ای مشخص نشده است"
+
+#: src/attributescommand.cpp:220
+#, kde-format
+msgctxt "@info:shell"
+msgid "No attribute name/value specified to add"
+msgstr "هیچ نام/مقدار صفت برای افزودن مشخص نشده است"
+
+#: src/attributescommand.cpp:228
+#, kde-format
+msgctxt "@info:shell"
+msgid "No attribute name specified to delete"
+msgstr "هیچ نام صفتی برای حذف مشخص نشده است"
+
+#: src/attributescommand.cpp:234
+#, kde-format
+msgctxt "@info:shell"
+msgid "No attribute name/value specified to modify"
+msgstr "هیچ نام/مقدار صفت برای تغییر مشخص نشده است"
+
+#: src/attributescommand.cpp:243
+#, kde-format
+msgctxt "@info:shell"
+msgid "Too many arguments specified, from '%1'"
+msgstr "آرگومان‌های بیش از حد مشخص شده است، از «%1»"
+
+#: src/attributescommand.cpp:269
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot read saved attributes from '%1'"
+msgstr "خواندن صفت‌های ذخیره‌شده از «%1» ممکن نیست"
+
+#: src/attributescommand.cpp:270 src/folderscommand.cpp:181
+#: src/tagscommand.cpp:194
+#, kde-format
+msgctxt "@info:shell"
+msgid "Run '%1 %2 --backup' first"
+msgstr "ابتدا «%1 %2 --backup» را اجرا کنید"
+
+#: src/attributescommand.cpp:304
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collection %2 already has an attribute '%1'"
+msgstr "مجموعهٔ %2 از قبل دارای صفت «%1» است"
+
+#: src/attributescommand.cpp:310
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collection %2 has no attribute '%1'"
+msgstr "مجموعهٔ %2 ویژگی «%1» را ندارد"
+
+#: src/attributescommand.cpp:379
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Collection %1 has no attributes"
+msgstr "مجموعهٔ %1 هیچ ویژگی‌ای ندارد"
+
+#: src/attributescommand.cpp:387
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Collection %2 has %1 attribute:"
+msgid_plural "Collection %2 has %1 attributes:"
+msgstr[0] "مجموعهٔ %2 دارای %1 ویژگی است:"
+msgstr[1] "مجموعهٔ %2 دارای %1 ویژگی است:"
+
+#: src/attributescommand.cpp:403 src/folderscommand.cpp:197
+#, kde-format
+msgctxt "@info:shell"
+msgid "Found %1 current Akonadi collections"
+msgstr "%1 مجموعهٔ فعلی آکونادی پیدا شد"
+
+#: src/attributescommand.cpp:413 src/folderscommand.cpp:213
+#: src/tagscommand.cpp:543
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot save backup list to '%1'"
+msgstr "ذخیرهٔ فهرست پشتیبان در «%1» ممکن نیست"
+
+#: src/attributescommand.cpp:424
+#, kde-format
+msgctxt "@info:shell"
+msgid "Saving collection attributes to '%1'"
+msgstr "در حال ذخیرهٔ ویژگی‌های مجموعه در «%1»"
+
+#: src/attributescommand.cpp:456
+#, kde-format
+msgctxt "@info:shell"
+msgid "Saved attributes for %1 collections"
+msgstr "ویژگی‌ها برای %1 مجموعه ذخیره شد"
+
+#: src/attributescommand.cpp:462
+#, kde-format
+msgctxt "@info:shell"
+msgid "Reading saved attributes from '%1'"
+msgstr "در حال خواندن ویژگی‌های ذخیره‌شده از «%1»"
+
+#: src/attributescommand.cpp:483
+#, kde-format
+msgctxt "@info:shell"
+msgid "Read attributes for %1 collections"
+msgstr "ویژگی‌ها برای %1 مجموعه خوانده شد"
+
+#: src/attributescommand.cpp:507
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Checking current collection attributes"
+msgstr "در حال بررسی ویژگی‌های فعلی مجموعه"
+
+#: src/attributescommand.cpp:531
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Folder '%1' had attributes but is no longer present"
+msgstr "پوشهٔ «%1» دارای مشخصه‌هایی بود اما دیگر وجود ندارد"
+
+#: src/attributescommand.cpp:554
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Cannot fetch collection %1 \"%2\""
+msgstr "نمی‌توان مجموعهٔ %1 «%2» را واکشی کرد"
+
+#: src/attributescommand.cpp:562
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Collection \"%2\" changed ID from %1 to %3"
+msgstr "شناسهٔ مجموعهٔ «%2» از %1 به %3 تغییر یافت"
+
+#: src/attributescommand.cpp:635
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Folder  \"%1\" attribute \"%2\" changed from %3 to %4"
+msgstr "مشخصهٔ «%2» در پوشهٔ «%1» از %3 به %4 تغییر کرد"
+
+#: src/attributescommand.cpp:644
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Folder \"%1\" attribute \"%2\" added %3"
+msgstr "مشخصهٔ «%2» با مقدار %3 به پوشهٔ «%1» اضافه شد"
+
+#: src/attributescommand.cpp:667
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Folder \"%2\" needs update of %1 attribute"
+msgid_plural "Folder \"%2\" needs update of %1 attributes"
+msgstr[0] "پوشهٔ «%2» نیازمند به‌روزرسانی %1 مشخصه است"
+msgstr[1] "پوشهٔ «%2» نیازمند به‌روزرسانی %1 مشخصه است"
+
+#: src/attributescommand.cpp:673
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Folder \"%2\" updating %1 attribute"
+msgid_plural "Folder \"%2\" updating %1 attributes"
+msgstr[0] "پوشهٔ «%2» در حال به‌روزرسانی %1 مشخصه"
+msgstr[1] "پوشهٔ «%2» در حال به‌روزرسانی %1 مشخصه"
+
+#: src/attributescommand.cpp:698
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "No collection attributes need to be restored"
+msgstr "هیچ مشخصه‌ای از مجموعه نیاز به بازیابی ندارد"
+
+#: src/attributescommand.cpp:700
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "No collection attributes needed to be restored"
+msgstr "هیچ مشخصه‌ای از مجموعه نیاز به بازیابی نداشت"
+
+#: src/attributescommand.cpp:705
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Attributes need to be restored for %1 collection"
+msgid_plural "Attributes need to be restored for %1 collections"
+msgstr[0] "مشخصه‌ها برای %1 مجموعه باید بازیابی شوند"
+msgstr[1] "مشخصه‌ها برای %1 مجموعه باید بازیابی شوند"
+
+#: src/attributescommand.cpp:711
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid ""
+"Attribute changes are required, execute the command:<nl/><bcode>  %1 %2 "
+"--restore</bcode><nl/>to implement the changes."
+msgstr ""
+"تغییرات مشخصه لازم است، فرمان زیر را اجرا کنید:<nl/><bcode>  %1 %2 "
+"--restore</bcode><nl/>تا تغییرات اعمال شوند."
+
+#: src/attributescommand.cpp:721
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Attributes were restored for %1 collection"
+msgid_plural "Attributes were restored for %1 collections"
+msgstr[0] "مشخصه‌ها برای %1 مجموعه بازیابی شدند"
+msgstr[1] "مشخصه‌ها برای %1 مجموعه بازیابی شدند"
+
+#: src/collectionlistcommand.cpp:45
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot list any collections"
+msgstr "امکان فهرست کردن هیچ مجموعه‌ای وجود ندارد"
+
+#: src/collectionpathjob.cpp:70
+#, kde-format
+msgctxt "@info:shell 1=collection ID, 2=collection path"
+msgid "%1 (\"/%2\")"
+msgstr "%1 («/%2»)"
+
+#: src/collectionresolvejob.cpp:98
+#, kde-format
+msgctxt "@info:shell"
+msgid "Unknown Akonadi collection format '%1'"
+msgstr "قالب مجموعهٔ آکونادی ناشناخته «%1»"
+
+#: src/collectionresolvejob.cpp:141
+#, kde-format
+msgctxt "@info:shell 1=collection ID"
+msgid "%1 (root)"
+msgstr "%1 (ریشه)"
+
+#: src/collectionresolvejob.cpp:143
+#, kde-format
+msgctxt "@info:shell 1=collection ID, 2=collection name"
+msgid "%1 (\"%2\")"
+msgstr "%1 («%2»)"
+
+#: src/collectionresolvejob.cpp:167
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid item syntax '%1'"
+msgstr "نحو مورد نامعتبر «%1»"
+
+#: src/commandfactory.cpp:61
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ambiguous command '%1', possibilities are '%2'"
+msgstr "دستور مبهم «%1»، گزینه‌های ممکن عبارتند از «%2»"
+
+#: src/commandfactory.cpp:69 src/commandfactory.cpp:121
+#, kde-format
+msgctxt "@info:shell"
+msgid "Unknown command '%1'"
+msgstr "دستور ناشناختهٔ «%1»"
+
+#: src/commandfactory.cpp:109
+#, kde-format
+msgctxt "@info:shell"
+msgid "No command specified (try '%1 --help')"
+msgstr "دستوری مشخص نشده است (‎'%1 --help'‎ را امتحان کنید)"
+
+#: src/commandfactory.cpp:153
+#, kde-format
+msgctxt "@info:shell"
+msgid "Available commands are:"
+msgstr "دستورهای موجود عبارتند از:"
+
+#: src/commandshell.cpp:30
+msgid "Enter commands in an interactive shell"
+msgstr "دستورها را در یک پوستهٔ تعاملی وارد کنید"
+
+#: src/commandshell.cpp:74
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid command"
+msgstr "دستور نامعتبر"
+
+#: src/copycommand.cpp:40
+msgctxt "info:shell"
+msgid "Copy collections or items into a new collection"
+msgstr "رونوشت از مجموعه‌ها یا موارد به یک مجموعهٔ جدید"
+
+#: src/copycommand.cpp:59 src/movecommand.cpp:40
+#, kde-format
+msgid "source..."
+msgstr "مبدأ..."
+
+#: src/copycommand.cpp:59
+#, kde-format
+msgctxt "@info:shell"
+msgid "Existing collections or items to copy"
+msgstr "مجموعه‌ها یا موارد موجود برای رونوشت"
+
+#: src/copycommand.cpp:60
+#, kde-format
+msgctxt "@info:shell"
+msgid "Destination collection to copy into"
+msgstr "مجموعهٔ مقصد برای رونوشت به آن"
+
+#: src/copycommand.cpp:69
+#, kde-format
+msgctxt "@info:shell"
+msgid "Missing source/destination arguments"
+msgstr "آرگومان‌های مبدأ/مقصد یافت نشدند"
+
+#: src/copycommand.cpp:77
+#, kde-format
+msgid "No more sources to process"
+msgstr "مبدأ دیگری برای پردازش وجود ندارد"
+
+#: src/copycommand.cpp:83
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot resolve destination collection '%1', %2"
+msgstr "مجموعهٔ مقصد «%1» واکشی نشد، %2"
+
+#: src/copycommand.cpp:116
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot resolve source '%1', %2"
+msgstr "مبدأ «%1» واکشی نشد، %2"
+
+#: src/copycommand.cpp:141
+#, kde-format
+msgid "Moving contents of %1 -> %2"
+msgstr "در حال انتقال محتوای %1 -> %2"
+
+#: src/copycommand.cpp:143
+#, kde-format
+msgid "Copying contents of %1 -> %2"
+msgstr "در حال رونوشت از محتوای %1 -> %2"
+
+#: src/copycommand.cpp:159
+#, kde-format
+msgid "Moving collection %1 -> %2"
+msgstr "در حال انتقال مجموعهٔ %1 -> %2"
+
+#: src/copycommand.cpp:164
+#, kde-format
+msgid "Copying collection %1 -> %2"
+msgstr "در حال رونوشت از مجموعهٔ %1 -> %2"
+
+#: src/copycommand.cpp:183
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot copy/move from '%1', %2"
+msgstr "امکان رونوشت/انتقال از «%1» وجود ندارد، %2"
+
+#: src/copycommand.cpp:191
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot fetch subcollections of '%1', %2"
+msgstr "امکان واکشی زیرمجموعه‌های «%1» وجود ندارد، %2"
+
+#: src/copycommand.cpp:199
+#, kde-format
+msgid "No sub-collections to copy/move"
+msgstr "زیرمجموعه‌ای برای رونوشت/انتقال وجود ندارد"
+
+#: src/copycommand.cpp:205
+#, kde-format
+msgctxt "@info:shell"
+msgid "Moving %1 sub-collection"
+msgid_plural "Moving %1 sub-collections"
+msgstr[0] "در حال انتقال %1 زیرمجموعه"
+msgstr[1] "در حال انتقال %1 زیرمجموعه"
+
+#: src/copycommand.cpp:207
+#, kde-format
+msgctxt "@info:shell"
+msgid "Copying %1 sub-collection"
+msgid_plural "Copying %1 sub-collections"
+msgstr[0] "در حال رونوشت از %1 زیرمجموعه"
+msgstr[1] "در حال رونوشت از %1 زیرمجموعه"
+
+#: src/copycommand.cpp:220
+#, kde-format
+msgid "No more sub-collections to process"
+msgstr "زیرمجموعهٔ دیگری برای پردازش وجود ندارد"
+
+#: src/copycommand.cpp:253
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot copy/move sub-collection '%2' from '%1', %3"
+msgstr "امکان رونوشت/انتقال زیرمجموعهٔ «%2» از «%1» وجود ندارد، %3"
+
+#: src/copycommand.cpp:270
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot fetch items of '%1', %2"
+msgstr "امکان دریافت موارد «%1» وجود ندارد، %2"
+
+#: src/copycommand.cpp:278
+#, kde-format
+msgid "No items to process"
+msgstr "موردی برای پردازش وجود ندارد"
+
+#: src/copycommand.cpp:285
+#, kde-format
+msgctxt "@info:shell"
+msgid "Moving %1 item"
+msgid_plural "Moving %1 items"
+msgstr[0] "در حال انتقال %1 مورد"
+msgstr[1] "در حال انتقال %1 مورد"
+
+#: src/copycommand.cpp:290
+#, kde-format
+msgctxt "@info:shell"
+msgid "Copying %1 item"
+msgid_plural "Copying %1 items"
+msgstr[0] "در حال رونوشت از %1 مورد"
+msgstr[1] "در حال رونوشت از %1 مورد"
+
+#: src/copycommand.cpp:306
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot copy/move items from '%1', %2"
+msgstr "امکان رونوشت/انتقال موارد از «%1» وجود ندارد، %2"
+
+#: src/createcommand.cpp:35
+msgctxt "info:shell"
+msgid "Create a new collection"
+msgstr "ایجاد مجموعهٔ جدید"
+
+#: src/createcommand.cpp:53
+#, kde-format
+msgid "Parent collection to create in"
+msgstr "مجموعهٔ والد برای ایجاد در آن"
+
+#: src/createcommand.cpp:54
+#, kde-format
+msgid "collection"
+msgstr "مجموعه"
+
+#: src/createcommand.cpp:57
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"The collection to create, either as a path or a name (with a parent "
+"specified)"
+msgstr ""
+"مجموعه‌ای که باید ایجاد شود، به‌صورت یک مسیر یا یک نام (با والد مشخص‌شده)"
+
+#: src/createcommand.cpp:76
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collection argument (with parent) cannot be a path"
+msgstr "آرگومان مجموعه (با والد) نمی‌تواند یک مسیر باشد"
+
+#: src/createcommand.cpp:93
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collection argument (without parent) must be a path"
+msgstr "آرگومان مجموعه (بدون والد) باید یک مسیر باشد"
+
+#: src/createcommand.cpp:102
+#, kde-format
+msgctxt "@info:shell"
+msgid "New collection name not specified"
+msgstr "نام مجموعهٔ جدید مشخص نشده است"
+
+#: src/createcommand.cpp:114
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot fetch parent collection '%1', %2"
+msgstr "واکشی مجموعهٔ والد «%1» ممکن نیست، %2"
+
+#: src/createcommand.cpp:125
+#, kde-format
+msgid "Creating a maildir folder named '%1' may not work"
+msgstr "ایجاد یک پوشهٔ maildir با نام «%1» ممکن است کار نکند"
+
+#: src/createcommand.cpp:144
+#, kde-format
+msgid "Error creating collection '%1' under '%2', %3"
+msgstr "خطا در ایجاد مجموعهٔ «%1» ذیل «%2»، %3"
+
+#: src/createcommand.cpp:156
+#, kde-format
+msgid "Error getting path of new collection, %1"
+msgstr "خطا در دریافت مسیر مجموعهٔ جدید، %1"
+
+#: src/createcommand.cpp:161
+#, kde-format
+msgid "Created new collection '%1'"
+msgstr "مجموعهٔ جدید «%1» ایجاد شد"
+
+#: src/deletecommand.cpp:39
+msgctxt "info:shell"
+msgid "Delete a collection or an item"
+msgstr "حذف یک مجموعه یا مورد"
+
+#: src/deletecommand.cpp:52
+#, kde-format
+msgctxt "@info:shell"
+msgid "The collection or item"
+msgstr "مجموعه یا مورد"
+
+#: src/deletecommand.cpp:58
+#, kde-format
+msgctxt "@info:shell"
+msgid "Missing collection/item argument"
+msgstr "آرگومان مجموعه/مورد مفقود است"
+
+#: src/deletecommand.cpp:104
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot delete the root collection"
+msgstr "نمی‌توان مجموعهٔ ریشه را حذف کرد"
+
+#: src/deletecommand.cpp:121
+#, kde-format
+msgid "Collection deleted successfully"
+msgstr "مجموعه با موفقیت حذف شد"
+
+#: src/deletecommand.cpp:129 src/infocommand.cpp:148
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid item/collection syntax '%1'"
+msgstr "نحو نامعتبر مورد/مجموعه «%1»"
+
+#: src/deletecommand.cpp:152 src/infocommand.cpp:176
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot find '%1' as a collection or item"
+msgstr "«%1» به عنوان مجموعه یا مورد پیدا نمی‌شود"
+
+#: src/deletecommand.cpp:164
+#, kde-format
+msgid "Item deleted successfully"
+msgstr "مورد با موفقیت حذف شد"
+
+#: src/dumpcommand.cpp:46
+msgctxt "info:shell"
+msgid "Dump a collection to a directory structure"
+msgstr "تخلیهٔ یک مجموعه در ساختار پوشه‌ای"
+
+#: src/dumpcommand.cpp:58
+#, kde-format
+msgid "Dump email messages in maildir directory structure"
+msgstr "تخلیهٔ پیام‌های رایانامه در ساختار پوشه‌ای maildir"
+
+#: src/dumpcommand.cpp:61
+#, kde-format
+msgid "Dump items with Akonadi category URLs, otherwise text names"
+msgstr ""
+"تخلیه موارد با نشانی‌های وب دستهٔ آکونادی، در غیر این صورت نام‌های متنی"
+
+#: src/dumpcommand.cpp:64
+#, kde-format
+msgid "Operate even if destination directory is not empty"
+msgstr "عملیات حتی در صورت خالی نبودن پوشهٔ مقصد انجام شود"
+
+#: src/dumpcommand.cpp:67
+#, kde-format
+msgctxt "@info:shell"
+msgid "The collection to dump: an ID, path or Akonadi URL"
+msgstr "مجموعه برای تخلیه: شناسه، مسیر یا نشانی وب آکونادی"
+
+#: src/dumpcommand.cpp:68
+#, kde-format
+msgctxt "@info:shell"
+msgid "The destination directory to dump to"
+msgstr "پوشهٔ مقصد برای تخلیه"
+
+#: src/dumpcommand.cpp:76
+#, kde-format
+msgctxt "@info:shell"
+msgid "No destination directory specified"
+msgstr "هیچ پوشهٔ مقصدی مشخص نشده است"
+
+#: src/dumpcommand.cpp:91
+#, kde-format
+msgctxt "@info:shell"
+msgid "Directory '%1' not found or not a directory"
+msgstr "پوشهٔ «%1» یافت نشد یا یک پوشه نیست"
+
+#: src/dumpcommand.cpp:97
+#, kde-format
+msgctxt "@info:shell"
+msgid "Directory '%1' is not empty (use '-f' to force operation)"
+msgstr "پوشهٔ «%1» خالی نیست (برای اجبار در عملیات از «‎-f» استفاده کنید)"
+
+#: src/dumpcommand.cpp:121 src/listcommand.cpp:261
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collection %1 cannot contain items"
+msgstr "مجموعهٔ %1 نمی‌تواند شامل موردی باشد"
+
+#: src/dumpcommand.cpp:145
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collection %1 contains no items"
+msgstr "مجموعهٔ %1 شامل هیچ موردی نیست"
+
+#: src/dumpcommand.cpp:200 src/editcommand.cpp:103 src/showcommand.cpp:93
+#, kde-format
+msgctxt "@info:shell"
+msgid "Item '%1' has no payload"
+msgstr "مورد «%1» فاقد بار داده (payload) است"
+
+#: src/dumpcommand.cpp:242
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot create directory '%1/%2'"
+msgstr "امکان ایجاد شاخهٔ «%1/%2» وجود ندارد"
+
+#: src/dumpcommand.cpp:319
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot save file '%1'"
+msgstr "امکان ذخیرهٔ پروندهٔ «%1» وجود ندارد"
+
+#: src/editcommand.cpp:37
+msgctxt "info:shell"
+msgid "Edit the raw payload for the specified item using $EDITOR"
+msgstr "ویرایش بار دادهٔ خام برای مورد مشخص‌شده با استفاده از ‎$EDITOR"
+
+#: src/editcommand.cpp:54
+#, kde-format
+msgctxt "@info:shell"
+msgid "The item to edit"
+msgstr "مورد برای ویرایش"
+
+#: src/editcommand.cpp:60 src/updatecommand.cpp:59
+#, kde-format
+msgctxt "@info:shell"
+msgid "No item specified"
+msgstr "هیچ موردی مشخص نشده است"
+
+#: src/editcommand.cpp:95
+#, kde-format
+msgctxt "@info:shell"
+msgid "No result found for item '%1'"
+msgstr "هیچ نتیجه‌ای برای مورد «%1» یافت نشد"
+
+#: src/editcommand.cpp:110
+#, kde-format
+msgctxt "@info:shell"
+msgid "EDITOR environment variable needs to be set"
+msgstr "متغیر محیطی EDITOR باید تنظیم شود"
+
+#: src/editcommand.cpp:124
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot launch text editor '%1'"
+msgstr "امکان اجرای ویرایشگر متنی «%1» وجود ندارد"
+
+#: src/editcommand.cpp:144
+#, kde-format
+msgctxt "@info:shell"
+msgid "Changes to item '%1' have been saved"
+msgstr "تغییرات مورد «%1» ذخیره شدند"
+
+#: src/errorreporter.cpp:41
+#, kde-format
+msgctxt "@info:shell"
+msgid "error"
+msgstr "خطا"
+
+#: src/errorreporter.cpp:46
+#, kde-format
+msgctxt "@info:shell"
+msgid "warning"
+msgstr "هشدار"
+
+#: src/errorreporter.cpp:51
+#, kde-format
+msgctxt "@info:shell"
+msgid "notice"
+msgstr "تذکر"
+
+#: src/errorreporter.cpp:56
+#, kde-format
+msgctxt "@info:shell"
+msgid "success"
+msgstr "موفقیت"
+
+#: src/errorreporter.cpp:61
+#, kde-format
+msgctxt "@info:shell"
+msgid "info"
+msgstr "اطلاعات"
+
+#: src/exportcommand.cpp:31
+msgctxt "info:shell"
+msgid "Export a collection to an XML file"
+msgstr "برون‌ریزی یک مجموعه در یک پروندهٔ XML"
+
+#: src/exportcommand.cpp:43
+#, kde-format
+msgctxt "@info:shell"
+msgid "The collection to export: an ID, path or Akonadi URL"
+msgstr "مجموعه جهت برون‌ریزی: یک شناسه، مسیر یا نشانی وب آکونادی"
+
+#: src/exportcommand.cpp:44
+#, kde-format
+msgctxt "@info:shell"
+msgid "The file to export to"
+msgstr "پروندهٔ مقصد برای برون‌ریزی"
+
+#: src/exportcommand.cpp:52
+#, kde-format
+msgctxt "@info:shell"
+msgid "No export file specified"
+msgstr "هیچ پرونده‌ای برای برون‌ریزی مشخص نشده است"
+
+#: src/folderscommand.cpp:100
+msgctxt "info:shell"
+msgid "Save, check or restore Akonadi folder IDs"
+msgstr "ذخیره، بررسی یا بازیابی شناسه‌های پوشهٔ آکونادی"
+
+#: src/folderscommand.cpp:112
+#, kde-format
+msgid "Save current folder ID assignments"
+msgstr "ذخیرهٔ تخصیص‌های فعلی شناسهٔ پوشه"
+
+#: src/folderscommand.cpp:115
+#, kde-format
+msgid "Check current against saved folder ID assignments"
+msgstr "بررسی شناسه پوشه‌های فعلی در برابر تخصیص‌های ذخیره‌شده"
+
+#: src/folderscommand.cpp:118
+#, kde-format
+msgid "Restore configuration files with changed folder ID assignments"
+msgstr "بازیابی پرونده‌های پیکربندی با شناسه‌های پوشه تخصیص‌یافته تغییریافته"
+
+#: src/folderscommand.cpp:141
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Only one of the 'backup', 'check' or 'restore' options may be specified"
+msgstr "فقط یکی از گزینه‌های «backup»، «check» یا «restore» می‌تواند مشخص شود"
+
+#: src/folderscommand.cpp:145
+#, kde-format
+msgctxt "@info:shell"
+msgid "One of the 'backup', 'check' or 'restore' options must be specified"
+msgstr "یکی از گزینه‌های «backup»، «check» یا «restore» باید مشخص شود"
+
+#: src/folderscommand.cpp:180
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot read saved list from '%1'"
+msgstr "خواندن فهرست ذخیره‌شده از «%1» امکان‌پذیر نیست"
+
+#: src/folderscommand.cpp:231
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot write current list to '%1'"
+msgstr "نوشتن فهرست فعلی در «%1» امکان‌پذیر نیست"
+
+#: src/folderscommand.cpp:299
+#, kde-format
+msgctxt "@info:shell"
+msgid "No folder IDs have changed"
+msgstr "شناسه هیچ پوشه‌ای تغییر نکرده است"
+
+#: src/folderscommand.cpp:304
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1 folder IDs have changed"
+msgstr "شناسه پوشه %1 تغییر کرده است"
+
+#: src/folderscommand.cpp:321
+#, kde-format
+msgctxt "@info:shell"
+msgid "Processing config file '%1'..."
+msgstr "در حال پردازش پرونده پیکربندی «%1»..."
+
+#: src/folderscommand.cpp:393
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot rename group \"%1\" for folder \"%2\" which no longer exists"
+msgstr "تغییر نام گروه «%1» برای پوشه «%2» که دیگر وجود ندارد، ممکن نیست"
+
+#: src/folderscommand.cpp:399
+#, kde-format
+msgctxt "@info:shell"
+msgid "Group \"%1\" for folder \"%2\" renamed to \"%3\""
+msgstr "گروه «%1» برای پوشهٔ «%2» به «%3» تغییر نام یافت"
+
+#: src/folderscommand.cpp:413
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1 groups were renamed"
+msgstr "%1 گروه تغییر نام یافتند"
+
+#: src/folderscommand.cpp:498
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot update \"%1\" in group \"%2\" for folder \"%3\" which no longer exists"
+msgstr ""
+"نمی‌توان «%1» را در گروه «%2» برای پوشهٔ «%3» که دیگر وجود ندارد به‌روزرسانی"
+" کرد"
+
+#: src/folderscommand.cpp:508
+#, kde-format
+msgctxt "@info:shell"
+msgid "Updated \"%1\" in group \"%2\" for folder \"%3\" to %4"
+msgstr "«%1» در گروه «%2» برای پوشهٔ «%3» به %4 به‌روزرسانی شد"
+
+#: src/folderscommand.cpp:530
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1 settings values were changed"
+msgstr "مقادیر %1 تنظیم تغییر یافتند"
+
+#: src/folderscommand.cpp:536
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "No configuration changes are required"
+msgstr "نیازی به تغییر پیکربندی نیست"
+
+#: src/folderscommand.cpp:542
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid ""
+"Configuration changes are required (%1 group renames and %2 settings "
+"changes)"
+msgstr "تغییرات پیکربندی نیاز است (%1 تغییر نام گروه و %2 تغییر در تنظیمات)"
+
+#: src/folderscommand.cpp:544
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid ""
+"Quit all running PIM applications and stop the Akonadi server, "
+"then<nl/>execute the command:<nl/><bcode>  %1 %2 --restore</bcode><nl/>to "
+"implement the changes."
+msgstr ""
+"از همهٔ برنامه‌های در حال اجرای PIM خارج شده و کارساز آکونادی را متوقف کنید،"
+" سپس<nl/>دستور زیر را اجرا کنید:<nl/><bcode>  %1 %2 --restore</bcode><nl/>تا"
+" تغییرات اعمال شوند."
+
+#: src/folderscommand.cpp:558
+#, kde-format
+msgctxt "@info:shell"
+msgid "Saving folder paths to '%1'"
+msgstr "در حال ذخیرهٔ مسیرهای پوشه در «%1»"
+
+#: src/folderscommand.cpp:565
+#, kde-format
+msgctxt "@info:shell"
+msgid "Saved %1 collection folder paths"
+msgstr "مسیرهای پوشهٔ مجموعهٔ %1 ذخیره شد"
+
+#: src/folderscommand.cpp:570
+#, kde-format
+msgctxt "@info:shell"
+msgid "Reading saved folder paths from '%1'"
+msgstr "خواندن مسیرهای پوشه ذخیره‌شده از «%1»"
+
+#: src/folderscommand.cpp:581
+#, kde-format
+msgctxt "@info:shell"
+msgid "Read %1 saved collection paths"
+msgstr "%1 مسیر مجموعه ذخیره‌شده خوانده شد"
+
+#: src/folderscommand.cpp:601
+#, kde-format
+msgctxt "@info:shell"
+msgid "Folder \"%1\" was ID %2 but is no longer present"
+msgstr "پوشه «%1» دارای شناسه %2 بود اما دیگر وجود ندارد"
+
+#: src/folderscommand.cpp:604
+#, kde-format
+msgctxt "@info:shell"
+msgid "Folder \"%1\" changed ID from %2 to %3"
+msgstr "شناسه پوشه «%1» از %2 به %3 تغییر یافت"
+
+#: src/folderscommand.cpp:669
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Defined %1 change data patterns for %2 config file names"
+msgstr "%1 الگوی داده تغییر برای %2 نام پرونده پیکربندی تعریف شد"
+
+#: src/folderscommand.cpp:685
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Saved folder list '%1' does not exist"
+msgstr "فهرست پوشه ذخیره‌شده «%1» وجود ندارد"
+
+#: src/folderscommand.cpp:689
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Current folder list '%1' does not exist"
+msgstr "فهرست پوشه فعلی «%1» وجود ندارد"
+
+#: src/folderscommand.cpp:693
+#, kde-format
+msgctxt "@info:shell"
+msgid "Current folder list '%1' is older than saved folder list '%2'"
+msgstr "فهرست پوشه فعلی «%1» قدیمی‌تر از فهرست پوشه ذخیره‌شده «%2» است"
+
+#: src/folderscommand.cpp:707
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"New configuration file '%1' does not exist, or is older than folder list "
+"'%2'"
+msgstr ""
+"پرونده پیکربندی جدید «%1» وجود ندارد، یا قدیمی‌تر از فهرست پوشه «%2» است"
+
+#: src/folderscommand.cpp:718
+#, kde-format
+msgctxt "@info:shell"
+msgid "Run '%1 %2 --check' first"
+msgstr "ابتدا «%1 %2 --check» را اجرا کنید"
+
+#: src/folderscommand.cpp:725
+#, kde-format
+msgctxt "@info:shell"
+msgid "Checking whether the Akonadi server is running..."
+msgstr "بررسی اینکه آیا کارساز آکونادی در حال اجرا است یا خیر..."
+
+#: src/folderscommand.cpp:730
+#, kde-format
+msgctxt "@info:shell"
+msgid "Akonadi server is stopped"
+msgstr "کارساز آکونادی متوقف است"
+
+#: src/folderscommand.cpp:735
+#, kde-format
+msgctxt "@info:shell"
+msgid "Shutting down Akonadi server"
+msgstr "در حال خاموش کردن کارساز آکونادی"
+
+#: src/folderscommand.cpp:744
+#, kde-format
+msgctxt "@info:shell"
+msgid "Updating %1 configuration files in '%2'"
+msgstr "به‌روزرسانی %1 پروندهٔ پیکربندی در «%2»"
+
+#: src/folderscommand.cpp:755
+#, kde-format
+msgctxt "@info:shell"
+msgid "Removing old '%1'"
+msgstr "حذف «%1» قدیمی"
+
+#: src/folderscommand.cpp:758
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot remove old '%1'"
+msgstr "امکان حذف «%1» قدیمی وجود ندارد"
+
+#: src/folderscommand.cpp:763
+#, kde-format
+msgctxt "@info:shell"
+msgid "Copying new '%2' to '%1'"
+msgstr "رونوشت «%2» جدید در «%1»"
+
+#: src/folderscommand.cpp:766
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot copy new '%2' to '%1'"
+msgstr "امکان رونوشت «%2» جدید در «%1» وجود ندارد"
+
+#: src/folderscommand.cpp:769
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot remove copied file '%1'"
+msgstr "امکان حذف پروندهٔ رونوشت‌شدهٔ «%1» وجود ندارد"
+
+#: src/folderscommand.cpp:775
+#, kde-format
+msgctxt "@info:shell"
+msgid "Restore finished"
+msgstr "بازیابی به پایان رسید"
+
+#: src/folderscommand.cpp:788
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot locate user configuration directory"
+msgstr "پوشهٔ پیکربندی کاربر پیدا نشد"
+
+#: src/folderscommand.cpp:795
+#, kde-format
+msgctxt "@info:shell"
+msgid "Configuration directory '%1' does not exist"
+msgstr "پوشهٔ پیکربندی «%1» وجود ندارد"
+
+#: src/folderscommand.cpp:816
+#, kde-format
+msgctxt "@info:shell"
+msgid "No applicable configuration files found"
+msgstr "هیچ پروندهٔ پیکربندیِ قابل اعمالی یافت نشد"
+
+#: src/groupcommand.cpp:39
+msgctxt "info:shell"
+msgid "Expand or modify a contact group"
+msgstr "گسترش یا تغییر گروه مخاطبان"
+
+#: src/groupcommand.cpp:58
+#, kde-format
+msgid "Show the expanded contact group (the default operation)"
+msgstr "نمایش گروه مخاطبان گسترش‌یافته (عملیات پیش‌فرض)"
+
+#: src/groupcommand.cpp:61
+#, kde-format
+msgid "Add a contact to the group"
+msgstr "افزودن یک مخاطب به گروه"
+
+#: src/groupcommand.cpp:64
+#, kde-format
+msgid "Delete a contact from the group"
+msgstr "حذف یک مخاطب از گروه"
+
+#: src/groupcommand.cpp:67
+#, kde-format
+msgid "Remove unknown item references from the group"
+msgstr "حذف ارجاعات موارد ناشناخته از گروه"
+
+#: src/groupcommand.cpp:70
+#, kde-format
+msgid "Email comment (name) for an added item"
+msgstr "توضیح رایانامه (نام) برای مورد افزوده‌شده"
+
+#: src/groupcommand.cpp:71
+#, kde-format
+msgid "name"
+msgstr "نام"
+
+#: src/groupcommand.cpp:74
+#, kde-format
+msgid "Brief output (for 'expand', email addresses only)"
+msgstr "خروجی خلاصه (برای «expand»، فقط نشانی‌های رایانامه)"
+
+#: src/groupcommand.cpp:77
+#, kde-format
+msgctxt "@info:shell"
+msgid "The contact group item, an ID or Akonadi URL"
+msgstr "مورد گروه مخاطب، یک شناسه یا نشانی اینترنتی آکونادی"
+
+#: src/groupcommand.cpp:84
+#, kde-format
+msgctxt "@info:shell"
+msgid "Missing group argument"
+msgstr "آرگومان گروه وجود ندارد"
+
+#: src/groupcommand.cpp:104
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Only one of the 'expand', 'add', 'delete' or 'clean' options may be "
+"specified"
+msgstr ""
+"فقط یکی از گزینه‌های «expand»،‏ «add»،‏ «delete» یا «clean» می‌تواند مشخص "
+"شود"
+
+#: src/groupcommand.cpp:115
+#, kde-format
+msgctxt "@info:shell"
+msgid "No items specified to add"
+msgstr "هیچ موردی برای افزودن مشخص نشده است"
+
+#: src/groupcommand.cpp:124
+#, kde-format
+msgctxt "@info:shell"
+msgid "Only one item may be specified to add with 'comment'"
+msgstr "همراه با «comment» فقط یک مورد را می‌توان برای افزودن مشخص کرد"
+
+#: src/groupcommand.cpp:133
+#, kde-format
+msgctxt "@info:shell"
+msgid "No items specified to delete"
+msgstr "هیچ موردی برای حذف مشخص نشده است"
+
+#: src/groupcommand.cpp:147
+#, kde-format
+msgctxt "@info:shell"
+msgid "The 'comment' option is only allowed with 'add'"
+msgstr "گزینهٔ «comment» فقط همراه با «add» مجاز است"
+
+#: src/groupcommand.cpp:197
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot find '%1' as an item"
+msgstr "مورد «%1» یافت نشد"
+
+#: src/groupcommand.cpp:204
+#, kde-format
+msgctxt "@info:shell"
+msgid "Item '%1' is not a contact group"
+msgstr "مورد «%1» یک گروه مخاطب نیست"
+
+#: src/groupcommand.cpp:210
+#, kde-format
+msgctxt "@info:shell"
+msgid "Item '%1' has no contact group payload"
+msgstr "مورد «%1» فاقد بار داده‌ای گروه مخاطب است"
+
+#: src/groupcommand.cpp:248
+#, kde-format
+msgctxt "@info:shell"
+msgid "Errors occurred, group not updated"
+msgstr "خطاهایی رخ داد، گروه به‌روزرسانی نشد"
+
+#: src/groupcommand.cpp:292
+#, kde-format
+msgctxt "@info:shell"
+msgid "(unknown referenced item)"
+msgstr "(مورد ارجاع‌شده ناشناخته)"
+
+#: src/groupcommand.cpp:299 src/groupcommand.cpp:320
+#, kde-format
+msgctxt "@info:shell"
+msgid "(item has no Addressee payload)"
+msgstr "(مورد فاقد بار داده‌ای مخاطب است)"
+
+#: src/groupcommand.cpp:339
+#, kde-format
+msgctxt "@item:shell"
+msgid "(invalid referenced item)"
+msgstr "(مورد ارجاع‌شده نامعتبر)"
+
+#: src/groupcommand.cpp:341
+#, kde-format
+msgctxt "@item:shell"
+msgid "(unknown referenced item)"
+msgstr "(مورد ارجاع‌شده ناشناخته)"
+
+#: src/groupcommand.cpp:392
+#, kde-format
+msgctxt ""
+"@info:shell section header 1=item 2=groupref count 3=ref count 4=data count "
+"5=name"
+msgid "Group %1 \"%5\" has %2 groups, %3 references and %4 data items:"
+msgstr "گروه %1 «%5» دارای %2 گروه، %3 ارجاع و %4 مورد داده است:"
+
+#: src/groupcommand.cpp:401
+#, kde-format
+msgctxt "@info:shell column header"
+msgid "Type"
+msgstr "نوع"
+
+#: src/groupcommand.cpp:402 src/listcommand.cpp:182 src/listcommand.cpp:289
+#: src/tagscommand.cpp:511
+#, kde-format
+msgctxt "@info:shell column header"
+msgid "ID"
+msgstr "شناسه"
+
+#: src/groupcommand.cpp:403
+#, kde-format
+msgctxt "@info:shell column header"
+msgid "Email"
+msgstr "رایانامه"
+
+#: src/groupcommand.cpp:404 src/listcommand.cpp:183 src/tagscommand.cpp:513
+#, kde-format
+msgctxt "@info:shell column header"
+msgid "Name"
+msgstr "نام"
+
+#: src/groupcommand.cpp:438
+#, kde-format
+msgctxt "@info:shell"
+msgid "No items could be fetched"
+msgstr "هیچ موردی واکشی نشد"
+
+#: src/groupcommand.cpp:497
+#, kde-format
+msgctxt ""
+"@info:shell section header 1=item 2=groupref count 3=ref count 4=data count "
+"5=name"
+msgid "Adding to group %1 \"%2\":"
+msgstr "در حال افزودن به گروه %1 «%2»:"
+
+#: src/groupcommand.cpp:512 src/groupcommand.cpp:624
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot search for email '%1', %2"
+msgstr "امکان جستجو برای رایانامهٔ «%1» وجود ندارد، %2"
+
+#: src/groupcommand.cpp:523
+#, kde-format
+msgctxt "@info:shell"
+msgid "Multiple contacts found for '%1', using the first one"
+msgstr "چندین مخاطب برای «%1» پیدا شد، از اولین مورد استفاده می‌شود"
+
+#: src/groupcommand.cpp:558
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot fetch requested item %1, %2"
+msgstr "امکان واکشی مورد درخواستی %1 وجود ندارد، %2"
+
+#: src/groupcommand.cpp:568
+#, kde-format
+msgctxt "@info:shell"
+msgid "Item %1 is not a contact item"
+msgstr "مورد %1 یک مورد مخاطب نیست"
+
+#: src/groupcommand.cpp:583 src/groupcommand.cpp:666 src/groupcommand.cpp:715
+#, kde-format
+msgctxt ""
+"@info:shell section header 1=item 2=groupref count 3=ref count 4=data count "
+"5=name"
+msgid "Group %1 \"%5\" now has %2 groups, %3 references and %4 data items"
+msgstr "گروه %1 «%5» اکنون شامل %2 گروه، %3 مرجع و %4 مورد داده است"
+
+#: src/groupcommand.cpp:601
+#, kde-format
+msgctxt ""
+"@info:shell section header 1=item 2=groupref count 3=ref count 4=data count "
+"5=name"
+msgid "Removing from group %1 \"%2\":"
+msgstr "در حال حذف از گروه %1 «%2»:"
+
+#: src/groupcommand.cpp:638
+#, kde-format
+msgctxt "@info:shell"
+msgid "Nothing to remove for email '%1'"
+msgstr "چیزی برای حذف مربوط به رایانامهٔ «%1» وجود ندارد"
+
+#: src/groupcommand.cpp:682
+#, kde-format
+msgctxt ""
+"@info:shell section header 1=item 2=groupref count 3=ref count 4=data count "
+"5=name"
+msgid "Cleaning references from group %1 \"%2\":"
+msgstr "پاک‌سازی ارجاع‌ها از گروه %1 «%2»:"
+
+#: src/importcommand.cpp:39
+msgctxt "info:shell"
+msgid "Import an XML file"
+msgstr "درون‌ریزی پروندهٔ XML"
+
+#: src/importcommand.cpp:56
+#, kde-format
+msgctxt "@info:shell"
+msgid "The parent collection under which to import the file"
+msgstr "مجموعهٔ والد برای درون‌ریزی پرونده در آن"
+
+#: src/importcommand.cpp:57
+#, kde-format
+msgctxt "@info:shell"
+msgid "The file to import"
+msgstr "پرونده برای درون‌ریزی"
+
+#: src/importcommand.cpp:63
+#, kde-format
+msgctxt "@info:shell"
+msgid "No parent collection specified"
+msgstr "هیچ مجموعهٔ والدی مشخص نشده است"
+
+#: src/importcommand.cpp:65
+#, kde-format
+msgctxt "@info:shell"
+msgid "No import file specified"
+msgstr "هیچ پرونده‌ای برای درون‌ریزی مشخص نشده است"
+
+#: src/importcommand.cpp:77
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid XML file, %1"
+msgstr "پروندهٔ XML نامعتبر، %1"
+
+#: src/importcommand.cpp:94
+#, kde-format
+msgctxt "@info:shell"
+msgid "Unable to fetch parent collection, %1"
+msgstr "امکان واکشی مجموعهٔ والد وجود ندارد، %1"
+
+#: src/importcommand.cpp:103
+#, kde-format
+msgctxt "@info:shell"
+msgid "Unable to fetch children of parent collection, %1"
+msgstr "امکان واکشی فرزندان مجموعهٔ والد وجود ندارد، %1"
+
+#: src/importcommand.cpp:122
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collection '%1' already exists"
+msgstr "مجموعهٔ «%1» از قبل وجود دارد"
+
+#: src/importcommand.cpp:126
+#, kde-format
+msgctxt "@info:shell"
+msgid "Creating collection '%1'"
+msgstr "در حال ایجاد مجموعهٔ «%1»"
+
+#: src/importcommand.cpp:148
+#, kde-format
+msgctxt "@info:shell"
+msgid "Processing collection '%1'"
+msgstr "در حال پردازش مجموعهٔ «%1»"
+
+#: src/importcommand.cpp:155
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid parent for collection with remote ID '%1'"
+msgstr "والد نامعتبر برای مجموعه با شناسهٔ دوردست «%1»"
+
+#: src/importcommand.cpp:176
+#, kde-format
+msgctxt "@info:shell"
+msgid "Unable to fetch collection with remote ID '%1', %2"
+msgstr "عدم امکان دریافت مجموعه با شناسهٔ دوردست «%1»، %2"
+
+#: src/importcommand.cpp:194
+#, kde-format
+msgctxt "@info:shell"
+msgid "Unable to create collection with remote ID '%1'"
+msgstr "عدم امکان ایجاد مجموعه با شناسهٔ دوردست «%1»"
+
+#: src/importcommand.cpp:212
+#, kde-format
+msgctxt "@info:shell"
+msgid "Processing items for '%1'"
+msgstr "در حال پردازش موارد برای «%1»"
+
+#: src/importcommand.cpp:234
+#, kde-format
+msgctxt "@info:shell"
+msgid "Error creating item, %1"
+msgstr "خطا در ایجاد مورد، %1"
+
+#: src/importcommand.cpp:237
+#, kde-format
+msgctxt "@info:shell"
+msgid "Created item '%1'"
+msgstr "مورد «%1» ایجاد شد"
+
+#: src/infocommand.cpp:38
+msgctxt "info:shell"
+msgid "Show full information for a collection or item"
+msgstr "نمایش اطلاعات کامل یک مجموعه یا مورد"
+
+#: src/infocommand.cpp:57
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collections or items to display"
+msgstr "مجموعه‌ها یا مواردی که باید نمایش داده شوند"
+
+#: src/infocommand.cpp:57
+#, kde-format
+msgid "entity..."
+msgstr "موجودیت..."
+
+#: src/infocommand.cpp:63
+#, kde-format
+msgctxt "@info:shell"
+msgid "No collections or items specified"
+msgstr "هیچ مجموعه یا موردی مشخص نشده است"
+
+#: src/infocommand.cpp:117
+#, kde-format
+msgctxt "@info:shell"
+msgid "No information available for collection root"
+msgstr "هیچ اطلاعاتی برای ریشهٔ مجموعه در دسترس نیست"
+
+#: src/infocommand.cpp:220 src/infocommand.cpp:267
+#, kde-format
+msgctxt "@info:shell"
+msgid "ID"
+msgstr "شناسه"
+
+#: src/infocommand.cpp:221 src/infocommand.cpp:268
+#, kde-format
+msgctxt "@info:shell"
+msgid "URL"
+msgstr "نشانی وب"
+
+#: src/infocommand.cpp:222 src/infocommand.cpp:269
+#, kde-format
+msgctxt "@info:shell"
+msgid "Parent"
+msgstr "والد"
+
+#: src/infocommand.cpp:223 src/infocommand.cpp:270 src/infocommand.cpp:302
+#, kde-format
+msgctxt "@info:shell"
+msgid "Type"
+msgstr "نوع"
+
+#: src/infocommand.cpp:223
+#, kde-format
+msgctxt "@info:shell entity type"
+msgid "Collection"
+msgstr "مجموعه"
+
+#: src/infocommand.cpp:224
+#, kde-format
+msgctxt "@info:shell"
+msgid "Name"
+msgstr "نام"
+
+#: src/infocommand.cpp:225
+#, kde-format
+msgctxt "@info:shell"
+msgid "Owner"
+msgstr "مالک"
+
+#: src/infocommand.cpp:226 src/infocommand.cpp:271
+#, kde-format
+msgctxt "@info:shell"
+msgid "MIME"
+msgstr "MIME"
+
+#: src/infocommand.cpp:227 src/infocommand.cpp:275
+#, kde-format
+msgctxt "@info:shell"
+msgid "Remote ID"
+msgstr "شناسهٔ دوردست"
+
+#: src/infocommand.cpp:228
+#, kde-format
+msgctxt "@info:shell"
+msgid "Path"
+msgstr "مسیر"
+
+#: src/infocommand.cpp:233
+#, kde-format
+msgctxt "@info:shell"
+msgid "ReadOnly"
+msgstr "فقط‌خواندنی"
+
+#: src/infocommand.cpp:236
+#, kde-format
+msgctxt "@info:shell"
+msgid "ChangeItem"
+msgstr "تغییر مورد"
+
+#: src/infocommand.cpp:239
+#, kde-format
+msgctxt "@info:shell"
+msgid "CreateItem"
+msgstr "ایجاد مورد"
+
+#: src/infocommand.cpp:242
+#, kde-format
+msgctxt "@info:shell"
+msgid "DeleteItem"
+msgstr "حذف مورد"
+
+#: src/infocommand.cpp:245
+#, kde-format
+msgctxt "@info:shell"
+msgid "ChangeColl"
+msgstr "تغییر مجموعه"
+
+#: src/infocommand.cpp:248
+#, kde-format
+msgctxt "@info:shell"
+msgid "CreateColl"
+msgstr "ایجاد مجموعه"
+
+#: src/infocommand.cpp:251
+#, kde-format
+msgctxt "@info:shell"
+msgid "DeleteColl"
+msgstr "حذف مجموعه"
+
+#: src/infocommand.cpp:254
+#, kde-format
+msgctxt "@info:shell"
+msgid "LinkItem"
+msgstr "پیوند دادن مورد"
+
+#: src/infocommand.cpp:257
+#, kde-format
+msgctxt "@info:shell"
+msgid "UnlinkItem"
+msgstr "برداشتن پیوند مورد"
+
+#: src/infocommand.cpp:259
+#, kde-format
+msgctxt "@info:shell"
+msgid "Rights"
+msgstr "حقوق دسترسی"
+
+#: src/infocommand.cpp:262
+#, kde-format
+msgctxt "@info:shell"
+msgid "Count"
+msgstr "تعداد"
+
+#: src/infocommand.cpp:263
+#, kde-format
+msgctxt "@info:shell"
+msgid "Unread"
+msgstr "خوانده‌نشده"
+
+#: src/infocommand.cpp:265 src/infocommand.cpp:299
+#, kde-format
+msgctxt "@info:shell"
+msgid "Size"
+msgstr "اندازه"
+
+#: src/infocommand.cpp:270
+#, kde-format
+msgctxt "@info:shell entity type"
+msgid "Item"
+msgstr "مورد"
+
+#: src/infocommand.cpp:273
+#, kde-format
+msgctxt "@info:shell"
+msgid "Modified"
+msgstr "تغییریافته"
+
+#: src/infocommand.cpp:274
+#, kde-format
+msgctxt "@info:shell"
+msgid "Revision"
+msgstr "بازبینی"
+
+#: src/infocommand.cpp:276
+#, kde-format
+msgctxt "@info:shell"
+msgid "Payload"
+msgstr "بار داده"
+
+#: src/infocommand.cpp:276
+#, kde-format
+msgctxt "@info:shell"
+msgid "yes"
+msgstr "بله"
+
+#: src/infocommand.cpp:276
+#, kde-format
+msgctxt "@info:shell"
+msgid "no"
+msgstr "خیر"
+
+#: src/infocommand.cpp:284 src/infocommand.cpp:294
+#, kde-format
+msgctxt "@info:shell"
+msgid "(none)"
+msgstr "(هیچ)"
+
+#: src/infocommand.cpp:286
+#, kde-format
+msgctxt "@info:shell"
+msgid "Flags"
+msgstr "پرچم‌ها"
+
+#: src/infocommand.cpp:296
+#, kde-format
+msgctxt "@info:shell"
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: src/infocommand.cpp:302
+#, kde-format
+msgctxt "@info:shell entity type"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: src/listcommand.cpp:35
+msgctxt "info:shell"
+msgid "List sub-collections and/or items in a specified collection"
+msgstr "فهرست کردن زیرمجموعه‌ها و/یا موارد در یک مجموعهٔ مشخص‌شده"
+
+#: src/listcommand.cpp:47
+#, kde-format
+msgid "List more detailed information"
+msgstr "فهرست کردن اطلاعات با جزئیات بیشتر"
+
+#: src/listcommand.cpp:50
+#, kde-format
+msgid "List only sub-collections"
+msgstr "فهرست کردن تنها زیرمجموعه‌ها"
+
+#: src/listcommand.cpp:53
+#, kde-format
+msgid "List only contained items"
+msgstr "فهرست کردن تنها موارد موجود"
+
+#: src/listcommand.cpp:56
+#, kde-format
+msgid "List sub-collections recursively"
+msgstr "فهرست کردن بازگشتی زیرمجموعه‌ها"
+
+#: src/listcommand.cpp:58
+#, kde-format
+msgctxt "@info:shell"
+msgid "The collection to list: an ID, path or Akonadi URL"
+msgstr "مجموعه جهت فهرست‌کردن: شناسه، مسیر یا نشانی وب آکونادی"
+
+#: src/listcommand.cpp:75
+#, kde-format
+msgctxt "@info:shell"
+msgid "Recursive list can only be used for collections"
+msgstr "فهرست بازگشتی فقط برای مجموعه‌ها قابل استفاده است"
+
+#: src/listcommand.cpp:158
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collection %1 has no sub-collections"
+msgstr "مجموعهٔ %1 هیچ زیرمجموعه‌ای ندارد"
+
+#: src/listcommand.cpp:167
+#, kde-format
+msgctxt "@info:shell output section header 1=count, 2=collection"
+msgid "Collection %2 has %1 recursive sub-collection:"
+msgid_plural "Collection %2 has %1 recursive sub-collections:"
+msgstr[0] "مجموعهٔ %2 دارای %1 زیرمجموعهٔ بازگشتی است:"
+msgstr[1] "مجموعهٔ %2 دارای %1 زیرمجموعهٔ بازگشتی است:"
+
+#: src/listcommand.cpp:173
+#, kde-format
+msgctxt "@info:shell output section header 1=count, 2=collection"
+msgid "Collection %2 has %1 sub-collection:"
+msgid_plural "Collection %2 has %1 sub-collections:"
+msgstr[0] "مجموعهٔ %2 دارای %1 زیرمجموعه است:"
+msgstr[1] "مجموعهٔ %2 دارای %1 زیرمجموعه است:"
+
+#: src/listcommand.cpp:276
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collection %1 has no items"
+msgstr "مجموعهٔ %1 هیچ موردی ندارد"
+
+#: src/listcommand.cpp:282
+#, kde-format
+msgctxt "@info:shell output section header 1=count, 2=collection"
+msgid "Collection %2 has %1 item:"
+msgid_plural "Collection %2 has %1 items:"
+msgstr[0] "مجموعهٔ %2 دارای %1 مورد است:"
+msgstr[1] "مجموعهٔ %2 دارای %1 مورد است:"
+
+#: src/listcommand.cpp:290
+#, kde-format
+msgctxt "@info:shell column header"
+msgid "MIME type"
+msgstr "نوع MIME"
+
+#: src/listcommand.cpp:291
+#, kde-format
+msgctxt "@info:shell column header"
+msgid "Size"
+msgstr "اندازه"
+
+#: src/listcommand.cpp:292
+#, kde-format
+msgctxt "@info:shell column header"
+msgid "Modification Time"
+msgstr "زمان تغییر"
+
+#: src/main.cpp:45
+#, kde-format
+msgctxt "@title program name"
+msgid "Akonadi Client"
+msgstr "کلاینت آکونادی"
+
+#: src/main.cpp:47
+#, kde-format
+msgctxt "@info:shell short description"
+msgid "A command-line/shell client for Akonadi"
+msgstr "یک کلاینت خط‌فرمان/پوسته برای آکونادی"
+
+#: src/main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Kevin Krammer"
+msgstr "Kevin Krammer"
+
+#: src/main.cpp:51
+#, kde-format
+msgctxt "@title about data task"
+msgid "Original Author"
+msgstr "نویسنده اصلی"
+
+#: src/main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Jonathan Marten"
+msgstr "Jonathan Marten"
+
+#: src/main.cpp:52
+#, kde-format
+msgctxt "@title about data task"
+msgid "Additions and new commands"
+msgstr "افزوده‌ها و دستورهای جدید"
+
+#: src/main.cpp:53
+#, kde-format
+msgctxt "@info:credit"
+msgid "Bhaskar Kandiyal"
+msgstr "Bhaskar Kandiyal"
+
+#: src/main.cpp:53
+#, kde-format
+msgctxt "@title about data task"
+msgid "New commands, GSOC 2014"
+msgstr "دستورهای جدید، GSOC 2014"
+
+#: src/main.cpp:66
+#, kde-format
+msgctxt "@info:shell"
+msgid "Command to execute"
+msgstr "دستور برای اجرا"
+
+#: src/main.cpp:68
+#, kde-format
+msgctxt "@info:shell"
+msgid "Arguments for command"
+msgstr "آرگومان‌های دستور"
+
+#: src/main.cpp:68
+#, kde-format
+msgctxt "@info:shell"
+msgid "[args]"
+msgstr "[آرگومان‌ها]"
+
+#: src/main.cpp:86
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"See '%1 help' for available commands.\n"
+"See '%1 help command' for information on a specific command."
+msgstr ""
+"برای دستورهای موجود «%1 help» را ببینید.\n"
+"برای اطلاعات دربارهٔ یک دستور خاص «%1 help command» را ببینید."
+
+#: src/movecommand.cpp:27
+msgctxt "info:shell"
+msgid "Move collections or items into a new collection"
+msgstr "انتقال مجموعه‌ها یا موارد به یک مجموعهٔ جدید"
+
+#: src/movecommand.cpp:40
+#, kde-format
+msgctxt "@info:shell"
+msgid "Existing collections or items to move"
+msgstr "مجموعه‌ها یا موارد موجود برای انتقال"
+
+#: src/movecommand.cpp:41
+#, kde-format
+msgctxt "@info:shell"
+msgid "Destination collection to move into"
+msgstr "مجموعهٔ مقصد برای انتقال به آن"
+
+#: src/renamecommand.cpp:33
+msgctxt "info:shell"
+msgid "Rename a collection"
+msgstr "تغییر نام یک مجموعه"
+
+#: src/renamecommand.cpp:45
+#, kde-format
+msgctxt "@info:shell"
+msgid "The collection to rename"
+msgstr "مجموعه جهت تغییر نام"
+
+#: src/renamecommand.cpp:46
+#, kde-format
+msgctxt "@info:shell"
+msgid "New name for collection"
+msgstr "نام جدید برای مجموعه"
+
+#: src/renamecommand.cpp:54
+#, kde-format
+msgctxt "@info:shell"
+msgid "New name not specified"
+msgstr "نام جدید مشخص نشده است"
+
+#: src/renamecommand.cpp:97
+#, kde-format
+msgctxt "@info:shell"
+msgid "Collection renamed successfully"
+msgstr "نام مجموعه با موفقیت تغییر یافت"
+
+#: src/showcommand.cpp:34
+msgctxt "info:shell"
+msgid "Show the raw payload of an item"
+msgstr "نمایش بار دادهٔ خام یک مورد"
+
+#: src/showcommand.cpp:43
+#, kde-format
+msgctxt "@info:shell"
+msgid "The items to show"
+msgstr "موارد جهت نمایش"
+
+#: src/showcommand.cpp:43
+#, kde-format
+msgctxt "@info:shell"
+msgid "item..."
+msgstr "مورد..."
+
+#: src/showcommand.cpp:45
+#, kde-format
+msgctxt "@info:shell"
+msgid "Use raw payload (disables quoted-printable decoding)"
+msgstr "استفاده از بار دادهٔ خام (غیرفعال‌سازی رمزگشایی quoted-printable)"
+
+#: src/showcommand.cpp:51
+#, kde-format
+msgctxt "@info:shell"
+msgid "No items specified"
+msgstr "هیچ موردی مشخص نشده است"
+
+#: src/showcommand.cpp:89 src/updatecommand.cpp:116
+#, kde-format
+msgctxt "@info:shell"
+msgid "No result returned for item '%1'"
+msgstr "هیچ نتیجه‌ای برای مورد «%1» برگردانده نشد"
+
+#: src/showcommand.cpp:104
+#, kde-format
+msgid "Item has no main body part"
+msgstr "مورد فاقد بخش اصلی بدنه است"
+
+#: src/tagscommand.cpp:38
+msgctxt "info:shell"
+msgid "List or modify tags"
+msgstr "فهرست یا تغییر برچسب‌ها"
+
+#: src/tagscommand.cpp:55
+#, kde-format
+msgid "Brief output, tag names or IDs only"
+msgstr "خروجی خلاصه، فقط نام‌ها یا شناسه‌های برچسب"
+
+#: src/tagscommand.cpp:58
+#, kde-format
+msgid "Brief output, tag URLs only"
+msgstr "خروجی مختصر، فقط نشانی‌های اینترنتی برچسب"
+
+#: src/tagscommand.cpp:62
+#, kde-format
+msgid "List all known tags (the default operation)"
+msgstr "فهرست کردن همهٔ برچسب‌های شناخته‌شده (عملیات پیش‌فرض)"
+
+#: src/tagscommand.cpp:65
+#, kde-format
+msgid "Add named tags"
+msgstr "افزودن برچسب‌های نام‌گذاری‌شده"
+
+#: src/tagscommand.cpp:68
+#, kde-format
+msgid "Delete tags"
+msgstr "حذف برچسب‌ها"
+
+#: src/tagscommand.cpp:71
+#, kde-format
+msgid "Save the current tags"
+msgstr "ذخیرهٔ برچسب‌های کنونی"
+
+#: src/tagscommand.cpp:74
+#, kde-format
+msgid "Restore the saved tags (into a new database)"
+msgstr "بازیابی برچسب‌های ذخیره‌شده (در یک پایگاه دادهٔ جدید)"
+
+#: src/tagscommand.cpp:75
+#, kde-format
+msgid "ID for a tag to be added (default automatic)"
+msgstr "شناسه برای برچسبی که افزوده می‌شود (پیش‌فرض خودکار)"
+
+#: src/tagscommand.cpp:75
+#, kde-format
+msgid "id"
+msgstr "شناسه"
+
+#: src/tagscommand.cpp:76
+#, kde-format
+msgid "Retain intermediate tags added when the 'id' option is used"
+msgstr "نگه‌داشتن برچسب‌های میانیِ اضافه‌شده هنگام استفاده از گزینهٔ «id»"
+
+#: src/tagscommand.cpp:77
+#, kde-format
+msgid "TAG"
+msgstr "برچسب"
+
+#: src/tagscommand.cpp:77
+#, kde-format
+msgid "The name of a tag to add, or the name, ID or URL of a tag to delete"
+msgstr ""
+"نام برچسب برای افزودن، یا نام، شناسه یا نشانی اینترنتی (URL) برچسب برای حذف"
+
+#: src/tagscommand.cpp:77
+#, kde-format
+msgid "[TAG...]"
+msgstr "[TAG...]"
+
+#: src/tagscommand.cpp:89
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid value for the 'id' option"
+msgstr "مقدار نامعتبر برای گزینهٔ «id»"
+
+#: src/tagscommand.cpp:95
+#, kde-format
+msgctxt "@info:shell"
+msgid "The 'brief' and 'urls' options cannot both be specified"
+msgstr "گزینه‌های «brief» و «urls» نمی‌توانند هم‌زمان مشخص شوند"
+
+#: src/tagscommand.cpp:116
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Only one of the 'list', 'add', 'delete', or 'backup'/'restore' options may "
+"be specified"
+msgstr ""
+"فقط یکی از گزینه‌های «list»، ‏«add»، ‏«delete» یا «backup»/«restore» "
+"می‌تواند مشخص شود"
+
+#: src/tagscommand.cpp:131
+#, kde-format
+msgctxt "@info:shell"
+msgid "No tags specified to add"
+msgstr "هیچ برچسبی برای افزودن مشخص نشده است"
+
+#: src/tagscommand.cpp:136
+#, kde-format
+msgctxt "@info:shell"
+msgid "Multiple tags cannot be specified to add with 'id'"
+msgstr "هنگام استفاده از «id» نمی‌توان چندین برچسب را برای افزودن مشخص کرد"
+
+#: src/tagscommand.cpp:145
+#, kde-format
+msgctxt "@info:shell"
+msgid "No tags specified to delete"
+msgstr "هیچ برچسبی برای حذف مشخص نشده است"
+
+#: src/tagscommand.cpp:157
+#, kde-format
+msgctxt "@info:shell"
+msgid "The 'retain' option can only be used with 'add' or 'restore'"
+msgstr "گزینهٔ «retain» فقط با «add» یا «restore» قابل استفاده است"
+
+#: src/tagscommand.cpp:161
+#, kde-format
+msgctxt "@info:shell"
+msgid "The 'id' option can only be used with 'add'"
+msgstr "گزینهٔ «id» فقط با «add» قابل استفاده است"
+
+#: src/tagscommand.cpp:193
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot read saved tags from '%1'"
+msgstr "خواندن برچسب‌های ذخیره‌شده از «%1» امکان‌پذیر نیست"
+
+#: src/tagscommand.cpp:201
+#, kde-format
+msgctxt "@info:shell"
+msgid "No saved tags to restore"
+msgstr "برچسب ذخیره‌شده‌ای برای بازیابی وجود ندارد"
+
+#: src/tagscommand.cpp:228
+#, kde-format
+msgctxt "@info:shell"
+msgid "A tag named '%1' ID %2 already exists"
+msgstr "برچسبی با نام «%1» و شناسهٔ %2 از قبل وجود دارد"
+
+#: src/tagscommand.cpp:265
+#, kde-format
+msgctxt "@info:shell"
+msgid "Failed to add tag '%1' ID %2"
+msgstr "افزودن برچسب «%1» با شناسهٔ %2 شکست خورد"
+
+#: src/tagscommand.cpp:267
+#, kde-format
+msgctxt "@info:shell"
+msgid "Failed to add tag '%1'"
+msgstr "افزودن برچسب «%1» شکست خورد"
+
+#: src/tagscommand.cpp:287
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Cannot create a tag with ID %1, sequence already at ID %2"
+msgstr ""
+"نمی‌توان برچسبی با شناسهٔ %1 ایجاد کرد، دنباله در حال حاضر روی شناسهٔ %2 است"
+
+#: src/tagscommand.cpp:341
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Added tag '%1' ID %2"
+msgstr "برچسب «%1» با شناسهٔ %2 افزوده شد"
+
+#: src/tagscommand.cpp:376
+#, kde-format
+msgctxt "@info:shell"
+msgid "Tag to delete '%1' does not exist"
+msgstr "برچسب مورد نظر برای حذف «%1» وجود ندارد"
+
+#: src/tagscommand.cpp:413
+#, kde-format
+msgctxt "@info:shell"
+msgid "Tag to delete ID %1 does not exist"
+msgstr "برچسب مورد نظر برای حذف با شناسهٔ %1 وجود ندارد"
+
+#: src/tagscommand.cpp:439
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Tag could not be created with the requested ID"
+msgstr "ایجاد برچسب با شناسهٔ درخواستی امکان‌پذیر نبود"
+
+#: src/tagscommand.cpp:464
+#, kde-format
+msgctxt "@info:shell"
+msgid "Deleted tag '%1' ID %2"
+msgstr "برچسب «%1» با شناسهٔ %2 حذف شد"
+
+#: src/tagscommand.cpp:491
+#, kde-format
+msgctxt "@info:shell"
+msgid "No tags found"
+msgstr "هیچ برچسبی پیدا نشد"
+
+#: src/tagscommand.cpp:512
+#, kde-format
+msgctxt "@info:shell column header"
+msgid "URL"
+msgstr "نشانی وب"
+
+#: src/tagscommand.cpp:535
+#, kde-format
+msgctxt "@info:shell"
+msgid "Found %1 current Akonadi tags"
+msgstr "%1 برچسب کنونی آکونادی پیدا شد"
+
+#: src/tagscommand.cpp:557
+#, kde-format
+msgctxt "@info:shell"
+msgid "Saved tags to '%1'"
+msgstr "برچسب‌ها در «%1» ذخیره شدند"
+
+#: src/tagscommand.cpp:563
+#, kde-format
+msgctxt "@info:shell"
+msgid "Reading saved tags from '%1'"
+msgstr "در حال خواندن برچسب‌های ذخیره‌شده از «%1»"
+
+#: src/tagscommand.cpp:580
+#, kde-format
+msgctxt "@info:shell"
+msgid "Read %1 saved tags"
+msgstr "%1 برچسب ذخیره‌شده خوانده شد"
+
+#: src/tagscommand.cpp:600
+#, kde-format
+msgid "Tags restored"
+msgstr "برچسب‌ها بازیابی شدند"
+
+#: src/terminalcolour.cpp:45
+#, kde-format
+msgctxt "@info:shell"
+msgid "Could not set up terminal"
+msgstr "راه‌اندازی پایانه امکان‌پذیر نبود"
+
+#: src/updatecommand.cpp:35
+msgctxt "info:shell"
+msgid "Update an item's payload from a file"
+msgstr "به‌روزرسانی بار دادهٔ یک مورد از یک پرونده"
+
+#: src/updatecommand.cpp:52
+#, kde-format
+msgctxt "@info:shell"
+msgid "The item to update, an ID or Akonadi URL"
+msgstr "مورد برای به‌روزرسانی، یک شناسه یا نشانی وب آکونادی"
+
+#: src/updatecommand.cpp:53
+#, kde-format
+msgctxt "@info:shell"
+msgid "File to update the item from"
+msgstr "پرونده برای به‌روزرسانی مورد از آن"
+
+#: src/updatecommand.cpp:61
+#, kde-format
+msgctxt "@info:shell"
+msgid "No file specified"
+msgstr "هیچ پرونده‌ای مشخص نشده است"
+
+#: src/updatecommand.cpp:136
+#, kde-format
+msgctxt "@info:shell"
+msgid "Item updated successfully"
+msgstr "مورد با موفقیت به‌روزرسانی شد"

@@ -1,0 +1,330 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the akonadi_singlefile_resource package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_singlefile_resource\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"PO-Revision-Date: 2026-10-15 20:59+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: ectx: property (toolTip), widget (QTabWidget, tabWidget)
+#: settingsdialog.ui:29
+#, kde-format
+msgid "Directory settings of the resource."
+msgstr "تنظیمات پوشه منبع."
+
+#. i18n: ectx: property (whatsThis), widget (QTabWidget, tabWidget)
+#: settingsdialog.ui:32
+#, kde-format
+msgid ""
+"Select settings of the directory whose contents should be represented by "
+"this resource."
+msgstr ""
+"تنظیمات پوشه‌ای را انتخاب کنید که محتویات آن باید توسط این منبع نشان داده "
+"شود."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: settingsdialog.ui:39
+#, kde-format
+msgid "Directory"
+msgstr "پوشه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: settingsdialog.ui:45
+#, kde-format
+msgid "Directory Name"
+msgstr "نام پوشه"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settingsdialog.ui:53
+#, kde-format
+msgid "Director&y:"
+msgstr "پوشه:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: settingsdialog.ui:68
+#, kde-format
+msgid ""
+"Select the directory whose contents should be represented by this resource. "
+"If the directory does not exist, it will be created."
+msgstr ""
+"پوشه‌ای را انتخاب کنید که محتویات آن باید توسط این منبع نشان داده شود. اگر "
+"پوشه وجود نداشته باشد، ایجاد خواهد شد."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settingsdialog.ui:81
+#, kde-format
+msgid "Access Rights"
+msgstr "حقوق دسترسی"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ReadOnly)
+#: settingsdialog.ui:87
+#, kde-format
+msgid ""
+"If read-only mode is enabled, no changes will be written to the directory "
+"selected above."
+msgstr ""
+"اگر حالت فقط‌خواندنی فعال باشد، هیچ تغییری در پوشه انتخاب‌شده در بالا نوشته "
+"نخواهد شد."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ReadOnly)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settingsdialog.ui:90 settingsdialog.ui:100
+#, kde-format
+msgid ""
+"If read-only mode is enabled, no changes will be written to the directory "
+"selected above. Read-only mode will be automatically enabled if you do not "
+"have write access to the directory."
+msgstr ""
+"اگر حالت فقط‌خواندنی فعال باشد، هیچ تغییری در پوشه انتخاب‌شده در بالا نوشته "
+"نخواهد شد. در صورتی که دسترسی نوشتن به پوشه را نداشته باشید، حالت "
+"فقط‌خواندنی به‌طور خودکار فعال می‌شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
+#: settingsdialog.ui:93 singlefileresourceconfigwidget_desktop.ui:92
+#, kde-format
+msgid "Read only"
+msgstr "فقط‌خواندنی"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: settingsdialog.ui:127
+#, kde-format
+msgid "Tuning"
+msgstr "تنظیم دقیق"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: settingsdialog.ui:133
+#, kde-format
+msgid ""
+"The options on this page allow you to change parameters that balance data "
+"safety and consistency against performance. In general you should be careful"
+" with changing anything here, the defaults are good enough in most cases."
+msgstr ""
+"گزینه‌های این صفحه به شما امکان می‌دهند پارامترهایی را تغییر دهید که تعادل "
+"بین امنیت و یکپارچگی داده‌ها را در برابر عملکرد برقرار می‌کنند. به‌طور کلی "
+"باید در تغییر هر چیزی در اینجا احتیاط کنید، مقادیر پیش‌فرض در بیشتر موارد "
+"به‌اندازه کافی خوب هستند."
+
+#. i18n: ectx: property (text), widget (QLabel, autosaveLabel)
+#: settingsdialog.ui:145
+#, kde-format
+msgid "Autosave delay:"
+msgstr "تأخیر ذخیره خودکار:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_AutosaveInterval)
+#: settingsdialog.ui:152
+#, kde-format
+msgid "Autosave interval time (in minutes)."
+msgstr "فاصله زمانی ذخیره خودکار (به دقیقه)."
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_AutosaveInterval)
+#: settingsdialog.ui:155
+#, kde-format
+msgid "Select autosave interval time for the resource data (in minutes)."
+msgstr ""
+"فاصله زمانی ذخیره خودکار را برای داده‌های منبع انتخاب کنید (به دقیقه)."
+
+#: singlefileresource.h:68
+#, kde-format
+msgid "No file selected."
+msgstr "هیچ پرونده‌ای انتخاب نشده است."
+
+#: singlefileresource.h:70
+#, kde-format
+msgid "The resource not configured yet"
+msgstr "منبع هنوز پیکربندی نشده است"
+
+#: singlefileresource.h:102 singlefileresource.h:131 singlefileresource.h:226
+#: singlefileresourcebase.cpp:281 singlefileresourcebase.cpp:299
+#, kde-format
+msgctxt "@info:status"
+msgid "Ready"
+msgstr "آماده"
+
+#: singlefileresource.h:104
+#, kde-format
+msgid "Could not create file '%1'."
+msgstr "پروندهٔ «%1» ایجاد نشد."
+
+#: singlefileresource.h:118
+#, kde-format
+msgid "Could not read file '%1'"
+msgstr "پروندهٔ «%1» خوانده نشد"
+
+#: singlefileresource.h:139
+#, kde-format
+msgid "Another download is still in progress."
+msgstr "بارگیری دیگری هنوز در حال انجام است."
+
+#: singlefileresource.h:149 singlefileresource.h:240
+#, kde-format
+msgid "Another file upload is still in progress."
+msgstr "بارگذاری پرونده دیگری هنوز در حال انجام است."
+
+#: singlefileresource.h:167
+#, kde-format
+msgid "Downloading remote file."
+msgstr "در حال بارگیری پرونده دوردست."
+
+#: singlefileresource.h:190
+#, kde-format
+msgid "Trying to write to a read-only file: '%1'."
+msgstr "تلاش برای نوشتن در پرونده فقط‌خواندنی: «%1»."
+
+#: singlefileresource.h:202
+#, kde-format
+msgid "No file specified."
+msgstr "هیچ پرونده‌ای مشخص نشده است."
+
+#: singlefileresource.h:230
+#, kde-format
+msgid "A download is still in progress."
+msgstr "یک بارگیری هنوز در حال انجام است."
+
+#: singlefileresource.h:270
+#, kde-format
+msgid "Uploading cached file to remote location."
+msgstr "در حال بارگذاری پرونده حافظه موقت در مکان دوردست."
+
+#: singlefileresourcebase.cpp:240
+#, kde-format
+msgid ""
+"The file '%1' was changed on disk. As a precaution, a backup of its previous"
+" contents has been created at '%2'."
+msgstr ""
+"پرونده «%1» روی دیسک تغییر کرده است. به عنوان احتیاط، یک نسخه پشتیبان از "
+"محتوای قبلی آن در «%2» ایجاد شده است."
+
+#: singlefileresourcebase.cpp:272
+#, kde-format
+msgid "Could not load file '%1'."
+msgstr "بارگیری پرونده «%1» ممکن نشد."
+
+#: singlefileresourcebase.cpp:288
+#, kde-format
+msgid "Could not save file '%1'."
+msgstr "ذخیره پرونده «%1» ممکن نشد."
+
+#: singlefileresourceconfigbase.h:30
+#, kde-format
+msgid "Activities"
+msgstr "فعالیت‌ها"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: singlefileresourceconfigwidget_desktop.ui:39
+#, kde-format
+msgid "File"
+msgstr "پرونده"
+
+#. i18n: ectx: property (text), widget (QLabel, filenameLabel)
+#: singlefileresourceconfigwidget_desktop.ui:47
+#, kde-format
+msgid "File or URL:"
+msgstr "پرونده یا نشانی اینترنتی:"
+
+#. i18n: ectx: property (text), widget (QLabel, pathLabel)
+#: singlefileresourceconfigwidget_desktop.ui:66
+#, kde-format
+msgid ""
+"Select a local file or a remote URL to download a file from. A new local "
+"file will be created if it doesn't exist."
+msgstr ""
+"یک پروندهٔ محلی یا یک نشانی اینترنتی دوردست را برای بارگیری پرونده انتخاب "
+"کنید. اگر پرونده وجود نداشته باشد، یک پروندهٔ محلی جدید ایجاد خواهد شد."
+
+#. i18n: ectx: property (text), widget (QLabel, displayNameLabel)
+#: singlefileresourceconfigwidget_desktop.ui:79
+#, kde-format
+msgid "Display Name:"
+msgstr "نام نمایشی:"
+
+#. i18n: ectx: property (text), widget (QLabel, readOnlyLabel)
+#: singlefileresourceconfigwidget_desktop.ui:108
+#, kde-format
+msgid ""
+"When read-only mode is enabled, no changes will be written. Read-only mode "
+"is automatically enabled when the selected file does not support write "
+"access or when displaying a calendar from remote URL."
+msgstr ""
+"وقتی حالت فقط‌خواندنی فعال باشد، هیچ تغییری نوشته نخواهد شد. در صورتی که "
+"پروندهٔ انتخاب‌شده از دسترسی نوشتن پشتیبانی نکند یا هنگام نمایش تقویم از یک "
+"نشانی اینترنتی دوردست، حالت فقط‌خواندنی به‌طور خودکار فعال می‌شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MonitorFile)
+#: singlefileresourceconfigwidget_desktop.ui:121
+#, kde-format
+msgid "Monitor for &changes"
+msgstr "پایش برای تغییرات"
+
+#. i18n: ectx: property (text), widget (QLabel, monitoringLabel)
+#: singlefileresourceconfigwidget_desktop.ui:134
+#, kde-format
+msgid ""
+"Changes made by other applications will reload the file when monitoring is "
+"enabled. Backups will be created to avoid conflicts when possible. "
+"Monitoring is not available for remote URLs."
+msgstr ""
+"در صورت فعال بودن پایش، تغییرات ایجادشده توسط برنامه‌های دیگر باعث بارگذاری "
+"مجدد پرونده خواهد شد. برای جلوگیری از تداخل‌ها در صورت امکان پشتیبان‌گیری "
+"انجام می‌شود. پایش برای نشانی‌های اینترنتی دوردست در دسترس نیست."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PeriodicUpdate)
+#: singlefileresourceconfigwidget_desktop.ui:149
+#, kde-format
+msgid "Automatically &update every"
+msgstr "به‌روزرسانی خودکار هر"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_UpdatePeriod)
+#: singlefileresourceconfigwidget_desktop.ui:159
+#, kde-format
+msgid " minutes"
+msgstr " دقیقه"
+
+#. i18n: ectx: property (text), widget (QLabel, periodicUpdateLabel)
+#: singlefileresourceconfigwidget_desktop.ui:193
+#, kde-format
+msgid ""
+"Periodically updates the file. Can be used when monitoring is not available "
+"(e.g. for remote calendars)."
+msgstr ""
+"پرونده را به‌طور دوره‌ای به‌روزرسانی می‌کند. هنگامی که نظارت در دسترس نیست "
+"(مثلاً برای تقویم‌های دوردست) می‌تواند استفاده شود."
+
+#: singlefileresourceconfigwidgetbase.cpp:37
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"A file path or URL containing the calendar file. Once created, this location"
+" cannot be modified."
+msgstr ""
+"مسیر پرونده یا نشانی وبی که حاوی پروندهٔ تقویم است. پس از ایجاد، این مکان "
+"قابل تغییر نیست."
+
+#: singlefileresourceconfigwidgetbase.cpp:39
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the path or URL to a file containing a valid calendar file. "
+"<para><note> Unfortunately, this path cannot be changed once the resource is"
+" created. To change the location, delete this resource and then create a new"
+" one with the updated path.</note></para>"
+msgstr ""
+"مسیر یا نشانی وبِ یک پروندهٔ حاوی پروندهٔ تقویم معتبر را وارد کنید. "
+"<para><note> متأسفانه پس از ایجاد منبع، این مسیر قابل تغییر نیست. برای تغییر"
+" مکان، این منبع را حذف کنید و سپس منبع جدیدی با مسیر به‌روزرسانی‌شده "
+"بسازید.</note></para>"
+
+#: singlefileresourceconfigwidgetbase.cpp:145
+#, kde-format
+msgctxt "@info:status"
+msgid "Checking file information…"
+msgstr "در حال بررسی اطلاعات پرونده…"

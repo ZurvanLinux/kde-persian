@@ -1,0 +1,814 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_firewall package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_firewall\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-01 00:47+0000\n"
+"PO-Revision-Date: 2026-10-16 01:32+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: backends/firewalld/firewalldclient.cpp:601 backends/ufw/ufwclient.cpp:701
+#, kde-format
+msgid "Error fetching information from the firewall."
+msgstr "خطا در دریافت اطلاعات از دیوار آتش."
+
+#: backends/firewalld/firewalldjob.cpp:173
+#, kde-format
+msgid "firewalld saving (runtime to permanent)"
+msgstr "ذخیره‌سازی firewalld (زمان اجرا به دائمی)"
+
+#: backends/firewalld/firewalldjob.cpp:197
+#, kde-format
+msgid "firewalld saving"
+msgstr "ذخیره‌سازی firewalld"
+
+#: backends/firewalld/firewalldjob.cpp:197
+#, kde-format
+msgid "firewalld %1"
+msgstr "firewalld %1"
+
+#: backends/firewalld/queryrulesfirewalldjob.cpp:50
+#, kde-format
+msgid "firewalld listing rules and services"
+msgstr "فهرست کردن قواعد و خدمات firewalld"
+
+#: backends/netstat/connectionsmodel.cpp:97 core/loglistmodel.cpp:96
+#, kde-format
+msgctxt "@title:column"
+msgid "Protocol"
+msgstr "پروتکل"
+
+#: backends/netstat/connectionsmodel.cpp:99
+#, kde-format
+msgctxt "@title:column"
+msgid "Local address"
+msgstr "نشانی محلی"
+
+#: backends/netstat/connectionsmodel.cpp:101
+#, kde-format
+msgctxt "@title:column"
+msgid "Foreign address"
+msgstr "نشانی خارجی"
+
+#: backends/netstat/connectionsmodel.cpp:103
+#, kde-format
+msgctxt "@title:column"
+msgid "Status"
+msgstr "وضعیت"
+
+#: backends/netstat/connectionsmodel.cpp:105
+#, kde-format
+msgctxt "@title:column"
+msgid "PID"
+msgstr "PID"
+
+#: backends/netstat/connectionsmodel.cpp:107
+#, kde-format
+msgctxt "@title:column"
+msgid "Program"
+msgstr "برنامه"
+
+#: backends/netstat/connectionsmodel.cpp:115
+#, kde-format
+msgid "Failed to get connections: %1"
+msgstr "دریافت اتصالات ناموفق بود: %1"
+
+#: backends/netstat/connectionsmodel.cpp:133
+#, kde-format
+msgid "Not Connected"
+msgstr "متصل نیست"
+
+#: backends/netstat/connectionsmodel.cpp:135
+#, kde-format
+msgid "Established"
+msgstr "برقرار شده"
+
+#: backends/netstat/connectionsmodel.cpp:137
+#, kde-format
+msgid "Listening"
+msgstr "در حال گوش دادن"
+
+#: backends/ufw/helper/helper.cpp:213
+#, kde-format
+msgid "Invalid arguments passed to the profile"
+msgstr "آرگومان‌های نامعتبر به نمایه ارسال شد"
+
+#: backends/ufw/helper/helper.cpp:243
+#, kde-format
+msgid "Error saving the profile."
+msgstr "خطا در ذخیره نمایه."
+
+#: backends/ufw/helper/helper.cpp:267
+#, kde-format
+msgid "Invalid arguments passed to delete profile"
+msgstr "آرگومان‌های نامعتبر برای حذف نمایه ارسال شد"
+
+#: backends/ufw/helper/helper.cpp:274
+#, kde-format
+msgid "Could not remove the profile from disk."
+msgstr "حذف نمایه از دیسک ممکن نشد."
+
+#: backends/ufw/helper/helper.cpp:289
+#, kde-format
+msgid "Invalid argument passed to add Rules"
+msgstr "آرگومان نامعتبر به افزودن قوانین ارسال شد"
+
+#: backends/ufw/helper/helper.cpp:361
+#, kde-format
+msgid "An error occurred in command '%1': %2"
+msgstr "خطایی در دستور «%1» رخ داد: %2"
+
+#: backends/ufw/ufwclient.cpp:161
+#, kde-format
+msgid ""
+"There was an error in the backend! Please report it.\n"
+"%1 %2"
+msgstr ""
+"خطایی در بخش پشتی رخ داد! لطفاً آن را گزارش دهید.\n"
+"%1 %2"
+
+#: backends/ufw/ufwclient.cpp:268
+#, kde-format
+msgid "Error fetching firewall logs: %1"
+msgstr "خطا در دریافت گزارش‌های دیوار آتش: %1"
+
+#: backends/ufw/ufwclient.cpp:608 core/firewallclient.cpp:76
+#, kde-format
+msgid "Any"
+msgstr "هرکدام"
+
+#: core/loglistmodel.cpp:88 core/rulelistmodel.cpp:91
+#, kde-format
+msgctxt "@title:column"
+msgid "From"
+msgstr "از"
+
+#: core/loglistmodel.cpp:90
+#, kde-format
+msgctxt "@title:column"
+msgid "Source port"
+msgstr "درگاه مبدأ"
+
+#: core/loglistmodel.cpp:92 core/rulelistmodel.cpp:93
+#, kde-format
+msgctxt "@title:column"
+msgid "To"
+msgstr "به"
+
+#: core/loglistmodel.cpp:94
+#, kde-format
+msgctxt "@title:column"
+msgid "Destination port"
+msgstr "درگاه مقصد"
+
+#: core/loglistmodel.cpp:98
+#, kde-format
+msgctxt "@title:column"
+msgid "Interface"
+msgstr "رابط"
+
+#: core/loglistmodel.cpp:100 core/rulelistmodel.cpp:89
+#, kde-format
+msgctxt "@title:column"
+msgid "Action"
+msgstr "کنش"
+
+#: core/loglistmodel.cpp:102
+#, kde-format
+msgctxt "@title:column"
+msgid "Time"
+msgstr "زمان"
+
+#: core/loglistmodel.cpp:104
+#, kde-format
+msgctxt "@title:column"
+msgid "Date"
+msgstr "تاریخ"
+
+#: core/rule.cpp:45
+#, kde-format
+msgctxt "address on interface"
+msgid "%1 on %2"
+msgstr "%1 روی %2"
+
+#: core/rule.cpp:74 core/rule.cpp:164 core/rule.cpp:170
+#, kde-format
+msgid "Anywhere"
+msgstr "هر جا"
+
+#: core/rule.cpp:95 core/rule.cpp:108 core/rule.cpp:125
+#, kde-format
+msgctxt "service/application name (port numbers)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: core/rule.cpp:198
+#, kde-format
+msgctxt "firewallAction incoming"
+msgid "%1 incoming"
+msgstr "%1 ورودی"
+
+#: core/rule.cpp:199
+#, kde-format
+msgctxt "firewallAction outgoing"
+msgid "%1 outgoing"
+msgstr "%1 خروجی"
+
+#: core/rule.cpp:204
+#, kde-format
+msgid "Yes"
+msgstr "بله"
+
+#: core/rulelistmodel.cpp:95
+#, kde-format
+msgctxt "@title:column"
+msgid "IP"
+msgstr "آی‌پی"
+
+#: core/rulelistmodel.cpp:97
+#, kde-format
+msgctxt "@title:column"
+msgid "Logging"
+msgstr "ثبت گزارش"
+
+#: core/rulelistmodel.cpp:99
+#, kde-format
+msgctxt "@title:column"
+msgid "Comment"
+msgstr "توضیح"
+
+#: core/rulelistmodel.cpp:101
+#, kde-format
+msgctxt "@title:column"
+msgid "Edit"
+msgstr "ویرایش"
+
+#: core/systemdjob.cpp:51
+#, kde-format
+msgid "Invalid Call"
+msgstr "فراخوانی نامعتبر"
+
+#: core/types.cpp:19
+#, kde-format
+msgid "Off"
+msgstr "خاموش"
+
+#: core/types.cpp:22
+#, kde-format
+msgid "Low"
+msgstr "کم"
+
+#: core/types.cpp:24
+#, kde-format
+msgid "Medium"
+msgstr "متوسط"
+
+#: core/types.cpp:26
+#, kde-format
+msgid "High"
+msgstr "زیاد"
+
+#: core/types.cpp:28
+#, kde-format
+msgid "Full"
+msgstr "کامل"
+
+#: core/types.cpp:45 ui/RuleEdit.qml:37
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: core/types.cpp:47
+#, kde-format
+msgid "New connections"
+msgstr "اتصال‌های جدید"
+
+#: core/types.cpp:49
+#, kde-format
+msgid "All packets"
+msgstr "همه بسته‌ها"
+
+#: core/types.cpp:58 ui/main.qml:25
+#, kde-format
+msgid "Allow"
+msgstr "مجاز"
+
+#: core/types.cpp:60
+#, kde-format
+msgid "Deny"
+msgstr "رد کردن"
+
+#: core/types.cpp:62 ui/main.qml:27
+#, kde-format
+msgid "Reject"
+msgstr "نپذیرفتن"
+
+#: core/types.cpp:64
+#, kde-format
+msgid "Limit"
+msgstr "محدود کردن"
+
+#: core/types.cpp:80
+#, kde-format
+msgid "Amule"
+msgstr "Amule"
+
+#: core/types.cpp:82
+#, kde-format
+msgid "Deluge"
+msgstr "Deluge"
+
+#: core/types.cpp:84
+#, kde-format
+msgid "KTorrent"
+msgstr "KTorrent"
+
+#: core/types.cpp:86
+#, kde-format
+msgid "Nicotine"
+msgstr "Nicotine"
+
+#: core/types.cpp:88
+#, kde-format
+msgid "qBittorrent"
+msgstr "qBittorrent"
+
+#: core/types.cpp:90
+#, kde-format
+msgid "Transmission"
+msgstr "Transmission"
+
+#: core/types.cpp:92
+#, kde-format
+msgid "ICQ"
+msgstr "ICQ"
+
+#: core/types.cpp:94
+#, kde-format
+msgid "Jabber"
+msgstr "Jabber"
+
+#: core/types.cpp:96
+#, kde-format
+msgid "Windows Live Messenger"
+msgstr "Windows Live Messenger"
+
+#: core/types.cpp:98
+#, kde-format
+msgid "Yahoo! Messenger"
+msgstr "Yahoo! Messenger"
+
+#: core/types.cpp:100
+#, kde-format
+msgid "FTP"
+msgstr "FTP"
+
+#: core/types.cpp:102
+#, kde-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: core/types.cpp:104
+#, kde-format
+msgid "Secure HTTP"
+msgstr "HTTP امن"
+
+#: core/types.cpp:106
+#, kde-format
+msgid "IMAP"
+msgstr "IMAP"
+
+#: core/types.cpp:108
+#, kde-format
+msgid "Secure IMAP"
+msgstr "IMAP امن"
+
+#: core/types.cpp:110
+#, kde-format
+msgid "POP3"
+msgstr "POP3"
+
+#: core/types.cpp:112
+#, kde-format
+msgid "Secure POP3"
+msgstr "POP3 امن"
+
+#: core/types.cpp:114
+#, kde-format
+msgid "SMTP"
+msgstr "SMTP"
+
+#: core/types.cpp:116
+#, kde-format
+msgid "NFS"
+msgstr "NFS"
+
+#: core/types.cpp:118
+#, kde-format
+msgid "Samba"
+msgstr "سامبا"
+
+#: core/types.cpp:120
+#, kde-format
+msgid "Secure Shell"
+msgstr "پوستهٔ امن (SSH)"
+
+#: core/types.cpp:122
+#, kde-format
+msgid "VNC"
+msgstr "VNC"
+
+#: core/types.cpp:124
+#, kde-format
+msgid "Zeroconf"
+msgstr "Zeroconf"
+
+#: core/types.cpp:126
+#, kde-format
+msgid "Telnet"
+msgstr "تلنت"
+
+#: core/types.cpp:128
+#, kde-format
+msgid "NTP"
+msgstr "NTP"
+
+#: core/types.cpp:130
+#, kde-format
+msgid "CUPS"
+msgstr "CUPS"
+
+#: ui/AdvancedRuleEdit.qml:31 ui/SimpleRuleEdit.qml:29
+#, kde-format
+msgid "Policy:"
+msgstr "خط‌مشی:"
+
+#: ui/AdvancedRuleEdit.qml:42 ui/SimpleRuleEdit.qml:40
+#, kde-format
+msgid "Direction:"
+msgstr "جهت:"
+
+#: ui/AdvancedRuleEdit.qml:45 ui/SimpleRuleEdit.qml:44
+#, kde-format
+msgid "Incoming"
+msgstr "ورودی"
+
+#: ui/AdvancedRuleEdit.qml:51 ui/SimpleRuleEdit.qml:50
+#, kde-format
+msgid "Outgoing"
+msgstr "خروجی"
+
+#: ui/AdvancedRuleEdit.qml:59
+#, kde-format
+msgid "IP Version:"
+msgstr "نسخه IP:"
+
+#: ui/AdvancedRuleEdit.qml:62
+#, kde-format
+msgid "IPv4"
+msgstr "IPv4"
+
+#: ui/AdvancedRuleEdit.qml:67
+#, kde-format
+msgid "IPv6"
+msgstr "IPv6"
+
+#: ui/AdvancedRuleEdit.qml:74
+#, kde-format
+msgid "Source:"
+msgstr "مبدأ:"
+
+#: ui/AdvancedRuleEdit.qml:94
+#, kde-format
+msgid "Destination:"
+msgstr "مقصد:"
+
+#: ui/AdvancedRuleEdit.qml:114
+#, kde-format
+msgid "Protocol:"
+msgstr "پروتکل:"
+
+#: ui/AdvancedRuleEdit.qml:125
+#, kde-format
+msgid "Interface:"
+msgstr "رابط:"
+
+#: ui/AdvancedRuleEdit.qml:137
+#, kde-format
+msgid "Logging:"
+msgstr "ثبت وقایع:"
+
+#: ui/AdvancedRuleEdit.qml:148
+#, kde-format
+msgctxt "@label:textbox User-supplied comment about this firewall rule"
+msgid "Comment:"
+msgstr "توضیح:"
+
+#: ui/AdvancedRuleEdit.qml:150
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Optional"
+msgstr "اختیاری"
+
+#: ui/ConnectionsView.qml:14
+#, kde-format
+msgid "Connections"
+msgstr "اتصال‌ها"
+
+#: ui/ConnectionsView.qml:26
+#, kde-format
+msgid "There are currently no open connections"
+msgstr "در حال حاضر هیچ اتصال بازی وجود ندارد"
+
+#: ui/ConnectionsView.qml:35
+#, kde-format
+msgid "Created a blacklist rule from this connection."
+msgstr "یک قاعدهٔ فهرست سیاه از این اتصال ایجاد شد."
+
+#: ui/ConnectionsView.qml:52
+#, kde-format
+msgid "could not find iproute2 or net-tools packages installed."
+msgstr "بسته‌های نصب‌شدهٔ iproute2 یا net-tools یافت نشدند."
+
+#: ui/IpTextField.qml:14
+#, kde-format
+msgid "Any IP address"
+msgstr "هر نشانی IP"
+
+#: ui/LogsView.qml:16
+#, kde-format
+msgid "Firewall Logs"
+msgstr "گزارش‌های دیوار آتش"
+
+#: ui/LogsView.qml:26
+#, kde-format
+msgid "There are currently no firewall log entries"
+msgstr "در حال حاضر هیچ ورودی گزارشی برای دیوار آتش وجود ندارد"
+
+#: ui/LogsView.qml:37
+#, kde-format
+msgid "Created a blacklist rule from this log entry."
+msgstr "قاعدهٔ فهرست سیاه از این ورودی گزارش ایجاد شد."
+
+#: ui/main.qml:25
+#, kde-format
+msgid "Allow all connections"
+msgstr "اجازه دادن به همهٔ اتصالات"
+
+#: ui/main.qml:26
+#, kde-format
+msgid "Ignore"
+msgstr "نادیده گرفتن"
+
+#: ui/main.qml:26
+#, kde-format
+msgid ""
+"Keeps the program waiting until the connection attempt times out, some short"
+" time later."
+msgstr ""
+"برنامه را تا زمان پایان مهلت تلاش برای اتصال (کمی بعد)، در حالت انتظار نگه "
+"می‌دارد."
+
+#: ui/main.qml:27
+#, kde-format
+msgid ""
+"Produces an immediate and very informative 'Connection refused' message"
+msgstr ""
+"بلافاصله یک پیام بسیار آموزنده با عنوان «Connection refused» تولید می‌کند"
+
+#: ui/main.qml:35
+#, kde-format
+msgid "Add Rule…"
+msgstr "افزودن قاعده…"
+
+#: ui/main.qml:43
+#, kde-format
+msgctxt "'view' is being used as a verb here"
+msgid "View Connections"
+msgstr "مشاهدهٔ اتصالات"
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "'view' is being used as a verb here"
+msgid "View Logs"
+msgstr "مشاهدهٔ گزارش‌ها"
+
+#: ui/main.qml:66
+#, kde-format
+msgid "Disabling…"
+msgstr "در حال غیرفعال‌سازی…"
+
+#: ui/main.qml:66
+#, kde-format
+msgid "Enabled"
+msgstr "فعال"
+
+#: ui/main.qml:68
+#, kde-format
+msgid "Enabling…"
+msgstr "در حال فعال‌سازی…"
+
+#: ui/main.qml:68
+#, kde-format
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: ui/main.qml:93
+#, kde-format
+msgid "The firewall application, please install %1"
+msgstr "برنامهٔ دیوار آتش، لطفاً %1 را نصب کنید"
+
+#: ui/main.qml:107
+#, kde-format
+msgid "Permission denied"
+msgstr "دسترسی رد شد"
+
+#: ui/main.qml:111
+#, kde-format
+msgid ""
+"You recently updated your kernel. Iptables is failing to initialize, please "
+"reboot."
+msgstr ""
+"شما به‌تازگی هستهٔ خود را به‌روزرسانی کرده‌اید. راه‌اندازی Iptables ناموفق "
+"است، لطفاً رایانه را بازراه‌اندازی کنید."
+
+#: ui/main.qml:114
+#, kde-format
+msgid "Error enabling firewall: %1"
+msgstr "خطا در فعال‌سازی دیوار آتش: %1"
+
+#: ui/main.qml:115
+#, kde-format
+msgid "Error disabling firewall: %1"
+msgstr "خطا در از کار انداختن دیوار آتش: %1"
+
+#: ui/main.qml:150
+#, kde-format
+msgid "Create A New Firewall Rule"
+msgstr "ایجاد قاعدهٔ جدید دیوار آتش"
+
+#: ui/main.qml:150
+#, kde-format
+msgid "Edit Firewall Rule"
+msgstr "ویرایش قاعدهٔ دیوار آتش"
+
+#: ui/main.qml:173 ui/main.qml:294 ui/main.qml:423
+#, kde-format
+msgid "Please restart plasma firewall, the backend disconnected."
+msgstr ""
+"لطفاً دیوار آتش پلاسما را دوباره راه‌اندازی کنید، ارتباط پسانه قطع شد."
+
+#: ui/main.qml:187 ui/ViewBase.qml:112
+#, kde-format
+msgid "Error creating rule: %1"
+msgstr "خطا در ایجاد قاعده: %1"
+
+#: ui/main.qml:189
+#, kde-format
+msgid "Error updating rule: %1"
+msgstr "خطا در به‌روزرسانی قاعده: %1"
+
+#: ui/main.qml:214
+#, kde-format
+msgid "Create"
+msgstr "ایجاد"
+
+#: ui/main.qml:214
+#, kde-format
+msgid "Save"
+msgstr "ذخیره"
+
+#: ui/main.qml:241
+#, kde-format
+msgid "Firewall type:"
+msgstr "نوع دیوار آتش:"
+
+#: ui/main.qml:249
+#, kde-format
+msgctxt "@info"
+msgid "Firewall version: %1"
+msgstr "نسخهٔ دیوار آتش: %1"
+
+#: ui/main.qml:256
+#, kde-format
+msgid "Default Incoming Policy:"
+msgstr "سیاست ورودی پیش‌فرض:"
+
+#: ui/main.qml:257
+#, kde-format
+msgid "Default Outgoing Policy:"
+msgstr "سیاست خروجی پیش‌فرض:"
+
+#: ui/main.qml:306
+#, kde-format
+msgid "Error changing policy: %1"
+msgstr "خطا در تغییر سیاست: %1"
+
+#: ui/main.qml:413
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit Rule"
+msgstr "ویرایش قاعده"
+
+#: ui/main.qml:434
+#, kde-format
+msgid "Error removing rule: %1"
+msgstr "خطا در حذف قاعده: %1"
+
+#: ui/main.qml:440
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove Rule"
+msgstr "حذف قاعده"
+
+#: ui/main.qml:470
+#, kde-format
+msgid "Firewall is disabled"
+msgstr "دیوار آتش غیرفعال است"
+
+#: ui/main.qml:470
+#, kde-format
+msgid "No firewall rules have been added"
+msgstr "هیچ قاعدهٔ دیوار آتشی افزوده نشده است"
+
+#: ui/main.qml:472
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click the <interface>Add Rule…</interface> button to add one"
+msgstr "برای افزودن، روی دکمهٔ <interface>افزودن قاعده…</interface> کلیک کنید"
+
+#: ui/main.qml:473
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click switch above to enable it"
+msgstr "برای فعال‌سازی، روی کلید بالا کلیک کنید"
+
+#: ui/main.qml:479
+#, kde-format
+msgid "Please install a firewall, such as ufw or firewalld"
+msgstr "لطفاً یک دیوار آتش مانند ufw یا firewalld نصب کنید"
+
+#: ui/PortTextField.qml:11
+#, kde-format
+msgid "Any Port"
+msgstr "هر پورتی"
+
+#: ui/RuleEdit.qml:38
+#, kde-format
+msgid "New Connections"
+msgstr "اتصال‌های جدید"
+
+#: ui/RuleEdit.qml:39
+#, kde-format
+msgid "All Packets"
+msgstr "تمام بسته‌ها"
+
+#: ui/RuleEdit.qml:54 ui/RuleEdit.qml:61
+#, kde-format
+msgid "The default incoming policy is already '%1'."
+msgstr "سیاست پیش‌فرض ورودی در حال حاضر «%1» است."
+
+#: ui/RuleEdit.qml:55 ui/RuleEdit.qml:62
+#, kde-format
+msgid "The default outgoing policy is already '%1'."
+msgstr "سیاست پیش‌فرض خروجی در حال حاضر «%1» است."
+
+#: ui/RuleEdit.qml:72
+#, kde-format
+msgctxt "Advanced firewall rules"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: ui/SimpleRuleEdit.qml:23
+#, kde-format
+msgid "Allow connections for:"
+msgstr "اجازه دادن به اتصال‌ها برای:"
+
+#: ui/SimpleRuleEdit.qml:23
+#, kde-format
+msgid "Application:"
+msgstr "برنامه:"
+
+#: ui/ViewBase.qml:253
+#, kde-format
+msgid "Blacklist Connection"
+msgstr "قرار دادن اتصال در فهرست سیاه"

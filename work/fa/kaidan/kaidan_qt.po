@@ -1,0 +1,3991 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kaidan_qt package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kaidan_qt\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-15 18:54+0330\n"
+"PO-Revision-Date: 2026-10-15 18:54+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Account.cpp:478
+msgctxt "Connection|"
+msgid "Disconnected"
+msgstr "قطع شد"
+
+#: src/Account.cpp:480
+msgctxt "Connection|"
+msgid "Connecting…"
+msgstr "در حال اتصال…"
+
+#: src/Account.cpp:482
+msgctxt "Connection|"
+msgid "Connected"
+msgstr "متصل شد"
+
+#: src/Account.cpp:493
+msgctxt "Connection|"
+msgid "Invalid username or password."
+msgstr "نام کاربری یا گذرواژه نامعتبر است."
+
+#: src/Account.cpp:495
+msgctxt "Connection|"
+msgid "Cannot connect to the server. Please check your internet connection."
+msgstr ""
+"امکان اتصال به سرور وجود ندارد. لطفاً اتصال اینترنت خود را بررسی کنید."
+
+#: src/Account.cpp:497
+msgctxt "Connection|"
+msgid "Error while trying to connect securely."
+msgstr "خطا هنگام تلاش برای اتصال امن."
+
+#: src/Account.cpp:499
+msgctxt "Connection|"
+msgid "The server doesn't support secure connections."
+msgstr "سرور از اتصالات امن پشتیبانی نمی‌کند."
+
+#: src/Account.cpp:501
+msgctxt "Connection|"
+msgid ""
+"Could not connect to the server. Please check your internet connection or "
+"your server name."
+msgstr ""
+"اتصال به سرور برقرار نشد. لطفاً اتصال اینترنت یا نام سرور خود را بررسی کنید."
+
+#: src/Account.cpp:503
+msgctxt "Connection|"
+msgid "The server is offline or blocked by a firewall."
+msgstr "سرور آفلاین است یا توسط دیوار آتش مسدود شده است."
+
+#: src/Account.cpp:505
+msgctxt "Connection|"
+msgid "Authentication protocol not supported by the server."
+msgstr "پروتکل احراز هویت توسط سرور پشتیبانی نمی‌شود."
+
+#: src/Account.cpp:507
+msgctxt "Connection|"
+msgid "The connection could not be refreshed."
+msgstr "تازه‌سازی اتصال امکان‌پذیر نبود."
+
+#: src/Account.cpp:509
+msgctxt "Connection|"
+msgid ""
+"The internet access is not permitted. Please check your system's internet "
+"access configuration."
+msgstr ""
+"دسترسی به اینترنت مجاز نیست. لطفاً پیکربندی دسترسی به اینترنت سیستم خود را "
+"بررسی کنید."
+
+#: src/Account.cpp:511
+msgctxt "Connection|"
+msgid "This server does not support registration."
+msgstr "این سرور از ثبت‌نام پشتیبانی نمی‌کند."
+
+#: src/Account.cpp:513
+msgctxt "Connection|"
+msgid "Could not log in. Confirm the email message you received first."
+msgstr "ورود ناموفق بود. ابتدا ایمیلی را که دریافت کرده‌اید تأیید کنید."
+
+#: src/Account.cpp:515
+msgctxt "Connection|"
+msgid "Could not connect to the server."
+msgstr "اتصال به سرور برقرار نشد."
+
+#: src/AccountMigrationController.cpp:330
+msgctxt "AccountMigrationController|"
+msgid "Account could not be migrated: Could not load exported account data"
+msgstr "امکان مهاجرت حساب وجود نداشت: بارگیری داده‌های صادرشدهٔ حساب ممکن نشد"
+
+#: src/AccountMigrationController.cpp:347
+msgctxt "AccountMigrationController|"
+msgid "Account could not be migrated: You need to be connected"
+msgstr "امکان مهاجرت حساب وجود نداشت: باید متصل باشید"
+
+#: src/AccountMigrationController.cpp:385
+#, qt-format
+msgctxt "AccountMigrationController|%1 and %2 are account display names"
+msgid "Account '%1' migrated to '%2'"
+msgstr "حساب «%1» به «%2» انتقال یافت"
+
+#: src/AuthenticatedEncryptionKeyModel.cpp:78
+msgctxt "AuthenticatedEncryptionKeyModel|"
+msgid "This device"
+msgstr "این دستگاه"
+
+#: src/Blocking.cpp:398
+msgctxt "BlockingModel|"
+msgid "Devices"
+msgstr "دستگاه‌ها"
+
+#: src/Blocking.cpp:400
+msgctxt "BlockingModel|"
+msgid "Users"
+msgstr "کاربران"
+
+#: src/Blocking.cpp:402
+msgctxt "BlockingModel|"
+msgid "Servers"
+msgstr "سرورها"
+
+#: src/Blocking.cpp:404
+msgctxt "BlockingModel|"
+msgid "Devices on Servers"
+msgstr "دستگاه‌های روی سرورها"
+
+#: src/ChatController.cpp:181
+#, qt-format
+msgctxt "ChatController|%1 is a username"
+msgid "%1 is typing…"
+msgstr "%1 در حال نوشتن است…"
+
+#: src/ChatController.cpp:183
+#, qt-format
+msgctxt "ChatController|%1 is a username"
+msgid "%1 paused typing"
+msgstr "%1 نوشتن را متوقف کرد"
+
+#: src/ChatHintModel.cpp:234
+msgctxt "ChatHintModel|"
+msgid "Your account is disabled - Messages are exchanged once connected"
+msgstr "حساب شما غیرفعال است - پیام‌ها پس از برقراری اتصال ردوبدل می‌شوند"
+
+#: src/ChatHintModel.cpp:235 src/ChatHintModel.cpp:245
+#: src/ChatHintModel.cpp:293 src/ChatHintModel.cpp:314
+msgctxt "ChatHintModel|"
+msgid "Dismiss"
+msgstr "بستن"
+
+#: src/ChatHintModel.cpp:235
+msgctxt "ChatHintModel|"
+msgid "Enable"
+msgstr "فعال‌سازی"
+
+#: src/ChatHintModel.cpp:237
+msgctxt "ChatHintModel|"
+msgid "Enabling…"
+msgstr "در حال فعال‌سازی…"
+
+#: src/ChatHintModel.cpp:244
+msgctxt "ChatHintModel|"
+msgid "Could not connect"
+msgstr "اتصال برقرار نشد"
+
+#: src/ChatHintModel.cpp:245
+msgctxt "ChatHintModel|"
+msgid "Show error"
+msgstr "نمایش خطا"
+
+#: src/ChatHintModel.cpp:247
+msgctxt "ChatHintModel|"
+msgid "Connecting…"
+msgstr "در حال اتصال…"
+
+#: src/ChatHintModel.cpp:260
+#, qt-format
+msgctxt ""
+"ChatHintModel|%1 is an account display name, %2 is appended text that begins"
+" with ': ' and is shown if the request has a status message, otherwise it is"
+" empty"
+msgid ""
+"%1 would like to receive your personal data such as availability, devices "
+"and other personal information%2"
+msgstr ""
+"%1 می‌خواهد داده‌های شخصی شما مانند وضعیت دردسترس‌بودن، دستگاه‌ها و سایر "
+"اطلاعات شخصی را دریافت کند%2"
+
+#: src/ChatHintModel.cpp:267
+#, qt-format
+msgctxt ""
+"ChatHintModel|%1 and %3 are account display names, %2 and %4 are account "
+"JIDs, %5 is appended text that begins with ': ' and is shown if the request "
+"has a status message, otherwise it is empty"
+msgid ""
+"Your contact %1 (%2) is %3 (%4) now and would like to receive your personal "
+"data such as availability, devices and other personal information again%5"
+msgstr ""
+"مخاطب شما %1 (%2) اکنون %3 (%4) است و می‌خواهد دوباره داده‌های شخصی شما "
+"مانند وضعیت دردسترس‌بودن، دستگاه‌ها و سایر اطلاعات شخصی را دریافت کند%5"
+
+#: src/ChatHintModel.cpp:276
+msgctxt "ChatHintModel|"
+msgid "Refuse"
+msgstr "رد کردن"
+
+#: src/ChatHintModel.cpp:276
+msgctxt "ChatHintModel|"
+msgid "Allow"
+msgstr "اجازه‌دادن"
+
+#: src/ChatHintModel.cpp:278
+msgctxt "ChatHintModel|"
+msgid "Allowing…"
+msgstr "در حال دادن اجازه…"
+
+#: src/ChatHintModel.cpp:292
+msgctxt "ChatHintModel|"
+msgid "This group has no users"
+msgstr "این گروه هیچ کاربری ندارد"
+
+#: src/ChatHintModel.cpp:293
+msgctxt "ChatHintModel|"
+msgid "Invite contacts"
+msgstr "دعوت از مخاطبان"
+
+#: src/ChatHintModel.cpp:295
+msgctxt "ChatHintModel|"
+msgid "Opening invitation area"
+msgstr "در حال باز کردن بخش دعوت"
+
+#: src/ChatHintModel.cpp:313
+msgctxt "ChatHintModel|"
+msgid "This group is deleted"
+msgstr "این گروه حذف شده است"
+
+#: src/ChatHintModel.cpp:314
+msgctxt "ChatHintModel|"
+msgid "Leave"
+msgstr "ترک گروه"
+
+#: src/ChatHintModel.cpp:316
+msgctxt "ChatHintModel|"
+msgid "Leaving group chat"
+msgstr "در حال ترک گفتگوی گروهی"
+
+#: src/FileSharingController.cpp:305 src/FileSharingController.cpp:440
+msgctxt "FileSharingController|"
+msgid "Canceled"
+msgstr "لغو شد"
+
+#: src/FileSharingController.cpp:336
+#, qt-format
+msgctxt "FileSharingController|"
+msgid "Could not download file: %1"
+msgstr "بارگیری پرونده ممکن نشد: %1"
+
+#: src/FileSharingController.cpp:383
+msgctxt "FileSharingController|"
+msgid "Media sharing support is unknown"
+msgstr "پشتیبانی از هم‌رسانی رسانه نامشخص است"
+
+#: src/FileSharingController.cpp:386
+msgctxt "FileSharingController|"
+msgid "Media sharing is unsupported"
+msgstr "هم‌رسانی رسانه پشتیبانی نمی‌شود"
+
+#: src/FileSharingController.cpp:509
+#, qt-format
+msgctxt "FileSharingController|%1 is an error message"
+msgid "Could not upload file: %1"
+msgstr "بارگذاری پرونده ممکن نشد: %1"
+
+#: src/FileSharingController.cpp:624
+msgctxt "FileSharingController|"
+msgid "Transfer canceled"
+msgstr "انتقال لغو شد"
+
+#: src/FileSharingController.cpp:630
+#, qt-format
+msgctxt "FileSharingController|%1 is an error message"
+msgid "Transfer failed: %1"
+msgstr "انتقال ناموفق بود: %1"
+
+#: src/Globals.h:99
+msgctxt "QObject|"
+msgid "No selection"
+msgstr "بدون انتخاب"
+
+#: src/GroupChatUserModel.cpp:54
+msgctxt "GroupChatUserModel|"
+msgid "Not joined"
+msgstr "عضو نشده"
+
+#: src/GroupChatUserModel.cpp:56
+msgctxt "GroupChatUserModel|"
+msgid "Joined"
+msgstr "عضو شده"
+
+#: src/GroupChatUserModel.cpp:58
+msgctxt "GroupChatUserModel|As in: 'User has left the group chat'"
+msgid "Left"
+msgstr "ترک کرد"
+
+#: src/GroupChatUserModel.cpp:60
+msgctxt "GroupChatUserModel|"
+msgid "Banned"
+msgstr "مسدود شده"
+
+#: src/ImageProvider.cpp:134
+#, qt-format
+msgctxt "ImageProvider|%1 is the invalid source URL"
+msgid "Could not copy invalid source to clipboard: %1"
+msgstr "کپی منبع نامعتبر به کلیپ‌بورد ممکن نشد: %1"
+
+#: src/ImageProvider.cpp:312
+#, qt-format
+msgctxt "ImageProvider|%1 is a file path"
+msgid "Could not generate thumbnail: %1 does not exist"
+msgstr "ایجاد تصویر بندانگشتی ممکن نشد: %1 وجود ندارد"
+
+#: src/ImageProvider.cpp:372
+#, qt-format
+msgctxt "ImageProvider|%1 is an error message"
+msgid "Could not generate QR code: %1"
+msgstr "ایجاد کد QR ممکن نشد: %1"
+
+#: src/MediaUtils.cpp:318
+msgctxt "MediaUtils|"
+msgid "Audio"
+msgstr "صدا"
+
+#: src/MediaUtils.cpp:320
+msgctxt "MediaUtils|"
+msgid "Document"
+msgstr "سند"
+
+#: src/MediaUtils.cpp:322
+msgctxt "MediaUtils|"
+msgid "Location"
+msgstr "مکان"
+
+#: src/MediaUtils.cpp:324
+msgctxt "MediaUtils|"
+msgid "Image"
+msgstr "تصویر"
+
+#: src/MediaUtils.cpp:326
+msgctxt "MediaUtils|"
+msgid "Video"
+msgstr "ویدیو"
+
+#: src/MediaUtils.cpp:330
+msgctxt "MediaUtils|"
+msgid "File"
+msgstr "فایل"
+
+#: src/MediaUtils.cpp:339
+msgctxt "MediaUtils|"
+msgid "Take picture"
+msgstr "گرفتن عکس"
+
+#: src/MediaUtils.cpp:341
+msgctxt "MediaUtils|"
+msgid "Record video"
+msgstr "ضبط ویدیو"
+
+#: src/MediaUtils.cpp:343
+msgctxt "MediaUtils|"
+msgid "Record voice"
+msgstr "ضبط صدا"
+
+#: src/MediaUtils.cpp:345
+msgctxt "MediaUtils|"
+msgid "Send location"
+msgstr "ارسال مکان"
+
+#: src/MediaUtils.cpp:383
+msgctxt "MediaUtils|"
+msgid "Choose file"
+msgstr "انتخاب فایل"
+
+#: src/MediaUtils.cpp:385
+msgctxt "MediaUtils|"
+msgid "Choose image"
+msgstr "انتخاب تصویر"
+
+#: src/MediaUtils.cpp:387
+msgctxt "MediaUtils|"
+msgid "Choose video"
+msgstr "انتخاب ویدیو"
+
+#: src/MediaUtils.cpp:389
+msgctxt "MediaUtils|"
+msgid "Choose audio file"
+msgstr "انتخاب فایل صوتی"
+
+#: src/MediaUtils.cpp:391
+msgctxt "MediaUtils|"
+msgid "Choose document"
+msgstr "انتخاب سند"
+
+#: src/MediaUtils.cpp:413
+msgctxt "MediaUtils|"
+msgid "All files"
+msgstr "همهٔ فایل‌ها"
+
+#: src/MediaUtils.cpp:415
+msgctxt "MediaUtils|"
+msgid "Images"
+msgstr "تصاویر"
+
+#: src/MediaUtils.cpp:417
+msgctxt "MediaUtils|"
+msgid "Videos"
+msgstr "ویدیوها"
+
+#: src/MediaUtils.cpp:419
+msgctxt "MediaUtils|"
+msgid "Audio files"
+msgstr "فایل‌های صوتی"
+
+#: src/MediaUtils.cpp:421
+msgctxt "MediaUtils|"
+msgid "Documents"
+msgstr "اسناد"
+
+#: src/MediaUtils.cpp:446
+#, qt-format
+msgctxt ""
+"MediaUtils|%1 is a human-readable filter name, %2 the actual filter pattern"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: src/Message.cpp:140
+msgctxt "QObject|"
+msgid "No information"
+msgstr "بدون اطلاعات"
+
+#: src/Message.cpp:372
+msgctxt "Message|"
+msgid "Spoiler"
+msgstr "اسپویلر"
+
+#: src/Message.cpp:382
+msgctxt "Message|"
+msgid "Location"
+msgstr "موقعیت مکانی"
+
+#: src/Message.cpp:479
+#, qt-format
+msgctxt "Message|%1 is the group JID"
+msgid "Invitation to group %1"
+msgstr "دعوت به گروه %1"
+
+#: src/MessageComposition.cpp:251
+msgctxt "MessageComposition|"
+msgid "Message correction was not successful"
+msgstr "ویرایش پیام ناموفق بود"
+
+#: src/MessageComposition.cpp:525
+msgctxt "FileSelectionModel|"
+msgid "Unknown size"
+msgstr "اندازه نامشخص"
+
+#: src/MessageComposition.cpp:561
+#, qt-format
+msgctxt "FileSelectionModel|"
+msgid "Voice message cannot be sent because it is larger than %2"
+msgstr "پیام صوتی ارسال نمی‌شود زیرا بزرگ‌تر از %2 است"
+
+#: src/MessageComposition.cpp:594
+#, qt-format
+msgctxt ""
+"FileSelectionModel|%1 is a filename, %2 is a human-readable storage amount "
+"(e.g. 5 MB)"
+msgid "'%1' cannot be sent because it is larger than %2"
+msgstr "«%1» ارسال نمی‌شود زیرا بزرگ‌تر از %2 است"
+
+#: src/MessageController.cpp:260
+msgctxt "MessageController|"
+msgid "Message could not be sent"
+msgstr "پیام ارسال نشد"
+
+#: src/MessageController.cpp:264
+msgctxt "MessageController|"
+msgid "Message could not be sent."
+msgstr "پیام ارسال نشد."
+
+#: src/MessageController.cpp:610
+#, qt-format
+msgctxt "MessageController|%1 is the name of an encryption method"
+msgid "This message is encrypted with %1 but could not be decrypted"
+msgstr "این پیام با %1 رمزگذاری شده است اما رمزگشایی نشد"
+
+#: src/MessageController.cpp:1050
+#, qt-format
+msgctxt "MessageController|%1 is an error message"
+msgid "Reaction could not be sent: %1"
+msgstr "ارسال واکنش ممکن نشد: %1"
+
+#: src/MessageController.cpp:1183
+msgctxt "MessageController|"
+msgid "Too old to be removed for everyone"
+msgstr "برای حذف شدن برای همه خیلی قدیمی است"
+
+#: src/MessageController.cpp:1205
+msgctxt "MessageController|"
+msgid ""
+"This person attempted to retract a message. But it is not supported by your "
+"app."
+msgstr ""
+"این شخص سعی کرد پیامی را پس بگیرد، اما توسط برنامهٔ شما پشتیبانی نمی‌شود."
+
+#: src/MessageController.cpp:1227
+#, qt-format
+msgctxt "MessageController|%1 is an error message"
+msgid "Message could not be removed: %1"
+msgstr "پیام حذف نشد: %1"
+
+#: src/MessageModel.cpp:308
+msgctxt "MessageModel|"
+msgid "Removal pending"
+msgstr "در انتظار حذف"
+
+#: src/MessageModel.cpp:310
+msgctxt "MessageModel|"
+msgid "Removal failed"
+msgstr "حذف ناموفق بود"
+
+#: src/MessageModel.cpp:317
+msgctxt "MessageModel|"
+msgid "Pending"
+msgstr "در انتظار"
+
+#: src/MessageModel.cpp:319
+msgctxt "MessageModel|"
+msgid "Sent"
+msgstr "ارسال شد"
+
+#: src/MessageModel.cpp:321
+msgctxt "MessageModel|"
+msgid "Delivered"
+msgstr "تحویل داده شد"
+
+#: src/MessageModel.cpp:323
+msgctxt "MessageModel|"
+msgid "Error"
+msgstr "خطا"
+
+#: src/MessageModel.cpp:629 src/MessageModel.cpp:726
+#, qt-format
+msgctxt "MessageModel|%1 is an error message"
+msgid "Reaction could not be sent: %1"
+msgstr "ارسال واکنش ناموفق بود: %1"
+
+#: src/MessageModel.cpp:811
+#, qt-format
+msgctxt "MessageModel|%1 is an error message"
+msgid "Reactions could not be sent: %1"
+msgstr "ارسال واکنش‌ها ناموفق بود: %1"
+
+#: src/MessageModel.cpp:1394
+msgctxt "MessageModel|"
+msgid "Today"
+msgstr "امروز"
+
+#: src/MessageModel.cpp:1397
+msgctxt "MessageModel|"
+msgid "Yesterday"
+msgstr "دیروز"
+
+#: src/MixController.cpp:103
+msgctxt "MixController|"
+msgid "The group already exists"
+msgstr "گروه از قبل وجود دارد"
+
+#: src/MixController.cpp:124
+#, qt-format
+msgctxt "MixController|%1 is a channel JID, %2 an error message"
+msgid "Whether %1 is public could not be determined: %2"
+msgstr "عمومی بودن %1 مشخص نشد: %2"
+
+#: src/MixController.cpp:138
+#, qt-format
+msgctxt "MixController|%1 is a channel JID, %2 an error message"
+msgid "Could not retrieve information of group %1: %2"
+msgstr "دریافت اطلاعات گروه %1 امکان‌پذیر نبود: %2"
+
+#: src/MixController.cpp:150 src/MixController.cpp:159
+#, qt-format
+msgctxt "MixController|%1 is the old channel JID, %2 is an error message"
+msgid "Could not rename group %1: %2"
+msgstr "تغییر نام گروه %1 ناموفق بود: %2"
+
+#: src/MixController.cpp:179
+msgctxt "MixController|"
+msgid "The group does not exist"
+msgstr "گروه وجود ندارد"
+
+#: src/MixController.cpp:182
+msgctxt "MixController|"
+msgid "You aren't allowed to join the group"
+msgstr "شما اجازه پیوستن به این گروه را ندارید"
+
+#: src/MixController.cpp:236 src/MixController.cpp:243
+#, qt-format
+msgctxt ""
+"MixController|%1 is a contact JID, %2 a channel JID, %3 an error message"
+msgid "%1 could not be invited to %2: %3"
+msgstr "امکان دعوت از %1 به %2 وجود نداشت: %3"
+
+#: src/MixController.cpp:271
+#, qt-format
+msgctxt "MixController|%1 is a channel JID, %2 an error message"
+msgid "Nodes of %1 could not be retrieved: %2"
+msgstr "امکان دریافت گره‌های %1 وجود نداشت: %2"
+
+#: src/MixController.cpp:279
+#, qt-format
+msgctxt "MixController|%1 is a channel JID, %2 an error message"
+msgid "Allowed users of %1 could not be retrieved: %2"
+msgstr "امکان دریافت کاربران مجاز %1 وجود نداشت: %2"
+
+#: src/MixController.cpp:294
+#, qt-format
+msgctxt "MixController|%1 is a channel JID, %2 an error message"
+msgid "Banned users of %1 could not be retrieved: %2"
+msgstr "امکان دریافت کاربران مسدودشدهٔ %1 وجود نداشت: %2"
+
+#: src/MixController.cpp:310
+#, qt-format
+msgctxt "MixController|%1 is a channel JID, %2 an error message"
+msgid "Joined users of %1 could not be retrieved: %2"
+msgstr "امکان دریافت کاربران پیوسته به %1 وجود نداشت: %2"
+
+#: src/MixController.cpp:325
+#, qt-format
+msgctxt ""
+"MixController|%1 is a user JID, %2 a channel JID, %3 an error message"
+msgid "%1 could not be banned from %2: %3"
+msgstr "امکان مسدود کردن %1 از %2 وجود نداشت: %3"
+
+#: src/MixController.cpp:370
+msgctxt "MixController|"
+msgid "You aren't allowed to delete the group"
+msgstr "شما مجاز به حذف این گروه نیستید"
+
+#: src/NotificationController.cpp:102
+#, qt-format
+msgctxt "NotificationController|"
+msgid "Incoming call from %1"
+msgstr "تماس دریافتی از طرف %1"
+
+#: src/NotificationController.cpp:104
+#, qt-format
+msgctxt "NotificationController|"
+msgid "Incoming video call from %1"
+msgstr "تماس تصویری دریافتی از طرف %1"
+
+#: src/NotificationController.cpp:120
+msgctxt "NotificationController|"
+msgid "Accept"
+msgstr "پذیرفتن"
+
+#: src/NotificationController.cpp:127
+msgctxt "NotificationController|"
+msgid "Reject"
+msgstr "رد کردن"
+
+#: src/NotificationController.cpp:314 src/NotificationController.cpp:376
+msgctxt "NotificationController|"
+msgid "Open"
+msgstr "باز کردن"
+
+#: src/NotificationController.cpp:318
+msgctxt "NotificationController|"
+msgid "Mark as read"
+msgstr "علامت‌گذاری به‌عنوان خوانده‌شده"
+
+#: src/NotificationController.cpp:322
+msgctxt "NotificationController|"
+msgid "Reply"
+msgstr "پاسخ"
+
+#: src/NotificationController.cpp:323
+msgctxt "NotificationController|"
+msgid "Reply…"
+msgstr "پاسخ…"
+
+#: src/NotificationController.cpp:361
+msgctxt "NotificationController|"
+msgid "Requests to receive your personal data"
+msgstr "درخواست‌ها برای دریافت داده‌های شخصی شما"
+
+#: src/OmemoController.cpp:107
+msgctxt "OmemoController|"
+msgid "End-to-end encryption via OMEMO 2 could not be set up"
+msgstr "راه‌اندازی رمزگذاری سرتاسری از طریق OMEMO 2 امکان‌پذیر نبود"
+
+#: src/PresenceCache.cpp:36
+msgctxt "QObject|"
+msgid "Available"
+msgstr "در دسترس"
+
+#: src/PresenceCache.cpp:38
+msgctxt "QObject|"
+msgid "Free for chat"
+msgstr "آماده گفتگو"
+
+#: src/PresenceCache.cpp:40
+msgctxt "QObject|"
+msgid "Away"
+msgstr "غایب"
+
+#: src/PresenceCache.cpp:42
+msgctxt "QObject|"
+msgid "Do not disturb"
+msgstr "مزاحم نشوید"
+
+#: src/PresenceCache.cpp:44
+msgctxt "QObject|"
+msgid "Away for longer"
+msgstr "غیبت طولانی"
+
+#: src/PresenceCache.cpp:46
+msgctxt "QObject|"
+msgid "Offline"
+msgstr "آفلاین"
+
+#: src/ProviderModel.cpp:75
+msgctxt "ProviderModel|"
+msgid "Custom provider"
+msgstr "ارائه‌دهندهٔ سفارشی"
+
+#. Unlimited file size for uploading
+#. ----------
+#. Deletion of message history stored on provider
+#: src/ProviderModel.cpp:116 src/ProviderModel.cpp:132
+msgctxt "ProviderModel|"
+msgid "Unlimited"
+msgstr "نامحدود"
+
+#. Number of days for which message history is stored on the provider
+#: src/ProviderModel.cpp:135
+#, qt-format
+msgctxt "ProviderModel|"
+msgid "%n day(s)"
+msgid_plural "%n day(s)"
+msgstr[0] "%n روز"
+msgstr[1] "%n روز"
+
+#: src/qml/AboutDialog.qml:13
+msgctxt "AboutDialog|"
+msgid "About Kaidan"
+msgstr "دربارهٔ کایدان"
+
+#: src/qml/AboutPage.qml:12
+msgctxt "AboutPage|"
+msgid "About Kaidan"
+msgstr "دربارهٔ کایدان"
+
+#: src/qml/CallPage.qml:18
+msgctxt "CallPage|"
+msgid "Call"
+msgstr "تماس"
+
+#: src/qml/CallPage.qml:63
+msgctxt "CallPage|"
+msgid "Quit call"
+msgstr "پایان تماس"
+
+#: src/qml/ChatPage.qml:122
+msgctxt "ChatPage|"
+msgid "Open audio call"
+msgstr "باز کردن تماس صوتی"
+
+#: src/qml/ChatPage.qml:122
+msgctxt "ChatPage|"
+msgid "Start audio call"
+msgstr "شروع تماس صوتی"
+
+#: src/qml/ChatPage.qml:145
+msgctxt "ChatPage|"
+msgid "Open video call"
+msgstr "باز کردن تماس ویدیویی"
+
+#: src/qml/ChatPage.qml:145
+msgctxt "ChatPage|"
+msgid "Start video call"
+msgstr "شروع تماس ویدیویی"
+
+#: src/qml/ChatPage.qml:168
+msgctxt "ChatPage|"
+msgid "Search upwards"
+msgstr "جستجو به بالا"
+
+#: src/qml/ChatPage.qml:179
+msgctxt "ChatPage|"
+msgid "Search downwards"
+msgstr "جستجو به پایین"
+
+#: src/qml/ChatPage.qml:191
+msgctxt "ChatPage|"
+msgid "Quit search"
+msgstr "خروج از جستجو"
+
+#: src/qml/ChatPage.qml:191
+msgctxt "ChatPage|"
+msgid "Search"
+msgstr "جستجو"
+
+#: src/qml/ChatPage.qml:598
+msgctxt "ChatPage|"
+msgid "Cancel forwarding"
+msgstr "لغو بازفرستادن"
+
+#: src/qml/ChatPage.qml:612
+msgctxt "ChatPage|"
+msgid "Select a chat to forward the message"
+msgstr "یک گفتگو را برای بازفرستادن پیام انتخاب کنید"
+
+#: src/qml/ChatPage.qml:660
+msgctxt "ChatPage|"
+msgid "Drop files to be sent"
+msgstr "پرونده‌ها را برای ارسال اینجا رها کنید"
+
+#: src/qml/details/AccountDetailsContent.qml:21
+#, qt-format
+msgctxt "AccountDetailsContent|%1 is a size limit, e.g. 5 MB"
+msgid "You can share media up to %1."
+msgstr "می‌توانید رسانه‌ها را حداکثر تا %1 همرسانی کنید."
+
+#: src/qml/details/AccountDetailsContent.qml:25
+#: src/qml/details/AccountDetailsContent.qml:266
+#: src/qml/details/AccountDetailsContent.qml:289
+msgctxt "AccountDetailsContent|"
+msgid "Never"
+msgstr "هرگز"
+
+#: src/qml/details/AccountDetailsContent.qml:29
+#: src/qml/details/AccountDetailsContent.qml:270
+msgctxt "AccountDetailsContent|"
+msgid "If personal data is shared"
+msgstr "در صورت همرسانی داده‌های شخصی"
+
+#: src/qml/details/AccountDetailsContent.qml:33
+#: src/qml/details/AccountDetailsContent.qml:274
+#: src/qml/details/AccountDetailsContent.qml:297
+msgctxt "AccountDetailsContent|"
+msgid "Always"
+msgstr "همیشه"
+
+#: src/qml/details/AccountDetailsContent.qml:63
+msgctxt "AccountDetailsContent|"
+msgid "Empty"
+msgstr "خالی"
+
+#: src/qml/details/AccountDetailsContent.qml:83
+msgctxt "AccountDetailsContent|"
+msgid "Set value"
+msgstr "تنظیم مقدار"
+
+#: src/qml/details/AccountDetailsContent.qml:129
+msgctxt "AccountDetailsContent|"
+msgid "Encryption"
+msgstr "رمزنگاری"
+
+#: src/qml/details/AccountDetailsContent.qml:133
+msgctxt "AccountDetailsContent|"
+msgid "OMEMO 2"
+msgstr "OMEMO 2"
+
+#: src/qml/details/AccountDetailsContent.qml:134
+msgctxt "AccountDetailsContent|"
+msgid ""
+"End-to-end encryption with OMEMO 2 ensures that nobody else than you and "
+"your chat partners can read or modify the data you exchange."
+msgstr ""
+"رمزنگاری سرتاسری با OMEMO 2 تضمین می‌کند که هیچ‌کس جز شما و مخاطبانتان "
+"نمی‌تواند داده‌های ردوبدل‌شده را بخواند یا تغییر دهد."
+
+#: src/qml/details/AccountDetailsContent.qml:191
+msgctxt "AccountDetailsContent|"
+msgid "Change label…"
+msgstr "تغییر برچسب…"
+
+#: src/qml/details/AccountDetailsContent.qml:219
+msgctxt "AccountDetailsContent|"
+msgid "Remove label"
+msgstr "حذف برچسب"
+
+#: src/qml/details/AccountDetailsContent.qml:231
+#: src/qml/details/AccountDetailsContent.qml:236
+msgctxt "AccountDetailsContent|"
+msgid "Share this account's chat address via QR code"
+msgstr "اشتراک‌گذاری نشانی گفت‌وگوی این حساب از طریق کد QR"
+
+#: src/qml/details/AccountDetailsContent.qml:240
+msgctxt "AccountDetailsContent|"
+msgid "Share this account's chat address via text"
+msgstr "اشتراک‌گذاری نشانی گفت‌وگوی این حساب از طریق متن"
+
+#: src/qml/details/AccountDetailsContent.qml:243
+msgctxt "AccountDetailsContent|"
+msgid "Account address copied to clipboard"
+msgstr "نشانی حساب در بریده‌دان کپی شد"
+
+#: src/qml/details/AccountDetailsContent.qml:247
+msgctxt "AccountDetailsContent|"
+msgid "Share this account's chat address via a web page with usage help"
+msgstr ""
+"اشتراک‌گذاری نشانی گفت‌وگوی این حساب از طریق یک صفحهٔ وب با راهنمای استفاده"
+
+#: src/qml/details/AccountDetailsContent.qml:258
+msgctxt "AccountDetailsContent|"
+msgid "Notifications"
+msgstr "اعلان‌ها"
+
+#: src/qml/details/AccountDetailsContent.qml:262
+msgctxt "AccountDetailsContent|"
+msgid "Incoming contact messages"
+msgstr "پیام‌های دریافتی مخاطب"
+
+#: src/qml/details/AccountDetailsContent.qml:263
+msgctxt "AccountDetailsContent|"
+msgid "Show notification and play sound on message arrival from a contact"
+msgstr "نمایش اعلان و پخش صدا هنگام رسیدن پیام از مخاطب"
+
+#: src/qml/details/AccountDetailsContent.qml:285
+msgctxt "AccountDetailsContent|"
+msgid "Incoming group messages"
+msgstr "پیام‌های دریافتی گروه"
+
+#: src/qml/details/AccountDetailsContent.qml:286
+msgctxt "AccountDetailsContent|"
+msgid "Show notification and play sound on message arrival from a group"
+msgstr "نمایش اعلان و پخش صدا هنگام دریافت پیام از گروه"
+
+#: src/qml/details/AccountDetailsContent.qml:293
+msgctxt "AccountDetailsContent|"
+msgid "On mention"
+msgstr "هنگام اشاره (منشن)"
+
+#: src/qml/details/AccountDetailsContent.qml:310
+msgctxt "AccountDetailsContent|"
+msgid "Locations"
+msgstr "موقعیت‌های مکانی"
+
+#: src/qml/details/AccountDetailsContent.qml:314
+msgctxt "AccountDetailsContent|"
+msgid ""
+"For displaying locations in Kaidan, online data from the third party "
+"provider OpenStreetMap is used. The data is downloaded from it after "
+"submitting the location."
+msgstr ""
+"برای نمایش موقعیت‌های مکانی در کایدان، از داده‌های برخط ارائه‌دهنده شخص ثالث"
+" OpenStreetMap استفاده می‌شود. پس از ارسال موقعیت مکانی، داده‌ها از آن "
+"بارگیری می‌شوند."
+
+#: src/qml/details/AccountDetailsContent.qml:319
+msgctxt "AccountDetailsContent|"
+msgid "Location map previews"
+msgstr "پیش‌نمایش‌های نقشه موقعیت مکانی"
+
+#: src/qml/details/AccountDetailsContent.qml:320
+msgctxt "AccountDetailsContent|"
+msgid "Display previews of locations"
+msgstr "نمایش پیش‌نمایش موقعیت‌های مکانی"
+
+#: src/qml/details/AccountDetailsContent.qml:328
+msgctxt "AccountDetailsContent|"
+msgid "Opening locations"
+msgstr "باز کردن موقعیت‌های مکانی"
+
+#: src/qml/details/AccountDetailsContent.qml:329
+msgctxt "AccountDetailsContent|"
+msgid "How to open locations"
+msgstr "نحوه باز کردن موقعیت‌های مکانی"
+
+#: src/qml/details/AccountDetailsContent.qml:332
+msgctxt "AccountDetailsContent|"
+msgid "System default"
+msgstr "پیش‌فرض سامانه"
+
+#: src/qml/details/AccountDetailsContent.qml:336
+msgctxt "AccountDetailsContent|"
+msgid "Kaidan"
+msgstr "کایدان"
+
+#: src/qml/details/AccountDetailsContent.qml:340
+msgctxt "AccountDetailsContent|"
+msgid "Web"
+msgstr "وب"
+
+#: src/qml/details/AccountDetailsContent.qml:364
+msgctxt "AccountDetailsContent|"
+msgid "Provider"
+msgstr "ارائه‌دهنده"
+
+#: src/qml/details/AccountDetailsContent.qml:368
+msgctxt "AccountDetailsContent|"
+msgid "Visit website"
+msgstr "مشاهدهٔ وب‌گاه"
+
+#: src/qml/details/AccountDetailsContent.qml:369
+msgctxt "AccountDetailsContent|"
+msgid "Open your provider's website in a web browser"
+msgstr "باز کردن وب‌گاه ارائه‌دهنده در مرورگر وب"
+
+#: src/qml/details/AccountDetailsContent.qml:375
+msgctxt "AccountDetailsContent|"
+msgid "Copy website address"
+msgstr "رونوشت از نشانی وب‌گاه"
+
+#: src/qml/details/AccountDetailsContent.qml:376
+msgctxt "AccountDetailsContent|"
+msgid "Copy your provider's web address to the clipboard"
+msgstr "رونوشت از نشانی وب ارائه‌دهنده در تخته‌گیره"
+
+#: src/qml/details/AccountDetailsContent.qml:380
+msgctxt "AccountDetailsContent|"
+msgid "Website address copied to clipboard"
+msgstr "نشانی وب‌گاه در تخته‌گیره رونوشت شد"
+
+#: src/qml/details/AccountDetailsContent.qml:386
+msgctxt "AccountDetailsContent|"
+msgid "Open support chat"
+msgstr "باز کردن گفتگوی پشتیبانی"
+
+#: src/qml/details/AccountDetailsContent.qml:387
+msgctxt "AccountDetailsContent|"
+msgid "Start chat with your provider's support contact"
+msgstr "شروع گفتگو با مخاطب پشتیبانی ارائه‌دهنده"
+
+#: src/qml/details/AccountDetailsContent.qml:394
+msgctxt "AccountDetailsContent|"
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: src/qml/details/AccountDetailsContent.qml:409
+#, qt-format
+msgctxt "AccountDetailsContent|as in 'get help'"
+msgid "Support %1"
+msgstr "پشتیبانی %1"
+
+#: src/qml/details/AccountDetailsContent.qml:427
+msgctxt "AccountDetailsContent|"
+msgid "Open support group"
+msgstr "باز کردن گروه پشتیبانی"
+
+#: src/qml/details/AccountDetailsContent.qml:428
+msgctxt "AccountDetailsContent|"
+msgid "Join your provider's public support group"
+msgstr "پیوستن به گروه پشتیبانی عمومی ارائه‌دهندهٔ خود"
+
+#: src/qml/details/AccountDetailsContent.qml:443
+#, qt-format
+msgctxt "AccountDetailsContent|as in 'get help'"
+msgid "Group Support %1"
+msgstr "پشتیبانی گروهی %1"
+
+#: src/qml/details/AccountDetailsContent.qml:457
+msgctxt "AccountDetailsContent|"
+msgid "Blocked Chat Addresses"
+msgstr "نشانی‌های گفتگوی مسدودشده"
+
+#: src/qml/details/AccountDetailsContent.qml:461
+msgctxt "AccountDetailsContent|"
+msgid ""
+"Block a specific user (e.g., user@example.org) or all users of the same "
+"server (e.g., example.org)"
+msgstr ""
+"مسدود کردن یک کاربر خاص (مانند user@example.org) یا همهٔ کاربران یک سرور "
+"(مانند example.org)"
+
+#: src/qml/details/AccountDetailsContent.qml:488
+msgctxt "AccountDetailsContent|"
+msgid "You must be connected to block or unblock chat addresses"
+msgstr "برای مسدود یا رفع مسدودیت نشانی‌های گفتگو، باید متصل باشید"
+
+#: src/qml/details/AccountDetailsContent.qml:496
+msgctxt "AccountDetailsContent|"
+msgid "user@example.org"
+msgstr "user@example.org"
+
+#: src/qml/details/AccountDetailsContent.qml:511
+msgctxt "AccountDetailsContent|"
+msgid "Block chat address"
+msgstr "مسدود کردن نشانی گفتگو"
+
+#: src/qml/details/AccountDetailsContent.qml:569
+msgctxt "AccountDetailsContent|"
+msgid "Change chat address…"
+msgstr "تغییر نشانی گفتگو…"
+
+#: src/qml/details/AccountDetailsContent.qml:597
+msgctxt "AccountDetailsContent|"
+msgid "Unblock"
+msgstr "رفع مسدودیت"
+
+#: src/qml/details/AccountDetailsContent.qml:617
+msgctxt "AccountDetailsContent|"
+msgid "Notes"
+msgstr "یادداشت‌ها"
+
+#: src/qml/details/AccountDetailsContent.qml:623
+msgctxt "AccountDetailsContent|"
+msgid "Add chat for notes"
+msgstr "افزودن گفتگوی یادداشت‌ها"
+
+#: src/qml/details/AccountDetailsContent.qml:624
+msgctxt "AccountDetailsContent|"
+msgid "Adding notes chat…"
+msgstr "در حال افزودن گفتگوی یادداشت‌ها…"
+
+#: src/qml/details/AccountDetailsContent.qml:625
+msgctxt "AccountDetailsContent|"
+msgid "Add a chat for synchronizing your notes across all your devices"
+msgstr "افزودن یک گفتگو برای همگام‌سازی یادداشت‌هایتان در تمام دستگاه‌های خود"
+
+#: src/qml/details/AccountDetailsContent.qml:638
+msgctxt "AccountDetailsContent|"
+msgid ""
+"The notes chat could not be added to your contact list because your server "
+"does not support that"
+msgstr ""
+"گفتگوی یادداشت‌ها به فهرست مخاطبان شما اضافه نشد، زیرا سرور شما از آن "
+"پشتیبانی نمی‌کند"
+
+#: src/qml/details/AccountDetailsContent.qml:673
+msgctxt "AccountDetailsContent|"
+msgid "Password Change"
+msgstr "تغییر گذرواژه"
+
+#: src/qml/details/AccountDetailsContent.qml:677
+msgctxt "AccountDetailsContent|"
+msgid ""
+"Change your password. You need to enter the new password on all your other "
+"devices!"
+msgstr ""
+"گذرواژهٔ خود را تغییر دهید. باید گذرواژهٔ جدید را در تمام دستگاه‌های دیگر "
+"خود نیز وارد کنید!"
+
+#: src/qml/details/AccountDetailsContent.qml:682
+msgctxt "AccountDetailsContent|"
+msgid "Current password"
+msgstr "گذرواژهٔ کنونی"
+
+#: src/qml/details/AccountDetailsContent.qml:683
+msgctxt "AccountDetailsContent|"
+msgid "Enter your current password"
+msgstr "گذرواژهٔ کنونی خود را وارد کنید"
+
+#: src/qml/details/AccountDetailsContent.qml:699
+msgctxt "AccountDetailsContent|"
+msgid "New password"
+msgstr "گذرواژه جدید"
+
+#: src/qml/details/AccountDetailsContent.qml:699
+#: src/qml/details/AccountDetailsContent.qml:953
+msgctxt "AccountDetailsContent|"
+msgid "Password"
+msgstr "گذرواژه"
+
+#: src/qml/details/AccountDetailsContent.qml:700
+msgctxt "AccountDetailsContent|"
+msgid "Enter your new password"
+msgstr "گذرواژه جدید خود را وارد کنید"
+
+#: src/qml/details/AccountDetailsContent.qml:702
+msgctxt "AccountDetailsContent|"
+msgid "Enter a different password to change it"
+msgstr "برای تغییر گذرواژه، یک گذرواژه متفاوت وارد کنید"
+
+#: src/qml/details/AccountDetailsContent.qml:721
+msgctxt "AccountDetailsContent|"
+msgid "Change password"
+msgstr "تغییر گذرواژه"
+
+#: src/qml/details/AccountDetailsContent.qml:757
+#, qt-format
+msgctxt "AccountDetailsContent|%1 is an error message"
+msgid "Failed to change password: %1"
+msgstr "تغییر گذرواژه ناموفق بود: %1"
+
+#: src/qml/details/AccountDetailsContent.qml:763
+msgctxt "AccountDetailsContent|"
+msgid "Password changed successfully"
+msgstr "گذرواژه با موفقیت تغییر کرد"
+
+#: src/qml/details/AccountDetailsContent.qml:786
+msgctxt "AccountDetailsContent|"
+msgid "Password Visibility"
+msgstr "نمایانی گذرواژه"
+
+#: src/qml/details/AccountDetailsContent.qml:790
+msgctxt "AccountDetailsContent|"
+msgid ""
+"Configure this device to not expose your password for changing it or "
+"switching to another device. If you want to change your password or use your"
+" account on another device later, <b>consider storing the password somewhere"
+" else. This cannot be undone!</b>"
+msgstr ""
+"این دستگاه را طوری پیکربندی کنید که گذرواژه شما را برای تغییر دادن آن یا "
+"جابه‌جایی به دستگاهی دیگر فاش نکند. اگر می‌خواهید بعداً گذرواژه خود را تغییر"
+" دهید یا از حسابتان در دستگاه دیگری استفاده کنید، <b>ذخیره گذرواژه در جایی "
+"دیگر را مد نظر داشته باشید. این عمل غیرقابل بازگشت است!</b>"
+
+#: src/qml/details/AccountDetailsContent.qml:796
+msgctxt "AccountDetailsContent|"
+msgid "Don't show password as text"
+msgstr "گذرواژه به‌صورت متن نشان داده نشود"
+
+#: src/qml/details/AccountDetailsContent.qml:797
+msgctxt "AccountDetailsContent|"
+msgid ""
+"Allow to add additional devices using the login QR code but never show the "
+"password"
+msgstr ""
+"امکان افزودن دستگاه‌های بیشتر با کد QR ورود مجاز باشد، اما گذرواژه هرگز "
+"نمایش داده نشود"
+
+#: src/qml/details/AccountDetailsContent.qml:804
+msgctxt "AccountDetailsContent|"
+msgid "Removing password from text…"
+msgstr "در حال حذف گذرواژه از متن…"
+
+#: src/qml/details/AccountDetailsContent.qml:810
+msgctxt "AccountDetailsContent|"
+msgid "Don't expose password in any way"
+msgstr "گذرواژه به هیچ وجه آشکار نشود"
+
+#: src/qml/details/AccountDetailsContent.qml:811
+msgctxt "AccountDetailsContent|"
+msgid ""
+"Neither allow to add additional devices using the login QR code nor show the"
+" password"
+msgstr ""
+"نه امکان افزودن دستگاه‌های بیشتر با کد QR ورود مجاز باشد و نه گذرواژه نمایش "
+"داده شود"
+
+#: src/qml/details/AccountDetailsContent.qml:818
+msgctxt "AccountDetailsContent|"
+msgid "Removing password from text and QR code…"
+msgstr "در حال حذف گذرواژه از متن و کد QR…"
+
+#: src/qml/details/AccountDetailsContent.qml:827
+msgctxt "AccountDetailsContent|"
+msgid "Connection"
+msgstr "اتصال"
+
+#: src/qml/details/AccountDetailsContent.qml:831
+msgctxt "AccountDetailsContent|"
+msgid ""
+"Configure the hostname and port to connect to (empty fields for default "
+"values)"
+msgstr ""
+"پیکربندی نام میزبان و درگاهی که باید به آن متصل شد (فیلدهای خالی برای مقادیر"
+" پیش‌فرض)"
+
+#: src/qml/details/AccountDetailsContent.qml:859
+msgctxt "AccountDetailsContent|"
+msgid "Apply changes"
+msgstr "اعمال تغییرات"
+
+#: src/qml/details/AccountDetailsContent.qml:860
+msgctxt "AccountDetailsContent|"
+msgid "Applying changes…"
+msgstr "در حال اعمال تغییرات…"
+
+#: src/qml/details/AccountDetailsContent.qml:890
+#, qt-format
+msgctxt "AccountDetailsContent|%1 is an error message"
+msgid "Connection settings could not be changed: %1"
+msgstr "تنظیمات اتصال تغییر نیافت: %1"
+
+#: src/qml/details/AccountDetailsContent.qml:903
+msgctxt "AccountDetailsContent|"
+msgid "Connection settings changed"
+msgstr "تنظیمات اتصال تغییر کرد"
+
+#: src/qml/details/AccountDetailsContent.qml:913
+msgctxt "AccountDetailsContent|"
+msgid "Switch Device"
+msgstr "تعویض دستگاه"
+
+#: src/qml/details/AccountDetailsContent.qml:917
+msgctxt "AccountDetailsContent|"
+msgid ""
+"Never show the information in this section to anyone else. It would allow "
+"unlimited access to your account!"
+msgstr ""
+"اطلاعات این بخش را هرگز به شخص دیگری نشان ندهید. این کار امکان دسترسی "
+"نامحدود به حساب شما را فراهم می‌کند!"
+
+#: src/qml/details/AccountDetailsContent.qml:923
+msgctxt "AccountDetailsContent|"
+msgid "Show login QR code"
+msgstr "نمایش کد QR ورود"
+
+#: src/qml/details/AccountDetailsContent.qml:924
+msgctxt "AccountDetailsContent|"
+msgid "Scan the QR code by another device to log in on it"
+msgstr "برای ورود در دستگاهی دیگر، کد QR را با آن اسکن کنید"
+
+#: src/qml/details/AccountDetailsContent.qml:940
+msgctxt "AccountDetailsContent|"
+msgid "Show credentials"
+msgstr "نمایش اطلاعات ورود"
+
+#: src/qml/details/AccountDetailsContent.qml:941
+msgctxt "AccountDetailsContent|"
+msgid "Enter the credentials in another device to log in on it"
+msgstr "برای ورود در دستگاهی دیگر، اطلاعات ورود را در آن وارد کنید"
+
+#: src/qml/details/AccountDetailsContent.qml:947
+msgctxt "AccountDetailsContent|"
+msgid "Chat address"
+msgstr "نشانی گفتگو"
+
+#: src/qml/details/AccountDetailsContent.qml:964
+msgctxt "AccountDetailsContent|"
+msgid "Migration"
+msgstr "مهاجرت"
+
+#: src/qml/details/AccountDetailsContent.qml:969
+msgctxt "AccountDetailsContent|"
+msgid "Migrate account"
+msgstr "مهاجرت حساب"
+
+#: src/qml/details/AccountDetailsContent.qml:970
+msgctxt "AccountDetailsContent|"
+msgid "Preparing account migration…"
+msgstr "در حال آماده‌سازی انتقال حساب…"
+
+#: src/qml/details/AccountDetailsContent.qml:972
+msgctxt "AccountDetailsContent|"
+msgid "This may take a while"
+msgstr "ممکن است کمی طول بکشد"
+
+#: src/qml/details/AccountDetailsContent.qml:972
+msgctxt "AccountDetailsContent|"
+msgid ""
+"Migrate account data (except chat history) to another account. Your current "
+"account will be removed from this app. Back up your credentials and chat "
+"history if needed!"
+msgstr ""
+"انتقال داده‌های حساب (به‌جز تاریخچهٔ گفتگو) به حسابی دیگر. حساب فعلی‌تان از "
+"این برنامه حذف خواهد شد. در صورت نیاز از اعتبارنامه‌ها و تاریخچهٔ گفتگوی خود"
+" نسخهٔ پشتیبان تهیه کنید!"
+
+#: src/qml/details/AccountDetailsContent.qml:993
+msgctxt "AccountDetailsContent|"
+msgid "Removal"
+msgstr "حذف"
+
+#: src/qml/details/AccountDetailsContent.qml:999
+msgctxt "AccountDetailsContent|"
+msgid "Remove from Kaidan"
+msgstr "حذف از کایدان"
+
+#: src/qml/details/AccountDetailsContent.qml:1000
+msgctxt "AccountDetailsContent|"
+msgid ""
+"Remove account from this app. Back up your credentials and chat history if "
+"needed!"
+msgstr ""
+"حذف حساب از این برنامه. در صورت نیاز از اعتبارنامه‌ها و تاریخچهٔ گفتگوی خود "
+"نسخهٔ پشتیبان تهیه کنید!"
+
+#: src/qml/details/AccountDetailsContent.qml:1008
+msgctxt "AccountDetailsContent|"
+msgid "Removing account…"
+msgstr "در حال حذف حساب…"
+
+#: src/qml/details/AccountDetailsContent.qml:1015
+msgctxt "AccountDetailsContent|"
+msgid "Delete completely"
+msgstr "حذف کامل"
+
+#: src/qml/details/AccountDetailsContent.qml:1016
+msgctxt "AccountDetailsContent|"
+msgid ""
+"Delete account from provider. You will not be able to use your account "
+"again!"
+msgstr ""
+"حذف حساب از ارائه‌دهنده. دیگر قادر به استفاده از حساب خود نخواهید بود!"
+
+#: src/qml/details/AccountDetailsContent.qml:1024
+msgctxt "AccountDetailsContent|"
+msgid "Deleting account…"
+msgstr "در حال حذف حساب…"
+
+#: src/qml/details/AccountDetailsContent.qml:1031
+#, qt-format
+msgctxt "AccountDetailsContent|%1 is an error message"
+msgid ""
+"Your account could not be deleted from the server. Therefore, it was also "
+"not removed from this app: %1"
+msgstr "حساب شما از سرور حذف نشد. بنابراین، از این برنامه نیز حذف نگردید: %1"
+
+#: src/qml/details/AccountDetailsDialog.qml:13
+msgctxt "AccountDetailsDialog|"
+msgid "Account Details"
+msgstr "جزئیات حساب"
+
+#: src/qml/details/AccountDetailsHeader.qml:18
+msgctxt "AccountDetailsHeader|"
+msgid "Change your profile image"
+msgstr "تغییر تصویر نمایه"
+
+#: src/qml/details/AccountDetailsPage.qml:12
+msgctxt "AccountDetailsPage|"
+msgid "Account Details"
+msgstr "جزئیات حساب"
+
+#: src/qml/details/AccountKeyAuthenticationButton.qml:35
+#: src/qml/details/AccountKeyAuthenticationButton.qml:40
+msgctxt "AccountKeyAuthenticationButton|"
+msgid "Verify your own devices to encrypt for them"
+msgstr "دستگاه‌های خود را تأیید کنید تا پیام‌ها برای آن‌ها رمزگذاری شوند"
+
+#: src/qml/details/AccountKeyAuthenticationButton.qml:38
+msgctxt "AccountKeyAuthenticationButton|"
+msgid "Verify own unknown devices to encrypt for them"
+msgstr ""
+"دستگاه‌های ناشناختهٔ خود را تأیید کنید تا پیام‌ها برای آن‌ها رمزگذاری شوند"
+
+#: src/qml/details/AccountKeyAuthenticationButton.qml:42
+msgctxt "AccountKeyAuthenticationButton|"
+msgid "Verify your own devices for maximum security"
+msgstr "برای امنیت حداکثری، دستگاه‌های خود را تأیید کنید"
+
+#: src/qml/details/AccountKeyAuthenticationButton.qml:44
+msgctxt "AccountKeyAuthenticationButton|"
+msgid ""
+"Verify own unknown devices or let your other devices verify this device"
+msgstr ""
+"دستگاه‌های ناشناختهٔ خود را تأیید کنید یا اجازه دهید دستگاه‌های دیگرتان این "
+"دستگاه را تأیید کنند"
+
+#: src/qml/details/AccountKeyAuthenticationButton.qml:50
+msgctxt "AccountKeyAuthenticationButton|"
+msgid "You have no other trusted device to encrypt for"
+msgstr "هیچ دستگاه مورد اعتماد دیگری برای رمزگذاری ندارید"
+
+#: src/qml/details/AccountKeyAuthenticationButton.qml:52
+msgctxt "AccountKeyAuthenticationButton|"
+msgid "You have other devices that do not use OMEMO 2"
+msgstr "دستگاه‌های دیگری دارید که از OMEMO 2 استفاده نمی‌کنند"
+
+#: src/qml/details/AccountKeyAuthenticationButton.qml:54
+msgctxt "AccountKeyAuthenticationButton|"
+msgid "You have no known other device using OMEMO 2"
+msgstr "شما هیچ دستگاه شناخته‌شدهٔ دیگری که از OMEMO 2 استفاده کند ندارید"
+
+#: src/qml/details/AccountKeyAuthenticationButton.qml:56
+msgctxt "AccountKeyAuthenticationButton|"
+msgid "You have other devices that need to be verified to encrypt for them"
+msgstr "دستگاه‌های دیگری دارید که برای رمزگذاری برای آن‌ها باید تأیید شوند"
+
+#: src/qml/details/AccountKeyAuthenticationButton.qml:58
+msgctxt "AccountKeyAuthenticationButton|"
+msgid "You have other devices that are not verified"
+msgstr "دستگاه‌های دیگری دارید که تأیید نشده‌اند"
+
+#: src/qml/details/AccountKeyAuthenticationButton.qml:60
+msgctxt "AccountKeyAuthenticationButton|"
+msgid "All your other known devices are verified"
+msgstr "همهٔ دستگاه‌های شناخته‌شدهٔ دیگر شما تأیید شده‌اند"
+
+#: src/qml/details/AvatarChangePage.qml:23
+msgctxt "AvatarChangePage|"
+msgid "Change profile image"
+msgstr "تغییر تصویر نمایه"
+
+#: src/qml/details/AvatarChangePage.qml:91
+msgctxt "AvatarChangePage|"
+msgid "Open image…"
+msgstr "باز کردن تصویر…"
+
+#: src/qml/details/AvatarChangePage.qml:102
+msgctxt "AvatarChangePage|"
+msgid "Remove current profile image"
+msgstr "حذف تصویر نمایهٔ فعلی"
+
+#: src/qml/details/AvatarChangePage.qml:108
+msgctxt "AvatarChangePage|"
+msgid "Save selection"
+msgstr "ذخیرهٔ انتخاب"
+
+#: src/qml/details/ContactDetailsContent.qml:52
+msgctxt "ContactDetailsContent|"
+msgid "Encryption"
+msgstr "رمزگذاری"
+
+#: src/qml/details/ContactDetailsContent.qml:56
+msgctxt "ContactDetailsContent|"
+msgid "OMEMO 2"
+msgstr "OMEMO 2"
+
+#: src/qml/details/ContactDetailsContent.qml:57
+msgctxt "ContactDetailsContent|"
+msgid ""
+"End-to-end encryption with OMEMO 2 ensures that nobody else than you and "
+"your chat partners can read or modify the data you exchange."
+msgstr ""
+"رمزگذاری سرتاسر با OMEMO 2 تضمین می‌کند که هیچ‌کس جز شما و مخاطبانتان "
+"نمی‌تواند داده‌های ردوبدل‌شده را بخواند یا تغییر دهد."
+
+#: src/qml/details/ContactDetailsContent.qml:77
+#: src/qml/details/ContactDetailsContent.qml:82
+msgctxt "ContactDetailsContent|"
+msgid "Share this contact's chat address via QR code"
+msgstr "هم‌رسانی نشانی گفت‌وگوی این مخاطب از طریق کد QR"
+
+#: src/qml/details/ContactDetailsContent.qml:86
+msgctxt "ContactDetailsContent|"
+msgid "Share this contact's chat address via text"
+msgstr "هم‌رسانی نشانی گفت‌وگوی این مخاطب از طریق متن"
+
+#: src/qml/details/ContactDetailsContent.qml:89
+msgctxt "ContactDetailsContent|"
+msgid "Contact copied to clipboard"
+msgstr "مخاطب در تخته‌گیره رونوشت شد"
+
+#: src/qml/details/ContactDetailsContent.qml:93
+msgctxt "ContactDetailsContent|"
+msgid "Share this contact's chat address via a web page with usage help"
+msgstr ""
+"هم‌رسانی نشانی گفت‌وگوی این مخاطب از طریق یک صفحه وب با راهنمای استفاده"
+
+#: src/qml/details/ContactDetailsContent.qml:104
+msgctxt "ContactDetailsContent|"
+msgid "Notifications"
+msgstr "اعلان‌ها"
+
+#: src/qml/details/ContactDetailsContent.qml:108
+msgctxt "ContactDetailsContent|"
+msgid "Incoming messages"
+msgstr "پیام‌های دریافتی"
+
+#: src/qml/details/ContactDetailsContent.qml:109
+msgctxt "ContactDetailsContent|"
+msgid "Show notification and play sound on message arrival"
+msgstr "نمایش اعلان و پخش صدا هنگام رسیدن پیام"
+
+#: src/qml/details/ContactDetailsContent.qml:112
+msgctxt "ContactDetailsContent|"
+msgid "Account default"
+msgstr "پیش‌فرض حساب"
+
+#: src/qml/details/ContactDetailsContent.qml:116
+msgctxt "ContactDetailsContent|"
+msgid "Never"
+msgstr "هرگز"
+
+#: src/qml/details/ContactDetailsContent.qml:120
+msgctxt "ContactDetailsContent|"
+msgid "Always"
+msgstr "همیشه"
+
+#: src/qml/details/ContactDetailsContent.qml:133
+msgctxt "ContactDetailsContent|"
+msgid "Privacy"
+msgstr "حریم خصوصی"
+
+#: src/qml/details/ContactDetailsContent.qml:137
+msgctxt "ContactDetailsContent|"
+msgid "Request personal data"
+msgstr "درخواست داده‌های شخصی"
+
+#: src/qml/details/ContactDetailsContent.qml:138
+msgctxt "ContactDetailsContent|"
+msgid ""
+"Ask your contact to share the availability, devices and other personal "
+"information"
+msgstr ""
+"از مخاطب خود بخواهید وضعیت دسترسی، دستگاه‌ها و سایر اطلاعات شخصی‌اش را به "
+"اشتراک بگذارد"
+
+#: src/qml/details/ContactDetailsContent.qml:144
+msgctxt "ContactDetailsContent|"
+msgid "Cancel personal data sharing"
+msgstr "لغو اشتراک‌گذاری داده‌های شخصی"
+
+#: src/qml/details/ContactDetailsContent.qml:145
+msgctxt "ContactDetailsContent|"
+msgid "Stop sharing your availability, devices and other personal information"
+msgstr "توقف اشتراک‌گذاری وضعیت دسترسی، دستگاه‌ها و سایر اطلاعات شخصی شما"
+
+#: src/qml/details/ContactDetailsContent.qml:151
+msgctxt "ContactDetailsContent|"
+msgid "Send typing notifications"
+msgstr "ارسال اعلان‌های در حال نوشتن"
+
+#: src/qml/details/ContactDetailsContent.qml:152
+msgctxt "ContactDetailsContent|"
+msgid "Indicate when you are typing"
+msgstr "نمایش زمان در حال نوشتن بودن شما"
+
+#: src/qml/details/ContactDetailsContent.qml:158
+msgctxt "ContactDetailsContent|"
+msgid "Send read notifications"
+msgstr "ارسال اعلان‌های خوانده‌شدن"
+
+#: src/qml/details/ContactDetailsContent.qml:159
+msgctxt "ContactDetailsContent|"
+msgid "Indicate which messages you have read"
+msgstr "مشخص کردن پیام‌هایی که خوانده‌اید"
+
+#: src/qml/details/ContactDetailsContent.qml:170
+msgctxt "ContactDetailsContent|"
+msgid "Unblock"
+msgstr "رفع مسدودی"
+
+#: src/qml/details/ContactDetailsContent.qml:173
+#: src/qml/details/ContactDetailsContent.qml:193
+msgctxt "ContactDetailsContent|"
+msgid "Block and report"
+msgstr "مسدود کردن و گزارش دادن"
+
+#: src/qml/details/ContactDetailsContent.qml:173
+#: src/qml/details/ContactDetailsContent.qml:193
+msgctxt "ContactDetailsContent|"
+msgid "Block"
+msgstr "مسدود کردن"
+
+#: src/qml/details/ContactDetailsContent.qml:177
+msgctxt "ContactDetailsContent|"
+msgid "Unblock this contact"
+msgstr "رفع مسدودی این مخاطب"
+
+#: src/qml/details/ContactDetailsContent.qml:180
+msgctxt "ContactDetailsContent|"
+msgid "Block and (optionally) report this contact"
+msgstr "مسدود کردن و (اختیاری) گزارش دادن این مخاطب"
+
+#: src/qml/details/ContactDetailsContent.qml:180
+msgctxt "ContactDetailsContent|"
+msgid "Block this contact"
+msgstr "مسدود کردن این مخاطب"
+
+#: src/qml/details/ContactDetailsContent.qml:217
+msgctxt "ContactDetailsContent|"
+msgid "Removal"
+msgstr "حذف"
+
+#: src/qml/details/ContactDetailsContent.qml:222
+msgctxt "ContactDetailsContent|"
+msgid "Remove"
+msgstr "حذف"
+
+#: src/qml/details/ContactDetailsContent.qml:223
+msgctxt "ContactDetailsContent|"
+msgid "Remove contact and complete chat history"
+msgstr "حذف مخاطب و کل تاریخچهٔ گفتگو"
+
+#: src/qml/details/ContactDetailsContent.qml:231
+msgctxt "ContactDetailsContent|"
+msgid "Removing contact…"
+msgstr "در حال حذف مخاطب…"
+
+#: src/qml/details/ContactDetailsDialog.qml:12
+msgctxt "ContactDetailsDialog|"
+msgid "Contact Details"
+msgstr "جزئیات مخاطب"
+
+#: src/qml/details/ContactDetailsPage.qml:10
+msgctxt "ContactDetailsPage|"
+msgid "Contact Details"
+msgstr "جزئیات مخاطب"
+
+#: src/qml/details/ContactKeyAuthenticationButton.qml:9
+#: src/qml/details/ContactKeyAuthenticationButton.qml:13
+msgctxt "ContactKeyAuthenticationButton|"
+msgid "Verify your contact's devices to encrypt for them"
+msgstr "برای رمزگذاری برای این مخاطب، دستگاه‌های او را تأیید کنید"
+
+#: src/qml/details/ContactKeyAuthenticationButton.qml:11
+msgctxt "ContactKeyAuthenticationButton|"
+msgid "Verify your contact's unknown devices to encrypt for them"
+msgstr "برای رمزگذاری برای این مخاطب، دستگاه‌های ناشناخته او را تأیید کنید"
+
+#: src/qml/details/ContactKeyAuthenticationButton.qml:15
+msgctxt "ContactKeyAuthenticationButton|"
+msgid "Verify your contact's devices for maximum security"
+msgstr "برای بیشترین امنیت، دستگاه‌های مخاطب خود را تأیید کنید"
+
+#: src/qml/details/ContactKeyAuthenticationButton.qml:17
+msgctxt "ContactKeyAuthenticationButton|"
+msgid ""
+"Verify your contact's unknown devices or let your contact verify this device"
+msgstr ""
+"دستگاه‌های ناشناخته مخاطب خود را تأیید کنید یا اجازه دهید مخاطبتان این "
+"دستگاه را تأیید کند"
+
+#: src/qml/details/ContactKeyAuthenticationButton.qml:23
+msgctxt "ContactKeyAuthenticationButton|"
+msgid "Your contact has no trusted device to encrypt for"
+msgstr "مخاطب شما هیچ دستگاه قابل‌اعتمادی برای رمزگذاری ندارد"
+
+#: src/qml/details/ContactKeyAuthenticationButton.qml:25
+msgctxt "ContactKeyAuthenticationButton|"
+msgid "Your contact has no known device using OMEMO 2"
+msgstr "مخاطب شما هیچ دستگاه شناخته‌شده‌ای که از OMEMO 2 استفاده کند ندارد"
+
+#: src/qml/details/ContactKeyAuthenticationButton.qml:27
+msgctxt "ContactKeyAuthenticationButton|"
+msgid "Your contact has devices that need to be verified to encrypt for them"
+msgstr ""
+"مخاطب شما دستگاه‌هایی دارد که برای رمزگذاری برای آن‌ها، باید تأیید شوند"
+
+#: src/qml/details/ContactKeyAuthenticationButton.qml:29
+msgctxt "ContactKeyAuthenticationButton|"
+msgid "Your contact has devices that are not verified"
+msgstr "مخاطب شما دستگاه‌هایی دارد که تأیید نشده‌اند"
+
+#: src/qml/details/ContactKeyAuthenticationButton.qml:31
+msgctxt "ContactKeyAuthenticationButton|"
+msgid "All your contact's known devices are verified"
+msgstr "تمام دستگاه‌های شناخته‌شدهٔ مخاطب شما تأیید شده‌اند"
+
+#: src/qml/details/DetailsContent.qml:56
+msgctxt "DetailsContent|"
+msgid "Media"
+msgstr "رسانه‌ها"
+
+#: src/qml/details/DetailsContent.qml:66
+msgctxt "DetailsContent|"
+msgid "Automatic downloads"
+msgstr "بارگیری‌های خودکار"
+
+#: src/qml/details/DetailsContent.qml:67
+msgctxt "DetailsContent|"
+msgid "Download media automatically"
+msgstr "بارگیری خودکار رسانه‌ها"
+
+#: src/qml/details/DetailsContent.qml:106
+msgctxt "DetailsContent|"
+msgid "Profile"
+msgstr "نمایه"
+
+#: src/qml/details/DetailsContent.qml:136
+msgctxt "DetailsContent|"
+msgid "Labels"
+msgstr "برچسب‌ها"
+
+#: src/qml/details/DetailsContent.qml:155
+msgctxt "DetailsContent|"
+msgid "Sharing"
+msgstr "اشتراک‌گذاری"
+
+#: src/qml/details/DetailsContent.qml:160
+msgctxt "DetailsContent|"
+msgid "Show QR code"
+msgstr "نمایش کد QR"
+
+#: src/qml/details/DetailsContent.qml:174
+msgctxt "DetailsContent|"
+msgid "Copy QR code"
+msgstr "کپی کد QR"
+
+#: src/qml/details/DetailsContent.qml:176
+msgctxt "DetailsContent|"
+msgid "QR code copied to clipboard"
+msgstr "کد QR در بریده‌دان کپی شد"
+
+#: src/qml/details/DetailsContent.qml:181
+msgctxt "DetailsContent|"
+msgid "Copy chat address"
+msgstr "رونوشت از نشانی گفتگو"
+
+#: src/qml/details/DetailsContent.qml:187
+msgctxt "DetailsContent|"
+msgid "Copy invitation link"
+msgstr "رونوشت از پیوند دعوت"
+
+#: src/qml/details/DetailsContent.qml:189
+msgctxt "DetailsContent|"
+msgid "Invitation link copied to clipboard"
+msgstr "پیوند دعوت به بریده‌دان رونوشت شد"
+
+#: src/qml/details/DetailsHeader.qml:87
+msgctxt "DetailsHeader|"
+msgid "Change name…"
+msgstr "تغییر نام…"
+
+#: src/qml/details/GroupChatDetailsContent.qml:27
+msgctxt "GroupChatDetailsContent|"
+msgid "Invite"
+msgstr "دعوت"
+
+#: src/qml/details/GroupChatDetailsContent.qml:64
+msgctxt "GroupChatDetailsContent|"
+msgid "Invite selected contacts"
+msgstr "دعوت از مخاطبان انتخاب‌شده"
+
+#: src/qml/details/GroupChatDetailsContent.qml:120
+msgctxt "GroupChatDetailsContent|"
+msgid "Select at least one contact"
+msgstr "حداقل یک مخاطب را انتخاب کنید"
+
+#: src/qml/details/GroupChatDetailsContent.qml:132
+msgctxt "GroupChatDetailsContent|"
+msgid "Participants"
+msgstr "شرکت‌کنندگان"
+
+#: src/qml/details/GroupChatDetailsContent.qml:136
+msgctxt "GroupChatDetailsContent|"
+msgid ""
+"Allow a user (e.g., user@example.org) or all users of the same server (e.g.,"
+" example.org) to participate"
+msgstr ""
+"اجازه دادن به یک کاربر (مانند user@example.org) یا همه کاربران یک سرور "
+"(مانند example.org) برای شرکت در گفتگو"
+
+#: src/qml/details/GroupChatDetailsContent.qml:158
+msgctxt "GroupChatDetailsContent|"
+msgid "You must be connected to change the participants"
+msgstr "برای تغییر شرکت‌کنندگان باید متصل باشید"
+
+#: src/qml/details/GroupChatDetailsContent.qml:206
+msgctxt "GroupChatDetailsContent|"
+msgid "Encryption"
+msgstr "رمزگذاری"
+
+#: src/qml/details/GroupChatDetailsContent.qml:210
+msgctxt "GroupChatDetailsContent|"
+msgid "OMEMO 2"
+msgstr "OMEMO 2"
+
+#: src/qml/details/GroupChatDetailsContent.qml:211
+msgctxt "GroupChatDetailsContent|"
+msgid ""
+"End-to-end encryption with OMEMO 2 ensures that nobody else than you and "
+"your chat partners can read or modify the data you exchange."
+msgstr ""
+"رمزگذاری سرتاسر با OMEMO 2 تضمین می‌کند که هیچ‌کس جز شما و هم‌صحبت‌هایتان "
+"نتواند داده‌های ردوبدل‌شده را بخواند یا تغییر دهد."
+
+#: src/qml/details/GroupChatDetailsContent.qml:277
+#: src/qml/details/GroupChatDetailsContent.qml:282
+msgctxt "GroupChatDetailsContent|"
+msgid "Share this group's chat address via QR code"
+msgstr "اشتراک‌گذاری نشانی گفتگوی این گروه از طریق کد QR"
+
+#: src/qml/details/GroupChatDetailsContent.qml:286
+msgctxt "GroupChatDetailsContent|"
+msgid "Share this group's chat address via text"
+msgstr "اشتراک‌گذاری نشانی گفتگوی این گروه از طریق متن"
+
+#: src/qml/details/GroupChatDetailsContent.qml:289
+msgctxt "GroupChatDetailsContent|"
+msgid "Group address copied to clipboard"
+msgstr "نشانی گروه در بریده‌دان کپی شد"
+
+#: src/qml/details/GroupChatDetailsContent.qml:293
+msgctxt "GroupChatDetailsContent|"
+msgid "Share this group's chat address via a web page with usage help"
+msgstr ""
+"اشتراک‌گذاری نشانی گفتگوی این گروه از طریق صفحه وب به همراه راهنمای استفاده"
+
+#: src/qml/details/GroupChatDetailsContent.qml:299
+msgctxt "GroupChatDetailsContent|"
+msgid "Notifications"
+msgstr "اعلان‌ها"
+
+#: src/qml/details/GroupChatDetailsContent.qml:303
+msgctxt "GroupChatDetailsContent|"
+msgid "Incoming messages"
+msgstr "پیام‌های دریافتی"
+
+#: src/qml/details/GroupChatDetailsContent.qml:304
+msgctxt "GroupChatDetailsContent|"
+msgid "Show notification and play sound on message arrival"
+msgstr "نمایش اعلان و پخش صدا هنگام رسیدن پیام"
+
+#: src/qml/details/GroupChatDetailsContent.qml:307
+msgctxt "GroupChatDetailsContent|"
+msgid "Account default"
+msgstr "پیش‌فرض حساب"
+
+#: src/qml/details/GroupChatDetailsContent.qml:311
+msgctxt "GroupChatDetailsContent|"
+msgid "Never"
+msgstr "هرگز"
+
+#: src/qml/details/GroupChatDetailsContent.qml:315
+msgctxt "GroupChatDetailsContent|"
+msgid "On mention"
+msgstr "هنگام اشاره"
+
+#: src/qml/details/GroupChatDetailsContent.qml:319
+msgctxt "GroupChatDetailsContent|"
+msgid "Always"
+msgstr "همیشه"
+
+#: src/qml/details/GroupChatDetailsContent.qml:332
+msgctxt "GroupChatDetailsContent|"
+msgid "Privacy"
+msgstr "حریم خصوصی"
+
+#: src/qml/details/GroupChatDetailsContent.qml:336
+msgctxt "GroupChatDetailsContent|"
+msgid "Send typing notifications"
+msgstr "ارسال اعلان‌های در حال نوشتن"
+
+#: src/qml/details/GroupChatDetailsContent.qml:337
+msgctxt "GroupChatDetailsContent|"
+msgid "Indicate when you are typing"
+msgstr "نشان دادن زمان نوشتن شما"
+
+#: src/qml/details/GroupChatDetailsContent.qml:343
+msgctxt "GroupChatDetailsContent|"
+msgid "Send read notifications"
+msgstr "ارسال اعلان‌های خوانده‌شدن"
+
+#: src/qml/details/GroupChatDetailsContent.qml:344
+msgctxt "GroupChatDetailsContent|"
+msgid "Indicate which messages you have read"
+msgstr "مشخص کردن پیام‌هایی که خوانده‌اید"
+
+#: src/qml/details/GroupChatDetailsContent.qml:356
+msgctxt "GroupChatDetailsContent|"
+msgid "Leaving & Deletion"
+msgstr "ترک و حذف"
+
+#: src/qml/details/GroupChatDetailsContent.qml:362
+msgctxt "GroupChatDetailsContent|"
+msgid "Leave"
+msgstr "ترک گروه"
+
+#: src/qml/details/GroupChatDetailsContent.qml:363
+msgctxt "GroupChatDetailsContent|"
+msgid "Leave group and remove complete chat history"
+msgstr "ترک گروه و حذف کامل تاریخچهٔ گفتگو"
+
+#: src/qml/details/GroupChatDetailsContent.qml:372
+msgctxt "GroupChatDetailsContent|"
+msgid "Leaving group chat…"
+msgstr "در حال ترک گفتگوی گروهی…"
+
+#: src/qml/details/GroupChatDetailsContent.qml:378
+#, qt-format
+msgctxt ""
+"GroupChatDetailsContent|%1 is a group JID, %2 is either empty or ': ' "
+"followed by an error message"
+msgid "The group %1 could not be left%2"
+msgstr "امکان ترک گروه %1 وجود نداشت%2"
+
+#: src/qml/details/GroupChatDetailsContent.qml:386
+msgctxt "GroupChatDetailsContent|"
+msgid "Delete"
+msgstr "حذف"
+
+#: src/qml/details/GroupChatDetailsContent.qml:387
+msgctxt "GroupChatDetailsContent|"
+msgid "Delete group. Nobody will be able to join the group again!"
+msgstr "حذف گروه. هیچ‌کس دیگر قادر به پیوستن به این گروه نخواهد بود!"
+
+#: src/qml/details/GroupChatDetailsContent.qml:396
+msgctxt "GroupChatDetailsContent|"
+msgid "Deleting group chat…"
+msgstr "در حال حذف گفتگوی گروهی…"
+
+#: src/qml/details/GroupChatDetailsContent.qml:402
+#, qt-format
+msgctxt ""
+"GroupChatDetailsContent|%1 is a group JID, %2 is either empty or ': ' "
+"followed by an error message"
+msgid "The group %1 could not be deleted%2"
+msgstr "امکان حذف گروه %1 وجود نداشت%2"
+
+#: src/qml/details/GroupChatDetailsDialog.qml:12
+msgctxt "GroupChatDetailsDialog|"
+msgid "Group Details"
+msgstr "جزئیات گروه"
+
+#: src/qml/details/GroupChatDetailsHeader.qml:13
+msgctxt "GroupChatDetailsHeader|"
+msgid "Public Group Chat"
+msgstr "گفتگوی گروهی عمومی"
+
+#: src/qml/details/GroupChatDetailsHeader.qml:13
+msgctxt "GroupChatDetailsHeader|"
+msgid "Private Group Chat"
+msgstr "گروه چت خصوصی"
+
+#: src/qml/details/GroupChatDetailsHeader.qml:16
+msgctxt "GroupChatDetailsHeader|"
+msgid "Deleted"
+msgstr "حذف‌شده"
+
+#: src/qml/details/GroupChatDetailsPage.qml:10
+msgctxt "GroupChatDetailsPage|"
+msgid "Group Details"
+msgstr "جزئیات گروه"
+
+#: src/qml/details/GroupChatUserKeyAuthenticationButton.qml:9
+#: src/qml/details/GroupChatUserKeyAuthenticationButton.qml:13
+msgctxt "GroupChatUserKeyAuthenticationButton|"
+msgid "Verify the participants' devices to encrypt for them"
+msgstr "دستگاه‌های شرکت‌کنندگان را برای رمزگذاری تأیید کنید"
+
+#: src/qml/details/GroupChatUserKeyAuthenticationButton.qml:11
+msgctxt "GroupChatUserKeyAuthenticationButton|"
+msgid "Verify the participants' unknown devices to encrypt for them"
+msgstr "دستگاه‌های ناشناخته شرکت‌کنندگان را برای رمزگذاری تأیید کنید"
+
+#: src/qml/details/GroupChatUserKeyAuthenticationButton.qml:15
+msgctxt "GroupChatUserKeyAuthenticationButton|"
+msgid "Verify the participants' devices for maximum security"
+msgstr "دستگاه‌های شرکت‌کنندگان را برای حداکثر امنیت تأیید کنید"
+
+#: src/qml/details/GroupChatUserKeyAuthenticationButton.qml:17
+msgctxt "GroupChatUserKeyAuthenticationButton|"
+msgid ""
+"Verify the participants' unknown devices or let the participants verify this"
+" device"
+msgstr ""
+"دستگاه‌های ناشناخته شرکت‌کنندگان را تأیید کنید یا اجازه دهید آن‌ها این "
+"دستگاه را تأیید کنند"
+
+#: src/qml/details/GroupChatUserKeyAuthenticationButton.qml:23
+msgctxt "GroupChatUserKeyAuthenticationButton|"
+msgid "No participant has a trusted device to encrypt for"
+msgstr "هیچ شرکت‌کننده‌ای دستگاه مورد اعتمادی برای رمزگذاری ندارد"
+
+#: src/qml/details/GroupChatUserKeyAuthenticationButton.qml:25
+msgctxt "GroupChatUserKeyAuthenticationButton|"
+msgid "No participant has a known device using OMEMO 2"
+msgstr ""
+"هیچ شرکت‌کننده‌ای دستگاه شناخته‌شده‌ای که از OMEMO 2 استفاده کند ندارد"
+
+#: src/qml/details/GroupChatUserKeyAuthenticationButton.qml:27
+msgctxt "GroupChatUserKeyAuthenticationButton|"
+msgid ""
+"Some participants have devices that need to be verified to encrypt for them"
+msgstr ""
+"برخی از شرکت‌کنندگان دستگاه‌هایی دارند که برای رمزگذاری باید تأیید شوند"
+
+#: src/qml/details/GroupChatUserKeyAuthenticationButton.qml:29
+msgctxt "GroupChatUserKeyAuthenticationButton|"
+msgid "Some participants have devices that are not verified"
+msgstr "برخی از شرکت‌کنندگان دستگاه‌های تأییدنشده دارند"
+
+#: src/qml/details/GroupChatUserKeyAuthenticationButton.qml:31
+msgctxt "GroupChatUserKeyAuthenticationButton|"
+msgid "All participants' known devices are verified"
+msgstr "همهٔ دستگاه‌های شناخته‌شدهٔ شرکت‌کنندگان تأیید شده‌اند"
+
+#: src/qml/details/MediaOverview.qml:67
+msgctxt "MediaOverview|"
+msgid "Images"
+msgstr "تصاویر"
+
+#: src/qml/details/MediaOverview.qml:77
+msgctxt "MediaOverview|"
+msgid "Videos"
+msgstr "ویدیوها"
+
+#: src/qml/details/MediaOverview.qml:87
+msgctxt "MediaOverview|"
+msgid "Other"
+msgstr "سایر"
+
+#: src/qml/details/MediaOverview.qml:163
+msgctxt ""
+"MediaOverview|%Ln is the number of selected files, %L1 the total number"
+msgid "%Ln/%L1 selected"
+msgid_plural "%Ln/%L1 selected"
+msgstr[0] "%Ln/%L1 مورد انتخاب شد"
+msgstr[1] "%Ln/%L1 مورد انتخاب شدند"
+
+#: src/qml/details/MediaOverview.qml:246
+#, qt-format
+msgctxt "MediaOverview|%1 is an error message"
+msgid ""
+"Not all files could be deleted:\n"
+"%1"
+msgstr ""
+"همهٔ پرونده‌ها حذف نشدند:\n"
+"%1"
+
+#: src/qml/details/NotesChatDetailsContent.qml:22
+msgctxt "NotesChatDetailsContent|"
+msgid "Encryption"
+msgstr "رمزگذاری"
+
+#: src/qml/details/NotesChatDetailsContent.qml:26
+msgctxt "NotesChatDetailsContent|"
+msgid "OMEMO 2"
+msgstr "OMEMO 2"
+
+#: src/qml/details/NotesChatDetailsContent.qml:27
+msgctxt "NotesChatDetailsContent|"
+msgid ""
+"End-to-end encryption with OMEMO 2 ensures that nobody else than you can "
+"read or modify the data that is synchronized across your devices."
+msgstr ""
+"رمزگذاری سرتاسر با OMEMO 2 تضمین می‌کند که هیچ‌کس جز شما نمی‌تواند داده‌های "
+"همگام‌سازی‌شده بین دستگاه‌هایتان را بخواند یا تغییر دهد."
+
+#: src/qml/details/NotesChatDetailsContent.qml:49
+msgctxt "NotesChatDetailsContent|"
+msgid "Removal"
+msgstr "حذف"
+
+#: src/qml/details/NotesChatDetailsContent.qml:54
+msgctxt "NotesChatDetailsContent|"
+msgid "Remove"
+msgstr "حذف"
+
+#: src/qml/details/NotesChatDetailsContent.qml:55
+msgctxt "NotesChatDetailsContent|"
+msgid "Remove notes chat and complete chat history"
+msgstr "حذف گفتگوی یادداشت‌ها و کل تاریخچهٔ گفتگو"
+
+#: src/qml/details/NotesChatDetailsContent.qml:63
+msgctxt "NotesChatDetailsContent|"
+msgid "Removing notes chat…"
+msgstr "در حال حذف گفتگوی یادداشت‌ها…"
+
+#: src/qml/details/NotesChatDetailsDialog.qml:10
+msgctxt "NotesChatDetailsDialog|"
+msgid "Notes Details"
+msgstr "جزئیات یادداشت‌ها"
+
+#: src/qml/details/NotesChatDetailsHeader.qml:8
+msgctxt "NotesChatDetailsHeader|"
+msgid ""
+"Messages in this chat are synchronized as notes across all your devices"
+msgstr ""
+"پیام‌های این گفتگو به‌عنوان یادداشت در تمام دستگاه‌های شما همگام‌سازی "
+"می‌شوند"
+
+#: src/qml/details/NotesChatDetailsPage.qml:9
+msgctxt "NotesChatDetailsPage|"
+msgid "Notes Details"
+msgstr "جزئیات یادداشت‌ها"
+
+#: src/qml/details/ProviderChatDetailsContent.qml:25
+msgctxt "ProviderChatDetailsContent|"
+msgid "Removal"
+msgstr "حذف"
+
+#: src/qml/details/ProviderChatDetailsContent.qml:30
+msgctxt "ProviderChatDetailsContent|"
+msgid "Remove"
+msgstr "حذف"
+
+#: src/qml/details/ProviderChatDetailsContent.qml:31
+msgctxt "ProviderChatDetailsContent|"
+msgid "Remove provider chat and complete chat history"
+msgstr "حذف گفتگوی ارائه‌دهنده و کل تاریخچهٔ گفتگو"
+
+#: src/qml/details/ProviderChatDetailsContent.qml:39
+msgctxt "ProviderChatDetailsContent|"
+msgid "Removing provider chat…"
+msgstr "در حال حذف گفتگوی ارائه‌دهنده…"
+
+#: src/qml/details/ProviderChatDetailsDialog.qml:9
+msgctxt "ProviderChatDetailsDialog|"
+msgid "Provider Details"
+msgstr "جزئیات ارائه‌دهنده"
+
+#: src/qml/details/ProviderChatDetailsHeader.qml:8
+msgctxt "ProviderChatDetailsHeader|"
+msgid "Messages in this chat are from your service provider"
+msgstr "پیام‌های این گفتگو از طرف ارائه‌دهندهٔ خدمات شما هستند"
+
+#: src/qml/details/ProviderChatDetailsPage.qml:9
+msgctxt "ProviderChatDetailsPage|"
+msgid "Provider Details"
+msgstr "جزئیات ارائه‌دهنده"
+
+#: src/qml/details/RosterItemDetailsContent.qml:25
+msgctxt "RosterItemDetailsContent|"
+msgid "Account default"
+msgstr "پیش‌فرض حساب"
+
+#: src/qml/details/RosterItemDetailsContent.qml:29
+msgctxt "RosterItemDetailsContent|"
+msgid "Never"
+msgstr "هرگز"
+
+#: src/qml/details/RosterItemDetailsContent.qml:33
+msgctxt "RosterItemDetailsContent|"
+msgid "Always"
+msgstr "همیشه"
+
+#: src/qml/details/RosterItemDetailsContent.qml:65
+msgctxt "RosterItemDetailsContent|"
+msgid "New label"
+msgstr "برچسب جدید"
+
+#: src/qml/details/RosterItemDetailsContent.qml:79
+msgctxt "RosterItemDetailsContent|"
+msgid "Add label"
+msgstr "افزودن برچسب"
+
+#: src/qml/details/RosterItemDetailsHeader.qml:21
+msgctxt "RosterItemDetailsHeader|"
+msgid "Maximize avatar"
+msgstr "بزرگ‌نمایی آواتار"
+
+#: src/qml/details/UserDevicesArea.qml:26
+msgctxt "UserDevicesArea|"
+msgid "Connected Devices"
+msgstr "دستگاه‌های متصل"
+
+#: src/qml/elements/AboutContent.qml:17
+msgctxt "AboutContent|"
+msgid "Visit website"
+msgstr "بازدید از وب‌گاه"
+
+#: src/qml/elements/AboutContent.qml:18
+msgctxt "AboutContent|"
+msgid "Open Kaidan's website in a web browser"
+msgstr "باز کردن وب‌گاه کایدان در یک مرورگر وب"
+
+#: src/qml/elements/AboutContent.qml:24
+msgctxt "AboutContent|"
+msgid "Follow on Mastodon"
+msgstr "دنبال کردن در ماستودون"
+
+#: src/qml/elements/AboutContent.qml:25
+msgctxt "AboutContent|"
+msgid "Open Kaidan's Mastodon page in a web browser"
+msgstr "باز کردن صفحهٔ ماستودون کایدان در یک مرورگر وب"
+
+#: src/qml/elements/AboutContent.qml:31
+msgctxt "AboutContent|"
+msgid "Donate"
+msgstr "کمک مالی"
+
+#: src/qml/elements/AboutContent.qml:32
+msgctxt "AboutContent|"
+msgid "Support Kaidan's development and infrastructure by a donation"
+msgstr "پشتیبانی از توسعه و زیرساخت کایدان با کمک مالی"
+
+#: src/qml/elements/AboutContent.qml:38
+msgctxt "AboutContent|"
+msgid "Report problems"
+msgstr "گزارش مشکلات"
+
+#: src/qml/elements/AboutContent.qml:39
+msgctxt "AboutContent|"
+msgid "Report issues with Kaidan to the developers"
+msgstr "گزارش مشکلات کایدان به توسعه‌دهندگان"
+
+#: src/qml/elements/AboutContent.qml:45
+msgctxt "AboutContent|"
+msgid "View source code"
+msgstr "مشاهدهٔ کد منبع"
+
+#: src/qml/elements/AboutContent.qml:46
+msgctxt "AboutContent|"
+msgid "View Kaidan's source code online and contribute to the project"
+msgstr "مشاهدهٔ کد منبع کایدان به‌صورت برخط و مشارکت در پروژه"
+
+#: src/qml/elements/AboutHeader.qml:40
+msgctxt "AboutHeader|"
+msgid "Modern chat app for every device"
+msgstr "پیام‌رسانی مدرن برای همهٔ دستگاه‌ها"
+
+#: src/qml/elements/AccountKeyAuthenticationPage.qml:23
+msgctxt "AccountKeyAuthenticationPage|"
+msgid "Step 1: Scan your <b>other device's</b> QR code"
+msgstr "مرحلهٔ ۱: کد QR <b>دستگاه دیگرتان</b> را اسکن کنید"
+
+#: src/qml/elements/AccountKeyAuthenticationPage.qml:25
+msgctxt "AccountKeyAuthenticationPage|"
+msgid "Step 2: Scan with your other device <b>this device's</b> QR code"
+msgstr "مرحلهٔ ۲: با دستگاه دیگرتان کد QR <b>این دستگاه</b> را اسکن کنید"
+
+#: src/qml/elements/AccountKeyAuthenticationPage.qml:28
+msgctxt "AccountKeyAuthenticationPage|"
+msgid "Unverified own devices"
+msgstr "دستگاه‌های خودتان که تأیید نشده‌اند"
+
+#: src/qml/elements/AccountSelectionDialog.qml:40
+msgctxt "AccountSelectionDialog|"
+msgid "Feature unsupported"
+msgstr "ویژگی پشتیبانی نمی‌شود"
+
+#: src/qml/elements/BlockingReportContent.qml:34
+msgctxt "BlockingReportContent|@action, as in 'Report spam or abuse'"
+msgid "Report"
+msgstr "گزارش"
+
+#: src/qml/elements/BlockingReportContent.qml:35
+msgctxt "BlockingReportContent|"
+msgid "Report spam or abuse"
+msgstr "گزارش هرزنامه یا سوءاستفاده"
+
+#: src/qml/elements/BlockingReportContent.qml:47
+msgctxt "BlockingReportContent|"
+msgid "Reason"
+msgstr "دلیل"
+
+#: src/qml/elements/BlockingReportContent.qml:55
+msgctxt "BlockingReportContent|"
+msgid "Spam"
+msgstr "هرزنامه"
+
+#: src/qml/elements/BlockingReportContent.qml:56
+msgctxt "BlockingReportContent|"
+msgid "Unsolicited messages, often sent in bulk"
+msgstr "پیام‌های ناخواسته، اغلب به‌صورت انبوه"
+
+#: src/qml/elements/BlockingReportContent.qml:60
+msgctxt "BlockingReportContent|"
+msgid "Abuse"
+msgstr "سوءاستفاده و آزار"
+
+#: src/qml/elements/BlockingReportContent.qml:61
+msgctxt "BlockingReportContent|"
+msgid "Harassing, threatening, or otherwise abusive behavior"
+msgstr "رفتار مزاحم‌آمیز، تهدیدکننده یا هر نوع آزار و اذیت دیگر"
+
+#: src/qml/elements/BlockingReportContent.qml:70
+msgctxt "BlockingReportContent|"
+msgid "Description (optional)"
+msgstr "توضیحات (اختیاری)"
+
+#: src/qml/elements/BlockingReportDialog.qml:25
+#: src/qml/elements/BlockingReportDialog.qml:29
+msgctxt "BlockingReportDialog|"
+msgid "Block and report"
+msgstr "مسدود کردن و گزارش"
+
+#: src/qml/elements/BlockingReportDialog.qml:36
+msgctxt "BlockingReportDialog|"
+msgid "Report the selected message and block its sender"
+msgstr "گزارش پیام انتخاب‌شده و مسدود کردن فرستنده آن"
+
+#: src/qml/elements/CameraStatus.qml:28
+msgctxt "CameraStatus|"
+msgid "No camera available"
+msgstr "دوربینی در دسترس نیست"
+
+#: src/qml/elements/ChatMessage.qml:232
+msgctxt "ChatMessage|"
+msgid "Spoiler"
+msgstr "اسپویلر"
+
+#: src/qml/elements/ChatMessage.qml:239
+msgctxt "ChatMessage|"
+msgid "Hide hidden message part"
+msgstr "مخفی کردن بخش پنهان پیام"
+
+#: src/qml/elements/ChatMessage.qml:239
+msgctxt "ChatMessage|"
+msgid "Show hidden message part"
+msgstr "نمایش بخش پنهان پیام"
+
+#: src/qml/elements/ChatMessage.qml:528
+msgctxt "ChatMessage|"
+msgid "New"
+msgstr "جدید"
+
+#: src/qml/elements/ChatMessage.qml:556
+#, qt-format
+msgctxt "ChatMessage|%1 is a username"
+msgid "%1 has read up to this point"
+msgstr "%1 تا اینجا را خوانده است"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:64
+msgctxt "ChatMessageContextMenu|"
+msgid "Remove file"
+msgstr "حذف پرونده"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:72
+msgctxt "ChatMessageContextMenu|"
+msgid "Open file in folder"
+msgstr "باز کردن پرونده در پوشه"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:85
+msgctxt "ChatMessageContextMenu|"
+msgid "Retry removal"
+msgstr "تلاش مجدد برای حذف"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:85
+msgctxt "ChatMessageContextMenu|"
+msgid "Resend"
+msgstr "ارسال مجدد"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:99
+msgctxt "ChatMessageContextMenu|"
+msgid "React"
+msgstr "واکنش"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:121
+msgctxt "ChatMessageContextMenu|"
+msgid "Reply"
+msgstr "پاسخ"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:139
+msgctxt "ChatMessageContextMenu|"
+msgid "Quote"
+msgstr "نقل‌قول"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:147
+msgctxt "ChatMessageContextMenu|"
+msgid "Forward"
+msgstr "هدایت"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:161
+msgctxt "ChatMessageContextMenu|"
+msgid "Copy"
+msgstr "رونوشت"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:175
+msgctxt "ChatMessageContextMenu|"
+msgid "Edit"
+msgstr "ویرایش"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:186
+msgctxt "ChatMessageContextMenu|"
+msgid "Mark"
+msgstr "علامت‌گذاری"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:194
+msgctxt "ChatMessageContextMenu|"
+msgid "Block and report"
+msgstr "مسدود کردن و گزارش"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:209
+msgctxt "ChatMessageContextMenu|"
+msgid "Remove"
+msgstr "حذف"
+
+#: src/qml/elements/ChatMessageContextMenu.qml:209
+msgctxt "ChatMessageContextMenu|"
+msgid "Remove from this device"
+msgstr "حذف از این دستگاه"
+
+#: src/qml/elements/ChatPageSendingPane.qml:106
+msgctxt "ChatPageSendingPane|"
+msgid "Cancel reply"
+msgstr "لغو پاسخ"
+
+#: src/qml/elements/ChatPageSendingPane.qml:142
+msgctxt "ChatPageSendingPane|"
+msgid "Visible message part"
+msgstr "بخش نمایان پیام"
+
+#: src/qml/elements/ChatPageSendingPane.qml:149
+msgctxt "ChatPageSendingPane|"
+msgid "Cancel adding hidden message part"
+msgstr "لغو افزودن بخش پنهان پیام"
+
+#: src/qml/elements/ChatPageSendingPane.qml:172
+#: src/qml/elements/ChatPageSendingPane.qml:614
+msgctxt "ChatPageSendingPane|"
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/qml/elements/ChatPageSendingPane.qml:172
+msgctxt "ChatPageSendingPane|"
+msgid "Add an emoji"
+msgstr "افزودن ایموجی"
+
+#: src/qml/elements/ChatPageSendingPane.qml:201
+msgctxt "ChatPageSendingPane|"
+msgid "Mention a participant"
+msgstr "نام بردن از یک شرکت‌کننده"
+
+#: src/qml/elements/ChatPageSendingPane.qml:232
+msgctxt "ChatPageSendingPane|"
+msgid "Compose <b>encrypted </b> message with hidden part"
+msgstr "نوشتن پیام <b>رمزگذاری‌شده </b> با بخش پنهان"
+
+#: src/qml/elements/ChatPageSendingPane.qml:232
+msgctxt "ChatPageSendingPane|"
+msgid "Compose <b>unencrypted</b> message with hidden part"
+msgstr "نوشتن پیام <b>رمزگذاری‌نشده</b> با بخش پنهان"
+
+#: src/qml/elements/ChatPageSendingPane.qml:239
+msgctxt "ChatPageSendingPane|"
+msgid "Compose <b>encrypted</b> message"
+msgstr "نوشتن پیام <b>رمزگذاری‌شده</b>"
+
+#: src/qml/elements/ChatPageSendingPane.qml:239
+msgctxt "ChatPageSendingPane|"
+msgid "Compose <b>unencrypted</b> message"
+msgstr "نوشتن پیام <b>رمزگذاری‌نشده</b>"
+
+#: src/qml/elements/ChatPageSendingPane.qml:366
+msgctxt "ChatPageSendingPane|"
+msgid "Take a picture"
+msgstr "گرفتن عکس"
+
+#: src/qml/elements/ChatPageSendingPane.qml:373
+msgctxt "ChatPageSendingPane|"
+msgid "Record a video"
+msgstr "ضبط ویدیو"
+
+#: src/qml/elements/ChatPageSendingPane.qml:380
+msgctxt "ChatPageSendingPane|"
+msgid "Share files"
+msgstr "اشتراک‌گذاری پرونده‌ها"
+
+#: src/qml/elements/ChatPageSendingPane.qml:390
+msgctxt "ChatPageSendingPane|"
+msgid "Share your location"
+msgstr "اشتراک‌گذاری موقعیت مکانی خود"
+
+#: src/qml/elements/ChatPageSendingPane.qml:397
+msgctxt "ChatPageSendingPane|"
+msgid "Add hidden message part"
+msgstr "افزودن بخش پیام پنهان"
+
+#: src/qml/elements/ChatPageSendingPane.qml:460
+msgctxt "ChatPageSendingPane|"
+msgid "Hide"
+msgstr "پنهان کردن"
+
+#: src/qml/elements/ChatPageSendingPane.qml:460
+msgctxt "ChatPageSendingPane|"
+msgid "More"
+msgstr "بیشتر"
+
+#: src/qml/elements/ChatPageSendingPane.qml:474
+msgctxt "ChatPageSendingPane|"
+msgid "Slide to cancel"
+msgstr "برای لغو بکشید"
+
+#: src/qml/elements/ChatPageSendingPane.qml:532
+#: src/qml/elements/ChatPageSendingPane.qml:574
+msgctxt "ChatPageSendingPane|"
+msgid "Send"
+msgstr "ارسال"
+
+#: src/qml/elements/ChatPageSendingPane.qml:532
+msgctxt "ChatPageSendingPane|"
+msgid "Record a voice message"
+msgstr "ضبط پیام صوتی"
+
+#: src/qml/elements/ConfirmationFormButtonArea.qml:57
+msgctxt "ConfirmationFormButtonArea|"
+msgid "Confirm"
+msgstr "تأیید"
+
+#: src/qml/elements/ContactAdditionContent.qml:32
+msgctxt "ContactAdditionContent|"
+msgid "Add"
+msgstr "افزودن"
+
+#: src/qml/elements/ContactAdditionContent.qml:44
+msgctxt "ContactAdditionContent|"
+msgid "Trust decisions made for contact"
+msgstr "تصمیمات اعتماد برای مخاطب گرفته شد"
+
+#: src/qml/elements/ContactAdditionContent.qml:71
+msgctxt "ContactAdditionContent|"
+msgid "Adding contact…"
+msgstr "در حال افزودن مخاطب…"
+
+#: src/qml/elements/ContactAdditionContent.qml:92
+msgctxt "ContactAdditionContent|"
+msgid "Name (optional)"
+msgstr "نام (اختیاری)"
+
+#: src/qml/elements/ContactAdditionDialog.qml:17
+msgctxt "ContactAdditionDialog|"
+msgid "Add contact"
+msgstr "افزودن مخاطب"
+
+#: src/qml/elements/ContactAdditionPage.qml:15
+msgctxt "ContactAdditionPage|"
+msgid "Add contact"
+msgstr "افزودن مخاطب"
+
+#: src/qml/elements/ContactAdditionQrCodePage.qml:17
+msgctxt "ContactAdditionQrCodePage|"
+msgid "Add contact"
+msgstr "افزودن مخاطب"
+
+#: src/qml/elements/ContactAdditionQrCodePage.qml:18
+msgctxt "ContactAdditionQrCodePage|"
+msgid "Scan QR codes"
+msgstr "اسکن کدهای QR"
+
+#: src/qml/elements/ContactAdditionQrCodePage.qml:18
+msgctxt "ContactAdditionQrCodePage|"
+msgid "Show explanation"
+msgstr "نمایش توضیحات"
+
+#: src/qml/elements/ContactAdditionQrCodePage.qml:31
+msgctxt "ContactAdditionQrCodePage|"
+msgid "Step 1: Scan your <b>contact's</b> QR code"
+msgstr "مرحله ۱: کد QR <b>مخاطب</b> را اسکن کنید"
+
+#: src/qml/elements/ContactAdditionQrCodePage.qml:33
+msgctxt "ContactAdditionQrCodePage|"
+msgid "Step 2: Let your contact scan <b>your</b> QR code"
+msgstr "مرحله ۲: اجازه دهید مخاطبتان کد QR <b>شما</b> را اسکن کند"
+
+#: src/qml/elements/ContactInvitationHintDelegate.qml:23
+msgctxt "ContactInvitationHintDelegate|"
+msgid "Invite contacts to this group…"
+msgstr "دعوت از مخاطبان به این گروه…"
+
+#: src/qml/elements/ContactKeyAuthenticationPage.qml:19
+msgctxt "ContactKeyAuthenticationPage|"
+msgid "Step 1: Scan your <b>contact's</b> QR code"
+msgstr "مرحله ۱: کد QR <b>مخاطب</b> را اسکن کنید"
+
+#: src/qml/elements/ContactKeyAuthenticationPage.qml:21
+msgctxt "ContactKeyAuthenticationPage|"
+msgid "Step 2: Let your contact scan <b>your</b> QR code"
+msgstr "مرحله ۲: بگذارید مخاطبتان کد QR <b>شما</b> را اسکن کند"
+
+#: src/qml/elements/ContactKeyAuthenticationPage.qml:24
+msgctxt "ContactKeyAuthenticationPage|"
+msgid "Unverified contact devices"
+msgstr "دستگاه‌های تأییدنشدهٔ مخاطب"
+
+#: src/qml/elements/CopyFormTextDelegate.qml:18
+msgctxt "CopyFormTextDelegate|"
+msgid "Copy"
+msgstr "کپی"
+
+#: src/qml/elements/CustomConnectionSettings.qml:37
+msgctxt "CustomConnectionSettings|"
+msgid "Hostname"
+msgstr "نام میزبان"
+
+#: src/qml/elements/CustomConnectionSettings.qml:41
+msgctxt "CustomConnectionSettings|"
+msgid "Enter a valid hostname or leave it empty"
+msgstr "یک نام میزبان معتبر وارد کنید یا آن را خالی بگذارید"
+
+#: src/qml/elements/CustomConnectionSettings.qml:50
+msgctxt "CustomConnectionSettings|"
+msgid "Port"
+msgstr "پورت"
+
+#: src/qml/elements/CustomConnectionSettings.qml:88
+msgctxt "CustomConnectionSettings|"
+msgid "Plain authentication (SASL PLAIN)"
+msgstr "احراز هویت ساده (SASL PLAIN)"
+
+#: src/qml/elements/CustomConnectionSettings.qml:89
+msgctxt "CustomConnectionSettings|"
+msgid ""
+"Required if your provider uses LDAP which is often the case in organizations"
+" where you can log in with a single account"
+msgstr ""
+"در صورتی که ارائه‌دهندهٔ شما از LDAP استفاده می‌کند لازم است؛ که اغلب در "
+"سازمان‌هایی است که با یک حساب واحد وارد می‌شوید"
+
+#: src/qml/elements/DisabledAccountHint.qml:13
+msgctxt "DisabledAccountHint|"
+msgid "Some functionality will become visible once your account is enabled"
+msgstr "برخی از قابلیت‌ها پس از فعال شدن حسابتان نمایان خواهند شد"
+
+#: src/qml/elements/EmojiPicker.qml:53
+msgctxt "EmojiPicker|"
+msgid "Favorites"
+msgstr "علاقه‌مندی‌ها"
+
+#: src/qml/elements/EmojiPicker.qml:59
+msgctxt "EmojiPicker|"
+msgid "People"
+msgstr "افراد"
+
+#: src/qml/elements/EmojiPicker.qml:65
+msgctxt "EmojiPicker|"
+msgid "Nature"
+msgstr "طبیعت"
+
+#: src/qml/elements/EmojiPicker.qml:71
+msgctxt "EmojiPicker|"
+msgid "Food"
+msgstr "غذا و نوشیدنی"
+
+#: src/qml/elements/EmojiPicker.qml:77
+msgctxt "EmojiPicker|"
+msgid "Activity"
+msgstr "فعالیت‌ها"
+
+#: src/qml/elements/EmojiPicker.qml:83
+msgctxt "EmojiPicker|"
+msgid "Travel"
+msgstr "سفر و مکان‌ها"
+
+#: src/qml/elements/EmojiPicker.qml:89
+msgctxt "EmojiPicker|"
+msgid "Objects"
+msgstr "اشیاء"
+
+#: src/qml/elements/EmojiPicker.qml:95
+msgctxt "EmojiPicker|"
+msgid "Symbols"
+msgstr "نمادها"
+
+#: src/qml/elements/EmojiPicker.qml:101
+msgctxt "EmojiPicker|"
+msgid "Flags"
+msgstr "پرچم‌ها"
+
+#: src/qml/elements/EmojiPicker.qml:194
+msgctxt "EmojiPicker|"
+msgid "No emoji found"
+msgstr "هیچ ایموجی‌ای یافت نشد"
+
+#: src/qml/elements/fields/JidField.qml:18
+msgctxt "JidField|"
+msgid "Chat address"
+msgstr "نشانی گپ"
+
+#: src/qml/elements/fields/JidField.qml:19
+msgctxt "JidField|"
+msgid "user@example.org"
+msgstr "user@example.org"
+
+#: src/qml/elements/fields/JidField.qml:20
+msgctxt "JidField|"
+msgid "Enter a valid chat address"
+msgstr "یک نشانی گپ معتبر وارد کنید"
+
+#: src/qml/elements/fields/PasswordField.qml:23
+msgctxt "PasswordField|"
+msgid "Enter a valid password"
+msgstr "یک گذرواژه معتبر وارد کنید"
+
+#: src/qml/elements/fields/PasswordField.qml:31
+msgctxt "PasswordField|"
+msgid "Password"
+msgstr "گذرواژه"
+
+#: src/qml/elements/GeoLocationMap.qml:52
+msgctxt "GeoLocationMap|"
+msgid "© OpenStreetMap"
+msgstr "© OpenStreetMap"
+
+#: src/qml/elements/GeoLocationMapPage.qml:13
+msgctxt "GeoLocationMapPage|"
+msgid "Show location"
+msgstr "نمایش موقعیت مکانی"
+
+#: src/qml/elements/GeoLocationPreview.qml:41
+msgctxt "GeoLocationPreview|"
+msgid "Location"
+msgstr "موقعیت مکانی"
+
+#: src/qml/elements/GeoLocationSharingPage.qml:20
+msgctxt "GeoLocationSharingPage|"
+msgid "Share location"
+msgstr "اشتراک‌گذاری موقعیت مکانی"
+
+#: src/qml/elements/GeoLocationSharingPage.qml:46
+msgctxt "GeoLocationSharingPage|"
+msgid "Follow current location"
+msgstr "دنبال کردن موقعیت مکانی کنونی"
+
+#: src/qml/elements/GeoLocationSharingPage.qml:62
+msgctxt "GeoLocationSharingPage|"
+msgid "Send location"
+msgstr "ارسال موقعیت مکانی"
+
+#: src/qml/elements/GroupChatCreationContent.qml:22
+msgctxt "GroupChatCreationContent|"
+msgid "Create"
+msgstr "ایجاد"
+
+#: src/qml/elements/GroupChatCreationContent.qml:38
+msgctxt "GroupChatCreationContent|"
+msgid "Creating group chat…"
+msgstr "در حال ایجاد گفتگوی گروهی…"
+
+#: src/qml/elements/GroupChatCreationContent.qml:43
+msgctxt "GroupChatCreationContent|"
+msgid "Group name (optional)"
+msgstr "نام گروه (اختیاری)"
+
+#: src/qml/elements/GroupChatCreationContent.qml:44
+msgctxt "GroupChatCreationContent|"
+msgid "Example Group"
+msgstr "گروه نمونه"
+
+#: src/qml/elements/GroupChatCreationContent.qml:51
+msgctxt "GroupChatCreationContent|"
+msgid "Public"
+msgstr "عمومی"
+
+#: src/qml/elements/GroupChatCreationContent.qml:65
+msgctxt "GroupChatCreationContent|"
+msgid "Group ID"
+msgstr "شناسهٔ گروه"
+
+#: src/qml/elements/GroupChatCreationContent.qml:68
+msgctxt "GroupChatCreationContent|"
+msgid "example-group"
+msgstr "example-group"
+
+#: src/qml/elements/GroupChatCreationContent.qml:70
+msgctxt "GroupChatCreationContent|"
+msgid "Enter a valid group ID"
+msgstr "یک شناسهٔ گروه معتبر وارد کنید"
+
+#: src/qml/elements/GroupChatCreationContent.qml:78
+msgctxt "GroupChatCreationContent|"
+msgid "Service"
+msgstr "سرویس"
+
+#: src/qml/elements/GroupChatCreationContent.qml:86
+msgctxt "GroupChatCreationContent|"
+msgid "Nickname (optional)"
+msgstr "نام مستعار (اختیاری)"
+
+#: src/qml/elements/GroupChatCreationContent.qml:102
+#, qt-format
+msgctxt ""
+"GroupChatCreationContent|%1 is a service JID, %2 is either empty or ': ' "
+"followed by an error message"
+msgid "The group could not be created on %1%2"
+msgstr "ایجاد گروه در %1 امکان‌پذیر نبود%2"
+
+#: src/qml/elements/GroupChatCreationContent.qml:106
+#, qt-format
+msgctxt ""
+"GroupChatCreationContent|%1 is a group JID, %2 is either empty or ': ' "
+"followed by an error message"
+msgid "The group %1 could not be created%2"
+msgstr "گروه %1 ایجاد نشد%2"
+
+#: src/qml/elements/GroupChatCreationContent.qml:110
+#, qt-format
+msgctxt ""
+"GroupChatCreationContent|%1 is a group JID, %2 is either empty or ': ' "
+"followed by an error message"
+msgid "The group %1 could not be joined%2"
+msgstr "پیوستن به گروه %1 امکان‌پذیر نبود%2"
+
+#: src/qml/elements/GroupChatCreationDialog.qml:15
+msgctxt "GroupChatCreationDialog|"
+msgid "Create group chat"
+msgstr "ایجاد گفتگوی گروهی"
+
+#: src/qml/elements/GroupChatCreationPage.qml:13
+msgctxt "GroupChatCreationPage|"
+msgid "Create group chat"
+msgstr "ایجاد گفتگوی گروهی"
+
+#: src/qml/elements/GroupChatJoiningContent.qml:20
+msgctxt "GroupChatJoiningContent|"
+msgid "Join"
+msgstr "پیوستن"
+
+#: src/qml/elements/GroupChatJoiningContent.qml:29
+msgctxt "GroupChatJoiningContent|"
+msgid "Joining group…"
+msgstr "در حال پیوستن به گروه…"
+
+#: src/qml/elements/GroupChatJoiningContent.qml:34
+msgctxt "GroupChatJoiningContent|"
+msgid "Group address"
+msgstr "نشانی گروه"
+
+#: src/qml/elements/GroupChatJoiningContent.qml:35
+msgctxt "GroupChatJoiningContent|"
+msgid "group@groups.example.org"
+msgstr "group@groups.example.org"
+
+#: src/qml/elements/GroupChatJoiningContent.qml:36
+msgctxt "GroupChatJoiningContent|"
+msgid "Enter a valid group address"
+msgstr "یک نشانی گروه معتبر وارد کنید"
+
+#: src/qml/elements/GroupChatJoiningContent.qml:51
+msgctxt "GroupChatJoiningContent|"
+msgid "Nickname (optional)"
+msgstr "نام مستعار (اختیاری)"
+
+#: src/qml/elements/GroupChatJoiningContent.qml:61
+#, qt-format
+msgctxt ""
+"GroupChatJoiningContent|%1 is a group JID, %2 is either empty or ': ' "
+"followed by an error message"
+msgid "The group %1 could not be joined%2"
+msgstr "امکان پیوستن به گروه %1 وجود نداشت%2"
+
+#: src/qml/elements/GroupChatJoiningDialog.qml:16
+msgctxt "GroupChatJoiningDialog|"
+msgid "Join group chat"
+msgstr "پیوستن به گفتگوی گروهی"
+
+#: src/qml/elements/GroupChatJoiningPage.qml:14
+msgctxt "GroupChatJoiningPage|"
+msgid "Join group chat"
+msgstr "پیوستن به گفتگوی گروهی"
+
+#: src/qml/elements/GroupChatUserDelegate.qml:17
+msgctxt "GroupChatUserDelegate|"
+msgid "Ban"
+msgstr "مسدود کردن"
+
+#: src/qml/elements/GroupChatUserKeyAuthenticationPage.qml:19
+msgctxt "GroupChatUserKeyAuthenticationPage|"
+msgid "Step 1: Scan the <b>participant's</b> QR code"
+msgstr "مرحله ۱: کد QR <b>شرکت‌کننده</b> را اسکن کنید"
+
+#: src/qml/elements/GroupChatUserKeyAuthenticationPage.qml:21
+msgctxt "GroupChatUserKeyAuthenticationPage|"
+msgid "Step 2: Let the participant scan <b>your</b> QR code"
+msgstr "مرحله ۲: بگذارید شرکت‌کننده کد QR <b>شما</b> را اسکن کند"
+
+#: src/qml/elements/GroupChatUserKeyAuthenticationPage.qml:24
+msgctxt "GroupChatUserKeyAuthenticationPage|"
+msgid "Unverified participant devices"
+msgstr "دستگاه‌های تأییدنشده شرکت‌کننده"
+
+#: src/qml/elements/ImageCaptureDialog.qml:16
+msgctxt "ImageCaptureDialog|"
+msgid "Take a picture"
+msgstr "گرفتن عکس"
+
+#: src/qml/elements/ImageCaptureDialog.qml:24
+msgctxt "ImageCaptureDialog|"
+msgid "Take picture"
+msgstr "گرفتن عکس"
+
+#: src/qml/elements/KeyAuthenticationPage.qml:26
+msgctxt "KeyAuthenticationPage|"
+msgid "Verify devices"
+msgstr "تأیید دستگاه‌ها"
+
+#: src/qml/elements/KeyAuthenticationPage.qml:28
+#: src/qml/elements/KeyAuthenticationPage.qml:39
+msgctxt "KeyAuthenticationPage|"
+msgid "Show explanation"
+msgstr "نمایش توضیحات"
+
+#: src/qml/elements/KeyAuthenticationPage.qml:28
+msgctxt "KeyAuthenticationPage|"
+msgid "Scan QR codes"
+msgstr "اسکن کدهای QR"
+
+#: src/qml/elements/KeyAuthenticationPage.qml:39
+msgctxt "KeyAuthenticationPage|"
+msgid "Verify manually"
+msgstr "تأیید دستی"
+
+#: src/qml/elements/KeyAuthenticationPage.qml:81
+msgctxt "KeyAuthenticationPage|"
+msgid "Verify device"
+msgstr "تأیید دستگاه"
+
+#: src/qml/elements/KeyAuthenticationPage.qml:93
+msgctxt "KeyAuthenticationPage|"
+msgid "Device verified"
+msgstr "دستگاه تأیید شد"
+
+#: src/qml/elements/KeyAuthenticationPage.qml:97
+msgctxt "KeyAuthenticationPage|"
+msgid ""
+"The fingerprint must have 64 characters with digits and letters from a to f"
+msgstr "اثر انگشت باید ۶۴ نویسه شامل ارقام و حروف a تا f باشد"
+
+#: src/qml/elements/KeyAuthenticationPage.qml:134
+msgctxt "KeyAuthenticationPage|"
+msgid "Verified own devices"
+msgstr "دستگاه‌های خود تأییدشده"
+
+#: src/qml/elements/KeyAuthenticationPage.qml:155
+msgctxt "KeyAuthenticationPage|"
+msgid "Copy fingerprint"
+msgstr "رونوشت از اثر انگشت"
+
+#: src/qml/elements/KeyAuthenticationPage.qml:159
+msgctxt "KeyAuthenticationPage|"
+msgid "Fingerprint copied to clipboard"
+msgstr "اثر انگشت در بریده‌دان کپی شد"
+
+#: src/qml/elements/LoadingArea.qml:34
+msgctxt "LoadingArea|"
+msgid "Loading…"
+msgstr "در حال بارگیری…"
+
+#: src/qml/elements/LoginArea.qml:30 src/qml/elements/LoginArea.qml:86
+msgctxt "LoginArea|"
+msgid "Log in"
+msgstr "ورود"
+
+#: src/qml/elements/LoginArea.qml:35
+msgctxt "LoginArea|"
+msgid "Scan login QR code"
+msgstr "اسکن کد QR ورود"
+
+#: src/qml/elements/LoginArea.qml:52
+msgctxt "LoginArea|"
+msgid "Show connection settings"
+msgstr "نمایش تنظیمات اتصال"
+
+#: src/qml/elements/LoginArea.qml:87
+msgctxt "LoginArea|"
+msgid "Connecting…"
+msgstr "در حال اتصال…"
+
+#: src/qml/elements/MediaPlayerControl.qml:33
+msgctxt "MediaPlayerControl|"
+msgid "Pause"
+msgstr "مکث"
+
+#: src/qml/elements/MediaPlayerControl.qml:33
+msgctxt "MediaPlayerControl|"
+msgid "Play"
+msgstr "پخش"
+
+#: src/qml/elements/MediaViewer.qml:92
+msgctxt "MediaViewer|"
+msgid "Close media viewer"
+msgstr "بستن نمایشگر رسانه"
+
+#: src/qml/elements/MediaViewer.qml:116
+msgctxt "MediaViewer|"
+msgid "Hide details"
+msgstr "پنهان کردن جزئیات"
+
+#: src/qml/elements/MediaViewer.qml:116
+msgctxt "MediaViewer|"
+msgid "Show details"
+msgstr "نمایش جزئیات"
+
+#: src/qml/elements/MediaViewer.qml:122
+msgctxt "MediaViewer|"
+msgid "Go to message"
+msgstr "رفتن به پیام"
+
+#: src/qml/elements/MediaViewer.qml:129
+msgctxt "MediaViewer|"
+msgid "Remove"
+msgstr "حذف"
+
+#: src/qml/elements/MediaViewer.qml:139
+msgctxt "MediaViewer|"
+msgid "Open in folder"
+msgstr "باز کردن در پوشه"
+
+#: src/qml/elements/MediaViewer.qml:146
+msgctxt "MediaViewer|"
+msgid "Open externally"
+msgstr "باز کردن در برنامهٔ خارجی"
+
+#: src/qml/elements/MediaViewer.qml:167
+msgctxt "MediaViewer|"
+msgid "Message"
+msgstr "پیام"
+
+#: src/qml/elements/MediaViewer.qml:175
+msgctxt "MediaViewer|"
+msgid "Description"
+msgstr "توضیحات"
+
+#: src/qml/elements/MediaViewer.qml:184
+msgctxt "MediaViewer|"
+msgid "Name"
+msgstr "نام"
+
+#: src/qml/elements/MediaViewer.qml:193
+msgctxt "MediaViewer|"
+msgid "Size"
+msgstr "اندازه"
+
+#: src/qml/elements/MediaViewer.qml:201
+msgctxt "MediaViewer|"
+msgid "Sent/Received"
+msgstr "ارسال/دریافت شده"
+
+#: src/qml/elements/MediaViewer.qml:247
+msgctxt "MediaViewer|"
+msgid "Previous"
+msgstr "قبلی"
+
+#: src/qml/elements/MediaViewer.qml:254
+msgctxt "MediaViewer|"
+msgid "Next"
+msgstr "بعدی"
+
+#: src/qml/elements/MediumSendingPreview.qml:47
+msgctxt "MediumSendingPreview|"
+msgid "Description"
+msgstr "توضیحات"
+
+#: src/qml/elements/MediumSendingPreview.qml:60
+msgctxt "MediumSendingPreview|"
+msgid "Remove file"
+msgstr "حذف پرونده"
+
+#: src/qml/elements/MessageBackground.qml:129
+msgctxt "MessageBackground|"
+msgid "Unencrypted"
+msgstr "رمزگذاری‌نشده"
+
+#: src/qml/elements/MessageBackground.qml:134
+msgctxt "MessageBackground|"
+msgid "Untrusted"
+msgstr "غیرقابل‌اعتماد"
+
+#: src/qml/elements/MessageReactionAdditionButton.qml:24
+msgctxt "MessageReactionAdditionButton|"
+msgid "Add reaction…"
+msgstr "افزودن واکنش…"
+
+#: src/qml/elements/MessageReactionDetailsButton.qml:23
+msgctxt "MessageReactionDetailsButton|"
+msgid "Show details"
+msgstr "نمایش جزئیات"
+
+#: src/qml/elements/MessageReactionDisplayButton.qml:112
+msgctxt "MessageReactionDisplayButton|"
+msgid "Add same reaction"
+msgstr "افزودن واکنش مشابه"
+
+#: src/qml/elements/MessageReactionDisplayButton.qml:116
+msgctxt "MessageReactionDisplayButton|"
+msgid "Will be added once you are connected"
+msgstr "پس از اتصال شما افزوده خواهد شد"
+
+#: src/qml/elements/MessageReactionDisplayButton.qml:121
+msgctxt "MessageReactionDisplayButton|"
+msgid "Will be removed once you are connected"
+msgstr "پس از اتصال شما برداشته خواهد شد"
+
+#: src/qml/elements/MessageReactionDisplayButton.qml:125
+msgctxt "MessageReactionDisplayButton|"
+msgid "Could not be added"
+msgstr "افزوده نشد"
+
+#: src/qml/elements/MessageReactionDisplayButton.qml:130
+msgctxt "MessageReactionDisplayButton|"
+msgid "Could not be removed"
+msgstr "حذف نشد"
+
+#: src/qml/elements/MessageReactionDisplayButton.qml:134
+msgctxt "MessageReactionDisplayButton|"
+msgid "Sent"
+msgstr "ارسال شد"
+
+#: src/qml/elements/MessageReactionDisplayButton.qml:138
+msgctxt "MessageReactionDisplayButton|"
+msgid "Delivered"
+msgstr "تحویل داده شد"
+
+#: src/qml/elements/MessageReactionRetryButton.qml:23
+msgctxt "MessageReactionRetryButton|"
+msgid "Retry updating reactions"
+msgstr "تلاش مجدد برای به‌روزرسانی واکنش‌ها"
+
+#: src/qml/elements/ProviderFilterArea.qml:18
+msgctxt "ProviderFilterArea|"
+msgid "Registration via Kaidan"
+msgstr "ثبت‌نام از طریق کایدان"
+
+#: src/qml/elements/ProviderFilterArea.qml:19
+msgctxt "ProviderFilterArea|"
+msgid ""
+"Show only providers that allow to create an account directly via Kaidan"
+msgstr ""
+"فقط ارائه‌دهندگانی نمایش داده شوند که امکان ایجاد حساب مستقیم از طریق کایدان"
+" را دارند"
+
+#: src/qml/elements/ProviderFilterArea.qml:25
+msgctxt "ProviderFilterArea|"
+msgid "Free of charge"
+msgstr "رایگان"
+
+#: src/qml/elements/ProviderFilterArea.qml:26
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers that are free of charge"
+msgstr "فقط ارائه‌دهندگان رایگان نمایش داده شوند"
+
+#: src/qml/elements/ProviderFilterArea.qml:32
+msgctxt "ProviderFilterArea|"
+msgid "Password reset"
+msgstr "بازنشانی گذرواژه"
+
+#: src/qml/elements/ProviderFilterArea.qml:33
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers that allow to reset your password"
+msgstr "فقط ارائه‌دهندگانی نمایش داده شوند که امکان بازنشانی گذرواژه را دارند"
+
+#: src/qml/elements/ProviderFilterArea.qml:39
+msgctxt "ProviderFilterArea|"
+msgid "Green hosting"
+msgstr "میزبانی سبز"
+
+#: src/qml/elements/ProviderFilterArea.qml:40
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers whose service runs on renewable energy"
+msgstr ""
+"فقط ارائه‌دهندگانی نشان داده شوند که سرویس آن‌ها با انرژی تجدیدپذیر کار "
+"می‌کند"
+
+#: src/qml/elements/ProviderFilterArea.qml:46
+msgctxt "ProviderFilterArea|"
+msgid "Bus factor"
+msgstr "ضریب اتوبوس"
+
+#: src/qml/elements/ProviderFilterArea.qml:54
+msgctxt "ProviderFilterArea|"
+msgid "Location"
+msgstr "موقعیت مکانی"
+
+#: src/qml/elements/ProviderFilterArea.qml:55
+msgctxt "ProviderFilterArea|"
+msgid ""
+"Show only providers that store and process their data in the selected "
+"country"
+msgstr ""
+"فقط ارائه‌دهندگانی نشان داده شوند که داده‌های خود را در کشور انتخاب‌شده "
+"ذخیره و پردازش می‌کنند"
+
+#: src/qml/elements/ProviderFilterArea.qml:62
+msgctxt "ProviderFilterArea|"
+msgid "Size of shared media"
+msgstr "اندازه رسانه‌های هم‌رسانی‌شده"
+
+#: src/qml/elements/ProviderFilterArea.qml:70
+msgctxt "ProviderFilterArea|"
+msgid "Size of all shared media in total"
+msgstr "مجموع اندازه همه رسانه‌های هم‌رسانی‌شده"
+
+#: src/qml/elements/ProviderFilterArea.qml:78
+msgctxt "ProviderFilterArea|"
+msgid "Media storage duration"
+msgstr "مدت نگهداری رسانه"
+
+#: src/qml/elements/ProviderFilterArea.qml:86
+msgctxt "ProviderFilterArea|"
+msgid "Message storage duration"
+msgstr "مدت نگهداری پیام"
+
+#: src/qml/elements/ProviderFilterArea.qml:94
+msgctxt "ProviderFilterArea|"
+msgid "Availability"
+msgstr "در دسترس بودن"
+
+#: src/qml/elements/ProviderFilterArea.qml:102
+msgctxt "ProviderFilterArea|"
+msgid "Organization"
+msgstr "سازمان"
+
+#: src/qml/elements/PublicGroupChatSearchDialog.qml:20
+#, qt-format
+msgctxt ""
+"PublicGroupChatSearchDialog|%1 is 'number of visible groups/total number of "
+"groups', e.g. '5/20'"
+msgid "Search public groups (%1)"
+msgstr "جستجوی گروه‌های عمومی (%1)"
+
+#: src/qml/elements/PublicGroupChatSearchDialog.qml:72
+msgctxt "PublicGroupChatSearchDialog|"
+msgid "Downloading…"
+msgstr "در حال بارگیری…"
+
+#: src/qml/elements/PublicGroupChatSearchDialog.qml:97
+msgctxt "PublicGroupChatSearchDialog|"
+msgid "Retry"
+msgstr "تلاش مجدد"
+
+#: src/qml/elements/PublicGroupChatSearchDialog.qml:179
+#, qt-format
+msgctxt "PublicGroupChatSearchDialog|%1 is an error message"
+msgid "The public groups could not be retrieved: %1"
+msgstr "گروه‌های عمومی بازیابی نشدند: %1"
+
+#: src/qml/elements/QrCodeScanningArea.qml:47
+msgctxt "QrCodeScanningArea|"
+msgid "Contact added - Continue with step 2"
+msgstr "مخاطب اضافه شد - با مرحله ۲ ادامه دهید"
+
+#: src/qml/elements/QrCodeScanningArea.qml:54
+msgctxt "QrCodeScanningArea|"
+msgid "This QR code does not contain a contact"
+msgstr "این کد QR حاوی اطلاعات مخاطب نیست"
+
+#: src/qml/elements/QrCodeScanningArea.qml:64
+msgctxt "QrCodeScanningArea|"
+msgid "Trust decisions made for other own device - Continue with step 2"
+msgstr ""
+"تصمیمات اعتمادسازی برای دستگاه دیگر خودتان اعمال شد - با مرحله ۲ ادامه دهید"
+
+#: src/qml/elements/QrCodeScanningArea.qml:66
+msgctxt "QrCodeScanningArea|"
+msgid "Trust decisions made for contact - Continue with step 2"
+msgstr "تصمیمات اعتمادسازی برای مخاطب اعمال شد - با مرحله ۲ ادامه دهید"
+
+#: src/qml/elements/QrCodeScanningArea.qml:73
+msgctxt "QrCodeScanningArea|"
+msgid "This QR code is not for your other device"
+msgstr "این کد QR مربوط به دستگاه دیگر شما نیست"
+
+#: src/qml/elements/QrCodeScanningArea.qml:75
+msgctxt "QrCodeScanningArea|"
+msgid "This QR code is not for your contact"
+msgstr "این کد QR برای مخاطب شما نیست"
+
+#: src/qml/elements/QrCodeScanningArea.qml:82
+msgctxt "QrCodeScanningArea|"
+msgid "This QR code is not for trust decisions"
+msgstr "این کد QR برای تصمیم‌گیری‌های مربوط به اعتماد نیست"
+
+#: src/qml/elements/QrCodeScanningArea.qml:101
+msgctxt "QrCodeScanningArea|"
+msgid "Making trust decisions…"
+msgstr "در حال تصمیم‌گیری دربارهٔ اعتماد…"
+
+#: src/qml/elements/QrCodeScanningArea.qml:101
+msgctxt "QrCodeScanningArea|"
+msgid "Adding contact…"
+msgstr "در حال افزودن مخاطب…"
+
+#: src/qml/elements/ReferencedMessage.qml:81
+msgctxt "ReferencedMessage|"
+msgid "Me"
+msgstr "من"
+
+#: src/qml/elements/ReferencedMessage.qml:97
+msgctxt "ReferencedMessage|"
+msgid "Location"
+msgstr "مکان"
+
+#: src/qml/elements/ReferencedMessage.qml:100
+msgctxt "ReferencedMessage|"
+msgid "Media"
+msgstr "رسانه"
+
+#: src/qml/elements/RosterFilterArea.qml:28
+msgctxt "RosterFilterArea|"
+msgid "Available contacts"
+msgstr "مخاطبین دردسترس"
+
+#: src/qml/elements/RosterFilterArea.qml:32
+msgctxt "RosterFilterArea|"
+msgid "Unavailable contacts"
+msgstr "مخاطبین دردسترس‌نبوده"
+
+#: src/qml/elements/RosterFilterArea.qml:36
+msgctxt "RosterFilterArea|"
+msgid "Private groups"
+msgstr "گروه‌های خصوصی"
+
+#: src/qml/elements/RosterFilterArea.qml:40
+msgctxt "RosterFilterArea|"
+msgid "Public groups"
+msgstr "گروه‌های عمومی"
+
+#: src/qml/elements/RosterFilterArea.qml:51
+msgctxt "RosterFilterArea|"
+msgid "Filter by type"
+msgstr "فیلتر بر اساس نوع"
+
+#: src/qml/elements/RosterFilterArea.qml:52
+msgctxt "RosterFilterArea|"
+msgid "Show only entries of specific types"
+msgstr "نمایش فقط موارد از نوع‌های خاص"
+
+#: src/qml/elements/RosterFilterArea.qml:112
+msgctxt "RosterFilterArea|"
+msgid "Filter by accounts"
+msgstr "فیلتر بر اساس حساب‌ها"
+
+#: src/qml/elements/RosterFilterArea.qml:113
+msgctxt "RosterFilterArea|"
+msgid "Show only chats of selected accounts"
+msgstr "نمایش فقط گفتگوهای حساب‌های انتخاب‌شده"
+
+#: src/qml/elements/RosterFilterArea.qml:173
+msgctxt "RosterFilterArea|"
+msgid "Filter by labels"
+msgstr "فیلتر بر اساس برچسب‌ها"
+
+#: src/qml/elements/RosterFilterArea.qml:174
+msgctxt "RosterFilterArea|"
+msgid "Show only chats with selected labels"
+msgstr "نمایش فقط گفتگوهای دارای برچسب‌های انتخاب‌شده"
+
+#: src/qml/elements/RosterItemDelegate.qml:128
+msgctxt "RosterItemDelegate|"
+msgid "Deleted"
+msgstr "حذف‌شده"
+
+#: src/qml/elements/RosterItemDelegate.qml:142
+msgctxt "RosterItemDelegate|"
+msgid "No messages yet"
+msgstr "هنوز پیامی وجود ندارد"
+
+#: src/qml/elements/RosterItemDelegate.qml:158
+msgctxt "RosterItemDelegate|"
+msgid "Draft:"
+msgstr "پیش‌نویس:"
+
+#: src/qml/elements/RosterItemDelegate.qml:161
+msgctxt "RosterItemDelegate|"
+msgid "Me:"
+msgstr "من:"
+
+#: src/qml/elements/RosterItemDelegate.qml:165
+#, qt-format
+msgctxt "RosterItemDelegate|"
+msgid "%1:"
+msgstr "%1:"
+
+#: src/qml/elements/RosterItemDelegate.qml:290
+msgctxt "RosterItemDelegate|"
+msgid "Unpin"
+msgstr "برداشتن سنجاق"
+
+#: src/qml/elements/RosterItemDelegate.qml:290
+msgctxt "RosterItemDelegate|"
+msgid "Pin"
+msgstr "سنجاق کردن"
+
+#: src/qml/elements/SearchBarPage.qml:63
+msgctxt "SearchBarPage|"
+msgid "Open menu"
+msgstr "باز کردن منو"
+
+#: src/qml/elements/SearchBarPage.qml:73
+msgctxt "SearchBarPage|"
+msgid "Go back"
+msgstr "بازگشت"
+
+#: src/qml/elements/UrlFormButtonDelegate.qml:26
+msgctxt "UrlFormButtonDelegate|"
+msgid "Copy web address"
+msgstr "رونوشت از نشانی وب"
+
+#: src/qml/elements/VideoRecordingDialog.qml:17
+msgctxt "VideoRecordingDialog|"
+msgid "Record a video"
+msgstr "ضبط ویدیو"
+
+#: src/qml/elements/VideoRecordingDialog.qml:31
+msgctxt "VideoRecordingDialog|"
+msgid "Stop recording"
+msgstr "توقف ضبط"
+
+#: src/qml/elements/VideoRecordingDialog.qml:31
+msgctxt "VideoRecordingDialog|"
+msgid "Start recording"
+msgstr "شروع ضبط"
+
+#: src/qml/EmptyChatPage.qml:31
+msgctxt "EmptyChatPage|"
+msgid "Select a chat to start"
+msgstr "برای شروع، یک گفتگو را انتخاب کنید"
+
+#: src/qml/GlobalDrawer.qml:55
+msgctxt "GlobalDrawer|"
+msgid "Accounts"
+msgstr "حساب‌ها"
+
+#: src/qml/GlobalDrawer.qml:120
+msgctxt "GlobalDrawer|"
+msgid "Password"
+msgstr "گذرواژه"
+
+#: src/qml/GlobalDrawer.qml:121
+msgctxt "GlobalDrawer|"
+msgid "Enter your correct password"
+msgstr "گذرواژهٔ درست خود را وارد کنید"
+
+#: src/qml/GlobalDrawer.qml:130
+msgctxt "GlobalDrawer|"
+msgid "Confirm password"
+msgstr "تأیید گذرواژه"
+
+#: src/qml/GlobalDrawer.qml:169
+msgctxt "GlobalDrawer|"
+msgid "Actions"
+msgstr "اقدامات"
+
+#: src/qml/GlobalDrawer.qml:173
+msgctxt "GlobalDrawer|"
+msgid "Enable your account to use all available actions"
+msgstr "برای استفاده از همهٔ اقدامات موجود، حساب خود را فعال کنید"
+
+#: src/qml/GlobalDrawer.qml:173
+msgctxt "GlobalDrawer|"
+msgid "Enable an account to use all available actions"
+msgstr "برای استفاده از همهٔ اقدامات موجود، یک حساب را فعال کنید"
+
+#: src/qml/GlobalDrawer.qml:178
+msgctxt "GlobalDrawer|"
+msgid "Add contact by QR code"
+msgstr "افزودن مخاطب با کد QR"
+
+#: src/qml/GlobalDrawer.qml:185
+msgctxt "GlobalDrawer|"
+msgid "Add contact by chat address"
+msgstr "افزودن مخاطب با نشانی گفتگو"
+
+#: src/qml/GlobalDrawer.qml:192
+msgctxt "GlobalDrawer|"
+msgid "Create group"
+msgstr "ایجاد گروه"
+
+#: src/qml/GlobalDrawer.qml:192
+msgctxt "GlobalDrawer|"
+msgid "Create group (unsupported)"
+msgstr "ایجاد گروه (پشتیبانی‌نشده)"
+
+#: src/qml/GlobalDrawer.qml:218
+msgctxt "GlobalDrawer|"
+msgid "Join group"
+msgstr "پیوستن به گروه"
+
+#: src/qml/GlobalDrawer.qml:218
+msgctxt "GlobalDrawer|"
+msgid "Join group (unsupported)"
+msgstr "پیوستن به گروه (پشتیبانی‌نشده)"
+
+#: src/qml/GlobalDrawer.qml:245
+msgctxt "GlobalDrawer|"
+msgid "Search public groups"
+msgstr "جستجوی گروه‌های عمومی"
+
+#: src/qml/GlobalDrawer.qml:259
+msgctxt "GlobalDrawer|"
+msgid "About"
+msgstr "درباره"
+
+#: src/qml/Main.qml:181
+#, qt-format
+msgctxt "Main|%1 is a JID"
+msgid "Unblocked %1"
+msgstr "%1 از مسدودیت خارج شد"
+
+#: src/qml/Main.qml:181
+msgctxt "Main|"
+msgid "Undo"
+msgstr "واگرد"
+
+#: src/qml/Main.qml:188
+#, qt-format
+msgctxt "Main|%1 is a JID, %2 an error message"
+msgid "Could not block %1: %2"
+msgstr "مسدود کردن %1 ممکن نشد: %2"
+
+#: src/qml/Main.qml:192
+#, qt-format
+msgctxt "Main|%1 is a JID, %2 an error message"
+msgid "Could not unblock %1: %2"
+msgstr "رفع مسدودیت %1 ممکن نشد: %2"
+
+#: src/qml/QrCodeOnboardingPage.qml:27
+msgctxt "QrCodeOnboardingPage|"
+msgid "Scan a QR Code"
+msgstr "اسکن کد QR"
+
+#: src/qml/QrCodeOnboardingPage.qml:29
+msgctxt "QrCodeOnboardingPage|"
+msgid "Scan QR code"
+msgstr "اسکن کد QR"
+
+#: src/qml/QrCodeOnboardingPage.qml:29
+msgctxt "QrCodeOnboardingPage|"
+msgid "Show explanation"
+msgstr "نمایش توضیحات"
+
+#: src/qml/QrCodeOnboardingPage.qml:51
+msgctxt "QrCodeOnboardingPage|"
+msgid "Scan your old device's login QR code"
+msgstr "کد QR ورود دستگاه قدیمی خود را اسکن کنید"
+
+#: src/qml/QrCodeOnboardingPage.qml:58
+msgctxt "QrCodeOnboardingPage|"
+msgid ""
+"You can display the QR code in the account details of your old device via "
+"Show login QR code"
+msgstr ""
+"می‌توانید با انتخاب «نمایش کد QR ورود» در جزئیات حساب دستگاه قدیمی‌تان، کد "
+"QR را مشاهده کنید"
+
+#: src/qml/QrCodeOnboardingPage.qml:99
+msgctxt "QrCodeOnboardingPage|"
+msgid "This QR code is not a valid login QR code."
+msgstr "این کد QR، یک کد QR ورود معتبر نیست."
+
+#: src/qml/QrCodeOnboardingPage.qml:106
+msgctxt "QrCodeOnboardingPage|"
+msgid "Connecting…"
+msgstr "در حال اتصال…"
+
+#: src/qml/registration/AutomaticRegistrationPage.qml:25
+msgctxt "AutomaticRegistrationPage|"
+msgid "Automatic Registration"
+msgstr "ثبت‌نام خودکار"
+
+#: src/qml/registration/AutomaticRegistrationPage.qml:55
+msgctxt "AutomaticRegistrationPage|"
+msgid "Requesting registration…"
+msgstr "در حال درخواست ثبت‌نام…"
+
+#: src/qml/registration/AutomaticRegistrationPage.qml:60
+msgctxt "AutomaticRegistrationPage|"
+msgid "Complete the registration!"
+msgstr "تکمیل ثبت‌نام!"
+
+#: src/qml/registration/AutomaticRegistrationPage.qml:92
+msgctxt "AutomaticRegistrationPage|"
+msgid "Try another provider"
+msgstr "امتحان یک ارائه‌دهندهٔ دیگر"
+
+#: src/qml/registration/AutomaticRegistrationPage.qml:129
+msgctxt "AutomaticRegistrationPage|"
+msgid "Automatic registration failed because of problems with all providers"
+msgstr "ثبت‌نام خودکار به دلیل وجود مشکل در تمام ارائه‌دهندگان ناموفق بود"
+
+#: src/qml/registration/CustomDataFormCard.qml:23
+msgctxt "CustomDataFormCard|"
+msgid "Enter additional information"
+msgstr "ورود اطلاعات اضافی"
+
+#: src/qml/registration/CustomDataFormCard.qml:27
+msgctxt "CustomDataFormCard|"
+msgid "The provider has requested more information"
+msgstr "ارائه‌دهنده درخواست اطلاعات بیشتری کرده است"
+
+#: src/qml/registration/CustomDataFormCard.qml:28
+msgctxt "CustomDataFormCard|"
+msgid "Not everything may be required"
+msgstr "شاید نیازی به پر کردن همهٔ موارد نباشد"
+
+#: src/qml/registration/ManualRegistrationPage.qml:31
+msgctxt "ManualRegistrationPage|"
+msgid "Manual Registration"
+msgstr "ثبت‌نام دستی"
+
+#: src/qml/registration/ManualRegistrationPage.qml:43
+msgctxt "ManualRegistrationPage|"
+msgid "Complete the registration form!"
+msgstr "فرم ثبت‌نام را کامل کنید!"
+
+#: src/qml/registration/ManualRegistrationPage.qml:65
+msgctxt "ManualRegistrationPage|"
+msgid "Enter your desired credentials"
+msgstr "اطلاعات کاربری مد نظرتان را وارد کنید"
+
+#: src/qml/registration/ManualRegistrationPage.qml:70
+msgctxt "ManualRegistrationPage|"
+msgid "Display name"
+msgstr "نام نمایشی"
+
+#: src/qml/registration/ManualRegistrationPage.qml:79
+msgctxt "ManualRegistrationPage|"
+msgid "Username"
+msgstr "نام کاربری"
+
+#: src/qml/registration/ManualRegistrationPage.qml:84
+msgctxt "ManualRegistrationPage|"
+msgid "Enter a valid username or leave the field empty for a random one"
+msgstr ""
+"یک نام کاربری معتبر وارد کنید یا برای ایجاد نام تصادفی این فیلد را خالی "
+"بگذارید"
+
+#: src/qml/registration/ManualRegistrationPage.qml:144
+msgctxt "ManualRegistrationPage|"
+msgid "The provider requires a stronger password."
+msgstr "ارائه‌دهنده به گذرواژه قوی‌تری نیاز دارد."
+
+#: src/qml/registration/ManualRegistrationPage.qml:193
+msgctxt "ManualRegistrationPage|"
+msgid "The username is already taken."
+msgstr "این نام کاربری قبلاً گرفته شده است."
+
+#: src/qml/registration/ManualRegistrationPage.qml:197
+msgctxt "ManualRegistrationPage|"
+msgid "A new random username has been generated."
+msgstr "یک نام کاربری تصادفی جدید ایجاد شد."
+
+#: src/qml/registration/ProviderPage.qml:22
+msgctxt "ProviderPage|"
+msgid "Choose a Provider"
+msgstr "انتخاب یک ارائه‌دهنده"
+
+#: src/qml/registration/ProviderPage.qml:26
+#: src/qml/registration/ProviderPage.qml:268
+#: src/qml/registration/ProviderPage.qml:281
+msgctxt "ProviderPage|"
+msgid "Filter"
+msgstr "فیلتر"
+
+#: src/qml/registration/ProviderPage.qml:50
+msgctxt "ProviderPage|"
+msgid "Choose a provider to register!"
+msgstr "ارائه‌دهنده‌ای را برای ثبت‌نام انتخاب کنید!"
+
+#: src/qml/registration/ProviderPage.qml:117
+msgctxt "ProviderPage|"
+msgid "Provider Address"
+msgstr "نشانی ارائه‌دهنده"
+
+#: src/qml/registration/ProviderPage.qml:129
+msgctxt "ProviderPage|"
+msgid "Show connection settings"
+msgstr "نمایش تنظیمات اتصال"
+
+#: src/qml/registration/ProviderPage.qml:173
+msgctxt "ProviderPage|"
+msgid "Data storage/processing locations"
+msgstr "مکان‌های ذخیره‌سازی/پردازش داده‌ها"
+
+#: src/qml/registration/ProviderPage.qml:178
+msgctxt "ProviderPage|"
+msgid "Languages"
+msgstr "زبان‌ها"
+
+#: src/qml/registration/ProviderPage.qml:183
+msgctxt "ProviderPage|"
+msgid "Available/Listed since"
+msgstr "در دسترس/فهرست‌شده از"
+
+#: src/qml/registration/ProviderPage.qml:188
+msgctxt "ProviderPage|"
+msgid "Maximum size of shared media"
+msgstr "حداکثر اندازهٔ رسانهٔ به‌اشتراک‌گذاشته‌شده"
+
+#: src/qml/registration/ProviderPage.qml:193
+msgctxt "ProviderPage|"
+msgid "Message storage duration"
+msgstr "مدت نگهداری پیام‌ها"
+
+#: src/qml/registration/ProviderPage.qml:198
+msgctxt "ProviderPage|"
+msgid "Visit details page"
+msgstr "مشاهدهٔ صفحهٔ جزئیات"
+
+#: src/qml/registration/ProviderPage.qml:199
+msgctxt "ProviderPage|"
+msgid "Open the provider's details web page"
+msgstr "باز کردن صفحهٔ وب جزئیات ارائه‌دهنده"
+
+#: src/qml/registration/ProviderPage.qml:213
+msgctxt "ProviderPage|"
+msgid "Choose"
+msgstr "انتخاب"
+
+#: src/qml/registration/ProviderPage.qml:214
+msgctxt "ProviderPage|"
+msgid "Requesting registration…"
+msgstr "در حال درخواست ثبت‌نام…"
+
+#: src/qml/registration/ProviderPage.qml:236
+msgctxt "ProviderPage|"
+msgid "You must enter a provider address"
+msgstr "باید نشانی ارائه‌دهنده را وارد کنید"
+
+#: src/qml/registration/ProviderPage.qml:331
+msgctxt "ProviderPage|"
+msgid "The provider does not support registration via this app."
+msgstr "این ارائه‌دهنده از ثبت‌نام از طریق این برنامه پشتیبانی نمی‌کند."
+
+#: src/qml/registration/ProviderPage.qml:334
+msgctxt "ProviderPage|"
+msgid "You are temporarily blocked: "
+msgstr "شما به‌طور موقت مسدود شده‌اید: "
+
+#: src/qml/registration/RegistrationButton.qml:27
+msgctxt "RegistrationButton|"
+msgid "Log in after email confirmation"
+msgstr "ورود پس از تأیید رایانامه"
+
+#: src/qml/registration/RegistrationButton.qml:27
+msgctxt "RegistrationButton|"
+msgid "Register"
+msgstr "ثبت‌نام"
+
+#: src/qml/registration/RegistrationButton.qml:28
+msgctxt "RegistrationButton|"
+msgid "Logging in…"
+msgstr "در حال ورود…"
+
+#: src/qml/registration/RegistrationButton.qml:28
+msgctxt "RegistrationButton|"
+msgid "Registering…"
+msgstr "در حال ثبت‌نام…"
+
+#: src/qml/registration/RegistrationPage.qml:58
+msgctxt "RegistrationPage|"
+msgid "CAPTCHA input was wrong"
+msgstr "کد امنیتی (کپچا) وارد شده نادرست بود"
+
+#: src/qml/registration/RegistrationPage.qml:67
+msgctxt "RegistrationPage|"
+msgid "Required information is missing: "
+msgstr "اطلاعات ضروری ناقص است: "
+
+#: src/qml/registration/RegistrationPage.qml:76
+msgctxt "RegistrationPage|"
+msgid "Registration failed:"
+msgstr "ثبت‌نام ناموفق بود:"
+
+#: src/qml/registration/WebRegistrationPage.qml:26
+msgctxt "WebRegistrationPage|"
+msgid "Web Registration"
+msgstr "ثبت‌نام تحت وب"
+
+#: src/qml/registration/WebRegistrationPage.qml:30
+msgctxt "WebRegistrationPage|"
+msgid "Register via the provider's website!"
+msgstr "از طریق وبگاه ارائه‌دهنده ثبت‌نام کنید!"
+
+#: src/qml/registration/WebRegistrationPage.qml:48
+msgctxt "WebRegistrationPage|"
+msgid "Step 1: Register account"
+msgstr "مرحلهٔ ۱: ثبت حساب کاربری"
+
+#: src/qml/registration/WebRegistrationPage.qml:52
+msgctxt "WebRegistrationPage|"
+msgid "The selected provider only supports web registration"
+msgstr "ارائه‌دهندهٔ انتخاب‌شده فقط از ثبت‌نام وب پشتیبانی می‌کند"
+
+#: src/qml/registration/WebRegistrationPage.qml:53
+msgctxt "WebRegistrationPage|"
+msgid ""
+"After creating an account via the provider's website, you can log in via "
+"Kaidan"
+msgstr ""
+"پس از ساخت حساب در وبگاه ارائه‌دهنده، می‌توانید از طریق کایدان وارد شوید"
+
+#: src/qml/registration/WebRegistrationPage.qml:58
+msgctxt "WebRegistrationPage|"
+msgid "Visit registration page"
+msgstr "مشاهدهٔ صفحهٔ ثبت‌نام"
+
+#: src/qml/registration/WebRegistrationPage.qml:59
+msgctxt "WebRegistrationPage|"
+msgid "Open the provider's registration web page"
+msgstr "گشودن صفحهٔ وب ثبت‌نام ارائه‌دهنده"
+
+#: src/qml/registration/WebRegistrationPage.qml:69
+msgctxt "WebRegistrationPage|"
+msgid "Step 2: Log in with your registered account"
+msgstr "مرحلهٔ ۲: ورود با حساب ثبت‌شده"
+
+#: src/qml/RosterPage.qml:37 src/qml/RosterPage.qml:224
+#: src/qml/RosterPage.qml:237
+msgctxt "RosterPage|"
+msgid "Filter"
+msgstr "صافی"
+
+#: src/qml/RosterPage.qml:45
+msgctxt "RosterPage|"
+msgid "Pin & Move"
+msgstr "سنجاق و جابه‌جایی"
+
+#: src/qml/StartPage.qml:28
+msgctxt "StartPage|"
+msgid "Account Migration"
+msgstr "مهاجرت حساب کاربری"
+
+#: src/qml/StartPage.qml:28
+msgctxt "StartPage|"
+msgid "Account Creation"
+msgstr "ساخت حساب کاربری"
+
+#: src/qml/StartPage.qml:51
+msgctxt "StartPage|"
+msgid "Enjoy free communication on every device!"
+msgstr "از ارتباط رایگان در همهٔ دستگاه‌ها لذت ببرید!"
+
+#: src/qml/StartPage.qml:99
+msgctxt "StartPage|"
+msgid "Register"
+msgstr "ثبت‌نام"
+
+#: src/qml/StartPage.qml:103
+msgctxt "StartPage|"
+msgid "Generate account automatically"
+msgstr "تولید خودکار حساب کاربری"
+
+#: src/qml/StartPage.qml:108
+msgctxt "StartPage|"
+msgid "Create account manually"
+msgstr "ایجاد دستی حساب کاربری"
+
+#: src/QmlUtils.cpp:231
+msgctxt "QmlUtils|"
+msgid "Unknown size"
+msgstr "اندازهٔ نامشخص"
+
+#: src/RosterController.cpp:127
+#, qt-format
+msgctxt "RosterController|%1 is a JID, %2 an error message"
+msgid "%1 could not be added: %2"
+msgstr "افزودن %1 ممکن نشد: %2"
+
+#: src/RosterController.cpp:134
+msgctxt "RosterController|"
+msgid "Could not add contact as a result of not being connected."
+msgstr "به‌دلیل متصل نبودن، افزودن مخاطب ممکن نشد."
+
+#: src/RosterController.cpp:144
+msgctxt "RosterController|"
+msgid "Could not rename contact as a result of not being connected."
+msgstr "به‌دلیل متصل نبودن، تغییر نام مخاطب ممکن نشد."
+
+#: src/RosterController.cpp:154
+#, qt-format
+msgctxt "RosterController|%1 is a contact JID, %2 an error message"
+msgid ""
+"Requesting to see the personal data of %1 failed because of a connection "
+"problem: %2"
+msgstr ""
+"درخواست برای مشاهدهٔ داده‌های شخصی %1 به‌دلیل مشکل در اتصال ناموفق بود: %2"
+
+#: src/RosterController.cpp:167
+#, qt-format
+msgctxt "RosterController|%1 is a contact JID"
+msgid "Allowing %1 to see your personal data failed"
+msgstr "مجوز دادن به %1 برای مشاهدهٔ داده‌های شخصی شما ناموفق بود"
+
+#: src/RosterController.cpp:179
+#, qt-format
+msgctxt "RosterController|%1 is a contact JID"
+msgid "Stopping %1 to see your personal data failed"
+msgstr "متوقف کردن %1 از دیدن اطلاعات شخصی شما ناموفق بود"
+
+#: src/RosterController.cpp:272
+msgctxt "RosterController|"
+msgid "Could not remove contact as a result of not being connected."
+msgstr "به دلیل متصل نبودن، مخاطب حذف نشد."
+
+#: src/RosterItem.cpp:33
+msgctxt "QObject|"
+msgid "Provider"
+msgstr "ارائه‌دهنده"
+
+#: src/RosterItem.cpp:38
+msgctxt "QObject|"
+msgid "Notes"
+msgstr "یادداشت‌ها"
+
+#: src/RosterModel.cpp:761
+msgctxt "RosterModel|"
+msgid "Yesterday"
+msgstr "دیروز"
+
+#: src/VCardModel.cpp:131
+msgctxt "VCardModel|"
+msgid "Name"
+msgstr "نام"
+
+#: src/VCardModel.cpp:132
+msgctxt "VCardModel|"
+msgid "Nickname"
+msgstr "نام مستعار"
+
+#: src/VCardModel.cpp:133
+msgctxt "VCardModel|"
+msgid "About"
+msgstr "درباره"
+
+#: src/VCardModel.cpp:134
+msgctxt "VCardModel|"
+msgid "Email"
+msgstr "رایانامه"
+
+#: src/VCardModel.cpp:135
+msgctxt "VCardModel|"
+msgid "Birthday"
+msgstr "تاریخ تولد"
+
+#: src/VCardModel.cpp:142
+msgctxt "VCardModel|"
+msgid "Website"
+msgstr "وب‌سایت"

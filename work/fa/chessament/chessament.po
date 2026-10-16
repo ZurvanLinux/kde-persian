@@ -1,0 +1,1432 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the chessament package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: chessament\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-14 00:42+0000\n"
+"PO-Revision-Date: 2026-10-15 15:21+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: byesmodel.cpp:85
+#, kde-format
+msgctxt "Pieces Color · Player Name"
+msgid "%1 · %2"
+msgstr "%1 · %2"
+
+#: controller.cpp:187
+#, kde-format
+msgid "Couldn’t export tournament."
+msgstr "صادر کردن تورنمنت ممکن نشد."
+
+#: documents.cpp:23
+#, kde-format
+msgctxt "@title"
+msgid "Starting Rank"
+msgstr "رتبهٔ آغازین"
+
+#: documents.cpp:62
+#, kde-format
+msgctxt "@title %1 is a number"
+msgid "Round %1 Pairings"
+msgid_plural "Round %1 Pairings"
+msgstr[0] "همسان‌سازی دور %1"
+msgstr[1] "همسان‌سازی دور %1"
+
+#: documents.cpp:103
+#, kde-format
+msgctxt "@title"
+msgid "Standings After Round %1"
+msgid_plural "Standings After Round %1"
+msgstr[0] "جدول رده‌بندی پس از دور %1"
+msgstr[1] "جدول رده‌بندی پس از دور %1"
+
+#: documents.cpp:105
+#, kde-format
+msgctxt "@title"
+msgid "Provisional Standings After Round %1"
+msgid_plural "Provisional Standings After Round %1"
+msgstr[0] "جدول رده‌بندی موقت پس از دور %1"
+msgstr[1] "جدول رده‌بندی موقت پس از دور %1"
+
+#: documents.cpp:109
+#, kde-format
+msgctxt "@title"
+msgid "Final Standings"
+msgstr "جدول رده‌بندی نهایی"
+
+#: documents.cpp:111
+#, kde-format
+msgctxt "@title"
+msgid "Provisional Final Standings"
+msgstr "جدول رده‌بندی موقت نهایی"
+
+#: main.cpp:60
+#, kde-format
+msgid "© 2024–2026 Manuel Alcaraz Zambrano"
+msgstr "© 2024–2026 Manuel Alcaraz Zambrano"
+
+#: main.cpp:62
+#, kde-format
+msgctxt "@info:credit"
+msgid "Manuel Alcaraz Zambrano"
+msgstr "Manuel Alcaraz Zambrano"
+
+#: main.cpp:63
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author & Maintainer"
+msgstr "نویسنده و نگه‌دارنده"
+
+#: main.cpp:66
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: main.cpp:66
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: main.cpp:68
+#, kde-format
+msgid "Swiss-system chess tournament pairing engine."
+msgstr "موتور قرعه‌کشی مسابقات شطرنج به روش سوئیسی."
+
+#: main.cpp:79
+#, kde-format
+msgctxt "Command line option description"
+msgid "Import Tournament Report File."
+msgstr "وارد کردن پروندهٔ گزارش مسابقات (TRF)."
+
+#: main.cpp:82
+#, kde-format
+msgctxt "@info:shell Command line option description"
+msgid "Event to open."
+msgstr "رویداد برای باز کردن."
+
+#: main.cpp:101
+#, kde-format
+msgctxt "@info:shell"
+msgid "Error: Can’t open an event when importing a TRF"
+msgstr "خطا: هنگام وارد کردن یک پروندهٔ TRF نمی‌توان رویدادی را باز کرد"
+
+#: main.cpp:110
+#, kde-format
+msgctxt "@info:shell"
+msgid "Error: Can’t open more than one event"
+msgstr "خطا: نمی‌توان بیش از یک رویداد را باز کرد"
+
+#: pairingmodel.cpp:108
+#, kde-format
+msgctxt "@title:column Board Number"
+msgid "Board"
+msgstr "میز"
+
+#: pairingmodel.cpp:110
+#, kde-format
+msgctxt "@title:column White Player Starting Rank Number"
+msgid "№"
+msgstr "شماره"
+
+#: pairingmodel.cpp:112
+#, kde-format
+msgctxt "@title:column Name of the White Player"
+msgid "White Player"
+msgstr "بازیکن سفید"
+
+#: pairingmodel.cpp:114
+#, kde-format
+msgctxt "@title:column Game Result"
+msgid "Result"
+msgstr "نتیجه"
+
+#: pairingmodel.cpp:116
+#, kde-format
+msgctxt "@title:column Name of the Black Player"
+msgid "Black Player"
+msgstr "بازیکن سیاه"
+
+#: pairingmodel.cpp:118
+#, kde-format
+msgctxt "@title:column Black Player Starting Rank Number"
+msgid "№"
+msgstr "شماره"
+
+#: playersmodel.cpp:218 standingsmodel.cpp:94
+#, kde-format
+msgctxt "@title:column Player Starting Rank Number"
+msgid "№"
+msgstr "شماره"
+
+#: playersmodel.cpp:220 standingsmodel.cpp:96
+#, kde-format
+msgctxt "@title:column Player Title"
+msgid "Title"
+msgstr "عنوان"
+
+#: playersmodel.cpp:222 standingsmodel.cpp:98
+#, kde-format
+msgctxt "@title:column Player Name"
+msgid "Name"
+msgstr "نام"
+
+#: playersmodel.cpp:224
+#, kde-format
+msgctxt "@title:column Player Rating"
+msgid "Rating"
+msgstr "امتیاز"
+
+#: playersmodel.cpp:226
+#, kde-format
+msgctxt "@title:column Player National Rating"
+msgid "National Rating"
+msgstr "امتیاز ملی"
+
+#: playersmodel.cpp:228
+#, kde-format
+msgctxt "@title:column"
+msgid "Player ID"
+msgstr "شناسه بازیکن"
+
+#: playersmodel.cpp:230
+#, kde-format
+msgctxt "@title:column Player National ID"
+msgid "National ID"
+msgstr "شناسه ملی"
+
+#: playersmodel.cpp:232
+#, kde-format
+msgctxt "@title:column"
+msgid "Birth date"
+msgstr "تاریخ تولد"
+
+#: playersmodel.cpp:234
+#, kde-format
+msgctxt "@title:column Player Federation"
+msgid "Federation"
+msgstr "فدراسیون"
+
+#: playersmodel.cpp:236
+#, kde-format
+msgctxt "@title:column Player Origin"
+msgid "Origin"
+msgstr "مبدأ"
+
+#: playersmodel.cpp:238
+#, kde-format
+msgctxt "@title:column Player Gender"
+msgid "Gender"
+msgstr "جنسیت"
+
+#: qml/ActionCollection.qml:12 qml/components/MenuBar.qml:30
+msgctxt "@action:menu"
+msgid "File"
+msgstr "پرونده"
+
+#: qml/ActionCollection.qml:17
+msgctxt "@action:inmenu"
+msgid "New tournament…"
+msgstr "تورنمنت جدید…"
+
+#: qml/ActionCollection.qml:32
+msgctxt "@action:inmenu"
+msgid "Import tournament report…"
+msgstr "درون‌ریزی گزارش تورنمنت…"
+
+#: qml/ActionCollection.qml:39
+msgctxt "@action:inmenu"
+msgid "Export tournament report…"
+msgstr "برون‌بری گزارش تورنمنت…"
+
+#: qml/ActionCollection.qml:49 qml/components/MenuBar.qml:120
+msgctxt "@action:menu"
+msgid "Tournament"
+msgstr "تورنمنت"
+
+#: qml/ActionCollection.qml:54
+msgctxt "@action:intoolbar"
+msgid "Add Player…"
+msgstr "افزودن بازیکن…"
+
+#: qml/ActionCollection.qml:61
+msgctxt "@action:intoolbar"
+msgid "Print…"
+msgstr "چاپ…"
+
+#: qml/ActionCollection.qml:68
+msgctxt "@action Update players ratings"
+msgid "Update ratings…"
+msgstr "به‌روزرسانی رتبه‌بندی‌ها…"
+
+#: qml/ActionCollection.qml:74
+msgctxt "@action:menu"
+msgid "Pairings"
+msgstr "قرعه‌کشی‌ها"
+
+#: qml/ActionCollection.qml:78
+msgctxt "@option:check"
+msgid "Hide finished games"
+msgstr "پنهان کردن بازی‌های پایان‌یافته"
+
+#: qml/ActionCollection.qml:85 qml/components/MenuBar.qml:154
+msgctxt "@action:menu"
+msgid "Help"
+msgstr "راهنما"
+
+#: qml/AddPlayerDialog.qml:19
+msgctxt "@title:window"
+msgid "Add player"
+msgstr "افزودن بازیکن"
+
+#: qml/AddPlayerDialog.qml:48
+msgctxt "@label:textbox"
+msgid "Title"
+msgstr "عنوان"
+
+#: qml/AddPlayerDialog.qml:55
+msgctxt "@label:textbox"
+msgid "Name"
+msgstr "نام"
+
+#: qml/AddPlayerDialog.qml:96
+msgctxt "@label:textbox"
+msgid "Rating"
+msgstr "رتبه‌بندی"
+
+#: qml/AddPlayerDialog.qml:103
+msgctxt "@label:textbox"
+msgid "National rating"
+msgstr "رتبه‌بندی ملی"
+
+#: qml/AddPlayerDialog.qml:110
+msgctxt "@label:textbox"
+msgid "Player ID"
+msgstr "شناسهٔ بازیکن"
+
+#: qml/AddPlayerDialog.qml:111 qml/AddPlayerDialog.qml:117
+#: qml/AddPlayerDialog.qml:123 qml/AddPlayerDialog.qml:129
+#: qml/AddPlayerDialog.qml:135 qml/AddPlayerDialog.qml:141
+msgid "Optional"
+msgstr "اختیاری"
+
+#: qml/AddPlayerDialog.qml:116
+msgctxt "@label:textbox Player National ID"
+msgid "National ID"
+msgstr "کد ملی"
+
+#: qml/AddPlayerDialog.qml:122
+msgctxt "@label:textbox"
+msgid "Birth date"
+msgstr "تاریخ تولد"
+
+#: qml/AddPlayerDialog.qml:128 tournament/qml/SettingsInformationPage.qml:45
+msgctxt "@label:textbox"
+msgid "Federation"
+msgstr "فدراسیون"
+
+#: qml/AddPlayerDialog.qml:134
+msgctxt "@label:textbox"
+msgid "Origin"
+msgstr "مبدأ"
+
+#: qml/AddPlayerDialog.qml:140
+msgctxt "@label:textbox Player Gender"
+msgid "Gender"
+msgstr "جنسیت"
+
+#: qml/components/ArbiterDelegate.qml:34
+msgctxt "@item:inlistbox Chief Arbiter"
+msgid "Chief"
+msgstr "سرداور"
+
+#: qml/components/ArbiterDelegate.qml:38
+msgctxt "@item:inlistbox Deputy Chief Arbiter"
+msgid "Deputy Chief"
+msgstr "جانشین سرداور"
+
+#: qml/components/ArbiterDelegate.qml:42
+msgctxt "@item:inlistbox"
+msgid "Arbiter"
+msgstr "داور"
+
+#: qml/components/ArbiterDelegate.qml:53
+msgctxt "@info:placeholder Arbiter's Title"
+msgid "Title"
+msgstr "عنوان"
+
+#: qml/components/ArbiterDelegate.qml:60
+msgctxt "@info:placeholder Arbiter's Name"
+msgid "Name"
+msgstr "نام"
+
+#: qml/components/ArbiterDelegate.qml:67
+msgctxt "@info:placeholder Arbiter's ID"
+msgid "ID"
+msgstr "شناسه"
+
+#: qml/components/ArbiterDelegate.qml:72 qml/components/ArbiterDelegate.qml:78
+msgctxt "@action:button"
+msgid "Delete Arbiter"
+msgstr "حذف داور"
+
+#: qml/components/MenuBar.qml:50 qml/components/MenuBar.qml:65
+#: qml/NewTournamentDialog.qml:51
+msgctxt "@label:listbox"
+msgid "Chessament event (*.chessament)"
+msgstr "رویداد Chessament (*.chessament)‎"
+
+#: qml/components/MenuBar.qml:78 qml/components/MenuBar.qml:93
+msgctxt "@label:listbox"
+msgid "TRF files (*.trf *.txt)"
+msgstr "پرونده‌های TRF (*.trf *.txt)‎"
+
+#: qml/components/MenuBar.qml:111
+msgctxt "@action:menu"
+msgid "View"
+msgstr "نما"
+
+#: qml/components/MenuBar.qml:134
+msgctxt "@action:menu"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: qml/components/TiebreakDelegate.qml:33
+#: qml/components/TiebreakDelegate.qml:38
+msgctxt "@action:button"
+msgid "Configure tiebreak"
+msgstr "پیکربندی پوئن‌شکنی"
+
+#: qml/components/TiebreakDelegate.qml:54
+msgctxt "@action:button Move tiebreak up"
+msgid "Move Up"
+msgstr "انتقال به بالا"
+
+#: qml/components/TiebreakDelegate.qml:59
+msgctxt "@action:button Move tiebreak up"
+msgid "Move up"
+msgstr "انتقال به بالا"
+
+#: qml/components/TiebreakDelegate.qml:66
+msgctxt "@action:button Move tiebreak down"
+msgid "Move Down"
+msgstr "انتقال به پایین"
+
+#: qml/components/TiebreakDelegate.qml:71
+msgctxt "@action:button Move tiebreak down"
+msgid "Move down"
+msgstr "انتقال به پایین"
+
+#: qml/components/TiebreakDelegate.qml:78
+msgctxt "@action:button"
+msgid "Delete Tiebreak"
+msgstr "حذف پوئن‌شکنی"
+
+#: qml/components/TiebreakDelegate.qml:83
+msgctxt "@action:button"
+msgid "Delete tiebreak"
+msgstr "حذف پوئن‌شکنی"
+
+#: qml/components/TimeControlDelegate.qml:37
+msgctxt "@label:textbox Number of moves"
+msgid "Moves"
+msgstr "حرکت‌ها"
+
+#: qml/components/TimeControlDelegate.qml:51
+msgctxt "@label:textbox Time control period time"
+msgid "Time (minutes)"
+msgstr "زمان (دقیقه)"
+
+#: qml/components/TimeControlDelegate.qml:65
+msgctxt "@label:textbox Time control period increment (per second)"
+msgid "Increment (seconds)"
+msgstr "افزایش زمان (ثانیه)"
+
+#: qml/components/TimeControlDelegate.qml:77
+msgctxt "@action:button Delete time control period"
+msgid "Delete"
+msgstr "حذف"
+
+#: qml/DeletePairingsDialog.qml:17
+msgctxt "@title"
+msgid "Remove pairings"
+msgstr "حذف جفت‌سازی‌ها"
+
+#: qml/DeletePairingsDialog.qml:25
+msgctxt "@action:check"
+msgid "Keep byes"
+msgstr "نگه‌داشتن استراحت‌ها"
+
+#: qml/DeletePairingsDialog.qml:33
+msgctxt "@action:button Remove pairings"
+msgid "Remove"
+msgstr "حذف"
+
+#: qml/DeletePlayerDialog.qml:19
+msgctxt "@title"
+msgid "Delete Player"
+msgstr "حذف بازیکن"
+
+#: qml/DeletePlayerDialog.qml:20
+msgctxt "@label"
+msgid "Permanently delete player “%1”?"
+msgstr "بازیکن «%1» برای همیشه حذف شود؟"
+
+#: qml/DeletePlayerDialog.qml:26
+msgctxt "@action:button Delete Player"
+msgid "Delete"
+msgstr "حذف"
+
+#: qml/Main.qml:17
+msgctxt "@title:window"
+msgid "%1 — Chessament"
+msgstr "%1 — چس‌امنت"
+
+#: qml/Main.qml:17
+msgctxt "@title:window"
+msgid "Chessament"
+msgstr "چس‌امنت"
+
+#: qml/Main.qml:51 settings/AddRatingListDialog.qml:59
+msgctxt "@title"
+msgid "Error"
+msgstr "خطا"
+
+#: qml/NewTournamentDialog.qml:17
+msgctxt "@title"
+msgid "New tournament"
+msgstr "تورنمنت جدید"
+
+#: qml/NewTournamentDialog.qml:30
+msgctxt "@label:textbox tournament name"
+msgid "Name:"
+msgstr "نام:"
+
+#: qml/NewTournamentDialog.qml:34
+msgctxt "@label"
+msgid "Format"
+msgstr "قالب"
+
+#: qml/NewTournamentDialog.qml:35
+msgctxt "@label"
+msgid "Swiss system"
+msgstr "سیستم سوئیسی"
+
+#: qml/NewTournamentDialog.qml:40
+msgctxt "@label"
+msgid "Number of rounds"
+msgstr "تعداد دورها"
+
+#: qml/PairingsPage.qml:52 qml/PlayersPage.qml:48 qml/StandingsPage.qml:55
+msgctxt "@label:listbox"
+msgid "PDF document (*.pdf)"
+msgstr "سند PDF (*.pdf)"
+
+#: qml/PairingsPage.qml:77 qml/PlayersPage.qml:142 qml/StandingsPage.qml:70
+msgctxt "@action:intoolbar"
+msgid "Export as PDF…"
+msgstr "برون‌ریزی به‌صورت PDF…"
+
+#: qml/PairingsPage.qml:87 qml/PairingsPage.qml:92
+msgid "Round %1"
+msgid_plural "Round %1"
+msgstr[0] "دور %1"
+msgstr[1] "دور %1"
+
+#: qml/PairingsPage.qml:104
+msgctxt "@action:intoolbar"
+msgid "Remove pairings of this and following rounds…"
+msgstr "حذف جفت‌سازی‌های این دور و دورهای بعدی…"
+
+#: qml/PairingsPage.qml:118
+msgctxt "@info"
+msgid "The tournament hasn’t started yet."
+msgstr "مسابقات هنوز شروع نشده است."
+
+#: qml/PairingsPage.qml:118
+msgctxt "@info"
+msgid "Round %1 has finished."
+msgid_plural "Round %1 has finished."
+msgstr[0] "دور %1 به پایان رسید."
+msgstr[1] "دور %1 به پایان رسید."
+
+#: qml/PairingsPage.qml:122
+msgctxt "@action:button"
+msgid "Pair Round %1…"
+msgid_plural "Pair Round %1…"
+msgstr[0] "جفت‌سازی دور %1…"
+msgstr[1] "جفت‌سازی دور %1…"
+
+#: qml/PairingsPage.qml:166
+msgctxt "@info:placeholder"
+msgid "No pairings for Round %1 yet"
+msgid_plural "No pairings for Round %1 yet"
+msgstr[0] "هنوز هیچ قرعه‌کشی‌ای برای دور %1 انجام نشده است"
+msgstr[1] "هنوز هیچ قرعه‌کشی‌ای برای دور %1 انجام نشده است"
+
+#: qml/PairingsPage.qml:168
+msgctxt "@info:placeholder"
+msgid "All games of Round %1 have finished"
+msgid_plural "All games of Round %1 have finished"
+msgstr[0] "تمام بازی‌های دور %1 به پایان رسیده‌اند"
+msgstr[1] "تمام بازی‌های دور %1 به پایان رسیده‌اند"
+
+#: qml/PairRoundDialog.qml:21
+msgctxt "@title %1 is a number >= 1"
+msgid "Pair Round %1"
+msgid_plural "Pair Round %1"
+msgstr[0] "قرعه‌کشی دور %1"
+msgstr[1] "قرعه‌کشی دور %1"
+
+#: qml/PairRoundDialog.qml:29
+msgctxt "@info"
+msgid "All players will be paired."
+msgstr "تمام بازیکنان قرعه‌کشی خواهند شد."
+
+#: qml/PairRoundDialog.qml:29
+msgctxt "@info %1 is a number"
+msgid "The following player won’t be paired: %2"
+msgid_plural "The following %1 players won’t be paired: %2"
+msgstr[0] "این بازیکن قرعه‌کشی نخواهد شد: %2"
+msgstr[1] "این %1 بازیکن قرعه‌کشی نخواهند شد: %2"
+
+#: qml/PairRoundDialog.qml:39
+msgctxt "@option:check"
+msgid "Sort players"
+msgstr "مرتب‌سازی بازیکنان"
+
+#: qml/PairRoundDialog.qml:46
+msgctxt "@label:listbox"
+msgid "First player color:"
+msgstr "رنگ مهرهٔ بازیکن اول:"
+
+#: qml/PairRoundDialog.qml:54
+msgctxt "@item:inlistbox As in 'Random color'"
+msgid "Random"
+msgstr "تصادفی"
+
+#: qml/PairRoundDialog.qml:58 tournament/pairing.h:78
+#, kde-format
+msgctxt "@item:inlistbox As in 'White pieces'"
+msgid "White"
+msgstr "سفید"
+
+#: qml/PairRoundDialog.qml:62 tournament/pairing.h:80
+#, kde-format
+msgctxt "@item:inlistbox As in 'Black pieces'"
+msgid "Black"
+msgstr "سیاه"
+
+#: qml/player/PlayerDetails.qml:17
+msgctxt "@title:window"
+msgid "Details of player “%1”"
+msgstr "جزئیات بازیکن «%1»"
+
+#: qml/player/PlayerDetails.qml:22
+msgctxt "@action:button"
+msgid "Pairings"
+msgstr "قرعه‌کشی‌ها"
+
+#: qml/player/PlayerPairingsPage.qml:21
+msgctxt "@title"
+msgid "Pairings"
+msgstr "قرعه‌کشی‌ها"
+
+#: qml/player/PlayerPairingsPage.qml:26
+msgctxt ""
+"@action:button Removes all the voluntary byes of the player for the upcoming"
+" rounds"
+msgid "Reinstate Player"
+msgstr "بازگرداندن بازیکن"
+
+#: qml/player/PlayerPairingsPage.qml:35
+msgctxt ""
+"@action:button Sets a zero-point bye for all remaining rounds for the player"
+msgid "Retire Player"
+msgstr "انصراف بازیکن"
+
+#: qml/player/PlayerPairingsPage.qml:55
+msgctxt "@item:inlistbox Available to play"
+msgid "Available"
+msgstr "آماده برای بازی"
+
+#: qml/player/PlayerPairingsPage.qml:92
+#: tournament/qml/SettingsFormatPage.qml:45
+msgctxt "@title:group"
+msgid "Pairings"
+msgstr "قرعه‌کشی‌ها"
+
+#: qml/player/PlayerPairingsPage.qml:117
+msgctxt "@info:label"
+msgid "Round %1"
+msgid_plural "Round %1"
+msgstr[0] "دور %1"
+msgstr[1] "دور %1"
+
+#: qml/PlayersPage.qml:121
+msgctxt "@action:intoolbar Open player details"
+msgid "Details…"
+msgstr "جزئیات…"
+
+#: qml/PlayersPage.qml:127
+msgctxt "@action:intoolbar"
+msgid "Sort Players…"
+msgstr "مرتب‌سازی بازیکنان…"
+
+#: qml/PlayersPage.qml:158
+msgctxt "@action:inmenu"
+msgid "Open Player Details"
+msgstr "باز کردن جزئیات بازیکن"
+
+#: qml/PlayersPage.qml:164
+msgctxt "@action:inmenu"
+msgid "Delete Player…"
+msgstr "حذف بازیکن…"
+
+#: qml/PlayersPage.qml:184
+msgctxt "@info:placeholder"
+msgid "No players found"
+msgstr "هیچ بازیکنی پیدا نشد"
+
+#: qml/PlayersPage.qml:184
+msgctxt "@info:placeholder"
+msgid "No players yet"
+msgstr "هنوز بازیکنی وجود ندارد"
+
+#: qml/PlayersPage.qml:188
+msgctxt "@action:button"
+msgid "Add Player…"
+msgstr "افزودن بازیکن…"
+
+#: qml/PlayersPage.qml:207
+msgctxt "@info:status Number of players"
+msgid "1 player"
+msgid_plural "%1 players"
+msgstr[0] "۱ بازیکن"
+msgstr[1] "%1 بازیکن"
+
+#: qml/PlayersPage.qml:208
+msgctxt "@info:status Number of rated players"
+msgid "1 rated"
+msgid_plural "%1 rated"
+msgstr[0] "1 دارای رتبه"
+msgstr[1] "%1 دارای رتبه"
+
+#: qml/PlayersPage.qml:210
+msgctxt "@info:status Total number of players (Number of players rated)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: qml/ResultsFooter.qml:103
+msgctxt "@action:intoolbar Other game results"
+msgid "Other"
+msgstr "غیره"
+
+#: qml/Sidebar.qml:49
+msgid "Players"
+msgstr "بازیکنان"
+
+#: qml/Sidebar.qml:57
+msgid "Pairings"
+msgstr "جفت‌سازی‌ها"
+
+#: qml/Sidebar.qml:65
+msgid "Standings"
+msgstr "جدول رده‌بندی"
+
+#: qml/Sidebar.qml:84
+msgctxt "@action:button"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: qml/SortPlayersDialog.qml:18
+msgctxt "@title"
+msgid "Sort Players"
+msgstr "مرتب‌سازی بازیکنان"
+
+#: qml/SortPlayersDialog.qml:27
+msgctxt "@info"
+msgid ""
+"Changing the initial ranking after the fourth round has been paired is not "
+"allowed in official tournaments."
+msgstr ""
+"تغییر رتبه‌بندی اولیه پس از جفت‌سازی دور چهارم در مسابقات رسمی مجاز نیست."
+
+#: qml/StandingsPage.qml:83 qml/StandingsPage.qml:93
+msgctxt "@item:inlistbox"
+msgid "Final Standings"
+msgstr "رده‌بندی نهایی"
+
+#: qml/StandingsPage.qml:85 qml/StandingsPage.qml:95
+msgctxt "@item:inlistbox Standings After Round %1"
+msgid "After Round %1"
+msgid_plural "After Round %1"
+msgstr[0] "پس از دور %1"
+msgstr[1] "پس از دور %1"
+
+#: qml/StandingsPage.qml:142
+msgctxt "@info:placeholder"
+msgid "No standings yet"
+msgstr "هنوز رده‌بندی ثبت نشده است"
+
+#: qml/UpdateRatingsDialog.qml:18
+msgctxt "@title"
+msgid "Update Ratings"
+msgstr "به‌روزرسانی درجه‌ها"
+
+#: qml/UpdateRatingsDialog.qml:26
+msgctxt "@info"
+msgid "No rating lists available."
+msgstr "هیچ فهرست درجه‌بندی‌ای در دسترس نیست."
+
+#: qml/UpdateRatingsDialog.qml:34
+msgctxt "@label:listbox"
+msgid "Choose a rating list:"
+msgstr "انتخاب فهرست رتبه‌بندی:"
+
+#: qml/UpdateRatingsDialog.qml:45
+msgctxt "@action:button Update players ratings"
+msgid "Update"
+msgstr "به‌روزرسانی"
+
+#: qml/WelcomePage.qml:19
+msgctxt "@title"
+msgid "Welcome to Chessament"
+msgstr "به چسامنت خوش آمدید"
+
+#: qml/WelcomePage.qml:20
+msgctxt "@info"
+msgid "Chessament is a chess tournament manager"
+msgstr "چسامنت یک نرم‌افزار مدیریت مسابقات شطرنج است"
+
+#: searchplayersmodel.cpp:41
+#, kde-format
+msgctxt "%1 is the player's rating"
+msgid "Rating: %1"
+msgstr "رتبه: %1"
+
+#: searchplayersmodel.cpp:43
+#, kde-format
+msgctxt "%1 is the player's rating, %2 is the player's origin"
+msgid "Rating: %1 · %2"
+msgstr "رتبه: %1 · %2"
+
+#: settings/AccountsPage.qml:19
+msgctxt "@title"
+msgid "Accounts"
+msgstr "حساب‌ها"
+
+#: settings/AccountsPage.qml:22
+msgctxt "@title:group"
+msgid "Accounts"
+msgstr "حساب‌ها"
+
+#: settings/AccountsPage.qml:43
+msgctxt "@action:button"
+msgid "Logout"
+msgstr "خروج از حساب"
+
+#: settings/AccountsPage.qml:54
+msgctxt "@action:button"
+msgid "Add Account"
+msgstr "افزودن حساب"
+
+#: settings/AddAccountDialog.qml:16
+msgctxt "@title"
+msgid "Add Account"
+msgstr "افزودن حساب"
+
+#: settings/AddAccountDialog.qml:24
+msgctxt "@label:textbox"
+msgid "Server URL"
+msgstr "نشانی وب کارساز"
+
+#: settings/AddAccountDialog.qml:35
+msgctxt "@action:button"
+msgid "Continue"
+msgstr "ادامه"
+
+#: settings/AddRatingListDialog.qml:62
+msgctxt "@title:window"
+msgid "Importing Rating List"
+msgstr "در حال درون‌ریزی فهرست رتبه‌بندی"
+
+#: settings/AddRatingListDialog.qml:65
+msgctxt "@title:window"
+msgid "Rating List Imported"
+msgstr "فهرست رتبه‌بندی درون‌ریزی شد"
+
+#: settings/AddRatingListDialog.qml:67
+msgctxt "@title:window"
+msgid "Add Rating List"
+msgstr "افزودن فهرست رتبه‌بندی"
+
+#: settings/AddRatingListDialog.qml:86
+msgctxt "@label:listbox"
+msgid "All Supported Files (*.zip *.xls)"
+msgstr "همهٔ پرونده‌های پشتیبانی‌شده ‎(*.zip *.xls)‎"
+
+#: settings/AddRatingListDialog.qml:93
+msgctxt "@info:label"
+msgid "Name"
+msgstr "نام"
+
+#: settings/AddRatingListDialog.qml:98
+msgctxt "@info:label"
+msgid "Rating list file or URL"
+msgstr "پرونده یا نشانی وب فهرست رتبه‌بندی"
+
+#: settings/AddRatingListDialog.qml:101
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "انتخاب پرونده"
+
+#: settings/AddRatingListDialog.qml:143
+msgctxt "@action:button"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: settings/ChessamentConfigurationView.qml:19
+msgctxt "@action:button"
+msgid "General"
+msgstr "عمومی"
+
+#: settings/ChessamentConfigurationView.qml:25
+msgctxt "@action:button"
+msgid "Accounts"
+msgstr "حساب‌ها"
+
+#: settings/ChessamentConfigurationView.qml:32
+msgctxt "@action:button"
+msgid "Rating Lists"
+msgstr "فهرست‌های امتیازدهی"
+
+#: settings/DeleteRatingListDialog.qml:24
+msgctxt "@title"
+msgid "Delete Rating List"
+msgstr "حذف فهرست امتیازدهی"
+
+#: settings/DeleteRatingListDialog.qml:53
+msgctxt "@label"
+msgid "Permanently delete rating list “%1”?"
+msgstr "فهرست امتیازدهی «%1» برای همیشه حذف شود؟"
+
+#: settings/DeleteRatingListDialog.qml:62
+msgctxt "@action:button Delete Rating List"
+msgid "Delete"
+msgstr "حذف"
+
+#: settings/GeneralPage.qml:14
+msgctxt "@title"
+msgid "General"
+msgstr "عمومی"
+
+#: settings/GeneralPage.qml:17
+msgctxt "@title:group"
+msgid "General"
+msgstr "عمومی"
+
+#: settings/GeneralPage.qml:22
+msgctxt "@option:check"
+msgid "Automatically open exported PDF files"
+msgstr "باز کردن خودکار پرونده‌های PDF صادرشده"
+
+#: settings/GeneralPage.qml:32
+msgctxt "@title:group"
+msgid "Result Entry"
+msgstr "ورود نتیجه"
+
+#: settings/GeneralPage.qml:37
+msgctxt "@option:radio"
+msgid "Use 1-2-3 keys"
+msgstr "استفاده از کلیدهای ۱-۲-۳"
+
+#: settings/GeneralPage.qml:48
+msgctxt "@option:radio"
+msgid "Use 1-5-0 keys"
+msgstr "استفاده از کلیدهای ۱-۵-۰"
+
+#: settings/RatingListsPage.qml:19 settings/RatingListsPage.qml:22
+msgctxt "@title"
+msgid "Rating Lists"
+msgstr "فهرست‌های درجه‌بندی"
+
+#: settings/RatingListsPage.qml:27
+msgctxt "@info:status"
+msgid "No rating lists yet."
+msgstr "هنوز هیچ فهرست درجه‌بندی وجود ندارد."
+
+#: settings/RatingListsPage.qml:47
+msgctxt "@action:button"
+msgid "Delete Rating List"
+msgstr "حذف فهرست درجه‌بندی"
+
+#: settings/RatingListsPage.qml:59
+msgctxt "@action:button"
+msgid "Delete rating list"
+msgstr "حذف فهرست درجه‌بندی"
+
+#: settings/RatingListsPage.qml:69
+msgctxt "@action:button"
+msgid "Add rating list"
+msgstr "افزودن فهرست درجه‌بندی"
+
+#: standingsmodel.cpp:92
+#, kde-format
+msgctxt "@title:column Player Ranking"
+msgid "Rank"
+msgstr "رتبه"
+
+#: timecontrolmodel.cpp:38
+#, kde-format
+msgctxt "@info"
+msgid "The time control is Blitz."
+msgstr "کنترل زمان، برق‌آسا (بلیتز) است."
+
+#: timecontrolmodel.cpp:40
+#, kde-format
+msgctxt "@info"
+msgid "The time control is Rapid."
+msgstr "کنترل زمان، سریع (Rapid) است."
+
+#: timecontrolmodel.cpp:42
+#, kde-format
+msgctxt "@info"
+msgid "The time control is Classical."
+msgstr "کنترل زمان، کلاسیک (Classical) است."
+
+#: tournament/event.cpp:166 tournament/event.cpp:175
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The file is not a <application>Chessament</application> event."
+msgstr "پرونده، یک رویداد <application>Chessament</application> نیست."
+
+#: tournament/federations.h:175
+msgctxt "FIDE Federation"
+msgid "Scotland"
+msgstr "اسکاتلند"
+
+#: tournament/federations.h:203
+msgctxt "FIDE Federation"
+msgid "Chinese Taipei"
+msgstr "چین تایپه"
+
+#: tournament/federations.h:217
+msgctxt "FIDE Federation"
+msgid "Wales"
+msgstr "ولز"
+
+#: tournament/pairing.h:277 tournament/pairing.h:293 tournament/pairing.h:297
+#, kde-format
+msgctxt "@item Game result: draw"
+msgid "½"
+msgstr "½"
+
+#: tournament/pairing.h:281
+#, kde-format
+msgctxt "@item Game result: win by forfeit"
+msgid "+"
+msgstr "+"
+
+#: tournament/pairing.h:283
+#, kde-format
+msgctxt "@item Game result: lost by forfeit"
+msgid "-"
+msgstr "-"
+
+#: tournament/pairing.h:286
+#, kde-format
+msgctxt ""
+"@item Game result. %1 is the points obtained, but the game is unrated. The "
+"'U' is the initial for 'Unrated'"
+msgid "%1U"
+msgstr "%1U"
+
+#: tournament/pairing.h:290 tournament/pairing.h:294
+#, kde-format
+msgctxt ""
+"@item Game result: %1 is the points obtained, but the game is unrated. The "
+"'U' is the initial for 'Unrated'"
+msgid "%1U"
+msgstr "%1U"
+
+#: tournament/pairing.h:298 tournament/pairing.h:302 tournament/pairing.h:306
+#, kde-format
+msgctxt "@item Game result, %1 is the points awarded for the bye"
+msgid "Bye (%1)"
+msgstr "استراحت (%1)"
+
+#: tournament/pairing.h:309
+#, kde-format
+msgctxt "@item Game result: pairing-allocated bye. Keep it short"
+msgid "Bye (Pairing)"
+msgstr "استراحت (قرعه‌کشی)"
+
+#: tournament/pairingengine.cpp:28
+#, kde-format
+msgctxt "bbpPairings is the name of a program, should not be translated"
+msgid "The pairing engine bbpPairings could not be found. Is it installed?"
+msgstr "موتور قرعه‌کشی bbpPairings پیدا نشد. آیا نصب است؟"
+
+#: tournament/pairingengine.cpp:36
+#, kde-format
+msgid "Could not create temporary file."
+msgstr "پروندهٔ موقت ایجاد نشد."
+
+#: tournament/pairingengine.cpp:61
+#, kde-format
+msgctxt "@info"
+msgid "No valid pairing exists."
+msgstr "هیچ قرعه‌کشی معتبری وجود ندارد."
+
+#: tournament/pairingengine.cpp:64
+#, kde-format
+msgctxt "bbpPairings is the name of a program, should not be translated"
+msgid "bbpPairings terminated with a non zero exit code: %1"
+msgstr "برنامهٔ bbpPairings با کد خروج غیر صفر پایان یافت: %1"
+
+#: tournament/pairingengine.cpp:81 tournament/trf/reader.cpp:243
+#, kde-format
+msgid "Invalid pairing “%1”."
+msgstr "قرعه‌کشی نامعتبر «%1»."
+
+#: tournament/pairingengine.cpp:87 tournament/pairingengine.cpp:91
+#: tournament/pairingengine.cpp:95 tournament/pairingengine.cpp:99
+#: tournament/trf/reader.cpp:256
+#, kde-format
+msgid "Invalid player “%1” on pairing “%2”."
+msgstr "بازیکن نامعتبر «%1» در قرعه‌کشی «%2»."
+
+#: tournament/qml/AddTiebreakDialog.qml:22
+msgctxt "@title:window"
+msgid "Add Tiebreak"
+msgstr "افزودن گره‌گشایی"
+
+#: tournament/qml/SettingsCalendarPage.qml:17
+msgctxt "@title"
+msgid "Calendar"
+msgstr "تقویم"
+
+#: tournament/qml/SettingsCalendarPage.qml:32
+msgctxt "round number"
+msgid "Round %1"
+msgid_plural "Round %1"
+msgstr[0] "دور %1"
+msgstr[1] "دور %1"
+
+#: tournament/qml/SettingsDialog.qml:19
+msgctxt "@action:button"
+msgid "Information"
+msgstr "اطلاعات"
+
+#: tournament/qml/SettingsDialog.qml:30
+msgctxt "@action:button"
+msgid "Format"
+msgstr "قالب‌بندی"
+
+#: tournament/qml/SettingsDialog.qml:41
+msgctxt "@action:button"
+msgid "Calendar"
+msgstr "تقویم"
+
+#: tournament/qml/SettingsFormatPage.qml:20
+msgctxt "@title"
+msgid "Format"
+msgstr "قالب"
+
+#: tournament/qml/SettingsFormatPage.qml:23
+msgctxt "@title:group"
+msgid "Format"
+msgstr "قالب"
+
+#: tournament/qml/SettingsFormatPage.qml:27
+msgid "Swiss system"
+msgstr "سامانه سوئیسی"
+
+#: tournament/qml/SettingsFormatPage.qml:31
+msgid "Rounds"
+msgstr "دورها"
+
+#: tournament/qml/SettingsFormatPage.qml:49
+msgid "Pairing engine"
+msgstr "موتور قرعه‌کشی"
+
+#: tournament/qml/SettingsFormatPage.qml:50
+msgid "bbpPairings"
+msgstr "bbpPairings"
+
+#: tournament/qml/SettingsFormatPage.qml:56
+msgctxt "@title:group"
+msgid "Time Control"
+msgstr "کنترل زمان"
+
+#: tournament/qml/SettingsFormatPage.qml:60
+msgctxt "@action:button Add time control period"
+msgid "Add Period"
+msgstr "افزودن دوره"
+
+#: tournament/qml/SettingsFormatPage.qml:89
+msgctxt "@title:group"
+msgid "Tiebreaks"
+msgstr "پوئن‌شکنی‌ها"
+
+#: tournament/qml/SettingsFormatPage.qml:114
+msgctxt "@action:button"
+msgid "Add Tiebreak"
+msgstr "افزودن پوئن‌شکنی"
+
+#: tournament/qml/SettingsInformationPage.qml:19
+msgctxt "@title"
+msgid "Information"
+msgstr "اطلاعات"
+
+#: tournament/qml/SettingsInformationPage.qml:22
+msgctxt "@title:group"
+msgid "Basic details"
+msgstr "جزئیات پایه"
+
+#: tournament/qml/SettingsInformationPage.qml:27
+msgctxt "@label:textbox"
+msgid "Tournament name"
+msgstr "نام تورنمنت"
+
+#: tournament/qml/SettingsInformationPage.qml:36
+msgctxt "@label:textbox"
+msgid "City"
+msgstr "شهر"
+
+#: tournament/qml/SettingsInformationPage.qml:54
+msgctxt "@title:group"
+msgid "Arbiters"
+msgstr "داوران"
+
+#: tournament/qml/SettingsInformationPage.qml:58
+msgctxt "@action:button"
+msgid "Add Arbiter"
+msgstr "افزودن داور"
+
+#: tournament/qml/SettingsInformationPage.qml:65
+msgctxt "@info:status"
+msgid "No arbiters yet."
+msgstr "هنوز داوری وجود ندارد."
+
+#: tournament/qml/TiebreakDialog.qml:18
+msgctxt "@title:window"
+msgid "Edit Tiebreak"
+msgstr "ویرایش پوئن‌شکنی"
+
+#: tournament/ratinglists/ratinglistsmanager.cpp:191
+#: tournament/ratinglists/ratinglistsmanager.cpp:224
+#, kde-format
+msgctxt "@info"
+msgid "Could not open file."
+msgstr "پرونده باز نشد."
+
+#: tournament/ratinglists/ratinglistsmanager.cpp:207
+#, kde-format
+msgctxt "@info:progress"
+msgid "Imported one player."
+msgid_plural "Imported %1 players."
+msgstr[0] "یک بازیکن وارد شد."
+msgstr[1] "%1 بازیکن وارد شدند."
+
+#: tournament/ratinglists/ratinglistsmanager.cpp:219
+#, kde-format
+msgctxt "@info"
+msgid "Could not open file: the file does not exist."
+msgstr "پرونده باز نشد: پرونده وجود ندارد."
+
+#: tournament/ratinglists/ratinglistsmanager.cpp:240
+#, kde-format
+msgctxt "@info:progress"
+msgid "Downloading file…"
+msgstr "در حال بارگیری پرونده…"
+
+#: tournament/ratinglists/ratinglistsmanager.cpp:256
+#, kde-format
+msgctxt ""
+"@info:progress %1 & %2 are the file download progress (received / total), %3"
+" is the download percentage"
+msgid ""
+"Downloading file…\n"
+"%1 / %2 (%3%)"
+msgstr ""
+"در حال بارگیری پرونده…\n"
+"%1 / %2 (%3٪)"
+
+#: tournament/ratinglists/ratinglistsmanager.cpp:268
+#, kde-format
+msgctxt "@info"
+msgid "Could not download rating list: %1"
+msgstr "فهرست درجه‌بندی بارگیری نشد: %1"
+
+#: tournament/ratinglists/ratinglistsmanager.cpp:280
+#, kde-format
+msgctxt "@info"
+msgid "Could not download rating list from %1 (unsupported protocol)."
+msgstr "فهرست درجه‌بندی از %1 بارگیری نشد (پروتکل پشتیبانی‌نشده)."
+
+#: tournament/ratinglists/ratinglistsmanager.cpp:293
+#, kde-format
+msgctxt "@info"
+msgid "Could not extract file."
+msgstr "استخراج پرونده ممکن نشد."
+
+#: tournament/ratinglists/ratinglistsmanager.cpp:298
+#: tournament/ratinglists/ratinglistsmanager.cpp:303
+#: tournament/ratinglists/ratinglistsmanager.cpp:321
+#, kde-format
+msgctxt "@info"
+msgid "File format not supported."
+msgstr "قالب پرونده پشتیبانی نمی‌شود."
+
+#: tournament/ratinglists/ratinglistsmanager.cpp:510
+#, kde-format
+msgctxt "@info:progress"
+msgid "Saved 1 player."
+msgid_plural "Saved %1 players."
+msgstr[0] "۱ بازیکن ذخیره شد."
+msgstr[1] "%1 بازیکن ذخیره شدند."
+
+#: tournament/tiebreaks/aob.h:23 tournament/tournament.cpp:535
+#, kde-format
+msgctxt "Tiebreak"
+msgid "Average Buchholz of Opponents"
+msgstr "میانگین بوخ‌هولتز حریفان"
+
+#: tournament/tiebreaks/buchholz.h:25 tournament/tournament.cpp:511
+#, kde-format
+msgctxt "Buchholz tiebreak"
+msgid "Buchholz"
+msgstr "بوخ‌هولتز"
+
+#: tournament/tiebreaks/buchholz.h:27
+#, kde-format
+msgctxt "Buchholz N tiebreak, N is a number < 0"
+msgid "Buchholz %1"
+msgid_plural "Buchholz %1"
+msgstr[0] "بوخ‌هولتز %1"
+msgstr[1] "بوخ‌هولتز %1"
+
+#: tournament/tiebreaks/bwg.h:22 tournament/tournament.cpp:531
+#, kde-format
+msgctxt "Tiebreak"
+msgid "Number of Games Won with Black (over the board)"
+msgstr "تعداد بازی‌های برده با مهره سیاه (حضوری)"
+
+#: tournament/tiebreaks/dummy.h:23
+#, kde-format
+msgctxt "@info"
+msgid "Unsupported tiebreak"
+msgstr "پوئن‌شکنی پشتیبانی‌نشده"
+
+#: tournament/tiebreaks/numberwins.h:22 tournament/tournament.cpp:515
+#, kde-format
+msgctxt "Number of Wins tiebreak"
+msgid "Number of Wins"
+msgstr "تعداد بردها"
+
+#: tournament/tiebreaks/playedblack.h:22 tournament/tournament.cpp:527
+#, kde-format
+msgctxt "Number of Games Played with Black (over the board) tiebreak"
+msgid "Number of Games Played with Black (over the board)"
+msgstr "تعداد بازی‌های انجام‌شده با مهره سیاه (حضوری)"
+
+#: tournament/tiebreaks/points.h:22 tournament/tiebreaks/points.h:27
+#: tournament/tournament.cpp:507
+#, kde-format
+msgctxt "Game points"
+msgid "Points"
+msgstr "امتیازها"
+
+#: tournament/tiebreaks/progressive.h:22 tournament/tournament.cpp:539
+#, kde-format
+msgctxt "Progressive Scores tiebreak"
+msgid "Progressive"
+msgstr "پیش‌رونده"
+
+#: tournament/tiebreaks/rep.h:22 tournament/tournament.cpp:547
+#, kde-format
+msgctxt "Tiebreak"
+msgid "Rounds one Elected to Play"
+msgstr "دورهای انتخابی برای بازی"
+
+#: tournament/tiebreaks/sb.cpp:15
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Exclude the lowest scores:"
+msgstr "مستثنی کردن کمترین امتیازها:"
+
+#: tournament/tiebreaks/sb.cpp:36
+#, kde-format
+msgctxt "@info"
+msgid "Unsupported tiebreak option “%1”"
+msgstr "گزینهٔ گره‌گشایی پشتیبانی‌نشده «%1»"
+
+#: tournament/tiebreaks/sb.h:58 tournament/tournament.cpp:543
+#, kde-format
+msgctxt "Tiebreak"
+msgid "Sonneborn-Berger"
+msgstr "سون‌بورن-برگر"
+
+#: tournament/tiebreaks/sb.h:60
+#, kde-format
+msgctxt "Tiebreak modifier, N is a number < 0"
+msgid "Sonneborn-Berger %1"
+msgid_plural "Sonneborn-Berger %1"
+msgstr[0] "سون‌بورن-برگر %1"
+msgstr[1] "سون‌بورن-برگر %1"
+
+#: tournament/tiebreaks/won.h:23 tournament/tournament.cpp:522
+#, kde-format
+msgctxt ""
+"Number of Games Won (over the board) tiebreak. Different from the 'Number of"
+" Wins' tiebreak, which includes games won by forfeit."
+msgid "Number of Games Won (over the board)"
+msgstr "تعداد بازی‌های برده (روی صفحه)"
+
+#: tournament/tournament.cpp:972
+#, kde-format
+msgid "An error ocurred while pairing the round: %1"
+msgstr "هنگام جفت‌سازی این دور خطایی رخ داد: %1"
+
+#: tournament/tournament.cpp:1197
+#, kde-format
+msgid "Couldn’t open file"
+msgstr "پرونده باز نشد"
+
+#: tournament/trf/reader.cpp:54 tournament/trf/reader.cpp:61
+#, kde-format
+msgid "Player “%1” not found."
+msgstr "بازیکن «%1» پیدا نشد."
+
+#: tournament/trf/reader.cpp:67
+#, kde-format
+msgid "Unknown result on pairing “%1” with “%2”."
+msgstr "نتیجهٔ جفت‌سازی «%1» با «%2» ناشناخته است."
+
+#: tournament/trf/reader.cpp:189
+#, kde-format
+msgctxt "@info"
+msgid "Date “%1” is invalid."
+msgstr "تاریخ «%1» نامعتبر است."
+
+#: tournament/trf/reader.cpp:263
+#, kde-format
+msgid "Unknown result “%1” on pairing “%2”."
+msgstr "نتیجهٔ ناشناختهٔ «%1» در جفت‌سازی «%2»."
+
+#: tournament/trf/reader.cpp:266
+#, kde-format
+msgid "Pairing “%1” has no opponent."
+msgstr "جفت‌سازی «%1» حریفی ندارد."

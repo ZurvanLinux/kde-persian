@@ -1,0 +1,1381 @@
+# translation of karm.po to Persian
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: karm\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-02-27 00:45+0000\n"
+"PO-Revision-Date: 2026-10-16 00:48+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: base/idletimedetector.cpp:58
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Apply the idle time since %1 to all active\n"
+"timers and keep them running."
+msgstr ""
+"اعمال زمان بی‌کاری از %1 به تمام زمان‌سنج‌های\n"
+"فعال و ادامهٔ کار آن‌ها."
+
+#: base/idletimedetector.cpp:61
+#, kde-format
+msgctxt "@action:button"
+msgid "Continue Timing"
+msgstr "ادامهٔ زمان‌بندی"
+
+#: base/idletimedetector.cpp:63
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Stop timing and revert back to the time at %1"
+msgstr "توقف زمان‌بندی و بازگشت به زمان در %1"
+
+#: base/idletimedetector.cpp:64
+#, kde-format
+msgctxt "@action:button"
+msgid "Revert Timing"
+msgstr "بازگردانی زمان‌بندی"
+
+#: base/idletimedetector.cpp:67
+#, kde-format
+msgid "Desktop has been idle since %1. What do you want to do?"
+msgstr "میزکار از %1 بی‌کار بوده است. می‌خواهید چه کار کنید؟"
+
+#: base/mainwindow.cpp:37
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure KTimeTracker..."
+msgstr "پیکربندی KTimeTracker..."
+
+#: base/mainwindow.cpp:134 base/tray.cpp:74
+#, kde-format
+msgid "No active tasks"
+msgstr "بدون تکلیف فعال"
+
+#: base/mainwindow.cpp:144 base/tray.cpp:94
+#, kde-format
+msgctxt "separator between task names"
+msgid ", "
+msgstr "، "
+
+#: base/taskview.cpp:102
+#, kde-format
+msgid ""
+"Error storing new task. Your changes were not saved. Make sure you can edit "
+"your iCalendar file. Also quit all applications using this file and remove "
+"any lock file related to its name from ~/.kde/share/apps/kabc/lock/ "
+msgstr ""
+"خطا در ذخیرهٔ کار جدید. تغییرات شما ذخیره نشدند. مطمئن شوید که می‌توانید "
+"پروندهٔ iCalendar خود را ویرایش کنید. همچنین از تمام برنامه‌هایی که از این "
+"پرونده استفاده می‌کنند خارج شوید و هر پروندهٔ قفل مرتبط با نام آن را از "
+"‎~/.kde/share/apps/kabc/lock/‎ حذف کنید "
+
+#: base/taskview.cpp:197
+#, kde-format
+msgid ""
+"Your virtual desktop number is too high, desktop tracking will not work."
+msgstr "شمارهٔ میزکار مجازی شما بسیار بزرگ است، ردگیری میزکار کار نخواهد کرد."
+
+#: base/taskview.cpp:273
+#, kde-format
+msgctxt "@info:progress"
+msgid "Stopping timers..."
+msgstr "در حال توقف زمان‌سنج‌ها..."
+
+#: base/taskview.cpp:273
+#, kde-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: base/taskview.cpp:339 base/taskview.cpp:415
+#, kde-format
+msgid "Unnamed Task"
+msgstr "کار بی‌نام"
+
+#: base/taskview.cpp:358
+#, kde-format
+msgid ""
+"Error storing new task. Your changes were not saved. Make sure you can edit "
+"your iCalendar file. Also quit all applications using this file and remove "
+"any lock file related to its name from ~/.kde/share/apps/kabc/lock/"
+msgstr ""
+"خطا در ذخیرهٔ کار جدید. تغییرات شما ذخیره نشدند. مطمئن شوید که می‌توانید "
+"پروندهٔ iCalendar خود را ویرایش کنید. همچنین از تمام برنامه‌هایی که از این "
+"پرونده استفاده می‌کنند خارج شوید و هر پروندهٔ قفل مرتبط با نام آن را از "
+"‎~/.kde/share/apps/kabc/lock/‎ حذف کنید"
+
+#: base/taskview.cpp:395
+#, kde-format
+msgctxt "@title:window"
+msgid "New Sub Task"
+msgstr "زیرکار جدید"
+
+#: base/taskview.cpp:413
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Task"
+msgstr "ویرایش کار"
+
+#: base/taskview.cpp:444 base/taskview.cpp:485 base/taskview.cpp:507
+#, kde-format
+msgid "No task selected."
+msgstr "هیچ کاری انتخاب نشده است."
+
+#: base/taskview.cpp:490
+#, kde-format
+msgid ""
+"Are you sure you want to delete the selected task and its entire history?\n"
+"Note: All subtasks and their history will also be deleted."
+msgstr ""
+"آیا از حذف کار انتخاب‌شده و تمام سابقهٔ آن مطمئن هستید؟\n"
+"نکته: تمام زیرکارها و سابقهٔ آن‌ها نیز حذف خواهند شد."
+
+#: base/taskview.cpp:494
+#, kde-format
+msgctxt "@title:window"
+msgid "Deleting Task"
+msgstr "در حال حذف وظیفه"
+
+#: base/timetrackerstorage.cpp:126
+#, kde-format
+msgid "Error loading \"%1\": could not find parent (uid=%2)"
+msgstr "خطا در بارگذاری «%1»: والد پیدا نشد (uid=%2)"
+
+#: base/timetrackerstorage.cpp:229
+#, kde-format
+msgctxt "%1=lock file path"
+msgid "Could not write lock file \"%1\". Disk full?"
+msgstr "نوشتن پروندهٔ قفل «%1» ممکن نشد. دیسک پر است؟"
+
+#: base/timetrackerstorage.cpp:236
+#, kde-format
+msgctxt "%1=destination file path/URL"
+msgid "Failed to save iCalendar file as \"%1\"."
+msgstr "ذخیرهٔ پروندهٔ iCalendar با نام «%1» شکست خورد."
+
+#: base/timetrackerwidget.cpp:138
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Start &New Session"
+msgstr "شروع نشست جدید"
+
+#: base/timetrackerwidget.cpp:139
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Starts a new session"
+msgstr "یک نشست جدید را آغاز می‌کند"
+
+#: base/timetrackerwidget.cpp:141
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This will reset the session time to 0 for all tasks, to start a new session,"
+" without affecting the totals."
+msgstr ""
+"این کار زمان نشست را برای همهٔ وظایف جهت شروع یک نشست جدید به ۰ بازنشانی "
+"می‌کند، بدون این‌که بر مجموع‌ها تأثیر بگذارد."
+
+#: base/timetrackerwidget.cpp:149
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit History..."
+msgstr "ویرایش تاریخچه..."
+
+#: base/timetrackerwidget.cpp:150
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edits history of all tasks of the current document"
+msgstr "تاریخچهٔ همهٔ وظایف سند کنونی را ویرایش می‌کند"
+
+#: base/timetrackerwidget.cpp:152
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"A window will be opened where you can change start and stop times of tasks "
+"or add a comment to them."
+msgstr ""
+"پنجره‌ای باز خواهد شد که در آن می‌توانید زمان‌های شروع و توقف وظایف را تغییر"
+" دهید یا به آن‌ها نظر اضافه کنید."
+
+#: base/timetrackerwidget.cpp:162
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Reset All Times"
+msgstr "بازنشانی همهٔ زمان‌ها"
+
+#: base/timetrackerwidget.cpp:163
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Resets all times"
+msgstr "همهٔ زمان‌ها را بازنشانی می‌کند"
+
+#: base/timetrackerwidget.cpp:165
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This will reset the session and total time to 0 for all tasks, to restart "
+"from scratch."
+msgstr ""
+"با این کار، زمان نشست و زمان کل برای همهٔ وظایف به ۰ بازنشانی می‌شود تا کار "
+"از ابتدا شروع شود."
+
+#: base/timetrackerwidget.cpp:172
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Start"
+msgstr "شروع"
+
+#: base/timetrackerwidget.cpp:173
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Starts timing for selected task"
+msgstr "زمان‌بندی را برای وظیفهٔ انتخاب‌شده آغاز می‌کند"
+
+#: base/timetrackerwidget.cpp:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This will start timing for the selected task.\n"
+"It is even possible to time several tasks simultaneously.\n"
+"\n"
+"You may also start timing of tasks by double clicking the left mouse button on a given task. This will, however, stop timing of other tasks."
+msgstr ""
+"با این کار زمان‌بندی برای وظیفهٔ انتخاب‌شده شروع می‌شود.\n"
+"حتی زمان‌بندی هم‌زمان چند وظیفه نیز امکان‌پذیر است.\n"
+"\n"
+"همچنین می‌توانید با دوبار کلیک دکمهٔ چپ موش بر روی یک وظیفه، زمان‌بندی آن را شروع کنید. البته، این کار باعث توقف زمان‌بندی سایر وظایف خواهد شد."
+
+#: base/timetrackerwidget.cpp:189
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "S&top"
+msgstr "توقف"
+
+#: base/timetrackerwidget.cpp:190
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Stops timing of the selected task"
+msgstr "زمان‌بندی وظیفهٔ انتخاب‌شده را متوقف می‌کند"
+
+#: base/timetrackerwidget.cpp:191
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Stops timing of the selected task"
+msgstr "زمان‌بندی وظیفهٔ انتخاب‌شده را متوقف می‌کند"
+
+#: base/timetrackerwidget.cpp:198
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Focus on Searchbar"
+msgstr "تمرکز روی نوار جست‌وجو"
+
+#: base/timetrackerwidget.cpp:199
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Sets the focus on the searchbar"
+msgstr "تنظیم تمرکز روی نوار جستجو"
+
+#: base/timetrackerwidget.cpp:200
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Sets the focus on the searchbar"
+msgstr "تنظیم تمرکز روی نوار جستجو"
+
+#: base/timetrackerwidget.cpp:207
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Stop &All Timers"
+msgstr "توقف همهٔ زمان‌سنج‌ها"
+
+#: base/timetrackerwidget.cpp:208
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Stops all of the active timers"
+msgstr "همهٔ زمان‌سنج‌های فعال را متوقف می‌کند"
+
+#: base/timetrackerwidget.cpp:209
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Stops all of the active timers"
+msgstr "همهٔ زمان‌سنج‌های فعال را متوقف می‌کند"
+
+#: base/timetrackerwidget.cpp:217
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Track Active Applications"
+msgstr "ردیابی برنامه‌های فعال"
+
+#: base/timetrackerwidget.cpp:219
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Auto-creates and updates tasks when the focus of the current window has "
+"changed"
+msgstr "ایجاد و به‌روزرسانی خودکار وظایف هنگام تغییر تمرکز پنجرهٔ فعلی"
+
+#: base/timetrackerwidget.cpp:222
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If the focus of a window changes for the first time when this action is "
+"enabled, a new task will be created with the title of the window as its name"
+" and will be started. If there already exists such an task it will be "
+"started."
+msgstr ""
+"اگر هنگام فعال بودن این کنش، تمرکز پنجره‌ای برای اولین بار تغییر کند، وظیفهٔ"
+" جدیدی با عنوان پنجره به عنوان نام آن ایجاد و شروع می‌شود. اگر چنین وظیفه‌ای"
+" از قبل وجود داشته باشد، شروع خواهد شد."
+
+#: base/timetrackerwidget.cpp:233
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&New Task..."
+msgstr "وظیفهٔ جدید..."
+
+#: base/timetrackerwidget.cpp:234
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Creates new top level task"
+msgstr "یک وظیفهٔ سطح بالای جدید ایجاد می‌کند"
+
+#: base/timetrackerwidget.cpp:235
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This will create a new top level task."
+msgstr "این کار یک تکلیف سطح بالای جدید ایجاد می‌کند."
+
+#: base/timetrackerwidget.cpp:243
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New &Subtask..."
+msgstr "زیرتکلیف جدید..."
+
+#: base/timetrackerwidget.cpp:244
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Creates a new subtask to the current selected task"
+msgstr "یک زیرتکلیف جدید برای تکلیف انتخاب‌شدهٔ کنونی ایجاد می‌کند"
+
+#: base/timetrackerwidget.cpp:245
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This will create a new subtask to the current selected task."
+msgstr "این کار یک زیرتکلیف جدید برای تکلیف انتخاب‌شدهٔ کنونی ایجاد می‌کند."
+
+#: base/timetrackerwidget.cpp:253
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "حذف"
+
+#: base/timetrackerwidget.cpp:254
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Deletes selected task"
+msgstr "تکلیف انتخاب‌شده را حذف می‌کند"
+
+#: base/timetrackerwidget.cpp:255
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This will delete the selected task(s) and all subtasks."
+msgstr ""
+"این کار تکلیف(های) انتخاب‌شده و تمام زیرتکلیف‌های آن‌ها را حذف می‌کند."
+
+#: base/timetrackerwidget.cpp:263
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Properties"
+msgstr "ویژگی‌ها"
+
+#: base/timetrackerwidget.cpp:264
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit name or description for selected task"
+msgstr "ویرایش نام یا توضیحات تکلیف انتخاب‌شده"
+
+#: base/timetrackerwidget.cpp:266
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This will bring up a dialog box where you may edit the parameters for the "
+"selected task."
+msgstr ""
+"این کار کادر محاوره‌ای را باز می‌کند که در آن می‌توانید پارامترهای تکلیف "
+"انتخاب‌شده را ویرایش کنید."
+
+#: base/timetrackerwidget.cpp:275
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit &Time..."
+msgstr "ویرایش زمان..."
+
+#: base/timetrackerwidget.cpp:276
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit time for selected task"
+msgstr "ویرایش زمان برای تکلیف انتخاب‌شده"
+
+#: base/timetrackerwidget.cpp:278
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This will bring up a dialog box where you may edit the times for the "
+"selected task."
+msgstr ""
+"کادر محاوره‌ای باز خواهد شد که می‌توانید در آن زمان‌های تکلیف انتخاب‌شده را "
+"ویرایش کنید."
+
+#: base/timetrackerwidget.cpp:287
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Mark as Complete"
+msgstr "علامت‌گذاری به‌عنوان کامل"
+
+#: base/timetrackerwidget.cpp:295
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Mark as Incomplete"
+msgstr "علامت‌گذاری به‌عنوان ناکامل"
+
+#: base/timetrackerwidget.cpp:303
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Export..."
+msgstr "برون‌ریزی..."
+
+#: base/timetrackerwidget.cpp:310
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Import Tasks From &Planner..."
+msgstr "درون‌ریزی تکلیف‌ها از Planner..."
+
+#: base/timetrackerwidget.cpp:322
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Searchbar"
+msgstr "نمایش نوار جست‌وجو"
+
+#: base/timetrackerwidget.cpp:450
+#, kde-format
+msgctxt "@title:tab"
+msgid "Behavior"
+msgstr "رفتار"
+
+#: base/timetrackerwidget.cpp:453
+#, kde-format
+msgctxt "@title:tab"
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: base/timetrackerwidget.cpp:456
+#, kde-format
+msgctxt "@title:tab"
+msgid "Storage"
+msgstr "فضای ذخیره‌سازی"
+
+#: base/timetrackerwidget.cpp:492
+#, kde-format
+msgctxt "@title:window"
+msgid "New Task"
+msgstr "تکلیف جدید"
+
+#: base/timetrackerwidget.cpp:569
+#, kde-format
+msgctxt "@info in message box"
+msgid ""
+"There is no history yet. Start and stop a task and you will have an entry in"
+" your history."
+msgstr ""
+"هنوز هیچ تاریخچه‌ای وجود ندارد. یک تکلیف را شروع و متوقف کنید تا مدخلی در "
+"تاریخچه داشته باشید."
+
+#: base/timetrackerwidget.cpp:579
+#, kde-format
+msgid ""
+"Do you really want to reset the time to zero for all tasks? This will delete"
+" the entire history."
+msgstr ""
+"آیا واقعاً می‌خواهید زمان را برای همهٔ تکلیف‌ها به صفر بازنشانی کنید؟ این "
+"کار تمام تاریخچه را حذف خواهد کرد."
+
+#: base/timetrackerwidget.cpp:581
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirmation Required"
+msgstr "تأیید لازم است"
+
+#: base/timetrackerwidget.cpp:582
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset All Times"
+msgstr "بازنشانی همهٔ زمان‌ها"
+
+#: base/timetrackerwidget.cpp:770
+#, kde-format
+msgid "Save failed, most likely because the file could not be locked."
+msgstr ""
+"ذخیره‌سازی ناموفق بود، احتمالاً به این دلیل که قفل کردن پرونده امکان‌پذیر "
+"نبود."
+
+#: base/timetrackerwidget.cpp:772
+#, kde-format
+msgid "Could not modify calendar resource."
+msgstr "تغییر منبع تقویم امکان‌پذیر نبود."
+
+#: base/timetrackerwidget.cpp:774
+#, kde-format
+msgid "Out of memory--could not create object."
+msgstr "کمبود حافظه--ایجاد شیء امکان‌پذیر نبود."
+
+#: base/timetrackerwidget.cpp:776
+#, kde-format
+msgid "UID not found."
+msgstr "شناسهٔ کاربر (UID) پیدا نشد."
+
+#: base/timetrackerwidget.cpp:778
+#, kde-format
+msgid "Invalidate date--format is YYYY-MM-DD."
+msgstr "تاریخ نامعتبر است--قالب YYYY-MM-DD است."
+
+#: base/timetrackerwidget.cpp:780
+#, kde-format
+msgid "Invalid time--format is YYYY-MM-DDTHH:MM:SS."
+msgstr "زمان نامعتبر است--قالب YYYY-MM-DDTHH:MM:SS است."
+
+#: base/timetrackerwidget.cpp:782
+#, kde-format
+msgid "Invalid task duration--must be greater than zero."
+msgstr "مدت‌زمان کار نامعتبر است--باید بیشتر از صفر باشد."
+
+#: base/timetrackerwidget.cpp:784
+#, kde-format
+msgid "Invalid error number: %1"
+msgstr "شماره خطای نامعتبر: %1"
+
+#: base/timetrackerwidget.cpp:1008
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This is ktimetracker, KDE's program to help you track your time. Best, start"
+" with creating your first task - enter it into the field where you see "
+"\"Search or add task\"."
+msgstr ""
+"این ktimetracker است، برنامه‌ای از KDE برای کمک به پیگیری زمان شما. بهتر است"
+" با ایجاد اولین کار خود شروع کنید - آن را در فیلدی که «جستجو یا افزودن کار» "
+"را می‌بینید وارد کنید."
+
+#: base/timetrackerwidget.cpp:1015
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "You have already created a task. You can now start and stop timing."
+msgstr ""
+"شما قبلاً یک کار ایجاد کرده‌اید. اکنون می‌توانید زمان‌سنجی را شروع و متوقف "
+"کنید."
+
+#: base/tray.cpp:79
+#, kde-format
+msgctxt "ellipsis to truncate long list of tasks"
+msgid ", ..."
+msgstr "، ..."
+
+#: base/treeviewheadercontextmenu.cpp:28
+#, kde-format
+msgctxt "@title:menu"
+msgid "Columns"
+msgstr "ستون‌ها"
+
+#: dialogs/edittimedialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Task Time"
+msgstr "ویرایش زمان کار"
+
+#: dialogs/edittimedialog.cpp:36 dialogs/taskpropertiesdialog.cpp:42
+#, kde-format
+msgctxt "@title:group"
+msgid "Task"
+msgstr "کار"
+
+#: dialogs/edittimedialog.cpp:47 dialogs/taskpropertiesdialog.cpp:51
+#, kde-format
+msgid "Task Name:"
+msgstr "نام کار:"
+
+#: dialogs/edittimedialog.cpp:54 dialogs/taskpropertiesdialog.cpp:56
+#, kde-format
+msgid "Task Description:"
+msgstr "توضیحات کار:"
+
+#: dialogs/edittimedialog.cpp:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Time Editing"
+msgstr "ویرایش زمان"
+
+#: dialogs/edittimedialog.cpp:65
+#, kde-format
+msgid "Current Time:"
+msgstr "زمان کنونی:"
+
+#: dialogs/edittimedialog.cpp:68
+#, kde-format
+msgctxt "@item:valuesuffix Change Time By: ... minute(s)"
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " دقیقه"
+msgstr[1] " دقیقه"
+
+#: dialogs/edittimedialog.cpp:74
+#, kde-format
+msgid "Change Time By:"
+msgstr "تغییر زمان به میزان:"
+
+#: dialogs/edittimedialog.cpp:78
+#, kde-format
+msgid "Time After Change:"
+msgstr "زمان پس از تغییر:"
+
+#: dialogs/edittimedialog.cpp:83
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit History..."
+msgstr "ویرایش تاریخچه..."
+
+#: dialogs/edittimedialog.cpp:84
+#, kde-format
+msgid "To change this task's time, you have to edit its event history"
+msgstr "برای تغییر زمان این کار، باید تاریخچهٔ رویداد آن را ویرایش کنید"
+
+#: dialogs/exportdialog.cpp:79
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to File"
+msgstr "برون‌ریزی به پرونده"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
+#: dialogs/exportdialog.cpp:98 dialogs/exportdialog.ui:184
+#, kde-format
+msgctxt "format to display times"
+msgid "Decimal"
+msgstr "اعشاری"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combosessiontimes)
+#: dialogs/exportdialog.cpp:118 dialogs/exportdialog.ui:203
+#, kde-format
+msgid "Session Times"
+msgstr "زمان‌های نشست"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboalltasks)
+#: dialogs/exportdialog.cpp:119 dialogs/exportdialog.ui:212
+#, kde-format
+msgid "All Tasks"
+msgstr "همهٔ کارها"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ExportDialog)
+#: dialogs/exportdialog.ui:21
+#, kde-format
+msgid "Export"
+msgstr "برون‌ریزی"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpPreview)
+#: dialogs/exportdialog.ui:33
+#, kde-format
+msgid "Export Preview"
+msgstr "پیش‌نمایش برون‌ریزی"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnToClipboard)
+#: dialogs/exportdialog.ui:57
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "رونوشت در تخته‌گیره"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnSaveAs)
+#: dialogs/exportdialog.ui:67
+#, kde-format
+msgid "Save As..."
+msgstr "ذخیره به نام…"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpReportType)
+#: dialogs/exportdialog.ui:82
+#, kde-format
+msgid "Report Type"
+msgstr "نوع گزارش"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioTimesCsv)
+#: dialogs/exportdialog.ui:88
+#, kde-format
+msgid "Times as CSV"
+msgstr "زمان‌ها به‌صورت CSV"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioHistoryCsv)
+#: dialogs/exportdialog.ui:98
+#, kde-format
+msgid "History as CSV"
+msgstr "تاریخچه به‌صورت CSV"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioEventLogCsv)
+#: dialogs/exportdialog.ui:105
+#, kde-format
+msgid "Event Log as CSV"
+msgstr "گزارش رویداد به‌صورت CSV"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioTimesText)
+#: dialogs/exportdialog.ui:112
+#, kde-format
+msgid "Times as Text"
+msgstr "زمان‌ها به‌صورت متن"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, grpDateRange)
+#: dialogs/exportdialog.ui:125
+#, kde-format
+msgid ""
+"An inclusive date range for reporting on time card history.  Not enabled "
+"when reporting on totals."
+msgstr ""
+"محدوده تاریخی فراگیر برای گزارش‌گیری از تاریخچه کارت ساعت. هنگام گزارش‌گیری "
+"از مجموع‌ها فعال نیست."
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpDateRange)
+#: dialogs/exportdialog.ui:128
+#, kde-format
+msgid "Date Range"
+msgstr "محدوده تاریخ"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: dialogs/exportdialog.ui:134
+#, kde-format
+msgid "From:"
+msgstr "از:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: dialogs/exportdialog.ui:157
+#, kde-format
+msgid "To:"
+msgstr "تا:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
+#: dialogs/exportdialog.ui:189
+#, kde-format
+msgid "Hours:Minutes"
+msgstr "ساعت:دقیقه"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combosessiontimes)
+#: dialogs/exportdialog.ui:198
+#, kde-format
+msgid "All Times"
+msgstr "همه زمان‌ها"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboalltasks)
+#: dialogs/exportdialog.ui:217
+#, kde-format
+msgid "Only Selected"
+msgstr "فقط موارد انتخاب‌شده"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, grpDelimiter)
+#: dialogs/exportdialog.ui:231
+#, kde-format
+msgid "The character used to separate one field from another in the output."
+msgstr "نویسه مورد استفاده برای جداسازی فیلدها از یکدیگر در خروجی."
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpDelimiter)
+#: dialogs/exportdialog.ui:234
+#, kde-format
+msgid "Delimiter"
+msgstr "جداکننده"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioComma)
+#: dialogs/exportdialog.ui:240
+#, kde-format
+msgid "Comma"
+msgstr "کاما"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioSemicolon)
+#: dialogs/exportdialog.ui:250
+#, kde-format
+msgid "Semicolon"
+msgstr "نقطه‌ویرگول"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioOther)
+#: dialogs/exportdialog.ui:257
+#, kde-format
+msgctxt "user can set an user defined delimiter"
+msgid "Other:"
+msgstr "غیره:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioTab)
+#: dialogs/exportdialog.ui:264
+#, kde-format
+msgctxt "tabulator delimiter"
+msgid "Tab"
+msgstr "تب"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioSpace)
+#: dialogs/exportdialog.ui:271
+#, kde-format
+msgid "Space"
+msgstr "فاصله"
+
+#. i18n: ectx: property (text), widget (QLabel, quotesLabel)
+#: dialogs/exportdialog.ui:315
+#, kde-format
+msgid "Quotes:"
+msgstr "علامت‌های نقل‌قول:"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, cboQuote)
+#: dialogs/exportdialog.ui:334
+#, kde-format
+msgid "All fields are quoted in the output."
+msgstr "همهٔ فیلدها در خروجی داخل نقل‌قول قرار می‌گیرند."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboQuote)
+#: dialogs/exportdialog.ui:338
+#, kde-format
+msgid "\""
+msgstr "\""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboQuote)
+#: dialogs/exportdialog.ui:343
+#, kde-format
+msgid "'"
+msgstr "'"
+
+#: dialogs/historydialog.cpp:87 export/totalsastext.cpp:70
+#, kde-format
+msgid "Task"
+msgstr "تکلیف"
+
+#: dialogs/historydialog.cpp:87
+#, kde-format
+msgid "StartTime"
+msgstr "زمان شروع"
+
+#: dialogs/historydialog.cpp:87
+#, kde-format
+msgid "EndTime"
+msgstr "زمان پایان"
+
+#: dialogs/historydialog.cpp:87
+#, kde-format
+msgid "Comment"
+msgstr "توضیح"
+
+#: dialogs/historydialog.cpp:128
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "You can change this task's comment, start time and end time."
+msgstr "می‌توانید نظر، زمان شروع و زمان پایان این تکلیف را تغییر دهید."
+
+#: dialogs/historydialog.cpp:179 dialogs/historydialog.cpp:199
+#, kde-format
+msgid "This is not a valid Date/Time."
+msgstr "این یک تاریخ/زمان معتبر نیست."
+
+#: dialogs/historydialog.cpp:255
+#, kde-format
+msgid "Please select a task to delete."
+msgstr "لطفاً تکلیفی را برای حذف انتخاب کنید."
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, HistoryDialog)
+#: dialogs/historydialog.ui:21
+#, kde-format
+msgid "Edit History"
+msgstr "ویرایش تاریخچه"
+
+#: dialogs/taskpropertiesdialog.cpp:48
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<p>Enter the name of the task here. You can choose it freely.</p>\n"
+"<p><i>Example:</i> phone with mother</p>"
+msgstr ""
+"<p>نام تکلیف را اینجا وارد کنید. می‌توانید آن را آزادانه انتخاب کنید.</p>\n"
+"<p><i>مثال:</i> تماس تلفنی با مادر</p>"
+
+#: dialogs/taskpropertiesdialog.cpp:59
+#, kde-format
+msgctxt "@title:group"
+msgid "Auto Tracking"
+msgstr "ردیابی خودکار"
+
+#: dialogs/taskpropertiesdialog.cpp:86
+#, kde-format
+msgctxt "order number of desktop: 1, 2, ..."
+msgid "%1."
+msgstr "%1."
+
+#: export/export.cpp:49
+#, kde-format
+msgid "Could not open \"%1\"."
+msgstr "«%1» باز نشد."
+
+#: export/totalsastext.cpp:67
+#, kde-format
+msgid "Task Totals"
+msgstr "مجموع وظایف"
+
+#: export/totalsastext.cpp:70
+#, kde-format
+msgid "Time"
+msgstr "زمان"
+
+#: export/totalsastext.cpp:101
+#, kde-format
+msgctxt "total time of all tasks"
+msgid "Total"
+msgstr "مجموع"
+
+#: export/totalsastext.cpp:103
+#, kde-format
+msgid "No tasks."
+msgstr "بدون وظیفه."
+
+#. i18n: ectx: Menu (clock)
+#: ktimetrackerui.rc:23
+#, kde-format
+msgid "&Clock"
+msgstr "ساعت"
+
+#. i18n: ectx: Menu (task)
+#: ktimetrackerui.rc:30
+#, kde-format
+msgid "&Task"
+msgstr "وظیفه"
+
+#. i18n: ectx: Menu (settings)
+#: ktimetrackerui.rc:40
+#, kde-format
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: ktimetrackerui.rc:45
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#. i18n: ectx: ToolBar (taskToolBar)
+#: ktimetrackerui.rc:54
+#, kde-format
+msgid "Tasks"
+msgstr "تکلیف‌ها"
+
+#: main.cpp:88 model/event.cpp:153 model/eventsmodel.cpp:112
+#, kde-format
+msgid "KTimeTracker"
+msgstr "KTimeTracker"
+
+#: main.cpp:90
+#, kde-format
+msgid "KDE Time tracker tool"
+msgstr "ابزار ردگیری زمان KDE"
+
+#: main.cpp:92
+#, kde-format
+msgid "Copyright © 1997-2019 KTimeTracker developers"
+msgstr "حق نشر © ۱۹۹۷-۲۰۱۹ توسعه‌دهندگان KTimeTracker"
+
+#: main.cpp:96
+#, kde-format
+msgctxt "@info:credit"
+msgid "Alexander Potashev"
+msgstr "Alexander Potashev"
+
+#: main.cpp:97
+#, kde-format
+msgctxt "@info:credit"
+msgid "Current Maintainer (since 2019)"
+msgstr "نگه‌دارندهٔ کنونی (از ۲۰۱۹)"
+
+#: main.cpp:99
+#, kde-format
+msgctxt "@info:credit"
+msgid "Thorsten Stärk"
+msgstr "Thorsten Stärk"
+
+#: main.cpp:99
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer (2006-2012)"
+msgstr "نگه‌دارنده (۲۰۰۶-۲۰۱۲)"
+
+#: main.cpp:100
+#, kde-format
+msgctxt "@info:credit"
+msgid "Mark Bucciarelli"
+msgstr "Mark Bucciarelli"
+
+#: main.cpp:101
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer (2005-2006)"
+msgstr "نگه‌دارنده (۲۰۰۵-۲۰۰۶)"
+
+#: main.cpp:103
+#, kde-format
+msgctxt "@info:credit"
+msgid "Jesper Pedersen"
+msgstr "Jesper Pedersen"
+
+#: main.cpp:103
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer (2000-2005)"
+msgstr "نگه‌دارنده (۲۰۰۰–۲۰۰۵)"
+
+#: main.cpp:104
+#, kde-format
+msgctxt "@info:credit"
+msgid "Sirtaj Singh Kang"
+msgstr "Sirtaj Singh Kang"
+
+#: main.cpp:104
+#, kde-format
+msgctxt "@info:credit"
+msgid "Original Author"
+msgstr "نویسندهٔ اصلی"
+
+#: main.cpp:105
+#, kde-format
+msgctxt "@info:credit"
+msgid "Mathias Soeken"
+msgstr "Mathias Soeken"
+
+#: main.cpp:105
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer (in 2007)"
+msgstr "توسعه‌دهنده (در ۲۰۰۷)"
+
+#: main.cpp:106
+#, kde-format
+msgctxt "@info:credit"
+msgid "Kalle Dalheimer"
+msgstr "Kalle Dalheimer"
+
+#: main.cpp:106
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer (1999-2000)"
+msgstr "توسعه‌دهنده (۱۹۹۹–۲۰۰۰)"
+
+#: main.cpp:107
+#, kde-format
+msgctxt "@info:credit"
+msgid "Allen Winter"
+msgstr "Allen Winter"
+
+#: main.cpp:107 main.cpp:108
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: main.cpp:108
+#, kde-format
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:120
+#, kde-format
+msgctxt "@info:shell"
+msgid "Path or URL to iCalendar file to open."
+msgstr "مسیر یا نشانی اینترنتی پروندهٔ iCalendar برای باز کردن."
+
+#: model/tasksmodel.cpp:19
+#, kde-format
+msgctxt "@title:column"
+msgid "Task Name"
+msgstr "نام وظیفه"
+
+#: model/tasksmodel.cpp:20
+#, kde-format
+msgctxt "@title:column"
+msgid "Session Time"
+msgstr "زمان نشست"
+
+#: model/tasksmodel.cpp:21
+#, kde-format
+msgctxt "@title:column"
+msgid "Time"
+msgstr "زمان"
+
+#: model/tasksmodel.cpp:22
+#, kde-format
+msgctxt "@title:column"
+msgid "Total Session Time"
+msgstr "مجموع زمان نشست"
+
+#: model/tasksmodel.cpp:23
+#, kde-format
+msgctxt "@title:column"
+msgid "Total Time"
+msgstr "مجموع زمان"
+
+#: model/tasksmodel.cpp:24
+#, kde-format
+msgctxt "@title:column"
+msgid "Priority"
+msgstr "اولویت"
+
+#: model/tasksmodel.cpp:25
+#, kde-format
+msgctxt "@title:column"
+msgid "Percent Complete"
+msgstr "درصد تکمیل"
+
+#: model/tasksmodel.cpp:175 model/tasksmodel.cpp:268
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The task name is what you call the task, it can be chosen freely."
+msgstr ""
+"نام وظیفه همان عنوانی است که به وظیفه می‌دهید، و می‌تواند آزادانه انتخاب "
+"شود."
+
+#: model/tasksmodel.cpp:179 model/tasksmodel.cpp:272
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The session time is the time since you last chose \"Start New Session\"."
+msgstr ""
+"زمان نشست، زمان سپری‌شده از آخرین باری است که «شروع نشست جدید» را انتخاب "
+"کرده‌اید."
+
+#: model/tasksmodel.cpp:276
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The total session time is the session time of this task and all its "
+"subtasks."
+msgstr "کل زمان نشست، زمان نشست این کار و تمام زیرکارهای آن است."
+
+#: model/tasksmodel.cpp:280
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The total time is the time of this task and all its subtasks."
+msgstr "کل زمان، زمان این کار و تمام زیرکارهای آن است."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enabled)
+#: settings/cfgbehavior.ui:21
+#, kde-format
+msgid "Detect desktop as idle after:"
+msgstr "تشخیص میزکار به عنوان غیرفعال پس از:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_autoSavePeriod)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_period)
+#: settings/cfgbehavior.ui:28 settings/cfgstorage.ui:40
+#, kde-format
+msgid " min"
+msgstr " دقیقه"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/cfgbehavior.ui:41
+#, kde-format
+msgid "Minimum desktop active time:"
+msgstr "حداقل زمان فعال بودن میزکار:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_minActiveTime)
+#: settings/cfgbehavior.ui:48
+#, kde-format
+msgid " sec"
+msgstr " ثانیه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_promptDelete)
+#: settings/cfgbehavior.ui:61
+#, kde-format
+msgid "Prompt before deleting tasks"
+msgstr "پرسش قبل از حذف کارها"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_uniTasking)
+#: settings/cfgbehavior.ui:68
+#, kde-format
+msgid ""
+"Unitasking - allow only one task to be timed at a time. Does not stop any "
+"timer."
+msgstr ""
+"تک‌وظیفه‌ای - فقط اجازه زمان‌سنجی یک کار در هر لحظه داده می‌شود. هیچ "
+"زمان‌سنجی متوقف نمی‌شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_uniTasking)
+#: settings/cfgbehavior.ui:71
+#, kde-format
+msgid "Allow only one timer at a time"
+msgstr "اجازه تنها به یک زمان‌سنج در هر لحظه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trayIcon)
+#: settings/cfgbehavior.ui:78
+#, kde-format
+msgid "Place an icon to the system tray"
+msgstr "قرار دادن نماد در سینی سیستم"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: settings/cfgdisplay.ui:34
+#, kde-format
+msgctxt "title of group box, general options"
+msgid "General"
+msgstr "عمومی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_decimalFormat)
+#: settings/cfgdisplay.ui:40
+#, kde-format
+msgid "Decimal number format"
+msgstr "قالب اعداد اعشاری"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_configPDA)
+#: settings/cfgdisplay.ui:47
+#, kde-format
+msgid ""
+"Choose this if you have a touchscreen and your screen real estate is "
+"precious. It will disable the search bar and every click will pop up a "
+"context menu."
+msgstr ""
+"اگر صفحهٔ لمسی دارید و فضای نمایشگر شما محدود است، این گزینه را انتخاب کنید."
+" با این کار نوار جست‌وجو غیرفعال می‌شود و با هر کلیک یک منوی زمینه باز خواهد"
+" شد."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_configPDA)
+#: settings/cfgdisplay.ui:50
+#, kde-format
+msgctxt ""
+"Choose this if you have a touchscreen and your screen real estate is "
+"precious."
+msgid "Configuration for PDA"
+msgstr "پیکربندی برای PDA"
+
+#. i18n: ectx: property (title), widget (QGroupBox, windowTitleGroupBox)
+#: settings/cfgdisplay.ui:60
+#, kde-format
+msgid "Window Title"
+msgstr "عنوان پنجره"
+
+#. i18n: ectx: property (text), widget (QRadioButton,
+#. kcfg_windowTitleCurrentFile)
+#: settings/cfgdisplay.ui:69
+#, kde-format
+msgid "Currently opened file"
+msgstr "پروندهٔ باز فعلی"
+
+#. i18n: ectx: property (text), widget (QRadioButton,
+#. kcfg_windowTitleCurrentTask)
+#: settings/cfgdisplay.ui:76
+#, kde-format
+msgid "Current Task and Session Time"
+msgstr "وظیفه و زمان نشست فعلی"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/cfgdisplay.ui:86
+#, kde-format
+msgid "Columns Displayed"
+msgstr "ستون‌های نمایش‌داده‌شده"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displaySessionTime)
+#: settings/cfgdisplay.ui:92
+#, kde-format
+msgid "Session time"
+msgstr "زمان نشست"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTime)
+#: settings/cfgdisplay.ui:99
+#, kde-format
+msgid "Cumulative task time"
+msgstr "زمان انباشتهٔ تکلیف"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_displayTotalSessionTime)
+#: settings/cfgdisplay.ui:106
+#, kde-format
+msgid "Total session time"
+msgstr "زمان کل نشست"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalTime)
+#: settings/cfgdisplay.ui:113
+#, kde-format
+msgid "Total task time"
+msgstr "زمان کل تکلیف"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPriority)
+#: settings/cfgdisplay.ui:120
+#, kde-format
+msgid "Priority"
+msgstr "اولویت"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_displayPercentComplete)
+#: settings/cfgdisplay.ui:127
+#, kde-format
+msgid "Percent complete"
+msgstr "درصد تکمیل"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoSave)
+#: settings/cfgstorage.ui:33
+#, kde-format
+msgid "Save tasks every:"
+msgstr "ذخیرهٔ تکالیف هر:"
+
+#: widgets/searchline.cpp:23
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search or add task"
+msgstr "جستجو یا افزودن تکلیف"
+
+#: widgets/searchline.cpp:25
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This is a combined field. As long as you do not press Enter, it acts as a "
+"filter. Then, only tasks that match your input are shown. As soon as you "
+"press Enter, your input is used as name to create a new task."
+msgstr ""
+"این یک فیلد ترکیبی است. تا زمانی که Enter را فشار ندهید، مانند یک فیلتر عمل "
+"می‌کند. سپس، فقط تکالیفی که با ورودی شما مطابقت دارند نشان داده می‌شوند. به "
+"محض اینکه Enter را فشار دهید، ورودی شما به عنوان نام برای ایجاد یک تکلیف "
+"جدید استفاده می‌شود."
+
+#: widgets/taskswidget.cpp:128
+#, kde-format
+msgctxt "@item:inmenu Task progress"
+msgid "%1 %"
+msgstr "%1 ٪"
+
+#: widgets/taskswidget.cpp:139
+#, kde-format
+msgctxt "@item:inmenu Task priority"
+msgid "unspecified"
+msgstr "نامشخص"
+
+#: widgets/taskswidget.cpp:142
+#, kde-format
+msgctxt "@item:inmenu Task priority"
+msgid "1 (highest)"
+msgstr "۱ (بیشترین)"
+
+#: widgets/taskswidget.cpp:145
+#, kde-format
+msgctxt "@item:inmenu Task priority"
+msgid "5 (medium)"
+msgstr "۵ (متوسط)"
+
+#: widgets/taskswidget.cpp:148
+#, kde-format
+msgctxt "@item:inmenu Task priority"
+msgid "9 (lowest)"
+msgstr "۹ (کمترین)"
