@@ -1,0 +1,170 @@
+# translation of klines.po to Persian
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2007.
+# Emil Sedgh <emilsedgh@gmail.com>, 2008.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: klines\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:49+0000\n"
+"PO-Revision-Date: 2026-10-15 23:39+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: klines.cpp:42
+#, kde-format
+msgid "Score:"
+msgstr "امتیاز:"
+
+#: klines.cpp:75
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Next"
+msgstr "نمایش بعدی"
+
+#: klines.cpp:82
+#, kde-format
+msgctxt "@action"
+msgid "Move Left"
+msgstr "حرکت به چپ"
+
+#: klines.cpp:87
+#, kde-format
+msgctxt "@action"
+msgid "Move Right"
+msgstr "حرکت به راست"
+
+#: klines.cpp:92
+#, kde-format
+msgctxt "@action"
+msgid "Move Up"
+msgstr "حرکت به بالا"
+
+#: klines.cpp:97
+#, kde-format
+msgctxt "@action"
+msgid "Move Down"
+msgstr "حرکت به پایین"
+
+#: klines.cpp:102
+#, kde-format
+msgctxt "@action"
+msgid "Select"
+msgstr "انتخاب"
+
+#: klines.cpp:118
+#, kde-format
+msgid "Score: %1"
+msgstr "امتیاز: %1"
+
+#: klines.cpp:124 klines.cpp:132
+#, kde-format
+msgid "High Scores"
+msgstr "بالاترین امتیازها"
+
+#. i18n: ectx: label, entry (ShowNext), group (Game)
+#: klines.kcfg:9
+#, kde-format
+msgid "Whether to show the next set of balls."
+msgstr "اینکه آیا مجموعهٔ بعدی توپ‌ها نشان داده شود یا خیر."
+
+#. i18n: ectx: label, entry (SavedBackgroundWidth), group (Game)
+#: klines.kcfg:13
+#, kde-format
+msgid "Width of saved background"
+msgstr "عرض پس‌زمینهٔ ذخیره‌شده"
+
+#. i18n: ectx: label, entry (SavedBackgroundHeight), group (Game)
+#: klines.kcfg:17
+#, kde-format
+msgid "Height of saved background"
+msgstr "ارتفاع پس‌زمینهٔ ذخیره‌شده"
+
+#. i18n: ectx: Menu (navigation)
+#: klinesui.rc:14
+#, kde-format
+msgid "Navigation"
+msgstr "ناوبری"
+
+#: main.cpp:48
+#, kde-format
+msgid "Kolor Lines"
+msgstr "خطوط رنگی"
+
+#: main.cpp:49
+#, kde-format
+msgid "Kolor Lines - a little game about balls and how to get rid of them"
+msgstr "خطوط رنگی - یک بازی کوچک دربارهٔ توپ‌ها و چگونگی خلاص شدن از شر آن‌ها"
+
+#: main.cpp:51
+#, kde-format
+msgid "(c) 2000-2015 The KLines Authors"
+msgstr "(c) ۲۰۰۰-۲۰۱۵ پدیدآورندگان KLines"
+
+#: main.cpp:54
+#, kde-format
+msgid "Roman Merzlyakov"
+msgstr "Roman Merzlyakov"
+
+#: main.cpp:54
+#, kde-format
+msgid "Original author"
+msgstr "پدیدآور اصلی"
+
+#: main.cpp:55
+#, kde-format
+msgid "Roman Razilov"
+msgstr "Roman Razilov"
+
+#: main.cpp:55
+#, kde-format
+msgid "Rewrite and Extension"
+msgstr "بازنویسی و گسترش"
+
+#: main.cpp:56
+#, kde-format
+msgid "Dmitry Suzdalev"
+msgstr "Dmitry Suzdalev"
+
+#: main.cpp:56
+#, kde-format
+msgid "Rewrite to use QGraphicsView. Current maintainer"
+msgstr "بازنویسی برای استفاده از QGraphicsView. نگهدارندهٔ کنونی"
+
+#: main.cpp:57
+#, kde-format
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: main.cpp:57
+#, kde-format
+msgid "New SVG artwork for KDE4 version of the game"
+msgstr "طراحی هنری جدید SVG برای نسخهٔ KDE4 بازی"
+
+#: scene.cpp:296
+#, kde-format
+msgid "There is no path from the selected piece to this cell"
+msgstr "هیچ مسیری از مهرهٔ انتخاب‌شده به این خانه وجود ندارد"
+
+#: scene.cpp:684
+#, kde-format
+msgid "<h1>Game over</h1>"
+msgstr "<h1>بازی تمام شد</h1>"

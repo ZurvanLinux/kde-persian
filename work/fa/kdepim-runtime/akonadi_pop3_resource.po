@@ -1,0 +1,795 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the akonadi_pop3_resource package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_pop3_resource\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-28 00:46+0000\n"
+"PO-Revision-Date: 2026-10-15 21:09+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: accountwidget.cpp:83
+#, kde-format
+msgctxt "Percent value; %p is the value, % is the percent sign"
+msgid "%p%"
+msgstr "%p٪"
+
+#: accountwidget.cpp:91
+#, kde-format
+msgid "%v minute"
+msgid_plural "%v minutes"
+msgstr[0] "%v دقیقه"
+msgstr[1] "%v دقیقه"
+
+#: accountwidget.cpp:128 pop3resource.cpp:46
+#, kde-format
+msgid "POP3 Account"
+msgstr "حساب POP3"
+
+#: accountwidget.cpp:195
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Unable to open wallet"
+msgstr "کیف پول باز نشد"
+
+#: accountwidget.cpp:245
+#, kde-format
+msgid ""
+"The server does not seem to support unique message numbers, but this is a requirement for leaving messages on the server.\n"
+"Since some servers do not correctly announce their capabilities you still have the possibility to turn leaving fetched messages on the server on."
+msgstr ""
+"به نظر نمی‌رسد کارساز از شماره‌های پیام یکتا پشتیبانی کند، در حالی که این قابلیت برای باقی گذاشتن پیام‌ها روی کارساز الزامی است.\n"
+"از آنجا که برخی کارسازها قابلیت‌های خود را به درستی اعلام نمی‌کنند، همچنان این امکان را دارید که گزینهٔ باقی گذاشتن پیام‌های دریافتی روی کارساز را فعال کنید."
+
+#: accountwidget.cpp:260
+#, kde-format
+msgid ""
+"Please note that this feature can cause some POP3 servers that do not support pipelining to send corrupted mail;\n"
+"this is configurable, though, because some servers support pipelining\n"
+"but do not announce their capabilities. To check whether your POP3 server\n"
+"announces pipelining support use the \"Auto Detect\" button at the bottom of the dialog;\n"
+"if your server does not announce it, but you want more speed, then\n"
+"you should do some testing first by sending yourself a batch\n"
+"of mail and downloading it."
+msgstr ""
+"لطفاً توجه داشته باشید که این ویژگی ممکن است باعث شود برخی کارسازهای POP3 که از خط لوله‌گذاری (pipelining) پشتیبانی نمی‌کنند، نامه‌های مخدوش ارسال کنند؛\n"
+"با این حال، این مورد قابل تنظیم است زیرا برخی کارسازها از خط لوله‌گذاری پشتیبانی می‌کنند\n"
+"اما قابلیت‌های خود را اعلام نمی‌کنند. برای بررسی اینکه آیا کارساز POP3 شما\n"
+"پشتیبانی از خط لوله‌گذاری را اعلام می‌کند یا خیر، از دکمهٔ «تشخیص خودکار» در پایین پنجره استفاده کنید؛\n"
+"اگر کارساز شما آن را اعلام نمی‌کند اما سرعت بیشتری می‌خواهید،\n"
+"باید ابتدا با ارسال مجموعه‌ای از نامه‌ها برای خود و بارگیری آن‌ها، کمی آزمایش انجام دهید."
+
+#: accountwidget.cpp:293
+#, kde-format
+msgid "Please specify a server and port on the General tab first."
+msgstr "لطفاً ابتدا یک کارساز و درگاه را در برگهٔ عمومی مشخص کنید."
+
+#: accountwidget.cpp:326
+#, kde-format
+msgid "Unable to connect to the server, please verify the server address."
+msgstr "اتصال به کارساز امکان‌پذیر نیست، لطفاً نشانی کارساز را بررسی کنید."
+
+#: accountwidget.cpp:370
+#, kde-format
+msgid ""
+"The server does not seem to support pipelining; therefore, this option has been disabled.\n"
+"Since some servers do not correctly announce their capabilities you still have the possibility to turn pipelining on. But please note that this feature can cause some POP servers that do not support pipelining to send corrupt messages. So before using this feature with important mail you should first test it by sending yourself a larger number of test messages which you all download in one go from the POP server."
+msgstr ""
+"به نظر نمی‌رسد کارساز از خط لوله‌گذاری (pipelining) پشتیبانی کند؛ بنابراین این گزینه غیرفعال شده است.\n"
+"از آنجا که برخی کارسازها قابلیت‌های خود را به درستی اعلام نمی‌کنند، شما همچنان این امکان را دارید که خط لوله‌گذاری را فعال کنید. اما لطفاً توجه داشته باشید که این ویژگی ممکن است باعث شود برخی کارسازهای POP که از خط لوله‌گذاری پشتیبانی نمی‌کنند، پیام‌های مخدوش ارسال کنند. بنابراین پیش از استفاده از این ویژگی برای نامه‌های مهم، باید ابتدا با ارسال تعداد بیشتری پیام آزمایشی برای خودتان و بارگیری یک‌بارهٔ همهٔ آن‌ها از کارساز POP، آن را آزمایش کنید."
+
+#: accountwidget.cpp:390
+#, kde-format
+msgid ""
+"The server does not seem to support unique message numbers, but this is a requirement for leaving messages on the server; therefore, this option has been disabled.\n"
+"Since some servers do not correctly announce their capabilities you still have the possibility to turn leaving fetched messages on the server on."
+msgstr ""
+"به نظر نمی‌رسد کارساز از شماره‌های پیام یکتا پشتیبانی کند، اما این ویژگی برای باقی گذاشتن پیام‌ها روی کارساز الزامی است؛ بنابراین این گزینه غیرفعال شده است.\n"
+"از آنجا که برخی کارسازها قابلیت‌های خود را به درستی اعلام نمی‌کنند، همچنان این امکان را دارید که گزینهٔ باقی گذاشتن پیام‌های دریافتی روی کارساز را فعال کنید."
+
+#: accountwidget.cpp:422
+#, kde-format
+msgid " day"
+msgid_plural " days"
+msgstr[0] " روز"
+msgstr[1] " روز"
+
+#: accountwidget.cpp:427
+#, kde-format
+msgid " message"
+msgid_plural " messages"
+msgstr[0] " پیام"
+msgstr[1] " پیام"
+
+#: jobs.cpp:148
+#, kde-format
+msgid "Unable to initialize SASL, aborting mail check."
+msgstr "ناتوان در مقداردهی اولیهٔ SASL، لغو بررسی رایانامه."
+
+#: pop3protocol.cpp:189
+#, kde-format
+msgid "The server said: \"%1\""
+msgstr "سرور گفت: \"%1\""
+
+#: pop3protocol.cpp:211
+#, kde-format
+msgid "The server terminated the connection."
+msgstr "سرور اتصال را قطع کرد."
+
+#: pop3protocol.cpp:213
+#, kde-format
+msgid ""
+"Invalid response from server:\n"
+"\"%1\""
+msgstr ""
+"پاسخ نامعتبر از سرور:\n"
+"\"%1\""
+
+#: pop3protocol.cpp:253 pop3protocol.cpp:257
+#, kde-format
+msgid "Could not send to server.\n"
+msgstr "ارسال به سرور ممکن نشد.\n"
+
+#: pop3protocol.cpp:356
+#, kde-format
+msgid ""
+"Login via APOP failed. The server %1 may not support APOP, although it claims to support it, or the password may be wrong.\n"
+"\n"
+"%2"
+msgstr ""
+"ورود از طریق APOP ناموفق بود. ممکن است سرور %1 از APOP پشتیبانی نکند، هرچند ادعای پشتیبانی از آن را دارد، یا گذرواژه نادرست باشد.\n"
+"\n"
+"%2"
+
+#: pop3protocol.cpp:403
+#, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "هنگام احراز هویت خطایی رخ داد: %1"
+
+#: pop3protocol.cpp:498
+#, kde-format
+msgid ""
+"Login via SASL (%1) failed. The server may not support %2, or the password may be wrong.\n"
+"\n"
+"%3"
+msgstr ""
+"ورود از طریق SASL (%1) ناموفق بود. ممکن است سرور از %2 پشتیبانی نکند، یا گذرواژه نادرست باشد.\n"
+"\n"
+"%3"
+
+#: pop3protocol.cpp:509
+#, kde-format
+msgid ""
+"Your POP3 server (%1) does not support SASL.\n"
+"Choose a different authentication method."
+msgstr ""
+"کارساز POP3 شما (%1) از SASL پشتیبانی نمی‌کند.\n"
+"روش احراز هویت متفاوتی را انتخاب کنید."
+
+#: pop3protocol.cpp:526 pop3protocol.cpp:614
+#, kde-format
+msgid ""
+"Could not login to %1.\n"
+"\n"
+msgstr ""
+"ورود به %1 امکان‌پذیر نبود.\n"
+"\n"
+
+#: pop3protocol.cpp:534
+#, kde-format
+msgid ""
+"Could not login to %1. The password may be wrong.\n"
+"\n"
+"%2"
+msgstr ""
+"ورود به %1 امکان‌پذیر نبود. ممکن است گذرواژه نادرست باشد.\n"
+"\n"
+"%2"
+
+#: pop3protocol.cpp:566
+#, kde-format
+msgid "SSL/TLS error: %1"
+msgstr "خطای SSL/TLS: %1"
+
+#: pop3protocol.cpp:596
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: pop3protocol.cpp:615
+#, kde-format
+msgid "The server terminated the connection immediately."
+msgstr "کارساز بلافاصله اتصال را قطع کرد."
+
+#: pop3protocol.cpp:616
+#, kde-format
+msgid ""
+"Server does not respond properly:\n"
+"%1\n"
+msgstr ""
+"کارساز پاسخ مناسبی نمی‌دهد:\n"
+"%1\n"
+
+#: pop3protocol.cpp:640
+#, kde-format
+msgid ""
+"Your POP3 server (%1) does not support APOP.\n"
+"Choose a different authentication method."
+msgstr ""
+"کارساز POP3 شما (%1) از APOP پشتیبانی نمی‌کند.\n"
+"روش احراز هویت متفاوتی را انتخاب کنید."
+
+#: pop3protocol.cpp:650
+#, kde-format
+msgid ""
+"Your POP3 server claims to support TLS but negotiation was unsuccessful.\n"
+"You can disable TLS in the POP account settings dialog."
+msgstr ""
+"کارساز POP3 شما مدعی پشتیبانی از TLS است، اما مذاکره ناموفق بود.\n"
+"می‌توانید TLS را در گفت‌وگوی تنظیمات حساب POP غیرفعال کنید."
+
+#: pop3protocol.cpp:730
+#, kde-format
+msgid "Internal error: missing argument for command %1"
+msgstr "خطای داخلی: آرگومان دستور %1 پیدا نشد"
+
+#: pop3protocol.cpp:786
+#, kde-format
+msgid "Internal error: missing item"
+msgstr "خطای داخلی: مورد یافت نشد"
+
+#: pop3protocol.cpp:811
+#, kde-format
+msgid "Timeout from POP3 server %1"
+msgstr "پایان مهلت زمانی کارگزار POP3 %1"
+
+#: pop3protocol.cpp:813
+#, kde-format
+msgid "Connection broken from POP3 server %1"
+msgstr "اتصال از کارگزار POP3 %1 قطع شد"
+
+#: pop3protocol.cpp:874
+#, kde-format
+msgid ""
+"Error during communication with the POP3 server while trying to download "
+"mail: %1"
+msgstr "خطا هنگام برقراری ارتباط با کارگزار POP3 برای بارگیری رایانامه: %1"
+
+#: pop3resource.cpp:95
+#, kde-format
+msgid "Mail check aborted."
+msgstr "بررسی رایانامه متوقف شد."
+
+#: pop3resource.cpp:102
+#, kde-format
+msgid "Mail check was canceled manually."
+msgstr "بررسی رایانامه به‌صورت دستی لغو شد."
+
+#: pop3resource.cpp:130
+#, kde-format
+msgid "Please enter the username and password for account '%1'."
+msgstr "لطفاً نام کاربری و گذرواژه را برای حساب «%1» وارد کنید."
+
+#: pop3resource.cpp:147
+#, kde-format
+msgid ""
+"You are asked here because the password could not be loaded from the wallet."
+msgstr ""
+"این درخواست به این دلیل مطرح شده که بارگیری گذرواژه از کیف پول ممکن نبود."
+
+#: pop3resource.cpp:164
+#, kde-format
+msgid "Account:"
+msgstr "حساب:"
+
+#: pop3resource.cpp:181
+#, kde-format
+msgid "No username and password supplied."
+msgstr "هیچ نام کاربری و گذرواژه‌ای وارد نشد."
+
+#: pop3resource.cpp:200
+#, kde-format
+msgid "Preparing transmission from \"%1\"."
+msgstr "آماده‌سازی ارسال از «%1»."
+
+#: pop3resource.cpp:221
+#, kde-format
+msgid "Executing precommand."
+msgstr "اجرای پیش‌فرمان."
+
+#: pop3resource.cpp:246
+#, kde-format
+msgid "You are asked here because the previous login was not successful."
+msgstr "به این دلیل در اینجا از شما سؤال می‌شود که ورود پیشین ناموفق بود."
+
+#: pop3resource.cpp:248
+#, kde-format
+msgid "You are asked here because the username you supplied is empty."
+msgstr ""
+"به این دلیل در اینجا از شما سؤال می‌شود که نام کاربری ارائه‌شده خالی است."
+
+#: pop3resource.cpp:275
+#, kde-format
+msgid "Fetching mail listing."
+msgstr "دریافت فهرست نامه‌ها."
+
+#: pop3resource.cpp:331
+#, kde-format
+msgid "Saving downloaded messages."
+msgstr "ذخیرهٔ پیام‌های بارگیری‌شده."
+
+#: pop3resource.cpp:349
+#, kde-format
+msgid "Saving password to the wallet."
+msgstr "ذخیرهٔ گذرواژه در کیف پول."
+
+#: pop3resource.cpp:391
+#, kde-format
+msgid "Error while trying to get the local inbox folder, aborting mail check."
+msgstr "خطا هنگام تلاش برای دریافت پوشهٔ صندوق ورودی محلی، لغو بررسی نامه."
+
+#: pop3resource.cpp:398
+#, kde-format
+msgid ""
+"<qt>The folder you deleted was associated with the account <b>%1</b> which "
+"delivered mail into it. The folder the account delivers new mail into was "
+"reset to the main Inbox folder.</qt>"
+msgstr ""
+"<qt>پوشه‌ای که حذف کردید با حساب <b>%1</b> که نامه‌ها را به آن تحویل می‌داد،"
+" مرتبط بود. پوشه‌ای که حساب نامه‌های جدید را به آن تحویل می‌دهد، به پوشهٔ "
+"اصلی صندوق ورودی بازنشانی شد.</qt>"
+
+#: pop3resource.cpp:419
+#, kde-format
+msgid ""
+"Error while trying to get the folder for incoming mail, aborting mail check."
+msgstr "خطا هنگام تلاش برای دریافت پوشهٔ نامه‌های ورودی، لغو بررسی نامه‌ها."
+
+#: pop3resource.cpp:432
+#, kde-format
+msgid "Could not find folder for incoming mail, aborting mail check."
+msgstr "پوشهٔ نامه‌های دریافتی پیدا نشد، بررسی رایانامه‌ها لغو می‌شود."
+
+#: pop3resource.cpp:443
+#, kde-format
+msgid "Error while executing precommand."
+msgstr "خطا هنگام اجرای دستور پیشین."
+
+#: pop3resource.cpp:457
+#, kde-format
+msgid "Unable to login to the server \"%1\"."
+msgstr "ورود به سرور «%1» امکان‌پذیر نیست."
+
+#: pop3resource.cpp:466
+#, kde-format
+msgid "Error while getting the list of messages on the server."
+msgstr "خطا هنگام دریافت فهرست پیام‌ها از سرور."
+
+#: pop3resource.cpp:480
+#, kde-format
+msgid "Error while getting list of unique mail identifiers from the server."
+msgstr "خطا هنگام دریافت فهرست شناسه‌های یکتای رایانامه‌ها از سرور."
+
+#: pop3resource.cpp:493
+#, kde-format
+msgid ""
+"Your POP3 server (Account: %1) does not support the UIDL command: this command is required to determine, in a reliable way, which of the mails on the server KMail has already seen before;\n"
+"the feature to leave the mails on the server will therefore not work properly."
+msgstr ""
+"سرور POP3 شما (حساب: %1) از دستور UIDL پشتیبانی نمی‌کند؛ این دستور برای تشخیص قابل‌اعتماد پیام‌هایی که KMail قبلاً در سرور دیده است، ضروری است؛\n"
+"بنابراین قابلیت نگه‌داشتن نامه‌ها در سرور به‌درستی کار نخواهد کرد."
+
+#: pop3resource.cpp:508
+#, kde-format
+msgid "Error while fetching mails from the server."
+msgstr "خطا هنگام واکشی رایانامه‌ها از سرور."
+
+#: pop3resource.cpp:568
+#, kde-format
+msgid ""
+"Fetching message %1 of %2 (%3 of %4 KB) for %5 (%6 KB remain on the server)."
+msgstr ""
+"در حال واکشی پیام %1 از %2 (%3 از %4 KB) برای %5 (%6 KB در سرور باقی مانده "
+"است)."
+
+#: pop3resource.cpp:577
+#, kde-format
+msgid "Fetching message %1 of %2 (%3 of %4 KB) for %5"
+msgstr "در حال واکشی پیام %1 از %2 (%3 از %4 KB) برای %5"
+
+#: pop3resource.cpp:600
+#, kde-format
+msgid "Unable to store downloaded mails."
+msgstr "ذخیرهٔ رایانامه‌های بارگیری‌شده امکان‌پذیر نیست."
+
+#: pop3resource.cpp:748
+#, kde-format
+msgid "Failed to delete the messages from the server."
+msgstr "حذف پیام‌ها از سرور ناموفق بود."
+
+#: pop3resource.cpp:804
+#, kde-format
+msgid "Finished mail check, no message downloaded."
+msgstr "بررسی رایانامه به پایان رسید، هیچ پیامی بارگیری نشد."
+
+#: pop3resource.cpp:806
+#, kde-format
+msgid "Finished mail check, 1 message downloaded."
+msgid_plural "Finished mail check, %1 messages downloaded."
+msgstr[0] "بررسی رایانامه به پایان رسید، ۱ پیام بارگیری شد."
+msgstr[1] "بررسی رایانامه به پایان رسید، %1 پیام بارگیری شد."
+
+#: pop3resource.cpp:820
+#, kde-format
+msgid "Unable to complete the mail fetch."
+msgstr "امکان واکشی کامل رایانامه وجود ندارد."
+
+#: pop3resource.cpp:954
+#, kde-format
+msgid "Mail check already in progress, unable to start a second check."
+msgstr ""
+"بررسی رایانامه هم‌اکنون در حال انجام است، امکان شروع بررسی دوم وجود ندارد."
+
+#: pop3resource.cpp:975
+#, kde-format
+msgid "Ready"
+msgstr "آماده"
+
+#: pop3resource.cpp:978
+#, kde-format
+msgid "Mail check aborted after going offline."
+msgstr "بررسی رایانامه پس از برون‌خط شدن متوقف شد."
+
+#: pop3resource.cpp:980
+#, kde-format
+msgid "Offline"
+msgstr "برون‌خط"
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: popsettings.ui:35
+#, kde-format
+msgid "Account Type: POP Account"
+msgstr "نوع حساب: حساب POP"
+
+#. i18n: ectx: attribute (title), widget (QWidget, page1)
+#: popsettings.ui:61
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_4)
+#: popsettings.ui:67
+#, kde-format
+msgid "Account Information"
+msgstr "اطلاعات حساب"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, loginEdit)
+#: popsettings.ui:74 popsettings.ui:130
+#, kde-format
+msgid ""
+"Your Internet Service Provider gave you a <em>user name</em> which is used "
+"to authenticate you with their servers. It usually is the first part of your"
+" email address (the part before <em>@</em>)."
+msgstr ""
+"ارائه‌دهندهٔ خدمات اینترنت شما یک <em>نام کاربری</em> به شما داده است که "
+"برای احراز هویت شما در سرورهای آن‌ها استفاده می‌شود. این نام معمولاً بخش اول"
+" نشانی رایانامهٔ شماست (بخش قبل از <em>@</em>)."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: popsettings.ui:77
+#, kde-format
+msgid "Account &name:"
+msgstr "نام حساب:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, nameEdit)
+#: popsettings.ui:87
+#, kde-format
+msgid "Name displayed in the list of accounts"
+msgstr "نام نمایش‌داده‌شده در فهرست حساب‌ها"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, nameEdit)
+#: popsettings.ui:90
+#, kde-format
+msgid "Account name: This defines the name displayed in the account list."
+msgstr ""
+"نام حساب: این گزینه، نام نمایش‌داده‌شده در فهرست حساب‌ها را مشخص می‌کند."
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: popsettings.ui:97
+#, kde-format
+msgid "Incoming &mail server:"
+msgstr "کارساز رایانامهٔ ورودی:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, hostEdit)
+#: popsettings.ui:107
+#, kde-format
+msgid "Address of the mail POP3 server"
+msgstr "نشانی کارساز POP3 رایانامه"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, hostEdit)
+#: popsettings.ui:110
+#, kde-format
+msgid ""
+"The address of the POP3 server, e.g. pop3.yourprovider.org. You should get "
+"this address from your mail provider."
+msgstr ""
+"نشانی کارساز POP3، مانند pop3.yourprovider.org. باید این نشانی را از "
+"ارائه‌دهندهٔ رایانامهٔ خود دریافت کنید."
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: popsettings.ui:117
+#, kde-format
+msgid "Use&rname:"
+msgstr "نام کاربری:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, loginEdit)
+#: popsettings.ui:127
+#, kde-format
+msgid "The username that identifies you against the mail server"
+msgstr "نام کاربری که شما را برای کارساز رایانامه شناسایی می‌کند"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: popsettings.ui:137
+#, kde-format
+msgid "P&assword:"
+msgstr "گذرواژه:"
+
+#. i18n: ectx: property (toolTip), widget (KPasswordLineEdit, passwordEdit)
+#: popsettings.ui:147
+#, kde-format
+msgid "Password for access to the mail server"
+msgstr "گذرواژه برای دسترسی به کارساز رایانامه"
+
+#. i18n: ectx: property (whatsThis), widget (KPasswordLineEdit, passwordEdit)
+#: popsettings.ui:150
+#, kde-format
+msgid "Password: The password given to you by your mail provider."
+msgstr "گذرواژه: گذرواژه‌ای که ارائه‌دهندهٔ رایانامه به شما داده است."
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_5)
+#: popsettings.ui:157
+#, kde-format
+msgid "Mail Checking Options"
+msgstr "گزینه‌های بررسی رایانامه"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, intervalCheck)
+#: popsettings.ui:164
+#, kde-format
+msgid ""
+"If active, the POP3 account will be checked for new mail every x minutes"
+msgstr ""
+"در صورت فعال بودن، حساب POP3 هر x دقیقه یک‌بار برای رایانامه‌های جدید بررسی "
+"می‌شود"
+
+#. i18n: ectx: property (text), widget (QCheckBox, intervalCheck)
+#: popsettings.ui:167
+#, kde-format
+msgid "Enable &interval mail checking"
+msgstr "فعال‌سازی بررسی دوره‌ای رایانامه"
+
+#. i18n: ectx: property (text), widget (QLabel, intervalLabel)
+#: popsettings.ui:174
+#, kde-format
+msgid "Check mail interval:"
+msgstr "بازهٔ بررسی رایانامه:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, page2)
+#: popsettings.ui:211
+#, kde-format
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: popsettings.ui:217
+#, kde-format
+msgid "POP Settings"
+msgstr "تنظیمات POP"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerCheck)
+#: popsettings.ui:239
+#, kde-format
+msgid "If checked the message is not deleted from the mail server"
+msgstr "در صورت علامت زدن، پیام از کارساز رایانامه حذف نمی‌شود"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, leaveOnServerCheck)
+#: popsettings.ui:242
+#, kde-format
+msgid ""
+"Check this option if you want to fetch only copies of the mails and leave "
+"the original mails on the server."
+msgstr ""
+"اگر می‌خواهید فقط رونوشتی از نامه‌ها را دریافت کرده و نامه‌های اصلی را روی "
+"کارساز باقی بگذارید، این گزینه را علامت بزنید."
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerCheck)
+#: popsettings.ui:245
+#, kde-format
+msgid "Lea&ve fetched messages on the server"
+msgstr "باقی گذاشتن پیام‌های دریافت‌شده روی کارساز"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerDaysCheck)
+#: popsettings.ui:258
+#, kde-format
+msgid "The original message is deleted from the server after x days"
+msgstr "پیام اصلی پس از x روز از روی کارساز حذف می‌شود"
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerDaysCheck)
+#: popsettings.ui:261
+#, kde-format
+msgid "Days to leave messages on the server:"
+msgstr "تعداد روزهای باقی ماندن پیام‌ها روی کارساز:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerCountCheck)
+#: popsettings.ui:284
+#, kde-format
+msgid "Only the x most recent messages are kept on the server"
+msgstr "فقط x پیام از تازه‌ترین پیام‌ها روی کارساز نگه داشته می‌شوند"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox,
+#. leaveOnServerCountCheck)
+#: popsettings.ui:287
+#, kde-format
+msgid ""
+"Check this option if you want to only keep the x most recent messages on the"
+" server and delete all older."
+msgstr ""
+"اگر می‌خواهید فقط x پیام از تازه‌ترین پیام‌ها را روی کارساز نگه دارید و همهٔ"
+" موارد قدیمی‌تر حذف شوند، این گزینه را علامت بزنید."
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerCountCheck)
+#: popsettings.ui:290
+#, kde-format
+msgid "Number of messages to keep:"
+msgstr "تعداد پیام‌ها برای نگهداری:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerSizeCheck)
+#: popsettings.ui:313
+#, kde-format
+msgid "Keep most recent messages within the quota and delete oldest"
+msgstr "نگه‌داشتن تازه‌ترین پیام‌ها در محدودهٔ سهمیه و حذف قدیمی‌ترین‌ها"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox,
+#. leaveOnServerSizeCheck)
+#: popsettings.ui:316
+#, kde-format
+msgid ""
+"If active, most recent messages are kept until the quota is reached and "
+"oldest messages are deleted."
+msgstr ""
+"در صورت فعال بودن، تازه‌ترین پیام‌ها تا زمان پر شدن سهمیه نگه داشته شده و "
+"قدیمی‌ترین پیام‌ها حذف می‌شوند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerSizeCheck)
+#: popsettings.ui:319
+#, kde-format
+msgid "Maximum megabytes to keep:"
+msgstr "حداکثر مگابایت برای نگهداری:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, leaveOnServerSizeSpin)
+#: popsettings.ui:329
+#, kde-format
+msgid " MB"
+msgstr " MB"
+
+#. i18n: ectx: property (text), widget (QCheckBox, usePipeliningCheck)
+#: popsettings.ui:345
+#, kde-format
+msgid "&Use pipelining for faster mail download"
+msgstr "استفاده از خط‌لوله‌ای کردن برای بارگیری سریع‌تر رایانامه"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: popsettings.ui:365
+#, kde-format
+msgid "Destination folder:"
+msgstr "پوشهٔ مقصد:"
+
+#. i18n: ectx: property (text), widget (QLabel, preCommandLabel)
+#: popsettings.ui:375
+#, kde-format
+msgid "Pre-com&mand:"
+msgstr "پیش‌فرمان:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, precommand)
+#: popsettings.ui:391
+#, kde-format
+msgid "Command that is executed before checking mail"
+msgstr "فرمانی که پیش از بررسی رایانامه اجرا می‌شود"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_2)
+#: popsettings.ui:403
+#, kde-format
+msgid "Connection Settings"
+msgstr "تنظیمات اتصال"
+
+#. i18n: ectx: property (text), widget (QPushButton, checkCapabilities)
+#: popsettings.ui:417
+#, kde-format
+msgid "Auto Detect"
+msgstr "تشخیص خودکار"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: popsettings.ui:424
+#, kde-format
+msgid "Encryption:"
+msgstr "رمزنگاری:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionNone)
+#: popsettings.ui:433
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionSSL)
+#: popsettings.ui:443
+#, kde-format
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionTLS)
+#: popsettings.ui:450
+#, kde-format
+msgid "STA&RTTLS"
+msgstr "STARTTLS"
+
+#. i18n: ectx: property (text), widget (QLabel, imapInfo)
+#: popsettings.ui:465
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Sans Serif'; font-weight:600;\">SSL/TLS</span><span style=\" font-family:'Sans Serif';\"> is safe POP over port 995;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Sans Serif'; font-weight:600;\">STARTTLS</span><span style=\" font-family:'Sans Serif';\"> will operate on port 110 and switch to a secure connection directly after connecting;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Sans Serif'; font-weight:600;\">None</span><span style=\" font-family:'Sans Serif';\"> will connect to port 110 but not switch to a secure connection. This setting is not recommended.</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Sans Serif'; font-weight:600;\">SSL/TLS</span><span style=\" font-family:'Sans Serif';\"> روش امن POP روی درگاه ۹۹۵ است؛</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Sans Serif'; font-weight:600;\">STARTTLS</span><span style=\" font-family:'Sans Serif';\"> روی درگاه ۱۱۰ کار می‌کند و بلافاصله پس از اتصال به یک اتصال امن تغییر وضعیت می‌دهد؛</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Sans Serif'; font-weight:600;\">هیچ‌کدام</span><span style=\" font-family:'Sans Serif';\"> به درگاه ۱۱۰ وصل می‌شود اما به اتصال امن تغییر وضعیت نمی‌دهد. این تنظیم توصیه نمی‌شود.</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: popsettings.ui:472
+#, kde-format
+msgid "Port:"
+msgstr "درگاه:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: popsettings.ui:492
+#, kde-format
+msgid "Authentication:"
+msgstr "احراز هویت:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, proxyCheck)
+#: popsettings.ui:502
+#, kde-format
+msgid ""
+"If checked, the system proxy settings will be used to connect to the mail "
+"server."
+msgstr ""
+"اگر علامت زده شود، از تنظیمات پیشکار سامانه برای اتصال به کارساز رایانامه "
+"استفاده خواهد شد."
+
+#. i18n: ectx: property (text), widget (QCheckBox, proxyCheck)
+#: popsettings.ui:505
+#, kde-format
+msgid "Connect using the system proxy settings"
+msgstr "اتصال با استفاده از تنظیمات پیشکار سامانه"
+
+#. i18n: ectx: label, entry (authenticationMethod), group (General)
+#: settings.kcfg:30
+#, kde-format
+msgid "Defines the authentication type to use"
+msgstr "نوع احراز هویت مورد استفاده را مشخص می‌کند"

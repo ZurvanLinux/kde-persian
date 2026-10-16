@@ -1,0 +1,245 @@
+# translation of kio_sftp.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohammad Reza Mirdamadi <mohi@linuxshop.ir>, 2011, 2013.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sftp\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-19 00:45+0000\n"
+"PO-Revision-Date: 2026-10-15 23:28+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kio_sftp.cpp:316
+#, kde-format
+msgid "Incorrect or invalid passphrase"
+msgstr "عبارت عبور نادرست یا نامعتبر است"
+
+#: kio_sftp.cpp:365
+#, kde-format
+msgid "Could not allocate callbacks"
+msgstr "تخصیص فراخوانی‌ها (callbacks) ممکن نشد"
+
+#: kio_sftp.cpp:378
+#, kde-format
+msgid "Could not set log verbosity."
+msgstr "تنظیم سطح جزئیات گزارش ممکن نشد."
+
+#: kio_sftp.cpp:383
+#, kde-format
+msgid "Could not set log userdata."
+msgstr "تنظیم داده‌های کاربر گزارش (userdata) ممکن نشد."
+
+#: kio_sftp.cpp:388
+#, kde-format
+msgid "Could not set log callback."
+msgstr "تنظیم فراخوانی گزارش ممکن نشد."
+
+#: kio_sftp.cpp:424 kio_sftp.cpp:426 kio_sftp.cpp:970
+#, kde-format
+msgid "SFTP Login"
+msgstr "ورود به SFTP"
+
+#: kio_sftp.cpp:441
+#, kde-format
+msgid "Use the username input field to answer this question."
+msgstr "برای پاسخ به این سؤال از فیلد ورودی نام کاربری استفاده کنید."
+
+#: kio_sftp.cpp:454
+#, kde-format
+msgid "Please enter your password."
+msgstr "لطفاً گذرواژه خود را وارد کنید."
+
+#: kio_sftp.cpp:459 kio_sftp.cpp:973
+#, kde-format
+msgid "Site:"
+msgstr "سایت:"
+
+#: kio_sftp.cpp:520
+#, kde-format
+msgctxt "error message. %1 is a path, %2 is a numeric error code"
+msgid "Could not read link: %1 [%2]"
+msgstr "خواندن پیوند ممکن نشد: %1 [%2]"
+
+#: kio_sftp.cpp:651
+#, kde-format
+msgid "Could not create a new SSH session."
+msgstr "امکان ایجاد نشست SSH جدید وجود ندارد."
+
+#: kio_sftp.cpp:662 kio_sftp.cpp:666
+#, kde-format
+msgid "Could not set a timeout."
+msgstr "امکان تنظیم مهلت زمانی وجود ندارد."
+
+#: kio_sftp.cpp:673
+#, kde-format
+msgid "Could not disable Nagle's Algorithm."
+msgstr "امکان غیرفعال‌سازی الگوریتم نیگل وجود ندارد."
+
+#: kio_sftp.cpp:679 kio_sftp.cpp:684
+#, kde-format
+msgid "Could not set compression."
+msgstr "امکان تنظیم فشرده‌سازی وجود ندارد."
+
+#: kio_sftp.cpp:690
+#, kde-format
+msgid "Could not set host."
+msgstr "امکان تنظیم میزبان وجود ندارد."
+
+#: kio_sftp.cpp:696
+#, kde-format
+msgid "Could not set port."
+msgstr "امکان تنظیم درگاه وجود ندارد."
+
+#: kio_sftp.cpp:704
+#, kde-format
+msgid "Could not set username."
+msgstr "امکان تنظیم نام کاربری وجود ندارد."
+
+#: kio_sftp.cpp:711
+#, kde-format
+msgid "Could not parse the config file."
+msgstr "امکان تجزیهٔ پروندهٔ پیکربندی وجود ندارد."
+
+#: kio_sftp.cpp:726
+#, kde-kuit-format
+msgid "Opening SFTP connection to host %1:%2"
+msgstr "در حال برقراری اتصال SFTP با میزبان %1:%2"
+
+#: kio_sftp.cpp:766
+#, kde-format
+msgid "Could not get server public key type name"
+msgstr "امکان دریافت نام نوع کلید عمومی سرور وجود ندارد"
+
+#: kio_sftp.cpp:778
+#, kde-format
+msgid "Could not create hash from server public key"
+msgstr "امکان ایجاد هش از کلید عمومی سرور وجود ندارد"
+
+#: kio_sftp.cpp:787
+#, kde-format
+msgid "Could not create fingerprint for server public key"
+msgstr "امکان ایجاد اثرانگشت برای کلید عمومی سرور وجود ندارد"
+
+#: kio_sftp.cpp:846
+#, kde-format
+msgid ""
+"An %1 host key for this server was not found, but another type of key exists.\n"
+"An attacker might change the default server key to confuse your client into thinking the key does not exist.\n"
+"Please contact your system administrator.\n"
+"%2"
+msgstr ""
+"کلید میزبان %1 برای این سرور یافت نشد، اما نوع دیگری از کلید وجود دارد.\n"
+"ممکن است یک مهاجم کلید پیش‌فرض سرور را تغییر دهد تا کلاینت شما را فریب دهد که کلید وجود ندارد.\n"
+"لطفاً با مدیر سامانهٔ خود تماس بگیرید.\n"
+"%2"
+
+#: kio_sftp.cpp:863
+#, kde-format
+msgctxt "@title:window"
+msgid "Host Identity Change"
+msgstr "تغییر هویت میزبان"
+
+#: kio_sftp.cpp:865
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The host key for the server <emphasis>%1</emphasis> has "
+"changed.</para><para>This could either mean that DNS spoofing is happening "
+"or the IP address for the host and its host key have changed at the same "
+"time.</para><para>The %2 key fingerprint sent by the remote host "
+"is:<bcode>%3</bcode>Are you sure you want to continue connecting?</para>"
+msgstr ""
+"<para>کلید میزبان برای سرور <emphasis>%1</emphasis> تغییر کرده "
+"است.</para><para>این می‌تواند به این معنا باشد که جعل DNS در حال رخ دادن "
+"است، یا نشانی IP میزبان و کلید میزبان آن هم‌زمان تغییر "
+"کرده‌اند.</para><para>اثرانگشت کلید %2 ارسال‌شده توسط میزبان دوردست عبارت "
+"است از:<bcode>%3</bcode>آیا مطمئنید که می‌خواهید اتصال را ادامه دهید؟</para>"
+
+#: kio_sftp.cpp:875
+#, kde-format
+msgctxt "@title:window"
+msgid "Host Verification Failure"
+msgstr "شکست در تأیید اعتبار میزبان"
+
+#: kio_sftp.cpp:877
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The authenticity of host <emphasis>%1</emphasis> cannot be "
+"established.</para><para>The %2 key fingerprint is:<bcode>%3</bcode>Are you "
+"sure you want to continue connecting?</para>"
+msgstr ""
+"<para>اصالت میزبان <emphasis>%1</emphasis> تأیید "
+"نمی‌شود.</para><para>اثرانگشت کلید %2 عبارت است از:<bcode>%3</bcode>آیا "
+"مطمئنید که می‌خواهید اتصال را ادامه دهید؟</para>"
+
+#: kio_sftp.cpp:886
+#, kde-format
+msgctxt "@action:button"
+msgid "Connect Anyway"
+msgstr "در هر حال وصل شو"
+
+#: kio_sftp.cpp:909 kio_sftp.cpp:928 kio_sftp.cpp:949 kio_sftp.cpp:962
+#: kio_sftp.cpp:1014 kio_sftp.cpp:1024
+#, kde-format
+msgid "Authentication failed."
+msgstr "احراز هویت شکست خورد."
+
+#: kio_sftp.cpp:916
+#, kde-format
+msgid ""
+"Authentication failed. The server didn't send any authentication methods"
+msgstr "احراز هویت ناموفق بود. سرور هیچ روش احراز هویتی ارسال نکرد"
+
+#: kio_sftp.cpp:971
+#, kde-format
+msgid "Please enter your username and password."
+msgstr "لطفاً نام کاربری و گذرواژهٔ خود را وارد کنید."
+
+#: kio_sftp.cpp:982
+#, kde-format
+msgid "Incorrect username or password"
+msgstr "نام کاربری یا گذرواژه نادرست است"
+
+#: kio_sftp.cpp:1031
+#, kde-format
+msgid ""
+"Unable to request the SFTP subsystem. Make sure SFTP is enabled on the "
+"server."
+msgstr ""
+"امکان درخواست زیرسیستم SFTP وجود ندارد. مطمئن شوید که SFTP روی سرور فعال "
+"است."
+
+#: kio_sftp.cpp:1036
+#, kde-format
+msgid "Could not initialize the SFTP session."
+msgstr "راه‌اندازی اولیهٔ نشست SFTP ممکن نشد."
+
+#: kio_sftp.cpp:1040
+#, kde-format
+msgid "Successfully connected to %1"
+msgstr "اتصال به %1 با موفقیت برقرار شد"
+
+#: kio_sftp.cpp:1097
+#, kde-format
+msgid "Invalid sftp context"
+msgstr "بستر (context) نامعتبر sftp"
+
+#: kio_sftp.cpp:1646
+#, kde-format
+msgid ""
+"Could not change permissions for\n"
+"%1"
+msgstr ""
+"امکان تغییر مجوزها وجود ندارد برای:\n"
+"%1"

@@ -1,0 +1,196 @@
+# translation of kwatchgnupg.po to Persian
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwatchgnupg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 23:38+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: aboutdata.cpp:23
+msgid "Steffen Hansen"
+msgstr "Steffen Hansen"
+
+#: aboutdata.cpp:23
+msgid "Original Author"
+msgstr "پدیدآور اصلی"
+
+#: aboutdata.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "GnuPG Log Viewer"
+msgstr "نمایش‌گر گزارش‌های GnuPG"
+
+#: aboutdata.cpp:30
+#, kde-format
+msgctxt "@info"
+msgid "Viewer for GnuPG daemon and application logs"
+msgstr "نمایش‌گر گزارش‌های خدمات و برنامه‌های کاربردی GnuPG"
+
+#: aboutdata.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "© 2019-%1 g10 Code GmbH"
+msgstr "© 2019-%1 g10 Code GmbH"
+
+#: aboutdata.cpp:33
+#, kde-format
+msgid "© 2001-2004 Klarälvdalens Datakonsult AB\n"
+msgstr "© 2001-2004 Klarälvdalens Datakonsult AB\n"
+
+#: kwatchgnupgconfig.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KWatchGnuPG"
+msgstr "پیکربندی KWatchGnuPG"
+
+#: kwatchgnupgconfig.cpp:43
+#, kde-format
+msgid "Log Window"
+msgstr "پنجرهٔ گزارش"
+
+#: kwatchgnupgconfig.cpp:55
+#, kde-format
+msgctxt "history size spinbox suffix"
+msgid "%v line"
+msgid_plural "%v lines"
+msgstr[0] "%v سطر"
+msgstr[1] "%v سطر"
+
+#: kwatchgnupgconfig.cpp:56
+#, kde-format
+msgid "unlimited"
+msgstr "نامحدود"
+
+#: kwatchgnupgconfig.cpp:57
+#, kde-format
+msgctxt "@label:textbox"
+msgid "&History size:"
+msgstr "اندازهٔ تاریخچه:"
+
+#: kwatchgnupgconfig.cpp:61
+#, kde-format
+msgctxt "@action:button"
+msgid "Set &Unlimited"
+msgstr "تنظیم روی نامحدود"
+
+#: kwatchgnupgmainwin.cpp:69
+#, kde-format
+msgid "[%1] Log cleared"
+msgstr "[%1] گزارش پاک شد"
+
+#: kwatchgnupgmainwin.cpp:76
+#, kde-format
+msgid "C&lear History"
+msgstr "پاک‌کردن تاریخچه"
+
+#: kwatchgnupgmainwin.cpp:105
+#, kde-format
+msgid "[%1] Log stopped"
+msgstr "[%1] گزارش متوقف شد"
+
+#: kwatchgnupgmainwin.cpp:110
+#, kde-format
+msgid ""
+"The watchgnupg logging program could not be found.\n"
+"Please make sure that watchgnupg is installed."
+msgstr ""
+"برنامهٔ گزارش‌گیری watchgnupg پیدا نشد.\n"
+"لطفاً مطمئن شوید که watchgnupg نصب شده است."
+
+#: kwatchgnupgmainwin.cpp:112 kwatchgnupgmainwin.cpp:125
+#, kde-format
+msgctxt "[<timestamp>] Failed to start <path_of_watchgnupg>"
+msgid "[%1] Failed to start %2"
+msgstr "[%1] راه‌اندازی %2 ناموفق بود"
+
+#: kwatchgnupgmainwin.cpp:123
+#, kde-format
+msgid ""
+"The watchgnupg logging process could not be started.\n"
+"Please make sure that watchgnupg is installed properly."
+msgstr ""
+"فرایند گزارش‌گیری watchgnupg راه‌اندازی نشد.\n"
+"لطفاً مطمئن شوید که watchgnupg به‌درستی نصب شده است."
+
+#: kwatchgnupgmainwin.cpp:131
+#, kde-format
+msgid "[%1] Log started"
+msgstr "[%1] گزارش آغاز شد"
+
+#: kwatchgnupgmainwin.cpp:140
+#, kde-format
+msgid ""
+"The watchgnupg logging process died.\n"
+"Do you want to try to restart it?"
+msgstr ""
+"فرایند گزارش‌گیری watchgnupg متوقف شد.\n"
+"آیا می‌خواهید راه‌اندازی دوبارهٔ آن را امتحان کنید؟"
+
+#: kwatchgnupgmainwin.cpp:142
+#, kde-format
+msgctxt "@action:button"
+msgid "Try Restart"
+msgstr "تلاش برای راه‌اندازی مجدد"
+
+#: kwatchgnupgmainwin.cpp:143
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Try"
+msgstr "تلاش نشود"
+
+#: kwatchgnupgmainwin.cpp:145
+#, kde-format
+msgid "====== Restarting logging process ====="
+msgstr "====== در حال راه‌اندازی مجدد فرایند گزارش‌گیری ====="
+
+#: kwatchgnupgmainwin.cpp:149
+#, kde-format
+msgid ""
+"The watchgnupg logging process is not running.\n"
+"This log window is unable to display any useful information."
+msgstr ""
+"فرایند گزارش‌گیری watchgnupg در حال اجرا نیست.\n"
+"این پنجرهٔ گزارش قادر به نمایش اطلاعات مفیدی نیست."
+
+#: kwatchgnupgmainwin.cpp:173
+#, kde-format
+msgid "Save Log to File"
+msgstr "ذخیرهٔ گزارش در پرونده"
+
+#: kwatchgnupgmainwin.cpp:181
+#, kde-format
+msgid "Could not save file %1: %2"
+msgstr "امکان ذخیرهٔ پروندهٔ %1 وجود ندارد: %2"
+
+#. i18n: ectx: Menu (file)
+#: kwatchgnupgui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "پرونده"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kwatchgnupgui.rc:13
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوارابزار اصلی"

@@ -1,0 +1,1127 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the pimdataexporter package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: pimdataexporter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-11 00:52+0000\n"
+"PO-Revision-Date: 2026-10-16 01:29+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: console/main.cpp:27 console/main.cpp:29
+#, kde-format
+msgid "PIM Data Exporter Console"
+msgstr "کنسول صادرکننده داده‌های PIM"
+
+#: console/main.cpp:31
+#, kde-format
+msgid "Copyright © 2015-%1 pimdataexporter authors"
+msgstr "حق نشر © 2015-%1 پدیدآورندگان pimdataexporter"
+
+#: console/main.cpp:32 gui/pimdatacommandlineoption.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: console/main.cpp:32 gui/pimdatacommandlineoption.cpp:45
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: console/main.cpp:33
+#, kde-format
+msgctxt "@info:shell"
+msgid "File to log information to."
+msgstr "پرونده‌ای که اطلاعات در آن ثبت شود."
+
+#: console/main.cpp:36
+#, kde-format
+msgctxt "@info:shell"
+msgid "Template file to define what data, settings to import or export."
+msgstr ""
+"پرونده الگو برای تعیین این‌که کدام داده‌ها و تنظیمات وارد یا صادر شوند."
+
+#: console/main.cpp:39
+#, kde-format
+msgctxt "@info:shell"
+msgid "Import the given file."
+msgstr "وارد کردن پرونده داده‌شده."
+
+#: console/main.cpp:41
+#, kde-format
+msgctxt "@info:shell"
+msgid "Export the given file."
+msgstr "صادر کردن پرونده داده‌شده."
+
+#: core/abstractimportexportjob.cpp:58
+#, kde-format
+msgid "Task Canceled"
+msgstr "تکلیف لغو شد"
+
+#: core/abstractimportexportjob.cpp:117
+#, kde-format
+msgid "\"%1\" backup done."
+msgstr "پشتیبان‌گیری از «%1» انجام شد."
+
+#: core/abstractimportexportjob.cpp:119
+#, kde-format
+msgid "\"%1\" cannot be exported."
+msgstr "صادر کردن «%1» امکان‌پذیر نیست."
+
+#: core/abstractimportexportjob.cpp:122
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "«%1» وجود ندارد."
+
+#: core/abstractimportexportjob.cpp:269
+#, kde-format
+msgid "\"%1\" was copied."
+msgstr "«%1» کپی شد."
+
+#: core/abstractimportexportjob.cpp:274
+#, kde-format
+msgid "Restoring \"%1\"..."
+msgstr "در حال بازیابی «%1»..."
+
+#: core/abstractimportexportjob.cpp:299
+#, kde-format
+msgid "File \"%1\" cannot be copied to \"%2\"."
+msgstr "پروندهٔ «%1» نمی‌تواند در «%2» کپی شود."
+
+#: core/abstractimportexportjob.cpp:299
+#, kde-format
+msgid "Copy file"
+msgstr "کپی پرونده"
+
+#: core/abstractimportexportjob.cpp:301
+#, kde-format
+msgid "\"%1\" was restored."
+msgstr "«%1» بازیابی شد."
+
+#: core/abstractimportexportjob.cpp:385
+#: core/addressbook/importaddressbookjobinterface.cpp:232
+#: core/mail/importmailjobinterface.cpp:423
+#, kde-format
+msgid "Resources restored."
+msgstr "منابع بازیابی شدند."
+
+#: core/abstractimportexportjob.cpp:387
+#, kde-format
+msgid "No resources files found."
+msgstr "هیچ پروندهٔ منبعی یافت نشد."
+
+#: core/abstractimportexportjob.cpp:448
+#, kde-format
+msgid "Unable to copy file %1"
+msgstr "رونوشت از پروندهٔ %1 ممکن نیست"
+
+#: core/abstractimportexportjob.cpp:489
+#, kde-format
+msgid "Resource '%1' created."
+msgstr "منبع «%1» ایجاد شد."
+
+#: core/abstractimportexportjob.cpp:504
+#, kde-format
+msgid "Failed to synchronize '%1'."
+msgstr "همگام‌سازی «%1» ناموفق بود."
+
+#: core/abstractimportexportjob.cpp:509
+#, kde-format
+msgid "Resource '%1' synchronized."
+msgstr "منبع «%1» همگام‌سازی شد."
+
+#: core/abstractimportexportjob.cpp:515
+#, kde-format
+msgid "All resources synchronized."
+msgstr "همهٔ منابع همگام‌سازی شدند."
+
+#: core/abstractimportexportjob.cpp:541
+#, kde-format
+msgid "Start synchronizing..."
+msgstr "شروع همگام‌سازی..."
+
+#: core/abstractimportexportjob.cpp:578
+#, kde-format
+msgid "Directory \"%1\" added to backup file."
+msgstr "شاخهٔ «%1» به پروندهٔ پشتیبان اضافه شد."
+
+#: core/abstractimportexportjob.cpp:580
+#, kde-format
+msgid "Directory \"%1\" cannot be added to backup file."
+msgstr "نمی‌توان شاخهٔ «%1» را به پروندهٔ پشتیبان اضافه کرد."
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:29
+#, kde-format
+msgid "Start export KAddressBook settings..."
+msgstr "شروع برون‌بری تنظیمات KAddressBook..."
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:30
+#, kde-format
+msgid "Export KAddressBook settings"
+msgstr "برون‌ریزی تنظیمات KAddressBook"
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:43
+#: core/alarm/exportalarmjobinterface.cpp:84
+#: core/calendar/exportcalendarjobinterface.cpp:96
+#: core/mail/exportmailjobinterface.cpp:653
+#, kde-format
+msgid "Backing up resources..."
+msgstr "در حال پشتیبان‌گیری از منابع..."
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:103
+#: core/alarm/exportalarmjobinterface.cpp:76
+#: core/calendar/exportcalendarjobinterface.cpp:75
+#: core/mail/exportmailjobinterface.cpp:675
+#, kde-format
+msgid "Resources backup done."
+msgstr "پشتیبان‌گیری از منابع انجام شد."
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:110
+#: core/akregator/exportakregatorjobinterface.cpp:74
+#: core/alarm/exportalarmjobinterface.cpp:109
+#: core/calendar/exportcalendarjobinterface.cpp:228
+#: core/mail/exportmailjobinterface.cpp:169
+#, kde-format
+msgid "Backing up config..."
+msgstr "در حال پشتیبان‌گیری از پیکربندی..."
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:151
+#: core/akregator/exportakregatorjobinterface.cpp:81
+#: core/alarm/exportalarmjobinterface.cpp:135
+#: core/calendar/exportcalendarjobinterface.cpp:248
+#: core/mail/exportmailjobinterface.cpp:537
+#, kde-format
+msgid "Config backup done."
+msgstr "پشتیبان‌گیری از پیکربندی انجام شد."
+
+#: core/addressbook/importaddressbookjobinterface.cpp:42
+#, kde-format
+msgid "Starting to import KAddressBook settings..."
+msgstr "شروع درون‌ریزی تنظیمات KAddressBook..."
+
+#: core/addressbook/importaddressbookjobinterface.cpp:44
+#, kde-format
+msgid "Import KAddressBook settings"
+msgstr "درون‌ریزی تنظیمات KAddressBook"
+
+#: core/addressbook/importaddressbookjobinterface.cpp:93
+#: core/akregator/importakregatorjobinterface.cpp:95
+#: core/alarm/importalarmjobinterface.cpp:83
+#: core/calendar/importcalendarjobinterface.cpp:91
+#, kde-format
+msgid "Restore configs..."
+msgstr "بازیابی پیکربندی‌ها..."
+
+#: core/addressbook/importaddressbookjobinterface.cpp:110
+#: core/akregator/importakregatorjobinterface.cpp:101
+#: core/alarm/importalarmjobinterface.cpp:99
+#: core/calendar/importcalendarjobinterface.cpp:228
+#: core/mail/importmailjobinterface.cpp:861
+#, kde-format
+msgid "Config restored."
+msgstr "پیکربندی بازیابی شد."
+
+#: core/addressbook/importaddressbookjobinterface.cpp:163
+#: core/addressbook/importaddressbookjobinterface.cpp:164
+#: core/alarm/importalarmjobinterface.cpp:115
+#: core/alarm/importalarmjobinterface.cpp:116
+#: core/calendar/importcalendarjobinterface.cpp:281
+#: core/calendar/importcalendarjobinterface.cpp:282
+#: core/mail/importmailjobinterface.cpp:198
+#: core/mail/importmailjobinterface.cpp:199
+#, kde-format
+msgid "Restore resources..."
+msgstr "بازیابی منابع..."
+
+#: core/akregator/exportakregatorjobinterface.cpp:26
+#, kde-format
+msgid "Start export Akregator settings..."
+msgstr "شروع برون‌بری تنظیمات Akregator..."
+
+#: core/akregator/exportakregatorjobinterface.cpp:27
+#, kde-format
+msgid "Export Akregator settings"
+msgstr "برون‌بری تنظیمات Akregator"
+
+#: core/akregator/exportakregatorjobinterface.cpp:89
+#, kde-format
+msgid "Backing up data..."
+msgstr "در حال پشتیبان‌گیری از داده‌ها..."
+
+#: core/akregator/exportakregatorjobinterface.cpp:96
+#, kde-format
+msgid "\"%1\" directory cannot be added to backup file."
+msgstr "پوشهٔ «%1» را نمی‌توان به پروندهٔ پشتیبان اضافه کرد."
+
+#: core/akregator/exportakregatorjobinterface.cpp:99
+#, kde-format
+msgid "Data backup done."
+msgstr "پشتیبان‌گیری از داده‌ها انجام شد."
+
+#: core/akregator/importakregatorjobinterface.cpp:31
+#, kde-format
+msgid "Starting to import Akregator settings..."
+msgstr "شروع درون‌ریزی تنظیمات Akregator..."
+
+#: core/akregator/importakregatorjobinterface.cpp:34
+#, kde-format
+msgid "Import Akregator settings"
+msgstr "درون‌ریزی تنظیمات Akregator"
+
+#: core/akregator/importakregatorjobinterface.cpp:108
+#, kde-format
+msgid "Restore data..."
+msgstr "بازیابی داده‌ها..."
+
+#: core/akregator/importakregatorjobinterface.cpp:114
+#, kde-format
+msgid "Data restored."
+msgstr "داده‌ها بازیابی شدند."
+
+#: core/alarm/exportalarmjobinterface.cpp:28
+#, kde-format
+msgid "Start export KAlarm settings..."
+msgstr "شروع برون‌بری تنظیمات KAlarm..."
+
+#: core/alarm/exportalarmjobinterface.cpp:29
+#, kde-format
+msgid "Export KAlarm settings"
+msgstr "برون‌بری تنظیمات KAlarm"
+
+#: core/alarm/importalarmjobinterface.cpp:33
+#, kde-format
+msgid "Starting to import KAlarm settings..."
+msgstr "در حال شروع درون‌ریزی تنظیمات KAlarm..."
+
+#: core/alarm/importalarmjobinterface.cpp:34
+#, kde-format
+msgid "Import KAlarm settings"
+msgstr "درون‌ریزی تنظیمات KAlarm"
+
+#: core/archivestorage.cpp:43
+#, kde-format
+msgid "Archive cannot be opened in write mode."
+msgstr "بایگانی در حالت نوشتن باز نمی‌شود."
+
+#: core/archivestorage.cpp:45 core/utils.cpp:134
+#: gui/dialog/showarchivestructuredialog.cpp:185
+#, kde-format
+msgid "Archive cannot be opened in read mode."
+msgstr "بایگانی در حالت خواندن باز نمی‌شود."
+
+#: core/backupresourcefilejobbase.cpp:50
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "«%1» یک پرونده نیست."
+
+#: core/backupresourcefilejobbase.cpp:56 core/backupresourcefilejobbase.cpp:63
+#: core/pimdatabackupthread.cpp:54 core/storeresourcejob.cpp:59
+#, kde-format
+msgid "\"%1\" was backed up."
+msgstr "از «%1» پشتیبان گرفته شد."
+
+#: core/backupresourcefilejobbase.cpp:58 core/pimdatabackupthread.cpp:56
+#: core/storeresourcejob.cpp:61
+#, kde-format
+msgid "\"%1\" file cannot be added to backup file."
+msgstr "پروندهٔ «%1» را نمی‌توان به پروندهٔ پشتیبان اضافه کرد."
+
+#: core/calendar/exportcalendarjobinterface.cpp:82
+#, kde-format
+msgid "Start export KOrganizer settings..."
+msgstr "شروع برون‌بری تنظیمات KOrganizer..."
+
+#: core/calendar/exportcalendarjobinterface.cpp:83
+#, kde-format
+msgid "Export KOrganizer settings"
+msgstr "برون‌بری تنظیمات KOrganizer"
+
+#: core/calendar/importcalendarjobinterface.cpp:36
+#, kde-format
+msgid "Starting to import KOrganizer settings..."
+msgstr "شروع درون‌ریزی تنظیمات KOrganizer..."
+
+#: core/calendar/importcalendarjobinterface.cpp:38
+#, kde-format
+msgid "Import KOrganizer settings"
+msgstr "درون‌ریزی تنظیمات KOrganizer"
+
+#: core/mail/exportmailjobinterface.cpp:45
+#, kde-format
+msgid "Start export KMail settings..."
+msgstr "شروع برون‌ریزی تنظیمات KMail..."
+
+#: core/mail/exportmailjobinterface.cpp:46
+#, kde-format
+msgid "Export KMail settings"
+msgstr "برون‌ریزی تنظیمات KMail"
+
+#: core/mail/exportmailjobinterface.cpp:114
+#, kde-format
+msgid "Backing up Folder Attributes..."
+msgstr "پشتیبان‌گیری از ویژگی‌های پوشه..."
+
+#: core/mail/exportmailjobinterface.cpp:116
+#, kde-format
+msgid "Backing up Mails..."
+msgstr "پشتیبان‌گیری از رایانامه‌ها..."
+
+#: core/mail/exportmailjobinterface.cpp:117
+#, kde-format
+msgid "Start export resource..."
+msgstr "شروع برون‌ریزی منبع..."
+
+#: core/mail/exportmailjobinterface.cpp:125
+#, kde-format
+msgid "Backing up transports..."
+msgstr "پشتیبان‌گیری از راه‌های انتقال..."
+
+#: core/mail/exportmailjobinterface.cpp:130
+#: core/mail/exportmailjobinterface.cpp:142
+#, kde-format
+msgid "Transports backup done."
+msgstr "پشتیبان‌گیری از راه‌های انتقال انجام شد."
+
+#: core/mail/exportmailjobinterface.cpp:144
+#, kde-format
+msgid "Transport file cannot be added to backup file."
+msgstr "پروندهٔ راه‌های انتقال را نمی‌توان به پروندهٔ پشتیبان اضافه کرد."
+
+#: core/mail/exportmailjobinterface.cpp:542
+#, kde-format
+msgid "Backing up identity..."
+msgstr "در حال پشتیبان‌گیری از هویت..."
+
+#: core/mail/exportmailjobinterface.cpp:580
+#, kde-format
+msgid "vCard file \"%1\" cannot be saved."
+msgstr "پروندهٔ vCard «%1» ذخیره نمی‌شود."
+
+#: core/mail/exportmailjobinterface.cpp:593
+#, kde-format
+msgid "Identity backup done."
+msgstr "پشتیبان‌گیری از هویت انجام شد."
+
+#: core/mail/exportmailjobinterface.cpp:595
+#, kde-format
+msgid "Identity file cannot be added to backup file."
+msgstr "پروندهٔ هویت به پروندهٔ پشتیبان افزوده نمی‌شود."
+
+#: core/mail/exportmailjobinterfaceimpl.cpp:139
+#, kde-format
+msgid "Filters backup done."
+msgstr "پشتیبان‌گیری از صافی‌ها انجام شد."
+
+#: core/mail/exportmailjobinterfaceimpl.cpp:141
+#, kde-format
+msgid "Filters cannot be exported."
+msgstr "صافی‌ها برون‌ریزی نمی‌شوند."
+
+#: core/mail/exportmailjobinterfaceimpl.cpp:163
+#, kde-format
+msgid "Backing up Folder Attributes done."
+msgstr "پشتیبان‌گیری از مشخصه‌های پوشه انجام شد."
+
+#: core/mail/exportmailjobinterfaceimpl.cpp:167
+#, kde-format
+msgid "Folder Attributes cannot be exported."
+msgstr "مشخصه‌های پوشه برون‌ریزی نمی‌شوند."
+
+#: core/mail/importmailjobinterface.cpp:42
+#, kde-format
+msgid "Starting to import KMail settings..."
+msgstr "در حال آغاز درون‌ریزی تنظیمات KMail..."
+
+#: core/mail/importmailjobinterface.cpp:43
+#, kde-format
+msgid "Import KMail settings"
+msgstr "درون‌ریزی تنظیمات KMail"
+
+#: core/mail/importmailjobinterface.cpp:168
+#: core/mail/importmailjobinterface.cpp:174
+#, kde-format
+msgid "Restore transports..."
+msgstr "بازیابی روش‌های ارسال..."
+
+#: core/mail/importmailjobinterface.cpp:172
+#, kde-format
+msgid "mailtransports file could not be found in the archive."
+msgstr "پروندهٔ mailtransports در بایگانی یافت نشد."
+
+#: core/mail/importmailjobinterface.cpp:187
+#, kde-format
+msgid "Transports restored."
+msgstr "روش‌های ارسال بازیابی شدند."
+
+#: core/mail/importmailjobinterface.cpp:189
+#, kde-format
+msgid "Failed to restore transports file."
+msgstr "بازیابی پروندهٔ روش‌های ارسال ناموفق بود."
+
+#: core/mail/importmailjobinterface.cpp:435
+#: core/mail/importmailjobinterface.cpp:437
+#, kde-format
+msgid "Restore mails..."
+msgstr "بازیابی نامه‌ها..."
+
+#: core/mail/importmailjobinterface.cpp:554
+#, kde-format
+msgid "Mails restored."
+msgstr "نامه‌ها بازیابی شدند."
+
+#: core/mail/importmailjobinterface.cpp:561
+#, kde-format
+msgid "Restore config..."
+msgstr "بازیابی پیکربندی..."
+
+#: core/mail/importmailjobinterface.cpp:564
+#, kde-format
+msgid "filters file could not be found in the archive."
+msgstr "پروندهٔ فیلترها در بایگانی یافت نشد."
+
+#: core/mail/importmailjobinterface.cpp:568
+#, kde-format
+msgid "Restore filters..."
+msgstr "بازیابی فیلترها..."
+
+#: core/mail/importmailjobinterface.cpp:617
+#, kde-format
+msgid "Filters restored."
+msgstr "فیلترها بازیابی شدند."
+
+#: core/mail/importmailjobinterface.cpp:893
+#: core/mail/importmailjobinterface.cpp:898
+#, kde-format
+msgid "Restoring identities..."
+msgstr "در حال بازیابی هویت‌ها..."
+
+#: core/mail/importmailjobinterface.cpp:896
+#, kde-format
+msgid "emailidentities file could not be found in the archive."
+msgstr "پروندهٔ emailidentities در بایگانی یافت نشد."
+
+#: core/mail/importmailjobinterface.cpp:957
+#, kde-format
+msgid "Identities restored."
+msgstr "هویت‌ها بازیابی شدند."
+
+#: core/mail/importmailjobinterface.cpp:959
+#, kde-format
+msgid "Failed to restore identity file."
+msgstr "بازیابی پروندهٔ هویت ناموفق بود."
+
+#: core/mail/importmailjobinterface.cpp:1278
+#, kde-format
+msgid "\"%1\" migration done."
+msgstr "مهاجرت «%1» انجام شد."
+
+#: core/mail/importmailjobinterfaceimpl.cpp:38
+#, kde-format
+msgid "Restoring folder attributes..."
+msgstr "در حال بازیابی مشخصه‌های پوشه..."
+
+#: core/mail/importmailjobinterfaceimpl.cpp:44
+#, kde-format
+msgid "Restoring Folder Attributes done."
+msgstr "بازیابی مشخصه‌های پوشه انجام شد."
+
+#: core/mail/importmailjobinterfaceimpl.cpp:48
+#, kde-format
+msgid "Folder Attributes cannot be restored."
+msgstr "امکان بازیابی مشخصه‌های پوشه وجود ندارد."
+
+#: core/pimdatabackuprestore.cpp:78 core/pimdatabackuprestore.cpp:241
+#, kde-format
+msgid "No data selected."
+msgstr "هیچ داده‌ای انتخاب نشده است."
+
+#: core/pimdatabackuprestore.cpp:84 core/pimdatabackuprestore.cpp:247
+#, kde-format
+msgid "Unable to open file \"%1\"."
+msgstr "باز کردن پروندهٔ «%1» ممکن نیست."
+
+#: core/pimdatabackuprestore.cpp:93
+#, kde-format
+msgid "Starting to backup data in '%1'"
+msgstr "شروع پشتیبان‌گیری از داده‌ها در «%1»"
+
+#: core/pimdatabackuprestore.cpp:176
+#, kde-format
+msgid "Backup in '%1' done."
+msgstr "پشتیبان‌گیری در «%1» انجام شد."
+
+#: core/pimdatabackuprestore.cpp:266
+#, kde-format
+msgid "Starting to restore data from '%1'"
+msgstr "شروع بازیابی داده‌ها از «%1»"
+
+#: core/pimdatabackuprestore.cpp:274
+#, kde-format
+msgid "Restoring data from '%1' done."
+msgstr "بازیابی داده‌ها از «%1» انجام شد."
+
+#: core/pimdatabackupthread.cpp:37
+#, kde-format
+msgid "Impossible to open archive file."
+msgstr "امکان باز کردن پروندهٔ آرشیو وجود ندارد."
+
+#: core/pimdatabackupthread.cpp:44
+#, kde-format
+msgid "Impossible to backup \"%1\"."
+msgstr "امکان پشتیبان‌گیری از «%1» وجود ندارد."
+
+#: core/resourceconverterbase.cpp:197 core/resourceconverterbase.cpp:206
+#, kde-format
+msgid "Resource file \"%1\" cannot be added to backup file."
+msgstr "پروندهٔ منبع «%1» نمی‌تواند به پروندهٔ پشتیبان اضافه شود."
+
+#: core/resourceconverterbase.cpp:209
+#, kde-format
+msgid "Resource config file \"%1\" doesn't exist."
+msgstr "پروندهٔ پیکربندی منبع «%1» وجود ندارد."
+
+#: core/utils.cpp:181
+#, kde-format
+msgid "KMail"
+msgstr "کی‌میل"
+
+#: core/utils.cpp:183
+#, kde-format
+msgid "KAddressBook"
+msgstr "دفترچه نشانی کی‌دی‌ای"
+
+#: core/utils.cpp:185
+#, kde-format
+msgid "KAlarm"
+msgstr "KAlarm"
+
+#: core/utils.cpp:187
+#, kde-format
+msgid "KOrganizer"
+msgstr "KOrganizer"
+
+#: core/utils.cpp:189
+#, kde-format
+msgid "Akregator"
+msgstr "Akregator"
+
+#: core/utils.cpp:203
+#, kde-format
+msgid "Identity"
+msgstr "هویت"
+
+#: core/utils.cpp:205
+#, kde-format
+msgid "Mails"
+msgstr "نامه‌ها"
+
+#: core/utils.cpp:207
+#, kde-format
+msgid "Mail Transport"
+msgstr "انتقال نامه"
+
+#: core/utils.cpp:209
+#, kde-format
+msgid "Resources"
+msgstr "منابع"
+
+#: core/utils.cpp:211
+#, kde-format
+msgid "Config"
+msgstr "پیکربندی"
+
+#: core/utils.cpp:213
+#, kde-format
+msgid "Data"
+msgstr "داده‌ها"
+
+#: gui/dialog/backupfilestructureinfodialog.cpp:35
+#, kde-format
+msgctxt "@title:window"
+msgid "Archive File Structure"
+msgstr "ساختار پروندهٔ بایگانی"
+
+#: gui/dialog/backupfilestructureinfodialog.cpp:37
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Backup Archive Structure:"
+msgstr "ساختار بایگانی پشتیبان:"
+
+#: gui/dialog/backupfilestructureinfodialog.cpp:63
+#, kde-format
+msgid "backup-structure.txt file was not found."
+msgstr "پروندهٔ backup-structure.txt پیدا نشد."
+
+#: gui/dialog/pimdataexporterconfiguredialog.cpp:35
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure PimDataExporter"
+msgstr "پیکربندی PimDataExporter"
+
+#: gui/dialog/pimdataexporterconfiguredialog.cpp:40
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#: gui/dialog/pimdataexporterconfiguredialog.cpp:55
+#, kde-format
+msgid "User Feedback"
+msgstr "بازخورد کاربر"
+
+#: gui/dialog/selectiontypedialog.cpp:29
+#, kde-format
+msgctxt "@option:check"
+msgid "Use this template by default"
+msgstr "استفاده از این الگو به‌طور پیش‌فرض"
+
+#: gui/dialog/selectiontypedialog.cpp:30
+#, kde-format
+msgctxt "@action:button"
+msgid "Save as Template..."
+msgstr "ذخیره به‌عنوان الگو..."
+
+#: gui/dialog/selectiontypedialog.cpp:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Load Template..."
+msgstr "بارگذاری الگو..."
+
+#: gui/dialog/selectiontypedialog.cpp:33
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Type"
+msgstr "انتخاب نوع"
+
+#: gui/dialog/selectiontypedialog.cpp:54
+#: gui/dialog/synchronizeresourcedialog.cpp:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: gui/dialog/selectiontypedialog.cpp:59
+#: gui/dialog/synchronizeresourcedialog.cpp:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Unselect All"
+msgstr "لغو انتخاب همه"
+
+#: gui/dialog/showarchivestructuredialog.cpp:42
+#, kde-format
+msgctxt "@action:button"
+msgid "Extract Selected File"
+msgstr "استخراج پروندهٔ انتخاب‌شده"
+
+#: gui/dialog/showarchivestructuredialog.cpp:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Selected File"
+msgstr "باز کردن پروندهٔ انتخاب‌شده"
+
+#: gui/dialog/showarchivestructuredialog.cpp:45
+#, kde-format
+msgctxt "@title:window"
+msgid "Show Archive Content on file \"%1\""
+msgstr "نمایش محتوای بایگانی در پروندهٔ «%1»"
+
+#: gui/dialog/showarchivestructuredialog.cpp:53
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr "جست‌وجو..."
+
+#: gui/dialog/showarchivestructuredialog.cpp:56
+#, kde-format
+msgid "Save As Text..."
+msgstr "ذخیره به عنوان متن..."
+
+#: gui/dialog/showarchivestructuredialog.cpp:136
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Directory"
+msgstr "انتخاب پوشه"
+
+#: gui/dialog/showarchivestructuredialog.cpp:142
+#, kde-format
+msgid "Do you want to overwrite %1?"
+msgstr "آیا می‌خواهید %1 بازنویسی شود؟"
+
+#: gui/dialog/showarchivestructuredialog.cpp:143
+#, kde-format
+msgctxt "@title:window"
+msgid "File Already Exist"
+msgstr "پرونده از قبل وجود دارد"
+
+#: gui/dialog/showarchivestructuredialog.cpp:151
+#, kde-format
+msgid "Impossible to copy %1 in %2."
+msgstr "رونوشت از %1 در %2 امکان‌پذیر نیست."
+
+#: gui/dialog/showarchivestructuredialog.cpp:174
+#, kde-format
+msgctxt "qfiledialog filter files text"
+msgid "Text Files"
+msgstr "پرونده‌های متنی"
+
+#: gui/dialog/showarchivestructuredialog.cpp:177
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Log File"
+msgstr "برون‌ریزی پروندهٔ گزارش"
+
+#: gui/dialog/showarchivestructuredialog.cpp:185
+#, kde-format
+msgctxt "@title:window"
+msgid "Cannot open archive"
+msgstr "نمی‌توان بایگانی را باز کرد"
+
+#: gui/dialog/showarchivestructuredialog.cpp:191
+#, kde-format
+msgid "Info"
+msgstr "اطلاعات"
+
+#: gui/dialog/showarchivestructuredialog.cpp:193
+#, kde-format
+msgid "This is not pim archive."
+msgstr "این یک بایگانی pim نیست."
+
+#: gui/dialog/showarchivestructuredialog.cpp:193
+#, kde-format
+msgctxt "@title:window"
+msgid "Show information"
+msgstr "نمایش اطلاعات"
+
+#: gui/dialog/synchronizeresourcedialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Synchronize Resources"
+msgstr "همگام‌سازی منابع"
+
+#: gui/dialog/synchronizeresourcedialog.cpp:34
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"Some resources were added but data were not sync. Select resources that you "
+"want to sync:"
+msgstr ""
+"برخی منابع اضافه شدند اما داده‌ها همگام نشدند. منابعی را که می‌خواهید همگام "
+"شوند انتخاب کنید:"
+
+#: gui/importexportprogressindicatorgui.cpp:35
+#: gui/job/fullsynchronizeresourcesjob.cpp:39
+#, kde-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: gui/importexportprogressindicatorgui.cpp:66
+#, kde-format
+msgid "\"%1\" already exists. Do you want to overwrite it or merge it?"
+msgstr "«%1» از قبل وجود دارد. می‌خواهید آن را بازنویسی کنید یا ادغام؟"
+
+#: gui/importexportprogressindicatorgui.cpp:67
+#: gui/importexportprogressindicatorgui.cpp:79
+#: gui/importexportprogressindicatorgui.cpp:92
+#, kde-format
+msgctxt "@title:window"
+msgid "Restore"
+msgstr "بازیابی"
+
+#: gui/importexportprogressindicatorgui.cpp:69
+#, kde-format
+msgctxt "@action:button"
+msgid "Merge"
+msgstr "ادغام"
+
+#: gui/importexportprogressindicatorgui.cpp:78
+#, kde-format
+msgid "\"%1\" already exists. Do you want to overwrite it?"
+msgstr "«%1» از قبل وجود دارد. آیا می‌خواهید بازنویسی شود؟"
+
+#: gui/importexportprogressindicatorgui.cpp:91
+#, kde-format
+msgid "Directory \"%1\" already exists. Do you want to overwrite it?"
+msgstr "شاخهٔ «%1» از قبل وجود دارد. آیا می‌خواهید بازنویسی شود؟"
+
+#: gui/job/fullsynchronizeresourcesjob.cpp:41
+#, kde-format
+msgctxt "@title:window"
+msgid "Synchronize resources"
+msgstr "همگام‌سازی منابع"
+
+#: gui/job/fullsynchronizeresourcesjob.cpp:42
+#, kde-format
+msgid "Synchronize resources... It can take some time."
+msgstr "همگام‌سازی منابع... ممکن است کمی طول بکشد."
+
+#: gui/pimdatabackuprestoreui.cpp:27
+#, kde-format
+msgid ""
+"The archive was created by a newer version of this program. It might contain"
+" additional data which will be skipped during import. Do you want to import "
+"it?"
+msgstr ""
+"این بایگانی توسط نسخهٔ جدیدتری از این برنامه ایجاد شده است. ممکن است حاوی "
+"داده‌های اضافه‌ای باشد که هنگام درون‌ریزی نادیده گرفته می‌شوند. آیا "
+"می‌خواهید درون‌ریزی شود؟"
+
+#: gui/pimdatabackuprestoreui.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Not correct version"
+msgstr "نسخهٔ نادرست"
+
+#: gui/pimdatabackuprestoreui.cpp:30
+#, kde-format
+msgctxt "@action:button"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: gui/pimdatacommandlineoption.cpp:40 gui/pimdatacommandlineoption.cpp:42
+#, kde-format
+msgid "PIM Data Exporter"
+msgstr "صادرکنندهٔ داده‌های PIM"
+
+#: gui/pimdatacommandlineoption.cpp:44
+#, kde-format
+msgid "Copyright © 2012-%1 pimdataexporter authors"
+msgstr "حق نشر © 2012-%1 پدیدآورندگان pimdataexporter"
+
+#: gui/pimdatacommandlineoption.cpp:49
+#, kde-format
+msgid "Template file uses to define what data, settings to import or export"
+msgstr ""
+"پروندهٔ الگو برای تعیین داده‌ها و تنظیمات واردات یا صادرات استفاده می‌شود"
+
+#: gui/pimdatacommandlineoption.cpp:50
+#, kde-format
+msgctxt "@info:shell"
+msgid "Import the given file"
+msgstr "وارد کردن پروندهٔ داده‌شده"
+
+#: gui/pimdatacommandlineoption.cpp:51
+#, kde-format
+msgctxt "@info:shell"
+msgid "Export the given file"
+msgstr "صادر کردن پروندهٔ داده‌شده"
+
+#: gui/pimdatacommandlineoption.cpp:53
+#, kde-format
+msgctxt "@info:shell"
+msgid "File or url. The user will be asked whether to import or export."
+msgstr ""
+"پرونده یا نشانی وب. از کاربر دربارهٔ وارد کردن یا صادر کردن سؤال خواهد شد."
+
+#: gui/pimdatacommandlineoption.cpp:55
+#, kde-format
+msgctxt "@info:shell"
+msgid "Lists the available options for user feedback"
+msgstr "گزینه‌های موجود برای بازخورد کاربر را فهرست می‌کند"
+
+#. i18n: ectx: Menu (file)
+#: gui/pimdataexporter.rc:8
+#, kde-format
+msgid "&File"
+msgstr "پرونده"
+
+#. i18n: ectx: Menu (tools)
+#: gui/pimdataexporter.rc:21
+#, kde-format
+msgid "&Tools"
+msgstr "ابزارها"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: gui/pimdataexporter.rc:28
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#: gui/pimdataexporterwindow.cpp:169
+#, kde-format
+msgid "Full sync starts..."
+msgstr "همگام‌سازی کامل آغاز می‌شود..."
+
+#: gui/pimdataexporterwindow.cpp:199
+#, kde-format
+msgid "Full sync finished."
+msgstr "همگام‌سازی کامل به پایان رسید."
+
+#: gui/pimdataexporterwindow.cpp:206
+#, kde-format
+msgid "Full sync for \"%1\" done."
+msgstr "همگام‌سازی کامل برای «%1» انجام شد."
+
+#: gui/pimdataexporterwindow.cpp:211
+#, kde-format
+msgid "Full sync for \"%1\" failed."
+msgstr "همگام‌سازی کامل برای «%1» ناموفق بود."
+
+#: gui/pimdataexporterwindow.cpp:217
+#, kde-format
+msgid ""
+"For restoring data, you must use \"pimdataexporter\". Be careful as it can "
+"overwrite your existing settings and data."
+msgstr ""
+"برای بازیابی داده‌ها، باید از «pimdataexporter» استفاده کنید. احتیاط کنید، "
+"زیرا ممکن است تنظیمات و داده‌های موجود شما بازنویسی شوند."
+
+#: gui/pimdataexporterwindow.cpp:219 gui/pimdataexporterwindow.cpp:325
+#: gui/pimdataexporterwindow.cpp:402
+#, kde-format
+msgctxt "@title:window"
+msgid "Backup"
+msgstr "پشتیبان‌گیری"
+
+#: gui/pimdataexporterwindow.cpp:246
+#, kde-format
+msgid "Export Data..."
+msgstr "برون‌بری داده‌ها..."
+
+#: gui/pimdataexporterwindow.cpp:251
+#, kde-format
+msgid "Import Data..."
+msgstr "درون‌ریزی داده‌ها..."
+
+#: gui/pimdataexporterwindow.cpp:256
+#, kde-format
+msgid "Save log..."
+msgstr "ذخیرهٔ گزارش..."
+
+#: gui/pimdataexporterwindow.cpp:259
+#, kde-format
+msgid "Show Archive Structure Information..."
+msgstr "نمایش اطلاعات ساختار بایگانی..."
+
+#: gui/pimdataexporterwindow.cpp:262
+#, kde-format
+msgid "Show Archive Information..."
+msgstr "نمایش اطلاعات بایگانی..."
+
+#: gui/pimdataexporterwindow.cpp:266
+#, kde-format
+msgid "Show Information on current Archive..."
+msgstr "نمایش اطلاعات دربارهٔ بایگانی فعلی..."
+
+#: gui/pimdataexporterwindow.cpp:303
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Archive"
+msgstr "انتخاب بایگانی"
+
+#: gui/pimdataexporterwindow.cpp:303
+#, kde-format
+msgid "Zip file"
+msgstr "پروندهٔ Zip"
+
+#: gui/pimdataexporterwindow.cpp:315
+#, kde-format
+msgid "Log is empty."
+msgstr "گزارش خالی است."
+
+#: gui/pimdataexporterwindow.cpp:315
+#, kde-format
+msgctxt "@title:window"
+msgid "Save log"
+msgstr "ذخیرهٔ گزارش"
+
+#: gui/pimdataexporterwindow.cpp:319
+#, kde-format
+msgid "HTML Files (*.html)"
+msgstr "پرونده‌های HTML ‏(*.html)"
+
+#: gui/pimdataexporterwindow.cpp:325
+#, kde-format
+msgid "Please quit all kdepim applications before backing up your data."
+msgstr ""
+"لطفاً پیش از پشتیبان‌گیری از داده‌های خود، از همهٔ برنامه‌های kdepim خارج "
+"شوید."
+
+#: gui/pimdataexporterwindow.cpp:347
+#, kde-format
+msgid "Create backup"
+msgstr "ایجاد پشتیبان"
+
+#: gui/pimdataexporterwindow.cpp:349
+#, kde-format
+msgid "Zip file (*.zip)"
+msgstr "پروندهٔ Zip ‏(*.zip)"
+
+#: gui/pimdataexporterwindow.cpp:359
+#, kde-format
+msgid "Backup in progress..."
+msgstr "پشتیبان‌گیری در حال انجام است..."
+
+#: gui/pimdataexporterwindow.cpp:401
+#, kde-format
+msgid ""
+"Before restoring data you must close all kdepim applications. Do you want to"
+" continue?"
+msgstr ""
+"پیش از بازیابی داده‌ها باید همهٔ برنامه‌های kdepim را ببندید. آیا مایل به "
+"ادامه هستید؟"
+
+#: gui/pimdataexporterwindow.cpp:414
+#, kde-format
+msgid "Restore backup"
+msgstr "بازیابی پشتیبان"
+
+#: gui/pimdataexporterwindow.cpp:416
+#, kde-format
+msgid "Zip File"
+msgstr "پروندهٔ Zip"
+
+#: gui/pimdataexporterwindow.cpp:448
+#, kde-format
+msgid "Restore in progress..."
+msgstr "در حال بازیابی..."
+
+#: gui/trayicon/pimdatatrayicon.cpp:15
+#, kde-format
+msgid "Pim Data Exporter"
+msgstr "صادرکنندهٔ داده‌های پیم"
+
+#: gui/widgets/pimdataexporterconfigurewidget.cpp:16
+#, kde-format
+msgctxt "@option:check"
+msgid "Always Override File"
+msgstr "همیشه بازنویسی پرونده"
+
+#: gui/widgets/pimdataexporterconfigurewidget.cpp:17
+#, kde-format
+msgctxt "@option:check"
+msgid "Always Override Directory"
+msgstr "همیشه بازنویسی شاخه"
+
+#: gui/widgets/pimdataexporterconfigurewidget.cpp:18
+#, kde-format
+msgctxt "@option:check"
+msgid "Always Merge Config File"
+msgstr "همیشه ادغام پروندهٔ پیکربندی"
+
+#: gui/widgets/pimdataexporterconfigurewidget.cpp:23
+#, kde-format
+msgid "Import"
+msgstr "وارد کردن"
+
+#: gui/widgets/selectiontypetreewidget.cpp:334
+#, kde-format
+msgid "Template Files (*.xml)"
+msgstr "پرونده‌های الگو (‎*.xml)"

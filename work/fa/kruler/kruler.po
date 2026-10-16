@@ -1,0 +1,267 @@
+# translation of kruler.po to Persian
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kruler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-16 00:35+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AlwaysOnTop)
+#: cfg_advanced.ui:20
+#, kde-format
+msgid ""
+"If this option is enabled, the window is being kept above other windows."
+msgstr "اگر این گزینه فعال باشد، پنجره بالای سایر پنجره‌ها نگه داشته می‌شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysOnTop)
+#: cfg_advanced.ui:23
+#, kde-format
+msgid "Always on top"
+msgstr "همیشه در بالا"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cfg_appearance.ui:17
+#, kde-format
+msgid "Background color:"
+msgstr "رنگ پس‌زمینه:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: cfg_appearance.ui:27
+#, kde-format
+msgid "Font:"
+msgstr "قلم:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TrayIcon)
+#: cfg_appearance.ui:37
+#, kde-format
+msgid "Show tray icon"
+msgstr "نمایش نشانک سینی"
+
+#: klineal.cpp:85
+#, kde-format
+msgctxt "@title:window"
+msgid "KRuler"
+msgstr "KRuler"
+
+#: klineal.cpp:88
+#, kde-format
+msgid ""
+"This is a tool to measure pixel distances on the screen. It is useful for "
+"working on layouts of dialogs, web pages etc."
+msgstr ""
+"این ابزاری برای اندازه‌گیری فاصله‌ها بر حسب پیکسل روی صفحه است. این ابزار "
+"برای کار روی چیدمان محاوره‌ها، صفحات وب و غیره مفید است."
+
+#: klineal.cpp:108
+#, kde-format
+msgid "Rotate"
+msgstr "چرخش"
+
+#: klineal.cpp:110
+#, kde-format
+msgid "&Scale"
+msgstr "مقیاس"
+
+#: klineal.cpp:111 klineal.cpp:331
+#, kde-format
+msgid "Right to Left"
+msgstr "راست به چپ"
+
+#: klineal.cpp:112
+#, kde-format
+msgid "Center Origin"
+msgstr "مبدأ در مرکز"
+
+#: klineal.cpp:114
+#, kde-format
+msgid "Offset..."
+msgstr "انحراف..."
+
+#: klineal.cpp:117
+#, kde-format
+msgid "Percentage"
+msgstr "درصد"
+
+#: klineal.cpp:124
+#, kde-format
+msgid "O&pacity"
+msgstr "کدر بودن"
+
+#: klineal.cpp:331
+#, kde-format
+msgid "Left to Right"
+msgstr "چپ به راست"
+
+#: klineal.cpp:333
+#, kde-format
+msgid "Bottom to Top"
+msgstr "پایین به بالا"
+
+#: klineal.cpp:333
+#, kde-format
+msgid "Top to Bottom"
+msgstr "بالا به پایین"
+
+#: klineal.cpp:376
+#, kde-format
+msgctxt "@title:window"
+msgid "Scale Offset"
+msgstr "انحراف مقیاس"
+
+#: klineal.cpp:376
+#, kde-format
+msgid "Offset:"
+msgstr "انحراف:"
+
+#: klineal.cpp:405
+#, kde-format
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: klineal.cpp:413
+#, kde-format
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: klineal.cpp:504
+#, kde-format
+msgid "%1 px"
+msgstr "%1 px"
+
+#: klineal.cpp:511
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#. i18n: ectx: label, entry (BgColor), group (StoredSettings)
+#: kruler.kcfg:11
+#, kde-format
+msgid "Background color of the ruler."
+msgstr "رنگ پس‌زمینهٔ خط‌کش."
+
+#. i18n: ectx: label, entry (Length), group (StoredSettings)
+#: kruler.kcfg:15
+#, kde-format
+msgid "Length of the ruler."
+msgstr "طول خط‌کش."
+
+#. i18n: ectx: label, entry (ScaleFont), group (StoredSettings)
+#: kruler.kcfg:19
+#, kde-format
+msgid "Font of the text on the ruler scale."
+msgstr "فونت متن روی درجه‌بندی خط‌کش."
+
+#. i18n: ectx: label, entry (Horizontal), group (StoredSettings)
+#: kruler.kcfg:23
+#, kde-format
+msgid "Horizontal ruler"
+msgstr "خط‌کش افقی"
+
+#. i18n: ectx: label, entry (LeftToRight), group (StoredSettings)
+#: kruler.kcfg:27
+#, kde-format
+msgid "Direction of the ruler"
+msgstr "جهت خط‌کش"
+
+#. i18n: ectx: label, entry (Offset), group (StoredSettings)
+#: kruler.kcfg:31
+#, kde-format
+msgid "Offset of the origin"
+msgstr "افست مبدأ"
+
+#. i18n: ectx: label, entry (RelativeScale), group (StoredSettings)
+#: kruler.kcfg:35
+#, kde-format
+msgid "Is the scale of the ruler relative (percentage)"
+msgstr "آیا مقیاس خط‌کش نسبی (درصدی) است"
+
+#. i18n: ectx: label, entry (TrayIcon), group (StoredSettings)
+#: kruler.kcfg:39
+#, kde-format
+msgid "Is a tray icon used"
+msgstr "آیا از نماد سینی سیستم استفاده شود"
+
+#. i18n: ectx: label, entry (Opacity), group (StoredSettings)
+#: kruler.kcfg:43
+#, kde-format
+msgid "Opacity of the window"
+msgstr "میزان کدر بودن پنجره"
+
+#. i18n: ectx: label, entry (AlwaysOnTop), group (StoredSettings)
+#: kruler.kcfg:47
+#, kde-format
+msgid "Is always on top"
+msgstr "همیشه رو باشد"
+
+#: krulersystemtray.cpp:19 main.cpp:24
+#, kde-format
+msgid "KDE Screen Ruler"
+msgstr "خط‌کش صفحهٔ نمایش KDE"
+
+#: main.cpp:26
+#, kde-format
+msgid "A screen ruler by KDE"
+msgstr "یک خط‌کش صفحهٔ نمایش از KDE"
+
+#: main.cpp:28
+#, kde-format
+msgid ""
+"(c) 2000 - 2008, Till Krech\n"
+"(c) 2009, Mathias Soeken"
+msgstr ""
+"© ۲۰۰۰ - ۲۰۰۸، Till Krech\n"
+"© ۲۰۰۹، Mathias Soeken"
+
+#: main.cpp:29
+#, kde-format
+msgid "Mathias Soeken"
+msgstr "Mathias Soeken"
+
+#: main.cpp:29
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: main.cpp:30
+#, kde-format
+msgid "Till Krech"
+msgstr "Till Krech"
+
+#: main.cpp:30
+#, kde-format
+msgid "Former Maintainer and Developer"
+msgstr "نگه‌دارنده و توسعه‌دهندهٔ پیشین"
+
+#: main.cpp:31
+#, kde-format
+msgid "Gunnstein Lye"
+msgstr "Gunnstein Lye"
+
+#: main.cpp:31
+#, kde-format
+msgid "Initial port to KDE 2"
+msgstr "پورت اولیه به KDE 2"
+
+#: main.cpp:32
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: main.cpp:32
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"

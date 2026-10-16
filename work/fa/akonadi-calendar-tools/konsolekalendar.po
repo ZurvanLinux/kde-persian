@@ -1,0 +1,593 @@
+# translation of konsolekalendar.po to Persian
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Reza Mirdamadi <mohi@ubuntu.ir>, 2012.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: konsolekalendar\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-21 00:45+0000\n"
+"PO-Revision-Date: 2026-10-15 13:07+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: konsolekalendar.cpp:78
+#, kde-format
+msgid "There are no calendars available."
+msgstr "هیچ تقویمی در دسترس نیست."
+
+#: konsolekalendar.cpp:93
+#, kde-format
+msgctxt "calendar is read-only"
+msgid "(Read only)"
+msgstr "(فقط خواندنی)"
+
+#: konsolekalendar.cpp:110 konsolekalendar.cpp:129
+#, kde-format
+msgid "Unable to create calendar %1: %2"
+msgstr "نمی‌توان تقویم %1 را ایجاد کرد: %2"
+
+#: konsolekalendar.cpp:111
+#, kde-format
+msgid "Make sure the akonadiserver is running properly."
+msgstr "مطمئن شوید که akonadiserver به درستی در حال اجرا است."
+
+#: konsolekalendar.cpp:119
+#, kde-format
+msgid "Unable to create calendar %1: DBus setDisplayName failed: %2"
+msgstr ""
+"نمی‌توان تقویم %1 را ایجاد کرد: فراخوانی setDisplayName در DBus ناموفق بود: "
+"%2"
+
+#: konsolekalendar.cpp:124
+#, kde-format
+msgid "Unable to create calendar %1: DBus setPath call failed: %2"
+msgstr ""
+"نمی‌توان تقویم %1 را ایجاد کرد: فراخوانی setPath در DBus ناموفق بود: %2"
+
+#: konsolekalendar.cpp:143
+#, kde-format
+msgid "Dry Run: Create Calendar: %1"
+msgstr "اجرای آزمایشی: ایجاد تقویم: %1"
+
+#: konsolekalendar.cpp:146
+#, kde-format
+msgid "Create Calendar: %1"
+msgstr "ایجاد تقویم: %1"
+
+#: konsolekalendar.cpp:164
+#, kde-format
+msgid "Dry Run: View Events:"
+msgstr "اجرای آزمایشی: مشاهده رویدادها:"
+
+#: konsolekalendar.cpp:178
+#, kde-format
+msgid "View Event:"
+msgstr "مشاهده رویداد:"
+
+#: konsolekalendar.cpp:314 konsolekalendaradd.cpp:189
+#: konsolekalendarchange.cpp:108 konsolekalendarchange.cpp:124
+#: konsolekalendardelete.cpp:73
+#, kde-format
+msgid "  What:  %1"
+msgstr "  عنوان:  %1"
+
+#: konsolekalendar.cpp:316 konsolekalendaradd.cpp:191
+#: konsolekalendarchange.cpp:111 konsolekalendarchange.cpp:126
+#: konsolekalendardelete.cpp:76
+#, kde-format
+msgid "  Begin: %1"
+msgstr "  شروع: %1"
+
+#: konsolekalendar.cpp:318 konsolekalendaradd.cpp:193
+#: konsolekalendarchange.cpp:113 konsolekalendarchange.cpp:128
+#: konsolekalendardelete.cpp:78
+#, kde-format
+msgid "  End:   %1"
+msgstr "  پایان:   %1"
+
+#: konsolekalendar.cpp:321 konsolekalendaradd.cpp:196
+#, kde-format
+msgid "  No Time Associated with Event"
+msgstr "  زمانی به رویداد اختصاص نیافته است"
+
+#: konsolekalendar.cpp:324 konsolekalendaradd.cpp:199
+#: konsolekalendarchange.cpp:115 konsolekalendarchange.cpp:130
+#: konsolekalendardelete.cpp:80
+#, kde-format
+msgid "  Desc:  %1"
+msgstr "  توضیحات:  %1"
+
+#: konsolekalendar.cpp:326 konsolekalendaradd.cpp:201
+#: konsolekalendarchange.cpp:117 konsolekalendarchange.cpp:132
+#: konsolekalendardelete.cpp:82
+#, kde-format
+msgid "  Location:  %1"
+msgstr "  مکان:  %1"
+
+#: konsolekalendaradd.cpp:84
+#, kde-format
+msgid "Dry Run: Insert Event:"
+msgstr "اجرای آزمایشی: درج رویداد:"
+
+#: konsolekalendaradd.cpp:88
+#, kde-format
+msgid "Insert Event:"
+msgstr "درج رویداد:"
+
+#: konsolekalendaradd.cpp:115 konsolekalendaradd.cpp:151
+#, kde-format
+msgid "Calendar is invalid. Please specify one with --calendar"
+msgstr "تقویم نامعتبر است. لطفاً یکی را با ‎--calendar مشخص کنید"
+
+#: konsolekalendaradd.cpp:125
+#, kde-format
+msgid "Success: \"%1\" inserted"
+msgstr "موفقیت: «%1» درج شد"
+
+#: konsolekalendaradd.cpp:127
+#, kde-format
+msgid "Failure: \"%1\" not inserted"
+msgstr "شکست: «%1» درج نشد"
+
+#: konsolekalendaradd.cpp:165
+#, kde-format
+msgid "Insert Event skipped, because UID \"%1\" is already known."
+msgstr ""
+"درج رویداد نادیده گرفته شد، زیرا شناسه یکتا «%1» از قبل شناخته شده است."
+
+#: konsolekalendaradd.cpp:172
+#, kde-format
+msgid "Add Event with UID \"%1\"."
+msgstr "افزودن رویداد با شناسه یکتا «%1»."
+
+#: konsolekalendarchange.cpp:45
+#, kde-format
+msgid "Dry Run: Change Event:"
+msgstr "اجرای آزمایشی: تغییر رویداد:"
+
+#: konsolekalendarchange.cpp:48
+#, kde-format
+msgid "Dry Run: To Event:"
+msgstr "اجرای آزمایشی: به رویداد:"
+
+#: konsolekalendarchange.cpp:52
+#, kde-format
+msgid "Change Event:"
+msgstr "تغییر رویداد:"
+
+#: konsolekalendarchange.cpp:55
+#, kde-format
+msgid "To Event:"
+msgstr "به رویداد:"
+
+#: konsolekalendarchange.cpp:94
+#, kde-format
+msgid "Success: \"%1\" changed"
+msgstr "موفقیت: «%1» تغییر کرد"
+
+#: konsolekalendarchange.cpp:96
+#, kde-format
+msgid "Failure: \"%1\" not changed"
+msgstr "شکست: «%1» تغییر نکرد"
+
+#: konsolekalendarchange.cpp:106 konsolekalendarchange.cpp:122
+#: konsolekalendardelete.cpp:71
+#, kde-format
+msgid "  UID:   %1"
+msgstr "  شناسه کاربری:   %1"
+
+#: konsolekalendardelete.cpp:43
+#, kde-format
+msgid "Dry Run: Delete Event:"
+msgstr "اجرای آزمایشی: حذف رویداد:"
+
+#: konsolekalendardelete.cpp:47
+#, kde-format
+msgid "Delete Event:"
+msgstr "حذف رویداد:"
+
+#: konsolekalendardelete.cpp:59
+#, kde-format
+msgid "Success: \"%1\" deleted"
+msgstr "موفقیت: «%1» حذف شد"
+
+#: konsolekalendardelete.cpp:61
+#, kde-format
+msgid "Error deleting: \"%1\""
+msgstr "خطا در حذف: «%1»"
+
+#: konsolekalendarexports.cpp:62
+#, kde-format
+msgid "Date:"
+msgstr "تاریخ:"
+
+#: konsolekalendarexports.cpp:71
+#, kde-format
+msgid "Summary:"
+msgstr "خلاصه:"
+
+#: konsolekalendarexports.cpp:75
+#, kde-format
+msgid "(no summary available)"
+msgstr "(خلاصه‌ای در دسترس نیست)"
+
+#: konsolekalendarexports.cpp:79
+#, kde-format
+msgid "Location:"
+msgstr "مکان:"
+
+#: konsolekalendarexports.cpp:83
+#, kde-format
+msgid "(no location available)"
+msgstr "(مکانی در دسترس نیست)"
+
+#: konsolekalendarexports.cpp:87
+#, kde-format
+msgid "Description:"
+msgstr "توضیحات:"
+
+#: konsolekalendarexports.cpp:91
+#, kde-format
+msgid "(no description available)"
+msgstr "(توضیحی در دسترس نیست)"
+
+#: konsolekalendarexports.cpp:95
+#, kde-format
+msgid "UID:"
+msgstr "شناسه یکتا (UID):"
+
+#: konsolekalendarexports.cpp:123
+#, kde-format
+msgid "[all day]\t"
+msgstr "[تمام روز]\t"
+
+#: konsolekalendarexports.cpp:174
+#, kde-format
+msgid ","
+msgstr "،"
+
+#: konsolekalendarexports.cpp:175
+#, kde-format
+msgid "\""
+msgstr "\""
+
+#: main.cpp:57
+#, kde-format
+msgid "KonsoleKalendar"
+msgstr "KonsoleKalendar"
+
+#: main.cpp:59
+#, kde-format
+msgid "A command line interface to KDE calendars"
+msgstr "یک رابط خط فرمان برای تقویم‌های KDE"
+
+#: main.cpp:61
+#, kde-format
+msgid "(c) 2002-2009, Tuukka Pasanen and Allen Winter"
+msgstr "(c) 2002-2009, Tuukka Pasanen and Allen Winter"
+
+#: main.cpp:63
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:63
+#, kde-format
+msgid "Bug fixing"
+msgstr "رفع اشکال"
+
+#: main.cpp:64
+#, kde-format
+msgctxt "@info:credit"
+msgid "Allen Winter"
+msgstr "Allen Winter"
+
+#: main.cpp:64
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: main.cpp:65
+#, kde-format
+msgctxt "@info:credit"
+msgid "Tuukka Pasanen"
+msgstr "Tuukka Pasanen"
+
+#: main.cpp:65
+#, kde-format
+msgid "Author"
+msgstr "نویسنده"
+
+#: main.cpp:71
+#, kde-format
+msgid "Print helpful runtime messages"
+msgstr "چاپ پیام‌های مفید زمان اجرا"
+
+#: main.cpp:72
+#, kde-format
+msgid "Print what would have been done, but do not execute"
+msgstr "چاپ کارهایی که قرار بود انجام شوند، بدون اجرا کردن آن‌ها"
+
+#: main.cpp:73
+#, kde-format
+msgid "Allow calendars which might need an interactive user interface"
+msgstr ""
+"مجاز کردن تقویم‌هایی که ممکن است به واسط کاربری تعاملی نیاز داشته باشند"
+
+#: main.cpp:74
+#, kde-format
+msgid "Operate for Events only (Default)"
+msgstr "فقط برای رویدادها عمل کند (پیش‌فرض)"
+
+#: main.cpp:75
+#, kde-format
+msgid "Operate for To-dos only [NOT WORKING YET]"
+msgstr "عملکرد فقط برای کارها [هنوز کار نمی‌کند]"
+
+#: main.cpp:76
+#, kde-format
+msgid "Operate for Journals only [NOT WORKING YET]"
+msgstr "عملکرد فقط برای یادداشت‌های روزانه [هنوز کار نمی‌کند]"
+
+#: main.cpp:77
+#, kde-format
+msgid "Print incidences in specified export format"
+msgstr "چاپ رویدادها در قالب صادراتی مشخص‌شده"
+
+#: main.cpp:78
+#, kde-format
+msgid "Insert an incidence into the calendar"
+msgstr "درج یک رویداد در تقویم"
+
+#: main.cpp:79
+#, kde-format
+msgid "Modify an existing incidence"
+msgstr "تغییر یک رویداد موجود"
+
+#: main.cpp:80
+#, kde-format
+msgid "Remove an existing incidence"
+msgstr "حذف یک رویداد موجود"
+
+#: main.cpp:81
+#, kde-format
+msgid "Create new Akonadi Resource for file"
+msgstr "ایجاد منبع آکونادی جدید برای پرونده"
+
+#: main.cpp:83
+#, kde-format
+msgid "Import this calendar to main calendar"
+msgstr "وارد کردن این تقویم به تقویم اصلی"
+
+#: main.cpp:84
+#, kde-format
+msgid "List available calendars"
+msgstr "فهرست کردن تقویم‌های موجود"
+
+#: main.cpp:85
+#, kde-format
+msgid "View all calendar entries, ignoring date/time options"
+msgstr "نمایش همهٔ مدخل‌های تقویم، با نادیده گرفتن گزینه‌های تاریخ/زمان"
+
+#: main.cpp:86
+#, kde-format
+msgid "View next activity in calendar"
+msgstr "نمایش فعالیت بعدی در تقویم"
+
+#: main.cpp:88
+#, kde-format
+msgid "From start date show next # days' activities"
+msgstr "نمایش فعالیت‌های # روز آینده از تاریخ شروع"
+
+#: main.cpp:89
+#, kde-format
+msgid "Incidence Unique-string identifier"
+msgstr "شناسهٔ رشته‌ای یکتای رخداد"
+
+#: main.cpp:90
+#, kde-format
+msgid "Start from this day [YYYY-MM-DD]"
+msgstr "شروع از این روز [YYYY-MM-DD]"
+
+#: main.cpp:91
+#, kde-format
+msgid "Start from this time [HH:MM:SS]"
+msgstr "شروع از این زمان [HH:MM:SS]"
+
+#: main.cpp:92
+#, kde-format
+msgid "End at this day [YYYY-MM-DD]"
+msgstr "پایان در این روز [YYYY-MM-DD]"
+
+#: main.cpp:93
+#, kde-format
+msgid "End at this time [HH:MM:SS]"
+msgstr "پایان در این زمان [HH:MM:SS]"
+
+#: main.cpp:95
+#, kde-format
+msgid "Start from this time [secs since epoch]"
+msgstr "شروع از این زمان [ثانیه از مبدأ زمان]"
+
+#: main.cpp:97
+#, kde-format
+msgid "End at this time [secs since epoch]"
+msgstr "پایان در این زمان [ثانیه از مبدأ زمان]"
+
+#: main.cpp:99
+#, kde-format
+msgid "Add summary to incidence (for add/change modes)"
+msgstr "افزودن خلاصه به رخداد (برای حالت‌های افزودن/تغییر)"
+
+#: main.cpp:101
+#, kde-format
+msgid "Add description to incidence (for add/change modes)"
+msgstr "افزودن توضیحات به رویداد (برای حالت‌های افزودن/تغییر)"
+
+#: main.cpp:104
+#, kde-format
+msgid "Add location to incidence (for add/change modes)"
+msgstr "افزودن مکان به رویداد (برای حالت‌های افزودن/تغییر)"
+
+#: main.cpp:107
+#, kde-format
+msgid "Calendar to use when creating a new incidence"
+msgstr "تقویمی که هنگام ایجاد رویداد جدید استفاده می‌شود"
+
+#: main.cpp:110
+#, kde-format
+msgid "Export file type (Default: text)"
+msgstr "نوع پروندهٔ برون‌بری (پیش‌فرض: text)"
+
+#: main.cpp:112
+#, kde-format
+msgid "Export to file (Default: stdout)"
+msgstr "برون‌بری به پرونده (پیش‌فرض: stdout)"
+
+#: main.cpp:113
+#, kde-format
+msgid "Print list of export types supported and exit"
+msgstr "چاپ فهرست انواع برون‌بری پشتیبانی‌شده و خروج"
+
+#: main.cpp:162
+#, kde-format
+msgid "%1 supports these export formats:"
+msgstr "%1 از این قالب‌های برون‌بری پشتیبانی می‌کند:"
+
+#: main.cpp:163
+#, kde-format
+msgctxt "the default export format"
+msgid "  %1 [Default]"
+msgstr "  %1 [پیش‌فرض]"
+
+#: main.cpp:164
+#, kde-format
+msgctxt "short text export"
+msgid "  %1 (like %2, but more compact)"
+msgstr "  %1 (مانند %2، اما فشرده‌تر)"
+
+#: main.cpp:165
+#, kde-format
+msgctxt "comma-separated values export"
+msgid "  %1 (Comma-Separated Values)"
+msgstr "  %1 (مقادیر جداشده با کاما)"
+
+#: main.cpp:178
+#, kde-format
+msgid "Sorry, To-dos are not working yet."
+msgstr "متأسفانه، «کارها» هنوز کار نمی‌کنند."
+
+#: main.cpp:183
+#, kde-format
+msgid "Sorry, Journals are not working yet."
+msgstr "متأسفانه، «یادداشت‌های روزانه» هنوز کار نمی‌کنند."
+
+#: main.cpp:205
+#, kde-format
+msgid "Invalid Export Type Specified: %1"
+msgstr "نوع خروجی نامعتبر مشخص شده است: %1"
+
+#: main.cpp:315
+#, kde-format
+msgid "Invalid Start Date Specified: %1"
+msgstr "تاریخ شروع نامعتبر مشخص شده است: %1"
+
+#: main.cpp:332
+#, kde-format
+msgid "Invalid Start Time Specified: %1"
+msgstr "زمان شروع نامعتبر مشخص شده است: %1"
+
+#: main.cpp:347
+#, kde-format
+msgid "Invalid End Date Specified: %1"
+msgstr "تاریخ پایان نامعتبر مشخص شده است: %1"
+
+#: main.cpp:360
+#, kde-format
+msgid "Invalid Date Count Specified: %1"
+msgstr "تعداد تاریخ نامعتبر مشخص شده است: %1"
+
+#: main.cpp:380
+#, kde-format
+msgid "Invalid End Time Specified: %1"
+msgstr "زمان پایان نامعتبر مشخص شده است: %1"
+
+#: main.cpp:522
+#, kde-format
+msgid ""
+"Only 1 operation mode (view, add, change, delete, create) permitted at any "
+"one time"
+msgstr ""
+"در هر لحظه فقط ۱ حالت عملیات (مشاهده، افزودن، تغییر، حذف، ایجاد) مجاز است"
+
+#: main.cpp:533
+#, kde-format
+msgid "Ending Date/Time occurs before the Starting Date/Time"
+msgstr "تاریخ/زمان پایان قبل از تاریخ/زمان شروع رخ می‌دهد"
+
+#: main.cpp:552
+#, kde-format
+msgid "Calendar %1 successfully imported"
+msgstr "تقویم %1 با موفقیت درون‌ریزی شد"
+
+#: main.cpp:555
+#, kde-format
+msgid "Unable to import calendar: %1"
+msgstr "عدم امکان درون‌ریزی تقویم: %1"
+
+#: main.cpp:564
+#, kde-format
+msgid "Attempting to insert an event that already exists"
+msgstr "تلاش برای درج رویدادی که از قبل وجود دارد"
+
+#: main.cpp:572 main.cpp:588
+#, kde-format
+msgid "Missing event UID: use --uid command line option"
+msgstr ""
+"شناسهٔ یکتای (UID) رویداد موجود نیست: از گزینهٔ خط فرمان ‎--uid استفاده کنید"
+
+#: main.cpp:580
+#, kde-format
+msgid "No such event UID: change event failed"
+msgstr ""
+"چنین شناسهٔ یکتایی (UID) برای رویداد یافت نشد: تغییر رویداد ناموفق بود"
+
+#: main.cpp:596
+#, kde-format
+msgid "No such event UID: delete event failed"
+msgstr "چنین شناسهٔ یکتایی (UID) برای رویداد یافت نشد: حذف رویداد ناموفق بود"
+
+#: main.cpp:603
+#, kde-format
+msgid "Cannot open specified export file: %1"
+msgstr "نمی‌توان پروندهٔ برون‌بری مشخص‌شده را باز کرد: %1"
+
+#: main.cpp:610
+#, kde-format
+msgid "Cannot create Akonadi resource from file: %1"
+msgstr "نمی‌توان منبع آکونادی را از پرونده ایجاد کرد: %1"
+
+#: main.cpp:613
+#, kde-format
+msgid "Calendar %1 successfully created"
+msgstr "تقویم %1 با موفقیت ایجاد شد"

@@ -1,0 +1,657 @@
+# translation of khangman.po to Persian
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mahdi Foladgar <foladgar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: khangman\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-11 00:39+0000\n"
+"PO-Revision-Date: 2026-10-15 22:55+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: tag theme attribute uiname
+#: ../themes/standardthemes.xml:4
+#, kde-format
+msgid "Notes Theme"
+msgstr "پوستهٔ یادداشت‌ها"
+
+#. i18n: tag theme attribute uiname
+#: ../themes/standardthemes.xml:20
+#, kde-format
+msgid "Sea Theme"
+msgstr "پوستهٔ دریا"
+
+#. i18n: tag theme attribute uiname
+#: ../themes/standardthemes.xml:36
+#, kde-format
+msgid "Winter Theme"
+msgstr "پوستهٔ زمستان"
+
+#. i18n: tag theme attribute uiname
+#: ../themes/standardthemes.xml:52
+#, kde-format
+msgid "Bee Theme"
+msgstr "پوستهٔ زنبور"
+
+#. i18n: tag theme attribute uiname
+#: ../themes/standardthemes.xml:68
+#, kde-format
+msgid "Desert Theme"
+msgstr "پوستهٔ کویر"
+
+#: data.i18n:2
+#, kde-format
+msgctxt "NOTE_TO_THE_TRANSLATORS"
+msgid ""
+"The translators have the opportunity to translate the\n"
+"words in the game.\n"
+"See the file README.languages in khangman's source directory\n"
+"for more information on how to do that.\n"
+"(translate this message as \"DONE\" when you have translated\n"
+"the words; otherwise leave it untranslated as a reminder)"
+msgstr ""
+"The translators have the opportunity to translate the\n"
+"words in the game.\n"
+"See the file README.languages in khangman's source directory\n"
+"for more information on how to do that.\n"
+"(translate this message as \"DONE\" when you have translated\n"
+"the words; otherwise leave it untranslated as a reminder)"
+
+#: khangman.cpp:71
+#, kde-format
+msgid "No theme files found."
+msgstr "هیچ پروندهٔ پوسته‌ای پیدا نشد."
+
+#: khangman.cpp:129
+#, kde-format
+msgid ""
+"File $KDEDIR/share/apps/kvtml/%1/%2 not found.\n"
+"Please check your installation."
+msgstr ""
+"پروندهٔ ‎$KDEDIR/share/apps/kvtml/%1/%2‎ یافت نشد.\n"
+"لطفاً نصب خود را بررسی کنید."
+
+#: khangman.cpp:143
+#, kde-format
+msgid "No word list loaded"
+msgstr "هیچ فهرست واژه‌ای بارگیری نشد"
+
+#: khangman.cpp:410
+#, kde-format
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: khangman.cpp:432
+#, kde-format
+msgid "No kvtml files found."
+msgstr "هیچ پروندهٔ kvtml پیدا نشد."
+
+#. i18n: ectx: label, entry (CurrentLevel), group (Language)
+#: khangman.kcfg:10
+#, kde-format
+msgid "Level"
+msgstr "سطح"
+
+#. i18n: ectx: label, entry (SelectedLanguage), group (Language)
+#: khangman.kcfg:17
+#, kde-format
+msgid "The language selected by the user"
+msgstr "زبان انتخاب‌شده توسط کاربر"
+
+#. i18n: ectx: label, entry (Theme), group (Look)
+#: khangman.kcfg:33
+#, kde-format
+msgid "Background theme name"
+msgstr "نام پوستهٔ پس‌زمینه"
+
+#. i18n: ectx: label, entry (OneLetter), group (General)
+#: khangman.kcfg:40
+#, kde-format
+msgid ""
+"Check this if you do not want to discover each instance of the same letter."
+msgstr ""
+"اگر نمی‌خواهید هر نمونه از یک حرف یکسان آشکار شود، این گزینه را علامت بزنید."
+
+#. i18n: ectx: label, entry (EnableAnimations), group (General)
+#: khangman.kcfg:44
+#, kde-format
+msgid "Enable Animations"
+msgstr "فعال‌سازی پویانمایی‌ها"
+
+#. i18n: ectx: label, entry (Sound), group (General)
+#: khangman.kcfg:48
+#, kde-format
+msgid "If checked, sounds will be played for New Game and Win Game"
+msgstr "اگر علامت زده شود، برای بازی جدید و برد در بازی صدا پخش خواهد شد"
+
+#. i18n: ectx: label, entry (Hint), group (General)
+#: khangman.kcfg:53
+#, kde-format
+msgid ""
+"If checked, hints will always been displayed. If this is not checked (default)\n"
+"            hints will be displayed only per word when the user chooses to show the hint."
+msgstr ""
+"اگر علامت زده شود، راهنمایی‌ها همیشه نمایش داده می‌شوند. اگر علامت زده نشود (پیش‌فرض)\n"
+"            راهنمایی‌ها تنها برای هر کلمه و زمانی که کاربر مایل به دیدن راهنما باشد نمایش می‌یابند."
+
+#. i18n: ectx: label, entry (resolveTime), group (General)
+#: khangman.kcfg:57
+#, kde-format
+msgid ""
+"This setting allows you to set in seconds how much time is available for "
+"resolving the word."
+msgstr ""
+"این تنظیم به شما امکان می‌دهد زمان در دسترس برای حل کردن کلمه را به ثانیه "
+"تعیین کنید."
+
+#. i18n: ectx: label, entry (AccentedLetters), group (Advanced)
+#: khangman.kcfg:64
+#, kde-format
+msgid "Type accented letters separately from normal letters"
+msgstr "نوشتن حروف دارای نشان حرکت به‌صورت مجزا از حروف معمولی"
+
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
+#: khangman.kcfg:71
+#, kde-format
+msgid "The Providers path for KHangMan"
+msgstr "مسیر فراهم‌کنندگان برای KHangMan"
+
+#: main.cpp:36
+#, kde-format
+msgid "KHangMan"
+msgstr "KHangMan"
+
+#: main.cpp:38
+#, kde-format
+msgid "Classical hangman game by KDE"
+msgstr "بازی کلاسیک دارزدن از KDE"
+
+#: main.cpp:40
+#, kde-format
+msgid "(c) 2001-2011, Anne-Marie Mahfouf"
+msgstr "(c) ۲۰۰۱-۲۰۱۱، Anne-Marie Mahfouf"
+
+#: main.cpp:43
+#, kde-format
+msgid "Primoz Anzur"
+msgstr "Primoz Anzur"
+
+#: main.cpp:43
+#, kde-format
+msgid "Previous maintainer"
+msgstr "نگه‌دارنده پیشین"
+
+#: main.cpp:48
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#: main.cpp:48
+#, kde-format
+msgid "Original Author"
+msgstr "پدیدآورنده اصلی"
+
+#: main.cpp:50
+#, kde-format
+msgid "Rahul Chowdhury"
+msgstr "Rahul Chowdhury"
+
+#: main.cpp:50
+#, kde-format
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: main.cpp:52
+#, kde-format
+msgid "Stefan Böhmann"
+msgstr "Stefan Böhmann"
+
+#: main.cpp:53 main.cpp:98 main.cpp:100 main.cpp:102
+#, kde-format
+msgid "Coding help"
+msgstr "کمک در کدنویسی"
+
+#: main.cpp:54
+#, kde-format
+msgid "Stefan Asserhäll"
+msgstr "Stefan Asserhäll"
+
+#: main.cpp:55
+#, kde-format
+msgid "Swedish data files, coding help, transparent pictures and i18n fixes"
+msgstr ""
+"پرونده‌های داده‌های سوئدی، کمک در کدنویسی، تصاویر شفاف و اصلاحات "
+"بین‌المللی‌سازی (i18n)"
+
+#: main.cpp:57
+#, kde-format
+msgid "eXParTaKus"
+msgstr "eXParTaKus"
+
+#: main.cpp:58
+#, kde-format
+msgid "Spanish data files"
+msgstr "پرونده‌های داده‌های اسپانیایی"
+
+#: main.cpp:59
+#, kde-format
+msgid "Erik Kjær Pedersenn"
+msgstr "Erik Kjær Pedersenn"
+
+#: main.cpp:60
+#, kde-format
+msgid "Danish data files"
+msgstr "پرونده‌های داده‌های دانمارکی"
+
+#: main.cpp:61
+#, kde-format
+msgid "Niko Lewman"
+msgstr "Niko Lewman"
+
+#: main.cpp:62
+#, kde-format
+msgid "Finnish data files"
+msgstr "پرونده‌های داده‌های فنلاندی"
+
+#: main.cpp:63
+#, kde-format
+msgid "João Sebastião de Oliveira Bueno"
+msgstr "João Sebastião de Oliveira Bueno"
+
+#: main.cpp:64
+#, kde-format
+msgid "Brazilian Portuguese data files"
+msgstr "پرونده‌های دادهٔ پرتغالی برزیلی"
+
+#: main.cpp:65
+#, kde-format
+msgid "Antoni Bella"
+msgstr "Antoni Bella"
+
+#: main.cpp:66
+#, kde-format
+msgid "Catalan data files"
+msgstr "پرونده‌های دادهٔ کاتالان"
+
+#: main.cpp:67
+#, kde-format
+msgid "Giovanni Venturi"
+msgstr "Giovanni Venturi"
+
+#: main.cpp:68
+#, kde-format
+msgid "Italian data files"
+msgstr "پرونده‌های دادهٔ ایتالیایی"
+
+#: main.cpp:69
+#, kde-format
+msgid "Rinse"
+msgstr "آب‌کشی"
+
+#: main.cpp:70
+#, kde-format
+msgid "Dutch data files"
+msgstr "پرونده‌های دادهٔ هلندی"
+
+#: main.cpp:71
+#, kde-format
+msgid "Lukáš Tinkl"
+msgstr "Lukáš Tinkl"
+
+#: main.cpp:72
+#, kde-format
+msgid "Czech data files"
+msgstr "پرونده‌های دادهٔ چکی"
+
+#: main.cpp:73
+#, kde-format
+msgid "Kristóf Kiszel"
+msgstr "Kristóf Kiszel"
+
+#: main.cpp:74
+#, kde-format
+msgid "Hungarian data files"
+msgstr "پرونده‌های داده‌های مجاری"
+
+#: main.cpp:75
+#, kde-format
+msgid "Torger Åge Sinnes"
+msgstr "Torger Åge Sinnes"
+
+#: main.cpp:76
+#, kde-format
+msgid "Norwegian (Bokmål) data files"
+msgstr "پرونده‌های داده‌های نروژی (بوکمل)"
+
+#: main.cpp:77
+#, kde-format
+msgid "Roger Kovacs"
+msgstr "Roger Kovacs"
+
+#: main.cpp:78
+#, kde-format
+msgid "Tajik data files"
+msgstr "پرونده‌های داده‌های تاجیکی"
+
+#: main.cpp:79
+#, kde-format
+msgid "Chusslove Illich"
+msgstr "Chusslove Illich"
+
+#: main.cpp:80
+#, kde-format
+msgid "Serbian (Cyrillic and Latin) data files"
+msgstr "پرونده‌های داده‌های صربی (سیریلیک و لاتین)"
+
+#: main.cpp:81
+#, kde-format
+msgid "Jure Repinc"
+msgstr "Jure Repinc"
+
+#: main.cpp:82
+#, kde-format
+msgid "Slovenian data files"
+msgstr "پرونده‌های داده‌های اسلوونیایی"
+
+#: main.cpp:83
+#, kde-format
+msgid "Pedro Morais"
+msgstr "Pedro Morais"
+
+#: main.cpp:84
+#, kde-format
+msgid "Portuguese data files"
+msgstr "پرونده‌های دادهٔ پرتغالی"
+
+#: main.cpp:85
+#, kde-format
+msgid "Gaute Hvoslef Kvalnes"
+msgstr "Gaute Hvoslef Kvalnes"
+
+#: main.cpp:86
+#, kde-format
+msgid "Norwegian (Nynorsk) data files"
+msgstr "پرونده‌های دادهٔ نروژی (نی‌نورسک)"
+
+#: main.cpp:87
+#, kde-format
+msgid "Mehmet Özel"
+msgstr "Mehmet Özel"
+
+#: main.cpp:88
+#, kde-format
+msgid "Turkish data files"
+msgstr "پرونده‌های دادهٔ ترکی"
+
+#: main.cpp:89
+#, kde-format
+msgid "Черепанов Андрей"
+msgstr "Черепанов Андрей"
+
+#: main.cpp:90
+#, kde-format
+msgid "Russian data files"
+msgstr "پرونده‌های دادهٔ روسی"
+
+#: main.cpp:91
+#, kde-format
+msgid "Radostin Radnev"
+msgstr "Radostin Radnev"
+
+#: main.cpp:92
+#, kde-format
+msgid "Bulgarian data files"
+msgstr "پرونده‌های دادهٔ بلغاری"
+
+#: main.cpp:93
+#, kde-format
+msgid "Kevin Patrick Scannell"
+msgstr "کوین پاتریک اسکنل"
+
+#: main.cpp:94
+#, kde-format
+msgid "Irish (Gaelic) data files"
+msgstr "پرونده‌های دادهٔ ایرلندی (گیلیک)"
+
+#: main.cpp:95
+#, kde-format
+msgid "Matt Howe"
+msgstr "مت هاو"
+
+#: main.cpp:96
+#, kde-format
+msgid "Softer Hangman Pictures"
+msgstr "تصاویر ملایم‌تر برای جلاد"
+
+#: main.cpp:97
+#, kde-format
+msgid "Benjamin Meyer"
+msgstr "بنجامین مایر"
+
+#: main.cpp:99
+#, kde-format
+msgid "Robert Gogolok"
+msgstr "رابرت گوگولوک"
+
+#: main.cpp:101
+#, kde-format
+msgid "Lubos Lunàk"
+msgstr "لوبوش لوناک"
+
+#: main.cpp:103
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr "آلبرت استالس سید"
+
+#: main.cpp:104
+#, kde-format
+msgid "Coding help, fixed a lot of things"
+msgstr "کمک در کدنویسی، رفع بسیاری از مشکلات"
+
+#: main.cpp:105
+#, kde-format
+msgid "Peter Hedlund"
+msgstr "پیتر هدلوند"
+
+#: main.cpp:106
+#, kde-format
+msgid "Code for generating icons for the characters toolbar"
+msgstr "کد تولید نمادها برای نوار ابزار نویسه‌ها"
+
+#: main.cpp:107
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: main.cpp:108
+#, kde-format
+msgid "Code cleaning"
+msgstr "پاک‌سازی کد"
+
+#: main.cpp:109
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: main.cpp:109
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: qml/GamePage.qml:128
+#, kde-format
+msgid "Choose the word category"
+msgstr "انتخاب دسته‌بندی کلمه"
+
+#: qml/GamePage.qml:163
+#, kde-format
+msgid "Select a language"
+msgstr "انتخاب یک زبان"
+
+#: qml/GamePage.qml:186
+#, kde-format
+msgid "Select a theme"
+msgstr "انتخاب یک پوسته"
+
+#: qml/GamePage.qml:241
+#, kde-format
+msgid "Pause"
+msgstr "مکث"
+
+#: qml/GamePage.qml:241
+#, kde-format
+msgid "Play"
+msgstr "پخش"
+
+#: qml/GamePage.qml:272
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: qml/GamePage.qml:286
+#, kde-format
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: qml/GamePage.qml:314
+#, kde-format
+msgid "Get new language files"
+msgstr "دریافت پرونده‌های زبان جدید"
+
+#: qml/GamePage.qml:327
+#, kde-format
+msgid "View the KHangMan Handbook"
+msgstr "نمایش راهنمای KHangMan"
+
+#: qml/GamePage.qml:338 qml/GamePage.qml:344
+#, kde-format
+msgid "About KHangMan"
+msgstr "دربارهٔ KHangMan"
+
+#: qml/GamePage.qml:351 qml/GamePage.qml:358
+#, kde-format
+msgid "About KDE"
+msgstr "دربارهٔ KDE"
+
+#: qml/GamePage.qml:379
+#, kde-format
+msgid "Remaining guesses: "
+msgstr "حدس‌های باقی‌مانده: "
+
+#: qml/GamePage.qml:404
+#, kde-format
+msgid "Score: "
+msgstr "امتیاز: "
+
+#: qml/GamePage.qml:438
+#, kde-format
+msgid "Wins: "
+msgstr "بردها: "
+
+#: qml/GamePage.qml:466
+#, kde-format
+msgid "Losses: "
+msgstr "باخت‌ها: "
+
+#: qml/GamePage.qml:605
+#, kde-format
+msgid "Hint"
+msgstr "راهنمایی"
+
+#: qml/GamePage.qml:606
+#, kde-format
+msgid "Display the hint."
+msgstr "نمایش راهنمایی."
+
+#: qml/GamePage.qml:621
+#, kde-format
+msgid "Change the category."
+msgstr "تغییر دسته‌بندی."
+
+#: qml/GamePage.qml:634
+#, kde-format
+msgid "Change the language."
+msgstr "تغییر زبان."
+
+#: qml/GamePage.qml:646
+#, kde-format
+msgid "Reveal Word"
+msgstr "آشکارسازی کلمه"
+
+#: qml/GamePage.qml:647
+#, kde-format
+msgid "Reveal the current word."
+msgstr "آشکارسازی کلمه فعلی."
+
+#: qml/GamePage.qml:674
+#, kde-format
+msgid "Load the next word and start a new game."
+msgstr "بارگذاری کلمه بعدی و شروع یک بازی جدید."
+
+#: qml/Main.qml:55
+#, kde-format
+msgid "Error: %1"
+msgstr "خطا: %1"
+
+#: qml/SelectionDialog.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr "بستن"
+
+#: qml/Settings/SettingsPage.qml:20
+#, kde-format
+msgid "KHangMan Settings"
+msgstr "تنظیمات KHangMan"
+
+#: qml/Settings/SettingsPage.qml:47
+#, kde-format
+msgid "Word resolve time in seconds"
+msgstr "مدت‌زمان حل کلمه به ثانیه"
+
+#: qml/Settings/SettingsPage.qml:68
+#, kde-format
+msgid "The duration for showing the hint for the actual word"
+msgstr "مدت‌زمان نمایش راهنما برای کلمهٔ اصلی"
+
+#: qml/Settings/SettingsPage.qml:81
+#, kde-format
+msgid "Score Multiplying Factor:"
+msgstr "ضریب امتیاز:"
+
+#: qml/Settings/SettingsPage.qml:85
+#, kde-format
+msgid "Determine the factor by which the scores will be multiplied."
+msgstr "تعیین ضریبی که امتیازها در آن ضرب می‌شوند."
+
+#: qml/Settings/SettingsPage.qml:96
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable sounds"
+msgstr "فعال‌سازی صداها"
+
+#: qml/Settings/SettingsPage.qml:107
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "ذخیره"
+
+#: qml/Settings/SettingsPage.qml:117
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "لغو"

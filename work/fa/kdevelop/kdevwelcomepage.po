@@ -1,0 +1,120 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdevwelcomepage package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevwelcomepage\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-10-15 21:43+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: welcomepageview.cpp:50
+#, kde-format
+msgid ""
+"<br/>\n"
+"<h3>Note for Windows users</h3>\n"
+"<p>Note that KDevelop does NOT ship a C/C++ compiler on Windows!</p>\n"
+"<p>You need to install either GCC via MinGW or install a recent version of the Microsoft Visual Studio IDE and make sure the environment is setup correctly <i>before</i> starting KDevelop.</p>\n"
+"<p>If you need further assistance, please check out the <a href=\"https://userbase.kde.org/KDevelop4/Manual/WindowsSetup\">KDevelop under Windows instructions.</a></p>"
+msgstr ""
+"<br/>\n"
+"<h3>نکته‌ای برای کاربران ویندوز</h3>\n"
+"<p>توجه داشته باشید که کی‌دولپ (KDevelop) در ویندوز همراه با کامپایلر C/C++ عرضه نمی‌شود!</p>\n"
+"<p>باید یا GCC را از طریق MinGW نصب کنید یا نسخهٔ جدیدی از محیط توسعهٔ مایکروسافت ویژوال استودیو را نصب کرده و مطمئن شوید که محیط <i>پیش از</i> اجرای کی‌دولپ به‌درستی پیکربندی شده است.</p>\n"
+"<p>اگر به راهنمایی بیشتری نیاز دارید، لطفاً <a href=\"https://userbase.kde.org/KDevelop4/Manual/WindowsSetup\">دستورالعمل‌های کی‌دولپ در ویندوز</a> را بررسی کنید.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, appNameLabel)
+#: welcomepageview.ui:55
+#, kde-format
+msgid "KDevelop"
+msgstr "کی‌دولپ"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, helpSectionTitle)
+#: welcomepageview.ui:82
+#, kde-format
+msgid "Need Help?"
+msgstr "به کمک نیاز دارید؟"
+
+#. i18n: ectx: property (text), widget (KUrlLabel, homepageLinkLabel)
+#: welcomepageview.ui:94
+#, kde-format
+msgid "KDevelop.org"
+msgstr "KDevelop.org"
+
+#. i18n: ectx: property (text), widget (KUrlLabel, learnAboutLinkLabel)
+#: welcomepageview.ui:104
+#, kde-format
+msgid "Learn about KDevelop"
+msgstr "آشنایی با کی‌دولپ"
+
+#. i18n: ectx: property (text), widget (KUrlLabel, joinTeamLinkLabel)
+#: welcomepageview.ui:114
+#, kde-format
+msgid "Join KDevelop's team!"
+msgstr "به تیم کی‌دولپ بپیوندید!"
+
+#. i18n: ectx: property (text), widget (KUrlLabel, handbookLinkLabel)
+#: welcomepageview.ui:124
+#, kde-format
+msgid "Handbook"
+msgstr "کتابچهٔ راهنما"
+
+#. i18n: ectx: property (text), widget (QPushButton, newProjectButton)
+#: welcomepageview.ui:169
+#, kde-format
+msgid "New Project"
+msgstr "پروژهٔ جدید"
+
+#. i18n: ectx: property (text), widget (QPushButton, openProjectButton)
+#: welcomepageview.ui:179
+#, kde-format
+msgid "Open Project"
+msgstr "باز کردن پروژه"
+
+#. i18n: ectx: property (text), widget (QPushButton, fetchProjectButton)
+#: welcomepageview.ui:189
+#, kde-format
+msgid "Fetch Project"
+msgstr "واکشی پروژه"
+
+#. i18n: ectx: property (text), widget (QPushButton, recentProjectsButton)
+#: welcomepageview.ui:199
+#, kde-format
+msgid "Recent Projects"
+msgstr "پروژه‌های اخیر"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
+#: welcomepageview.ui:246
+#, kde-format
+msgid "Sessions"
+msgstr "نشست‌ها"
+
+#. i18n: ectx: property (text), widget (QLabel, welcomeText)
+#: welcomepageview.ui:290
+#, kde-format
+msgid ""
+"<h3>Welcome to KDevelop!</h3>\n"
+"<p>You can start working on a project by opening an existing or creating a new one via the above buttons.</p>\n"
+"<p>If you need help, please check out the <a href=\"https://userbase.kde.org/KDevelop\">User Manual.</a></p>"
+msgstr ""
+"<h3>به KDevelop خوش آمدید!</h3>\n"
+"<p>می‌توانید با باز کردن یک پروژهٔ موجود یا ایجاد یک پروژهٔ جدید از طریق دکمه‌های بالا، کار روی آن را آغاز کنید.</p>\n"
+"<p>اگر به راهنمایی نیاز دارید، لطفاً <a href=\"https://userbase.kde.org/KDevelop\">راهنمای کاربر</a> را بررسی کنید.</p>"

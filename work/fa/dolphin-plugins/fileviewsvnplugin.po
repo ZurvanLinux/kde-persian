@@ -1,0 +1,549 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the fileviewsvnplugin package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: fileviewsvnplugin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-10-15 16:48+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: fileviewsvnplugin.cpp:70
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "SVN Update"
+msgstr "به‌روزرسانی SVN"
+
+#: fileviewsvnplugin.cpp:75
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Show Local SVN Changes"
+msgstr "نمایش تغییرات محلی SVN"
+
+#: fileviewsvnplugin.cpp:80
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "SVN Commit..."
+msgstr "ثبت SVN..."
+
+#: fileviewsvnplugin.cpp:85
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "SVN Add"
+msgstr "افزودن SVN"
+
+#: fileviewsvnplugin.cpp:90
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "SVN Delete"
+msgstr "حذف SVN"
+
+#: fileviewsvnplugin.cpp:95
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "SVN Revert"
+msgstr "بازگردانی SVN"
+
+#: fileviewsvnplugin.cpp:100
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Show SVN Updates"
+msgstr "نمایش به‌روزرسانی‌های SVN"
+
+#: fileviewsvnplugin.cpp:106
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "SVN Log..."
+msgstr "گزارش SVN..."
+
+#: fileviewsvnplugin.cpp:110
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "SVN Checkout..."
+msgstr "وارسی SVN..."
+
+#: fileviewsvnplugin.cpp:114
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "SVN Cleanup..."
+msgstr "پاک‌سازی SVN..."
+
+#: fileviewsvnplugin.cpp:224
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN status update failed. Disabling Option \"Show SVN Updates\"."
+msgstr ""
+"به‌روزرسانی وضعیت SVN ناموفق بود. غیرفعال‌سازی گزینهٔ «نمایش به‌روزرسانی‌های"
+" SVN»."
+
+#: fileviewsvnplugin.cpp:360
+#, kde-format
+msgctxt "@title:window"
+msgid "SVN Update"
+msgstr "به‌روزرسانی SVN"
+
+#: fileviewsvnplugin.cpp:365
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating SVN repository..."
+msgstr "در حال به‌روزرسانی مخزن SVN..."
+
+#: fileviewsvnplugin.cpp:366
+#, kde-format
+msgctxt "@info:status"
+msgid "Update of SVN repository failed."
+msgstr "به‌روزرسانی مخزن SVN شکست خورد."
+
+#: fileviewsvnplugin.cpp:367
+#, kde-format
+msgctxt "@info:status"
+msgid "Updated SVN repository."
+msgstr "مخزن SVN به‌روزرسانی شد."
+
+#: fileviewsvnplugin.cpp:381
+#, kde-format
+msgctxt "@info:status"
+msgid "Could not show local SVN changes."
+msgstr "نمایش تغییرات محلی SVN امکان‌پذیر نبود."
+
+#: fileviewsvnplugin.cpp:389
+#, kde-format
+msgctxt "@info:status"
+msgid "Could not show local SVN changes: svn diff failed."
+msgstr "نمایش تغییرات محلی SVN امکان‌پذیر نبود: svn diff شکست خورد."
+
+#: fileviewsvnplugin.cpp:396 fileviewsvnplugin.cpp:597
+#: fileviewsvnplugin.cpp:620
+#, kde-format
+msgctxt "@info:status"
+msgid "Could not show local SVN changes: could not start kompare."
+msgstr "نمایش تغییرات محلی SVN امکان‌پذیر نبود: شروع kompare ناموفق بود."
+
+#: fileviewsvnplugin.cpp:429
+#, kde-format
+msgctxt "@info:status"
+msgid "Adding files to SVN repository..."
+msgstr "در حال افزودن پرونده‌ها به مخزن SVN..."
+
+#: fileviewsvnplugin.cpp:430
+#, kde-format
+msgctxt "@info:status"
+msgid "Adding of files to SVN repository failed."
+msgstr "افزودن پرونده‌ها به مخزن SVN شکست خورد."
+
+#: fileviewsvnplugin.cpp:431
+#, kde-format
+msgctxt "@info:status"
+msgid "Added files to SVN repository."
+msgstr "پرونده‌ها به مخزن SVN افزوده شدند."
+
+#: fileviewsvnplugin.cpp:438
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing files from SVN repository..."
+msgstr "در حال حذف پرونده‌ها از مخزن SVN..."
+
+#: fileviewsvnplugin.cpp:439
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing of files from SVN repository failed."
+msgstr "حذف پرونده‌ها از مخزن SVN شکست خورد."
+
+#: fileviewsvnplugin.cpp:440
+#, kde-format
+msgctxt "@info:status"
+msgid "Removed files from SVN repository."
+msgstr "پرونده‌ها از مخزن SVN حذف شدند."
+
+#: fileviewsvnplugin.cpp:460 fileviewsvnplugin.cpp:566
+#, kde-format
+msgctxt "@title:window"
+msgid "SVN Revert"
+msgstr "بازگردانی SVN"
+
+#: fileviewsvnplugin.cpp:465
+#, kde-format
+msgctxt "@info:status"
+msgid "Reverting files from SVN repository..."
+msgstr "در حال بازگردانی پرونده‌ها از مخزن SVN..."
+
+#: fileviewsvnplugin.cpp:466
+#, kde-format
+msgctxt "@info:status"
+msgid "Reverting of files from SVN repository failed."
+msgstr "بازگردانی پرونده‌ها از مخزن SVN شکست خورد."
+
+#: fileviewsvnplugin.cpp:467
+#, kde-format
+msgctxt "@info:status"
+msgid "Reverted files from SVN repository."
+msgstr "پرونده‌ها از مخزن SVN بازگردانی شدند."
+
+#: fileviewsvnplugin.cpp:492
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN checkout: checkout in process..."
+msgstr "بررسی و دریافت SVN: دریافت در حال انجام است..."
+
+#: fileviewsvnplugin.cpp:496
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN error starting: %1"
+msgstr "خطای SVN هنگام شروع: %1"
+
+#: fileviewsvnplugin.cpp:500
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN checkout: checkout failed: %1"
+msgstr "بررسی SVN: بررسی ناموفق بود: %1"
+
+#: fileviewsvnplugin.cpp:502
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN checkout: checkout successful."
+msgstr "بررسی SVN: بررسی با موفقیت انجام شد."
+
+#: fileviewsvnplugin.cpp:506
+#, kde-format
+msgctxt "@title:window"
+msgid "SVN Checkout"
+msgstr "بررسی SVN"
+
+#: fileviewsvnplugin.cpp:571
+#, kde-format
+msgctxt "@info:status"
+msgid "Reverting changes to file..."
+msgstr "در حال بازگرداندن تغییرات پرونده..."
+
+#: fileviewsvnplugin.cpp:572
+#, kde-format
+msgctxt "@info:status"
+msgid "Revert file failed."
+msgstr "بازگرداندن پرونده ناموفق بود."
+
+#: fileviewsvnplugin.cpp:573
+#, kde-format
+msgctxt "@info:status"
+msgid "File reverted."
+msgstr "پرونده بازگردانده شد."
+
+#: fileviewsvnplugin.cpp:590 fileviewsvnplugin.cpp:607
+#: fileviewsvnplugin.cpp:612
+#, kde-format
+msgctxt "@info:status"
+msgid "Could not show local SVN changes for a file: could not get file."
+msgstr ""
+"امکان نمایش تغییرات محلی SVN برای پرونده وجود نداشت: پرونده دریافت نشد."
+
+#: fileviewsvnplugin.cpp:647 fileviewsvnplugin.cpp:673
+#, kde-format
+msgctxt "@info:status"
+msgid "Commit of SVN changes failed."
+msgstr "ثبت تغییرات SVN ناموفق بود."
+
+#: fileviewsvnplugin.cpp:667 svncommitdialog.cpp:152
+#, kde-format
+msgctxt "@title:window"
+msgid "SVN Commit"
+msgstr "ثبت SVN"
+
+#: fileviewsvnplugin.cpp:672
+#, kde-format
+msgctxt "@info:status"
+msgid "Committing SVN changes..."
+msgstr "در حال ثبت تغییرات SVN..."
+
+#: fileviewsvnplugin.cpp:674
+#, kde-format
+msgctxt "@info:status"
+msgid "Committed SVN changes."
+msgstr "تغییرات SVN ثبت شد."
+
+#. i18n: ectx: label, entry (showUpdates), group (General)
+#: fileviewsvnpluginsettings.kcfg:9
+#, kde-format
+msgid "Show updates"
+msgstr "نمایش به‌روزرسانی‌ها"
+
+#: svncheckoutdialog.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a directory to checkout"
+msgstr "انتخاب شاخه برای دریافت (Checkout)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SvnCheckoutDialog)
+#: svncheckoutdialog.ui:20
+#, kde-format
+msgid "SVN Checkout"
+msgstr "دریافت SVN (Checkout)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: svncheckoutdialog.ui:26
+#, kde-format
+msgid "URL of repository:"
+msgstr "نشانی وب مخزن:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: svncheckoutdialog.ui:36
+#, kde-format
+msgid "Checkout directory:"
+msgstr "شاخهٔ دریافت:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbOmitExternals)
+#: svncheckoutdialog.ui:46
+#, kde-format
+msgid "Omit externals"
+msgstr "نادیده‌گرفتن پیوندهای خارجی (Externals)"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbOk)
+#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
+#: svncheckoutdialog.ui:71 svncleanupdialog.ui:80 svnlogdialog.ui:146
+#: svnprogressdialog.ui:46
+#, kde-format
+msgid "OK"
+msgstr "تأیید"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbCancel)
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
+#: svncheckoutdialog.ui:81 svncleanupdialog.ui:96 svnprogressdialog.ui:33
+#, kde-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: svncleanupdialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a directory to clean up"
+msgstr "انتخاب شاخه برای پاک‌سازی"
+
+#: svncleanupdialog.cpp:62
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN clean up completed successfully."
+msgstr "پاک‌سازی SVN با موفقیت انجام شد."
+
+#: svncleanupdialog.cpp:64
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN clean up failed for %1"
+msgstr "پاک‌سازی SVN برای %1 ناموفق بود"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SvnCleanupDialog)
+#: svncleanupdialog.ui:20
+#, kde-format
+msgid "SVN Cleanup..."
+msgstr "پاک‌سازی SVN..."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: svncleanupdialog.ui:26
+#, kde-format
+msgid "Clean up directory:"
+msgstr "پاک‌سازی شاخه:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxUnversioned)
+#: svncleanupdialog.ui:43
+#, kde-format
+msgid "Delete unversioned files and directories"
+msgstr "حذف پرونده‌ها و شاخه‌های نسخه‌بندی‌نشده"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxIgnored)
+#: svncleanupdialog.ui:50
+#, kde-format
+msgid "Delete ignored files and directories"
+msgstr "حذف پرونده‌ها و شاخه‌های نادیده‌گرفته‌شده"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxExternals)
+#: svncleanupdialog.ui:57
+#, kde-format
+msgid "Include externals"
+msgstr "شامل‌کردن موارد بیرونی"
+
+#: svncommitdialog.cpp:86
+#, kde-format
+msgctxt "@label"
+msgid "Description:"
+msgstr "شرح:"
+
+#: svncommitdialog.cpp:101
+#, kde-format
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr "تازه‌سازی"
+
+#: svncommitdialog.cpp:106
+#, kde-format
+msgctxt "@action:button"
+msgid "Commit"
+msgstr "ثبت"
+
+#: svncommitdialog.cpp:112
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Revert"
+msgstr "بازگردانی"
+
+#: svncommitdialog.cpp:119
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Show changes"
+msgstr "نمایش تغییرات"
+
+#: svncommitdialog.cpp:126
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Add file"
+msgstr "افزودن پرونده"
+
+#: svncommitdialog.cpp:154
+#, kde-format
+msgctxt "@title:column"
+msgid "Path"
+msgstr "مسیر"
+
+#: svncommitdialog.cpp:154
+#, kde-format
+msgctxt "@title:column"
+msgid "Status"
+msgstr "وضعیت"
+
+#: svncommitdialog.cpp:207
+#, kde-format
+msgctxt "@item:intable"
+msgid "Unversioned"
+msgstr "نسخه‌بندی‌نشده"
+
+#: svncommitdialog.cpp:210
+#, kde-format
+msgctxt "@item:intable"
+msgid "Modified"
+msgstr "تغییریافته"
+
+#: svncommitdialog.cpp:213
+#, kde-format
+msgctxt "@item:intable"
+msgid "Added"
+msgstr "افزوده"
+
+#: svncommitdialog.cpp:216
+#, kde-format
+msgctxt "@item:intable"
+msgid "Deleted"
+msgstr "حذف‌شده"
+
+#: svncommitdialog.cpp:219
+#, kde-format
+msgctxt "@item:intable"
+msgid "Conflict"
+msgstr "تداخل"
+
+#: svncommitdialog.cpp:222
+#, kde-format
+msgctxt "@item:intable"
+msgid "Missing"
+msgstr "ناموجود"
+
+#: svncommitdialog.cpp:225
+#, kde-format
+msgctxt "@item:intable"
+msgid "Update required"
+msgstr "نیازمند به‌روزرسانی"
+
+#: svnlogdialog.cpp:88
+#, kde-format
+msgid "Update to revision"
+msgstr "به‌روزرسانی به بازبینی"
+
+#: svnlogdialog.cpp:92 svnlogdialog.cpp:110
+#, kde-format
+msgid "Revert to revision"
+msgstr "بازگردانی به بازبینی"
+
+#: svnlogdialog.cpp:96
+#, kde-format
+msgid "Show changes"
+msgstr "نمایش تغییرات"
+
+#: svnlogdialog.cpp:103
+#, kde-format
+msgid "Changes against working copy"
+msgstr "تغییرات نسبت به نسخهٔ کاری"
+
+#: svnlogdialog.cpp:265
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN log: update to revision failed."
+msgstr "گزارش SVN: به‌روزرسانی به بازبینی ناموفق بود."
+
+#: svnlogdialog.cpp:267
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN log: update to revision %1 successful."
+msgstr "گزارش SVN: به‌روزرسانی به بازبینی %1 موفقیت‌آمیز بود."
+
+#: svnlogdialog.cpp:277 svnlogdialog.cpp:288
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN log: revert to revision failed."
+msgstr "گزارش SVN: بازگردانی به بازبینی ناموفق بود."
+
+#: svnlogdialog.cpp:279 svnlogdialog.cpp:290
+#, kde-format
+msgctxt "@info:status"
+msgid "SVN log: revert to revision %1 successful."
+msgstr "گزارش SVN: بازگردانی به بازبینی %1 موفقیت‌آمیز بود."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SvnLogDialog)
+#: svnlogdialog.ui:20
+#, kde-format
+msgid "SVN Log"
+msgstr "گزارش SVN"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tLog)
+#: svnlogdialog.ui:55
+#, kde-format
+msgid "Revision"
+msgstr "بازبینی"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tLog)
+#: svnlogdialog.ui:60
+#, kde-format
+msgid "Author"
+msgstr "پدیدآور"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tLog)
+#: svnlogdialog.ui:65
+#, kde-format
+msgid "Date"
+msgstr "تاریخ"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tLog)
+#: svnlogdialog.ui:70
+#, kde-format
+msgid "Message"
+msgstr "پیام"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbNext100)
+#: svnlogdialog.ui:104
+#, kde-format
+msgid "Next 100"
+msgstr "۱۰۰تای بعدی"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbRefresh)
+#: svnlogdialog.ui:114
+#, kde-format
+msgid "Refresh"
+msgstr "نوسازی"
+
+#: svnprogressdialog.cpp:53
+#, kde-format
+msgctxt "@info:status"
+msgid "Error starting: %1"
+msgstr "خطا در شروع: %1"

@@ -1,0 +1,1315 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the libkookascan package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: libkookascan\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-10 00:41+0000\n"
+"PO-Revision-Date: 2026-10-16 00:11+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: ../libdialogutil/imagefilter.cpp:85
+#, kde-format
+msgid "All Image Files"
+msgstr "همهٔ پرونده‌های تصویری"
+
+#: ../libdialogutil/imagefilter.cpp:90
+#, kde-format
+msgid "All Files"
+msgstr "همهٔ پرونده‌ها"
+
+#: adddevicedialog.cpp:58
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"If your scanner has not been automatically detected, you can specify it "
+"here. The <interface>Scanner device</interface> is the SANE backend device "
+"name. The <interface>Manufacturer</interface>, <interface>Type</interface> "
+"and <interface>Description</interface> can be used to identify the scanner "
+"later.<nl/><nl/>More information on <link url=\"?1\">SANE backends</link>, "
+"<link url=\"?2\">locating devices</link>, <link url=\"?3\">HP "
+"scanners</link>, <link url=\"?4\">device not found</link>."
+msgstr ""
+"اگر پویشگر شما به‌طور خودکار شناسایی نشده است، می‌توانید آن را در اینجا مشخص"
+" کنید. <interface>دستگاه پویشگر</interface> همان نام دستگاه در پسانهٔ SANE "
+"است. از <interface>سازنده</interface>، <interface>نوع</interface> و "
+"<interface>توضیحات</interface> می‌توان بعداً برای شناسایی پویشگر استفاده "
+"کرد.<nl/><nl/>اطلاعات بیشتر دربارهٔ <link url=\"?1\">پسانه‌های SANE</link>، "
+"<link url=\"?2\">یافتن دستگاه‌ها</link>، <link url=\"?3\">پویشگرهای "
+"HP</link> و <link url=\"?4\">دستگاه پیدا نشد</link>."
+
+#: adddevicedialog.cpp:77
+#, kde-format
+msgid "Scanner device:"
+msgstr "دستگاه پویشگر:"
+
+#: adddevicedialog.cpp:80 scandevices.cpp:186
+#, kde-format
+msgctxt "Value used for manufacturer if none entered"
+msgid "User specified"
+msgstr "مشخص‌شده توسط کاربر"
+
+#: adddevicedialog.cpp:82
+#, kde-format
+msgid "Manufacturer:"
+msgstr "سازنده:"
+
+#: adddevicedialog.cpp:86
+#, kde-format
+msgid "Device type:"
+msgstr "نوع دستگاه:"
+
+#: adddevicedialog.cpp:90
+#, kde-format
+msgid "Description:"
+msgstr "توضیحات:"
+
+#: adddevicedialog.cpp:126
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The <interface>Scanner device</interface> should be a backend name (with "
+"optional parameters) that is understood by SANE. See <link "
+"url=\"man:/sane\">sane(7)</link> or <link url=\"man:/sane-"
+"dll\">sane&#8209;dll(5)</link> for more information on available backends "
+"and the format of device names."
+msgstr ""
+"<interface>دستگاه پویشگر</interface> باید یک نام پسانه (همراه با پارامترهای "
+"اختیاری) باشد که برای SANE قابل فهم است. برای اطلاعات بیشتر دربارهٔ "
+"پسانه‌های موجود و قالب نام‌های دستگاه‌ها، <link "
+"url=\"man:/sane\">sane(7)</link> یا <link url=\"man:/sane-"
+"dll\">sane&#8209;dll(5)</link> را ببینید."
+
+#: adddevicedialog.cpp:134
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"To find the information that needs to be entered here, try to locate the "
+"device using the <link url=\"man:/sane-find-"
+"scanner\">sane&#8209;find&#8209;scanner(1)</link> command for SCSI, USB or "
+"parallel port scanners, or the <link "
+"url=\"man:/scanimage\">scanimage(1)</link> command with the "
+"<icode>&#8209;L</icode> option for network scanners. If the scanner is "
+"found, then enter the device name displayed by these commands."
+msgstr ""
+"برای یافتن اطلاعاتی که باید در اینجا وارد شوند، سعی کنید برای پویشگرهای "
+"SCSI،‏ USB یا درگاه موازی با استفاده از فرمان <link url=\"man:/sane-find-"
+"scanner\">sane&#8209;find&#8209;scanner(1)</link>، یا برای پویشگرهای شبکه با"
+" استفاده از فرمان <link url=\"man:/scanimage\">scanimage(1)</link> با گزینهٔ"
+" <icode>&#8209;L</icode>، دستگاه را بیابید. اگر پویشگر پیدا شد، نام دستگاه "
+"نمایش‌داده‌شده توسط این فرمان‌ها را وارد کنید."
+
+#: adddevicedialog.cpp:143
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"For a USB or networked HP scanner using <link "
+"url=\"http://hplip.sourceforge.net/\">HPLIP</link>, try using the "
+"<command>hp&#8209;probe</command> command to locate it, for example "
+"<icode>hp&#8209;probe&nbsp;&#8209;b&nbsp;usb</icode> or "
+"<icode>hp&#8209;probe&nbsp;&#8209;b&nbsp;net</icode>. Note that if the "
+"scanner is found by HPLIP, then the device name <icode>hp:</icode> that it "
+"displays needs to be replaced by <icode>hpaio:</icode> for SANE."
+msgstr ""
+"برای یک پویشگر اچ‌پی (HP) تحت شبکه یا USB با استفاده از <link "
+"url=\"http://hplip.sourceforge.net/\">HPLIP</link>، سعی کنید برای یافتن آن "
+"از فرمان <command>hp&#8209;probe</command> استفاده کنید، مثلاً "
+"<icode>hp&#8209;probe&nbsp;&#8209;b&nbsp;usb</icode> یا "
+"<icode>hp&#8209;probe&nbsp;&#8209;b&nbsp;net</icode>. توجه داشته باشید که "
+"اگر پویشگر توسط HPLIP پیدا شود، نام دستگاه <icode>hp:</icode> که نمایش "
+"می‌دهد باید برای SANE با <icode>hpaio:</icode> جایگزین شود."
+
+#: adddevicedialog.cpp:152
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"If these commands fail to locate your scanner, then it may not be supported "
+"by SANE. Check the SANE documentation for a <link url=\"http://www.sane-"
+"project.org/sane-supported-devices.html\">list of supported devices</link>."
+msgstr ""
+"اگر این فرمان‌ها نتوانستند پویشگر شما را بیابند، ممکن است توسط SANE پشتیبانی"
+" نشود. مستندات SANE را برای <link url=\"http://www.sane-project.org/sane-"
+"supported-devices.html\">فهرست دستگاه‌های پشتیبانی‌شده</link> بررسی کنید."
+
+#: autoselectbar.cpp:56
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<subtitle>Auto Select</subtitle>"
+msgstr "<subtitle>انتخاب خودکار</subtitle>"
+
+#: autoselectbar.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This is the grayscale value of the selected threshold"
+msgstr "این مقدار طیف خاکستری برای آستانهٔ انتخاب‌شده است"
+
+#: autoselectbar.cpp:90
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Perform the auto-detection again"
+msgstr "انجام دوبارهٔ تشخیص خودکار"
+
+#: autoselectbar.cpp:97
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Advanced settings for auto-detection"
+msgstr "تنظیمات پیشرفته برای تشخیص خودکار"
+
+#: autoselectdialog.cpp:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Autoselect Settings"
+msgstr "تنظیمات انتخاب خودکار"
+
+#: autoselectdialog.cpp:82
+#, kde-format
+msgid "Black"
+msgstr "سیاه"
+
+#: autoselectdialog.cpp:83
+#, kde-format
+msgid "White"
+msgstr "سفید"
+
+#: continuescandialog.cpp:61
+#, kde-format
+msgid "First Page"
+msgstr "صفحهٔ نخست"
+
+#: continuescandialog.cpp:61
+#, kde-format
+msgid "Next Page"
+msgstr "صفحهٔ بعد"
+
+#: continuescandialog.cpp:63
+#, kde-format
+msgid "Start Scan"
+msgstr "شروع اسکن"
+
+#: continuescandialog.cpp:72
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<emphasis strong=\"1\">Ready to scan the first "
+"page</emphasis>%1...<nl/><nl/>Prepare the page and then use "
+"<interface>Start&nbsp;Scan</interface> to scan it,<nl/>or "
+"<interface>Cancel</interface> to cancel the scan."
+msgstr ""
+"<emphasis strong=\"1\">آماده برای اسکن نخستین "
+"صفحه</emphasis>%1...<nl/><nl/>صفحه را آماده کرده و سپس از "
+"<interface>شروع&nbsp;اسکن</interface> برای اسکن آن استفاده کنید،<nl/>یا "
+"<interface>لغو</interface> را برای لغو اسکن بزنید."
+
+#: continuescandialog.cpp:80
+#, kde-format
+msgid "Scan Next"
+msgstr "اسکن بعدی"
+
+#: continuescandialog.cpp:84
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<emphasis strong=\"1\">Ready to scan the next "
+"page</emphasis>%1...<nl/><nl/>Prepare the next page and then use "
+"<interface>Scan&nbsp;Next</interface> to scan it,<nl/>or "
+"<interface>Finish</interface> to end the scan batch."
+msgstr ""
+"<emphasis strong=\"1\">آماده برای اسکن صفحهٔ "
+"بعدی</emphasis>%1...<nl/><nl/>صفحهٔ بعدی را آماده کرده و سپس از "
+"<interface>اسکن&nbsp;بعدی</interface> برای اسکن آن استفاده کنید،<nl/>یا "
+"<interface>پایان</interface> را برای خاتمه دادن به دستهٔ اسکن بزنید."
+
+#: continuescandialog.cpp:93
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<emphasis strong=\"1\">Ready to scan the next "
+"page</emphasis>%1...<nl/><nl/>Prepare the next page and then use "
+"<interface>Scan&nbsp;Next</interface> to scan it,<nl/>or "
+"<interface>Finish</interface> to end the scan batch or "
+"<interface>Cancel</interface> to cancel the entire scan."
+msgstr ""
+"<emphasis strong=\"1\">آماده برای اسکن صفحهٔ "
+"بعدی</emphasis>%1...<nl/><nl/>صفحهٔ بعدی را آماده کرده و سپس از "
+"<interface>اسکن&nbsp;بعدی</interface> برای اسکن آن استفاده کنید،<nl/>یا "
+"<interface>پایان</interface> را برای خاتمه دادن به دستهٔ اسکن یا "
+"<interface>لغو</interface> را برای لغو کل اسکن بزنید."
+
+#: continuescandialog.cpp:107
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<emphasis strong=\"1\">Waiting to scan the first "
+"page</emphasis>%1...<nl/><nl/>Prepare the page and then wait, or use "
+"<interface>Start&nbsp;Scan</interface> to scan it immediately<nl/>or "
+"<interface>Cancel</interface> to cancel the scan."
+msgstr ""
+"<emphasis strong=\"1\">در انتظار برای اسکن نخستین "
+"صفحه</emphasis>%1...<nl/><nl/>صفحه را آماده کرده و سپس منتظر بمانید، یا از "
+"<interface>شروع&nbsp;اسکن</interface> برای اسکن فوری آن استفاده کنید<nl/>یا "
+"<interface>لغو</interface> را برای لغو اسکن بزنید."
+
+#: continuescandialog.cpp:115
+#, kde-format
+msgid "Scan Now"
+msgstr "اسکن فوری"
+
+#: continuescandialog.cpp:119
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<emphasis strong=\"1\">Waiting to scan the next "
+"page</emphasis>%1...<nl/><nl/>Prepare the next page and then wait, or use "
+"<interface>Scan&nbsp;Now</interface> to scan it immediately<nl/>or "
+"<interface>Finish</interface> to end the scan batch."
+msgstr ""
+"<emphasis strong=\"1\">در انتظار پویش صفحهٔ "
+"بعدی</emphasis>%1...<nl/><nl/>صفحهٔ بعدی را آماده کرده و منتظر بمانید، یا از"
+" <interface>پویش&nbsp;اکنون</interface> برای پویش فوری آن استفاده "
+"کنید<nl/>یا برای پایان دادن به پویش دسته‌ای، روی "
+"<interface>پایان</interface> بزنید."
+
+#: continuescandialog.cpp:128
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<emphasis strong=\"1\">Waiting to scan the next "
+"page</emphasis>%1...<nl/><nl/>Prepare the next page and then wait, or use "
+"<interface>Scan&nbsp;Now</interface> to scan it immediately<nl/>or "
+"<interface>Finish</interface> to end the scan batch or "
+"<interface>Cancel</interface> to cancel the entire scan."
+msgstr ""
+"<emphasis strong=\"1\">در انتظار پویش صفحهٔ "
+"بعدی</emphasis>%1...<nl/><nl/>صفحهٔ بعدی را آماده کرده و منتظر بمانید، یا از"
+" <interface>پویش&nbsp;اکنون</interface> برای پویش فوری آن استفاده "
+"کنید<nl/>یا برای پایان دادن به پویش دسته‌ای روی <interface>پایان</interface>"
+" بزنید یا برای لغو کل پویش از <interface>لغو</interface> استفاده کنید."
+
+#: continuescandialog.cpp:142
+#, kde-format
+msgid "Pause"
+msgstr "مکث"
+
+#: continuescandialog.cpp:162
+#, kde-format
+msgid "Finish"
+msgstr "پایان"
+
+#: continuescandialog.cpp:235
+#, kde-format
+msgid " (%1 second)"
+msgid_plural " (%1 seconds)"
+msgstr[0] " (%1 ثانیه)"
+msgstr[1] " (%1 ثانیه)"
+
+#: continuescandialog.cpp:254
+#, kde-format
+msgid " (Paused)"
+msgstr " (متوقف‌شده)"
+
+#: deviceselector.cpp:58
+#, kde-format
+msgid "Select"
+msgstr "انتخاب"
+
+#: deviceselector.cpp:59
+#, kde-format
+msgid "Select Scan Device"
+msgstr "انتخاب دستگاه پویش"
+
+#: deviceselector.cpp:71
+#, kde-format
+msgid "Available Scanners:"
+msgstr "پویشگرهای موجود:"
+
+#: deviceselector.cpp:82
+#, kde-format
+msgid "Always use this device at startup"
+msgstr "همیشه در هنگام راه‌اندازی از این دستگاه استفاده شود"
+
+#: gammadialog.cpp:53
+#, kde-format
+msgid "Edit Gamma Table"
+msgstr "ویرایش جدول گاما"
+
+#: gammadialog.cpp:61
+#, kde-format
+msgid "Brightness"
+msgstr "روشنایی"
+
+#: gammadialog.cpp:71
+#, kde-format
+msgid "Contrast"
+msgstr "کنتراست"
+
+#: gammadialog.cpp:81
+#, kde-format
+msgid "Gamma"
+msgstr "گاما"
+
+#: gammadialog.cpp:95
+#, kde-format
+msgid "This gamma table is passed to the scanner hardware."
+msgstr "این جدول گاما به سخت‌افزار اسکنر فرستاده می‌شود."
+
+#: imagecanvas.cpp:785
+#, kde-format
+msgid "Fit Best"
+msgstr "بهترین برازش"
+
+#: imagecanvas.cpp:786
+#, kde-format
+msgid "Original size"
+msgstr "اندازه اصلی"
+
+#: imagecanvas.cpp:787
+#, kde-format
+msgid "Fit Width"
+msgstr "برازش با عرض"
+
+#: imagecanvas.cpp:788
+#, kde-format
+msgid "Fit Height"
+msgstr "برازش با ارتفاع"
+
+#: imagecanvas.cpp:789
+#, kde-format
+msgid "Zoom %1%"
+msgstr "بزرگ‌نمایی %1٪"
+
+#: imagecanvas.cpp:790
+#, kde-format
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: imagecanvas.cpp:888
+#, kde-format
+msgid "%1x%2 pix, %3 bpp"
+msgstr "%1x%2 پیکسل، %3 bpp"
+
+#: imgscaledialog.cpp:51
+#, kde-format
+msgid "Image Zoom"
+msgstr "بزرگ‌نمایی تصویر"
+
+#: imgscaledialog.cpp:68
+#, kde-format
+msgid "25 %"
+msgstr "۲۵ ٪"
+
+#: imgscaledialog.cpp:75
+#, kde-format
+msgid "50 %"
+msgstr "۵۰ ٪"
+
+#: imgscaledialog.cpp:82
+#, kde-format
+msgid "75 %"
+msgstr "۷۵ ٪"
+
+#: imgscaledialog.cpp:89
+#, kde-format
+msgid "&100 %"
+msgstr "۱۰۰ ٪"
+
+#: imgscaledialog.cpp:101
+#, kde-format
+msgid "150 &%"
+msgstr "۱۵۰ ٪"
+
+#: imgscaledialog.cpp:108
+#, kde-format
+msgid "200 %"
+msgstr "۲۰۰ ٪"
+
+#: imgscaledialog.cpp:115
+#, kde-format
+msgid "300 %"
+msgstr "۳۰۰ ٪"
+
+#: imgscaledialog.cpp:122
+#, kde-format
+msgid "400 %"
+msgstr "۴۰۰ ٪"
+
+#: imgscaledialog.cpp:137
+#, kde-format
+msgid "Custom:"
+msgstr "سفارشی:"
+
+#: kscancontrols.cpp:67
+#, kde-format
+msgid "(Unknown)"
+msgstr "(ناشناخته)"
+
+#: kscancontrols.cpp:170
+#, kde-format
+msgid "Reset this setting to its standard value, %1"
+msgstr "بازنشانی این تنظیم به مقدار استاندارد خود، %1"
+
+#: kscancontrols.cpp:422
+#, kde-format
+msgid "PNM Image Files (*.pnm *.pbm *.pgm *.ppm)"
+msgstr "پرونده‌های تصویر PNM (*.pnm *.pbm *.pgm *.ppm)"
+
+#: kscandevice.cpp:296
+#, kde-format
+msgid "No scanner selected"
+msgstr "هیچ اسکنری انتخاب نشده است"
+
+#: kscandevice.cpp:1938
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The scanner<nl/><icode>%1</icode><nl/>requires authentication."
+msgstr "اسکنر<nl/><icode>%1</icode><nl/>نیاز به احراز هویت دارد."
+
+#: kscandevice.cpp:1939
+#, kde-format
+msgid "Scanner Authentication"
+msgstr "احراز هویت اسکنر"
+
+#: kscandevice.cpp:1983
+#, kde-format
+msgid "OK"
+msgstr "تأیید"
+
+#: kscandevice.cpp:1984
+#, kde-format
+msgid "No device"
+msgstr "بدون دستگاه"
+
+#: kscandevice.cpp:1985
+#, kde-format
+msgid "Bad parameter"
+msgstr "پارامتر نادرست"
+
+#: kscandevice.cpp:1986
+#, kde-format
+msgid "Cannot open device"
+msgstr "دستگاه باز نمی‌شود"
+
+#: kscandevice.cpp:1987
+#, kde-format
+msgid "sane_control_option() failed"
+msgstr "sane_control_option() ناموفق بود"
+
+#: kscandevice.cpp:1988
+#, kde-format
+msgid "Error while scanning"
+msgstr "خطا هنگام اسکن"
+
+#: kscandevice.cpp:1989
+#, kde-format
+msgid "Empty picture"
+msgstr "تصویر خالی"
+
+#: kscandevice.cpp:1990
+#, kde-format
+msgid "Out of memory"
+msgstr "کمبود حافظه"
+
+#: kscandevice.cpp:1991
+#, kde-format
+msgid "Needs reload"
+msgstr "نیاز به بازنشانی"
+
+#: kscandevice.cpp:1992
+#, kde-format
+msgid "Cancelled"
+msgstr "لغو شد"
+
+#: kscandevice.cpp:1993
+#, kde-format
+msgid "Not active"
+msgstr "غیرفعال"
+
+#: kscandevice.cpp:1994
+#, kde-format
+msgid "Not supported"
+msgstr "پشتیبانی نمی‌شود"
+
+#: kscandevice.cpp:1995
+#, kde-format
+msgid "ADF no document loaded"
+msgstr "سندی در ADF بارگذاری نشده است"
+
+#: kscandevice.cpp:1996
+#, kde-format
+msgid "ADF empty"
+msgstr "ADF خالی است"
+
+#: kscandevice.cpp:1997
+#, kde-format
+msgid "Not accepted"
+msgstr "پذیرفته نشد"
+
+#: kscandevice.cpp:1998
+#, kde-format
+msgid "Unknown status %1"
+msgstr "وضعیت نامشخص %1"
+
+#: kscanoption.cpp:1027
+#, kde-format
+msgid "pixels"
+msgstr "پیکسل"
+
+#: kscanoption.cpp:1028
+#, kde-format
+msgid "bits"
+msgstr "بیت"
+
+#: kscanoption.cpp:1029
+#, kde-format
+msgid "mm"
+msgstr "mm"
+
+#: kscanoption.cpp:1030
+#, kde-format
+msgid "dpi"
+msgstr "dpi"
+
+#: kscanoption.cpp:1031
+#, kde-format
+msgid "%"
+msgstr "٪"
+
+#: kscanoption.cpp:1032
+#, kde-format
+msgid "µsec"
+msgstr "µsec"
+
+#: multiscandialog.cpp:56
+#, kde-format
+msgctxt "@item:inlistbox no rotation"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: multiscandialog.cpp:57
+#, kde-format
+msgctxt "@item:inlistbox rotation 90 degrees"
+msgid "90°"
+msgstr "۹۰°"
+
+#: multiscandialog.cpp:58
+#, kde-format
+msgctxt "@item:inlistbox rotation 180 degrees"
+msgid "180°"
+msgstr "۱۸۰°"
+
+#: multiscandialog.cpp:59
+#, kde-format
+msgctxt "@item:inlistbox rotation 270 degrees"
+msgid "270°"
+msgstr "۲۷۰°"
+
+#: multiscandialog.cpp:71
+#, kde-format
+msgid "ADF & Multiple Scan Options"
+msgstr "گزینه‌های ADF و اسکن چندگانه"
+
+#: multiscandialog.cpp:87
+#, kde-format
+msgid "Scan source:"
+msgstr "منبع اسکن:"
+
+#: multiscandialog.cpp:96
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the scan source"
+msgstr "منبع اسکن را انتخاب کنید"
+
+#: multiscandialog.cpp:116
+#, kde-format
+msgid "Scan and ADF"
+msgstr "اسکن و ADF"
+
+#: multiscandialog.cpp:126
+#, kde-format
+msgid "Single scan"
+msgstr "تک‌اسکن"
+
+#: multiscandialog.cpp:127
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Perform a single scan from the selected source"
+msgstr "انجام یک اسکن تکی از منبع انتخاب‌شده"
+
+#: multiscandialog.cpp:133
+#, kde-format
+msgid "Multiple scan"
+msgstr "پویش چندگانه"
+
+#: multiscandialog.cpp:134
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Perform multiple scans from the selected source"
+msgstr "انجام چند پویش از منبع انتخاب‌شده"
+
+#: multiscandialog.cpp:144
+#, kde-format
+msgid "Scan until ADF is empty"
+msgstr "پویش تا زمان خالی‌شدن ADF"
+
+#: multiscandialog.cpp:145
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Keep scanning until the automatic document feeder is empty"
+msgstr "ادامهٔ پویش تا زمانی که تغذیه‌کنندهٔ خودکار اسناد (ADF) خالی شود"
+
+#: multiscandialog.cpp:151
+#, kde-format
+msgid "Wait until ready for next scan"
+msgstr "انتظار تا زمان آماده شدن برای پویش بعدی"
+
+#: multiscandialog.cpp:152
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Wait for confirmation between scans"
+msgstr "انتظار برای تأیید بین پویش‌ها"
+
+#: multiscandialog.cpp:158
+#, kde-format
+msgid "Scan after waiting for"
+msgstr "پویش پس از انتظار به مدت"
+
+#: multiscandialog.cpp:159
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Delay for a time between scans"
+msgstr "ایجاد تأخیر زمانی بین پویش‌ها"
+
+#: multiscandialog.cpp:165
+#, kde-format
+msgctxt "Time unit"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " ثانیه"
+msgstr[1] " ثانیه"
+
+#: multiscandialog.cpp:166
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the delay time between scans"
+msgstr "تنظیم زمان تأخیر بین پویش‌ها"
+
+#: multiscandialog.cpp:171
+#, kde-format
+msgid "Wait or delay before the first scan"
+msgstr "انتظار یا تاخیر پیش از نخستین پویش"
+
+#: multiscandialog.cpp:172
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Wait for confirmation or delay for the set time before the first scan starts"
+msgstr ""
+"پیش از آغاز نخستین پویش، منتظر تأیید بمانید یا به میزان زمان تعیین‌شده تأخیر"
+" کنید"
+
+#: multiscandialog.cpp:182
+#, kde-format
+msgid "Destination"
+msgstr "مقصد"
+
+#: multiscandialog.cpp:188
+#, kde-format
+msgid "Process multiple scans as a batch"
+msgstr "پردازش چندین پویش به‌صورت دسته‌ای"
+
+#: multiscandialog.cpp:190
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Set this option on to process multiple scans together in a batch, or turn it"
+" off to process them individually.<br/><br/>The effect of this option "
+"depends on the selected destination and its own settings. For example, "
+"sharing multiple scans by email, with this option on, will attach all of the"
+" scans to the same email message.  With this option off, they will each be "
+"attached to a separate message."
+msgstr ""
+"این گزینه را فعال کنید تا چندین پویش با هم به‌صورت دسته‌ای پردازش شوند، یا "
+"برای پردازش جداگانه، آن را غیرفعال کنید.<br/><br/>تأثیر این گزینه به مقصد "
+"انتخاب‌شده و تنظیمات آن بستگی دارد. برای نمونه، در هم‌رسانی چندین پویش از "
+"طریق رایانامه، در صورت فعال بودن این گزینه، تمام پویش‌ها به یک پیام پیوست "
+"می‌شوند. با غیرفعال بودن آن، هر کدام به یک پیام جداگانه پیوست خواهند شد."
+
+#: multiscandialog.cpp:201
+#, kde-format
+msgid "Automatically generate file names"
+msgstr "تولید خودکار نام پرونده‌ها"
+
+#: multiscandialog.cpp:203
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Set this option on to automatically generate a file name when possible, or "
+"turn it off to always ask for a name.<br/><br/>The effect of this option "
+"depends on the selected destination and its own settings. For example, when "
+"saving to the scan gallery or another location a file name will be requested"
+" for the first file of a multiple scan. From then on the file name will be "
+"automatically incremented to generate the next.<br/><br/>A numeric suffix, "
+"or '#' characters, for the first file name will be automatically incremented"
+" with the same number of digits as entered.  Any existing numbered file will"
+" be skipped and not overwritten."
+msgstr ""
+"این گزینه را فعال کنید تا در صورت امکان نام پرونده به‌طور خودکار ایجاد شود، "
+"یا آن را غیرفعال کنید تا همیشه نام پرسیده شود.<br/><br/>تأثیر این گزینه به "
+"مقصد انتخاب‌شده و تنظیمات آن بستگی دارد. برای نمونه، هنگام ذخیره در "
+"نگارخانهٔ پویش یا مکانی دیگر، برای نخستین پرونده از یک پویش چندگانه، نام "
+"پرونده درخواست می‌شود. از آن پس، نام پرونده به‌طور خودکار افزایش می‌یابد تا "
+"نام بعدی ایجاد شود.<br/><br/>پسوند عددی، یا نویسه‌های «#»، برای نخستین نام "
+"پرونده با همان تعداد ارقام واردشده به‌طور خودکار افزایش می‌یابد. از هر "
+"پروندهٔ شماره‌دار موجود رد شده و بازنویسی نمی‌شود."
+
+#: multiscandialog.cpp:222
+#, kde-format
+msgid "Rotation"
+msgstr "چرخش"
+
+#: multiscandialog.cpp:228
+#, kde-format
+msgid "Odd pages:"
+msgstr "صفحه‌های فرد:"
+
+#: multiscandialog.cpp:232
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the rotation for odd scan pages. The first page is page 1."
+msgstr "چرخش را برای صفحه‌های فرد پویش انتخاب کنید. نخستین صفحه، صفحهٔ ۱ است."
+
+#: multiscandialog.cpp:237
+#, kde-format
+msgid "Even pages:"
+msgstr "صفحه‌های زوج:"
+
+#: multiscandialog.cpp:241
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the rotation for even scan pages."
+msgstr "چرخش را برای صفحه‌های اسکن زوج انتخاب کنید."
+
+#: previewer.cpp:242
+#, no-c-format, kde-format
+msgctxt "@info:status"
+msgid "%1x%2mm, %3x%4pix"
+msgstr "%1×%2 میلی‌متر، %3×%4 پیکسل"
+
+#: previewer.cpp:245
+#, no-c-format, kde-format
+msgctxt "@info:status"
+msgid "%1x%2mm"
+msgstr "%1×%2 میلی‌متر"
+
+#: previewer.cpp:335
+#, kde-format
+msgid ""
+"The autodetection of images on the preview depends on the background color of the preview image (the result of scanning with no document loaded).\n"
+"\n"
+"Please select whether the background of the preview image is black or white."
+msgstr ""
+"تشخیص خودکار تصاویر در پیش‌نمایش، به رنگ پس‌زمینهٔ تصویر پیش‌نمایش بستگی دارد (نتیجهٔ اسکن زمانی که سندی قرار داده نشده است).\n"
+"\n"
+"لطفاً مشخص کنید که پس‌زمینهٔ تصویر پیش‌نمایش سیاه است یا سفید."
+
+#: previewer.cpp:336
+#, kde-format
+msgctxt "@title:window"
+msgid "Autodetection Background"
+msgstr "پس‌زمینهٔ تشخیص خودکار"
+
+#: previewer.cpp:337
+#, kde-format
+msgctxt "@action:button Name of colour"
+msgid "White"
+msgstr "سفید"
+
+#: previewer.cpp:338
+#, kde-format
+msgctxt "@action:button Name of colour"
+msgid "Black"
+msgstr "سیاه"
+
+#: scandevices.cpp:204
+#, kde-format
+msgid "Unknown device '%1'"
+msgstr "دستگاه ناشناختهٔ «%1»"
+
+#: scanglobal.cpp:152
+#, kde-format
+msgid "SANE - Scanner Access Now Easy"
+msgstr "سِین (SANE) - دسترسی به اسکنر اکنون آسان است"
+
+#: scanglobal.cpp:153
+#, kde-format
+msgid "Scanner access and driver library"
+msgstr "کتابخانهٔ دسترسی به اسکنر و راه‌انداز"
+
+#: scanglobal.cpp:160
+#, kde-format
+msgid "LibTIFF"
+msgstr "LibTIFF"
+
+#: scanglobal.cpp:161
+#, kde-format
+msgid "TIFF image format library"
+msgstr "کتابخانهٔ قالب تصویر TIFF"
+
+#: scanglobal.cpp:174
+#, kde-format
+msgid "libpaper"
+msgstr "libpaper"
+
+#: scanglobal.cpp:175
+#, kde-format
+msgid "Paper size configuration library"
+msgstr "کتابخانهٔ پیکربندی اندازهٔ کاغذ"
+
+#: scanimage.cpp:76
+#, kde-format
+msgid "Loading non-local images is not yet implemented"
+msgstr "بارگیری تصاویر غیرمحلی هنوز پیاده‌سازی نشده است"
+
+#: scanimage.cpp:128
+#, kde-format
+msgid "Image loading failed"
+msgstr "بارگیری تصویر ناموفق بود"
+
+#: scanimage.cpp:162
+#, kde-format
+msgid "Failed to open TIFF file"
+msgstr "باز کردن پروندهٔ TIFF ناموفق بود"
+
+#: scanimage.cpp:169
+#, kde-format
+msgid "Failed to read TIFF directory"
+msgstr "خواندن شاخهٔ TIFF ناموفق بود"
+
+#: scanimage.cpp:199
+#, kde-format
+msgid "Failed to read TIFF image"
+msgstr "خواندن تصویر TIFF ناموفق بود"
+
+#: scanimage.cpp:229
+#, kde-format
+msgid "TIFF not supported"
+msgstr "TIFF پشتیبانی نمی‌شود"
+
+#: scanparams.cpp:139
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<title>Scanner&nbsp;Settings</title>"
+msgstr "<title>تنظیمات&nbsp;پویشگر</title>"
+
+#: scanparams.cpp:158
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Multiple scans are enabled.<nl/><link url=\"1\">Do not show again</link>"
+msgstr ""
+"پویش‌های چندگانه فعال هستند.<nl/><link url=\"1\">دیگر نشان داده نشود</link>"
+
+#: scanparams.cpp:175
+#, kde-format
+msgid "Pre&view"
+msgstr "پیش‌نمایش"
+
+#: scanparams.cpp:176
+#, kde-format
+msgid "Start a preview scan and show the preview image"
+msgstr "آغاز یک پویش پیش‌نمایش و نمایش تصویر پیش‌نمایش"
+
+#: scanparams.cpp:181
+#, kde-format
+msgid "Star&t Scan"
+msgstr "آغاز پویش"
+
+#: scanparams.cpp:182
+#, kde-format
+msgid "Start a scan and save the scanned image"
+msgstr "آغاز یک پویش و ذخیره تصویر پویش‌شده"
+
+#: scanparams.cpp:209
+#, kde-format
+msgid "Stop"
+msgstr "توقف"
+
+#: scanparams.cpp:213
+#, kde-format
+msgid "Scanning"
+msgstr "در حال پویش"
+
+#: scanparams.cpp:256
+#, kde-format
+msgid "&Basic"
+msgstr "پایه‌ای"
+
+#: scanparams.cpp:257
+#, kde-format
+msgid "Other"
+msgstr "دیگر"
+
+#: scanparams.cpp:258
+#, kde-format
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: scanparams.cpp:284
+#, kde-format
+msgid "SANE Debug (from PNM image)"
+msgstr "اشکال‌زدایی SANE (از تصویر PNM)"
+
+#: scanparams.cpp:285
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Operate in the same way that a real scanner does (including scan area, image"
+" processing etc.), but reading from the specified image file. See <link "
+"url=\"man:sane-pnm(5)\">sane-pnm(5)</link> for more information."
+msgstr ""
+"عملکردی مشابه یک اسکنر واقعی دارد (از جمله ناحیهٔ اسکن، پردازش تصویر و "
+"غیره)، اما از پروندهٔ تصویر مشخص‌شده می‌خواند. برای اطلاعات بیشتر <link "
+"url=\"man:sane-pnm(5)\">sane-pnm(5)</link> را ببینید."
+
+#: scanparams.cpp:287
+#, kde-format
+msgid "Virtual Scanner (any image format)"
+msgstr "اسکنر مجازی (هر قالب تصویری)"
+
+#: scanparams.cpp:288
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Do not perform any scanning or processing, but simply read the specified "
+"image file. This is for testing the image saving, etc."
+msgstr ""
+"هیچ اسکن یا پردازشی انجام ندهید، فقط پروندهٔ تصویر مشخص‌شده را بخوانید. این "
+"مورد برای آزمایش ذخیرهٔ تصویر و غیره است."
+
+#: scanparams.cpp:301
+#, kde-format
+msgid "Reading mode:"
+msgstr "حالت خواندن:"
+
+#: scanparams.cpp:395
+#, kde-format
+msgid "ADF && Multiple Scan Options..."
+msgstr "گزینه‌های ADF و اسکن چندگانه..."
+
+#: scanparams.cpp:397
+#, kde-format
+msgctxt "@info:tootip"
+msgid "Set ADF, rotation and destination options for scanning multiple pages"
+msgstr "تنظیم گزینه‌های ADF، چرخش و مقصد برای اسکن چند صفحه‌ای"
+
+#: scanparams.cpp:421
+#, kde-format
+msgid "Default (from scan settings)"
+msgstr "پیش‌فرض (از تنظیمات اسکن)"
+
+#: scanparams.cpp:422
+#, kde-format
+msgid "Black/white bitmap"
+msgstr "بیت‌مپ سیاه/سفید"
+
+#: scanparams.cpp:423
+#, kde-format
+msgid "Grey scale"
+msgstr "طیف خاکستری"
+
+#: scanparams.cpp:424
+#, kde-format
+msgid "Low colour"
+msgstr "رنگ کم"
+
+#: scanparams.cpp:425
+#, kde-format
+msgid "High colour"
+msgstr "رنگ زیاد"
+
+#: scanparams.cpp:435
+#, kde-format
+msgid "Force image format:"
+msgstr "اجبار قالب تصویر:"
+
+#: scanparams.cpp:488
+#, kde-format
+msgid "Edit Gamma Table..."
+msgstr "ویرایش جدول گاما..."
+
+#: scanparams.cpp:579
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<title>No scanner selected</title><nl/><nl/>Select a scanner device to "
+"perform scanning."
+msgstr ""
+"<title>هیچ پویشگری انتخاب نشده است</title><nl/><nl/>یک دستگاه پویشگر را برای"
+" انجام پویش انتخاب کنید."
+
+#: scanparams.cpp:599
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<title>No scanner found, or unable to access it</title><nl/><nl/>There was a"
+" problem using the SANE (Scanner Access Now Easy) library to access the "
+"scanner device.  There may be a problem with your SANE installation, or it "
+"may not be configured to support your scanner.<nl/><nl/>Check that SANE is "
+"correctly installed and configured on your system, and also that the scanner"
+" device name and settings are correct.<nl/><nl/>See the SANE project home "
+"page (<link url=\"http://www.sane-project.org\">www.sane-project.org</link>)"
+" for more information on SANE installation and setup."
+msgstr ""
+"<title>هیچ پویشگری یافت نشد، یا امکان دسترسی به آن وجود "
+"ندارد</title><nl/><nl/>هنگام استفاده از کتابخانهٔ SANE ‏(Scanner Access Now "
+"Easy) برای دسترسی به دستگاه پویشگر مشکلی رخ داد. ممکن است نصب SANE شما مشکلی"
+" داشته باشد، یا برای پشتیبانی از پویشگر شما پیکربندی نشده "
+"باشد.<nl/><nl/>بررسی کنید که SANE به‌درستی روی سامانهٔ شما نصب و پیکربندی "
+"شده باشد، و همچنین نام دستگاه پویشگر و تنظیمات آن درست باشند.<nl/><nl/>برای "
+"اطلاعات بیشتر در مورد نصب و راه‌اندازی SANE، صفحهٔ اصلی پروژهٔ SANE ‏(<link "
+"url=\"http://www.sane-project.org\">www.sane-project.org</link>) را ببینید."
+
+#: scanparams.cpp:698
+#, kde-format
+msgid "1-bit depth scan cannot be done in color"
+msgstr "پویش با عمق ۱ بیتی نمی‌تواند رنگی انجام شود"
+
+#: scanparams.cpp:701
+#, kde-format
+msgid "16-bit depth scans are not supported"
+msgstr "پویش‌ها با عمق ۱۶ بیتی پشتیبانی نمی‌شوند"
+
+#: scanparams.cpp:711
+#, kde-format
+msgid "A file must be entered for testing or virtual scanning"
+msgstr "برای آزمایش یا پویش مجازی باید پرونده‌ای وارد شود"
+
+#: scanparams.cpp:717
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The testing or virtual file <filename>%1</filename><nl/>was not found or is "
+"not readable."
+msgstr ""
+"پروندهٔ آزمایشی یا مجازی <filename>%1</filename><nl/>یافت نشد یا خواندنی "
+"نیست."
+
+#: scanparams.cpp:728
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"SANE Debug can only read PNM files.<nl/>The specified file is type "
+"<icode>%1</icode>."
+msgstr ""
+"اشکال‌زدای SANE فقط می‌تواند پرونده‌های PNM را بخواند.<nl/>پروندهٔ مشخص‌شده "
+"از نوع <icode>%1</icode> است."
+
+#: scanparams.cpp:743
+#, kde-kuit-format
+msgid "Scan in progress"
+msgstr "پویش در حال انجام است"
+
+#: scanparams.cpp:744
+#, kde-kuit-format
+msgid "Scan in progress<nl/><nl/>%1"
+msgstr "پویش در حال انجام است<nl/><nl/>%1"
+
+#: scanparams.cpp:764
+#, kde-format
+msgid "Cannot preview in Virtual Scanner mode"
+msgstr "امکان پیش‌نمایش در حالت پویشگر مجازی وجود ندارد"
+
+#: scanparams.cpp:775
+#, kde-format
+msgid ""
+"The scan source is set to the automatic document feeder.<br/>The preview may"
+" take the first sheet from the feeder.<br/><br/>Are you sure you want to "
+"preview?"
+msgstr ""
+"منبع پویش روی تغذیه‌کنندهٔ خودکار اسناد (ADF) تنظیم شده است.<br/>ممکن است "
+"پیش‌نمایش نخستین برگه را از تغذیه‌کننده بردارد.<br/><br/>آیا از پیش‌نمایش "
+"اطمینان دارید؟"
+
+#: scanparams.cpp:779
+#, kde-format
+msgid "ADF Selected"
+msgstr "‏ADF انتخاب شد"
+
+#: scanparams.cpp:780
+#, kde-format
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#. i18n: ectx: label, entry (StartupOnlyLocal), group (Startup)
+#: scansettings.kcfg:20
+#, kde-format
+msgid "Query network for available scanners"
+msgstr "پرس‌وجوی شبکه برای پویشگرهای موجود"
+
+#. i18n: ectx: tooltip, entry (StartupOnlyLocal), group (Startup)
+#: scansettings.kcfg:21
+#, kde-format
+msgid ""
+"<div>Check this if you want a network query for available "
+"scanners.<br/><br/>Note that this does not mean a query over the entire "
+"network, but only those hosts configured for SANE.</div>"
+msgstr ""
+"<div>اگر می‌خواهید برای اسکنرهای موجود در شبکه جستجو شود، این گزینه را علامت"
+" بزنید.<br/><br/>توجه داشته باشید که این به معنای جستجو در کل شبکه نیست، "
+"بلکه فقط میزبان‌های پیکربندی‌شده برای SANE را شامل می‌شود.</div>"
+
+#. i18n: ectx: label, entry (StartupUseProxy), group (Startup)
+#: scansettings.kcfg:26
+#, kde-format
+msgid "Use the system proxy settings to access network scanners"
+msgstr "استفاده از تنظیمات پیش‌کار سیستم برای دسترسی به اسکنرهای شبکه"
+
+#. i18n: ectx: tooltip, entry (StartupUseProxy), group (Startup)
+#: scansettings.kcfg:27
+#, kde-format
+msgid ""
+"<div>Check this if you want to use the standard system proxy settings to "
+"access network scanners.<br/><br/>Note that some SANE backends (for example "
+"'escl') may not work properly through a proxy.</div>"
+msgstr ""
+"<div>اگر می‌خواهید برای دسترسی به اسکنرهای شبکه از تنظیمات استاندارد پیش‌کار"
+" سیستم استفاده کنید، این گزینه را علامت بزنید.<br/><br/>توجه داشته باشید که "
+"برخی از پس‌اندهای SANE (مانند «escl») ممکن است از طریق پیش‌کار به‌درستی کار "
+"نکنند.</div>"
+
+#. i18n: ectx: label, entry (StartupSkipAsk), group (Startup)
+#: scansettings.kcfg:36
+#, kde-format
+msgid "Show the scanner selection dialog"
+msgstr "نمایش گفت‌وگوی انتخاب اسکنر"
+
+#. i18n: ectx: tooltip, entry (StartupSkipAsk), group (Startup)
+#: scansettings.kcfg:37
+#, kde-format
+msgid "<div>Check this to show the scanner selection dialog on startup.</div>"
+msgstr ""
+"<div>برای نمایش گفت‌وگوی انتخاب اسکنر هنگام راه‌اندازی، این گزینه را علامت "
+"بزنید.</div>"
+
+#. i18n: ectx: label, entry (PreviewAutoselThreshold), group (Options
+#. SCANNERNAME)
+#: scansettings.kcfg:73
+#, kde-format
+msgid "Threshold:"
+msgstr "آستانه:"
+
+#. i18n: ectx: tooltip, entry (PreviewAutoselThreshold), group (Options
+#. SCANNERNAME)
+#: scansettings.kcfg:74
+#, kde-format
+msgid ""
+"<div>Threshold for auto-detection. All pixels lighter (on a black "
+"background) or darker (on a white background) than this are considered to be"
+" part of the image.</div>"
+msgstr ""
+"<div>آستانه برای تشخیص خودکار. تمام پیکسل‌های روشن‌تر (در پس‌زمینهٔ سیاه) یا"
+" تیره‌تر (در پس‌زمینهٔ سفید) از این مقدار، بخشی از تصویر در نظر گرفته "
+"می‌شوند.</div>"
+
+#. i18n: ectx: label, entry (PreviewAutoselDustsize), group (Options
+#. SCANNERNAME)
+#: scansettings.kcfg:81
+#, kde-format
+msgid "Dust size (pixels):"
+msgstr "اندازهٔ گردوغبار (پیکسل):"
+
+#. i18n: ectx: tooltip, entry (PreviewAutoselDustsize), group (Options
+#. SCANNERNAME)
+#: scansettings.kcfg:82
+#, kde-format
+msgid ""
+"<div>Set the dust size; dark or light areas smaller than this will be "
+"ignored</div>"
+msgstr ""
+"<div>اندازهٔ گردوغبار را تعیین کنید؛ نواحی تیره یا روشنی که از این مقدار "
+"کوچک‌تر باشند نادیده گرفته می‌شوند</div>"
+
+#. i18n: ectx: label, entry (PreviewAutoselMargin), group (Options
+#. SCANNERNAME)
+#: scansettings.kcfg:89
+#, kde-format
+msgid "Add/subtract margin (mm):"
+msgstr "افزودن/کاستن حاشیه (میلی‌متر):"
+
+#. i18n: ectx: tooltip, entry (PreviewAutoselMargin), group (Options
+#. SCANNERNAME)
+#: scansettings.kcfg:90
+#, kde-format
+msgid ""
+"<div>Set a margin to be added to or subtracted from the detected area</div>"
+msgstr ""
+"<div>تنظیم حاشیه‌ای برای افزودن به ناحیهٔ شناسایی‌شده یا کم‌کردن از آن</div>"
+
+#. i18n: ectx: label, entry (PreviewAutoselBackground), group (Options
+#. SCANNERNAME)
+#: scansettings.kcfg:97
+#, kde-format
+msgid "Scanner background:"
+msgstr "پس‌زمینهٔ اسکنر:"
+
+#. i18n: ectx: tooltip, entry (PreviewAutoselBackground), group (Options
+#. SCANNERNAME)
+#: scansettings.kcfg:98
+#, kde-format
+msgid ""
+"<div>Select whether a scan of the empty scanner glass results in a black or "
+"a white image</div>"
+msgstr ""
+"<div>مشخص کنید که آیا اسکن شیشهٔ خالی اسکنر به یک تصویر سیاه منجر می‌شود یا "
+"سفید</div>"
+
+#: scansizeselector.cpp:57
+#, kde-format
+msgid "Set the size of the scanned area"
+msgstr "تنظیم اندازهٔ ناحیهٔ اسکن‌شده"
+
+#: scansizeselector.cpp:62
+#, kde-format
+msgid "Full size"
+msgstr "اندازهٔ کامل"
+
+#: scansizeselector.cpp:63
+#, kde-format
+msgid "(No selection)"
+msgstr "(بدون انتخاب)"
+
+#: scansizeselector.cpp:75
+#, kde-format
+msgid "Portrait"
+msgstr "عمودی"
+
+#: scansizeselector.cpp:80
+#, kde-format
+msgid "Landscape"
+msgstr "افقی"
+
+#: scansizeselector.cpp:91
+#, kde-format
+msgid "Set the orientation for a preset size of the scanned area"
+msgstr "تنظیم جهت برای اندازهٔ ازپیش‌تنظیم‌شدهٔ ناحیهٔ اسکن"
+
+#: scansizeselector.cpp:197
+#, kde-format
+msgid "Selection"
+msgstr "انتخاب"

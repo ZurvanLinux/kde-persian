@@ -1,0 +1,1671 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the akonadicontact6 package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadicontact6\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-15 00:44+0000\n"
+"PO-Revision-Date: 2026-10-15 13:08+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: akonadi-contacts-core/contactgroupmodel.cpp:193
+#, kde-format
+msgid "The member with name <b>%1</b> is missing an email address"
+msgstr "عضو با نام <b>%1</b> فاقد نشانی رایانامه است"
+
+#: akonadi-contacts-core/contactgroupmodel.cpp:238
+#, kde-format
+msgid "Contact does not exist any more"
+msgstr "مخاطب دیگر وجود ندارد"
+
+#: akonadi-contacts-core/contactgroupmodel.cpp:392
+#, kde-format
+msgctxt "contact's name"
+msgid "Name"
+msgstr "نام"
+
+#: akonadi-contacts-core/contactgroupmodel.cpp:394
+#, kde-format
+msgctxt "contact's email address"
+msgid "EMail"
+msgstr "رایانامه"
+
+#: akonadi-contacts-core/contactstreemodel.cpp:225
+#, kde-format
+msgctxt "@title:column address books overview"
+msgid "Address Books"
+msgstr "دفترچه‌های نشانی"
+
+#: akonadi-contacts-core/contactstreemodel.cpp:235
+#, kde-format
+msgctxt "@title:column name of a person"
+msgid "Name"
+msgstr "نام"
+
+#: akonadi-contacts-core/contactstreemodel.cpp:237
+#, kde-format
+msgctxt "@title:column family name of a person"
+msgid "Family Name"
+msgstr "نام خانوادگی"
+
+#: akonadi-contacts-core/contactstreemodel.cpp:239
+#, kde-format
+msgctxt "@title:column given name of a person"
+msgid "Given Name"
+msgstr "نام کوچک"
+
+#: akonadi-contacts-core/contactstreemodel.cpp:243
+#, kde-format
+msgctxt "@title:column home address of a person"
+msgid "Home"
+msgstr "منزل"
+
+#: akonadi-contacts-core/contactstreemodel.cpp:245
+#, kde-format
+msgctxt "@title:column work address of a person"
+msgid "Work"
+msgstr "محل کار"
+
+#: akonadi-contacts-core/contactstreemodel.cpp:247
+#, kde-format
+msgctxt "@title:column phone numbers of a person"
+msgid "Phone Numbers"
+msgstr "شماره‌های تلفن"
+
+#: akonadi-contacts-core/contactstreemodel.cpp:249
+#, kde-format
+msgctxt "@title:column the preferred email addresses of a person"
+msgid "Preferred EMail"
+msgstr "رایانامهٔ ترجیحی"
+
+#: akonadi-contacts-core/contactstreemodel.cpp:251
+#, kde-format
+msgctxt "@title:column all email addresses of a person"
+msgid "All EMails"
+msgstr "همهٔ رایانامه‌ها"
+
+#: akonadi-contacts-core/emailaddressselectionproxymodel.cpp:23
+#, kde-format
+msgid "Distribution List %1"
+msgstr "فهرست توزیع %1"
+
+#: akonadi-contacts-core/emailaddressselectionproxymodel.cpp:130
+#, kde-format
+msgctxt "Name and email address of a contact"
+msgid "%1 <%2>"
+msgstr "%1 <%2>"
+
+#: akonadi-contacts-core/grantlee/contactgrantleewrapper.cpp:28
+#: akonadi-contacts-core/standardcontactformatter.cpp:205
+#: akonadi-contacts-widgets/contactgroupviewer.cpp:65
+#, kde-format
+msgid "Address Book"
+msgstr "دفترچهٔ نشانی"
+
+#: akonadi-contacts-core/grantlee/contactgrantleewrapper.cpp:33
+#: akonadi-contacts-core/standardcontactformatter.cpp:204
+#, kde-format
+msgid "Anniversary"
+msgstr "سالگرد"
+
+#: akonadi-contacts-core/grantlee/contactgrantleewrapper.cpp:38
+#: akonadi-contacts-core/standardcontactformatter.cpp:199
+#, kde-format
+msgid "Assistant's Name"
+msgstr "نام دستیار"
+
+#: akonadi-contacts-core/grantlee/contactgrantleewrapper.cpp:43
+#: akonadi-contacts-core/standardcontactformatter.cpp:200
+#, kde-format
+msgid "Manager's Name"
+msgstr "نام مدیر"
+
+#: akonadi-contacts-core/grantlee/contactgrantleewrapper.cpp:48
+#: akonadi-contacts-core/standardcontactformatter.cpp:202
+#, kde-format
+msgid "Office"
+msgstr "دفتر کار"
+
+#: akonadi-contacts-core/grantlee/contactgrantleewrapper.cpp:53
+#: akonadi-contacts-core/standardcontactformatter.cpp:198
+#, kde-format
+msgid "Profession"
+msgstr "شغل"
+
+#: akonadi-contacts-core/grantlee/contactgrantleewrapper.cpp:58
+#: akonadi-contacts-core/standardcontactformatter.cpp:201
+#, kde-format
+msgctxt "Wife/Husband/..."
+msgid "Partner's Name"
+msgstr "نام همسر"
+
+#: akonadi-contacts-core/grantlee/grantleecontactformatter.cpp:183
+#: akonadi-contacts-core/standardcontactformatter.cpp:262
+#, kde-format
+msgctxt "Boolean value"
+msgid "yes"
+msgstr "بله"
+
+#: akonadi-contacts-core/grantlee/grantleecontactformatter.cpp:185
+#: akonadi-contacts-core/standardcontactformatter.cpp:264
+#, kde-format
+msgctxt "Boolean value"
+msgid "no"
+msgstr "خیر"
+
+#: akonadi-contacts-core/standardcontactformatter.cpp:97
+#, kde-format
+msgid "(One year old)"
+msgid_plural "(%1 years old)"
+msgstr[0] "(یک ساله)"
+msgstr[1] "(%1 ساله)"
+
+#: akonadi-contacts-core/standardcontactformatter.cpp:108
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Send SMS"
+msgstr "ارسال پیامک"
+
+#: akonadi-contacts-core/standardcontactformatter.cpp:117
+#, kde-format
+msgctxt "a contact's email address"
+msgid "Email"
+msgstr "رایانامه"
+
+#: akonadi-contacts-core/standardcontactformatter.cpp:132
+#, kde-format
+msgid "Homepage"
+msgstr "صفحهٔ اصلی"
+
+#: akonadi-contacts-core/standardcontactformatter.cpp:149
+#, kde-format
+msgid "Blog Feed"
+msgstr "خوراک وبلاگ"
+
+#: akonadi-contacts-core/standardcontactformatter.cpp:168
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show address on map"
+msgstr "نمایش نشانی روی نقشه"
+
+#: akonadi-contacts-core/standardcontactformatter.cpp:185
+#, kde-format
+msgid "Notes"
+msgstr "یادداشت‌ها"
+
+#: akonadi-contacts-core/standardcontactformatter.cpp:191
+#, kde-format
+msgid "Department"
+msgstr "بخش"
+
+#: akonadi-contacts-core/standardcontactformatter.cpp:203
+#, kde-format
+msgid "IM Address"
+msgstr "نشانی پیام‌رسان"
+
+#: akonadi-contacts-widgets/contacteditor.cpp:165
+#, kde-format
+msgid ""
+"The contact has been changed by someone else.\n"
+"What should be done?"
+msgstr ""
+"مخاطب توسط فرد دیگری تغییر یافته است.\n"
+"چه کاری باید انجام شود؟"
+
+#: akonadi-contacts-widgets/contacteditor.cpp:166
+#: akonadi-contacts-widgets/contactgroupeditor.cpp:137
+#, kde-format
+msgctxt "@action:button"
+msgid "Take over changes"
+msgstr "پذیرش تغییرات"
+
+#: akonadi-contacts-widgets/contacteditor.cpp:167
+#: akonadi-contacts-widgets/contactgroupeditor.cpp:138
+#, kde-format
+msgctxt "@action:button"
+msgid "Ignore and Overwrite changes"
+msgstr "نادیده‌گرفتن و بازنویسی تغییرات"
+
+#: akonadi-contacts-widgets/contacteditor.cpp:281
+#: akonadi-contacts-widgets/contactgroupeditor.cpp:292
+#: akonadi-contacts-widgets/widgets/selectaddressbookdialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Address Book"
+msgstr "انتخاب دفترچه نشانی"
+
+#: akonadi-contacts-widgets/contacteditor.cpp:282
+#, kde-format
+msgid "Select the address book the new contact shall be saved in:"
+msgstr "دفترچه نشانی‌ای که مخاطب جدید باید در آن ذخیره شود را انتخاب کنید:"
+
+#: akonadi-contacts-widgets/contacteditordialog.cpp:45
+#, kde-format
+msgctxt "@title:window"
+msgid "New Contact"
+msgstr "مخاطب جدید"
+
+#: akonadi-contacts-widgets/contacteditordialog.cpp:45
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Contact"
+msgstr "ویرایش مخاطب"
+
+#: akonadi-contacts-widgets/contacteditordialog.cpp:72
+#: akonadi-contacts-widgets/contactgroupeditordialog.cpp:102
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Add to:"
+msgstr "افزودن به:"
+
+#: akonadi-contacts-widgets/contacteditordialog.cpp:181
+#, kde-format
+msgctxt "@info"
+msgid "Location was not saved. Do you want to close editor?"
+msgstr "مکان ذخیره نشد. آیا می‌خواهید ویرایشگر را ببندید؟"
+
+#: akonadi-contacts-widgets/contacteditordialog.cpp:182
+#: akonadi-contacts-widgets/contacteditordialog.cpp:200
+#: akonadi-contacts-widgets/contactgroupeditordialog.cpp:165
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "تأیید"
+
+#: akonadi-contacts-widgets/contacteditordialog.cpp:183
+#, kde-format
+msgctxt "@action:button"
+msgid "Close Editor"
+msgstr "بستن ویرایشگر"
+
+#: akonadi-contacts-widgets/contacteditordialog.cpp:184
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Close"
+msgstr "نبستن"
+
+#: akonadi-contacts-widgets/contacteditordialog.cpp:199
+#: akonadi-contacts-widgets/contactgroupeditordialog.cpp:164
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to cancel?"
+msgstr "آیا واقعاً می‌خواهید لغو کنید؟"
+
+#: akonadi-contacts-widgets/contacteditordialog.cpp:201
+#: akonadi-contacts-widgets/contactgroupeditordialog.cpp:166
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel Editing"
+msgstr "لغو ویرایش"
+
+#: akonadi-contacts-widgets/contacteditordialog.cpp:202
+#: akonadi-contacts-widgets/contactgroupeditordialog.cpp:167
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Cancel"
+msgstr "لغو نکردن"
+
+#: akonadi-contacts-widgets/contactgroupeditor.cpp:136
+#, kde-format
+msgid ""
+"The contact group has been changed by someone else.\n"
+"What should be done?"
+msgstr ""
+"گروه مخاطب توسط شخص دیگری تغییر یافته است.\n"
+"چه کاری باید انجام شود؟"
+
+#: akonadi-contacts-widgets/contactgroupeditor.cpp:177
+#, kde-format
+msgid "The name of the contact group must not be empty."
+msgstr "نام گروه مخاطب نباید خالی باشد."
+
+#: akonadi-contacts-widgets/contactgroupeditor.cpp:293
+#, kde-format
+msgid "Select the address book the new contact group shall be saved in:"
+msgstr "دفترچه نشانی مورد نظر برای ذخیره گروه مخاطب جدید را انتخاب کنید:"
+
+#. i18n: ectx: property (text), widget (QLabel, groupNameLabel)
+#: akonadi-contacts-widgets/contactgroupeditor.ui:29
+#, kde-format
+msgctxt "@label The name of a contact group"
+msgid "Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: akonadi-contacts-widgets/contactgroupeditor.ui:59
+#, kde-format
+msgctxt "@label"
+msgid "Contact group members:"
+msgstr "اعضای گروه مخاطب:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, searchField)
+#: akonadi-contacts-widgets/contactgroupeditor.ui:66
+#, kde-format
+msgid "Search..."
+msgstr "جستجو..."
+
+#: akonadi-contacts-widgets/contactgroupeditordialog.cpp:79
+#, kde-format
+msgctxt "@title:window"
+msgid "New Contact Group"
+msgstr "گروه مخاطب جدید"
+
+#: akonadi-contacts-widgets/contactgroupeditordialog.cpp:79
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Contact Group"
+msgstr "ویرایش گروه مخاطب"
+
+#: akonadi-contacts-widgets/contactgroupviewer.cpp:51
+#, kde-format
+msgctxt "@title:window"
+msgid "Contact Group %1"
+msgstr "گروه مخاطب %1"
+
+#: akonadi-contacts-widgets/contactviewer.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Contact %1"
+msgstr "مخاطب %1"
+
+#: akonadi-contacts-widgets/contactviewerdialog.cpp:64
+#, kde-format
+msgctxt "@title:window"
+msgid "Show Contact"
+msgstr "نمایش مخاطب"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresseslocationwidget.cpp:63
+#, kde-format
+msgid "Remove Address"
+msgstr "حذف نشانی"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresseslocationwidget.cpp:67
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:282
+#, kde-format
+msgid "Do you really want to delete this address?"
+msgstr "آیا واقعاً می‌خواهید این نشانی را حذف کنید؟"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:47
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add Street"
+msgstr "افزودن خیابان"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:58
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add Post Office Box"
+msgstr "افزودن صندوق پستی"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:68
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add Postal Code"
+msgstr "افزودن کد پستی"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:78
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add Locality"
+msgstr "افزودن شهر/منطقه"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:88
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add Region"
+msgstr "افزودن استان/منطقه"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:104
+#, kde-format
+msgctxt "street/postal"
+msgid "This is the preferred address"
+msgstr "این نشانی ترجیحی است"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:115
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Address"
+msgstr "افزودن نشانی"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:127
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Address"
+msgstr "حذف نشانی"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:132
+#, kde-format
+msgctxt "@action:button"
+msgid "Update Address"
+msgstr "به‌روزرسانی نشانی"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresslocationwidget.cpp:137
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "لغو"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresstypedialog.cpp:24
+#, kde-format
+msgctxt "street/postal"
+msgid "Edit Address Type"
+msgstr "ویرایش نوع نشانی"
+
+#: akonadi-contacts-widgets/editor/addresseditor/addresstypedialog.cpp:36
+#, kde-format
+msgctxt "street/postal"
+msgid "Address Types"
+msgstr "انواع نشانی"
+
+#: akonadi-contacts-widgets/editor/addresseditor/selectaddresstypecombobox.cpp:61
+#: akonadi-contacts-widgets/editor/generalinfoeditor/phone/phonecomboboxtype.cpp:66
+#, kde-format
+msgctxt "@item:inlistbox Category of contact info field"
+msgid "Other..."
+msgstr "غیره..."
+
+#: akonadi-contacts-widgets/editor/addresseditor/selectaddresstypecombobox.cpp:63
+#, kde-format
+msgctxt "@item:inlistbox Category of contact info field"
+msgid "New Address Type"
+msgstr "نوع نشانی جدید"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:48
+#, kde-format
+msgctxt "@label The organization of a contact"
+msgid "Organization:"
+msgstr "سازمان:"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:52
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add organization's name"
+msgstr "افزودن نام سازمان"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:56
+#, kde-format
+msgctxt "@label The profession of a contact"
+msgid "Profession:"
+msgstr "حرفه:"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:59
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add profession"
+msgstr "افزودن حرفه"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:64
+#, kde-format
+msgctxt "@label The title of a contact"
+msgid "Title:"
+msgstr "عنوان:"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:67
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add the title"
+msgstr "افزودن عنوان"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:72
+#, kde-format
+msgctxt "@label The department of a contact"
+msgid "Department:"
+msgstr "بخش:"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:75
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add the department"
+msgstr "افزودن بخش"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:80
+#, kde-format
+msgctxt "@label The office of a contact"
+msgid "Office:"
+msgstr "دفتر:"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:84
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add the office"
+msgstr "افزودن دفتر"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:89
+#, kde-format
+msgctxt "@label The manager's name of a contact"
+msgid "Manager's name:"
+msgstr "نام مدیر:"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add manager's name"
+msgstr "افزودن نام مدیر"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:97
+#, kde-format
+msgctxt "@label The assistant's name of a contact"
+msgid "Assistant's name:"
+msgstr "نام دستیار:"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:100
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add assistant's name"
+msgstr "افزودن نام دستیار"
+
+#: akonadi-contacts-widgets/editor/businesseditor/businesseditorwidget.cpp:106
+#, kde-format
+msgctxt "@label The free/busy information of a contact"
+msgid "Free/Busy:"
+msgstr "آزاد/مشغول:"
+
+#: akonadi-contacts-widgets/editor/businesseditor/freebusyeditwidget.cpp:28
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add FreeBusy"
+msgstr "افزودن وضعیت فارغ/مشغول"
+
+#: akonadi-contacts-widgets/editor/contacteditorwidget.cpp:95
+#, kde-format
+msgctxt "@title:tab"
+msgid "Contact"
+msgstr "مخاطب"
+
+#: akonadi-contacts-widgets/editor/contacteditorwidget.cpp:101
+#, kde-format
+msgctxt "@title:tab"
+msgid "Location"
+msgstr "مکان"
+
+#: akonadi-contacts-widgets/editor/contacteditorwidget.cpp:107
+#, kde-format
+msgctxt "@title:tab"
+msgid "Business"
+msgstr "کاری"
+
+#: akonadi-contacts-widgets/editor/contacteditorwidget.cpp:113
+#, kde-format
+msgctxt "@title:tab Personal properties of a contact"
+msgid "Personal"
+msgstr "شخصی"
+
+#: akonadi-contacts-widgets/editor/contacteditorwidget.cpp:121
+#, kde-format
+msgctxt "@title:tab"
+msgid "Notes"
+msgstr "یادداشت‌ها"
+
+#: akonadi-contacts-widgets/editor/contacteditorwidget.cpp:131
+#, kde-format
+msgctxt "@title:tab"
+msgid "Custom Fields"
+msgstr "فیلدهای سفارشی"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:26
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Field"
+msgstr "افزودن فیلد"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:27
+#, kde-format
+msgctxt "@option:check"
+msgid "Use field for all contacts"
+msgstr "استفاده از فیلد برای همه مخاطبان"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:31
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Custom Field Title"
+msgstr "عنوان فیلد سفارشی"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:38
+#: akonadi-contacts-widgets/editor/personaleditor/personaleditorwidget.cpp:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add name"
+msgstr "افزودن نام"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:61
+#, kde-format
+msgid "Text"
+msgstr "متن"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:62
+#, kde-format
+msgid "Numeric"
+msgstr "عددی"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:63
+#, kde-format
+msgid "Boolean"
+msgstr "بولی"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:64
+#, kde-format
+msgid "Date"
+msgstr "تاریخ"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:65
+#, kde-format
+msgid "Time"
+msgstr "زمان"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:66
+#, kde-format
+msgid "DateTime"
+msgstr "تاریخ و زمان"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldeditorwidget.cpp:67
+#, kde-format
+msgid "Url"
+msgstr "نشانی وب"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldslistdelegate.cpp:210
+#, kde-format
+msgctxt "Custom Fields"
+msgid "Do you really want to delete the selected custom field?"
+msgstr "آیا واقعاً می‌خواهید فیلد سفارشی انتخاب‌شده را حذف کنید؟"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldslistdelegate.cpp:211
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirm Delete"
+msgstr "تأیید حذف"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldsmodel.cpp:191
+#, kde-format
+msgctxt "custom field title"
+msgid "Title"
+msgstr "عنوان"
+
+#: akonadi-contacts-widgets/editor/customfieldeditor/customfieldsmodel.cpp:193
+#, kde-format
+msgctxt "custom field value"
+msgid "Value"
+msgstr "مقدار"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/blogfeedwidget.cpp:25
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Blog Feed"
+msgstr "خوراک وب‌نوشت"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/blogfeedwidget.cpp:30
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add a Blog Feed"
+msgstr "افزودن خوراک وب‌نوشت"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/displaynameeditwidget.cpp:45
+#, kde-format
+msgid "Short Name"
+msgstr "نام کوتاه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/displaynameeditwidget.cpp:46
+#, kde-format
+msgid "Full Name"
+msgstr "نام کامل"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/displaynameeditwidget.cpp:47
+#, kde-format
+msgid "Reverse Name with Comma"
+msgstr "نام معکوس با ویرگول"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/displaynameeditwidget.cpp:48
+#, kde-format
+msgid "Reverse Name"
+msgstr "نام معکوس"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/displaynameeditwidget.cpp:49
+#, kde-format
+msgid "Organization"
+msgstr "سازمان"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/displaynameeditwidget.cpp:50
+#, kde-format
+msgctxt "@item:inlistbox A custom name format"
+msgid "Custom"
+msgstr "سفارشی"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/mail/maillistwidget.cpp:26
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Email"
+msgstr "رایانامه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/mail/mailtypecombobox.cpp:19
+#: akonadi-contacts-widgets/editor/generalinfoeditor/web/webselecttypecombobox.cpp:20
+#, kde-format
+msgid "Select..."
+msgstr "انتخاب…"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/mail/mailtypecombobox.cpp:20
+#: akonadi-contacts-widgets/editor/generalinfoeditor/web/webselecttypecombobox.cpp:21
+#, kde-format
+msgid "Home"
+msgstr "خانه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/mail/mailtypecombobox.cpp:21
+#: akonadi-contacts-widgets/editor/generalinfoeditor/web/webselecttypecombobox.cpp:22
+#, kde-format
+msgid "Work"
+msgstr "محل کار"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/mail/mailtypecombobox.cpp:22
+#: akonadi-contacts-widgets/editor/generalinfoeditor/web/webselecttypecombobox.cpp:24
+#, kde-format
+msgid "Other"
+msgstr "دیگر"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/mail/mailwidget.cpp:31
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add an Email Account"
+msgstr "افزودن حساب رایانامه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/mail/mailwidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add an Email"
+msgstr "افزودن یک رایانامه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/mail/mailwidget.cpp:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove Email"
+msgstr "حذف رایانامه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/messageformattingwidget.cpp:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow remote content in received HTML messages"
+msgstr "اجازه دادن به محتوای دوردست در پیام‌های HTML دریافتی"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/messageformattingwidget.cpp:26
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Show messages received from this contact as:"
+msgstr "نمایش پیام‌های دریافت‌شده از این مخاطب به صورت:"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/messageformattingwidget.cpp:33
+#, kde-format
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/messageformattingwidget.cpp:33
+#, kde-format
+msgid "Plain Text"
+msgstr "متن ساده"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/messageformattingwidget.cpp:33
+#, kde-format
+msgid "HTML"
+msgstr "HTML"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/messaging/messaginglistwidget.cpp:26
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Messaging"
+msgstr "پیام‌رسانی"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/messaging/messagingwidget.cpp:35
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add an identifier"
+msgstr "افزودن شناسه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/messaging/messagingwidget.cpp:41
+#, kde-format
+msgctxt "@item:inlistbox select from a list of IM protocols"
+msgid "Select..."
+msgstr "انتخاب..."
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/messaging/messagingwidget.cpp:51
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add an IM"
+msgstr "افزودن پیام‌رسان"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/messaging/messagingwidget.cpp:57
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove IM"
+msgstr "حذف پیام‌رسان"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Contact Name"
+msgstr "ویرایش نام مخاطب"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:49
+#, kde-format
+msgid "Honorific prefixes:"
+msgstr "پیشوندهای احترامی:"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:50
+#, kde-format
+msgid "Given name:"
+msgstr "نام:"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:51
+#, kde-format
+msgid "Additional names:"
+msgstr "نام‌های دیگر:"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:52
+#, kde-format
+msgid "Family names:"
+msgstr "نام خانوادگی:"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:53
+#, kde-format
+msgid "Honorific suffixes:"
+msgstr "پسوندهای افتخاری:"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:54
+#, kde-format
+msgid "Display:"
+msgstr "نمایش:"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:58
+#, kde-format
+msgid "Dr."
+msgstr "دکتر"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:59
+#, kde-format
+msgid "Miss"
+msgstr "دوشیزه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:60
+#, kde-format
+msgid "Mr."
+msgstr "آقای"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:61
+#, kde-format
+msgid "Mrs."
+msgstr "خانم"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:62
+#, kde-format
+msgid "Ms."
+msgstr "خانم"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:63
+#, kde-format
+msgid "Prof."
+msgstr "پروفسور"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:68
+#, kde-format
+msgid "I"
+msgstr "یکم"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:69
+#, kde-format
+msgid "II"
+msgstr "دوم"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:70
+#, kde-format
+msgid "III"
+msgstr "سوم"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:71
+#, kde-format
+msgid "Jr."
+msgstr "پسر (کوچک)"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nameeditdialog.cpp:72
+#, kde-format
+msgid "Sr."
+msgstr "پدر (بزرگ)"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/namewidget.cpp:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name"
+msgstr "نام"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/namewidget.cpp:42
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/namewidget.cpp:43
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit Contact Name"
+msgstr "ویرایش نام مخاطب"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nicknamewidget.cpp:26
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Nickname"
+msgstr "نام مستعار"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/nicknamewidget.cpp:31
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add a Nickname"
+msgstr "افزودن نام مستعار"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/phone/phonelistwidget.cpp:26
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Phone"
+msgstr "تلفن"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/phone/phonetypedialog.cpp:24
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Phone Number"
+msgstr "ویرایش شماره تلفن"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/phone/phonewidget.cpp:33
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add a Phone Number"
+msgstr "افزودن شماره تلفن"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/phone/phonewidget.cpp:42
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add a Phone Number"
+msgstr "افزودن شماره تلفن"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/phone/phonewidget.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove Phone Number"
+msgstr "حذف شماره تلفن"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/web/weblistwidget.cpp:27
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Web"
+msgstr "وب"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/web/webselecttypecombobox.cpp:23
+#, kde-format
+msgid "Profile"
+msgstr "نمایه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/web/webwidget.cpp:33
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add a Web Site"
+msgstr "افزودن وبگاه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/web/webwidget.cpp:43
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add a Web Site"
+msgstr "افزودن وبگاه"
+
+#: akonadi-contacts-widgets/editor/generalinfoeditor/web/webwidget.cpp:49
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove Web Site"
+msgstr "حذف وب‌گاه"
+
+#: akonadi-contacts-widgets/editor/personaleditor/dateeditwidget.cpp:23
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Click to add date"
+msgstr "برای افزودن تاریخ کلیک کنید"
+
+#: akonadi-contacts-widgets/editor/personaleditor/dateeditwidget.cpp:34
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#: akonadi-contacts-widgets/editor/personaleditor/dateeditwidget.cpp:55
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear"
+msgstr "پاک‌کردن"
+
+#: akonadi-contacts-widgets/editor/personaleditor/personaleditorwidget.cpp:30
+#, kde-format
+msgctxt "@label The birthdate of a contact"
+msgid "Birthdate:"
+msgstr "تاریخ تولد:"
+
+#: akonadi-contacts-widgets/editor/personaleditor/personaleditorwidget.cpp:36
+#, kde-format
+msgctxt "@label The wedding anniversary of a contact"
+msgid "Anniversary:"
+msgstr "سالگرد:"
+
+#: akonadi-contacts-widgets/editor/personaleditor/personaleditorwidget.cpp:42
+#, kde-format
+msgctxt "@label The partner's name of a contact"
+msgid "Partner's name:"
+msgstr "نام شریک:"
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:77
+#, kde-format
+msgid "This contact's image cannot be found."
+msgstr "تصویر این مخاطب یافت نشد."
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:117
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The photo of the contact (click to change)"
+msgstr "عکس مخاطب (برای تغییر کلیک کنید)"
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:119
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The logo of the company (click to change)"
+msgstr "نشان‌وارهٔ شرکت (برای تغییر کلیک کنید)"
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:236
+#, kde-format
+msgid "Change photo..."
+msgstr "تغییر عکس..."
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:237
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:250
+#, kde-format
+msgid "Change URL..."
+msgstr "تغییر نشانی اینترنتی..."
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:241
+#, kde-format
+msgid "Save photo..."
+msgstr "ذخیرهٔ عکس..."
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:244
+#, kde-format
+msgid "Remove photo"
+msgstr "حذف عکس"
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:249
+#, kde-format
+msgid "Change logo..."
+msgstr "تغییر لوگو..."
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:254
+#, kde-format
+msgid "Save logo..."
+msgstr "ذخیرهٔ لوگو..."
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:257
+#, kde-format
+msgid "Remove logo"
+msgstr "حذف لوگو"
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:271
+#, kde-format
+msgid "Change image URL"
+msgstr "تغییر نشانی تصویر"
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:271
+#, kde-format
+msgid "Image URL:"
+msgstr "نشانی تصویر:"
+
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:300
+#: akonadi-contacts-widgets/editor/widgets/imagewidget.cpp:323
+#, kde-format
+msgid "Images (%1)"
+msgstr "تصاویر (%1)"
+
+#: akonadi-contacts-widgets/editor/widgets/preferredlineeditwidget.cpp:22
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set as Preferred"
+msgstr "تنظیم به عنوان ترجیحی"
+
+#: akonadi-contacts-widgets/emailaddressrequester.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open Address Book"
+msgstr "باز کردن دفترچه نشانی"
+
+#: akonadi-contacts-widgets/emailaddressselectionwidget.cpp:128
+#, kde-format
+msgctxt "@label Search in a list of contacts"
+msgid "Search:"
+msgstr "جست‌وجو:"
+
+#: akonadi-contacts-widgets/emailaddressselectionwidget.cpp:130
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search Contact..."
+msgstr "جست‌وجوی مخاطب..."
+
+#: akonadi-contacts-widgets/job/addcontactjob.cpp:55
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The vCard's primary email address is already in your address book; however, "
+"you may save the vCard into a file and import it into the address book "
+"manually."
+msgstr ""
+"نشانی رایانامهٔ اصلی vCard از قبل در دفترچه نشانی شما موجود است؛ با این حال،"
+" می‌توانید vCard را در یک پرونده ذخیره کرده و به صورت دستی به دفترچه نشانی "
+"وارد کنید."
+
+#: akonadi-contacts-widgets/job/addcontactjob.cpp:111
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The vCard was added to your address book; you can add more information to "
+"this entry by opening the address book."
+msgstr ""
+"‏vCard به دفترچه نشانی شما افزوده شد؛ با باز کردن دفترچه نشانی می‌توانید "
+"اطلاعات بیشتری به این مدخل بیفزایید."
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:71
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"A contact with the email address <email>%1</email> is already in your "
+"address book."
+msgstr ""
+"مخاطبی با نشانی رایانامهٔ <email>%1</email> از قبل در دفترچه نشانی شما موجود"
+" است."
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:123
+#: akonadi-contacts-widgets/job/addemaildisplayjob.cpp:162
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You must create an address book before adding a contact. Do you want to "
+"create an address book?"
+msgstr ""
+"پیش از افزودن مخاطب، باید یک دفترچه نشانی ایجاد کنید. آیا می‌خواهید یک "
+"دفترچه نشانی بسازید؟"
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:124
+#: akonadi-contacts-widgets/job/addemaildisplayjob.cpp:163
+#, kde-format
+msgctxt "@title:window"
+msgid "No Address Book Available"
+msgstr "هیچ دفترچه نشانی‌ای در دسترس نیست"
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:125
+#: akonadi-contacts-widgets/job/addemaildisplayjob.cpp:164
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Address Book"
+msgstr "ایجاد دفترچه نشانی"
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:129
+#: akonadi-contacts-widgets/job/addemaildisplayjob.cpp:168
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:190
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Address Book"
+msgstr "افزودن دفترچه نشانی"
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:231
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>A contact for \"%1\" was successfully added to your address "
+"book.</para><para>Do you want to edit this new contact now?</para>"
+msgstr ""
+"<para>مخاطبی برای «%1» با موفقیت به دفترچه نشانی شما افزوده "
+"شد.</para><para>آیا می‌خواهید هم‌اکنون این مخاطب جدید را ویرایش کنید؟</para>"
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:239
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit"
+msgstr "ویرایش"
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:240
+#, kde-format
+msgctxt "@action:button"
+msgid "Finish"
+msgstr "پایان"
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:261
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:466
+#, kde-format
+msgid "Contact cannot be stored: %1"
+msgstr "مخاطب ذخیره نمی‌شود: %1"
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:261
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:466
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to store contact"
+msgstr "ذخیرهٔ مخاطب ناموفق بود"
+
+#: akonadi-contacts-widgets/job/addemailaddressjob.cpp:268
+#, kde-format
+msgid "Contact created successfully"
+msgstr "مخاطب با موفقیت ایجاد شد"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:94
+#, kde-format
+msgid "Add Address Book Folder..."
+msgstr "افزودن پوشهٔ دفترچه نشانی..."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:97
+#, kde-format
+msgid ""
+"Add a new address book folder to the currently selected address book folder."
+msgstr ""
+"افزودن پوشهٔ دفترچه نشانی جدید به پوشهٔ دفترچه نشانی انتخاب‌شدهٔ فعلی."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:100
+#, kde-format
+msgctxt "@title:window"
+msgid "New Address Book Folder"
+msgstr "پوشهٔ دفترچه نشانی جدید"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:104
+#, kde-format
+msgid "Could not create address book folder: %1"
+msgstr "پوشه دفترچه نشانی ایجاد نشد: %1"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:108
+#, kde-format
+msgid "Address book folder creation failed"
+msgstr "ایجاد پوشه دفترچه نشانی ناموفق بود"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:114
+#, kde-format
+msgid "Copy Address Book Folder"
+msgid_plural "Copy %1 Address Book Folders"
+msgstr[0] "رونوشت از پوشه دفترچه نشانی"
+msgstr[1] "رونوشت از %1 پوشه دفترچه نشانی"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:116
+#, kde-format
+msgid "Copy the selected address book folders to the clipboard."
+msgstr "رونوشت از پوشه‌های دفترچه نشانی انتخاب‌شده در بریده‌دان."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:120
+#, kde-format
+msgid "Delete Address Book Folder"
+msgid_plural "Delete %1 Address Book Folders"
+msgstr[0] "حذف پوشه دفترچه نشانی"
+msgstr[1] "حذف %1 پوشه دفترچه نشانی"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:122
+#, kde-format
+msgid "Delete the selected address book folders from the address book."
+msgstr "حذف پوشه‌های دفترچه نشانی انتخاب‌شده از دفترچه نشانی."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:126
+#, kde-format
+msgid ""
+"Do you really want to delete this address book folder and all its sub-"
+"folders?"
+msgid_plural ""
+"Do you really want to delete %1 address book folders and all their sub-"
+"folders?"
+msgstr[0] ""
+"آیا واقعاً می‌خواهید این پوشه دفترچه نشانی و همه زیرپوشه‌های آن را حذف کنید؟"
+msgstr[1] ""
+"آیا واقعاً می‌خواهید %1 پوشه دفترچه نشانی و همه زیرپوشه‌های آن‌ها را حذف "
+"کنید؟"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:130
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete address book folder?"
+msgid_plural "Delete address book folders?"
+msgstr[0] "پوشه دفترچه نشانی حذف شود؟"
+msgstr[1] "پوشه‌های دفترچه نشانی حذف شوند؟"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:134
+#, kde-format
+msgid "Could not delete address book folder: %1"
+msgstr "پوشه دفترچه نشانی حذف نشد: %1"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:138
+#, kde-format
+msgid "Address book folder deletion failed"
+msgstr "حذف پوشه دفترچه نشانی ناموفق بود"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:142
+#, kde-format
+msgid "Update Address Book Folder"
+msgid_plural "Update %1 Address Book Folders"
+msgstr[0] "به‌روزرسانی پوشهٔ دفترچهٔ نشانی"
+msgstr[1] "به‌روزرسانی %1 پوشهٔ دفترچهٔ نشانی"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:144
+#, kde-format
+msgid "Update the content of the selected address book folders."
+msgstr "به‌روزرسانی محتوای پوشه‌های دفترچهٔ نشانیِ انتخاب‌شده."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:147
+#, kde-format
+msgid "Cut Address Book Folder"
+msgid_plural "Cut %1 Address Book Folders"
+msgstr[0] "بریدن پوشهٔ دفترچهٔ نشانی"
+msgstr[1] "بریدن %1 پوشهٔ دفترچهٔ نشانی"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:149
+#, kde-format
+msgid "Cut the selected address book folders from the address book."
+msgstr "بریدن پوشه‌های دفترچهٔ نشانیِ انتخاب‌شده از دفترچهٔ نشانی."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:152
+#, kde-format
+msgid "Folder Properties..."
+msgstr "ویژگی‌های پوشه..."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:154
+#, kde-format
+msgid ""
+"Open a dialog to edit the properties of the selected address book folder."
+msgstr ""
+"باز کردن یک گفتگو برای ویرایش ویژگی‌های پوشهٔ دفترچهٔ نشانیِ انتخاب‌شده."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:157
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Address Book Folder %1"
+msgstr "ویژگی‌های پوشهٔ دفترچهٔ نشانی %1"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:160
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:290
+#, kde-format
+msgid "Copy Contact"
+msgid_plural "Copy %1 Contacts"
+msgstr[0] "رونوشت از مخاطب"
+msgstr[1] "رونوشت از %1 مخاطب"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:161
+#, kde-format
+msgid "Copy the selected contacts to the clipboard."
+msgstr "رونوشت از مخاطبان انتخاب‌شده در تخته‌گیره."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:164
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:301
+#, kde-format
+msgid "Delete Contact"
+msgid_plural "Delete %1 Contacts"
+msgstr[0] "حذف مخاطب"
+msgstr[1] "حذف %1 مخاطب"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:165
+#, kde-format
+msgid "Delete the selected contacts from the address book."
+msgstr "حذف مخاطبان انتخاب‌شده از دفترچه نشانی."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:168
+#, kde-format
+msgid "Do you really want to delete the selected contact?"
+msgid_plural "Do you really want to delete %1 contacts?"
+msgstr[0] "آیا واقعاً می‌خواهید مخاطب انتخاب‌شده را حذف کنید؟"
+msgstr[1] "آیا واقعاً می‌خواهید %1 مخاطب را حذف کنید؟"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:172
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Contact?"
+msgid_plural "Delete Contacts?"
+msgstr[0] "حذف مخاطب؟"
+msgstr[1] "حذف مخاطبان؟"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:174
+#, kde-format
+msgid "Could not delete contact: %1"
+msgstr "نمی‌توان مخاطب را حذف کرد: %1"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:176
+#, kde-format
+msgid "Contact deletion failed"
+msgstr "حذف مخاطب ناموفق بود"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:179
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:304
+#, kde-format
+msgid "Cut Contact"
+msgid_plural "Cut %1 Contacts"
+msgstr[0] "برش مخاطب"
+msgstr[1] "برش %1 مخاطب"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:180
+#, kde-format
+msgid "Cut the selected contacts from the address book."
+msgstr "برش مخاطبان انتخاب‌شده از دفترچه نشانی."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:183
+#, kde-format
+msgid "Add &Address Book..."
+msgstr "افزودن دفترچه نشانی..."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:185
+#, kde-format
+msgid ""
+"Add a new address book<p>You will be presented with a dialog where you can "
+"select the type of the address book that shall be added.</p>"
+msgstr ""
+"افزودن یک دفترچه نشانی جدید<p>کادر محاوره‌ای به شما نشان داده خواهد شد که "
+"می‌توانید نوع دفترچه نشانی مورد نظر برای افزودن را در آن انتخاب کنید.</p>"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:194
+#, kde-format
+msgid "Could not create address book: %1"
+msgstr "نمی‌توان دفترچه نشانی را ایجاد کرد: %1"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:198
+#, kde-format
+msgid "Address book creation failed"
+msgstr "ایجاد دفترچهٔ نشانی ناموفق بود"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:202
+#, kde-format
+msgid "&Delete Address Book"
+msgid_plural "&Delete %1 Address Books"
+msgstr[0] "حذف دفترچهٔ نشانی"
+msgstr[1] "حذف %1 دفترچهٔ نشانی"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:204
+#, kde-format
+msgid ""
+"Delete the selected address books<p>The currently selected address books "
+"will be deleted, along with all the contacts and contact groups they "
+"contain.</p>"
+msgstr ""
+"حذف دفترچه‌های نشانی انتخاب‌شده<p>دفترچه‌های نشانی انتخاب‌شدهٔ کنونی به "
+"همراه تمام مخاطبان و گروه‌های مخاطبِ درون آن‌ها حذف خواهند شد.</p>"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:209
+#, kde-format
+msgid "Do you really want to delete this address book?"
+msgid_plural "Do you really want to delete %1 address books?"
+msgstr[0] "آیا واقعاً می‌خواهید این دفترچهٔ نشانی را حذف کنید؟"
+msgstr[1] "آیا واقعاً می‌خواهید %1 دفترچهٔ نشانی را حذف کنید؟"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:213
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Address Book?"
+msgid_plural "Delete Address Books?"
+msgstr[0] "دفترچهٔ نشانی حذف شود؟"
+msgstr[1] "دفترچه‌های نشانی حذف شوند؟"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:218
+#, kde-format
+msgid "Address Book Properties..."
+msgstr "ویژگی‌های دفترچهٔ نشانی..."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:220
+#, kde-format
+msgid "Open a dialog to edit properties of the selected address book."
+msgstr "باز کردن یک پنجره برای ویرایش ویژگی‌های دفترچهٔ نشانی انتخاب‌شده."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:223
+#, kde-format
+msgid "Update Address Book"
+msgid_plural "Update %1 Address Books"
+msgstr[0] "به‌روزرسانی دفترچهٔ نشانی"
+msgstr[1] "به‌روزرسانی %1 دفترچهٔ نشانی"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:226
+#, kde-format
+msgid "Updates the content of all folders of the selected address books."
+msgstr ""
+"محتوای تمام پوشه‌های دفترچه‌های نشانی انتخاب‌شده را به‌روزرسانی می‌کند."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:230
+#, kde-format
+msgid "Could not paste contact: %1"
+msgstr "جای‌گذاری مخاطب ممکن نشد: %1"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:232
+#, kde-format
+msgid "Paste failed"
+msgstr "جای‌گذاری ناموفق بود"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:294
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:298
+#, kde-format
+msgid "Copy Contact To"
+msgstr "رونوشت از مخاطب در"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:308
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:312
+#, kde-format
+msgid "Move Contact To"
+msgstr "انتقال مخاطب به"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:316
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:553
+#, kde-format
+msgid "Edit Contact..."
+msgstr "ویرایش مخاطب..."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:320
+#, kde-format
+msgid "Copy Group"
+msgid_plural "Copy %1 Groups"
+msgstr[0] "رونوشت از گروه"
+msgstr[1] "رونوشت از %1 گروه"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:324
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:328
+#, kde-format
+msgid "Copy Group To"
+msgstr "رونوشت از گروه در"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:331
+#, kde-format
+msgid "Delete Group"
+msgid_plural "Delete %1 Groups"
+msgstr[0] "حذف گروه"
+msgstr[1] "حذف %1 گروه"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:334
+#, kde-format
+msgid "Cut Group"
+msgid_plural "Cut %1 Groups"
+msgstr[0] "برش گروه"
+msgstr[1] "برش %1 گروه"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:338
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:342
+#, kde-format
+msgid "Move Group To"
+msgstr "انتقال گروه به"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:346
+#, kde-format
+msgid "Edit Group..."
+msgstr "ویرایش گروه..."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:528
+#, kde-format
+msgid "New &Contact..."
+msgstr "مخاطب جدید..."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:530
+#, kde-format
+msgid ""
+"Create a new contact<p>You will be presented with a dialog where you can add"
+" data about a person, including addresses and phone numbers.</p>"
+msgstr ""
+"ایجاد یک مخاطب جدید<p>کادر محاوره‌ای به شما نشان داده خواهد شد که در آن "
+"می‌توانید داده‌های مربوط به یک فرد، شامل نشانی‌ها و شماره‌های تلفن را "
+"بیفزایید.</p>"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:541
+#, kde-format
+msgid "New &Group..."
+msgstr "گروه جدید..."
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:542
+#, kde-format
+msgid ""
+"Create a new group<p>You will be presented with a dialog where you can add a"
+" new group of contacts.</p>"
+msgstr ""
+"ایجاد یک گروه جدید<p>کادر محاوره‌ای به شما نشان داده خواهد شد که در آن "
+"می‌توانید یک گروه مخاطب جدید بیفزایید.</p>"
+
+#: akonadi-contacts-widgets/standardcontactactionmanager.cpp:555
+#, kde-format
+msgid ""
+"Edit the selected contact<p>You will be presented with a dialog where you "
+"can edit the data stored about a person, including addresses and phone "
+"numbers.</p>"
+msgstr ""
+"ویرایش مخاطب برگزیده<p>کادر محاوره‌ای به شما نشان داده خواهد شد که در آن "
+"می‌توانید داده‌های ذخیره‌شده درباره یک فرد، شامل نشانی‌ها و شماره‌های تلفن "
+"را ویرایش کنید.</p>"
+
+#: akonadi-contacts-widgets/textbrowser.cpp:57
+#, kde-format
+msgctxt "@action:inmenu Copy the text of a general item"
+msgid "Copy Item"
+msgstr "رونوشت از مورد"
+
+#: akonadi-contacts-widgets/textbrowser.cpp:66
+#, kde-format
+msgctxt "@action:inmenu Copy a displayed email address"
+msgid "Copy Email Address"
+msgstr "رونوشت از نشانی رایانامه"
+
+#: akonadi-contacts-widgets/textbrowser.cpp:76
+#, kde-format
+msgctxt "@action:inmenu Copy a link URL"
+msgid "Copy Link URL"
+msgstr "رونوشت از نشانی اینترنتی پیوند"
+
+#: akonadi-contacts-widgets/textbrowser.cpp:103
+#, kde-format
+msgctxt "@action:inmenu Copy a contact photo"
+msgid "Copy Photo"
+msgstr "رونوشت از عکس"
+
+#: akonadi-contacts-widgets/textbrowser.cpp:106
+#, kde-format
+msgctxt "@action:inmenu Copy a QR code image"
+msgid "Copy Code"
+msgstr "رونوشت از کد"
+
+#: akonadi-contacts-widgets/waitingoverlay.cpp:35
+#, kde-format
+msgid "<p style=\"color: white;\"><b>Waiting for operation</b><br/></p>"
+msgstr "<p style=\"color: white;\"><b>در انتظار عملیات</b><br/></p>"
+
+#: akonadi-contacts-widgets/widgets/selectaddressbookdialog.cpp:29
+#, kde-format
+msgctxt "@info"
+msgid "Select the address book where the contact will be saved:"
+msgstr "دفترچه نشانی ذخیره مخاطب را انتخاب کنید:"

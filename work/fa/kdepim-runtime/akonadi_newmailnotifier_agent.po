@@ -1,0 +1,234 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the akonadi_newmailnotifier_agent package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_newmailnotifier_agent\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 20:52+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "%f is a variable for agent. Do not change it"
+msgid "A message was received from %f"
+msgstr "پیامی از %f دریافت شد"
+
+#: newmailnotificationhistorydialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Notification History"
+msgstr "تاریخچهٔ اعلان‌ها"
+
+#: newmailnotificationhistorymanager.cpp:28
+#, kde-format
+msgid "[Open Folder]"
+msgstr "[باز کردن پوشه]"
+
+#: newmailnotificationhistorymanager.cpp:38
+#, kde-format
+msgid "[Show Mail]"
+msgstr "[نمایش رایانامه]"
+
+#: newmailnotificationhistorywidget.cpp:25
+#: newmailnotifiersettingswidget.cpp:111
+#, kde-format
+msgctxt "@option:check"
+msgid "Enabled"
+msgstr "فعال"
+
+#: newmailnotifieragent.cpp:368
+#, kde-format
+msgctxt ""
+"%2 = name of mail folder; %3 = name of Akonadi POP3/IMAP/etc resource (as "
+"user named it)"
+msgid "One new email in %2 from \"%3\""
+msgid_plural "%1 new emails in %2 from \"%3\""
+msgstr[0] "یک رایانامهٔ جدید در %2 از «%3»"
+msgstr[1] "%1 رایانامهٔ جدید در %2 از «%3»"
+
+#: newmailnotifieragent.cpp:405
+#, kde-format
+msgid "New mail arrived"
+msgstr "رایانامهٔ جدید رسید"
+
+#: newmailnotifieropenfolderjob.cpp:36 newmailnotifierreplymessagejob.cpp:37
+#: newmailnotifiershowmessagejob.cpp:35
+#, kde-format
+msgid "Unable to start KMail application."
+msgstr "امکان شروع برنامهٔ KMail وجود ندارد."
+
+#: newmailnotifieropenfolderjob.cpp:46
+#, kde-format
+msgid "Impossible to access the DBus interface."
+msgstr "دسترسی به رابط DBus غیرممکن است."
+
+#: newmailnotifierselectcollectionwidget.cpp:96
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select which folders to monitor for new message notifications:"
+msgstr "پوشه‌هایی را که می‌خواهید برای اعلان پیام جدید پایش شوند انتخاب کنید:"
+
+#: newmailnotifierselectcollectionwidget.cpp:125
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "جست‌وجو…"
+
+#: newmailnotifierselectcollectionwidget.cpp:140
+#, kde-format
+msgctxt "@action:button"
+msgid "&Select All"
+msgstr "انتخاب همه"
+
+#: newmailnotifierselectcollectionwidget.cpp:144
+#, kde-format
+msgctxt "@action:button"
+msgid "&Unselect All"
+msgstr "لغو انتخاب همه"
+
+#: newmailnotifiersettingswidget.cpp:31
+#, c-format
+msgid ""
+"<qt><p>Here you can define message. You can use:</p><ul><li>%s set "
+"subject</li><li>%f set from</li></ul></qt>"
+msgstr ""
+"<qt><p>در اینجا می‌توانید پیام را مشخص کنید. می‌توانید از این موارد استفاده "
+"کنید:</p><ul><li>%s تنظیم موضوع</li><li>%f تنظیم فرستنده</li></ul></qt>"
+
+#: newmailnotifiersettingswidget.cpp:52
+#, kde-format
+msgid "Choose which fields to show:"
+msgstr "فیلدهایی را که می‌خواهید نمایش داده شوند انتخاب کنید:"
+
+#: newmailnotifiersettingswidget.cpp:57
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Photo"
+msgstr "نمایش عکس"
+
+#: newmailnotifiersettingswidget.cpp:61
+#, kde-format
+msgctxt "@option:check"
+msgid "Show From"
+msgstr "نمایش فرستنده"
+
+#: newmailnotifiersettingswidget.cpp:65
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Subject"
+msgstr "نمایش موضوع"
+
+#: newmailnotifiersettingswidget.cpp:69
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Folders"
+msgstr "نمایش پوشه‌ها"
+
+#: newmailnotifiersettingswidget.cpp:73
+#, kde-format
+msgctxt "@option:check"
+msgid "Do not notify when email was sent by me"
+msgstr "هنگامی که رایانامه توسط من ارسال شده است، اعلان ارسال نشود"
+
+#: newmailnotifiersettingswidget.cpp:77
+#, kde-format
+msgctxt "@option:check"
+msgid "Keep Persistent Notification"
+msgstr "نگه‌داشتن اعلان مداوم"
+
+#: newmailnotifiersettingswidget.cpp:81
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Action Buttons"
+msgstr "نمایش دکمه‌های اقدام"
+
+#: newmailnotifiersettingswidget.cpp:89
+#, kde-format
+msgctxt "@option:check"
+msgid "Reply Mail"
+msgstr "پاسخ به رایانامه"
+
+#: newmailnotifiersettingswidget.cpp:97 specialnotifierjob.cpp:164
+#, kde-format
+msgid "Reply to Author"
+msgstr "پاسخ به نویسنده"
+
+#: newmailnotifiersettingswidget.cpp:97 specialnotifierjob.cpp:167
+#, kde-format
+msgid "Reply to All"
+msgstr "پاسخ به همه"
+
+#: newmailnotifiersettingswidget.cpp:106
+#, kde-format
+msgid "Display"
+msgstr "نمایش"
+
+#: newmailnotifiersettingswidget.cpp:115
+#, kde-format
+msgctxt "@label:textbox"
+msgid "<a href=\"whatsthis\">How does this work?</a>"
+msgstr "<a href=\"whatsthis\">این چطور کار می‌کند؟</a>"
+
+#: newmailnotifiersettingswidget.cpp:124
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Message:"
+msgstr "پیام:"
+
+#: newmailnotifiersettingswidget.cpp:136
+#, kde-format
+msgid "Text to Speak"
+msgstr "متن برای گفتار"
+
+#: newmailnotifiersettingswidget.cpp:142
+#, kde-format
+msgid "Notify"
+msgstr "اعلان"
+
+#: newmailnotifiersettingswidget.cpp:145
+#, kde-format
+msgid "Folders"
+msgstr "پوشه‌ها"
+
+#: specialnotifierjob.cpp:112
+#, kde-format
+msgid "From: %1"
+msgstr "از طرف: %1"
+
+#: specialnotifierjob.cpp:120
+#, kde-format
+msgid "Subject: %1"
+msgstr "موضوع: %1"
+
+#: specialnotifierjob.cpp:124
+#, kde-format
+msgid "In: %1"
+msgstr "در: %1"
+
+#: specialnotifierjob.cpp:126
+#, kde-format
+msgid "In: %1 (%2)"
+msgstr "در: %1 (%2)"
+
+#: specialnotifierjob.cpp:151
+#, kde-format
+msgid "Show mail…"
+msgstr "نمایش ایمیل…"
+
+#: specialnotifierjob.cpp:154
+#, kde-format
+msgid "Mark As Read"
+msgstr "علامت‌گذاری به عنوان خوانده‌شده"
+
+#: specialnotifierjob.cpp:157
+#, kde-format
+msgid "Delete"
+msgstr "حذف"

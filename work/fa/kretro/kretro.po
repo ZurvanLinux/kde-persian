@@ -1,0 +1,397 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kretro package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kretro\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-08 00:40+0000\n"
+"PO-Revision-Date: 2026-10-16 00:23+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: main.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "KRetro"
+msgstr "KRetro"
+
+#: main.cpp:32
+#, kde-format
+msgid "Libretro frontend for Plasma"
+msgstr "پیشانهٔ Libretro برای پلاسما"
+
+#: main.cpp:36
+#, kde-format
+msgid "© 2023–2025 KDE Community"
+msgstr "© 2023–2025 KDE Community"
+
+#: main.cpp:37
+#, kde-format
+msgctxt "@info:credit"
+msgid "Seshan Ravikumar"
+msgstr "Seshan Ravikumar"
+
+#: main.cpp:38 main.cpp:42
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: main.cpp:41
+#, kde-format
+msgctxt "@info:credit"
+msgid "Devin Lin"
+msgstr "Devin Lin"
+
+#: qml/Help.qml:13
+#, kde-format
+msgctxt "@title"
+msgid "KRetro Help"
+msgstr "راهنمای KRetro"
+
+#: qml/Help.qml:20
+#, kde-format
+msgctxt "@title"
+msgid "Getting Started"
+msgstr "شروع به کار"
+
+#: qml/Help.qml:25
+#, kde-format
+msgctxt "@title"
+msgid "Installing Retro Cores"
+msgstr "نصب هسته‌های رترو"
+
+#: qml/Help.qml:26
+#, kde-format
+msgid ""
+"KRetro (non-flatpak) requires you to install emulators, called 'libretro cores'.\n"
+"You should find these from your distro's package manager, for example, 'libretro-mgba' for the GBA emulator core. Once installed, you can select them in the settings."
+msgstr ""
+"برنامهٔ KRetro (نسخهٔ غیر Flatpak) نیازمند نصب شبیه‌سازهایی است که «هسته‌های libretro» نامیده می‌شوند.\n"
+"می‌توانید آن‌ها را در مدیر بستهٔ توزیع خود پیدا کنید؛ برای نمونه، «libretro-mgba» برای هستهٔ شبیه‌ساز GBA. پس از نصب، می‌توانید آن‌ها را در تنظیمات انتخاب کنید."
+
+#: qml/Help.qml:29
+#, kde-format
+msgctxt "@title"
+msgid "Installing Retro Cores (Flatpak)"
+msgstr "نصب هسته‌های Retro (نسخهٔ Flatpak)"
+
+#: qml/Help.qml:30
+#, kde-format
+msgid ""
+"The flatpak version of KRetro comes with a curated set of cores already. If "
+"you installed KRetro from the official flatpak, you are all set!"
+msgstr ""
+"نسخهٔ Flatpak برنامهٔ KRetro از پیش همراه با مجموعه‌ای منتخب از هسته‌ها "
+"ارائه می‌شود. اگر KRetro را از Flatpak رسمی نصب کرده‌اید، همه‌چیز آماده است!"
+
+#: qml/Help.qml:35
+#, kde-format
+msgctxt "@title"
+msgid "Installing Games"
+msgstr "نصب بازی‌ها"
+
+#: qml/Help.qml:39
+#, kde-format
+msgctxt "@title"
+msgid "Adding ROMs"
+msgstr "افزودن رام‌ها (ROMs)"
+
+#: qml/Help.qml:40
+#, kde-format
+msgid ""
+"KRetro automatically detects supported games (by file extension) from the "
+"ROMs directory (which by default is ~/Documents/Games). Simply add your ROMs"
+" there and they will appear in the game library!"
+msgstr ""
+"برنامهٔ KRetro بازی‌های پشتیبانی‌شده را به‌طور خودکار (بر اساس پسوند پرونده)"
+" از پوشهٔ ROMs (که به‌طور پیش‌فرض ‎~/Documents/Games است) شناسایی می‌کند. "
+"کافی است رام‌های خود را در آنجا قرار دهید تا در کتابخانهٔ بازی‌ها ظاهر شوند!"
+
+#: qml/Main.qml:19 qml/Main.qml:89
+#, kde-format
+msgid "KRetro"
+msgstr "KRetro"
+
+#: qml/Main.qml:37
+#, kde-format
+msgid "Open ROMs Directory"
+msgstr "باز کردن پوشهٔ ROMs"
+
+#: qml/Main.qml:46 qml/Settings.qml:17
+#, kde-format
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: qml/Main.qml:53
+#, kde-format
+msgid "Controller Settings"
+msgstr "تنظیمات دسته‌بازی"
+
+#: qml/Main.qml:60
+#, kde-format
+msgid "About KRetro"
+msgstr "دربارهٔ KRetro"
+
+#: qml/Main.qml:65
+#, kde-format
+msgid "Quit"
+msgstr "خروج"
+
+#: qml/Main.qml:93
+#, kde-format
+msgid "Help"
+msgstr "راهنما"
+
+#: qml/Main.qml:117
+#, kde-format
+msgid "Game Library"
+msgstr "کتابخانهٔ بازی"
+
+#: qml/MobilePlayer.qml:22
+#, kde-format
+msgid "Press Escape to exit fullscreen mode"
+msgstr "برای خروج از حالت تمام‌صفحه کلید Escape را فشار دهید"
+
+#: qml/MobilePlayer.qml:36
+#, kde-format
+msgid "Fullscreen"
+msgstr "تمام‌صفحه"
+
+#: qml/MobilePlayer.qml:44
+#, kde-format
+msgid "Reset Core"
+msgstr "بازنشانی هسته"
+
+#: qml/MobilePlayer.qml:49 qml/SettingsRetroCore.qml:13
+#, kde-format
+msgid "Core Settings"
+msgstr "تنظیمات هسته"
+
+#: qml/MobilePlayer.qml:56
+#, kde-format
+msgid "Save Slots"
+msgstr "خانه‌های ذخیره"
+
+#: qml/MobilePlayer.qml:69
+#, kde-format
+msgid "KRetro Player"
+msgstr "پخش‌کنندهٔ KRetro"
+
+#: qml/MobilePlayer.qml:111
+#, kde-format
+msgid "Reset Game Core?"
+msgstr "بازنشانی هستهٔ بازی؟"
+
+#: qml/MobilePlayer.qml:112
+#, kde-format
+msgid "This will restart the game. Any unsaved progress will be lost!"
+msgstr ""
+"این کار بازی را مجدداً راه‌اندازی می‌کند. هرگونه پیشرفت ذخیره‌نشده از دست "
+"خواهد رفت!"
+
+#: qml/SaveManager.qml:13
+#, kde-format
+msgid "Save States"
+msgstr "وضعیت‌های ذخیره‌شده"
+
+#: qml/SaveManager.qml:16
+#, kde-format
+msgctxt "@action:button"
+msgid "New Save State"
+msgstr "وضعیت ذخیرهٔ جدید"
+
+#: qml/SaveManager.qml:22
+#, kde-format
+msgid "Game saved"
+msgstr "بازی ذخیره شد"
+
+#: qml/SaveManager.qml:38
+#, kde-format
+msgid ""
+"Slot 0 is the default auto save slot. It is restored on game start and saved"
+" on exit."
+msgstr ""
+"جایگاه ۰ جایگاه پیش‌فرض ذخیرهٔ خودکار است. این جایگاه هنگام شروع بازی "
+"بازیابی و هنگام خروج ذخیره می‌شود."
+
+#: qml/SaveManager.qml:73
+#, kde-format
+msgid "Slot %1"
+msgstr "جایگاه %1"
+
+#: qml/SaveManager.qml:83
+#, kde-format
+msgid "Last modified: %1"
+msgstr "آخرین تغییر: %1"
+
+#: qml/SaveManager.qml:97
+#, kde-format
+msgctxt "@action:button"
+msgid "Load"
+msgstr "بارگیری"
+
+#: qml/SaveManager.qml:104
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "ذخیره"
+
+#: qml/SaveManager.qml:111
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "حذف"
+
+#: qml/Settings.qml:29
+#, kde-format
+msgid "Select ROMs Directory"
+msgstr "انتخاب پوشهٔ رام‌ها (ROMs)"
+
+#: qml/Settings.qml:38
+#, kde-format
+msgid "Select Libretro Cores Directory"
+msgstr "انتخاب پوشهٔ هسته‌های Libretro"
+
+#: qml/Settings.qml:50
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#: qml/Settings.qml:55
+#, kde-format
+msgid "ROMs Directory"
+msgstr "پوشهٔ رام‌ها (ROMs)"
+
+#: qml/Settings.qml:63
+#, kde-format
+msgid "Libretro Cores Directory"
+msgstr "پوشهٔ هسته‌های Libretro"
+
+#: qml/Settings.qml:69
+#, kde-format
+msgid "Override Mobile Controller Visibility"
+msgstr "لغو حالت پیش‌فرض نمایانی دستهٔ لمسی"
+
+#: qml/Settings.qml:70
+#, kde-format
+msgid "Overrides the default visibility of the touch controller."
+msgstr "نمایانی پیش‌فرض کنترلر لمسی را لغو می‌کند."
+
+#: qml/Settings.qml:75
+#, kde-format
+msgid "Fullscreen Mode"
+msgstr "حالت تمام‌صفحه"
+
+#: qml/Settings.qml:76
+#, kde-format
+msgid "Open games in fullscreen mode by default."
+msgstr "بازی‌ها به‌طور پیش‌فرض در حالت تمام‌صفحه باز شوند."
+
+#: qml/Settings.qml:83
+#, kde-format
+msgid "Libretro Cores"
+msgstr "هسته‌های Libretro"
+
+#: qml/Settings.qml:91
+#, kde-format
+msgid "GBA Core:"
+msgstr "هستهٔ GBA:"
+
+#: qml/Settings.qml:110
+#, kde-format
+msgid "NES Core:"
+msgstr "هستهٔ NES:"
+
+#: qml/Settings.qml:129
+#, kde-format
+msgid "SNES Core:"
+msgstr "هستهٔ SNES:"
+
+#: qml/Settings.qml:148
+#, kde-format
+msgid "Master System Core:"
+msgstr "هستهٔ Master System:"
+
+#: qml/Settings.qml:167
+#, kde-format
+msgid "Genesis / Mega Drive Core:"
+msgstr "هستهٔ Genesis / Mega Drive:"
+
+#: qml/Settings.qml:189
+#, kde-format
+msgid "Flatpak releases of KRetro manage retro cores automatically."
+msgstr "نسخه‌های فلت‌پک KRetro هسته‌های رترو را به‌طور خودکار مدیریت می‌کنند."
+
+#: qml/Settings.qml:199 qml/SettingsRetroPad.qml:96
+#, kde-format
+msgid "Settings saved"
+msgstr "تنظیمات ذخیره شد"
+
+#: qml/SettingsRetroCore.qml:48
+#, kde-format
+msgid "Core Variables"
+msgstr "متغیرهای هسته"
+
+#: qml/SettingsRetroCore.qml:53
+#, kde-format
+msgid "Most settings require you to exit and reopen the game to take effect."
+msgstr ""
+"برای اعمال بیشتر تنظیمات باید از بازی خارج شده و آن را دوباره باز کنید."
+
+#: qml/SettingsRetroCore.qml:65
+#, kde-format
+msgid "Default: %1"
+msgstr "پیش‌فرض: %1"
+
+#: qml/SettingsRetroPad.qml:16
+#, kde-format
+msgid "Reset Mappings"
+msgstr "بازنشانی نگاشت‌ها"
+
+#: qml/SettingsRetroPad.qml:19
+#, kde-format
+msgid "Retropad mappings reset"
+msgstr "نگاشت‌های رتروپد بازنشانی شد"
+
+#: qml/SettingsRetroPad.qml:24
+#, kde-format
+msgid "RetroPad Controller Settings"
+msgstr "تنظیمات دستهٔ رتروپد"
+
+#: qml/SettingsRetroPad.qml:55
+#, kde-format
+msgid "Controller Port 0"
+msgstr "درگاه دستهٔ ۰"
+
+#: qml/SettingsRetroPad.qml:64
+#, kde-format
+msgid "Press a controller button or key to bind…"
+msgstr "جهت اختصاص دادن، یک دکمهٔ دسته یا کلید را فشار دهید…"
+
+#: qml/SettingsRetroPad.qml:65
+#, kde-format
+msgid "Currently unbound"
+msgstr "درحال‌حاضر اختصاص نیافته"
+
+#: qml/SettingsRetroPad.qml:65
+#, kde-format
+msgid "Currently bound to: %1"
+msgstr "درحال‌حاضر اختصاص‌یافته به: %1"

@@ -1,0 +1,92 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Mohamad Reza Mirdamadi <mohi@ubuntu.ir>, 2010.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-15 13:39+0330\n"
+"PO-Revision-Date: 2026-10-15 13:39+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: utilities/collectionscanner/CollectionScanner.cpp:117
+#: utilities/collectionscanner/CollectionScanner.cpp:140
+#, qt-format
+msgctxt "CollectionScanner::Scanner|"
+msgid "File \"%1\" not found."
+msgstr "پروندهٔ «%1» پیدا نشد."
+
+#: utilities/collectionscanner/CollectionScanner.cpp:120
+#, qt-format
+msgctxt "CollectionScanner::Scanner|"
+msgid "Could not open file \"%1\"."
+msgstr "پروندهٔ «%1» باز نشد."
+
+#: utilities/collectionscanner/CollectionScanner.cpp:368
+#, qt-format
+msgctxt "CollectionScanner::Scanner|"
+msgid "Missing argument for option %1"
+msgstr "آرگومان گزینهٔ %1 ناموجود است"
+
+#: utilities/collectionscanner/CollectionScanner.cpp:402
+msgctxt "CollectionScanner::Scanner|"
+msgid ""
+"Amarok Collection Scanner\n"
+"Scans directories and outputs a xml file with the results.\n"
+"For more information see http://community.kde.org/Amarok/Development/BatchMode\n"
+"\n"
+"Usage: amarokcollectionscanner [options] <Folder(s)>\n"
+"User-modifiable Options:\n"
+"<Folder(s)>             : list of folders to scan\n"
+"-h, --help              : This help text\n"
+"-v, --version           : Print the version of this tool\n"
+"-r, --recursive         : Scan folders recursively\n"
+"-i, --incremental       : Incremental scan (modified folders only)\n"
+"-s, --restart           : After a crash, restart the scanner in its last position\n"
+"    --idlepriority      : Run at idle priority\n"
+"    --sharedmemory <key> : A shared memory segment to be used for restarting a scan\n"
+"    --newer <path>      : Only scan directories if modification time is newer than <path>\n"
+"                          Only useful in incremental scan mode\n"
+"    --batch <path>      : Add the directories from the batch xml file\n"
+"                          batch file format should look like this:\n"
+"   <scanner>\n"
+"    <directory>\n"
+"     <path>/absolute/path/of/directory</path>\n"
+"     <mtime>1234</mtime>   (this is optional)\n"
+"    </directory>\n"
+"   </scanner>\n"
+"                          You can also use a previous scan result for that.\n"
+msgstr ""
+"پویشگر مجموعه‌های آماروک\n"
+"شاخه‌ها را می‌پوید و یک پروندهٔ xml حاوی نتایج را خروجی می‌دهد.\n"
+"برای اطلاعات بیشتر ببینید: http://community.kde.org/Amarok/Development/BatchMode\n"
+"\n"
+"روش استفاده: amarokcollectionscanner [options] <Folder(s)>\n"
+"گزینه‌های قابل تغییر توسط کاربر:\n"
+"<Folder(s)>             : فهرست پوشه‌ها برای پویش\n"
+"-h, --help              : این متن راهنما\n"
+"-v, --version           : چاپ نسخهٔ این ابزار\n"
+"-r, --recursive         : پویش بازگشتی پوشه‌ها\n"
+"-i, --incremental       : پویش افزایشی (فقط پوشه‌های تغییریافته)\n"
+"-s, --restart           : پس از فروپاشی، پویشگر را در آخرین موقعیتش دوباره راه‌اندازی می‌کند\n"
+"    --idlepriority      : اجرا با اولویت بی‌کار (Idle)\n"
+"    --sharedmemory <key> : یک قطعه حافظهٔ مشترک برای راه‌اندازی مجدد پویش استفاده شود\n"
+"    --newer <path>      : فقط در صورتی شاخه‌ها را می‌پوید که زمان تغییرشان جدیدتر از <path> باشد\n"
+"                          فقط در حالت پویش افزایشی کاربرد دارد\n"
+"    --batch <path>      : افزودن شاخه‌ها از پروندهٔ xml دسته‌ای\n"
+"                          قالب پروندهٔ دسته‌ای باید به این صورت باشد:\n"
+"   <scanner>\n"
+"    <directory>\n"
+"     <path>/absolute/path/of/directory</path>\n"
+"     <mtime>1234</mtime>   (اختیاری است)\n"
+"    </directory>\n"
+"   </scanner>\n"
+"                          همچنین می‌توانید از نتایج پویش قبلی برای این کار استفاده کنید.\n"

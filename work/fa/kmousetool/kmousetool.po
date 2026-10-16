@@ -1,0 +1,210 @@
+# translation of kmousetool.po to Persian
+# Zahra Farahmandi <farahmandi@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Mahdi Foladgar <foladgar@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmousetool\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:48+0000\n"
+"PO-Revision-Date: 2026-10-15 23:42+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: kmousetool.cpp:394
+#, kde-format
+msgid "The drag time must be less than or equal to the dwell time."
+msgstr "زمان کشیدن باید کمتر یا مساوی با زمان مکث باشد."
+
+#: kmousetool.cpp:394
+#, kde-format
+msgid "Invalid Value"
+msgstr "مقدار نامعتبر"
+
+#: kmousetool.cpp:463 kmousetool.cpp:604
+#, kde-format
+msgid "&Stop"
+msgstr "توقف"
+
+#: kmousetool.cpp:465 kmousetool.cpp:584 kmousetool.cpp:607
+#, kde-format
+msgctxt "Start tracking the mouse"
+msgid "&Start"
+msgstr "شروع"
+
+#: kmousetool.cpp:526
+#, kde-format
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before closing the configuration window or discard the changes?"
+msgstr ""
+"تغییرات ذخیره‌نشده‌ای در پودمان فعال وجود دارد.\n"
+"آیا می‌خواهید پیش از بستن پنجرهٔ پیکربندی تغییرات را اعمال کنید، یا آن‌ها را نادیده بگیرید؟"
+
+#: kmousetool.cpp:528
+#, kde-format
+msgid "Closing Configuration Window"
+msgstr "در حال بستن پنجرهٔ پیکربندی"
+
+#: kmousetool.cpp:549
+#, kde-format
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before quitting KMousetool or discard the changes?"
+msgstr ""
+"تغییرات ذخیره‌نشده‌ای در پودمان فعال وجود دارد.\n"
+"آیا می‌خواهید پیش از خروج از KMousetool تغییرات را اعمال کنید، یا آن‌ها را نادیده بگیرید؟"
+
+#: kmousetool.cpp:550
+#, kde-format
+msgid "Quitting KMousetool"
+msgstr "در حال خروج از KMousetool"
+
+#: kmousetool.cpp:586
+#, kde-format
+msgid "&Configure KMouseTool..."
+msgstr "پیکربندی KMouseTool..."
+
+#: kmousetool.cpp:589
+#, kde-format
+msgid "KMousetool &Handbook"
+msgstr "کتابچهٔ راهنمای KMouseTool"
+
+#: kmousetool.cpp:591
+#, kde-format
+msgid "&About KMouseTool"
+msgstr "دربارهٔ KMouseTool"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KMouseToolUI)
+#: kmousetoolui.ui:14 main.cpp:23 main.cpp:25
+#, kde-format
+msgid "KMouseTool"
+msgstr "KMouseTool"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: kmousetoolui.ui:20
+#, kde-format
+msgid "Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: property (text), widget (QLabel, dragTimeLabel)
+#: kmousetoolui.ui:62
+#, kde-format
+msgid "&Drag time (1/10 sec):"
+msgstr "زمان کشیدن (۱/۱۰ ثانیه):"
+
+#. i18n: ectx: property (text), widget (QLabel, movementLabel)
+#: kmousetoolui.ui:97
+#, kde-format
+msgid "&Minimum movement:"
+msgstr "حداقل حرکت:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStart)
+#: kmousetoolui.ui:107
+#, kde-format
+msgid "Start with &desktop session"
+msgstr "شروع همراه با نشست میزکار"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDrag)
+#: kmousetoolui.ui:114
+#, kde-format
+msgid "Smar&t drag"
+msgstr "کشیدن هوشمند"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStroke)
+#: kmousetoolui.ui:124
+#, kde-format
+msgid "&Enable strokes"
+msgstr "فعال‌سازی حرکت‌های قلم"
+
+#. i18n: ectx: property (text), widget (QLabel, dwellTimeLabel)
+#: kmousetoolui.ui:131
+#, kde-format
+msgid "Dwell &time (1/10 sec):"
+msgstr "مدت مکث (۱/۱۰ ثانیه):"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbClick)
+#: kmousetoolui.ui:154
+#, kde-format
+msgid "A&udible click"
+msgstr "کلیک شنیداری"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: kmousetoolui.ui:191
+#, kde-format
+msgid ""
+"KMouseTool will run as a background application after you close this dialog."
+" To change the settings again, restart KMouseTool or use the system tray."
+msgstr ""
+"KMouseTool پس از بستن این پنجره، در پس‌زمینه اجرا خواهد شد. برای تغییر "
+"دوبارهٔ تنظیمات، KMouseTool را دوباره اجرا کنید یا از سینی سیستم استفاده "
+"نمایید."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonStartStop)
+#: kmousetoolui.ui:223
+#, kde-format
+msgid "&Start"
+msgstr "شروع"
+
+#: main.cpp:27
+#, kde-format
+msgid ""
+"(c) 2002-2003, Jeff Roush\n"
+"(c) 2003 Gunnar Schmidt "
+msgstr ""
+"(c) ۲۰۰۲-۲۰۰۳، جف راوش\n"
+"(c) ۲۰۰۳ گونار اشمیت "
+
+#: main.cpp:32
+#, kde-format
+msgid "Gunnar Schmidt"
+msgstr "Gunnar Schmidt"
+
+#: main.cpp:32
+#, kde-format
+msgid "Current maintainer"
+msgstr "نگه‌دارندهٔ فعلی"
+
+#: main.cpp:33
+#, kde-format
+msgid "Olaf Schmidt"
+msgstr "Olaf Schmidt"
+
+#: main.cpp:33
+#, kde-format
+msgid "Usability improvements"
+msgstr "بهبودهای کاربردپذیری"
+
+#: main.cpp:34
+#, kde-format
+msgid "Jeff Roush"
+msgstr "Jeff Roush"
+
+#: main.cpp:34
+#, kde-format
+msgid "Original author"
+msgstr "نویسنده اصلی"
+
+#: main.cpp:36
+#, kde-format
+msgid "Joe Betts"
+msgstr "Joe Betts"

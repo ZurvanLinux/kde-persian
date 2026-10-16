@@ -1,0 +1,766 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the skanpage package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: skanpage\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-26 00:53+0000\n"
+"PO-Revision-Date: 2026-10-16 02:56+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: DocumentModel.cpp:59 DocumentModel.cpp:76 DocumentModel.cpp:90
+#: qml/ExportDialog.qml:48 Skanpage.cpp:81
+#, kde-format
+msgid "New document"
+msgstr "سند جدید"
+
+#: DocumentModel.cpp:80
+#, kde-format
+msgctxt "for file names, indicates a range: from file0000.png to file0014.png"
+msgid "%1‥%2"
+msgstr "%1‥%2"
+
+#: DocumentPrinter.cpp:33
+#, kde-format
+msgid "Nothing to print."
+msgstr "چیزی برای چاپ وجود ندارد."
+
+#: DocumentPrinter.cpp:37
+#, kde-format
+msgid "Previous printing operation still in progress."
+msgstr "عملیات چاپ قبلی هنوز در حال انجام است."
+
+#: DocumentPrinter.cpp:107
+#, kde-format
+msgid "Document sent to printer."
+msgstr "سند به چاپگر ارسال شد."
+
+#: DocumentSaver.cpp:34
+#, kde-format
+msgid "No file path given."
+msgstr "هیچ مسیر فایلی مشخص نشده است."
+
+#: DocumentSaver.cpp:38
+#, kde-format
+msgid "Nothing to save."
+msgstr "چیزی برای ذخیره وجود ندارد."
+
+#: DocumentSaver.cpp:84 DocumentSaver.cpp:119
+#, kde-format
+msgctxt "%1 is the error message"
+msgid "An error ocurred while saving: %1."
+msgstr "هنگام ذخیره‌سازی خطایی رخ داد: %1."
+
+#: DocumentSaver.cpp:93 DocumentSaver.cpp:128 DocumentSaver.cpp:204
+#, kde-format
+msgctxt "indicate status update during saving"
+msgid "Processing page %1 to save the document."
+msgstr "در حال پردازش صفحهٔ %1 برای ذخیرهٔ سند."
+
+#: DocumentSaver.cpp:99 DocumentSaver.cpp:234
+#, kde-format
+msgctxt "@info: user message to confirm the save process and the filename"
+msgid "Document saved as '%1'."
+msgstr "سند با نام «%1» ذخیره شد."
+
+#: DocumentSaver.cpp:136
+#, kde-format
+msgctxt ""
+"@info: user message to confirm the OCR and save process and the filename"
+msgid "Document saved with OCR as '%1'."
+msgstr "سند همراه با OCR با نام «%1» ذخیره شد."
+
+#: DocumentSaver.cpp:245
+#, kde-format
+msgctxt "@info: user message to inform that the save process has failed"
+msgid "Failed to save document as '%1'."
+msgstr "ذخیرهٔ سند با نام «%1» ناموفق بود."
+
+#: DocumentSaver.cpp:265
+#, kde-format
+msgid "Failed to save image."
+msgstr "ذخیرهٔ تصویر ناموفق بود."
+
+#: FormatModel.cpp:51
+#, kde-format
+msgctxt ""
+"format filter for a file dialog, all formats supported by the application "
+"will be displayed"
+msgid "All supported files"
+msgstr "همهٔ پرونده‌های پشتیبانی‌شده"
+
+#: ImageImport.cpp:42
+#, kde-format
+msgid "Failed to load image!"
+msgstr "بارگذاری تصویر ناموفق بود!"
+
+#: ImageImport.cpp:53
+#, kde-format
+msgid "Failed to load PDF file!"
+msgstr "بارگذاری پروندهٔ PDF ناموفق بود!"
+
+#: main.cpp:63
+#, kde-format
+msgid "Skanpage"
+msgstr "اسکن‌پیج"
+
+#: main.cpp:65
+#, kde-format
+msgid "Multi-page scanning application by KDE."
+msgstr "برنامهٔ پویش چندصفحه‌ای توسط KDE."
+
+#: main.cpp:67
+#, kde-format
+msgid "© 2015–2022 Kåre Särs, Alexander Stippich"
+msgstr "© 2015–2022 Kåre Särs, Alexander Stippich"
+
+#: main.cpp:69 main.cpp:70
+#, kde-format
+msgid "developer"
+msgstr "توسعه‌دهنده"
+
+#: main.cpp:81
+#, kde-format
+msgid "Sane scanner device name. Use “test” for test device."
+msgstr "نام دستگاه اسکنر Sane. برای دستگاه آزمایشی از «test» استفاده کنید."
+
+#: main.cpp:82
+#, kde-format
+msgid "device"
+msgstr "دستگاه"
+
+#: main.cpp:85
+#, kde-format
+msgid "A file path in which the options of your scanner device are dumped."
+msgstr "مسیر فایلی که گزینه‌های دستگاه اسکنر شما در آن ذخیره (dump) می‌شود."
+
+#: main.cpp:89
+#, kde-format
+msgid ""
+"A local image or PDF file that shall be imported. Image formats must be "
+"supported by Qt."
+msgstr ""
+"یک فایل تصویر یا PDF محلی برای وارد کردن. قالب‌های تصویر باید توسط Qt "
+"پشتیبانی شوند."
+
+#: NameTemplateUtils.h:24
+#, kde-format
+msgid "Year"
+msgstr "سال"
+
+#: NameTemplateUtils.h:25
+#, kde-format
+msgid "Year (00–99)"
+msgstr "سال (۰۰–۹۹)"
+
+#: NameTemplateUtils.h:26
+#, kde-format
+msgid "Month"
+msgstr "ماه"
+
+#: NameTemplateUtils.h:27
+#, kde-format
+msgid "Day"
+msgstr "روز"
+
+#: NameTemplateUtils.h:28
+#, kde-format
+msgid "Hour"
+msgstr "ساعت"
+
+#: NameTemplateUtils.h:29
+#, kde-format
+msgid "Minute"
+msgstr "دقیقه"
+
+#: NameTemplateUtils.h:30
+#, kde-format
+msgid "Second"
+msgstr "ثانیه"
+
+#: NameTemplateUtils.h:31
+#, kde-format
+msgid "Full date"
+msgstr "تاریخ کامل"
+
+#: NameTemplateUtils.h:32
+#, kde-format
+msgid "Full time"
+msgstr "زمان کامل"
+
+#: qml/ContentView.qml:18
+#, kde-format
+msgctxt "Prefix for document name indicating an unsaved document"
+msgid "* %1"
+msgstr "* %1"
+
+#: qml/DeviceSelection.qml:25
+#, kde-format
+msgid "Reload devices list"
+msgstr "بارگذاری مجدد فهرست دستگاه‌ها"
+
+#: qml/DeviceSelection.qml:63
+#, kde-format
+msgctxt ""
+"Device vendor with device model, followed by the device name identifier"
+msgid ""
+"%1 %2\n"
+"(%3)"
+msgstr ""
+"%1 %2\n"
+"(%3)"
+
+#: qml/DeviceSelection.qml:78
+#, kde-kuit-format
+msgctxt "@info"
+msgid "No devices found."
+msgstr "هیچ دستگاهی پیدا نشد."
+
+#: qml/DeviceSelection.qml:96
+#, kde-format
+msgid "Open Selected Device"
+msgstr "باز کردن دستگاه انتخاب‌شده"
+
+#: qml/DevicesLoading.qml:29
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Searching for available devices…"
+msgstr "در حال جستجو برای دستگاه‌های موجود…"
+
+#: qml/DocumentList.qml:74
+#, kde-format
+msgid "Select Previous Page"
+msgstr "انتخاب صفحهٔ قبلی"
+
+#: qml/DocumentList.qml:80
+#, kde-format
+msgid "Select Next Page"
+msgstr "انتخاب صفحهٔ بعدی"
+
+#: qml/DocumentList.qml:86
+#, kde-format
+msgid "Move Selected Page Up"
+msgstr "انتقال صفحهٔ انتخاب‌شده به بالا"
+
+#: qml/DocumentList.qml:95
+#, kde-format
+msgid "Move Selected Page Down"
+msgstr "انتقال صفحهٔ انتخاب‌شده به پایین"
+
+#: qml/DocumentList.qml:206
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Processing page…"
+msgstr "در حال پردازش صفحه…"
+
+#: qml/DocumentList.qml:219
+#, kde-format
+msgctxt "Page index"
+msgid "Page %1"
+msgstr "صفحهٔ %1"
+
+#: qml/DocumentList.qml:230
+#, kde-format
+msgid "Move Up"
+msgstr "انتقال به بالا"
+
+#: qml/DocumentList.qml:240
+#, kde-format
+msgid "Move Down"
+msgstr "انتقال به پایین"
+
+#: qml/DocumentList.qml:250 qml/DocumentPage.qml:147
+#, kde-format
+msgid "Rotate Left"
+msgstr "چرخش به چپ"
+
+#: qml/DocumentList.qml:256 qml/DocumentPage.qml:154
+#, kde-format
+msgid "Rotate Right"
+msgstr "چرخش به راست"
+
+#: qml/DocumentList.qml:262 qml/DocumentPage.qml:161
+#, kde-format
+msgid "Flip"
+msgstr "وارونه‌کردن"
+
+#: qml/DocumentList.qml:268 qml/DocumentPage.qml:168
+#, kde-format
+msgid "Save Page"
+msgstr "ذخیرهٔ صفحه"
+
+#: qml/DocumentList.qml:274 qml/DocumentPage.qml:175
+#, kde-format
+msgid "Save Page As"
+msgstr "ذخیرهٔ صفحه به نام"
+
+#: qml/DocumentList.qml:280 qml/DocumentPage.qml:182
+#, kde-format
+msgid "Delete Page"
+msgstr "حذف صفحه"
+
+#: qml/DocumentList.qml:303
+#, kde-format
+msgid "%1 page"
+msgid_plural "%1 pages"
+msgstr[0] "%1 صفحه"
+msgstr[1] "%1 صفحه"
+
+#: qml/DocumentList.qml:312
+#, kde-format
+msgid "Flip Pages"
+msgstr "وارونه‌کردن صفحه‌ها"
+
+#: qml/DocumentList.qml:317
+#, kde-format
+msgid "Flip Odd Pages"
+msgstr "وارونه‌کردن صفحه‌های فرد"
+
+#: qml/DocumentList.qml:324
+#, kde-format
+msgid "Flip Even Pages"
+msgstr "وارونه‌کردن صفحه‌های زوج"
+
+#: qml/DocumentList.qml:331
+#, kde-format
+msgid "Flip All Pages"
+msgstr "وارونه‌کردن همهٔ صفحه‌ها"
+
+#: qml/DocumentList.qml:339
+#, kde-format
+msgid "Reorder Pages"
+msgstr "مرتب‌سازی مجدد صفحه‌ها"
+
+#: qml/DocumentList.qml:344
+#, kde-format
+msgctxt "Indicates how pages are going to be reordered"
+msgid "13 24 → 1234"
+msgstr "۱۳ ۲۴ ← ۱۲۳۴"
+
+#: qml/DocumentList.qml:351
+#, kde-format
+msgctxt "Indicates how pages are going to be reordered"
+msgid "13 42 → 1234"
+msgstr "۱۳ ۴۲ ← ۱۲۳۴"
+
+#: qml/DocumentList.qml:358
+#, kde-format
+msgid "Reverse Order"
+msgstr "ترتیب معکوس"
+
+#: qml/DocumentPage.qml:41
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "This document contains no pages yet"
+msgstr "این سند هنوز صفحه‌ای ندارد"
+
+#: qml/DocumentPage.qml:42
+#, kde-kuit-format
+msgctxt "@info:placeholder"
+msgid "Click the <interface>Scan</interface> button to add one"
+msgstr "برای افزودن صفحه، روی دکمهٔ <interface>پویش</interface> کلیک کنید"
+
+#: qml/DocumentPage.qml:105
+#, kde-format
+msgid "Zoom In"
+msgstr "بزرگ‌نمایی"
+
+#: qml/DocumentPage.qml:114
+#, kde-format
+msgid "Zoom Out"
+msgstr "کوچک‌نمایی"
+
+#: qml/DocumentPage.qml:123
+#, kde-format
+msgid "Zoom Fit"
+msgstr "اندازهٔ متناسب"
+
+#: qml/DocumentPage.qml:139
+#, kde-format
+msgid "Zoom 100%"
+msgstr "بزرگ‌نمایی ۱۰۰٪"
+
+#: qml/ExportDialog.qml:39
+#, kde-format
+msgctxt "@title:window"
+msgid "Export PDF"
+msgstr "برون‌ریزی PDF"
+
+#: qml/ExportDialog.qml:47
+#, kde-format
+msgctxt "@label"
+msgid "Title:"
+msgstr "عنوان:"
+
+#: qml/ExportDialog.qml:75
+#, kde-format
+msgid "Optical Character Recognition"
+msgstr "نویسه‌خوان نوری"
+
+#: qml/ExportDialog.qml:78
+#, kde-format
+msgctxt "@option:check Enable optical character recognition"
+msgid "Enable"
+msgstr "فعال‌سازی"
+
+#: qml/ExportDialog.qml:84
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"If the required languages are not listed, install the appropriate language "
+"files for Tesseract (for example with a package manager), and reopen this "
+"dialog."
+msgstr ""
+"اگر زبان‌های مورد نیاز در فهرست نیستند، پرونده‌های زبان مناسب برای Tesseract"
+" را (مثلاً با یک مدیر بسته) نصب کنید و این پنجره را دوباره باز کنید."
+
+#: qml/ExportDialog.qml:107
+#, kde-format
+msgid "Save"
+msgstr "ذخیره"
+
+#: qml/GlobalMenu.qml:27
+#, kde-format
+msgctxt "menu category"
+msgid "File"
+msgstr "پرونده"
+
+#: qml/GlobalMenu.qml:76
+#, kde-format
+msgctxt "menu category"
+msgid "Scan"
+msgstr "پویش"
+
+#: qml/GlobalMenu.qml:132
+#, kde-format
+msgctxt "menu category"
+msgid "Help"
+msgstr "راهنما"
+
+#: qml/InProgressPage.qml:26
+#, kde-kuit-format
+msgctxt "Countdown string with time given in seconds"
+msgid "Next scan starts in<nl/>%1 s"
+msgstr "پویش بعدی شروع می‌شود در<nl/>%1 ثانیه"
+
+#: qml/InProgressPage.qml:44
+#, kde-format
+msgctxt "@info"
+msgid "Scan in progress…"
+msgstr "پویش در حال انجام است…"
+
+#: qml/MainWindow.qml:25
+#, kde-format
+msgctxt "document title: app title"
+msgid "%1 ― Skanpage"
+msgstr "%1 ― اسکن‌پیج"
+
+#: qml/MainWindow.qml:79
+#, kde-format
+msgid "Discard All"
+msgstr "دور انداختن همه"
+
+#: qml/MainWindow.qml:87
+#, kde-format
+msgid "Confirm Discard"
+msgstr "تأیید دور انداختن"
+
+#: qml/MainWindow.qml:88
+#, kde-format
+msgid "Discard all documents?"
+msgstr "همهٔ سندها دور انداخته شوند؟"
+
+#: qml/MainWindow.qml:97
+#, kde-format
+msgid "Save All"
+msgstr "ذخیرهٔ همه"
+
+#: qml/MainWindow.qml:106
+#, kde-format
+msgid "Save All As"
+msgstr "ذخیرهٔ همه با نام"
+
+#: qml/MainWindow.qml:119
+#, kde-format
+msgctxt "@action:button import existing PDF file"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: qml/MainWindow.qml:128
+#, kde-format
+msgid "Export PDF"
+msgstr "برون‌ریزی PDF"
+
+#: qml/MainWindow.qml:136
+#, kde-format
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: qml/MainWindow.qml:155
+#, kde-format
+msgid "Scan"
+msgstr "پویش"
+
+#: qml/MainWindow.qml:170
+#, kde-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: qml/MainWindow.qml:179
+#, kde-format
+msgid "Show Scanner Options"
+msgstr "نمایش گزینه‌های اسکنر"
+
+#: qml/MainWindow.qml:189 qml/ShareDialog.qml:20
+#, kde-format
+msgid "Share"
+msgstr "هم‌رسانی"
+
+#: qml/MainWindow.qml:197
+#, kde-format
+msgid "Print"
+msgstr "چاپ"
+
+#: qml/MainWindow.qml:218 qml/MainWindow.qml:437
+#, kde-format
+msgid "About Skanpage"
+msgstr "دربارهٔ اسکن‌پیج"
+
+#: qml/MainWindow.qml:225
+#, kde-format
+msgid "Configure Skanpage…"
+msgstr "پیکربندی اسکن‌پیج…"
+
+#: qml/MainWindow.qml:233
+#, kde-format
+msgid "Configure Keyboard Shortcuts…"
+msgstr "پیکربندی میان‌برهای صفحه‌کلید…"
+
+#: qml/MainWindow.qml:241
+#, kde-format
+msgid "Quit"
+msgstr "خروج"
+
+#: qml/OptionDelegate.qml:55
+#, kde-format
+msgid "%1:"
+msgstr "%1:"
+
+#: qml/OptionDelegate.qml:150
+#, kde-format
+msgctxt "Add ':' to make a header text"
+msgid "%1:"
+msgstr "%1:"
+
+#: qml/OptionDelegate.qml:154
+#, kde-format
+msgctxt "@option:check a noun, as in 'the default setting'"
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: qml/OptionDelegate.qml:168
+#, kde-format
+msgctxt "%1 is a numeric value"
+msgid "Brightness: %1"
+msgstr "روشنایی: %1"
+
+#: qml/OptionDelegate.qml:181
+#, kde-format
+msgctxt "%1 is a numeric value"
+msgid "Contrast: %1"
+msgstr "کنتراست: %1"
+
+#: qml/OptionDelegate.qml:194
+#, kde-format
+msgctxt "%1 is a numeric value"
+msgid "Gamma: %1"
+msgstr "گاما: %1"
+
+#: qml/OptionDelegate.qml:224
+#, kde-format
+msgctxt "Adding unit suffix"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/OptionDelegate.qml:249
+#, kde-format
+msgctxt "Unit suffix for bit"
+msgid "bit"
+msgstr "بیت"
+
+#: qml/OptionDelegate.qml:251
+#, kde-format
+msgctxt "Unit suffix for DPI"
+msgid "DPI"
+msgstr "DPI"
+
+#: qml/OptionDelegate.qml:253
+#, kde-format
+msgctxt "Unit suffix for microsecond"
+msgid "µs"
+msgstr "µs"
+
+#: qml/OptionDelegate.qml:255
+#, kde-format
+msgctxt "Unit suffix for second"
+msgid "s"
+msgstr "s"
+
+#: qml/OptionDelegate.qml:257
+#, kde-format
+msgctxt "Unit suffix for millimeter"
+msgid "mm"
+msgstr "mm"
+
+#: qml/OptionDelegate.qml:259
+#, kde-format
+msgctxt "Unit suffix for percent"
+msgid "%"
+msgstr "٪"
+
+#: qml/OptionDelegate.qml:261
+#, kde-format
+msgctxt "Unit suffix for pixel"
+msgid "px"
+msgstr "px"
+
+#: qml/OptionsPanel.qml:30
+#, kde-format
+msgid "Select options for quick access:"
+msgstr "گزینه‌ها را برای دسترسی سریع انتخاب کنید:"
+
+#: qml/OptionsPanel.qml:76
+#, kde-format
+msgctxt "scanner device vendor and model"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/OptionsPanel.qml:89
+#, kde-format
+msgid "Show More"
+msgstr "نمایش بیشتر"
+
+#: qml/OptionsPanel.qml:99
+#, kde-format
+msgid "Configure Visibility"
+msgstr "پیکربندی قابلیت مشاهده"
+
+#: qml/OptionsPanel.qml:114
+#, kde-format
+msgid "Reselect Scanner"
+msgstr "انتخاب مجدد اسکنر"
+
+#: qml/PreviewScanView.qml:141
+#, kde-format
+msgid "Discard this selection"
+msgstr "صرف‌نظر از این انتخاب"
+
+#: qml/PreviewScanView.qml:164
+#, kde-format
+msgid "New Preview Scan"
+msgstr "اسکن پیش‌نمایش جدید"
+
+#: qml/PreviewScanView.qml:173
+#, kde-format
+msgid "Add Selection Area"
+msgstr "افزودن ناحیهٔ انتخابی"
+
+#: qml/PreviewScanView.qml:181
+#, kde-format
+msgid "Split Scan Vertically"
+msgstr "تقسیم عمودی اسکن"
+
+#: qml/PreviewScanView.qml:191
+#, kde-format
+msgid "Split Scan Horizontally"
+msgstr "تقسیم افقی اسکن"
+
+#: qml/PreviewScanView.qml:201
+#, kde-format
+msgid "Clear Scan Areas"
+msgstr "پاک کردن ناحیه‌های اسکن"
+
+#: qml/PreviewScanView.qml:209
+#, kde-format
+msgid "Close Preview"
+msgstr "بستن پیش‌نمایش"
+
+#: qml/SettingsWindow.qml:21
+#, kde-format
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: qml/SettingsWindow.qml:42
+#, kde-format
+msgid "Devices to show:"
+msgstr "دستگاه‌ها جهت نمایش:"
+
+#: qml/SettingsWindow.qml:43
+#, kde-format
+msgctxt "@option:radio Devices to show for scanning"
+msgid "Scanners only"
+msgstr "فقط اسکنرها"
+
+#: qml/SettingsWindow.qml:50
+#, kde-format
+msgctxt "@option:radio Devices to show for scanning"
+msgid "Scanners, cameras, and virtual devices"
+msgstr "اسکنرها، دوربین‌ها و دستگاه‌های مجازی"
+
+#: qml/SettingsWindow.qml:57
+#, kde-format
+msgid "Default file format:"
+msgstr "قالب پیش‌فرض پرونده:"
+
+#: qml/SettingsWindow.qml:74
+#, kde-format
+msgid "Default save location:"
+msgstr "محل ذخیره پیش‌فرض:"
+
+#: qml/SettingsWindow.qml:91
+#, kde-format
+msgid "Title template:"
+msgstr "الگوی عنوان:"
+
+#: qml/SettingsWindow.qml:101
+#, kde-format
+msgid "Preview:"
+msgstr "پیش‌نمایش:"
+
+#: qml/SettingsWindow.qml:114 qml/SettingsWindow.qml:128
+#, kde-format
+msgid "Show Samples"
+msgstr "نمایش نمونه‌ها"
+
+#: qml/SettingsWindow.qml:125
+#, kde-format
+msgid "Hide Samples"
+msgstr "پنهان کردن نمونه‌ها"
+
+#: qml/SettingsWindow.qml:256
+#, kde-format
+msgid "Close"
+msgstr "بستن"
+
+#: qml/ShareDialog.qml:47
+#, kde-format
+msgid "Share as:"
+msgstr "اشتراک‌گذاری به‌عنوان:"

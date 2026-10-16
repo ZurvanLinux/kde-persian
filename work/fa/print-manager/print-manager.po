@@ -1,0 +1,853 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the print-manager package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: print-manager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-13 00:52+0000\n"
+"PO-Revision-Date: 2026-10-16 01:50+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/configure-printer/ConfigureDialog.cpp:96
+#: src/configure-printer/ConfigureDialog.cpp:97
+#, kde-format
+msgid "Media Settings"
+msgstr "تنظیمات رسانه"
+
+#: src/configure-printer/ConfigureDialog.cpp:104
+#: src/configure-printer/ConfigureDialog.cpp:105
+#, kde-format
+msgid "Banners, Policies and Allowed Users"
+msgstr "بنرها، شیوه‌نامه‌ها و کاربران مجاز"
+
+#: src/configure-printer/ConfigureDialog.cpp:182
+#, kde-format
+msgid ""
+"The current page has changes.\n"
+"Do you want to save them?"
+msgstr ""
+"صفحهٔ کنونی تغییراتی دارد.\n"
+"آیا می‌خواهید آن‌ها را ذخیره کنید؟"
+
+#: src/configure-printer/ConfigureDialog.cpp:184
+#, kde-format
+msgid "Save"
+msgstr "ذخیره"
+
+#: src/configure-printer/main.cpp:25
+#, kde-format
+msgid "Configure Printer"
+msgstr "پیکربندی چاپگر"
+
+#: src/configure-printer/main.cpp:27
+#, kde-format
+msgid "ConfigurePrinter"
+msgstr "پیکربندی چاپگر"
+
+#: src/configure-printer/main.cpp:29
+#, kde-format
+msgid "(C) 2010-2018 Daniel Nicoletti"
+msgstr "(C) 2010-2018 Daniel Nicoletti"
+
+#: src/configure-printer/main.cpp:31
+#, kde-format
+msgid "Port to Qt 5 / Plasma 5"
+msgstr "پورت به کیوت ۵ / پلاسما ۵"
+
+#: src/configure-printer/main.cpp:32
+#, kde-format
+msgid "Port to Qt 6 / Plasma 6"
+msgstr "پورت به کیوت ۶ / پلاسما ۶"
+
+#: src/configure-printer/main.cpp:39
+#, kde-format
+msgid "Printer to be configured"
+msgstr "چاپگری که باید پیکربندی شود"
+
+#: src/configure-printer/PrinterBehavior.cpp:192
+#, kde-format
+msgid "Abort job"
+msgstr "لغو کار"
+
+#: src/configure-printer/PrinterBehavior.cpp:194
+#, kde-format
+msgid "Retry current job"
+msgstr "تلاش مجدد برای کار فعلی"
+
+#: src/configure-printer/PrinterBehavior.cpp:196
+#, kde-format
+msgid "Retry job"
+msgstr "تلاش مجدد برای کار"
+
+#: src/configure-printer/PrinterBehavior.cpp:198
+#, kde-format
+msgid "Stop printer"
+msgstr "توقف چاپگر"
+
+#: src/configure-printer/PrinterBehavior.cpp:207
+#, kde-format
+msgid "Authenticated"
+msgstr "احراز هویت شده"
+
+#: src/configure-printer/PrinterBehavior.cpp:209
+#, kde-format
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: src/configure-printer/PrinterBehavior.cpp:218
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: src/configure-printer/PrinterBehavior.cpp:220
+#, kde-format
+msgid "Classified"
+msgstr "طبقه‌بندی‌شده"
+
+#: src/configure-printer/PrinterBehavior.cpp:222
+#, kde-format
+msgid "Confidential"
+msgstr "محرمانه"
+
+#: src/configure-printer/PrinterBehavior.cpp:224
+#, kde-format
+msgid "Secret"
+msgstr "سری"
+
+#: src/configure-printer/PrinterBehavior.cpp:226
+#, kde-format
+msgid "Standard"
+msgstr "استاندارد"
+
+#: src/configure-printer/PrinterBehavior.cpp:228
+#, kde-format
+msgid "Topsecret"
+msgstr "به‌کلی سری"
+
+#: src/configure-printer/PrinterBehavior.cpp:230
+#, kde-format
+msgid "Unclassified"
+msgstr "غیرمحرمانه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, BanneryGB)
+#: src/configure-printer/PrinterBehavior.ui:20
+#, kde-format
+msgid "Banners"
+msgstr "بنرها"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/configure-printer/PrinterBehavior.ui:26
+#, kde-format
+msgid "Starting Banner:"
+msgstr "بنر آغازین:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/configure-printer/PrinterBehavior.ui:46
+#, kde-format
+msgid "Ending Banner:"
+msgstr "بنر پایانی:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, PoliciesGB)
+#: src/configure-printer/PrinterBehavior.ui:81
+#, kde-format
+msgid "Policies"
+msgstr "خط‌مشی‌ها"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/configure-printer/PrinterBehavior.ui:87
+#, kde-format
+msgid "Operation Policy:"
+msgstr "خط‌مشی عملیات:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/configure-printer/PrinterBehavior.ui:100
+#, kde-format
+msgid "Error Policy:"
+msgstr "خط‌مشی خطا:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, AllowGB)
+#: src/configure-printer/PrinterBehavior.ui:133
+#, kde-format
+msgid "Allowed Users"
+msgstr "کاربران مجاز"
+
+#. i18n: ectx: property (text), widget (QRadioButton, preventRB)
+#: src/configure-printer/PrinterBehavior.ui:139
+#, kde-format
+msgid "Pre&vent these users from printing "
+msgstr "جلوگیری از چاپ این کاربران"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allowRB)
+#: src/configure-printer/PrinterBehavior.ui:146
+#, kde-format
+msgid "A&llow these users to print"
+msgstr "اجازه‌دادن به این کاربران برای چاپ"
+
+#: src/configure-printer/PrinterOptions.cpp:52
+#, kde-format
+msgid "Set Default Options"
+msgstr "تنظیم گزینه‌های پیش‌فرض"
+
+#. i18n: ectx: property (text), widget (QPushButton, autoConfigurePB)
+#: src/configure-printer/PrinterOptions.ui:26
+#, kde-format
+msgid "Query Printer for Default Options"
+msgstr "پرس‌وجو از چاپگر برای گزینه‌های پیش‌فرض"
+
+#: src/kcm/printermanager.cpp:100
+#, kde-format
+msgid "Add a new printer"
+msgstr "افزودن چاپگر جدید"
+
+#: src/kcm/printermanager.cpp:102
+#, kde-format
+msgid "Add a new printer group"
+msgstr "افزودن گروه چاپگر جدید"
+
+#: src/kcm/printermanager.cpp:104 src/kcm/printermanager.cpp:106
+#, kde-format
+msgid "Configure a printer"
+msgstr "پیکربندی چاپگر"
+
+#: src/kcm/printermanager.cpp:325
+#, kde-format
+msgctxt "@list:item"
+msgid "IPP Everywhere™"
+msgstr "IPP Everywhere™"
+
+#: src/kcm/printermanager.cpp:352
+#, kde-format
+msgctxt "@list:item"
+msgid "Driverless"
+msgstr "بدون درایور"
+
+#: src/kcm/printermanager.cpp:355
+#, kde-format
+msgctxt "@list:item"
+msgid "PPD File"
+msgstr "پروندهٔ PPD"
+
+#: src/kcm/printermanager.cpp:397
+#, kde-format
+msgctxt "@info"
+msgid "Failed to get server settings: %1"
+msgstr "دریافت تنظیمات کارساز ناموفق بود: %1"
+
+#: src/kcm/printermanager.cpp:434
+#, kde-format
+msgctxt "@info"
+msgid "Server Settings Not Saved: (%1): %2"
+msgstr "تنظیمات کارساز ذخیره نشد: (%1): %2"
+
+#: src/kcm/printermanager.cpp:441
+#, kde-format
+msgctxt "@info"
+msgid "Fatal Save Server Settings: (%1): %2"
+msgstr "خطای مهلک در ذخیرهٔ تنظیمات کارساز: (%1): %2"
+
+#: src/kcm/scpinstaller.cpp:71
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Install Error (package: %1)\n"
+"Check authentication credentials and make sure PackageKit is installed properly."
+msgstr ""
+"خطای نصب (بسته: %1)\n"
+"اعتبارنامه‌های احراز هویت را بررسی کنید و مطمئن شوید PackageKit به درستی نصب شده است."
+
+#: src/kded/CupsWatcher.cpp:55
+#, kde-format
+msgctxt "@info:status %1 is the reason message for the status"
+msgid ""
+"%1\n"
+"The print job will complete when the printer becomes available."
+msgstr ""
+"%1\n"
+"کار چاپ پس از در دسترس قرار گرفتن چاپگر تکمیل خواهد شد."
+
+#: src/kded/CupsWatcher.cpp:59
+#, kde-format
+msgctxt "@action:button Prompt to resume printer"
+msgid "Resume Printer"
+msgstr "ازسرگیری چاپگر"
+
+#: src/kded/CupsWatcher.cpp:79
+#, kde-format
+msgctxt "@action:button check printer ink levels"
+msgid "Check Levels…"
+msgstr "بررسی سطوح…"
+
+#: src/kded/NewPrinterNotification.cpp:100
+#, kde-format
+msgid "The New Printer was added"
+msgstr "چاپگر جدید اضافه شد"
+
+#: src/kded/NewPrinterNotification.cpp:102
+#, kde-format
+msgid "The New Printer might have a driver problem"
+msgstr "ممکن است چاپگر جدید مشکل درایور داشته باشد"
+
+#: src/kded/NewPrinterNotification.cpp:150
+#, kde-format
+msgid "Printer queue was not created"
+msgstr "صف چاپگر ایجاد نشد"
+
+#: src/kded/NewPrinterNotification.cpp:152
+#, kde-format
+msgid "Printer driver not found for %1 %2"
+msgstr "درایور چاپگر برای %1 %2 پیدا نشد"
+
+#: src/kded/NewPrinterNotification.cpp:154
+#, kde-format
+msgid "Printer driver not found for %1"
+msgstr "درایور چاپگر برای %1 پیدا نشد"
+
+#: src/kded/NewPrinterNotification.cpp:156
+#, kde-format
+msgid "Printer driver not found for this printer"
+msgstr "درایور چاپگر برای این چاپگر پیدا نشد"
+
+#: src/kded/NewPrinterNotification.cpp:158
+#, kde-format
+msgid "Add Printer…"
+msgstr "افزودن چاپگر…"
+
+#: src/kded/NewPrinterNotification.cpp:215
+#, kde-format
+msgid "'%1' has been added, please check its driver"
+msgstr "«%1» اضافه شد، لطفاً درایور آن را بررسی کنید"
+
+#: src/kded/NewPrinterNotification.cpp:216
+#: src/kded/NewPrinterNotification.cpp:247
+#, kde-format
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: src/kded/NewPrinterNotification.cpp:221
+#, kde-format
+msgid "'%1' has been added, using the '%2' driver"
+msgstr "«%1» با استفاده از درایور «%2» اضافه شد"
+
+#: src/kded/NewPrinterNotification.cpp:223
+#: src/kded/NewPrinterNotification.cpp:242
+#, kde-format
+msgid "Print test page"
+msgstr "چاپ صفحهٔ آزمایشی"
+
+#: src/kded/NewPrinterNotification.cpp:228
+#, kde-format
+msgid "Check driver"
+msgstr "بررسی درایور"
+
+#: src/kded/NewPrinterNotification.cpp:240
+#, kde-format
+msgid "'%1' is ready for printing."
+msgstr "«%1» برای چاپ آماده است."
+
+#: src/libkcups/CommandHelpers.cpp:94
+#, kde-format
+msgctxt "@info"
+msgid "Failed to configure class: "
+msgstr "پیکربندی کلاس ناموفق بود: "
+
+#: src/libkcups/CommandHelpers.cpp:94
+#, kde-format
+msgctxt "@info"
+msgid "Failed to configure printer: "
+msgstr "پیکربندی چاپگر ناموفق بود: "
+
+#: src/libkcups/CommandHelpers.cpp:138
+#, kde-format
+msgid "Print Self-Test Page"
+msgstr "چاپ صفحهٔ خودآزمایی"
+
+#: src/libkcups/CommandHelpers.cpp:144
+#, kde-format
+msgid "Clean Print Heads"
+msgstr "پاک‌سازی هد چاپگر"
+
+#: src/libkcups/DevicesModel.cpp:51
+#, kde-format
+msgctxt "@item"
+msgid "Manual Config"
+msgstr "پیکربندی دستی"
+
+#: src/libkcups/DevicesModel.cpp:63
+#, kde-format
+msgid "Parallel Port"
+msgstr "درگاه موازی"
+
+#: src/libkcups/DevicesModel.cpp:65
+#, kde-format
+msgid "Serial Port"
+msgstr "درگاه سریال"
+
+#: src/libkcups/DevicesModel.cpp:67
+#, kde-format
+msgid "USB"
+msgstr "USB"
+
+#: src/libkcups/DevicesModel.cpp:69
+#, kde-format
+msgid "Bluetooth"
+msgstr "بلوتوث"
+
+#: src/libkcups/DevicesModel.cpp:71
+#, kde-format
+msgid "Fax - HP Linux Imaging and Printing (HPLIP)"
+msgstr "نمابر - تصویربرداری و چاپ اچ‌پی لینوکس (HPLIP)"
+
+#: src/libkcups/DevicesModel.cpp:73
+#, kde-format
+msgid "HP Linux Imaging and Printing (HPLIP)"
+msgstr "تصویربرداری و چاپ اچ‌پی در لینوکس (HPLIP)"
+
+#: src/libkcups/DevicesModel.cpp:75
+#, kde-format
+msgid "Hardware Abstraction Layer (HAL)"
+msgstr "لایه انتزاع سخت‌افزار (HAL)"
+
+#: src/libkcups/DevicesModel.cpp:77
+#, kde-format
+msgid "AppSocket/HP JetDirect"
+msgstr "AppSocket/HP JetDirect"
+
+#: src/libkcups/DevicesModel.cpp:82
+#, kde-format
+msgid "LPD/LPR queue"
+msgstr "صف LPD/LPR"
+
+#: src/libkcups/DevicesModel.cpp:84
+#, kde-format
+msgid "LPD/LPR queue %1"
+msgstr "صف LPD/LPR %1"
+
+#: src/libkcups/DevicesModel.cpp:87
+#, kde-format
+msgid "Windows Printer via SAMBA"
+msgstr "چاپگر ویندوز از طریق SAMBA"
+
+#: src/libkcups/DevicesModel.cpp:92
+#, kde-format
+msgid "IPP"
+msgstr "IPP"
+
+#: src/libkcups/DevicesModel.cpp:94
+#, kde-format
+msgid "IPP %1"
+msgstr "IPP %1"
+
+#: src/libkcups/DevicesModel.cpp:97
+#, kde-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: src/libkcups/DevicesModel.cpp:102
+#, kde-format
+msgid "Remote CUPS printer via DNS-SD"
+msgstr "چاپگر دوردست CUPS از طریق DNS-SD"
+
+#: src/libkcups/DevicesModel.cpp:105
+#, kde-format
+msgid "IPP network printer via DNS-SD"
+msgstr "چاپگر شبکه‌ای IPP از طریق DNS-SD"
+
+#: src/libkcups/DevicesModel.cpp:107
+#, kde-format
+msgid "LPD network printer via DNS-SD"
+msgstr "چاپگر شبکه‌ای LPD از طریق DNS-SD"
+
+#: src/libkcups/DevicesModel.cpp:109
+#, kde-format
+msgid "AppSocket/JetDirect network printer via DNS-SD"
+msgstr "چاپگر شبکه‌ای AppSocket/JetDirect از طریق DNS-SD"
+
+#: src/libkcups/DevicesModel.cpp:111
+#, kde-format
+msgid "Network printer via DNS-SD"
+msgstr "چاپگر شبکه‌ای از طریق DNS-SD"
+
+#: src/libkcups/DevicesModel.cpp:123
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected to the parallel port"
+msgstr "چاپگری که به درگاه موازی متصل است"
+
+#: src/libkcups/DevicesModel.cpp:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected via Bluetooth"
+msgstr "چاپگری که از طریق بلوتوث متصل است"
+
+#: src/libkcups/DevicesModel.cpp:125
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Local printer detected by the Hardware Abstraction Layer (HAL)"
+msgstr "چاپگر محلی شناسایی‌شده توسط لایهٔ انتزاع سخت‌افزار (HAL)"
+
+#: src/libkcups/DevicesModel.cpp:126
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"HPLIP software driving a fax machine, or the fax function of a multi-"
+"function device"
+msgstr ""
+"نرم‌افزار HPLIP در حال راه‌اندازی دستگاه فکس یا عملکرد فکسِ یک دستگاه "
+"چندکاره"
+
+#: src/libkcups/DevicesModel.cpp:127
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"HPLIP software driving a printer, or the printer function of a multi-"
+"function device"
+msgstr ""
+"نرم‌افزار HPLIP در حال راه‌اندازی چاپگر یا عملکرد چاپِ یک دستگاه چندکاره"
+
+#: src/libkcups/DevicesModel.cpp:128
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "IPP Network printer via IPP"
+msgstr "چاپگر شبکه‌ای IPP از طریق IPP"
+
+#: src/libkcups/DevicesModel.cpp:129
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected to a USB port"
+msgstr "چاپگر متصل به درگاه USB"
+
+#: src/libkcups/DevicesModel.cpp:135
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remote CUPS printer via DNS-SD"
+msgstr "چاپگر دوردست CUPS از طریق DNS-SD"
+
+#: src/libkcups/DevicesModel.cpp:147
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Network printer via DNS-SD"
+msgstr "چاپگر شبکه‌ای از طریق DNS-SD"
+
+#: src/libkcups/DevicesModel.cpp:149
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1 network printer via DNS-SD"
+msgstr "چاپگر شبکه‌ای %1 از طریق DNS-SD"
+
+#: src/libkcups/DevicesModel.cpp:224
+#, kde-format
+msgid "Failed to get a list of devices: '%1'"
+msgstr "دریافت فهرست دستگاه‌ها ناموفق بود: «%1»"
+
+#: src/libkcups/DevicesModel.cpp:260
+#, kde-format
+msgid "Failed to group devices: '%1'"
+msgstr "گروه‌بندی دستگاه‌ها ناموفق بود: «%1»"
+
+#: src/libkcups/DevicesModel.cpp:389
+#, kde-format
+msgctxt "@item"
+msgid "Discovered Network Printers"
+msgstr "چاپگرهای شبکه‌ای کشف‌شده"
+
+#: src/libkcups/DevicesModel.cpp:395
+#, kde-format
+msgctxt "@item"
+msgid "Other Network Printers"
+msgstr "سایر چاپگرهای شبکه‌ای"
+
+#: src/libkcups/DevicesModel.cpp:401
+#, kde-format
+msgctxt "@item"
+msgid "Local Printers"
+msgstr "چاپگرهای محلی"
+
+#: src/libkcups/JobModel.cpp:26
+#, kde-format
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/libkcups/JobModel.cpp:27
+#, kde-format
+msgid "Name"
+msgstr "نام"
+
+#: src/libkcups/JobModel.cpp:28
+#, kde-format
+msgid "User"
+msgstr "کاربر"
+
+#: src/libkcups/JobModel.cpp:29
+#, kde-format
+msgid "Created"
+msgstr "ایجادشده"
+
+#: src/libkcups/JobModel.cpp:30 src/libkcups/JobModel.cpp:451
+#, kde-format
+msgid "Completed"
+msgstr "کامل‌شده"
+
+#: src/libkcups/JobModel.cpp:31
+#, kde-format
+msgid "Pages"
+msgstr "صفحه‌ها"
+
+#: src/libkcups/JobModel.cpp:32
+#, kde-format
+msgid "Processed"
+msgstr "پردازش‌شده"
+
+#: src/libkcups/JobModel.cpp:33
+#, kde-format
+msgid "Size"
+msgstr "اندازه"
+
+#: src/libkcups/JobModel.cpp:34
+#, kde-format
+msgid "Status Message"
+msgstr "پیام وضعیت"
+
+#: src/libkcups/JobModel.cpp:35
+#, kde-format
+msgid "Printer"
+msgstr "چاپگر"
+
+#: src/libkcups/JobModel.cpp:36
+#, kde-format
+msgid "From Hostname"
+msgstr "از نام میزبان"
+
+#: src/libkcups/JobModel.cpp:167
+#, kde-format
+msgctxt "@info:progress The job name (%1) and the printer name (%2)"
+msgid "Processing\t%1 [%2]"
+msgstr "در حال پردازش\t%1 [%2]"
+
+#: src/libkcups/JobModel.cpp:233
+#, kde-format
+msgctxt ""
+"@info:status The processing detail message (%1), the job name (%2) and the "
+"printer name (%3)"
+msgid "%1\t%2 [%3]"
+msgstr "%1\t%2 [%3]"
+
+#: src/libkcups/JobModel.cpp:445
+#, kde-format
+msgid "Pending"
+msgstr "در انتظار"
+
+#: src/libkcups/JobModel.cpp:446
+#, kde-format
+msgid "On hold"
+msgstr "در حالت تعلیق"
+
+#: src/libkcups/JobModel.cpp:448
+#, kde-format
+msgid "Stopped"
+msgstr "متوقف‌شده"
+
+#: src/libkcups/JobModel.cpp:449
+#, kde-format
+msgid "Canceled"
+msgstr "لغوشده"
+
+#: src/libkcups/JobModel.cpp:450
+#, kde-format
+msgid "Aborted"
+msgstr "ساقط‌شده"
+
+#: src/libkcups/KCupsConnection.cpp:728
+#, kde-format
+msgid "A CUPS connection requires authentication: \"%1\""
+msgstr "یک اتصال CUPS نیازمند احراز هویت است: «%1»"
+
+#: src/libkcups/KCupsPasswordDialog.cpp:21
+#, kde-format
+msgid "Enter an username and a password to complete the task"
+msgstr "برای تکمیل کار یک نام کاربری و گذرواژه وارد کنید"
+
+#: src/libkcups/KCupsPasswordDialog.cpp:43
+#, kde-format
+msgid "Wrong username or password"
+msgstr "نام کاربری یا گذرواژه نادرست است"
+
+#: src/libkcups/KCupsPrinter.cpp:147
+#, kde-format
+msgctxt "@info:usagetip The name and type of the ink cartridge"
+msgid "%1 (%2) appears to be empty."
+msgstr "به نظر می‌رسد %1 (%2) خالی است."
+
+#: src/libkcups/KCupsPrinter.cpp:150
+#, kde-format
+msgctxt ""
+"@info:usagetip The name and type of the ink cartridge and percent ink "
+"remaining"
+msgid "%1 (%2) appears to be low (%3% remaining)."
+msgstr "به نظر می‌رسد جوهر %1 (%2) کم است (%3٪ باقی‌مانده)."
+
+#: src/libkcups/KCupsPrinter.cpp:157
+#, kde-format
+msgctxt ""
+"@info:usagetip The name, type, and percentage full of the waste receptacle"
+msgid "%1 (%2) is almost full (%3%)"
+msgstr "%1 (%2) تقریباً پر است (%3٪)"
+
+#: src/libkcups/KCupsPrinter.cpp:309
+#, kde-format
+msgctxt "@info:status"
+msgid "The printer is paused or stopped."
+msgstr "چاپگر مکث کرده یا متوقف شده است."
+
+#: src/libkcups/KCupsRequest.cpp:31
+#, kde-format
+msgid "Print service is unavailable"
+msgstr "سرویس چاپ در دسترس نیست"
+
+#: src/libkcups/KCupsRequest.cpp:33
+#, kde-format
+msgid "Not found"
+msgstr "یافت نشد"
+
+#: src/libkcups/KCupsRequest.cpp:390
+#, kde-format
+msgid "Test Page"
+msgstr "صفحه آزمایشی"
+
+#: src/libkcups/KCupsRequest.cpp:418
+#, kde-format
+msgid "Unable to send command to printer driver!"
+msgstr "ارسال دستور به درایور چاپگر امکان‌پذیر نیست!"
+
+#: src/libkcups/KCupsRequest.cpp:546
+#, kde-format
+msgid "Failed to invoke method: %1"
+msgstr "فراخوانی متد ناموفق بود: %1"
+
+#: src/libkcups/PPDModel.cpp:86
+#, kde-format
+msgid "Empty ppd model"
+msgstr "مدل PPD خالی است"
+
+#: src/libkcups/PrinterModel.cpp:192
+#, kde-format
+msgid "Printers"
+msgstr "چاپگرها"
+
+#: src/libkcups/PrinterModel.cpp:390
+#, kde-format
+msgid "Idle"
+msgstr "بیکار"
+
+#: src/libkcups/PrinterModel.cpp:390
+#, kde-format
+msgid "Idle, rejecting jobs"
+msgstr "بیکار، رد کارهای جدید"
+
+#: src/libkcups/PrinterModel.cpp:392
+#, kde-format
+msgid "Idle - '%1'"
+msgstr "بیکار - '%1'"
+
+#: src/libkcups/PrinterModel.cpp:392
+#, kde-format
+msgid "Idle, rejecting jobs - '%1'"
+msgstr "بیکار، رد کارهای جدید - '%1'"
+
+#: src/libkcups/PrinterModel.cpp:396
+#, kde-format
+msgid "In use"
+msgstr "در حال استفاده"
+
+#: src/libkcups/PrinterModel.cpp:398
+#, kde-format
+msgid "In use - '%1'"
+msgstr "در حال استفاده - '%1'"
+
+#: src/libkcups/PrinterModel.cpp:402
+#, kde-format
+msgid "Paused"
+msgstr "مکث‌شده"
+
+#: src/libkcups/PrinterModel.cpp:402
+#, kde-format
+msgid "Paused, rejecting jobs"
+msgstr "مکث‌شده، رد کارهای جدید"
+
+#: src/libkcups/PrinterModel.cpp:404
+#, kde-format
+msgid "Paused - '%1'"
+msgstr "مکث‌شده - '%1'"
+
+#: src/libkcups/PrinterModel.cpp:404
+#, kde-format
+msgid "Paused, rejecting jobs - '%1'"
+msgstr "مکث شده، در حال رد کارهای چاپ - «%1»"
+
+#: src/libkcups/PrinterModel.cpp:408
+#, kde-format
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: src/libkcups/PrinterModel.cpp:410
+#, kde-format
+msgid "Unknown - '%1'"
+msgstr "ناشناخته - «%1»"
+
+#: src/print-queue/main.cpp:39
+#, kde-format
+msgctxt "@info:credit"
+msgid "Plasma Print Queue Manager"
+msgstr "مدیر صف چاپ پلاسما"
+
+#: src/print-queue/main.cpp:41
+#, kde-format
+msgctxt "@info:credit"
+msgid "Manage printer job queues"
+msgstr "مدیریت صف‌های کارهای چاپگر"
+
+#: src/print-queue/main.cpp:43
+#, kde-format
+msgid "© KDE Community"
+msgstr "© KDE Community"
+
+#: src/print-queue/main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Mike Noe"
+msgstr "Mike Noe"
+
+#: src/print-queue/main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: src/print-queue/main.cpp:49
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: src/print-queue/main.cpp:49
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/print-queue/main.cpp:62
+#, kde-format
+msgid "Show printer queue"
+msgstr "نمایش صف چاپگر"
+
+#: src/print-queue/PrintQueue.cpp:88
+#, kde-format
+msgid "Enter credentials to print from <b>%1</b>"
+msgstr "برای چاپ از <b>%1</b>، اعتبارنامه‌ها را وارد کنید"

@@ -1,0 +1,246 @@
+# translation of kcm_componentchooser.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohamad Reza Mirdamadi <mohi@linuxshop.ir>, 2011.
+# Sohrab Behdani <behdanisohrab@proton.me>, 2026.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_componentchooser\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-07 00:46+0000\n"
+"PO-Revision-Date: 2026-10-15 03:39+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: applicationmodel.cpp:64
+#, kde-format
+msgid "Other…"
+msgstr "سایر…"
+
+#: components/componentchooserarchivemanager.cpp:15
+#, kde-format
+msgid "Select default archive manager"
+msgstr "انتخاب مدیر بایگانی پیش‌فرض"
+
+#: components/componentchooserbrowser.cpp:13
+#, kde-format
+msgid "Select default browser"
+msgstr "انتخاب مرورگر پیش‌فرض"
+
+#: components/componentchoosercalendar.cpp:10
+#, kde-format
+msgid "Select default calendar application"
+msgstr "انتخاب برنامهٔ تقویم پیش‌فرض"
+
+#: components/componentchooseremail.cpp:20
+#, kde-format
+msgid "Select default e-mail client"
+msgstr "انتخاب کارخواه رایانامهٔ پیش‌فرض"
+
+#: components/componentchooserfilemanager.cpp:15
+#, kde-format
+msgid "Select default file manager"
+msgstr "انتخاب مدیر پروندهٔ پیش‌فرض"
+
+#: components/componentchoosergeo.cpp:13
+#, kde-format
+msgid "Select default map"
+msgstr "انتخاب نقشهٔ پیش‌فرض"
+
+#: components/componentchooserimageviewer.cpp:15
+#, kde-format
+msgid "Select default image viewer"
+msgstr "انتخاب نمایشگر تصویر پیش‌فرض"
+
+#: components/componentchoosermusicplayer.cpp:15
+#, kde-format
+msgid "Select default music player"
+msgstr "انتخاب پخش‌کنندهٔ موسیقی پیش‌فرض"
+
+#: components/componentchooserpdfviewer.cpp:11
+#, kde-format
+msgid "Select default PDF viewer"
+msgstr "انتخاب نمایشگر PDF پیش‌فرض"
+
+#: components/componentchoosertel.cpp:17
+#, kde-format
+msgid "Select default dialer application"
+msgstr "انتخاب برنامهٔ شماره‌گیر پیش‌فرض"
+
+#: components/componentchooserterminal.cpp:25
+#, kde-format
+msgid "Select default terminal emulator"
+msgstr "انتخاب شبیه‌ساز پایانهٔ پیش‌فرض"
+
+#: components/componentchoosertexteditor.cpp:15
+#, kde-format
+msgid "Select default text editor"
+msgstr "انتخاب ویرایشگر متن پیش‌فرض"
+
+#: components/componentchooservideoplayer.cpp:15
+#, kde-format
+msgid "Select default video player"
+msgstr "انتخاب پخش‌کنندهٔ ویدیوی پیش‌فرض"
+
+#: ui/ComponentOverlay.qml:54
+#, kde-format
+msgid "Details"
+msgstr "جزئیات"
+
+#: ui/ComponentOverlay.qml:84
+#, kde-format
+msgid "This application can also open these file types:"
+msgstr "این برنامه می‌تواند این نوع پرونده‌ها را نیز باز کند:"
+
+#: ui/ComponentOverlay.qml:98
+#, kde-format
+msgctxt "@label %1 is a MIME type and %2 is an application name"
+msgid "%1 (Currently opens in %2)"
+msgstr "%1 (هم‌اکنون در %2 باز می‌شود)"
+
+#: ui/ComponentOverlay.qml:111
+#, kde-format
+msgctxt "@action:button %1 is an application name"
+msgid "Open All in %1"
+msgstr "باز کردن همه در %1"
+
+#: ui/ComponentOverlay.qml:130
+#, kde-format
+msgid ""
+"This application does not advertise support for the following file types, "
+"but may be able to open them anyway:"
+msgstr ""
+"این برنامه پشتیبانی از انواع پرونده‌های زیر را اعلام نمی‌کند، اما ممکن است "
+"بتواند آن‌ها را باز کند:"
+
+#: ui/ComponentOverlay.qml:147
+#, kde-format
+msgctxt "@action:button"
+msgid "Force All to Open in %1"
+msgstr "اجبار همه به باز شدن در %1"
+
+#: ui/ComponentOverlay.qml:159
+#, kde-format
+msgid "Configure Manually…"
+msgstr "پیکربندی دستی…"
+
+#: ui/main.qml:17
+#, kde-format
+msgid ""
+"’%1’ seems to not support the following mimetypes associated with this kind "
+"of application: %2"
+msgstr ""
+"به نظر می‌رسد «%1» از انواع MIME زیر که با این نوع برنامه مرتبط هستند "
+"پشتیبانی نمی‌کند: %2"
+
+#: ui/main.qml:34
+#, kde-format
+msgctxt "@info:status"
+msgid "This application may not be able to open all file types."
+msgstr "این برنامه ممکن است نتواند همهٔ انواع پرونده را باز کند."
+
+#: ui/main.qml:36
+#, kde-format
+msgctxt "@action:button"
+msgid "View Details"
+msgstr "مشاهدهٔ جزئیات"
+
+#: ui/main.qml:63
+#, kde-format
+msgctxt "Internet related application’s category’s name"
+msgid "Internet"
+msgstr "اینترنت"
+
+#: ui/main.qml:69
+#, kde-format
+msgid "Web browser:"
+msgstr "مرورگر وب:"
+
+#: ui/main.qml:83
+#, kde-format
+msgid "Email client:"
+msgstr "کارخواه رایانامه:"
+
+#: ui/main.qml:97
+#, kde-format
+msgctxt "Default calendar application"
+msgid "Calendar:"
+msgstr "تقویم:"
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "Default phone app"
+msgid "Phone Numbers:"
+msgstr "شماره‌های تلفن:"
+
+#: ui/main.qml:125
+#, kde-format
+msgctxt "Multimedia related application’s category’s name"
+msgid "Multimedia"
+msgstr "چندرسانه‌ای"
+
+#: ui/main.qml:131
+#, kde-format
+msgid "Image viewer:"
+msgstr "نمایشگر تصویر:"
+
+#: ui/main.qml:145
+#, kde-format
+msgid "Music player:"
+msgstr "پخش‌کنندهٔ موسیقی:"
+
+#: ui/main.qml:159
+#, kde-format
+msgid "Video player:"
+msgstr "پخش‌کنندهٔ ویدیو:"
+
+#: ui/main.qml:173
+#, kde-format
+msgctxt "Documents related application’s category’s name"
+msgid "Documents"
+msgstr "اسناد"
+
+#: ui/main.qml:179
+#, kde-format
+msgid "Text editor:"
+msgstr "ویرایشگر متن:"
+
+#: ui/main.qml:194
+#, kde-format
+msgid "PDF viewer:"
+msgstr "نمایشگر PDF:"
+
+#: ui/main.qml:208
+#, kde-format
+msgctxt "Utilities related application’s category’s name"
+msgid "Utilities"
+msgstr "ابزارها"
+
+#: ui/main.qml:214
+#, kde-format
+msgid "File manager:"
+msgstr "مدیر پرونده:"
+
+#: ui/main.qml:228
+#, kde-format
+msgid "Terminal emulator:"
+msgstr "شبیه‌ساز پایانه:"
+
+#: ui/main.qml:242
+#, kde-format
+msgid "Archive manager:"
+msgstr "مدیر بایگانی:"
+
+#: ui/main.qml:256
+#, kde-format
+msgctxt "Map related application’s category’s name"
+msgid "Map:"
+msgstr "نقشه:"

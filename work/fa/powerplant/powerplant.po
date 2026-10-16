@@ -1,0 +1,438 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the powerplant package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: powerplant\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-07 00:50+0000\n"
+"PO-Revision-Date: 2026-10-16 01:49+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: main.cpp:68
+#, kde-format
+msgctxt "@title"
+msgid "PowerPlant"
+msgstr "پاورپلنت"
+
+#: main.cpp:72
+#, kde-format
+msgid "A small app to track your plants"
+msgstr "برنامه‌ای کوچک برای پیگیری وضعیت گیاهان شما"
+
+#: main.cpp:76
+#, kde-format
+msgid "© 2023-2025 Mathis Brüchert, © 2025-2026 KDE Community"
+msgstr "© 2023-2025 Mathis Brüchert, © 2025-2026 KDE Community"
+
+#: main.cpp:82
+#, kde-format
+msgctxt "@info:credit"
+msgid "Mathis Brüchert"
+msgstr "Mathis Brüchert"
+
+#: main.cpp:82
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author, 2023-2025"
+msgstr "نویسنده، ۲۰۲۳-۲۰۲۵"
+
+#: main.cpp:84
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: main.cpp:84
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: qml/NavigationBar.qml:17
+#, kde-format
+msgctxt "@action Navigation bar element"
+msgid "Plants"
+msgstr "گیاهان"
+
+#: qml/NavigationBar.qml:28 qml/TaskPage.qml:14
+#, kde-format
+msgid "Tasks"
+msgstr "وظایف"
+
+#: qml/PlantDetailPage.qml:25
+#, kde-format
+msgctxt "@title:window %1 is plantName"
+msgid "Delete %1?"
+msgstr "حذف %1؟"
+
+#: qml/PlantDetailPage.qml:26
+#, kde-format
+msgctxt "@info"
+msgid "Are you sure you want to delete this plant?"
+msgstr "آیا مطمئنید که می‌خواهید این گیاه را حذف کنید؟"
+
+#: qml/PlantDetailPage.qml:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit"
+msgstr "ویرایش"
+
+#: qml/PlantDetailPage.qml:77
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "حذف"
+
+#: qml/PlantDetailPage.qml:240
+#, kde-format
+msgid "Water"
+msgstr "آبیاری"
+
+#: qml/PlantDetailPage.qml:258
+#, kde-format
+msgctxt "@info"
+msgid "Has to be watered in %1 day"
+msgid_plural "Has to be watered in %1 days"
+msgstr[0] "باید ظرف %1 روز آبیاری شود"
+msgstr[1] "باید ظرف %1 روز آبیاری شود"
+
+#: qml/PlantDetailPage.qml:260
+#, kde-format
+msgctxt "@info"
+msgid "Has to be watered tomorrow"
+msgstr "فردا باید آبیاری شود"
+
+#: qml/PlantDetailPage.qml:262
+#, kde-format
+msgctxt "@info"
+msgid "Needs to be watered today!"
+msgstr "امروز باید آبیاری شود!"
+
+#: qml/PlantDetailPage.qml:264
+#, kde-format
+msgctxt "@info"
+msgid "Should have been watered already!"
+msgstr "تا الآن باید آبیاری می‌شد!"
+
+#: qml/PlantDetailPage.qml:268
+#, kde-format
+msgid "Watered"
+msgstr "آبیاری شد"
+
+#: qml/PlantDetailPage.qml:280
+#, kde-format
+msgid "Fertilizer"
+msgstr "کود"
+
+#: qml/PlantDetailPage.qml:296
+#, kde-format
+msgctxt "@info"
+msgid "Has to be fertilized in %1 day"
+msgid_plural "Has to be fertilized in %1 days"
+msgstr[0] "باید ظرف %1 روز کوددهی شود"
+msgstr[1] "باید ظرف %1 روز کوددهی شود"
+
+#: qml/PlantDetailPage.qml:298
+#, kde-format
+msgctxt "@info"
+msgid "Has to be fertilized tomorrow"
+msgstr "فردا باید کود داده شود"
+
+#: qml/PlantDetailPage.qml:300
+#, kde-format
+msgctxt "@info"
+msgid "Needs to be fertilized today!"
+msgstr "امروز باید کود داده شود!"
+
+#: qml/PlantDetailPage.qml:302
+#, kde-format
+msgctxt "@info"
+msgid "Should have been fertilized already!"
+msgstr "باید تا الان کود داده می‌شد!"
+
+#: qml/PlantDetailPage.qml:307
+#, kde-format
+msgid "Fertilized"
+msgstr "کود داده شده"
+
+#: qml/PlantDetailPage.qml:319
+#, kde-format
+msgctxt "@title:row"
+msgid "Health"
+msgstr "سلامت"
+
+#: qml/PlantDetailPage.qml:325
+#, kde-format
+msgctxt "@label:slider"
+msgid "How healthy is your plant today?"
+msgstr "گیاه شما امروز چقدر سالم است؟"
+
+#: qml/PlantDetailPage.qml:346
+#, kde-format
+msgctxt "@action:button"
+msgid "Record"
+msgstr "ثبت"
+
+#: qml/PlantDetailPage.qml:362
+#, kde-format
+msgid "Health History"
+msgstr "تاریخچه سلامت"
+
+#: qml/PlantEditorPage.qml:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Plant"
+msgstr "افزودن گیاه"
+
+#: qml/PlantEditorPage.qml:31
+#, kde-format
+msgctxt "@title:window %1 is the plant name"
+msgid "Edit %1"
+msgstr "ویرایش %1"
+
+#: qml/PlantEditorPage.qml:41
+#, kde-format
+msgctxt "@title:row"
+msgid "Image:"
+msgstr "تصویر:"
+
+#: qml/PlantEditorPage.qml:72
+#, kde-format
+msgctxt "@action:button"
+msgid "Use custom image"
+msgstr "استفاده از تصویر سفارشی"
+
+#: qml/PlantEditorPage.qml:78
+#, kde-format
+msgctxt "@title:window"
+msgid "Please choose a file"
+msgstr "لطفاً پرونده‌ای را انتخاب کنید"
+
+#: qml/PlantEditorPage.qml:88
+#, kde-format
+msgctxt "Name filter for image files"
+msgid "Image files (*.png *.jpg *.webp)"
+msgstr "پرونده‌های تصویر (‎*.png *.jpg *.webp)"
+
+#: qml/PlantEditorPage.qml:159
+#, kde-format
+msgctxt "@title:row"
+msgid "Name"
+msgstr "نام"
+
+#: qml/PlantEditorPage.qml:167
+#, kde-format
+msgctxt "@title:row"
+msgid "Species"
+msgstr "گونه"
+
+#: qml/PlantEditorPage.qml:175
+#, kde-format
+msgctxt "@title:row"
+msgid "Room"
+msgstr "اتاق"
+
+#: qml/PlantEditorPage.qml:187
+#, kde-format
+msgctxt "@title:row"
+msgid "How often does the plant need Watering?"
+msgstr "گیاه هر چند وقت یک‌بار به آبیاری نیاز دارد؟"
+
+#: qml/PlantEditorPage.qml:201 qml/PlantEditorPage.qml:271
+#, kde-format
+msgctxt "@action:button button to select preset time"
+msgid "2 days"
+msgstr "۲ روز"
+
+#: qml/PlantEditorPage.qml:209 qml/PlantEditorPage.qml:279
+#, kde-format
+msgctxt "@action:button button to select preset time"
+msgid "5 days"
+msgstr "۵ روز"
+
+#: qml/PlantEditorPage.qml:217 qml/PlantEditorPage.qml:287
+#, kde-format
+msgctxt "@action:button button to select preset time"
+msgid "weekly"
+msgstr "هفتگی"
+
+#: qml/PlantEditorPage.qml:226 qml/PlantEditorPage.qml:296
+#, kde-format
+msgctxt "@action:button button to select preset time"
+msgid "2 weeks"
+msgstr "۲ هفته"
+
+#: qml/PlantEditorPage.qml:239 qml/PlantEditorPage.qml:309
+#, kde-format
+msgctxt "@title:row"
+msgid "Custom (days):"
+msgstr "سفارشی (روز):"
+
+#: qml/PlantEditorPage.qml:257
+#, kde-format
+msgctxt "@title:row"
+msgid "How often does the plant need Fertilizing?"
+msgstr "گیاه هر چند وقت یک‌بار به کوددهی نیاز دارد؟"
+
+#: qml/PlantEditorPage.qml:331
+#, kde-format
+msgctxt "@title:row"
+msgid "How healthy is your plant at the moment?"
+msgstr "گیاه شما در حال حاضر چقدر شاداب و سالم است؟"
+
+#: qml/PlantEditorPage.qml:348
+#, kde-format
+msgctxt "@title:row"
+msgid "Birthday"
+msgstr "زادروز"
+
+#: qml/PlantEditorPage.qml:366
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "ذخیره"
+
+#: qml/PlantEditorPage.qml:366
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr "افزودن"
+
+#: qml/PlantEditorPage.qml:374
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "لغو"
+
+#: qml/PlantsPage.qml:20
+#, kde-format
+msgid "Plants"
+msgstr "گیاهان"
+
+#: qml/PlantsPage.qml:45
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Plant"
+msgstr "افزودن گیاه"
+
+#: qml/PlantsPage.qml:56
+#, kde-format
+msgctxt "@title"
+msgid "Good morning!"
+msgstr "صبح بخیر!"
+
+#: qml/PlantsPage.qml:58
+#, kde-format
+msgctxt "@title"
+msgid "Good afternoon!"
+msgstr "بعدازظهر بخیر!"
+
+#: qml/PlantsPage.qml:60
+#, kde-format
+msgctxt "@title"
+msgid "Good evening!"
+msgstr "عصر بخیر!"
+
+#: qml/PlantsPage.qml:62
+#, kde-format
+msgctxt "@title"
+msgid "Good night!"
+msgstr "شب بخیر!"
+
+#: qml/PlantsPage.qml:98
+#, kde-format
+msgid "Some of your plants need attention"
+msgstr "برخی از گیاهان شما نیاز به رسیدگی دارند"
+
+#: qml/PlantsPage.qml:100
+#, kde-format
+msgid "No plants need water right now"
+msgstr "در حال حاضر هیچ گیاهی به آب نیاز ندارد"
+
+#: qml/PlantsPage.qml:192
+#, kde-format
+msgid "Incomplete Tasks"
+msgstr "کارهای انجام‌نشده"
+
+#: qml/PlantsPage.qml:194
+#, kde-format
+msgid "All Tasks Complete"
+msgstr "تمام کارها انجام شد"
+
+#: qml/PlantsPage.qml:235
+#, kde-format
+msgid "Enter your Location"
+msgstr "مکان خود را وارد کنید"
+
+#: qml/PlantsPage.qml:282
+#, kde-format
+msgid "Select your Location"
+msgstr "مکان خود را انتخاب کنید"
+
+#: qml/PlantsPage.qml:405 qml/PlantsPage.qml:433
+#, kde-format
+msgctxt "@info"
+msgid "In %1 day"
+msgid_plural "In %1 days"
+msgstr[0] "%1 روز دیگر"
+msgstr[1] "%1 روز دیگر"
+
+#: qml/PlantsPage.qml:407 qml/PlantsPage.qml:435
+#, kde-format
+msgctxt "@info"
+msgid "Tomorrow"
+msgstr "فردا"
+
+#: qml/PlantsPage.qml:409
+#, kde-format
+msgctxt "@info"
+msgid "Water today!"
+msgstr "امروز آبیاری کنید!"
+
+#: qml/PlantsPage.qml:411
+#, kde-format
+msgctxt "@info"
+msgid "Watering overdue!"
+msgstr "زمان آبیاری گذشته است!"
+
+#: qml/PlantsPage.qml:437
+#, kde-format
+msgctxt "@info"
+msgid "Fertilize today!"
+msgstr "امروز کوددهی کنید!"
+
+#: qml/PlantsPage.qml:439
+#, kde-format
+msgctxt "@info"
+msgid "Fertilizing overdue!"
+msgstr "زمان کوددهی گذشته است!"
+
+#: qml/TaskPage.qml:123
+#, kde-format
+msgctxt "@action"
+msgid "Water"
+msgstr "آبیاری"
+
+#: qml/TaskPage.qml:135
+#, kde-format
+msgctxt "@info"
+msgid "Already watered"
+msgstr "قبلاً آبیاری شده"
+
+#: qml/TaskPage.qml:135
+#, kde-format
+msgid "Now"
+msgstr "اکنون"
+
+#: qml/TaskPage.qml:135
+#, kde-format
+msgid "In %1 days"
+msgstr "%1 روز دیگر"

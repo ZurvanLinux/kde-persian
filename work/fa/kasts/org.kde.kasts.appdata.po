@@ -1,0 +1,611 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the org.kde.kasts.appdata package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.kasts.appdata\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-01 17:39+0000\n"
+"PO-Revision-Date: 2026-10-15 19:26+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. (itstool) path: component/name
+#: org.kde.kasts.appdata.xml:9
+msgid "Kasts"
+msgstr "Kasts"
+
+#. (itstool) path: component/summary
+#: org.kde.kasts.appdata.xml:10
+msgid "Podcast application"
+msgstr "برنامه پادکست"
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:27
+msgid ""
+"Kasts is a convergent podcast application that looks good on desktop and "
+"mobile."
+msgstr ""
+"برنامه Kasts یک برنامه پادکست همگرا است که در میزکار و تلفن همراه خوب به نظر"
+" می‌رسد."
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:28
+msgid "Its main features are:"
+msgstr "ویژگی‌های اصلی آن عبارتند از:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:30
+msgid "Episode management through play queue"
+msgstr "مدیریت قسمت‌ها از طریق صف پخش"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:31
+msgid ""
+"Sync playback positions with other clients through gpodder.net or gpodder-"
+"nextcloud"
+msgstr ""
+"همگام‌سازی موقعیت‌های پخش با سایر کلاینت‌ها از طریق gpodder.net یا gpodder-"
+"nextcloud"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:32
+msgid "Variable playback speed"
+msgstr "سرعت پخش متغیر"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:33
+msgid "Search for podcasts"
+msgstr "جستجو برای پادکست‌ها"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:34
+msgid "Full system integration: e.g. inhibit system suspend while listening"
+msgstr ""
+"یکپارچگی کامل با سیستم: برای مثال، جلوگیری از تعلیق سیستم هنگام گوش دادن"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kasts.appdata.xml:51
+msgid "Kasts on the desktop with default header bar"
+msgstr "برنامه Kasts در میزکار با نوار عنوان پیش‌فرض"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kasts.appdata.xml:55
+msgid "Kasts on the desktop with minimized header bar"
+msgstr "Kasts روی میزکار با نوار عنوان کوچک‌شده"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kasts.appdata.xml:59
+msgid "Kasts on a phone"
+msgstr "Kasts روی تلفن همراه"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kasts.appdata.xml:63
+msgid "Kasts mobile player controls"
+msgstr "کنترل‌های پخش‌کنندهٔ تلفن همراه Kasts"
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:77 org.kde.kasts.appdata.xml:222
+#: org.kde.kasts.appdata.xml:242
+msgid "New features in this release:"
+msgstr "ویژگی‌های جدید در این نسخه:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:79
+msgid ""
+"A large part of the app backend (e.g. database storage) has been rewritten "
+"to use unique identifiers for podcasts and episodes. This solves several "
+"known issues (e.g. database conflicts) and paves the way to future "
+"improvements in UI speed and memory/cpu consumption."
+msgstr ""
+"بخش بزرگی از بک‌اند برنامه (مانند ذخیره‌سازی پایگاه داده) برای استفاده از "
+"شناسه‌های یکتا برای پادکست‌ها و قسمت‌ها بازنویسی شده است. این کار چندین مشکل"
+" شناخته‌شده (مانند تداخل‌های پایگاه داده) را حل می‌کند و راه را برای "
+"بهبودهای آینده در سرعت رابط کاربری و مصرف حافظه/پردازنده هموار می‌سازد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:80
+msgid ""
+"Due to this rewrite, bulk episode actions (e.g. add/remove from queue, mark "
+"as favorite) should now be much faster on large selections."
+msgstr ""
+"به دلیل این بازنویسی، کارهای گروهی روی قسمت‌ها (مانند افزودن/حذف از صف، "
+"نشان‌گذاری به‌عنوان موردعلاقه) اکنون باید در انتخاب‌های بزرگ بسیار سریع‌تر "
+"انجام شود."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:81
+msgid ""
+"There is now a setting that controls the maximum amount of parallel episode "
+"downloads (the default is 2)."
+msgstr ""
+"اکنون تنظیمی وجود دارد که حداکثر تعداد بارگیری‌های هم‌زمان قسمت‌ها را کنترل "
+"می‌کند (پیش‌فرض ۲ است)."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:82
+msgid ""
+"Podcast updates that are hosted on the same server will now be processed "
+"sequentially. This is done to avoid triggering server limits, e.g. maximum "
+"allowed parallel connections. Podcasts hosted on different servers are still"
+" processed in parallel."
+msgstr ""
+"به‌روزرسانی‌های پادکست‌هایی که روی یک سرور میزبانی می‌شوند اکنون به‌طور "
+"متوالی پردازش خواهند شد. این کار برای جلوگیری از فعال شدن محدودیت‌های سرور، "
+"مانند حداکثر اتصالات هم‌زمان مجاز، انجام شده است. پادکست‌های میزبانی‌شده روی"
+" سرورهای مختلف همچنان به‌صورت موازی پردازش می‌شوند."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:83
+msgid ""
+"Long episode titles will now be fully visible on the episode details page. "
+"The text will be wrapped rather than elided."
+msgstr ""
+"عنوان‌های طولانی قسمت‌ها اکنون به‌طور کامل در صفحهٔ جزئیات قسمت قابل مشاهده "
+"خواهند بود. متن به جای خلاصه شدن، در چند سطر شکسته می‌شود."
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:85
+msgid "Bugfixes in this release:"
+msgstr "رفع اشکالات در این نسخه:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:87
+msgid ""
+"Fix the issue where the dialogs for setting up synchronization would show up"
+" in the wrong window."
+msgstr ""
+"رفع مشکلی که در آن پنجره‌های مربوط به راه‌اندازی همگام‌سازی در پنجرهٔ "
+"اشتباهی نمایش داده می‌شدند."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:88
+msgid ""
+"Fix and optimize the scaling of podcast and episode images throughout the "
+"app."
+msgstr ""
+"رفع و بهینه‌سازی مقیاس‌بندی تصاویر پادکست‌ها و قسمت‌ها در سراسر برنامه."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:89
+msgid ""
+"Fix an issue where an invalid image URL in an episode description could make"
+" the app crash."
+msgstr ""
+"رفع مشکلی که در آن یک نشانی اینترنتی نامعتبر تصویر در توضیحات قسمت می‌توانست"
+" باعث خرابی برنامه شود."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:90
+msgid ""
+"When streaming episodes, first try the original episode URL. If that one "
+"fails, try again with the URL obtained after following all redirects. For "
+"some reason either one can fail (for any of the available audio backends), "
+"so let's try both."
+msgstr ""
+"هنگام پخش زندهٔ قسمت‌ها، ابتدا نشانی اینترنتی اصلی قسمت امتحان می‌شود. در "
+"صورت ناموفق بودن، دوباره با نشانی اینترنتی به‌دست‌آمده پس از دنبال کردن همهٔ"
+" تغییرمسیرها تلاش می‌شود. به دلایلی ممکن است هر کدام (در هر یک از موتورهای "
+"صوتی موجود) با شکست مواجه شوند، بنابراین هر دو را امتحان می‌کنیم."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:91
+msgid "Fix issues with the layout on android version 15 or higher."
+msgstr "رفع مشکلات چیدمان در اندروید نسخهٔ ۱۵ یا بالاتر."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:92
+msgid "Use 'episode' instead of 'track' in the UI."
+msgstr "استفاده از «قسمت» به‌جای «ترک» در رابط کاربری."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:111
+msgid ""
+"Fixed occasional crashes when updating podcasts after app has been open for "
+"a while."
+msgstr ""
+"رفع خرابی‌های گاه‌به‌گاه هنگام به‌روزرسانی پادکست‌ها پس از باز ماندن "
+"طولانی‌مدت برنامه."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:112
+msgid "Fixed a crash happening when resetting the sleep timer."
+msgstr "رفع خرابی هنگام بازنشانی زمان‌سنج خواب."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:113
+msgid "Fixed the sort order functionality on episode lists."
+msgstr "رفع کارکرد ترتیب مرتب‌سازی در فهرست قسمت‌ها."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:114
+msgid ""
+"Fixed visual glitches in the header image and in the subscription list."
+msgstr "رفع اشکالات بصری در تصویر سربرگ و فهرست اشتراک‌ها."
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:133
+msgid "Highlights of changes in 24.02.0:"
+msgstr "برگزیدهٔ تغییرات در ۲۴٫۰۲٫۰:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:135
+msgid "Kasts has been ported to Qt6 and KDE Frameworks 6."
+msgstr "برنامهٔ Kasts به Qt6 و چارچوب‌های کار KDE ۶ پورت شد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:136
+msgid "The color scheme can now be selected manually."
+msgstr "اکنون طرح رنگ می‌تواند به‌صورت دستی انتخاب شود."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:137
+msgid "Fixed several bugs related to images and playback controls."
+msgstr "رفع چندین اشکال مربوط به تصاویر و کنترل‌های پخش."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:138
+msgid "Network checks for metered connections can now be fully disabled."
+msgstr ""
+"بررسی شبکه برای اتصالات با مصرف محدود اکنون می‌تواند به‌طور کامل غیرفعال "
+"شود."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:139
+msgid "Updating podcasts should now be significantly faster on slow hardware."
+msgstr ""
+"به‌روزرسانی پادکست‌ها در سخت‌افزارهای ضعیف اکنون باید به‌طور چشمگیری سریع‌تر"
+" باشد."
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:156
+msgid "New features and bugfixes in this release:"
+msgstr "ویژگی‌های جدید و رفع اشکال‌ها در این انتشار:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:158
+msgid ""
+"The header bar player controls have been redesigned, partly based on the "
+"design of Elisa. The header bar is resizeable and can be fully collapsed to "
+"just a minimal toolbar."
+msgstr ""
+"کنترل‌های پخش‌کننده در نوار سرآیند بازطراحی شده‌اند، که تا حدی بر اساس طراحی"
+" Elisa است. اندازهٔ نوار سرآیند قابل تغییر است و می‌تواند به‌طور کامل به یک "
+"نوار ابزار کمینه جمع شود."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:159
+msgid ""
+"The left sidebar menu in desktop mode has been redesigned. It's now using "
+"similar buttons to the ones used in the bottom navigation bar in mobile "
+"mode."
+msgstr ""
+"منوی نوار کناری چپ در حالت رومیزی بازطراحی شده است. اکنون از دکمه‌هایی مشابه"
+" دکمه‌های استفاده‌شده در نوار ناوبری پایین در حالت تلفن همراه استفاده "
+"می‌کند."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:160
+msgid ""
+"The audio backend has been re-written from scratch. It can now handle "
+"multiple backends: libVLC, gstreamer and Qt Multimedia. Kasts will use "
+"libVLC as default backend when available, which should solve common issues: "
+"volume control is now available through the main toolbar and seeking should "
+"no longer make the audio hang."
+msgstr ""
+"بخش پشتیبان صوتی از ابتدا بازنویسی شده است. اکنون می‌تواند چندین بخش پشتیبان"
+" را پشتیبانی کند: libVLC،‏ gstreamer و Qt Multimedia. برنامهٔ Kasts در صورت "
+"در دسترس بودن از libVLC به‌عنوان بخش پشتیبان پیش‌فرض استفاده خواهد کرد، که "
+"باید مشکلات رایج را حل کند: کنترل بلندی صدا اکنون از طریق نوار ابزار اصلی در"
+" دسترس است و پرش در زمان دیگر نباید باعث متوقف شدن صدا شود."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:161
+msgid "The settings menu was ported to the new form components."
+msgstr "منوی تنظیمات به مؤلفه‌های جدید فرم منتقل شد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:162
+msgid "Support for chapter images was added."
+msgstr "پشتیبانی از تصاویر فصل‌ها اضافه شد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:163
+msgid ""
+"Timestamps mentioned in episode descriptions are now clickable, which will "
+"make the audio jump to that point in the episode."
+msgstr ""
+"برچسب‌های زمانی ذکرشده در توضیحات قسمت اکنون قابل کلیک هستند، که باعث می‌شود"
+" صدا به آن نقطه از قسمت بپرد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:164
+msgid ""
+"Images in headers are now clickable. This will open a fullscreen view of the"
+" image in question."
+msgstr ""
+"تصاویر سربرگ‌ها اکنون قابل کلیک هستند. این کار نمای تمام‌صفحه‌ای از تصویر "
+"مربوطه را باز می‌کند."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:165
+msgid ""
+"The subscribe button is now disabled when a podcast has just been added."
+msgstr ""
+"دکمهٔ اشتراک اکنون زمانی که پادکستی تازه اضافه شده باشد، غیرفعال می‌شود."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:166
+msgid "Several issues with right-to-left language layouts were solved."
+msgstr "چندین مشکل مربوط به چیدمان زبان‌های راست‌به‌چپ برطرف شد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:177
+msgid ""
+"The interface is simplified by only showing one page at a time instead of "
+"adding columns, and by combining the podcast page with the podcast episode "
+"list page."
+msgstr ""
+"رابط کاربری با نمایش تنها یک صفحه در هر زمان به‌جای افزودن ستون‌ها، و با "
+"ادغام صفحهٔ پادکست با صفحهٔ فهرست قسمت‌های پادکست ساده‌سازی شده است."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:178
+msgid ""
+"The podcast and episode info pages are improved by adding a button toolbar "
+"(moving actions out of the app header) and by reworking the information "
+"layout."
+msgstr ""
+"صفحه‌های اطلاعات پادکست و قسمت با افزودن نوار ابزار دکمه‌ها (انتقال کنش‌ها "
+"به خارج از سربرگ برنامه) و با بازطراحی چیدمان اطلاعات بهبود یافته‌اند."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:179
+msgid "A sleep timer has been implemented."
+msgstr "تایمر خواب پیاده‌سازی شده است."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:180
+msgid "The app will now remember the position and size of its window."
+msgstr "برنامه اکنون موقعیت و اندازهٔ پنجره‌اش را به خاطر می‌سپارد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:181
+msgid ""
+"Kasts now has the ability to push all local episode states to the sync "
+"server."
+msgstr ""
+"اکنون کستس امکان ارسال وضعیت همه قسمت‌های محلی به کارساز همگام‌سازی را دارد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:182
+msgid ""
+"A setting has been added to tell Kasts how many recent episodes should be "
+"marked as unplayed when adding a new podcast."
+msgstr ""
+"تنظیمی افزوده شده تا مشخص کند کستس هنگام افزودن یک پادکست جدید، چند قسمت "
+"اخیر را به عنوان پخش‌نشده علامت‌گذاری کند."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:183
+msgid "Several small UI bugs and glitches were solved."
+msgstr "چندین اشکال و نقص جزئی رابط کاربری برطرف شدند."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:191
+msgid ""
+"The podcast update routine has been completely overhauled, solving several "
+"bugs. It's now using multithreading, and it will also update existing "
+"episode information."
+msgstr ""
+"فرایند به‌روزرسانی پادکست به طور کامل بازنویسی شده و چندین باگ برطرف شده "
+"است. این فرایند اکنون از چندریسمانی استفاده می‌کند و اطلاعات قسمت‌های موجود "
+"را نیز به‌روز خواهد کرد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:192
+msgid ""
+"General improvements were made to make sure that the app fits well on small "
+"screens in both portrait and landscape mode."
+msgstr ""
+"بهبودهای کلی ایجاد شده تا برنامه به خوبی روی صفحه‌های کوچک، هم در حالت عمودی"
+" و هم در حالت افقی جا شود."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:193
+msgid "Episode images will now be retrieved from id3v2tag if available."
+msgstr "تصاویر قسمت‌ها اکنون در صورت موجود بودن از id3v2tag دریافت خواهند شد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:194
+msgid ""
+"New episodes will be added to the queue in ascending chronological order "
+"(rather than descending) per podcast."
+msgstr ""
+"قسمت‌های جدید بر اساس هر پادکست به ترتیب زمانی صعودی (به جای نزولی) به صف "
+"اضافه خواهند شد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:195
+msgid ""
+"A switch has been introduced to optionally adjust the time left on episodes "
+"based on the current playback rate."
+msgstr ""
+"کلیدی اضافه شده تا در صورت تمایل، زمان باقی‌مانده از قسمت‌ها بر اساس سرعت "
+"پخش فعلی تنظیم شود."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:196
+msgid ""
+"The episode details pages now have a context action to go straight to the "
+"list of episodes for that podcast."
+msgstr ""
+"صفحات جزئیات قسمت اکنون دارای یک کنش زمینه‌ای هستند تا مستقیماً به فهرست "
+"قسمت‌های آن پادکست بروید."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:197
+msgid ""
+"It's now possible to sync with custom GPodder servers (i.e. other than the "
+"official gpodder.net instance)."
+msgstr ""
+"اکنون امکان همگام‌سازی با کارسازهای سفارشی GPodder (یعنی غیر از نمونه رسمی "
+"gpodder.net) وجود دارد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:198
+msgid ""
+"Podcasts can now again be updated even when the sync server is unavailable. "
+"This was a bug in previous versions."
+msgstr ""
+"اکنون پادکست‌ها حتی در صورت در دسترس نبودن سرور همگام‌سازی، مجدداً "
+"به‌روزرسانی می‌شوند. این مورد در نسخه‌های پیشین یک باگ بود."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:206
+msgid "General code quality improvements and bugfixes"
+msgstr "بهبودهای عمومی در کیفیت کد و رفع اشکالات"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:214
+msgid "Various User interface improvements"
+msgstr "بهبودهای مختلف در رابط کاربری"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:215
+msgid "Keep fetching episode actions until we get the current timestamp"
+msgstr "ادامه دریافت کنش‌های قسمت‌ها تا زمان رسیدن به برچسب زمان فعلی"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:216
+msgid "Re-enable icons for gpodder and nextcloud"
+msgstr "فعال‌سازی مجدد نمادها برای gpodder و nextcloud"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:224
+msgid ""
+"Support for chapters, both RSS feed and MP3 tags encoded chapters are "
+"supported"
+msgstr ""
+"پشتیبانی از فصل‌ها؛ از فصل‌های کدگذاری‌شده در فید RSS و همچنین برچسب‌های MP3"
+" پشتیبانی می‌شود"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:225
+msgid "Several improvements in user interface"
+msgstr "چندین بهبود در رابط کاربری"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:226
+msgid "Optimization and improvements for backend"
+msgstr "بهینه‌سازی و بهبودهای مربوط به بخش Backend"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:227
+msgid "Reworked settings page"
+msgstr "بازطراحی صفحهٔ تنظیمات"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:228
+msgid ""
+"Support for syncing subscriptions and episode play position using "
+"gpodder.net or nextcloud-gpodder app"
+msgstr ""
+"پشتیبانی از همگام‌سازی اشتراک‌ها و موقعیت پخش قسمت‌ها با استفاده از "
+"gpodder.net یا برنامهٔ nextcloud-gpodder"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:229 org.kde.kasts.appdata.xml:250
+msgid "Several bugfixes."
+msgstr "چندین رفع اشکال."
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:236
+msgid ""
+"Next to some minor bugfixes, it is now possible to change the location where"
+" the downloaded podcast episodes and cached images are saved. These files "
+"can take up a lot of disk space, so it's nice to be able to store them "
+"elsewhere on systems with limited home folder disk space. The related "
+"settings now show the disk space used by episodes and images, and allow to "
+"clear the image cache."
+msgstr ""
+"در کنار چند رفع اشکال جزئی، اکنون امکان تغییر محل ذخیره قسمت‌های دانلودشده "
+"پادکست و تصاویر حافظه موقت (کَش) وجود دارد. این فایل‌ها می‌توانند فضای زیادی"
+" از دیسک را اشغال کنند، بنابراین در سیستم‌هایی با فضای محدود در پوشه خانگی "
+"(home)، ذخیره آن‌ها در جای دیگر قابلیت مفیدی است. تنظیمات مربوطه اکنون فضای "
+"دیسک استفاده‌شده توسط قسمت‌ها و تصاویر را نشان می‌دهد و امکان پاک‌سازی حافظه"
+" موقت تصاویر را فراهم می‌کند."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:244
+msgid "Discover page to search for podcasts on podcastindex.org"
+msgstr "صفحه اکتشاف برای جستجوی پادکست‌ها در podcastindex.org"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:245
+msgid "Podcast downloads can now be resumed."
+msgstr "اکنون می‌توان دانلود پادکست‌ها را از سر گرفت."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:246
+msgid "Updated playback speed settings dialog."
+msgstr "گفتگوی تنظیمات سرعت پخش به‌روز شد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:247
+msgid "Settings to allow/disallow network access on metered connections."
+msgstr ""
+"تنظیماتی برای مجاز/غیرمجاز کردن دسترسی به شبکه در اتصال‌های مصرف‌سنجی‌شده "
+"(محدود)."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:248
+msgid ""
+"More descriptive error notifications from which the complete list of errors "
+"can be opened."
+msgstr ""
+"اعلان‌های خطای گویاتر که می‌توان فهرست کامل خطاها را از طریق آن‌ها باز کرد."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:249
+msgid ""
+"Several smaller improvements: menu item highlighting, tooltips, hotkeys"
+msgstr ""
+"چندین بهبود کوچک‌تر: برجسته‌سازی گزینه‌های منو، راهنماهای متنی ابزار، "
+"کلیدهای میان‌بر"
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:257
+msgid ""
+"First release of Kasts, a Kirigami-based convergent podcast player. Released"
+" as part of Plasma Mobile Gear 21.06. It features:"
+msgstr ""
+"نخستین انتشار Kasts، یک پخش‌کننده پادکست همگرا و مبتنی بر Kirigami. منتشرشده"
+" به‌عنوان بخشی از Plasma Mobile Gear 21.06. این برنامه دارای ویژگی‌های زیر "
+"است:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:259
+msgid "a play queue"
+msgstr "صف پخش"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:260
+msgid "notification panel and lockscreen media controls"
+msgstr "کنترل‌های رسانه در صفحهٔ قفل و پانل اعلان"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:261
+msgid "inhibits systemd suspend while listening to podcasts"
+msgstr "جلوگیری از تعلیق systemd هنگام گوش دادن به پادکست‌ها"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:262
+msgid "convergent UI; looks good on mobile and desktop"
+msgstr "رابط کاربری همگرا؛ ظاهری مناسب در تلفن همراه و رومیزی"

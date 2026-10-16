@@ -1,0 +1,2286 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the peruse package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: peruse\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-16 01:28+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: app/main.cpp:48
+#, kde-format
+msgid "Peruse Reader"
+msgstr "خوانش‌گر Peruse"
+
+#: app/main.cpp:50
+#, kde-format
+msgid "Comic Book Reader by KDE"
+msgstr "کتاب‌خوان کمیک توسط KDE"
+
+#: app/main.cpp:52 creator/main.cpp:48
+#, kde-format
+msgid "© 2016-2021 KDE"
+msgstr "© 2016-2021 KDE"
+
+#: app/main.cpp:53 creator/main.cpp:49
+#, kde-format
+msgid "Dan Leinir Turthra Jensen"
+msgstr "Dan Leinir Turthra Jensen"
+
+#: app/main.cpp:63
+#, kde-format
+msgid "Clear the metainfo cache and perform a full rescan."
+msgstr "پاک‌سازی حافظهٔ پنهان فراداده و انجام پویش مجدد کامل."
+
+#: app/main.cpp:64 creator/main.cpp:59
+#, kde-format
+msgid "Open file in peruse."
+msgstr "باز کردن پرونده در peruse."
+
+#: app/qml/Book.qml:182
+#, kde-format
+msgctxt "Enter full screen mode on a touch-based device"
+msgid "Go Full Screen"
+msgstr "تمام‌صفحه شدن"
+
+#: app/qml/Book.qml:182
+#, kde-format
+msgctxt "Exit full screen mode on a touch based device"
+msgid "Exit Full Screen"
+msgstr "خروج از تمام‌صفحه"
+
+#: app/qml/Book.qml:188
+#, kde-format
+msgctxt ""
+"Action used on touch devices to close the currently open book and return to "
+"whatever page was most recently shown"
+msgid "Close Book"
+msgstr "بستن کتاب"
+
+#: app/qml/Book.qml:197
+#, kde-format
+msgctxt ""
+"Top level entry leading to a submenu with options for the book display"
+msgid "View Options"
+msgstr "گزینه‌های نما"
+
+#: app/qml/Book.qml:200
+#, kde-format
+msgctxt ""
+"Header title for the section in which the direction the book will be "
+"navigated can be picked"
+msgid "Reading Direction"
+msgstr "جهت خواندن"
+
+#: app/qml/Book.qml:203
+#, kde-format
+msgctxt ""
+"Title for the option which will make the book navigate from left to right"
+msgid "Left to Right"
+msgstr "چپ به راست"
+
+#: app/qml/Book.qml:210
+#, kde-format
+msgctxt ""
+"Title for the option which will make the book navigate from right to left"
+msgid "Right to Left"
+msgstr "راست به چپ"
+
+#: app/qml/Book.qml:240
+#, kde-format
+msgctxt "Go to the previous frame on the current page"
+msgid "Previous Frame"
+msgstr "فریم قبلی"
+
+#: app/qml/Book.qml:247
+#, kde-format
+msgctxt "Go to the next frame on the current page"
+msgid "Next Frame"
+msgstr "فریم بعدی"
+
+#: app/qml/Book.qml:254
+#, kde-format
+msgctxt "Go to the previous page in the book"
+msgid "Previous Page"
+msgstr "صفحهٔ قبلی"
+
+#: app/qml/Book.qml:261
+#, kde-format
+msgctxt "Go to the next page in the book"
+msgid "Next Page"
+msgstr "صفحهٔ بعدی"
+
+#: app/qml/Book.qml:268
+#, kde-format
+msgctxt "Enter full screen mode on a non-touch-based device"
+msgid "Go Full Screen"
+msgstr "تمام‌صفحه شدن"
+
+#: app/qml/Book.qml:268
+#, kde-format
+msgctxt "Exit full screen mode on a non-touch based device"
+msgid "Exit Full Screen"
+msgstr "خروج از تمام‌صفحه"
+
+#: app/qml/Book.qml:275
+#, kde-format
+msgctxt ""
+"Action used on non-touch devices to close the currently open book and return"
+" to whatever page was most recently shown"
+msgid "Close Book"
+msgstr "بستن کتاب"
+
+#: app/qml/Book.qml:382
+#, kde-format
+msgctxt ""
+"Message shown on the book reader view when there is an issue loading any "
+"reader at all (usually when Okular's qml components are not installed for "
+"some reason)"
+msgid "Failed to load the reader component"
+msgstr "بارگذاری مؤلفهٔ کتاب‌خوان ناموفق بود"
+
+#: app/qml/Book.qml:383
+#, kde-format
+msgctxt ""
+"Message shown on the book reader view when there is an issue loading any "
+"reader at all (usually when Okular's qml components are not installed for "
+"some reason)"
+msgid ""
+"This is generally caused by broken packaging. Contact whomever you got this "
+"package from and inform them of this error."
+msgstr ""
+"این مشکل معمولاً ناشی از بسته‌بندی معیوب است. با ارائه‌دهندهٔ این بسته تماس "
+"بگیرید و آن‌ها را از این خطا مطلع سازید."
+
+#: app/qml/BookInfoPage.qml:43
+#, kde-format
+msgctxt "@label"
+msgid "Author(s):"
+msgstr "نویسنده(ها):"
+
+#: app/qml/BookInfoPage.qml:44 app/qml/BookInfoPage.qml:51
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Unknown"
+msgstr "ناشناس"
+
+#: app/qml/BookInfoPage.qml:50
+#, kde-format
+msgctxt "@label"
+msgid "Publisher:"
+msgstr "ناشر:"
+
+#: app/qml/BookInfoPage.qml:57
+#, kde-format
+msgctxt "@label"
+msgid "Location:"
+msgstr "مکان:"
+
+#: app/qml/BookInfoPage.qml:63
+#, kde-format
+msgctxt "@title:group"
+msgid "File Metadata"
+msgstr "فرادادهٔ پرونده"
+
+#: app/qml/BookInfoPage.qml:70
+#, kde-format
+msgctxt "@label"
+msgid "Rating:"
+msgstr "امتیاز:"
+
+#: app/qml/BookInfoPage.qml:92
+#, kde-format
+msgid "Set rating to %1"
+msgstr "تنظیم امتیاز روی %1"
+
+#: app/qml/BookInfoPage.qml:123
+#, kde-format
+msgctxt "@label"
+msgid "Tags:"
+msgstr "برچسب‌ها:"
+
+#: app/qml/BookInfoPage.qml:125 app/qml/listcomponents/BookTile.qml:291
+#, kde-format
+msgctxt "Placeholder tag field"
+msgid "(No tags)"
+msgstr "(بدون برچسب)"
+
+#: app/qml/BooksByTitlePage.qml:22
+#, kde-format
+msgctxt "Title of the page with books grouped by the title start letters"
+msgid "Group by Title"
+msgstr "گروه‌بندی بر اساس عنوان"
+
+#: app/qml/BooksByTitlePage.qml:76 app/qml/Bookshelf.qml:131
+#: app/qml/CategoryPage.qml:82
+#, kde-format
+msgctxt ""
+"Placeholder Text when there are no comics in the library that match the "
+"filter"
+msgid "No matches"
+msgstr "موردی یافت نشد"
+
+#: app/qml/BooksByTitlePage.qml:76
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No authors available"
+msgstr "هیچ پدیدآوری در دسترس نیست"
+
+#: app/qml/Bookshelf.qml:88
+#, kde-format
+msgctxt "search in the list of books (not inside the books)"
+msgid "Search Books"
+msgstr "جستجوی کتاب‌ها"
+
+#: app/qml/Bookshelf.qml:95
+#, kde-format
+msgctxt "placeholder text for the search field"
+msgid "Tap and type to search"
+msgstr "برای جستجو ضربه بزنید و بنویسید"
+
+#: app/qml/Bookshelf.qml:155
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "باز کردن"
+
+#: app/qml/Bookshelf.qml:163
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Details"
+msgstr "جزئیات"
+
+#: app/qml/CategoryPage.qml:65
+#, kde-format
+msgctxt "@info"
+msgid "%1 book"
+msgid_plural "%1 books"
+msgstr[0] "%1 کتاب"
+msgstr[1] "%1 کتاب"
+
+#: app/qml/FileFinder.qml:90
+#, kde-format
+msgctxt ""
+"A fake folder item which if activated will cause the folder list to navigate"
+" up through the folder structure by one step"
+msgid "(go up one level)"
+msgstr "(رفتن به یک سطح بالاتر)"
+
+#: app/qml/listcomponents/BookTile.qml:150
+#, kde-format
+msgctxt "Label for authors"
+msgid "Author(s)"
+msgstr "نویسنده(ها)"
+
+#: app/qml/listcomponents/BookTile.qml:173
+#, kde-format
+msgctxt "Label for publisher"
+msgid "Publisher"
+msgstr "ناشر"
+
+#: app/qml/listcomponents/BookTile.qml:213
+#, kde-format
+msgctxt "label for rating widget"
+msgid "Rating"
+msgstr "امتیاز"
+
+#: app/qml/listcomponents/BookTile.qml:275
+#, kde-format
+msgctxt "label for tags field"
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: app/qml/listcomponents/BookTile.qml:312
+#, kde-format
+msgctxt "label for comment field"
+msgid "Comment"
+msgstr "توضیح"
+
+#: app/qml/listcomponents/BookTile.qml:328
+#, kde-format
+msgctxt "Placeholder comment field"
+msgid "(No comment)"
+msgstr "(بدون توضیح)"
+
+#: app/qml/listcomponents/BookTile.qml:348
+#, kde-format
+msgctxt ""
+"Placeholder text for the book description field when no description is set"
+msgid "(no description available for this book)"
+msgstr "(توضیحاتی برای این کتاب در دسترس نیست)"
+
+#: app/qml/listcomponents/BookTile.qml:373
+#, kde-format
+msgctxt "Spawn inline dialog box to confirm permanent removal of this book"
+msgid "Delete from Device"
+msgstr "حذف از دستگاه"
+
+#: app/qml/listcomponents/BookTile.qml:401
+#, kde-format
+msgctxt "Dialog text for delete book dialog"
+msgid "Are you sure you want to delete this from your device?"
+msgstr "آیا از حذف این مورد از دستگاه خود اطمینان دارید؟"
+
+#: app/qml/listcomponents/BookTile.qml:411
+#, kde-format
+msgctxt "Confirmation button for book delete dialog"
+msgid "Yes, Really Delete"
+msgstr "بله، واقعاً حذف شود"
+
+#: app/qml/listcomponents/BookTile.qml:422
+#, kde-format
+msgctxt "Cancellation button or book delete dialog"
+msgid "No, Cancel Delete"
+msgstr "خیر، لغو حذف"
+
+#: app/qml/listcomponents/BookTileTall.qml:93
+#, kde-format
+msgctxt "A percentage of progress"
+msgid "%1%"
+msgstr "٪%1"
+
+#: app/qml/listcomponents/BookTileTall.qml:93
+#, kde-format
+msgctxt "should be keep short, inside a label. Will be in uppercase"
+msgid "New"
+msgstr "جدید"
+
+#: app/qml/listcomponents/BookTileTall.qml:126
+#, kde-format
+msgctxt "The last item in a list of author names when there is more than one"
+msgid ", and %1"
+msgstr " و %1"
+
+#: app/qml/listcomponents/BookTileTall.qml:129
+#, kde-format
+msgctxt "An item in a list of authors (but not the last)"
+msgid ", %1"
+msgstr "، %1"
+
+#: app/qml/listcomponents/BookTileTall.qml:138
+#, kde-format
+msgctxt "Author name used when there are no known authors for a book"
+msgid "Unknown author"
+msgstr "نویسندهٔ ناشناس"
+
+#: app/qml/listcomponents/CategoryTile.qml:40
+#, kde-format
+msgid "Comics in folder: %1"
+msgstr "کمیک‌های درون پوشه: %1"
+
+#: app/qml/Main.qml:39
+#, kde-format
+msgctxt ""
+"@title:window standard file open dialog used to open a book not in the "
+"collection"
+msgid "Please Choose a Comic to Open"
+msgstr "لطفاً کمیکی را برای باز کردن انتخاب کنید"
+
+#: app/qml/MobileMain.qml:42
+#, kde-format
+msgctxt ""
+"Title of a page which lets you open comics not in your collection by using a"
+" standard touch-friendly dig-down style filesystem browser"
+msgid "Open Comics not in Your Collection"
+msgstr "باز کردن کمیک‌های خارج از مجموعهٔ شما"
+
+#: app/qml/PeruseContextDrawer.qml:38
+#, kde-format
+msgid "Actions"
+msgstr "اقدامات"
+
+#: app/qml/PeruseContextDrawer.qml:177
+#, kde-format
+msgid "Back"
+msgstr "بازگشت"
+
+#: app/qml/PeruseMain.qml:56
+#, kde-format
+msgctxt "@title:window the generic descriptive title of the application"
+msgid "Comic Book Reader"
+msgstr "کتاب‌خوان کمیک"
+
+#: app/qml/PeruseMain.qml:153
+#, kde-format
+msgid "Peruse"
+msgstr "پروز"
+
+#: app/qml/PeruseMain.qml:165 creator/qml/Main.qml:130
+#, kde-format
+msgid "Show intro page"
+msgstr "نمایش صفحهٔ معرفی"
+
+#: app/qml/PeruseMain.qml:203
+#, kde-format
+msgctxt "Switch to the listing page showing the most recently read books"
+msgid "Home"
+msgstr "خانه"
+
+#: app/qml/PeruseMain.qml:214
+#, kde-format
+msgctxt ""
+"Switch to the listing page showing the most recently discovered books"
+msgid "Recently Added Books"
+msgstr "کتاب‌های به‌تازگی افزوده‌شده"
+
+#: app/qml/PeruseMain.qml:220 creator/qml/Main.qml:176
+#, kde-format
+msgctxt ""
+"Open a book from somewhere on disk (uses the open dialog, or a drilldown on "
+"touch devices)"
+msgid "Open Other..."
+msgstr "باز کردن دیگر..."
+
+#: app/qml/PeruseMain.qml:227
+#, kde-format
+msgctxt ""
+"Heading for switching to listing page showing items grouped by some "
+"properties"
+msgid "Group By"
+msgstr "دسته‌بندی بر اساس"
+
+#: app/qml/PeruseMain.qml:230
+#, kde-format
+msgctxt "Switch to the listing page showing items grouped by title"
+msgid "Title"
+msgstr "عنوان"
+
+#: app/qml/PeruseMain.qml:236
+#, kde-format
+msgctxt "Switch to the listing page showing items grouped by author"
+msgid "Author"
+msgstr "نویسنده"
+
+#: app/qml/PeruseMain.qml:242
+#, kde-format
+msgctxt "Switch to the listing page showing items grouped by series"
+msgid "Series"
+msgstr "مجموعه"
+
+#: app/qml/PeruseMain.qml:248
+#, kde-format
+msgctxt "Switch to the listing page showing items grouped by publisher"
+msgid "Publisher"
+msgstr "ناشر"
+
+#: app/qml/PeruseMain.qml:254
+#, kde-format
+msgctxt ""
+"Switch to the listing page showing items grouped by keywords, characters or "
+"genres"
+msgid "Keywords"
+msgstr "کلیدواژه‌ها"
+
+#: app/qml/PeruseMain.qml:260
+#, kde-format
+msgctxt ""
+"Switch to the listing page showing items grouped by their filesystem folder"
+msgid "Folder"
+msgstr "پوشه"
+
+#: app/qml/PeruseMain.qml:276
+#, kde-format
+msgctxt "shown with a throbber when searching for books on the device"
+msgid "Please wait while we find your books..."
+msgstr "لطفاً تا یافتن کتاب‌هایتان منتظر بمانید..."
+
+#: app/qml/PeruseMain.qml:286 creator/qml/Main.qml:246
+#, kde-format
+msgctxt "Open the settings page"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: app/qml/PeruseMain.qml:293 creator/qml/Main.qml:253
+#, kde-format
+msgctxt "Open the about page"
+msgid "About"
+msgstr "درباره"
+
+#: app/qml/PeruseMain.qml:334
+#, kde-format
+msgctxt ""
+"Title of the page with all books ordered by which was added most recently"
+msgid "Recently Added Books"
+msgstr "کتاب‌های به‌تازگی اضافه‌شده"
+
+#: app/qml/PeruseMain.qml:348
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No series found"
+msgstr "هیچ مجموعه‌ای پیدا نشد"
+
+#: app/qml/PeruseMain.qml:350
+#, kde-format
+msgctxt "@title"
+msgid "Series"
+msgstr "مجموعه‌ها"
+
+#: app/qml/PeruseMain.qml:360
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No authors found"
+msgstr "هیچ نویسنده‌ای یافت نشد"
+
+#: app/qml/PeruseMain.qml:362
+#, kde-format
+msgctxt "@title"
+msgid "Authors"
+msgstr "نویسندگان"
+
+#: app/qml/PeruseMain.qml:372
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No publishers found"
+msgstr "هیچ ناشری یافت نشد"
+
+#: app/qml/PeruseMain.qml:374
+#, kde-format
+msgctxt "@title"
+msgid "Publishers"
+msgstr "ناشران"
+
+#: app/qml/PeruseMain.qml:382
+#, kde-format
+msgctxt ""
+"Title of the page with books grouped by keywords, character or genres"
+msgid "Group by Keywords, Characters and Genres"
+msgstr "گروه‌بندی بر اساس کلیدواژه‌ها، شخصیت‌ها و ژانرها"
+
+#: app/qml/PeruseMain.qml:392
+#, kde-format
+msgctxt "Title of the page with books grouped by what folder they are in"
+msgid "Filter by Folder"
+msgstr "فیلتر بر اساس پوشه"
+
+#: app/qml/Settings.qml:45
+#, kde-format
+msgctxt "title of the settings page"
+msgid "Configure the indexed folders"
+msgstr "پیکربندی پوشه‌های نمایه شده"
+
+#: app/qml/Settings.qml:50
+#, kde-format
+msgid "Add folder"
+msgstr "افزودن پوشه"
+
+#: app/qml/Settings.qml:83
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "حذف"
+
+#: app/qml/Settings.qml:96
+#, kde-format
+msgid "There are no folder currently indexed."
+msgstr "در حال حاضر هیچ پوشه‌ای نمایه نشده است."
+
+#: app/qml/Settings.qml:106
+#, kde-format
+msgctxt "@title:window Dialogue used to add a new search folder"
+msgid "Select a folder"
+msgstr "انتخاب یک پوشه"
+
+#: app/qml/Settings.qml:123
+#, kde-format
+msgctxt "@title:window dialogue used to add a new search folder"
+msgid "Select a Folder"
+msgstr "انتخاب یک پوشه"
+
+#: app/qml/Store.qml:37
+#, kde-format
+msgctxt "title of the book store page"
+msgid "Book Store"
+msgstr "فروشگاه کتاب"
+
+#: app/qml/Store.qml:97
+#, kde-format
+msgctxt ""
+"Message shown when the engine is not busy and there are no entries (which "
+"means the store connection is broken in some way, usually caused by a broken"
+" internet connection, or the store being down)"
+msgid ""
+"Sorry, no books.\n"
+"This is unusual, and likely means your internet is down, or the store is."
+msgstr ""
+"متأسفانه، کتابی وجود ندارد.\n"
+"این مورد غیرعادی است و احتمالاً به این معنی است که اینترنت شما یا سرور فروشگاه قطع است."
+
+#: app/qml/viewers/cbr.qml:91 creator/qml/BookPage.qml:80
+#, kde-format
+msgctxt ""
+"A submenu which allows the user to chose between translations of the book"
+msgid "Translations"
+msgstr "ترجمه‌ها"
+
+#: app/qml/viewers/cbr.qml:94 creator/qml/BookPage.qml:83
+#, kde-format
+msgctxt "The option used to show no translation should be used"
+msgid "No Translation"
+msgstr "بدون ترجمه"
+
+#: app/qml/viewers/ImageBrowser.qml:89
+#, kde-format
+msgid ""
+"The link you just activated goes to something we don't really know what to "
+"do with. This suggests the book you are reading does not conform to the "
+"Advanced Comic Book Format specification, but we would still like to know "
+"about it. Please report a bug, and make the book available to us, so we can "
+"try and work out how to handle this!"
+msgstr ""
+"پیوندی که انتخاب کردید به موردی اشاره دارد که نحوهٔ پردازش آن مشخص نیست. این"
+" نشان می‌دهد کتابی که می‌خوانید با مشخصات «قالب پیشرفتهٔ کتاب مصور» (ACBF) "
+"سازگار نیست، با این حال تمایل داریم از آن مطلع شویم. لطفاً یک گزارش اشکال "
+"ارسال کنید و کتاب را در اختیار ما قرار دهید تا بتوانیم راهکاری برای رفع این "
+"مشکل پیدا کنیم!"
+
+#: app/qml/viewers/ImageBrowser.qml:93
+#, kde-format
+msgid ""
+"The link you activated doesn't seem to go anywhere. We tried to find "
+"something with the ID %1 but didn't locate anything. This is likely an error"
+" in the book, and the author would probably like to know about it."
+msgstr ""
+"به نظر می‌رسد پیوندی که انتخاب کردید به جایی اشاره نمی‌کند. موردی با شناسهٔ "
+"%1 جستجو شد اما چیزی یافت نشد. این احتمالاً خطایی در کتاب است و شاید بهتر "
+"باشد نویسندهٔ آن را در جریان بگذارید."
+
+#: app/qml/viewers/ImageBrowser.qml:501
+#, kde-format
+msgctxt ""
+"Message shown on the book reader view when there is an issue loading the "
+"image for a specific page"
+msgid ""
+"Could not load the image for this page.\n"
+"This is most commonly due to a missing image decoder (specifically, the Qt Imageformats package, which Peruse depends on for loading images), and likely a packaging error. Contact whoever you got this package from and inform them of this error.\n"
+"\n"
+"Specifically, the image we attempted to load is called %1, and the image formats Qt is aware of are %2. If there is a mismatch there, that will be the problem.\n"
+"\n"
+"If not, please report this bug to us, and give as much information as you can to assist us in working out what's wrong."
+msgstr ""
+"تصویر این صفحه بارگیری نشد.\n"
+"این مشکل معمولاً به دلیل نبود رمزگشای تصویر مناسب (به‌طور مشخص، بستهٔ Qt Imageformats که Peruse برای بارگیری تصاویر به آن وابسته است) رخ می‌دهد و احتمالاً ناشی از یک خطای بسته‌بندی است. لطفاً با ارائه‌دهندهٔ این بسته تماس گرفته و این خطا را به اطلاع آن‌ها برسانید.\n"
+"\n"
+"به‌طور خاص، تصویری که سعی در بارگیری آن داشتیم «%1» نام دارد، و قالب‌های تصویری که Qt شناسایی می‌کند عبارتند از: %2. اگر عدم تطابقی وجود داشته باشد، علت مشکل همین است.\n"
+"\n"
+"در غیر این صورت، لطفاً این اشکال را به ما گزارش دهید و تا جای ممکن اطلاعات ارائه کنید تا بتوانیم در رفع مشکل اقدام کنیم."
+
+#: app/qml/viewers/ViewerBase.qml:100
+#, kde-format
+msgctxt ""
+"Title for a dialog offering the user to open a link to some external "
+"resource"
+msgid "Open External Link?"
+msgstr "پیوند خارجی باز شود؟"
+
+#: app/qml/viewers/ViewerBase.qml:106
+#, kde-format
+msgctxt "label for a button which activates an external link"
+msgid "Open Link"
+msgstr "باز کردن پیوند"
+
+#: app/qml/viewers/ViewerBase.qml:118
+#, kde-format
+msgid ""
+"The link you just clicked points to somewhere outside of the book. Please "
+"check the details of the link below, to make sure that you really do want to"
+" open it, or just close this sheet."
+msgstr ""
+"پیوندی که روی آن کلیک کردید، به مکانی خارج از کتاب اشاره دارد. لطفاً جزئیات "
+"پیوند زیر را بررسی کنید تا مطمئن شوید واقعاً می‌خواهید آن را باز کنید، یا "
+"فقط این صفحه را ببندید."
+
+#: app/qml/viewers/ViewerBase.qml:141
+#, kde-format
+msgid ""
+"Compose an email to %1, based on the following link:\n"
+"\n"
+"%2"
+msgstr ""
+"نوشتن ایمیل به %1، بر اساس پیوند زیر:\n"
+"\n"
+"%2"
+
+#: app/qml/viewers/ViewerBase.qml:143
+#, kde-format
+msgid ""
+"Compose an email for %1 with the subject \"%2\" and the following body:\n"
+"\n"
+"%3"
+msgstr ""
+"نوشتن ایمیل برای %1 با موضوع «%2» و متن زیر:\n"
+"\n"
+"%3"
+
+#: app/qml/viewers/ViewerBase.qml:145
+#, kde-format
+msgid "Compose an email for %1 with the subject \"%2\""
+msgstr "نوشتن ایمیل برای %1 با موضوع «%2»"
+
+#: app/qml/viewers/ViewerBase.qml:147
+#, kde-format
+msgid "Compose email for: %1"
+msgstr "نوشتن ایمیل برای: %1"
+
+#: app/qml/WelcomePage.qml:42 creator/qml/WelcomePage.qml:42
+#, kde-format
+msgctxt "title of the welcome page"
+msgid "Welcome"
+msgstr "خوش آمدید"
+
+#: app/qml/WelcomePage.qml:84
+#, kde-format
+msgctxt "title of list of recently opened books"
+msgid "Continue Reading"
+msgstr "ادامهٔ مطالعه"
+
+#: app/qml/WelcomePage.qml:86
+#, kde-format
+msgctxt "title of list of recently discovered books"
+msgid "Recently Added"
+msgstr "اخیراً افزوده‌شده"
+
+#: creator/main.cpp:44 creator/qml/Main.qml:118
+#, kde-format
+msgid "Peruse Creator"
+msgstr "سازندهٔ Peruse"
+
+#: creator/main.cpp:46
+#, kde-format
+msgid "Comic Book Creator by KDE"
+msgstr "سازندهٔ کتاب کمیک توسط KDE"
+
+#: creator/qml/AddPageArea.qml:62
+#, kde-format
+msgctxt "title text for the add page area sheet"
+msgid "Add Page Area"
+msgstr "افزودن ناحیهٔ صفحه"
+
+#: creator/qml/AddPageArea.qml:85
+#, kde-format
+msgctxt "Button which creates a new frame, and closes the dialog"
+msgid "Create Frame"
+msgstr "ایجاد قاب"
+
+#: creator/qml/AddPageArea.qml:99
+#, kde-format
+msgctxt "Button which creates new textarea, and closes the dialog"
+msgid "Create Textarea"
+msgstr "ایجاد ناحیهٔ متنی"
+
+#: creator/qml/AddPageArea.qml:113
+#, kde-format
+msgctxt "Button which creates a new jump, and closes the dialog"
+msgid "Create Jump"
+msgstr "ایجاد پرش"
+
+#: creator/qml/AddPageSheet.qml:43
+#, kde-format
+msgctxt "@title"
+msgid "Add Page"
+msgstr "افزودن صفحه"
+
+#: creator/qml/AddPageSheet.qml:46
+#, kde-format
+msgctxt "help text for the add page sheet"
+msgid ""
+"Please select the method you want to add the new page. No changes will be "
+"made outside of the project by performing these actions."
+msgstr ""
+"لطفاً روشی را که می‌خواهید صفحهٔ جدید افزوده شود انتخاب کنید. با انجام این "
+"اقدامات، هیچ تغییری در خارج از پروژه اعمال نخواهد شد."
+
+#: creator/qml/AddPageSheet.qml:55
+#, kde-format
+msgctxt ""
+"@action:button add a page by finding an image on the filesystem and copying "
+"it into the book"
+msgid "Copy Image from Device"
+msgstr "رونوشت تصویر از دستگاه"
+
+#: creator/qml/AddPageSheet.qml:61
+#, kde-format
+msgctxt ""
+"@title:window standard file open dialog used to find a page to add to the "
+"book"
+msgid "Please Choose an Image to Add"
+msgstr "لطفاً تصویری را برای افزودن انتخاب کنید"
+
+#: creator/qml/AddPageSheet.qml:75
+#, kde-format
+msgctxt ""
+"@action:button add a page by creating a new image using an image editor"
+msgid "Create a New Image Using an Image Editor"
+msgstr "ایجاد تصویری جدید با استفاده از ویرایشگر تصویر"
+
+#: creator/qml/AddPageSheet.qml:83
+#, kde-format
+msgctxt "@action:button add a page by taking a photo with a camera"
+msgid "Take a Photo and Add That"
+msgstr "گرفتن عکس و افزودن آن"
+
+#: creator/qml/Book.qml:50
+#, kde-format
+msgctxt "title of the main book editor page"
+msgid "Pages in %1"
+msgstr "صفحه‌ها در %1"
+
+#: creator/qml/Book.qml:59 creator/qml/BookBasics.qml:42
+#: creator/qml/BookBinaries.qml:42 creator/qml/BookMetainfoPage.qml:32
+#: creator/qml/BookStylesheet.qml:48
+#, kde-format
+msgctxt "Saves the book to a file on disk"
+msgid "Save Book"
+msgstr "ذخیرهٔ کتاب"
+
+#: creator/qml/Book.qml:66
+#, kde-format
+msgctxt "adds a new page at the end of the book"
+msgid "Add Page"
+msgstr "افزودن صفحه"
+
+#: creator/qml/Book.qml:104 creator/qml/BookReferences.qml:66
+#, kde-format
+msgctxt "swap the position of this page with the previous one"
+msgid "Move Up"
+msgstr "انتقال به بالا"
+
+#: creator/qml/Book.qml:111 creator/qml/BookReferences.qml:74
+#, kde-format
+msgctxt "swap the position of this page with the next one"
+msgid "Move Down"
+msgstr "انتقال به پایین"
+
+#: creator/qml/Book.qml:118
+#, kde-format
+msgctxt "remove the page from the book"
+msgid "Delete Page"
+msgstr "حذف صفحه"
+
+#: creator/qml/Book.qml:123
+#, kde-format
+msgctxt "add a page to the book after this one"
+msgid "Add Page After This"
+msgstr "افزودن صفحه پس از این"
+
+#: creator/qml/Book.qml:128
+#, kde-format
+msgctxt "Edit page data such as title, frames, etc."
+msgid "Edit Page"
+msgstr "ویرایش صفحه"
+
+#: creator/qml/Book.qml:189
+#, kde-format
+msgctxt "Empty page list placeholder message"
+msgid "Your book is empty"
+msgstr "کتاب شما خالی است"
+
+#: creator/qml/Book.qml:190
+#, kde-format
+msgid "Start adding pages to your book"
+msgstr "افزودن صفحه به کتاب خود را شروع کنید"
+
+#: creator/qml/BookBasics.qml:39
+#, kde-format
+msgctxt "title of the basic book information page"
+msgid "Your Book At A Glance"
+msgstr "کتاب شما در یک نگاه"
+
+#: creator/qml/BookBasics.qml:85
+#, kde-format
+msgctxt ""
+"The descriptive label for a label which displays the title of the book"
+msgid "Book Title:"
+msgstr "عنوان کتاب:"
+
+#: creator/qml/BookBasics.qml:89
+#, kde-format
+msgctxt ""
+"The descriptive label for a link which shows the number of pages in the book"
+msgid "Pages:"
+msgstr "صفحه‌ها:"
+
+#: creator/qml/BookBasics.qml:90
+#, kde-format
+msgctxt "A link which when clicked shows the book pages editor"
+msgid "%1 total pages"
+msgstr "در مجموع %1 صفحه"
+
+#: creator/qml/BookBasics.qml:97
+#, kde-format
+msgctxt ""
+"Header for a list which shows every file contained in the archive which "
+"makes up this book"
+msgid "Every File In The Book:"
+msgstr "تمام پرونده‌های موجود در کتاب:"
+
+#: creator/qml/BookBasics.qml:184
+#, kde-format
+msgctxt "If a file is not referenced at all"
+msgid "Unreferenced file"
+msgstr "پرونده بدون ارجاع"
+
+#: creator/qml/BookBasics.qml:186
+#, kde-format
+msgctxt "If a file is referenced by its full path"
+msgid "Referenced by full path"
+msgstr "ارجاع‌شده با مسیر کامل"
+
+#: creator/qml/BookBasics.qml:188
+#, kde-format
+msgctxt "If a file is referenced partially, describe that"
+msgid "Referenced by filename only"
+msgstr "ارجاع‌شده فقط با نام پرونده"
+
+#: creator/qml/BookBasics.qml:190
+#, kde-format
+msgctxt "What happens if we have an unexpected reference amount"
+msgid "%1 might be referenced, but in some way we've not accounted for"
+msgstr "احتمالاً به %1 ارجاع داده شده است، اما به روشی که پیش‌بینی نکرده‌ایم"
+
+#: creator/qml/BookBasics.qml:198
+#, kde-format
+msgctxt ""
+"action which marks the file to be included next time the book is saved"
+msgid "Include File"
+msgstr "شامل کردن پرونده"
+
+#: creator/qml/BookBasics.qml:199
+#, kde-format
+msgctxt ""
+"action which marks the file to NOT be included next time the book is saved"
+msgid "Mark File For Deletion"
+msgstr "علامت‌گذاری پرونده برای حذف"
+
+#: creator/qml/BookBinaries.qml:38
+#, kde-format
+msgctxt ""
+"title of the page which lets the user manage chunks of binary data embedded "
+"in the book"
+msgid "Embedded Data"
+msgstr "داده‌های تعبیه‌شده"
+
+#: creator/qml/BookBinaries.qml:49
+#, kde-format
+msgctxt "Lets the user pick a file to append as a binary item"
+msgid "Add File..."
+msgstr "افزودن پرونده..."
+
+#: creator/qml/BookBinaries.qml:52 creator/qml/BookBinaryEditor.qml:97
+#, kde-format
+msgctxt "The initial identifier used for a newly created binary data element"
+msgid "Unnamed Binary"
+msgstr "دوتایی بی‌نام"
+
+#: creator/qml/BookBinaries.qml:80
+#, kde-format
+msgctxt ""
+"title text for a card which informs the user there are no binary data "
+"entries, and what those are"
+msgid "No Embedded Binary Data Entries"
+msgstr "هیچ مدخل دادهٔ دوتایی تعبیه‌شده‌ای وجود ندارد"
+
+#: creator/qml/BookBinaries.qml:81
+#, kde-format
+msgctxt "title text for a card which informs the user what binary data is"
+msgid "Embedded Binary Data"
+msgstr "داده‌های دوتایی تعبیه‌شده"
+
+#: creator/qml/BookBinaries.qml:89
+#, kde-format
+msgctxt ""
+"Help text for the binaries page, when there are no embedded binary data "
+"entries"
+msgid ""
+"There is no embedded data in your book yet. You can add such data by "
+"creating a new entry, and then adding data to that entry from some existing "
+"file on your system. That data will be imported into your book, and leaves "
+"the external file otherwise untouched."
+msgstr ""
+"هنوز هیچ دادهٔ تعبیه‌شده‌ای در کتاب شما وجود ندارد. می‌توانید با ایجاد یک "
+"مدخل جدید و سپس افزودن داده به آن مدخل از پرونده‌ای موجود در رایانه‌تان، "
+"چنین داده‌هایی را اضافه کنید. آن داده‌ها به کتاب شما وارد می‌شوند و پروندهٔ "
+"خارجی دست‌نخورده باقی می‌ماند."
+
+#: creator/qml/BookBinaries.qml:90
+#, kde-format
+msgctxt ""
+"Help text for the binaries page, when there is already data embedded in the "
+"book"
+msgid ""
+"You can add new binary data entries by creating a new entry, and then adding"
+" data to that entry from some existing file on your system. That data will "
+"be imported into your book, and leaves the external file otherwise "
+"untouched."
+msgstr ""
+"می‌توانید با ایجاد یک مدخل جدید و سپس افزودن داده به آن مدخل از پرونده‌ای "
+"موجود در رایانه‌تان، مدخل‌های دادهٔ دوتایی جدیدی اضافه کنید. آن داده‌ها به "
+"کتاب شما وارد می‌شوند و پروندهٔ خارجی دست‌نخورده باقی می‌ماند."
+
+#: creator/qml/BookBinaries.qml:99
+#, kde-format
+msgctxt ""
+"Title used in the list of binary data when there is no id defined for that "
+"entry"
+msgid "Unnamed piece of data"
+msgstr "دادهٔ بدون نام"
+
+#: creator/qml/BookBinaries.qml:133
+#, kde-format
+msgctxt ""
+"Label which describes which content type this entry is supposed to be"
+msgid "Content type: %1"
+msgstr "نوع محتوا: %1"
+
+#: creator/qml/BookBinaryEditor.qml:46
+#, kde-format
+msgctxt "title text for a sheet which lets the user edit a binary entry"
+msgid "Edit Binary"
+msgstr "ویرایش باینری"
+
+#: creator/qml/BookBinaryEditor.qml:52
+#, kde-format
+msgctxt "label for a button which updates the binary with the new details"
+msgid "OK"
+msgstr "تأیید"
+
+#: creator/qml/BookBinaryEditor.qml:64
+#, kde-format
+msgctxt "Label for the binary ID input field"
+msgid "ID"
+msgstr "شناسه"
+
+#: creator/qml/BookBinaryEditor.qml:65
+#, kde-format
+msgctxt "Placeholder text for the binary ID input field"
+msgid "Enter the name of your binary here (often a filename)"
+msgstr "نام باینری خود را اینجا وارد کنید (معمولاً نام پرونده)"
+
+#: creator/qml/BookBinaryEditor.qml:69
+#, kde-format
+msgctxt "Label for the binary content type input field"
+msgid "Content Type"
+msgstr "نوع محتوا"
+
+#: creator/qml/BookBinaryEditor.qml:71
+#, kde-format
+msgctxt "Placeholder text for the binary content type input field"
+msgid "Enter the content type of your binary here (aka mimetype)"
+msgstr "نوع محتوای باینری خود را اینجا وارد کنید (یا همان mimetype)"
+
+#: creator/qml/BookBinaryEditor.qml:75
+#, kde-format
+msgctxt ""
+"Label for the field which describes the data currently held by the current "
+"instance"
+msgid "Current Data"
+msgstr "داده‌های کنونی"
+
+#: creator/qml/BookBinaryEditor.qml:81
+#, kde-format
+msgctxt ""
+"Label used in the binary editor sheet to describe the size of the binary "
+"data contained in the current instance"
+msgid "%1 bytes"
+msgstr "%1 بایت"
+
+#: creator/qml/BookBinaryEditor.qml:83
+#, kde-format
+msgctxt ""
+"Label used in the binary editor sheet when there is no data in the current "
+"instance"
+msgid "No data set"
+msgstr "داده‌ای تنظیم نشده است"
+
+#: creator/qml/BookBinaryEditor.qml:89
+#, kde-format
+msgctxt ""
+"Label for the button in the binary editor sheet which lets the user replace "
+"the data contained in the current instance"
+msgid "Import Data..."
+msgstr "درون‌ریزی داده‌ها..."
+
+#: creator/qml/BookBinaryEditor.qml:106
+#, kde-format
+msgctxt ""
+"@title:window standard file open dialog used to add file data into the book"
+msgid "Pick A File To Add"
+msgstr "انتخاب یک پرونده برای افزودن"
+
+#: creator/qml/BookBinaryEditor.qml:109 creator/qml/Main.qml:336
+#, kde-format
+msgctxt "The file type filter for showing all files"
+msgid "All files %1"
+msgstr "همهٔ پرونده‌ها %1"
+
+#: creator/qml/BookBinaryEditor.qml:137
+#, kde-format
+msgctxt ""
+"@title:window a message box used to ask the user if they really want to add "
+"a very large file to their book"
+msgid "Very Large File"
+msgstr "پرونده بسیار بزرگ"
+
+#: creator/qml/BookBinaryEditor.qml:138
+#, kde-format
+msgctxt ""
+"The main query text for a message box used to ask the user if they really "
+"want to add a very large file to their book"
+msgid ""
+"The file you are attempting to add, %1, is more than 10MiB. Are you sure you"
+" want to add it to the book?"
+msgstr ""
+"اندازهٔ پرونده‌ای که قصد افزودن آن را دارید (%1) بیشتر از 10MiB است. آیا "
+"مطمئنید که می‌خواهید آن را به کتاب اضافه کنید؟"
+
+#: creator/qml/BookBinaryEditor.qml:141
+#, kde-format
+msgctxt "The option used to let the user agree to the proposed action"
+msgid "Yes, Add Large File"
+msgstr "بله، پروندهٔ بزرگ اضافه شود"
+
+#: creator/qml/BookBinaryEditor.qml:145
+#, kde-format
+msgctxt "The option used to let the user abort the proposed action"
+msgid "Don't Add"
+msgstr "اضافه نشود"
+
+#: creator/qml/BookMetainfoPage.qml:26
+#, kde-format
+msgctxt "title text for the book meta information editor sheet"
+msgid "Edit Meta Information"
+msgstr "ویرایش فراداده"
+
+#: creator/qml/BookMetainfoPage.qml:49
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Title"
+msgstr "عنوان"
+
+#: creator/qml/BookMetainfoPage.qml:62
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Annotation"
+msgstr "حاشیه‌نویسی"
+
+#: creator/qml/BookMetainfoPage.qml:75
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Keywords"
+msgstr "کلیدواژه‌ها"
+
+#: creator/qml/BookMetainfoPage.qml:76
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Write a comma separated list of keywords."
+msgstr "فهرستی از کلیدواژه‌ها را با ویرگول جدا کرده و بنویسید."
+
+#: creator/qml/BookMetainfoPage.qml:92
+#, kde-format
+msgctxt "Label for the document version spinbox"
+msgid "Document Version:"
+msgstr "نسخهٔ سند:"
+
+#: creator/qml/BookMetainfoPage.qml:120
+#, kde-format
+msgctxt "@title:group"
+msgid "Authors"
+msgstr "نویسندگان"
+
+#: creator/qml/BookMetainfoPage.qml:132 creator/qml/BookMetainfoPage.qml:842
+#, kde-format
+msgctxt "The text used in place of an author's name if one has not been set"
+msgid "(unnamed)"
+msgstr "(بدون نام)"
+
+#: creator/qml/BookMetainfoPage.qml:139
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit author"
+msgstr "ویرایش نویسنده"
+
+#: creator/qml/BookMetainfoPage.qml:151
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove author"
+msgstr "حذف نویسنده"
+
+#: creator/qml/BookMetainfoPage.qml:176 creator/qml/BookMetainfoPage.qml:880
+#, kde-format
+msgctxt "@label:textfield"
+msgid "New author (nickname)"
+msgstr "نویسندهٔ جدید (نام مستعار)"
+
+#: creator/qml/BookMetainfoPage.qml:189
+#, kde-format
+msgctxt "@action:button"
+msgid "Add new author"
+msgstr "افزودن نویسندهٔ جدید"
+
+#: creator/qml/BookMetainfoPage.qml:197
+#, kde-format
+msgctxt "@title:group"
+msgid "Genres"
+msgstr "ژانرها"
+
+#: creator/qml/BookMetainfoPage.qml:223
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove genre"
+msgstr "حذف ژانر"
+
+#: creator/qml/BookMetainfoPage.qml:294
+#, kde-format
+msgctxt "@title:group"
+msgid "Characters"
+msgstr "شخصیت‌ها"
+
+#: creator/qml/BookMetainfoPage.qml:339
+#, kde-format
+msgctxt "placeholder text for the add new character text entry"
+msgid "Write to add new character"
+msgstr "برای افزودن شخصیت جدید بنویسید"
+
+#: creator/qml/BookMetainfoPage.qml:363
+#, kde-format
+msgctxt "@title:group"
+msgid "Sequence"
+msgstr "دنباله"
+
+#: creator/qml/BookMetainfoPage.qml:414
+#, kde-format
+msgctxt "Label for sequence number"
+msgid "Number:"
+msgstr "شماره:"
+
+#: creator/qml/BookMetainfoPage.qml:434
+#, kde-format
+msgctxt "Label for sequence volume"
+msgid "Volume:"
+msgstr "جلد:"
+
+#: creator/qml/BookMetainfoPage.qml:462
+#, kde-format
+msgctxt "@label:textfield"
+msgid "New serie"
+msgstr "مجموعهٔ جدید"
+
+#: creator/qml/BookMetainfoPage.qml:481
+#, kde-format
+msgctxt "@title:group"
+msgid "Database References"
+msgstr "ارجاعات پایگاه داده"
+
+#: creator/qml/BookMetainfoPage.qml:507 creator/qml/BookMetainfoPage.qml:595
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Reference:"
+msgstr "مرجع:"
+
+#: creator/qml/BookMetainfoPage.qml:533 creator/qml/BookMetainfoPage.qml:609
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Database name:"
+msgstr "نام پایگاه داده:"
+
+#: creator/qml/BookMetainfoPage.qml:550
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Reference type:"
+msgstr "نوع مرجع:"
+
+#: creator/qml/BookMetainfoPage.qml:628
+#, kde-format
+msgctxt "@title:group"
+msgid "Content Ratings"
+msgstr "رده‌بندی‌های محتوا"
+
+#: creator/qml/BookMetainfoPage.qml:652
+#, kde-format
+msgctxt "placeholder text for the add content rating text entry"
+msgid "Write to add rating label."
+msgstr "برای افزودن برچسب رده‌بندی بنویسید."
+
+#: creator/qml/BookMetainfoPage.qml:665
+#, kde-format
+msgctxt "placeholder text for the add content rating system text entry"
+msgid "Write to add rating system."
+msgstr "برای افزودن سامانهٔ رده‌بندی بنویسید."
+
+#: creator/qml/BookMetainfoPage.qml:717
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Review title"
+msgstr "عنوان بازبینی"
+
+#: creator/qml/BookMetainfoPage.qml:733
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Description"
+msgstr "توضیحات"
+
+#: creator/qml/BookMetainfoPage.qml:754
+#, kde-format
+msgctxt "@title:group"
+msgid "Publisher Info"
+msgstr "اطلاعات ناشر"
+
+#: creator/qml/BookMetainfoPage.qml:760
+#, kde-format
+msgctxt "Label for publisher"
+msgid "Publisher:"
+msgstr "ناشر:"
+
+#: creator/qml/BookMetainfoPage.qml:761
+#, kde-format
+msgctxt "placeholder text for the publisher entry"
+msgid "Write to add publisher"
+msgstr "برای افزودن ناشر بنویسید"
+
+#: creator/qml/BookMetainfoPage.qml:774
+#, kde-format
+msgctxt "Label for publishing date"
+msgid "Publishing Date:"
+msgstr "تاریخ انتشار:"
+
+#: creator/qml/BookMetainfoPage.qml:788
+#, kde-format
+msgctxt "Label for city"
+msgid "City:"
+msgstr "شهر:"
+
+#: creator/qml/BookMetainfoPage.qml:803
+#, kde-format
+msgctxt "Label for ISBN"
+msgid "ISBN:"
+msgstr "شابک:"
+
+#: creator/qml/BookMetainfoPage.qml:818
+#, kde-format
+msgctxt "Label for license"
+msgid "License:"
+msgstr "مجوز:"
+
+#: creator/qml/BookMetainfoPage.qml:830
+#, kde-format
+msgctxt "@title:group"
+msgid "Document Authors"
+msgstr "نویسندگان سند"
+
+#: creator/qml/BookMetainfoPage.qml:900
+#, kde-format
+msgctxt "@title:group"
+msgid "Document Sources"
+msgstr "منابع سند"
+
+#: creator/qml/BookMetainfoPage.qml:941
+#, kde-format
+msgctxt "@label:textfield"
+msgid "New document source"
+msgstr "منبع سند جدید"
+
+#: creator/qml/BookMetainfoPage.qml:960
+#, kde-format
+msgctxt "@title:group"
+msgid "Document History"
+msgstr "تاریخچهٔ سند"
+
+#: creator/qml/BookMetainfoPage.qml:1001
+#, kde-format
+msgctxt "@label:textfield"
+msgid "New document info"
+msgstr "اطلاعات سند جدید"
+
+#: creator/qml/BookMetainfoPage.qml:1020
+#, kde-format
+msgctxt "@title:group"
+msgid "General Page Background Color"
+msgstr "رنگ پس‌زمینهٔ عمومی صفحه"
+
+#: creator/qml/BookPage.qml:32
+#, kde-format
+msgctxt "title of the page editing sub-page for the book editor"
+msgid "Page %1"
+msgstr "صفحهٔ %1"
+
+#: creator/qml/BookPage.qml:70
+#, kde-format
+msgid "Page %1"
+msgstr "صفحهٔ %1"
+
+#: creator/qml/BookPage.qml:99
+#, kde-format
+msgctxt "Saves the remaining unsaved edited fields and closes the page editor"
+msgid "Save and Close Page"
+msgstr "ذخیره و بستن صفحه"
+
+#: creator/qml/BookPage.qml:111
+#, kde-format
+msgctxt "Edit the page data in detail"
+msgid "Edit Page Data"
+msgstr "ویرایش داده‌های صفحه"
+
+#: creator/qml/BookReferenceEditor.qml:30
+#, kde-format
+msgctxt ""
+"title text for the reference editor page, when the reference has no language"
+" set"
+msgid "Editing %1 (default language)"
+msgstr "ویرایش %1 (زبان پیش‌فرض)"
+
+#: creator/qml/BookReferenceEditor.qml:31
+#, kde-format
+msgctxt "title text for the reference editor page"
+msgid "Editing %1 (language: %2)"
+msgstr "ویرایش %1 (زبان: %2)"
+
+#: creator/qml/BookReferenceEditor.qml:42
+#, kde-format
+msgctxt "Save the reference and close the editor"
+msgid "Save and Close Editor"
+msgstr "ذخیره و بستن ویرایشگر"
+
+#: creator/qml/BookReferenceEditor.qml:51
+#, kde-format
+msgctxt "Save the reference and keep editing"
+msgid "Save"
+msgstr "ذخیره"
+
+#: creator/qml/BookReferenceEditor.qml:59
+#, kde-format
+msgctxt "Abort the changes made in the editor, and close the editor"
+msgid "Abort Changes"
+msgstr "لغو تغییرات"
+
+#: creator/qml/BookReferenceEditor.qml:66
+#, kde-format
+msgctxt ""
+"Opens a sheet which lets the user change the name and language of the "
+"reference"
+msgid "Edit Details..."
+msgstr "ویرایش جزئیات..."
+
+#: creator/qml/BookReferenceEditor.qml:72
+#, kde-format
+msgctxt "Copies the selected text"
+msgid "Copy"
+msgstr "رونوشت"
+
+#: creator/qml/BookReferenceEditor.qml:78
+#, kde-format
+msgctxt "Cuts the selected text"
+msgid "Cut"
+msgstr "بریدن"
+
+#: creator/qml/BookReferenceEditor.qml:84
+#, kde-format
+msgctxt "Pastes the clipboard contents into the current location"
+msgid "Paste"
+msgstr "چسباندن"
+
+#: creator/qml/BookReferenceEditor.qml:91 creator/qml/EditPageArea.qml:245
+#, kde-format
+msgctxt ""
+"Edit the link the cursor is currently positioned on (or convert the "
+"selection to a link, or add a new one if there is no selection)"
+msgid "Edit Link"
+msgstr "ویرایش پیوند"
+
+#: creator/qml/BookReferenceEditor.qml:100
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Edit Reference Details"
+msgstr "ویرایش جزئیات مرجع"
+
+#: creator/qml/BookReferenceEditor.qml:107
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Unique identifier"
+msgstr "شناسهٔ یکتا"
+
+#: creator/qml/BookReferenceEditor.qml:112
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:109
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Language"
+msgstr "زبان"
+
+#: creator/qml/BookReferences.qml:19
+#, kde-format
+msgctxt "title text for the references page"
+msgid "References"
+msgstr "مراجع"
+
+#: creator/qml/BookReferences.qml:24
+#, kde-format
+msgctxt ""
+"Action which when triggered adds a new reference to the book and opens the "
+"reference editor"
+msgid "New Reference"
+msgstr "مرجع جدید"
+
+#: creator/qml/BookReferences.qml:28
+#, kde-format
+msgctxt "The default ID for new references"
+msgid "Unnamed Reference"
+msgstr "مرجع بی‌نام"
+
+#: creator/qml/BookReferences.qml:29
+#, kde-format
+msgctxt "The default text for new references"
+msgid ""
+"<p>Enter the body of your reference document here.</p>\n"
+"<p>This is what links look like: <a href=\"destination\">Some Link</a></p>"
+msgstr ""
+"<p>متن سند ارجاع خود را اینجا وارد کنید.</p>\n"
+"<p>پیوندها به این شکل نمایش داده می‌شوند: <a href=\"destination\">یک پیوند</a></p>"
+
+#: creator/qml/BookReferences.qml:92
+#, kde-format
+msgid "There is no reference information in your book yet"
+msgstr "هنوز هیچ اطلاعات ارجاعی در کتاب شما وجود ندارد"
+
+#: creator/qml/BookReferences.qml:93
+#, kde-format
+msgid ""
+"References are collections of paragraphs of text, which you can fill with "
+"simple formatting (strong, emphasis, and other simple layouting like that), "
+"as well as links to both internal things (other references or one of the "
+"pieces of binary data), or to an external resource, such as a website."
+msgstr ""
+"ارجاع‌ها مجموعه‌ای از بندهای متنی هستند که می‌توانید آن‌ها را با "
+"قالب‌بندی‌های ساده (مانند پررنگ، تأکید و سایر چیدمان‌های ساده از این دست) پر"
+" کنید، همچنین می‌توانید به موارد داخلی (سایر ارجاع‌ها یا یکی از داده‌های "
+"باینری) یا یک منبع خارجی مانند وب‌سایت پیوند دهید."
+
+#: creator/qml/BookStylesheet.qml:44
+#, kde-format
+msgctxt "title of the page which lets the user manage the book's stylesheet"
+msgid "Stylesheet"
+msgstr "شیوه‌نامه"
+
+#: creator/qml/BookStylesheet.qml:55
+#, kde-format
+msgctxt "Creates a new, empty stylesheet entry and lets the user edit it"
+msgid "Add Style..."
+msgstr "افزودن سبک..."
+
+#: creator/qml/BookStylesheet.qml:84
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Edit Style"
+msgstr "ویرایش سبک"
+
+#: creator/qml/BookStylesheet.qml:99
+#, kde-format
+msgctxt "Label for the style element input field"
+msgid "Element"
+msgstr "عنصر"
+
+#: creator/qml/BookStylesheet.qml:105
+#, kde-format
+msgctxt "@option:check"
+msgid "Apply to style elements which request an inverted scheme"
+msgstr "اعمال روی عناصر سبکی که طرح معکوس درخواست می‌کنند"
+
+#: creator/qml/BookStylesheet.qml:110
+#, kde-format
+msgctxt "@option:check"
+msgid "Sub-element selector type"
+msgstr "نوع انتخاب‌گر زیرعنصر"
+
+#: creator/qml/BookStylesheet.qml:111
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: creator/qml/BookStylesheet.qml:116
+#, kde-format
+msgctxt "@option:check"
+msgid "Color"
+msgstr "رنگ"
+
+#: creator/qml/BookStylesheet.qml:139
+#, kde-format
+msgctxt ""
+"The title of a style entry which has a type, and which represents the "
+"inverted version of that style"
+msgid "%1 (inverted)"
+msgstr "%1 (معکوس)"
+
+#: creator/qml/BookStylesheet.qml:141
+#, kde-format
+msgctxt ""
+"The title of a style entry which does not have type, and which represents "
+"the inverted version of that style"
+msgid "%1 (sub type: %2, inverted)"
+msgstr "%1 (نوع فرعی: %2، معکوس)"
+
+#: creator/qml/BookStylesheet.qml:145
+#, kde-format
+msgctxt "The title of a style entry which has a type"
+msgid "%1"
+msgstr "%1"
+
+#: creator/qml/BookStylesheet.qml:147
+#, kde-format
+msgctxt "The title of a style entry which does not have type"
+msgid "%1 (sub type: %2)"
+msgstr "%1 (نوع فرعی: %2)"
+
+#: creator/qml/BookStylesheet.qml:154
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No Styling Information"
+msgstr "بدون اطلاعات سبک‌بندی"
+
+#: creator/qml/BookStylesheet.qml:155
+#, kde-format
+msgctxt "@info:placeholder"
+msgid ""
+"You can add such data by creating a new entry, and then adding data to that "
+"entry from some existing file on your system. That data will be imported "
+"into your book, and leaves the external file otherwise untouched."
+msgstr ""
+"می‌توانید با ایجاد یک ورودی جدید و سپس افزودن داده به آن ورودی از یک پروندهٔ"
+" موجود در رایانه‌تان، چنین داده‌هایی را بیفزایید. این داده‌ها وارد کتاب شما "
+"می‌شوند و پروندهٔ خارجی بدون تغییر باقی می‌ماند."
+
+#: creator/qml/CreateNewBook.qml:44
+#, kde-format
+msgctxt "title of the new book creation page"
+msgid "Create New Book"
+msgstr "ایجاد کتاب جدید"
+
+#: creator/qml/CreateNewBook.qml:47
+#, kde-format
+msgctxt "Accept button which will create a new book"
+msgid "Create Book"
+msgstr "ایجاد کتاب"
+
+#: creator/qml/CreateNewBook.qml:65
+#, kde-format
+msgctxt "label text for the edit field for the book title"
+msgid "Title"
+msgstr "عنوان"
+
+#: creator/qml/CreateNewBook.qml:66
+#, kde-format
+msgctxt "Default name for new books"
+msgid "Untitled"
+msgstr "بدون عنوان"
+
+#: creator/qml/CreateNewBook.qml:74
+#, kde-format
+msgctxt ""
+"label text for the edit field for the file system location for the book"
+msgid "Folder"
+msgstr "پوشه"
+
+#: creator/qml/CreateNewBook.qml:99
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Folder"
+msgstr "انتخاب پوشه"
+
+#: creator/qml/CreateNewBook.qml:111
+#, kde-format
+msgctxt "File filter cbz file"
+msgid "*.cbz"
+msgstr "*.cbz"
+
+#: creator/qml/CreateNewBook.qml:113
+#, kde-format
+msgctxt ""
+"@title:window folder dialog used to select the location of a new book"
+msgid "Please Choose the Location for the Book"
+msgstr "لطفاً مکان کتاب را انتخاب کنید"
+
+#: creator/qml/CreateNewBook.qml:130
+#, kde-format
+msgctxt "label text for the edit field for the cover image for the book"
+msgid "Cover Image"
+msgstr "تصویر جلد"
+
+#: creator/qml/CreateNewBook.qml:157
+#, kde-format
+msgctxt "placeholder message for missing cover image"
+msgid "Missing cover image"
+msgstr "تصویر جلد موجود نیست"
+
+#: creator/qml/CreateNewBook.qml:160
+#, kde-format
+msgctxt "@action:button"
+msgid "Select image"
+msgstr "انتخاب تصویر"
+
+#: creator/qml/CreateNewBook.qml:184
+#, kde-format
+msgctxt ""
+"@title:window file dialog used to select the cover image for a new book"
+msgid "Please Choose Your Cover Image"
+msgstr "لطفاً تصویر جلد خود را انتخاب کنید"
+
+#: creator/qml/CreateNewBook.qml:187
+#, kde-format
+msgctxt "File filter option for displaying only jpeg files"
+msgid "JPEG images %1"
+msgstr "تصاویر JPEG %1"
+
+#: creator/qml/CreateNewBook.qml:188
+#, kde-format
+msgctxt "File filter option for displaying all files"
+msgid "All files %1"
+msgstr "همهٔ پرونده‌ها %1"
+
+#: creator/qml/EditPageArea.qml:115
+#, kde-format
+msgctxt "title text for the edit page area sheet"
+msgid "Edit Page Area"
+msgstr "ویرایش ناحیهٔ صفحه"
+
+#: creator/qml/EditPageArea.qml:136
+#, kde-format
+msgid "Text Rotation Guide"
+msgstr "راهنمای چرخش متن"
+
+#: creator/qml/EditPageArea.qml:148
+#, kde-format
+msgctxt "Label for the ID input field"
+msgid "ID:"
+msgstr "شناسه:"
+
+#: creator/qml/EditPageArea.qml:149
+#, kde-format
+msgctxt "Placeholder text for the page area ID text-field"
+msgid "Write to add an ID"
+msgstr "برای افزودن شناسه بنویسید"
+
+#: creator/qml/EditPageArea.qml:153 creator/qml/EditPageArea.qml:184
+#, kde-format
+msgctxt "Label for background color button"
+msgid "Background color:"
+msgstr "رنگ پس‌زمینه:"
+
+#: creator/qml/EditPageArea.qml:175 creator/qml/EditPageArea.qml:208
+#, kde-format
+msgctxt "@title color choosing dialog"
+msgid "Choose the background color for this frame"
+msgstr "انتخاب رنگ پس‌زمینه برای این قاب"
+
+#: creator/qml/EditPageArea.qml:218
+#, kde-format
+msgctxt "Option for making the background of a text area transparent"
+msgid "Transparent"
+msgstr "شفاف"
+
+#: creator/qml/EditPageArea.qml:223
+#, kde-format
+msgctxt ""
+"Option for making the background of a text area cause what is behind it to "
+"be inverted"
+msgid "Inverted"
+msgstr "معکوس"
+
+#: creator/qml/EditPageArea.qml:227
+#, kde-format
+msgctxt "Label for text rotation slider"
+msgid "Text rotation:"
+msgstr "چرخش متن:"
+
+#: creator/qml/EditPageArea.qml:235
+#, kde-format
+msgctxt "Label for text type combobox"
+msgid "Type:"
+msgstr "نوع:"
+
+#: creator/qml/EditPageArea.qml:254
+#, kde-format
+msgctxt "Label for the text area body field"
+msgid "Textarea Body:"
+msgstr "بدنهٔ ناحیهٔ متنی:"
+
+#: creator/qml/EditPageArea.qml:299
+#, kde-format
+msgctxt "Label for a text input box in which to input a hyperlink destination"
+msgid "Jump Destination:"
+msgstr "مقصد پرش:"
+
+#: creator/qml/EditPageArea.qml:301
+#, kde-format
+msgctxt ""
+"Placeholder text for a text input box in which to input a hyperlink "
+"destination"
+msgid "Enter the jump destination here"
+msgstr "مقصد پرش را اینجا وارد کنید"
+
+#: creator/qml/EditPageArea.qml:305
+#, kde-format
+msgctxt ""
+"Label for the dropdown which will let you pick a page a jump will send the "
+"reader to when activated"
+msgid "Page Index:"
+msgstr "نمایهٔ صفحه:"
+
+#: creator/qml/EditPageArea.qml:315
+#, kde-format
+msgctxt "Button which saves the page area, and closes the dialog"
+msgid "Save"
+msgstr "ذخیره"
+
+#: creator/qml/LinkEditorSheet.qml:70
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Edit Link"
+msgstr "ویرایش پیوند"
+
+#: creator/qml/LinkEditorSheet.qml:90
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Text"
+msgstr "متن"
+
+#: creator/qml/LinkEditorSheet.qml:95
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Destination"
+msgstr "مقصد"
+
+#: creator/qml/LinkEditorSheet.qml:157
+#, kde-format
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: creator/qml/Main.qml:170
+#, kde-format
+msgctxt "Create a book"
+msgid "Create a New Book..."
+msgstr "ایجاد کتاب جدید..."
+
+#: creator/qml/Main.qml:192
+#, kde-format
+msgctxt "The book's title when there are unsaved changes"
+msgid "%1 (unsaved)"
+msgstr "%1 (ذخیره‌نشده)"
+
+#: creator/qml/Main.qml:200
+#, kde-format
+msgctxt "Switch to the page which displays the pages in the current book"
+msgid "Pages"
+msgstr "صفحه‌ها"
+
+#: creator/qml/Main.qml:208
+#, kde-format
+msgctxt ""
+"Switch to the page where the user can edit the meta information for the "
+"entire book"
+msgid "Metainfo"
+msgstr "اطلاعات متادیتا"
+
+#: creator/qml/Main.qml:216
+#, kde-format
+msgctxt ""
+"Switch to the page where the user can edit the references (that is, snippets"
+" of information) found in the book"
+msgid "References"
+msgstr "مراجع"
+
+#: creator/qml/Main.qml:224
+#, kde-format
+msgctxt ""
+"Switch to the page where the user can work with the bits of binary data "
+"found in the book"
+msgid "Embedded Data"
+msgstr "داده‌های جاسازی‌شده"
+
+#: creator/qml/Main.qml:232
+#, kde-format
+msgctxt ""
+"Switch to the page where the user can work with the book's stylesheet"
+msgid "Stylesheet"
+msgstr "شیوه‌نامه"
+
+#: creator/qml/Main.qml:332
+#, kde-format
+msgctxt ""
+"@title:window standard file open dialog used to open a book not in the "
+"collection"
+msgid "Please Choose a Book to Open"
+msgstr "لطفاً کتابی را برای باز کردن انتخاب کنید"
+
+#: creator/qml/Main.qml:335
+#, kde-format
+msgctxt "The file type filter for comic book archives"
+msgid "Comic Book Archive zip format %1"
+msgstr "قالب زیپ آرشیو کتاب مصور %1"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:54
+#, kde-format
+msgctxt "title text for the edit author sheet"
+msgid "Edit Author"
+msgstr "ویرایش نویسنده"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:69
+#, kde-format
+msgctxt "help text for the edit author sheet"
+msgid "Please complete the information for this author."
+msgstr "لطفاً اطلاعات این پدیدآورنده را تکمیل کنید."
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:74
+#, kde-format
+msgctxt "@title:group"
+msgid "Name"
+msgstr "نام"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:80
+#, kde-format
+msgctxt "@label:textfield"
+msgid "First name"
+msgstr "نام"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:85
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Middle name"
+msgstr "نام میانی"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:90
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:95
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Nickname"
+msgstr "نام مستعار"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:104
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Activity"
+msgstr "فعالیت"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:114
+#, kde-format
+msgctxt "@title:group"
+msgid "Homepage addresses"
+msgstr "نشانی‌های صفحهٔ اصلی"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:152
+#, kde-format
+msgctxt "@label:textfield"
+msgid "New Homepage"
+msgstr "صفحهٔ اصلی جدید"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:171
+#, kde-format
+msgctxt "@title:group"
+msgid "Email addresses"
+msgstr "نشانی‌های رایانامه"
+
+#: creator/qml/metainfoeditors/AuthorEntryEditor.qml:209
+#, kde-format
+msgctxt "placeholder text for the email field"
+msgid "New Email address"
+msgstr "نشانی رایانامهٔ جدید"
+
+#: creator/qml/PageMetaInfo.qml:42
+#, kde-format
+msgctxt "title text for the page meta information editor sheet"
+msgid "Edit Page Information"
+msgstr "ویرایش اطلاعات صفحه"
+
+#: creator/qml/PageMetaInfo.qml:46
+#, kde-format
+msgctxt ""
+"Saves the remaining unsaved edited fields and closes the metainfo editor"
+msgid "Close Editor"
+msgstr "بستن ویرایشگر"
+
+#: creator/qml/PageMetaInfo.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "General"
+msgstr "عمومی"
+
+#: creator/qml/PageMetaInfo.qml:63
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Title:"
+msgstr "عنوان:"
+
+#: creator/qml/PageMetaInfo.qml:72
+#, kde-format
+msgctxt "@label:textfield"
+msgid "ID:"
+msgstr "شناسه:"
+
+#: creator/qml/PageMetaInfo.qml:82
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Transition:"
+msgstr "گذار:"
+
+#: creator/qml/PageMetaInfo.qml:95
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Background Color:"
+msgstr "رنگ پس‌زمینه:"
+
+#: creator/qml/PageMetaInfo.qml:102
+#, kde-format
+msgctxt "@title:group"
+msgid "Frames"
+msgstr "فریم‌ها"
+
+#: creator/qml/PageMetaInfo.qml:108
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No frames present"
+msgstr "هیچ فریمی وجود ندارد"
+
+#: creator/qml/PageMetaInfo.qml:119
+#, kde-format
+msgctxt "Comic book panel frame name."
+msgid "Frame %1"
+msgstr "قاب %1"
+
+#: creator/qml/PageMetaInfo.qml:124
+#, kde-format
+msgctxt ""
+"A switch which lets the user change the background colour of the page when "
+"this frame is focused"
+msgid "Change page background color"
+msgstr "تغییر رنگ پس‌زمینهٔ صفحه"
+
+#: creator/qml/PageMetaInfo.qml:129
+#, kde-format
+msgctxt "Label from frame background color."
+msgid "Background Color:"
+msgstr "رنگ پس‌زمینه:"
+
+#: creator/qml/PageMetaInfo.qml:149
+#, kde-format
+msgctxt "@title color choosing dialog"
+msgid "Choose background color for this frame"
+msgstr "انتخاب رنگ پس‌زمینه برای این قاب"
+
+#: creator/qml/PageMetaInfo.qml:159
+#, kde-format
+msgctxt "swap the position of this frame with the previous one"
+msgid "Move Up"
+msgstr "انتقال به بالا"
+
+#: creator/qml/PageMetaInfo.qml:168
+#, kde-format
+msgctxt "swap the position of this frame with the next one"
+msgid "Move Down"
+msgstr "انتقال به پایین"
+
+#: creator/qml/PageMetaInfo.qml:177
+#, kde-format
+msgctxt "remove the frame from the page"
+msgid "Delete Frame"
+msgstr "حذف قاب"
+
+#: creator/qml/PageMetaInfo.qml:187
+#, kde-format
+msgctxt "@title:group"
+msgid "Text Areas"
+msgstr "ناحیه‌های متنی"
+
+#: creator/qml/PageMetaInfo.qml:200
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No text areas present"
+msgstr "هیچ ناحیهٔ متنی وجود ندارد"
+
+#: creator/qml/PageMetaInfo.qml:213
+#, kde-format
+msgctxt "swap the position of this text area with the previous one"
+msgid "Move Up"
+msgstr "انتقال به بالا"
+
+#: creator/qml/PageMetaInfo.qml:220
+#, kde-format
+msgctxt "swap the position of this text area with the next one"
+msgid "Move Down"
+msgstr "انتقال به پایین"
+
+#: creator/qml/PageMetaInfo.qml:227
+#, kde-format
+msgctxt "remove the text area from the page"
+msgid "Delete Text Area"
+msgstr "حذف ناحیه متنی"
+
+#: creator/qml/PageMetaInfo.qml:237
+#, kde-format
+msgctxt "Comic book panel textarea name."
+msgid "Text Area %1"
+msgstr "ناحیه متنی %1"
+
+#: creator/qml/PageMetaInfo.qml:255
+#, kde-format
+msgctxt "@title:group"
+msgid "Jumps"
+msgstr "پرش‌ها"
+
+#: creator/qml/PageMetaInfo.qml:261
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No jumps present"
+msgstr "هیچ پرشی وجود ندارد"
+
+#: creator/qml/PageMetaInfo.qml:273
+#, kde-format
+msgctxt "swap the position of this jump with the previous one"
+msgid "Move Up"
+msgstr "انتقال به بالا"
+
+#: creator/qml/PageMetaInfo.qml:280
+#, kde-format
+msgctxt "swap the position of this jump with the next one"
+msgid "Move Down"
+msgstr "انتقال به پایین"
+
+#: creator/qml/PageMetaInfo.qml:287
+#, kde-format
+msgctxt "remove the jump from the page"
+msgid "Delete Jump"
+msgstr "حذف پرش"
+
+#: creator/qml/PageMetaInfo.qml:297
+#, kde-format
+msgctxt "Comic book panel jump name."
+msgid "Jump %1"
+msgstr "پرش %1"
+
+#: creator/qml/PageMetaInfo.qml:306
+#, kde-format
+msgctxt "Label from jump page index."
+msgid "Page Index:"
+msgstr "نمایه صفحه:"
+
+#: creator/qml/SettingsPage.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: creator/qml/WelcomePage.qml:54
+#, kde-format
+msgctxt "The application's name"
+msgid "Peruse Creator"
+msgstr "پیروز کریتور"
+
+#: creator/qml/WelcomePage.qml:61
+#, kde-format
+msgctxt "application subtitle"
+msgid "Comic Book Creation Tool"
+msgstr "ابزار ساخت کتاب کمیک"
+
+#: creator/qml/WelcomePage.qml:71
+#, kde-format
+msgctxt "Longer introduction text used on the welcome page"
+msgid ""
+"Welcome to Peruse Creator, a tool designed to assist you in creating comic "
+"book archives which can be read with any cbz capable comic book reader app. "
+"You can either create entirely new comic book archives from scratch, create "
+"one from a set of pictures, or editing existing archives. Once you have "
+"created them, you can even publish them directly to the online comic book "
+"archive at the KDE Store from within the application, or just share the "
+"files with your friends."
+msgstr ""
+"به پیروز کریتور (Peruse Creator) خوش آمدید؛ ابزاری که برای کمک به شما در "
+"ساخت بایگانی‌های کتاب کمیک طراحی شده است تا بتوان آن‌ها را با هر برنامه‌ای "
+"که از قالب cbz پشتیبانی می‌کند خواند. شما می‌توانید بایگانی‌های کمیک کاملاً "
+"جدیدی را از ابتدا بسازید، از مجموعه‌ای از تصاویر یکی ایجاد کنید، یا "
+"بایگانی‌های موجود را ویرایش نمایید. پس از ساخت، حتی می‌توانید آن‌ها را "
+"مستقیماً از درون برنامه در بایگانی برخط کتاب‌های کمیک در فروشگاه KDE منتشر "
+"کنید، یا به سادگی پرونده‌ها را با دوستان خود به اشتراک بگذارید."
+
+#: creator/qml/WelcomePage.qml:81
+#, kde-format
+msgctxt "@action:button open existing comic book archive"
+msgid "Open Existing..."
+msgstr "گشودن موجود..."
+
+#: creator/qml/WelcomePage.qml:89
+#, kde-format
+msgctxt "@action:button create a new, empty comic book archive"
+msgid "Create Blank"
+msgstr "ایجاد خالی"
+
+#: creator/qml/WelcomePage.qml:96
+#, kde-format
+msgctxt "@title:group"
+msgid "Recent books"
+msgstr "کتاب‌های اخیر"
+
+#: creator/qml/WelcomePage.qml:116
+#, kde-format
+msgctxt ""
+"@action:button continue working on the most recently opened comic book "
+"archive"
+msgid "Continue working on %1"
+msgstr "ادامهٔ کار روی %1"
+
+#: creator/qml/WelcomePage.qml:129
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "There are no recent books"
+msgstr "هیچ کتاب اخیری وجود ندارد"
+
+#: qtquick/ArchiveBookModel.cpp:527
+#, kde-format
+msgid "Creating archive in %1"
+msgstr "در حال ایجاد بایگانی در %1"
+
+#: qtquick/ArchiveBookModel.cpp:539
+#, kde-format
+msgid "Writing in ACBF data"
+msgstr "نوشتن داده‌های ACBF"
+
+#: qtquick/ArchiveBookModel.cpp:549
+#, kde-format
+msgid "Copying across all files not marked for deletion"
+msgstr "کپی کردن همه فایل‌هایی که برای حذف علامت‌گذاری نشده‌اند"
+
+#: qtquick/ArchiveBookModel.cpp:557
+#, kde-format
+msgid "Copying over %1"
+msgstr "در حال بازنویسی %1"
+
+#: qtquick/ArchiveBookModel.cpp:584
+#, kde-format
+msgid "Copying all content from %1 to %2"
+msgstr "کپی کردن تمام محتوا از %1 به %2"
+
+#: qtquick/ArchiveBookModel.cpp:592
+#, kde-format
+msgid ""
+"Successfully replaced old archive with the new archive - now loading the new"
+" archive..."
+msgstr ""
+"بایگانی قدیمی با موفقیت با بایگانی جدید جایگزین شد - در حال بارگذاری بایگانی"
+" جدید..."

@@ -1,0 +1,512 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the accountwizard package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: accountwizard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-10 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 23:41+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: accountconfiguration.cpp:188 ispdb/configurationmodel.cpp:144
+#, kde-format
+msgctxt "Default name for new email accounts/identities."
+msgid "Unnamed"
+msgstr "بی‌نام"
+
+#: accountconfiguration.cpp:199
+#, kde-format
+msgctxt "log entry content"
+msgid "Create email identity: %1"
+msgstr "ایجاد هویت رایانامه: %1"
+
+#: accountconfiguration.cpp:202
+#, kde-format
+msgctxt "log entry content"
+msgid "Full name:"
+msgstr "نام کامل:"
+
+#: accountconfiguration.cpp:203
+#, kde-format
+msgctxt "log entry content"
+msgid "Primary email address:"
+msgstr "نشانی رایانامه اصلی:"
+
+#: accountconfiguration.cpp:229
+#, kde-format
+msgctxt "log entry content"
+msgid "Mail transport setup completed: %1"
+msgstr "راه‌اندازی انتقال رایانامه انجام شد: %1"
+
+#: accountconfiguration.cpp:232
+#, kde-format
+msgctxt "log entry content"
+msgid "Host:"
+msgstr "میزبان:"
+
+#: accountconfiguration.cpp:233
+#, kde-format
+msgctxt "log entry content"
+msgid "Port:"
+msgstr "درگاه:"
+
+#: accountconfiguration.cpp:234
+#, kde-format
+msgctxt "log entry content"
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#: accountconfiguration.cpp:236
+#, kde-format
+msgctxt "log entry content"
+msgid "Encryption:"
+msgstr "رمزگذاری:"
+
+#: accountconfiguration.cpp:238
+#, kde-format
+msgctxt "log entry content"
+msgid "Authentication:"
+msgstr "احراز هویت:"
+
+#: ispdb/configurationmodel.cpp:46 ispdb/serverconfiguration.cpp:23
+#: qml/ManualConfigurationPage.qml:90
+#, kde-format
+msgid "IMAP"
+msgstr "IMAP"
+
+#: ispdb/configurationmodel.cpp:46 ispdb/serverconfiguration.cpp:26
+#: qml/ManualConfigurationPage.qml:91
+#, kde-format
+msgid "POP3"
+msgstr "POP3"
+
+#: ispdb/configurationmodel.cpp:48
+#, kde-format
+msgid "Keep your folders and emails synced on your server"
+msgstr "همگام نگه‌داشتن پوشه‌ها و ایمیل‌هایتان روی سرور"
+
+#: ispdb/configurationmodel.cpp:49
+#, kde-format
+msgid ""
+"Remove your emails from your server and keep them only on your computer"
+msgstr "حذف ایمیل‌هایتان از روی سرور و نگه‌داشتن آن‌ها فقط روی رایانه‌تان"
+
+#: ispdb/serverconfiguration.cpp:29
+#, kde-format
+msgid "SMTP"
+msgstr "SMTP"
+
+#: ispdb/serverconfiguration.cpp:35
+#, kde-format
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#: ispdb/serverconfiguration.cpp:38 qml/ManualConfigurationPage.qml:124
+#: qml/ManualConfigurationPage.qml:241
+#, kde-format
+msgid "StartTLS"
+msgstr "StartTLS"
+
+#: ispdb/serverconfiguration.cpp:41
+#, kde-format
+msgctxt "No security mechanism"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: ispdbservice.cpp:129
+#, kde-format
+msgid "Configuration found auto config file."
+msgstr "پیکربندی در پروندهٔ پیکربندی خودکار پیدا شد."
+
+#: ispdbservice.cpp:132
+#, kde-format
+msgid "Configuration found in well-known file."
+msgstr "پیکربندی در پروندهٔ شناخته‌شده (well-known) پیدا شد."
+
+#: ispdbservice.cpp:135
+#, kde-format
+msgid "Configuration found in Mozilla FAI Database."
+msgstr "پیکربندی در پایگاه‌دادهٔ FAI موزیلا پیدا شد."
+
+#: main.cpp:38
+#, kde-format
+msgid "Account Assistant"
+msgstr "دستیار حساب"
+
+#: main.cpp:40
+#, kde-format
+msgid "Helps setting up PIM accounts"
+msgstr "کمک به راه‌اندازی حساب‌های PIM"
+
+#: main.cpp:42
+#, kde-format
+msgid "© 2009-2025 the Akonadi developers"
+msgstr "© 2009-2025 the Akonadi developers"
+
+#: main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Volker Krause"
+msgstr "Volker Krause"
+
+#: main.cpp:45
+#, kde-format
+msgid "Author"
+msgstr "نویسنده"
+
+#: main.cpp:46
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:46 main.cpp:47
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: qml/ConfigurationDelegate.qml:94
+#, kde-format
+msgid "Incoming"
+msgstr "ورودی"
+
+#: qml/ConfigurationDelegate.qml:115
+#, kde-format
+msgid "Outgoing"
+msgstr "خروجی"
+
+#: qml/ConfigurationSelectionPage.qml:17
+#, kde-format
+msgctxt "@title:group"
+msgid "Configuration Selection"
+msgstr "انتخاب پیکربندی"
+
+#: qml/ConfigurationSelectionPage.qml:40
+#, kde-format
+msgid "Available configurations"
+msgstr "پیکربندی‌های موجود"
+
+#: qml/ConfigurationSelectionPage.qml:59
+#, kde-format
+msgid "No configuration found from the internet for this server."
+msgstr "هیچ پیکربندی‌ای از اینترنت برای این کارساز یافت نشد."
+
+#: qml/ConfigurationSelectionPage.qml:85 qml/ManualConfigurationPage.qml:16
+#, kde-format
+msgid "Manual Configuration"
+msgstr "پیکربندی دستی"
+
+#: qml/ConfigurationSelectionPage.qml:95
+#, kde-format
+msgctxt "@title:group"
+msgid "Calendar and Contacts"
+msgstr "تقویم و مخاطبان"
+
+#: qml/ConfigurationSelectionPage.qml:106
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable calendar and contact integration"
+msgstr "فعال‌سازی یکپارچه‌سازی تقویم و مخاطب"
+
+#: qml/DetailsPage.qml:16
+#, kde-format
+msgctxt "@title:group"
+msgid "Details"
+msgstr "جزئیات"
+
+#: qml/DetailsPage.qml:19
+#, kde-format
+msgctxt "@action:button"
+msgid "Finish"
+msgstr "پایان"
+
+#: qml/DetailsPage.qml:25
+#, kde-format
+msgid "Details"
+msgstr "جزئیات"
+
+#: qml/DetailsPage.qml:52
+#, kde-format
+msgctxt "Placeholder"
+msgid "No details available."
+msgstr "هیچ جزئیاتی در دسترس نیست."
+
+#: qml/ManualConfigurationPage.qml:19
+#, kde-format
+msgid "Recheck"
+msgstr "بررسی مجدد"
+
+#: qml/ManualConfigurationPage.qml:26
+#, kde-format
+msgid "Create Account"
+msgstr "ایجاد حساب"
+
+#: qml/ManualConfigurationPage.qml:68
+#, kde-format
+msgid "Incoming Server Parameters"
+msgstr "پارامترهای سرور ورودی"
+
+#: qml/ManualConfigurationPage.qml:74
+#, kde-format
+msgid "Incoming server:"
+msgstr "سرور ورودی:"
+
+#: qml/ManualConfigurationPage.qml:86
+#, kde-format
+msgid "Protocol:"
+msgstr "پروتکل:"
+
+#: qml/ManualConfigurationPage.qml:108 qml/ManualConfigurationPage.qml:221
+#, kde-format
+msgid "Port:"
+msgstr "درگاه:"
+
+#: qml/ManualConfigurationPage.qml:119 qml/ManualConfigurationPage.qml:235
+#, kde-format
+msgid "Security:"
+msgstr "امنیت:"
+
+#: qml/ManualConfigurationPage.qml:123 qml/ManualConfigurationPage.qml:240
+#, kde-format
+msgid "SSL/TLS (recommended)"
+msgstr "SSL/TLS (توصیه‌شده)"
+
+#: qml/ManualConfigurationPage.qml:125 qml/ManualConfigurationPage.qml:239
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: qml/ManualConfigurationPage.qml:142 qml/ManualConfigurationPage.qml:258
+#, kde-format
+msgid "Authentication Method:"
+msgstr "روش احراز هویت:"
+
+#: qml/ManualConfigurationPage.qml:148
+#, kde-format
+msgid "Normal Password"
+msgstr "گذرواژه معمولی"
+
+#: qml/ManualConfigurationPage.qml:149 qml/ManualConfigurationPage.qml:263
+#, kde-format
+msgid "PLAIN"
+msgstr "PLAIN"
+
+#: qml/ManualConfigurationPage.qml:150 qml/ManualConfigurationPage.qml:264
+#, kde-format
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#: qml/ManualConfigurationPage.qml:151 qml/ManualConfigurationPage.qml:265
+#, kde-format
+msgid "CRAM-MD5"
+msgstr "CRAM-MD5"
+
+#: qml/ManualConfigurationPage.qml:152 qml/ManualConfigurationPage.qml:266
+#, kde-format
+msgid "DIGEST-MD5"
+msgstr "DIGEST-MD5"
+
+#: qml/ManualConfigurationPage.qml:153 qml/ManualConfigurationPage.qml:267
+#, kde-format
+msgid "NTLM"
+msgstr "NTLM"
+
+#: qml/ManualConfigurationPage.qml:154
+#, kde-format
+msgid "Kerberos / GSSAPI"
+msgstr "‏Kerberos / GSSAPI"
+
+#: qml/ManualConfigurationPage.qml:155 qml/ManualConfigurationPage.qml:269
+#, kde-format
+msgid "XOAuth (Gmail)"
+msgstr "‏XOAuth (جیمیل)"
+
+#: qml/ManualConfigurationPage.qml:158
+#, kde-format
+msgid "APOP"
+msgstr "APOP"
+
+#: qml/ManualConfigurationPage.qml:177 qml/ManualConfigurationPage.qml:286
+#, kde-format
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#: qml/ManualConfigurationPage.qml:192
+#, kde-format
+msgid "Download all messages for offline use"
+msgstr "بارگیری همه پیام‌ها برای استفاده برون‌خط"
+
+#: qml/ManualConfigurationPage.qml:201
+#, kde-format
+msgid "Outgoing Server Parameters"
+msgstr "پارامترهای کارساز خروجی"
+
+#: qml/ManualConfigurationPage.qml:208
+#, kde-format
+msgid "Outgoing server:"
+msgstr "کارساز خروجی:"
+
+#: qml/ManualConfigurationPage.qml:262
+#, kde-format
+msgid "Clear text"
+msgstr "متن آشکار"
+
+#: qml/ManualConfigurationPage.qml:268
+#, kde-format
+msgid "GSSAPI"
+msgstr "GSSAPI"
+
+#: qml/PersonalDataPage.qml:16
+#, kde-format
+msgid "Personal Information"
+msgstr "اطلاعات شخصی"
+
+#: qml/PersonalDataPage.qml:44
+#, kde-format
+msgid "Connect your Email Account"
+msgstr "اتصال حساب رایانامه خود"
+
+#: qml/PersonalDataPage.qml:52
+#, kde-format
+msgid ""
+"To use your current email address fill in your credentials. This wizard will"
+" automatically search for a working and recommended server configuration. "
+"Only the domain name part of the e-mail address will be sent over the "
+"Internet."
+msgstr ""
+"برای استفاده از نشانی رایانامه کنونی خود، اطلاعات کاربری‌تان را وارد کنید. "
+"این راهنما به طور خودکار پیکربندی مناسب و توصیه‌شده کارساز را جستجو می‌کند. "
+"فقط بخش نام دامنه نشانی رایانامه از طریق اینترنت ارسال خواهد شد."
+
+#: qml/PersonalDataPage.qml:58
+#, kde-format
+msgid "Full name:"
+msgstr "نام کامل:"
+
+#: qml/PersonalDataPage.qml:59
+#, kde-format
+msgctxt "Generic name"
+msgid "John Smith"
+msgstr "علی رضایی"
+
+#: qml/PersonalDataPage.qml:68
+#, kde-format
+msgid "E-mail address:"
+msgstr "نشانی رایانامه:"
+
+#: qml/PersonalDataPage.qml:69
+#, kde-format
+msgctxt "Generic email address"
+msgid "boss@example.corp"
+msgstr "boss@example.corp"
+
+#: qml/PersonalDataPage.qml:87
+#, kde-format
+msgid "Password (optional):"
+msgstr "گذرواژه (اختیاری):"
+
+#: qml/WizardPage.qml:16
+#, kde-format
+msgctxt "@action:button"
+msgid "Previous"
+msgstr "قبلی"
+
+#: qml/WizardPage.qml:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Next"
+msgstr "بعدی"
+
+#: resource.cpp:72
+#, kde-format
+msgid "Resource type '%1' is not available."
+msgstr "نوع منبع «%1» در دسترس نیست."
+
+#: resource.cpp:85
+#, kde-format
+msgid "Resource '%1' is already set up."
+msgstr "منبع «%1» از پیش راه‌اندازی شده است."
+
+#: resource.cpp:92
+#, kde-format
+msgid "Creating resource instance for '%1'..."
+msgstr "در حال ایجاد نمونهٔ منبع برای «%1»..."
+
+#: resource.cpp:101
+#, kde-format
+msgid "Failed to create resource instance: %1"
+msgstr "ایجاد نمونهٔ منبع ناموفق بود: %1"
+
+#: resource.cpp:108
+#, kde-format
+msgid "Configuring resource instance..."
+msgstr "در حال پیکربندی نمونهٔ منبع..."
+
+#: resource.cpp:112
+#, kde-format
+msgid "Unable to configure resource instance."
+msgstr "پیکربندی نمونهٔ منبع امکان‌پذیر نیست."
+
+#: resource.cpp:131
+#, kde-format
+msgid ""
+"Could not convert value of setting '%1' with type %2 to required type %3."
+msgstr "تبدیل مقدار تنظیم «%1» با نوع %2 به نوع مورد نیاز %3 امکان‌پذیر نبود."
+
+#: resource.cpp:145
+#, kde-format
+msgid "Could not set setting '%1': %2"
+msgstr "تنظیم «%1» اعمال نشد: %2"
+
+#: resource.cpp:152
+#, kde-format
+msgid "Could not save settings: %1"
+msgstr "ذخیرهٔ تنظیمات امکان‌پذیر نبود: %1"
+
+#: resource.cpp:159
+#, kde-format
+msgctxt "log entry content"
+msgid "Resource setup completed: %1"
+msgstr "راه‌اندازی منبع کامل شد: %1"
+
+#: resource.cpp:162
+#, kde-format
+msgctxt "log entry content"
+msgid "Resource type:"
+msgstr "نوع منبع:"
+
+#: resource.cpp:172
+#, kde-format
+msgctxt "Empty password"
+msgid "Empty"
+msgstr "خالی"
+
+#: resource.cpp:177
+#, kde-format
+msgctxt "label"
+msgid "%1:"
+msgstr "%1:"

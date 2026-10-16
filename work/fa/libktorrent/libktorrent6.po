@@ -1,0 +1,576 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the libktorrent6 package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: libktorrent6\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-04 00:46+0000\n"
+"PO-Revision-Date: 2026-10-16 01:06+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/bcodec/bdecoder.cpp:41
+#, kde-format
+msgid "Illegal token: %1"
+msgstr "نشانهٔ نامعتبر: %1"
+
+#: src/bcodec/bdecoder.cpp:79 src/bcodec/bdecoder.cpp:86
+#, kde-format
+msgid "Decode error"
+msgstr "خطای رمزگشایی"
+
+#: src/bcodec/bdecoder.cpp:93 src/bcodec/bdecoder.cpp:119
+#: src/bcodec/bdecoder.cpp:142 src/bcodec/bdecoder.cpp:179
+#, kde-format
+msgid "Unexpected end of input"
+msgstr "پایان غیرمنتظرهٔ ورودی"
+
+#: src/bcodec/bdecoder.cpp:158 src/bcodec/bdecoder.cpp:198
+#, kde-format
+msgid "Cannot convert %1 to an int"
+msgstr "نمی‌توان %1 را به یک عدد صحیح (int) تبدیل کرد"
+
+#: src/bcodec/bdecoder.cpp:203
+#, kde-format
+msgid "Torrent is incomplete."
+msgstr "تورنت ناقص است."
+
+#: src/datachecker/datacheckerjob.cpp:74
+#, kde-format
+msgid "Waiting for other data checks to finish"
+msgstr "در انتظار اتمام بررسی سایر داده‌ها"
+
+#: src/datachecker/datacheckerjob.cpp:81 src/torrent/torrentstats.cpp:96
+#, kde-format
+msgid "Checking data"
+msgstr "بررسی داده‌ها"
+
+#: src/datachecker/datacheckerjob.cpp:131
+#, kde-format
+msgid "Checking Data"
+msgstr "بررسی داده‌ها"
+
+#: src/datachecker/multidatachecker.cpp:202
+#: src/datachecker/singledatachecker.cpp:38 src/diskio/multifilecache.cpp:666
+#: src/diskio/multifilecache.cpp:704 src/torrent/torrentcreator.cpp:111
+#: src/torrent/torrentcreator.cpp:226 src/torrent/torrentcreator.cpp:260
+#, kde-format
+msgid "Cannot open file %1: %2"
+msgstr "پروندهٔ %1 باز نشد: %2"
+
+#: src/diskio/cache.cpp:181 src/diskio/multifilecache.cpp:105
+#: src/diskio/singlefilecache.cpp:74
+#, kde-format
+msgid "Failed to create %1: %2"
+msgstr "ایجاد %1 انجام نشد: %2"
+
+#: src/diskio/cachefile.cpp:85 src/util/fileops.cpp:333
+#: src/util/fileops.cpp:395
+#, kde-format
+msgid "Cannot open %1: %2"
+msgstr "نمی‌توان %1 را باز کرد: %2"
+
+#: src/diskio/cachefile.cpp:113 src/diskio/cachefile.cpp:202
+#: src/diskio/cachefile.cpp:352 src/diskio/cachefile.cpp:416
+#, kde-format
+msgid "Cannot open %1 for writing: readonly filesystem"
+msgstr "نمی‌توان %1 را برای نوشتن باز کرد: فایل‌سیستم فقط‌خواندنی است"
+
+#: src/diskio/cachefile.cpp:119 src/diskio/cachefile.cpp:358
+#, kde-format
+msgid "Attempting to write beyond the maximum size of %1"
+msgstr "تلاش برای نوشتن فراتر از حداکثر اندازهٔ %1"
+
+#: src/diskio/cachefile.cpp:208
+#, kde-format
+msgid ""
+"Cannot expand file %1: attempting to grow the file beyond the maximum size"
+msgstr ""
+"نمی‌توان فایل %1 را گسترش داد: تلاش برای افزایش اندازهٔ فایل فراتر از حد "
+"مجاز"
+
+#: src/diskio/cachefile.cpp:212
+#, kde-format
+msgid "Cannot expand file %1: %2"
+msgstr "نمی‌توان فایل %1 را گسترش داد: %2"
+
+#: src/diskio/cachefile.cpp:317
+#, kde-format
+msgid "Error: Reading past the end of the file %1"
+msgstr "خطا: خواندن فراتر از انتهای فایل %1"
+
+#: src/diskio/cachefile.cpp:322 src/diskio/cachefile.cpp:368
+#, kde-format
+msgid "Failed to seek file %1: %2"
+msgstr "جابه‌جایی (seek) در فایل %1 ناموفق بود: %2"
+
+#: src/diskio/cachefile.cpp:331
+#, kde-format
+msgid "Error reading from %1"
+msgstr "خطا هنگام خواندن از %1"
+
+#: src/diskio/cachefile.cpp:372
+#, kde-format
+msgid "Failed to write to file %1: %2"
+msgstr "نوشتن در فایل %1 ناموفق بود: %2"
+
+#: src/diskio/cachefile.cpp:433
+#, kde-format
+msgid "Cannot preallocate diskspace: %1"
+msgstr "نمی‌توان فضای دیسک را از پیش تخصیص داد: %1"
+
+#: src/diskio/chunkmanager.cpp:872 src/diskio/chunkmanager.cpp:896
+#, kde-format
+msgid "Cannot open index file %1: %2"
+msgstr "پروندهٔ نمایهٔ %1 باز نمی‌شود: %2"
+
+#: src/diskio/dndfile.cpp:76
+#, kde-format
+msgid "Cannot create file %1: %2"
+msgstr "ایجاد پروندهٔ %1 ممکن نیست: %2"
+
+#: src/diskio/dndfile.cpp:121
+#, kde-format
+msgid "Failed to write first chunk to DND file: %1"
+msgstr "نوشتن تکهٔ اول در پروندهٔ DND ناموفق بود: %1"
+
+#: src/diskio/dndfile.cpp:136
+#, kde-format
+msgid "Failed to write last chunk to DND file: %1"
+msgstr "نوشتن تکهٔ آخر در پروندهٔ DND ناموفق بود: %1"
+
+#: src/diskio/movedatafilesjob.cpp:119
+#, kde-format
+msgid "Waiting for other move jobs to finish"
+msgstr "در انتظار پایان کارهای جابه‌جایی دیگر"
+
+#: src/diskio/movedatafilesjob.cpp:120 src/diskio/movedatafilesjob.cpp:156
+#, kde-format
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr "مبدأ"
+
+#: src/diskio/movedatafilesjob.cpp:121 src/diskio/movedatafilesjob.cpp:157
+#, kde-format
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr "مقصد"
+
+#: src/diskio/movedatafilesjob.cpp:155
+#, kde-format
+msgctxt "@title job"
+msgid "Moving"
+msgstr "در حال جابه‌جایی"
+
+#: src/diskio/multifilecache.cpp:78 src/diskio/singlefilecache.cpp:63
+#, kde-format
+msgid "Failed to open %1: %2"
+msgstr "باز کردن %1 ناموفق بود: %2"
+
+#: src/diskio/piecedata.cpp:57 src/diskio/piecedata.cpp:96
+#, kde-format
+msgid "Unable to write to a piece mapped read only"
+msgstr "نمی‌توان در قطعه‌ای که فقط‌خواندنی نگاشت شده نوشت"
+
+#: src/download/chunkdownload.cpp:355
+#, kde-format
+msgid "1 peer"
+msgid_plural "%1 peers"
+msgstr[0] "۱ همتا"
+msgstr[1] "%1 همتا"
+
+#: src/download/downloader.cpp:734
+#, kde-format
+msgid "Disabled because webseed does not match torrent"
+msgstr "غیرفعال شد زیرا سید وب با تورنت مطابقت ندارد"
+
+#: src/download/httpconnection.cpp:29 src/download/webseed.cpp:39
+#: src/download/webseed.cpp:84
+#, kde-format
+msgid "Not connected"
+msgstr "متصل نیست"
+
+#: src/download/httpconnection.cpp:95
+#, kde-format
+msgid "Resolving proxy %1:%2"
+msgstr "در حال پیدا کردن نشانی پروکسی %1:%2"
+
+#: src/download/httpconnection.cpp:99 src/download/httpconnection.cpp:113
+#, kde-format
+msgid "Not enough system resources available"
+msgstr "منابع سیستم کافی در دسترس نیست"
+
+#: src/download/httpconnection.cpp:109
+#, kde-format
+msgid "Resolving hostname %1"
+msgstr "در حال پیدا کردن نشانی نام میزبان %1"
+
+#: src/download/httpconnection.cpp:125 src/download/webseed.cpp:324
+#, kde-format
+msgid "Connection closed"
+msgstr "اتصال بسته شد"
+
+#: src/download/httpconnection.cpp:129
+#, kde-format
+msgid "Error: request failed: %1"
+msgstr "خطا: درخواست ناموفق بود: %1"
+
+#: src/download/httpconnection.cpp:154 src/download/httpconnection.cpp:181
+#, kde-format
+msgid "Connected"
+msgstr "متصل شد"
+
+#: src/download/httpconnection.cpp:162
+#, kde-format
+msgid "Error: Failed to connect to webseed"
+msgstr "خطا: اتصال به سید وب ناموفق بود"
+
+#: src/download/httpconnection.cpp:186
+#, kde-format
+msgid "Connecting"
+msgstr "در حال اتصال"
+
+#: src/download/httpconnection.cpp:195
+#, kde-format
+msgid "Failed to connect to webseed"
+msgstr "اتصال به سید وب ناموفق بود"
+
+#: src/download/httpconnection.cpp:200
+#, kde-format
+msgid "Failed to resolve hostname of webseed"
+msgstr "یافتن نشانی نام میزبان سید وب ناموفق بود"
+
+#: src/download/httpconnection.cpp:276
+#, kde-format
+msgid "Error: failed to connect, server not responding"
+msgstr "خطا: اتصال برقرار نشد، سرور پاسخ نمی‌دهد"
+
+#: src/download/httpconnection.cpp:286
+#, kde-format
+msgid "Error: request timed out"
+msgstr "خطا: مهلت زمانی درخواست به پایان رسید"
+
+#: src/download/httpconnection.cpp:358
+#, kde-format
+msgid "Redirected without a new location."
+msgstr "تغییر مسیر بدون موقعیت مکانی جدید."
+
+#: src/download/webseed.cpp:519
+#, kde-format
+msgid "Unused for %1 second (Too many connection failures)"
+msgid_plural "Unused for %1 seconds (Too many connection failures)"
+msgstr[0] "عدم استفاده برای %1 ثانیه (به دلیل خطاهای اتصال بیش از حد)"
+msgstr[1] "عدم استفاده برای %1 ثانیه (به دلیل خطاهای اتصال بیش از حد)"
+
+#: src/interfaces/trackerinterface.cpp:47
+#, kde-format
+msgid "OK"
+msgstr "تأیید"
+
+#: src/interfaces/trackerinterface.cpp:47
+#, kde-format
+msgid "Warning: %1"
+msgstr "هشدار: %1"
+
+#: src/interfaces/trackerinterface.cpp:49
+#, kde-format
+msgid "Announcing"
+msgstr "در حال اعلان"
+
+#: src/interfaces/trackerinterface.cpp:51 src/torrent/torrentstats.cpp:90
+#, kde-format
+msgid "Error: %1"
+msgstr "خطا: %1"
+
+#: src/peer/peerid.cpp:314
+#, kde-format
+msgid "Unknown client"
+msgstr "کلاینت ناشناخته"
+
+#: src/torrent/torrent.cpp:94 src/torrent/torrent.cpp:140
+#: src/torrent/torrent.cpp:171 src/torrent/torrent.cpp:178
+#: src/torrent/torrent.cpp:186 src/torrent/torrent.cpp:191
+#: src/torrent/torrent.cpp:215 src/torrent/torrent.cpp:284
+#, kde-format
+msgid "Corrupted torrent."
+msgstr "تورنت آسیب‌دیده است."
+
+#: src/torrent/torrentcontrol.cpp:261
+#, kde-format
+msgid "Error writing to disk, do you have enough diskspace?"
+msgstr "خطا در نوشتن روی دیسک، آیا فضای کافی روی دیسک دارید؟"
+
+#: src/torrent/torrentcontrol.cpp:484
+#, kde-format
+msgid "An error occurred while loading <b>%1</b>:<br/><b>%2</b>"
+msgstr "هنگام بارگیری <b>%1</b> خطایی رخ داد:<br/><b>%2</b>"
+
+#: src/torrent/torrentcontrol.cpp:494
+#, kde-format
+msgid "Unable to create %1: %2"
+msgstr "امکان ایجاد %1 وجود ندارد: %2"
+
+#: src/torrent/torrentcontrol.cpp:508
+#, kde-format
+msgid ""
+"You are already downloading the torrent <b>%1</b>. The tracker lists from "
+"both torrents have been merged."
+msgstr ""
+"شما در حال حاضر در حال بارگیری تورنت <b>%1</b> هستید. فهرست‌های ردیاب از هر "
+"دو تورنت ادغام شدند."
+
+#: src/torrent/torrentcontrol.cpp:512
+#, kde-format
+msgid "You are already downloading the torrent <b>%1</b>."
+msgstr "شما در حال حاضر در حال بارگیری تورنت <b>%1</b> هستید."
+
+#: src/torrent/torrentcreator.cpp:335
+#, kde-format
+msgid "Cannot create index file: %1"
+msgstr "امکان ایجاد پرونده نمایه وجود ندارد: %1"
+
+#: src/torrent/torrentstats.cpp:76
+#, kde-format
+msgid "Not started"
+msgstr "شروع‌نشده"
+
+#: src/torrent/torrentstats.cpp:78
+#, kde-format
+msgid "Download completed"
+msgstr "بارگیری کامل شد"
+
+#: src/torrent/torrentstats.cpp:80
+#, kde-format
+msgid "Seeding completed"
+msgstr "اشتراک‌گذاری کامل شد"
+
+#: src/torrent/torrentstats.cpp:82
+#, kde-format
+msgctxt "Status of a torrent file"
+msgid "Seeding"
+msgstr "در حال اشتراک‌گذاری"
+
+#: src/torrent/torrentstats.cpp:84
+#, kde-format
+msgid "Downloading"
+msgstr "در حال بارگیری"
+
+#: src/torrent/torrentstats.cpp:86
+#, kde-format
+msgid "Stalled"
+msgstr "متوقف‌شده"
+
+#: src/torrent/torrentstats.cpp:88
+#, kde-format
+msgid "Stopped"
+msgstr "متوقف شد"
+
+#: src/torrent/torrentstats.cpp:92
+#, kde-format
+msgid "Allocating diskspace"
+msgstr "تخصیص فضای دیسک"
+
+#: src/torrent/torrentstats.cpp:94
+#, kde-format
+msgid "Queued for seeding"
+msgstr "در صف اشتراک‌گذاری"
+
+#: src/torrent/torrentstats.cpp:94
+#, kde-format
+msgid "Queued for downloading"
+msgstr "در صف بارگیری"
+
+#: src/torrent/torrentstats.cpp:98
+#, kde-format
+msgid "Stopped. No space left on device."
+msgstr "متوقف شد. فضای کافی روی دستگاه باقی نمانده است."
+
+#: src/torrent/torrentstats.cpp:100
+#, kde-format
+msgid "Paused"
+msgstr "متوقف شد"
+
+#: src/torrent/torrentstats.cpp:102
+#, kde-format
+msgid "Superseeding"
+msgstr "هم‌رسانی ویژه (Superseeding)"
+
+#: src/tracker/httptracker.cpp:251 src/tracker/httptracker.cpp:267
+#: src/tracker/httptracker.cpp:391
+#, kde-format
+msgid "Invalid response from tracker"
+msgstr "پاسخ نامعتبر از ردیاب"
+
+#: src/tracker/httptracker.cpp:261
+#, kde-format
+msgid "Invalid data from tracker"
+msgstr "داده‌های نامعتبر از ردیاب"
+
+#: src/tracker/httptracker.cpp:406
+#, kde-format
+msgid "Invalid tracker URL"
+msgstr "نشانی وب نامعتبر ردیاب"
+
+#: src/tracker/httptracker.cpp:466 src/tracker/udptracker.cpp:322
+#: src/tracker/udptracker.cpp:329
+#, kde-format
+msgid "Timeout contacting tracker %1"
+msgstr "پایان مهلت زمانی برای برقراری ارتباط با ردیاب %1"
+
+#: src/tracker/udptracker.cpp:352
+#, kde-format
+msgid "Unable to resolve hostname %1"
+msgstr "عدم امکان تحلیل نام میزبان %1"
+
+#: src/upnp/httprequest.cpp:39
+#, kde-format
+msgid "Operation timed out"
+msgstr "مهلت زمانی عملیات به پایان رسید"
+
+#: src/upnp/upnprouter.cpp:160
+#, kde-format
+msgid "Failed to download %1: %2"
+msgstr "بارگیری %1 ناموفق بود: %2"
+
+#: src/upnp/upnprouter.cpp:170
+#, kde-format
+msgid "Error parsing router description."
+msgstr "خطا در تجزیهٔ توضیحات مسیریاب."
+
+#: src/upnp/upnprouter.cpp:204
+#, kde-format
+msgid ""
+"Forwarding failed:\n"
+"Device does not have a WANIPConnection or WANPPPConnection."
+msgstr ""
+"هدایت ناموفق بود:\n"
+"دستگاه فاقد WANIPConnection یا WANPPPConnection است."
+
+#: src/upnp/upnprouter.cpp:284
+#, kde-format
+msgid "Cannot find port forwarding service in the device's description."
+msgstr "سرویس هدایت درگاه (Port Forwarding) در توضیحات دستگاه یافت نشد."
+
+#: src/util/file.cpp:91
+#, kde-format
+msgid "Cannot write to %1: %2"
+msgstr "نوشتن در %1 امکان‌پذیر نیست: %2"
+
+#: src/util/file.cpp:105
+#, kde-format
+msgid "Cannot read from %1"
+msgstr "خواندن از %1 امکان‌پذیر نیست"
+
+#: src/util/fileops.cpp:100
+#, kde-format
+msgid "Cannot create directory %1"
+msgstr "ایجاد پوشهٔ %1 امکان‌پذیر نیست"
+
+#: src/util/fileops.cpp:167
+#, kde-format
+msgid "Cannot symlink %1 to %2: %3"
+msgstr "ایجاد پیوند نمادین از %1 به %2 امکان‌پذیر نیست: %3"
+
+#: src/util/fileops.cpp:180
+#, kde-format
+msgid "Cannot move %1 to %2: %3"
+msgstr "انتقال %1 به %2 امکان‌پذیر نیست: %3"
+
+#: src/util/fileops.cpp:192 src/util/fileops.cpp:204
+#, kde-format
+msgid "Cannot copy %1 to %2: %3"
+msgstr "کپی %1 در %2 امکان‌پذیر نیست: %3"
+
+#: src/util/fileops.cpp:254
+#, kde-format
+msgid "Cannot delete %1: %2"
+msgstr "حذف %1 امکان‌پذیر نیست: %2"
+
+#: src/util/fileops.cpp:272
+#, kde-format
+msgid "Cannot create %1: %2"
+msgstr "ایجاد %1 امکان‌پذیر نیست: %2"
+
+#: src/util/fileops.cpp:290
+#, kde-format
+msgid "Cannot calculate the filesize of %1: %2"
+msgstr "محاسبه اندازه پرونده %1 امکان‌پذیر نیست: %2"
+
+#: src/util/fileops.cpp:307
+#, kde-format
+msgid "Cannot calculate the filesize: %1"
+msgstr "محاسبه اندازه پرونده امکان‌پذیر نیست: %1"
+
+#: src/util/fileops.cpp:357 src/util/fileops.cpp:361 src/util/fileops.cpp:384
+#, kde-format
+msgid "Cannot expand file: %1"
+msgstr "گسترش پرونده امکان‌پذیر نیست: %1"
+
+#: src/util/fileops.cpp:414
+#, kde-format
+msgid "Cannot seek in file: %1"
+msgstr "جستجو در پرونده امکان‌پذیر نیست: %1"
+
+#: src/util/fileops.cpp:672
+#, kde-format
+msgid "Unable to open file %1: %2"
+msgstr "امکان باز کردن پرونده %1 وجود ندارد: %2"
+
+#: src/util/functions.cpp:243
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/util/functions.cpp:252
+#, kde-format
+msgid "1 day "
+msgid_plural "%1 days "
+msgstr[0] "۱ روز "
+msgstr[1] "%1 روز "
+
+#: src/util/logsystemmanager.cpp:18
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#: src/util/logsystemmanager.cpp:19
+#, kde-format
+msgid "Connections"
+msgstr "اتصالات"
+
+#: src/util/logsystemmanager.cpp:20
+#, kde-format
+msgid "Tracker"
+msgstr "ردیاب"
+
+#: src/util/logsystemmanager.cpp:21
+#, kde-format
+msgid "DHT"
+msgstr "DHT"
+
+#: src/util/logsystemmanager.cpp:22
+#, kde-format
+msgid "Disk Input/Output"
+msgstr "ورودی/خروجی دیسک"
+
+#: src/util/logsystemmanager.cpp:23
+#, kde-format
+msgid "µTP"
+msgstr "µTP"
+
+#: src/util/signalcatcher.cpp:20
+#, kde-format
+msgid "Error when writing to disk"
+msgstr "خطا هنگام نوشتن روی دیسک"
+
+#: src/util/signalcatcher.cpp:20
+#, kde-format
+msgid "Error when reading from disk"
+msgstr "خطا هنگام خواندن از دیسک"

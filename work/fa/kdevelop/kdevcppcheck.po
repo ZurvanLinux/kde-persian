@@ -1,0 +1,473 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdevcppcheck package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevcppcheck\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-15 21:22+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: config/globalconfigpage.cpp:34 config/projectconfigpage.cpp:60
+#, kde-format
+msgctxt "@title:tab"
+msgid "Cppcheck"
+msgstr "Cppcheck"
+
+#: config/globalconfigpage.cpp:39
+#, kde-format
+msgctxt "@title:tab"
+msgid "Configure Cppcheck Settings"
+msgstr "پیکربندی تنظیمات Cppcheck"
+
+#. i18n: ectx: property (title), widget (QGroupBox, pathsGroupBox)
+#: config/globalconfigpage.ui:20
+#, kde-format
+msgctxt "@title:group"
+msgid "Paths"
+msgstr "مسیرها"
+
+#. i18n: ectx: property (text), widget (QLabel, cppcheckLabel)
+#: config/globalconfigpage.ui:26
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Cppchec&k executable:"
+msgstr "پرونده اجرایی Cppcheck:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, outputGroupBox)
+#: config/globalconfigpage.ui:45
+#, kde-format
+msgctxt "@title:group"
+msgid "Output"
+msgstr "خروجی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideOutputView)
+#: config/globalconfigpage.ui:51
+#, kde-format
+msgctxt "@option:check"
+msgid "Hide output view during check"
+msgstr "پنهان‌سازی نمای خروجی هنگام بررسی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showXmlOutput)
+#: config/globalconfigpage.ui:58
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Cppcheck XML output in the output view"
+msgstr "نمایش خروجی XML مربوط به Cppcheck در نمای خروجی"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabChecks)
+#: config/projectconfigpage.ui:39
+#, kde-format
+msgctxt "@title:tab"
+msgid "Checks"
+msgstr "بررسی‌ها"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_checkUnusedFunction)
+#: config/projectconfigpage.ui:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Check for unused functions. It is recommend to only enable this when the "
+"whole program is scanned"
+msgstr ""
+"بررسی توابع استفاده‌نشده. توصیه می‌شود این گزینه را فقط هنگامی فعال کنید که "
+"کل برنامه پویش می‌شود"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkUnusedFunction)
+#: config/projectconfigpage.ui:50
+#, kde-format
+msgctxt "@option:check"
+msgid "Unused function"
+msgstr "تابع استفاده‌نشده"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_inconclusiveAnalysis)
+#: config/projectconfigpage.ui:60
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Allow that Cppcheck reports even though the analysis is inconclusive. There "
+"are false positives with this option. Each result must be carefully "
+"investigated before you know if it is good or bad."
+msgstr ""
+"اجازه دادن به Cppcheck برای گزارش‌دهی حتی در صورتی که تحلیل نامشخص باشد. با "
+"این گزینه خطاهای مثبت کاذب وجود خواهند داشت. هر نتیجه باید قبل از این که "
+"بدانید درست یا غلط است، با دقت بررسی شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_inconclusiveAnalysis)
+#: config/projectconfigpage.ui:63
+#, kde-format
+msgctxt "@option:check"
+msgid "Inconclusive analysis"
+msgstr "تحلیل نامشخص"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkInformation)
+#: config/projectconfigpage.ui:70
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable information messages"
+msgstr "فعال‌سازی پیام‌های اطلاعاتی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkInformation)
+#: config/projectconfigpage.ui:73
+#, kde-format
+msgctxt "@option:check"
+msgid "Information"
+msgstr "اطلاعات"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_checkMissingInclude)
+#: config/projectconfigpage.ui:83
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Warn if there are missing includes. For detailed information use 'check-"
+"config'"
+msgstr ""
+"هشدار در صورت وجود includeهای ناموجود. برای اطلاعات دقیق‌تر از «check-"
+"config» استفاده کنید"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkMissingInclude)
+#: config/projectconfigpage.ui:86
+#, kde-format
+msgctxt "@option:check"
+msgid "Missing include"
+msgstr "include ناموجود"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkPerformance)
+#: config/projectconfigpage.ui:96
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable performance messages"
+msgstr "فعال‌سازی پیام‌های مربوط به عملکرد"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkPerformance)
+#: config/projectconfigpage.ui:99
+#, kde-format
+msgctxt "@option:check"
+msgid "Performance"
+msgstr "عملکرد"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_forceCheck)
+#: config/projectconfigpage.ui:109
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Force checking of files that have a lot of configurations. Error is "
+"printed if such a file is found so there is no reason to use this by "
+"default. If used together with '--max-configs=', the last option is the one "
+"that is effective.<br/><br/>Be careful with using this option - it can "
+"dramatically slow checking.</p>"
+msgstr ""
+"<p>بررسی اجباری پرونده‌هایی که پیکربندی‌های زیادی دارند. در صورت یافتن چنین "
+"پرونده‌ای خطا چاپ می‌شود، بنابراین دلیلی برای استفاده از این گزینه به‌صورت "
+"پیش‌فرض وجود ندارد. در صورت استفاده هم‌زمان با «‎--max-configs=‎»، آخرین "
+"گزینه اعمال خواهد شد.<br/><br/>در استفاده از این گزینه محتاط باشید؛ می‌تواند"
+" سرعت بررسی را به‌شدت کاهش دهد.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_forceCheck)
+#: config/projectconfigpage.ui:112
+#, kde-format
+msgctxt "@option:check"
+msgid "Force checking"
+msgstr "بررسی اجباری"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkPortability)
+#: config/projectconfigpage.ui:119
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable portability messages"
+msgstr "فعال‌سازی پیام‌های قابلیت حمل"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkPortability)
+#: config/projectconfigpage.ui:122
+#, kde-format
+msgctxt "@option:check"
+msgid "Portability"
+msgstr "قابلیت حمل"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkStyle)
+#: config/projectconfigpage.ui:132
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Enable all coding style checks. All messages with the severities 'style', "
+"'performance' and 'portability' are enabled."
+msgstr ""
+"فعال‌سازی تمام بررسی‌های سبک کدنویسی. تمام پیام‌ها با سطوح اهمیت «سبک»، "
+"«عملکرد» و «قابلیت حمل» فعال می‌شوند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkStyle)
+#: config/projectconfigpage.ui:135
+#, kde-format
+msgctxt "@option:check"
+msgid "Style"
+msgstr "سبک"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_checkConfig)
+#: config/projectconfigpage.ui:145
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Check Cppcheck configuration. The normal code analysis is disabled by this "
+"flag."
+msgstr "بررسی پیکربندی Cppcheck. تحلیل عادی کد با این پرچم غیرفعال می‌شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkConfig)
+#: config/projectconfigpage.ui:148
+#, kde-format
+msgctxt "@option:check"
+msgid "Check config"
+msgstr "بررسی پیکربندی"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabIncludes)
+#: config/projectconfigpage.ui:158
+#, kde-format
+msgctxt "@title:tab"
+msgid "Include Directories"
+msgstr "شامل کردن پوشه‌ها"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useProjectIncludes)
+#: config/projectconfigpage.ui:164
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Add 'project' include directories to Cppcheck arguments. This option adds "
+"only paths related with project's root and build directories."
+msgstr ""
+"افزودن پوشه‌های شامل «پروژه» به آرگومان‌های Cppcheck. این گزینه فقط مسیرهای "
+"مربوط به ریشه و پوشه‌های ساخت پروژه را اضافه می‌کند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useProjectIncludes)
+#: config/projectconfigpage.ui:167
+#, kde-format
+msgctxt "@option:check"
+msgid "Use 'project' include dirs"
+msgstr "استفاده از پوشه‌های شامل «پروژه»"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useSystemIncludes)
+#: config/projectconfigpage.ui:180
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Add other, 'system' include directories to Cppcheck "
+"arguments.<br/><br/>Be careful with using this option - it can dramatically "
+"slow checking.</p>"
+msgstr ""
+"<p>افزودن سایر پوشه‌های شامل «سیستم» به آرگومان‌های Cppcheck.<br/><br/>در "
+"استفاده از این گزینه احتیاط کنید - می‌تواند سرعت بررسی را به‌شدت کاهش "
+"دهد.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useSystemIncludes)
+#: config/projectconfigpage.ui:183
+#, kde-format
+msgctxt "@option:check"
+msgid "Use 'system' include dirs"
+msgstr "استفاده از پوشه‌های include «سیستمی»"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/projectconfigpage.ui:198
+#, kde-format
+msgctxt "@label:textbox"
+msgid "&Ignored includes:"
+msgstr "موارد include نادیده‌گرفته‌شده:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_ignoredIncludes)
+#: config/projectconfigpage.ui:218
+#, no-c-format, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<html>\n"
+"\n"
+"<p>Defines semicolon-separated list of ignored include directories.</p>\n"
+"\n"
+"<p>You can use the following placeholders:</p>\n"
+"\n"
+"<p><b><tt>%p</tt></b> - Gets replaced by the URL of the project's root directory.</p>\n"
+"\n"
+"<p><b><tt>%b</tt></b> - Gets replaced by the URL of the project's build directory.</p>\n"
+"\n"
+"</html>"
+msgstr ""
+"<html>\n"
+"\n"
+"<p>فهرستی از پوشه‌های include نادیده‌گرفته‌شده که با نقطه ویرگول از هم جدا شده‌اند را مشخص می‌کند.</p>\n"
+"\n"
+"<p>می‌توانید از متغیرهای جایگزین زیر استفاده کنید:</p>\n"
+"\n"
+"<p><b><tt>%p</tt></b> - با نشانی اینترنتی (URL) پوشهٔ ریشهٔ پروژه جایگزین می‌شود.</p>\n"
+"\n"
+"<p><b><tt>%b</tt></b> - با نشانی اینترنتی (URL) پوشهٔ ساخت پروژه جایگزین می‌شود.</p>\n"
+"\n"
+"</html>"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabExtra)
+#: config/projectconfigpage.ui:241
+#, kde-format
+msgctxt "@title:tab"
+msgid "Extra Parameters"
+msgstr "پارامترهای اضافی"
+
+#. i18n: ectx: property (text), widget (QLabel, extraLabel)
+#: config/projectconfigpage.ui:254
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Ex&tra parameters:"
+msgstr "پارامترهای اضافی:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_extraParameters)
+#: config/projectconfigpage.ui:274
+#, no-c-format, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<html>\n"
+"\n"
+"<p>Defines additional parameters for cppcheck (see documentation).</p>\n"
+"\n"
+"<p>You can use the following placeholders:</p>\n"
+"\n"
+"<p><b><tt>%p</tt></b> - Gets replaced by the URL of the project's root directory.</p>\n"
+"\n"
+"<p><b><tt>%b</tt></b> - Gets replaced by the URL of the project's build directory.</p>\n"
+"\n"
+"</html>"
+msgstr ""
+"<html>\n"
+"\n"
+"<p>پارامترهای اضافی را برای cppcheck مشخص می‌کند (مستندات را ببینید).</p>\n"
+"\n"
+"<p>می‌توانید از متغیرهای جایگزین زیر استفاده کنید:</p>\n"
+"\n"
+"<p><b><tt>%p</tt></b> - با نشانی اینترنتی (URL) پوشهٔ ریشهٔ پروژه جایگزین می‌شود.</p>\n"
+"\n"
+"<p><b><tt>%b</tt></b> - با نشانی اینترنتی (URL) پوشهٔ ساخت پروژه جایگزین می‌شود.</p>\n"
+"\n"
+"</html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: config/projectconfigpage.ui:308
+#, kde-format
+msgctxt "@title:group"
+msgid "Command Line"
+msgstr "خط فرمان"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit,
+#. commandLineFilter)
+#: config/projectconfigpage.ui:316
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr "جستجو..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, commandLineBreaks)
+#: config/projectconfigpage.ui:326
+#, kde-format
+msgctxt "@option:check"
+msgid "Break lines"
+msgstr "شکستن خطوط"
+
+#: job.cpp:42
+#, kde-format
+msgid "Cppcheck Analysis (%1)"
+msgstr "تحلیل Cppcheck (%1)"
+
+#: job.cpp:111 parser.cpp:250 problemmodel.cpp:40 problemmodel.cpp:85
+#, kde-format
+msgid "Cppcheck"
+msgstr "Cppcheck"
+
+#: job.cpp:150
+#, kde-format
+msgid "Failed to start Cppcheck from \"%1\"."
+msgstr "راه‌اندازی Cppcheck از «%1» ناموفق بود."
+
+#: job.cpp:155
+#, kde-format
+msgid "Cppcheck crashed."
+msgstr "برنامهٔ Cppcheck دچار فروپاشی شد."
+
+#: job.cpp:160
+#, kde-format
+msgid "Cppcheck process timed out."
+msgstr "مهلت فرآیند Cppcheck تمام شد."
+
+#: job.cpp:164
+#, kde-format
+msgid "Write to Cppcheck process failed."
+msgstr "نوشتن در فرآیند Cppcheck ناموفق بود."
+
+#: job.cpp:168
+#, kde-format
+msgid "Read from Cppcheck process failed."
+msgstr "خواندن از فرآیند Cppcheck ناموفق بود."
+
+#: parameters.cpp:145
+#, kde-format
+msgid ""
+"It seems that this project uses Qt library. For correctly work of cppcheck "
+"the value for define Q_MOC_OUTPUT_REVISION must be set. Unfortunately, the "
+"plugin is unable to find this value automatically - you should set it "
+"manually by adding '-DQ_MOC_OUTPUT_REVISION=XX' to extra parameters. The "
+"'XX' value can be found in any project's moc-generated file or in the "
+"<QtCore/qobjectdefs.h> header file."
+msgstr ""
+"به نظر می‌رسد این پروژه از کتابخانهٔ Qt استفاده می‌کند. برای کارکرد درست "
+"Cppcheck، مقدار تعریف Q_MOC_OUTPUT_REVISION باید مشخص شود. متأسفانه افزونه "
+"نمی‌تواند این مقدار را به صورت خودکار پیدا کند - باید آن را با افزودن "
+"«‎-DQ_MOC_OUTPUT_REVISION=XX» به پارامترهای اضافی، به صورت دستی تنظیم کنید. "
+"مقدار «XX» را می‌توان در هر یک از پرونده‌های تولیدشده توسط moc در پروژه یا "
+"در پروندهٔ سرآیند <QtCore/qobjectdefs.h> پیدا کرد."
+
+#: parser.cpp:220
+#, kde-format
+msgid "Cppcheck XML Parsing: error at line %1, column %2: %3"
+msgstr "تجزیهٔ XML مربوط به Cppcheck: خطا در خط %1، ستون %2: %3"
+
+#: plugin.cpp:51
+#, kde-format
+msgctxt "@action"
+msgid "Analyze Current File with Cppcheck"
+msgstr "تحلیل پروندهٔ کنونی با Cppcheck"
+
+#: plugin.cpp:57 plugin.cpp:68 plugin.cpp:73
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Cppcheck"
+msgstr "Cppcheck"
+
+#: plugin.cpp:62
+#, kde-format
+msgctxt "@action"
+msgid "Analyze Current Project with Cppcheck"
+msgstr "تحلیل پروژهٔ فعلی با Cppcheck"
+
+#: problemmodel.cpp:117
+#, kde-format
+msgid "Analysis completed, no problems detected."
+msgstr "تحلیل کامل شد، هیچ مشکلی شناسایی نشد."
+
+#: problemmodel.cpp:143
+#, kde-format
+msgid "Analysis started..."
+msgstr "تحلیل آغاز شد..."
+
+#: problemmodel.cpp:144
+#, kde-format
+msgctxt "@info:tooltip %1 is the path of the file"
+msgid "Re-run last Cppcheck analysis (%1)"
+msgstr "اجرای مجدد آخرین تحلیل Cppcheck (%1)"
+
+#: problemmodel.cpp:146
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Re-run last Cppcheck analysis"
+msgstr "اجرای مجدد آخرین تحلیل Cppcheck"

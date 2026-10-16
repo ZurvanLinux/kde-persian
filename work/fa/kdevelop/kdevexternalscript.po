@@ -1,0 +1,535 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdevexternalscript package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevexternalscript\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-15 21:29+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: editexternalscript.cpp:30
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines the command that should be executed when this script is run. Basic shell features of your platform should be available.</p>\n"
+"<p>There are a few placeholders you can use in the command:</p>\n"
+"<dl>\n"
+"  <dt><code>%u</code></dt>\n"
+"  <dd>Gets replaced by the URL of the active document.</dd>\n"
+"  <dt><code>%f</code></dt>\n"
+"  <dd>Gets replaced by the local filepath to the active document.</dd>\n"
+"  <dt><code>%n</code></dt>\n"
+"  <dd>Gets replaced by the name of the active document, including its extension.</dd>\n"
+"  <dt><code>%b</code></dt>\n"
+"  <dd>Gets replaced by the name of the active document without its extension.</dd>\n"
+"  <dt><code>%d</code></dt>\n"
+"  <dd>Gets replaced by the path to the directory of the active document.</dd>\n"
+"  <dt><code>%p</code></dt>\n"
+"  <dd>Gets replaced by the URL to the project of the active document.</dd>\n"
+"  <dt><code>%s</code></dt>\n"
+"  <dd>Gets replaced with the shell escaped contents of the selection in the active document.</dd>\n"
+"  <dt><code>%i</code></dt>\n"
+"  <dd>Gets replaced with the PID of the currently running KDevelop process.</dd>\n"
+"</dl>\n"
+"<p><b>NOTE:</b>  It is your responsibility to prevent running hazardous commands that could lead to data loss.</p>\n"
+msgstr ""
+"<p>فرمانی را که باید هنگام اجرای این دست‌نوشته اجرا شود، تعیین می‌کند. قابلیت‌های پایه پوسته سیستم‌عامل شما باید در دسترس باشند.</p>\n"
+"<p>چند جانگهدار وجود دارند که می‌توانید در فرمان استفاده کنید:</p>\n"
+"<dl>\n"
+"  <dt><code>%u</code></dt>\n"
+"  <dd>با نشانی اینترنتی (URL) سند فعال جایگزین می‌شود.</dd>\n"
+"  <dt><code>%f</code></dt>\n"
+"  <dd>با مسیر پرونده محلی سند فعال جایگزین می‌شود.</dd>\n"
+"  <dt><code>%n</code></dt>\n"
+"  <dd>با نام سند فعال، شامل پسوند آن جایگزین می‌شود.</dd>\n"
+"  <dt><code>%b</code></dt>\n"
+"  <dd>با نام سند فعال بدون پسوند آن جایگزین می‌شود.</dd>\n"
+"  <dt><code>%d</code></dt>\n"
+"  <dd>با مسیر پوشه سند فعال جایگزین می‌شود.</dd>\n"
+"  <dt><code>%p</code></dt>\n"
+"  <dd>با نشانی اینترنتی (URL) پروژه سند فعال جایگزین می‌شود.</dd>\n"
+"  <dt><code>%s</code></dt>\n"
+"  <dd>با محتوای گریزان‌پوشش‌داده‌شده (Shell-escaped) بخش گزینش‌شده در سند فعال جایگزین می‌شود.</dd>\n"
+"  <dt><code>%i</code></dt>\n"
+"  <dd>با شناسه فرایند (PID) فرایند در حال اجرای KDevelop جایگزین می‌شود.</dd>\n"
+"</dl>\n"
+"<p><b>نکته:</b> مسئولیت جلوگیری از اجرای فرمان‌های خطرناکی که ممکن است باعث از دست رفتن داده‌ها شوند بر عهده شماست.</p>\n"
+
+#: editexternalscript.cpp:56
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines what the external script should get as input (via "
+"<code>STDIN</code>).</p>"
+msgstr ""
+"<p>مشخص می‌کند دست‌نوشته خارجی چه ورودی‌ای دریافت کند (از طریق "
+"<code>STDIN</code>).</p>"
+
+#: editexternalscript.cpp:62
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines what should be done with the output (i.e. <code>STDOUT</code>) of"
+" the script.</p>"
+msgstr ""
+"<p>مشخص می‌کند با خروجی دست‌نوشته (یعنی <code>STDOUT</code>) چه کاری باید "
+"انجام شود.</p>"
+
+#: editexternalscript.cpp:68
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines what should be done with the errors (i.e. <code>STDERR</code>) of"
+" the script.</p><p>Note: if the action is the same as that chosen for the "
+"output, the channels will be merged and handled together.</p>"
+msgstr ""
+"<p>مشخص می‌کند با خطاهای دست‌نوشته (یعنی <code>STDERR</code>) چه کاری باید "
+"انجام شود.</p><p>نکته: اگر کنش با آنچه برای خروجی انتخاب شده یکسان باشد، "
+"کانال‌ها ادغام شده و با هم مدیریت می‌شوند.</p>"
+
+#: editexternalscript.cpp:76
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "<p>Defines the name of the script. Just for displaying purposes.</p>"
+msgstr "<p>نام دست‌نوشته را تعیین می‌کند. صرفاً برای مقاصد نمایشی است.</p>"
+
+#: editexternalscript.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines the shortcut(s) you can use to execute this external script.</p>"
+msgstr ""
+"<p>میان‌بر(هایی) را که می‌توانید برای اجرای این دست‌نوشته خارجی استفاده "
+"کنید، تعیین می‌کند.</p>"
+
+#: editexternalscript.cpp:88
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines whether documents should be saved before the script gets "
+"executed.</p>"
+msgstr ""
+"<p>مشخص می‌کند که آیا اسناد باید پیش از اجرای دست‌نوشته ذخیره شوند یا "
+"خیر.</p>"
+
+#: editexternalscript.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines whether the output of the script should be shown in a tool "
+"view.</p>"
+msgstr ""
+"<p>مشخص می‌کند که آیا خروجی دست‌نوشته باید در یک نمای ابزار نمایش داده شود "
+"یا خیر.</p>"
+
+#: editexternalscript.cpp:98
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines what type of filtering should be applied to the output. E.g. to "
+"indicate errors by red text.</p>"
+msgstr ""
+"<p>نوع پالایشی که باید روی خروجی اعمال شود را مشخص می‌کند. برای مثال، برای "
+"نشان دادن خطاها با متن قرمز.</p>"
+
+#: editexternalscript.cpp:106
+#, kde-format
+msgctxt "@title:window"
+msgid "Create New External Script"
+msgstr "ایجاد دست‌نوشته خارجی جدید"
+
+#: editexternalscript.cpp:108
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit External Script '%1'"
+msgstr "ویرایش اسکریپت خارجی «%1»"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: editexternalscript.ui:19
+#, kde-format
+msgctxt "@label:textbox"
+msgid "&Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, nameEdit)
+#: editexternalscript.ui:30
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>The name will also be used as the identifier during code completion.</p>\n"
+"  <p><b>Note:</b> No spaces allowed.</p>"
+msgstr ""
+"<p>این نام همچنین به عنوان شناسه در حین تکمیل کد استفاده خواهد شد.</p>\n"
+"  <p><b>نکته:</b> استفاده از فاصله مجاز نیست.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, commandLabel)
+#: editexternalscript.ui:37
+#, kde-format
+msgctxt "@label:textbox"
+msgid "&Command:"
+msgstr "فرمان:"
+
+#. i18n: ectx: property (text), widget (QLabel, stdinLabel)
+#: editexternalscript.ui:51
+#, kde-format
+msgctxt "@label:listbox"
+msgid "&Input:"
+msgstr "ورودی:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stdinCombo)
+#: editexternalscript.ui:62
+#, kde-format
+msgctxt "@item:inlistbox input source"
+msgid "Nothing"
+msgstr "هیچ‌کدام"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stdinCombo)
+#: editexternalscript.ui:67
+#, kde-format
+msgctxt "@item:inlistbox input source"
+msgid "Selection in Current File or Nothing"
+msgstr "انتخاب در پروندهٔ فعلی یا هیچ‌کدام"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stdinCombo)
+#: editexternalscript.ui:72
+#, kde-format
+msgctxt "@item:inlistbox input source"
+msgid "Selection in Current File or Whole File"
+msgstr "انتخاب در پروندهٔ فعلی یا تمام پرونده"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stdinCombo)
+#: editexternalscript.ui:77
+#, kde-format
+msgctxt "@item:inlistbox input source"
+msgid "Contents of Current File"
+msgstr "محتویات پروندهٔ فعلی"
+
+#. i18n: ectx: property (text), widget (QLabel, stdoutLabel)
+#: editexternalscript.ui:85
+#, kde-format
+msgctxt "@label:listbox"
+msgid "&Output:"
+msgstr "خروجی:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stdoutCombo)
+#: editexternalscript.ui:96
+#, kde-format
+msgctxt "@item:inlistbox handle output"
+msgid "Ignore"
+msgstr "نادیده گرفتن"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stdoutCombo)
+#: editexternalscript.ui:101
+#, kde-format
+msgctxt "@item:inlistbox handle output"
+msgid "Insert at Cursor Position of Current File"
+msgstr "درج در موقعیت مکان‌نما در پروندهٔ کنونی"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stdoutCombo)
+#: editexternalscript.ui:106
+#, kde-format
+msgctxt "@item:inlistbox handle output"
+msgid "Replace Selection of Current File or Insert at Cursor Position"
+msgstr "جایگزینی بخش انتخاب‌شده در پروندهٔ کنونی یا درج در موقعیت مکان‌نما"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stdoutCombo)
+#: editexternalscript.ui:111
+#, kde-format
+msgctxt "@item:inlistbox handle output"
+msgid "Replace Selection of Current File or Whole File"
+msgstr "جایگزینی بخش انتخاب‌شده در پروندهٔ کنونی یا کل پرونده"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stdoutCombo)
+#: editexternalscript.ui:116
+#, kde-format
+msgctxt "@item:inlistbox handle output"
+msgid "Replace Contents of Current File"
+msgstr "جایگزینی محتوای پروندهٔ کنونی"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stdoutCombo)
+#: editexternalscript.ui:121
+#, kde-format
+msgctxt "@item:inlistbox handle output"
+msgid "Create New File"
+msgstr "ایجاد پروندهٔ جدید"
+
+#. i18n: ectx: property (text), widget (QLabel, stderrLabel)
+#: editexternalscript.ui:129
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Errors:"
+msgstr "خطاها:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stderrCombo)
+#: editexternalscript.ui:140
+#, kde-format
+msgctxt "@item:inlistbox handle errors"
+msgid "Ignore"
+msgstr "نادیده گرفتن"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stderrCombo)
+#: editexternalscript.ui:145
+#, kde-format
+msgctxt "@item:inlistbox handle errors"
+msgid "Merge with Normal Output"
+msgstr "ادغام با خروجی عادی"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stderrCombo)
+#: editexternalscript.ui:150
+#, kde-format
+msgctxt "@item:inlistbox handle errors"
+msgid "Insert at Cursor Position of Current File"
+msgstr "درج در موقعیت مکان‌نما در پروندهٔ کنونی"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stderrCombo)
+#: editexternalscript.ui:155
+#, kde-format
+msgctxt "@item:inlistbox handle errors"
+msgid "Replace Selection of Current File or Insert at Cursor Position"
+msgstr "جایگزینی بخش انتخاب‌شدهٔ پروندهٔ فعلی یا درج در موقعیت نشانگر"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stderrCombo)
+#: editexternalscript.ui:160
+#, kde-format
+msgctxt "@item:inlistbox handle errors"
+msgid "Replace Selection of Current File or Whole File"
+msgstr "جایگزینی بخش انتخاب‌شدهٔ پروندهٔ فعلی یا کل پرونده"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stderrCombo)
+#: editexternalscript.ui:165
+#, kde-format
+msgctxt "@item:inlistbox handle errors"
+msgid "Replace Contents of Current File"
+msgstr "جایگزینی محتوای پروندهٔ فعلی"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, stderrCombo)
+#: editexternalscript.ui:170
+#, kde-format
+msgctxt "@item:inlistbox handle errors"
+msgid "Create New File"
+msgstr "ایجاد پروندهٔ جدید"
+
+#. i18n: ectx: property (text), widget (QLabel, saveLabel)
+#: editexternalscript.ui:178
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Save &mode:"
+msgstr "حالت ذخیره:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, saveCombo)
+#: editexternalscript.ui:189
+#, kde-format
+msgctxt "@item:inlistbox save mode"
+msgid "Save Nothing"
+msgstr "چیزی ذخیره نشود"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, saveCombo)
+#: editexternalscript.ui:194
+#, kde-format
+msgctxt "@item:inlistbox save mode"
+msgid "Save Active Document"
+msgstr "ذخیرهٔ سند فعال"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, saveCombo)
+#: editexternalscript.ui:199
+#, kde-format
+msgctxt "@item:inlistbox save mode"
+msgid "Save All Open Documents"
+msgstr "ذخیرهٔ تمام سندهای باز"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: editexternalscript.ui:207
+#, kde-format
+msgctxt "@option:check"
+msgid "Show out&put:"
+msgstr "نمایش خروجی:"
+
+#. i18n: ectx: property (text), widget (QLabel, outputFilterLabel)
+#: editexternalscript.ui:224
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Output filter:"
+msgstr "پالایهٔ خروجی:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outputFilterCombo)
+#: editexternalscript.ui:235
+#, kde-format
+msgctxt "@item:inlistbox output filter"
+msgid "No Filter"
+msgstr "بدون پالایه"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outputFilterCombo)
+#: editexternalscript.ui:240
+#, kde-format
+msgctxt "@item:inlistbox output filter"
+msgid "Compiler Filter"
+msgstr "پالایهٔ کامپایلر"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outputFilterCombo)
+#: editexternalscript.ui:245
+#, kde-format
+msgctxt "@item:inlistbox output filter"
+msgid "Script Error Filter"
+msgstr "پالایهٔ خطای اسکریپت"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outputFilterCombo)
+#: editexternalscript.ui:250
+#, kde-format
+msgctxt "@item:inlistbox output filter"
+msgid "Static Analysis Filter"
+msgstr "پالایهٔ تحلیل ایستا"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, shortcutLabel)
+#: editexternalscript.ui:258
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Defines shortcuts you can use to execute this script."
+msgstr ""
+"میان‌برهایی را که می‌توانید برای اجرای این اسکریپت استفاده کنید، تعیین "
+"می‌کند."
+
+#. i18n: ectx: property (text), widget (QLabel, shortcutLabel)
+#: editexternalscript.ui:261
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Shortcut:"
+msgstr "میان‌بر:"
+
+#: externalscriptjob.cpp:88
+#, kde-format
+msgid ""
+"Cannot run script '%1' since it tries to access the editor contents but no "
+"document is open."
+msgstr ""
+"اسکریپت «%1» اجرا نمی‌شود زیرا تلاش می‌کند به محتوای ویرایشگر دسترسی یابد، "
+"اما هیچ سندی باز نیست."
+
+#: externalscriptjob.cpp:228
+#, kde-format
+msgid "Running external script: %1"
+msgstr "در حال اجرای اسکریپت خارجی: %1"
+
+#: externalscriptjob.cpp:272
+#, kde-format
+msgid "*** Killed Application ***"
+msgstr "*** برنامه متوقف شد ***"
+
+#: externalscriptjob.cpp:352
+#, kde-format
+msgid "*** Exited normally ***"
+msgstr "*** با موفقیت خارج شد ***"
+
+#: externalscriptjob.cpp:355
+#, kde-format
+msgid "*** Exited with return code: %1 ***"
+msgstr "*** با کد بازگشتی %1 خارج شد ***"
+
+#: externalscriptjob.cpp:358
+#, kde-format
+msgid "*** Process aborted ***"
+msgstr "*** فرایند لغو شد ***"
+
+#: externalscriptjob.cpp:360
+#, kde-format
+msgid "*** Crashed with return code: %1 ***"
+msgstr "*** با کد بازگشتی %1 از کار افتاد ***"
+
+#: externalscriptjob.cpp:372
+#, kde-format
+msgid ""
+"*** Could not start program '%1'. Make sure that the path is specified "
+"correctly ***"
+msgstr ""
+"*** اجرای برنامهٔ «%1» ممکن نشد. مطمئن شوید مسیر به‌درستی مشخص شده است ***"
+
+#: externalscriptplugin.cpp:126
+#, kde-format
+msgid "External Scripts"
+msgstr "کدنوشته‌های خارجی"
+
+#: externalscriptplugin.cpp:137
+#, kde-format
+msgid "Quick Compile"
+msgstr "کامپایل سریع"
+
+#: externalscriptplugin.cpp:143
+#, kde-format
+msgid "Sort Selection"
+msgstr "مرتب‌سازی انتخاب‌شده‌ها"
+
+#: externalscriptplugin.cpp:151
+#, kde-format
+msgid "Google Selection"
+msgstr "جست‌وجوی انتخاب‌شده‌ها در گوگل"
+
+#: externalscriptplugin.cpp:157
+#, kde-format
+msgid "Paste to Hastebin"
+msgstr "چسباندن در Hastebin"
+
+#: externalscriptplugin.cpp:239
+#, kde-format
+msgctxt "@title:menu"
+msgid "External Scripts"
+msgstr "کدنوشته‌های خارجی"
+
+#: externalscriptview.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "External Scripts"
+msgstr "اسکریپت‌های خارجی"
+
+#: externalscriptview.cpp:50
+#, kde-format
+msgctxt "@action"
+msgid "Add External Script"
+msgstr "افزودن اسکریپت خارجی"
+
+#: externalscriptview.cpp:55
+#, kde-format
+msgctxt "@action"
+msgid "Edit External Script"
+msgstr "ویرایش اسکریپت خارجی"
+
+#: externalscriptview.cpp:60
+#, kde-format
+msgctxt "@action"
+msgid "Remove External Script"
+msgstr "حذف اسکریپت خارجی"
+
+#: externalscriptview.cpp:147
+#, kde-format
+msgid ""
+"<p>Do you really want to remove the external script configuration for "
+"<i>%1</i>?</p><p><i>Note:</i> The script itself will not be removed.</p>"
+msgstr ""
+"<p>آیا واقعاً می‌خواهید پیکربندی اسکریپت خارجی را برای <i>%1</i> حذف "
+"کنید؟</p><p><i>نکته:</i> خود اسکریپت حذف نخواهد شد.</p>"
+
+#: externalscriptview.cpp:150
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirm External Script Removal"
+msgstr "تأیید حذف اسکریپت خارجی"
+
+#: externalscriptview.cpp:151
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "حذف"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, filterText)
+#: externalscriptview.ui:35
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Filter..."
+msgstr "فیلتر…"

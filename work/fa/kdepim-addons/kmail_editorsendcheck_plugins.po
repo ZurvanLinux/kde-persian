@@ -1,0 +1,269 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kmail_editorsendcheck_plugins package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kmail_editorsendcheck_plugins\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 20:42+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: automaticaddcontacts/automaticaddcontactsconfiguredialog.cpp:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure \"Automatic Add Contacts\" Plugin"
+msgstr "پیکربندی افزونهٔ «افزودن خودکار مخاطبان»"
+
+#: automaticaddcontacts/automaticaddcontactsjob.cpp:107
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You must create an address book before adding a contact. Do you want to "
+"create an address book?"
+msgstr ""
+"پیش از افزودن مخاطب باید یک دفترچه نشانی ایجاد کنید. آیا می‌خواهید یک دفترچه"
+" نشانی ایجاد کنید؟"
+
+#: automaticaddcontacts/automaticaddcontactsjob.cpp:108
+#, kde-format
+msgctxt "@title:window"
+msgid "No Address Book Available"
+msgstr "هیچ دفترچه نشانی‌ای در دسترس نیست"
+
+#: automaticaddcontacts/automaticaddcontactsjob.cpp:109
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Address Book"
+msgstr "ایجاد دفترچه نشانی"
+
+#: automaticaddcontacts/automaticaddcontactsjob.cpp:113
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Address Book"
+msgstr "افزودن دفترچه نشانی"
+
+#: automaticaddcontacts/automaticaddcontactstabwidget.cpp:29
+#, kde-format
+msgctxt "@option:check"
+msgid "Automatic Add Contacts"
+msgstr "افزودن خودکار مخاطبان"
+
+#: automaticaddcontacts/automaticaddcontactstabwidget.cpp:43
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select the addressbook in which to store contacts:"
+msgstr "دفترچه نشانی را برای ذخیرهٔ مخاطبان انتخاب کنید:"
+
+#: checkbeforesend/checkbeforesendinterface.cpp:38
+#, kde-format
+msgid "Do you want to send the email as HTML?"
+msgstr "آیا می‌خواهید رایانامه را به‌صورت HTML ارسال کنید؟"
+
+#: checkbeforesend/checkbeforesendinterface.cpp:39
+#, kde-format
+msgid "Send email as plain text"
+msgstr "ارسال رایانامه به‌صورت متن ساده"
+
+#: checkbeforesend/checkbeforesendinterface.cpp:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Send As HTML"
+msgstr "ارسال به‌صورت HTML"
+
+#: checkbeforesend/checkbeforesendupdatesmtpdialog.cpp:17
+#, kde-format
+msgctxt "@option:check"
+msgid "Update SMTP server"
+msgstr "به‌روزرسانی کارساز SMTP"
+
+#: checkbeforesend/checkbeforesendupdatesmtpdialog.cpp:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Check SMTP server"
+msgstr "بررسی کارساز SMTP"
+
+#: checkbeforesend/checkbeforesendupdatesmtpdialog.cpp:23
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"Do you want to send the email with a different SMTP than the one defined in "
+"the current identity?"
+msgstr ""
+"آیا می‌خواهید رایانامه را با یک SMTP متفاوت از مورد تعریف‌شده در هویت فعلی "
+"بفرستید؟"
+
+#: checkbeforesend/configurewidget/checkbeforesendconfiguredialog.cpp:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure \"Check Before Send Mail\" Plugin"
+msgstr "پیکربندی افزونهٔ «بررسی پیش از ارسال رایانامه»"
+
+#: checkbeforesend/configurewidget/checkbeforesendconfigurewidget.cpp:20
+#, kde-format
+msgctxt "@option:check"
+msgid "Send as plain text"
+msgstr "ارسال به‌صورت متن ساده"
+
+#: checkbeforesend/configurewidget/checkbeforesendconfigurewidget.cpp:21
+#, kde-format
+msgctxt "@option:check"
+msgid "Use SMTP server defined in identity"
+msgstr "استفاده از کارساز SMTP تعریف‌شده در هویت"
+
+#: checkbeforesend/configurewidget/checkbeforesendconfigurewidget.cpp:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Check duplicated emails addresses"
+msgstr "بررسی نشانی‌های رایانامهٔ تکراری"
+
+#: checkbeforesend/configurewidget/checkbeforesendconfigurewidget.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Check send attachment"
+msgstr "بررسی ارسال پیوست"
+
+#: checkbeforesend/duplicateemails/checkduplicateemailsdialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Duplicated emails"
+msgstr "رایانامه‌های تکراری"
+
+#: checkbeforesend/duplicateemails/checkduplicateemailsdialog.cpp:30
+#, kde-format
+msgctxt "@label:textbox"
+msgid "These emails are duplicated. Do you want to send email?"
+msgstr "این رایانامه‌ها تکراری هستند. آیا مایلید رایانامه را بفرستید؟"
+
+#: checkbeforesend/duplicateemails/checkduplicateemailsdialog.cpp:54
+#, kde-format
+msgctxt "emails (number of emails)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: checkbeforesend/sendattachments/checkattachmentdialog.cpp:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Check Attachment"
+msgstr "بررسی پیوست"
+
+#: checkbeforesend/sendattachments/checkattachmentdialog.cpp:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Do you want to send some attachment?"
+msgstr "آیا می‌خواهید پیوستی ارسال کنید؟"
+
+#: confirm-address/confirmaddressconfiguredialog.cpp:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure \"Confirm Email Address\" Plugin"
+msgstr "پیکربندی افزونهٔ «تأیید نشانی رایانامه»"
+
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:35
+#, kde-format
+msgctxt "@option:radio"
+msgid "Accepted Domain Name"
+msgstr "نام دامنهٔ پذیرفته‌شده"
+
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:40
+#, kde-format
+msgctxt "@option:radio"
+msgid "Rejected Domain Name"
+msgstr "نام دامنهٔ ردشده"
+
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:48
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:67
+#, kde-format
+msgid "A&dd…"
+msgstr "افزودن…"
+
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:49
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:68
+#, kde-format
+msgid "Re&move"
+msgstr "حذف"
+
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:50
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:69
+#, kde-format
+msgid "Mod&ify…"
+msgstr "تغییر…"
+
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:51
+#, kde-format
+msgid "Enter new domain name:"
+msgstr "نام دامنهٔ جدید را وارد کنید:"
+
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:53
+#, kde-format
+msgid "Do you want to remove this domain?"
+msgstr "آیا می‌خواهید این دامنه را حذف کنید؟"
+
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:57
+#, kde-format
+msgid "Whitelist of Addresses"
+msgstr "فهرست سفید نشانی‌ها"
+
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:70
+#, kde-format
+msgid "Enter new email address:"
+msgstr "نشانی رایانامهٔ جدید را وارد کنید:"
+
+#: confirm-address/confirmaddressconfiguretabwidget.cpp:72
+#, kde-format
+msgid "Do you want to remove this email address?"
+msgstr "آیا می‌خواهید این نشانی رایانامه را حذف کنید؟"
+
+#: confirm-address/confirmaddressdialog.cpp:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Selected Emails to WhiteList"
+msgstr "افزودن رایانامه‌های انتخاب‌شده به فهرست سفید"
+
+#: confirm-address/confirmaddressdialog.cpp:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirm Addresses"
+msgstr "تأیید نشانی‌ها"
+
+#: confirm-address/confirmaddressdialog.cpp:90
+#, kde-format
+msgid "All selected emails are added to white list"
+msgstr "همهٔ رایانامه‌های انتخاب‌شده به فهرست سفید اضافه شدند"
+
+#: confirm-address/confirmaddressdialog.cpp:90
+#, kde-format
+msgctxt "@title:window"
+msgid "Emails added to white list"
+msgstr "رایانامه‌ها به فهرست سفید اضافه شدند"
+
+#: confirm-address/confirmaddressemailentrydialog.cpp:22
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Enter new domain name:"
+msgstr "نام دامنهٔ جدید را وارد کنید:"
+
+#: confirm-address/confirmaddresssimplestringlisteditor.cpp:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Value"
+msgstr "افزودن مقدار"
+
+#: confirm-address/confirmaddresssimplestringlisteditor.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Change Value"
+msgstr "تغییر مقدار"
+
+#: confirm-address/confirmaddresswidget.cpp:23
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Potentially invalid emails are displayed in red:"
+msgstr "رایانامه‌های احتمالاً نامعتبر با رنگ قرمز نمایش داده می‌شوند:"

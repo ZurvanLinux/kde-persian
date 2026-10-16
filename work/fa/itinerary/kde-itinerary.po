@@ -1,0 +1,5017 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kde-itinerary package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kde-itinerary\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-11 00:51+0000\n"
+"PO-Revision-Date: 2026-10-15 18:14+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: app/AboutPage.qml:18 app/Main.qml:97
+#, kde-format
+msgid "About"
+msgstr "درباره"
+
+#: app/AboutPage.qml:31
+#, kde-format
+msgid "License: <a href=\"%2\">%1</a>"
+msgstr "پروانه: <a href=\"%2\">%1</a>"
+
+#: app/AboutPage.qml:40
+#, kde-format
+msgid "KDE Itinerary uses public transport data from the following sources."
+msgstr ""
+"برنامهٔ KDE Itinerary از داده‌های حمل‌ونقل عمومیِ منابع زیر استفاده می‌کند."
+
+#: app/AboutPage.qml:51
+#, kde-format
+msgid "Developer information"
+msgstr "اطلاعات توسعه‌دهنده"
+
+#: app/AboutPage.qml:57
+#, kde-format
+msgid "Application version: %1"
+msgstr "نسخهٔ برنامه: %1"
+
+#: app/AboutPage.qml:73
+#, kde-format
+msgid "Extractor capabilities:"
+msgstr "قابلیت‌های استخراج‌کننده:"
+
+#: app/AboutPage.qml:78
+#, kde-format
+msgid "Extractor capabilities copied to clipboard"
+msgstr "قابلیت‌های استخراج‌کننده در تخته‌گیره رونوشت شد"
+
+#: app/ActionsCard.qml:34
+#, kde-format
+msgid "Show Boarding Pass"
+msgstr "نمایش کارت پرواز"
+
+#: app/ActionsCard.qml:34 app/TicketPage.qml:149
+#, kde-format
+msgid "Show Ticket"
+msgstr "نمایش بلیت"
+
+#: app/ActionsCard.qml:40
+#, kde-format
+msgid "Add transfer before"
+msgstr "افزودن ترنسفر قبل"
+
+#: app/ActionsCard.qml:49
+#, kde-format
+msgid "Add transfer after"
+msgstr "افزودن ترنسفر بعد"
+
+#: app/ActionsCard.qml:58 app/ProgramMembershipPage.qml:169
+#: app/TicketPage.qml:176
+#, kde-format
+msgid "Edit"
+msgstr "ویرایش"
+
+#: app/ActionsCard.qml:64
+#, kde-format
+msgid "Add to calendar…"
+msgstr "افزودن به تقویم…"
+
+#: app/ActionsCard.qml:77 app/ProgramMembershipPage.qml:182
+#: app/TicketPage.qml:191 app/TripGroupPage.qml:762
+#, kde-format
+msgid "Export…"
+msgstr "برون‌بری…"
+
+#: app/ActionsCard.qml:82
+#, kde-format
+msgid "Delete…"
+msgstr "حذف…"
+
+#: app/ActionsCard.qml:133
+#, kde-format
+msgid "Delete Event"
+msgstr "حذف رویداد"
+
+#: app/ActionsCard.qml:134
+#, kde-format
+msgid "Do you really want to delete this event?"
+msgstr "آیا واقعاً می‌خواهید این رویداد را حذف کنید؟"
+
+#: app/ActionsCard.qml:140
+#, kde-format
+msgid "Export Reservation"
+msgstr "برون‌بری رزرو"
+
+#: app/ActionsCard.qml:149 app/ProgramMembershipPage.qml:147
+#: app/TicketPage.qml:141 app/TripGroupPage.qml:712
+#, kde-format
+msgid "Actions"
+msgstr "اقدامات"
+
+#: app/ActionsCard.qml:167
+#, kde-format
+msgctxt "cancel as in revoking a booking"
+msgid "Cancel Reservation"
+msgstr "لغو رزرو"
+
+#: app/ActionsCard.qml:168
+#, kde-format
+msgid "Check-in"
+msgstr "پذیرش"
+
+#: app/ActionsCard.qml:169
+#, kde-format
+msgid "Download"
+msgstr "بارگیری"
+
+#: app/ActionsCard.qml:170
+#, kde-format
+msgctxt "participate in an event"
+msgid "Join"
+msgstr "پیوستن"
+
+#: app/ActionsCard.qml:171
+#, kde-format
+msgid "Reserve"
+msgstr "رزرو"
+
+#: app/ActionsCard.qml:172
+#, kde-format
+msgid "Change Reservation"
+msgstr "تغییر رزرو"
+
+#: app/ActionsCard.qml:173
+#, kde-format
+msgid "View Reservation"
+msgstr "مشاهده رزرو"
+
+#: app/AlternativeJourneyPage.qml:21
+#, kde-format
+msgid "Alternative Connections"
+msgstr "مسیرهای جایگزین"
+
+#: app/AlternativeJourneyPage.qml:69 app/DepartureQueryPage.qml:28
+#: app/JourneyFilterPage.qml:72 app/TransferPage.qml:108
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Long distance trains"
+msgstr "قطارهای مسافت دور"
+
+#: app/AlternativeJourneyPage.qml:78 app/DepartureQueryPage.qml:36
+#: app/JourneyFilterPage.qml:82 app/TransferPage.qml:116
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Local trains"
+msgstr "قطارهای محلی"
+
+#: app/AlternativeJourneyPage.qml:87 app/DepartureQueryPage.qml:44
+#: app/JourneyFilterPage.qml:92 app/TransferPage.qml:124
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Rapid transit"
+msgstr "حمل‌ونقل سریع"
+
+#: app/AlternativeJourneyPage.qml:96 app/DepartureQueryPage.qml:52
+#: app/JourneyFilterPage.qml:102 app/TransferPage.qml:132
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Bus"
+msgstr "اتوبوس"
+
+#: app/AlternativeJourneyPage.qml:105 app/DepartureQueryPage.qml:60
+#: app/JourneyFilterPage.qml:112 app/TransferPage.qml:140
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Ferry"
+msgstr "کشتی مسافربری"
+
+#: app/AlternativeJourneyPage.qml:114 app/DepartureQueryPage.qml:68
+#: app/JourneyFilterPage.qml:122
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Ride sharing"
+msgstr "سفر اشتراکی"
+
+#: app/AlternativeJourneyPage.qml:123 app/DepartureQueryPage.qml:76
+#: app/JourneyFilterPage.qml:132
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Airplane"
+msgstr "هواپیما"
+
+#: app/AlternativeJourneyPage.qml:136
+#, kde-format
+msgid "Replace Journey"
+msgstr "جایگزینی سفر"
+
+#: app/AlternativeJourneyPage.qml:137
+#, kde-format
+msgid ""
+"Do you really want to replace your existing reservation with the newly "
+"selected journey?"
+msgstr ""
+"آیا واقعاً می‌خواهید رزرو فعلی خود را با سفر جدید انتخاب‌شده جایگزین کنید؟"
+
+#: app/AlternativeJourneyPage.qml:141
+#, kde-format
+msgid "Replace"
+msgstr "جایگزینی"
+
+#: app/AlternativeJourneyPage.qml:159
+#, kde-format
+msgid "Destination:"
+msgstr "مقصد:"
+
+#: app/applicationcontroller.cpp:194
+#, kde-format
+msgctxt "geo coordinate"
+msgid "%1, %2"
+msgstr "%1، %2"
+
+#: app/applicationcontroller.cpp:315
+#, kde-format
+msgid "One reservation imported."
+msgid_plural "%1 reservations imported."
+msgstr[0] "یک رزرو درون‌ریزی شد."
+msgstr[1] "%1 رزرو درون‌ریزی شدند."
+
+#: app/applicationcontroller.cpp:318
+#, kde-format
+msgid "One pass imported."
+msgid_plural "%1 passes imported."
+msgstr[0] "یک بلیت درون‌ریزی شد."
+msgstr[1] "%1 بلیت درون‌ریزی شدند."
+
+#: app/applicationcontroller.cpp:321
+#, kde-format
+msgid "One health certificate imported."
+msgid_plural "%1 health certificates imported."
+msgstr[0] "یک گواهی سلامت درون‌ریزی شد."
+msgstr[1] "%1 گواهی سلامت درون‌ریزی شدند."
+
+#: app/applicationcontroller.cpp:343 app/applicationcontroller.cpp:386
+#: app/applicationcontroller.cpp:404 app/applicationcontroller.cpp:451
+#: app/applicationcontroller.cpp:490 app/applicationcontroller.cpp:508
+#: app/applicationcontroller.cpp:549 app/applicationcontroller.cpp:585
+#: app/applicationcontroller.cpp:603
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Export failed: %1"
+msgstr "برون‌ریزی ناموفق بود: %1"
+
+#: app/applicationcontroller.cpp:360 app/applicationcontroller.cpp:369
+#: app/applicationcontroller.cpp:464 app/applicationcontroller.cpp:473
+#: app/applicationcontroller.cpp:559 app/applicationcontroller.cpp:568
+#, kde-format
+msgid "Export completed."
+msgstr "برون‌ریزی کامل شد."
+
+#: app/applicationcontroller.cpp:396
+#, kde-format
+msgid "Trip sent."
+msgstr "سفر ارسال شد."
+
+#: app/applicationcontroller.cpp:500
+#, kde-format
+msgid "Reservation sent."
+msgstr "رزرو ارسال شد."
+
+#: app/applicationcontroller.cpp:595
+#, kde-format
+msgid "Pass sent."
+msgstr "بلیت ارسال شد."
+
+#: app/applicationcontroller.cpp:633
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Saving failed: %1"
+msgstr "ذخیره‌سازی ناموفق بود: %1"
+
+#: app/applicationcontroller.cpp:638
+#, kde-format
+msgid "File saved successfully."
+msgstr "پرونده با موفقیت ذخیره شد."
+
+#: app/applicationcontroller.cpp:645
+#, kde-format
+msgid ""
+"File was exported with a newer version of Itinerary. Some information might "
+"not be imported correctly."
+msgstr ""
+"پرونده با نگارش جدیدتری از Itinerary صادر شده است. ممکن است برخی از اطلاعات "
+"به درستی وارد نشوند."
+
+#: app/applicationcontroller.cpp:673
+#, kde-format
+msgid "Import completed."
+msgstr "وارد کردن کامل شد."
+
+#: app/BarcodeScanModeButton.qml:17
+#, kde-format
+msgctxt "@action:button"
+msgid "Barcode Scan Mode"
+msgstr "حالت پویش بارکد"
+
+#: app/BarcodeScanModeController.qml:41
+#, kde-format
+msgid "In barcode scanning mode"
+msgstr "در حالت پویش بارکد"
+
+#: app/BarcodeScannerPage.qml:18
+#, kde-format
+msgid "Scan Barcode"
+msgstr "پویش بارکد"
+
+#: app/BarcodeScannerPage.qml:81
+#, kde-format
+msgid "No camera available."
+msgstr "هیچ دوربینی در دسترس نیست."
+
+#: app/BarcodeScannerPage.qml:94
+#, kde-format
+msgid "Light"
+msgstr "چراغ"
+
+#: app/BoatDelegate.qml:39 app/BoatEditor.qml:108 app/BoatPage.qml:41
+#, kde-format
+msgctxt "default transport name for a boat trip"
+msgid "Ferry"
+msgstr "کشتی مسافربری"
+
+#: app/BoatEditor.qml:18
+#, kde-format
+msgid "New Boat Trip"
+msgstr "سفر قایقی جدید"
+
+#: app/BoatEditor.qml:18
+#, kde-format
+msgid "Edit Boat Trip"
+msgstr "ویرایش سفر با قایق"
+
+#: app/BoatEditor.qml:69 app/BoatEditor.qml:165
+#, kde-format
+msgctxt "boat departure"
+msgid "Change Departure Terminal"
+msgstr "تغییر پایانهٔ مبدأ"
+
+#: app/BoatEditor.qml:75
+#, kde-format
+msgctxt "boat departure"
+msgid "Change departure terminal"
+msgstr "تغییر پایانهٔ مبدأ"
+
+#: app/BoatEditor.qml:85 app/BoatEditor.qml:227
+#, kde-format
+msgctxt "boat arrival"
+msgid "Change Arrival Terminal"
+msgstr "تغییر پایانهٔ مقصد"
+
+#: app/BoatEditor.qml:91
+#, kde-format
+msgctxt "boat arrival"
+msgid "Change arrival terminal"
+msgstr "تغییر پایانهٔ مقصد"
+
+#: app/BoatEditor.qml:112 app/BusEditor.qml:128 app/EventEditor.qml:54
+#: app/FlightEditor.qml:79 app/HotelEditor.qml:53 app/ImportPage.qml:21
+#: app/RestaurantEditor.qml:53 app/StopoverDetailsPage.qml:128
+#: app/TrainEditor.qml:135
+#, kde-format
+msgid "Trip"
+msgstr "سفر"
+
+#: app/BoatEditor.qml:124 app/BoatPage.qml:95
+#, kde-format
+msgctxt "Boat departure"
+msgid "Departure"
+msgstr "حرکت"
+
+#: app/BoatEditor.qml:131
+#, kde-format
+msgctxt "Boat departure"
+msgid "Departure Time"
+msgstr "زمان حرکت"
+
+#: app/BoatEditor.qml:135 app/BusEditor.qml:169 app/TrainEditor.qml:177
+#, kde-format
+msgid "Departure time has to be set."
+msgstr "زمان حرکت باید تنظیم شود."
+
+#: app/BoatEditor.qml:140 app/BoatEditor.qml:198
+#, kde-format
+msgctxt "boat terminal"
+msgid "Terminal Name"
+msgstr "نام پایانه"
+
+#: app/BoatEditor.qml:143
+#, kde-format
+msgid "Departure terminal must not be empty."
+msgstr "پایانهٔ مبدأ نباید خالی باشد."
+
+#: app/BoatEditor.qml:158 app/BoatEditor.qml:221
+#, kde-format
+msgctxt "boat terminal"
+msgid "Terminal"
+msgstr "پایانه"
+
+#: app/BoatEditor.qml:173 app/BoatPage.qml:135
+#, kde-format
+msgctxt "Boat arrival"
+msgid "Arrival"
+msgstr "ورود"
+
+#: app/BoatEditor.qml:180
+#, kde-format
+msgctxt "Boat arrival"
+msgid "Arrival Time"
+msgstr "زمان ورود"
+
+#: app/BoatEditor.qml:191 app/BusEditor.qml:255 app/TrainEditor.qml:276
+#, kde-format
+msgid "Arrival time has to be after the departure time."
+msgstr "زمان ورود باید بعد از زمان حرکت باشد."
+
+#: app/BoatEditor.qml:201
+#, kde-format
+msgid "Arrival terminal must not be empty."
+msgstr "پایانهٔ مقصد نباید خالی باشد."
+
+#: app/BoatPage.qml:18
+#, kde-format
+msgid "Boat Ticket"
+msgstr "بلیت قایق"
+
+#: app/BoatPage.qml:57 app/BusPage.qml:56 app/FlightPage.qml:63
+#: app/TrainPage.qml:80 app/TransferDelegate.qml:71
+#, kde-format
+msgid "%1 to %2"
+msgstr "%1 به %2"
+
+#: app/BoatPage.qml:100 app/BusPage.qml:104 app/TrainPage.qml:122
+#, kde-format
+msgid "Departure time"
+msgstr "زمان حرکت"
+
+#: app/BoatPage.qml:109 app/BoatPage.qml:153
+#, kde-format
+msgctxt "Boat terminal"
+msgid "Terminal"
+msgstr "پایانه"
+
+#: app/BoatPage.qml:123 app/BoatPage.qml:164 app/BusPage.qml:155
+#: app/BusPage.qml:225 app/FlightPage.qml:209 app/FlightPage.qml:263
+#: app/TrainPage.qml:182 app/TrainPage.qml:269
+#, kde-format
+msgid "Additional information"
+msgstr "اطلاعات بیشتر"
+
+#: app/BoatPage.qml:140 app/BusPage.qml:179 app/TrainPage.qml:210
+#, kde-format
+msgid "Arrival time"
+msgstr "زمان ورود"
+
+#: app/BoatPage.qml:189 app/BusPage.qml:270 app/FlightPage.qml:292
+#: app/JourneyQueryPage.qml:99 app/TrainPage.qml:343
+#, kde-format
+msgctxt "purchase a ticket"
+msgid "Book"
+msgstr "رزرو"
+
+#: app/BoatPage.qml:195 app/BusPage.qml:276 app/FlightPage.qml:298
+#: app/TrainPage.qml:358
+#, kde-format
+msgid "Alternatives"
+msgstr "گزینه‌های جایگزین"
+
+#: app/BookingCard.qml:24
+#, kde-format
+msgid "Booking"
+msgstr "رزرو"
+
+#: app/BookingCard.qml:30 app/BookingEditorCard.qml:43
+#, kde-format
+msgid "Reference"
+msgstr "شناسه پیگیری"
+
+#: app/BookingCard.qml:36 app/BookingCard.qml:68
+#: app/ProgramMembershipCard.qml:46 app/ProgramMembershipPage.qml:110
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy to Clipboard"
+msgstr "رونوشت در بریده‌دان"
+
+#: app/BookingCard.qml:40
+#, kde-format
+msgid "Booking reference copied to clipboard"
+msgstr "شناسه پیگیری رزرو در بریده‌دان کپی شد"
+
+#: app/BookingCard.qml:53 app/BookingEditorCard.qml:51 app/TicketEditor.qml:71
+#, kde-format
+msgid "Under name"
+msgstr "به نام"
+
+#: app/BookingCard.qml:62
+#, kde-format
+msgid "Ticket number:"
+msgstr "شماره بلیت:"
+
+#: app/BookingCard.qml:72
+#, kde-format
+msgid "Ticket number copied to clipboard"
+msgstr "شماره بلیت در بریده‌دان کپی شد"
+
+#: app/BookingCard.qml:86
+#, kde-format
+msgid "Ticket valid from"
+msgstr "بلیت معتبر از"
+
+#: app/BookingCard.qml:94
+#, kde-format
+msgid "Ticket valid until"
+msgstr "بلیت معتبر تا"
+
+#: app/BookingEditorCard.qml:37
+#, kde-format
+msgctxt "@title:group"
+msgid "Booking"
+msgstr "رزرو"
+
+#: app/BookingEditorCard.qml:66
+#, kde-format
+msgctxt "canceled reservation"
+msgid "Canceled"
+msgstr "لغوشده"
+
+#: app/BookingEditorCard.qml:67
+#, kde-format
+msgctxt "canceled reservation"
+msgid "Booking has been canceled."
+msgstr "رزرو لغو شد."
+
+#: app/BusDelegate.qml:38
+#, kde-format
+msgctxt "@info"
+msgid "Bus"
+msgstr "اتوبوس"
+
+#: app/BusDelegate.qml:53 app/BusDelegate.qml:104
+#, kde-format
+msgctxt "bus station platform"
+msgid "Platform changed to %1"
+msgstr "سکوی سوار شدن به %1 تغییر یافت"
+
+#: app/BusDelegate.qml:55 app/BusDelegate.qml:106
+#, kde-format
+msgctxt "bus station platform"
+msgid "Platform %1"
+msgstr "سکوی %1"
+
+#: app/BusDelegate.qml:70
+#, kde-format
+msgctxt "bus seat"
+msgid "Seat: <b>%1</b>"
+msgstr "صندلی: <b>%1</b>"
+
+#: app/BusDelegate.qml:120 app/TrainDelegate.qml:128
+#, kde-format
+msgctxt "from location 1 to location 2"
+msgid "%1 to %2"
+msgstr "%1 به %2"
+
+#: app/BusEditor.qml:74
+#, kde-format
+msgctxt "@title"
+msgid "New Bus Reservation"
+msgstr "رزرو اتوبوس جدید"
+
+#: app/BusEditor.qml:74
+#, kde-format
+msgctxt "@title"
+msgid "Edit Bus Reservation"
+msgstr "ویرایش رزرو اتوبوس"
+
+#: app/BusEditor.qml:81 app/BusEditor.qml:227
+#, kde-format
+msgctxt "bus departure"
+msgid "Change Departure Stop"
+msgstr "تغییر ایستگاه مبدا"
+
+#: app/BusEditor.qml:87
+#, kde-format
+msgctxt "bus departure"
+msgid "Change departure stop"
+msgstr "تغییر ایستگاه مبدا"
+
+#: app/BusEditor.qml:97 app/BusEditor.qml:317
+#, kde-format
+msgctxt "bus arrival"
+msgid "Change Arrival Stop"
+msgstr "تغییر ایستگاه مقصد"
+
+#: app/BusEditor.qml:103
+#, kde-format
+msgctxt "bus arrival"
+msgid "Change arrival stop"
+msgstr "تغییر ایستگاه مقصد"
+
+#: app/BusEditor.qml:123
+#, kde-format
+msgctxt "@title"
+msgid "Bus"
+msgstr "اتوبوس"
+
+#: app/BusEditor.qml:141
+#, kde-format
+msgctxt "@title:group"
+msgid "Bus"
+msgstr "اتوبوس"
+
+#: app/BusEditor.qml:150
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Bus number"
+msgstr "شماره اتوبوس"
+
+#: app/BusEditor.qml:156
+#, kde-format
+msgctxt "bus departure"
+msgid "Departure"
+msgstr "حرکت"
+
+#: app/BusEditor.qml:165
+#, kde-format
+msgctxt "Bus departure"
+msgid "Departure Time"
+msgstr "زمان حرکت"
+
+#: app/BusEditor.qml:178
+#, kde-format
+msgctxt "Bus stop"
+msgid "Stop"
+msgstr "ایستگاه"
+
+#: app/BusEditor.qml:181
+#, kde-format
+msgid "Departure bus stop must not be empty."
+msgstr "ایستگاه اتوبوس مبدأ نباید خالی باشد."
+
+#: app/BusEditor.qml:210
+#, kde-format
+msgctxt "bus stop"
+msgid "Stop Name"
+msgstr "نام ایستگاه"
+
+#: app/BusEditor.qml:235
+#, kde-format
+msgctxt "bus arrival"
+msgid "Arrival"
+msgstr "رسیدن"
+
+#: app/BusEditor.qml:244 app/TrainEditor.qml:265
+#, kde-format
+msgctxt "Train arrival"
+msgid "Arrival Time"
+msgstr "زمان رسیدن"
+
+#: app/BusEditor.qml:265
+#, kde-format
+msgctxt "Bus stop"
+msgid "Stop Name"
+msgstr "نام ایستگاه"
+
+#: app/BusEditor.qml:268
+#, kde-format
+msgid "Arrival stop must not be empty."
+msgstr "ایستگاه مقصد نباید خالی باشد."
+
+#: app/BusEditor.qml:302
+#, kde-format
+msgctxt "bus stop"
+msgid "Stop"
+msgstr "ایستگاه"
+
+#: app/BusEditor.qml:326 app/BusEditor.qml:332 app/BusPage.qml:237
+#, kde-format
+msgctxt "Bus seat"
+msgid "Seat"
+msgstr "صندلی"
+
+#: app/BusPage.qml:20
+#, kde-format
+msgid "Bus Ticket"
+msgstr "بلیت اتوبوس"
+
+#: app/BusPage.qml:91
+#, kde-format
+msgctxt "Bus departure"
+msgid "Departure"
+msgstr "حرکت"
+
+#: app/BusPage.qml:125 app/TrainPage.qml:151
+#, kde-format
+msgid "Departure date"
+msgstr "تاریخ حرکت"
+
+#: app/BusPage.qml:135 app/BusPage.qml:205
+#, kde-format
+msgctxt "bus station"
+msgid "Station"
+msgstr "ایستگاه"
+
+#: app/BusPage.qml:167
+#, kde-format
+msgctxt "Bus arrival"
+msgid "Arrival"
+msgstr "رسیدن"
+
+#: app/calendarhelper.cpp:28
+#, kde-format
+msgctxt "%1 is the transfer destination"
+msgid "Transfer to %1"
+msgstr "انتقال به %1"
+
+#: app/CalendarSelectionDialog.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Select Calendar"
+msgstr "انتخاب تقویم"
+
+#: app/CarRentalDelegate.qml:32
+#, kde-format
+msgid "Rental Car Drop-off"
+msgstr "تحویل خودروی کرایه‌ای"
+
+#: app/CarRentalDelegate.qml:33
+#, kde-format
+msgid "Rental Car Pick-up"
+msgstr "دریافت خودروی کرایه‌ای"
+
+#: app/CarRentalDelegate.qml:60
+#, kde-format
+msgctxt "%1 is a date/time"
+msgid "Drop-off: %1"
+msgstr "تحویل: %1"
+
+#: app/CarRentalPage.qml:15 app/CarRentalPage.qml:22
+#, kde-format
+msgid "Rental Car"
+msgstr "خودروی اجاره‌ای"
+
+#: app/CarRentalPage.qml:26
+#, kde-format
+msgid "Pick-up"
+msgstr "دریافت"
+
+#: app/CarRentalPage.qml:32 app/CarRentalPage.qml:58
+#, kde-format
+msgid "Time"
+msgstr "زمان"
+
+#: app/CarRentalPage.qml:43 app/CarRentalPage.qml:69
+#: app/FormPlaceDelegate.qml:32 app/HotelPage.qml:48
+#, kde-format
+msgid "Location"
+msgstr "مکان"
+
+#: app/CarRentalPage.qml:52
+#, kde-format
+msgid "Drop-off"
+msgstr "تحویل"
+
+#: app/CarRentalPage.qml:78 app/StopoverDetailsPage.qml:136
+#, kde-format
+msgid "Vehicle"
+msgstr "وسیله نقلیه"
+
+#: app/CarRentalPage.qml:83 app/HealthCertificateTest.qml:73
+#: app/HealthCertificateVaccination.qml:85
+#, kde-format
+msgid "Type"
+msgstr "نوع"
+
+#: app/CarRentalPage.qml:93
+#, kde-format
+msgid "Model"
+msgstr "مدل"
+
+#: app/CarRentalPage.qml:103
+#, kde-format
+msgid "Brand"
+msgstr "برند"
+
+#: app/ContactCard.qml:22 app/ContactEditorCard.qml:27
+#, kde-format
+msgctxt "@title:group"
+msgid "Contact"
+msgstr "اطلاعات تماس"
+
+#: app/ContactCard.qml:27 app/ContactEditorCard.qml:33
+#, kde-format
+msgid "Telephone"
+msgstr "تلفن"
+
+#: app/ContactCard.qml:37 app/ContactEditorCard.qml:42
+#, kde-format
+msgid "Email"
+msgstr "رایانامه"
+
+#: app/ContactCard.qml:47 app/ContactEditorCard.qml:51 app/EventEditor.qml:133
+#: app/EventPage.qml:91
+#, kde-format
+msgid "Website"
+msgstr "وبگاه"
+
+#: app/CurrencyConverterDelegate.qml:32 app/LocationInfoDelegate.qml:117
+#, kde-format
+msgid "Currency: %1"
+msgstr "واحد پول: %1"
+
+#: app/DepartureQueryPage.qml:22
+#, kde-format
+msgid "Departures"
+msgstr "حرکت‌ها"
+
+#: app/DepartureQueryPage.qml:137
+#, kde-format
+msgctxt "@action:button"
+msgid "Load earlier departures"
+msgstr "بارگذاری حرکت‌های پیشین"
+
+#: app/DepartureQueryPage.qml:163 app/JourneyQueryPage.qml:172
+#: app/TransferPage.qml:321
+#, kde-format
+msgctxt "@action:button"
+msgid "Load later connections"
+msgstr "بارگذاری اتصالات پسین"
+
+#: app/DepartureQueryPage.qml:172 app/JourneyQueryPage.qml:179
+#: app/TransferPage.qml:328
+#, kde-format
+msgid "Data providers:"
+msgstr "فراهم‌کنندگان داده:"
+
+#: app/DepartureQueryPage.qml:180 app/JourneyQueryPage.qml:188
+#: app/TransferPage.qml:336
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Loading"
+msgstr "در حال بارگذاری"
+
+#: app/DepartureQueryPage.qml:180 app/JourneyQueryPage.qml:190
+#: app/TransferPage.qml:336
+#, kde-format
+msgctxt "@info:status"
+msgid "Error"
+msgstr "خطا"
+
+#: app/DocumentsCard.qml:35
+#, kde-format
+msgid "Add Document"
+msgstr "افزودن سند"
+
+#: app/DocumentsCard.qml:37 app/ImportAction.qml:42 app/ImportAction.qml:43
+#: app/MyDataPage.qml:207
+#, kde-format
+msgid "All Files (*.*)"
+msgstr "همهٔ پرونده‌ها (*.*)"
+
+#: app/DocumentsCard.qml:65 app/DocumentsCard.qml:80
+#, kde-format
+msgid "Delete Document"
+msgstr "حذف سند"
+
+#: app/DocumentsCard.qml:81
+#, kde-format
+msgid "Do you really want to delete this document?"
+msgstr "آیا واقعاً می‌خواهید این سند را حذف کنید؟"
+
+#: app/DocumentsCard.qml:87 app/GenericPkPassPage.qml:43
+#: app/GenericPkPassPage.qml:71 app/HealthCertificatePage.qml:49
+#: app/HealthCertificatePage.qml:63 app/ProgramMembershipPage.qml:45
+#: app/ProgramMembershipPage.qml:188 app/ReservationDeletionDialog.qml:42
+#: app/TicketPage.qml:48 app/TicketPage.qml:197 app/TripGroupPage.qml:308
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: app/DocumentsCard.qml:99
+#, kde-format
+msgid "Documents"
+msgstr "اسناد"
+
+#: app/DocumentsCard.qml:109
+#, kde-format
+msgid "No documents attached to this reservation."
+msgstr "هیچ سندی به این رزرو پیوست نشده است."
+
+#: app/DocumentsCard.qml:117
+#, kde-format
+msgid "Add Document…"
+msgstr "افزودن سند…"
+
+#: app/downloadjob.cpp:162
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Network error: %1"
+msgstr "خطای شبکه: %1"
+
+#: app/downloadjob.cpp:193
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Download failed: %1"
+msgstr "بارگیری ناموفق بود: %1"
+
+#: app/EditorPage.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "ذخیره"
+
+#: app/EventDelegate.qml:36
+#, kde-format
+msgid "End: %1"
+msgstr "پایان: %1"
+
+#: app/EventDelegate.qml:72
+#, kde-format
+msgid "Start time: %1"
+msgstr "زمان شروع: %1"
+
+#: app/EventDelegate.qml:79
+#, kde-format
+msgid "End time: %1"
+msgstr "زمان پایان: %1"
+
+#: app/EventDelegate.qml:91 app/EventPage.qml:109
+#, kde-format
+msgctxt "event venue seat section"
+msgid "Section: <b>%1</b>"
+msgstr "بخش: <b>%1</b>"
+
+#: app/EventDelegate.qml:97 app/EventPage.qml:115
+#, kde-format
+msgctxt "event venue seat row"
+msgid "Row: <b>%1</b>"
+msgstr "ردیف: <b>%1</b>"
+
+#: app/EventDelegate.qml:103 app/EventPage.qml:121
+#, kde-format
+msgctxt "event venue seat number"
+msgid "Number: <b>%1</b>"
+msgstr "شماره: <b>%1</b>"
+
+#: app/EventEditor.qml:19
+#, kde-format
+msgctxt "event as in concert/conference/show, not as in appointment"
+msgid "New Event"
+msgstr "رویداد جدید"
+
+#: app/EventEditor.qml:20
+#, kde-format
+msgctxt "event as in concert/conference/show, not as in appointment"
+msgid "Edit Event"
+msgstr "ویرایش رویداد"
+
+#: app/EventEditor.qml:66 app/EventPage.qml:15
+#, kde-format
+msgctxt "event as in concert/conference/show, not as in appointment"
+msgid "Event"
+msgstr "رویداد"
+
+#: app/EventEditor.qml:72
+#, kde-format
+msgctxt "event name"
+msgid "Name"
+msgstr "نام"
+
+#: app/EventEditor.qml:75 app/HotelEditor.qml:74 app/RestaurantEditor.qml:75
+#, kde-format
+msgid "Name must not be empty."
+msgstr "نام نباید خالی باشد."
+
+#: app/EventEditor.qml:80 app/EventPage.qml:68
+#, kde-format
+msgctxt "time of entrance"
+msgid "Entrance"
+msgstr "زمان ورود"
+
+#: app/EventEditor.qml:99
+#, kde-format
+msgid "Entrance time has to be before the start time."
+msgstr "زمان ورود باید قبل از زمان شروع باشد."
+
+#: app/EventEditor.qml:106 app/EventPage.qml:76 app/RestaurantEditor.qml:97
+#, kde-format
+msgid "Start Time"
+msgstr "زمان شروع"
+
+#: app/EventEditor.qml:110 app/RestaurantEditor.qml:101
+#, kde-format
+msgid "Start time has to be set."
+msgstr "زمان شروع باید تعیین شود."
+
+#: app/EventEditor.qml:115 app/EventPage.qml:84 app/RestaurantEditor.qml:108
+#, kde-format
+msgid "End Time"
+msgstr "زمان پایان"
+
+#: app/EventEditor.qml:126 app/RestaurantEditor.qml:119
+#, kde-format
+msgid "End time has to be after the start time."
+msgstr "زمان پایان باید بعد از زمان شروع باشد."
+
+#: app/EventEditor.qml:140
+#, kde-format
+msgid "Venue"
+msgstr "مکان برگزاری"
+
+#: app/EventEditor.qml:146
+#, kde-format
+msgctxt "venue name"
+msgid "Name"
+msgstr "نام"
+
+#: app/EventPage.qml:102
+#, kde-format
+msgid "Seat"
+msgstr "صندلی"
+
+#: app/EventPage.qml:127
+#, kde-format
+msgctxt "event venue seat type"
+msgid "Type: <b>%1</b>"
+msgstr "نوع: <b>%1</b>"
+
+#: app/ExportMenuDialog.qml:32
+#, kde-format
+msgid "As Itinerary file…"
+msgstr "به عنوان پروندهٔ برنامهٔ سفر…"
+
+#: app/ExportMenuDialog.qml:42
+#, kde-format
+msgid "As GPX file…"
+msgstr "به عنوان پروندهٔ GPX…"
+
+#: app/ExportMenuDialog.qml:57
+#, kde-format
+msgid "Send to %1"
+msgstr "ارسال به %1"
+
+#: app/ExportMenuDialog.qml:81
+#, kde-format
+msgid "Itinerary file (*.itinerary)"
+msgstr "پروندهٔ برنامهٔ سفر (‎*.itinerary)"
+
+#: app/ExportMenuDialog.qml:98 app/FavoriteLocationPage.qml:38
+#: app/FavoriteLocationPage.qml:46
+#, kde-format
+msgid "GPX Files (*.gpx)"
+msgstr "پرونده‌های GPX ‏(‎*.gpx)"
+
+#: app/favoritelocationmodel.cpp:135 app/favoritelocationmodel.cpp:155
+#, kde-format
+msgid "Home"
+msgstr "خانه"
+
+#: app/favoritelocationmodel.cpp:158
+#, kde-format
+msgid "Work"
+msgstr "محل کار"
+
+#: app/favoritelocationmodel.cpp:161
+#, kde-format
+msgctxt "%1 is a number"
+msgid "Location %1"
+msgstr "مکان %1"
+
+#: app/FavoriteLocationPage.qml:20 app/MyDataPage.qml:124
+#, kde-format
+msgid "Favorite Locations"
+msgstr "مکان‌های برگزیده"
+
+#: app/FavoriteLocationPage.qml:36
+#, kde-format
+msgid "Export Favorite Locations"
+msgstr "برون‌بری مکان‌های برگزیده"
+
+#: app/FavoriteLocationPage.qml:44
+#, kde-format
+msgid "Import Favorite Locations"
+msgstr "درون‌ریزی مکان‌های برگزیده"
+
+#: app/FavoriteLocationPage.qml:52
+#, kde-format
+msgid "Add Favorite Location"
+msgstr "افزودن مکان برگزیده"
+
+#: app/FavoriteLocationPage.qml:60
+#, kde-format
+msgid "Rename Favorite Location"
+msgstr "تغییر نام مکان برگزیده"
+
+#: app/FavoriteLocationPage.qml:65
+#, kde-format
+msgid "Remove Favorite Location"
+msgstr "حذف مکان برگزیده"
+
+#: app/FavoriteLocationPage.qml:75
+#, kde-format
+msgid "Export to GPX"
+msgstr "برون‌بری به GPX"
+
+#: app/FavoriteLocationPage.qml:80
+#, kde-format
+msgid "Import from GPX"
+msgstr "درون‌ریزی از GPX"
+
+#: app/FavoriteLocationPage.qml:91
+#, kde-format
+msgctxt "@title"
+msgid "Rename favorite location"
+msgstr "تغییر نام مکان برگزیده"
+
+#: app/FavoriteLocationPage.qml:101
+#, kde-format
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: app/FavoriteLocationPage.qml:150 app/FormPlaceEditorDelegate.qml:56
+#: app/LocationPicker.qml:78
+#, kde-format
+msgid "Pick Location"
+msgstr "انتخاب مکان"
+
+#: app/FlightDelegate.qml:63
+#, kde-format
+msgctxt "@info"
+msgid "Boarding time: %1"
+msgstr "زمان سوار شدن: %1"
+
+#: app/FlightDelegate.qml:71
+#, kde-format
+msgctxt "flight departure terminal"
+msgid "Terminal: <b>%1</b>"
+msgstr "ترمینال: <b>%1</b>"
+
+#: app/FlightDelegate.qml:77
+#, kde-format
+msgctxt "flight departure gate"
+msgid "Gate: <b>%1</b>"
+msgstr "گیت: <b>%1</b>"
+
+#: app/FlightDelegate.qml:83
+#, kde-format
+msgctxt "flight seats"
+msgid "Seat: <b>%1</b>"
+msgstr "صندلی: <b>%1</b>"
+
+#: app/FlightDelegate.qml:97
+#, kde-format
+msgctxt "airport terminal"
+msgid "Terminal %1"
+msgstr "ترمینال %1"
+
+#: app/FlightDelegate.qml:101
+#, kde-format
+msgid "%1 %2 → %3"
+msgstr "%1 %2 ← %3"
+
+#: app/FlightEditor.qml:17
+#, kde-format
+msgid "New Flight"
+msgstr "پرواز جدید"
+
+#: app/FlightEditor.qml:17
+#, kde-format
+msgid "Edit Flight"
+msgstr "ویرایش پرواز"
+
+#: app/FlightEditor.qml:92
+#, kde-format
+msgctxt "flight departure"
+msgid "Departure - %1"
+msgstr "پرواز خروجی - %1"
+
+#: app/FlightEditor.qml:93
+#, kde-format
+msgctxt "flight departure"
+msgid "Departure"
+msgstr "پرواز خروجی"
+
+#: app/FlightEditor.qml:99 app/FlightEditor.qml:168 app/FlightPage.qml:174
+#: app/FlightPage.qml:238
+#, kde-format
+msgid "Airport"
+msgstr "فرودگاه"
+
+#: app/FlightEditor.qml:102
+#, kde-format
+msgid "Departure airport has to be specified."
+msgstr "فرودگاه مبدأ باید مشخص شود."
+
+#: app/FlightEditor.qml:114
+#, kde-format
+msgctxt "flight departure terminal"
+msgid "Terminal"
+msgstr "ترمینال"
+
+#: app/FlightEditor.qml:119
+#, kde-format
+msgctxt "flight departure time"
+msgid "Time"
+msgstr "زمان"
+
+#: app/FlightEditor.qml:124
+#, kde-format
+msgctxt "flight departure"
+msgid "Departure time has to be set."
+msgstr "زمان پرواز باید تنظیم شود."
+
+#: app/FlightEditor.qml:131
+#, kde-format
+msgctxt "flight departure gate"
+msgid "Gate"
+msgstr "گیت"
+
+#: app/FlightEditor.qml:136 app/FlightPage.qml:119
+#, kde-format
+msgid "Boarding time"
+msgstr "زمان سوار شدن به هواپیما"
+
+#: app/FlightEditor.qml:147
+#, kde-format
+msgctxt "flight departure"
+msgid "Boarding time has to be before the departure time."
+msgstr "زمان سوار شدن به هواپیما باید قبل از زمان پرواز باشد."
+
+#: app/FlightEditor.qml:155
+#, kde-format
+msgctxt "flight departure boarding group"
+msgid "Boarding group"
+msgstr "گروه سوار شدن"
+
+#: app/FlightEditor.qml:161
+#, kde-format
+msgctxt "flight arrival"
+msgid "Arrival - %1"
+msgstr "ورود - %1"
+
+#: app/FlightEditor.qml:162
+#, kde-format
+msgctxt "flight arrival"
+msgid "Arrival"
+msgstr "ورود"
+
+#: app/FlightEditor.qml:171
+#, kde-format
+msgid "Arrival airport has to be specified."
+msgstr "فرودگاه مقصد باید مشخص شود."
+
+#: app/FlightEditor.qml:183
+#, kde-format
+msgctxt "flight arrival terminal"
+msgid "Terminal"
+msgstr "پایانه"
+
+#: app/FlightEditor.qml:188
+#, kde-format
+msgctxt "flight arrival time"
+msgid "Time"
+msgstr "زمان"
+
+#: app/FlightEditor.qml:199
+#, kde-format
+msgctxt "flight arrival"
+msgid "Arrival time has to be after the departure time."
+msgstr "زمان رسیدن باید بعد از زمان خروج باشد."
+
+#: app/FlightEditor.qml:207 app/FlightPage.qml:17 app/StatisticsPage.qml:107
+#, kde-format
+msgid "Flight"
+msgstr "پرواز"
+
+#: app/FlightEditor.qml:216
+#, kde-format
+msgid "Flight number"
+msgstr "شماره پرواز"
+
+#: app/FlightEditor.qml:219
+#, kde-format
+msgid "Invalid flight number."
+msgstr "شماره پرواز نامعتبر است."
+
+#: app/FlightEditor.qml:224 app/FlightEditor.qml:231 app/FlightPage.qml:136
+#, kde-format
+msgctxt "Flight seat"
+msgid "Seat"
+msgstr "صندلی"
+
+#: app/FlightPage.qml:101
+#, kde-format
+msgid "Sequence Number:"
+msgstr "شماره توالی:"
+
+#: app/FlightPage.qml:110
+#, kde-format
+msgid "Boarding"
+msgstr "سوار شدن به هواپیما"
+
+#: app/FlightPage.qml:128
+#, kde-format
+msgid "Boarding group"
+msgstr "گروه سوار شدن"
+
+#: app/FlightPage.qml:145
+#, kde-format
+msgid "Airline"
+msgstr "شرکت هواپیمایی"
+
+#: app/FlightPage.qml:153
+#, kde-format
+msgctxt "Flight departure"
+msgid "Departure"
+msgstr "پرواز خروجی"
+
+#: app/FlightPage.qml:159
+#, kde-format
+msgctxt "flight departure"
+msgid "Departure time"
+msgstr "زمان پرواز"
+
+#: app/FlightPage.qml:164
+#, kde-format
+msgctxt "flight departure"
+msgid "Departure date"
+msgstr "تاریخ پرواز"
+
+#: app/FlightPage.qml:191 app/FlightPage.qml:255
+#, kde-format
+msgid "Terminal"
+msgstr "پایانه"
+
+#: app/FlightPage.qml:201
+#, kde-format
+msgid "Gate"
+msgstr "دروازه"
+
+#: app/FlightPage.qml:221
+#, kde-format
+msgctxt "Flight arrival"
+msgid "Arrival"
+msgstr "ورود"
+
+#: app/FlightPage.qml:226
+#, kde-format
+msgctxt "flight arrival"
+msgid "Arrival time"
+msgstr "زمان ورود"
+
+#: app/FormPlaceDelegate.qml:88
+#, kde-format
+msgid "Share Place"
+msgstr "هم‌رسانی مکان"
+
+#: app/FormPlaceDelegate.qml:94
+#, kde-format
+msgid "Do you really want to share %1 to the Matrix channel %2?"
+msgstr "آیا واقعاً می‌خواهید %1 را در کانال ماتریکس %2 هم‌رسانی کنید؟"
+
+#: app/FormPlaceDelegate.qml:109
+#, kde-format
+msgctxt "@action:button"
+msgid "Share"
+msgstr "هم‌رسانی"
+
+#: app/FormPlaceDelegate.qml:148
+#, kde-format
+msgctxt "@action:button"
+msgid "View Indoor Map"
+msgstr "نمایش نقشهٔ داخلی"
+
+#: app/FormPlaceDelegate.qml:155
+#, kde-format
+msgctxt "@action:button"
+msgid "View on Map"
+msgstr "نمایش روی نقشه"
+
+#: app/FormPlaceDelegate.qml:168
+#, kde-format
+msgctxt "@action:button Start route guidance to location"
+msgid "Navigate"
+msgstr "مسیریابی"
+
+#: app/FormPlaceDelegate.qml:176
+#, kde-format
+msgctxt "@action:button"
+msgid "Public Transport Departures"
+msgstr "حرکت‌های حمل‌ونقل عمومی"
+
+#: app/FormPlaceDelegate.qml:189
+#, kde-format
+msgctxt "@action:button"
+msgid "Share via Matrix"
+msgstr "هم‌رسانی از طریق ماتریکس"
+
+#: app/FormPlaceEditorDelegate.qml:68
+#, kde-format
+msgid "Street"
+msgstr "خیابان"
+
+#: app/FormPlaceEditorDelegate.qml:80
+#, kde-format
+msgid "Invalid postal code format for this country."
+msgstr "قالب کد پستی برای این کشور نامعتبر است."
+
+#: app/FormPlaceEditorDelegate.qml:86
+#, kde-format
+msgid "City"
+msgstr "شهر"
+
+#: app/FormPlaceEditorDelegate.qml:104
+#, kde-format
+msgid "Region"
+msgstr "منطقه"
+
+#: app/FormPlaceEditorDelegate.qml:130 app/HealthCertificateTest.qml:115
+#: app/HealthCertificateVaccination.qml:123
+#, kde-format
+msgid "Country"
+msgstr "کشور"
+
+#: app/FormPlaceEditorDelegate.qml:201
+#, kde-format
+msgid "Coordinates"
+msgstr "مختصات"
+
+#: app/FormPlaceEditorDelegate.qml:202
+#, kde-format
+msgid "%1°, %2°"
+msgstr "%1°، %2°"
+
+#: app/FormPlaceEditorDelegate.qml:202
+#, kde-format
+msgid "Pick…"
+msgstr "انتخاب…"
+
+#: app/FormPlaceEditorDelegate.qml:221
+#, kde-format
+msgid "Address to coordinates"
+msgstr "نشانی به مختصات"
+
+#: app/FormPlaceEditorDelegate.qml:237
+#, kde-format
+msgid "Coordinates to address"
+msgstr "مختصات به نشانی"
+
+#: app/FormPlaceEditorDelegate.qml:247
+#, kde-format
+msgid "Remove coordinates"
+msgstr "حذف مختصات"
+
+#: app/FormPlatformDelegate.qml:46
+#, kde-format
+msgctxt "previous platform"
+msgid "(was: %1)"
+msgstr "(قبلی: %1)"
+
+#: app/FormPriceDelegate.qml:19
+#, kde-format
+msgctxt "@label"
+msgid "Price"
+msgstr "قیمت"
+
+#: app/FormPriceDelegate.qml:30
+#, kde-format
+msgctxt "prices in local and home currency"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: app/FormPriceEditDelegate.qml:33
+#, kde-format
+msgid "Price"
+msgstr "قیمت"
+
+#: app/FormPriceEditDelegate.qml:94
+#, kde-format
+msgid "Not a valid number."
+msgstr "عدد نامعتبر است."
+
+#: app/GenericPkPassPage.qml:21
+#, kde-format
+msgid "Save Pass"
+msgstr "ذخیرهٔ گذرواژه"
+
+#: app/GenericPkPassPage.qml:22
+#, kde-format
+msgid "Apple Wallet pass (*.pkpass)"
+msgstr "کارت کیف پول اپل (*.pkpass)"
+
+#: app/GenericPkPassPage.qml:37 app/ProgramMembershipPage.qml:38
+#, kde-format
+msgid "Delete Pass"
+msgstr "حذف کارت"
+
+#: app/GenericPkPassPage.qml:38 app/ProgramMembershipPage.qml:39
+#, kde-format
+msgid "Do you really want to delete this pass?"
+msgstr "واقعاً می‌خواهید این کارت را حذف کنید؟"
+
+#: app/GenericPkPassPage.qml:55 app/TicketPage.qml:165
+#: app/TripGroupPage.qml:718
+#, kde-format
+msgid "Check for Updates"
+msgstr "بررسی به‌روزرسانی‌ها"
+
+#: app/GenericPkPassPage.qml:63
+#, kde-format
+msgid "Save As…"
+msgstr "ذخیره به نام…"
+
+#: app/gpxexport.cpp:33 app/main.cpp:212 app/Main.qml:21 app/Main.qml:59
+#, kde-format
+msgid "KDE Itinerary"
+msgstr "برنامه سفر KDE"
+
+#: app/gpxexport.cpp:47
+#, kde-format
+msgid "Flight %1 from %2 to %3"
+msgstr "پرواز %1 از %2 به %3"
+
+#: app/gpxexport.cpp:54
+#, kde-format
+msgid "Train %1 from %2 to %3"
+msgstr "قطار %1 از %2 به %3"
+
+#: app/gpxexport.cpp:58
+#, kde-format
+msgid "Bus %1 from %2 to %3"
+msgstr "اتوبوس %1 از %2 به %3"
+
+#: app/gpxexport.cpp:61 app/reservationhelper.cpp:146
+#, kde-format
+msgid "Ferry from %1 to %2"
+msgstr "کشتی از %1 به %2"
+
+#: app/HealthCertificateBarcode.qml:34
+#, kde-format
+msgctxt "%1 is a person name"
+msgid "Vaccination certificate of %1"
+msgstr "گواهی واکسیناسیون %1"
+
+#: app/HealthCertificateBarcode.qml:36
+#, kde-format
+msgctxt "%1 is a person name, 'Test certificate' is a compound noun"
+msgid "Test certificate of %1"
+msgstr "گواهی آزمایش %1"
+
+#: app/HealthCertificateBarcode.qml:38
+#, kde-format
+msgctxt "%1 is a person name"
+msgid "Recovery certificate of %1"
+msgstr "گواهی بهبودی %1"
+
+#: app/HealthCertificateBarcode.qml:53
+#, kde-format
+msgid "Certificate expired"
+msgstr "گواهی منقضی شده است"
+
+#: app/HealthCertificateBarcode.qml:56
+#, kde-format
+msgid "Certificate invalid"
+msgstr "گواهی نامعتبر است"
+
+#: app/HealthCertificateBarcode.qml:59
+#, kde-format
+msgid "Unknown issuer certificate"
+msgstr "صادرکننده گواهی ناشناخته است"
+
+#: app/HealthCertificateBarcode.qml:65
+#, kde-format
+msgid "Recently vaccinated"
+msgstr "به‌تازگی واکسینه‌شده"
+
+#: app/HealthCertificateBarcode.qml:66
+#, kde-format
+msgid "Partially vaccinated"
+msgstr "تا حدی واکسینه‌شده"
+
+#: app/HealthCertificateBarcode.qml:67
+#, kde-format
+msgid "Vaccinated"
+msgstr "واکسینه‌شده"
+
+#: app/HealthCertificateBarcode.qml:68
+#, kde-format
+msgid "Fully vaccinated"
+msgstr "به‌طور کامل واکسینه‌شده"
+
+#: app/HealthCertificateBarcode.qml:74
+#, kde-format
+msgid "Negative test"
+msgstr "آزمایش منفی"
+
+#: app/HealthCertificateBarcode.qml:75 app/HealthCertificateRecovery.qml:55
+#, kde-format
+msgid "Positive test"
+msgstr "آزمایش مثبت"
+
+#: app/HealthCertificateBarcode.qml:78
+#, kde-format
+msgid "Test expired"
+msgstr "آزمایش منقضی شده است"
+
+#: app/HealthCertificateBarcode.qml:80
+#, kde-format
+msgid "Recovery certificate valid"
+msgstr "گواهی بهبودی معتبر است"
+
+#: app/healthcertificatemanager.cpp:145
+#, kde-format
+msgctxt "health certificate"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: app/healthcertificatemanager.cpp:154
+#, kde-format
+msgctxt ""
+"%1 is a disease, %2 the amount of applied doses, %3 the amount of total "
+"doses"
+msgid "Vaccination for %1 (%2/%3)"
+msgstr "واکسیناسیون برای %1 (%2/%3)"
+
+#: app/healthcertificatemanager.cpp:157
+#, kde-format
+msgctxt "%1 is a disease"
+msgid "Vaccination for %1"
+msgstr "واکسیناسیون برای %1"
+
+#: app/healthcertificatemanager.cpp:159
+#: app/HealthCertificateVaccination.qml:54
+#, kde-format
+msgid "Vaccination"
+msgstr "واکسیناسیون"
+
+#: app/healthcertificatemanager.cpp:163
+#, kde-format
+msgctxt "%1 is a disease, %2 is a date"
+msgid "Test for %1 – %2"
+msgstr "آزمایش برای %1 – %2"
+
+#: app/healthcertificatemanager.cpp:168
+#, kde-format
+msgctxt "%1 is a disease, %2 is a date"
+msgid "Recovery from %1 – %2"
+msgstr "بهبودی از %1 – %2"
+
+#: app/HealthCertificatePage.qml:19
+#, kde-format
+msgid "Health Certificates"
+msgstr "گواهی‌های سلامت"
+
+#: app/HealthCertificatePage.qml:58
+#, kde-format
+msgid "Delete Certificate"
+msgstr "حذف گواهی"
+
+#: app/HealthCertificatePage.qml:59
+#, kde-format
+msgid "Do you really want to delete this certificate?"
+msgstr "آیا واقعاً می‌خواهید این گواهی را حذف کنید؟"
+
+#: app/HealthCertificatePage.qml:132
+#, kde-format
+msgid ""
+"<p>You can import the following health certificates by scanning them with a "
+"barcode scanner app:<ul><li>European \"Digital Green Certificates\" for "
+"vaccinations, tests or recovery.</li><li>Indian vaccination "
+"certificates.</li><li>SMART Health Cards (SHC) as used in parts of Canada "
+"and the US.</li></p>"
+msgstr ""
+"<p>می‌توانید با اسکن گواهی‌های سلامت زیر توسط یک برنامهٔ بارکدخوان، آن‌ها را"
+" وارد کنید:<ul><li>«گواهی‌های سبز دیجیتال» اروپایی برای واکسیناسیون، آزمایش "
+"یا بهبود.</li><li>گواهی‌های واکسیناسیون هند.</li><li>کارت‌های سلامت هوشمند "
+"(SHC) مورد استفاده در بخش‌هایی از کانادا و ایالات متحده.</li></p>"
+
+#: app/HealthCertificateRecovery.qml:29 app/HealthCertificateTest.qml:30
+#: app/HealthCertificateVaccination.qml:33
+#, kde-format
+msgid "Person"
+msgstr "شخص"
+
+#: app/HealthCertificateRecovery.qml:34 app/HealthCertificateTest.qml:35
+#: app/HealthCertificateVaccination.qml:38 app/ProgramMembershipCard.qml:31
+#: app/ProgramMembershipEditor.qml:70 app/ProgramMembershipEditorCard.qml:54
+#: app/TicketPage.qml:97
+#, kde-format
+msgid "Name"
+msgstr "نام"
+
+#: app/HealthCertificateRecovery.qml:43 app/HealthCertificateTest.qml:44
+#: app/HealthCertificateVaccination.qml:47
+#, kde-format
+msgid "Date of birth"
+msgstr "تاریخ تولد"
+
+#: app/HealthCertificateRecovery.qml:50
+#, kde-format
+msgid "Recovery"
+msgstr "بهبود"
+
+#: app/HealthCertificateRecovery.qml:62 app/HealthCertificateTest.qml:65
+#: app/HealthCertificateVaccination.qml:77
+#, kde-format
+msgid "Disease"
+msgstr "بیماری"
+
+#: app/HealthCertificateRecovery.qml:69 app/ProgramMembershipEditor.qml:97
+#: app/ProgramMembershipPage.qml:126 app/TicketPage.qml:103
+#, kde-format
+msgid "Valid from"
+msgstr "معتبر از"
+
+#: app/HealthCertificateRecovery.qml:76 app/ProgramMembershipEditor.qml:111
+#: app/ProgramMembershipPage.qml:131 app/TicketPage.qml:109
+#, kde-format
+msgid "Valid until"
+msgstr "معتبر تا"
+
+#: app/HealthCertificateRecovery.qml:82 app/HealthCertificateTest.qml:122
+#: app/HealthCertificateVaccination.qml:129
+#, kde-format
+msgid "Certificate"
+msgstr "گواهی"
+
+#: app/HealthCertificateRecovery.qml:87 app/HealthCertificateTest.qml:127
+#: app/HealthCertificateVaccination.qml:134
+#, kde-format
+msgid "Issuer"
+msgstr "صادرکننده"
+
+#: app/HealthCertificateRecovery.qml:95 app/HealthCertificateTest.qml:135
+#: app/HealthCertificateVaccination.qml:142
+#, kde-format
+msgid "Identifier"
+msgstr "شناسه"
+
+#: app/HealthCertificateRecovery.qml:104 app/HealthCertificateTest.qml:143
+#: app/HealthCertificateVaccination.qml:150
+#, kde-format
+msgid "Issued"
+msgstr "صادرشده"
+
+#: app/HealthCertificateRecovery.qml:111 app/HealthCertificateTest.qml:151
+#: app/HealthCertificateVaccination.qml:158
+#, kde-format
+msgid "Expires"
+msgstr "انقضا"
+
+#: app/HealthCertificateRecovery.qml:131 app/HealthCertificateTest.qml:169
+#: app/HealthCertificateVaccination.qml:176
+#, kde-format
+msgid "Signature"
+msgstr "امضا"
+
+#: app/HealthCertificateRecovery.qml:135 app/HealthCertificateTest.qml:173
+#: app/HealthCertificateVaccination.qml:180
+#, kde-format
+msgctxt "Signature state"
+msgid "Valid"
+msgstr "معتبر"
+
+#: app/HealthCertificateRecovery.qml:137 app/HealthCertificateTest.qml:175
+#: app/HealthCertificateVaccination.qml:182
+#, kde-format
+msgctxt "Signature state"
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: app/HealthCertificateRecovery.qml:140 app/HealthCertificateTest.qml:178
+#: app/HealthCertificateVaccination.qml:185
+#, kde-format
+msgctxt "Signature state"
+msgid "Invalid"
+msgstr "نامعتبر"
+
+#: app/HealthCertificateTest.qml:51 app/HealthCertificateTest.qml:79
+#, kde-format
+msgid "Test"
+msgstr "آزمایش"
+
+#: app/HealthCertificateTest.qml:56 app/HealthCertificateVaccination.qml:60
+#, kde-format
+msgid "Date"
+msgstr "تاریخ"
+
+#: app/HealthCertificateTest.qml:88
+#, kde-format
+msgid "Result"
+msgstr "نتیجه"
+
+#: app/HealthCertificateTest.qml:106
+#, kde-format
+msgid "Test Center"
+msgstr "مرکز آزمایش"
+
+#: app/HealthCertificateVaccination.qml:64
+#, kde-format
+msgid "%2 (%1 day ago)"
+msgid_plural "%2 (%1 days ago)"
+msgstr[0] "%2 (%1 روز پیش)"
+msgstr[1] "%2 (%1 روز پیش)"
+
+#: app/HealthCertificateVaccination.qml:92
+#, kde-format
+msgid "Vaccine"
+msgstr "واکسن"
+
+#: app/HealthCertificateVaccination.qml:101
+#, kde-format
+msgid "Manufacturer"
+msgstr "تولیدکننده"
+
+#: app/HealthCertificateVaccination.qml:109
+#, kde-format
+msgid "Dose"
+msgstr "دوز"
+
+#: app/HealthCertificateVaccination.qml:110
+#, kde-format
+msgid "%1/%2"
+msgstr "%1/%2"
+
+#: app/HotelDelegate.qml:35
+#, kde-format
+msgid "Check-out %1"
+msgstr "خروج %1"
+
+#: app/HotelDelegate.qml:49
+#, kde-format
+msgid "Check-in time: %1"
+msgstr "زمان ورود: %1"
+
+#: app/HotelDelegate.qml:55 app/HotelDelegate.qml:56
+#, kde-format
+msgid "Check-out time: %1"
+msgstr "زمان خروج: %1"
+
+#: app/HotelEditor.qml:19
+#, kde-format
+msgid "New Hotel Reservation"
+msgstr "رزرو جدید هتل"
+
+#: app/HotelEditor.qml:19
+#, kde-format
+msgid "Edit Hotel Reservation"
+msgstr "ویرایش رزرو هتل"
+
+#: app/HotelEditor.qml:49
+#, kde-format
+msgid "Hotel"
+msgstr "هتل"
+
+#: app/HotelEditor.qml:65
+#, kde-format
+msgctxt "@title:group"
+msgid "Accommodation"
+msgstr "اقامتگاه"
+
+#: app/HotelEditor.qml:71
+#, kde-format
+msgctxt "hotel name"
+msgid "Name"
+msgstr "نام"
+
+#: app/HotelEditor.qml:99
+#, kde-format
+msgctxt "hotel checkin"
+msgid "Check-in"
+msgstr "ورود"
+
+#: app/HotelEditor.qml:103
+#, kde-format
+msgid "Check-in time has to be set."
+msgstr "زمان ورود باید تنظیم شود."
+
+#: app/HotelEditor.qml:108
+#, kde-format
+msgctxt "hotel checkout"
+msgid "Check-out"
+msgstr "خروج"
+
+#: app/HotelEditor.qml:120
+#, kde-format
+msgid "Check-out time has to be set."
+msgstr "زمان خروج باید تنظیم شود."
+
+#: app/HotelEditor.qml:122
+#, kde-format
+msgid "Check-out time has to be after the check-in time."
+msgstr "زمان خروج باید بعد از زمان ورود باشد."
+
+#: app/HotelEditor.qml:133 app/HotelPage.qml:80
+#, kde-format
+msgid "Description"
+msgstr "توضیحات"
+
+#: app/HotelPage.qml:16
+#, kde-format
+msgid "Hotel Reservation"
+msgstr "رزرو هتل"
+
+#: app/HotelPage.qml:65
+#, kde-format
+msgid "Check-in time"
+msgstr "زمان ورود"
+
+#: app/HotelPage.qml:72
+#, kde-format
+msgid "Check-out time"
+msgstr "زمان خروج"
+
+#: app/ImportAction.qml:23 app/TripGroupPage.qml:518
+#, kde-format
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: app/ImportAction.qml:29
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "From file"
+msgstr "از پرونده"
+
+#: app/ImportAction.qml:37
+#, kde-format
+msgid "Import Reservation"
+msgstr "درون‌ریزی رزرو"
+
+#: app/ImportAction.qml:43
+#, kde-format
+msgid "Apple Wallet passes (*.pkpass)"
+msgstr "گذرواژه‌های کیف پول اپل (‎*.pkpass)"
+
+#: app/ImportAction.qml:43
+#, kde-format
+msgid "Apple Wallet pass bundles (*.pkpasses)"
+msgstr "بسته‌های گذرواژهٔ کیف پول اپل (‎*.pkpasses)"
+
+#: app/ImportAction.qml:43
+#, kde-format
+msgid "PDF files (*.pdf)"
+msgstr "پرونده‌های PDF ‏(‎*.pdf)"
+
+#: app/ImportAction.qml:43
+#, kde-format
+msgid "iCal events (*.ics)"
+msgstr "رویدادهای iCal ‏(‎*.ics)"
+
+#: app/ImportAction.qml:43 app/MyDataPage.qml:208 app/MyDataPage.qml:229
+#, kde-format
+msgid "KDE Itinerary files (*.itinerary)"
+msgstr "پرونده‌های برنامهٔ سفر کی‌دی‌ای (‎*.itinerary)"
+
+#: app/ImportAction.qml:51
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "From clipboard"
+msgstr "از بریده‌دان"
+
+#: app/ImportAction.qml:61
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "From barcode"
+msgstr "از بارکد"
+
+#: app/ImportAction.qml:85
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "From calendar"
+msgstr "از تقویم"
+
+#: app/ImportAction.qml:127
+#, kde-format
+msgctxt "@action:inmenu Name of the train company in Germany"
+msgid "From Deutsche Bahn reservation number"
+msgstr "از شمارهٔ رزرو دویچه بان"
+
+#: app/ImportAction.qml:138
+#, kde-format
+msgctxt "Name of the train company in France"
+msgid "From SNCF reservation number"
+msgstr "از شمارهٔ رزرو اس‌ان‌سی‌اف (SNCF)"
+
+#: app/importcontroller.cpp:152 app/importcontroller.cpp:496
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Import failed: %1"
+msgstr "درون‌ریزی ناموفق بود: %1"
+
+#: app/importcontroller.cpp:158
+#, kde-format
+msgid "Import failed: File too large."
+msgstr "درون‌ریزی ناموفق بود: پرونده بسیار بزرگ است."
+
+#: app/importcontroller.cpp:231 app/importcontroller.cpp:328
+#, kde-format
+msgid "Found nothing to import."
+msgstr "چیزی برای درون‌ریزی پیدا نشد."
+
+#: app/importcontroller.cpp:468
+#, kde-format
+msgid "No importable events found in this calendar."
+msgstr "هیچ رویداد قابل درون‌ریزی در این تقویم پیدا نشد."
+
+#: app/importcontroller.cpp:643
+#, kde-format
+msgid "Backup"
+msgstr "پشتیبان‌گیری"
+
+#: app/ImportPage.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: app/ImportPage.qml:37
+#, kde-format
+msgctxt "@title:group"
+msgid "Items to Import"
+msgstr "موارد برای درون‌ریزی"
+
+#: app/ImportPage.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "Import selection"
+msgstr "درون‌ریزی انتخاب‌شده‌ها"
+
+#: app/IndoorMapGateSheet.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Find Gate"
+msgstr "یافتن گیت"
+
+#: app/IndoorMapGateSheet.qml:33
+#, kde-format
+msgctxt "flight departure/arrival gate"
+msgid "%1 (arrival + departure)"
+msgstr "%1 (ورود + خروج)"
+
+#: app/IndoorMapGateSheet.qml:35
+#, kde-format
+msgctxt "flight departure gate"
+msgid "%1 (departure)"
+msgstr "%1 (خروج)"
+
+#: app/IndoorMapGateSheet.qml:37
+#, kde-format
+msgctxt "flight arrival gate"
+msgid "%1 (arrival)"
+msgstr "%1 (ورود)"
+
+#: app/IndoorMapInfoSheet.qml:21 app/IndoorMapPage.qml:133
+#, kde-format
+msgid "Edit with iD"
+msgstr "ویرایش با iD"
+
+#: app/IndoorMapInfoSheet.qml:27 app/IndoorMapPage.qml:139
+#, kde-format
+msgid "Edit with JOSM"
+msgstr "ویرایش با JOSM"
+
+#: app/IndoorMapInfoSheet.qml:33 app/IndoorMapPage.qml:145
+#, kde-format
+msgid "Edit with Vespucci"
+msgstr "ویرایش با وسپوچی"
+
+#: app/IndoorMapPage.qml:26
+#, kde-format
+msgid "Floor %1"
+msgstr "طبقهٔ %1"
+
+#: app/IndoorMapPage.qml:60
+#, kde-format
+msgid "Zoom In"
+msgstr "بزرگ‌نمایی"
+
+#: app/IndoorMapPage.qml:67
+#, kde-format
+msgid "Zoom Out"
+msgstr "کوچک‌نمایی"
+
+#: app/IndoorMapPage.qml:75
+#, kde-format
+msgid "Find Platform"
+msgstr "یافتن سکو"
+
+#: app/IndoorMapPage.qml:82
+#, kde-format
+msgid "Find Gate"
+msgstr "یافتن گیت"
+
+#: app/IndoorMapPage.qml:89
+#, kde-format
+msgid "Find Amenity"
+msgstr "یافتن امکانات رفاهی"
+
+#: app/IndoorMapPage.qml:95
+#, kde-format
+msgid "Show Elevator Status"
+msgstr "نمایش وضعیت آسانسور"
+
+#: app/IndoorMapPage.qml:104
+#, kde-format
+msgid "Show Rental Vehicles"
+msgstr "نمایش وسایل نقلیهٔ اجاره‌ای"
+
+#: app/IndoorMapPage.qml:112
+#, kde-format
+msgid "Open Map"
+msgstr "باز کردن نقشه"
+
+#: app/IndoorMapPage.qml:121
+#, kde-format
+msgid "Open wheelmap.org"
+msgstr "باز کردن wheelmap.org"
+
+#: app/IndoorMapPage.qml:286
+#, kde-format
+msgid "Navigate from here"
+msgstr "مسیریابی از اینجا"
+
+#: app/IndoorMapPage.qml:295
+#, kde-format
+msgid "Navigate to here"
+msgstr "مسیریابی به اینجا"
+
+#: app/IndoorMapPage.qml:306
+#, kde-format
+msgid "Show information"
+msgstr "نمایش اطلاعات"
+
+#: app/JourneyFilterPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Filter Journeys"
+msgstr "فیلتر کردن سفرها"
+
+#: app/JourneyFilterPage.qml:62
+#, kde-format
+msgid "Mode of transportation"
+msgstr "روش ترابری"
+
+#: app/JourneyFilterPage.qml:73
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "High speed or intercity trains"
+msgstr "قطارهای تندرو یا بین‌شهری"
+
+#: app/JourneyFilterPage.qml:83
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Regional or local trains"
+msgstr "قطارهای منطقه‌ای یا محلی"
+
+#: app/JourneyFilterPage.qml:93
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Rapid transit, metro, trams"
+msgstr "ترابری سریع، مترو، تراموا"
+
+#: app/JourneyFilterPage.qml:103
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Local or regional bus services"
+msgstr "خدمات اتوبوس‌رانی محلی یا منطقه‌ای"
+
+#: app/JourneyFilterPage.qml:113
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Boats or ferries"
+msgstr "قایق‌ها یا کشتی‌ها"
+
+#: app/JourneyFilterPage.qml:123
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Hitch a ride"
+msgstr "هم‌پیمایی (هیچ‌هایک)"
+
+#: app/JourneyPathPage.qml:176
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Map"
+msgstr "نمایش نقشه"
+
+#: app/JourneyQueryPage.qml:112 app/TransferPage.qml:244
+#, kde-format
+msgid "Select"
+msgstr "انتخاب"
+
+#: app/JourneyQueryPage.qml:163 app/TransferPage.qml:312
+#, kde-format
+msgctxt "@action:button"
+msgid "Load earlier connections"
+msgstr "بارگیری اتصالات قبلی"
+
+#: app/JourneyQueryPage.qml:192
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No journeys found"
+msgstr "هیچ سفری پیدا نشد"
+
+#: app/JourneyQueryPage.qml:238
+#, kde-format
+msgid "Still fetching results…"
+msgstr "همچنان در حال دریافت نتایج…"
+
+#: app/JourneyRequestPage.qml:40 app/JourneyRequestPage.qml:98
+#, kde-format
+msgid "Select Journey"
+msgstr "انتخاب سفر"
+
+#: app/JourneyRequestPage.qml:73 app/JourneyRequestPage.qml:142
+#, kde-format
+msgctxt "departure train station"
+msgid "Select Departure Stop"
+msgstr "انتخاب ایستگاه مبدأ"
+
+#: app/JourneyRequestPage.qml:85 app/JourneyRequestPage.qml:156
+#, kde-format
+msgctxt "arrival train station"
+msgid "Select Arrival Stop"
+msgstr "انتخاب ایستگاه مقصد"
+
+#: app/JourneyRequestPage.qml:141
+#, kde-format
+msgctxt "departure train station"
+msgid "From:"
+msgstr "مبدأ:"
+
+#: app/JourneyRequestPage.qml:155
+#, kde-format
+msgctxt "arrival train station"
+msgid "To:"
+msgstr "مقصد:"
+
+#: app/JourneyRequestPage.qml:173
+#, kde-format
+msgctxt "departure and arrival stops"
+msgid "Swap departure and arrival"
+msgstr "جابه‌جایی مبدأ و مقصد"
+
+#: app/JourneyRequestPage.qml:188
+#, kde-format
+msgctxt "train or bus departure"
+msgid "Departure"
+msgstr "حرکت"
+
+#: app/JourneyRequestPage.qml:191
+#, kde-format
+msgctxt "train or bus arrival"
+msgid "Arrival"
+msgstr "ورود"
+
+#: app/JourneyRequestPage.qml:204
+#, kde-format
+msgctxt "train or bus departure"
+msgid "Departure time"
+msgstr "زمان حرکت"
+
+#: app/JourneyRequestPage.qml:204
+#, kde-format
+msgctxt "train or bus arrival"
+msgid "Arrival time"
+msgstr "زمان ورود"
+
+#: app/JourneyRequestPage.qml:215
+#, kde-format
+msgctxt "filter journeys by mode of transportation etc."
+msgid "Filter"
+msgstr "فیلتر"
+
+#: app/JourneyRequestPage.qml:232
+#, kde-format
+msgid "Search Journey"
+msgstr "جستجوی سفر"
+
+#: app/JourneySectionDelegate.qml:141
+#, kde-format
+msgid "To %1"
+msgstr "به %1"
+
+#: app/JourneySectionDelegate.qml:145
+#, kde-format
+msgid "Walk (%1)"
+msgstr "پیاده‌روی (%1)"
+
+#: app/JourneySectionDelegate.qml:146
+#, kde-format
+msgid "Walk %1 (%2)"
+msgstr "%1 پیاده‌روی (%2)"
+
+#: app/JourneySectionDelegate.qml:148
+#, kde-format
+msgid "Transfer (%1)"
+msgstr "تعویض خط (%1)"
+
+#: app/JourneySectionDelegate.qml:150
+#, kde-format
+msgid "Wait (%1)"
+msgstr "انتظار (%1)"
+
+#: app/JourneySectionDelegate.qml:152
+#, kde-format
+msgid "%1 %2 (%3)"
+msgstr "%1 %2 (%3)"
+
+#: app/JourneySectionDelegate.qml:154
+#, kde-format
+msgid "Drive %1 (%2)"
+msgstr "رانندگی با %1 (%2)"
+
+#: app/JourneySectionDelegate.qml:253 app/JourneySectionView.qml:120
+#: app/VehicleLayoutPage.qml:177
+#, kde-format
+msgctxt "@action:button"
+msgid "Show More…"
+msgstr "نمایش بیشتر…"
+
+#: app/JourneySectionPage.qml:18
+#, kde-format
+msgid "Journey Details"
+msgstr "جزئیات سفر"
+
+#: app/JourneySectionPage.qml:120 app/LiveStatusPage.qml:378
+#: app/PublicTransportPage.qml:198
+#, kde-format
+msgid "Journey"
+msgstr "سفر"
+
+#: app/JourneySectionPage.qml:124 app/PublicTransportPage.qml:203
+#, kde-format
+msgid "Map"
+msgstr "نقشه"
+
+#: app/JourneySectionStopDelegate.qml:164
+#, kde-format
+msgid "Show location"
+msgstr "نمایش موقعیت مکانی"
+
+#: app/JourneySectionView.qml:65 app/TimelineDelegateDepartureLayout.qml:82
+#: app/VehicleLayoutPage.qml:79
+#, kde-format
+msgctxt "Direction of the transport mode"
+msgid "To %1"
+msgstr "به سمت %1"
+
+#: app/JourneySummaryDelegate.qml:62
+#, kde-format
+msgctxt "number of switches to another transport"
+msgid "One change"
+msgid_plural "%1 changes"
+msgstr[0] "یک تغییر خط"
+msgstr[1] "%1 تغییر خط"
+
+#: app/JourneySummaryDelegate.qml:115
+#, kde-format
+msgid "Click to extend"
+msgstr "برای گسترش کلیک کنید"
+
+#: app/livedatamanager.cpp:834
+#, kde-format
+msgid "Itinerary change"
+msgstr "تغییر برنامه سفر"
+
+#: app/LiveStatusPage.qml:21 app/Main.qml:68
+#, kde-format
+msgid "Live Status"
+msgstr "وضعیت زنده"
+
+#: app/LiveStatusPage.qml:57
+#, kde-format
+msgid "Stop Location Sharing"
+msgstr "توقف اشتراک‌گذاری موقعیت مکانی"
+
+#: app/LiveStatusPage.qml:57
+#, kde-format
+msgid "Share Location via Matrix"
+msgstr "اشتراک‌گذاری موقعیت مکانی از طریق ماتریکس"
+
+#: app/LiveStatusPage.qml:67
+#, kde-format
+msgctxt "map style"
+msgid "Normal map"
+msgstr "نقشه معمولی"
+
+#: app/LiveStatusPage.qml:78
+#, kde-format
+msgctxt "map style"
+msgid "Railway infrastructure map"
+msgstr "نقشه زیرساخت راه‌آهن"
+
+#: app/LiveStatusPage.qml:88
+#, kde-format
+msgctxt "map style"
+msgid "Railway signalling map"
+msgstr "نقشهٔ علائم راه‌آهن"
+
+#: app/LiveStatusPage.qml:98
+#, kde-format
+msgctxt "map style"
+msgid "Railway speed map"
+msgstr "نقشهٔ سرعت راه‌آهن"
+
+#: app/LiveStatusPage.qml:108
+#, kde-format
+msgctxt "map style"
+msgid "Railway electrification map"
+msgstr "نقشهٔ برقی‌سازی راه‌آهن"
+
+#: app/LiveStatusPage.qml:118
+#, kde-format
+msgctxt "map style"
+msgid "Railway gauge map"
+msgstr "نقشهٔ عرض خط راه‌آهن"
+
+#: app/LiveStatusPage.qml:160
+#, kde-format
+msgid "Share Live Location"
+msgstr "اشتراک‌گذاری زندهٔ موقعیت مکانی"
+
+#: app/LiveStatusPage.qml:161
+#, kde-format
+msgid ""
+"Do you really want to share your current location to the Matrix channel %1?"
+msgstr ""
+"آیا واقعاً می‌خواهید موقعیت مکانی فعلی خود را با کانال ماتریکس %1 به اشتراک "
+"بگذارید؟"
+
+#: app/LiveStatusPage.qml:167
+#, kde-format
+msgid "Share"
+msgstr "اشتراک‌گذاری"
+
+#: app/LiveStatusPage.qml:325
+#, kde-format
+msgid "Automatically follow on the map"
+msgstr "دنبال‌کردن خودکار روی نقشه"
+
+#: app/LiveStatusPage.qml:345 app/LiveStatusPage.qml:357
+#, kde-format
+msgid "Waiting for data…"
+msgstr "در انتظار داده‌ها…"
+
+#: app/LiveStatusPage.qml:369
+#, kde-format
+msgid "Position"
+msgstr "موقعیت"
+
+#: app/localizer.cpp:182
+#, kde-format
+msgctxt "day-only date format"
+msgid "dd MMMM"
+msgstr "dd MMMM"
+
+#: app/localizer.cpp:242
+#, kde-format
+msgctxt "weight in gram"
+msgid "%1 g"
+msgstr "%1 گرم"
+
+#: app/localizer.cpp:245 app/localizer.cpp:247
+#, kde-format
+msgctxt "weight in kilogram"
+msgid "%1 kg"
+msgstr "%1 کیلوگرم"
+
+#: app/localizer.cpp:262
+#, kde-format
+msgctxt "temperature range"
+msgid "%1 / %2"
+msgstr "%1 / %2"
+
+#: app/localizer.cpp:283
+#, kde-format
+msgctxt "altitude in meter"
+msgid "%1m"
+msgstr "%1 متر"
+
+#: app/LocationInfoDelegate.qml:52
+#, kde-format
+msgid "Daylight Saving Time"
+msgstr "ساعت تابستانی"
+
+#: app/LocationInfoDelegate.qml:52
+#, kde-format
+msgctxt "opposite to daylight saving time"
+msgid "Standard Time"
+msgstr "ساعت رسمی"
+
+#: app/LocationInfoDelegate.qml:53
+#, kde-format
+msgid "Entering %1"
+msgstr "ورود به %1"
+
+#: app/LocationInfoDelegate.qml:68
+#, kde-format
+msgid "No compatible power sockets: %1"
+msgstr "بدون پریز برق سازگار: %1"
+
+#: app/LocationInfoDelegate.qml:77
+#, kde-format
+msgid "Some incompatible power sockets: %1"
+msgstr "برخی از پریزهای برق ناسازگارند: %1"
+
+#: app/LocationInfoDelegate.qml:85
+#, kde-format
+msgid "Some incompatible power plugs: %1"
+msgstr "برخی دوشاخه‌های ناسازگار برق: %1"
+
+#: app/LocationInfoDelegate.qml:93
+#, kde-format
+msgid "Timezone change: %1 (%2)"
+msgstr "تغییر منطقهٔ زمانی: %1 (%2)"
+
+#: app/LocationInfoDelegate.qml:115
+#, kde-format
+msgctxt "currency conversion rate"
+msgid "Currency: %1 = %2"
+msgstr "ارز: %1 = %2"
+
+#: app/LocationInfoDelegate.qml:126
+#, kde-format
+msgid ""
+"Leaving the EU roaming regulation area. Check your mobile data settings."
+msgstr ""
+"در حال خروج از منطقهٔ رومینگ اتحادیه اروپا. تنظیمات اینترنت همراه خود را "
+"بررسی کنید."
+
+#: app/locationinformation.cpp:128
+#, kde-format
+msgid "People are driving on the right side."
+msgstr "رانندگی از سمت راست انجام می‌شود."
+
+#: app/locationinformation.cpp:130
+#, kde-format
+msgid "People are driving on the left side."
+msgstr "رانندگی از سمت چپ انجام می‌شود."
+
+#: app/locationinformation.cpp:148
+msgid "Type A"
+msgstr "نوع A"
+
+#: app/locationinformation.cpp:149
+msgid "Type B"
+msgstr "نوع B"
+
+#: app/locationinformation.cpp:150
+msgid "Europlug"
+msgstr "یوروپلاگ"
+
+#: app/locationinformation.cpp:151
+msgid "Type D"
+msgstr "نوع D"
+
+#: app/locationinformation.cpp:152
+msgid "Type E"
+msgstr "نوع E"
+
+#: app/locationinformation.cpp:153
+msgid "Schuko"
+msgstr "شوکو"
+
+#: app/locationinformation.cpp:154
+msgid "Type G"
+msgstr "نوع G"
+
+#: app/locationinformation.cpp:155
+msgid "Type H"
+msgstr "نوع H"
+
+#: app/locationinformation.cpp:156
+msgid "Type I"
+msgstr "نوع I"
+
+#: app/locationinformation.cpp:157
+msgid "Type J"
+msgstr "نوع J"
+
+#: app/locationinformation.cpp:158
+msgid "Type K"
+msgstr "نوع K"
+
+#: app/locationinformation.cpp:159
+msgid "Type L"
+msgstr "نوع L"
+
+#: app/locationinformation.cpp:160
+msgid "Type M"
+msgstr "نوع M"
+
+#: app/locationinformation.cpp:161
+msgid "Type N"
+msgstr "نوع N"
+
+#: app/main.cpp:221
+#, kde-format
+msgid "Digital Travel Assistant"
+msgstr "دستیار دیجیتال سفر"
+
+#: app/main.cpp:222
+#, kde-format
+msgid "Copyright © The KDE Community"
+msgstr "حق نشر © جامعهٔ KDE"
+
+#: app/main.cpp:224
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikidata"
+msgstr "ویکی‌داده"
+
+#: app/main.cpp:224
+#, kde-format
+msgctxt "@info:credit"
+msgid ""
+"Provides various metadata like train station names, driving side, and power "
+"plug types."
+msgstr ""
+"فراداده‌های مختلفی مانند نام ایستگاه‌های قطار، جهت رانندگی و انواع پریز برق "
+"را ارائه می‌دهد."
+
+#: app/main.cpp:225
+#, kde-format
+msgctxt "@info:credit"
+msgid "OpenStreetMap"
+msgstr "اوپن‌استریت‌مپ"
+
+#: app/main.cpp:225
+#, kde-format
+msgctxt "@info:credit"
+msgid "Provides both indoor and outdoor maps. ©OpenStreetMap contributors"
+msgstr ""
+"نقشه‌های داخلی و بیرونی را ارائه می‌دهد. © مشارکت‌کنندگان OpenStreetMap"
+
+#: app/main.cpp:226
+#, kde-format
+msgctxt "@info:credit"
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+#: app/main.cpp:226
+#, kde-format
+msgctxt "@info:credit"
+msgid "Secure network interaction with TLS. © 1998-2018 The OpenSSL Project"
+msgstr "تعامل امن شبکه با TLS. © 1998-2018 The OpenSSL Project"
+
+#: app/main.cpp:227
+#, kde-format
+msgctxt "@info:credit"
+msgid "ZXing"
+msgstr "ZXing"
+
+#: app/main.cpp:227
+#, kde-format
+msgctxt "@info:credit"
+msgid "QR-Code scanning. © 2016 ZXing Authors, © 2016 Nu-book Inc."
+msgstr "پویش کد QR. © 2016 ZXing Authors, © 2016 Nu-book Inc."
+
+#: app/main.cpp:228
+#, kde-format
+msgctxt "@info:credit"
+msgid "Poppler"
+msgstr "Poppler"
+
+#: app/main.cpp:228
+#, kde-format
+msgctxt "@info:credit"
+msgid "PDF parsing"
+msgstr "تجزیهٔ PDF"
+
+#: app/main.cpp:231
+#, kde-format
+msgctxt "@info:credit"
+msgid "MapLibre Native Qt"
+msgstr "MapLibre Native Qt"
+
+#: app/main.cpp:231 app/main.cpp:232
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright © MapLibre contributors."
+msgstr "حق نشر © مشارکت‌کنندگان MapLibre."
+
+#: app/main.cpp:232
+#, kde-format
+msgctxt "@info:credit"
+msgid "MapLibre Native"
+msgstr "MapLibre Native"
+
+#: app/main.cpp:236
+#, kde-format
+msgctxt "@info:credit"
+msgid "FreeType"
+msgstr "FreeType"
+
+#: app/main.cpp:236
+#, kde-format
+msgctxt "@info:credit"
+msgid ""
+"Copyright (C) 2006-2020 by David Turner, Robert Wilhelm, and Werner Lemberg."
+msgstr "حق نشر (C) ۲۰۰۶-۲۰۲۰ توسط دیوید ترنر، رابرت ویلهلم و ورنر لمبرگ."
+
+#: app/main.cpp:237
+#, kde-format
+msgctxt "@info:credit"
+msgid "libintl lite"
+msgstr "libintl lite"
+
+#: app/main.cpp:237
+#, kde-format
+msgctxt "@info:credit"
+msgid "Internalisation"
+msgstr "بین‌المللی‌سازی"
+
+#: app/main.cpp:240
+#, kde-format
+msgctxt "@info:credit"
+msgid "libqrencode"
+msgstr "libqrencode"
+
+#: app/main.cpp:240
+#, kde-format
+msgctxt "@info:credit"
+msgid "QR-Code Generation. © 2006-2018 Kentaro Fukuchi"
+msgstr "تولید کد QR. © 2006-2018 Kentaro Fukuchi"
+
+#: app/main.cpp:241
+#, kde-format
+msgctxt "@info:credit"
+msgid "libical"
+msgstr "libical"
+
+#: app/main.cpp:241
+#, kde-format
+msgctxt "@info:credit"
+msgid "© The libical developers"
+msgstr "© The libical developers"
+
+#: app/main.cpp:242
+#, kde-format
+msgctxt "@info:credit"
+msgid "libxml2"
+msgstr "libxml2"
+
+#: app/main.cpp:242
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright (C) 1998-2012 Daniel Veillard"
+msgstr "حق نشر (C) 1998-2012 Daniel Veillard"
+
+#: app/main.cpp:245
+#, kde-format
+msgctxt "@info:credit"
+msgid "libQuotient"
+msgstr "libQuotient"
+
+#: app/main.cpp:245
+#, kde-format
+msgctxt "@info:credit"
+msgid "Matrix integration."
+msgstr "یکپارچه‌سازی ماتریکس."
+
+#: app/main.cpp:246
+#, kde-format
+msgctxt "@info:credit"
+msgid "QtKeychain"
+msgstr "QtKeychain"
+
+#: app/main.cpp:246
+#, kde-format
+msgctxt "@info:credit"
+msgid "Secure password storage."
+msgstr "ذخیره‌سازی امن گذرواژه."
+
+#: app/main.cpp:247
+#, kde-format
+msgctxt "@info:credit"
+msgid "Olm"
+msgstr "Olm"
+
+#: app/main.cpp:247
+#, kde-format
+msgctxt "@info:credit"
+msgid "Matrix crypto library."
+msgstr "کتابخانهٔ رمزنگاری ماتریکس."
+
+#: app/main.cpp:255
+#, kde-format
+msgctxt "@info:shell"
+msgid "Open Itinerary on the given page"
+msgstr "گشودن برنامهٔ سفر در صفحهٔ داده‌شده"
+
+#: app/main.cpp:261
+#, kde-format
+msgctxt "@info:shell"
+msgid "Files or URLs to import."
+msgstr "پرونده‌ها یا نشانی‌های وب برای درون‌ریزی."
+
+#: app/Main.qml:76 app/WelcomePage.qml:53
+#, kde-format
+msgid "Settings…"
+msgstr "تنظیمات…"
+
+#: app/Main.qml:83
+#, kde-format
+msgid "Help"
+msgstr "راهنما"
+
+#: app/Main.qml:89 app/WhatsNewDialog.qml:16
+#, kde-format
+msgid "What's new"
+msgstr "تازه‌ها"
+
+#: app/Main.qml:179
+#, kde-format
+msgctxt "@info:status"
+msgid "No onboard information available."
+msgstr "اطلاعات داخل سفر در دسترس نیست."
+
+#: app/Main.qml:220
+#, kde-format
+msgid "Map download finished."
+msgstr "بارگیری نقشه پایان یافت."
+
+#: app/Main.qml:310
+#, kde-format
+msgctxt "@title:window"
+msgid "Matrix Session Verification"
+msgstr "تأیید نشست ماتریکس"
+
+#: app/MapStopoverInfoSheetDrawer.qml:85
+#, kde-format
+msgid "Occupancy"
+msgstr "اشغال"
+
+#: app/MapStopoverInfoSheetDrawer.qml:112 app/StopoverDetailsPage.qml:124
+#, kde-format
+msgid "Information"
+msgstr "اطلاعات"
+
+#: app/MapStopoverInfoSheetDrawer.qml:131
+#, kde-format
+msgid "Show indoor map"
+msgstr "نمایش نقشهٔ داخلی"
+
+#: app/MatrixKeyVerificationPage.qml:12
+#, kde-format
+msgid "Matrix Session Verification"
+msgstr "تأیید هویت نشست ماتریکس"
+
+#: app/MatrixKeyVerificationPage.qml:41
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Waiting for device to accept verification."
+msgstr "در انتظار پذیرش تأیید هویت توسط دستگاه."
+
+#: app/MatrixKeyVerificationPage.qml:43
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Incoming key verification request from device <b>%1</b>"
+msgstr "درخواست ورودی تأیید کلید از طرف دستگاه <b>%1</b>"
+
+#: app/MatrixKeyVerificationPage.qml:45
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Waiting for other party to verify."
+msgstr "در انتظار تأیید طرف دیگر."
+
+#: app/MatrixKeyVerificationPage.qml:47
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Successfully verified device <b>%1</b>"
+msgstr "دستگاه <b>%1</b> با موفقیت تأیید هویت شد"
+
+#: app/MatrixKeyVerificationPage.qml:52
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification was canceled for unknown reason."
+msgstr "تأیید هویت نشست به دلیل نامشخصی لغو شد."
+
+#: app/MatrixKeyVerificationPage.qml:54
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification timed out."
+msgstr "مهلت زمانی تأیید هویت نشست تمام شد."
+
+#: app/MatrixKeyVerificationPage.qml:56
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification timed out for remote party."
+msgstr "مهلت زمانی تأیید هویت نشست برای طرف مقابل به پایان رسید."
+
+#: app/MatrixKeyVerificationPage.qml:58
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "You canceled the session verification."
+msgstr "شما تأیید هویت نشست را لغو کردید."
+
+#: app/MatrixKeyVerificationPage.qml:60
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The remote party canceled the session verification."
+msgstr "طرف مقابل تأیید اعتبار نشست را لغو کرد."
+
+#: app/MatrixKeyVerificationPage.qml:62
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The session verification was canceled because we received an unexpected "
+"message."
+msgstr "تأیید اعتبار نشست به دلیل دریافت یک پیام غیرمنتظره لغو شد."
+
+#: app/MatrixKeyVerificationPage.qml:64
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because it received an "
+"unexpected message."
+msgstr ""
+"طرف مقابل تأیید اعتبار نشست را به دلیل دریافت یک پیام غیرمنتظره لغو کرد."
+
+#: app/MatrixKeyVerificationPage.qml:66
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The session verification was canceled because it received a message for an "
+"unknown session."
+msgstr "تأیید اعتبار نشست به دلیل دریافت پیامی برای یک نشست ناشناخته لغو شد."
+
+#: app/MatrixKeyVerificationPage.qml:68
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because it received a "
+"message for an unknown session."
+msgstr ""
+"طرف مقابل تأیید اعتبار نشست را به دلیل دریافت پیامی برای یک نشست ناشناخته "
+"لغو کرد."
+
+#: app/MatrixKeyVerificationPage.qml:70
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The session verification was canceled because NeoChat is unable to handle "
+"this verification method."
+msgstr ""
+"تأیید اعتبار نشست لغو شد زیرا نئوچت (NeoChat) قادر به پشتیبانی از این روش "
+"تأیید اعتبار نیست."
+
+#: app/MatrixKeyVerificationPage.qml:72
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because it is unable to "
+"handle this verification method."
+msgstr ""
+"طرف مقابل تأیید اعتبار نشست را لغو کرد زیرا قادر به پشتیبانی از این روش "
+"تأیید اعتبار نیست."
+
+#: app/MatrixKeyVerificationPage.qml:74
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification was canceled because the keys are incorrect."
+msgstr "تأیید اعتبار نشست به دلیل نادرست بودن کلیدها لغو شد."
+
+#: app/MatrixKeyVerificationPage.qml:76
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because the keys are incorrect.\n"
+"\n"
+"<b>Please log out and log back in, your session is broken/corrupt.</b>"
+msgstr ""
+"طرف مقابل تأیید اعتبار نشست را به دلیل نادرست بودن کلیدها لغو کرد.\n"
+"\n"
+"<b>لطفاً خارج شده و دوباره وارد شوید، نشست شما خراب/معیوب است.</b>"
+
+#: app/MatrixKeyVerificationPage.qml:78
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The session verification was canceled because it verifies an unexpected "
+"user."
+msgstr "تأیید اعتبار نشست لغو شد زیرا کاربر غیرمنتظره‌ای را تأیید می‌کند."
+
+#: app/MatrixKeyVerificationPage.qml:80
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because it verifies an "
+"unexpected user."
+msgstr ""
+"طرف مقابل تأیید نشست را لغو کرد زیرا کاربر غیرمنتظره‌ای را تأیید می‌کند."
+
+#: app/MatrixKeyVerificationPage.qml:82
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The session verification was canceled because we received an invalid "
+"message."
+msgstr "تأیید نشست لغو شد زیرا پیام نامعتبری دریافت کردیم."
+
+#: app/MatrixKeyVerificationPage.qml:84
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because it received an "
+"invalid message."
+msgstr "طرف مقابل تأیید نشست را لغو کرد زیرا پیام نامعتبری دریافت کرده است."
+
+#: app/MatrixKeyVerificationPage.qml:87
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session was accepted on a different device"
+msgstr "نشست در دستگاه دیگری پذیرفته شد"
+
+#: app/MatrixKeyVerificationPage.qml:89
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification was canceled because of a mismatched key."
+msgstr "تأیید نشست به دلیل عدم تطابق کلید لغو شد."
+
+#: app/MatrixKeyVerificationPage.qml:91
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because of a mismatched "
+"key."
+msgstr "طرف مقابل تأیید نشست را به دلیل عدم تطابق کلید لغو کرد."
+
+#: app/MatrixKeyVerificationPage.qml:93
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification was canceled because the keys do not match."
+msgstr "تأیید نشست لغو شد زیرا کلیدها مطابقت ندارند."
+
+#: app/MatrixKeyVerificationPage.qml:95
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because the keys do not "
+"match."
+msgstr "طرف مقابل تأیید نشست را لغو کرد زیرا کلیدها مطابقت ندارند."
+
+#: app/MatrixKeyVerificationPage.qml:97
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification was canceled due to an unknown error."
+msgstr "تأیید نشست به دلیل خطای ناشناخته‌ای لغو شد."
+
+#: app/MatrixKeyVerificationPage.qml:114
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Emoji Verification"
+msgstr "تأیید با ایموجی"
+
+#: app/MatrixKeyVerificationPage.qml:117
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Compare a set of emoji on both devices."
+msgstr "مجموعه‌ای از ایموجی‌ها را در هر دو دستگاه مقایسه کنید."
+
+#: app/MatrixKeyVerificationPage.qml:128
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"Confirm the emoji below are displayed on both devices, in the same order."
+msgstr ""
+"تأیید کنید که ایموجی‌های زیر در هر دو دستگاه و با همان ترتیب نمایش داده "
+"می‌شوند."
+
+#: app/MatrixKeyVerificationPage.qml:165
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "They match"
+msgstr "همخوانی دارند"
+
+#: app/MatrixKeyVerificationPage.qml:171
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "They don't match"
+msgstr "همخوانی ندارند"
+
+#: app/MatrixKeyVerificationPage.qml:207
+#, kde-format
+msgid "Accept"
+msgstr "پذیرفتن"
+
+#: app/MatrixKeyVerificationPage.qml:213
+#, kde-format
+msgid "Decline"
+msgstr "رد کردن"
+
+#: app/MatrixRoomSelectionSheet.qml:20
+#, kde-format
+msgid "Share location…"
+msgstr "اشتراک‌گذاری موقعیت مکانی…"
+
+#: app/MatrixRoomSelectionSheet.qml:38
+#, kde-format
+msgctxt "matrix room type"
+msgid "Invited"
+msgstr "دعوت‌شده"
+
+#: app/MatrixRoomSelectionSheet.qml:39
+#, kde-format
+msgctxt "matrix room type"
+msgid "Favorite Rooms"
+msgstr "اتاق‌های برگزیده"
+
+#: app/MatrixRoomSelectionSheet.qml:40
+#, kde-format
+msgctxt "matrix room type"
+msgid "Direct Messages"
+msgstr "پیام‌های مستقیم"
+
+#: app/MatrixRoomSelectionSheet.qml:41
+#, kde-format
+msgctxt "matrix room type"
+msgid "Rooms"
+msgstr "اتاق‌ها"
+
+#: app/MatrixRoomSelectionSheet.qml:42
+#, kde-format
+msgctxt "matrix room type"
+msgid "Low Priority"
+msgstr "اولویت پایین"
+
+#: app/MatrixRoomSelectionSheet.qml:43
+#, kde-format
+msgctxt "matrix room type"
+msgid "Spaces"
+msgstr "فضاها"
+
+#: app/MyDataPage.qml:23
+#, kde-format
+msgctxt "@title"
+msgid "My Data"
+msgstr "داده‌های من"
+
+#: app/MyDataPage.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Passes and Programs"
+msgstr "گذرها و برنامه‌ها"
+
+#: app/MyDataPage.qml:34
+#, kde-format
+msgid "No valid bonus or discount program cards or flat rate passes found."
+msgstr "هیچ کارت معتبر برنامهٔ تخفیف یا پاداش، یا گذر نرخ ثابتی یافت نشد."
+
+#: app/MyDataPage.qml:52
+#, kde-format
+msgctxt "@action:button"
+msgid "Manage your Passes"
+msgstr "مدیریت گذرهای خود"
+
+#: app/MyDataPage.qml:59
+#, kde-format
+msgctxt "@title"
+msgid "Health Certificates"
+msgstr "گواهی‌های سلامت"
+
+#: app/MyDataPage.qml:69
+#, kde-format
+msgid "No valid health certificate found."
+msgstr "هیچ گواهی سلامت معتبری یافت نشد."
+
+#: app/MyDataPage.qml:100
+#, kde-format
+msgctxt "@action:button"
+msgid "Manage your health certificates"
+msgstr "مدیریت گواهی‌های سلامت خود"
+
+#: app/MyDataPage.qml:108
+#, kde-format
+msgctxt "@title:group"
+msgid "Saved Locations"
+msgstr "مکان‌های ذخیره‌شده"
+
+#: app/MyDataPage.qml:113 app/WelcomePage.qml:24
+#, kde-format
+msgid "Home Country"
+msgstr "کشور مبدا"
+
+#: app/MyDataPage.qml:131 app/StatisticsPage.qml:16
+#: app/StopoverInformationSheet.qml:56 app/TripGroupPage.qml:680
+#, kde-format
+msgid "Statistics"
+msgstr "آمار"
+
+#: app/MyDataPage.qml:181
+#, kde-format
+msgctxt "@action:button"
+msgid "See all Statistics"
+msgstr "مشاهدهٔ همهٔ آمارها"
+
+#: app/MyDataPage.qml:191
+#, kde-format
+msgctxt "@title:group"
+msgid "Data Portability"
+msgstr "قابلیت انتقال داده‌ها"
+
+#: app/MyDataPage.qml:196 app/PassPage.qml:27 app/TripGroupsPage.qml:19
+#, kde-format
+msgctxt "@action:button"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: app/MyDataPage.qml:202
+#, kde-format
+msgid "Import Backup"
+msgstr "درون‌ریزی پشتیبان"
+
+#: app/MyDataPage.qml:216
+#, kde-format
+msgctxt "@action:button"
+msgid "Export"
+msgstr "برون‌بری"
+
+#: app/MyDataPage.qml:227
+#, kde-format
+msgid "Export Itinerary Data"
+msgstr "برون‌بری داده‌های برنامهٔ سفر"
+
+#: app/NavigationBar.qml:18
+#, kde-format
+msgctxt "@title:tab This isn't the app name, but the English noun"
+msgid "Itinerary"
+msgstr "برنامهٔ سفر"
+
+#: app/NavigationBar.qml:24
+#, kde-format
+msgctxt "@title:tab"
+msgid "Plan Trip"
+msgstr "برنامه‌ریزی سفر"
+
+#: app/NavigationBar.qml:42
+#, kde-format
+msgctxt "@title:tab"
+msgid "My Data"
+msgstr "داده‌های من"
+
+#: app/NavigationBar.qml:47
+#, kde-format
+msgctxt "@title:tab"
+msgid "Current Ticket"
+msgstr "بلیت کنونی"
+
+#: app/notificationhelper.cpp:59
+#, kde-format
+msgid "Disruption on %1"
+msgstr "اختلال در %1"
+
+#: app/notificationhelper.cpp:67
+#, kde-format
+msgid "Changes on %1"
+msgstr "تغییرات در %1"
+
+#: app/notificationhelper.cpp:71
+#, kde-format
+msgid "Delays on %1"
+msgstr "تأخیرها در %1"
+
+#: app/notificationhelper.cpp:74
+#, kde-format
+msgid "Delayed departure on %1"
+msgstr "تأخیر در حرکت در %1"
+
+#: app/notificationhelper.cpp:77
+#, kde-format
+msgid "Earlier departure on %1"
+msgstr "حرکت زودتر در %1"
+
+#: app/notificationhelper.cpp:80
+#, kde-format
+msgid "Delayed arrival on %1"
+msgstr "تأخیر در رسیدن در %1"
+
+#: app/notificationhelper.cpp:84
+#, kde-format
+msgid "Platform change on %1"
+msgstr "تغییر سکو در %1"
+
+#: app/notificationhelper.cpp:94
+#, kde-format
+msgctxt "a train/bus journey canceled by its operator"
+msgid "Trip has been canceled."
+msgstr "سفر لغو شد."
+
+#: app/notificationhelper.cpp:96
+#, kde-format
+msgctxt "a train/bus journey canceled by its operator"
+msgid "Arrival has been canceled."
+msgstr "ورود لغو شد."
+
+#: app/notificationhelper.cpp:101
+#, kde-format
+msgid "New departure time is: %1 (+%2)"
+msgstr "زمان حرکت جدید: %1 (+%2)"
+
+#: app/notificationhelper.cpp:104
+#, kde-format
+msgid "New departure time is: %1 (%2)"
+msgstr "زمان حرکت جدید: %1 (%2)"
+
+#: app/notificationhelper.cpp:108
+#, kde-format
+msgid "New arrival time is: %1 (+%2)"
+msgstr "زمان رسیدن جدید: %1 (+%2)"
+
+#: app/notificationhelper.cpp:112
+#, kde-format
+msgid "New departure platform is: %1"
+msgstr "سکوی حرکت جدید: %1"
+
+#: app/notificationhelper.cpp:115
+#, kde-format
+msgid "New arrival platform is: %1"
+msgstr "سکوی ورود جدید: %1"
+
+#: app/onlineimport/db.qml:28 app/onlineimport/sncf.qml:28
+#, kde-format
+msgid "Family name"
+msgstr "نام خانوادگی"
+
+#: app/onlineimport/db.qml:33
+#, kde-format
+msgid "Name is case-sensitive."
+msgstr "نام به بزرگی و کوچکی حروف حساس است."
+
+#: app/onlineimport/db.qml:40
+#, kde-format
+msgid "Order number or booking reference"
+msgstr "شماره سفارش یا شناسهٔ رزرو"
+
+#: app/onlineimport/sncf.qml:38
+#, kde-format
+msgid "Booking reference"
+msgstr "شمارهٔ مرجع رزرو"
+
+#: app/OnlineImportPage.qml:16
+#, kde-format
+msgid "Import Online Ticket"
+msgstr "درون‌ریزی بلیت آنلاین"
+
+#: app/OnlineImportPage.qml:30
+#, kde-format
+msgid "No ticket found"
+msgstr "بلیتی پیدا نشد"
+
+#: app/OnlineImportPage.qml:35
+#, kde-format
+msgid "Online Ticket"
+msgstr "بلیت آنلاین"
+
+#: app/OnlineImportPage.qml:54
+#, kde-format
+msgid "Search…"
+msgstr "جست‌وجو…"
+
+#: app/PassDelegate.qml:36
+#, kde-format
+msgctxt "name - number"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: app/PassDelegate.qml:44
+#, kde-format
+msgctxt "name - valid time range"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: app/passmanager.cpp:289
+#, kde-format
+msgctxt "%1 and %2 are dates"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: app/PassPage.qml:19
+#, kde-format
+msgid "Passes and Programs"
+msgstr "گذرها و برنامه‌ها"
+
+#: app/PassPage.qml:22
+#, kde-format
+msgctxt "@title"
+msgid "Add Program Membership"
+msgstr "افزودن عضویت در برنامه"
+
+#: app/PassPage.qml:43 app/TripGroupsPage.qml:109
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: app/PassPage.qml:55
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Manually"
+msgstr "افزودن دستی"
+
+#: app/PassPage.qml:69
+#, kde-format
+msgctxt "not yet expired tickets"
+msgid "Valid"
+msgstr "معتبر"
+
+#: app/PassPage.qml:90
+#, kde-format
+msgctxt "not yet valid tickets"
+msgid "Future"
+msgstr "آینده"
+
+#: app/PassPage.qml:112
+#, kde-format
+msgctxt "no longer valid tickets"
+msgid "Expired"
+msgstr "منقضی‌شده"
+
+#: app/pkpass/PosterEventTicketSeatRow.qml:29
+#, kde-format
+msgctxt "seat reservation"
+msgid "Aisle"
+msgstr "راهرو"
+
+#: app/pkpass/PosterEventTicketSeatRow.qml:37
+#, kde-format
+msgctxt "seat reservation"
+msgid "Section"
+msgstr "بخش"
+
+#: app/pkpass/PosterEventTicketSeatRow.qml:45
+#, kde-format
+msgctxt "seat reservation"
+msgid "Row"
+msgstr "ردیف"
+
+#: app/pkpass/PosterEventTicketSeatRow.qml:53
+#, kde-format
+msgctxt "seat reservation"
+msgid "Seat"
+msgstr "صندلی"
+
+#: app/PkPassPage.qml:20
+#, kde-format
+msgid "Boarding Pass"
+msgstr "کارت پرواز"
+
+#: app/PkPassPage.qml:21
+#, kde-format
+msgid "Event Ticket"
+msgstr "بلیت رویداد"
+
+#: app/PkPassPage.qml:22
+#, kde-format
+msgid "Pass"
+msgstr "گذرنامه"
+
+#: app/ProgramMembershipCard.qml:22 app/ProgramMembershipEditorCard.qml:33
+#, kde-format
+msgctxt "bonus, discount or frequent traveler program"
+msgid "Program"
+msgstr "طرح"
+
+#: app/ProgramMembershipCard.qml:40 app/ProgramMembershipEditor.qml:90
+#: app/ProgramMembershipEditorCard.qml:61 app/ProgramMembershipPage.qml:104
+#: app/TicketPage.qml:115
+#, kde-format
+msgid "Number"
+msgstr "شماره"
+
+#: app/ProgramMembershipCard.qml:50 app/ProgramMembershipPage.qml:114
+#, kde-format
+msgid "Program membership number copied to clipboard"
+msgstr "شماره عضویت طرح در بریده‌دان کپی شد"
+
+#: app/ProgramMembershipCard.qml:63
+#, kde-format
+msgid "Show program pass"
+msgstr "نمایش کارت طرح"
+
+#: app/ProgramMembershipEditor.qml:24
+#, kde-format
+msgid "Edit Program Membership"
+msgstr "ویرایش عضویت در طرح"
+
+#: app/ProgramMembershipEditor.qml:34 app/TicketEditor.qml:27
+#, kde-format
+msgid "Save"
+msgstr "ذخیره"
+
+#: app/ProgramMembershipEditor.qml:62
+#, kde-format
+msgid "Program"
+msgstr "طرح"
+
+#: app/ProgramMembershipEditor.qml:73
+#, kde-format
+msgid "Program name must not be empty."
+msgstr "نام طرح نباید خالی باشد."
+
+#: app/ProgramMembershipEditor.qml:78 app/ProgramMembershipPage.qml:90
+#, kde-format
+msgid "Membership"
+msgstr "عضویت"
+
+#: app/ProgramMembershipEditor.qml:84 app/ProgramMembershipPage.qml:95
+#, kde-format
+msgid "Member"
+msgstr "عضو"
+
+#: app/ProgramMembershipEditor.qml:124
+#, kde-format
+msgid "Valid until time has to be after the valid from time."
+msgstr "زمان پایان اعتبار باید بعد از زمان آغاز اعتبار باشد."
+
+#: app/ProgramMembershipEditor.qml:134
+#, kde-format
+msgid "Barcode"
+msgstr "بارکد"
+
+#: app/ProgramMembershipPage.qml:17
+#, kde-format
+msgid "Program Membership"
+msgstr "عضویت برنامه"
+
+#: app/ProgramMembershipPage.qml:56
+#, kde-format
+msgid "Export Program Membership"
+msgstr "برون‌بری عضویت برنامه"
+
+#: app/ProgramMembershipPage.qml:155
+#, kde-format
+msgid "Show Pass"
+msgstr "نمایش گذرواژه"
+
+#: app/PublicTransportPage.qml:194 app/TicketEditor.qml:58
+#: app/TicketPage.qml:18 app/TicketPage.qml:92
+#, kde-format
+msgid "Ticket"
+msgstr "بلیت"
+
+#: app/ReservationDeletionDialog.qml:30
+#, kde-format
+msgid "Delete Selected"
+msgstr "حذف موارد انتخابی"
+
+#: app/ReservationDeletionDialog.qml:42
+#, kde-format
+msgid "Delete All"
+msgstr "حذف همه"
+
+#: app/ReservationDocumentsCard.qml:19
+#, kde-format
+msgid "Documents and Tickets"
+msgstr "اسناد و بلیت‌ها"
+
+#: app/reservationhelper.cpp:137
+#, kde-format
+msgid "Flight from %1 to %2"
+msgstr "پرواز از %1 به %2"
+
+#: app/reservationhelper.cpp:140
+#, kde-format
+msgid "Train from %1 to %2"
+msgstr "قطار از %1 به %2"
+
+#: app/reservationhelper.cpp:143
+#, kde-format
+msgid "Bus from %1 to %2"
+msgstr "اتوبوس از %1 به %2"
+
+#: app/RestaurantEditor.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "New Restaurant"
+msgstr "رستوران جدید"
+
+#: app/RestaurantEditor.qml:19
+#, kde-format
+msgctxt "@title"
+msgid "Edit Restaurant"
+msgstr "ویرایش رستوران"
+
+#: app/RestaurantEditor.qml:47 app/RestaurantEditor.qml:65
+#, kde-format
+msgid "Restaurant"
+msgstr "رستوران"
+
+#: app/RestaurantEditor.qml:72
+#, kde-format
+msgctxt "restaurant name"
+msgid "Name"
+msgstr "نام"
+
+#: app/RestaurantEditor.qml:91
+#, kde-format
+msgctxt "@title:group"
+msgid "Reservation"
+msgstr "رزرو"
+
+#: app/RestaurantPage.qml:16
+#, kde-format
+msgid "Restaurant Reservation"
+msgstr "رزرو رستوران"
+
+#: app/RestaurantPage.qml:30
+#, kde-format
+msgctxt "@title:group"
+msgid "Details"
+msgstr "جزئیات"
+
+#: app/RestaurantPage.qml:42
+#, kde-format
+msgid "Start time"
+msgstr "زمان شروع"
+
+#: app/RestaurantPage.qml:50
+#, kde-format
+msgid "End time"
+msgstr "زمان پایان"
+
+#: app/RestaurantPage.qml:58
+#, kde-format
+msgid "Party size"
+msgstr "تعداد نفرات"
+
+#: app/ScamWarningFormDelegate.qml:21
+#, kde-format
+msgid "This airport might not be quite where its name suggests it is."
+msgstr "ممکن است مکان این فرودگاه دقیقاً منطبق بر نامش نباشد."
+
+#: app/ScamWarningFormDelegate.qml:23
+#, kde-format
+msgid "This port might not be quite where its name suggests it is."
+msgstr "ممکن است مکان این بندر دقیقاً منطبق بر نامش نباشد."
+
+#: app/ScamWarningFormDelegate.qml:37
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Ignore warning"
+msgstr "نادیده گرفتن هشدار"
+
+#: app/ScamWarningFormDelegate.qml:50
+#, kde-format
+msgid "Ignore Warning"
+msgstr "نادیده گرفتن هشدار"
+
+#: app/ScamWarningFormDelegate.qml:51
+#, kde-format
+msgid "Do you want to ignore the warning permanently or for this trip only?"
+msgstr ""
+"آیا می‌خواهید این هشدار برای همیشه نادیده گرفته شود یا فقط برای این سفر؟"
+
+#: app/ScamWarningFormDelegate.qml:54
+#, kde-format
+msgid "Ignore permanently"
+msgstr "نادیده گرفتن همیشگی"
+
+#: app/ScamWarningFormDelegate.qml:63
+#, kde-format
+msgid "Ignore for this trip"
+msgstr "نادیده گرفتن برای این سفر"
+
+#: app/SettingsPage.qml:20
+#, kde-format
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: app/SettingsPage.qml:31
+#, kde-format
+msgid "Localization"
+msgstr "بومی‌سازی"
+
+#: app/SettingsPage.qml:40
+#, kde-format
+msgid "Use metric units"
+msgstr "استفاده از واحدهای متریک"
+
+#: app/SettingsPage.qml:41
+#, kde-format
+msgid ""
+"Use metric units for distance and temperature values regardless of the "
+"platform region settings."
+msgstr ""
+"استفاده از واحدهای متریک برای مقادیر مسافت و دما، صرف‌نظر از تنظیمات "
+"منطقه‌ای پلتفرم."
+
+#: app/SettingsPage.qml:50
+#, kde-format
+msgid "Online Services"
+msgstr "خدمات برخط"
+
+#: app/SettingsPage.qml:54
+#, kde-format
+msgid "Query Traffic Data"
+msgstr "استعلام داده‌های ترافیک"
+
+#: app/SettingsPage.qml:57
+#, kde-format
+msgid ""
+"When enabled, this will query transport provider online services for changes"
+" such as delays or gate and platform changes."
+msgstr ""
+"در صورت فعال بودن، تغییراتی مانند تأخیرها یا تغییرات گیت و سکو از خدمات برخط"
+" ارائه‌دهندهٔ حمل‌ونقل استعلام می‌شود."
+
+#: app/SettingsPage.qml:63
+#, kde-format
+msgid "Use insecure services"
+msgstr "استفاده از خدمات ناامن"
+
+#: app/SettingsPage.qml:66
+#, kde-format
+msgid ""
+"Enabling this will also use online services that do not offer transport "
+"encryption. This is not recommended, but might be unavoidable when relying "
+"on live data from certain providers."
+msgstr ""
+"فعال کردن این گزینه باعث استفاده از خدمات برخطی می‌شود که رمزگذاری انتقال "
+"ارائه نمی‌دهند. این کار توصیه نمی‌شود، اما ممکن است هنگام اتکا به داده‌های "
+"زنده از ارائه‌دهندگان خاص، اجتناب‌ناپذیر باشد."
+
+#: app/SettingsPage.qml:74
+#, kde-format
+msgid "Public Transport Information Sources…"
+msgstr "منابع اطلاعاتی حمل‌ونقل عمومی…"
+
+#: app/SettingsPage.qml:83 app/WeatherForecastDelegate.qml:81
+#: app/WeatherForecastPage.qml:20
+#, kde-format
+msgid "Weather Forecast"
+msgstr "پیش‌بینی آب‌وهوا"
+
+#: app/SettingsPage.qml:86
+#, kde-format
+msgid "Showing weather forecasts will query online services."
+msgstr "نمایش پیش‌بینی آب‌وهوا نیازمند اتصال به سرویس‌های برخط است."
+
+#: app/SettingsPage.qml:91 app/WeatherForecastPage.qml:37
+#, kde-format
+msgid ""
+"Using data from <a href=\"https://www.met.no/\">The Norwegian Meteorological"
+" Institute</a> under <a "
+"href=\"https://creativecommons.org/licenses/by/4.0\">Creative Commons 4.0 BY"
+" International</a> license."
+msgstr ""
+"استفاده از داده‌های <a href=\"https://www.met.no/\">مؤسسه هواشناسی نروژ</a> "
+"تحت مجوز <a href=\"https://creativecommons.org/licenses/by/4.0\">Creative "
+"Commons 4.0 BY International</a>."
+
+#: app/SettingsPage.qml:100
+#, kde-format
+msgid "Preload Map Data"
+msgstr "پیش‌بارگیری داده‌های نقشه"
+
+#: app/SettingsPage.qml:103
+#, kde-format
+msgid ""
+"Enabling this will download maps for all stations and airports for upcoming "
+"trips when connected to Wifi network."
+msgstr ""
+"با فعال‌سازی این گزینه، نقشه‌های تمام ایستگاه‌ها و فرودگاه‌ها برای سفرهای "
+"پیش‌رو در زمان اتصال به شبکه وای‌فای بارگیری می‌شوند."
+
+#: app/SettingsPage.qml:110
+#, kde-format
+msgid "Currency Conversion"
+msgstr "تبدیل ارز"
+
+#: app/SettingsPage.qml:118
+#, kde-format
+msgid ""
+"Enabling this will perform online queries for exchange rates to currencies "
+"at travel destinations."
+msgstr ""
+"با فعال‌سازی این گزینه، نرخ تبادل ارزهای مقاصد سفر به‌صورت برخط استعلام "
+"می‌شود."
+
+#: app/SettingsPage.qml:124
+#, kde-format
+msgid "Wikimedia Online Content"
+msgstr "محتوای برخط ویکی‌مدیا"
+
+#: app/SettingsPage.qml:127
+#, kde-format
+msgid "Use additional online content from Wikimedia and Wikidata."
+msgstr "استفاده از محتوای برخط اضافی از ویکی‌مدیا و ویکی‌داده."
+
+#: app/SettingsPage.qml:134
+#, kde-format
+msgid "Transfer Assistant"
+msgstr "دستیار انتقال"
+
+#: app/SettingsPage.qml:138
+#, kde-format
+msgid "Automatically add transfers"
+msgstr "افزودن خودکار جابه‌جایی‌ها"
+
+#: app/SettingsPage.qml:146
+#, kde-format
+msgid "Automatically fill transfers"
+msgstr "تکمیل خودکار جابه‌جایی‌ها"
+
+#: app/SettingsPage.qml:147
+#, kde-format
+msgid ""
+"When enabled, this will query transport provider online services "
+"automatically for transfer information."
+msgstr ""
+"در صورت فعال بودن، اطلاعات جابه‌جایی به‌طور خودکار از خدمات آنلاین "
+"ارائه‌دهنده حمل‌ونقل استعلام می‌شود."
+
+#: app/SettingsPage.qml:158
+#, kde-format
+msgid "Notifications"
+msgstr "اعلان‌ها"
+
+#: app/SettingsPage.qml:163
+#, kde-format
+msgid "Configure Notifications…"
+msgstr "پیکربندی اعلان‌ها…"
+
+#: app/SettingsPage.qml:172
+#, kde-format
+msgid "Show notifications on lock screen"
+msgstr "نمایش اعلان‌ها در صفحهٔ قفل"
+
+#: app/SettingsPage.qml:182 app/SettingsPage.qml:211 app/WelcomePage.qml:67
+#, kde-format
+msgid "Request permissions…"
+msgstr "درخواست مجوزها…"
+
+#: app/SettingsPage.qml:183 app/WelcomePage.qml:68
+#, kde-format
+msgid "Additional permissions are required to show notifications."
+msgstr "برای نمایش اعلان‌ها به مجوزهای بیشتری نیاز است."
+
+#: app/SettingsPage.qml:193 app/WelcomePage.qml:78
+#, kde-format
+msgid "Notification permissions are available"
+msgstr "مجوزهای اعلان در دسترس هستند"
+
+#: app/SettingsPage.qml:194 app/SettingsPage.qml:236 app/SettingsPage.qml:335
+#: app/WelcomePage.qml:79
+#, kde-format
+msgid "No further action required."
+msgstr "اقدام دیگری لازم نیست."
+
+#: app/SettingsPage.qml:207
+#, kde-format
+msgid "Onboard Status"
+msgstr "وضعیت داخل وسیله"
+
+#: app/SettingsPage.qml:212
+#, kde-format
+msgid "Additional permissions are required to access the Wi-Fi status."
+msgstr "برای دسترسی به وضعیت Wi-Fi به مجوزهای بیشتری نیاز است."
+
+#: app/SettingsPage.qml:223
+#, kde-format
+msgid "Wi-Fi access for onboard information is available."
+msgstr "دسترسی Wi-Fi برای اطلاعات داخل وسیله در دسترس است."
+
+#: app/SettingsPage.qml:225
+#, kde-format
+msgid "Wi-Fi is not enabled"
+msgstr "Wi-Fi فعال نیست"
+
+#: app/SettingsPage.qml:227
+#, kde-format
+msgid "Location service is not enabled"
+msgstr "سرویس مکان‌یابی فعال نیست"
+
+#: app/SettingsPage.qml:229
+#, kde-format
+msgid "Wi-Fi access is not available on this system"
+msgstr "دسترسی Wi-Fi در این سیستم موجود نیست"
+
+#: app/SettingsPage.qml:238
+#, kde-format
+msgid "Enable Wi-Fi on your system to access onboard information."
+msgstr "برای دسترسی به اطلاعات داخل وسیله، Wi-Fi را در سیستم خود فعال کنید."
+
+#: app/SettingsPage.qml:240
+#, kde-format
+msgid ""
+"Enable the location service on your device to access onboard information."
+msgstr ""
+"برای دسترسی به اطلاعات داخل وسیله، سرویس مکان‌یابی را در دستگاه خود فعال "
+"کنید."
+
+#: app/SettingsPage.qml:242
+#, kde-format
+msgid ""
+"Unfortunately, retrieving onboard information is not supported on your "
+"device at this time."
+msgstr ""
+"متأسفانه در حال حاضر دریافت اطلاعات داخل وسیله در دستگاه شما پشتیبانی "
+"نمی‌شود."
+
+#: app/SettingsPage.qml:274
+#, kde-format
+msgid "Matrix Integration"
+msgstr "یکپارچه‌سازی ماتریکس"
+
+#: app/SettingsPage.qml:281 app/SettingsPage.qml:353
+#, kde-format
+msgid "Logged in as %1"
+msgstr "واردشده با عنوان %1"
+
+#: app/SettingsPage.qml:285
+#, kde-format
+msgid "Synchronize rooms"
+msgstr "همگام‌سازی اتاق‌ها"
+
+#: app/SettingsPage.qml:292
+#, kde-format
+msgid "Matrix ID"
+msgstr "شناسهٔ ماتریکس"
+
+#: app/SettingsPage.qml:298
+#, kde-format
+msgid "Password"
+msgstr "گذرواژه"
+
+#: app/SettingsPage.qml:307
+#, kde-format
+msgid "Log out"
+msgstr "خروج"
+
+#: app/SettingsPage.qml:307
+#, kde-format
+msgid "Log in"
+msgstr "ورود"
+
+#: app/SettingsPage.qml:316
+#, kde-format
+msgctxt "@label"
+msgid "Homeserver url"
+msgstr "نشانی وب سرور خانگی"
+
+#: app/SettingsPage.qml:324
+#, kde-format
+msgctxt "@action:button"
+msgid "Login with OIDC"
+msgstr "ورود با OIDC"
+
+#: app/SettingsPage.qml:334
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Session verified"
+msgstr "نشست راستی‌آزمایی شد"
+
+#: app/SettingsPage.qml:334
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Session not verified."
+msgstr "نشست تأیید نشد."
+
+#: app/SettingsPage.qml:335
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Initiate session verification in your Matrix chat client."
+msgstr "تأیید نشست را در کلاینت گفت‌وگوی ماتریکس خود آغاز کنید."
+
+#: app/SettingsPage.qml:343
+#, kde-format
+msgid "Träwelling Integration"
+msgstr "یکپارچه‌سازی با Träwelling"
+
+#: app/SettingsPage.qml:348
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Träwelling is a free check-in service that lets you tell your friends where "
+"you are and where you can log your public transit journeys. For more "
+"information, visit <a href=\"https://traewelling.de\">traewelling.de</a>"
+msgstr ""
+"‏Träwelling یک سرویس اعلام حضور (check-in) رایگان است که به شما امکان می‌دهد"
+" موقعیت مکانی‌تان را به دوستان خود اطلاع دهید و سفرهای خود با حمل‌ونقل عمومی"
+" را ثبت کنید. برای اطلاعات بیشتر، از <a "
+"href=\"https://traewelling.de\">traewelling.de</a> دیدن کنید"
+
+#: app/SettingsPage.qml:356
+#, kde-format
+msgid "Login"
+msgstr "ورود"
+
+#: app/SettingsPage.qml:361
+#, kde-format
+msgid "Logout"
+msgstr "خروج"
+
+#: app/SettingsPage.qml:368
+#, kde-format
+msgid "Contributing"
+msgstr "مشارکت"
+
+#: app/SettingsPage.qml:372
+#, kde-format
+msgid "I contribute to OpenStreetMap"
+msgstr "من در OpenStreetMap مشارکت می‌کنم"
+
+#: app/SettingsPage.qml:373
+#, kde-format
+msgid "Enables OSM editing options."
+msgstr "گزینه‌های ویرایش OSM را فعال می‌کند."
+
+#: app/statisticsmodel.cpp:102
+#, kde-format
+msgid "Trips"
+msgstr "سفرها"
+
+#: app/statisticsmodel.cpp:107 app/statisticsmodel.cpp:140
+#: app/statisticsmodel.cpp:155 app/statisticsmodel.cpp:170
+#: app/statisticsmodel.cpp:185 app/statisticsmodel.cpp:200
+#: app/TripGroupPage.qml:687
+#, kde-format
+msgid "Distance"
+msgstr "مسافت"
+
+#: app/statisticsmodel.cpp:112
+#, kde-format
+msgid "Hotel nights"
+msgstr "شب‌های اقامت در هتل"
+
+#: app/statisticsmodel.cpp:117 app/statisticsmodel.cpp:145
+#: app/statisticsmodel.cpp:160 app/statisticsmodel.cpp:175
+#: app/statisticsmodel.cpp:190 app/statisticsmodel.cpp:205
+#: app/TripGroupPage.qml:696
+#, kde-format
+msgid "CO₂"
+msgstr "CO₂"
+
+#: app/statisticsmodel.cpp:130
+#, kde-format
+msgid "Visited countries"
+msgstr "کشورهای بازدیدشده"
+
+#: app/statisticsmodel.cpp:135
+#, kde-format
+msgid "Flights"
+msgstr "پروازها"
+
+#: app/statisticsmodel.cpp:150
+#, kde-format
+msgid "Train rides"
+msgstr "سفرهای با قطار"
+
+#: app/statisticsmodel.cpp:165
+#, kde-format
+msgid "Bus rides"
+msgstr "سفرهای با اتوبوس"
+
+#: app/statisticsmodel.cpp:180
+#, kde-format
+msgid "Car rides"
+msgstr "سفرهای با خودرو"
+
+#: app/statisticsmodel.cpp:195
+#, kde-format
+msgid "Boat trips"
+msgstr "سفرهای با قایق"
+
+#: app/StatisticsPage.qml:37
+#, kde-format
+msgid "Year"
+msgstr "سال"
+
+#: app/StatisticsPage.qml:49 app/statisticstimerangemodel.cpp:69
+#, kde-format
+msgid "Total"
+msgstr "مجموع"
+
+#: app/StatisticsPage.qml:65
+#, kde-format
+msgctxt "@info:placeholder no visited country"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: app/StatisticsPage.qml:121 app/TrainEditor.qml:130
+#, kde-format
+msgid "Train"
+msgstr "قطار"
+
+#: app/StatisticsPage.qml:135
+#, kde-format
+msgid "Bus"
+msgstr "اتوبوس"
+
+#: app/StatisticsPage.qml:149
+#, kde-format
+msgid "Boat"
+msgstr "قایق"
+
+#: app/StatisticsPage.qml:163
+#, kde-format
+msgid "Car"
+msgstr "خودرو"
+
+#: app/StopoverDetailsPage.qml:17
+#, kde-format
+msgctxt "train/bus arrival"
+msgid "Arrival Information"
+msgstr "اطلاعات ورود"
+
+#: app/StopoverDetailsPage.qml:17
+#, kde-format
+msgctxt "train/bus departure"
+msgid "Departure Information"
+msgstr "اطلاعات حرکت"
+
+#: app/StopoverDetailsPage.qml:93
+#, kde-format
+msgctxt "departure stop"
+msgid "From %1"
+msgstr "از %1"
+
+#: app/StopoverDetailsPage.qml:132
+#, kde-format
+msgid "Trip Map"
+msgstr "نقشه سفر"
+
+#: app/StopoverDetailsPage.qml:140
+#, kde-format
+msgid "Stop Map"
+msgstr "توقف نقشه"
+
+#: app/StopoverInformationSheet.qml:62
+#, kde-format
+msgid "Distance: %1"
+msgstr "مسافت: %1"
+
+#: app/StopoverInformationSheet.qml:73
+#, kde-format
+msgid "Average Speed: %1"
+msgstr "سرعت میانگین: %1"
+
+#: app/StopoverInformationSheet.qml:83
+#, kde-format
+msgid "CO₂: %1"
+msgstr "دی‌اکسید کربن: %1"
+
+#: app/TicketEditor.qml:18
+#, kde-format
+msgid "Edit Ticket"
+msgstr "ویرایش بلیت"
+
+#: app/TicketEditor.qml:64
+#, kde-format
+msgid "Ticket name"
+msgstr "نام بلیت"
+
+#: app/TicketEditor.qml:67
+#, kde-format
+msgid "Ticket name must not be empty."
+msgstr "نام بلیت نباید خالی باشد."
+
+#: app/TicketPage.qml:40
+#, kde-format
+msgid "Delete Ticket"
+msgstr "حذف بلیت"
+
+#: app/TicketPage.qml:41
+#, kde-format
+msgid "Do you really want to delete this ticket?"
+msgstr "آیا واقعاً می‌خواهید این بلیت را حذف کنید؟"
+
+#: app/TicketPage.qml:60
+#, kde-format
+msgid "Export Ticket"
+msgstr "برون‌بری بلیت"
+
+#: app/TicketPage.qml:121
+#, kde-format
+msgid "Class"
+msgstr "کلاس"
+
+#: app/TicketTokenEditorCard.qml:58
+#, kde-format
+msgctxt "@title:group"
+msgid "Ticket Barcode"
+msgstr "بارکد بلیط"
+
+#: app/TicketTokenEditorCard.qml:68
+#, kde-format
+msgid "Select ticket"
+msgstr "انتخاب بلیط"
+
+#: app/TicketTokenEditorCard.qml:91
+#, kde-format
+msgid "Scan barcode…"
+msgstr "اسکن بارکد…"
+
+#: app/TicketTokenEditorCard.qml:129
+#, kde-format
+msgid "Paste"
+msgstr "جای‌گذاری"
+
+#: app/tickettokenmodel.cpp:88
+#, kde-format
+msgctxt "%1 is a number"
+msgid "Attendee %1"
+msgstr "شرکت‌کنندهٔ %1"
+
+#: app/tickettokenmodel.cpp:90
+#, kde-format
+msgctxt "%1 is a number"
+msgid "Traveler %1"
+msgstr "مسافر %1"
+
+#: app/tickettokenmodel.cpp:137
+#, kde-format
+msgctxt "%1 is a person name, %2 is a ticket name"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: app/TimelineDelegateIntermediateStopsButton.qml:36
+#, kde-format
+msgid "1 intermediate stop (%2)"
+msgid_plural "%1 intermediate stops (%2)"
+msgstr[0] "۱ توقف بین‌راهی (%2)"
+msgstr[1] "%1 توقف بین‌راهی (%2)"
+
+#: app/TimelineDelegateIntermediateStopsButton.qml:46
+#, kde-format
+msgid "0 intermediate stop (%1)"
+msgstr "۰ توقف بین‌راهی (%1)"
+
+#: app/timelinesectiondelegatecontroller.cpp:64
+#, kde-format
+msgid "Today"
+msgstr "امروز"
+
+#: app/timelinesectiondelegatecontroller.cpp:66
+#, kde-format
+msgctxt "weekday, date"
+msgid "%1, %2"
+msgstr "%1، %2"
+
+#: app/TouristAttractionPage.qml:18
+#, kde-format
+msgid "Tourist Attraction"
+msgstr "جاذبهٔ گردشگری"
+
+#: app/TouristAttractionPage.qml:37
+#, kde-format
+msgid "Departure"
+msgstr "حرکت"
+
+#: app/TouristAttractionPage.qml:42
+#, kde-format
+msgid "Departure Time"
+msgstr "زمان حرکت"
+
+#: app/TouristAttractionPage.qml:49
+#, kde-format
+msgid "Arrival"
+msgstr "ورود"
+
+#: app/TouristAttractionPage.qml:54
+#, kde-format
+msgid "Arrival Time"
+msgstr "زمان ورود"
+
+#: app/TrainDelegate.qml:46 app/TrainDelegate.qml:113
+#, kde-format
+msgctxt "train station platform"
+msgid "Platform changed to %1"
+msgstr "سکو به %1 تغییر کرد"
+
+#: app/TrainDelegate.qml:48 app/TrainDelegate.qml:115
+#, kde-format
+msgctxt "train station platform"
+msgid "Platform %1"
+msgstr "سکوی %1"
+
+#: app/TrainDelegate.qml:62 app/TrainPage.qml:303
+#, kde-format
+msgctxt "train coach"
+msgid "Coach: <b>%1</b>"
+msgstr "واگن: <b>%1</b>"
+
+#: app/TrainDelegate.qml:68 app/TrainPage.qml:310
+#, kde-format
+msgctxt "train seat"
+msgid "Seat: <b>%1</b>"
+msgstr "صندلی: <b>%1</b>"
+
+#: app/TrainDelegate.qml:76 app/TrainPage.qml:318
+#, kde-format
+msgctxt "train class"
+msgid "Class: <b>%1</b>"
+msgstr "کلاس: <b>%1</b>"
+
+#: app/TrainEditor.qml:79
+#, kde-format
+msgctxt "@title"
+msgid "New Train Reservation"
+msgstr "رزرو جدید قطار"
+
+#: app/TrainEditor.qml:79
+#, kde-format
+msgctxt "@title"
+msgid "Edit Train Reservation"
+msgstr "ویرایش رزرو قطار"
+
+#: app/TrainEditor.qml:88 app/TrainEditor.qml:248
+#, kde-format
+msgctxt "train departure"
+msgid "Change Departure Station"
+msgstr "تغییر ایستگاه مبدأ"
+
+#: app/TrainEditor.qml:94
+#, kde-format
+msgctxt "train departure"
+msgid "Change departure station"
+msgstr "تغییر ایستگاه مبدأ"
+
+#: app/TrainEditor.qml:104 app/TrainEditor.qml:354
+#, kde-format
+msgctxt "train arrival"
+msgid "Change Arrival Station"
+msgstr "تغییر ایستگاه مقصد"
+
+#: app/TrainEditor.qml:110
+#, kde-format
+msgctxt "train arrival"
+msgid "Change arrival station"
+msgstr "تغییر ایستگاه مقصد"
+
+#: app/TrainEditor.qml:149
+#, kde-format
+msgctxt "@title:group"
+msgid "Train"
+msgstr "قطار"
+
+#: app/TrainEditor.qml:158
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Train number"
+msgstr "شمارهٔ قطار"
+
+#: app/TrainEditor.qml:164
+#, kde-format
+msgctxt "train departure"
+msgid "Departure"
+msgstr "حرکت"
+
+#: app/TrainEditor.qml:173
+#, kde-format
+msgctxt "Train departure"
+msgid "Departure Time"
+msgstr "زمان حرکت"
+
+#: app/TrainEditor.qml:186 app/TrainEditor.qml:286
+#, kde-format
+msgctxt "Train station"
+msgid "Station Name"
+msgstr "نام ایستگاه"
+
+#: app/TrainEditor.qml:189
+#, kde-format
+msgid "Departure station must not be empty."
+msgstr "ایستگاه مبدا نباید خالی باشد."
+
+#: app/TrainEditor.qml:210 app/TrainEditor.qml:310
+#, kde-format
+msgid ""
+"Specifying the departure and arrival location helps Itinerary to find up-to-"
+"date information for the train this reservation is valid for."
+msgstr ""
+"مشخص کردن مکان مبدا و مقصد به «برنامه سفر» کمک می‌کند اطلاعات به‌روزی را "
+"برای قطاری که این رزرو برای آن معتبر است، پیدا کند."
+
+#: app/TrainEditor.qml:231 app/TrainEditor.qml:336 app/TrainPage.qml:161
+#: app/TrainPage.qml:248
+#, kde-format
+msgctxt "train station"
+msgid "Station"
+msgstr "ایستگاه"
+
+#: app/TrainEditor.qml:256
+#, kde-format
+msgctxt "train arrival"
+msgid "Arrival"
+msgstr "ورود"
+
+#: app/TrainEditor.qml:289
+#, kde-format
+msgid "Arrival station must not be empty."
+msgstr "ایستگاه مقصد نباید خالی باشد."
+
+#: app/TrainEditor.qml:364 app/TrainEditor.qml:376 app/TrainPage.qml:294
+#, kde-format
+msgctxt "Train seat"
+msgid "Seat"
+msgstr "صندلی"
+
+#: app/TrainEditor.qml:370
+#, kde-format
+msgctxt "carriage on a train"
+msgid "Coach"
+msgstr "واگن"
+
+#: app/TrainEditor.qml:382
+#, kde-format
+msgctxt "seating class on a train"
+msgid "Class"
+msgstr "درجه"
+
+#: app/TrainPage.qml:23
+#, kde-format
+msgid "Train Ticket"
+msgstr "بلیت قطار"
+
+#: app/TrainPage.qml:116
+#, kde-format
+msgctxt "Train departure"
+msgid "Departure"
+msgstr "حرکت"
+
+#: app/TrainPage.qml:195
+#, kde-format
+msgid "Departure Vehicle Layout"
+msgstr "طرح‌بندی وسیله نقلیه در حرکت"
+
+#: app/TrainPage.qml:204
+#, kde-format
+msgctxt "Train arrival"
+msgid "Arrival"
+msgstr "ورود"
+
+#: app/TrainPage.qml:284
+#, kde-format
+msgid "Arrival Vehicle Layout"
+msgstr "طرح‌بندی وسیله نقلیه در ورود"
+
+#: app/TrainPage.qml:350
+#, kde-format
+msgctxt "@action:button"
+msgid "Add to Träwelling"
+msgstr "افزودن به Träwelling"
+
+#: app/TrainPage.qml:380
+#, kde-format
+msgid "Added to Träwelling"
+msgstr "به Träwelling اضافه شد"
+
+#: app/TrainPage.qml:380
+#, kde-format
+msgid "Failed to add to Träwelling"
+msgstr "افزودن به Träwelling ناموفق بود"
+
+#: app/TransferDelegate.qml:119
+#, kde-format
+msgid "Select transfer"
+msgstr "انتخاب تعویض خط"
+
+#: app/TransferDelegate.qml:129
+#, kde-format
+msgid "Delete transfer"
+msgstr "حذف انتقال"
+
+#: app/TransferPage.qml:20
+#, kde-format
+msgid "Select Transfer"
+msgstr "انتخاب انتقال"
+
+#: app/TransferPage.qml:43
+#, kde-format
+msgid "Depart Now"
+msgstr "حرکت اکنون"
+
+#: app/TransferPage.qml:53
+#, kde-format
+msgid "Discard"
+msgstr "صرف‌نظر"
+
+#: app/TransferPage.qml:61
+#, kde-format
+msgid "Earlier"
+msgstr "زودتر"
+
+#: app/TransferPage.qml:67
+#, kde-format
+msgid "Later"
+msgstr "دیرتر"
+
+#: app/TransferPage.qml:75
+#, kde-format
+msgid "Bike"
+msgstr "دوچرخه"
+
+#: app/TransferPage.qml:82
+#, kde-format
+msgid "Bike & Ride"
+msgstr "دوچرخه و سواری"
+
+#: app/TransferPage.qml:90
+#, kde-format
+msgid "Shared Bikes"
+msgstr "دوچرخه‌های اشتراکی"
+
+#: app/TransferPage.qml:97
+#, kde-format
+msgid "Park & Ride"
+msgstr "پارک و سوار"
+
+#: app/TransferPage.qml:266
+#, kde-format
+msgid "%1 ends at %2"
+msgstr "%1 در %2 پایان می‌یابد"
+
+#: app/TransferPage.qml:268
+#, kde-format
+msgid "Preceding arrival %1 at %2"
+msgstr "ورود قبلی %1 در %2"
+
+#: app/TransferPage.qml:278
+#, kde-format
+msgid "%1 starts at %2"
+msgstr "%1 در %2 شروع می‌شود"
+
+#: app/TransferPage.qml:280
+#, kde-format
+msgid "Following departure %1 from %2"
+msgstr "حرکت بعدی %1 از %2"
+
+#: app/TripGroupDelegate.qml:39
+#, kde-format
+msgctxt "date range"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: app/TripGroupDelegate.qml:40
+#, kde-format
+msgid "Upcoming"
+msgstr "پیش‌رو"
+
+#: app/TripGroupEditorDialog.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Trip"
+msgstr "افزودن سفر"
+
+#: app/TripGroupEditorDialog.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Trip"
+msgstr "ویرایش سفر"
+
+#: app/TripGroupEditorDialog.qml:24 app/TripGroupMergeDialog.qml:56
+#: app/TripGroupSelectorCard.qml:84
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Trip name:"
+msgstr "نام سفر:"
+
+#: app/tripgroupmanager.cpp:861
+#, kde-format
+msgctxt "%1 is destination, %2 is the standalone month name, %3 is the year"
+msgid "%1 (%2 %3)"
+msgstr "%1 (%2 %3)"
+
+#: app/tripgroupmanager.cpp:867
+#, kde-format
+msgctxt ""
+"%1 is destination, %2 and %3 are the standalone month names and %4 is the "
+"year"
+msgid "%1 (%2/%3 %4)"
+msgstr "%1 (%2/%3 %4)"
+
+#: app/tripgroupmanager.cpp:873
+#, kde-format
+msgctxt "%1 is destination, %2 and %3 are years"
+msgid "%1 (%2/%3)"
+msgstr "%1 (%2/%3)"
+
+#: app/TripGroupMapPage.qml:201
+#, kde-format
+msgid "Address"
+msgstr "نشانی"
+
+#: app/TripGroupMergeDialog.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Merge Trips"
+msgstr "ادغام سفرها"
+
+#: app/TripGroupMergeDialog.qml:39
+#, kde-format
+msgid "Merge with:"
+msgstr "ادغام با:"
+
+#: app/TripGroupMergeDialog.qml:78
+#, kde-format
+msgctxt "@action:button"
+msgid "Merge"
+msgstr "ادغام"
+
+#: app/tripgroupmodel.cpp:133
+#, kde-format
+msgctxt "List section header"
+msgid "Past trips"
+msgstr "سفرهای گذشته"
+
+#: app/tripgroupmodel.cpp:136
+#, kde-format
+msgctxt "List section header"
+msgid "Future trips"
+msgstr "سفرهای آینده"
+
+#: app/tripgroupmodel.cpp:138
+#, kde-format
+msgctxt "List section header"
+msgid "Current trip"
+msgstr "سفر کنونی"
+
+#: app/TripGroupPage.qml:156
+#, kde-format
+msgctxt "@action"
+msgid "Search connection"
+msgstr "جستجوی اتصال"
+
+#: app/TripGroupPage.qml:163
+#, kde-format
+msgctxt "@action"
+msgid "Add connection"
+msgstr "افزودن اتصال"
+
+#: app/TripGroupPage.qml:169
+#, kde-format
+msgctxt "@action"
+msgid "Add train"
+msgstr "افزودن قطار"
+
+#: app/TripGroupPage.qml:179
+#, kde-format
+msgctxt "@action"
+msgid "Add bus"
+msgstr "افزودن اتوبوس"
+
+#: app/TripGroupPage.qml:189
+#, kde-format
+msgctxt "@action"
+msgid "Add flight"
+msgstr "افزودن پرواز"
+
+#: app/TripGroupPage.qml:199
+#, kde-format
+msgctxt "@action"
+msgid "Add ferry trip"
+msgstr "افزودن سفر با کشتی"
+
+#: app/TripGroupPage.qml:209
+#, kde-format
+msgctxt "@action"
+msgid "Add accommodation"
+msgstr "افزودن اقامتگاه"
+
+#: app/TripGroupPage.qml:224
+#, kde-format
+msgctxt "@action"
+msgid "Add event"
+msgstr "افزودن رویداد"
+
+#: app/TripGroupPage.qml:240
+#, kde-format
+msgid "Add restaurant"
+msgstr "افزودن رستوران"
+
+#: app/TripGroupPage.qml:257
+#, kde-format
+msgctxt "@title:group"
+msgid "Add to Trip"
+msgstr "افزودن به سفر"
+
+#: app/TripGroupPage.qml:290
+#, kde-format
+msgid "Export Trip"
+msgstr "برون‌ریزی سفر"
+
+#: app/TripGroupPage.qml:301
+#, kde-format
+msgid "Delete Trip"
+msgstr "حذف سفر"
+
+#: app/TripGroupPage.qml:302
+#, kde-format
+msgid "Do you really want to delete the trip '%1'?"
+msgstr "آیا واقعاً می‌خواهید سفر «%1» را حذف کنید؟"
+
+#: app/TripGroupPage.qml:426
+#, kde-format
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: app/TripGroupPage.qml:427
+#, kde-format
+msgid "One day"
+msgid_plural "%1 days"
+msgstr[0] "یک روز"
+msgstr[1] "%1 روز"
+
+#: app/TripGroupPage.qml:459
+#, kde-format
+msgid "Some incompatible power sockets (%1)"
+msgstr "برخی از پریزهای برق ناسازگار (%1)"
+
+#: app/TripGroupPage.qml:461
+#, kde-format
+msgid "Some incompatible power plugs (%1)"
+msgstr "برخی از دوشاخه‌های برق ناسازگار (%1)"
+
+#: app/TripGroupPage.qml:464
+#, kde-format
+msgid "No compatible power plugs (%1)"
+msgstr "بدون دوشاخه برق سازگار (%1)"
+
+#: app/TripGroupPage.qml:501
+#, kde-format
+msgid "Currency: %2"
+msgid_plural "Currencies: %2"
+msgstr[0] "ارز: %2"
+msgstr[1] "ارزها: %2"
+
+#: app/TripGroupPage.qml:511
+#, kde-format
+msgid "Show map…"
+msgstr "نمایش نقشه…"
+
+#: app/TripGroupPage.qml:535
+#, kde-format
+msgid "Add"
+msgstr "افزودن"
+
+#: app/TripGroupPage.qml:652
+#, kde-format
+msgid "Nothing on the itinerary for today."
+msgstr "برنامه‌ای برای امروز در برنامهٔ سفر نیست."
+
+#: app/TripGroupPage.qml:705
+#, kde-format
+msgid "Cost"
+msgstr "هزینه"
+
+#: app/TripGroupPage.qml:727
+#, kde-format
+msgid "Rename…"
+msgstr "تغییر نام…"
+
+#: app/TripGroupPage.qml:736
+#, kde-format
+msgid "Merge trips…"
+msgstr "ادغام سفرها…"
+
+#: app/TripGroupPage.qml:747
+#, kde-format
+msgid "Split trip…"
+msgstr "تفکیک سفر…"
+
+#: app/TripGroupPage.qml:754
+#, kde-format
+msgid "Download Maps"
+msgstr "بارگیری نقشه‌ها"
+
+#: app/TripGroupPage.qml:769
+#, kde-format
+msgid "Delete trip"
+msgstr "حذف سفر"
+
+#: app/TripGroupPage.qml:794
+#, kde-format
+msgctxt "@action:button"
+msgid "Go To Now"
+msgstr "برو به اکنون"
+
+#: app/TripGroupPage.qml:802 app/TripGroupsPage.qml:83
+#: app/TripGroupsPage.qml:118
+#, kde-format
+msgctxt "@action:button"
+msgid "Add trip"
+msgstr "افزودن سفر"
+
+#: app/TripGroupSelectorCard.qml:70 app/TripGroupSelectorDialog.qml:51
+#, kde-format
+msgid "New Trip"
+msgstr "سفر جدید"
+
+#: app/TripGroupSelectorCard.qml:73
+#, kde-format
+msgid "Add to Trip"
+msgstr "افزودن به سفر"
+
+#: app/TripGroupSelectorCard.qml:90
+#, kde-format
+msgid "Trip name must not be empty."
+msgstr "نام سفر نباید خالی باشد."
+
+#: app/TripGroupSelectorCard.qml:95
+#, kde-format
+msgid "Add to:"
+msgstr "افزودن به:"
+
+#: app/TripGroupSelectorCard.qml:122
+#, kde-format
+msgid "A trip must be selected."
+msgstr "باید یک سفر انتخاب شود."
+
+#: app/TripGroupSelectorDialog.qml:14
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Add Journey to Trip"
+msgstr "افزودن سفر به سفر"
+
+#: app/TripGroupsPage.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Trips"
+msgstr "سفرها"
+
+#: app/TripGroupsPage.qml:81
+#, kde-format
+msgid "No trips added yet."
+msgstr "هنوز هیچ سفری اضافه نشده است."
+
+#: app/TripGroupSplitPage.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Split Trip"
+msgstr "تقسیم سفر"
+
+#: app/TripGroupSplitPage.qml:28
+#, kde-format
+msgctxt "@label:textbox"
+msgid "New Trip name:"
+msgstr "نام سفر جدید:"
+
+#: app/TripGroupSplitPage.qml:35
+#, kde-format
+msgctxt "@title:group"
+msgid "Sections"
+msgstr "بخش‌ها"
+
+#: app/TripGroupSplitPage.qml:77
+#, kde-format
+msgctxt "@action:button"
+msgid "Split trip"
+msgstr "تقسیم سفر"
+
+#: app/VehicleLayoutPage.qml:17
+#, kde-format
+msgid "Vehicle Layout"
+msgstr "طرح‌بندی وسیله نقلیه"
+
+#: app/VehicleLayoutPage.qml:95
+#, kde-format
+msgctxt "%1 is a date/time"
+msgid "Departure: %1"
+msgstr "حرکت: %1"
+
+#: app/VehicleLayoutPage.qml:97
+#, kde-format
+msgctxt "%1 is a date/time"
+msgid "Arrival: %1"
+msgstr "ورود: %1"
+
+#: app/VehicleLayoutPage.qml:126
+#, kde-format
+msgid "Coach: %1 Seat: %2"
+msgstr "واگن: %1 صندلی: %2"
+
+#: app/VehicleLayoutPage.qml:231
+#, kde-format
+msgid "No vehicle layout information available."
+msgstr "هیچ اطلاعاتی دربارهٔ طرح‌بندی وسیله نقلیه موجود نیست."
+
+#: app/VehicleSectionDialog.qml:29
+#, kde-format
+msgctxt "train coach"
+msgid "Coach %1"
+msgstr "واگن %1"
+
+#: app/WeatherForecastDelegate.qml:59 app/WeatherForecastPage.qml:105
+#, kde-format
+msgctxt "precipitation"
+msgid "%1 mm"
+msgstr "%1 mm"
+
+#: app/WeatherForecastDelegate.qml:72 app/WeatherForecastPage.qml:118
+#, kde-format
+msgctxt "windSpeed"
+msgid "%1 m/s"
+msgstr "%1 m/s"
+
+#: app/WelcomePage.qml:16
+#, kde-format
+msgid "Welcome!"
+msgstr "خوش آمدید!"
+
+#: app/WelcomePage.qml:19
+#, kde-format
+msgctxt "@title:group"
+msgid "Setup"
+msgstr "برپایی"
+
+#: app/WelcomePage.qml:31
+#, kde-format
+msgid ""
+"Select your home country for currency conversions and power plug "
+"compatibility warnings to work."
+msgstr ""
+"کشور مبدأ خود را برای کارکرد تبدیل ارز و هشدارهای سازگاری پریز برق انتخاب "
+"کنید."
+
+#: app/WelcomePage.qml:35
+#, kde-format
+msgid "Use online services"
+msgstr "استفاده از خدمات برخط"
+
+#: app/WelcomePage.qml:36
+#, kde-format
+msgid ""
+"KDE Itinerary has all features disabled by default that require online "
+"access, such as retrieving live traffic data or weather forecasts. You can "
+"enable all this here, or check the settings for much more finegrained "
+"control over which services to use."
+msgstr ""
+"تمام ویژگی‌هایی که در برنامهٔ سفر کی‌دی‌ای نیاز به دسترسی برخط دارند (مانند "
+"دریافت اطلاعات ترافیک زنده یا پیش‌بینی وضع هوا)، به‌طور پیش‌فرض غیرفعال "
+"هستند. می‌توانید همهٔ آن‌ها را در اینجا فعال کنید، یا برای کنترل بسیار "
+"دقیق‌تر روی خدمات مورد استفاده، به تنظیمات مراجعه کنید."
+
+#: app/WelcomePage.qml:54
+#, kde-format
+msgid ""
+"Review the settings for more finegrained control over which online services "
+"to use."
+msgstr "تنظیمات را برای کنترل دقیق‌تر روی خدمات برخط مورد استفاده بررسی کنید."
+
+#: app/WelcomePage.qml:61
+#, kde-format
+msgctxt "@title:group"
+msgid "Permissions"
+msgstr "مجوزها"
+
+#: app/WelcomePage.qml:90
+#, kde-format
+msgid "Done!"
+msgstr "انجام شد!"
+
+#: app/WhatsNewDialog.qml:77
+#, kde-format
+msgid "Show older changes…"
+msgstr "نمایش تغییرات قدیمی‌تر…"
+
+#: matrix/matrixmanager.cpp:23 matrix/matrixmanager.cpp:120
+#, kde-format
+msgid "Syncing…"
+msgstr "در حال همگام‌سازی…"
+
+#: matrix/matrixmanager.cpp:57
+#, kde-format
+msgid "This server does not support logging in using a password"
+msgstr "این کارساز از ورود با استفاده از گذرواژه پشتیبانی نمی‌کند"
+
+#: matrix/matrixmanager.cpp:105
+#, kde-format
+msgid "Logged out"
+msgstr "خارج شدید"
+
+#: matrix/matrixmanager.cpp:173
+#, kde-format
+msgid "Logging in…"
+msgstr "در حال ورود…"
+
+#: metadataextractor/itineraryextractor.cpp:118
+#, kde-format
+msgctxt "Airline Flightnumber from Airport to Airport on Date"
+msgid "%1%2 from %3 to %4 on %5"
+msgstr "%1%2 از %3 به %4 در %5"

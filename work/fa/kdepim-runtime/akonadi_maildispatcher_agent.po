@@ -1,0 +1,180 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the akonadi_maildispatcher_agent package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_maildispatcher_agent\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-12 00:45+0000\n"
+"PO-Revision-Date: 2026-10-15 20:51+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: maildispatcheragent.cpp:79 maildispatcheragent.cpp:224
+#, kde-format
+msgid "Sending messages (1 item in queue)…"
+msgid_plural "Sending messages (%1 items in queue)..."
+msgstr[0] "در حال ارسال پیام‌ها (۱ مورد در صف)…"
+msgstr[1] "در حال ارسال پیام‌ها (%1 مورد در صف)..."
+
+#: maildispatcheragent.cpp:89
+#, kde-format
+msgid "Sending canceled."
+msgstr "ارسال لغو شد."
+
+#: maildispatcheragent.cpp:96
+#, kde-format
+msgid "Finished sending messages."
+msgstr "ارسال پیام‌ها به پایان رسید."
+
+#: maildispatcheragent.cpp:102
+#, kde-format
+msgctxt "Notification title when email was sent"
+msgid "E-Mail Successfully Sent"
+msgstr "رایانامه با موفقیت ارسال شد"
+
+#: maildispatcheragent.cpp:103
+#, kde-format
+msgctxt "Notification when the email was sent"
+msgid "Your E-Mail has been sent successfully."
+msgstr "رایانامهٔ شما با موفقیت ارسال شد."
+
+#: maildispatcheragent.cpp:109
+#, kde-format
+msgid "No items in queue."
+msgstr "موردی در صف نیست."
+
+#: maildispatcheragent.cpp:154
+#, kde-format
+msgid "Online, sending messages in queue."
+msgstr "برخط، در حال ارسال پیام‌های موجود در صف."
+
+#: maildispatcheragent.cpp:158
+#, kde-format
+msgid "Offline, message sending suspended."
+msgstr "برون‌خط، ارسال پیام متوقف شد."
+
+#: maildispatcheragent.cpp:184
+#, kde-format
+msgctxt "Message with given subject is being sent."
+msgid "Sending: %1"
+msgstr "در حال ارسال: %1"
+
+#: maildispatcheragent.cpp:249
+#, kde-format
+msgctxt "Notification title when email sending failed"
+msgid "E-Mail Sending Failed"
+msgstr "ارسال رایانامه ناموفق بود"
+
+#: maildispatcheragent.cpp:282
+#, kde-format
+msgid "Ready to dispatch messages."
+msgstr "آماده برای ارسال پیام‌ها."
+
+#. i18n: ectx: label, entry (Outbox), group (General)
+#: maildispatcheragent.kcfg:10
+#, kde-format
+msgid "Outbox collection id"
+msgstr "شناسهٔ مجموعه‌ٔ صندوق خروجی"
+
+#. i18n: ectx: label, entry (SentMail), group (General)
+#: maildispatcheragent.kcfg:14
+#, kde-format
+msgid "Sent Mail collection id"
+msgstr "شناسهٔ مجموعهٔ پیام‌های فرستاده‌شده"
+
+#: outboxqueue.cpp:263
+#, kde-format
+msgid "Could not access the outbox folder (%1)."
+msgstr "عدم امکان دسترسی به پوشهٔ صندوق خروجی (%1)."
+
+#: sendjob.cpp:47 sendjob.cpp:48
+#, kde-format
+msgid "Message sending aborted."
+msgstr "ارسال پیام لغو شد."
+
+#: sendjob.cpp:57
+#, kde-format
+msgid "Could not initiate message transport. Possibly invalid transport."
+msgstr ""
+"امکان راه‌اندازی انتقال پیام وجود نداشت. احتمالاً روش انتقال نامعتبر است."
+
+#: sendjob.cpp:63
+#, kde-format
+msgid "Could not send message. Invalid transport."
+msgstr "پیام ارسال نشد. روش انتقال نامعتبر است."
+
+#: sendjob.cpp:95
+#, kde-format
+msgid "Failed to get D-Bus interface of resource %1."
+msgstr "دریافت رابط D-Bus منبع %1 ناموفق بود."
+
+#: sendjob.cpp:108
+#, kde-format
+msgid "Invalid D-Bus reply from resource %1."
+msgstr "پاسخ D-Bus نامعتبر از منبع %1."
+
+#: sendjob.cpp:229
+#, kde-format
+msgid "Default sent-mail folder unavailable. Keeping message in outbox."
+msgstr ""
+"پوشهٔ پیش‌فرض پیام‌های فرستاده‌شده در دسترس نیست. پیام در صندوق خروجی نگه "
+"داشته می‌شود."
+
+#: sendjob.cpp:241
+#, kde-format
+msgid "Message transport aborted."
+msgstr "انتقال پیام لغو شد."
+
+#: sendjob.cpp:241
+#, kde-format
+msgid "Failed to transport message."
+msgstr "انتقال پیام ناموفق بود."
+
+#: sendjob.cpp:245
+#, kde-format
+msgid ""
+"Possible solution: review your send mail settings (authentication, port, "
+"encryption type, etc.)"
+msgstr ""
+"راه حل احتمالی: تنظیمات ارسال رایانامه خود را بررسی کنید (احراز هویت، درگاه،"
+" نوع رمزگذاری و غیره)"
+
+#: sendjob.cpp:288
+#, kde-format
+msgid "Failed to get D-Bus interface of mailfilteragent."
+msgstr "دریافت واسط D-Bus از mailfilteragent ناموفق بود."
+
+#: sendjob.cpp:295
+#, kde-format
+msgid "Invalid D-Bus reply from mailfilteragent"
+msgstr "پاسخ D-Bus نامعتبر از mailfilteragent"
+
+#: sendjob.cpp:337
+#, kde-format
+msgid "Sending succeeded, but failed to remove the message from the outbox."
+msgstr "ارسال با موفقیت انجام شد، اما حذف پیام از صندوق خروجی ناموفق بود."
+
+#: sendjob.cpp:340
+#, kde-format
+msgid ""
+"Sending succeeded, but failed to move the message to the sent-mail folder."
+msgstr ""
+"ارسال با موفقیت انجام شد، اما انتقال پیام به پوشهٔ رایانامه‌های فرستاده‌شده "
+"ناموفق بود."
+
+#: sendjob.cpp:376
+#, kde-format
+msgid "Failed to store result in item."
+msgstr "ذخیرهٔ نتیجه در مورد ناموفق بود."
+
+#: storeresultjob.cpp:59
+#, kde-format
+msgid "Failed to fetch item."
+msgstr "واکشی مورد ناموفق بود."

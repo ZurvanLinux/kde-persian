@@ -1,0 +1,285 @@
+# translation of imgalleryplugin.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohamad Reza Mirdamadi <mohi@ubuntu.ir>, 2010, 2011.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: imgalleryplugin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-12 00:44+0000\n"
+"PO-Revision-Date: 2026-10-16 00:02+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: imgallerydialog.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Image Gallery"
+msgstr "ایجاد نگارخانهٔ تصویر"
+
+#: imgallerydialog.cpp:37
+#, kde-format
+msgid "Create"
+msgstr "ایجاد"
+
+#: imgallerydialog.cpp:47 imgallerydialog.cpp:83
+#, kde-format
+msgid "Image Gallery for %1"
+msgstr "نگارخانهٔ تصویر برای %1"
+
+#: imgallerydialog.cpp:75
+#, kde-format
+msgid "Look"
+msgstr "نما"
+
+#: imgallerydialog.cpp:76
+#, kde-format
+msgid "Page Look"
+msgstr "نمای صفحه"
+
+#: imgallerydialog.cpp:84
+#, kde-format
+msgid "&Page title:"
+msgstr "عنوان صفحه:"
+
+#: imgallerydialog.cpp:92
+#, kde-format
+msgid "I&mages per row:"
+msgstr "تصاویر در هر ردیف:"
+
+#: imgallerydialog.cpp:94
+#, kde-format
+msgid "Show image file &name"
+msgstr "نمایش نام پروندهٔ تصویر"
+
+#: imgallerydialog.cpp:98
+#, kde-format
+msgid "Show image file &size"
+msgstr "نمایش اندازهٔ پروندهٔ تصویر"
+
+#: imgallerydialog.cpp:102
+#, kde-format
+msgid "Show image &dimensions"
+msgstr "نمایش ابعاد تصویر"
+
+#: imgallerydialog.cpp:113
+#, kde-format
+msgid "Fon&t name:"
+msgstr "نام قلم:"
+
+#: imgallerydialog.cpp:121
+#, kde-format
+msgid "Font si&ze:"
+msgstr "اندازهٔ قلم:"
+
+#: imgallerydialog.cpp:125
+#, kde-format
+msgid "&Foreground color:"
+msgstr "رنگ پیش‌زمینه:"
+
+#: imgallerydialog.cpp:129
+#, kde-format
+msgid "&Background color:"
+msgstr "رنگ پس‌زمینه:"
+
+#: imgallerydialog.cpp:135 imgallerydialog.cpp:136
+#, kde-format
+msgid "Folders"
+msgstr "پوشه‌ها"
+
+#: imgallerydialog.cpp:144
+#, kde-format
+msgid "&Save to HTML file:"
+msgstr "ذخیره در پروندهٔ HTML:"
+
+#: imgallerydialog.cpp:146
+#, kde-format
+msgid "<p>The name of the HTML file this gallery will be saved to.</p>"
+msgstr "<p>نام پروندهٔ HTML که این نگارخانه در آن ذخیره خواهد شد.</p>"
+
+#: imgallerydialog.cpp:149
+#, kde-format
+msgid "&Recurse subfolders"
+msgstr "پیمایش بازگشتی زیرپوشه‌ها"
+
+#: imgallerydialog.cpp:151
+#, kde-format
+msgid ""
+"<p>Whether subfolders should be included for the image gallery creation or "
+"not.</p>"
+msgstr ""
+"<p>این‌که زیرپوشه‌ها برای ایجاد نگارخانهٔ تصاویر لحاظ شوند یا خیر.</p>"
+
+#: imgallerydialog.cpp:162
+#, kde-format
+msgid "Endless"
+msgstr "بی‌پایان"
+
+#: imgallerydialog.cpp:164
+#, kde-format
+msgid ""
+"<p>You can limit the number of folders the image gallery creator will "
+"traverse to by setting an upper bound for the recursion depth.</p>"
+msgstr ""
+"<p>می‌توانید با تعیین یک حد بالا برای عمق بازگشت، تعداد پوشه‌هایی را که "
+"سازندهٔ نگارخانهٔ تصاویر در آن‌ها پیمایش می‌کند محدود کنید.</p>"
+
+#: imgallerydialog.cpp:167
+#, kde-format
+msgid "Rec&ursion depth:"
+msgstr "عمق بازگشت:"
+
+#: imgallerydialog.cpp:171
+#, kde-format
+msgid "Copy or&iginal files"
+msgstr "رونوشت از پرونده‌های اصلی"
+
+#: imgallerydialog.cpp:173
+#, kde-format
+msgid ""
+"<p>This makes a copy of all images and the gallery will refer to these "
+"copies instead of the original images.</p>"
+msgstr ""
+"<p>این گزینه یک رونوشت از همهٔ تصاویر تهیه می‌کند و نگارخانه به جای تصاویر "
+"اصلی، به این رونوشت‌ها ارجاع خواهد داد.</p>"
+
+#: imgallerydialog.cpp:178
+#, kde-format
+msgid "Use &comment file"
+msgstr "استفاده از پروندهٔ توضیحات"
+
+#: imgallerydialog.cpp:180
+#, kde-format
+msgid ""
+"<p>If you enable this option you can specify a comment file which will be "
+"used for generating subtitles for the images.</p><p>For details about the "
+"file format please see the \"What's This?\" help below.</p>"
+msgstr ""
+"<p>اگر این گزینه را فعال کنید، می‌توانید یک پروندهٔ توضیحات مشخص کنید که "
+"برای تولید زیرنویس تصاویر استفاده خواهد شد.</p><p>برای جزئیات دربارهٔ قالب "
+"پرونده، لطفاً راهنمای «این چیست؟» را در زیر ببینید.</p>"
+
+#: imgallerydialog.cpp:189
+#, kde-format
+msgid ""
+"<p>You can specify the name of the comment file here. The comment file "
+"contains the subtitles for the images. The format of this file "
+"is:</p><p>FILENAME1:<br />Description<br /><br />FILENAME2:<br "
+"/>Description<br /><br />and so on</p>"
+msgstr ""
+"<p>در اینجا می‌توانید نام پروندهٔ توضیحات را مشخص کنید. پروندهٔ توضیحات شامل"
+" زیرنویس تصاویر است. قالب این پرونده به صورت زیر است:</p><p>FILENAME1:<br "
+"/>Description<br /><br />FILENAME2:<br />Description<br /><br />و غیره</p>"
+
+#: imgallerydialog.cpp:199
+#, kde-format
+msgid "Comments &file:"
+msgstr "پروندهٔ توضیحات:"
+
+#: imgallerydialog.cpp:209 imgallerydialog.cpp:210
+#, kde-format
+msgid "Thumbnails"
+msgstr "بندانگشتی‌ها"
+
+#: imgallerydialog.cpp:223
+#, kde-format
+msgid "Image f&ormat:"
+msgstr "قالب تصویر:"
+
+#: imgallerydialog.cpp:231
+#, kde-format
+msgid "Thumbnail size:"
+msgstr "اندازه تصویر بندانگشتی:"
+
+#: imgallerydialog.cpp:234
+#, kde-format
+msgid "&Set different color depth:"
+msgstr "تنظیم عمق رنگ متفاوت:"
+
+#: imgallerydialog.cpp:245
+#, kde-format
+msgid "Color depth:"
+msgstr "عمق رنگ:"
+
+#: imgalleryplugin.cpp:44
+#, kde-format
+msgid "&Create Image Gallery..."
+msgstr "ایجاد نگارخانه تصویر..."
+
+#: imgalleryplugin.cpp:54
+#, kde-format
+msgid "Could not create the plugin, please report a bug."
+msgstr "امکان ایجاد افزونه وجود نداشت، لطفاً این اشکال را گزارش دهید."
+
+#: imgalleryplugin.cpp:60
+#, kde-format
+msgid "Creating an image gallery works only on local folders."
+msgstr "ایجاد نگارخانه تصویر فقط برای پوشه‌های محلی امکان‌پذیر است."
+
+#: imgalleryplugin.cpp:80
+#, kde-format
+msgid "Creating thumbnails"
+msgstr "در حال ایجاد تصاویر بندانگشتی"
+
+#: imgalleryplugin.cpp:103 imgalleryplugin.cpp:270
+#, kde-format
+msgid "Could not create folder: %1"
+msgstr "امکان ایجاد پوشه وجود نداشت: %1"
+
+#: imgalleryplugin.cpp:168
+#, kde-format
+msgid "<i>Number of images</i>: %1"
+msgstr "<i>تعداد تصاویر</i>: %1"
+
+#: imgalleryplugin.cpp:169
+#, kde-format
+msgid "<i>Created on</i>: %1"
+msgstr "<i>ایجادشده در</i>: %1"
+
+#: imgalleryplugin.cpp:174
+#, kde-format
+msgid "<i>Subfolders</i>:"
+msgstr "<i>پوشه‌های فرعی</i>:"
+
+#: imgalleryplugin.cpp:207
+#, kde-format
+msgid ""
+"Created thumbnail for: \n"
+"%1"
+msgstr ""
+"بندانگشتی برای این مورد ایجاد شد: \n"
+"%1"
+
+#: imgalleryplugin.cpp:210
+#, kde-format
+msgid ""
+"Creating thumbnail for: \n"
+"%1\n"
+" failed"
+msgstr ""
+"ایجاد بندانگشتی برای این مورد ناموفق بود: \n"
+"%1"
+
+#: imgalleryplugin.cpp:225
+#, kde-format
+msgid "KiB"
+msgstr "KiB"
+
+#: imgalleryplugin.cpp:343 imgalleryplugin.cpp:443
+#, kde-format
+msgid "Could not open file: %1"
+msgstr "پرونده باز نشد: %1"
+
+#. i18n: ectx: Menu (tools)
+#: kimgallery.rc:4
+#, kde-format
+msgid "&Tools"
+msgstr "ابزارها"

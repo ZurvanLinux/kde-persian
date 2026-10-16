@@ -1,0 +1,2458 @@
+# translation of kdelibs4.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Mahdi Foladgar <foladgar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2007.
+# Nooshin Asiaie <asiaie@itland.ir>, 2007.
+# Mohamad Reza Mirdamadi <mohi@linuxshop.ir>, 2009, 2010, 2011, 2012.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-14 23:41+0330\n"
+"PO-Revision-Date: 2026-10-15 00:00+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Generic sans serif font presented in font choosers. When selected, the
+#. system will choose a real font, mandated by distro settings.
+#: fonthelpers_p.h:22
+msgctxt "FontHelpers|@item Font name"
+msgid "Sans Serif"
+msgstr "بدون سِریف"
+
+#. Generic serif font presented in font choosers. When selected, the system
+#. will choose a real font, mandated by distro settings.
+#: fonthelpers_p.h:25
+msgctxt "FontHelpers|@item Font name"
+msgid "Serif"
+msgstr "سِریف"
+
+#. Generic monospace font presented in font choosers. When selected, the
+#. system will choose a real font, mandated by distro settings.
+#: fonthelpers_p.h:28
+msgctxt "FontHelpers|@item Font name"
+msgid "Monospace"
+msgstr "تک‌فاصله"
+
+#: fonthelpers_p.h:88
+#, qt-format
+msgctxt "FontHelpers|@item Font name"
+msgid "%1"
+msgstr "%1"
+
+#: fonthelpers_p.h:92
+#, qt-format
+msgctxt "FontHelpers|@item Font name [foundry]"
+msgid "%1 [%2]"
+msgstr "%1 [%2]"
+
+#: kabstractcoloredit.cpp:70
+msgctxt "KAbstractColorEdit|@action:inmenu"
+msgid "Copy Color"
+msgstr "رونوشت از رنگ"
+
+#: kabstractcoloredit.cpp:81
+msgctxt "KAbstractColorEdit|@action:inmenu"
+msgid "Paste Color"
+msgstr "چسباندن رنگ"
+
+#: kactionselector.cpp:98
+msgctxt "KActionSelector|@label:listbox"
+msgid "&Available:"
+msgstr "موجود:"
+
+#: kactionselector.cpp:115
+msgctxt "KActionSelector|@label:listbox"
+msgid "&Selected:"
+msgstr "انتخاب‌شده:"
+
+#: kassistantdialog.cpp:100
+msgctxt "KAssistantDialog|@action:button go back"
+msgid "&Back"
+msgstr "بازگشت"
+
+#: kassistantdialog.cpp:102
+msgctxt "KAssistantDialog|@info:tooltip"
+msgid "Go back one step"
+msgstr "یک گام به عقب بروید"
+
+#: kassistantdialog.cpp:107
+msgctxt "KAssistantDialog|@action:button Opposite to Back"
+msgid "Next"
+msgstr "بعدی"
+
+#: kassistantdialog.cpp:113
+msgctxt "KAssistantDialog|@action:button"
+msgid "Finish"
+msgstr "پایان"
+
+#: kcharselect-translation.cpp:11 kcharselectdata.cpp:279
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "All"
+msgstr "همه"
+
+#: kcharselect-translation.cpp:12
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "European Scripts"
+msgstr "خطوط اروپایی"
+
+#: kcharselect-translation.cpp:13
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "African Scripts"
+msgstr "خطوط آفریقایی"
+
+#: kcharselect-translation.cpp:14
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Middle Eastern Scripts"
+msgstr "خطوط خاورمیانه‌ای"
+
+#: kcharselect-translation.cpp:15
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Central Asian Scripts"
+msgstr "خطوط آسیای مرکزی"
+
+#: kcharselect-translation.cpp:16
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "South Asian Scripts"
+msgstr "خطوط آسیای جنوبی"
+
+#: kcharselect-translation.cpp:17
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Southeast Asian Scripts"
+msgstr "خطوط جنوب شرقی آسیا"
+
+#: kcharselect-translation.cpp:18
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Indonesia and Oceania Scripts"
+msgstr "خطوط اندونزی و اقیانوسیه"
+
+#: kcharselect-translation.cpp:19
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "East Asian Scripts"
+msgstr "خطوط آسیای شرقی"
+
+#: kcharselect-translation.cpp:20
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "American Scripts"
+msgstr "خطوط آمریکایی"
+
+#: kcharselect-translation.cpp:21
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Symbols"
+msgstr "نمادها"
+
+#: kcharselect-translation.cpp:22
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Mathematical Symbols"
+msgstr "نمادهای ریاضی"
+
+#: kcharselect-translation.cpp:23
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Phonetic Symbols"
+msgstr "نمادهای آوایی"
+
+#: kcharselect-translation.cpp:24 kcharselectdata.cpp:745
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Combining Diacritics"
+msgstr "نشانه‌های تفکیکی ترکیبی"
+
+#: kcharselect-translation.cpp:25
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Other"
+msgstr "دیگر"
+
+#: kcharselect-translation.cpp:26
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Basic Latin"
+msgstr "لاتین پایه"
+
+#: kcharselect-translation.cpp:27
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin-1 Supplement"
+msgstr "مکمل لاتین-۱"
+
+#: kcharselect-translation.cpp:28
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended-A"
+msgstr "لاتین گسترش‌یافته-A"
+
+#: kcharselect-translation.cpp:29
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended-B"
+msgstr "لاتین گسترش‌یافته-B"
+
+#: kcharselect-translation.cpp:30
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "IPA Extensions"
+msgstr "گسترش‌های IPA"
+
+#: kcharselect-translation.cpp:31
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Spacing Modifier Letters"
+msgstr "حروف اصلاح‌کنندهٔ فاصله‌گذاری"
+
+#: kcharselect-translation.cpp:32
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Combining Diacritical Marks"
+msgstr "نشانه‌های تفکیکی ترکیبی"
+
+#: kcharselect-translation.cpp:33
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Greek and Coptic"
+msgstr "یونانی و قبطی"
+
+#: kcharselect-translation.cpp:34
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cyrillic"
+msgstr "سیریلیک"
+
+#: kcharselect-translation.cpp:35
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cyrillic Supplement"
+msgstr "مکمل سیریلیک"
+
+#: kcharselect-translation.cpp:36
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Armenian"
+msgstr "ارمنی"
+
+#: kcharselect-translation.cpp:37
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hebrew"
+msgstr "عبری"
+
+#: kcharselect-translation.cpp:38
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic"
+msgstr "عربی"
+
+#: kcharselect-translation.cpp:39
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Syriac"
+msgstr "سریانی"
+
+#: kcharselect-translation.cpp:40
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic Supplement"
+msgstr "مکمل عربی"
+
+#: kcharselect-translation.cpp:41
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Thaana"
+msgstr "تانا"
+
+#: kcharselect-translation.cpp:42
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "NKo"
+msgstr "ان‌کو"
+
+#: kcharselect-translation.cpp:43
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Samaritan"
+msgstr "سامری"
+
+#: kcharselect-translation.cpp:44
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Mandaic"
+msgstr "مندایی"
+
+#: kcharselect-translation.cpp:45
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Syriac Supplement"
+msgstr "مکمل سریانی"
+
+#: kcharselect-translation.cpp:46
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic Extended-B"
+msgstr "عربی گسترش‌یافته-B"
+
+#: kcharselect-translation.cpp:47
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic Extended-A"
+msgstr "عربی گسترش‌یافته-A"
+
+#: kcharselect-translation.cpp:48
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Devanagari"
+msgstr "دیواناگری"
+
+#: kcharselect-translation.cpp:49
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Bengali"
+msgstr "بنگالی"
+
+#: kcharselect-translation.cpp:50
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Gurmukhi"
+msgstr "گورموخی"
+
+#: kcharselect-translation.cpp:51
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Gujarati"
+msgstr "گجراتی"
+
+#: kcharselect-translation.cpp:52
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Oriya"
+msgstr "اوریا"
+
+#: kcharselect-translation.cpp:53
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tamil"
+msgstr "تامیلی"
+
+#: kcharselect-translation.cpp:54
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Telugu"
+msgstr "تلوگویی"
+
+#: kcharselect-translation.cpp:55
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Kannada"
+msgstr "کانّادا"
+
+#: kcharselect-translation.cpp:56
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Malayalam"
+msgstr "مالایالام"
+
+#: kcharselect-translation.cpp:57
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Sinhala"
+msgstr "سینهالی"
+
+#: kcharselect-translation.cpp:58
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Thai"
+msgstr "تایلندی"
+
+#: kcharselect-translation.cpp:59
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Lao"
+msgstr "لائوسی"
+
+#: kcharselect-translation.cpp:60
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tibetan"
+msgstr "تبتی"
+
+#: kcharselect-translation.cpp:61
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Myanmar"
+msgstr "میانماری"
+
+#: kcharselect-translation.cpp:62
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Georgian"
+msgstr "گرجی"
+
+#: kcharselect-translation.cpp:63
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hangul Jamo"
+msgstr "جاموی هانگول"
+
+#: kcharselect-translation.cpp:64
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ethiopic"
+msgstr "اتیوپیایی"
+
+#: kcharselect-translation.cpp:65
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ethiopic Supplement"
+msgstr "مکمل اتیوپیایی"
+
+#: kcharselect-translation.cpp:66
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cherokee"
+msgstr "چروکی"
+
+#: kcharselect-translation.cpp:67
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Unified Canadian Aboriginal Syllabics"
+msgstr "هجانگاره‌های یکپارچهٔ بومیان کانادا"
+
+#: kcharselect-translation.cpp:68
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ogham"
+msgstr "اوگام"
+
+#: kcharselect-translation.cpp:69
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Runic"
+msgstr "رونی"
+
+#: kcharselect-translation.cpp:70
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tagalog"
+msgstr "تاگالوگ"
+
+#: kcharselect-translation.cpp:71
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hanunoo"
+msgstr "هانونوئو"
+
+#: kcharselect-translation.cpp:72
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Buhid"
+msgstr "بوهید"
+
+#: kcharselect-translation.cpp:73
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tagbanwa"
+msgstr "تاگبانوا"
+
+#: kcharselect-translation.cpp:74
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Khmer"
+msgstr "خمر"
+
+#: kcharselect-translation.cpp:75
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Mongolian"
+msgstr "مغولی"
+
+#: kcharselect-translation.cpp:76
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Unified Canadian Aboriginal Syllabics Extended"
+msgstr "هجانگارهای یکپارچهٔ بومیان کانادا گسترش‌یافته"
+
+#: kcharselect-translation.cpp:77
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Limbu"
+msgstr "لیمبو"
+
+#: kcharselect-translation.cpp:78
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tai Le"
+msgstr "تای له"
+
+#: kcharselect-translation.cpp:79
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "New Tai Lue"
+msgstr "تای لوی جدید"
+
+#: kcharselect-translation.cpp:80
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Khmer Symbols"
+msgstr "نمادهای خمر"
+
+#: kcharselect-translation.cpp:81
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Buginese"
+msgstr "بوگیایی"
+
+#: kcharselect-translation.cpp:82
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tai Tham"
+msgstr "تای تام"
+
+#: kcharselect-translation.cpp:83
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Combining Diacritical Marks Extended"
+msgstr "نشانه‌های تفکیک‌کنندهٔ ترکیبی گسترش‌یافته"
+
+#: kcharselect-translation.cpp:84
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Balinese"
+msgstr "بالیایی"
+
+#: kcharselect-translation.cpp:85
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Sundanese"
+msgstr "سوندایی"
+
+#: kcharselect-translation.cpp:86
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Batak"
+msgstr "باتاک"
+
+#: kcharselect-translation.cpp:87
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Lepcha"
+msgstr "لپچا"
+
+#: kcharselect-translation.cpp:88
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ol Chiki"
+msgstr "اول چیکی"
+
+#: kcharselect-translation.cpp:89
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cyrillic Extended-C"
+msgstr "سیریلیک گسترش‌یافته-C"
+
+#: kcharselect-translation.cpp:90
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Georgian Extended"
+msgstr "گرجی گسترش‌یافته"
+
+#: kcharselect-translation.cpp:91
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Sundanese Supplement"
+msgstr "مکمل سوندایی"
+
+#: kcharselect-translation.cpp:92
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Vedic Extensions"
+msgstr "گسترش‌های ودایی"
+
+#: kcharselect-translation.cpp:93
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Phonetic Extensions"
+msgstr "گسترش‌های آوایی"
+
+#: kcharselect-translation.cpp:94
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Phonetic Extensions Supplement"
+msgstr "مکمل گسترش‌های آوایی"
+
+#: kcharselect-translation.cpp:95
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Combining Diacritical Marks Supplement"
+msgstr "مکمل نشانه‌های تفکیک‌کنندهٔ ترکیبی"
+
+#: kcharselect-translation.cpp:96
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended Additional"
+msgstr "لاتین گسترش‌یافتهٔ اضافی"
+
+#: kcharselect-translation.cpp:97
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Greek Extended"
+msgstr "یونانی گسترش‌یافته"
+
+#: kcharselect-translation.cpp:98
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "General Punctuation"
+msgstr "علائم نگارشی عمومی"
+
+#: kcharselect-translation.cpp:99
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Superscripts and Subscripts"
+msgstr "بالانویس‌ها و زیرنویس‌ها"
+
+#: kcharselect-translation.cpp:100
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Currency Symbols"
+msgstr "نمادهای ارزی"
+
+#: kcharselect-translation.cpp:101
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Combining Diacritical Marks for Symbols"
+msgstr "نشانه‌های اعرابی ترکیبی برای نمادها"
+
+#: kcharselect-translation.cpp:102
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Letterlike Symbols"
+msgstr "نمادهای حرف‌مانند"
+
+#: kcharselect-translation.cpp:103
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Number Forms"
+msgstr "صورت‌های عددی"
+
+#: kcharselect-translation.cpp:104
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arrows"
+msgstr "پیکان‌ها"
+
+#: kcharselect-translation.cpp:105
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Mathematical Operators"
+msgstr "عملگرهای ریاضی"
+
+#: kcharselect-translation.cpp:106
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Technical"
+msgstr "فنی متفرقه"
+
+#: kcharselect-translation.cpp:107
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Control Pictures"
+msgstr "تصاویر کنترلی"
+
+#: kcharselect-translation.cpp:108
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Optical Character Recognition"
+msgstr "بازشناسی نوری نویسه‌ها"
+
+#: kcharselect-translation.cpp:109
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Enclosed Alphanumerics"
+msgstr "الفباعددی‌های محصور"
+
+#: kcharselect-translation.cpp:110
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Box Drawing"
+msgstr "ترسیم جعبه"
+
+#: kcharselect-translation.cpp:111
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Block Elements"
+msgstr "عناصر بلوکی"
+
+#: kcharselect-translation.cpp:112
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Geometric Shapes"
+msgstr "شکل‌های هندسی"
+
+#: kcharselect-translation.cpp:113
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Symbols"
+msgstr "نمادهای متفرقه"
+
+#: kcharselect-translation.cpp:114
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Dingbats"
+msgstr "دینگ‌بت‌ها"
+
+#: kcharselect-translation.cpp:115
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "نمادهای ریاضی متفرقه - الف"
+
+#: kcharselect-translation.cpp:116
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Arrows-A"
+msgstr "پیکان‌های تکمیلی - الف"
+
+#: kcharselect-translation.cpp:117
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Braille Patterns"
+msgstr "الگوهای بریل"
+
+#: kcharselect-translation.cpp:118
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Arrows-B"
+msgstr "پیکان‌های تکمیلی - ب"
+
+#: kcharselect-translation.cpp:119
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "نمادهای ریاضی متفرقه - ب"
+
+#: kcharselect-translation.cpp:120
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Mathematical Operators"
+msgstr "عملگرهای ریاضی تکمیلی"
+
+#: kcharselect-translation.cpp:121
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Symbols and Arrows"
+msgstr "نمادها و پیکان‌های متفرقه"
+
+#: kcharselect-translation.cpp:122
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Glagolitic"
+msgstr "گلاگولیتی"
+
+#: kcharselect-translation.cpp:123
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended-C"
+msgstr "لاتین گسترش‌یافته-C"
+
+#: kcharselect-translation.cpp:124
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Coptic"
+msgstr "قبطی"
+
+#: kcharselect-translation.cpp:125
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Georgian Supplement"
+msgstr "مکمل گرجی"
+
+#: kcharselect-translation.cpp:126
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tifinagh"
+msgstr "تیفیناغ"
+
+#: kcharselect-translation.cpp:127
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ethiopic Extended"
+msgstr "اتیوپیایی گسترش‌یافته"
+
+#: kcharselect-translation.cpp:128
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cyrillic Extended-A"
+msgstr "سیریلیک گسترش‌یافته-A"
+
+#: kcharselect-translation.cpp:129
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Punctuation"
+msgstr "نشانه‌گذاری مکمل"
+
+#: kcharselect-translation.cpp:130
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Radicals Supplement"
+msgstr "مکمل رادیکال‌های CJK"
+
+#: kcharselect-translation.cpp:131
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Kangxi Radicals"
+msgstr "رادیکال‌های کانگ‌شی"
+
+#: kcharselect-translation.cpp:132
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ideographic Description Characters"
+msgstr "نویسه‌های توصیف اندیشه‌نگاشتی"
+
+#: kcharselect-translation.cpp:133
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Symbols and Punctuation"
+msgstr "نمادها و نشانه‌گذاری CJK"
+
+#: kcharselect-translation.cpp:134
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hiragana"
+msgstr "هیراگانا"
+
+#: kcharselect-translation.cpp:135
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Katakana"
+msgstr "کاتاکانا"
+
+#: kcharselect-translation.cpp:136
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Bopomofo"
+msgstr "بوپوموفو"
+
+#: kcharselect-translation.cpp:137
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hangul Compatibility Jamo"
+msgstr "جاموی سازگاری هانگول"
+
+#: kcharselect-translation.cpp:138
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Kanbun"
+msgstr "کانبون"
+
+#: kcharselect-translation.cpp:139
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Bopomofo Extended"
+msgstr "بوپوموفو گسترش‌یافته"
+
+#: kcharselect-translation.cpp:140
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Strokes"
+msgstr "قلم‌ضربه‌های CJK"
+
+#: kcharselect-translation.cpp:141
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Katakana Phonetic Extensions"
+msgstr "گسترش‌های آوایی کاتاکانا"
+
+#: kcharselect-translation.cpp:142
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Enclosed CJK Letters and Months"
+msgstr "حروف و ماه‌های محصور CJK"
+
+#: kcharselect-translation.cpp:143
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Compatibility"
+msgstr "سازگاری CJK"
+
+#: kcharselect-translation.cpp:144
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Unified Ideographs Extension A"
+msgstr "اندیشه‌نگاشت‌های یکپارچهٔ CJK گسترش A"
+
+#: kcharselect-translation.cpp:145
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Yijing Hexagram Symbols"
+msgstr "نمادهای شش‌خطی یی‌جینگ"
+
+#: kcharselect-translation.cpp:146
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Unified Ideographs"
+msgstr "اندیشه‌نگاشت‌های یکپارچهٔ CJK"
+
+#: kcharselect-translation.cpp:147
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Yi Syllables"
+msgstr "هجاهای یی"
+
+#: kcharselect-translation.cpp:148
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Yi Radicals"
+msgstr "رادیکال‌های یی"
+
+#: kcharselect-translation.cpp:149
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Lisu"
+msgstr "لیسو"
+
+#: kcharselect-translation.cpp:150
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Vai"
+msgstr "وای"
+
+#: kcharselect-translation.cpp:151
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cyrillic Extended-B"
+msgstr "سیریلیک گسترش‌یافته-B"
+
+#: kcharselect-translation.cpp:152
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Bamum"
+msgstr "باموم"
+
+#: kcharselect-translation.cpp:153
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Modifier Tone Letters"
+msgstr "حروف تغییردهندهٔ نواخت"
+
+#: kcharselect-translation.cpp:154
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended-D"
+msgstr "لاتین گسترش‌یافته-D"
+
+#: kcharselect-translation.cpp:155
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Syloti Nagri"
+msgstr "سیلوتی ناگری"
+
+#: kcharselect-translation.cpp:156
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Common Indic Number Forms"
+msgstr "شکل‌های عددی مشترک هندی"
+
+#: kcharselect-translation.cpp:157
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Phags-pa"
+msgstr "فاگس‌پا"
+
+#: kcharselect-translation.cpp:158
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Saurashtra"
+msgstr "سائوراشترا"
+
+#: kcharselect-translation.cpp:159
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Devanagari Extended"
+msgstr "دیواناگری گسترش‌یافته"
+
+#: kcharselect-translation.cpp:160
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Kayah Li"
+msgstr "کایا لی"
+
+#: kcharselect-translation.cpp:161
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Rejang"
+msgstr "رجانگ"
+
+#: kcharselect-translation.cpp:162
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hangul Jamo Extended-A"
+msgstr "هانگول جامو گسترش‌یافته-A"
+
+#: kcharselect-translation.cpp:163
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Javanese"
+msgstr "جاوه‌ای"
+
+#: kcharselect-translation.cpp:164
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Myanmar Extended-B"
+msgstr "میانمار گسترش‌یافته-B"
+
+#: kcharselect-translation.cpp:165
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cham"
+msgstr "چام"
+
+#: kcharselect-translation.cpp:166
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Myanmar Extended-A"
+msgstr "میانمار گسترش‌یافته-A"
+
+#: kcharselect-translation.cpp:167
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tai Viet"
+msgstr "تای ویت"
+
+#: kcharselect-translation.cpp:168
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Meetei Mayek Extensions"
+msgstr "گسترش‌های میتی مایک"
+
+#: kcharselect-translation.cpp:169
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ethiopic Extended-A"
+msgstr "اتیوپیایی گسترش‌یافته-A"
+
+#: kcharselect-translation.cpp:170
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended-E"
+msgstr "لاتین گسترش‌یافته-E"
+
+#: kcharselect-translation.cpp:171
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cherokee Supplement"
+msgstr "مکمل چروکی"
+
+#: kcharselect-translation.cpp:172
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Meetei Mayek"
+msgstr "میتی مایک"
+
+#: kcharselect-translation.cpp:173
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hangul Syllables"
+msgstr "هجاهای هانگول"
+
+#: kcharselect-translation.cpp:174
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hangul Jamo Extended-B"
+msgstr "جاموی هانگول گسترش‌یافته-B"
+
+#: kcharselect-translation.cpp:175
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "High Surrogates"
+msgstr "جانشین‌های بالا"
+
+#: kcharselect-translation.cpp:176
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "High Private Use Surrogates"
+msgstr "جانشین‌های بالای کاربرد اختصاصی"
+
+#: kcharselect-translation.cpp:177
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Low Surrogates"
+msgstr "جانشین‌های پایین"
+
+#: kcharselect-translation.cpp:178
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Private Use Area"
+msgstr "ناحیهٔ کاربرد اختصاصی"
+
+#: kcharselect-translation.cpp:179
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Compatibility Ideographs"
+msgstr "اندیشه‌نگاشت‌های سازگاری CJK"
+
+#: kcharselect-translation.cpp:180
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Alphabetic Presentation Forms"
+msgstr "شکل‌های نمایشی الفبایی"
+
+#: kcharselect-translation.cpp:181
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic Presentation Forms-A"
+msgstr "شکل‌های نمایشی عربی-A"
+
+#: kcharselect-translation.cpp:182
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Variation Selectors"
+msgstr "انتخاب‌گرهای تنوع"
+
+#: kcharselect-translation.cpp:183
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Vertical Forms"
+msgstr "شکل‌های عمودی"
+
+#: kcharselect-translation.cpp:184
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Combining Half Marks"
+msgstr "نیم‌نشانه‌های ترکیبی"
+
+#: kcharselect-translation.cpp:185
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Compatibility Forms"
+msgstr "شکل‌های سازگاری CJK"
+
+#: kcharselect-translation.cpp:186
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Small Form Variants"
+msgstr "گونه‌های شکل کوچک"
+
+#: kcharselect-translation.cpp:187
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic Presentation Forms-B"
+msgstr "شکل‌های نمایشی عربی-B"
+
+#: kcharselect-translation.cpp:188
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Halfwidth and Fullwidth Forms"
+msgstr "شکل‌های نیمه‌عرض و تمام‌عرض"
+
+#: kcharselect-translation.cpp:189
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Specials"
+msgstr "ویژه‌ها"
+
+#: kcharselect-translation.cpp:191
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Mahjong Tiles"
+msgstr "کاشی‌های ماهجونگ"
+
+#: kcharselect-translation.cpp:192
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Domino Tiles"
+msgstr "مهره‌های دومینو"
+
+#: kcharselect-translation.cpp:193
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Playing Cards"
+msgstr "ورق‌های بازی"
+
+#: kcharselect-translation.cpp:194
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Enclosed Alphanumeric Supplement"
+msgstr "مکمل الفبایی-عددی محصور"
+
+#: kcharselect-translation.cpp:195
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Enclosed Ideographic Supplement"
+msgstr "مکمل اندیشه‌نگاشتی محصور"
+
+#: kcharselect-translation.cpp:196
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Symbols and Pictographs"
+msgstr "نمادها و تصویرنگاشت‌های متفرقه"
+
+#: kcharselect-translation.cpp:197
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Emoticons"
+msgstr "شکلک‌ها"
+
+#: kcharselect-translation.cpp:198
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ornamental Dingbats"
+msgstr "دینگ‌بت‌های تزئینی"
+
+#: kcharselect-translation.cpp:199
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Transport and Map Symbols"
+msgstr "نمادهای حمل‌ونقل و نقشه"
+
+#: kcharselect-translation.cpp:200
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Alchemical Symbols"
+msgstr "نمادهای کیمیاگری"
+
+#: kcharselect-translation.cpp:201
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Geometric Shapes Extended"
+msgstr "شکل‌های هندسی گسترش‌یافته"
+
+#: kcharselect-translation.cpp:202
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Arrows-C"
+msgstr "پیکان‌های مکمل-C"
+
+#: kcharselect-translation.cpp:203
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Symbols and Pictographs"
+msgstr "نمادها و تصویرنگاشت‌های مکمل"
+
+#: kcharselect-translation.cpp:204
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Chess Symbols"
+msgstr "نمادهای شطرنج"
+
+#: kcharselect-translation.cpp:205
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Symbols and Pictographs Extended-A"
+msgstr "نمادها و تصویرنگاشت‌های گسترش‌یافته-A"
+
+#: kcharselect-translation.cpp:206
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Symbols for Legacy Computing"
+msgstr "نمادهای رایانش قدیمی"
+
+#: kcharselect.cpp:394
+msgctxt "KCharSelect|@info:placeholder"
+msgid "Enter a search term or character…"
+msgstr "یک عبارت جست‌وجو یا نویسه وارد کنید…"
+
+#: kcharselect.cpp:396
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Enter a search term or character here"
+msgstr "یک عبارت جست‌وجو یا نویسه را در اینجا وارد کنید"
+
+#: kcharselect.cpp:403
+msgctxt "KCharSelect|@action"
+msgid "&Find…"
+msgstr "یافتن…"
+
+#: kcharselect.cpp:427
+msgctxt "KCharSelect|@action:button Goes to previous character"
+msgid "Previous in History"
+msgstr "قبلی در تاریخچه"
+
+#: kcharselect.cpp:429
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Go to previous character in history"
+msgstr "رفتن به نویسهٔ قبلی در تاریخچه"
+
+#: kcharselect.cpp:434
+msgctxt "KCharSelect|@action:button Goes to next character"
+msgid "Next in History"
+msgstr "بعدی در تاریخچه"
+
+#: kcharselect.cpp:436
+msgctxt "KCharSelect|info:tooltip"
+msgid "Go to next character in history"
+msgstr "رفتن به نویسهٔ بعدی در تاریخچه"
+
+#: kcharselect.cpp:441
+msgctxt "KCharSelect|@action go back"
+msgid "&Back"
+msgstr "بازگشت"
+
+#: kcharselect.cpp:448
+msgctxt "KCharSelect|@action go forward"
+msgid "&Forward"
+msgstr "جلو"
+
+#: kcharselect.cpp:467
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Select a category"
+msgstr "یک دسته را انتخاب کنید"
+
+#: kcharselect.cpp:471
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Select a block to be displayed"
+msgstr "یک بلوک را برای نمایش انتخاب کنید"
+
+#: kcharselect.cpp:490
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Set font"
+msgstr "تنظیم قلم"
+
+#: kcharselect.cpp:497
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Set font size"
+msgstr "تنظیم اندازهٔ قلم"
+
+#: kcharselect.cpp:799
+msgctxt "KCharSelect|"
+msgid "Character:"
+msgstr "نویسه:"
+
+#: kcharselect.cpp:805
+msgctxt "KCharSelect|"
+msgid "Name: "
+msgstr "نام: "
+
+#: kcharselect.cpp:814
+msgctxt "KCharSelect|"
+msgid "Annotations and Cross References"
+msgstr "حاشیه‌نویسی‌ها و ارجاعات متقابل"
+
+#: kcharselect.cpp:818
+msgctxt "KCharSelect|"
+msgid "Alias names:"
+msgstr "نام‌های مستعار:"
+
+#: kcharselect.cpp:826
+msgctxt "KCharSelect|"
+msgid "Notes:"
+msgstr "یادداشت‌ها:"
+
+#: kcharselect.cpp:834
+msgctxt "KCharSelect|"
+msgid "See also:"
+msgstr "همچنین ببینید:"
+
+#: kcharselect.cpp:849
+msgctxt "KCharSelect|"
+msgid "Equivalents:"
+msgstr "معادل‌ها:"
+
+#: kcharselect.cpp:857
+msgctxt "KCharSelect|"
+msgid "Approximate equivalents:"
+msgstr "معادل‌های تقریبی:"
+
+#: kcharselect.cpp:865
+msgctxt "KCharSelect|"
+msgid "Decomposition:"
+msgstr "تجزیه:"
+
+#: kcharselect.cpp:877
+msgctxt "KCharSelect|"
+msgid "CJK Ideograph Information"
+msgstr "اطلاعات اندیشه‌نگاشت CJK"
+
+#: kcharselect.cpp:880
+msgctxt "KCharSelect|"
+msgid "Definition in English: "
+msgstr "تعریف به انگلیسی: "
+
+#: kcharselect.cpp:887
+msgctxt "KCharSelect|"
+msgid "Mandarin Pronunciation: "
+msgstr "تلفظ ماندارین: "
+
+#: kcharselect.cpp:894
+msgctxt "KCharSelect|"
+msgid "Cantonese Pronunciation: "
+msgstr "تلفظ کانتونی: "
+
+#: kcharselect.cpp:901
+msgctxt "KCharSelect|"
+msgid "Japanese On Pronunciation: "
+msgstr "تلفظ اون ژاپنی: "
+
+#: kcharselect.cpp:908
+msgctxt "KCharSelect|"
+msgid "Japanese Kun Pronunciation: "
+msgstr "تلفظ کون ژاپنی: "
+
+#: kcharselect.cpp:915
+msgctxt "KCharSelect|"
+msgid "Tang Pronunciation: "
+msgstr "تلفظ تانگ: "
+
+#: kcharselect.cpp:922
+msgctxt "KCharSelect|"
+msgid "Korean Pronunciation: "
+msgstr "تلفظ کره‌ای: "
+
+#: kcharselect.cpp:928
+msgctxt "KCharSelect|"
+msgid "General Character Properties"
+msgstr "ویژگی‌های عمومی نویسه"
+
+#: kcharselect.cpp:929
+msgctxt "KCharSelect|"
+msgid "Block: "
+msgstr "بلوک: "
+
+#: kcharselect.cpp:930
+msgctxt "KCharSelect|"
+msgid "Unicode category: "
+msgstr "دسته‌بندی یونیکد: "
+
+#: kcharselect.cpp:934
+msgctxt "KCharSelect|"
+msgid "Various Useful Representations"
+msgstr "بازنمایی‌های مفید گوناگون"
+
+#: kcharselect.cpp:935
+msgctxt "KCharSelect|"
+msgid "UTF-8:"
+msgstr "UTF-8:"
+
+#: kcharselect.cpp:939
+msgctxt "KCharSelect|"
+msgid "UTF-16: "
+msgstr "UTF-16: "
+
+#: kcharselect.cpp:946
+msgctxt "KCharSelect|"
+msgid "C octal escaped UTF-8: "
+msgstr "UTF-8 با کد گریز هشتی C: "
+
+#: kcharselect.cpp:950
+msgctxt "KCharSelect|"
+msgid "XML decimal entity:"
+msgstr "موجودیت دهدهی XML:"
+
+#: kcharselect.cpp:1102
+msgctxt "KCharSelectItemModel|"
+msgid "Unicode code point:"
+msgstr "نقطهٔ رمز یونیکد:"
+
+#: kcharselect.cpp:1102
+msgctxt "KCharSelectItemModel|Character"
+msgid "In decimal"
+msgstr "در مبنای ده"
+
+#: kcharselectdata.cpp:305
+msgctxt "KCharSelectData|"
+msgid "<noncharacter>"
+msgstr "<noncharacter>"
+
+#: kcharselectdata.cpp:326
+msgctxt "KCharSelectData|"
+msgid "<Non Private Use High Surrogate>"
+msgstr "<Non Private Use High Surrogate>"
+
+#: kcharselectdata.cpp:328
+msgctxt "KCharSelectData|"
+msgid "<Private Use High Surrogate>"
+msgstr "<Private Use High Surrogate>"
+
+#: kcharselectdata.cpp:330
+msgctxt "KCharSelectData|"
+msgid "<Low Surrogate>"
+msgstr "<Low Surrogate>"
+
+#: kcharselectdata.cpp:332
+msgctxt "KCharSelectData|"
+msgid "<Private Use>"
+msgstr "<Private Use>"
+
+#: kcharselectdata.cpp:364
+msgctxt "KCharSelectData|"
+msgid "<not assigned>"
+msgstr "<not assigned>"
+
+#: kcharselectdata.cpp:442
+msgctxt "KCharSelectData|KCharselect unicode section name"
+msgid "All"
+msgstr "همه"
+
+#: kcharselectdata.cpp:754
+msgctxt "KCharSelectData|"
+msgid "Non-printable"
+msgstr "غیرقابل چاپ"
+
+#: kcharselectdata.cpp:787
+msgctxt "KCharSelectData|"
+msgid "Other, Control"
+msgstr "سایر، کنترلی"
+
+#: kcharselectdata.cpp:789
+msgctxt "KCharSelectData|"
+msgid "Other, Format"
+msgstr "سایر، قالب‌بندی"
+
+#: kcharselectdata.cpp:791
+msgctxt "KCharSelectData|"
+msgid "Other, Not Assigned"
+msgstr "سایر، تخصیص‌نیافته"
+
+#: kcharselectdata.cpp:793
+msgctxt "KCharSelectData|"
+msgid "Other, Private Use"
+msgstr "سایر، کاربرد اختصاصی"
+
+#: kcharselectdata.cpp:795
+msgctxt "KCharSelectData|"
+msgid "Other, Surrogate"
+msgstr "سایر، جانشین"
+
+#: kcharselectdata.cpp:797
+msgctxt "KCharSelectData|"
+msgid "Letter, Lowercase"
+msgstr "حرف، کوچک"
+
+#: kcharselectdata.cpp:799
+msgctxt "KCharSelectData|"
+msgid "Letter, Modifier"
+msgstr "حرف، تغییردهنده"
+
+#: kcharselectdata.cpp:801
+msgctxt "KCharSelectData|"
+msgid "Letter, Other"
+msgstr "حرف، سایر"
+
+#: kcharselectdata.cpp:803
+msgctxt "KCharSelectData|"
+msgid "Letter, Titlecase"
+msgstr "حرف، عنوانی"
+
+#: kcharselectdata.cpp:805
+msgctxt "KCharSelectData|"
+msgid "Letter, Uppercase"
+msgstr "حرف، بزرگ"
+
+#: kcharselectdata.cpp:807
+msgctxt "KCharSelectData|"
+msgid "Mark, Spacing Combining"
+msgstr "نشانه، ترکیبی فاصله‌دار"
+
+#: kcharselectdata.cpp:809
+msgctxt "KCharSelectData|"
+msgid "Mark, Enclosing"
+msgstr "نشانه، دربرگیرنده"
+
+#: kcharselectdata.cpp:811
+msgctxt "KCharSelectData|"
+msgid "Mark, Non-Spacing"
+msgstr "نشانه، بی‌فاصله"
+
+#: kcharselectdata.cpp:813
+msgctxt "KCharSelectData|"
+msgid "Number, Decimal Digit"
+msgstr "عدد، رقم ده‌دهی"
+
+#: kcharselectdata.cpp:815
+msgctxt "KCharSelectData|"
+msgid "Number, Letter"
+msgstr "عدد، حرفی"
+
+#: kcharselectdata.cpp:817
+msgctxt "KCharSelectData|"
+msgid "Number, Other"
+msgstr "عدد، سایر"
+
+#: kcharselectdata.cpp:819
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Connector"
+msgstr "نشانه‌گذاری، پیونددهنده"
+
+#: kcharselectdata.cpp:821
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Dash"
+msgstr "نشانه‌گذاری، خط تیره"
+
+#: kcharselectdata.cpp:823
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Close"
+msgstr "نشانه‌گذاری، بسته"
+
+#: kcharselectdata.cpp:825
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Final Quote"
+msgstr "نشانه‌گذاری، نقل‌قول پایانی"
+
+#: kcharselectdata.cpp:827
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Initial Quote"
+msgstr "نشانه‌گذاری، نقل‌قول آغازین"
+
+#: kcharselectdata.cpp:829
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Other"
+msgstr "نشانه‌گذاری، سایر"
+
+#: kcharselectdata.cpp:831
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Open"
+msgstr "نشانه‌گذاری، باز"
+
+#: kcharselectdata.cpp:833
+msgctxt "KCharSelectData|"
+msgid "Symbol, Currency"
+msgstr "نماد، ارز"
+
+#: kcharselectdata.cpp:835
+msgctxt "KCharSelectData|"
+msgid "Symbol, Modifier"
+msgstr "نماد، تغییردهنده"
+
+#: kcharselectdata.cpp:837
+msgctxt "KCharSelectData|"
+msgid "Symbol, Math"
+msgstr "نماد، ریاضی"
+
+#: kcharselectdata.cpp:839
+msgctxt "KCharSelectData|"
+msgid "Symbol, Other"
+msgstr "نماد، سایر"
+
+#: kcharselectdata.cpp:841
+msgctxt "KCharSelectData|"
+msgid "Separator, Line"
+msgstr "جداکننده، خط"
+
+#: kcharselectdata.cpp:843
+msgctxt "KCharSelectData|"
+msgid "Separator, Paragraph"
+msgstr "جداکننده، بند"
+
+#: kcharselectdata.cpp:845
+msgctxt "KCharSelectData|"
+msgid "Separator, Space"
+msgstr "جداکننده، فاصله"
+
+#: kcharselectdata.cpp:847
+msgctxt "KCharSelectData|"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: kcolorcombo.cpp:389
+msgctxt "KColorCombo|@item:inlistbox Custom color"
+msgid "Custom…"
+msgstr "سفارشی…"
+
+#: kcontextualhelpbutton.cpp:68
+msgctxt "QObject|@action:button accessible name"
+msgid "Contextual Help"
+msgstr "راهنمای زمینه‌ای"
+
+#: kdatecombobox.cpp:187
+msgctxt "KDateComboBox|@info"
+msgid "The date you entered is invalid"
+msgstr "تاریخ واردشده نامعتبر است"
+
+#: kdatecombobox.cpp:190
+#, qt-format
+msgctxt "KDateComboBox|@info"
+msgid "Date cannot be earlier than %1"
+msgstr "تاریخ نمی‌تواند زودتر از %1 باشد"
+
+#: kdatecombobox.cpp:197
+#, qt-format
+msgctxt "KDateComboBox|@info"
+msgid "Date cannot be later than %1"
+msgstr "تاریخ نمی‌تواند دیرتر از %1 باشد"
+
+#: kdatepicker.cpp:197
+#, qt-format
+msgctxt "KDatePicker|"
+msgid "Week %1"
+msgstr "هفتهٔ %1"
+
+#: kdatepicker.cpp:306
+msgctxt "KDatePicker|@info:tooltip"
+msgid "Next year"
+msgstr "سال بعد"
+
+#: kdatepicker.cpp:307
+msgctxt "KDatePicker|@info:tooltip"
+msgid "Previous year"
+msgstr "سال قبل"
+
+#: kdatepicker.cpp:308
+msgctxt "KDatePicker|@info:tooltip"
+msgid "Next month"
+msgstr "ماه بعد"
+
+#: kdatepicker.cpp:309
+msgctxt "KDatePicker|@info:tooltip"
+msgid "Previous month"
+msgstr "ماه قبل"
+
+#: kdatepicker.cpp:310
+msgctxt "KDatePicker|@info:tooltip"
+msgid "Select a week"
+msgstr "یک هفته انتخاب کنید"
+
+#: kdatepicker.cpp:311
+msgctxt "KDatePicker|@info:tooltip"
+msgid "Select a month"
+msgstr "یک ماه انتخاب کنید"
+
+#: kdatepicker.cpp:312
+msgctxt "KDatePicker|@info:tooltip"
+msgid "Select a year"
+msgstr "یک سال انتخاب کنید"
+
+#: kdatepicker.cpp:313
+msgctxt "KDatePicker|@info:tooltip"
+msgid "Select the current day"
+msgstr "انتخاب روز کنونی"
+
+#: kdatepicker.cpp:648
+msgctxt "KDatePicker|@action:button"
+msgid "Close"
+msgstr "بستن"
+
+#: kdatepickerpopup.cpp:96
+msgctxt "KDatePickerPopup|@option next year"
+msgid "Next Year"
+msgstr "سال آینده"
+
+#: kdatepickerpopup.cpp:97
+msgctxt "KDatePickerPopup|@option next month"
+msgid "Next Month"
+msgstr "ماه آینده"
+
+#: kdatepickerpopup.cpp:98
+msgctxt "KDatePickerPopup|@option next week"
+msgid "Next Week"
+msgstr "هفتهٔ آینده"
+
+#: kdatepickerpopup.cpp:99
+msgctxt "KDatePickerPopup|@option tomorrow"
+msgid "Tomorrow"
+msgstr "فردا"
+
+#: kdatepickerpopup.cpp:100
+msgctxt "KDatePickerPopup|@option today"
+msgid "Today"
+msgstr "امروز"
+
+#: kdatepickerpopup.cpp:101
+msgctxt "KDatePickerPopup|@option yesterday"
+msgid "Yesterday"
+msgstr "دیروز"
+
+#: kdatepickerpopup.cpp:102
+msgctxt "KDatePickerPopup|@option last week"
+msgid "Last Week"
+msgstr "هفتهٔ گذشته"
+
+#: kdatepickerpopup.cpp:103
+msgctxt "KDatePickerPopup|@option last month"
+msgid "Last Month"
+msgstr "ماه گذشته"
+
+#: kdatepickerpopup.cpp:104
+msgctxt "KDatePickerPopup|@option last year"
+msgid "Last Year"
+msgstr "سال گذشته"
+
+#: kdatepickerpopup.cpp:123
+msgctxt "KDatePickerPopup|@option do not specify a date"
+msgid "No Date"
+msgstr "بدون تاریخ"
+
+#: kdatetimeedit.cpp:171
+msgctxt "KDateTimeEdit|@item:inlistbox UTC time zone"
+msgid "UTC"
+msgstr "UTC"
+
+#: kdatetimeedit.cpp:172
+msgctxt "KDateTimeEdit|@item:inlistbox No specific time zone"
+msgid "Floating"
+msgstr "شناور"
+
+#: kdatetimeedit.cpp:211
+msgctxt "KDateTimeEdit|@info"
+msgid "The entered date and time is before the minimum allowed date and time."
+msgstr "تاریخ و زمان واردشده پیش از کمینهٔ تاریخ و زمان مجاز است."
+
+#: kdatetimeedit.cpp:221
+msgctxt "KDateTimeEdit|@info"
+msgid "The entered date and time is after the maximum allowed date and time."
+msgstr "تاریخ و زمان واردشده پس از بیشینهٔ تاریخ و زمان مجاز است."
+
+#: keditlistwidget.cpp:281
+msgctxt "KEditListWidget|@action:button"
+msgid "&Add"
+msgstr "افزودن"
+
+#: keditlistwidget.cpp:293
+msgctxt "KEditListWidget|@action:button"
+msgid "&Remove"
+msgstr "حذف"
+
+#: keditlistwidget.cpp:305
+msgctxt "KEditListWidget|@action:button"
+msgid "Move &Up"
+msgstr "جابه‌جایی به بالا"
+
+#: keditlistwidget.cpp:310
+msgctxt "KEditListWidget|@action:button"
+msgid "Move &Down"
+msgstr "جابه‌جایی به پایین"
+
+#: kfontchooser.cpp:160
+msgctxt "KFontChooser|@title:group"
+msgid "Requested Font"
+msgstr "قلم درخواست‌شده"
+
+#: kfontchooser.cpp:208
+msgctxt "KFontChooser|@item font"
+msgid "Normal"
+msgstr "عادی"
+
+#: kfontchooser.cpp:209 kfontchooser.cpp:469
+msgctxt "KFontChooser|@item font"
+msgid "Italic"
+msgstr "کج"
+
+#: kfontchooser.cpp:210 kfontchooser.cpp:470
+msgctxt "KFontChooser|@item font"
+msgid "Oblique"
+msgstr "مایل"
+
+#: kfontchooser.cpp:211
+msgctxt "KFontChooser|@item font"
+msgid "Bold"
+msgstr "ضخیم"
+
+#: kfontchooser.cpp:212
+msgctxt "KFontChooser|@item font"
+msgid "Bold Condensed Oblique"
+msgstr "سیاه فشرده مایل"
+
+#: kfontchooser.cpp:266
+msgctxt "KFontChooser|"
+msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
+msgstr "روباه قهوه‌ای چابک از روی سگ تنبل می‌پرد"
+
+#: kfontchooser.cpp:454
+#, qt-format
+msgctxt "KFontChooser|@item Font style"
+msgid "%1"
+msgstr "%1"
+
+#: kfontchooserdialog.cpp:25
+msgctxt "KFontChooserDialog|@title:window"
+msgid "Select Font"
+msgstr "انتخاب قلم"
+
+#: kfontchooserwidget.ui:21
+msgctxt "KFontChooserWidget|"
+msgid "Comma separated list of font features (e.g., liga, calt):"
+msgstr "فهرست جداشده با ویرگول از ویژگی‌های قلم (مثلاً liga ،calt):"
+
+#: kfontchooserwidget.ui:31
+msgctxt "KFontChooserWidget|"
+msgid "Sample:"
+msgstr "نمونه:"
+
+#: kfontchooserwidget.ui:41
+msgctxt "KFontChooserWidget|"
+msgid ""
+"This sample text illustrates the current settings. You may edit it to test "
+"special characters."
+msgstr ""
+"این متن نمونه تنظیمات کنونی را نشان می‌دهد. می‌توانید آن را برای آزمایش "
+"نویسه‌های ویژه ویرایش کنید."
+
+#: kfontchooserwidget.ui:51
+msgctxt "KFontChooserWidget|"
+msgid "Show only monospaced fonts"
+msgstr "نمایش فقط قلم‌های تک‌فاصله"
+
+#: kfontchooserwidget.ui:66
+msgctxt "KFontChooserWidget|"
+msgid "Font"
+msgstr "قلم"
+
+#: kfontchooserwidget.ui:73
+msgctxt "KFontChooserWidget|"
+msgid "Font:"
+msgstr "قلم:"
+
+#: kfontchooserwidget.ui:91
+msgctxt "KFontChooserWidget|"
+msgid "Font style"
+msgstr "سبک قلم"
+
+#: kfontchooserwidget.ui:98
+msgctxt "KFontChooserWidget|"
+msgid "Font style:"
+msgstr "سبک قلم:"
+
+#: kfontchooserwidget.ui:116
+msgctxt "KFontChooserWidget|"
+msgid "Size"
+msgstr "اندازه"
+
+#: kfontchooserwidget.ui:123
+msgctxt "KFontChooserWidget|"
+msgid "Size:"
+msgstr "اندازه:"
+
+#: kfontchooserwidget.ui:132
+msgctxt "KFontChooserWidget|"
+msgid "Relative"
+msgstr "نسبی"
+
+#: kfontrequester.cpp:185
+msgctxt "KFontRequester|@info:tooltip"
+msgid "Choose font…"
+msgstr "انتخاب قلم…"
+
+#: kfontrequester.cpp:191
+msgctxt "KFontRequester|@info:tooltip"
+msgid "Preview of the selected font"
+msgstr "پیش‌نمایش قلم انتخاب‌شده"
+
+#: kfontrequester.cpp:193
+msgctxt "KFontRequester|@info:whatsthis"
+msgid ""
+"This is a preview of the selected font. You can change it by clicking the "
+"\"Choose Font...\" button."
+msgstr ""
+"این پیش‌نمایشی از قلم انتخاب‌شده است. می‌توانید آن را با کلیک کردن روی دکمهٔ"
+" «انتخاب قلم…» تغییر دهید."
+
+#: kfontrequester.cpp:197
+#, qt-format
+msgctxt "KFontRequester|@info:tooltip"
+msgid "Preview of the \"%1\" font"
+msgstr "پیش‌نمایش قلم «%1»"
+
+#: kfontrequester.cpp:198
+#, qt-format
+msgctxt "KFontRequester|@info:whatsthis"
+msgid ""
+"This is a preview of the \"%1\" font. You can change it by clicking the "
+"\"Choose Font...\" button."
+msgstr ""
+"این پیش‌نمایشی از قلم «%1» است. می‌توانید آن را با کلیک کردن روی دکمهٔ "
+"«انتخاب قلم…» تغییر دهید."
+
+#: kled.cpp:172
+msgctxt "KLed|Accessible name of a Led whose state is on"
+msgid "LED on"
+msgstr "LED روشن"
+
+#: kled.cpp:173
+msgctxt "KLed|Accessible name of a Led whose state is off"
+msgid "LED off"
+msgstr "LED خاموش"
+
+#: kmessagebox.cpp:235
+msgctxt ""
+"QObject|This text is not actually shown. Please 'translate' it to some "
+"arbitrary text that is just short enough to show in a single line, while "
+"longer text should be wrapped for readability. In a latin charset, suggested"
+" length is around 120 chars."
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna alia"
+msgstr ""
+"این یک متن نمونه است که برای نمایش در یک خط کافی است، اما اگر متن طولانی‌تری"
+" داشته باشیم باید شکسته شود تا خوانایی بهتری داشته باشد و کاربر بتواند آن را"
+" راحت‌تر بخواند."
+
+#: kmessagebox.cpp:252
+msgctxt ""
+"QObject|This text is not actually shown. Please 'translate' it to some "
+"arbitrary text that is just short enough that it should never be wrapped. In"
+" a latin charset, suggested length is around 70 chars."
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmi"
+msgstr "این یک متن نمونهٔ کوتاه است که هرگز نباید به خط بعدی شکسته شود."
+
+#: kmessagebox.cpp:319
+msgctxt "KMessageBox|"
+msgid "Details"
+msgstr "جزئیات"
+
+#: kmessagebox.cpp:472 kmessagebox.cpp:527
+msgctxt "KMessageBox|"
+msgid "Question"
+msgstr "پرسش"
+
+#: kmessagebox.cpp:488 kmessagebox.cpp:544 kmessagebox.cpp:617
+#: kmessagebox.cpp:683 kmessagebox.cpp:767
+msgctxt "KMessageBox|"
+msgid "Do not ask again"
+msgstr "دیگر پرسیده نشود"
+
+#: kmessagebox.cpp:601 kmessagebox.cpp:667 kmessagebox.cpp:750
+msgctxt "KMessageBox|"
+msgid "Warning"
+msgstr "هشدار"
+
+#: kmessagebox.cpp:809 kmessagebox.cpp:834 kmessagebox.cpp:853
+msgctxt "KMessageBox|"
+msgid "Error"
+msgstr "خطا"
+
+#: kmessagebox.cpp:894
+msgctxt "KMessageBox|"
+msgid "Information"
+msgstr "اطلاعات"
+
+#: kmessagebox.cpp:909
+msgctxt "KMessageBox|"
+msgid "Do not show this message again"
+msgstr "این پیام دیگر نشان داده نشود"
+
+#: kmessagedialog.cpp:137
+msgctxt "KMessageDialog|"
+msgid "Details"
+msgstr "جزئیات"
+
+#: kmessagedialog.cpp:218
+msgctxt "KMessageDialog|"
+msgid "Question"
+msgstr "پرسش"
+
+#: kmessagedialog.cpp:223
+msgctxt "KMessageDialog|"
+msgid "Warning"
+msgstr "هشدار"
+
+#: kmessagedialog.cpp:226
+msgctxt "KMessageDialog|"
+msgid "Information"
+msgstr "اطلاعات"
+
+#: kmessagedialog.cpp:229
+msgctxt "KMessageDialog|"
+msgid "Error"
+msgstr "خطا"
+
+#: kmessagewidget.cpp:84
+msgctxt "KMessageWidget|@action:button"
+msgid "&Close"
+msgstr "بستن"
+
+#: kmessagewidget.cpp:85
+msgctxt "KMessageWidget|@info:tooltip"
+msgid "Close message"
+msgstr "بستن پیام"
+
+#: kmessagewidget.cpp:288
+msgctxt ""
+"KMessageWidget|accessible name of positively-colored (e.g. green) message "
+"box"
+msgid "Success"
+msgstr "موفقیت"
+
+#: kmessagewidget.cpp:291
+msgctxt ""
+"KMessageWidget|accessible name of info-colored (e.g. blue) message box"
+msgid "Note"
+msgstr "نکته"
+
+#: kmessagewidget.cpp:294
+msgctxt ""
+"KMessageWidget|accessible name of warning-colored (e.g. orange) message box"
+msgid "Warning"
+msgstr "هشدار"
+
+#: kmessagewidget.cpp:297
+msgctxt ""
+"KMessageWidget|accessible name of error-colored (e.g. red) message box"
+msgid "Error"
+msgstr "خطا"
+
+#: kmimetypechooser.cpp:88
+msgctxt "KMimeTypeChooser|@info:placeholder"
+msgid "Search for file type or filename pattern…"
+msgstr "جست‌وجوی نوع پرونده یا الگوی نام پرونده…"
+
+#: kmimetypechooser.cpp:89
+msgctxt "KMimeTypeChooser|@label:textbox"
+msgid "&Filter:"
+msgstr "پالایه:"
+
+#: kmimetypechooser.cpp:103
+msgctxt "KMimeTypeChooser|@title:column"
+msgid "MIME Type"
+msgstr "نوع MIME"
+
+#: kmimetypechooser.cpp:106
+msgctxt "KMimeTypeChooser|@title:column"
+msgid "Comment"
+msgstr "توضیح"
+
+#: kmimetypechooser.cpp:110
+msgctxt "KMimeTypeChooser|@title:column"
+msgid "Patterns"
+msgstr "الگوها"
+
+#: kmimetypechooser.cpp:126
+msgctxt "KMimeTypeChooser|@action:button"
+msgid "&Edit…"
+msgstr "ویرایش…"
+
+#: kmimetypechooser.cpp:141
+msgctxt "KMimeTypeChooser|@info:tooltip"
+msgid "Launch the MIME type editor"
+msgstr "اجرای ویرایشگر نوع MIME"
+
+#: kmimetypeeditor.cpp:27
+msgctxt "QObject|"
+msgid "Could not find the \"keditfiletype\" executable in PATH."
+msgstr "پروندهٔ اجرایی «keditfiletype» در PATH یافت نشد."
+
+#: kmimetypeeditor.cpp:37
+msgctxt "QObject|"
+msgid ""
+"Could not start the \"keditfiletype\" executable, please check your "
+"installation."
+msgstr ""
+"امکان اجرای برنامهٔ «keditfiletype» وجود نداشت، لطفاً نصب خود را بررسی کنید."
+
+#: knewpassworddialog.cpp:63
+#, qt-format
+msgctxt "KNewPasswordDialog|@info"
+msgid "Password must be at least %n character(s) long."
+msgid_plural "Password must be at least %n character(s) long."
+msgstr[0] "گذرواژه باید دست‌کم %n نویسه طول داشته باشد."
+msgstr[1] "گذرواژه باید دست‌کم %n نویسه طول داشته باشد."
+
+#: knewpassworddialog.cpp:67
+msgctxt "KNewPasswordDialog|@info"
+msgid "Password is empty."
+msgstr "گذرواژه خالی است."
+
+#: knewpassworddialog.cpp:71
+msgctxt "KNewPasswordDialog|@info"
+msgid "Passwords do not match."
+msgstr "گذرواژه‌ها مطابقت ندارند."
+
+#: knewpassworddialog.cpp:76
+msgctxt "KNewPasswordDialog|@info"
+msgid "Passwords match."
+msgstr "گذرواژه‌ها مطابقت دارند."
+
+#: knewpassworddialog.cpp:133
+msgctxt "KNewPasswordDialog|@title:window"
+msgid "Low Password Strength"
+msgstr "استحکام پایین گذرواژه"
+
+#: knewpassworddialog.cpp:134
+msgctxt "KNewPasswordDialog|"
+msgid ""
+"The password you have entered has a low strength. To improve the strength of the password, try:\n"
+" - using a longer password;\n"
+" - using a mixture of upper- and lower-case letters;\n"
+" - using numbers or symbols as well as letters.\n"
+"\n"
+"Would you like to use this password anyway?"
+msgstr ""
+"گذرواژه‌ای که وارد کرده‌اید استحکام کمی دارد. برای بهبود استحکام گذرواژه، امتحان کنید:\n"
+" - استفاده از گذرواژه‌ای طولانی‌تر؛\n"
+" - استفاده از ترکیبی از حروف بزرگ و کوچک؛\n"
+" - استفاده از اعداد یا نمادها علاوه بر حروف.\n"
+"\n"
+"با این حال می‌خواهید از این گذرواژه استفاده کنید؟"
+
+#: knewpasswordwidget.cpp:52
+msgctxt "KNewPasswordWidget|@info:whatsthis"
+msgid ""
+"The password strength meter gives an indication of the security of the "
+"password you have entered. To improve the strength of the password, "
+"try:<ul><li>using a longer password;</li><li>using a mixture of upper- and "
+"lower-case letters;</li><li>using numbers or symbols, such as #, as well as "
+"letters.</li></ul>"
+msgstr ""
+"سنجشگر استحکام گذرواژه نشان‌دهندهٔ میزان امنیت گذرواژه‌ای است که وارد "
+"کرده‌اید. برای بهبود استحکام گذرواژه، امتحان کنید:<ul><li>استفاده از "
+"گذرواژه‌ای طولانی‌تر؛</li><li>استفاده از ترکیبی از حروف بزرگ و "
+"کوچک؛</li><li>استفاده از اعداد یا نمادهایی مانند # علاوه بر حروف.</li></ul>"
+
+#: knewpasswordwidget.ui:19
+msgctxt "KNewPasswordWidget|@label:textbox"
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: knewpasswordwidget.ui:29
+msgctxt "KNewPasswordWidget|@label:textbox"
+msgid "&Verify:"
+msgstr "تأیید:"
+
+#: knewpasswordwidget.ui:54
+msgctxt "KNewPasswordWidget|@label"
+msgid "Password strength &meter:"
+msgstr "سنجشگر استحکام گذرواژه:"
+
+#: kpageview.cpp:516
+msgctxt "KPageView|@info:placeholder"
+msgid "Search…"
+msgstr "جست‌وجو…"
+
+#: kpassworddialog.cpp:52
+msgctxt "KPasswordDialog|@title:window"
+msgid "Password"
+msgstr "گذرواژه"
+
+#: kpassworddialog.cpp:80
+msgctxt "KPasswordDialog|"
+msgid "Show Contextual Help"
+msgstr "نمایش راهنمای زمینه‌ای"
+
+#: kpassworddialog.cpp:100
+msgctxt "KPasswordDialog|"
+msgid "Supply a password below."
+msgstr "یک گذرواژه در زیر وارد کنید."
+
+#: kpassworddialog.ui:33
+msgctxt "KPasswordDialog|"
+msgid "Supply a username and password below."
+msgstr "یک نام کاربری و گذرواژه در زیر وارد کنید."
+
+#: kpassworddialog.ui:73
+msgctxt "KPasswordDialog|@option:radio"
+msgid "No password, use anonymous (or &guest) login"
+msgstr "بدون گذرواژه، استفاده از ورود ناشناس (یا مهمان)"
+
+#: kpassworddialog.ui:80
+msgctxt "KPasswordDialog|@option:radio"
+msgid "Use this password:"
+msgstr "استفاده از این گذرواژه:"
+
+#: kpassworddialog.ui:105
+msgctxt "KPasswordDialog|@label:textbox"
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#: kpassworddialog.ui:130
+msgctxt "KPasswordDialog|@label:textbox"
+msgid "Domain:"
+msgstr "دامنه:"
+
+#: kpassworddialog.ui:144
+msgctxt "KPasswordDialog|@label:textbox"
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: kpassworddialog.ui:158
+msgctxt "KPasswordDialog|@option:check"
+msgid "Remember password"
+msgstr "به‌خاطرسپاری گذرواژه"
+
+#: kpasswordlineedit.cpp:44
+msgctxt "QObject|@info:tooltip"
+msgid "Change the visibility of the password"
+msgstr "تغییر نمایانی گذرواژه"
+
+#: kpasswordlineedit.cpp:87
+msgctxt "QObject|@action:inmenu"
+msgid "Show Password"
+msgstr "نمایش گذرواژه"
+
+#: kpasswordlineedit.cpp:88
+msgctxt "QObject|@action:inmenu"
+msgid "Hide Password"
+msgstr "پنهان کردن گذرواژه"
+
+#: kpixmapregionselectordialog.cpp:56
+msgctxt "KPixmapRegionSelectorDialog|@title:window"
+msgid "Select Region of Image"
+msgstr "انتخاب ناحیه‌ای از تصویر"
+
+#: kpixmapregionselectordialog.cpp:60
+msgctxt "KPixmapRegionSelectorDialog|@label:chooser"
+msgid "Please click and drag on the image to select the region of interest:"
+msgstr "لطفاً برای انتخاب ناحیهٔ مورد نظر، روی تصویر کلیک کرده و بکشید:"
+
+#: kpixmapregionselectorwidget.cpp:177
+msgctxt "KPixmapRegionSelectorWidget|@title:menu"
+msgid "Image Operations"
+msgstr "عملیات تصویر"
+
+#: kpixmapregionselectorwidget.cpp:180
+msgctxt "KPixmapRegionSelectorWidget|@action:inmenu"
+msgid "&Rotate Clockwise"
+msgstr "چرخش در جهت عقربه‌های ساعت"
+
+#: kpixmapregionselectorwidget.cpp:184
+msgctxt "KPixmapRegionSelectorWidget|@action:inmenu"
+msgid "Rotate &Counterclockwise"
+msgstr "چرخش در خلاف جهت عقربه‌های ساعت"
+
+#: krecentfilesmenu.cpp:123
+msgctxt "KRecentFilesMenu|"
+msgid "No Entries"
+msgstr "موردی وجود ندارد"
+
+#: krecentfilesmenu.cpp:126
+msgctxt "KRecentFilesMenu|"
+msgid "Clear List"
+msgstr "پاک کردن فهرست"
+
+#: krecentfilesmenu.cpp:132
+msgctxt "KRecentFilesMenu|"
+msgid "Recent Files"
+msgstr "پرونده‌های اخیر"
+
+#: ksqueezedtextlabel.cpp:207
+msgctxt "KSqueezedTextLabel|@action:inmenu"
+msgid "&Copy Full Text"
+msgstr "رونوشت متن کامل"
+
+#: kstandardguiitem.cpp:152
+msgctxt "KStandardGuiItem|"
+msgid "&OK"
+msgstr "تأیید"
+
+#: kstandardguiitem.cpp:157
+msgctxt "KStandardGuiItem|"
+msgid "&Cancel"
+msgstr "لغو"
+
+#: kstandardguiitem.cpp:162
+msgctxt "KStandardGuiItem|"
+msgid "&Discard"
+msgstr "صرف‌نظر"
+
+#: kstandardguiitem.cpp:164
+msgctxt "KStandardGuiItem|"
+msgid "Discard changes"
+msgstr "صرف‌نظر از تغییرات"
+
+#: kstandardguiitem.cpp:165
+msgctxt "KStandardGuiItem|"
+msgid ""
+"Pressing this button will discard all recent changes made in this dialog."
+msgstr ""
+"با فشردن این دکمه، همهٔ تغییرات اخیر اعمال‌شده در این کادر محاوره نادیده "
+"گرفته خواهد شد."
+
+#: kstandardguiitem.cpp:172
+msgctxt "KStandardGuiItem|"
+msgid "&Save"
+msgstr "ذخیره"
+
+#: kstandardguiitem.cpp:174
+msgctxt "KStandardGuiItem|"
+msgid "Save data"
+msgstr "ذخیرهٔ داده‌ها"
+
+#: kstandardguiitem.cpp:179
+msgctxt "KStandardGuiItem|"
+msgid "&Do Not Save"
+msgstr "ذخیره نشود"
+
+#: kstandardguiitem.cpp:179
+msgctxt "KStandardGuiItem|"
+msgid "Do not save data"
+msgstr "ذخیره نکردن داده‌ها"
+
+#: kstandardguiitem.cpp:184
+msgctxt "KStandardGuiItem|"
+msgid "Save &As…"
+msgstr "ذخیره به نام…"
+
+#: kstandardguiitem.cpp:186
+msgctxt "KStandardGuiItem|"
+msgid "Save file with another name"
+msgstr "ذخیرهٔ پرونده با نامی دیگر"
+
+#: kstandardguiitem.cpp:191
+msgctxt "KStandardGuiItem|"
+msgid "&Apply"
+msgstr "اعمال"
+
+#: kstandardguiitem.cpp:193
+msgctxt "KStandardGuiItem|"
+msgid "Apply changes"
+msgstr "اعمال تغییرات"
+
+#: kstandardguiitem.cpp:194
+msgctxt "KStandardGuiItem|"
+msgid ""
+"When you click <b>Apply</b>, the settings will be handed over to the program, but the dialog will not be closed.\n"
+"Use this to try different settings."
+msgstr ""
+"هنگامی که روی <b>اعمال</b> کلیک می‌کنید، تنظیمات به برنامه منتقل می‌شوند، اما کادر محاوره بسته نخواهد شد.\n"
+"از این قابلیت برای امتحان کردن تنظیمات مختلف استفاده کنید."
+
+#: kstandardguiitem.cpp:203
+msgctxt "KStandardGuiItem|"
+msgid "Administrator &Mode…"
+msgstr "حالت مدیر سامانه…"
+
+#: kstandardguiitem.cpp:205
+msgctxt "KStandardGuiItem|"
+msgid "Enter Administrator Mode"
+msgstr "ورود به حالت مدیر سامانه"
+
+#: kstandardguiitem.cpp:206
+msgctxt "KStandardGuiItem|"
+msgid ""
+"When you click <b>Administrator Mode</b> you will be prompted for the "
+"administrator (root) password in order to make changes which require root "
+"privileges."
+msgstr ""
+"هنگامی که روی <b>حالت مدیر سامانه</b> کلیک می‌کنید، برای اعمال تغییراتی که "
+"به امتیازات ریشه (root) نیاز دارند، گذرواژهٔ مدیر (root) از شما درخواست "
+"خواهد شد."
+
+#: kstandardguiitem.cpp:214
+msgctxt "KStandardGuiItem|"
+msgid "C&lear"
+msgstr "پاک کردن"
+
+#: kstandardguiitem.cpp:216
+msgctxt "KStandardGuiItem|"
+msgid "Clear input"
+msgstr "پاک کردن ورودی"
+
+#: kstandardguiitem.cpp:217
+msgctxt "KStandardGuiItem|"
+msgid "Clear the input in the edit field"
+msgstr "پاک کردن ورودی در فیلد ویرایش"
+
+#: kstandardguiitem.cpp:222
+msgctxt "KStandardGuiItem|show help"
+msgid "&Help"
+msgstr "راهنما"
+
+#: kstandardguiitem.cpp:224
+msgctxt "KStandardGuiItem|"
+msgid "Show help"
+msgstr "نمایش راهنما"
+
+#: kstandardguiitem.cpp:229
+msgctxt "KStandardGuiItem|"
+msgid "&Close"
+msgstr "بستن"
+
+#: kstandardguiitem.cpp:231
+msgctxt "KStandardGuiItem|"
+msgid "Close the current window or document"
+msgstr "بستن پنجره یا سند کنونی"
+
+#: kstandardguiitem.cpp:236
+msgctxt "KStandardGuiItem|"
+msgid "&Close Window"
+msgstr "بستن پنجره"
+
+#: kstandardguiitem.cpp:238
+msgctxt "KStandardGuiItem|"
+msgid "Close the current window."
+msgstr "بستن پنجرهٔ کنونی."
+
+#: kstandardguiitem.cpp:243
+msgctxt "KStandardGuiItem|"
+msgid "&Close Document"
+msgstr "بستن سند"
+
+#: kstandardguiitem.cpp:245
+msgctxt "KStandardGuiItem|"
+msgid "Close the current document."
+msgstr "بستن سند کنونی."
+
+#: kstandardguiitem.cpp:250
+msgctxt "KStandardGuiItem|"
+msgid "&Defaults"
+msgstr "پیش‌فرض‌ها"
+
+#: kstandardguiitem.cpp:252
+msgctxt "KStandardGuiItem|"
+msgid "Reset all items to their default values"
+msgstr "بازنشانی همهٔ موارد به مقادیر پیش‌فرض‌شان"
+
+#: kstandardguiitem.cpp:258
+msgctxt "KStandardGuiItem|go back"
+msgid "&Back"
+msgstr "بازگشت"
+
+#: kstandardguiitem.cpp:258
+msgctxt "KStandardGuiItem|"
+msgid "Go back one step"
+msgstr "یک مرحله به عقب رفتن"
+
+#: kstandardguiitem.cpp:264
+msgctxt "KStandardGuiItem|go forward"
+msgid "&Forward"
+msgstr "جلو"
+
+#: kstandardguiitem.cpp:266
+msgctxt "KStandardGuiItem|"
+msgid "Go forward one step"
+msgstr "یک مرحله به جلو رفتن"
+
+#: kstandardguiitem.cpp:276
+msgctxt "KStandardGuiItem|"
+msgid "&Print…"
+msgstr "چاپ…"
+
+#: kstandardguiitem.cpp:278
+msgctxt "KStandardGuiItem|"
+msgid "Opens the print dialog to print the current document"
+msgstr "کادر محاورهٔ چاپ را برای چاپ سند کنونی باز می‌کند"
+
+#: kstandardguiitem.cpp:285
+msgctxt "KStandardGuiItem|"
+msgid "C&ontinue"
+msgstr "ادامه"
+
+#: kstandardguiitem.cpp:287
+msgctxt "KStandardGuiItem|"
+msgid "Continue operation"
+msgstr "ادامهٔ عملیات"
+
+#: kstandardguiitem.cpp:292
+msgctxt "KStandardGuiItem|"
+msgid "&Delete"
+msgstr "حذف"
+
+#: kstandardguiitem.cpp:294
+msgctxt "KStandardGuiItem|"
+msgid "Delete item(s)"
+msgstr "حذف مورد(ها)"
+
+#: kstandardguiitem.cpp:299
+msgctxt "KStandardGuiItem|"
+msgid "&Open…"
+msgstr "باز کردن…"
+
+#: kstandardguiitem.cpp:301
+msgctxt "KStandardGuiItem|"
+msgid "Open file"
+msgstr "باز کردن پرونده"
+
+#: kstandardguiitem.cpp:306
+msgctxt "KStandardGuiItem|"
+msgid "&Quit"
+msgstr "خروج"
+
+#: kstandardguiitem.cpp:308
+msgctxt "KStandardGuiItem|"
+msgid "Quit application"
+msgstr "خروج از برنامه"
+
+#: kstandardguiitem.cpp:313
+msgctxt "KStandardGuiItem|"
+msgid "&Reset"
+msgstr "بازنشانی"
+
+#: kstandardguiitem.cpp:315
+msgctxt "KStandardGuiItem|"
+msgid "Reset configuration"
+msgstr "بازنشانی پیکربندی"
+
+#: kstandardguiitem.cpp:320
+msgctxt "KStandardGuiItem|Verb"
+msgid "&Insert"
+msgstr "درج"
+
+#: kstandardguiitem.cpp:325
+msgctxt "KStandardGuiItem|"
+msgid "Confi&gure…"
+msgstr "پیکربندی…"
+
+#: kstandardguiitem.cpp:330
+msgctxt "KStandardGuiItem|"
+msgid "&Find"
+msgstr "یافتن"
+
+#: kstandardguiitem.cpp:335
+msgctxt "KStandardGuiItem|"
+msgid "Stop"
+msgstr "توقف"
+
+#: kstandardguiitem.cpp:340
+msgctxt "KStandardGuiItem|"
+msgid "Add"
+msgstr "افزودن"
+
+#: kstandardguiitem.cpp:345
+msgctxt "KStandardGuiItem|"
+msgid "Remove"
+msgstr "حذف"
+
+#: kstandardguiitem.cpp:350
+msgctxt "KStandardGuiItem|"
+msgid "Test"
+msgstr "آزمایش"
+
+#: kstandardguiitem.cpp:355
+msgctxt "KStandardGuiItem|"
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+#: kstandardguiitem.cpp:360
+msgctxt "KStandardGuiItem|"
+msgid "&Overwrite"
+msgstr "رونویسی"
+
+#: ktimecombobox.cpp:243
+msgctxt "KTimeComboBox|@info"
+msgid "The time you entered is invalid"
+msgstr "زمان واردشده نامعتبر است"
+
+#: ktimecombobox.cpp:246
+#, qt-format
+msgctxt "KTimeComboBox|@info"
+msgid "Time cannot be earlier than %1"
+msgstr "زمان نمی‌تواند پیش از %1 باشد"
+
+#: ktimecombobox.cpp:253
+#, qt-format
+msgctxt "KTimeComboBox|@info"
+msgid "Time cannot be later than %1"
+msgstr "زمان نمی‌تواند پس از %1 باشد"
+
+#: ktogglefullscreenaction.cpp:38
+msgctxt "KToggleFullScreenAction|@action:inmenu"
+msgid "F&ull Screen Mode"
+msgstr "حالت تمام‌صفحه"
+
+#: ktogglefullscreenaction.cpp:39
+msgctxt "KToggleFullScreenAction|@action:intoolbar"
+msgid "Full Screen"
+msgstr "تمام‌صفحه"
+
+#: ktogglefullscreenaction.cpp:40
+msgctxt "KToggleFullScreenAction|@info:tooltip"
+msgid "Display the window in full screen"
+msgstr "نمایش پنجره به‌صورت تمام‌صفحه"

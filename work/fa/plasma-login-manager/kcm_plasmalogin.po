@@ -1,0 +1,237 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_plasmalogin package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_plasmalogin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-17 00:46+0000\n"
+"PO-Revision-Date: 2026-10-16 01:33+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kcm.cpp:78
+msgid ""
+"Unable to save settings because a temporary directory could not be created."
+msgstr "امکان ذخیرهٔ تنظیمات وجود ندارد زیرا ایجاد یک پوشهٔ موقت ممکن نشد."
+
+#: kcm.cpp:139
+msgid "Unable to save settings because the config could not be opened."
+msgstr "امکان ذخیرهٔ تنظیمات وجود ندارد زیرا پروندهٔ پیکربندی باز نشد."
+
+#: kcm.cpp:214
+msgid ""
+"Unable to synchronise Plasma settings because the 'plasmalogin' user does "
+"not exist. Please check your Plasma Login install."
+msgstr ""
+"امکان همگام‌سازی تنظیمات پلاسما وجود ندارد زیرا کاربر «plasmalogin» وجود "
+"ندارد. لطفاً نصب Plasma Login خود را بررسی کنید."
+
+#: kcm.cpp:269
+msgid ""
+"Unable to reset Plasma settings because the 'plasmalogin' user does not "
+"exist. Please check your Plasma Login install."
+msgstr ""
+"امکان بازنشانی تنظیمات پلاسما وجود ندارد زیرا کاربر «plasmalogin» وجود "
+"ندارد. لطفاً نصب Plasma Login خود را بررسی کنید."
+
+#: ui/Appearance.qml:25
+#, kde-format
+msgctxt "@title"
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: ui/Appearance.qml:37
+#, kde-format
+msgid "Clock"
+msgstr "ساعت"
+
+#: ui/Appearance.qml:38
+#, kde-format
+msgid "Show clock"
+msgstr "نمایش ساعت"
+
+#: ui/Appearance.qml:54
+#, kde-format
+msgid "Wallpaper type:"
+msgstr "نوع کاغذدیواری:"
+
+#: ui/main.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply Plasma Settings…"
+msgstr "اعمال تنظیمات پلاسما…"
+
+#: ui/main.qml:33
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Appearance…"
+msgstr "پیکربندی ظاهر…"
+
+#: ui/main.qml:64
+#, kde-format
+msgctxt "@title:window"
+msgid "Apply Plasma Settings"
+msgstr "اعمال تنظیمات پلاسما"
+
+#: ui/main.qml:65
+#, kde-format
+msgid ""
+"This will make the Plasma login screen reflect your customizations to the "
+"following Plasma settings:"
+msgstr ""
+"این کار باعث می‌شود صفحهٔ ورود پلاسما شخصی‌سازی‌های شما برای تنظیمات زیر را "
+"بازتاب دهد:"
+
+#: ui/main.qml:66
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><list><item>Language and locale settings</item><item>Keyboard "
+"layouts</item><item>Screen arrangement, scale, and orientation "
+"settings</item><item>NumLock preference</item><item>Font and font rendering "
+"settings</item><item>Color scheme</item><item>Cursor theme and "
+"size</item><item>Plasma theme</item></list></para>"
+msgstr ""
+"<para><list><item>تنظیمات زبان و محلی</item><item>طرح‌بندی‌های "
+"صفحه‌کلید</item><item>تنظیمات چیدمان، مقیاس و جهت صفحه</item><item>ترجیح "
+"NumLock</item><item>تنظیمات قلم و رندر قلم</item><item>طرح "
+"رنگی</item><item>اندازه و تم مکان‌نما</item><item>تم "
+"پلاسما</item></list></para>"
+
+#: ui/main.qml:67
+#, kde-format
+msgid ""
+"Please note that theme and font files must be installed globally to be "
+"reflected on the Plasma login screen."
+msgstr ""
+"لطفاً توجه داشته باشید که پرونده‌های تم و قلم باید به‌صورت سراسری نصب شده "
+"باشند تا در صفحهٔ ورود پلاسما اعمال شوند."
+
+#: ui/main.qml:71
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "اعمال"
+
+#: ui/main.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset to Default Settings"
+msgstr "بازنشانی به تنظیمات پیش‌فرض"
+
+#: ui/main.qml:86
+#, kde-format
+msgctxt "@title:group"
+msgid "Auto-login"
+msgstr "ورود خودکار"
+
+#: ui/main.qml:89
+#, kde-format
+msgctxt ""
+"part of a sentence: 'Automatically log in [as user: foo / with session: "
+"bar]'"
+msgid "Automatically log in:"
+msgstr "ورود خودکار:"
+
+#: ui/main.qml:103
+#, kde-format
+msgctxt ""
+"@label:listbox part of a sentence: '[Automatically log in] as user: [foo / "
+"with session: bar]'"
+msgid "as user:"
+msgstr "به عنوان کاربر:"
+
+#: ui/main.qml:127
+#, kde-format
+msgid "Automatically log in with a specific user and session"
+msgstr "ورود خودکار با کاربر و نشست مشخص"
+
+#: ui/main.qml:149
+#, kde-format
+msgid "Select a user for automatic log in"
+msgstr "انتخاب یک کاربر برای ورود خودکار"
+
+#: ui/main.qml:161
+#, kde-format
+msgctxt ""
+"@label:listbox part of a sentence: '[Automatically log in as user: foo / ] "
+"with session: [bar]'"
+msgid "with session:"
+msgstr "با نشست:"
+
+#: ui/main.qml:183
+#, kde-format
+msgid "Select a session for automatic log in"
+msgstr "انتخاب یک نشست برای ورود خودکار"
+
+#: ui/main.qml:195
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Auto-login does not support unlocking your KDE Wallet automatically, so it "
+"will ask you to unlock it every time you log in.<nl/><nl/>To avoid this, you"
+" can change the wallet to have a blank password. Note that this is insecure "
+"and should only be done in a trusted environment."
+msgstr ""
+"ورود خودکار از باز کردن قفل کیف پول KDE به طور خودکار پشتیبانی نمی‌کند، "
+"بنابراین هر بار که وارد می‌شوید از شما می‌خواهد قفل آن را باز "
+"کنید.<nl/><nl/>برای جلوگیری از این امر، می‌توانید گذرواژهٔ کیف پول را خالی "
+"بگذارید. توجه داشته باشید که این کار ناامن است و فقط باید در یک محیط قابل "
+"اعتماد انجام شود."
+
+#: ui/main.qml:200
+#, kde-format
+msgid "Open KDE Wallet Settings"
+msgstr "باز کردن تنظیمات کیف پول KDE"
+
+#: ui/main.qml:210
+#, kde-format
+msgctxt "@option:check"
+msgid "Log in again immediately after logging off"
+msgstr "ورود دوباره بلافاصله پس از خروج از سامانه"
+
+#: ui/main.qml:224
+#, kde-format
+msgctxt "@title:group"
+msgid "Defaults"
+msgstr "پیش‌فرض‌ها"
+
+#: ui/main.qml:227
+#, kde-format
+msgid "Default user:"
+msgstr "کاربر پیش‌فرض:"
+
+#: ui/main.qml:235
+#, kde-format
+msgctxt "@option:radio"
+msgid "Last logged-in user"
+msgstr "آخرین کاربری که وارد شده"
+
+#: ui/main.qml:295
+#, kde-format
+msgid "Select the default user to be shown at the login screen"
+msgstr "انتخاب کاربر پیش‌فرض برای نمایش در صفحهٔ ورود"
+
+#: ui/main.qml:303
+#, kde-format
+msgid "Default session:"
+msgstr "نشست پیش‌فرض:"
+
+#: ui/main.qml:311
+#, kde-format
+msgctxt "@option:radio"
+msgid "Last logged-in session"
+msgstr "آخرین نشست واردشده"
+
+#: ui/main.qml:369
+#, kde-format
+msgid "Select the default session to be shown at the login screen"
+msgstr ""
+"نشست پیش‌فرضی که در صفحهٔ ورود به سیستم نمایش داده می‌شود را انتخاب کنید"

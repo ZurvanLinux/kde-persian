@@ -1,0 +1,301 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the org.kde.plasma.printqueue package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.plasma.printqueue\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-18 00:47+0000\n"
+"PO-Revision-Date: 2026-10-16 01:49+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: main.cpp:39
+#, kde-format
+msgctxt "@info:credit"
+msgid "Plasma Print Queue Manager"
+msgstr "مدیر صف چاپ پلاسما"
+
+#: main.cpp:41
+#, kde-format
+msgctxt "@info:credit"
+msgid "Manage printer job queues"
+msgstr "مدیریت صف‌های کارهای چاپگر"
+
+#: main.cpp:43
+#, kde-format
+msgid "© KDE Community"
+msgstr "© KDE Community"
+
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Mike Noe"
+msgstr "مایک نو (Mike Noe)"
+
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: main.cpp:49
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: main.cpp:49
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: main.cpp:62
+#, kde-format
+msgid "Show printer queue"
+msgstr "نمایش صف چاپگر"
+
+#: PrintQueue.cpp:88
+#, kde-format
+msgid "Enter credentials to print from <b>%1</b>"
+msgstr "اعتبارنامه را برای چاپ از <b>%1</b> وارد کنید"
+
+#: qml/JobView.qml:30
+#, kde-format
+msgctxt "@label Job types currently showing"
+msgid "%1 Jobs"
+msgstr "کارهای %1"
+
+#: qml/JobView.qml:58
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Filter Jobs"
+msgstr "پالایش کارها"
+
+#: qml/JobView.qml:63
+#, kde-format
+msgctxt "option:check Show active Jobs"
+msgid "Active"
+msgstr "فعال"
+
+#: qml/JobView.qml:71
+#, kde-format
+msgctxt "option:check Show completed jobs"
+msgid "Completed"
+msgstr "کامل‌شده"
+
+#: qml/JobView.qml:79
+#, kde-format
+msgctxt "option:check Show all jobs"
+msgid "All"
+msgstr "همه"
+
+#: qml/JobView.qml:90
+#, kde-format
+msgctxt "@option:check Hide expanded job view"
+msgid "Hide Job Details"
+msgstr "پنهان‌سازی جزئیات کار"
+
+#: qml/JobView.qml:91
+#, kde-format
+msgctxt "@option:check Show expanded job view"
+msgid "Show Job Details"
+msgstr "نمایش جزئیات کار"
+
+#: qml/JobView.qml:98
+#, kde-format
+msgctxt "@action:button Cancel all active jobs"
+msgid "Cancel All Jobs"
+msgstr "لغو همهٔ کارها"
+
+#: qml/JobView.qml:112
+#, kde-format
+msgctxt "@title:window"
+msgid "Cancel all active print jobs?"
+msgstr "همهٔ کارهای چاپ فعال لغو شوند؟"
+
+#: qml/JobView.qml:139
+#, kde-format
+msgctxt "@info:status Print jobs not found in the print queue"
+msgid "The print queue is empty"
+msgstr "صف چاپ خالی است"
+
+#: qml/JobView.qml:158
+#, kde-format
+msgctxt ""
+"@action:inmenu Move the job to /info/ which is the friendly name of the "
+"other print queue"
+msgid "Move to %1"
+msgstr "انتقال به %1"
+
+#: qml/JobView.qml:246
+#, kde-format
+msgctxt "@action:button This action cancels the job"
+msgid "Cancel"
+msgstr "لغو"
+
+#: qml/JobView.qml:257
+#, kde-format
+msgctxt "@action:button This action holds the job"
+msgid "Hold"
+msgstr "نگه‌داشتن"
+
+#: qml/JobView.qml:268
+#, kde-format
+msgctxt "@action:button This action releases the job"
+msgid "Release"
+msgstr "آزادسازی"
+
+#: qml/JobView.qml:279
+#, kde-format
+msgctxt "@action:button This action reprints the job"
+msgid "Reprint"
+msgstr "چاپ مجدد"
+
+#: qml/JobView.qml:289
+#, kde-format
+msgctxt "@action:button"
+msgid "Move"
+msgstr "انتقال"
+
+#: qml/JobView.qml:300
+#, kde-format
+msgctxt ""
+"@action:button This action prompts for user/password to authenticate the job"
+msgid "Authenticate"
+msgstr "احراز هویت"
+
+#: qml/JobView.qml:321
+#, kde-format
+msgctxt "@label:info"
+msgid "Status: %1, %2"
+msgstr "وضعیت: %1، %2"
+
+#: qml/JobView.qml:322
+#, kde-format
+msgctxt "@label:info"
+msgid "Status: %1"
+msgstr "وضعیت: %1"
+
+#: qml/JobView.qml:327
+#, kde-format
+msgctxt "@label:info Date created"
+msgid "Created: %1"
+msgstr "ایجادشده: %1"
+
+#: qml/JobView.qml:338
+#, kde-format
+msgctxt "@label:info Date completed"
+msgid "Completed: %1"
+msgstr "تکمیل‌شده: %1"
+
+#: qml/JobView.qml:343
+#, kde-format
+msgctxt "@label:info Date processed"
+msgid "Processed: %1"
+msgstr "پردازش‌شده: %1"
+
+#: qml/JobView.qml:349
+#, kde-format
+msgctxt "@label:info Job page count"
+msgid "Pages: %1"
+msgstr "صفحه‌ها: %1"
+
+#: qml/Main.qml:117
+#, kde-format
+msgctxt "@label:header"
+msgid "Printers"
+msgstr "چاپگرها"
+
+#: qml/Main.qml:123
+#, kde-format
+msgctxt "@action:button about this application"
+msgid "About"
+msgstr "درباره"
+
+#: qml/Main.qml:157
+#, kde-format
+msgctxt "@label:info device description"
+msgid "Printers"
+msgstr "چاپگرها"
+
+#: qml/Main.qml:157
+#, kde-format
+msgctxt "@label:info device description"
+msgid "Printer Groups"
+msgstr "گروه‌های چاپگر"
+
+#: qml/Main.qml:267
+#, kde-format
+msgctxt "@action:button Resume printing"
+msgid "Resume"
+msgstr "ادامه"
+
+#: qml/Main.qml:268
+#, kde-format
+msgctxt "@action:button Pause printing"
+msgid "Pause"
+msgstr "مکث"
+
+#: qml/Main.qml:281
+#, kde-format
+msgctxt "@action:button Configure printer in the kcm"
+msgid "Configure…"
+msgstr "پیکربندی…"
+
+#: qml/Main.qml:288
+#, kde-format
+msgctxt "@action:button Open additional printer settings"
+msgid "Media Settings…"
+msgstr "تنظیمات رسانه…"
+
+#: qml/NotAvailablePage.qml:27
+#, kde-format
+msgctxt "@info:status"
+msgid "No printers have been set up"
+msgstr "هیچ چاپگری برپا نشده است"
+
+#: qml/NotAvailablePage.qml:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Set Up a Printer…"
+msgstr "راه‌اندازی چاپگر…"
+
+#: qml/NotAvailablePage.qml:41
+#, kde-format
+msgctxt "@info:status"
+msgid "Printing services not available"
+msgstr "سرویس‌های چاپ در دسترس نیستند"
+
+#: qml/NotAvailablePage.qml:42
+#, kde-format
+msgctxt ""
+"@info:usagetip %1 is the distribution support URL %2 is the distribution "
+"name"
+msgid ""
+"Verify that the CUPS system service is active or check: <a href=\"%1\">%2 "
+"Support</a>"
+msgstr ""
+"بررسی کنید که سرویس سیستمی CUPS فعال باشد یا بررسی کنید: <a "
+"href=\"%1\">پشتیبانی %2</a>"
+
+#: qml/NotAvailablePage.qml:52
+#, kde-format
+msgctxt "@info:status"
+msgid "Unknown error condition with printing services"
+msgstr "وضعیت خطای ناشناخته در سرویس‌های چاپ"
+
+#: qml/NotAvailablePage.qml:53
+#, kde-format
+msgctxt ""
+"@info:usagetip %1 is the distribution bug report URL %2 is the distribution "
+"name"
+msgid "Check for issues here: <a href=\"%1\">%2 Issues</a>"
+msgstr "مشکلات را این‌جا بررسی کنید: <a href=\"%1\">مشکلات %2</a>"

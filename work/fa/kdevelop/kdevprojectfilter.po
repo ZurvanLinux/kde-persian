@@ -1,0 +1,204 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdevprojectfilter package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevprojectfilter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-10-15 21:41+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: filtermodel.cpp:76
+#, kde-format
+msgctxt "@title:column"
+msgid "Pattern"
+msgstr "الگو"
+
+#: filtermodel.cpp:78
+#, kde-format
+msgctxt "@title:column"
+msgid "Targets"
+msgstr "هدف‌ها"
+
+#: filtermodel.cpp:80
+#, kde-format
+msgctxt "@title:column"
+msgid "Action"
+msgstr "اقدام"
+
+#: filtermodel.cpp:109
+#, kde-format
+msgid ""
+"The wildcard pattern defines whether a file or folder is included in a "
+"project or not.<br />The pattern is matched case-sensitively against the "
+"items relative path to the project root. The relative path starts with a "
+"forward slash, trailing slashes of folders are removed.<br />Patterns ending"
+" on <code>\"/\"</code> are implicitly considered to match against folders "
+"only.<br />Patterns which do not explicitly start with either "
+"<code>\"/\"</code> or <code>\"*\"</code> implicitly get <code>\"*/\"</code> "
+"prepended and thus match any item with a relative path ending on the given "
+"pattern."
+msgstr ""
+"الگوی نویسه‌عام مشخص می‌کند که آیا یک پرونده یا پوشه در پروژه لحاظ شود یا "
+"خیر.<br />الگو به‌صورت حساس به حروف بزرگ و کوچک با مسیر نسبی موارد تا ریشهٔ "
+"پروژه مطابقت داده می‌شود. مسیر نسبی با یک اسلش رو به جلو آغاز می‌شود و "
+"اسلش‌های پایانی پوشه‌ها حذف می‌گردند.<br />الگوهایی که به <code>\"/\"</code>"
+" ختم می‌شوند، به‌طور ضمنی فقط برای مطابقت با پوشه‌ها در نظر گرفته "
+"می‌شوند.<br />به الگوهایی که صراحتاً با <code>\"/\"</code> یا "
+"<code>\"*\"</code> شروع نمی‌شوند، به‌طور ضمنی <code>\"*/\"</code> اضافه "
+"می‌شود و در نتیجه با هر موردی که مسیر نسبی آن به الگوی داده‌شده ختم شود "
+"مطابقت داده می‌شوند."
+
+#: filtermodel.cpp:121
+#, kde-format
+msgid ""
+"The target defines what type of item the filter is matched against.<br "
+"/>Filters either apply only to files, only to folders or to both."
+msgstr ""
+"هدف مشخص می‌کند که فیلتر با چه نوع موردی مطابقت داده شود.<br />فیلترها یا "
+"فقط برای پرونده‌ها، یا فقط برای پوشه‌ها و یا برای هر دو اعمال می‌شوند."
+
+#: filtermodel.cpp:127 projectfilterconfigpage.cpp:46
+#, kde-format
+msgctxt "@item"
+msgid "Files and Folders"
+msgstr "پرونده‌ها و پوشه‌ها"
+
+#: filtermodel.cpp:132 projectfilterconfigpage.cpp:45
+#, kde-format
+msgctxt "@item"
+msgid "Folders"
+msgstr "پوشه‌ها"
+
+#: filtermodel.cpp:137 projectfilterconfigpage.cpp:44
+#, kde-format
+msgctxt "@item"
+msgid "Files"
+msgstr "پرونده‌ها"
+
+#: filtermodel.cpp:143
+#, kde-format
+msgid ""
+"Filters by default exclude items from the project. Inclusive patterns can be"
+" used to include items which where matched by previous exclusive "
+"patterns.<br />E.g. to only include files ending on <code>\".cpp\"</code> in"
+" your project, you could exclude all files via <code>\"*\"</code> and then "
+"apply an inclusive <code>\"*.cpp\"</code> pattern."
+msgstr ""
+"فیلترها به‌طور پیش‌فرض موارد را از پروژه استثنا می‌کنند. الگوهای مشمول‌ساز "
+"را می‌توان برای گنجاندن مواردی که توسط الگوهای استثناکنندهٔ قبلی مطابقت داده"
+" شده‌اند، استفاده کرد.<br />برای نمونه، برای اینکه فقط پرونده‌های مختوم به "
+"<code>\".cpp\"</code> در پروژه‌تان لحاظ شوند، می‌توانید همهٔ پرونده‌ها را با"
+" <code>\"*\"</code> مستثنی کرده و سپس یک الگوی مشمول‌ساز "
+"<code>\"*.cpp\"</code> را اعمال کنید."
+
+#: filtermodel.cpp:149 projectfilterconfigpage.cpp:51
+#, kde-format
+msgctxt "@item"
+msgid "Include"
+msgstr "شامل کردن"
+
+#: filtermodel.cpp:154 projectfilterconfigpage.cpp:50
+#, kde-format
+msgctxt "@item"
+msgid "Exclude"
+msgstr "مستثنی کردن"
+
+#: projectfilterconfigpage.cpp:172
+#, kde-format
+msgid ""
+"A filter with an empty pattern will match all items. Use <code>\"*\"</code> "
+"to make this explicit."
+msgstr ""
+"فیلتری با الگوی خالی با همهٔ موارد مطابقت خواهد داشت. برای صریح کردن این "
+"موضوع از <code>\"*\"</code> استفاده کنید."
+
+#: projectfilterconfigpage.cpp:175
+#, kde-format
+msgid "A filter ending on <code>\"/\"</code> can never match a file."
+msgstr ""
+"فیلتری که با <code>\"/\"</code> پایان می‌یابد، هرگز نمی‌تواند با یک پرونده "
+"مطابقت داشته باشد."
+
+#: projectfilterconfigpage.cpp:198
+#, kde-format
+msgctxt "@title:tab"
+msgid "Configure Project Filter"
+msgstr "پیکربندی فیلتر پروژه"
+
+#: projectfilterconfigpage.cpp:208
+#, kde-format
+msgctxt "@title:tab"
+msgid "Project Filter"
+msgstr "فیلتر پروژه"
+
+#: projectfilterprovider.cpp:77
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Exclude Item from Project"
+msgid_plural "Exclude Items from Project"
+msgstr[0] "مستثنی کردن مورد از پروژه"
+msgstr[1] "مستثنی کردن موارد از پروژه"
+
+#: projectfilterprovider.cpp:116
+#, kde-format
+msgid ""
+"A filter for the item was added. To undo, use the project filter settings."
+msgid_plural ""
+"A filter for the items was added. To undo, use the project filter settings."
+msgstr[0] ""
+"فیلتری برای مورد اضافه شد. برای واگرد، از تنظیمات فیلتر پروژه استفاده کنید."
+msgstr[1] ""
+"فیلتری برای موارد اضافه شد. برای واگرد، از تنظیمات فیلتر پروژه استفاده کنید."
+
+#: projectfilterprovider.cpp:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Project Filter Added"
+msgstr "فیلتر پروژه اضافه شد"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: projectfiltersettings.ui:20
+#, kde-format
+msgid ""
+"Configure which files and folders inside the project folder should be "
+"included or excluded:"
+msgstr ""
+"پیکربندی کنید که کدام پرونده‌ها و پوشه‌های درون پوشهٔ پروژه باید شامل یا "
+"مستثنی شوند:"
+
+#. i18n: ectx: property (text), widget (QPushButton, add)
+#: projectfiltersettings.ui:34
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr "افزودن"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove)
+#: projectfiltersettings.ui:47
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "حذف"
+
+#. i18n: ectx: property (text), widget (QPushButton, moveUp)
+#: projectfiltersettings.ui:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Up"
+msgstr "انتقال به بالا"
+
+#. i18n: ectx: property (text), widget (QPushButton, moveDown)
+#: projectfiltersettings.ui:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Down"
+msgstr "انتقال به پایین"

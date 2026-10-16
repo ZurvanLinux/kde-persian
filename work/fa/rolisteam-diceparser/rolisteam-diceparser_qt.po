@@ -1,0 +1,470 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the rolisteam-diceparser_qt package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: rolisteam-diceparser_qt\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-16 02:45+0330\n"
+"PO-Revision-Date: 2026-10-16 02:45+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/bin/cli/main.cpp:116
+#, qt-format
+msgctxt "QObject|"
+msgid "Error: %1\n"
+msgstr "خطا: %1\n"
+
+#: src/bin/cli/main.cpp:121
+#, qt-format
+msgctxt "QObject|"
+msgid "Warning: %1\n"
+msgstr "هشدار: %1\n"
+
+#: src/bin/cli/main.cpp:134
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"# %1\n"
+"Details:[%3 (%2)]\n"
+msgstr ""
+"# %1\n"
+"جزئیات: [%3 (%2)]\n"
+
+#: src/bin/cli/main.cpp:263
+#, qt-format
+msgctxt "QObject|"
+msgid "Result: %4%1%5 - details:[%3 (%2)]"
+msgstr "نتیجه: %4%1%5 - جزئیات: [%3 (%2)]"
+
+#: src/bin/cli/main.cpp:267
+#, qt-format
+msgctxt "QObject|"
+msgid "Result: %1 - details:[%3 (%2)]"
+msgstr "نتیجه: %1 - جزئیات: [%3 (%2)]"
+
+#: src/libparser/diceparser.cpp:79
+msgctxt "QObject|"
+msgid ""
+"Nothing was understood. To roll dice: !1d6 - full documentation: <a "
+"href=\"https://github.com/Rolisteam/DiceParser/blob/master/HelpMe.md\">https://github.com/Rolisteam/DiceParser/blob/master/HelpMe.md</a>"
+msgstr ""
+"چیزی فهمیده نشد. برای انداختن تاس: !1d6 - مستندات کامل: <a "
+"href=\"https://github.com/Rolisteam/DiceParser/blob/master/HelpMe.md\">https://github.com/Rolisteam/DiceParser/blob/master/HelpMe.md</a>"
+
+#: src/libparser/diceparser.cpp:90
+#, qt-format
+msgctxt "QObject|"
+msgid "Unexpected character at %1 - end of command was ignored \"%2\""
+msgstr "نویسه غیرمنتظره در %1 - انتهای دستور نادیده گرفته شد \"%2\""
+
+#: src/libparser/diceroller.cpp:61
+#, qt-format
+msgctxt "DiceRoller|"
+msgid ""
+"Error:\n"
+"%1\n"
+"Warnings:\n"
+"%2"
+msgstr ""
+"خطا:\n"
+"%1\n"
+"هشدارها:\n"
+"%2"
+
+#: src/libparser/node/allsamenode.cpp:11
+msgctxt "AllSameNode|"
+msgid "No valid previous node"
+msgstr "گره قبلی معتبری وجود ندارد"
+
+#: src/libparser/node/allsamenode.cpp:15
+msgctxt "AllSameNode|"
+msgid "No dice result"
+msgstr "تاس نتیجه‌ای نداشت"
+
+#: src/libparser/node/dicerollernode.cpp:17
+msgctxt "QObject|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/dicerollernode.cpp:22
+msgctxt "QObject|"
+msgid "No result from previous node"
+msgstr "نتیجه‌ای از گره قبلی دریافت نشد"
+
+#: src/libparser/node/dicerollernode.cpp:27
+msgctxt "QObject|"
+msgid "No dice to roll"
+msgstr "تاسی برای ریختن وجود ندارد"
+
+#: src/libparser/node/dicerollernode.cpp:34
+msgctxt "QObject|"
+msgid "More unique values asked than possible values (D operator)"
+msgstr "تعداد مقادیر یکتای درخواستی بیش از مقادیر ممکن است (عملگر D)"
+
+#: src/libparser/node/explodedicenode.cpp:82
+#, qt-format
+msgctxt "QObject|"
+msgid "Condition (%1) cause an endless loop with this dice: %2"
+msgstr "شرط (%1) با این تاس باعث ایجاد حلقه بی‌نهایت می‌شود: %2"
+
+#: src/libparser/node/explodedicenode.cpp:89
+#, qt-format
+msgctxt "QObject|"
+msgid "Condition (%1) cause an endless loop with dice: %2"
+msgstr "شرط (%1) با تاس باعث ایجاد حلقه بی‌نهایت می‌شود: %2"
+
+#: src/libparser/node/filternode.cpp:22
+msgctxt "FilterNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/filternode.cpp:29
+msgctxt "FilterNode|"
+msgid "No Valid result"
+msgstr "نتیجه معتبری وجود ندارد"
+
+#: src/libparser/node/groupnode.cpp:80
+msgctxt "GroupNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/groupnode.cpp:89
+msgctxt "GroupNode|"
+msgid "No Valid result"
+msgstr "نتیجه معتبری وجود ندارد"
+
+#: src/libparser/node/groupnode.cpp:94
+msgctxt "GroupNode|"
+msgid "No Valid Dice result"
+msgstr "نتیجهٔ تاس معتبری وجود ندارد"
+
+#: src/libparser/node/helpnode.cpp:35
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"Rolisteam Dice Parser:\n"
+"\n"
+"Example (with ! as prefix):\n"
+"!2d6\n"
+"!1d20\n"
+"!6d10e10k3 (L5R)\n"
+"\n"
+"Full documentation at: %1"
+msgstr ""
+"تجزیه‌کنندهٔ تاس Rolisteam:\n"
+"\n"
+"مثال (با پیشوند !):\n"
+"!2d6\n"
+"!1d20\n"
+"!6d10e10k3 (L5R)\n"
+"\n"
+"مستندات کامل در: %1"
+
+#: src/libparser/node/helpnode.cpp:55
+msgctxt "HelpNode|"
+msgid ""
+"Rolisteam Dice Parser:\n"
+"Full documentation at"
+msgstr ""
+"تجزیه‌کنندهٔ تاس Rolisteam:\n"
+"مستندات کامل در"
+
+#: src/libparser/node/ifnode.cpp:87
+msgctxt "IfNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/ifnode.cpp:93
+msgctxt "IfNode|"
+msgid "No Valid result"
+msgstr "نتیجهٔ معتبری وجود ندارد"
+
+#: src/libparser/node/ifnode.cpp:98
+msgctxt "IfNode|"
+msgid "No Valid copy of result"
+msgstr "کپی معتبری از نتیجه وجود ندارد"
+
+#: src/libparser/node/ifnode.cpp:102
+msgctxt "IfNode|"
+msgid "No validator list"
+msgstr "فهرست اعتبارسنجی وجود ندارد"
+
+#: src/libparser/node/jumpbackwardnode.cpp:115
+msgctxt "JumpBackwardNode|"
+msgid ""
+" The @ operator expects dice result. Please check the documentation to fix "
+"your command."
+msgstr ""
+" عملگر @ انتظار نتیجهٔ تاس دارد. لطفاً مستندات را برای اصلاح دستور خود بررسی"
+" کنید."
+
+#: src/libparser/node/keepdiceexecnode.cpp:34
+#: src/libparser/node/keepdiceexecnode.cpp:52
+msgctxt "KeepDiceExecNode|"
+msgid "No Valid result"
+msgstr "نتیجهٔ معتبری وجود ندارد"
+
+#: src/libparser/node/keepdiceexecnode.cpp:77
+#, qt-format
+msgctxt "QObject|"
+msgid " You ask to keep %1 dice but the result only has %2"
+msgstr " شما درخواست نگه‌داشتن %1 تاس را داده‌اید، اما نتیجه فقط شامل %2 است"
+
+#: src/libparser/node/listaliasnode.cpp:41
+msgctxt "QObject|"
+msgid "List of Alias:\n"
+msgstr "فهرست نام‌های مستعار:\n"
+
+#: src/libparser/node/listsetrollnode.cpp:56
+msgctxt "ListSetRollNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/listsetrollnode.cpp:60
+msgctxt "ListSetRollNode|"
+msgid "No Valid result"
+msgstr "نتیجه معتبری وجود ندارد"
+
+#: src/libparser/node/listsetrollnode.cpp:66
+msgctxt "ListSetRollNode|"
+msgid "More unique values asked than possible values (L operator)"
+msgstr "مقادیر یکتای درخواست‌شده بیش از مقادیر ممکن است (عملگر L)"
+
+#: src/libparser/node/mergenode.cpp:50
+msgctxt "MergeNode|"
+msgid "No previous node before Merge operator"
+msgstr "قبل از عملگر ادغام (Merge) گره قبلی وجود ندارد"
+
+#: src/libparser/node/mergenode.cpp:56
+msgctxt "MergeNode|"
+msgid "No several instruction"
+msgstr "دستورالعمل چندگانه‌ای وجود ندارد"
+
+#: src/libparser/node/occurencecountnode.cpp:30
+msgctxt "OccurenceCountNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/occurencecountnode.cpp:37
+msgctxt "OccurenceCountNode|"
+msgid "No Valid result"
+msgstr "نتیجه معتبری وجود ندارد"
+
+#: src/libparser/node/occurencecountnode.cpp:136
+msgctxt "QObject|"
+msgid "No matching result"
+msgstr "هیچ نتیجه منطبقی یافت نشد"
+
+#: src/libparser/node/paintnode.cpp:60
+msgctxt "PainterNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/paintnode.cpp:65
+msgctxt "PainterNode|"
+msgid "No Valid result"
+msgstr "نتیجهٔ معتبری وجود ندارد"
+
+#: src/libparser/node/paintnode.cpp:69
+msgctxt "PainterNode|"
+msgid "No Valid Dice result"
+msgstr "نتیجهٔ تاس معتبری وجود ندارد"
+
+#: src/libparser/node/replacevaluenode.cpp:38
+msgctxt "ReplaceValueNode|"
+msgid "No previous node before Switch/Case operator"
+msgstr "هیچ گره قبلی پیش از عملگر Switch/Case وجود ندارد"
+
+#: src/libparser/node/replacevaluenode.cpp:48
+msgctxt "ReplaceValueNode|"
+msgid "No scalar or dice result before Switch/Case operator"
+msgstr "هیچ نتیجهٔ اسکالر یا تاسی پیش از عملگر Switch/Case وجود ندارد"
+
+#: src/libparser/node/rerolldicenode.cpp:25
+msgctxt "RerollDiceNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/rerolldicenode.cpp:31
+msgctxt "RerollDiceNode|"
+msgid "No Valid result"
+msgstr "نتیجهٔ معتبری وجود ندارد"
+
+#: src/libparser/node/rerolldicenode.cpp:36
+msgctxt "RerollDiceNode|"
+msgid ""
+" The a operator expects dice result. Please check the documentation and fix "
+"your command."
+msgstr ""
+" عملگر a منتظر نتیجهٔ تاس است. لطفاً مستندات را بررسی کرده و دستور خود را "
+"اصلاح کنید."
+
+#: src/libparser/node/scalaroperatornode.cpp:43
+#: src/libparser/node/scalaroperatornode.cpp:48
+msgctxt "ScalarOperatorNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/scalaroperatornode.cpp:51
+msgctxt "ScalarOperatorNode|"
+msgid "No internal node to run"
+msgstr "گره داخلی برای اجرا وجود ندارد"
+
+#: src/libparser/node/scalaroperatornode.cpp:57
+msgctxt "ScalarOperatorNode|"
+msgid "No valid result"
+msgstr "نتیجهٔ معتبری وجود ندارد"
+
+#: src/libparser/node/scalaroperatornode.cpp:75
+#, qt-format
+msgctxt "ScalarOperatorNode|"
+msgid "No Valid result in arithmetic operation: %1"
+msgstr "نتیجهٔ معتبری در عملیات حسابی وجود ندارد: %1"
+
+#: src/libparser/node/scalaroperatornode.cpp:133
+msgctxt "QObject|"
+msgid "Division by zero"
+msgstr "تقسیم بر صفر"
+
+#: src/libparser/node/sortresult.cpp:33
+msgctxt "SortResultNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/sortresult.cpp:39
+msgctxt "SortResultNode|"
+msgid "No Valid dice result"
+msgstr "نتیجهٔ معتبری برای تاس وجود ندارد"
+
+#: src/libparser/node/splitnode.cpp:30
+msgctxt "SplitNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/splitnode.cpp:37
+msgctxt "SplitNode|"
+msgid "No Valid result"
+msgstr "نتیجهٔ معتبری وجود ندارد"
+
+#: src/libparser/node/splitnode.cpp:41
+msgctxt "SplitNode|"
+msgid "No Valid dice result"
+msgstr "نتیجهٔ معتبری برای تاس وجود ندارد"
+
+#: src/libparser/node/switchcasenode.cpp:39
+msgctxt "SwitchCaseNode|"
+msgid "No previous node before Switch/Case operator"
+msgstr "هیچ گره قبلی پیش از عملگر Switch/Case وجود ندارد"
+
+#: src/libparser/node/switchcasenode.cpp:50
+msgctxt "SwitchCaseNode|"
+msgid "No scalar or dice result before Switch/Case operator"
+msgstr "هیچ نتیجهٔ عددی یا تاسی پیش از عملگر Switch/Case وجود ندارد"
+
+#: src/libparser/node/switchcasenode.cpp:130
+msgctxt "SwitchCaseNode|"
+msgid "No value fits the Switch/Case operator"
+msgstr "هیچ مقداری با عملگر Switch/Case همخوانی ندارد"
+
+#: src/libparser/node/uniquenode.cpp:30
+msgctxt "UniqueNode|"
+msgid "No Previous node"
+msgstr "گره قبلی وجود ندارد"
+
+#: src/libparser/node/uniquenode.cpp:36
+msgctxt "UniqueNode|"
+msgid "No Valid result"
+msgstr "نتیجهٔ معتبری وجود ندارد"
+
+#: src/libparser/node/uniquenode.cpp:40
+msgctxt "UniqueNode|"
+msgid "No Valid dice result"
+msgstr "نتیجهٔ تاس معتبری وجود ندارد"
+
+#: src/libparser/node/variablenode.cpp:12
+#, qt-format
+msgctxt "VariableNode|"
+msgid "No variable at index:%1"
+msgstr "متغیری در نمایهٔ %1 وجود ندارد"
+
+#: src/libparser/node/variablenode.cpp:26
+msgctxt "VariableNode|"
+msgid "No Valid dice result"
+msgstr "نتیجهٔ تاس معتبری وجود ندارد"
+
+#: src/libparser/parsingtoolbox.cpp:1493
+msgctxt "QObject|"
+msgid "Can read the parameter for Round Function."
+msgstr "امکان خواندن پارامتر تابع گرد کردن (Round) وجود دارد."
+
+#: src/libparser/parsingtoolbox.cpp:1544
+msgctxt "QObject|"
+msgid "Expected closing parenthesis - can't validate the inside."
+msgstr "پرانتز بسته مورد انتظار بود - امکان اعتبارسنجی داخل آن وجود ندارد."
+
+#: src/libparser/parsingtoolbox.cpp:1784
+msgctxt "QObject|"
+msgid "Validator is missing after the c operator. Please, change it"
+msgstr "اعتبارسنج پس از عملگر c وجود ندارد. لطفاً آن را تغییر دهید"
+
+#: src/libparser/parsingtoolbox.cpp:1804
+#, qt-format
+msgctxt "QObject|"
+msgid "Validator is always true for the %1 operator. Please, change it"
+msgstr "اعتبارسنج همیشه برای عملگر %1 درست است. لطفاً آن را تغییر دهید"
+
+#: src/libparser/parsingtoolbox.cpp:1813
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"Condition can't be reached, causing endless loop. Please, change the %1 "
+"option condition"
+msgstr ""
+"شرط دست‌یافتنی نیست و باعث ایجاد حلقهٔ بی‌نهایت می‌شود. لطفاً شرط گزینهٔ %1 "
+"را تغییر دهید"
+
+#: src/libparser/parsingtoolbox.cpp:1839
+#, qt-format
+msgctxt "QObject|"
+msgid "Validator is missing after the %1 operator. Please, change it"
+msgstr "اعتبارسنج پس از عملگر %1 وجود ندارد. لطفاً آن را تغییر دهید"
+
+#: src/libparser/parsingtoolbox.cpp:1854
+#, qt-format
+msgctxt "QObject|"
+msgid "This condition %1 introduces an endless loop. Please, change it"
+msgstr ""
+"این شرط %1 باعث ایجاد یک حلقهٔ بی‌پایان می‌شود. لطفاً آن را تغییر دهید"
+
+#: src/libparser/parsingtoolbox.cpp:1870
+msgctxt "QObject|"
+msgid "Validator is missing after the e operator. Please, change it"
+msgstr "اعتبارسنج پس از عملگر e وجود ندارد. لطفاً آن را تغییر دهید"
+
+#: src/libparser/parsingtoolbox.cpp:1949
+msgctxt "QObject|"
+msgid "Missing parameter for Painter node (p)"
+msgstr "پارامتر گره نقاش (p) ناموجود است"
+
+#: src/libparser/parsingtoolbox.cpp:2196
+#, qt-format
+msgctxt "QObject|"
+msgid "Dice with %1 face(s) does not exist. Please, put a value higher than 0"
+msgstr "تاس با %1 وجه وجود ندارد. لطفاً مقداری بزرگ‌تر از 0 وارد کنید"
+
+#: src/libparser/parsingtoolbox.cpp:2255
+msgctxt "QObject|"
+msgid ""
+"List is missing after the L operator. Please, add it (e.g : "
+"1L[sword,spear,gun,arrow])"
+msgstr ""
+"فهرست پس از عملگر L وجود ندارد. لطفاً آن را اضافه کنید (مثال: "
+"1L[sword,spear,gun,arrow])"

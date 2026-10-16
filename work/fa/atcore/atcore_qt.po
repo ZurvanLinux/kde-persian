@@ -1,0 +1,1825 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the atcore_qt package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: atcore_qt\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-15 13:43+0330\n"
+"PO-Revision-Date: 2026-10-15 13:43+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/core/atcore.cpp:141
+msgctxt "AtCore|"
+msgid "Waiting for firmware detect."
+msgstr "در انتظار شناسایی سفت‌افزار."
+
+#: src/core/atcore.cpp:195
+#, qt-format
+msgctxt "AtCore|"
+msgid "Connected to printer using %1 plugin"
+msgstr "با استفاده از افزونهٔ %1 به چاپگر متصل شد"
+
+#: src/core/atcore.cpp:199
+#, qt-format
+msgctxt "AtCore|"
+msgid "No plugin found for %1."
+msgstr "هیچ افزونه‌ای برای %1 پیدا نشد."
+
+#: src/core/atcore.cpp:238
+msgctxt "AtCore|"
+msgid "Waiting for machine restart"
+msgstr "در انتظار راه‌اندازی مجدد دستگاه"
+
+#: src/core/atcore.cpp:251
+msgctxt "AtCore|"
+msgid "Failed to open device in read/write mode."
+msgstr "باز کردن دستگاه در حالت خواندن/نوشتن ناموفق بود."
+
+#: src/core/atcore.cpp:873
+msgctxt "AtCore|"
+msgid "Device not found"
+msgstr "دستگاه پیدا نشد"
+
+#: src/core/atcore.cpp:876
+msgctxt "AtCore|"
+msgid "Unable to write to device"
+msgstr "نوشتن در دستگاه امکان‌پذیر نیست"
+
+#: src/core/atcore.cpp:879
+msgctxt "AtCore|"
+msgid "Unable to read from device"
+msgstr "خواندن از دستگاه امکان‌پذیر نیست"
+
+#: src/core/atcore.cpp:883
+msgctxt "AtCore|"
+msgid "The device no longer available"
+msgstr "دستگاه دیگر در دسترس نیست"
+
+#: src/core/atcore.cpp:887
+msgctxt "AtCore|"
+msgid "Device does not support the operation"
+msgstr "دستگاه از این عملیات پشتیبانی نمی‌کند"
+
+#: src/core/atcore.cpp:890
+msgctxt "AtCore|"
+msgid "Unknown Error"
+msgstr "خطای ناشناخته"
+
+#: src/core/gcodecommands.cpp:12
+#, qt-format
+msgctxt "QObject|"
+msgid "%1%2: requires an argument"
+msgstr "%1%2: نیازمند یک آرگومان است"
+
+#: src/core/gcodecommands.cpp:13
+msgctxt "QObject|"
+msgid "Not implemented or not supported!"
+msgstr "پیاده‌سازی نشده یا پشتیبانی نمی‌شود!"
+
+#: src/core/gcodecommands.cpp:19
+msgctxt "QObject|"
+msgid "G0: Rapid linear move"
+msgstr "G0: حرکت خطی سریع"
+
+#: src/core/gcodecommands.cpp:21
+msgctxt "QObject|"
+msgid "G1: Linear move"
+msgstr "G1: حرکت خطی"
+
+#: src/core/gcodecommands.cpp:23
+msgctxt "QObject|"
+msgid "G2: Controlled Arc Move clockwise"
+msgstr "G2: حرکت قوسی کنترل‌شده در جهت عقربه‌های ساعت"
+
+#: src/core/gcodecommands.cpp:25
+msgctxt "QObject|"
+msgid "G3: Controlled Arc Move counterclockwise"
+msgstr "G3: حرکت قوسی کنترل‌شده در خلاف جهت عقربه‌های ساعت"
+
+#: src/core/gcodecommands.cpp:27
+msgctxt "QObject|"
+msgid "G4: Dwell"
+msgstr "G4: درنگ (توقف موقت)"
+
+#: src/core/gcodecommands.cpp:29
+msgctxt "QObject|"
+msgid "G10: Retract"
+msgstr "G10: عقب‌نشینی"
+
+#: src/core/gcodecommands.cpp:31
+msgctxt "QObject|"
+msgid "G11: Unretract"
+msgstr "G11: بازگشت از عقب‌نشینی"
+
+#: src/core/gcodecommands.cpp:33
+msgctxt "QObject|"
+msgid "G20: Set units to inches"
+msgstr "G20: تنظیم واحدها به اینچ"
+
+#: src/core/gcodecommands.cpp:35
+msgctxt "QObject|"
+msgid "G21: Set units to millimeters"
+msgstr "G21: تنظیم واحدها به میلی‌متر"
+
+#: src/core/gcodecommands.cpp:37
+msgctxt "QObject|"
+msgid "G28: Move to Origin Home"
+msgstr "G28: حرکت به مبدا (خانه)"
+
+#: src/core/gcodecommands.cpp:39
+msgctxt "QObject|"
+msgid "G29: Detailed Z-Probe"
+msgstr "G29: پروب تفصیلی محور Z"
+
+#: src/core/gcodecommands.cpp:41
+msgctxt "QObject|"
+msgid "G30: Single Z-Probe"
+msgstr "G30: پروب تکی محور Z"
+
+#: src/core/gcodecommands.cpp:43
+msgctxt "QObject|"
+msgid "G31: Set or report current probe status / Dock Z Probe sled for Marlin"
+msgstr "G31: تنظیم یا گزارش وضعیت فعلی پروب / اتصال پروب Z در Marlin"
+
+#: src/core/gcodecommands.cpp:45
+msgctxt "QObject|"
+msgid ""
+"G32: Probe Z and calculate Z plane(Bed Leveling)/ UnDoc Z Probe sled for "
+"Marlin"
+msgstr "G32: پروب Z و محاسبه صفحه Z (تراز بستر) / جداسازی پروب Z در Marlin"
+
+#: src/core/gcodecommands.cpp:47
+msgctxt "QObject|"
+msgid "G33: Measure/List/Adjust Distortion Matrix"
+msgstr "G33: اندازه‌گیری/فهرست/تنظیم ماتریس اعوجاج"
+
+#: src/core/gcodecommands.cpp:49
+msgctxt "QObject|"
+msgid "G90: Set to absolute positioning"
+msgstr "G90: تنظیم روی موقعیت‌دهی مطلق"
+
+#: src/core/gcodecommands.cpp:51
+msgctxt "QObject|"
+msgid "G91: Set to relative positioning"
+msgstr "G91: تنظیم روی موقعیت‌دهی نسبی"
+
+#: src/core/gcodecommands.cpp:53
+msgctxt "QObject|"
+msgid "G92: Set position"
+msgstr "G92: تنظیم موقعیت"
+
+#: src/core/gcodecommands.cpp:55
+msgctxt "QObject|"
+msgid "G100: Calibrate floor or rod radius"
+msgstr "G100: کالیبره کردن کفی یا شعاع میله"
+
+#: src/core/gcodecommands.cpp:57
+msgctxt "QObject|"
+msgid "G130: Set digital potentiometer value"
+msgstr "G130: تنظیم مقدار پتانسیومتر دیجیتال"
+
+#: src/core/gcodecommands.cpp:59
+msgctxt "QObject|"
+msgid "G131: Recase Move offset"
+msgstr "G131: تغییر افست حرکت"
+
+#: src/core/gcodecommands.cpp:61
+msgctxt "QObject|"
+msgid "G132: Calibrate endstops offsets"
+msgstr "G132: کالیبره کردن افست‌های میکروسوئیچ‌های انتهایی"
+
+#: src/core/gcodecommands.cpp:63
+msgctxt "QObject|"
+msgid "G133: Measure steps to top"
+msgstr "G133: اندازه‌گیری گام‌ها تا انتها"
+
+#: src/core/gcodecommands.cpp:65
+msgctxt "QObject|"
+msgid "G161: Home axis to minimum"
+msgstr "G161: هدایت محور به حداقل (Home)"
+
+#: src/core/gcodecommands.cpp:67
+msgctxt "QObject|"
+msgid "G162: Home axis to maximum"
+msgstr "G162: هدایت محور به حداکثر (Home)"
+
+#: src/core/gcodecommands.cpp:99
+msgctxt "QObject|"
+msgid "M0: Stop or unconditional stop"
+msgstr "M0: توقف یا توقف نامشروط"
+
+#: src/core/gcodecommands.cpp:101
+msgctxt "QObject|"
+msgid "M1: Sleep or unconditional stop"
+msgstr "M1: به خواب رفتن یا توقف نامشروط"
+
+#: src/core/gcodecommands.cpp:103
+msgctxt "QObject|"
+msgid "M2: Program End"
+msgstr "M2: پایان برنامه"
+
+#: src/core/gcodecommands.cpp:105
+msgctxt "QObject|"
+msgid "M6: Tool Change"
+msgstr "M6: تعویض ابزار"
+
+#: src/core/gcodecommands.cpp:107
+msgctxt "QObject|"
+msgid "M17: Enable/power all steppers motors"
+msgstr "M17: فعال‌سازی/برق‌رسانی به تمام استپر موتورها"
+
+#: src/core/gcodecommands.cpp:109
+msgctxt "QObject|"
+msgid "M18: Disable all steppers motors"
+msgstr "M18: غیرفعال‌سازی تمام استپر موتورها"
+
+#: src/core/gcodecommands.cpp:111
+msgctxt "QObject|"
+msgid "M20: List SDCard"
+msgstr "M20: فهرست‌کردن کارت SD"
+
+#: src/core/gcodecommands.cpp:113
+msgctxt "QObject|"
+msgid "M21: Initialize SDCard"
+msgstr "M21: مقداردهی اولیه کارت SD"
+
+#: src/core/gcodecommands.cpp:115
+msgctxt "QObject|"
+msgid "M22: Release SDCard"
+msgstr "M22: آزادسازی کارت SD"
+
+#: src/core/gcodecommands.cpp:117
+msgctxt "QObject|"
+msgid "M23: Select SD file"
+msgstr "M23: انتخاب فایل SD"
+
+#: src/core/gcodecommands.cpp:119
+msgctxt "QObject|"
+msgid "M24: Start/resume SD print"
+msgstr "M24: شروع/ادامه چاپ از SD"
+
+#: src/core/gcodecommands.cpp:121
+msgctxt "QObject|"
+msgid "M25: Pause SD print"
+msgstr "M25: توقف موقت چاپ از SD"
+
+#: src/core/gcodecommands.cpp:123
+msgctxt "QObject|"
+msgid "M26: Set SD position"
+msgstr "M26: تنظیم موقعیت کارت SD"
+
+#: src/core/gcodecommands.cpp:125
+msgctxt "QObject|"
+msgid "M27: Report SD print status"
+msgstr "M27: گزارش وضعیت چاپ از کارت SD"
+
+#: src/core/gcodecommands.cpp:127
+msgctxt "QObject|"
+msgid "M28: Begin write to SD card"
+msgstr "M28: شروع نوشتن روی کارت SD"
+
+#: src/core/gcodecommands.cpp:129
+msgctxt "QObject|"
+msgid "M29: Stop writing to SD card"
+msgstr "M29: توقف نوشتن روی کارت SD"
+
+#: src/core/gcodecommands.cpp:131
+msgctxt "QObject|"
+msgid "M30: Delete a file on the SD card"
+msgstr "M30: حذف یک فایل از کارت SD"
+
+#: src/core/gcodecommands.cpp:133
+msgctxt "QObject|"
+msgid "M31: Output time since last M109 or SD card start to serial"
+msgstr "M31: ارسال زمان سپری‌شده از آخرین M109 یا شروع کارت SD به پورت سریال"
+
+#: src/core/gcodecommands.cpp:135
+msgctxt "QObject|"
+msgid "M32: Select file and start SD print"
+msgstr "M32: انتخاب فایل و شروع چاپ از کارت SD"
+
+#: src/core/gcodecommands.cpp:137
+msgctxt "QObject|"
+msgid "M33: Get the long name for an SD card file or folder"
+msgstr "M33: دریافت نام کامل فایل یا پوشه در کارت SD"
+
+#: src/core/gcodecommands.cpp:139
+msgctxt "QObject|"
+msgid "M34: Set SD file sorting options"
+msgstr "M34: تنظیم گزینه‌های مرتب‌سازی فایل‌های کارت SD"
+
+#: src/core/gcodecommands.cpp:141
+msgctxt "QObject|"
+msgid "M36: Return file information"
+msgstr "M36: بازگرداندن اطلاعات فایل"
+
+#: src/core/gcodecommands.cpp:143
+msgctxt "QObject|"
+msgid "M42: Switch I/O pin"
+msgstr "M42: تغییر وضعیت پین I/O"
+
+#: src/core/gcodecommands.cpp:145
+msgctxt "QObject|"
+msgid "M48: Measure Z-Probe repeatability"
+msgstr "M48: اندازه‌گیری تکرارپذیری پروب Z"
+
+#: src/core/gcodecommands.cpp:147
+msgctxt "QObject|"
+msgid "M70: Display message"
+msgstr "M70: نمایش پیام"
+
+#: src/core/gcodecommands.cpp:149
+msgctxt "QObject|"
+msgid "M72: Play a tone or song"
+msgstr "M72: پخش صدا یا آهنگ"
+
+#: src/core/gcodecommands.cpp:151
+msgctxt "QObject|"
+msgid "M73: Set build percentage"
+msgstr "M73: تنظیم درصد پیشرفت ساخت"
+
+#: src/core/gcodecommands.cpp:153
+msgctxt "QObject|"
+msgid "M80: ATX Power On"
+msgstr "M80: روشن کردن پاور ATX"
+
+#: src/core/gcodecommands.cpp:155
+msgctxt "QObject|"
+msgid "M81: ATX Power Off"
+msgstr "M81: خاموش کردن پاور ATX"
+
+#: src/core/gcodecommands.cpp:157
+msgctxt "QObject|"
+msgid "M82: Set extruder to absolute mode"
+msgstr "M82: تنظیم اکسترودر روی حالت مطلق"
+
+#: src/core/gcodecommands.cpp:159
+msgctxt "QObject|"
+msgid "M83: Set extruder to relative mode"
+msgstr "M83: تنظیم اکسترودر روی حالت نسبی"
+
+#: src/core/gcodecommands.cpp:161
+msgctxt "QObject|"
+msgid "M84: Stop idle hold"
+msgstr "M84: توقف نگه‌داشتن در حالت بی‌کار"
+
+#: src/core/gcodecommands.cpp:163
+msgctxt "QObject|"
+msgid "M85: Set Inactivity shutdown timer"
+msgstr "M85: تنظیم زمان‌سنج خاموشی در صورت عدم فعالیت"
+
+#: src/core/gcodecommands.cpp:165
+msgctxt "QObject|"
+msgid "M92: Set axis steps per unit"
+msgstr "M92: تنظیم گام‌های محور بر حسب واحد"
+
+#: src/core/gcodecommands.cpp:167
+msgctxt "QObject|"
+msgid "M93: Send axis steps per unit"
+msgstr "M93: ارسال گام‌های محور بر حسب واحد"
+
+#: src/core/gcodecommands.cpp:169
+msgctxt "QObject|"
+msgid "M98: Call Macro/Subprogram"
+msgstr "M98: فراخوانی ماکرو/زیربرنامه"
+
+#: src/core/gcodecommands.cpp:171
+msgctxt "QObject|"
+msgid "M99: Return from Macro/Subprogram"
+msgstr "M99: بازگشت از ماکرو/زیربرنامه"
+
+#: src/core/gcodecommands.cpp:173
+msgctxt "QObject|"
+msgid "M101: Turn extruder 1 on Forward, Undo Retraction"
+msgstr "M101: روشن کردن اکسترودر ۱ به جلو، لغو عقب‌نشینی (Retraction)"
+
+#: src/core/gcodecommands.cpp:175
+msgctxt "QObject|"
+msgid "M103: Turn all extruders off - Extruder Retraction"
+msgstr "M103: خاموش کردن همه اکسترودرها - عقب‌نشینی اکسترودر"
+
+#: src/core/gcodecommands.cpp:177
+msgctxt "QObject|"
+msgid "M104: Set Extruder Temperature"
+msgstr "M104: تنظیم دمای اکسترودر"
+
+#: src/core/gcodecommands.cpp:179
+msgctxt "QObject|"
+msgid "M105: Get Extruder Temperature"
+msgstr "M105: دریافت دمای اکسترودر"
+
+#: src/core/gcodecommands.cpp:181
+msgctxt "QObject|"
+msgid "M106: Fan On"
+msgstr "M106: روشن کردن فن"
+
+#: src/core/gcodecommands.cpp:183
+msgctxt "QObject|"
+msgid "M107: Fan Off"
+msgstr "M107: خاموش کردن فن"
+
+#: src/core/gcodecommands.cpp:185
+msgctxt "QObject|"
+msgid "M108: Cancel Heating"
+msgstr "M108: لغو گرمایش"
+
+#: src/core/gcodecommands.cpp:187
+msgctxt "QObject|"
+msgid "M109: Set Extruder Temperature and Wait"
+msgstr "M109: تنظیم دمای اکسترودر و انتظار"
+
+#: src/core/gcodecommands.cpp:189
+msgctxt "QObject|"
+msgid "M110: Set Current Line Number"
+msgstr "M110: تنظیم شماره خط فعلی"
+
+#: src/core/gcodecommands.cpp:191
+msgctxt "QObject|"
+msgid "M111: Set Debug Level"
+msgstr "M111: تنظیم سطح اشکال‌زدایی"
+
+#: src/core/gcodecommands.cpp:193
+msgctxt "QObject|"
+msgid "M112: Emergency Stop"
+msgstr "M112: توقف اضطراری"
+
+#: src/core/gcodecommands.cpp:195
+msgctxt "QObject|"
+msgid "M114: Get Current Position"
+msgstr "M114: دریافت موقعیت فعلی"
+
+#: src/core/gcodecommands.cpp:197
+msgctxt "QObject|"
+msgid "M115: Get Firmware Version and Capabilities"
+msgstr "M115: دریافت نسخه سفت‌افزار و قابلیت‌ها"
+
+#: src/core/gcodecommands.cpp:199
+msgctxt "QObject|"
+msgid "M116: Wait"
+msgstr "M116: انتظار"
+
+#: src/core/gcodecommands.cpp:201
+msgctxt "QObject|"
+msgid "M117: Display Message"
+msgstr "M117: نمایش پیام"
+
+#: src/core/gcodecommands.cpp:203
+msgctxt "QObject|"
+msgid "M119: Get Endstop Status"
+msgstr "M119: دریافت وضعیت پایانه‌استاپ (Endstop)"
+
+#: src/core/gcodecommands.cpp:205
+msgctxt "QObject|"
+msgid ""
+"M120: Push for Smoothie and RepRap Firmware / Enable Endstop detection for "
+"Marlin"
+msgstr ""
+"M120: ذخیره وضعیت برای فریم‌ور Smoothie و RepRap / فعال‌سازی تشخیص "
+"پایانه‌استاپ برای Marlin"
+
+#: src/core/gcodecommands.cpp:207
+msgctxt "QObject|"
+msgid ""
+"M121: Pop for Smoothie and RepRap Firmware / Disable Endstop detection for "
+"Marlin"
+msgstr ""
+"M121: بازیابی وضعیت برای فریم‌ور Smoothie و RepRap / غیرفعال‌سازی تشخیص "
+"پایانه‌استاپ برای Marlin"
+
+#: src/core/gcodecommands.cpp:209
+msgctxt "QObject|"
+msgid "M122: Diagnose"
+msgstr "M122: عیب‌یابی"
+
+#: src/core/gcodecommands.cpp:211
+msgctxt "QObject|"
+msgid "M126: Open valve"
+msgstr "M126: باز کردن شیر"
+
+#: src/core/gcodecommands.cpp:213
+msgctxt "QObject|"
+msgid "M127: Close valve"
+msgstr "M127: بستن شیر"
+
+#: src/core/gcodecommands.cpp:215
+msgctxt "QObject|"
+msgid "M130: Set PID P value"
+msgstr "M130: تنظیم مقدار P در PID"
+
+#: src/core/gcodecommands.cpp:217
+msgctxt "QObject|"
+msgid "M131: Set PID I value"
+msgstr "M131: تنظیم مقدار I در PID"
+
+#: src/core/gcodecommands.cpp:219
+msgctxt "QObject|"
+msgid "M132: Set PID D value"
+msgstr "M132: تنظیم مقدار D در PID"
+
+#: src/core/gcodecommands.cpp:221
+msgctxt "QObject|"
+msgid "M133: Set PID I limit value"
+msgstr "M133: تنظیم مقدار حد I در PID"
+
+#: src/core/gcodecommands.cpp:223
+msgctxt "QObject|"
+msgid "M134: Write PID values to EEPROM"
+msgstr "M134: نوشتن مقادیر PID در EEPROM"
+
+#: src/core/gcodecommands.cpp:225
+msgctxt "QObject|"
+msgid "M135: Set PID sample interval"
+msgstr "M135: تنظیم بازه زمانی نمونه‌برداری PID"
+
+#: src/core/gcodecommands.cpp:227
+msgctxt "QObject|"
+msgid "M140: Set Bed Temperature - Fast"
+msgstr "M140: تنظیم دمای بستر - سریع"
+
+#: src/core/gcodecommands.cpp:229
+msgctxt "QObject|"
+msgid "M141: Set Chamber Temperature - Fast"
+msgstr "M141: تنظیم دمای محفظه - سریع"
+
+#: src/core/gcodecommands.cpp:231
+msgctxt "QObject|"
+msgid "M143: Maximum hot-end temperature"
+msgstr "M143: حداکثر دمای هات‌اند"
+
+#: src/core/gcodecommands.cpp:233
+msgctxt "QObject|"
+msgid "M144: Stand by your bed"
+msgstr "M144: آماده‌باش بستر"
+
+#: src/core/gcodecommands.cpp:235
+msgctxt "QObject|"
+msgid "M150: Set display color"
+msgstr "M150: تنظیم رنگ نمایشگر"
+
+#: src/core/gcodecommands.cpp:237
+msgctxt "QObject|"
+msgid "M155: Set Temperature auto report"
+msgstr "M155: تنظیم گزارش خودکار دما"
+
+#: src/core/gcodecommands.cpp:239
+msgctxt "QObject|"
+msgid "M163: Set weight of mixed material"
+msgstr "M163: تنظیم وزن ماده ترکیبی"
+
+#: src/core/gcodecommands.cpp:241
+msgctxt "QObject|"
+msgid "M164: Store weights"
+msgstr "M164: ذخیره وزن‌ها"
+
+#: src/core/gcodecommands.cpp:243
+msgctxt "QObject|"
+msgid "M190: Wait for bed temperature to reach target temp"
+msgstr "M190: صبر برای رسیدن دمای بستر به دمای هدف"
+
+#: src/core/gcodecommands.cpp:245
+msgctxt "QObject|"
+msgid "M200: Set filament diameter"
+msgstr "M200: تنظیم قطر فیلامنت"
+
+#: src/core/gcodecommands.cpp:247
+msgctxt "QObject|"
+msgid "M201: Set max printing acceleration"
+msgstr "M201: تنظیم بیشینهٔ شتاب چاپ"
+
+#: src/core/gcodecommands.cpp:249
+msgctxt "QObject|"
+msgid "M202: Set max travel acceleration"
+msgstr "M202: تنظیم بیشینهٔ شتاب جابه‌جایی"
+
+#: src/core/gcodecommands.cpp:251
+msgctxt "QObject|"
+msgid "M203: Set maximum feedrate"
+msgstr "M203: تنظیم بیشینهٔ نرخ تغذیه (سرعت حرکت)"
+
+#: src/core/gcodecommands.cpp:253
+msgctxt "QObject|"
+msgid "M204: Set default acceleration"
+msgstr "M204: تنظیم شتاب پیش‌فرض"
+
+#: src/core/gcodecommands.cpp:255
+msgctxt "QObject|"
+msgid "M205: Advanced settings"
+msgstr "M205: تنظیمات پیشرفته"
+
+#: src/core/gcodecommands.cpp:257
+msgctxt "QObject|"
+msgid ""
+"M206: Offset axes for Sprinter, Marlin, Smoothie, RepRap Firmware / Set "
+"eeprom value for Repetier"
+msgstr ""
+"M206: انحراف محورها برای فریم‌ورهای Sprinter، Marlin، Smoothie، RepRap / "
+"تنظیم مقدار eeprom برای Repetier"
+
+#: src/core/gcodecommands.cpp:259
+msgctxt "QObject|"
+msgid "M207: Set retract length"
+msgstr "M207: تنظیم طول عقب‌نشینی (Retract)"
+
+#: src/core/gcodecommands.cpp:261
+msgctxt "QObject|"
+msgid "M208: Set unretract length"
+msgstr "M208: تنظیم طول بازگشت از عقب‌نشینی (Unretract)"
+
+#: src/core/gcodecommands.cpp:263
+msgctxt "QObject|"
+msgid "M209: Enable automatic retract"
+msgstr "M209: فعال‌سازی پس‌کشیدن خودکار"
+
+#: src/core/gcodecommands.cpp:265
+msgctxt "QObject|"
+msgid "M212: Set Bed Level Sensor Offset"
+msgstr "M212: تنظیم آفست حسگر تراز بستر"
+
+#: src/core/gcodecommands.cpp:267
+msgctxt "QObject|"
+msgid "M218: Set Hotend Offset"
+msgstr "M218: تنظیم آفست هات‌اند"
+
+#: src/core/gcodecommands.cpp:269
+msgctxt "QObject|"
+msgid "M220: Set speed factor override percentage"
+msgstr "M220: تنظیم درصد تغییر ضریب سرعت"
+
+#: src/core/gcodecommands.cpp:271
+msgctxt "QObject|"
+msgid "M221: Set extrude factor override percentage"
+msgstr "M221: تنظیم درصد تغییر ضریب اکستروژن"
+
+#: src/core/gcodecommands.cpp:273
+msgctxt "QObject|"
+msgid "M226: Wait for pin state"
+msgstr "M226: انتظار برای وضعیت پین"
+
+#: src/core/gcodecommands.cpp:275
+msgctxt "QObject|"
+msgid "M231: Set OPS parameter"
+msgstr "M231: تنظیم پارامتر OPS"
+
+#: src/core/gcodecommands.cpp:277
+msgctxt "QObject|"
+msgid "M232: Read and reset max. advance values"
+msgstr "M232: خواندن و بازنشانی مقادیر حداکثر advance"
+
+#: src/core/gcodecommands.cpp:279
+msgctxt "QObject|"
+msgid "M240: Trigger camera"
+msgstr "M240: فعال‌سازی شاتر دوربین"
+
+#: src/core/gcodecommands.cpp:281
+msgctxt "QObject|"
+msgid "M250: Set LCD contrast"
+msgstr "M250: تنظیم کنتراست LCD"
+
+#: src/core/gcodecommands.cpp:283
+msgctxt "QObject|"
+msgid "M251: Measure Z steps from homing stop (Delta printers)"
+msgstr "M251: اندازه‌گیری گام‌های Z از نقطه توقف مبدا (چاپگرهای دلتا)"
+
+#: src/core/gcodecommands.cpp:285
+msgctxt "QObject|"
+msgid "M280: Set servo position"
+msgstr "M280: تنظیم موقعیت سروو"
+
+#: src/core/gcodecommands.cpp:287
+msgctxt "QObject|"
+msgid "M300: Play beep sound"
+msgstr "M300: پخش صدای بوق"
+
+#: src/core/gcodecommands.cpp:289
+msgctxt "QObject|"
+msgid "M301: Set PID parameters"
+msgstr "M301: تنظیم پارامترهای PID"
+
+#: src/core/gcodecommands.cpp:291
+msgctxt "QObject|"
+msgid "M302: Allow cold extrudes "
+msgstr "M302: مجاز دانستن اکستروژن سرد "
+
+#: src/core/gcodecommands.cpp:293
+msgctxt "QObject|"
+msgid "M303: Run PID tuning"
+msgstr "M303: اجرای تنظیم خودکار PID"
+
+#: src/core/gcodecommands.cpp:295
+msgctxt "QObject|"
+msgid "M304: Set PID parameters - Bed"
+msgstr "M304: تنظیم پارامترهای PID - بستر چاپ"
+
+#: src/core/gcodecommands.cpp:297
+msgctxt "QObject|"
+msgid "M305: Set thermistor and ADC parameters"
+msgstr "M305: تنظیم پارامترهای ترمیستور و ADC"
+
+#: src/core/gcodecommands.cpp:299
+msgctxt "QObject|"
+msgid "M306: set home offset calculated from toolhead position"
+msgstr "M306: تنظیم آفست مبدا محاسبه‌شده از موقعیت هد ابزار"
+
+#: src/core/gcodecommands.cpp:301
+msgctxt "QObject|"
+msgid "M320: Activate autolevel (Repetier)"
+msgstr "M320: فعال‌سازی تراز خودکار (Repetier)"
+
+#: src/core/gcodecommands.cpp:303
+msgctxt "QObject|"
+msgid "M321: Deactivate autolevel (Repetier)"
+msgstr "M321: غیرفعال‌سازی تراز خودکار (Repetier)"
+
+#: src/core/gcodecommands.cpp:305
+msgctxt "QObject|"
+msgid "M322: Reset autolevel matrix (Repetier)"
+msgstr "M322: بازنشانی ماتریس تراز خودکار (Repetier)"
+
+#: src/core/gcodecommands.cpp:307
+msgctxt "QObject|"
+msgid "M323: Distortion correction on/off (Repetier)"
+msgstr "M323: روشن/خاموش کردن تصحیح اعوجاج (Repetier)"
+
+#: src/core/gcodecommands.cpp:309
+msgctxt "QObject|"
+msgid "M340: Control the servos"
+msgstr "M340: کنترل سرووها"
+
+#: src/core/gcodecommands.cpp:311
+msgctxt "QObject|"
+msgid "M350: Set microstepping mode"
+msgstr "M350: تنظیم حالت ریزگام (Microstepping)"
+
+#: src/core/gcodecommands.cpp:313
+msgctxt "QObject|"
+msgid "M351: Toggle MS1 MS2 pins directly"
+msgstr "M351: تغییر مستقیم وضعیت پین‌های MS1 و MS2"
+
+#: src/core/gcodecommands.cpp:315
+msgctxt "QObject|"
+msgid "M355: Turn case lights on/off"
+msgstr "M355: روشن/خاموش کردن چراغ‌های بدنه"
+
+#: src/core/gcodecommands.cpp:317
+msgctxt "QObject|"
+msgid "M360: Report firmware configuration"
+msgstr "M360: گزارش پیکربندی سفت‌افزار"
+
+#: src/core/gcodecommands.cpp:319
+msgctxt "QObject|"
+msgid "M361: Move to Theta 90 degree position"
+msgstr "M361: حرکت به موقعیت ۹۰ درجه تتا"
+
+#: src/core/gcodecommands.cpp:321
+msgctxt "QObject|"
+msgid "M362: Move to Psi 0 degree position"
+msgstr "M362: حرکت به موقعیت ۰ درجه سای"
+
+#: src/core/gcodecommands.cpp:323
+msgctxt "QObject|"
+msgid "M363: Move to Psi 90 degree position"
+msgstr "M363: حرکت به موقعیت ۹۰ درجه سای (Psi)"
+
+#: src/core/gcodecommands.cpp:325
+msgctxt "QObject|"
+msgid "M364: Move to Psi + Theta 90 degree position"
+msgstr "M364: حرکت به موقعیت ۹۰ درجه سای + تتا (Psi + Theta)"
+
+#: src/core/gcodecommands.cpp:327
+msgctxt "QObject|"
+msgid "M365: SCARA scaling factor"
+msgstr "M365: ضریب مقیاس SCARA"
+
+#: src/core/gcodecommands.cpp:329
+msgctxt "QObject|"
+msgid "M366: SCARA convert trim"
+msgstr "M366: تبدیل تریم SCARA"
+
+#: src/core/gcodecommands.cpp:331
+msgctxt "QObject|"
+msgid "M370: Morgan manual bed level - clear map"
+msgstr "M370: تراز دستی بستر مورگان - پاک‌سازی نقشه"
+
+#: src/core/gcodecommands.cpp:333
+msgctxt "QObject|"
+msgid "M371: Move to next calibration position"
+msgstr "M371: حرکت به موقعیت کالیبراسیون بعدی"
+
+#: src/core/gcodecommands.cpp:335
+msgctxt "QObject|"
+msgid "M372: Record calibration value, and move to next position"
+msgstr "M372: ثبت مقدار کالیبراسیون و حرکت به موقعیت بعدی"
+
+#: src/core/gcodecommands.cpp:337
+msgctxt "QObject|"
+msgid "M373: End bed level calibration mode"
+msgstr "M373: پایان حالت کالیبراسیون تراز بستر"
+
+#: src/core/gcodecommands.cpp:339
+msgctxt "QObject|"
+msgid "M374: Save calibration grid"
+msgstr "M374: ذخیره شبکه کالیبراسیون"
+
+#: src/core/gcodecommands.cpp:341
+msgctxt "QObject|"
+msgid "M375: Display matrix / Load Matrix"
+msgstr "M375: نمایش ماتریس / بارگذاری ماتریس"
+
+#: src/core/gcodecommands.cpp:343
+msgctxt "QObject|"
+msgid "M380: Activate solenoid"
+msgstr "M380: فعال‌سازی سلنوئید"
+
+#: src/core/gcodecommands.cpp:345
+msgctxt "QObject|"
+msgid "M381: Disable all solenoids"
+msgstr "M381: غیرفعال‌کردن همه سلنوئیدها"
+
+#: src/core/gcodecommands.cpp:347
+msgctxt "QObject|"
+msgid "M400: Wait for current moves to finish"
+msgstr "M400: انتظار برای اتمام حرکت‌های فعلی"
+
+#: src/core/gcodecommands.cpp:349
+msgctxt "QObject|"
+msgid "M401: Lower z-probe"
+msgstr "M401: پایین آوردن پروب Z"
+
+#: src/core/gcodecommands.cpp:351
+msgctxt "QObject|"
+msgid "M402: Raise z-probe"
+msgstr "M402: بالا بردن پروب Z"
+
+#: src/core/gcodecommands.cpp:353
+msgctxt "QObject|"
+msgid "M404: Filament width and nozzle diameter"
+msgstr "M404: پهنای فیلامنت و قطر نازل"
+
+#: src/core/gcodecommands.cpp:355
+msgctxt "QObject|"
+msgid "M405: Filament Sensor on"
+msgstr "M405: روشن‌کردن حسگر فیلامنت"
+
+#: src/core/gcodecommands.cpp:357
+msgctxt "QObject|"
+msgid "M406: Filament Sensor off"
+msgstr "M406: خاموش‌کردن حسگر فیلامنت"
+
+#: src/core/gcodecommands.cpp:359
+msgctxt "QObject|"
+msgid "M407: Display filament diameter"
+msgstr "M407: نمایش قطر فیلامنت"
+
+#: src/core/gcodecommands.cpp:361
+msgctxt "QObject|"
+msgid "M408: Report JSON-style response"
+msgstr "M408: گزارش پاسخ با فرمت JSON"
+
+#: src/core/gcodecommands.cpp:363
+msgctxt "QObject|"
+msgid "M420: Enable/Disable Mesh Leveling (Marlin)"
+msgstr "M420: فعال/غیرفعال کردن تراز مش (Marlin)"
+
+#: src/core/gcodecommands.cpp:365
+msgctxt "QObject|"
+msgid "M450: Report Printer Mode"
+msgstr "M450: گزارش حالت چاپگر"
+
+#: src/core/gcodecommands.cpp:367
+msgctxt "QObject|"
+msgid "M451: Select FFF Printer Mode"
+msgstr "M451: انتخاب حالت چاپگر FFF"
+
+#: src/core/gcodecommands.cpp:369
+msgctxt "QObject|"
+msgid "M452: Select Laser Printer Mode"
+msgstr "M452: انتخاب حالت چاپگر لیزری"
+
+#: src/core/gcodecommands.cpp:371
+msgctxt "QObject|"
+msgid "M453: Select CNC Printer Mode"
+msgstr "M453: انتخاب حالت چاپگر CNC"
+
+#: src/core/gcodecommands.cpp:373
+msgctxt "QObject|"
+msgid "M460: Define temperature range for thermistor controlled fan"
+msgstr "M460: تعیین محدوده دمایی برای فن کنترل‌شده با ترمیستور"
+
+#: src/core/gcodecommands.cpp:375
+msgctxt "QObject|"
+msgid "M500: Store parameters in EEPROM"
+msgstr "M500: ذخیره پارامترها در EEPROM"
+
+#: src/core/gcodecommands.cpp:377
+msgctxt "QObject|"
+msgid "M501: Read parameters from EEPROM"
+msgstr "M501: خواندن پارامترها از EEPROM"
+
+#: src/core/gcodecommands.cpp:379
+msgctxt "QObject|"
+msgid "M502: Revert to the default 'factory settings'."
+msgstr "M502: بازگشت به «تنظیمات کارخانه» پیش‌فرض."
+
+#: src/core/gcodecommands.cpp:381
+msgctxt "QObject|"
+msgid "M503: Print settings "
+msgstr "M503: چاپ تنظیمات "
+
+#: src/core/gcodecommands.cpp:383
+msgctxt "QObject|"
+msgid "M540: Enable/Disable 'Stop SD Print on Endstop Hit'"
+msgstr ""
+"M540: فعال/غیرفعال کردن «توقف چاپ از SD هنگام برخورد با میکروسوئیچ انتها»"
+
+#: src/core/gcodecommands.cpp:385
+msgctxt "QObject|"
+msgid "M550: Set Name"
+msgstr "M550: تنظیم نام"
+
+#: src/core/gcodecommands.cpp:387
+msgctxt "QObject|"
+msgid "M551: Set Password"
+msgstr "M551: تنظیم گذرواژه"
+
+#: src/core/gcodecommands.cpp:389
+msgctxt "QObject|"
+msgid "M552: Set IP address"
+msgstr "M552: تنظیم نشانی IP"
+
+#: src/core/gcodecommands.cpp:391
+msgctxt "QObject|"
+msgid "M553: Set Netmask"
+msgstr "M553: تنظیم Netmask"
+
+#: src/core/gcodecommands.cpp:393
+msgctxt "QObject|"
+msgid "M554: Set Gateway"
+msgstr "M554: تنظیم Gateway"
+
+#: src/core/gcodecommands.cpp:395
+msgctxt "QObject|"
+msgid "M555: Set compatibility"
+msgstr "M555: تنظیم سازگاری"
+
+#: src/core/gcodecommands.cpp:397
+msgctxt "QObject|"
+msgid "M556: Axis compensation"
+msgstr "M556: جبران خطای محور"
+
+#: src/core/gcodecommands.cpp:399
+msgctxt "QObject|"
+msgid "M557: Set Z probe point"
+msgstr "M557: تنظیم نقطه پروب Z"
+
+#: src/core/gcodecommands.cpp:401
+msgctxt "QObject|"
+msgid "M558: Set Z probe type"
+msgstr "M558: تنظیم نوع پروب Z"
+
+#: src/core/gcodecommands.cpp:403
+msgctxt "QObject|"
+msgid "M559: Upload configuration file"
+msgstr "M559: بارگذاری پرونده پیکربندی"
+
+#: src/core/gcodecommands.cpp:405
+msgctxt "QObject|"
+msgid "M560: Upload web page file"
+msgstr "M560: بارگذاری پرونده صفحه وب"
+
+#: src/core/gcodecommands.cpp:407
+msgctxt "QObject|"
+msgid "M561: Set Identity Transform"
+msgstr "M561: تنظیم تبدیل همانی"
+
+#: src/core/gcodecommands.cpp:409
+msgctxt "QObject|"
+msgid "M562: Reset temperature fault"
+msgstr "M562: بازنشانی خطای دما"
+
+#: src/core/gcodecommands.cpp:411
+msgctxt "QObject|"
+msgid "M563: Define or remove a tool"
+msgstr "M563: تعریف یا حذف ابزار"
+
+#: src/core/gcodecommands.cpp:413
+msgctxt "QObject|"
+msgid "M564: Limit axes"
+msgstr "M564: محدود کردن محورها"
+
+#: src/core/gcodecommands.cpp:415
+msgctxt "QObject|"
+msgid "M565: Set Z probe offset"
+msgstr "M565: تنظیم آفست کاوشگر Z"
+
+#: src/core/gcodecommands.cpp:417
+msgctxt "QObject|"
+msgid "M566: Set allowable instantaneous speed change"
+msgstr "M566: تنظیم تغییر سرعت مجاز لحظه‌ای"
+
+#: src/core/gcodecommands.cpp:419
+msgctxt "QObject|"
+msgid "M567: Set tool mix ratio"
+msgstr "M567: تنظیم نسبت ترکیب ابزار"
+
+#: src/core/gcodecommands.cpp:421
+msgctxt "QObject|"
+msgid "M568: Turn off/on tool mix ratio"
+msgstr "M568: روشن/خاموش کردن نسبت ترکیب ابزار"
+
+#: src/core/gcodecommands.cpp:423
+msgctxt "QObject|"
+msgid "M569: Set axis direction and enable values"
+msgstr "M569: تنظیم جهت محور و مقادیر فعال‌سازی"
+
+#: src/core/gcodecommands.cpp:425
+msgctxt "QObject|"
+msgid "M570: Set heater timeout"
+msgstr "M570: تنظیم وقفه زمانی گرم‌کن"
+
+#: src/core/gcodecommands.cpp:427
+msgctxt "QObject|"
+msgid "M571: Set output on extrude"
+msgstr "M571: تنظیم خروجی هنگام اکسترود"
+
+#: src/core/gcodecommands.cpp:429
+msgctxt "QObject|"
+msgid "M573: Report heater PWM"
+msgstr "M573: گزارش PWM گرم‌کن"
+
+#: src/core/gcodecommands.cpp:431
+msgctxt "QObject|"
+msgid "M574: Set endstop configuration"
+msgstr "M574: تنظیم پیکربندی کلید پایان (Endstop)"
+
+#: src/core/gcodecommands.cpp:433
+msgctxt "QObject|"
+msgid "M575: Set serial comms parameters"
+msgstr "M575: تنظیم پارامترهای ارتباط سریال"
+
+#: src/core/gcodecommands.cpp:435
+msgctxt "QObject|"
+msgid "M577: Wait until endstop is triggered"
+msgstr "M577: انتظار تا زمان فعال شدن کلید پایان (Endstop)"
+
+#: src/core/gcodecommands.cpp:437
+msgctxt "QObject|"
+msgid "M578: Fire inkjet bits"
+msgstr "M578: پاشش بیت‌های جوهرافشان"
+
+#: src/core/gcodecommands.cpp:439
+msgctxt "QObject|"
+msgid "M579: Scale Cartesian axes"
+msgstr "M579: مقیاس‌بندی محورهای دکارتی"
+
+#: src/core/gcodecommands.cpp:441
+msgctxt "QObject|"
+msgid "M580: Select Roland"
+msgstr "M580: انتخاب Roland"
+
+#: src/core/gcodecommands.cpp:443
+msgctxt "QObject|"
+msgid "M600: Filament change pause"
+msgstr "M600: مکث تعویض فیلامنت"
+
+#: src/core/gcodecommands.cpp:445
+msgctxt "QObject|"
+msgid "M605: Set dual x-carriage movement mode"
+msgstr "M605: تنظیم حالت حرکت کالسکه دوگانه X"
+
+#: src/core/gcodecommands.cpp:447
+msgctxt "QObject|"
+msgid "M665: Set delta configuration"
+msgstr "M665: تنظیم پیکربندی دلتا"
+
+#: src/core/gcodecommands.cpp:449
+msgctxt "QObject|"
+msgid "M666: Set delta endstop adjustment"
+msgstr "M666: تنظیم تصحیح میکروسوئیچ انتهای کورس دلتا"
+
+#: src/core/gcodecommands.cpp:451
+msgctxt "QObject|"
+msgid "M667: Select CoreXY mode"
+msgstr "M667: انتخاب حالت CoreXY"
+
+#: src/core/gcodecommands.cpp:453
+msgctxt "QObject|"
+msgid "M851: Set Z-Probe Offset"
+msgstr "M851: تنظیم آفست کاوشگر Z"
+
+#: src/core/gcodecommands.cpp:455
+msgctxt "QObject|"
+msgid "M906: Set motor currents"
+msgstr "M906: تنظیم جریان موتورها"
+
+#: src/core/gcodecommands.cpp:457
+msgctxt "QObject|"
+msgid "M907: Set digital trimpot motor"
+msgstr "M907: تنظیم پتانسیومتر دیجیتال موتور"
+
+#: src/core/gcodecommands.cpp:459
+msgctxt "QObject|"
+msgid "M908: Control digital trimpot directly"
+msgstr "M908: کنترل مستقیم پتانسیومتر دیجیتال"
+
+#: src/core/gcodecommands.cpp:461
+msgctxt "QObject|"
+msgid "M911: Set power monitor threshold voltages"
+msgstr "M911: تنظیم ولتاژهای آستانه پایش برق"
+
+#: src/core/gcodecommands.cpp:463
+msgctxt "QObject|"
+msgid "M912: Set electronics temperature monitor adjustment"
+msgstr "M912: تنظیم تصحیح نمایشگر دمای قطعات الکترونیکی"
+
+#: src/core/gcodecommands.cpp:465
+msgctxt "QObject|"
+msgid "M913: Set motor percentage of normal current"
+msgstr "M913: تنظیم درصد جریان عادی موتور"
+
+#: src/core/gcodecommands.cpp:467
+msgctxt "QObject|"
+msgid "M928: Start SD logging"
+msgstr "M928: شروع ثبت گزارش در کارت SD"
+
+#: src/core/gcodecommands.cpp:469
+msgctxt "QObject|"
+msgid "M997: Perform in-application firmware update"
+msgstr "M997: انجام به‌روزرسانی سفت‌افزار درون‌برنامه‌ای"
+
+#: src/core/gcodecommands.cpp:471
+msgctxt "QObject|"
+msgid "M998: Request resend of line"
+msgstr "M998: درخواست ارسال مجدد خط"
+
+#: src/core/gcodecommands.cpp:473
+msgctxt "QObject|"
+msgid "M999: Restart after being stopped by error"
+msgstr "M999: راه‌اندازی مجدد پس از توقف به دلیل خطا"
+
+#: src/widgets/about.cpp:21
+#, qt-format
+msgctxt "About|"
+msgid "Version: %1"
+msgstr "نسخه: %1"
+
+#: src/widgets/about.cpp:22
+#, qt-format
+msgctxt "About|"
+msgid "Using Qt: %1"
+msgstr "استفاده از کیوت: %1"
+
+#: src/widgets/about.cpp:23
+msgctxt "About|"
+msgid ""
+"Authors:\n"
+"  Chris Rizzitello <rizzitello@kde.org>\n"
+"  Patrick José Pereira <patrickjp@kde.org>\n"
+"  Lays Rodrigues <lays.rodrigues@kde.org>\n"
+"  Tomaz Canabrava <tcanabrava@kde.org>"
+msgstr ""
+"پدیدآورندگان:\n"
+"  Chris Rizzitello <rizzitello@kde.org>\n"
+"  Patrick José Pereira <patrickjp@kde.org>\n"
+"  Lays Rodrigues <lays.rodrigues@kde.org>\n"
+"  Tomaz Canabrava <tcanabrava@kde.org>"
+
+#: src/widgets/about.cpp:35
+msgctxt "About|"
+msgid "Close"
+msgstr "بستن"
+
+#: src/widgets/axiscontrol.cpp:22
+msgctxt "AxisControl|"
+msgid "Move Axis"
+msgstr "حرکت محور"
+
+#: src/widgets/commandwidget.cpp:25
+msgctxt "CommandWidget|"
+msgid "Send Command"
+msgstr "ارسال فرمان"
+
+#: src/widgets/commandwidget.cpp:28 src/widgets/commandwidget.cpp:53
+msgctxt "CommandWidget|"
+msgid "Send"
+msgstr "ارسال"
+
+#: src/widgets/commandwidget.cpp:50
+msgctxt "CommandWidget|"
+msgid "Show Message"
+msgstr "نمایش پیام"
+
+#: src/widgets/logwidget.cpp:62
+msgctxt "LogWidget|"
+msgid ""
+"                        <h4>Special Log Entries</h4>"
+"                         <p><strong>Failed to open device in read/write "
+"mode.</strong></p>                         <p>&nbsp;&nbsp;&nbsp; The Device "
+"was not able to be opened.</p>                         <p>&nbsp; &nbsp; "
+"&nbsp;&nbsp; Check the device is not opened by another program.</p>"
+"                         <p>&nbsp; &nbsp; &nbsp;&nbsp; Check you have the "
+"correct permissions to open the device.</p>                         "
+"<p><strong>No plugin found for &lt;Detected Firmware&gt;</strong></p>"
+"                         <p>&nbsp;&nbsp;&nbsp; Firmware plugins are missing "
+"or your firmware is not currently supported.</p>                         "
+"<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Manually select the Marlin or Repetier "
+"plugin.</p>                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If "
+"your firmware does not have a plugin please let us know.</p>"
+"                         <p><strong>Lots of &ldquo;Waiting for firmware "
+"detect&rdquo;</strong></p>                         <p>&nbsp;&nbsp;&nbsp; "
+"Unable to send the firmware detect waiting for printer to restart</p>"
+"                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Push the restart "
+"button on your printer or turn it on and off. </p>                         "
+"<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select a firmware plugin in place of auto "
+"detect.</p>"
+msgstr ""
+"                        <h4>ورودی‌های ویژه گزارش</h4>"
+"                         <p><strong>باز کردن دستگاه در حالت خواندن/نوشتن "
+"ناموفق بود.</strong></p>                         <p>&nbsp;&nbsp;&nbsp; امکان"
+" باز کردن دستگاه وجود نداشت.</p>                         <p>&nbsp; &nbsp; "
+"&nbsp;&nbsp; بررسی کنید که دستگاه توسط برنامه دیگری باز نشده باشد.</p>"
+"                         <p>&nbsp; &nbsp; &nbsp;&nbsp; بررسی کنید که مجوزهای"
+" لازم برای باز کردن دستگاه را داشته باشید.</p>                         "
+"<p><strong>هیچ افزونه‌ای برای &lt;فِرم‌ور شناسایی‌شده&gt; یافت "
+"نشد</strong></p>                         <p>&nbsp;&nbsp;&nbsp; افزونه‌های "
+"سفت‌افزار مفقود هستند یا سفت‌افزار شما در حال حاضر پشتیبانی نمی‌شود.</p>"
+"                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; افزونه Marlin یا "
+"Repetier را به صورت دستی انتخاب کنید.</p>                         "
+"<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اگر سفت‌افزار شما افزونه‌ای ندارد، لطفاً "
+"به ما اطلاع دهید.</p>                         <p><strong>تعداد زیادی پیام "
+"«در انتظار شناسایی سفت‌افزار»</strong></p>                         "
+"<p>&nbsp;&nbsp;&nbsp; ارسال شناسایی سفت‌افزار امکان‌پذیر نیست، در انتظار "
+"راه‌اندازی مجدد چاپگر</p>                         "
+"<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; دکمه راه‌اندازی مجدد چاپگر خود را فشار "
+"دهید یا آن را خاموش و روشن کنید.</p>                         "
+"<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; به جای تشخیص خودکار، یک افزونه سفت‌افزار "
+"را انتخاب کنید.</p>"
+
+#: src/widgets/logwidget.cpp:82
+msgctxt "LogWidget|"
+msgid "Save Session Log"
+msgstr "ذخیره گزارش نشست"
+
+#: src/widgets/logwidget.cpp:170
+msgctxt "LogWidget|"
+msgid "Save Log to file"
+msgstr "ذخیره گزارش در فایل"
+
+#: src/widgets/movementwidget.cpp:51
+msgctxt "MovementWidget|"
+msgid "Home All"
+msgstr "مبدأ همه محورها"
+
+#: src/widgets/movementwidget.cpp:55
+msgctxt "MovementWidget|"
+msgid "Home X"
+msgstr "مبدأ X"
+
+#: src/widgets/movementwidget.cpp:59
+msgctxt "MovementWidget|"
+msgid "Home Y"
+msgstr "مبدأ Y"
+
+#: src/widgets/movementwidget.cpp:63
+msgctxt "MovementWidget|"
+msgid "Home Z"
+msgstr "مبدا Z"
+
+#: src/widgets/movementwidget.cpp:69
+msgctxt "MovementWidget|"
+msgid "Disable Motors"
+msgstr "غیرفعال‌سازی موتورها"
+
+#: src/widgets/movementwidget.cpp:74
+msgctxt "MovementWidget|"
+msgid "Move X Axis to"
+msgstr "انتقال محور X به"
+
+#: src/widgets/movementwidget.cpp:75
+msgctxt "MovementWidget|"
+msgid "Move Y Axis to"
+msgstr "انتقال محور Y به"
+
+#: src/widgets/movementwidget.cpp:76
+msgctxt "MovementWidget|"
+msgid "Move Z Axis to"
+msgstr "انتقال محور Z به"
+
+#: src/widgets/movementwidget.cpp:85
+msgctxt "MovementWidget|"
+msgid "Go"
+msgstr "برو"
+
+#: src/widgets/plotwidget.cpp:21
+msgctxt "PlotWidget|"
+msgid "Temp."
+msgstr "دما"
+
+#: src/widgets/printwidget.cpp:25
+msgctxt "PrintWidget|"
+msgid "Print File"
+msgstr "چاپ پرونده"
+
+#: src/widgets/printwidget.cpp:28
+msgctxt "PrintWidget|"
+msgid "Emergency Stop"
+msgstr "توقف اضطراری"
+
+#: src/widgets/printwidget.cpp:37
+msgctxt "PrintWidget|"
+msgid "Printer Speed"
+msgstr "سرعت چاپگر"
+
+#: src/widgets/printwidget.cpp:43 src/widgets/printwidget.cpp:60
+#: src/widgets/printwidget.cpp:75
+msgctxt "PrintWidget|"
+msgid "Set"
+msgstr "تنظیم"
+
+#: src/widgets/printwidget.cpp:54
+msgctxt "PrintWidget|"
+msgid "Flow Rate"
+msgstr "نرخ جریان"
+
+#: src/widgets/printwidget.cpp:100
+#, qt-format
+msgctxt "PrintWidget|"
+msgid "Fan %1 speed"
+msgstr "سرعت فن %1"
+
+#: src/widgets/profilemanager.cpp:27
+msgctxt "ProfileManager|"
+msgid "Profile:"
+msgstr "پروفایل:"
+
+#: src/widgets/profilemanager.cpp:55
+msgctxt "ProfileManager|"
+msgid "Delete Current Profile"
+msgstr "حذف پروفایل فعلی"
+
+#: src/widgets/profilemanager.cpp:69
+msgctxt "ProfileManager|"
+msgid "Name"
+msgstr "نام"
+
+#: src/widgets/profilemanager.cpp:82
+msgctxt "ProfileManager|"
+msgid "Printer Type:"
+msgstr "نوع چاپگر:"
+
+#: src/widgets/profilemanager.cpp:83
+msgctxt "ProfileManager|"
+msgid "Delta"
+msgstr "دلتا"
+
+#: src/widgets/profilemanager.cpp:84
+msgctxt "ProfileManager|"
+msgid "Cartesian"
+msgstr "دکارتی"
+
+#: src/widgets/profilemanager.cpp:94 src/widgets/profilemanager.cpp:251
+msgctxt "ProfileManager|"
+msgid "Maximum X"
+msgstr "حداکثر X"
+
+#: src/widgets/profilemanager.cpp:107
+msgctxt "ProfileManager|"
+msgid "Maximum Y"
+msgstr "حداکثر Y"
+
+#: src/widgets/profilemanager.cpp:123 src/widgets/profilemanager.cpp:252
+msgctxt "ProfileManager|"
+msgid "Maximum Z"
+msgstr "حداکثر Z"
+
+#: src/widgets/profilemanager.cpp:136
+msgctxt "ProfileManager|"
+msgid "Mechanics"
+msgstr "مکانیک"
+
+#: src/widgets/profilemanager.cpp:141
+msgctxt "ProfileManager|"
+msgid "Bed Maximum"
+msgstr "حداکثر بستر"
+
+#: src/widgets/profilemanager.cpp:156
+msgctxt "ProfileManager|"
+msgid "Extruder Maximum"
+msgstr "حداکثر اکسترودر"
+
+#: src/widgets/profilemanager.cpp:167
+msgctxt "ProfileManager|"
+msgid "Auto Temperature Report"
+msgstr "گزارش خودکار دما"
+
+#: src/widgets/profilemanager.cpp:174
+msgctxt "ProfileManager|"
+msgid "Temperature"
+msgstr "دما"
+
+#: src/widgets/profilemanager.cpp:186
+msgctxt "ProfileManager|"
+msgid "Bit Rate"
+msgstr "نرخ بیت"
+
+#: src/widgets/profilemanager.cpp:192
+msgctxt "ProfileManager|"
+msgid "Firmware"
+msgstr "سفت‌افزار"
+
+#: src/widgets/profilemanager.cpp:210
+msgctxt "ProfileManager|"
+msgid "PostPause"
+msgstr "پس از مکث"
+
+#: src/widgets/profilemanager.cpp:216
+msgctxt "ProfileManager|"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: src/widgets/profilemanager.cpp:219
+msgctxt "ProfileManager|"
+msgid "Profile"
+msgstr "نمایه"
+
+#: src/widgets/profilemanager.cpp:254
+msgctxt "ProfileManager|"
+msgid "Radius"
+msgstr "شعاع"
+
+#: src/widgets/profilemanager.cpp:255
+msgctxt "ProfileManager|"
+msgid "Height"
+msgstr "ارتفاع"
+
+#: src/widgets/sdwidget.cpp:20
+msgctxt "SdWidget|"
+msgid "Get List"
+msgstr "دریافت فهرست"
+
+#: src/widgets/sdwidget.cpp:24
+msgctxt "SdWidget|"
+msgid "Print Selected"
+msgstr "چاپ موارد انتخاب‌شده"
+
+#: src/widgets/sdwidget.cpp:32
+msgctxt "SdWidget|"
+msgid "Delete Selected"
+msgstr "حذف موارد انتخاب‌شده"
+
+#: src/widgets/sdwidget.cpp:41
+msgctxt "SdWidget|"
+msgid "Files On Sd Card"
+msgstr "پرونده‌های روی کارت SD"
+
+#: src/widgets/statuswidget.cpp:49
+msgctxt "StatusWidget|"
+msgid "AtCore State:"
+msgstr "وضعیت AtCore:"
+
+#: src/widgets/statuswidget.cpp:50
+msgctxt "StatusWidget|"
+msgid "Not Connected"
+msgstr "وصل نیست"
+
+#: src/widgets/statuswidget.cpp:74
+msgctxt "StatusWidget|"
+msgid "SD"
+msgstr "SD"
+
+#: src/widgets/temperaturewidget.cpp:21
+msgctxt "TemperatureWidget|"
+msgid "Wait Until Temperature Stabilizes"
+msgstr "صبر کنید تا دما پایدار شود"
+
+#: src/widgets/temperaturewidget.cpp:24
+msgctxt "TemperatureWidget|"
+msgid "Bed Temp"
+msgstr "دمای بستر"
+
+#: src/widgets/temperaturewidget.cpp:30 src/widgets/temperaturewidget.cpp:46
+msgctxt "TemperatureWidget|"
+msgid "Set"
+msgstr "تنظیم"
+
+#: src/widgets/temperaturewidget.cpp:66
+#, qt-format
+msgctxt "TemperatureWidget|"
+msgid "Extruder %1"
+msgstr "اکسترودر %1"
+
+#: testclient/mainwindow.cpp:30
+msgctxt "MainWindow|"
+msgid "AtCore - Test Client"
+msgstr "AtCore - کلاینت آزمایشی"
+
+#: testclient/mainwindow.cpp:38
+msgctxt "MainWindow|"
+msgid "Attempting to locate Serial Ports"
+msgstr "در حال تلاش برای یافتن درگاه‌های سریال"
+
+#: testclient/mainwindow.cpp:49
+msgctxt "MainWindow|"
+msgid "AtCore First Run"
+msgstr "اولین اجرای AtCore"
+
+#: testclient/mainwindow.cpp:49
+msgctxt "MainWindow|"
+msgid "No Profiles Detected, use the Profile Manager to create one."
+msgstr "هیچ نمایه‌ای شناسایی نشد، برای ایجاد آن از مدیریت نمایه استفاده کنید."
+
+#: testclient/mainwindow.cpp:59
+msgctxt "MainWindow|"
+msgid "File"
+msgstr "پرونده"
+
+#: testclient/mainwindow.cpp:60
+msgctxt "MainWindow|"
+msgid "Quit"
+msgstr "خروج"
+
+#: testclient/mainwindow.cpp:64
+msgctxt "MainWindow|"
+msgid "View"
+msgstr "نما"
+
+#: testclient/mainwindow.cpp:65
+msgctxt "MainWindow|"
+msgid "Show Dock Titles"
+msgstr "نمایش عنوان پنجره‌های شناور"
+
+#: testclient/mainwindow.cpp:71
+msgctxt "MainWindow|"
+msgid "Help"
+msgstr "راهنما"
+
+#: testclient/mainwindow.cpp:72
+msgctxt "MainWindow|"
+msgid "About"
+msgstr "درباره"
+
+#: testclient/mainwindow.cpp:136
+msgctxt "MainWindow|"
+msgid "Commands"
+msgstr "فرمان‌ها"
+
+#: testclient/mainwindow.cpp:156
+msgctxt "MainWindow|"
+msgid "Print"
+msgstr "چاپ"
+
+#: testclient/mainwindow.cpp:167 testclient/mainwindow.cpp:171
+msgctxt "MainWindow|"
+msgid "Actual Bed"
+msgstr "صفحهٔ واقعی"
+
+#: testclient/mainwindow.cpp:174 testclient/mainwindow.cpp:178
+msgctxt "MainWindow|"
+msgid "Target Bed"
+msgstr "صفحهٔ هدف"
+
+#: testclient/mainwindow.cpp:181 testclient/mainwindow.cpp:185
+msgctxt "MainWindow|"
+msgid "Actual Ext.1"
+msgstr "اکسترودر ۱ واقعی"
+
+#: testclient/mainwindow.cpp:188 testclient/mainwindow.cpp:192
+msgctxt "MainWindow|"
+msgid "Target Ext.1"
+msgstr "اکسترودر هدف ۱"
+
+#: testclient/mainwindow.cpp:196
+msgctxt "MainWindow|"
+msgid "Seconds Between Temperature Checks"
+msgstr "فاصله زمانی بین بررسی‌های دما (ثانیه)"
+
+#: testclient/mainwindow.cpp:220
+msgctxt "MainWindow|"
+msgid "Temperature Timeline"
+msgstr "خط زمانی دما"
+
+#: testclient/mainwindow.cpp:229
+msgctxt "MainWindow|"
+msgid "Session Log"
+msgstr "گزارش نشست"
+
+#: testclient/mainwindow.cpp:239
+msgctxt "MainWindow|"
+msgid "Port:"
+msgstr "درگاه:"
+
+#: testclient/mainwindow.cpp:260
+msgctxt "MainWindow|"
+msgid "Profile:"
+msgstr "پروفایل:"
+
+#: testclient/mainwindow.cpp:266
+msgctxt "MainWindow|"
+msgid "Attempt to stop Reset on connect"
+msgstr "تلاش برای جلوگیری از راه‌اندازی مجدد هنگام اتصال"
+
+#: testclient/mainwindow.cpp:279 testclient/mainwindow.cpp:298
+#: testclient/mainwindow.cpp:571
+msgctxt "MainWindow|"
+msgid "Connect"
+msgstr "اتصال"
+
+#: testclient/mainwindow.cpp:288
+msgctxt "MainWindow|"
+msgid "Connection Error"
+msgstr "خطای اتصال"
+
+#: testclient/mainwindow.cpp:289
+msgctxt "MainWindow|"
+msgid ""
+"Your machine did not respond after 20 seconds.\n"
+"\n"
+"Before connecting again check that your printer is on and your are connecting using the correct BAUD Rate for your device."
+msgstr ""
+"دستگاه شما پس از ۲۰ ثانیه پاسخی نداد.\n"
+"\n"
+"پیش از اتصال مجدد، بررسی کنید که چاپگر روشن باشد و با نرخ باود (BAUD Rate) صحیح برای دستگاه خود متصل شده باشید."
+
+#: testclient/mainwindow.cpp:310
+msgctxt "MainWindow|"
+msgid "Home All"
+msgstr "مبدا همه"
+
+#: testclient/mainwindow.cpp:315
+msgctxt "MainWindow|"
+msgid "Home X"
+msgstr "مبدا X"
+
+#: testclient/mainwindow.cpp:320
+msgctxt "MainWindow|"
+msgid "Home Y"
+msgstr "مبدا Y"
+
+#: testclient/mainwindow.cpp:325
+msgctxt "MainWindow|"
+msgid "Home Z"
+msgstr "مبدا Z"
+
+#: testclient/mainwindow.cpp:349
+msgctxt "MainWindow|"
+msgid "Movement"
+msgstr "حرکت"
+
+#: testclient/mainwindow.cpp:362
+msgctxt "MainWindow|"
+msgid "Temperatures"
+msgstr "دماها"
+
+#: testclient/mainwindow.cpp:375
+msgctxt "MainWindow|"
+msgid "Print Error"
+msgstr "خطای چاپ"
+
+#: testclient/mainwindow.cpp:375 testclient/mainwindow.cpp:383
+msgctxt "MainWindow|"
+msgid "You must Select a file from the list"
+msgstr "باید یک پرونده از فهرست انتخاب کنید"
+
+#: testclient/mainwindow.cpp:383
+msgctxt "MainWindow|"
+msgid "Delete Error"
+msgstr "خطای حذف"
+
+#: testclient/mainwindow.cpp:389
+msgctxt "MainWindow|"
+msgid "Sd Card"
+msgstr "کارت SD"
+
+#: testclient/mainwindow.cpp:398
+msgctxt "MainWindow|"
+msgid "Profile Manager"
+msgstr "مدیریت نمایه"
+
+#: testclient/mainwindow.cpp:454
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Found %1 Ports"
+msgstr "%1 درگاه پیدا شد"
+
+#: testclient/mainwindow.cpp:456
+msgctxt "MainWindow|"
+msgid "No available ports! Please connect a serial device to continue!"
+msgstr "هیچ درگاهی در دسترس نیست! لطفاً برای ادامه یک دستگاه سریال متصل کنید!"
+
+#: testclient/mainwindow.cpp:474
+msgctxt "MainWindow|"
+msgid "Serial connected"
+msgstr "ارتباط سریال برقرار شد"
+
+#: testclient/mainwindow.cpp:486
+msgctxt "MainWindow|"
+msgid "Disconnected"
+msgstr "قطع شد"
+
+#: testclient/mainwindow.cpp:495 testclient/mainwindow.cpp:500
+msgctxt "MainWindow|"
+msgid "Error"
+msgstr "خطا"
+
+#: testclient/mainwindow.cpp:495
+msgctxt "MainWindow|"
+msgid "Not Connected To a Printer"
+msgstr "به چاپگر متصل نیست"
+
+#: testclient/mainwindow.cpp:501
+msgctxt "MainWindow|"
+msgid ""
+" A Firmware Plugin was not loaded!\n"
+"  Please send the command M115 and let us know what your firmware returns, so we can improve our firmware detection. Edit your profile to use \"marlin\" and try again."
+msgstr ""
+" افزونه سفت‌افزار بارگیری نشد!\n"
+"  لطفاً دستور M115 را ارسال کرده و پاسخ سفت‌افزار خود را به ما اطلاع دهید تا بتوانیم تشخیص سفت‌افزار را بهبود بخشیم. نمایه خود را برای استفاده از «marlin» ویرایش کرده و دوباره تلاش کنید."
+
+#: testclient/mainwindow.cpp:506
+msgctxt "MainWindow|"
+msgid "Select a file to print"
+msgstr "پرونده‌ای را برای چاپ انتخاب کنید"
+
+#: testclient/mainwindow.cpp:506
+msgctxt "MainWindow|"
+msgid "*.gcode"
+msgstr "*.gcode"
+
+#: testclient/mainwindow.cpp:508
+msgctxt "MainWindow|"
+msgid "No File Selected"
+msgstr "هیچ پرونده‌ای انتخاب نشده است"
+
+#: testclient/mainwindow.cpp:510
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Print: %1"
+msgstr "چاپ: %1"
+
+#: testclient/mainwindow.cpp:537
+msgctxt "MainWindow|"
+msgid "Disconnect"
+msgstr "قطع اتصال"
+
+#: testclient/mainwindow.cpp:538 testclient/mainwindow.cpp:551
+#: testclient/mainwindow.cpp:659
+msgctxt "MainWindow|"
+msgid "Print File"
+msgstr "چاپ پرونده"
+
+#: testclient/mainwindow.cpp:539
+msgctxt "MainWindow|"
+msgid "Connected to "
+msgstr "متصل به "
+
+#: testclient/mainwindow.cpp:544
+msgctxt "MainWindow|"
+msgid "START PRINT"
+msgstr "شروع چاپ"
+
+#: testclient/mainwindow.cpp:545 testclient/mainwindow.cpp:562
+msgctxt "MainWindow|"
+msgid "Pause Print"
+msgstr "توقف موقت چاپ"
+
+#: testclient/mainwindow.cpp:550
+msgctxt "MainWindow|"
+msgid "Finished Print"
+msgstr "چاپ به پایان رسید"
+
+#: testclient/mainwindow.cpp:556
+msgctxt "MainWindow|"
+msgid "Paused"
+msgstr "متوقف شده"
+
+#: testclient/mainwindow.cpp:557
+msgctxt "MainWindow|"
+msgid "Resume Print"
+msgstr "ادامه چاپ"
+
+#: testclient/mainwindow.cpp:561
+msgctxt "MainWindow|"
+msgid "Printing"
+msgstr "در حال چاپ"
+
+#: testclient/mainwindow.cpp:578
+msgctxt "MainWindow|"
+msgid "Abort"
+msgstr "لغو"
+
+#: testclient/mainwindow.cpp:585
+msgctxt "MainWindow|"
+msgid "Stopping Print"
+msgstr "در حال توقف چاپ"
+
+#: testclient/mainwindow.cpp:589
+msgctxt "MainWindow|"
+msgid "Command ERROR"
+msgstr "خطای دستور"

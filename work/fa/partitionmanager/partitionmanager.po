@@ -1,0 +1,3984 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the partitionmanager package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: partitionmanager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-03 00:48+0000\n"
+"PO-Revision-Date: 2026-10-16 01:27+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: config/configureoptionsdialog.cpp:42
+#, kde-kuit-format
+msgctxt "@title:tab general application settings"
+msgid "General"
+msgstr "عمومی"
+
+#: config/configureoptionsdialog.cpp:42 config/configureoptionsdialog.cpp:87
+#, kde-format
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: config/configureoptionsdialog.cpp:47
+#, kde-kuit-format
+msgctxt "@title:tab"
+msgid "File System Colors"
+msgstr "رنگ‌های سیستم پرونده"
+
+#: config/configureoptionsdialog.cpp:47
+#, kde-format
+msgid "File System Color Settings"
+msgstr "تنظیمات رنگ سیستم پرونده"
+
+#: config/configureoptionsdialog.cpp:49
+#, kde-kuit-format
+msgctxt "@title:tab advanced application settings"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: config/configureoptionsdialog.cpp:49
+#, kde-format
+msgid "Advanced Settings"
+msgstr "تنظیمات پیشرفته"
+
+#: config/configureoptionsdialog.cpp:137
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Do you really want to change the backend?</para><para><warning>This "
+"will also rescan devices and thus clear the list of pending "
+"operations.</warning></para>"
+msgstr ""
+"<para>آیا واقعاً می‌خواهید پسانه را تغییر دهید؟</para><para><warning>با این "
+"کار دستگاه‌ها نیز دوباره پویش می‌شوند و در نتیجه فهرست عملیات‌های در انتظار "
+"پاک خواهد شد.</warning></para>"
+
+#: config/configureoptionsdialog.cpp:139
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Really Change Backend?"
+msgstr "واقعاً پسانه تغییر کند؟"
+
+#: config/configureoptionsdialog.cpp:140
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Change the Backend"
+msgstr "تغییر زیرساخت"
+
+#: config/configureoptionsdialog.cpp:141
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Do Not Change the Backend"
+msgstr "تغییر ندادن زیرساخت"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config/configurepageadvanced.ui:23
+#, kde-format
+msgid "Active backend:"
+msgstr "زیرساخت فعال:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: config/configurepageadvanced.ui:36
+#, kde-format
+msgid "Preferred unit:"
+msgstr "واحد ترجیحی:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
+#: config/configurepageadvanced.ui:47
+#, kde-format
+msgid "Byte"
+msgstr "بایت"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
+#: config/configurepageadvanced.ui:52
+#, kde-format
+msgid "KiB"
+msgstr "KiB"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
+#: config/configurepageadvanced.ui:57
+#, kde-format
+msgid "MiB"
+msgstr "MiB"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
+#: config/configurepageadvanced.ui:62
+#, kde-format
+msgid "GiB"
+msgstr "GiB"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
+#: config/configurepageadvanced.ui:67
+#, kde-format
+msgid "TiB"
+msgstr "TiB"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
+#: config/configurepageadvanced.ui:72
+#, kde-format
+msgid "PiB"
+msgstr "PiB"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
+#: config/configurepageadvanced.ui:77
+#, kde-format
+msgid "EiB"
+msgstr "EiB"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_3)
+#: config/configurepagefilesystemcolors.ui:37
+#, kde-format
+msgid "ext4:"
+msgstr "ext4:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_18)
+#: config/configurepagefilesystemcolors.ui:137
+#, kde-format
+msgid "Linux RAID:"
+msgstr "Linux RAID:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_17)
+#: config/configurepagefilesystemcolors.ui:192
+#, kde-format
+msgid "unformatted:"
+msgstr "قالب‌بندی‌نشده:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_2)
+#: config/configurepagefilesystemcolors.ui:205
+#, kde-format
+msgid "ext3:"
+msgstr "ext3:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_13)
+#: config/configurepagefilesystemcolors.ui:273
+#, kde-format
+msgid "extended:"
+msgstr "توسعه‌یافته:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_4)
+#: config/configurepagefilesystemcolors.ui:322
+#, kde-format
+msgid "Linux Swap:"
+msgstr "فضای مبادله لینوکس:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_38)
+#: config/configurepagefilesystemcolors.ui:348
+#, kde-format
+msgid "FreeBSD Swap:"
+msgstr "فضای مبادله FreeBSD:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_9)
+#: config/configurepagefilesystemcolors.ui:364
+#, kde-format
+msgid "NTFS:"
+msgstr "NTFS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_21)
+#: config/configurepagefilesystemcolors.ui:445
+#, kde-format
+msgid "Btrfs:"
+msgstr "Btrfs:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_16)
+#: config/configurepagefilesystemcolors.ui:458
+#, kde-format
+msgid "unknown:"
+msgstr "ناشناخته:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel)
+#: config/configurepagefilesystemcolors.ui:506
+#, kde-format
+msgid "ext2:"
+msgstr "ext2:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_37)
+#: config/configurepagefilesystemcolors.ui:522
+#, kde-format
+msgid "Bcachefs:"
+msgstr "Bcachefs:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_36)
+#: config/configurepagefilesystemcolors.ui:535
+#, kde-format
+msgid "Minix:"
+msgstr "Minix:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_35)
+#: config/configurepagefilesystemcolors.ui:545
+#, kde-format
+msgid "APFS:"
+msgstr "APFS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_34)
+#: config/configurepagefilesystemcolors.ui:564
+#, kde-format
+msgid "BitLocker:"
+msgstr "BitLocker:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_33)
+#: config/configurepagefilesystemcolors.ui:580
+#, kde-format
+msgid "LUKS2:"
+msgstr "LUKS2:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_20)
+#: config/configurepagefilesystemcolors.ui:593
+#, kde-format
+msgid "LUKS:"
+msgstr "LUKS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_31)
+#: config/configurepagefilesystemcolors.ui:612
+#, kde-format
+msgid "ISO 9660:"
+msgstr "ISO 9660:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_30)
+#: config/configurepagefilesystemcolors.ui:628
+#, kde-format
+msgid "UDF:"
+msgstr "UDF:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_29)
+#: config/configurepagefilesystemcolors.ui:644
+#, kde-format
+msgid "F2FS:"
+msgstr "F2FS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_28)
+#: config/configurepagefilesystemcolors.ui:660
+#, kde-format
+msgid "LVM2 PV:"
+msgstr "LVM2 PV:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_27)
+#: config/configurepagefilesystemcolors.ui:676
+#, kde-format
+msgid "NILFS2:"
+msgstr "NILFS2:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_26)
+#: config/configurepagefilesystemcolors.ui:689
+#, kde-format
+msgid "exFAT:"
+msgstr "exFAT:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_25)
+#: config/configurepagefilesystemcolors.ui:702
+#, kde-format
+msgid "ZFS:"
+msgstr "ZFS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_24)
+#: config/configurepagefilesystemcolors.ui:718
+#, kde-format
+msgid "OCFS2:"
+msgstr "OCFS2:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_22)
+#: config/configurepagefilesystemcolors.ui:734
+#, kde-format
+msgid "XFS:"
+msgstr "XFS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_15)
+#: config/configurepagefilesystemcolors.ui:750
+#, kde-format
+msgid "UFS:"
+msgstr "UFS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_14)
+#: config/configurepagefilesystemcolors.ui:766
+#, kde-format
+msgid "HFS+:"
+msgstr "HFS+:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_12)
+#: config/configurepagefilesystemcolors.ui:782
+#, kde-format
+msgid "HFS:"
+msgstr "HFS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_11)
+#: config/configurepagefilesystemcolors.ui:798
+#, kde-format
+msgid "JFS:"
+msgstr "JFS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_8)
+#: config/configurepagefilesystemcolors.ui:814
+#, kde-format
+msgid "Reiser4:"
+msgstr "Reiser4:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_7)
+#: config/configurepagefilesystemcolors.ui:830
+#, kde-format
+msgid "ReiserFS:"
+msgstr "ReiserFS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_10)
+#: config/configurepagefilesystemcolors.ui:846
+#, kde-format
+msgid "HPFS:"
+msgstr "HPFS:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_5)
+#: config/configurepagefilesystemcolors.ui:862
+#, kde-format
+msgid "FAT32:"
+msgstr "FAT32:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_6)
+#: config/configurepagefilesystemcolors.ui:878
+#, kde-format
+msgid "FAT16:"
+msgstr "FAT16:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_32)
+#: config/configurepagefilesystemcolors.ui:894
+#, kde-format
+msgid "FAT12:"
+msgstr "FAT12:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: config/configurepagegeneral.ui:28
+#, kde-format
+msgid "Partition Alignment"
+msgstr "هم‌ترازی افراز"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_alignDefault)
+#: config/configurepagegeneral.ui:34
+#, kde-format
+msgid "Align partitions per default"
+msgstr "هم‌ترازی پیش‌فرض افرازها"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/configurepagegeneral.ui:47
+#, kde-format
+msgid "Sec&tor alignment:"
+msgstr "هم‌ترازی قطاع:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_sectorAlignment)
+#: config/configurepagegeneral.ui:60
+#, kde-format
+msgid " sectors"
+msgstr " بخش‌ها"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: config/configurepagegeneral.ui:88
+#, kde-format
+msgid "Logging"
+msgstr "ثبت گزارش"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config/configurepagegeneral.ui:94
+#, kde-format
+msgid "Hide messa&ges below:"
+msgstr "پنهان‌سازی پیام‌های زیر:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_minLogLevel)
+#: config/configurepagegeneral.ui:105
+#, kde-format
+msgid "Debug"
+msgstr "اشکال‌زدایی"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_minLogLevel)
+#: config/configurepagegeneral.ui:110
+#, kde-format
+msgid "Information"
+msgstr "اطلاعات"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_minLogLevel)
+#: config/configurepagegeneral.ui:115
+#, kde-format
+msgid "Warning"
+msgstr "هشدار"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_minLogLevel)
+#: config/configurepagegeneral.ui:120
+#, kde-format
+msgid "Error"
+msgstr "خطا"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: config/configurepagegeneral.ui:137
+#, kde-format
+msgid "File Systems"
+msgstr "سیستم‌های پرونده"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config/configurepagegeneral.ui:143
+#, kde-format
+msgid "&Default file system:"
+msgstr "سیستم پروندهٔ پیش‌فرض:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: config/configurepagegeneral.ui:165
+#, kde-format
+msgid "Shredding"
+msgstr "خرد کردن امن"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: config/configurepagegeneral.ui:171
+#, kde-format
+msgid "Overwrite with:"
+msgstr "بازنویسی با:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#: config/configurepagegeneral.ui:178
+#, kde-format
+msgid "Random data"
+msgstr "داده‌های تصادفی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#: config/configurepagegeneral.ui:188
+#, kde-format
+msgid "&Zeros"
+msgstr "صفرها"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_ButtonSave)
+#: gui/applyprogressdetailswidgetbase.ui:42
+#, kde-format
+msgid "Save"
+msgstr "ذخیره"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_ButtonBrowser)
+#: gui/applyprogressdetailswidgetbase.ui:49
+#, kde-format
+msgid "Open in External Browser"
+msgstr "باز کردن در مرورگر خارجی"
+
+#: gui/applyprogressdialog.cpp:83 gui/applyprogressdialog.cpp:172
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "&Details"
+msgstr "جزئیات"
+
+#: gui/applyprogressdialog.cpp:125
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Setting up..."
+msgstr "در حال راه‌اندازی..."
+
+#: gui/applyprogressdialog.cpp:191
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Stopping now may cause data loss or drive errors."
+msgstr "توقف در این لحظه ممکن است باعث از دست رفتن داده‌ها یا خطای درایو شود."
+
+#: gui/applyprogressdialog.cpp:191
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Stop Running Operations"
+msgstr "توقف عملیات در حال اجرا"
+
+#: gui/applyprogressdialog.cpp:191
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Stop Anyway"
+msgstr "در هر صورت متوقف شود"
+
+#: gui/applyprogressdialog.cpp:191
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Keep Running"
+msgstr "ادامهٔ اجرا"
+
+#: gui/applyprogressdialog.cpp:196
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Waiting for operation to finish..."
+msgstr "در حال انتظار برای پایان عملیات..."
+
+#: gui/applyprogressdialog.cpp:217
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "All operations successfully finished."
+msgstr "تمام عملیات با موفقیت پایان یافت."
+
+#: gui/applyprogressdialog.cpp:222
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Operations cancelled."
+msgstr "عملیات لغو شد."
+
+#: gui/applyprogressdialog.cpp:227
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "There were errors while applying operations. Aborted."
+msgstr "هنگام اعمال عملیات خطاهایی رخ داد. لغو شد."
+
+#: gui/applyprogressdialog.cpp:341
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "[%1/%2] - %3: %4"
+msgstr "[%1/%2] - %3: %4"
+
+#: gui/applyprogressdialog.cpp:375
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Total Time: %1"
+msgstr "زمان کل: %1"
+
+#: gui/applyprogressdialog.cpp:423 gui/mainwindow.cpp:1081
+#: gui/mainwindow.cpp:1243 gui/smartdialog.cpp:227
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Could not create temporary file when trying to save to "
+"<filename>%1</filename>."
+msgstr ""
+"هنگام تلاش برای ذخیره در <filename>%1</filename>، ایجاد پروندهٔ موقت ممکن "
+"نشد."
+
+#: gui/applyprogressdialog.cpp:423
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Could Not Save Report."
+msgstr "ذخیرهٔ گزارش ممکن نشد."
+
+#: gui/applyprogressdialog.cpp:447
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not create temporary file <filename>%1</filename> for writing."
+msgstr "ایجاد پروندهٔ موقت <filename>%1</filename> برای نوشتن ممکن نشد."
+
+#: gui/applyprogressdialog.cpp:447
+#, kde-format
+msgctxt "@title:window"
+msgid "Could Not Launch Browser."
+msgstr "مرورگر باز نشد."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeTasks)
+#: gui/applyprogressdialogwidgetbase.ui:41
+#, kde-format
+msgid "Operations and Jobs"
+msgstr "عملیات‌ها و کارها"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeTasks)
+#: gui/applyprogressdialogwidgetbase.ui:46
+#, kde-format
+msgid "Time Elapsed"
+msgstr "زمان سپری‌شده"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTime)
+#: gui/applyprogressdialogwidgetbase.ui:72
+#, kde-format
+msgid "Total Time: 00:00:00"
+msgstr "زمان کل: ۰۰:۰۰:۰۰"
+
+#. i18n: ectx: property (format), widget (QProgressBar, m_ProgressSub)
+#: gui/applyprogressdialogwidgetbase.ui:89
+#, no-c-format, kde-format
+msgid "Operation: %p%"
+msgstr "عملیات: %p%"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelStatus)
+#: gui/applyprogressdialogwidgetbase.ui:99
+#, kde-format
+msgid "Status"
+msgstr "وضعیت"
+
+#. i18n: ectx: property (format), widget (QProgressBar, m_ProgressTotal)
+#: gui/applyprogressdialogwidgetbase.ui:115
+#, no-c-format, kde-format
+msgid "Total: %p%"
+msgstr "کل: %p%"
+
+#: gui/benchmarkdialog.cpp:112
+#, kde-kuit-format
+msgctxt "@label graph axis, read rate"
+msgid "%1 MiB/s"
+msgstr "%1 MiB/s"
+
+#: gui/benchmarkdialog.cpp:113
+#, kde-kuit-format
+msgctxt "@label graph axis, access time"
+msgid "%1 ms"
+msgstr "%1 ms"
+
+#: gui/benchmarkdialog.cpp:163
+#, kde-kuit-format
+msgctxt "@label graph axis"
+msgid "Position on device"
+msgstr "موقعیت روی دستگاه"
+
+#: gui/benchmarkdialog.cpp:185
+#, kde-kuit-format
+msgctxt "@label graph legend"
+msgid "Read rate"
+msgstr "نرخ خواندن"
+
+#: gui/benchmarkdialog.cpp:186
+#, kde-kuit-format
+msgctxt "@label graph legend"
+msgid "Access time"
+msgstr "زمان دسترسی"
+
+#: gui/benchmarkdialog.cpp:209
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Benchmark: <filename>%1</filename>"
+msgstr "محک‌زدن: <filename>%1</filename>"
+
+#: gui/benchmarkdialog.cpp:237
+#, kde-kuit-format
+msgctxt "@item:valuesuffix"
+msgid " MiB"
+msgstr " MiB"
+
+#: gui/benchmarkdialog.cpp:243
+#, kde-kuit-format
+msgctxt "@label:spinbox"
+msgid "Transfer rate samples:"
+msgstr "نمونه‌های نرخ انتقال:"
+
+#: gui/benchmarkdialog.cpp:244
+#, kde-kuit-format
+msgctxt "@label:spinbox"
+msgid "Sample size:"
+msgstr "اندازهٔ نمونه:"
+
+#: gui/benchmarkdialog.cpp:245
+#, kde-kuit-format
+msgctxt "@label:spinbox"
+msgid "Access time samples:"
+msgstr "نمونه‌های زمان دسترسی:"
+
+#: gui/benchmarkdialog.cpp:253
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Average read rate:"
+msgstr "میانگین نرخ خواندن:"
+
+#: gui/benchmarkdialog.cpp:254
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Minimum read rate:"
+msgstr "حداقل نرخ خواندن:"
+
+#: gui/benchmarkdialog.cpp:255
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Maximum read rate:"
+msgstr "حداکثر نرخ خواندن:"
+
+#: gui/benchmarkdialog.cpp:256
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Average access time:"
+msgstr "میانگین زمان دسترسی:"
+
+#: gui/benchmarkdialog.cpp:268
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The device is only read, no data is written. Other activity on the device "
+"affects the results."
+msgstr ""
+"دستگاه فقط خوانده می‌شود و هیچ داده‌ای نوشته نمی‌شود. سایر فعالیت‌های روی "
+"دستگاه بر نتایج تأثیر می‌گذارند."
+
+#: gui/benchmarkdialog.cpp:273
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Start Benchmark"
+msgstr "شروع بنچمارک"
+
+#: gui/benchmarkdialog.cpp:275
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Stop"
+msgstr "توقف"
+
+#: gui/benchmarkdialog.cpp:318
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Preparing the benchmark…"
+msgstr "در حال آماده‌سازی بنچمارک…"
+
+#: gui/benchmarkdialog.cpp:323 gui/benchmarkdialog.cpp:439
+#: gui/benchmarkdialog.cpp:462
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Could not connect to the KPMcore helper."
+msgstr "امکان اتصال به دستیار KPMcore وجود ندارد."
+
+#: gui/benchmarkdialog.cpp:330
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Stopping after the current read request finishes…"
+msgstr "توقف پس از پایان درخواست خواندن فعلی…"
+
+#: gui/benchmarkdialog.cpp:346
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid ""
+"Direct I/O is not supported for this device. The benchmark was not run, "
+"because cached reads would not show the speed of the device."
+msgstr ""
+"ورودی/خروجی مستقیم (Direct I/O) برای این دستگاه پشتیبانی نمی‌شود. بنچمارک "
+"اجرا نشد زیرا خوانش‌های حافظهٔ موقت (کَش) سرعت واقعی دستگاه را نشان "
+"نمی‌دهند."
+
+#: gui/benchmarkdialog.cpp:350
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "The benchmark request was rejected as invalid."
+msgstr "درخواست بنچمارک به دلیل نامعتبر بودن رد شد."
+
+#: gui/benchmarkdialog.cpp:353
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Reading from the device failed or access was denied."
+msgstr "خواندن از دستگاه با شکست مواجه شد یا دسترسی رد شد."
+
+#: gui/benchmarkdialog.cpp:393
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Could not determine the size of the device."
+msgstr "اندازهٔ دستگاه مشخص نشد."
+
+#: gui/benchmarkdialog.cpp:418 gui/benchmarkdialog.cpp:445
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Benchmark stopped."
+msgstr "ارزیابی متوقف شد."
+
+#: gui/benchmarkdialog.cpp:437
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Measuring transfer rate: sample %1 of %2…"
+msgstr "در حال سنجش نرخ انتقال: نمونهٔ %1 از %2…"
+
+#: gui/benchmarkdialog.cpp:450
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Benchmark finished."
+msgstr "ارزیابی پایان یافت."
+
+#: gui/benchmarkdialog.cpp:460
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Measuring access time: %1 of %2 reads…"
+msgstr "در حال سنجش زمان دسترسی: خوانش %1 از %2…"
+
+#: gui/benchmarkdialog.cpp:469
+#, kde-kuit-format
+msgctxt "@label benchmark result not measured yet"
+msgid "—"
+msgstr "—"
+
+#: gui/benchmarkdialog.cpp:485
+#, kde-kuit-format
+msgctxt "@label read rate, %1 is a size such as 120.5 MiB"
+msgid "%1/s"
+msgstr "%1/s"
+
+#: gui/benchmarkdialog.cpp:498
+#, kde-kuit-format
+msgctxt "@label access time in milliseconds"
+msgid "%1 ms"
+msgstr "%1 ms"
+
+#: gui/createpartitiontabledialog.cpp:31
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Create a New Partition Table on <filename>%1</filename>"
+msgstr "ایجاد یک جدول افراز جدید در <filename>%1</filename>"
+
+#: gui/createpartitiontabledialog.cpp:34
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Create &New Partition Table"
+msgstr "ایجاد جدول افراز جدید"
+
+#: gui/createpartitiontabledialog.cpp:56
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Do you really want to create an MS-Dos partition table on "
+"<filename>%1</filename>?</para><para>This device has more than 2^32 sectors."
+" That is the most the MS-Dos partition table type supports, so you will not "
+"be able to use the whole device.</para>"
+msgstr ""
+"<para>آیا واقعاً می‌خواهید یک جدول افراز MS-Dos در <filename>%1</filename> "
+"ایجاد کنید؟</para><para>این دستگاه بیش از ۲^۳۲ بخش (سکتور) دارد. این بیشترین"
+" مقداری است که نوع جدول افراز MS-Dos پشتیبانی می‌کند، بنابراین قادر نخواهید "
+"بود از تمام ظرفیت دستگاه استفاده کنید.</para>"
+
+#: gui/createpartitiontabledialog.cpp:58
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Really Create MS-Dos Partition Table Type?"
+msgstr "آیا واقعاً جدول افراز از نوع MS-Dos ایجاد شود؟"
+
+#: gui/createpartitiontabledialog.cpp:59
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Create MS-Dos Type"
+msgstr "ایجاد نوع MS-Dos"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: gui/createpartitiontablewidgetbase.ui:24
+#, kde-format
+msgid "Choose the type of partition table you want to create:"
+msgstr "نوع جدول افرازی را که می‌خواهید ایجاد کنید، انتخاب نمایید:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_RadioGPT)
+#: gui/createpartitiontablewidgetbase.ui:33
+#, kde-format
+msgid "GPT"
+msgstr "GPT"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_RadioMSDOS)
+#: gui/createpartitiontablewidgetbase.ui:43
+#, kde-format
+msgid "MS-Dos"
+msgstr "MS-Dos"
+
+#. i18n: ectx: property (text), widget (QLabel, m_IconLabel)
+#: gui/createpartitiontablewidgetbase.ui:70
+#, kde-format
+msgid "(icon)"
+msgstr "(شمایل)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: gui/createpartitiontablewidgetbase.ui:83
+#, kde-format
+msgid "<b>Warning:</b> This will destroy all data on the device!"
+msgstr "<b>هشدار:</b> این کار تمام داده‌های روی دستگاه را از بین خواهد برد!"
+
+#: gui/createvolumegroupdialog.cpp:38
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Create new Volume Group"
+msgstr "ایجاد گروه حجم جدید"
+
+#: gui/devicepropsdialog.cpp:42
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Device Properties: <filename>%1</filename>"
+msgstr "ویژگی‌های دستگاه: <filename>%1</filename>"
+
+#: gui/devicepropsdialog.cpp:76 gui/infopane.cpp:168
+#, kde-kuit-format
+msgctxt "@label device"
+msgid "%1 (read only)"
+msgstr "%1 (فقط‌خواندنی)"
+
+#: gui/devicepropsdialog.cpp:99 gui/smartdialog.cpp:80 gui/smartdialog.cpp:147
+#, kde-kuit-format
+msgctxt "@label SMART disk status"
+msgid "good"
+msgstr "خوب"
+
+#: gui/devicepropsdialog.cpp:104 gui/smartdialog.cpp:84
+#: gui/smartdialog.cpp:149
+#, kde-kuit-format
+msgctxt "@label SMART disk status"
+msgid "BAD"
+msgstr "خراب"
+
+#: gui/devicepropsdialog.cpp:109 gui/smartdialog.cpp:129
+#, kde-kuit-format
+msgctxt "@label"
+msgid "(unknown)"
+msgstr "(ناشناخته)"
+
+#: gui/devicepropsdialog.cpp:115
+#, kde-kuit-format
+msgctxt "@label device"
+msgid "LVM Volume Group"
+msgstr "گروه حجم LVM"
+
+#: gui/devicepropsdialog.cpp:117
+#, kde-kuit-format
+msgctxt "@label device"
+msgid "Software RAID Device"
+msgstr "دستگاه RAID نرم‌افزاری"
+
+#: gui/devicepropsdialog.cpp:119
+#, kde-kuit-format
+msgctxt "@label device"
+msgid "Volume Manager Device"
+msgstr "دستگاه مدیریت حجم"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextLogicalSectorSize)
+#: gui/devicepropswidgetbase.ui:22
+#, kde-format
+msgid "Logical sector size:"
+msgstr "اندازهٔ بخش منطقی:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextPrimariesMax)
+#: gui/devicepropswidgetbase.ui:32
+#, kde-format
+msgid "Primaries/Max:"
+msgstr "اصلی/حداکثر:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextTotalSectors)
+#: gui/devicepropswidgetbase.ui:42
+#, kde-format
+msgid "Total sectors:"
+msgstr "مجموع بخش‌ها:"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_ButtonSmartMore)
+#. i18n: ectx: property (text), widget (QPushButton, m_ButtonMore)
+#: gui/devicepropswidgetbase.ui:83 gui/editmountpointdialogwidgetbase.ui:123
+#, kde-format
+msgid "More..."
+msgstr "بیشتر..."
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextCapacity)
+#: gui/devicepropswidgetbase.ui:92
+#, kde-format
+msgid "Capacity:"
+msgstr "ظرفیت:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartStatus)
+#: gui/devicepropswidgetbase.ui:112 gui/smartdialog.cpp:147
+#: gui/smartdialog.cpp:149 gui/smartdialogwidgetbase.ui:28
+#, kde-format
+msgid "SMART status:"
+msgstr "وضعیت SMART:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextPhysicalSectorSize)
+#: gui/devicepropswidgetbase.ui:198
+#, kde-format
+msgid "Physical sector size:"
+msgstr "اندازهٔ قطاع فیزیکی:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextType)
+#: gui/devicepropswidgetbase.ui:267
+#, kde-format
+msgid "Partition table:"
+msgstr "جدول پارتیشن:"
+
+#: gui/editmountoptionsdialog.cpp:25
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Edit additional mount options"
+msgstr "ویرایش گزینه‌های سوار کردن اضافی"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget,
+#. EditMountOptionsDialogWidgetBase)
+#: gui/editmountoptionsdialogwidgetbase.ui:19
+#, kde-format
+msgid "Edit Mount Options"
+msgstr "ویرایش گزینه‌های سوار کردن"
+
+#. i18n: ectx: property (text), widget (QLabel, m_Label)
+#: gui/editmountoptionsdialogwidgetbase.ui:25
+#, kde-format
+msgid "Edit the mount options for this file system:"
+msgstr "ویرایش گزینه‌های سوار کردن برای این سیستم پرونده:"
+
+#. i18n: ectx: property (placeholderText), widget (QPlainTextEdit,
+#. m_EditOptions)
+#: gui/editmountoptionsdialogwidgetbase.ui:32
+#, kde-format
+msgid "Option1,Option2"
+msgstr "Option1,Option2"
+
+#: gui/editmountpointdialog.cpp:32
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Edit mount point for <filename>%1</filename>"
+msgstr "ویرایش نقطهٔ سوار کردن برای <filename>%1</filename>"
+
+#: gui/editmountpointdialog.cpp:62
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Are you sure you want to save the changes you made to the system table"
+" file <filename>/etc/fstab</filename>?</para><para><warning>This will "
+"overwrite the existing file on your hard drive now. This <emphasis "
+"strong='1'>can not be undone</emphasis>.</warning></para>"
+msgstr ""
+"<para>آیا مطمئنید که می‌خواهید تغییرات اعمال‌شده در پروندهٔ جدول سیستم "
+"<filename>/etc/fstab</filename> را ذخیره کنید؟</para><para><warning>با این "
+"کار پروندهٔ موجود روی دیسک سخت شما بازنویسی خواهد شد. این عمل <emphasis "
+"strong='1'>غیرقابل بازگشت است</emphasis>.</warning></para>"
+
+#: gui/editmountpointdialog.cpp:64
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Really save changes?"
+msgstr "آیا واقعاً تغییرات ذخیره شوند؟"
+
+#: gui/editmountpointdialog.cpp:65
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Save changes"
+msgstr "ذخیرهٔ تغییرات"
+
+#: gui/editmountpointdialog.cpp:80
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not save mount points to file <filename>/etc/fstab</filename>."
+msgstr ""
+"ذخیرهٔ نقاط اتصال در پروندهٔ <filename>/etc/fstab</filename> امکان‌پذیر "
+"نبود."
+
+#: gui/editmountpointdialog.cpp:81
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Error While Saving Mount Points"
+msgstr "خطا هنگام ذخیرهٔ نقاط اتصال"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: gui/editmountpointdialogwidgetbase.ui:30
+#, kde-format
+msgid "Identify by:"
+msgstr "شناسایی بر اساس:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelPath)
+#: gui/editmountpointdialogwidgetbase.ui:40
+#, kde-format
+msgid "Path:"
+msgstr "مسیر:"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_ButtonSelect)
+#: gui/editmountpointdialogwidgetbase.ui:56
+#, kde-format
+msgid "Select..."
+msgstr "انتخاب..."
+
+#. i18n: ectx: property (text), widget (QPushButton, m_ButtonRemove)
+#: gui/editmountpointdialogwidgetbase.ui:69
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelType)
+#: gui/editmountpointdialogwidgetbase.ui:76
+#, kde-format
+msgid "Type:"
+msgstr "نوع:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelOptions)
+#: gui/editmountpointdialogwidgetbase.ui:93
+#, kde-format
+msgid "Options:"
+msgstr "گزینه‌ها:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckNoFail)
+#: gui/editmountpointdialogwidgetbase.ui:103
+#, kde-format
+msgid "Don't prevent the system from booting if not mountable"
+msgstr "در صورت سوار نشدن، مانع از راه‌اندازی سیستم نشو"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelDumpFreq)
+#: gui/editmountpointdialogwidgetbase.ui:130
+#, kde-format
+msgid "Dump &Frequency:"
+msgstr "بسامد رونوشت پشتیبان (Dump):"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelPassNumber)
+#: gui/editmountpointdialogwidgetbase.ui:143
+#, kde-format
+msgid "Pass &Number:"
+msgstr "شماره دور بررسی (Pass):"
+
+#. i18n: ectx: property (text), widget (KMessageWidget, m_PathMessage)
+#: gui/editmountpointdialogwidgetbase.ui:200
+#, kde-format
+msgid "A valid path is required."
+msgstr "یک مسیر معتبر لازم است."
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckReadOnly)
+#: gui/editmountpointdialogwidgetbase.ui:232
+#, kde-format
+msgid "Read-only"
+msgstr "فقط‌خواندنی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckNoAuto)
+#: gui/editmountpointdialogwidgetbase.ui:239
+#, kde-format
+msgid "No automatic mount"
+msgstr "بدون سوار کردن خودکار"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckSync)
+#: gui/editmountpointdialogwidgetbase.ui:246
+#, kde-format
+msgid "Synchronous access"
+msgstr "دسترسی همگام"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckNoExec)
+#: gui/editmountpointdialogwidgetbase.ui:253
+#, kde-format
+msgid "No binary execution"
+msgstr "بدون اجرای پرونده‌های باینری"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckUsers)
+#: gui/editmountpointdialogwidgetbase.ui:264
+#, kde-format
+msgid "Users can mount and unmount"
+msgstr "کاربران می‌توانند سوار و پیاده کنند"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckNoAtime)
+#: gui/editmountpointdialogwidgetbase.ui:271
+#, kde-format
+msgid "No update of file access times"
+msgstr "زمان‌های دسترسی به پرونده به‌روزرسانی نشود"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckNoDirAtime)
+#: gui/editmountpointdialogwidgetbase.ui:278
+#, kde-format
+msgid "No update of directory access times"
+msgstr "عدم به‌روزرسانی زمان‌های دسترسی به پوشه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckRelAtime)
+#: gui/editmountpointdialogwidgetbase.ui:285
+#, kde-format
+msgid "Update access times relative to modification"
+msgstr "به‌روزرسانی زمان‌های دسترسی وابسته به تغییر"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_RadioDeviceNode)
+#: gui/editmountpointdialogwidgetbase.ui:311
+#, kde-format
+msgid "De&vice Node"
+msgstr "گره دستگاه"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_RadioUUID)
+#: gui/editmountpointdialogwidgetbase.ui:321
+#, kde-format
+msgid "UU&ID"
+msgstr "UUID"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_RadioLabel)
+#: gui/editmountpointdialogwidgetbase.ui:328
+#, kde-format
+msgid "&Label"
+msgstr "برچسب"
+
+#: gui/filesystempropertieswidget.cpp:35
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Block size"
+msgstr "اندازه بلوک"
+
+#: gui/filesystempropertieswidget.cpp:36
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Sector size"
+msgstr "اندازه بخش (Sector)"
+
+#: gui/filesystempropertieswidget.cpp:37
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Metadata node size"
+msgstr "اندازه گره فراداده"
+
+#: gui/filesystempropertieswidget.cpp:38
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Checksum algorithm"
+msgstr "الگوریتم چکسام"
+
+#: gui/filesystempropertieswidget.cpp:39
+#, kde-kuit-format
+msgctxt "@label"
+msgid "MFT record size"
+msgstr "اندازه رکورد MFT"
+
+#: gui/filesystempropertieswidget.cpp:40
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Inode size"
+msgstr "اندازهٔ Inode"
+
+#: gui/filesystempropertieswidget.cpp:41
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Inode count"
+msgstr "تعداد Inode"
+
+#: gui/filesystempropertieswidget.cpp:42
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Number of FATs"
+msgstr "تعداد FATها"
+
+#: gui/filesystempropertieswidget.cpp:43
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Enabled features"
+msgstr "ویژگی‌های فعال"
+
+#: gui/filesystempropertieswidget.cpp:44
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Format version"
+msgstr "نسخهٔ قالب‌بندی"
+
+#: gui/filesystempropertieswidget.cpp:45
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Journal size"
+msgstr "اندازهٔ ژورنال"
+
+#: gui/filesystempropertieswidget.cpp:46
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Reserved space"
+msgstr "فضای رزروشده"
+
+#: gui/filesystempropertieswidget.cpp:47
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Reserved space, percent"
+msgstr "فضای رزروشده، درصد"
+
+#: gui/filesystempropertieswidget.cpp:48
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Reserved block count"
+msgstr "تعداد بلوک‌های رزروشده"
+
+#: gui/filesystempropertieswidget.cpp:49
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Reserved space owner (UID)"
+msgstr "مالک فضای رزروشده (UID)"
+
+#: gui/filesystempropertieswidget.cpp:50
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Reserved space owner (GID)"
+msgstr "مالک فضای رزروشده (GID)"
+
+#: gui/filesystempropertieswidget.cpp:78
+#, kde-kuit-format
+msgctxt "@item filesystem property whose value could not be read"
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: gui/filesystempropertieswidget.cpp:86
+#, kde-kuit-format
+msgctxt "@item value in percent"
+msgid "%1%"
+msgstr "٪%1"
+
+#: gui/filesystempropertieswidget.cpp:136
+#, kde-kuit-format
+msgctxt "@label"
+msgid "%1:"
+msgstr "%1:"
+
+#: gui/filesystemsupportdialog.cpp:31
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "File System Support"
+msgstr "پشتیبانی از سیستم پرونده"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: gui/filesystemsupportdialogwidgetbase.ui:23
+#, kde-format
+msgid ""
+"This table shows which file systems are supported and which specific operations can be performed on them.\n"
+"Some file systems need external tools to be installed for them to be supported. But not all operations can be performed on all file systems, even if all required tools are installed. Please see the documentation for details. "
+msgstr ""
+"این جدول نشان می‌دهد که کدام سیستم‌های پرونده پشتیبانی می‌شوند و چه عملیات خاصی را می‌توان روی آن‌ها انجام داد.\n"
+"برخی از سیستم‌های پرونده برای پشتیبانی‌شدن نیاز به نصب ابزارهای خارجی دارند. اما حتی در صورت نصب همهٔ ابزارهای لازم، همهٔ عملیات را نمی‌توان روی تمام سیستم‌های پرونده انجام داد. لطفاً برای جزئیات به مستندات مراجعه کنید."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:70
+#, kde-format
+msgid "File System"
+msgstr "سیستم پرونده"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:75
+#, kde-format
+msgid "Create"
+msgstr "ایجاد"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:80
+#, kde-format
+msgid "Grow"
+msgstr "افزایش حجم"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:85
+#, kde-format
+msgid "Shrink"
+msgstr "کاهش حجم"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:90
+#, kde-format
+msgid "Move"
+msgstr "انتقال"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:95
+#, kde-format
+msgid "Copy"
+msgstr "رونوشت"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:100
+#, kde-format
+msgid "Check"
+msgstr "بررسی"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:105
+#, kde-format
+msgid "Read Label"
+msgstr "خواندن برچسب"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:110
+#, kde-format
+msgid "Write Label"
+msgstr "نوشتن برچسب"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:115
+#, kde-format
+msgid "Read Usage"
+msgstr "خواندن میزان مصرف"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:120
+#, kde-format
+msgid "Backup"
+msgstr "پشتیبان‌گیری"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:125
+#, kde-format
+msgid "Restore"
+msgstr "بازیابی"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
+#: gui/filesystemsupportdialogwidgetbase.ui:130
+#, kde-format
+msgid "Support Tools"
+msgstr "ابزارهای پشتیبانی"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_ButtonRescan)
+#: gui/filesystemsupportdialogwidgetbase.ui:140
+#, kde-format
+msgctxt "@action:button"
+msgid "Rescan Support"
+msgstr "پویش دوبارهٔ پشتیبانی"
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, m_DockInformation)
+#: gui/infopane.cpp:47 gui/mainwindowbase.ui:47
+#, kde-format, kde-kuit-format
+msgctxt "@title:window"
+msgid "Information"
+msgstr "اطلاعات"
+
+#: gui/infopane.cpp:106
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Partition Information"
+msgstr "اطلاعات پارتیشن"
+
+#: gui/infopane.cpp:113 gui/infopane.cpp:127 gui/infopane.cpp:139
+#, kde-format, kde-kuit-format
+msgctxt "@label partition"
+msgid "File system:"
+msgstr "سیستم فایل:"
+
+#: gui/infopane.cpp:114 gui/infopane.cpp:128 gui/infopane.cpp:140
+#, kde-format, kde-kuit-format
+msgctxt "@label partition"
+msgid "Capacity:"
+msgstr "ظرفیت:"
+
+#: gui/infopane.cpp:115
+#, kde-format
+msgctxt "@label partition"
+msgid "Cipher name:"
+msgstr "نام رمزنگار:"
+
+#: gui/infopane.cpp:116
+#, kde-format
+msgctxt "@label partition"
+msgid "Cipher mode:"
+msgstr "حالت رمزنگار:"
+
+#: gui/infopane.cpp:117
+#, kde-format
+msgctxt "@label partition"
+msgid "Hash:"
+msgstr "درهم‌سازی:"
+
+#: gui/infopane.cpp:118
+#, kde-format
+msgctxt "@label partition"
+msgid "Key size:"
+msgstr "اندازهٔ کلید:"
+
+#: gui/infopane.cpp:119
+#, kde-format
+msgctxt "@label partition"
+msgid "Payload offset:"
+msgstr "انحراف بار داده:"
+
+#: gui/infopane.cpp:120 gui/infopane.cpp:135 gui/infopane.cpp:143
+#, kde-format, kde-kuit-format
+msgctxt "@label partition"
+msgid "First sector:"
+msgstr "بخش نخست:"
+
+#: gui/infopane.cpp:121 gui/infopane.cpp:136 gui/infopane.cpp:144
+#, kde-format, kde-kuit-format
+msgctxt "@label partition"
+msgid "Last sector:"
+msgstr "آخرین سکتور:"
+
+#: gui/infopane.cpp:122 gui/infopane.cpp:137 gui/infopane.cpp:145
+#, kde-format, kde-kuit-format
+msgctxt "@label partition"
+msgid "Number of sectors:"
+msgstr "تعداد سکتورها:"
+
+#: gui/infopane.cpp:129 gui/infopane.cpp:141
+#, kde-format, kde-kuit-format
+msgctxt "@label partition"
+msgid "Available:"
+msgstr "در دسترس:"
+
+#: gui/infopane.cpp:130 gui/infopane.cpp:142
+#, kde-format, kde-kuit-format
+msgctxt "@label partition"
+msgid "Used:"
+msgstr "استفاده‌شده:"
+
+#: gui/infopane.cpp:131
+#, kde-format
+msgctxt "@label partition"
+msgid "PE Size:"
+msgstr "اندازهٔ PE:"
+
+#: gui/infopane.cpp:132
+#, kde-format
+msgctxt "@label partition"
+msgid "Total PE:"
+msgstr "کل PE:"
+
+#: gui/infopane.cpp:133
+#, kde-format
+msgctxt "@label partition"
+msgid "Free PE:"
+msgstr "PE آزاد:"
+
+#: gui/infopane.cpp:134
+#, kde-format
+msgctxt "@label partition"
+msgid "Allocated PE:"
+msgstr "PE تخصیص‌یافته:"
+
+#: gui/infopane.cpp:157
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Device Information"
+msgstr "اطلاعات دستگاه"
+
+#: gui/infopane.cpp:161
+#, kde-kuit-format
+msgctxt "@label device"
+msgid "Path:"
+msgstr "مسیر:"
+
+#: gui/infopane.cpp:176
+#, kde-format
+msgctxt "@label device"
+msgid "Type:"
+msgstr "نوع:"
+
+#: gui/infopane.cpp:177 gui/infopane.cpp:185 gui/infopane.cpp:193
+#, kde-format
+msgctxt "@label device"
+msgid "Capacity:"
+msgstr "ظرفیت:"
+
+#: gui/infopane.cpp:178
+#, kde-format
+msgctxt "@label device"
+msgid "Total sectors:"
+msgstr "مجموع بخش‌ها:"
+
+#: gui/infopane.cpp:179
+#, kde-format
+msgctxt "@label device"
+msgid "Logical sector size:"
+msgstr "اندازهٔ بخش منطقی:"
+
+#: gui/infopane.cpp:180
+#, kde-format
+msgctxt "@label device"
+msgid "Physical sector size:"
+msgstr "اندازهٔ بخش فیزیکی:"
+
+#: gui/infopane.cpp:181
+#, kde-format
+msgctxt "@label device"
+msgid "Primaries/Max:"
+msgstr "اصلی‌ها/حداکثر:"
+
+#: gui/infopane.cpp:184 gui/infopane.cpp:192
+#, kde-format
+msgctxt "@label device"
+msgid "Volume Type:"
+msgstr "نوع حجم:"
+
+#: gui/infopane.cpp:186
+#, kde-format
+msgctxt "@label device"
+msgid "PE Size:"
+msgstr "اندازهٔ PE:"
+
+#: gui/infopane.cpp:187
+#, kde-format
+msgctxt "@label device"
+msgid "Total PE:"
+msgstr "مجموع PE:"
+
+#: gui/infopane.cpp:188
+#, kde-format
+msgctxt "@label device"
+msgid "Allocated PE:"
+msgstr "PE تخصیص‌یافته:"
+
+#: gui/infopane.cpp:189
+#, kde-format
+msgctxt "@label device"
+msgid "Free PE:"
+msgstr "PE آزاد:"
+
+#: gui/infopane.cpp:194
+#, kde-format
+msgctxt "@label device"
+msgid "RAID Level:"
+msgstr "سطح RAID:"
+
+#: gui/infopane.cpp:195
+#, kde-format
+msgctxt "@label device"
+msgid "Chunk Size:"
+msgstr "اندازهٔ تکه (Chunk):"
+
+#: gui/infopane.cpp:196
+#, kde-format
+msgctxt "@label device"
+msgid "Total Chunk:"
+msgstr "مجموع تکه‌ها:"
+
+#: gui/infopane.cpp:197
+#, kde-format
+msgctxt "@label device"
+msgid "Array Size:"
+msgstr "اندازهٔ آرایه:"
+
+#: gui/insertdialog.cpp:32
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Insert a partition"
+msgstr "درج یک پارتیشن"
+
+#: gui/listphysicalvolumes.cpp:39
+#, kde-kuit-format
+msgctxt "@item:inlistbox Device | Capacity"
+msgid "%1 | %2"
+msgstr "%1 | %2"
+
+#: gui/mainwindow.cpp:169
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Partition Manager requires privileges in order to work. Please refresh the "
+"devices and authenticate when prompted."
+msgstr ""
+"مدیر پارتیشن برای کار کردن به دسترسی‌های ویژه نیاز دارد. لطفاً دستگاه‌ها را "
+"تازه‌سازی کنید و هنگام درخواست، هویت‌سنجی را انجام دهید."
+
+#: gui/mainwindow.cpp:237
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Do you really want to quit the application?</para><para>There is still"
+" an operation pending.</para>"
+msgid_plural ""
+"<para>Do you really want to quit the application?</para><para>There are "
+"still %1 operations pending.</para>"
+msgstr[0] ""
+"<para>آیا واقعاً می‌خواهید از برنامه خارج شوید؟</para><para>هنوز یک عملیات "
+"در انتظار است.</para>"
+msgstr[1] ""
+"<para>آیا واقعاً می‌خواهید از برنامه خارج شوید؟</para><para>هنوز %1 عملیات "
+"در انتظار هستند.</para>"
+
+#: gui/mainwindow.cpp:239
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Discard Pending Operations and Quit?"
+msgstr "عملیات‌های در انتظار نادیده گرفته شده و خارج شوید؟"
+
+#: gui/mainwindow.cpp:240
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Quit <application>%1</application>"
+msgstr "خروج از <application>%1</application>"
+
+#: gui/mainwindow.cpp:282
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Undo"
+msgstr "واگرد"
+
+#: gui/mainwindow.cpp:283
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Undo the last operation"
+msgstr "واگرد آخرین عملیات"
+
+#: gui/mainwindow.cpp:284
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Remove the last operation from the list."
+msgstr "حذف آخرین عملیات از فهرست."
+
+#: gui/mainwindow.cpp:291
+#, kde-kuit-format
+msgctxt "@action:inmenu clear the list of operations"
+msgid "Clear"
+msgstr "پاک‌سازی"
+
+#: gui/mainwindow.cpp:292
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Clear all operations"
+msgstr "پاک‌سازی همهٔ عملیات‌ها"
+
+#: gui/mainwindow.cpp:293
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Empty the list of pending operations."
+msgstr "خالی کردن فهرست عملیات‌های در انتظار."
+
+#: gui/mainwindow.cpp:299
+#, kde-kuit-format
+msgctxt "@action:inmenu apply all operations"
+msgid "Apply"
+msgstr "اعمال"
+
+#: gui/mainwindow.cpp:300
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Apply all operations"
+msgstr "اعمال همهٔ عملیات‌ها"
+
+#: gui/mainwindow.cpp:301
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Apply the pending operations in the list."
+msgstr "اعمال عملیات‌های در انتظار در فهرست."
+
+#: gui/mainwindow.cpp:308
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "New Partition Table"
+msgstr "جدول افراز جدید"
+
+#: gui/mainwindow.cpp:309
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Create a new partition table"
+msgstr "ایجاد یک جدول افراز جدید"
+
+#: gui/mainwindow.cpp:310
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Create a new and empty partition table on a device."
+msgstr "ایجاد یک جدول افراز جدید و خالی روی یک دستگاه."
+
+#: gui/mainwindow.cpp:317
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Export Partition Table"
+msgstr "برون‌ریزی جدول افراز"
+
+#: gui/mainwindow.cpp:318
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Export a partition table"
+msgstr "برون‌ریزی یک جدول افراز"
+
+#: gui/mainwindow.cpp:319
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Export the device's partition table to a text file."
+msgstr "برون‌ریزی جدول افراز دستگاه در یک پروندهٔ متنی."
+
+#: gui/mainwindow.cpp:325
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Import Partition Table"
+msgstr "درون‌ریزی جدول افراز"
+
+#: gui/mainwindow.cpp:326
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Import a partition table"
+msgstr "درون‌ریزی یک جدول افراز"
+
+#: gui/mainwindow.cpp:327
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Import a partition table from a text file."
+msgstr "درون‌ریزی یک جدول افراز از یک پروندهٔ متنی."
+
+#: gui/mainwindow.cpp:334
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Volume Group"
+msgstr "حذف گروه حجم"
+
+#: gui/mainwindow.cpp:335
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove selected Volume Group"
+msgstr "حذف گروه حجم برگزیده"
+
+#: gui/mainwindow.cpp:336
+#, kde-format
+msgctxt "@info:status"
+msgid "Remove selected Volume Group."
+msgstr "حذف گروه حجم برگزیده."
+
+#: gui/mainwindow.cpp:344
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Resize Volume Group"
+msgstr "تغییر اندازهٔ گروه حجم"
+
+#: gui/mainwindow.cpp:345
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Resize selected Volume Group"
+msgstr "تغییر اندازهٔ گروه حجم برگزیده"
+
+#: gui/mainwindow.cpp:346
+#, kde-format
+msgctxt "@info:status"
+msgid "Extend or reduce selected Volume Group."
+msgstr "گسترش یا کاهش گروه حجم برگزیده."
+
+#: gui/mainwindow.cpp:354
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Deactivate Volume Group"
+msgstr "غیرفعال‌سازی گروه حجم"
+
+#: gui/mainwindow.cpp:355
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Deactivate selected Volume Group"
+msgstr "غیرفعال‌سازی گروه حجم برگزیده"
+
+#: gui/mainwindow.cpp:356
+#, kde-format
+msgctxt "@info:status"
+msgid "Deactivate selected Volume Group before unplugging removable devices."
+msgstr "پیش از جدا کردن دستگاه‌های جداشدنی، گروه حجم برگزیده را غیرفعال کنید."
+
+#: gui/mainwindow.cpp:362
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "SMART Status"
+msgstr "وضعیت SMART"
+
+#: gui/mainwindow.cpp:363
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Show SMART status"
+msgstr "نمایش وضعیت SMART"
+
+#: gui/mainwindow.cpp:364
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Show the device's SMART status if supported"
+msgstr "نمایش وضعیت SMART دستگاه در صورت پشتیبانی"
+
+#: gui/mainwindow.cpp:369
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Benchmark"
+msgstr "سنجش کارایی"
+
+#: gui/mainwindow.cpp:370
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Measure device read performance"
+msgstr "اندازه‌گیری عملکرد خواندن دستگاه"
+
+#: gui/mainwindow.cpp:371
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Measure the device's read rate and access time"
+msgstr "اندازه‌گیری نرخ خواندن و زمان دسترسی دستگاه"
+
+#: gui/mainwindow.cpp:377 gui/mainwindow.cpp:477
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+#: gui/mainwindow.cpp:378
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Show device properties dialog"
+msgstr "نمایش گفت‌وگوی ویژگی‌های دستگاه"
+
+#: gui/mainwindow.cpp:379
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "View and modify device properties"
+msgstr "مشاهده و تغییر ویژگی‌های دستگاه"
+
+#: gui/mainwindow.cpp:386
+#, kde-kuit-format
+msgctxt "@action:inmenu create a new partition"
+msgid "New"
+msgstr "جدید"
+
+#: gui/mainwindow.cpp:387
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "New partition"
+msgstr "افراز جدید"
+
+#: gui/mainwindow.cpp:388
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Create a new partition."
+msgstr "ایجاد یک افراز جدید."
+
+#: gui/mainwindow.cpp:395
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Resize/Move"
+msgstr "تغییر اندازه/جابه‌جایی"
+
+#: gui/mainwindow.cpp:396
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Resize or move partition"
+msgstr "تغییر اندازه یا جابه‌جایی پارتیشن"
+
+#: gui/mainwindow.cpp:397
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Shrink, grow or move an existing partition."
+msgstr "کوچک کردن، بزرگ کردن یا جابه‌جایی یک پارتیشن موجود."
+
+#: gui/mainwindow.cpp:404
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "حذف"
+
+#: gui/mainwindow.cpp:405 gui/mainwindow.cpp:671
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Delete partition"
+msgstr "حذف پارتیشن"
+
+#: gui/mainwindow.cpp:406
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Delete a partition."
+msgstr "حذف یک پارتیشن."
+
+#: gui/mainwindow.cpp:413
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Shred"
+msgstr "امحا"
+
+#: gui/mainwindow.cpp:414
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Shred partition"
+msgstr "امحای پارتیشن"
+
+#: gui/mainwindow.cpp:415
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Shred a partition so that its contents cannot be restored."
+msgstr "امحای یک پارتیشن به‌طوری که محتویات آن قابل بازیابی نباشد."
+
+#: gui/mainwindow.cpp:422
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "رونوشت"
+
+#: gui/mainwindow.cpp:423
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Copy partition"
+msgstr "رونوشت از افراز"
+
+#: gui/mainwindow.cpp:424
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Copy an existing partition."
+msgstr "رونوشت از یک افراز موجود."
+
+#: gui/mainwindow.cpp:431
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "چسباندن"
+
+#: gui/mainwindow.cpp:432
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Paste partition"
+msgstr "چسباندن افراز"
+
+#: gui/mainwindow.cpp:433
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Paste a copied partition."
+msgstr "چسباندن یک افراز رونوشت‌شده."
+
+#: gui/mainwindow.cpp:440
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Edit Mount Point"
+msgstr "ویرایش نقطهٔ اتصال"
+
+#: gui/mainwindow.cpp:441
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Edit mount point"
+msgstr "ویرایش نقطهٔ اتصال"
+
+#: gui/mainwindow.cpp:442
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Edit a partition's mount point and options."
+msgstr "ویرایش نقطهٔ اتصال و گزینه‌های یک افراز."
+
+#: gui/mainwindow.cpp:447
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Mount"
+msgstr "سوار کردن"
+
+#: gui/mainwindow.cpp:448
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Mount or unmount partition"
+msgstr "سوار یا پیاده کردن افراز"
+
+#: gui/mainwindow.cpp:449
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Mount or unmount a partition."
+msgstr "سوار یا پیاده کردن یک افراز."
+
+#: gui/mainwindow.cpp:454
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Take Ownership"
+msgstr "در دست گرفتن مالکیت"
+
+#: gui/mainwindow.cpp:455
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Take ownership of the file system"
+msgstr "در دست گرفتن مالکیت سامانهٔ پرونده"
+
+#: gui/mainwindow.cpp:456
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Change the ownership of the mounted file system to the current user."
+msgstr "تغییر مالکیت سامانهٔ پروندهٔ سوارشده به کاربر فعلی."
+
+#: gui/mainwindow.cpp:462
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Unlock"
+msgstr "باز کردن قفل"
+
+#: gui/mainwindow.cpp:463
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Unlock or lock encrypted partition"
+msgstr "باز کردن یا بستن قفل افراز رمزنگاری‌شده"
+
+#: gui/mainwindow.cpp:464
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Unlock or lock encrypted partition."
+msgstr "باز کردن یا بستن قفل افراز رمزنگاری‌شده."
+
+#: gui/mainwindow.cpp:469
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Check"
+msgstr "بررسی"
+
+#: gui/mainwindow.cpp:470
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Check partition"
+msgstr "بررسی افراز"
+
+#: gui/mainwindow.cpp:471
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Check a filesystem on a partition for errors."
+msgstr "بررسی خطاهای سامانهٔ پرونده روی یک افراز."
+
+#: gui/mainwindow.cpp:478
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Show partition properties dialog"
+msgstr "نمایش گفتگوی ویژگی‌های افراز"
+
+#: gui/mainwindow.cpp:479
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "View and modify partition properties (label, partition flags, etc.)"
+msgstr "مشاهده و تغییر ویژگی‌های افراز (برچسب، پرچم‌های افراز و غیره)"
+
+#: gui/mainwindow.cpp:485
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Backup"
+msgstr "پشتیبان‌گیری"
+
+#: gui/mainwindow.cpp:486
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Backup partition"
+msgstr "پشتیبان‌گیری از افراز"
+
+#: gui/mainwindow.cpp:487
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Backup a partition to an image file."
+msgstr "پشتیبان‌گیری از یک افراز در پروندهٔ تصویر."
+
+#: gui/mainwindow.cpp:493
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "بازیابی"
+
+#: gui/mainwindow.cpp:494
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Restore partition"
+msgstr "بازیابی افراز"
+
+#: gui/mainwindow.cpp:495
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Restore a partition from an image file."
+msgstr "بازیابی یک افراز از پروندهٔ تصویر."
+
+#: gui/mainwindow.cpp:502
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Volume Group"
+msgstr "گروه حجم جدید"
+
+#: gui/mainwindow.cpp:503
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new LVM Volume Group"
+msgstr "ایجاد یک گروه حجم LVM جدید"
+
+#: gui/mainwindow.cpp:504
+#, kde-format
+msgctxt "@info:status"
+msgid "Create a new LVM Volume Group as a device."
+msgstr "ایجاد یک گروه حجم LVM جدید به عنوان یک دستگاه."
+
+#: gui/mainwindow.cpp:510
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "File System Support"
+msgstr "پشتیبانی از سامانهٔ پرونده"
+
+#: gui/mainwindow.cpp:511
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View file system support information"
+msgstr "مشاهدهٔ اطلاعات پشتیبانی از سامانه‌های پرونده"
+
+#: gui/mainwindow.cpp:512
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Show information about supported file systems."
+msgstr "نمایش اطلاعات دربارهٔ سامانه‌های پروندهٔ پشتیبانی‌شده."
+
+#: gui/mainwindow.cpp:516
+#, kde-kuit-format
+msgctxt "@action:inmenu refresh list of devices"
+msgid "Refresh Devices"
+msgstr "بازخوانی دستگاه‌ها"
+
+#: gui/mainwindow.cpp:517
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Refresh all devices"
+msgstr "بازخوانی همهٔ دستگاه‌ها"
+
+#: gui/mainwindow.cpp:518
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Renew the devices list."
+msgstr "تازه‌سازی فهرست دستگاه‌ها."
+
+#: gui/mainwindow.cpp:534
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Clear Log"
+msgstr "پاک‌سازی گزارش"
+
+#: gui/mainwindow.cpp:535
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Clear the log output"
+msgstr "پاک‌سازی خروجی گزارش"
+
+#: gui/mainwindow.cpp:536
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Clear the log output panel."
+msgstr "پاک‌سازی تابلوی خروجی گزارش."
+
+#: gui/mainwindow.cpp:541
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Save Log"
+msgstr "ذخیرهٔ گزارش"
+
+#: gui/mainwindow.cpp:542
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Save the log output"
+msgstr "ذخیرهٔ خروجی گزارش"
+
+#: gui/mainwindow.cpp:543
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Save the log output to a file."
+msgstr "ذخیرهٔ خروجی گزارش در یک پرونده."
+
+#: gui/mainwindow.cpp:549
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "About KPMcore Library"
+msgstr "دربارهٔ کتابخانهٔ KPMcore"
+
+#: gui/mainwindow.cpp:550
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Show About KPMcore dialog"
+msgstr "نمایش گفت‌وگوی دربارهٔ KPMcore"
+
+#: gui/mainwindow.cpp:551
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Show About KPMcore dialog."
+msgstr "نمایش گفت‌وگوی دربارهٔ KPMcore."
+
+#: gui/mainwindow.cpp:673
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Cannot delete partition. Please make sure it is unmounted or locked before "
+"proceeding."
+msgstr ""
+"نمی‌توان پارتیشن را حذف کرد. لطفاً پیش از ادامه مطمئن شوید که پیاده یا قفل "
+"شده است."
+
+#: gui/mainwindow.cpp:749
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "One pending operation"
+msgid_plural "%1 pending operations"
+msgstr[0] "یک عملیات در انتظار"
+msgstr[1] "%1 عملیات در انتظار"
+
+#: gui/mainwindow.cpp:844
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Using backend plugin: %1 (%2)"
+msgstr "استفاده از افزونهٔ پشتیبان: %1 (%2)"
+
+#: gui/mainwindow.cpp:848
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Scanning devices..."
+msgstr "در حال اسکن دستگاه‌ها…"
+
+#: gui/mainwindow.cpp:886
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Scan finished."
+msgstr "پویش پایان یافت."
+
+#: gui/mainwindow.cpp:950
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Do you really want to rescan the devices?</para><para><warning>This "
+"will also clear the list of pending operations.</warning></para>"
+msgstr ""
+"<para>واقعاً می‌خواهید دستگاه‌ها را دوباره پویش "
+"کنید؟</para><para><warning>با این کار فهرست عملیات‌های در انتظار نیز پاک "
+"خواهد شد.</warning></para>"
+
+#: gui/mainwindow.cpp:952
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Really Rescan the Devices?"
+msgstr "پویش دوبارهٔ دستگاه‌ها؟"
+
+#: gui/mainwindow.cpp:953
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Rescan Devices"
+msgstr "پویش دوبارهٔ دستگاه‌ها"
+
+#: gui/mainwindow.cpp:979
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Do you really want to apply the pending operations listed "
+"below?</para><para><warning>This will permanently modify your "
+"disks.</warning></para>"
+msgstr ""
+"<para>واقعاً می‌خواهید عملیات‌های در انتظار فهرست‌شده در زیر را اعمال "
+"کنید؟</para><para><warning>با این کار دیسک‌های شما برای همیشه تغییر خواهند "
+"کرد.</warning></para>"
+
+#: gui/mainwindow.cpp:981
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Apply Pending Operations?"
+msgstr "اعمال عملیات‌های در انتظار؟"
+
+#: gui/mainwindow.cpp:982
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Apply Pending Operations"
+msgstr "اعمال عملیات‌های در انتظار"
+
+#: gui/mainwindow.cpp:984
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Applying operations..."
+msgstr "در حال اعمال عملیات‌ها..."
+
+#: gui/mainwindow.cpp:1009
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Undoing operation: %1"
+msgstr "در حال واگردانی عملیات: %1"
+
+#: gui/mainwindow.cpp:1025
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Do you really want to clear the list of pending operations?"
+msgstr "واقعاً می‌خواهید فهرست عملیات‌های در انتظار را پاک کنید؟"
+
+#: gui/mainwindow.cpp:1026
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Clear Pending Operations?"
+msgstr "عملیات‌های در انتظار پاک شوند؟"
+
+#: gui/mainwindow.cpp:1027
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Clear Pending Operations"
+msgstr "پاک کردن عملیات‌های در انتظار"
+
+#: gui/mainwindow.cpp:1029
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Clearing the list of pending operations."
+msgstr "در حال پاک‌سازی فهرست عملیات‌های در انتظار."
+
+#: gui/mainwindow.cpp:1071
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not open input file <filename>%1</filename> for import"
+msgstr "پروندهٔ ورودی <filename>%1</filename> برای درون‌ریزی باز نشد"
+
+#: gui/mainwindow.cpp:1071 gui/mainwindow.cpp:1081 gui/mainwindow.cpp:1089
+#: gui/mainwindow.cpp:1095
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Error Importing Partition Table"
+msgstr "خطا در درون‌ریزی جدول پارتیشن"
+
+#: gui/mainwindow.cpp:1089
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not open input file <filename>%1</filename> for import: %2"
+msgstr "پروندهٔ ورودی <filename>%1</filename> برای درون‌ریزی باز نشد: %2"
+
+#: gui/mainwindow.cpp:1095
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Could not open temporary file <filename>%1</filename> while trying to import"
+" from <filename>%2</filename>."
+msgstr ""
+"هنگام تلاش برای درون‌ریزی از <filename>%2</filename>، پروندهٔ موقت "
+"<filename>%1</filename> باز نشد."
+
+#: gui/mainwindow.cpp:1125
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The import file <filename>%1</filename> does not contain a valid partition "
+"table."
+msgstr ""
+"پروندهٔ درون‌ریزی <filename>%1</filename> شامل یک جدول پارتیشن معتبر نیست."
+
+#: gui/mainwindow.cpp:1125 gui/mainwindow.cpp:1135 gui/mainwindow.cpp:1142
+#: gui/mainwindow.cpp:1147 gui/mainwindow.cpp:1157 gui/mainwindow.cpp:1170
+#: gui/mainwindow.cpp:1175 gui/mainwindow.cpp:1194 gui/mainwindow.cpp:1199
+#: gui/mainwindow.cpp:1204 gui/mainwindow.cpp:1211 gui/mainwindow.cpp:1497
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Error While Importing Partition Table"
+msgstr "خطا هنگام درون‌ریزی جدول پارتیشن"
+
+#: gui/mainwindow.cpp:1135
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Found more than one partition table type in import file (line %1)."
+msgstr "بیش از یک نوع جدول پارتیشن در پروندهٔ درون‌ریزی پیدا شد (سطر %1)."
+
+#: gui/mainwindow.cpp:1142
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Partition table type \"%1\" is unknown (line %2)."
+msgstr "نوع جدول افراز «%1» ناشناخته است (خط %2)."
+
+#: gui/mainwindow.cpp:1147
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Partition table type \"%1\" is not supported for import (line %2)."
+msgstr "نوع جدول افراز «%1» برای درون‌ریزی پشتیبانی نمی‌شود (خط %2)."
+
+#: gui/mainwindow.cpp:1157
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Found partition but no partition table type (line %1)."
+msgstr "افراز پیدا شد اما نوع جدول افراز مشخص نیست (خط %1)."
+
+#: gui/mainwindow.cpp:1170
+#, kde-kuit-format
+msgctxt "@info the partition is NOT a device path, just a number"
+msgid "Partition %1 would be outside the device's boundaries (line %2)."
+msgstr "افراز %1 خارج از محدودهٔ دستگاه خواهد بود (خط %2)."
+
+#: gui/mainwindow.cpp:1175
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Partition %1 has end before start sector (line %2)."
+msgstr "بخش پایانی افراز %1 قبل از بخش آغازین آن است (خط %2)."
+
+#: gui/mainwindow.cpp:1194
+#, kde-kuit-format
+msgctxt "@info the partition is NOT a device path, just a number"
+msgid "Unrecognized partition role \"%1\" for partition %2 (line %3)."
+msgstr "نقش افراز ناشناختهٔ «%1» برای افراز %2 (خط %3)."
+
+#: gui/mainwindow.cpp:1199
+#, kde-kuit-format
+msgctxt "@info the partition is NOT a device path, just a number"
+msgid ""
+"No parent partition or partition table found for partition %1 (line %2)."
+msgstr "هیچ افراز والد یا جدول افرازی برای افراز %1 پیدا نشد (خط %2)."
+
+#: gui/mainwindow.cpp:1204
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The partition table type \"%1\" does not support extended partitions, but "
+"one was found (line %2)."
+msgstr ""
+"نوع جدول افراز «%1» از افرازهای گسترش‌یافته پشتیبانی نمی‌کند، اما یکی پیدا "
+"شد (خط %2)."
+
+#: gui/mainwindow.cpp:1211
+#, kde-kuit-format
+msgctxt "@info the partition is NOT a device path, just a number"
+msgid "Could not create file system \"%1\" for partition %2 (line %3)."
+msgstr "ایجاد سامانهٔ پروندهٔ «%1» برای افراز %2 امکان‌پذیر نبود (خط %3)."
+
+#: gui/mainwindow.cpp:1226
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Could not parse line %1 from import file. Ignoring it."
+msgstr "تجزیهٔ خط %1 از پروندهٔ درون‌ریزی ممکن نشد. نادیده گرفته می‌شود."
+
+#: gui/mainwindow.cpp:1243
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Error Exporting Partition Table"
+msgstr "خطا در برون‌ریزی جدول پارتیشن"
+
+#: gui/mainwindow.cpp:1418 gui/mainwindow.cpp:1424 gui/mainwindow.cpp:1460
+#, kde-kuit-format
+msgid "%1%2"
+msgstr "%1%2"
+
+#: gui/mainwindow.cpp:1424 gui/mainwindow.cpp:1435
+#, kde-kuit-format
+msgid "<tr><td>%1</td><td>%2</td><td>%3</td><td><link>%4</link></td></tr>"
+msgstr "<tr><td>%1</td><td>%2</td><td>%3</td><td><link>%4</link></td></tr>"
+
+#: gui/mainwindow.cpp:1472
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>No support tools were found for file systems currently present on hard"
+" disks in this computer:</para><table style='margin-top:12px'><tr><td "
+"style='font-weight:bold;padding-right:12px;white-"
+"space:nowrap;'>Partition</td><td style='font-weight:bold;padding-"
+"right:12px;white-space:nowrap;'>File System</td><td style='font-"
+"weight:bold;padding-right:12px;white-space:nowrap;'>Support Tools</td><td "
+"style='font-weight:bold;padding-right:12px;white-"
+"space:nowrap;'>URL</td></tr>%1</table><para>As long as the support tools for"
+" these file systems are not installed you will not be able to modify "
+"them.</para><para>You should find packages with these support tools in your "
+"distribution's package manager.</para>"
+msgstr ""
+"<para>هیچ ابزار پشتیبانی برای سامانه‌های پروندهٔ موجود در دیسک‌های سخت این "
+"رایانه یافت نشد:</para><table style='margin-top:12px'><tr><td style='font-"
+"weight:bold;padding-right:12px;white-space:nowrap;'>پارتیشن</td><td "
+"style='font-weight:bold;padding-right:12px;white-space:nowrap;'>سامانه "
+"پرونده</td><td style='font-weight:bold;padding-right:12px;white-"
+"space:nowrap;'>ابزارهای پشتیبانی</td><td style='font-weight:bold;padding-"
+"right:12px;white-space:nowrap;'>نشانی وب</td></tr>%1</table><para>تا زمانی "
+"که ابزارهای پشتیبانی این سامانه‌های پرونده نصب نشده باشند، قادر به تغییر "
+"آن‌ها نخواهید بود.</para><para>باید بسته‌های حاوی این ابزارهای پشتیبانی را "
+"در مدیر بسته‌های توزیع خود پیدا کنید.</para>"
+
+#: gui/mainwindow.cpp:1485
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Missing File System Support Packages"
+msgstr "بسته‌های پشتیبانی سامانه پرونده ناموجود است"
+
+#: gui/mainwindow.cpp:1496
+#, kde-kuit-format
+msgctxt "@info device should be inside of /dev"
+msgid "Unrecognized device \"%1\" "
+msgstr "دستگاه ناشناختهٔ «%1» "
+
+#: gui/mainwindow.cpp:1505
+#, kde-kuit-format
+msgctxt "@info device should be inside of /dev"
+msgid "Unrecognized partition \"%1\" "
+msgstr "پارتیشن ناشناختهٔ «%1» "
+
+#: gui/mainwindow.cpp:1506
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Error opening partition"
+msgstr "خطا در باز کردن پارتیشن"
+
+#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindowBase)
+#. i18n: ectx: property (windowTitle), widget (QWidget,
+#. PartitionManagerWidgetBase)
+#: gui/mainwindowbase.ui:18 gui/partitionmanagerwidgetbase.ui:20
+#, kde-format
+msgctxt "@title:window"
+msgid "KDE Partition Manager"
+msgstr "مدیر پارتیشن KDE"
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, m_DockDevices)
+#: gui/mainwindowbase.ui:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Devices"
+msgstr "دستگاه‌ها"
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, m_DockOperations)
+#: gui/mainwindowbase.ui:38
+#, kde-format
+msgctxt "@title:window"
+msgid "Pending Operations"
+msgstr "عملیات‌های در انتظار"
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, m_DockLog)
+#: gui/mainwindowbase.ui:59
+#, kde-format
+msgctxt "@title:window"
+msgid "Log Output"
+msgstr "خروجی گزارش"
+
+#: gui/newdialog.cpp:49
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Create a new partition"
+msgstr "ایجاد یک پارتیشن جدید"
+
+#. i18n: ectx: ToolBar (partitionToolBar)
+#: gui/partitionmanagerui.rc:12
+#, kde-format
+msgctxt "@title:menu"
+msgid "Partition Manager Toolbar"
+msgstr "نوار ابزار مدیریت پارتیشن"
+
+#. i18n: ectx: Menu (device)
+#: gui/partitionmanagerui.rc:30
+#, kde-format
+msgctxt "@title:menu"
+msgid "Device"
+msgstr "دستگاه"
+
+#. i18n: ectx: Menu (selectedDevice)
+#: gui/partitionmanagerui.rc:32
+#, kde-format
+msgctxt "@title:menu"
+msgid "Select Current Device"
+msgstr "انتخاب دستگاه فعلی"
+
+#. i18n: ectx: Menu (tools)
+#: gui/partitionmanagerui.rc:50
+#, kde-format
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "ابزارها"
+
+#. i18n: ectx: Menu (partition)
+#: gui/partitionmanagerui.rc:56
+#, kde-format
+msgctxt "@title:menu"
+msgid "Partition"
+msgstr "پارتیشن"
+
+#. i18n: ectx: Menu (panels)
+#: gui/partitionmanagerui.rc:79
+#, kde-format
+msgctxt "@title:menu"
+msgid "Panels Shown"
+msgstr "تابلوهای نمایش‌داده‌شده"
+
+#: gui/partitionmanagerwidget.cpp:214
+#, kde-kuit-format
+msgctxt "@item:intable Encrypted file systems, e.g. btrfs[Encrypted]"
+msgid "%1 [Encrypted]"
+msgstr "%1 [رمزگذاری‌شده]"
+
+#: gui/partitionmanagerwidget.cpp:425
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file system on partition <filename>%1</filename> could not be mounted."
+msgstr "سیستم فایل روی افراز <filename>%1</filename> سوار نشد."
+
+#: gui/partitionmanagerwidget.cpp:425
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Could Not Mount File System."
+msgstr "سیستم فایل سوار نشد."
+
+#: gui/partitionmanagerwidget.cpp:428
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file system on partition <filename>%1</filename> could not be unmounted."
+msgstr "سیستم فایل روی افراز <filename>%1</filename> پیاده نشد."
+
+#: gui/partitionmanagerwidget.cpp:428
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Could Not Unmount File System."
+msgstr "سیستم فایل پیاده نشد."
+
+#: gui/partitionmanagerwidget.cpp:463
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Take Ownership of File System"
+msgstr "گرفتن مالکیت سیستم فایل"
+
+#: gui/partitionmanagerwidget.cpp:469
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This will set the ownership of <filename>%1</filename> to user "
+"<emphasis>%2</emphasis>."
+msgstr ""
+"این کار، مالکیت <filename>%1</filename> را برای کاربر "
+"<emphasis>%2</emphasis> تنظیم می‌کند."
+
+#: gui/partitionmanagerwidget.cpp:476
+#, kde-kuit-format
+msgctxt "@option:check"
+msgid "Apply recursively to all subdirectories and files"
+msgstr "اعمال بازگشتی روی همهٔ زیرشاخه‌ها و پرونده‌ها"
+
+#: gui/partitionmanagerwidget.cpp:484
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This will also change the ownership of all subdirectories and files. This "
+"may cause problems if some of them are owned by other users."
+msgstr ""
+"این کار مالکیت همهٔ زیرشاخه‌ها و پرونده‌ها را نیز تغییر می‌دهد. اگر مالک "
+"برخی از آن‌ها کاربران دیگری باشند، ممکن است مشکلاتی ایجاد شود."
+
+#: gui/partitionmanagerwidget.cpp:491
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Take Ownership"
+msgstr "گرفتن مالکیت"
+
+#: gui/partitionmanagerwidget.cpp:509
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Taking ownership of <b>%1</b>…"
+msgstr "در حال گرفتن مالکیت <b>%1</b>…"
+
+#: gui/partitionmanagerwidget.cpp:511
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Take Ownership"
+msgstr "در دست گرفتن مالکیت"
+
+#: gui/partitionmanagerwidget.cpp:526
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not take ownership of <filename>%1</filename>."
+msgstr "مالکیت <filename>%1</filename> در دست گرفته نشد."
+
+#: gui/partitionmanagerwidget.cpp:529
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Taking Ownership Failed"
+msgstr "گرفتن مالکیت ناموفق بود"
+
+#: gui/partitionmanagerwidget.cpp:534
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Ownership of <filename>%1</filename> was successfully changed to "
+"<emphasis>%2</emphasis>."
+msgstr ""
+"مالکیت <filename>%1</filename> با موفقیت به <emphasis>%2</emphasis> تغییر "
+"یافت."
+
+#: gui/partitionmanagerwidget.cpp:536
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Ownership Changed"
+msgstr "مالکیت تغییر کرد"
+
+#: gui/partitionmanagerwidget.cpp:564
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The encrypted file system on partition <filename>%1</filename> could not be "
+"unlocked."
+msgstr ""
+"قفل سامانهٔ پرونده رمزگذاری‌شده در پارتیشن <filename>%1</filename> باز نشد."
+
+#: gui/partitionmanagerwidget.cpp:570
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Could Not Unlock Encrypted File System."
+msgstr "قفل سامانهٔ پرونده رمزگذاری‌شده باز نشد."
+
+#: gui/partitionmanagerwidget.cpp:575
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The encrypted file system on partition <filename>%1</filename> could not be "
+"locked."
+msgstr ""
+"سامانهٔ پرونده رمزگذاری‌شده در پارتیشن <filename>%1</filename> قفل نشد."
+
+#: gui/partitionmanagerwidget.cpp:581
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Could Not Lock Encrypted File System."
+msgstr "سامانهٔ پرونده رمزگذاری‌شده قفل نشد."
+
+#: gui/partitionmanagerwidget.cpp:610
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>There is already one primary partition on this device. This is the "
+"maximum number its partition table type can handle.</para><para>You cannot "
+"create, paste or restore a primary partition on it before you delete an "
+"existing one.</para>"
+msgid_plural ""
+"<para>There are already %1 primary partitions on this device. This is the "
+"maximum number its partition table type can handle.</para><para>You cannot "
+"create, paste or restore a primary partition on it before you delete an "
+"existing one.</para>"
+msgstr[0] ""
+"<para>در حال حاضر یک پارتیشن اصلی روی این دستگاه وجود دارد. این بیشترین "
+"تعدادی است که نوع جدول پارتیشن آن پشتیبانی می‌کند.</para><para>پیش از حذف "
+"یکی از پارتیشن‌های موجود، نمی‌توانید پارتیشن اصلی جدیدی روی آن ایجاد، "
+"جای‌گذاری یا بازیابی کنید.</para>"
+msgstr[1] ""
+"<para>در حال حاضر %1 پارتیشن اصلی روی این دستگاه وجود دارد. این بیشترین "
+"تعدادی است که نوع جدول پارتیشن آن پشتیبانی می‌کند.</para><para>پیش از حذف "
+"یکی از پارتیشن‌های موجود، نمی‌توانید پارتیشن اصلی جدیدی روی آن ایجاد، "
+"جای‌گذاری یا بازیابی کنید.</para>"
+
+#: gui/partitionmanagerwidget.cpp:614
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Too Many Primary Partitions."
+msgstr "تعداد پارتیشن‌های اصلی بیش از حد است."
+
+#: gui/partitionmanagerwidget.cpp:677
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The partition <filename>%1</filename> cannot currently be deleted "
+"because one or more partitions with higher logical numbers are still "
+"mounted.</para><para>Please unmount all partitions with higher logical "
+"numbers than %2 first.</para>"
+msgstr ""
+"<para>پارتیشن <filename>%1</filename> در حال حاضر قابل حذف نیست، زیرا یک یا "
+"چند پارتیشن با شماره‌های منطقی بالاتر هنوز سوار (mount) "
+"هستند.</para><para>لطفاً ابتدا تمام پارتیشن‌های با شماره منطقی بالاتر از %2 "
+"را پیاده (unmount) کنید.</para>"
+
+#: gui/partitionmanagerwidget.cpp:680
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Cannot Delete Partition."
+msgstr "عدم امکان حذف پارتیشن."
+
+#: gui/partitionmanagerwidget.cpp:689
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to delete the partition that is currently in the "
+"clipboard? It will no longer be available for pasting after it has been "
+"deleted."
+msgstr ""
+"آیا واقعاً می‌خواهید پارتیشنی را که در حال حاضر در بریده‌دان است حذف کنید؟ "
+"پس از حذف، دیگر برای جای‌گذاری در دسترس نخواهد بود."
+
+#: gui/partitionmanagerwidget.cpp:691
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Really Delete Partition in the Clipboard?"
+msgstr "آیا پارتیشن موجود در بریده‌دان حذف شود؟"
+
+#: gui/partitionmanagerwidget.cpp:692
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Delete It"
+msgstr "حذفش کن"
+
+#: gui/partitionmanagerwidget.cpp:745
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid ""
+"Partition <filename>%1</filename> has the same position and size after "
+"resize/move. Ignoring operation."
+msgstr ""
+"پارتیشن <filename>%1</filename> پس از تغییر اندازه/انتقال، همان موقعیت و "
+"اندازه قبلی را دارد. عملیات نادیده گرفته شد."
+
+#: gui/partitionmanagerwidget.cpp:773
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Partition <filename>%1</filename> has been copied to the clipboard."
+msgstr "پارتیشن <filename>%1</filename> در بریده‌دان کپی شد."
+
+#: gui/partitionmanagerwidget.cpp:836
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><warning>You are about to lose all data on partition "
+"<filename>%1</filename>.</warning></para><para>Overwriting one partition "
+"with another (or with an image file) will destroy all data on this target "
+"partition.</para><para>If you continue now and apply the resulting operation"
+" in the main window, all data currently stored on <filename>%1</filename> "
+"will unrecoverably be overwritten.</para>"
+msgstr ""
+"<para><warning>در حال از دست دادن همه داده‌های پارتیشن "
+"<filename>%1</filename> هستید.</warning></para><para>رونویسی یک پارتیشن با "
+"پارتیشنی دیگر (یا با یک پرونده تصویر) همه داده‌های این پارتیشن مقصد را از "
+"بین خواهد برد.</para><para>اگر اکنون ادامه دهید و عملیات حاصل را در پنجره "
+"اصلی اِعمال کنید، تمام داده‌های ذخیره‌شده فعلی روی <filename>%1</filename> "
+"به طور غیرقابل‌بازگشتی بازنویسی خواهند شد.</para>"
+
+#: gui/partitionmanagerwidget.cpp:844
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Really Overwrite Existing Partition?"
+msgstr "آیا واقعاً پارتیشن موجود رونویسی شود؟"
+
+#: gui/partitionmanagerwidget.cpp:845
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Overwrite Partition"
+msgstr "بازنویسی افراز"
+
+#: gui/partitionmanagerwidget.cpp:853
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The selected partition is not large enough to hold the source "
+"partition or the backup file.</para><para>Pick another target or resize this"
+" partition so it is as large as the source.</para>"
+msgstr ""
+"<para>افراز برگزیده به‌اندازهٔ کافی برای نگهداری افراز مبدأ یا پروندهٔ "
+"پشتیبان بزرگ نیست.</para><para>مقصد دیگری برگزینید یا اندازهٔ این افراز را "
+"تغییر دهید تا به‌اندازهٔ مبدأ شود.</para>"
+
+#: gui/partitionmanagerwidget.cpp:854
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Target Not Large Enough"
+msgstr "مقصد به‌اندازهٔ کافی بزرگ نیست"
+
+#: gui/partitionmanagerwidget.cpp:857
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>It is not possible to create the target partition large enough to hold"
+" the source.</para><para>This may happen if not all partitions on a device "
+"are correctly aligned or when copying a primary partition into an extended "
+"partition.</para>"
+msgstr ""
+"<para>ایجاد افراز مقصد به‌اندازه‌ای که برای نگهداری مبدأ کافی باشد، "
+"امکان‌پذیر نیست.</para><para>این مشکل ممکن است زمانی رخ دهد که همهٔ افرازهای"
+" روی دستگاه به‌درستی هم‌تراز نشده باشند، یا هنگام رونوشت یک افراز اصلی به یک"
+" افراز گسترش‌یافته.</para>"
+
+#: gui/partitionmanagerwidget.cpp:860
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Cannot Create Target Partition."
+msgstr "امکان ایجاد افراز مقصد وجود ندارد."
+
+#: gui/partitionmanagerwidget.cpp:918
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file system in the image file <filename>%1</filename> is too large to be"
+" restored to the selected partition."
+msgstr ""
+"سیستم‌پرونده در پروندهٔ تصویر <filename>%1</filename> برای بازیابی در افراز "
+"برگزیده بیش از حد بزرگ است."
+
+#: gui/partitionmanagerwidget.cpp:918
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Not Enough Space to Restore File System."
+msgstr "فضای کافی برای بازیابی سیستم‌پرونده وجود ندارد."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:79
+#, kde-format
+msgid "Partition"
+msgstr "افراز"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:84
+#, kde-format
+msgid "Type"
+msgstr "نوع"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:89
+#, kde-format
+msgid "Mount Point"
+msgstr "نقطهٔ اتصال"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:94
+#, kde-format
+msgid "Label"
+msgstr "برچسب"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:99
+#, kde-format
+msgid "UUID"
+msgstr "UUID"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:104
+#, kde-format
+msgid "Partition Name"
+msgstr "نام پارتیشن"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:109
+#, kde-format
+msgid "Partition UUID"
+msgstr "UUID پارتیشن"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:114
+#, kde-format
+msgid "Size"
+msgstr "اندازه"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:119
+#, kde-format
+msgid "Used"
+msgstr "استفاده‌شده"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:124
+#, kde-format
+msgid "Available"
+msgstr "در دسترس"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:129
+#, kde-format
+msgid "First Sector"
+msgstr "بخش نخست"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:134
+#, kde-format
+msgid "Last Sector"
+msgstr "بخش پایانی"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:139
+#, kde-format
+msgid "Number of Sectors"
+msgstr "تعداد بخش‌ها"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreePartitions)
+#: gui/partitionmanagerwidgetbase.ui:144
+#, kde-format
+msgid "Flags"
+msgstr "پرچم‌ها"
+
+#: gui/partpropsdialog.cpp:73
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Partition properties: <filename>%1</filename>"
+msgstr "ویژگی‌های افراز: <filename>%1</filename>"
+
+#: gui/partpropsdialog.cpp:133
+#, kde-kuit-format
+msgctxt "@item mountpoint"
+msgid "(none found)"
+msgstr "(موردی پیدا نشد)"
+
+#: gui/partpropsdialog.cpp:138
+#, kde-kuit-format
+msgctxt "@item device path"
+msgid "(not found)"
+msgstr "(پیدا نشد)"
+
+#: gui/partpropsdialog.cpp:144
+#, kde-kuit-format
+msgctxt "@label partition state"
+msgid "idle"
+msgstr "بیکار"
+
+#: gui/partpropsdialog.cpp:147
+#, kde-kuit-format
+msgctxt "@label partition state"
+msgid "At least one logical partition is mounted."
+msgstr "حداقل یک افراز منطقی سوار شده است."
+
+#: gui/partpropsdialog.cpp:149
+#, kde-kuit-format
+msgctxt "@label partition state"
+msgid "mounted on <filename>%1</filename>"
+msgstr "سوارشده روی <filename>%1</filename>"
+
+#: gui/partpropsdialog.cpp:151
+#, kde-kuit-format
+msgctxt "@label partition state"
+msgid "mounted"
+msgstr "سوارشده"
+
+#: gui/partpropsdialog.cpp:155 gui/partpropsdialog.cpp:163
+#, kde-kuit-format
+msgctxt "@item uuid"
+msgid "(none)"
+msgstr "(هیچ)"
+
+#: gui/partpropsdialog.cpp:160
+#, kde-kuit-format
+msgctxt "@item cluster size"
+msgid "(unknown)"
+msgstr "(ناشناخته)"
+
+#: gui/partpropsdialog.cpp:190 gui/partpropsdialog.cpp:191
+#, kde-format
+msgid "%1% — %2"
+msgstr "%1٪ — %2"
+
+#: gui/partpropsdialog.cpp:502
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><warning>You are about to lose all data on partition "
+"<filename>%1</filename>.</warning></para><para>Changing the file system on a"
+" partition already on disk will erase all its contents. If you continue now "
+"and apply the resulting operation in the main window, all data on "
+"<filename>%1</filename> will unrecoverably be lost.</para>"
+msgstr ""
+"<para><warning>در شرف از دست دادن تمام داده‌های موجود در افراز "
+"<filename>%1</filename> هستید.</warning></para><para>تغییر سامانه پرونده در "
+"یک افراز موجود روی دیسک، تمام محتویات آن را پاک خواهد کرد. اگر اکنون ادامه "
+"دهید و عملیات حاصل را در پنجرهٔ اصلی اعمال کنید، تمام داده‌های موجود در "
+"<filename>%1</filename> به طور غیرقابل‌بازگشتی از دست خواهند رفت.</para>"
+
+#: gui/partpropsdialog.cpp:504
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Really Recreate <filename>%1</filename> with File System %2?"
+msgstr "واقعاً <filename>%1</filename> با سامانه پرونده %2 بازسازی شود؟"
+
+#: gui/partpropsdialog.cpp:505
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Change the File System"
+msgstr "تغییر سامانه پرونده"
+
+#: gui/partpropsdialog.cpp:506
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Do Not Change the File System"
+msgstr "سامانه پرونده تغییر نکند"
+
+#: gui/partpropsdialog.cpp:525
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><warning>You are about to lose all data on partition "
+"<filename>%1</filename>.</warning></para><para>Recreating a file system will"
+" erase all its contents. If you continue now and apply the resulting "
+"operation in the main window, all data on <filesystem>%1</filesystem> will "
+"unrecoverably be lost.</para>"
+msgstr ""
+"<para><warning>در شرف از دست دادن تمام داده‌های موجود در افراز "
+"<filename>%1</filename> هستید.</warning></para><para>بازسازی یک سامانه "
+"پرونده تمام محتویات آن را پاک خواهد کرد. اگر اکنون ادامه دهید و عملیات حاصل "
+"را در پنجرهٔ اصلی اعمال کنید، تمام داده‌های موجود در "
+"<filesystem>%1</filesystem> به طور غیرقابل‌بازگشتی از دست خواهند رفت.</para>"
+
+#: gui/partpropsdialog.cpp:527
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Really Recreate File System on <filename>%1</filename>?"
+msgstr "واقعاً سامانه پرونده روی <filename>%1</filename> بازسازی شود؟"
+
+#: gui/partpropsdialog.cpp:528
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Recreate the File System"
+msgstr "بازسازی سامانه پرونده"
+
+#: gui/partpropsdialog.cpp:529
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Do Not Recreate the File System"
+msgstr "سامانه پرونده بازسازی نشود"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextFirstSector)
+#: gui/partpropswidgetbase.ui:26
+#, kde-format
+msgctxt "@label"
+msgid "First sector:"
+msgstr "نخستین بخش:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextCapacity)
+#: gui/partpropswidgetbase.ui:56
+#, kde-format
+msgctxt "@label"
+msgid "Size:"
+msgstr "اندازه:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextPartitionUuid)
+#: gui/partpropswidgetbase.ui:66
+#, kde-format
+msgid "Partition UUID:"
+msgstr "UUID افراز:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextNoSetLabel)
+#: gui/partpropswidgetbase.ui:76 gui/sizedialogwidgetbase.ui:126
+#, kde-format
+msgctxt "@label"
+msgid "This file system does not support setting a label."
+msgstr "این سیستم پرونده از تنظیم برچسب پشتیبانی نمی‌کند."
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextUuid)
+#: gui/partpropswidgetbase.ui:86
+#, kde-format
+msgctxt "@label"
+msgid "UUID:"
+msgstr "UUID:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextLastSector)
+#: gui/partpropswidgetbase.ui:103
+#, kde-format
+msgctxt "@label"
+msgid "Last sector:"
+msgstr "بخش پایانی:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextStatus)
+#: gui/partpropswidgetbase.ui:134
+#, kde-format
+msgctxt "@label"
+msgid "Status:"
+msgstr "وضعیت:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextAvailable)
+#: gui/partpropswidgetbase.ui:144
+#, kde-format
+msgctxt "@label partition capacity available"
+msgid "Available:"
+msgstr "در دسترس:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextClusterSize)
+#: gui/partpropswidgetbase.ui:177
+#, kde-format
+msgctxt "@label"
+msgid "Cluster size:"
+msgstr "اندازهٔ خوشه‌:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextLabel)
+#: gui/partpropswidgetbase.ui:240
+#, kde-format
+msgctxt "@label"
+msgid "&Label:"
+msgstr "برچسب:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextMountPoint)
+#: gui/partpropswidgetbase.ui:303
+#, kde-format
+msgctxt "@label"
+msgid "Mount point:"
+msgstr "نقطهٔ سوار کردن:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextRole)
+#: gui/partpropswidgetbase.ui:323
+#, kde-format
+msgctxt "@label"
+msgid "Partition type:"
+msgstr "نوع افراز:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextDevicePath)
+#: gui/partpropswidgetbase.ui:333
+#, kde-format
+msgid "Device path:"
+msgstr "مسیر دستگاه:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextNumSectors)
+#: gui/partpropswidgetbase.ui:343
+#, kde-format
+msgctxt "@label"
+msgid "Number of sectors:"
+msgstr "تعداد سکتورها:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextPartitionLabel)
+#: gui/partpropswidgetbase.ui:353
+#, kde-format
+msgid "Partition Name:"
+msgstr "نام افراز:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_CheckRecreate)
+#: gui/partpropswidgetbase.ui:363
+#, kde-format
+msgid ""
+"This will reformat the filesystem, losing all contents, but keeping the same"
+" filesystem type."
+msgstr ""
+"این کار سیستم‌فایل را دوباره قالب‌بندی می‌کند و همهٔ محتویات از دست خواهند "
+"رفت، اما نوع سیستم‌فایل یکسان می‌ماند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckRecreate)
+#: gui/partpropswidgetbase.ui:366
+#, kde-format
+msgctxt "@action:button"
+msgid "Recreate existing file system"
+msgstr "ایجاد مجدد سیستم‌فایل موجود"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelClusterSize)
+#: gui/partpropswidgetbase.ui:390 gui/sizedialogwidgetbase.ui:180
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Cluster size:"
+msgstr "اندازهٔ خوشه‌:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextUsed)
+#: gui/partpropswidgetbase.ui:406
+#, kde-format
+msgctxt "@label partition capacity used"
+msgid "Used:"
+msgstr "استفاده‌شده:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelFileSystem)
+#: gui/partpropswidgetbase.ui:416
+#, kde-format
+msgctxt "@label:listbox"
+msgid "File syste&m:"
+msgstr "سیستم‌فایل:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextFlags)
+#: gui/partpropswidgetbase.ui:429
+#, kde-format
+msgctxt "@label"
+msgid "&Flags:"
+msgstr "پرچم‌ها:"
+
+#: gui/parttablewidget.cpp:26
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Please select a device."
+msgstr "لطفاً یک دستگاه را انتخاب کنید."
+
+#: gui/parttablewidget.cpp:54
+#, kde-kuit-format
+msgctxt "@info"
+msgid "No valid partition table was found on this device."
+msgstr "هیچ جدول پارتیشن معتبری در این دستگاه یافت نشد."
+
+#: gui/resizedialog.cpp:42
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Resize/move partition: <filename>%1</filename>"
+msgstr "تغییر اندازه/جابه‌جایی پارتیشن: <filename>%1</filename>"
+
+#: gui/resizedialog.cpp:92
+#, kde-format
+msgctxt "%2 is either empty or says Invalid passphrase."
+msgid "%2Enter passphrase for %1:"
+msgstr "%2گذرواژه را برای %1 وارد کنید:"
+
+#: gui/resizedialog.cpp:101
+#, kde-format
+msgctxt "Part of %2Enter passphrase for %1:"
+msgid "Invalid passphrase. "
+msgstr "گذرواژه نامعتبر است. "
+
+#: gui/resizevolumegroupdialog.cpp:39
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Resize Volume Group"
+msgstr "تغییر اندازه گروه حجم"
+
+#: gui/scanprogressdialog.cpp:16
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Scanning Devices…"
+msgstr "پویش دستگاه‌ها…"
+
+#: gui/scanprogressdialog.cpp:24
+#, kde-format
+msgctxt "%p is the percent value, % is the percent sign"
+msgid "%p%"
+msgstr "%p٪"
+
+#: gui/scanprogressdialog.cpp:36
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Scanning…"
+msgstr "در حال پویش…"
+
+#: gui/scanprogressdialog.cpp:38
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Scanning device: <filename>%1</filename>"
+msgstr "پویش دستگاه: <filename>%1</filename>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: gui/sizedetailswidgetbase.ui:66
+#, kde-format
+msgctxt "@label:listbox"
+msgid "First sector:"
+msgstr "بخش نخست:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: gui/sizedetailswidgetbase.ui:101
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Last sector:"
+msgstr "بخش پایانی:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckAlign)
+#: gui/sizedetailswidgetbase.ui:124
+#, kde-format
+msgid "Align partition"
+msgstr "هم‌ترازی افراز"
+
+#: gui/sizedialogbase.cpp:66
+#, kde-kuit-format
+msgctxt "@action:button advanced settings button"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: gui/sizedialogbase.cpp:180
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "&Advanced"
+msgstr "پیشرفته"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: gui/sizedialogwidgetbase.ui:30
+#, kde-format
+msgctxt "@label"
+msgid "Minimum size:"
+msgstr "کمینه اندازه:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: gui/sizedialogwidgetbase.ui:72
+#, kde-format
+msgctxt "@label"
+msgid "Maximum size:"
+msgstr "بیشینه اندازه:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextLabel)
+#: gui/sizedialogwidgetbase.ui:98
+#, kde-format
+msgctxt "@label"
+msgid "Label:"
+msgstr "برچسب:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: gui/sizedialogwidgetbase.ui:160
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Si&ze:"
+msgstr "اندازه:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_RadioPrimary)
+#: gui/sizedialogwidgetbase.ui:199
+#, kde-format
+msgid "Primar&y"
+msgstr "اصلی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_RadioExtended)
+#: gui/sizedialogwidgetbase.ui:206
+#, kde-format
+msgid "E&xtended"
+msgstr "گسترش‌یافته"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_RadioLogical)
+#: gui/sizedialogwidgetbase.ui:213
+#, kde-format
+msgid "&Logical"
+msgstr "منطقی"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelFileSystem)
+#: gui/sizedialogwidgetbase.ui:229
+#, kde-format
+msgctxt "@label:listbox"
+msgid "File system:"
+msgstr "سامانهٔ پرونده:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelRole)
+#: gui/sizedialogwidgetbase.ui:265
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Partition type:"
+msgstr "نوع افراز:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_CheckBoxEncrypt)
+#: gui/sizedialogwidgetbase.ui:275
+#, kde-format
+msgid ""
+"Set up encryption for this filesystem with LUKS. You will be asked to "
+"provide a passphrase."
+msgstr ""
+"برپاسازی رمزنگاری برای این سامانهٔ پرونده با LUKS. از شما خواسته خواهد شد که"
+" یک عبارت عبور ارائه دهید."
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckBoxEncrypt)
+#: gui/sizedialogwidgetbase.ui:278
+#, kde-format
+msgid "Encrypt with LUKS"
+msgstr "رمزنگاری با LUKS"
+
+#. i18n: ectx: property (text), widget (QLabel, m_labelPermission)
+#: gui/sizedialogwidgetbase.ui:308
+#, kde-format
+msgid "Permissions"
+msgstr "مجوزها"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_permissionEveryone)
+#: gui/sizedialogwidgetbase.ui:321
+#, kde-format
+msgid "Allow everyone to write and read on this device"
+msgstr "اجازه خواندن و نوشتن به همه در این دستگاه داده شود"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_permissionEveryone)
+#: gui/sizedialogwidgetbase.ui:324
+#, kde-format
+msgid "Everyone"
+msgstr "همه"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_permissionOnlyRoot)
+#: gui/sizedialogwidgetbase.ui:331
+#, kde-format
+msgid ""
+"Allow only root to write and read on this device, you will need to setup "
+"per-folder permissions"
+msgstr ""
+"فقط به ریشه (root) اجازه خواندن و نوشتن در این دستگاه داده شود، باید مجوزها "
+"را برای هر پوشه جداگانه تنظیم کنید"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_permissionOnlyRoot)
+#: gui/sizedialogwidgetbase.ui:334
+#, kde-format
+msgid "O&nly Root"
+msgstr "فقط ریشه"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelFreeBefore)
+#: gui/sizedialogwidgetbase.ui:350
+#, kde-format
+msgctxt "@label:listbox"
+msgid "F&ree space before:"
+msgstr "فضای خالی قبل:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextLVName)
+#: gui/sizedialogwidgetbase.ui:363
+#, kde-format
+msgid "Logical Volume Name:"
+msgstr "نام حجم منطقی:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelFreeAfter)
+#: gui/sizedialogwidgetbase.ui:379
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Free space after:"
+msgstr "فضای خالی بعد:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_CheckBoxLuks2)
+#: gui/sizedialogwidgetbase.ui:392
+#, kde-format
+msgid ""
+"Use LUKS2 instead of LUKS1 for better security, but compatibility may be "
+"compromised."
+msgstr ""
+"استفاده از LUKS2 به جای LUKS1 برای امنیت بهتر، اما ممکن است سازگاری به خطر "
+"بیفتد."
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_CheckBoxLuks2)
+#: gui/sizedialogwidgetbase.ui:395
+#, kde-format
+msgid "Enable LUKS2"
+msgstr "فعال‌سازی LUKS2"
+
+#: gui/smartdialog.cpp:54
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "SMART Properties: <filename>%1</filename>"
+msgstr "ویژگی‌های SMART: <filename>%1</filename>"
+
+#: gui/smartdialog.cpp:58
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Save SMART Report"
+msgstr "ذخیرهٔ گزارش SMART"
+
+#: gui/smartdialog.cpp:96 gui/smartdialog.cpp:153
+#, kde-format, kde-kuit-format
+msgctxt "@label SMART number of bad sectors"
+msgid "none"
+msgstr "هیچ"
+
+#: gui/smartdialog.cpp:115 gui/smartdialog.cpp:181
+#, kde-kuit-format
+msgctxt "@item:intable"
+msgid "Pre-Failure"
+msgstr "پیش از خرابی"
+
+#: gui/smartdialog.cpp:115 gui/smartdialog.cpp:181
+#, kde-kuit-format
+msgctxt "@item:intable"
+msgid "Old-Age"
+msgstr "فرسودگی"
+
+#: gui/smartdialog.cpp:116 gui/smartdialog.cpp:182
+#, kde-kuit-format
+msgctxt "@item:intable"
+msgid "Online"
+msgstr "برخط"
+
+#: gui/smartdialog.cpp:116 gui/smartdialog.cpp:182
+#, kde-kuit-format
+msgctxt "@item:intable"
+msgid "Offline"
+msgstr "برون‌خط"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartModelName)
+#: gui/smartdialog.cpp:155 gui/smartdialogwidgetbase.ui:68
+#, kde-format
+msgid "Model:"
+msgstr "مدل:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartSerialNumber)
+#: gui/smartdialog.cpp:156 gui/smartdialogwidgetbase.ui:97
+#, kde-format
+msgid "Serial number:"
+msgstr "شمارهٔ سریال:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartFirmware)
+#: gui/smartdialog.cpp:157 gui/smartdialogwidgetbase.ui:126
+#, kde-format
+msgid "Firmware revision:"
+msgstr "نسخهٔ سفت‌افزار:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartTemperature)
+#: gui/smartdialog.cpp:158 gui/smartdialogwidgetbase.ui:155
+#, kde-format
+msgid "Temperature:"
+msgstr "دما:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartBadSectors)
+#: gui/smartdialog.cpp:159 gui/smartdialogwidgetbase.ui:184
+#, kde-format
+msgid "Bad sectors:"
+msgstr "بخش‌های خراب (بدسکتور):"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartPoweredOn)
+#: gui/smartdialog.cpp:160 gui/smartdialogwidgetbase.ui:213
+#, kde-format
+msgid "Powered on for:"
+msgstr "مدت روشن بودن:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartPowerCycles)
+#: gui/smartdialog.cpp:161 gui/smartdialogwidgetbase.ui:242
+#, kde-format
+msgid "Power cycles:"
+msgstr "تعداد چرخه‌های روشن شدن:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartSelfTests)
+#: gui/smartdialog.cpp:162 gui/smartdialogwidgetbase.ui:412
+#, kde-format
+msgid "Self tests:"
+msgstr "خودآزمایی‌ها:"
+
+#. i18n: ectx: property (text), widget (QLabel,
+#. m_LabelTextSmartOverallAssessment)
+#: gui/smartdialog.cpp:163 gui/smartdialogwidgetbase.ui:383
+#, kde-format
+msgid "Overall assessment:"
+msgstr "ارزیابی کلی:"
+
+#: gui/smartdialog.cpp:227
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Could Not Save SMART Report."
+msgstr "گزارش SMART ذخیره نشد."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeSmartAttributes)
+#: gui/smartdialogwidgetbase.ui:294
+#, kde-format
+msgid "Id"
+msgstr "شناسه"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeSmartAttributes)
+#: gui/smartdialogwidgetbase.ui:299
+#, kde-format
+msgid "Attribute"
+msgstr "مشخصه"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeSmartAttributes)
+#: gui/smartdialogwidgetbase.ui:304
+#, kde-format
+msgid "Failure Type"
+msgstr "نوع خرابی"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeSmartAttributes)
+#: gui/smartdialogwidgetbase.ui:309
+#, kde-format
+msgid "Update Type"
+msgstr "نوع به‌روزرسانی"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeSmartAttributes)
+#: gui/smartdialogwidgetbase.ui:314
+#, kde-format
+msgid "Worst"
+msgstr "بدترین"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeSmartAttributes)
+#: gui/smartdialogwidgetbase.ui:319
+#, kde-format
+msgid "Current"
+msgstr "فعلی"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeSmartAttributes)
+#: gui/smartdialogwidgetbase.ui:324
+#, kde-format
+msgid "Threshold"
+msgstr "آستانه"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeSmartAttributes)
+#: gui/smartdialogwidgetbase.ui:329
+#, kde-format
+msgid "Raw"
+msgstr "خام"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeSmartAttributes)
+#: gui/smartdialogwidgetbase.ui:334
+#, kde-format
+msgid "Assessment"
+msgstr "ارزیابی"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeSmartAttributes)
+#: gui/smartdialogwidgetbase.ui:339
+#, kde-format
+msgid "Value"
+msgstr "مقدار"
+
+#: gui/treelog.cpp:110
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Could not create temporary output file to save <filename>%1</filename>."
+msgstr ""
+"ایجاد پروندهٔ خروجی موقت برای ذخیرهٔ <filename>%1</filename> ممکن نشد."
+
+#: gui/treelog.cpp:110
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Error Saving Log File"
+msgstr "خطا در ذخیرهٔ پروندهٔ گزارش"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeLog)
+#: gui/treelogbase.ui:59
+#, kde-format
+msgctxt ""
+"@title:column Severity of a log entry / log level. Text must be very short."
+msgid "Sev."
+msgstr "شدت"
+
+#. i18n: ectx: property (toolTip), widget (QTreeWidget, m_TreeLog)
+#: gui/treelogbase.ui:62
+#, kde-format
+msgid "Severity"
+msgstr "شدت"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeLog)
+#: gui/treelogbase.ui:67
+#, kde-format
+msgctxt "@title:column a time stamp of a log entry"
+msgid "Time"
+msgstr "زمان"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_TreeLog)
+#: gui/treelogbase.ui:72
+#, kde-format
+msgctxt "@title:column the text message of a log entry"
+msgid "Message"
+msgstr "پیام"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextVGName)
+#: gui/volumegroupwidgetbase.ui:34
+#, kde-format
+msgid "Volume Group Name: "
+msgstr "نام گروه حجم: "
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextPESize)
+#: gui/volumegroupwidgetbase.ui:47
+#, kde-format
+msgid "Physical Extent Size: "
+msgstr "اندازهٔ گسترهٔ فیزیکی: "
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTotalSectors)
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTotalLV)
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTotalSize)
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTotalUsedSize)
+#: gui/volumegroupwidgetbase.ui:60 gui/volumegroupwidgetbase.ui:120
+#: gui/volumegroupwidgetbase.ui:166 gui/volumegroupwidgetbase.ui:176
+#, kde-format
+msgid "---"
+msgstr "---"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_SpinPESize)
+#: gui/volumegroupwidgetbase.ui:79
+#, kde-format
+msgid " MiB"
+msgstr " MiB"
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextTotalLV)
+#: gui/volumegroupwidgetbase.ui:107
+#, kde-format
+msgid "Total LV: "
+msgstr "مجموع حجم‌های منطقی (LV): "
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextVolumeType)
+#: gui/volumegroupwidgetbase.ui:130
+#, kde-format
+msgid "Volume Group Type: "
+msgstr "نوع گروه حجم: "
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextTotalSize)
+#: gui/volumegroupwidgetbase.ui:140
+#, kde-format
+msgid "Total Size: "
+msgstr "اندازهٔ کل: "
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextTotalSectors)
+#: gui/volumegroupwidgetbase.ui:153
+#, kde-format
+msgid "Total Sectors: "
+msgstr "مجموع بخش‌ها (سکتورها): "
+
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextTotalUsedSize)
+#: gui/volumegroupwidgetbase.ui:186
+#, kde-format
+msgid "Used Size: "
+msgstr "اندازهٔ استفاده‌شده: "
+
+#: main.cpp:77
+#, kde-kuit-format
+msgctxt "@title"
+msgid "<application>KDE Partition Manager</application>"
+msgstr "<application>مدیر پارتیشن کی‌دی‌ای</application>"
+
+#: main.cpp:79
+#, kde-kuit-format
+msgctxt "@title"
+msgid "Manage your disks, partitions and file systems"
+msgstr "دیسک‌ها، پارتیشن‌ها و سامانه‌های پروندهٔ خود را مدیریت کنید"
+
+#: main.cpp:81
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid ""
+"© 2008-2013 Volker Lanz\n"
+"© 2012-2020 Andrius Štikonas"
+msgstr ""
+"© 2008-2013 Volker Lanz\n"
+"© 2012-2020 Andrius Štikonas"
+
+#: main.cpp:85
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Volker Lanz"
+msgstr "فولکر لانتس"
+
+#: main.cpp:85
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Former maintainer"
+msgstr "نگه‌دارندهٔ سابق"
+
+#: main.cpp:86
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Andrius Štikonas"
+msgstr "آندریوس اشتیکوناس"
+
+#: main.cpp:86
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: main.cpp:87
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Teo Mrnjavac"
+msgstr "تئو مرنیاواتس"
+
+#: main.cpp:87
+#, kde-format
+msgctxt "@info:credit"
+msgid "Former Calamares maintainer"
+msgstr "نگه‌دارندهٔ سابق کالامارس"
+
+#: main.cpp:88
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Chantara Tith"
+msgstr "چانتارا تیث"
+
+#: main.cpp:88
+#, kde-format
+msgctxt "@info:credit"
+msgid "LVM support"
+msgstr "پشتیبانی از LVM"
+
+#: main.cpp:89
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Pali Rohár"
+msgstr "پالی روهار"
+
+#: main.cpp:89
+#, kde-format
+msgctxt "@info:credit"
+msgid "UDF support"
+msgstr "پشتیبانی از UDF"
+
+#: main.cpp:90
+#, kde-format
+msgid "Hugo Pereira Da Costa"
+msgstr "Hugo Pereira Da Costa"
+
+#: main.cpp:90
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Partition Widget Design"
+msgstr "طراحی ابزارک پارتیشن"
+
+#: main.cpp:91
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Caio Jordão Carvalho"
+msgstr "Caio Jordão Carvalho"
+
+#: main.cpp:91
+#, kde-format
+msgctxt "@info:credit"
+msgid "Improved SMART support"
+msgstr "بهبود پشتیبانی از SMART"
+
+#: main.cpp:101
+#, kde-kuit-format
+msgctxt "@info:shell"
+msgid "Device to manage"
+msgstr "دستگاه برای مدیریت"
+
+#. i18n: ectx: label, entry (firstRun), group (KDE Partition Manager)
+#: partitionmanager.kcfg:45
+#, kde-format
+msgctxt "@label"
+msgid "Is this the first time KDE Partition Manager is being run?"
+msgstr "آیا این اولین باری است که مدیریت پارتیشن KDE اجرا می‌شود؟"
+
+#. i18n: ectx: label, entry (minLogLevel), group (KDE Partition Manager)
+#: partitionmanager.kcfg:49
+#, kde-format
+msgctxt "@label"
+msgid "Hide log messages below"
+msgstr "پنهان‌سازی پیام‌های گزارش پایین‌تر از"
+
+#. i18n: ectx: label, entry (sectorAlignment), group (KDE Partition Manager)
+#: partitionmanager.kcfg:53
+#, kde-format
+msgctxt "@label"
+msgid "Partition sector alignment"
+msgstr "هم‌ترازی بخش‌های پارتیشن"
+
+#. i18n: ectx: label, entry (alignDefault), group (KDE Partition Manager)
+#: partitionmanager.kcfg:57
+#, kde-format
+msgctxt "@label"
+msgid "Align partitions per default"
+msgstr "هم‌ترازی پیش‌فرض پارتیشن‌ها"
+
+#. i18n: ectx: label, entry, group (KDE Partition Manager)
+#: partitionmanager.kcfg:61
+#, kde-format
+msgctxt "@label"
+msgid "File system colors"
+msgstr "رنگ‌های سیستم پرونده"
+
+#. i18n: ectx: label, entry, group (KDE Partition Manager)
+#: partitionmanager.kcfg:141
+#, kde-format
+msgctxt "@label"
+msgid "Show the application's menu bar"
+msgstr "نمایش نوار منوی برنامه"
+
+#. i18n: ectx: label, entry, group (KDE Partition Manager)
+#: partitionmanager.kcfg:145
+#, kde-format
+msgctxt "@label"
+msgid "Backend plugin"
+msgstr "پلاگین backend"
+
+#. i18n: ectx: label, entry, group (KDE Partition Manager)
+#: partitionmanager.kcfg:151
+#, kde-format
+msgctxt "@label"
+msgid "Preferred unit:"
+msgstr "واحد ترجیحی:"
+
+#: util/guihelpers.cpp:53
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The configured backend plugin \"%1\" could not be "
+"loaded.</para><para>Loading the default backend plugin \"%2\" "
+"instead.</para>"
+msgstr ""
+"<para>پلاگین backend پیکربندی‌شدهٔ «%1» بارگیری نشد.</para><para>پلاگین "
+"backend پیش‌فرض «%2» به‌جای آن بارگیری می‌شود.</para>"
+
+#: util/guihelpers.cpp:56 util/guihelpers.cpp:63
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Error: Could Not Load Backend Plugin"
+msgstr "خطا: پلاگین Backend بارگیری نشد"
+
+#: util/guihelpers.cpp:60
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Neither the configured (\"%1\") nor the default (\"%2\") backend "
+"plugin could be loaded.</para><para>Please check your installation.</para>"
+msgstr ""
+"<para>نه پلاگین backend پیکربندی‌شده («%1») و نه پیش‌فرض («%2») هیچ‌کدام "
+"بارگیری نشدند.</para><para>لطفاً نصب خود را بررسی کنید.</para>"
+
+#: util/guihelpers.cpp:78
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Columns"
+msgstr "ستون‌ها"
+
+#: util/guihelpers.cpp:142
+#, kde-kuit-format
+msgctxt "@item:inlistbox cluster size"
+msgid "Automatic"
+msgstr "خودکار"
+
+#: util/guihelpers.cpp:150
+#, kde-kuit-format
+msgctxt "@item:inlistbox a cluster size that is no longer valid"
+msgid "%1 (not valid for this size)"
+msgstr "%1 (برای این اندازه معتبر نیست)"

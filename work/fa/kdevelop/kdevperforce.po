@@ -1,0 +1,174 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdevperforce package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevperforce\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-07 00:43+0000\n"
+"PO-Revision-Date: 2026-10-15 21:36+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: perforceplugin.cpp:108
+#, kde-format
+msgid "The variable P4CONFIG is not set. Is perforce installed on the system?"
+msgstr "متغیر P4CONFIG تنظیم نشده است. آیا perforce روی سیستم نصب است؟"
+
+#: perforceplugin.cpp:122
+#, kde-format
+msgid "Perforce"
+msgstr "پرفورس"
+
+#: perforceplugin.cpp:232 perforceplugin.cpp:249
+#, kde-format
+msgid "Please select only one item for this operation"
+msgstr "لطفاً برای این عملیات فقط یک مورد را انتخاب کنید"
+
+#: perforceplugin.cpp:282
+#, kde-format
+msgid "No files or message specified"
+msgstr "هیچ پرونده یا پیامی مشخص نشده است"
+
+#: perforceplugin.cpp:364 perforceplugin.cpp:380
+#, kde-format
+msgid "Please select a file for this operation"
+msgstr "لطفاً برای این عملیات یک پرونده را انتخاب کنید"
+
+#: perforceplugin.cpp:365 perforceplugin.cpp:381
+#, kde-format
+msgid "Directory not supported for this operation"
+msgstr "پوشه برای این عملیات پشتیبانی نمی‌شود"
+
+#: perforceplugin.cpp:461
+#, kde-format
+msgctxt "@action::inmenu"
+msgid "Edit"
+msgstr "ویرایش"
+
+#: ui/perforceimportmetadatawidget.cpp:128
+#, kde-format
+msgid ""
+"Unable to find perforce executable. Is it installed on the system? Is it in "
+"your PATH?"
+msgstr ""
+"پروندهٔ اجرایی perforce پیدا نشد. آیا روی سیستم نصب است؟ آیا در PATH شما "
+"قرار دارد؟"
+
+#: ui/perforceimportmetadatawidget.cpp:156
+#, kde-format
+msgid "P4 Client failed with exit code: %1"
+msgstr "کلاینت P4 با کد خروج %1 شکست خورد"
+
+#: ui/perforceimportmetadatawidget.cpp:200
+#, kde-format
+msgid "P4 Client failed with error code: %1"
+msgstr "کلاینت P4 با کد خطای %1 شکست خورد"
+
+#. i18n: ectx: property (text), widget (QLabel, labelUrl)
+#: ui/perforceimportmetadatawidget.ui:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Source directory:"
+msgstr "شاخهٔ منبع:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelExec)
+#: ui/perforceimportmetadatawidget.ui:39
+#, kde-format
+msgctxt "@label:textbox"
+msgid "P4 executable:"
+msgstr "فایل اجرایی P4:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelP4port)
+#: ui/perforceimportmetadatawidget.ui:49
+#, kde-format
+msgid "P4 Port"
+msgstr "درگاه P4"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, p4portEdit)
+#: ui/perforceimportmetadatawidget.ui:68
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The format of P4PORT for Perforce applications is protocol:host:port, or "
+"port by itself if both the Perforce application and versioning service are "
+"running on the same host. Port numbers must be in the range 1024 through "
+"32767"
+msgstr ""
+"قالب P4PORT برای برنامه‌های پِرفورس به‌صورت protocol:host:port است، یا فقط "
+"شمارهٔ پورت در صورتی که هم برنامهٔ پِرفورس و هم سرویس کنترل نسخه روی یک "
+"میزبان در حال اجرا باشند. شماره پورت‌ها باید در بازهٔ ۱۰۲۴ تا ۳۲۷۶۷ باشند"
+
+#. i18n: ectx: property (text), widget (QLabel, labelP4user)
+#: ui/perforceimportmetadatawidget.ui:90
+#, kde-format
+msgid "P4 User"
+msgstr "کاربر P4"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, p4userEdit)
+#: ui/perforceimportmetadatawidget.ui:97
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Current Perforce user name. By default, the Perforce username is the same as"
+" the OS username"
+msgstr ""
+"نام کاربر فعلی پرفورس. به‌طور پیش‌فرض، نام کاربری پرفورس همان نام کاربری "
+"سیستم‌عامل است"
+
+#. i18n: ectx: property (text), widget (QLabel, labelP4client)
+#: ui/perforceimportmetadatawidget.ui:104
+#, kde-format
+msgid "P4 Client"
+msgstr "کلاینت P4"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, p4clientEdit)
+#: ui/perforceimportmetadatawidget.ui:111
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Name of current client workspace on the Perforce server"
+msgstr "نام فضای کاری کلاینت فعلی روی کارساز پرفورس"
+
+#. i18n: ectx: property (text), widget (QLabel, labelP4config)
+#: ui/perforceimportmetadatawidget.ui:118
+#, kde-format
+msgid "P4 Config"
+msgstr "پیکربندی P4"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, p4configEdit)
+#: ui/perforceimportmetadatawidget.ui:128
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Contains a file name without a path. The specified file is used to store "
+"other Perforce environment variables "
+msgstr ""
+"شامل یک نام پرونده بدون مسیر است. پروندهٔ مشخص‌شده برای ذخیرهٔ سایر متغیرهای"
+" محیطی پرفورس استفاده می‌شود"
+
+#. i18n: ectx: property (text), widget (QPushButton, testP4setupButton)
+#: ui/perforceimportmetadatawidget.ui:141
+#, kde-format
+msgctxt "@action:button"
+msgid "Test"
+msgstr "آزمایش"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonConfig)
+#: ui/perforceimportmetadatawidget.ui:197
+#, kde-format
+msgctxt "@option:radio"
+msgid "Config File"
+msgstr "پروندهٔ پیکربندی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonVariables)
+#: ui/perforceimportmetadatawidget.ui:213
+#, kde-format
+msgctxt "@option:radio"
+msgid "User/Port Config"
+msgstr "پیکربندی کاربر/درگاه"

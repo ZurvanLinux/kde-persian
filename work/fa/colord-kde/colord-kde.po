@@ -1,0 +1,576 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the colord-kde package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: colord-kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-15 15:24+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: colord-kcm/DeviceDescription.cpp:132
+#, kde-format
+msgctxt "device type"
+msgid "Printer"
+msgstr "چاپگر"
+
+#: colord-kcm/DeviceDescription.cpp:134
+#, kde-format
+msgctxt "device type"
+msgid "Display"
+msgstr "نمایشگر"
+
+#: colord-kcm/DeviceDescription.cpp:136
+#, kde-format
+msgctxt "device type"
+msgid "Webcam"
+msgstr "وب‌بین"
+
+#: colord-kcm/DeviceDescription.cpp:138
+#, kde-format
+msgctxt "device type"
+msgid "Scanner"
+msgstr "پویشگر"
+
+#: colord-kcm/DeviceDescription.cpp:140
+#, kde-format
+msgctxt "device type"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: colord-kcm/DeviceDescription.cpp:145
+#, kde-format
+msgctxt "device scope"
+msgid "User session"
+msgstr "نشست کاربر"
+
+#: colord-kcm/DeviceDescription.cpp:147
+#, kde-format
+msgctxt "device scope"
+msgid "Auto restore"
+msgstr "بازیابی خودکار"
+
+#: colord-kcm/DeviceDescription.cpp:149
+#, kde-format
+msgctxt "device scope"
+msgid "System wide"
+msgstr "سرتاسر سامانه"
+
+#: colord-kcm/DeviceDescription.cpp:151
+#, kde-format
+msgctxt "device scope"
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: colord-kcm/DeviceDescription.cpp:156 colord-kcm/Profile.cpp:202
+#, kde-format
+msgctxt "colorspace"
+msgid "RGB"
+msgstr "RGB"
+
+#: colord-kcm/DeviceDescription.cpp:158 colord-kcm/Profile.cpp:211
+#, kde-format
+msgctxt "colorspace"
+msgid "CMYK"
+msgstr "CMYK"
+
+#: colord-kcm/DeviceDescription.cpp:160 colord-kcm/Profile.cpp:205
+#, kde-format
+msgctxt "colorspace"
+msgid "Gray"
+msgstr "خاکستری"
+
+#: colord-kcm/DeviceDescription.cpp:165
+#, kde-format
+msgid "This device has no profile assigned to it"
+msgstr "هیچ نمایه رنگی به این دستگاه اختصاص داده نشده است"
+
+#: colord-kcm/DeviceDescription.cpp:184
+#, kde-format
+msgid "You can use 'displaycal' to calibrate this device"
+msgstr "می‌توانید برای کالیبره‌کردن این دستگاه از «displaycal» استفاده کنید"
+
+#: colord-kcm/DeviceDescription.cpp:193 colord-kcm/DeviceDescription.cpp:198
+#, kde-format
+msgid ""
+"The measuring instrument for calibrating is not detected. Please check it is"
+" turned on and correctly connected."
+msgstr ""
+"ابزار اندازه‌گیری برای کالیبراسیون شناسایی نشد. لطفاً بررسی کنید که روشن "
+"بوده و به‌درستی متصل باشد."
+
+#: colord-kcm/DeviceDescription.cpp:217
+#, kde-format
+msgid "The measuring instrument does not support printer profiling."
+msgstr "ابزار اندازه‌گیری از نمایه‌سازی چاپگر پشتیبانی نمی‌کند."
+
+#: colord-kcm/DeviceDescription.cpp:221
+#, kde-format
+msgid "The device type is not currently supported for calibrating."
+msgstr "این نوع دستگاه در حال حاضر برای کالیبراسیون پشتیبانی نمی‌شود."
+
+#: colord-kcm/DeviceModel.cpp:250
+#, kde-format
+msgctxt "colorspace"
+msgid "Default RGB"
+msgstr "RGB پیش‌فرض"
+
+#: colord-kcm/DeviceModel.cpp:252
+#, kde-format
+msgctxt "colorspace"
+msgid "Default CMYK"
+msgstr "CMYK پیش‌فرض"
+
+#: colord-kcm/DeviceModel.cpp:254
+#, kde-format
+msgctxt "colorspace"
+msgid "Default Gray"
+msgstr "خاکستری پیش‌فرض"
+
+#: colord-kcm/DeviceModel.cpp:321 colord-kcm/ui/main.qml:43
+#, kde-format
+msgid "Devices"
+msgstr "دستگاه‌ها"
+
+#: colord-kcm/Profile.cpp:106
+#, kde-format
+msgid "file too small"
+msgstr "پرونده بیش از حد کوچک است"
+
+#: colord-kcm/Profile.cpp:115
+#, kde-format
+msgid "not an ICC profile"
+msgstr "یک نمایهٔ ICC نیست"
+
+#: colord-kcm/Profile.cpp:187
+#, kde-format
+msgctxt "colorspace"
+msgid "XYZ"
+msgstr "XYZ"
+
+#: colord-kcm/Profile.cpp:190
+#, kde-format
+msgctxt "colorspace"
+msgid "LAB"
+msgstr "LAB"
+
+#: colord-kcm/Profile.cpp:193
+#, kde-format
+msgctxt "colorspace"
+msgid "LUV"
+msgstr "LUV"
+
+#: colord-kcm/Profile.cpp:196
+#, kde-format
+msgctxt "colorspace"
+msgid "YCbCr"
+msgstr "YCbCr"
+
+#: colord-kcm/Profile.cpp:199
+#, kde-format
+msgctxt "colorspace"
+msgid "Yxy"
+msgstr "Yxy"
+
+#: colord-kcm/Profile.cpp:208
+#, kde-format
+msgctxt "colorspace"
+msgid "HSV"
+msgstr "HSV"
+
+#: colord-kcm/Profile.cpp:214
+#, kde-format
+msgctxt "colorspace"
+msgid "CMY"
+msgstr "CMY"
+
+#: colord-kcm/Profile.cpp:217
+#, kde-format
+msgctxt "colorspace"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: colord-kcm/Profile.cpp:302
+#, kde-format
+msgid "Missing description"
+msgstr "بدون توضیح"
+
+#: colord-kcm/Profile.cpp:357
+#, kde-format
+msgctxt "profile kind"
+msgid "Input device"
+msgstr "دستگاه ورودی"
+
+#: colord-kcm/Profile.cpp:359
+#, kde-format
+msgctxt "profile kind"
+msgid "Display device"
+msgstr "دستگاه نمایشگر"
+
+#: colord-kcm/Profile.cpp:361
+#, kde-format
+msgctxt "profile kind"
+msgid "Output device"
+msgstr "دستگاه خروجی"
+
+#: colord-kcm/Profile.cpp:363
+#, kde-format
+msgctxt "profile kind"
+msgid "Devicelink"
+msgstr "پیوند دستگاه"
+
+#: colord-kcm/Profile.cpp:365
+#, kde-format
+msgctxt "profile kind"
+msgid "Colorspace conversion"
+msgstr "تبدیل فضای رنگی"
+
+#: colord-kcm/Profile.cpp:367
+#, kde-format
+msgctxt "profile kind"
+msgid "Abstract"
+msgstr "انتزاعی"
+
+#: colord-kcm/Profile.cpp:369
+#, kde-format
+msgctxt "profile kind"
+msgid "Named color"
+msgstr "رنگ نام‌دار"
+
+#: colord-kcm/Profile.cpp:371
+#, kde-format
+msgctxt "profile kind"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: colord-kcm/Profile.cpp:518
+#, kde-format
+msgid "Default: %1"
+msgstr "پیش‌فرض: %1"
+
+#: colord-kcm/Profile.cpp:520
+#, kde-format
+msgid "Colorspace: %1"
+msgstr "فضای رنگی: %1"
+
+#: colord-kcm/Profile.cpp:522
+#, kde-format
+msgid "Test profile: %1"
+msgstr "نمایهٔ آزمایشی: %1"
+
+#: colord-kcm/Profile.cpp:524
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:80
+#, kde-format
+msgid "Standard space"
+msgstr "فضای استاندارد"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:83
+#, kde-format
+msgid "Display checksum"
+msgstr "چک‌جمع نمایشگر"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:86
+#, kde-format
+msgid "Display model"
+msgstr "مدل نمایشگر"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:89
+#, kde-format
+msgid "Display serial number"
+msgstr "شماره سریال نمایشگر"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:92
+#, kde-format
+msgid "Display PNPID"
+msgstr "نمایش PNPID"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:95
+#, kde-format
+msgid "Display vendor"
+msgstr "نمایش سازنده"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:98
+#, kde-format
+msgid "File checksum"
+msgstr "چک‌سام پرونده"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:101
+#, kde-format
+msgid "Framework product"
+msgstr "محصول چارچوب"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:104
+#, kde-format
+msgid "Framework program"
+msgstr "برنامه چارچوب"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:107
+#, kde-format
+msgid "Framework version"
+msgstr "نسخه چارچوب"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:110
+#, kde-format
+msgid "Data source type"
+msgstr "نوع منبع داده"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:113
+#, kde-format
+msgid "Mapping format"
+msgstr "قالب نگاشت"
+
+#: colord-kcm/ProfileMetaDataModel.cpp:116
+#, kde-format
+msgid "Mapping qualifier"
+msgstr "توصیف‌کننده نگاشت"
+
+#: colord-kcm/ProfileModel.cpp:226 colord-kcm/ui/main.qml:52
+#, kde-format
+msgid "Profiles"
+msgstr "پروفایل‌ها"
+
+#: colord-kcm/ui/main.qml:65
+#, kde-format
+msgid "Import Profile"
+msgstr "درون‌ریزی نمایه"
+
+#: colord-kcm/ui/main.qml:72
+#, kde-format
+msgid "Assign Profile"
+msgstr "تخصیص نمایه"
+
+#: colord-kcm/ui/main.qml:111 colord-kcm/ui/main.qml:131
+#, kde-format
+msgid "Remove Profile"
+msgstr "حذف نمایه"
+
+#: colord-kcm/ui/main.qml:121
+#, kde-format
+msgctxt "ICC Profile is a tech term"
+msgid "Import ICC Profile"
+msgstr "درون‌ریزی نمایهٔ ICC"
+
+#: colord-kcm/ui/main.qml:126
+#, kde-format
+msgctxt "ICC Profile is a tech term"
+msgid "ICC Profile"
+msgstr "نمایهٔ ICC"
+
+#: colord-kcm/ui/main.qml:133
+#, kde-format
+msgid "Are you sure you want to remove this profile?"
+msgstr "آیا مطمئنید که می‌خواهید این نمایه را حذف کنید؟"
+
+#: colord-kcm/ui/main.qml:291
+#, kde-format
+msgid "Id: "
+msgstr "شناسه: "
+
+#: colord-kcm/ui/main.qml:299
+#, kde-format
+msgid "Scope: "
+msgstr "محدوده: "
+
+#: colord-kcm/ui/main.qml:307
+#, kde-format
+msgid "Mode: "
+msgstr "حالت: "
+
+#: colord-kcm/ui/main.qml:315
+#, kde-format
+msgid "Current Profile: "
+msgstr "نمایهٔ کنونی: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:21
+#, kde-format
+msgid "Information"
+msgstr "اطلاعات"
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:29
+#, kde-format
+msgid "Metadata"
+msgstr "متاداده"
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:37
+#, kde-format
+msgctxt "button: tab button for 'named colors in profile' information page"
+msgid "Named Colors"
+msgstr "رنگ‌های نام‌دار"
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:109
+#, kde-format
+msgid "Profile Type: "
+msgstr "نوع نمایه: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:117
+#, kde-format
+msgid "Colorspace: "
+msgstr "فضای رنگی: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:125
+#, kde-format
+msgid "Created: "
+msgstr "تاریخ ایجاد: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:133
+#, kde-format
+msgid "Version: "
+msgstr "نسخه: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:142
+#, kde-format
+msgid "Device Model: "
+msgstr "مدل دستگاه: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:152
+#, kde-format
+msgid "Display Correction: "
+msgstr "اصلاح نمایشگر: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:155
+#, kde-format
+msgid "Yes"
+msgstr "بله"
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:155
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:160
+#, kde-format
+msgid "White Point: "
+msgstr "نقطهٔ سفید: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:169
+#, kde-format
+msgid "License: "
+msgstr "مجوز: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:179
+#, kde-format
+msgid "File Size: "
+msgstr "اندازهٔ پرونده: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:187
+#, kde-format
+msgid "Filename: "
+msgstr "نام پرونده: "
+
+#: colord-kcm/ui/ProfileMetaDataView.qml:196
+#, kde-format
+msgid "Install System Wide"
+msgstr "نصب برای تمام سیستم"
+
+#: icc-importer/main.cpp:41
+#, kde-format
+msgid "Description: %1"
+msgstr "توضیحات: %1"
+
+#: icc-importer/main.cpp:51
+#, kde-format
+msgid "Copyright: %1"
+msgstr "حق نشر: %1"
+
+#: icc-importer/main.cpp:62
+#, kde-format
+msgid "ICC Profile Installer"
+msgstr "نصب‌کنندهٔ نمایهٔ ICC"
+
+#: icc-importer/main.cpp:64
+#, kde-format
+msgid "An application to install ICC profiles"
+msgstr "برنامه‌ای برای نصب نمایه‌های ICC"
+
+#: icc-importer/main.cpp:66
+#, kde-format
+msgid "(C) 2008-2016 Daniel Nicoletti"
+msgstr "© ۲۰۰۸-۲۰۱۶ دانیل نیکولتی (Daniel Nicoletti)"
+
+#: icc-importer/main.cpp:69
+#, kde-format
+msgid "Port to kf5"
+msgstr "انتقال به kf5"
+
+#: icc-importer/main.cpp:77
+#, kde-format
+msgid "Do not prompt the user if he wants to install"
+msgstr "از کاربر برای نصب سؤال نشود"
+
+#: icc-importer/main.cpp:78
+#, kde-format
+msgid "Color profile to install"
+msgstr "نمایه رنگ برای نصب"
+
+#: icc-importer/main.cpp:93
+#, kde-format
+msgid "Failed to parse file: %1"
+msgstr "تجزیه پرونده ناموفق بود: %1"
+
+#: icc-importer/main.cpp:93
+#, kde-format
+msgid "Failed to open ICC profile"
+msgstr "باز کردن نمایه ICC ناموفق بود"
+
+#: icc-importer/main.cpp:102
+#, kde-format
+msgid "Color profile is already imported"
+msgstr "نمایه رنگ از قبل درون‌ریزی شده است"
+
+#: icc-importer/main.cpp:103 icc-importer/main.cpp:113
+#: icc-importer/main.cpp:121
+#, kde-format
+msgid "ICC Profile Importer"
+msgstr "درون‌ریز نمایه ICC"
+
+#: icc-importer/main.cpp:112
+#, kde-format
+msgid "ICC profile already installed system-wide"
+msgstr "نمایه ICC از قبل در سراسر سیستم نصب شده است"
+
+#: icc-importer/main.cpp:120
+#, kde-format
+msgid "Would you like to import the color profile?"
+msgstr "آیا مایلید نمایه رنگ را درون‌ریزی کنید؟"
+
+#: icc-importer/main.cpp:122
+#, kde-format
+msgid "import"
+msgstr "درون‌ریزی"
+
+#: icc-importer/main.cpp:131
+#, kde-format
+msgid "Failed to import color profile: color profile is already imported"
+msgstr "درون‌ریزی نمایهٔ رنگ ناموفق بود: نمایهٔ رنگ از قبل درون‌ریزی شده است"
+
+#: icc-importer/main.cpp:131 icc-importer/main.cpp:134
+#, kde-format
+msgid "Importing Color Profile"
+msgstr "در حال درون‌ریزی نمایهٔ رنگ"
+
+#: icc-importer/main.cpp:134
+#, kde-format
+msgid "Failed to import color profile: could not copy the file"
+msgstr "درون‌ریزی نمایهٔ رنگ ناموفق بود: پرونده کپی نشد"

@@ -1,0 +1,474 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the libtextautocorrection package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: libtextautocorrection\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-18 00:44+0000\n"
+"PO-Revision-Date: 2026-10-16 00:44+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: core/import/importlibreofficeautocorrection.cpp:53
+#, kde-format
+msgid "Archive cannot be opened in read mode."
+msgstr "بایگانی را نمی‌توان در حالت خواندن باز کرد."
+
+#: widgets/autocorrectionwidget.cpp:136
+#, kde-format
+msgid "Select Custom Writable Path"
+msgstr "انتخاب مسیر سفارشی قابل نوشتن"
+
+#: widgets/autocorrectionwidget.cpp:141
+#, kde-format
+msgid "Select Custom System Path"
+msgstr "انتخاب مسیر سیستمی سفارشی"
+
+#: widgets/autocorrectionwidget.cpp:151
+#, kde-format
+msgctxt "@action"
+msgid "LibreOffice Autocorrection"
+msgstr "تصحیح خودکار LibreOffice"
+
+#: widgets/autocorrectionwidget.cpp:155
+#, kde-format
+msgctxt "@action"
+msgid "KMail/Calligra Autocorrection"
+msgstr "تصحیح خودکار KMail/Calligra"
+
+#: widgets/autocorrectionwidget.cpp:442
+#, kde-format
+msgid "\"Replace\" string is the same as \"Find\" string."
+msgstr "رشتهٔ «جایگزینی» با رشتهٔ «یافتن» یکسان است."
+
+#: widgets/autocorrectionwidget.cpp:442
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Autocorrection Entry"
+msgstr "افزودن مدخل تصحیح خودکار"
+
+#: widgets/autocorrectionwidget.cpp:525
+#, kde-format
+msgid "&Modify"
+msgstr "تغییر"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. i18n: ectx: property (text), widget (QPushButton, add1)
+#: widgets/autocorrectionwidget.cpp:528 widgets/ui/autocorrectionwidget.ui:88
+#: widgets/ui/autocorrectionwidget.ui:228
+#, kde-format
+msgid "&Add"
+msgstr "افزودن"
+
+#: widgets/autocorrectionwidget.cpp:635
+#, kde-format
+msgid "Import LibreOffice Autocorrection"
+msgstr "درون‌ریزی تصحیح خودکار LibreOffice"
+
+#: widgets/autocorrectionwidget.cpp:636
+#, kde-format
+msgid "LibreOffice Autocorrection File (*.dat)"
+msgstr "پروندهٔ تصحیح خودکار لیبره‌آفیس ‎(*.dat)‎"
+
+#: widgets/autocorrectionwidget.cpp:639
+#, kde-format
+msgid "Import KMail Autocorrection"
+msgstr "درون‌ریزی تصحیح خودکار KMail"
+
+#: widgets/autocorrectionwidget.cpp:640
+#, kde-format
+msgid "KMail Autocorrection File (*.xml)"
+msgstr "پروندهٔ تصحیح خودکار KMail ‏(‎*.xml)‎"
+
+#: widgets/autocorrectionwidget.cpp:671
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Autocorrection File"
+msgstr "درون‌ریزی پروندهٔ تصحیح خودکار"
+
+#: widgets/autocorrectionwidget.cpp:695
+#, kde-format
+msgid ""
+"Language was changed, do you want to save config for previous language?"
+msgstr "زبان تغییر کرد، آیا می‌خواهید پیکربندی زبان قبلی را ذخیره کنید؟"
+
+#: widgets/autocorrectionwidget.cpp:696
+#, kde-format
+msgctxt "@title:window"
+msgid "Save config"
+msgstr "ذخیرهٔ پیکربندی"
+
+#: widgets/autocorrectionwidget.cpp:731
+#, kde-format
+msgid "Please save changes before exporting settings."
+msgstr "لطفاً قبل از برون‌ریزی تنظیمات، تغییرات را ذخیره کنید."
+
+#: widgets/autocorrectionwidget.cpp:731 widgets/autocorrectionwidget.cpp:734
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Autocorrection File"
+msgstr "برون‌ریزی پروندهٔ تصحیح خودکار"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enabledAutocorrection)
+#: widgets/ui/autocorrectionwidget.ui:21
+#, kde-format
+msgid "Enable autocorrection"
+msgstr "فعال‌سازی تصحیح خودکار"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/ui/autocorrectionwidget.ui:30
+#, kde-format
+msgid "Replacement and exception for language:"
+msgstr "جایگزینی و استثنا برای زبان:"
+
+#. i18n: ectx: property (text), widget (QPushButton, exportAutoCorrection)
+#: widgets/ui/autocorrectionwidget.ui:44
+#, kde-format
+msgid "Export…"
+msgstr "برون‌ریزی…"
+
+#. i18n: ectx: property (text), widget (QPushButton, importAutoCorrection)
+#: widgets/ui/autocorrectionwidget.ui:51
+#, kde-format
+msgid "Import…"
+msgstr "درون‌ریزی…"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: widgets/ui/autocorrectionwidget.ui:77
+#, kde-format
+msgid "Ad&vanced Autocorrection"
+msgstr "تصحیح خودکار پیشرفته"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#. i18n: ectx: property (text), widget (QPushButton, remove2)
+#: widgets/ui/autocorrectionwidget.ui:98
+#: widgets/ui/autocorrectionwidget.ui:303
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#. i18n: ectx: property (text), widget (QCheckBox, advancedAutocorrection)
+#: widgets/ui/autocorrectionwidget.ui:120
+#, kde-format
+msgid "&Enable word replacement"
+msgstr "فعال‌سازی جایگزینی واژه"
+
+#. i18n: ectx: property (text), widget (QLabel, findLabel)
+#: widgets/ui/autocorrectionwidget.ui:129
+#, kde-format
+msgid "&Find"
+msgstr "یافتن"
+
+#. i18n: ectx: property (text), widget (QLabel, replaceLabel)
+#: widgets/ui/autocorrectionwidget.ui:149
+#, kde-format
+msgid "&Replace"
+msgstr "جایگزینی"
+
+#. i18n: ectx: property (text), widget
+#. (TextAutoCorrectionWidgets::AutoCorrectionTreeWidget, treeWidget)
+#: widgets/ui/autocorrectionwidget.ui:187
+#, kde-format
+msgid "Find"
+msgstr "یافتن"
+
+#. i18n: ectx: property (text), widget
+#. (TextAutoCorrectionWidgets::AutoCorrectionTreeWidget, treeWidget)
+#: widgets/ui/autocorrectionwidget.ui:192
+#, kde-format
+msgid "Replace"
+msgstr "جایگزینی"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: widgets/ui/autocorrectionwidget.ui:201
+#, kde-format
+msgid "E&xceptions"
+msgstr "استثناها"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: widgets/ui/autocorrectionwidget.ui:209
+#, kde-format
+msgid "Do not treat as the end of a sentence:"
+msgstr "به عنوان پایان جمله در نظر گرفته نشود:"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove1)
+#: widgets/ui/autocorrectionwidget.ui:235
+#, kde-format
+msgid "R&emove"
+msgstr "حذف"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: widgets/ui/autocorrectionwidget.ui:277
+#, kde-format
+msgid "Accept two uppercase letters in:"
+msgstr "پذیرش دو حرف بزرگ در:"
+
+#. i18n: ectx: property (text), widget (QPushButton, add2)
+#: widgets/ui/autocorrectionwidget.ui:296
+#, kde-format
+msgid "Add"
+msgstr "افزودن"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: widgets/ui/autocorrectionwidget.ui:344
+#, kde-format
+msgid "Si&mple Autocorrection"
+msgstr "تصحیح خودکار ساده"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, upperCase)
+#: widgets/ui/autocorrectionwidget.ui:350
+#, kde-format
+msgid ""
+"Detect when a new sentence is started and always ensure that the first "
+"character is an uppercase character"
+msgstr ""
+"تشخیص زمان شروع یک جملهٔ جدید و اطمینان از اینکه نویسهٔ اول همیشه یک حرف "
+"بزرگ باشد"
+
+#. i18n: ectx: property (text), widget (QCheckBox, upperCase)
+#: widgets/ui/autocorrectionwidget.ui:354
+#, kde-format
+msgid ""
+"Convert &first letter of a sentence automatically to uppercase\n"
+"(e.g. \"my house. in this town\" to \"my house. In this town\")"
+msgstr ""
+"تبدیل خودکار اولین حرف جمله به حرف بزرگ\n"
+"(مثلاً «my house. in this town» به «my house. In this town»)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, upperUpper)
+#: widgets/ui/autocorrectionwidget.ui:364
+#, kde-format
+msgid ""
+"All words are checked for the common mistake of holding the shift key down a"
+" bit too long. If some words must have two uppercase characters, then those "
+"exceptions should be added in the 'Exceptions' tab."
+msgstr ""
+"همهٔ واژه‌ها برای اشتباه رایج پایین نگه داشتن بیش از حد کلید Shift بررسی "
+"می‌شوند. اگر برخی از واژه‌ها باید دو نویسهٔ بزرگ داشته باشند، این استثناها "
+"را در زبانهٔ «استثناها» اضافه کنید."
+
+#. i18n: ectx: property (text), widget (QCheckBox, upperUpper)
+#: widgets/ui/autocorrectionwidget.ui:368
+#, kde-format
+msgid ""
+"Convert &two uppercase characters to one uppercase and one lowercase character\n"
+" (e.g. PErfect to Perfect)"
+msgstr ""
+"تبدیل دو نویسهٔ بزرگ به یک نویسهٔ بزرگ و یک نویسهٔ کوچک\n"
+"(مثلاً PErfect به Perfect)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreDoubleSpace)
+#: widgets/ui/autocorrectionwidget.ui:375
+#, kde-format
+msgid ""
+"Make sure that more than one space cannot be typed, as this is a common "
+"mistake which is quite hard to find in formatted text."
+msgstr ""
+"اطمینان حاصل کنید که امکان تایپ بیش از یک فاصله وجود ندارد، زیرا این یک "
+"اشتباه رایج است که پیدا کردن آن در متن قالب‌بندی‌شده بسیار دشوار است."
+
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreDoubleSpace)
+#: widgets/ui/autocorrectionwidget.ui:378
+#, kde-format
+msgid "&Suppress double spaces"
+msgstr "حذف فاصله‌های دوتایی"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoReplaceNumber)
+#: widgets/ui/autocorrectionwidget.ui:385
+#, kde-format
+msgid "Most standard fraction notations will be converted when available"
+msgstr "اکثر نمادهای استاندارد کسری در صورت موجود بودن تبدیل خواهند شد"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoReplaceNumber)
+#: widgets/ui/autocorrectionwidget.ui:388
+#, kde-format
+msgid "Re&place 1/2… with ½..."
+msgstr "جایگزینی …1/2 با …½"
+
+#. i18n: ectx: property (text), widget (QCheckBox, capitalizeDaysName)
+#: widgets/ui/autocorrectionwidget.ui:395
+#, kde-format
+msgid "Capitalize name of days"
+msgstr "بزرگ نوشتن حرف اول نام روزها"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoFormatUrl)
+#: widgets/ui/autocorrectionwidget.ui:402
+#, kde-format
+msgid ""
+"Detect when a URL (Uniform Resource Locator) is typed and provide formatting"
+" that matches the way an Internet browser would show a URL."
+msgstr ""
+"تشخیص هنگام تایپ یک نشانی اینترنتی (URL) و اعمال قالبی متناسب با نحوه نمایش "
+"آن در مرورگر وب."
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoFormatUrl)
+#: widgets/ui/autocorrectionwidget.ui:405
+#, kde-format
+msgid "Autoformat &URLs (HTML mode)"
+msgstr "قالب‌بندی خودکار نشانی‌های اینترنتی (حالت HTML)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoChangeFormat)
+#: widgets/ui/autocorrectionwidget.ui:412
+#, kde-format
+msgid ""
+"When you use _underline_ or *bold*, the text between the underscores or "
+"asterisks will be converted to underlined or bold text."
+msgstr ""
+"هنگامی که از _زیرخط_ یا *پررنگ* استفاده می‌کنید، متن بین زیرخط‌ها یا "
+"ستاره‌ها به متن زیرخط‌دار یا پررنگ تبدیل می‌شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoChangeFormat)
+#: widgets/ui/autocorrectionwidget.ui:415
+#, kde-format
+msgid "Automatically do &bold, strikeout and underline formatting (HTML mode)"
+msgstr "اعمال خودکار قالب‌بندی پررنگ، خط‌خورده و زیرخط‌دار (حالت HTML)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoSuperScript)
+#: widgets/ui/autocorrectionwidget.ui:422
+#, kde-format
+msgid "Replace 1st… with 1^st... (HTML mode)"
+msgstr "جایگزینی …1st با …1^st (حالت HTML)"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. addNonBreakingSpaceInFrench)
+#: widgets/ui/autocorrectionwidget.ui:429
+#, kde-format
+msgid ""
+"Add non breaking space before specific punctuation marks in French text"
+msgstr "افزودن فاصله نشکستنی پیش از علائم نگارشی خاص در متون فرانسوی"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. replaceDoubleQuotesByFrenchQuotes)
+#: widgets/ui/autocorrectionwidget.ui:436
+#, kde-format
+msgid "Replace double quotes by french quotes"
+msgstr "جایگزینی نقل‌قول‌های دوتایی با گیومه فرانسوی"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: widgets/ui/autocorrectionwidget.ui:457
+#, kde-format
+msgid "Custom &Quotes"
+msgstr "نقل‌قول‌های سفارشی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, typographicDoubleQuotes)
+#: widgets/ui/autocorrectionwidget.ui:463
+#, kde-format
+msgid "Replace &double quotes with typographical quotes"
+msgstr "جایگزینی نقل‌قول‌های دوتایی با نقل‌قول‌های نگارشی"
+
+#. i18n: ectx: property (text), widget (QLabel, doubleQuoteBeginReplace)
+#. i18n: ectx: property (text), widget (QLabel, doubleQuoteEndReplace)
+#. i18n: ectx: property (text), widget (QLabel, simpleQuoteBeginReplace)
+#. i18n: ectx: property (text), widget (QLabel, simpleQuoteEndReplace)
+#: widgets/ui/autocorrectionwidget.ui:474
+#: widgets/ui/autocorrectionwidget.ui:514
+#: widgets/ui/autocorrectionwidget.ui:641
+#: widgets/ui/autocorrectionwidget.ui:655
+#, kde-format
+msgid "By Default"
+msgstr "به‌طور پیش‌فرض"
+
+#. i18n: ectx: property (text), widget (QPushButton, doubleQuote1)
+#. i18n: ectx: property (text), widget (QPushButton, doubleQuote2)
+#: widgets/ui/autocorrectionwidget.ui:487
+#: widgets/ui/autocorrectionwidget.ui:500
+#, kde-format
+msgid "\""
+msgstr "\""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: widgets/ui/autocorrectionwidget.ui:507
+#, kde-format
+msgid "Ending Quote:"
+msgstr "نقل‌قول پایانی:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: widgets/ui/autocorrectionwidget.ui:534
+#: widgets/ui/autocorrectionwidget.ui:634
+#, kde-format
+msgid "Opening Quote:"
+msgstr "نقل‌قول آغازین:"
+
+#. i18n: ectx: property (text), widget (QPushButton, doubleDefault)
+#. i18n: ectx: property (text), widget (QPushButton, singleDefault)
+#: widgets/ui/autocorrectionwidget.ui:548
+#: widgets/ui/autocorrectionwidget.ui:669
+#, kde-format
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#. i18n: ectx: property (text), widget (QCheckBox, typographicSingleQuotes)
+#: widgets/ui/autocorrectionwidget.ui:572
+#, kde-format
+msgid "Replace &single quotes with typographical quotes"
+msgstr "جایگزینی نقل‌قول‌های تکی با نقل‌قول‌های نگارشی"
+
+#. i18n: ectx: property (text), widget (QPushButton, singleQuote1)
+#. i18n: ectx: property (text), widget (QPushButton, singleQuote2)
+#: widgets/ui/autocorrectionwidget.ui:608
+#: widgets/ui/autocorrectionwidget.ui:627
+#, kde-format
+msgid "'"
+msgstr "'"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: widgets/ui/autocorrectionwidget.ui:648
+#, kde-format
+msgid "Ending Quotes:"
+msgstr "نقل‌قول‌های پایانی:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: widgets/ui/autocorrectionwidget.ui:707
+#, kde-format
+msgid "Path"
+msgstr "مسیر"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: widgets/ui/autocorrectionwidget.ui:713
+#, kde-format
+msgid "System Path:"
+msgstr "مسیر سامانه:"
+
+#. i18n: ectx: property (text), widget (QLabel, systemPath)
+#. i18n: ectx: property (text), widget (QLabel, writablePath)
+#: widgets/ui/autocorrectionwidget.ui:720
+#: widgets/ui/autocorrectionwidget.ui:750
+#, kde-format
+msgid "TextLabel"
+msgstr "برچسب‌متن"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: widgets/ui/autocorrectionwidget.ui:743
+#, kde-format
+msgid "Writable Path:"
+msgstr "مسیر قابل‌نوشتن:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: widgets/ui/autocorrectionwidget.ui:773
+#, kde-format
+msgid "Custom System Path:"
+msgstr "مسیر سفارشی سامانه:"
+
+#. i18n: ectx: property (text), widget (QToolButton,
+#. customSystemPathToolButton)
+#. i18n: ectx: property (text), widget (QToolButton,
+#. customWritablePathToolButton)
+#: widgets/ui/autocorrectionwidget.ui:785
+#: widgets/ui/autocorrectionwidget.ui:806
+#, kde-format
+msgid "…"
+msgstr "…"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: widgets/ui/autocorrectionwidget.ui:794
+#, kde-format
+msgid "Custom Writable Path:"
+msgstr "مسیر سفارشی قابل‌نوشتن:"

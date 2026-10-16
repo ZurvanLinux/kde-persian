@@ -1,0 +1,1238 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the marknote package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: marknote\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-16 00:46+0000\n"
+"PO-Revision-Date: 2026-10-16 01:13+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: application.cpp:34
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Notebook"
+msgstr "دفترچه یادداشت جدید"
+
+#: application.cpp:43
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Note"
+msgstr "یادداشت جدید"
+
+#: application.cpp:59
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Import from KNotes"
+msgstr "درون‌ریزی از KNotes"
+
+#: application.cpp:66
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Import from Maildir"
+msgstr "درون‌ریزی از Maildir"
+
+#: maildirimport.cpp:92
+#, kde-format
+msgctxt "@status"
+msgid "An error occurred while writing to “%1”"
+msgstr "هنگام نوشتن روی «%1» خطایی رخ داد"
+
+#: main.cpp:60
+#, kde-format
+msgid "Mathis Brüchert"
+msgstr "Mathis Brüchert"
+
+#: main.cpp:61 main.cpp:66 main.cpp:69
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: main.cpp:66
+#, kde-format
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:68
+#, kde-format
+msgid "Valentyn Bondarenko"
+msgstr "والنتین بوندارنکو"
+
+#: main.cpp:77
+#, kde-format
+msgid "Justin Zobel"
+msgstr "جاستین زوبل"
+
+#: main.cpp:78
+#, kde-format
+msgid "Flatpak support"
+msgstr "پشتیبانی از Flatpak"
+
+#: main.cpp:83
+#, kde-format
+msgid "Shubham Shinde"
+msgstr "شوبهام شینده"
+
+#: main.cpp:84
+#, kde-format
+msgid "Table of Contents"
+msgstr "فهرست مطالب"
+
+#: main.cpp:89
+#, kde-format
+msgid "Siddharth Chopra"
+msgstr "سیدارت چوپرا"
+
+#: main.cpp:90
+#, kde-format
+msgid "Source Mode"
+msgstr "حالت منبع"
+
+#: main.cpp:95
+#, kde-format
+msgid "Prayag Jain"
+msgstr "پرایاگ جین"
+
+#: main.cpp:96
+#, kde-format
+msgid "Block Editor"
+msgstr "ویرایشگر بلوک"
+
+#: main.cpp:101
+#, kde-format
+msgid "Joshua Goins"
+msgstr "جاشوا گوینز"
+
+#: main.cpp:102 main.cpp:107
+#, kde-format
+msgid "Bug fixes"
+msgstr "رفع اشکال‌ها"
+
+#: main.cpp:107
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:128 qml/Main.qml:466
+#, kde-format
+msgctxt "Application name"
+msgid "Marknote"
+msgstr "مارک‌نوت"
+
+#: main.cpp:130
+#, kde-format
+msgid "Note taking application"
+msgstr "برنامه یادداشت‌برداری"
+
+#: main.cpp:132
+#, kde-format
+msgid "© 2023–2026 Mathis Brüchert"
+msgstr "© 2023–2026 Mathis Brüchert"
+
+#: notesmodel.cpp:198
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to create note. A note already exists with the same name."
+msgstr ""
+"امکان ایجاد یادداشت وجود ندارد. یادداشتی با همین نام از قبل وجود دارد."
+
+#: notesmodel.cpp:205
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to create note: %1"
+msgstr "امکان ایجاد یادداشت وجود ندارد: %1"
+
+#: notesmodel.cpp:234
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to rename note. A note already exists with the same name."
+msgstr ""
+"امکان تغییر نام یادداشت وجود ندارد. یادداشتی با همین نام از قبل وجود دارد."
+
+#: notesmodel.cpp:298
+#, kde-format
+msgctxt "@info:status"
+msgid "Invalid move operation."
+msgstr "عملیات جابه‌جایی نامعتبر است."
+
+#: notesmodel.cpp:305
+#, kde-format
+msgctxt "@info:status"
+msgid "Cannot move a folder into itself."
+msgstr "نمی‌توان یک پوشه را به داخل خودش منتقل کرد."
+
+#: notesmodel.cpp:311
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to move file."
+msgstr "انتقال پرونده انجام نشد."
+
+#: qml/BlockCode.qml:276
+#, kde-format
+msgid "Copied to clipboard!"
+msgstr "در بریده‌دان کپی شد!"
+
+#: qml/components/SlashMenuPopup.qml:20
+#, kde-format
+msgid "Heading 1"
+msgstr "عنوان ۱"
+
+#: qml/components/SlashMenuPopup.qml:20
+#, kde-format
+msgid "Large section heading"
+msgstr "عنوان بخش بزرگ"
+
+#: qml/components/SlashMenuPopup.qml:21
+#, kde-format
+msgid "Heading 2"
+msgstr "عنوان ۲"
+
+#: qml/components/SlashMenuPopup.qml:21
+#, kde-format
+msgid "Medium section heading"
+msgstr "عنوان بخش متوسط"
+
+#: qml/components/SlashMenuPopup.qml:22
+#, kde-format
+msgid "Heading 3"
+msgstr "عنوان ۳"
+
+#: qml/components/SlashMenuPopup.qml:22
+#, kde-format
+msgid "Small section heading"
+msgstr "عنوان بخش کوچک"
+
+#: qml/components/SlashMenuPopup.qml:23
+#, kde-format
+msgid "Heading 4"
+msgstr "عنوان ۴"
+
+#: qml/components/SlashMenuPopup.qml:23
+#, kde-format
+msgid "Sub-heading 4"
+msgstr "زیرعنوان ۴"
+
+#: qml/components/SlashMenuPopup.qml:24
+#, kde-format
+msgid "Heading 5"
+msgstr "عنوان ۵"
+
+#: qml/components/SlashMenuPopup.qml:24
+#, kde-format
+msgid "Sub-heading 5"
+msgstr "زیرعنوان ۵"
+
+#: qml/components/SlashMenuPopup.qml:25
+#, kde-format
+msgid "Heading 6"
+msgstr "عنوان ۶"
+
+#: qml/components/SlashMenuPopup.qml:25
+#, kde-format
+msgid "Sub-heading 6"
+msgstr "زیرعنوان ۶"
+
+#: qml/components/SlashMenuPopup.qml:26
+#, kde-format
+msgid "Paragraph"
+msgstr "پاراگراف"
+
+#: qml/components/SlashMenuPopup.qml:26
+#, kde-format
+msgid "Plain text paragraph"
+msgstr "پاراگراف متن ساده"
+
+#: qml/components/SlashMenuPopup.qml:27
+#, kde-format
+msgid "Bullet List"
+msgstr "فهرست نشانه‌دار"
+
+#: qml/components/SlashMenuPopup.qml:27
+#, kde-format
+msgid "Unordered bulleted list"
+msgstr "فهرست نشانه‌دار نامرتب"
+
+#: qml/components/SlashMenuPopup.qml:28
+#, kde-format
+msgid "Numbered List"
+msgstr "فهرست شماره‌دار"
+
+#: qml/components/SlashMenuPopup.qml:28
+#, kde-format
+msgid "Numbered sequential list"
+msgstr "فهرست ترتیبی شماره‌دار"
+
+#: qml/components/SlashMenuPopup.qml:29
+#, kde-format
+msgid "Checklist"
+msgstr "چک‌لیست"
+
+#: qml/components/SlashMenuPopup.qml:29
+#, kde-format
+msgid "Task list with checkboxes"
+msgstr "فهرست وظایف با کادرهای تأیید"
+
+#: qml/components/SlashMenuPopup.qml:30
+#, kde-format
+msgid "Quote"
+msgstr "نقل‌قول"
+
+#: qml/components/SlashMenuPopup.qml:30
+#, kde-format
+msgid "Quote or callout block"
+msgstr "بلوک نقل‌قول یا کادر توضیحات"
+
+#: qml/components/SlashMenuPopup.qml:31
+#, kde-format
+msgid "Code Block"
+msgstr "بلوک کد"
+
+#: qml/components/SlashMenuPopup.qml:31
+#, kde-format
+msgid "Code snippet with syntax"
+msgstr "قطعه کد با نحو"
+
+#: qml/components/SlashMenuPopup.qml:32
+#, kde-format
+msgid "Divider"
+msgstr "جداکننده"
+
+#: qml/components/SlashMenuPopup.qml:32
+#, kde-format
+msgid "Horizontal dividing line"
+msgstr "خط جداکننده افقی"
+
+#: qml/components/SlashMenuPopup.qml:33
+#, kde-format
+msgid "Table"
+msgstr "جدول"
+
+#: qml/components/SlashMenuPopup.qml:33
+#, kde-format
+msgid "Tabular data grid"
+msgstr "شبکه داده‌های جدولی"
+
+#: qml/components/SlashMenuPopup.qml:34
+#, kde-format
+msgid "Close menu"
+msgstr "بستن منو"
+
+#: qml/components/SlashMenuPopup.qml:34
+#, kde-format
+msgid "Dismiss this menu"
+msgstr "بستن این منو"
+
+#: qml/EditorActions.qml:18
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: qml/EditorActions.qml:31
+#, kde-format
+msgid "Undo"
+msgstr "واگرد"
+
+#: qml/EditorActions.qml:38
+#, kde-format
+msgid "Redo"
+msgstr "ازنو"
+
+#: qml/EditorActions.qml:45
+#, kde-format
+msgid "Copy"
+msgstr "رونوشت"
+
+#: qml/EditPage.qml:281
+#, kde-format
+msgctxt "@action:button"
+msgid "Search Note"
+msgstr "جستجوی یادداشت"
+
+#: qml/EditPage.qml:289
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search in Note"
+msgstr "جستجو در یادداشت"
+
+#: qml/EditPage.qml:296
+#, kde-format
+msgctxt "@action:button"
+msgid "Table of Contents"
+msgstr "فهرست مطالب"
+
+#: qml/EditPage.qml:325
+#, kde-format
+msgid "Focus Mode"
+msgstr "حالت تمرکز"
+
+#: qml/EditPage.qml:342 qml/NativeWindowMenu.qml:27 qml/NotesPage.qml:295
+#: qml/WelcomePage.qml:29
+#, kde-format
+msgctxt "@action:menu"
+msgid "Exit Full Screen"
+msgstr "خروج از تمام‌صفحه"
+
+#: qml/EditPage.qml:355
+#, kde-format
+msgid "Switch editor mode"
+msgstr "تغییر حالت ویرایشگر"
+
+#: qml/EditPage.qml:360
+#, kde-format
+msgid "Source View"
+msgstr "نمای سورس"
+
+#: qml/EditPage.qml:412
+#, kde-format
+msgid "Find text…"
+msgstr "یافتن متن…"
+
+#: qml/EditPage.qml:448
+#, kde-format
+msgid "Previous"
+msgstr "قبلی"
+
+#: qml/EditPage.qml:464
+#, kde-format
+msgid "Next"
+msgstr "بعدی"
+
+#: qml/EditPage.qml:484 qml/EditPage.qml:590
+#, kde-format
+msgid "No matches"
+msgstr "موردی یافت نشد"
+
+#: qml/EditPage.qml:486 qml/EditPage.qml:592
+#, kde-format
+msgid "%1/%2"
+msgstr "%1/%2"
+
+#: qml/EditPage.qml:498 qml/EditPage.qml:561
+#, kde-format
+msgid "Replace"
+msgstr "جایگزینی"
+
+#: qml/EditPage.qml:510
+#, kde-format
+msgid "Close"
+msgstr "بستن"
+
+#: qml/EditPage.qml:532
+#, kde-format
+msgid "Replace with…"
+msgstr "جایگزینی با…"
+
+#: qml/EditPage.qml:537 qml/EditPage.qml:577
+#, kde-format
+msgctxt "@info:status"
+msgid "Replaced %1 occurrence"
+msgid_plural "Replaced %1 occurrences"
+msgstr[0] "%1 مورد جایگزین شد"
+msgstr[1] "%1 مورد جایگزین شد"
+
+#: qml/EditPage.qml:573
+#, kde-format
+msgid "Replace All"
+msgstr "جایگزینی همه"
+
+#: qml/EditPage.qml:640
+#, kde-format
+msgctxt "@info:status"
+msgid "The note has been copied to the clipboard."
+msgstr "یادداشت در بریده‌دان کپی شد."
+
+#: qml/GlobalMenuBar.qml:27
+#, kde-format
+msgctxt "@action:menu"
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: qml/ImportMaildirDialog.qml:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Import from Maildir"
+msgstr "وارد کردن از Maildir"
+
+#: qml/ImportMaildirDialog.qml:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Import from KNotes"
+msgstr "وارد کردن از KNotes"
+
+#: qml/ImportMaildirDialog.qml:35 qml/NotebookMetadataDialog.qml:37
+#, kde-format
+msgctxt "@label:textbox Notebook name"
+msgid "Name:"
+msgstr "نام:"
+
+#: qml/ImportMaildirDialog.qml:48
+#, kde-format
+msgctxt "@label:textbox Notebook name"
+msgid "Maildir location:"
+msgstr "مکان Maildir:"
+
+#: qml/ImportMaildirDialog.qml:55
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a Maildir location"
+msgstr "انتخاب مکان Maildir"
+
+#: qml/ImportMaildirDialog.qml:101
+#, kde-format
+msgctxt "@action:button"
+msgid "Import"
+msgstr "وارد کردن"
+
+#: qml/LinkDialog.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Link"
+msgstr "درج پیوند"
+
+#: qml/LinkDialog.qml:22
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Link Text:"
+msgstr "متن پیوند:"
+
+#: qml/LinkDialog.qml:30
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Link URL:"
+msgstr "نشانی وب پیوند:"
+
+#: qml/Main.qml:157
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to create a new note, you need to create a notebook first."
+msgstr "ایجاد یادداشت جدید ممکن نیست، ابتدا باید یک دفترچه یادداشت بسازید."
+
+#: qml/Main.qml:159
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Notebook"
+msgstr "ایجاد دفترچه یادداشت"
+
+#: qml/Main.qml:360 qml/NotesPage.qml:821
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Menu"
+msgstr "نمایش منو"
+
+#: qml/Main.qml:406
+#, kde-format
+msgctxt "@title:menu"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: qml/Main.qml:415
+#, kde-format
+msgctxt "@title:menu"
+msgid "Sort Notes List"
+msgstr "مرتب‌سازی فهرست یادداشت‌ها"
+
+#: qml/Main.qml:421
+#, kde-format
+msgid "by Name"
+msgstr "بر پایهٔ نام"
+
+#: qml/Main.qml:434
+#, kde-format
+msgid "by Date"
+msgstr "بر پایهٔ تاریخ"
+
+#: qml/Main.qml:451
+#, kde-format
+msgid "Collapse Sidebar"
+msgstr "جمع کردن نوار کناری"
+
+#: qml/Main.qml:451
+#, kde-format
+msgid "Expand Sidebar"
+msgstr "باز کردن نوار کناری"
+
+#: qml/Main.qml:589
+#, kde-format
+msgid "Your Notebooks"
+msgstr "دفترچه‌های یادداشت شما"
+
+#: qml/NativeEditMenu.qml:13
+#, kde-format
+msgctxt "@action:menu"
+msgid "Edit"
+msgstr "ویرایش"
+
+#: qml/NativeEditMenu.qml:42
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Undo"
+msgstr "واگرد"
+
+#: qml/NativeEditMenu.qml:52
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Redo"
+msgstr "ازنو"
+
+#: qml/NativeEditMenu.qml:65
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Cut"
+msgstr "برش"
+
+#: qml/NativeEditMenu.qml:75
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Copy"
+msgstr "کپی"
+
+#: qml/NativeEditMenu.qml:85
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Paste"
+msgstr "چسباندن"
+
+#: qml/NativeEditMenu.qml:110
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Delete"
+msgstr "حذف"
+
+#: qml/NativeEditMenu.qml:123
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: qml/NativeFileMenu.qml:13
+#, kde-format
+msgctxt "@action:menu"
+msgid "File"
+msgstr "پرونده"
+
+#: qml/NativeHelpMenu.qml:13
+#, kde-format
+msgctxt "@action:menu"
+msgid "Help"
+msgstr "راهنما"
+
+#: qml/NativeWindowMenu.qml:18
+#, kde-format
+msgctxt "@action:menu"
+msgid "Window"
+msgstr "پنجره"
+
+#: qml/NativeWindowMenu.qml:28
+#, kde-format
+msgctxt "@action:menu"
+msgid "Enter Full Screen"
+msgstr "ورود به حالت تمام‌صفحه"
+
+#: qml/NotebookContextMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit Notebook"
+msgstr "ویرایش دفترچه یادداشت"
+
+#: qml/NotebookContextMenu.qml:35 qml/NotebookDeleteAction.qml:22
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete Notebook"
+msgstr "حذف دفترچه یادداشت"
+
+#: qml/NotebookDeleteDialog.qml:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Notebook"
+msgstr "حذف دفترچه یادداشت"
+
+#: qml/NotebookDeleteDialog.qml:31
+#, kde-format
+msgid ""
+"Are you sure you want to delete the Notebook <b>%1</b>? This will delete the"
+" content of <b>%2</b> definitively."
+msgstr ""
+"آیا از حذف دفترچه یادداشت <b>%1</b> اطمینان دارید؟ با این کار محتوای "
+"<b>%2</b> برای همیشه حذف خواهد شد."
+
+#: qml/NotebookMetadataDialog.qml:30
+#, kde-format
+msgctxt "@title:window"
+msgid "New Notebook"
+msgstr "دفترچه یادداشت جدید"
+
+#: qml/NotebookMetadataDialog.qml:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Notebook"
+msgstr "ویرایش دفترچه یادداشت"
+
+#: qml/NoteLinkDialog.qml:42
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Note Link"
+msgstr "درج پیوند یادداشت"
+
+#: qml/NoteLinkDialog.qml:48
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Note Name:"
+msgstr "نام یادداشت:"
+
+#: qml/NoteLinkDialog.qml:50
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "The name of the note you want to link to."
+msgstr "نام یادداشتی که می‌خواهید به آن پیوند دهید."
+
+#: qml/NoteLinkDialog.qml:67
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Display Text:"
+msgstr "متن نمایشی:"
+
+#: qml/NoteLinkDialog.qml:69
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Optional alternate text to display instead of the note name."
+msgstr "متن جایگزین اختیاری برای نمایش به‌جای نام یادداشت."
+
+#: qml/NoteMetadataDialog.qml:30
+#, kde-format
+msgctxt "@title:window"
+msgid "New Note"
+msgstr "یادداشت جدید"
+
+#: qml/NoteMetadataDialog.qml:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Note"
+msgstr "ویرایش یادداشت"
+
+#: qml/NoteMetadataDialog.qml:73
+#, kde-format
+msgctxt "@label:textbox Note name"
+msgid "Name:"
+msgstr "نام:"
+
+#: qml/NoteMetadataDialog.qml:78
+#, kde-format
+msgctxt "@info"
+msgid "A note with this name already exists."
+msgstr "یادداشتی با این نام از قبل وجود دارد."
+
+#: qml/NotesPage.qml:116
+#, kde-format
+msgid "Add note"
+msgstr "افزودن یادداشت"
+
+#: qml/NotesPage.qml:187
+#, kde-format
+msgid "Collapse All"
+msgstr "جمع‌کردن همه"
+
+#: qml/NotesPage.qml:187
+#, kde-format
+msgid "Expand All"
+msgstr "گسترش همه"
+
+#: qml/NotesPage.qml:259
+#, kde-format
+msgid "Exit Search (%1)"
+msgstr "خروج از جستجو (%1)"
+
+#: qml/NotesPage.qml:259
+#, kde-format
+msgid "Search notes (%1)"
+msgstr "جستجوی یادداشت‌ها (%1)"
+
+#: qml/NotesPage.qml:315
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Note"
+msgstr "حذف یادداشت"
+
+#: qml/NotesPage.qml:327
+#, kde-format
+msgid ""
+"Are you sure you want to delete the note <b> %1 </b>? This will delete the "
+"file <b>%2</b> definitively."
+msgstr ""
+"آیا مطمئنید که می‌خواهید یادداشت <b> %1 </b> را حذف کنید؟ این کار پروندهٔ "
+"<b>%2</b> را برای همیشه حذف خواهد کرد."
+
+#: qml/NotesPage.qml:482 qml/NotesPage.qml:510
+#, kde-format
+msgctxt "@title:window"
+msgid "Marknote"
+msgstr "مارک‌نوت"
+
+#: qml/NotesPage.qml:483
+#, kde-format
+msgctxt "@info"
+msgid "Export of “%1” was successful."
+msgstr "برون‌ریزی «%1» با موفقیت انجام شد."
+
+#: qml/NotesPage.qml:496
+#, kde-format
+msgctxt "@action:notifaction"
+msgid "Open File"
+msgstr "باز کردن پرونده"
+
+#: qml/NotesPage.qml:511
+#, kde-format
+msgctxt "@info"
+msgid "Export of “%1” failed."
+msgstr "برون‌ریزی «%1» ناموفق بود."
+
+#: qml/NotesPage.qml:522
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: qml/NotesPage.qml:531 qml/TextFieldContextMenu.qml:323
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "رونوشت"
+
+#: qml/NotesPage.qml:546
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Duplicate"
+msgstr "تکثیر"
+
+#: qml/NotesPage.qml:554
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export"
+msgstr "برون‌ریزی"
+
+#: qml/NotesPage.qml:558
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export to HTML"
+msgstr "برون‌ریزی به HTML"
+
+#: qml/NotesPage.qml:564
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to HTML"
+msgstr "برون‌ریزی به HTML"
+
+#: qml/NotesPage.qml:565
+#, kde-format
+msgid "HTML file (*.html)"
+msgstr "پروندهٔ HTML ‏(*.html)"
+
+#: qml/NotesPage.qml:571
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export to PDF"
+msgstr "برون‌ریزی به PDF"
+
+#: qml/NotesPage.qml:577
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to PDF"
+msgstr "برون‌ریزی به PDF"
+
+#: qml/NotesPage.qml:578
+#, kde-format
+msgid "PDF file (*.pdf)"
+msgstr "پروندهٔ PDF ‏(‎*.pdf)"
+
+#: qml/NotesPage.qml:584
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export to ODT"
+msgstr "برون‌ریزی به ODT"
+
+#: qml/NotesPage.qml:590
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to ODT"
+msgstr "برون‌ریزی به ODT"
+
+#: qml/NotesPage.qml:591
+#, kde-format
+msgid "ODF Text Document (*.odt)"
+msgstr "سند متنی ODF ‏(‎*.odt)"
+
+#: qml/NotesPage.qml:600 qml/TextFieldContextMenu.qml:365
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "حذف"
+
+#: qml/NotesPage.qml:873
+#, kde-format
+msgid "Add a note!"
+msgstr "افزودن یادداشت!"
+
+#: qml/NotesPage.qml:882
+#, kde-format
+msgid "No notes matching the search"
+msgstr "هیچ یادداشتی مطابق با جستجو پیدا نشد"
+
+#: qml/NotesPage.qml:898 qml/NotesPage.qml:906
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 note"
+msgid_plural "%1 notes"
+msgstr[0] "%1 یادداشت"
+msgstr[1] "%1 یادداشت"
+
+#: qml/NotesPage.qml:902 qml/NotesPage.qml:905
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 پوشه"
+msgstr[1] "%1 پوشه"
+
+#: qml/NotesPage.qml:908
+#, kde-format
+msgctxt "@info:status"
+msgid "%1, %2"
+msgstr "%1، %2"
+
+#: qml/RichEditPage.qml:235
+#, kde-format
+msgctxt "@title:window"
+msgid "Select an image"
+msgstr "انتخاب تصویر"
+
+#: qml/RichEditPage.qml:238
+#, kde-format
+msgid "Image files (*.jpg *.jpeg *.jxl *.png *.svg *.webp)"
+msgstr "پرونده‌های تصویر (‎*.jpg *.jpeg *.jxl *.png *.svg *.webp)"
+
+#: qml/RichEditPage.qml:238
+#, kde-format
+msgid "All files (*)"
+msgstr "تمام پرونده‌ها (*)"
+
+#: qml/RichEditPage.qml:763
+#, kde-format
+msgctxt "@action:button"
+msgid "Bold"
+msgstr "پررنگ"
+
+#: qml/RichEditPage.qml:785
+#, kde-format
+msgctxt "@action:button"
+msgid "Italic"
+msgstr "مورب"
+
+#: qml/RichEditPage.qml:802
+#, kde-format
+msgctxt "@action:button"
+msgid "Strikethrough"
+msgstr "خط‌خورده"
+
+#: qml/RichEditPage.qml:822
+#, kde-format
+msgctxt "@action:button"
+msgid "Increase List Level"
+msgstr "افزایش سطح فهرست"
+
+#: qml/RichEditPage.qml:836
+#, kde-format
+msgctxt "@action:button"
+msgid "Decrease List Level"
+msgstr "کاهش سطح فهرست"
+
+#: qml/RichEditPage.qml:879
+#, kde-format
+msgctxt "@action:button"
+msgid "Unordered list"
+msgstr "فهرست نامرتب"
+
+#: qml/RichEditPage.qml:898
+#, kde-format
+msgctxt "@action:button"
+msgid "Ordered list"
+msgstr "فهرست مرتب"
+
+#: qml/RichEditPage.qml:917
+#, kde-format
+msgctxt "@action:button"
+msgid "Checklist"
+msgstr "فهرست بررسی"
+
+#: qml/RichEditPage.qml:943
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert link"
+msgstr "درج پیوند"
+
+#: qml/RichEditPage.qml:962
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert note link"
+msgstr "درج پیوند یادداشت"
+
+#: qml/RichEditPage.qml:981
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert image"
+msgstr "درج تصویر"
+
+#: qml/RichEditPage.qml:998
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert table"
+msgstr "درج جدول"
+
+#: qml/RichEditPage.qml:1015
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert sketch"
+msgstr "درج طرح اولیه"
+
+#: qml/RichEditPage.qml:1080
+#, kde-format
+msgctxt "@item:inmenu no heading"
+msgid "Paragraph"
+msgstr "بند"
+
+#: qml/RichEditPage.qml:1091
+#, kde-format
+msgctxt "@item:inmenu heading level 1 (largest)"
+msgid "Heading 1"
+msgstr "سرعنوان ۱"
+
+#: qml/RichEditPage.qml:1102
+#, kde-format
+msgctxt "@item:inmenu heading level 2"
+msgid "Heading 2"
+msgstr "سرعنوان ۲"
+
+#: qml/RichEditPage.qml:1113
+#, kde-format
+msgctxt "@item:inmenu heading level 3"
+msgid "Heading 3"
+msgstr "سرعنوان ۳"
+
+#: qml/RichEditPage.qml:1124
+#, kde-format
+msgctxt "@item:inmenu heading level 4"
+msgid "Heading 4"
+msgstr "تیتر ۴"
+
+#: qml/RichEditPage.qml:1135
+#, kde-format
+msgctxt "@item:inmenu heading level 5"
+msgid "Heading 5"
+msgstr "تیتر ۵"
+
+#: qml/RichEditPage.qml:1146
+#, kde-format
+msgctxt "@item:inmenu heading level 6 (smallest)"
+msgid "Heading 6"
+msgstr "تیتر ۶"
+
+#: qml/RichEditPage.qml:1321
+#, kde-format
+msgid "Format"
+msgstr "قالب‌بندی"
+
+#: qml/RichEditPage.qml:1330
+#, kde-format
+msgid "Lists"
+msgstr "فهرست‌ها"
+
+#: qml/RichEditPage.qml:1339
+#, kde-format
+msgid "Insert"
+msgstr "درج"
+
+#: qml/SketchDialog.qml:293
+#, kde-format
+msgctxt "Tool that removes selected parts of image from canvas"
+msgid "Eraser"
+msgstr "پاک‌کن"
+
+#: qml/SketchDialog.qml:308
+#, kde-format
+msgctxt "Button that clears the canvas"
+msgid "Clear Canvas"
+msgstr "پاک کردن بوم"
+
+#: qml/TableDialog.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Table"
+msgstr "درج جدول"
+
+#: qml/TextFieldContextMenu.qml:229
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Ignore"
+msgstr "نادیده گرفتن"
+
+#: qml/TextFieldContextMenu.qml:244
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Spell Check"
+msgstr "بررسی املا"
+
+#: qml/TextFieldContextMenu.qml:260
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Note"
+msgstr "باز کردن یادداشت"
+
+#: qml/TextFieldContextMenu.qml:260
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link"
+msgstr "باز کردن پیوند"
+
+#: qml/TextFieldContextMenu.qml:279
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Undo"
+msgstr "واگرد"
+
+#: qml/TextFieldContextMenu.qml:293
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Redo"
+msgstr "ازنو"
+
+#: qml/TextFieldContextMenu.qml:308
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "برش"
+
+#: qml/TextFieldContextMenu.qml:337
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "چسباندن"
+
+#: qml/TextFieldContextMenu.qml:383
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: qml/TocDrawer.qml:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Table of Contents"
+msgstr "فهرست مطالب"
+
+#: qml/TocDrawer.qml:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr "بستن"
+
+#: qml/TocDrawer.qml:151
+#, kde-format
+msgctxt "Is shown instead of the table of contents"
+msgid "No headings found"
+msgstr "هیچ سرتیره‌ای یافت نشد"
+
+#: qml/WelcomePage.qml:22
+#, kde-format
+msgid "Start by creating your first notebook!"
+msgstr "با ایجاد اولین دفترچه یادداشت خود شروع کنید!"
+
+#: settings/MarkNoteGeneralPage.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "General"
+msgstr "عمومی"
+
+#: settings/MarkNoteGeneralPage.qml:21
+#, kde-format
+msgid "General theme"
+msgstr "تم عمومی"
+
+#: settings/MarkNoteGeneralPage.qml:28
+#, kde-format
+msgid "Color theme"
+msgstr "تم رنگی"
+
+#: settings/MarkNoteGeneralPage.qml:46
+#, kde-format
+msgid "Use transparent editor page"
+msgstr "استفاده از صفحهٔ ویرایشگر شفاف"
+
+#: settings/MarkNoteGeneralPage.qml:72
+#, kde-format
+msgctxt "@label:slider"
+msgid "Background opacity"
+msgstr "کدری پس‌زمینه"
+
+#: settings/MarkNoteGeneralPage.qml:77
+#, kde-format
+msgctxt ""
+"@label:slider Current opacity percentage. %1 is the numeric percentage value"
+msgid "%1%"
+msgstr "%1٪"
+
+#: settings/MarkNoteGeneralPage.qml:102
+#, kde-format
+msgid "Editor Settings"
+msgstr "تنظیمات ویرایشگر"
+
+#: settings/MarkNoteGeneralPage.qml:108
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Notes Directory:"
+msgstr "شاخهٔ یادداشت‌ها:"
+
+#: settings/MarkNoteGeneralPage.qml:125
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Font family:"
+msgstr "خانوادهٔ قلم:"
+
+#: settings/MarkNoteGeneralPage.qml:150
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Font size:"
+msgstr "اندازهٔ قلم:"
+
+#: settings/MarkNoteSettings.qml:17
+#, kde-format
+msgctxt "@action:button"
+msgid "General"
+msgstr "عمومی"
+
+#: settings/MarkNoteSettings.qml:26
+#, kde-format
+msgctxt "@action:button"
+msgid "About Marknote"
+msgstr "دربارهٔ مارک‌نوت"
+
+#: settings/MarkNoteSettings.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "About KDE"
+msgstr "دربارهٔ کی‌دی‌ای"

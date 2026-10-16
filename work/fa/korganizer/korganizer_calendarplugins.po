@@ -1,0 +1,1072 @@
+# translation of korganizer.po to Persian
+# MaryamSadat Razavi <razavi@itland.ir>, 2006, 2007.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Reza Mirdamadi <mohi@ubuntu.ir>, 2012.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: korganizer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-10 00:47+0000\n"
+"PO-Revision-Date: 2026-10-16 00:14+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: datenums/configdialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Day Numbers"
+msgstr "پیکربندی شماره‌های روز"
+
+#: datenums/configdialog.cpp:43
+#, kde-format
+msgctxt "@title:group"
+msgid "Show Date Number"
+msgstr "نمایش شمارهٔ تاریخ"
+
+#: datenums/configdialog.cpp:48
+#, kde-format
+msgctxt "@option:radio"
+msgid "Show day number"
+msgstr "نمایش شمارهٔ روز"
+
+#: datenums/configdialog.cpp:49
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the year's day number"
+msgstr "نمایش شمارهٔ روز سال"
+
+#: datenums/configdialog.cpp:50
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select this option to show the day number of the current year."
+msgstr "این گزینه را برای نمایش شمارهٔ روز سال جاری انتخاب کنید."
+
+#: datenums/configdialog.cpp:53
+#, kde-format
+msgctxt "@option:radio"
+msgid "Show days to end of year"
+msgstr "نمایش روزهای مانده به پایان سال"
+
+#: datenums/configdialog.cpp:54
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the number of days remaining in the year"
+msgstr "نمایش تعداد روزهای باقی‌مانده از سال"
+
+#: datenums/configdialog.cpp:55
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option to show the number of days remaining in the current year."
+msgstr ""
+"این گزینه را برای نمایش تعداد روزهای باقی‌مانده از سال جاری انتخاب کنید."
+
+#: datenums/configdialog.cpp:58
+#, kde-format
+msgctxt "@option:radio"
+msgid "Show both"
+msgstr "نمایش هر دو"
+
+#: datenums/configdialog.cpp:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Show both the year's day number and the number of days remaining in the year"
+msgstr "نمایش هم شمارهٔ روز سال و هم تعداد روزهای باقی‌مانده از سال"
+
+#: datenums/configdialog.cpp:61
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option to show both the year's day number and the number of days"
+" remaining in the current year. The format is dayOfYear / daysTillEndOfYear"
+msgstr ""
+"این گزینه را انتخاب کنید تا هم شمارهٔ روز سال و هم تعداد روزهای باقی‌مانده "
+"از سال جاری نمایش داده شود. قالب به صورت dayOfYear / daysTillEndOfYear است"
+
+#: datenums/datenums.cpp:36
+#, kde-format
+msgid "This plugin shows information on a day's position in the year."
+msgstr "این افزونه اطلاعات مربوط به موقعیت یک روز در سال را نمایش می‌دهد."
+
+#: datenums/datenums.cpp:54
+#, kde-format
+msgid "1 day before the end of the year"
+msgid_plural "%1 days before the end of the year"
+msgstr[0] "۱ روز پیش از پایان سال"
+msgstr[1] "%1 روز پیش از پایان سال"
+
+#: datenums/datenums.cpp:59
+#, kde-format
+msgctxt "dayOfYear / daysTillEndOfYear"
+msgid "%1 / %2"
+msgstr "%1 / %2"
+
+#: datenums/datenums.cpp:60
+#, kde-format
+msgid "1 day since the beginning of the year,\n"
+msgid_plural "%1 days since the beginning of the year,\n"
+msgstr[0] "۱ روز از آغاز سال،\n"
+msgstr[1] "%1 روز از آغاز سال،\n"
+
+#: datenums/datenums.cpp:61
+#, kde-format
+msgid "1 day until the end of the year"
+msgid_plural "%1 days until the end of the year"
+msgstr[0] "۱ روز تا پایان سال"
+msgstr[1] "%1 روز تا پایان سال"
+
+#: datenums/datenums.cpp:102
+#, kde-format
+msgctxt "Week weekOfYear"
+msgid "Week %1"
+msgstr "هفتهٔ %1"
+
+#: datenums/datenums.cpp:103 datenums/datenums.cpp:113
+#: datenums/datenums.cpp:118
+#, kde-format
+msgid "1 week since the beginning of the year"
+msgid_plural "%1 weeks since the beginning of the year"
+msgstr[0] "۱ هفته از آغاز سال"
+msgstr[1] "%1 هفته از آغاز سال"
+
+#: datenums/datenums.cpp:106
+#, kde-format
+msgctxt "weekOfYear (year)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: datenums/datenums.cpp:107
+#, kde-format
+msgctxt "Week weekOfYear (year)"
+msgid "Week %1 (%2)"
+msgstr "هفتهٔ %1 (%2)"
+
+#: datenums/datenums.cpp:122
+#, kde-format
+msgid "1 week remaining"
+msgid_plural "%1 weeks remaining"
+msgstr[0] "۱ هفته باقی مانده"
+msgstr[1] "%1 هفته باقی مانده"
+
+#: datenums/datenums.cpp:123
+#, kde-format
+msgid "1 week until the end of the year"
+msgid_plural "%1 weeks until the end of the year"
+msgstr[0] "۱ هفته تا پایان سال"
+msgstr[1] "%1 هفته تا پایان سال"
+
+#: datenums/datenums.cpp:124
+#, kde-format
+msgctxt "weekOfYear / weeksTillEndOfYear"
+msgid "%1 / %2"
+msgstr "%1 / %2"
+
+#: datenums/datenums.cpp:140
+#, kde-format
+msgctxt ""
+"n weeks since the beginning of the year\n"
+"n weeks until the end of the year"
+msgid ""
+"%1\n"
+"%2"
+msgstr ""
+"%1\n"
+"%2"
+
+#: hebrewcalendar/configdialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Holidays"
+msgstr "پیکربندی تعطیلات"
+
+#: hebrewcalendar/configdialog.cpp:42
+#, kde-format
+msgctxt "@option:check"
+msgid "Use Israeli holidays"
+msgstr "استفاده از تعطیلات اسرائیل"
+
+#: hebrewcalendar/configdialog.cpp:43
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include Israeli holidays"
+msgstr "شامل کردن تعطیلات اسرائیل"
+
+#: hebrewcalendar/configdialog.cpp:44
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option to show Israeli holidays; including national, non-"
+"religious holidays."
+msgstr ""
+"این گزینه را برای نمایش تعطیلات اسرائیل انتخاب کنید؛ شامل تعطیلات ملی و "
+"غیرمذهبی."
+
+#: hebrewcalendar/configdialog.cpp:48
+#, kde-format
+msgctxt "@option:check"
+msgid "Show weekly parsha"
+msgstr "نمایش پاراشای هفتگی"
+
+#: hebrewcalendar/configdialog.cpp:49
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include weekly parsha days"
+msgstr "شامل کردن روزهای پاراشای هفتگی"
+
+#: hebrewcalendar/configdialog.cpp:50
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select this option to show weekly parsha days."
+msgstr "برای نمایش روزهای پاراشای هفتگی، این گزینه را انتخاب کنید."
+
+#: hebrewcalendar/configdialog.cpp:54
+#, kde-format
+msgctxt "@option:check"
+msgid "Show day of Omer"
+msgstr "نمایش روز اومِر"
+
+#: hebrewcalendar/configdialog.cpp:55
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include days of the Omer"
+msgstr "شامل روزهای اومِر"
+
+#: hebrewcalendar/configdialog.cpp:56
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select this option to show days of the Omer period."
+msgstr "برای نمایش روزهای دورهٔ اومِر، این گزینه را انتخاب کنید."
+
+#: hebrewcalendar/configdialog.cpp:60
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Chol HaMoed"
+msgstr "نمایش حول هاموئد"
+
+#: hebrewcalendar/configdialog.cpp:61
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include days of the Chol HaMoed"
+msgstr "شامل روزهای حول هاموئد"
+
+#: hebrewcalendar/configdialog.cpp:62
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Select this option to show days of the Chol HaMoed."
+msgstr "برای نمایش روزهای حول هاموئد، این گزینه را انتخاب کنید."
+
+#: hebrewcalendar/hebrew.cpp:189
+#, kde-format
+msgctxt "Hebrew month 1 - KLocale::LongName"
+msgid "Tishrey"
+msgstr "تیشری"
+
+#: hebrewcalendar/hebrew.cpp:191
+#, kde-format
+msgctxt "Hebrew month 2 - KLocale::LongName"
+msgid "Heshvan"
+msgstr "حشوان"
+
+#: hebrewcalendar/hebrew.cpp:193
+#, kde-format
+msgctxt "Hebrew month 3 - KLocale::LongName"
+msgid "Kislev"
+msgstr "کیسلو"
+
+#: hebrewcalendar/hebrew.cpp:195
+#, kde-format
+msgctxt "Hebrew month 4 - KLocale::LongName"
+msgid "Tevet"
+msgstr "طِوِت"
+
+#: hebrewcalendar/hebrew.cpp:197
+#, kde-format
+msgctxt "Hebrew month 5 - KLocale::LongName"
+msgid "Shvat"
+msgstr "شِواط"
+
+#: hebrewcalendar/hebrew.cpp:199
+#, kde-format
+msgctxt "Hebrew month 6 - KLocale::LongName"
+msgid "Adar"
+msgstr "آدار"
+
+#: hebrewcalendar/hebrew.cpp:201
+#, kde-format
+msgctxt "Hebrew month 7 - KLocale::LongName"
+msgid "Nisan"
+msgstr "نیسان"
+
+#: hebrewcalendar/hebrew.cpp:203
+#, kde-format
+msgctxt "Hebrew month 8 - KLocale::LongName"
+msgid "Iyar"
+msgstr "ایار"
+
+#: hebrewcalendar/hebrew.cpp:205
+#, kde-format
+msgctxt "Hebrew month 9 - KLocale::LongName"
+msgid "Sivan"
+msgstr "سیوان"
+
+#: hebrewcalendar/hebrew.cpp:207
+#, kde-format
+msgctxt "Hebrew month 10 - KLocale::LongName"
+msgid "Tamuz"
+msgstr "تموز"
+
+#: hebrewcalendar/hebrew.cpp:209
+#, kde-format
+msgctxt "Hebrew month 11 - KLocale::LongName"
+msgid "Av"
+msgstr "آو"
+
+#: hebrewcalendar/hebrew.cpp:211
+#, kde-format
+msgctxt "Hebrew month 12 - KLocale::LongName"
+msgid "Elul"
+msgstr "ایلول"
+
+#: hebrewcalendar/hebrew.cpp:213
+#, kde-format
+msgctxt "Hebrew month 13 - KLocale::LongName"
+msgid "Adar I"
+msgstr "آدار ۱"
+
+#: hebrewcalendar/hebrew.cpp:215
+#, kde-format
+msgctxt "Hebrew month 14 - KLocale::LongName"
+msgid "Adar II"
+msgstr "آدار دوم"
+
+#: hebrewcalendar/hebrew.cpp:227
+#, kde-format
+msgctxt "1. day of the month 2. hebrew month"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: hebrewcalendar/hebrew.cpp:233
+#, kde-format
+msgctxt ""
+"Change the next two strings if emphasis is done differently in your "
+"language."
+msgid ""
+"<qt><p align=\"center\"><i>\n"
+"%1\n"
+"</i></p></qt>"
+msgstr ""
+"<qt><p align=\"center\"><i>\n"
+"%1\n"
+"</i></p></qt>"
+
+#: hebrewcalendar/hebrew.cpp:240
+#, kde-format
+msgid "This plugin provides the date in the Jewish calendar."
+msgstr "این افزونه تاریخ را در تقویم عبری ارائه می‌دهد."
+
+#: hebrewcalendar/holiday.cpp:77
+#, kde-format
+msgctxt ""
+"These are Jewish holidays and mostly do not have translations. They may have"
+" different spellings in your language; otherwise, just translate the sound "
+"to your characters."
+msgid "Sh. HaHodesh"
+msgstr "شبات هاخودش"
+
+#: hebrewcalendar/holiday.cpp:85
+#, kde-format
+msgid "Erev Pesach"
+msgstr "اروف پسح"
+
+#: hebrewcalendar/holiday.cpp:96
+#, kde-format
+msgid "Sh. HaGadol"
+msgstr "شبات هاگادول"
+
+#: hebrewcalendar/holiday.cpp:104
+#, kde-format
+msgid "Pesach"
+msgstr "پسح"
+
+#: hebrewcalendar/holiday.cpp:115 hebrewcalendar/holiday.cpp:309
+#, kde-format
+msgid "Chol Hamoed"
+msgstr "حول هاموئد"
+
+#: hebrewcalendar/holiday.cpp:126 hebrewcalendar/holiday.cpp:131
+#: hebrewcalendar/holiday.cpp:140
+#, kde-format
+msgid "Yom HaShoah"
+msgstr "یوم هاشوآ"
+
+#: hebrewcalendar/holiday.cpp:166 hebrewcalendar/holiday.cpp:173
+#: hebrewcalendar/holiday.cpp:184
+#, kde-format
+msgid "Yom HaAtzmaut"
+msgstr "یوم هاعاتزمائوت (روز استقلال)"
+
+#: hebrewcalendar/holiday.cpp:168 hebrewcalendar/holiday.cpp:182
+#, kde-format
+msgid "Yom HaZikaron"
+msgstr "یوم هازیکارون (روز یادبود)"
+
+#: hebrewcalendar/holiday.cpp:192
+#, kde-format
+msgid "Yom Yerushalayim"
+msgstr "یوم یروشالاییم (روز اورشلیم)"
+
+#: hebrewcalendar/holiday.cpp:196
+#, kde-format
+msgid "Lag BaOmer"
+msgstr "لاگ باعومر"
+
+#: hebrewcalendar/holiday.cpp:222
+#, kde-format
+msgid "Erev Shavuot"
+msgstr "شب شاووعوت"
+
+#: hebrewcalendar/holiday.cpp:227
+#, kde-format
+msgid "Shavuot"
+msgstr "شاووعوت"
+
+#: hebrewcalendar/holiday.cpp:236
+#, kde-format
+msgid "Tzom Tammuz"
+msgstr "صوم تموز"
+
+#: hebrewcalendar/holiday.cpp:244
+#, kde-format
+msgid "Sh. Hazon"
+msgstr "شبات حزون"
+
+#: hebrewcalendar/holiday.cpp:246
+#, kde-format
+msgid "Sh. Nahamu"
+msgstr "شبات نحامو"
+
+#: hebrewcalendar/holiday.cpp:250
+#, kde-format
+msgid "Tisha B'Av"
+msgstr "تیشا بئاو (نهم آو)"
+
+#: hebrewcalendar/holiday.cpp:256
+#, kde-format
+msgid "S'lichot"
+msgstr "سلیخوت"
+
+#: hebrewcalendar/holiday.cpp:258
+#, kde-format
+msgid "Erev R.H."
+msgstr "شب روش هشانا"
+
+#: hebrewcalendar/holiday.cpp:266
+#, kde-format
+msgid "Rosh Hashana"
+msgstr "روش هشانا"
+
+#: hebrewcalendar/holiday.cpp:270 hebrewcalendar/holiday.cpp:285
+#, kde-format
+msgid "Sh. Shuvah"
+msgstr "شبات شووا"
+
+#: hebrewcalendar/holiday.cpp:272 hebrewcalendar/holiday.cpp:277
+#, kde-format
+msgid "Tzom Gedalia"
+msgstr "صوم گدالیا"
+
+#: hebrewcalendar/holiday.cpp:289
+#, kde-format
+msgid "Erev Y.K."
+msgstr "شب یوم کیپور"
+
+#: hebrewcalendar/holiday.cpp:292
+#, kde-format
+msgid "Yom Kippur"
+msgstr "یوم کیپور"
+
+#: hebrewcalendar/holiday.cpp:295
+#, kde-format
+msgid "Erev Sukkot"
+msgstr "شب سوکوت"
+
+#: hebrewcalendar/holiday.cpp:300
+#, kde-format
+msgid "Sukkot"
+msgstr "سوکوت"
+
+#: hebrewcalendar/holiday.cpp:313
+#, kde-format
+msgid "Hoshana Rabah"
+msgstr "هوشعنا ربا"
+
+#: hebrewcalendar/holiday.cpp:316
+#, kde-format
+msgid "Shmini Atzeret"
+msgstr "شمینی عتصرت"
+
+#: hebrewcalendar/holiday.cpp:320
+#, kde-format
+msgid "Simchat Torah"
+msgstr "سیمخات تورا"
+
+#: hebrewcalendar/holiday.cpp:331
+#, kde-format
+msgid "Erev Hanukah"
+msgstr "شب حنوکا"
+
+#: hebrewcalendar/holiday.cpp:333 hebrewcalendar/holiday.cpp:341
+#, kde-format
+msgid "Hanukah"
+msgstr "حنوکا"
+
+#: hebrewcalendar/holiday.cpp:344
+#, kde-format
+msgid "Tzom Tevet"
+msgstr "صوم طِوت"
+
+#: hebrewcalendar/holiday.cpp:354 hebrewcalendar/holiday.cpp:363
+#: hebrewcalendar/holiday.cpp:368 hebrewcalendar/holiday.cpp:374
+#, kde-format
+msgid "Sh. Shirah"
+msgstr "شبات شیرا"
+
+#: hebrewcalendar/holiday.cpp:370
+#, kde-format
+msgid "Tu B'Shvat"
+msgstr "تو بیشواط"
+
+#: hebrewcalendar/holiday.cpp:385 hebrewcalendar/holiday.cpp:397
+#: hebrewcalendar/holiday.cpp:405
+#, kde-format
+msgid "Sh. Shekalim"
+msgstr "شبات شکالیم"
+
+#: hebrewcalendar/holiday.cpp:394
+#, kde-format
+msgid "Purim Katan"
+msgstr "پوریم کوچک"
+
+#: hebrewcalendar/holiday.cpp:413 hebrewcalendar/holiday.cpp:433
+#, kde-format
+msgid "Ta'anit Ester"
+msgstr "تعنیت استر"
+
+#: hebrewcalendar/holiday.cpp:422 hebrewcalendar/holiday.cpp:427
+#, kde-format
+msgid "Sh. Zachor"
+msgstr "شبات زاخور"
+
+#: hebrewcalendar/holiday.cpp:429
+#, kde-format
+msgid "Erev Purim"
+msgstr "شب پوریم"
+
+#: hebrewcalendar/holiday.cpp:437
+#, kde-format
+msgid "Purim"
+msgstr "پوریم"
+
+#: hebrewcalendar/holiday.cpp:441 hebrewcalendar/holiday.cpp:446
+#, kde-format
+msgid "Shushan Purim"
+msgstr "شوشان پوریم"
+
+#: hebrewcalendar/holiday.cpp:457
+#, kde-format
+msgid "Sh. Parah"
+msgstr "شبات پارا"
+
+#: hebrewcalendar/holiday.cpp:467
+#, kde-format
+msgid "Sh. HaHodesh"
+msgstr "شبات هاخودش"
+
+#: hebrewcalendar/holiday.cpp:483
+#, kde-format
+msgid " Omer"
+msgstr " عومر"
+
+#: hebrewcalendar/parsha.cpp:28
+#, kde-format
+msgctxt ""
+"These are weekly readings and do not have translations. They may have "
+"different spellings in your language; otherwise, just translate the sound to"
+" your characters"
+msgid "Bereshit"
+msgstr "برشیت"
+
+#: hebrewcalendar/parsha.cpp:29
+#, kde-format
+msgid "Noach"
+msgstr "نوح"
+
+#: hebrewcalendar/parsha.cpp:29
+#, kde-format
+msgid "Lech L'cha"
+msgstr "لخ لِخا"
+
+#: hebrewcalendar/parsha.cpp:29
+#, kde-format
+msgid "Vayera"
+msgstr "وایرا"
+
+#: hebrewcalendar/parsha.cpp:29
+#, kde-format
+msgid "Chaye Sarah"
+msgstr "حَیِی سارا"
+
+#: hebrewcalendar/parsha.cpp:29
+#, kde-format
+msgid "Toldot"
+msgstr "تولدوت"
+
+#: hebrewcalendar/parsha.cpp:29
+#, kde-format
+msgid "Vayetze"
+msgstr "وایِتثه"
+
+#: hebrewcalendar/parsha.cpp:29
+#, kde-format
+msgid "Vayishlach"
+msgstr "واییشلاخ"
+
+#: hebrewcalendar/parsha.cpp:30
+#, kde-format
+msgid "Vayeshev"
+msgstr "وایِشِو"
+
+#: hebrewcalendar/parsha.cpp:30
+#, kde-format
+msgid "Miketz"
+msgstr "میکِتس"
+
+#: hebrewcalendar/parsha.cpp:30
+#, kde-format
+msgid "Vayigash"
+msgstr "وایگاش"
+
+#: hebrewcalendar/parsha.cpp:30
+#, kde-format
+msgid "Vayechi"
+msgstr "وایِحی"
+
+#: hebrewcalendar/parsha.cpp:30
+#, kde-format
+msgid "Shemot"
+msgstr "شموت"
+
+#: hebrewcalendar/parsha.cpp:30
+#, kde-format
+msgid "Vaera"
+msgstr "وائرا"
+
+#: hebrewcalendar/parsha.cpp:30
+#, kde-format
+msgid "Bo"
+msgstr "بو"
+
+#: hebrewcalendar/parsha.cpp:31
+#, kde-format
+msgid "Beshalach"
+msgstr "بشلاخ"
+
+#: hebrewcalendar/parsha.cpp:31
+#, kde-format
+msgid "Yitro"
+msgstr "یترو"
+
+#: hebrewcalendar/parsha.cpp:31
+#, kde-format
+msgid "Mishpatim"
+msgstr "میشپاطیم"
+
+#: hebrewcalendar/parsha.cpp:31
+#, kde-format
+msgid "Terumah"
+msgstr "تروما"
+
+#: hebrewcalendar/parsha.cpp:31
+#, kde-format
+msgid "Tetzaveh"
+msgstr "تصاوه"
+
+#: hebrewcalendar/parsha.cpp:31
+#, kde-format
+msgid "Ki Tisa"
+msgstr "کی تیسا"
+
+#: hebrewcalendar/parsha.cpp:31
+#, kde-format
+msgid "Vayakhel"
+msgstr "ویاکهل"
+
+#: hebrewcalendar/parsha.cpp:32
+#, kde-format
+msgid "Pekudei"
+msgstr "پقودی"
+
+#: hebrewcalendar/parsha.cpp:32
+#, kde-format
+msgid "Vayikra"
+msgstr "وایکرا"
+
+#: hebrewcalendar/parsha.cpp:32
+#, kde-format
+msgid "Tzav"
+msgstr "صاو"
+
+#: hebrewcalendar/parsha.cpp:32
+#, kde-format
+msgid "Shemini"
+msgstr "شمینی"
+
+#: hebrewcalendar/parsha.cpp:32
+#, kde-format
+msgid "Tazria"
+msgstr "تزریاع"
+
+#: hebrewcalendar/parsha.cpp:32
+#, kde-format
+msgid "Metzora"
+msgstr "مِصوراع"
+
+#: hebrewcalendar/parsha.cpp:32
+#, kde-format
+msgid "Acharei Mot"
+msgstr "اَحَری موت"
+
+#: hebrewcalendar/parsha.cpp:33
+#, kde-format
+msgid "Kedoshim"
+msgstr "کدوشیم"
+
+#: hebrewcalendar/parsha.cpp:33
+#, kde-format
+msgid "Emor"
+msgstr "امور"
+
+#: hebrewcalendar/parsha.cpp:33
+#, kde-format
+msgid "Behar"
+msgstr "بهَر"
+
+#: hebrewcalendar/parsha.cpp:33
+#, kde-format
+msgid "Bechukotai"
+msgstr "بِخوقوتای"
+
+#: hebrewcalendar/parsha.cpp:33
+#, kde-format
+msgid "Bemidbar"
+msgstr "بمیدبار"
+
+#: hebrewcalendar/parsha.cpp:33
+#, kde-format
+msgid "Naso"
+msgstr "ناسو"
+
+#: hebrewcalendar/parsha.cpp:33
+#, kde-format
+msgid "Behaalotcha"
+msgstr "بهعلوتخا"
+
+#: hebrewcalendar/parsha.cpp:34
+#, kde-format
+msgid "Shelach"
+msgstr "شلاخ"
+
+#: hebrewcalendar/parsha.cpp:34
+#, kde-format
+msgid "Korach"
+msgstr "کورح"
+
+#: hebrewcalendar/parsha.cpp:34
+#, kde-format
+msgid "Chukat"
+msgstr "خوکات"
+
+#: hebrewcalendar/parsha.cpp:34
+#, kde-format
+msgid "Balak"
+msgstr "بالاق"
+
+#: hebrewcalendar/parsha.cpp:34
+#, kde-format
+msgid "Pinchas"
+msgstr "پینحاس"
+
+#: hebrewcalendar/parsha.cpp:34
+#, kde-format
+msgid "Matot"
+msgstr "ماتوت"
+
+#: hebrewcalendar/parsha.cpp:34
+#, kde-format
+msgid "Masei"
+msgstr "ماسعی"
+
+#: hebrewcalendar/parsha.cpp:35
+#, kde-format
+msgid "Devarim"
+msgstr "دواریم"
+
+#: hebrewcalendar/parsha.cpp:35
+#, kde-format
+msgid "Vaetchanan"
+msgstr "وائت‌حنان"
+
+#: hebrewcalendar/parsha.cpp:35
+#, kde-format
+msgid "Ekev"
+msgstr "عقب"
+
+#: hebrewcalendar/parsha.cpp:35
+#, kde-format
+msgid "Reeh"
+msgstr "رئه"
+
+#: hebrewcalendar/parsha.cpp:35
+#, kde-format
+msgid "Shoftim"
+msgstr "شوفطیم"
+
+#: hebrewcalendar/parsha.cpp:35
+#, kde-format
+msgid "Ki Tetze"
+msgstr "کی تتصه"
+
+#: hebrewcalendar/parsha.cpp:35
+#, kde-format
+msgid "Ki Tavo"
+msgstr "کی تاوو"
+
+#: hebrewcalendar/parsha.cpp:36
+#, kde-format
+msgid "Nitzavim"
+msgstr "نیتصاویم"
+
+#: hebrewcalendar/parsha.cpp:36
+#, kde-format
+msgid "Vayelech"
+msgstr "ویلخ"
+
+#: hebrewcalendar/parsha.cpp:36
+#, kde-format
+msgid "Haazinu"
+msgstr "هازینو"
+
+#: lunarphases/configdialog.cpp:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Lunar Phases"
+msgstr "پیکربندی وضعیت‌های ماه"
+
+#: lunarphases/configdialog.cpp:41
+#, kde-format
+msgctxt "@title:group"
+msgid "Choose your hemisphere"
+msgstr "نیم‌کرهٔ خود را انتخاب کنید"
+
+#: lunarphases/configdialog.cpp:46
+#, kde-format
+msgctxt "@option:radio"
+msgid "Northern Hemisphere"
+msgstr "نیم‌کرهٔ شمالی"
+
+#: lunarphases/configdialog.cpp:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the lunar phases for the northern hemisphere"
+msgstr "نمایش وضعیت‌های ماه برای نیم‌کرهٔ شمالی"
+
+#: lunarphases/configdialog.cpp:48
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option to show the moon phases if you live in the northern "
+"hemisphere."
+msgstr ""
+"اگر در نیم‌کرهٔ شمالی زندگی می‌کنید، این گزینه را برای نمایش وضعیت‌های ماه "
+"انتخاب کنید."
+
+#: lunarphases/configdialog.cpp:51
+#, kde-format
+msgctxt "@option:radio"
+msgid "Southern Hemisphere"
+msgstr "نیم‌کرهٔ جنوبی"
+
+#: lunarphases/configdialog.cpp:52
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the lunar phases for the southern hemisphere"
+msgstr "نمایش وضعیت‌های ماه برای نیم‌کرهٔ جنوبی"
+
+#: lunarphases/configdialog.cpp:53
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option to show the moon phases if you live in the southern "
+"hemisphere."
+msgstr ""
+"اگر در نیم‌کرهٔ جنوبی زندگی می‌کنید، این گزینه را برای نمایش وضعیت‌های ماه "
+"انتخاب کنید."
+
+#: lunarphases/lunarphases.cpp:99
+#, kde-format
+msgid ""
+"This plugin displays the day's lunar phase (New, First, Last, Full). The "
+"phase is computed for noon in the system timezone. Crescent and Gibbous "
+"phases are not displayed."
+msgstr ""
+"این افزونه وضعیت ماه در روز جاری (ماه نو، تربیع اول، تربیع آخر، بدر) را "
+"نمایش می‌دهد. این وضعیت برای ظهر در منطقهٔ زمانی سامانه محاسبه می‌شود. "
+"وضعیت‌های هلال و کوژپشت نمایش داده نمی‌شوند."
+
+#: picoftheday/configdialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Picture of the Day"
+msgstr "پیکربندی تصویر روز"
+
+#: picoftheday/configdialog.cpp:42
+#, kde-format
+msgctxt "@title:group"
+msgid "Thumbnail Aspect Ratio Mode"
+msgstr "حالت نسبت ابعاد بندانگشتی"
+
+#: picoftheday/configdialog.cpp:46
+#, kde-format
+msgctxt "@option:radio"
+msgid "Ignore aspect ratio"
+msgstr "نادیده‌گرفتن نسبت ابعاد"
+
+#: picoftheday/configdialog.cpp:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Scale the thumbnail as needed to fill the space, ignoring the aspect ratio"
+msgstr ""
+"تغییر مقیاس تصویر بندانگشتی در صورت نیاز برای پر کردن فضا، با نادیده‌گرفتن "
+"نسبت ابعاد"
+
+#: picoftheday/configdialog.cpp:49
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The thumbnail will be scaled freely. The aspect ratio will not be preserved."
+msgstr ""
+"تصویر بندانگشتی آزادانه تغییر مقیاس خواهد یافت. نسبت ابعاد حفظ نخواهد شد."
+
+#: picoftheday/configdialog.cpp:53
+#, kde-format
+msgctxt "@option:radio"
+msgid "Keep aspect ratio"
+msgstr "حفظ نسبت ابعاد"
+
+#: picoftheday/configdialog.cpp:54
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Scale the thumbnail as large as possible with the same aspect ratio"
+msgstr "تغییر مقیاس بندانگشتی تا حد امکان بزرگ با حفظ همان نسبت ابعاد"
+
+#: picoftheday/configdialog.cpp:56
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The thumbnail will be scaled to a rectangle as large as possible inside a "
+"given rectangle, preserving the aspect ratio."
+msgstr ""
+"تصویر بندانگشتی با حفظ نسبت ابعاد، تا حد امکان در بزرگ‌ترین مستطیل ممکن درون"
+" مستطیل داده‌شده مقیاس‌بندی می‌شود."
+
+#: picoftheday/configdialog.cpp:61
+#, kde-format
+msgctxt "@option:radio"
+msgid "Keep aspect ratio by expanding"
+msgstr "حفظ نسبت ابعاد با گسترش"
+
+#: picoftheday/configdialog.cpp:62
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Scale the thumbnail to fill the space, possibly cropping the image"
+msgstr "تغییر مقیاس تصویر بندانگشتی برای پر کردن فضا، احتمالاً با برش تصویر"
+
+#: picoftheday/configdialog.cpp:64
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The thumbnail will be scaled to a rectangle as small as possible outside a "
+"given rectangle, preserving the aspect ratio."
+msgstr ""
+"تصویر بندانگشتی با حفظ نسبت ابعاد، در کوچک‌ترین مستطیل ممکن در بیرون از "
+"مستطیل مشخص‌شده مقیاس‌بندی می‌شود."
+
+#: picoftheday/element.cpp:209
+#, kde-format
+msgid "Wikipedia POTD: %1"
+msgstr "تصویر روز ویکی‌پدیا: %1"
+
+#: picoftheday/element.cpp:326
+#, kde-format
+msgid "Picture Page"
+msgstr "صفحهٔ تصویر"
+
+#: picoftheday/element.cpp:326
+#, kde-format
+msgid "Loading..."
+msgstr "در حال بارگذاری..."
+
+#: picoftheday/element.cpp:332
+#, kde-format
+msgid "<qt>Loading <i>Picture of the Day</i>...</qt>"
+msgstr "<qt>در حال بارگذاری <i>تصویر روز</i>...</qt>"
+
+#: picoftheday/picoftheday.cpp:48
+#, kde-format
+msgid "<qt>This plugin provides the Wikipedia <i>Picture of the Day</i>.</qt>"
+msgstr "<qt>این افزونه <i>تصویر روز</i> ویکی‌پدیا را ارائه می‌دهد.</qt>"
+
+#: thisdayinhistory/thisdayinhistory.cpp:29
+#, kde-format
+msgid "This plugin provides links to Wikipedia's 'This Day in History' pages."
+msgstr ""
+"این افزونه پیوندهایی به صفحه‌های «امروز در تاریخ» ویکی‌پدیا ارائه می‌دهد."
+
+#: thisdayinhistory/thisdayinhistory.cpp:37
+#, kde-format
+msgid "This day in history"
+msgstr "امروز در تاریخ"
+
+#: thisdayinhistory/thisdayinhistory.cpp:39
+#: thisdayinhistory/thisdayinhistory.cpp:53
+#, kde-format
+msgctxt "Localized Wikipedia website"
+msgid "https://en.wikipedia.org/wiki/"
+msgstr "https://fa.wikipedia.org/wiki/"
+
+#: thisdayinhistory/thisdayinhistory.cpp:40
+#, kde-format
+msgctxt "Qt date format used by the localized Wikipedia"
+msgid "MMMM_d"
+msgstr "d_MMMM"
+
+#: thisdayinhistory/thisdayinhistory.cpp:51
+#, kde-format
+msgid "This month in history"
+msgstr "این ماه در تاریخ"
+
+#: thisdayinhistory/thisdayinhistory.cpp:54
+#, kde-format
+msgctxt "Qt date format used by the localized Wikipedia"
+msgid "MMMM_yyyy"
+msgstr "MMMM_yyyy"

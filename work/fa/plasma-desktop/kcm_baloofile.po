@@ -1,0 +1,160 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_baloofile package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_baloofile\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-13 00:52+0000\n"
+"PO-Revision-Date: 2026-10-15 05:38+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Pause Indexer"
+msgstr "مکث نمایه‌ساز"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Resume Indexer"
+msgstr "ازسرگیری نمایه‌ساز"
+
+#: ui/main.qml:61
+#, kde-format
+msgctxt "@info inlinemessage"
+msgid ""
+"This will disable file searching in KRunner and launcher menus, and remove "
+"extended metadata display from all KDE applications."
+msgstr ""
+"این کار جست‌وجوی پرونده را در KRunner و منوهای اجراکننده غیرفعال کرده و "
+"نمایش فراداده‌های گسترده را از همهٔ برنامه‌های KDE حذف خواهد کرد."
+
+#: ui/main.qml:71
+#, kde-format
+msgctxt "@info:inlinemessage"
+msgid ""
+"Do you want to delete the saved index data? %1 of space will be freed, but "
+"if indexing is re-enabled later, the entire index will have to be re-created"
+" from scratch. This may take some time, depending on the number of files to "
+"index."
+msgstr ""
+"آیا می‌خواهید داده‌های نمایهٔ ذخیره‌شده را حذف کنید؟ %1 فضا آزاد خواهد شد، "
+"اما اگر نمایه‌سازی بعداً دوباره فعال شود، کل نمایه باید از ابتدا بازسازی "
+"شود. این کار بسته به تعداد پرونده‌هایی که باید نمایه‌سازی شوند، ممکن است "
+"مدتی طول بکشد."
+
+#: ui/main.qml:73
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete Index Data"
+msgstr "حذف داده‌های نمایه"
+
+#: ui/main.qml:83
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"File Search helps you quickly locate your files. You can choose which "
+"folders and what types of file data are indexed."
+msgstr ""
+"جست‌وجوی پرونده به شما کمک می‌کند پرونده‌های خود را به‌سرعت پیدا کنید. "
+"می‌توانید مشخص کنید کدام پوشه‌ها و چه انواعی از داده‌های پرونده نمایه‌سازی "
+"شوند."
+
+#: ui/main.qml:102
+#, kde-format
+msgctxt "@title:group"
+msgid "Data to index:"
+msgstr "داده‌ها برای نمایه‌سازی:"
+
+#: ui/main.qml:106
+#, kde-format
+msgctxt "@option:radio Data to index"
+msgid "Nothing (disable indexing entirely)"
+msgstr "هیچ‌چیز (غیرفعال‌سازی کامل نمایه‌سازی)"
+
+#: ui/main.qml:124
+#, kde-format
+msgctxt "@option:radio Data to index"
+msgid "File names only"
+msgstr "فقط نام پرونده‌ها"
+
+#: ui/main.qml:142
+#, kde-format
+msgctxt "@option:radio Data to index"
+msgid "File names and contents"
+msgstr "نام و محتوای پرونده‌ها"
+
+#: ui/main.qml:162
+#, kde-format
+msgctxt "@option:check"
+msgid "Also index hidden files and folders"
+msgstr "پرونده‌ها و پوشه‌های پنهان نیز نمایه‌سازی شوند"
+
+#: ui/main.qml:189
+#, kde-format
+msgctxt "@title:table Locations to include or exclude from indexing"
+msgid "Locations"
+msgstr "مکان‌ها"
+
+#: ui/main.qml:192
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Indexing a Folder…"
+msgstr "شروع نمایه‌سازی یک پوشه…"
+
+#: ui/main.qml:200
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop Indexing a Folder…"
+msgstr "توقف نمایه‌سازی یک پوشه…"
+
+#: ui/main.qml:218
+#, kde-format
+msgctxt "State and a percentage of progress"
+msgid "%1, %2% complete"
+msgstr "%1، %2٪ کامل شد"
+
+#: ui/main.qml:225
+#, kde-kuit-format
+msgctxt "@info Currently Indexing"
+msgid "Currently indexing: <filename>%1</filename>"
+msgstr "در حال نمایه‌سازی: <filename>%1</filename>"
+
+#: ui/main.qml:276
+#, kde-format
+msgctxt "@info:status"
+msgid "Not indexed"
+msgstr "نمایه‌سازی‌نشده"
+
+#: ui/main.qml:277
+#, kde-format
+msgctxt "@info:status"
+msgid "Indexed"
+msgstr "نمایه‌سازی‌شده"
+
+#: ui/main.qml:303
+#, kde-format
+msgctxt "Remove the list item for this filesystem path"
+msgid "Remove entry"
+msgstr "حذف ورودی"
+
+#: ui/main.qml:324
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a folder to include"
+msgstr "انتخاب پوشه برای گنجاندن"
+
+#: ui/main.qml:324
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a folder to exclude"
+msgstr "انتخاب پوشه برای مستثنی کردن"

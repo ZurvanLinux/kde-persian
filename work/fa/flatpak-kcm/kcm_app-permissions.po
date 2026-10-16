@@ -1,0 +1,622 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_app-permissions package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_app-permissions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-03 00:46+0000\n"
+"PO-Revision-Date: 2026-10-15 17:06+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: autotests/flatpakpermissiontest.cpp:615
+#: autotests/flatpakpermissiontest.cpp:821 flatpakpermission.cpp:404
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: autotests/flatpakpermissiontest.cpp:616
+#: autotests/flatpakpermissiontest.cpp:824 flatpakpermission.cpp:405
+#, kde-format
+msgid "see"
+msgstr "مشاهده"
+
+#: autotests/flatpakpermissiontest.cpp:617
+#: autotests/flatpakpermissiontest.cpp:822 flatpakpermission.cpp:406
+#, kde-format
+msgid "talk"
+msgstr "گفتگو"
+
+#: autotests/flatpakpermissiontest.cpp:618
+#: autotests/flatpakpermissiontest.cpp:823 flatpakpermission.cpp:407
+#, kde-format
+msgid "own"
+msgstr "مالکیت"
+
+#: autotests/flatpakpermissiontest.cpp:811 flatpakpermission.cpp:395
+#, kde-format
+msgid "OFF"
+msgstr "خاموش"
+
+#: autotests/flatpakpermissiontest.cpp:812 flatpakpermission.cpp:393
+#, kde-format
+msgid "read/write"
+msgstr "خواندن/نوشتن"
+
+#: autotests/flatpakpermissiontest.cpp:813 flatpakpermission.cpp:392
+#, kde-format
+msgid "read-only"
+msgstr "فقط‌خواندنی"
+
+#: autotests/flatpakpermissiontest.cpp:814 flatpakpermission.cpp:394
+#, kde-format
+msgid "create"
+msgstr "ایجاد"
+
+#: flatpakpermission.cpp:823
+#, kde-format
+msgid "Internet connection"
+msgstr "اتصال اینترنت"
+
+#: flatpakpermission.cpp:824
+#, kde-format
+msgid "Inter-process communication"
+msgstr "ارتباط بین‌فرایندی"
+
+#: flatpakpermission.cpp:830
+#, kde-format
+msgid "X11 windowing system"
+msgstr "سامانهٔ پنجره‌بندی X11"
+
+#: flatpakpermission.cpp:831
+#, kde-format
+msgid "Wayland windowing system"
+msgstr "سامانهٔ پنجره‌بندی وی‌لند (Wayland)"
+
+#: flatpakpermission.cpp:832
+#, kde-format
+msgid "Fallback to X11 windowing system"
+msgstr "بازگشت به سامانهٔ پنجره‌بندی X11"
+
+#: flatpakpermission.cpp:833
+#, kde-format
+msgid "Pulseaudio sound server"
+msgstr "کارساز صوتی پالس‌صدا (PulseAudio)"
+
+#: flatpakpermission.cpp:834
+#, kde-format
+msgid "Session bus access"
+msgstr "دسترسی به گذرگاه نشست"
+
+#: flatpakpermission.cpp:835
+#, kde-format
+msgid "System bus access"
+msgstr "دسترسی به گذرگاه سامانه"
+
+#: flatpakpermission.cpp:836
+#, kde-format
+msgid "Remote login access"
+msgstr "دسترسی به ورود از راه دور"
+
+#: flatpakpermission.cpp:837
+#, kde-format
+msgid "Smart card access"
+msgstr "دسترسی به کارت هوشمند"
+
+#: flatpakpermission.cpp:838
+#, kde-format
+msgid "Print system access"
+msgstr "دسترسی به سامانهٔ چاپ"
+
+#: flatpakpermission.cpp:844
+#, kde-format
+msgid "Kernel-based Virtual Machine access"
+msgstr "دسترسی به ماشین مجازی مبتنی بر هسته (KVM)"
+
+#: flatpakpermission.cpp:845
+#, kde-format
+msgid "Direct graphic rendering"
+msgstr "رندر مستقیم گرافیکی"
+
+#: flatpakpermission.cpp:846
+#, kde-format
+msgid "Host dev/shm"
+msgstr "‏dev/shm میزبان"
+
+#: flatpakpermission.cpp:847
+#, kde-format
+msgid "Device access"
+msgstr "دسترسی به دستگاه"
+
+#: flatpakpermission.cpp:853
+#, kde-format
+msgid "System calls by development tools"
+msgstr "فراخوانی‌های سیستمی توسط ابزارهای توسعه"
+
+#: flatpakpermission.cpp:854
+#, kde-format
+msgid "Run multiarch/multilib binaries"
+msgstr "اجرای باینری‌های چندمعماری/چندکتابخانه‌ای (multiarch/multilib)"
+
+#: flatpakpermission.cpp:855
+#, kde-format
+msgid "Bluetooth"
+msgstr "بلوتوث"
+
+#: flatpakpermission.cpp:856
+#, kde-format
+msgid "Canbus socket access"
+msgstr "دسترسی به سوکت Canbus"
+
+#: flatpakpermission.cpp:859
+#, kde-format
+msgid "Share dev/shm across all instances of an app per user ID"
+msgstr ""
+"اشتراک‌گذاری dev/shm میان تمام نمونه‌های یک برنامه به ازای هر شناسه کاربر"
+
+#: flatpakpermission.cpp:917
+#, kde-format
+msgid "All user files"
+msgstr "تمام پرونده‌های کاربر"
+
+#: flatpakpermission.cpp:918
+#, kde-format
+msgid "All system files"
+msgstr "تمام پرونده‌های سیستمی"
+
+#: flatpakpermission.cpp:919
+#, kde-format
+msgid "All system libraries, executables and binaries"
+msgstr "تمام کتابخانه‌ها، پرونده‌های اجرایی و باینری‌های سیستم"
+
+#: flatpakpermission.cpp:920
+#, kde-format
+msgid "All system configurations"
+msgstr "تمام پیکربندی‌های سیستم"
+
+#: flatpakpermission.cpp:1299
+#, kde-format
+msgid "Basic Permissions"
+msgstr "مجوزهای پایه‌ای"
+
+#: flatpakpermission.cpp:1301
+#, kde-format
+msgid "Filesystem Access"
+msgstr "دسترسی به سیستم پرونده"
+
+#: flatpakpermission.cpp:1303
+#, kde-format
+msgid "Advanced Permissions"
+msgstr "مجوزهای پیشرفته"
+
+#: flatpakpermission.cpp:1305
+#, kde-format
+msgid "Subsystems Shared"
+msgstr "زیرسیستم‌های هم‌رسانی‌شده"
+
+#: flatpakpermission.cpp:1307
+#, kde-format
+msgid "Sockets"
+msgstr "سوکت‌ها"
+
+#: flatpakpermission.cpp:1309
+#, kde-format
+msgid "Device Access"
+msgstr "دسترسی به دستگاه"
+
+#: flatpakpermission.cpp:1311
+#, kde-format
+msgid "Features Allowed"
+msgstr "ویژگی‌های مجاز"
+
+#: flatpakpermission.cpp:1313
+#, kde-format
+msgid "Session Bus Policy"
+msgstr "خط‌مشی گذرگاه نشست"
+
+#: flatpakpermission.cpp:1315
+#, kde-format
+msgid "System Bus Policy"
+msgstr "خط‌مشی گذرگاه سامانه"
+
+#: flatpakpermission.cpp:1317
+#, kde-format
+msgid "Environment"
+msgstr "محیط"
+
+#: flatpakpermission.cpp:1334
+#, kde-format
+msgid "Add a new filesystem path"
+msgstr "افزودن مسیر سامانه پرونده جدید"
+
+#: flatpakpermission.cpp:1336
+#, kde-format
+msgid "Add a new session bus"
+msgstr "افزودن گذرگاه نشست جدید"
+
+#: flatpakpermission.cpp:1338
+#, kde-format
+msgid "Add a new system bus"
+msgstr "افزودن گذرگاه سامانه جدید"
+
+#: flatpakpermission.cpp:1340
+#, kde-format
+msgid "Add a new environment variable"
+msgstr "افزودن متغیر محیطی جدید"
+
+#: restoredatamodel.cpp:153
+#, kde-format
+msgctxt "not an action but the ability to do so"
+msgid "Record the Screen"
+msgstr "ضبط صفحه نمایش"
+
+#: restoredatamodel.cpp:156 restoredatamodel.cpp:262
+#, kde-format
+msgctxt "not an action but the ability to do so"
+msgid "Control the Clipboard"
+msgstr "کنترل تخته‌گیره"
+
+#: restoredatamodel.cpp:162 restoredatamodel.cpp:268
+#, kde-format
+msgctxt "Part of a list of things"
+msgid "Keyboard"
+msgstr "صفحه‌کلید"
+
+#: restoredatamodel.cpp:165 restoredatamodel.cpp:271
+#, kde-format
+msgctxt "Part of a list of things"
+msgid "Mouse"
+msgstr "موشواره"
+
+#: restoredatamodel.cpp:168 restoredatamodel.cpp:274
+#, kde-format
+msgctxt "Part of a list of things"
+msgid "Touchscreen"
+msgstr "صفحه‌لمسی"
+
+#: restoredatamodel.cpp:171
+#, kde-format
+msgctxt "%1 is a list of things formed from above"
+msgid "Control %1"
+msgstr "کنترل %1"
+
+#: restoredatamodel.cpp:210
+#, kde-format
+msgctxt "%1 is the title of a window, %2 the name of an application"
+msgid "Window \"%1\" of %2"
+msgstr "پنجرهٔ «%1» از %2"
+
+#: restoredatamodel.cpp:214
+#, kde-format
+msgid "Region at (%1,%2) with size %3x%4"
+msgstr "ناحیه در (%1،%2) با اندازهٔ %3×%4"
+
+#: restoredatamodel.cpp:224
+#, kde-format
+msgid "Virtual Screen"
+msgstr "صفحهٔ مجازی"
+
+#: restoredatamodel.cpp:228
+#, kde-format
+msgid "The entire Workspace"
+msgstr "تمام فضای کاری"
+
+#: restoredatamodel.cpp:247
+#, kde-format
+msgctxt "%1 is the position of the screen"
+msgid "A disconnected Screen at %1"
+msgstr "یک صفحهٔ جداشده در %1"
+
+#: restoredatamodel.cpp:277
+#, kde-format
+msgctxt "%1 is a list of things formed from above"
+msgid "Capture input from: %1"
+msgstr "ضبط ورودی از: %1"
+
+#: ui/AddEnvironmentVariableDialog.qml:18
+#, kde-format
+msgid "Set Environment Variable"
+msgstr "تنظیم متغیر محیطی"
+
+#: ui/AddEnvironmentVariableDialog.qml:34
+#, kde-format
+msgctxt "@label:textbox name of environment variable"
+msgid "Name:"
+msgstr "نام:"
+
+#: ui/AddEnvironmentVariableDialog.qml:45
+#, kde-format
+msgctxt "@label:textbox value of environment variable"
+msgid "Value:"
+msgstr "مقدار:"
+
+#: ui/ApplyOrDiscardDialog.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Apply Permissions"
+msgstr "اعمال مجوزها"
+
+#: ui/ApplyOrDiscardDialog.qml:22
+#, kde-format
+msgctxt "@info dialog main text"
+msgid ""
+"The permissions of application %1 have been changed. Do you want to apply "
+"these changes or discard them?"
+msgstr ""
+"مجوزهای برنامهٔ %1 تغییر کرده‌اند. آیا می‌خواهید این تغییرات اعمال شوند یا "
+"لغو گردند؟"
+
+#: ui/FlatpakPermissions.qml:23
+#, kde-format
+msgctxt "@title:window %1 is the name of the application"
+msgid "%1 – Flatpak Settings"
+msgstr "%1 – تنظیمات فلت‌پک"
+
+#: ui/FlatpakPermissions.qml:144
+#, kde-format
+msgctxt "@info accessible.description for list"
+msgid "ID %1"
+msgstr "شناسهٔ %1"
+
+#: ui/FlatpakPermissions.qml:186
+#, kde-format
+msgctxt "@action:button in section header"
+msgid "Hide advanced permissions"
+msgstr "پنهان کردن مجوزهای پیشرفته"
+
+#: ui/FlatpakPermissions.qml:186
+#, kde-format
+msgctxt "@action:button in section header"
+msgid "Show advanced permissions"
+msgstr "نمایش مجوزهای پیشرفته"
+
+#: ui/FlatpakPermissions.qml:198
+#, kde-format
+msgctxt "@action:button in section header"
+msgid "Add New…"
+msgstr "افزودن جدید…"
+
+#: ui/FlatpakPermissions.qml:199
+#, kde-format
+msgctxt "action:button accessible"
+msgid "Add New File System Permission"
+msgstr "افزودن مجوز جدید سامانهٔ پرونده"
+
+#: ui/main.qml:91
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Select an application from the list to view its permissions here"
+msgstr "برنامه‌ای را از فهرست انتخاب کنید تا مجوزهایش اینجا نمایش داده شود"
+
+#: ui/Permissions.qml:28
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Manage Flatpak Settings"
+msgstr "مدیریت تنظیمات فلت‌پک"
+
+#: ui/Permissions.qml:61
+#, kde-format
+msgctxt "@label:group"
+msgid "General:"
+msgstr "عمومی:"
+
+#: ui/Permissions.qml:65
+#, kde-format
+msgctxt "@option:check"
+msgid "Send notifications"
+msgstr "ارسال اعلان‌ها"
+
+#: ui/Permissions.qml:82
+#, kde-format
+msgctxt "@option:check"
+msgid "Block automatic sleep and screen locking"
+msgstr "مسدود کردن خواب خودکار و قفل صفحه"
+
+#: ui/Permissions.qml:107
+#, kde-format
+msgctxt "@option:check"
+msgid "Activate game mode"
+msgstr "فعال کردن حالت بازی"
+
+#: ui/Permissions.qml:118
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Allows the application to activate game mode if you are using it on your "
+"system."
+msgstr ""
+"به برنامه اجازه می‌دهد در صورت استفاده در سیستم، حالت بازی را فعال کند."
+
+#: ui/Permissions.qml:127
+#, kde-format
+msgctxt "@option:check"
+msgid "Gain higher process priority"
+msgstr "کسب اولویت فرآیند بالاتر"
+
+#: ui/Permissions.qml:141
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Take screenshots:"
+msgstr "گرفتن عکس از صفحه:"
+
+#: ui/Permissions.qml:150 ui/Permissions.qml:172 ui/Permissions.qml:195
+#: ui/Permissions.qml:227
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Ask Once"
+msgstr "یک‌بار پرسش"
+
+#: ui/Permissions.qml:151 ui/Permissions.qml:173 ui/Permissions.qml:228
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Deny"
+msgstr "رد کردن"
+
+#: ui/Permissions.qml:152 ui/Permissions.qml:174 ui/Permissions.qml:229
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Allow"
+msgstr "اجازه دادن"
+
+#: ui/Permissions.qml:153 ui/Permissions.qml:230
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always Ask"
+msgstr "همیشه پرسیده شود"
+
+#: ui/Permissions.qml:162
+#, kde-format
+msgctxt "@title:group"
+msgid "Camera access:"
+msgstr "دسترسی به دوربین:"
+
+#: ui/Permissions.qml:186
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Location accuracy:"
+msgstr "دقت مکان‌یابی:"
+
+#: ui/Permissions.qml:197
+#, kde-format
+msgctxt "@item:inlistbox location accuracy"
+msgid "Deny"
+msgstr "رد کردن"
+
+#: ui/Permissions.qml:198
+#, kde-format
+msgctxt "@item:inlistbox location accuracy"
+msgid "Country"
+msgstr "کشور"
+
+#: ui/Permissions.qml:199
+#, kde-format
+msgctxt "@item:inlistbox location accuracy"
+msgid "City"
+msgstr "شهر"
+
+#: ui/Permissions.qml:200
+#, kde-format
+msgctxt "@item:inlistbox location accuracy"
+msgid "Neighborhood"
+msgstr "محله"
+
+#: ui/Permissions.qml:201
+#, kde-format
+msgctxt "@item:inlistbox location accuracy"
+msgid "Street"
+msgstr "خیابان"
+
+#: ui/Permissions.qml:202
+#, kde-format
+msgctxt "@item:inlistbox location accuracy"
+msgid "Exact"
+msgstr "دقیق"
+
+#: ui/Permissions.qml:217
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Set desktop and lock screen background:"
+msgstr "تنظیم پس‌زمینهٔ میزکار و صفحهٔ قفل:"
+
+#: ui/Permissions.qml:242
+#, kde-format
+msgctxt "@label"
+msgid "Screen sharing:"
+msgstr "هم‌رسانی صفحهٔ نمایش:"
+
+#: ui/Permissions.qml:246 ui/Permissions.qml:260 ui/Permissions.qml:290
+#, kde-format
+msgctxt "@action:button"
+msgid "Manage %1 Session"
+msgid_plural "Manage %1 Sessions"
+msgstr[0] "مدیریت %1 نشست"
+msgstr[1] "مدیریت %1 نشست"
+
+#: ui/Permissions.qml:247
+#, kde-format
+msgctxt "@title:window %1 is the name of the application"
+msgid "%1 – Screencast Sessions"
+msgstr "%1 – نشست‌های ضبط صفحه"
+
+#: ui/Permissions.qml:256
+#, kde-format
+msgctxt "@label"
+msgid "Capture pointer & keyboard input:"
+msgstr "ضبط ورودی نشانگر و صفحه‌کلید:"
+
+#: ui/Permissions.qml:261
+#, kde-format
+msgctxt "@title:window %1 is the name of the application"
+msgid "%1 – Input Capture Sessions"
+msgstr "%1 – نشست‌های ضبط ورودی"
+
+#: ui/Permissions.qml:271
+#, kde-format
+msgctxt ""
+"@label 'Remote control' like in xdg-desktop-portal-kde "
+"remotedesktopdialog.cpp"
+msgid " Remote control:"
+msgstr " کنترل از راه دور:"
+
+#: ui/Permissions.qml:275
+#, kde-format
+msgctxt "@option:check"
+msgid ""
+"Control pointer & keyboard, and share screen with other apps without asking"
+msgstr ""
+"کنترل نشانگر و صفحه‌کلید، و هم‌رسانی صفحهٔ نمایش با سایر برنامه‌ها بدون پرسش"
+
+#: ui/Permissions.qml:291
+#, kde-format
+msgctxt "@title:window %1 is the name of the application"
+msgid "%1 – Remote Desktop Sessions"
+msgstr "%1 – نشست‌های میزکار از راه دور"
+
+#: ui/SessionList.qml:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Revoke"
+msgstr "ابطال"
+
+#: ui/SessionList.qml:60
+#, kde-format
+msgctxt "@action:button revoke all screencasting/screen sharing sessions"
+msgid "Revoke All"
+msgstr "ابطال همه"
+
+#: ui/TextPromptDialog.qml:21
+#, kde-format
+msgid "Add Filesystem Path Permission"
+msgstr "افزودن مجوز مسیر سامانهٔ پرونده"
+
+#: ui/TextPromptDialog.qml:22
+#, kde-format
+msgid "Add Session Bus Permission"
+msgstr "افزودن مجوز گذرگاه نشست"
+
+#: ui/TextPromptDialog.qml:23
+#, kde-format
+msgid "Add System Bus Permission"
+msgstr "افزودن مجوز گذرگاه سیستم"
+
+#: ui/TextPromptDialog.qml:38
+#, kde-format
+msgid "Enter filesystem path:"
+msgstr "مسیر سامانهٔ پرونده را وارد کنید:"
+
+#: ui/TextPromptDialog.qml:39
+#, kde-format
+msgid "Enter session bus name:"
+msgstr "نام گذرگاه نشست را وارد کنید:"
+
+#: ui/TextPromptDialog.qml:40
+#, kde-format
+msgid "Enter system bus name:"
+msgstr "نام گذرگاه سیستم را وارد کنید:"

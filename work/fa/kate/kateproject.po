@@ -1,0 +1,1555 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kateproject package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kateproject\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-14 00:51+0000\n"
+"PO-Revision-Date: 2026-10-15 10:49+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: branchcheckoutdialog.cpp:29
+#, kde-format
+msgid "Select branch to checkout. Press 'Esc' to cancel."
+msgstr "شاخه را برای وارسی انتخاب کنید. برای لغو 'Esc' را فشار دهید."
+
+#: branchcheckoutdialog.cpp:62
+#, kde-format
+msgid "Branch %1 checked out"
+msgstr "شاخهٔ %1 وارسی شد"
+
+#: branchcheckoutdialog.cpp:65
+#, kde-format
+msgid "Failed to checkout to branch %1, Error: %2"
+msgstr "وارسی شاخهٔ %1 ناموفق بود، خطا: %2"
+
+#: branchcheckoutdialog.cpp:93 branchcheckoutdialog.cpp:105
+#, kde-format
+msgid "Enter new branch name. Press 'Esc' to cancel."
+msgstr "نام شاخهٔ جدید را وارد کنید. برای لغو 'Esc' را فشار دهید."
+
+#: branchcheckoutdialog.cpp:110
+#, kde-format
+msgid "Select branch to checkout from. Press 'Esc' to cancel."
+msgstr "شاخه را برای وارسی از آن انتخاب کنید. برای لغو 'Esc' را فشار دهید."
+
+#: branchcheckoutdialog.cpp:133
+#, kde-format
+msgid "Checked out to new branch: %1"
+msgstr "به شاخهٔ جدید وارسی شد: %1"
+
+#: branchcheckoutdialog.cpp:135
+#, kde-format
+msgid "Failed to create new branch. Error \"%1\""
+msgstr "ایجاد شاخهٔ جدید ناموفق بود. خطای \"%1\""
+
+#: branchdeletedialog.cpp:124
+#, kde-format
+msgid "Branch"
+msgstr "شاخه"
+
+#: branchdeletedialog.cpp:124
+#, kde-format
+msgid "Last Activity"
+msgstr "آخرین فعالیت"
+
+#: branchdeletedialog.cpp:124
+#, kde-format
+msgid "Last Commit"
+msgstr "آخرین کامیت"
+
+#: branchdeletedialog.cpp:137 kateprojecttreeviewcontextmenu.cpp:139
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: branchdeletedialog.cpp:142
+#, kde-format
+msgid "Are you sure you want to delete the selected branch?"
+msgid_plural "Are you sure you want to delete the selected branches?"
+msgstr[0] "آیا از حذف شاخهٔ انتخاب‌شده اطمینان دارید؟"
+msgstr[1] "آیا از حذف شاخه‌های انتخاب‌شده اطمینان دارید؟"
+
+#: branchesdialog.cpp:96
+#, kde-format
+msgid "Select Branch..."
+msgstr "انتخاب شاخه..."
+
+#: branchesdialog.cpp:108 gitwidget.cpp:551 kateprojectconfigpage.cpp:32
+#: kateprojectpluginview.cpp:77
+#, kde-format
+msgid "Git"
+msgstr "گیت"
+
+#: branchesdialogmodel.cpp:102
+#, kde-format
+msgid "Create New Branch"
+msgstr "ایجاد شاخهٔ جدید"
+
+#: branchesdialogmodel.cpp:108
+#, kde-format
+msgid "Create New Branch From..."
+msgstr "ایجاد شاخهٔ جدید از..."
+
+#: comparebranchesview.cpp:131
+#, kde-format
+msgid "Back"
+msgstr "بازگشت"
+
+#: currentgitbranchbutton.cpp:122
+#, kde-format
+msgctxt "Tooltip text, describing that '%1' commit is checked out"
+msgid "HEAD at commit %1"
+msgstr "HEAD در کامیت %1"
+
+#: currentgitbranchbutton.cpp:124
+#, kde-format
+msgctxt "Tooltip text, describing that '%1' tag is checked out"
+msgid "HEAD is at this tag %1"
+msgstr "HEAD در این برچسب %1 است"
+
+#: currentgitbranchbutton.cpp:126
+#, kde-format
+msgctxt "Tooltip text, describing that '%1' branch is checked out"
+msgid "Active branch: %1"
+msgstr "شاخهٔ فعال: %1"
+
+#: git/gitforgeconfigwidget.cpp:32
+#, kde-format
+msgid "Detect Service"
+msgstr "تشخیص سرویس"
+
+#: git/gitforgeconfigwidget.cpp:37
+#, kde-format
+msgid ""
+"Map Git remote hosts to their Forgejo, GitHub, or GitLab website. The remote"
+" host is taken from the clone URL; the website URL is used to open "
+"repository links in a browser."
+msgstr ""
+"نگاشت میزبان‌های دوردست گیت به وبگاه Forgejo، GitHub یا GitLab آن‌ها. میزبان"
+" دوردست از نشانی کلون گرفته می‌شود؛ از نشانی وبگاه برای باز کردن پیوندهای "
+"مخزن در مرورگر استفاده می‌شود."
+
+#: git/gitforgeconfigwidget.cpp:45
+#, kde-format
+msgid "Git Remote Host"
+msgstr "میزبان دوردست گیت"
+
+#: git/gitforgeconfigwidget.cpp:45
+#, kde-format
+msgid "Hosting Service"
+msgstr "سرویس میزبانی"
+
+#: git/gitforgeconfigwidget.cpp:45
+#, kde-format
+msgid "Website URL"
+msgstr "نشانی وبگاه"
+
+#: git/gitforgeconfigwidget.cpp:46
+#, kde-format
+msgid "Host from the Git clone URL, optionally followed by its SSH port"
+msgstr "میزبان از نشانی کلون گیت، اختیاری همراه با درگاه SSH آن"
+
+#: git/gitforgeconfigwidget.cpp:47
+#, kde-format
+msgid "Forgejo, GitHub, or GitLab software running on the server"
+msgstr "نرم‌افزار Forgejo، GitHub یا GitLab در حال اجرا روی سرور"
+
+#: git/gitforgeconfigwidget.cpp:48
+#, kde-format
+msgid "HTTP or HTTPS address used to open repository links in a web browser"
+msgstr ""
+"نشانی HTTP یا HTTPS مورد استفاده برای باز کردن پیوندهای مخزن در مرورگر وب"
+
+#: git/gitforgeconfigwidget.cpp:56
+#, kde-format
+msgid "Add Mapping"
+msgstr "افزودن نگاشت"
+
+#: git/gitforgeconfigwidget.cpp:57
+#, kde-format
+msgid "Remove Selected Mapping"
+msgstr "حذف نگاشت انتخاب‌شده"
+
+#: git/gitforgeconfigwidget.cpp:60
+#, kde-format
+msgid ""
+"Try to identify Forgejo, GitHub, or GitLab from the selected mapping's "
+"website URL"
+msgstr ""
+"تلاش برای شناسایی Forgejo، GitHub یا GitLab از نشانی وبگاه نگاشت انتخاب‌شده"
+
+#: git/gitforgeconfigwidget.cpp:106
+#, kde-format
+msgctxt "Git hosting service, such as Forgejo, GitHub, or GitLab"
+msgid "The hosting service in row %1 is invalid."
+msgstr "سرویس میزبانی در ردیف %1 نامعتبر است."
+
+#: git/gitforgeconfigwidget.cpp:111
+#, kde-format
+msgid "The Git remote host or website URL in row %1 is invalid."
+msgstr "میزبان دوردست گیت یا نشانی وبگاه در ردیف %1 نامعتبر است."
+
+#: git/gitforgeconfigwidget.cpp:138
+#, kde-format
+msgid "git.example.com or git.example.com:2222"
+msgstr "git.example.com یا git.example.com:2222"
+
+#: git/gitforgeconfigwidget.cpp:156
+#, kde-format
+msgid "https://git.example.com"
+msgstr "https://git.example.com"
+
+#: git/gitforgeconfigwidget.cpp:173
+#, kde-format
+msgid "Select a mapping to detect its hosting service."
+msgstr "یک نگاشت را برای شناسایی سرویس میزبانی آن انتخاب کنید."
+
+#: git/gitforgeconfigwidget.cpp:180
+#, kde-format
+msgid ""
+"Enter a valid HTTP or HTTPS website URL before detecting the hosting "
+"service."
+msgstr ""
+"پیش از شناسایی سرویس میزبانی، یک نشانی وب معتبر HTTP یا HTTPS وارد کنید."
+
+#: git/gitforgeconfigwidget.cpp:191
+#, kde-format
+msgid "Detecting…"
+msgstr "در حال شناسایی…"
+
+#: git/gitforgeconfigwidget.cpp:237
+#, kde-format
+msgid "Detected %1."
+msgstr "%1 شناسایی شد."
+
+#: git/gitforgeconfigwidget.cpp:239
+#, kde-format
+msgid "The mapping changed; the detection result was ignored."
+msgstr "نگاشت تغییر کرد؛ نتیجهٔ شناسایی نادیده گرفته شد."
+
+#: git/gitforgeconfigwidget.cpp:241
+#, kde-format
+msgid "Service could not be detected; select it manually."
+msgstr "سرویس شناسایی نشد؛ آن را به‌صورت دستی انتخاب کنید."
+
+#: git/gitstatus.cpp:159
+#, kde-format
+msgid " ‣ Modified"
+msgstr " ‣ تغییریافته"
+
+#: git/gitstatus.cpp:161
+#, kde-format
+msgid " ‣ Untracked"
+msgstr " ‣ ردیابی‌نشده"
+
+#: git/gitstatus.cpp:163
+#, kde-format
+msgid " ‣ Renamed"
+msgstr " ‣ تغییرنام‌یافته"
+
+#: git/gitstatus.cpp:166
+#, kde-format
+msgid " ‣ Deleted"
+msgstr " ‣ حذف‌شده"
+
+#: git/gitstatus.cpp:169
+#, kde-format
+msgid " ‣ Added"
+msgstr " ‣ افزوده‌شده"
+
+#: git/gitstatus.cpp:171
+#, kde-format
+msgid " ‣ Copied"
+msgstr " ‣ رونوشت‌شده"
+
+#: git/gitstatus.cpp:173
+#, kde-format
+msgid " ‣ Ignored"
+msgstr " ‣ نادیده‌گرفته‌شده"
+
+#: git/gitstatus.cpp:181
+#, kde-format
+msgid " ‣ Conflicted"
+msgstr " ‣ دارای تداخل"
+
+#: gitcommitdialog.cpp:70 gitcommitdialog.cpp:121
+#, kde-format
+msgid "Commit Changes"
+msgstr "ثبت تغییرات"
+
+#: gitcommitdialog.cpp:74 gitcommitdialog.cpp:120 gitwidget.cpp:265
+#: gitwidget.cpp:1090
+#, kde-format
+msgid "Commit"
+msgstr "ثبت"
+
+#: gitcommitdialog.cpp:75
+#, kde-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: gitcommitdialog.cpp:77
+#, kde-format
+msgid "Write commit message..."
+msgstr "نوشتن پیام ثبت..."
+
+#: gitcommitdialog.cpp:84
+#, kde-format
+msgid "Extended commit description..."
+msgstr "توضیحات تکمیلی ثبت..."
+
+#: gitcommitdialog.cpp:108
+#, kde-format
+msgid "Sign off"
+msgstr "امضا کردن"
+
+#: gitcommitdialog.cpp:112 gitcommitdialog.cpp:125
+#, kde-format
+msgid "Amend"
+msgstr "اصلاح"
+
+#: gitcommitdialog.cpp:113 gitwidget.cpp:1043
+#, kde-format
+msgid "Amend Last Commit"
+msgstr "اصلاح آخرین ثبت"
+
+#: gitcommitdialog.cpp:124
+#, kde-format
+msgid "Amending Commit"
+msgstr "در حال اصلاح ثبت"
+
+#: gitcommitdialog.cpp:207
+#, kde-format
+msgctxt "Number of characters"
+msgid "%1 / 52"
+msgstr "%1 / 52"
+
+#: gitcommitdialog.cpp:211
+#, kde-format
+msgctxt "Number of characters"
+msgid "<span style=\"color:%1;\">%2</span> / 52"
+msgstr "<span style=\"color:%1;\">%2</span> / 52"
+
+#: gitstatusmodel.cpp:97
+#, kde-format
+msgid "Staged"
+msgstr "آماده‌سازی‌شده"
+
+#: gitstatusmodel.cpp:99
+#, kde-format
+msgid "Untracked"
+msgstr "ردیابی‌نشده"
+
+#: gitstatusmodel.cpp:101
+#, kde-format
+msgid "Conflict"
+msgstr "تداخل"
+
+#: gitstatusmodel.cpp:103
+#, kde-format
+msgid "Modified"
+msgstr "تغییریافته"
+
+#: gitwidget.cpp:273
+#, kde-format
+msgid "Git Push"
+msgstr "ارسال گیت"
+
+#: gitwidget.cpp:286
+#, kde-format
+msgid "Git Pull"
+msgstr "دریافت گیت"
+
+#: gitwidget.cpp:299
+#, kde-format
+msgid "Cancel Operation"
+msgstr "لغو عملیات"
+
+#: gitwidget.cpp:307
+#, kde-format
+msgid " canceled."
+msgstr " لغو شد."
+
+#: gitwidget.cpp:315
+#, kde-format
+msgid "Refresh git status"
+msgstr "تازه‌سازی وضعیت گیت"
+
+#: gitwidget.cpp:337 kateprojectview.cpp:61
+#, kde-format
+msgid "Filter…"
+msgstr "فیلتر…"
+
+#: gitwidget.cpp:428
+#, kde-format
+msgid "Failed to find .git directory for '%1', things may not work correctly"
+msgstr ""
+"یافتن شاخهٔ git. برای «%1» ناموفق بود، ممکن است عملکردها به‌درستی کار نکنند"
+
+#: gitwidget.cpp:640
+#, kde-format
+msgid " error: %1"
+msgstr " خطا: %1"
+
+#: gitwidget.cpp:646
+#, kde-format
+msgid "\"%1\" executed successfully: %2"
+msgstr "«%1» با موفقیت اجرا شد: %2"
+
+#: gitwidget.cpp:666
+#, kde-format
+msgid "Failed to stage file. Error:"
+msgstr "افزودن پرونده به صحنه ناموفق بود. خطا:"
+
+#: gitwidget.cpp:679
+#, kde-format
+msgid "Failed to unstage file. Error:"
+msgstr "حذف پرونده از صحنه ناموفق بود. خطا:"
+
+#: gitwidget.cpp:690
+#, kde-format
+msgid "Failed to discard changes. Error:"
+msgstr "صرف‌نظر کردن از تغییرات ناموفق بود. خطا:"
+
+#: gitwidget.cpp:701
+#, kde-format
+msgid "Failed to remove. Error:"
+msgstr "حذف ناموفق بود. خطا:"
+
+#: gitwidget.cpp:717
+#, kde-format
+msgid "Failed to open file at HEAD: %1"
+msgstr "باز کردن پرونده در HEAD ناموفق بود: %1"
+
+#: gitwidget.cpp:751
+#, kde-format
+msgid "Failed to get Diff of file: %1"
+msgstr "دریافت تفاوت‌های پرونده ناموفق بود: %1"
+
+#: gitwidget.cpp:820
+#, kde-format
+msgid "Failed to commit: %1"
+msgstr "ثبت تغییرات (کامیت) ناموفق بود: %1"
+
+#: gitwidget.cpp:824
+#, kde-format
+msgid "Changes committed successfully."
+msgstr "تغییرات با موفقیت ثبت شدند."
+
+#: gitwidget.cpp:834
+#, kde-format
+msgid "Nothing to commit. Please stage your changes first."
+msgstr ""
+"چیزی برای ثبت وجود ندارد. لطفاً ابتدا تغییرات خود را به صحنه اضافه کنید."
+
+#: gitwidget.cpp:848
+#, kde-format
+msgid "Commit message cannot be empty."
+msgstr "پیام ثبت تغییرات نمی‌تواند خالی باشد."
+
+#: gitwidget.cpp:979
+#, kde-format
+msgid "No diff for %1...%2"
+msgstr "تفاوتی برای %1...%2 وجود ندارد"
+
+#: gitwidget.cpp:985
+#, kde-format
+msgid "Failed to compare %1...%2"
+msgstr "مقایسهٔ %1...%2 ناموفق بود"
+
+#: gitwidget.cpp:1000
+#, kde-format
+msgid "Failed to get numstat when diffing %1...%2"
+msgstr "دریافت آمار عددی هنگام مقایسهٔ %1...%2 ناموفق بود"
+
+#: gitwidget.cpp:1035
+#, kde-format
+msgid "Refresh"
+msgstr "تازه‌سازی"
+
+#: gitwidget.cpp:1052
+#, kde-format
+msgid "Checkout Branch"
+msgstr "جابه‌جایی به شاخه"
+
+#: gitwidget.cpp:1064
+#, kde-format
+msgid "Delete Branch"
+msgstr "حذف شاخه"
+
+#: gitwidget.cpp:1078
+#, kde-format
+msgid "Compare Branch with..."
+msgstr "مقایسهٔ شاخه با..."
+
+#: gitwidget.cpp:1084
+#, kde-format
+msgid "Show Commit"
+msgstr "نمایش ثبت (کامیت)"
+
+#: gitwidget.cpp:1102
+#, kde-format
+msgid "Show Last Commit"
+msgstr "نمایش آخرین ثبت"
+
+#: gitwidget.cpp:1120
+#, kde-format
+msgid "Open Commit..."
+msgstr "باز کردن ثبت..."
+
+#: gitwidget.cpp:1123 gitwidget.cpp:1171
+#, kde-format
+msgid "Stash"
+msgstr "بایگانی موقت (استش)"
+
+#: gitwidget.cpp:1127
+#, kde-format
+msgid "Show history"
+msgstr "نمایش تاریخچه"
+
+#: gitwidget.cpp:1139
+#, kde-format
+msgid "Diff - stash"
+msgstr "تفاوت - بایگانی موقت"
+
+#: gitwidget.cpp:1175
+#, kde-format
+msgid "Pop Last Stash"
+msgstr "بازیابی و حذف آخرین بایگانی موقت"
+
+#: gitwidget.cpp:1179
+#, kde-format
+msgid "Pop Stash"
+msgstr "بازیابی و حذف بایگانی موقت"
+
+#: gitwidget.cpp:1183
+#, kde-format
+msgid "Apply Last Stash"
+msgstr "اعمال آخرین بایگانی موقت"
+
+#: gitwidget.cpp:1185
+#, kde-format
+msgid "Stash (Keep Staged)"
+msgstr "بایگانی موقت (نگه‌داشتن موارد در صحنه)"
+
+#: gitwidget.cpp:1189
+#, kde-format
+msgid "Stash (Include Untracked)"
+msgstr "بایگانی موقت (شامل پرونده‌های ردگیری‌نشده)"
+
+#: gitwidget.cpp:1193
+#, kde-format
+msgid "Apply Stash"
+msgstr "اعمال بایگانی موقت"
+
+#: gitwidget.cpp:1194
+#, kde-format
+msgid "Drop Stash"
+msgstr "دور انداختن بایگانی موقت"
+
+#: gitwidget.cpp:1198
+#, kde-format
+msgid "Show Stash"
+msgstr "نمایش بایگانی موقت"
+
+#: gitwidget.cpp:1202
+#, kde-format
+msgid "Show Stash Diff"
+msgstr "نمایش تفاوت‌های بایگانی موقت"
+
+#: gitwidget.cpp:1240
+#, kde-format
+msgid "Stage All"
+msgstr "آماده‌سازی همه"
+
+#: gitwidget.cpp:1242
+#, kde-format
+msgid "Remove All"
+msgstr "حذف همه"
+
+#: gitwidget.cpp:1242
+#, kde-format
+msgid "Discard All"
+msgstr "دور انداختن همه"
+
+#: gitwidget.cpp:1245
+#, kde-format
+msgid "Open .gitignore"
+msgstr "باز کردن .gitignore"
+
+#: gitwidget.cpp:1246 gitwidget.cpp:1295 gitwidget.cpp:1346
+#: kateprojectconfigpage.cpp:128 kateprojectconfigpage.cpp:140
+#, kde-format
+msgid "Show Diff"
+msgstr "نمایش تفاوت‌ها"
+
+#: gitwidget.cpp:1263
+#, kde-format
+msgid "Are you sure you want to remove these files?"
+msgstr "آیا مطمئنید می‌خواهید این پرونده‌ها را حذف کنید؟"
+
+#: gitwidget.cpp:1268
+#, kde-format
+msgid "Are you sure you want to discard all changes?"
+msgstr "آیا مطمئنید می‌خواهید همهٔ تغییرات را دور بیندازید؟"
+
+#: gitwidget.cpp:1286
+#, kde-format
+msgid "Open File"
+msgstr "باز کردن پرونده"
+
+#: gitwidget.cpp:1287
+#, kde-format
+msgid "Unstage File"
+msgstr "لغو آماده‌سازی پرونده"
+
+#: gitwidget.cpp:1287
+#, kde-format
+msgid "Stage File"
+msgstr "آماده‌سازی پرونده"
+
+#: gitwidget.cpp:1288
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#: gitwidget.cpp:1288
+#, kde-format
+msgid "Discard"
+msgstr "دور انداختن"
+
+#: gitwidget.cpp:1296
+#, kde-format
+msgid "Show in External Git Diff Tool"
+msgstr "نمایش در ابزار خارجی Git Diff"
+
+#: gitwidget.cpp:1297
+#, kde-format
+msgid "Open at HEAD"
+msgstr "باز کردن در HEAD"
+
+#: gitwidget.cpp:1301
+#, kde-format
+msgid "Show History"
+msgstr "نمایش تاریخچه"
+
+#: gitwidget.cpp:1317
+#, kde-format
+msgid "Are you sure you want to discard the changes in this file?"
+msgstr "آیا مطمئنید می‌خواهید تغییرات این پرونده را دور بیندازید؟"
+
+#: gitwidget.cpp:1328
+#, kde-format
+msgid "Are you sure you want to remove this file?"
+msgstr "آیا مطمئنید می‌خواهید این پرونده را حذف کنید؟"
+
+#: gitwidget.cpp:1345
+#, kde-format
+msgid "Unstage All"
+msgstr "لغو آماده‌سازی همه"
+
+#: gitwidget.cpp:1412
+#, kde-format
+msgid "Unstage Selected Files"
+msgstr "لغو آماده‌سازی پرونده‌های انتخاب‌شده"
+
+#: gitwidget.cpp:1412
+#, kde-format
+msgid "Stage Selected Files"
+msgstr "آماده‌سازی پرونده‌های انتخاب‌شده"
+
+#: gitwidget.cpp:1413
+#, kde-format
+msgid "Discard Selected Files"
+msgstr "دور انداختن پرونده‌های انتخاب‌شده"
+
+#: gitwidget.cpp:1417
+#, kde-format
+msgid "Remove Selected Files"
+msgstr "حذف پرونده‌های انتخاب‌شده"
+
+#: gitwidget.cpp:1430
+#, kde-format
+msgid "Are you sure you want to discard the changes?"
+msgstr "آیا مطمئنید می‌خواهید تغییرات را دور بیندازید؟"
+
+#: gitwidget.cpp:1435
+#, kde-format
+msgid "Are you sure you want to remove these untracked changes?"
+msgstr "آیا مطمئنید می‌خواهید این تغییرات ردیابی‌نشده را حذف کنید؟"
+
+#: kateproject.cpp:233
+#, kde-format
+msgid "(Modified)"
+msgstr "(تغییریافته)"
+
+#: kateproject.cpp:235
+#, kde-format
+msgid "(Staged)"
+msgstr "(آماده‌سازی‌شده)"
+
+#: kateproject.cpp:401
+#, kde-format
+msgid "Malformed JSON file '%1': %2"
+msgstr "پروندهٔ JSON بدشکل '%1': %2"
+
+#: kateproject.cpp:469 kateprojectplugin.cpp:881 kateprojectpluginview.cpp:82
+#: kateprojectpluginview.cpp:238 kateprojectviewtree.cpp:384
+#: kateprojectviewtree.cpp:395 kateprojectviewtree.cpp:425
+#: kateprojectviewtree.cpp:432
+#, kde-format
+msgid "Project"
+msgstr "پروژه"
+
+#: kateproject.cpp:780
+#, kde-format
+msgid "<untracked>"
+msgstr "<untracked>"
+
+#: kateprojectcompletion.cpp:46
+#, kde-format
+msgid "Project Completion"
+msgstr "تکمیل پروژه"
+
+#: kateprojectconfigpage.cpp:31
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#: kateprojectconfigpage.cpp:38
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Autoload Repositories && Build Trees"
+msgstr "بارگیری خودکار مخازن و درخت‌های ساخت"
+
+#: kateprojectconfigpage.cpp:40
+#, kde-format
+msgid ""
+"Project plugin is able to autoload repository working copies and build trees"
+" when there is no .kateproject file defined yet."
+msgstr ""
+"افزونهٔ پروژه قادر است زمانی که هنوز پروندهٔ .kateproject تعریف نشده، "
+"نسخه‌های کاری مخزن و درخت‌های ساخت را به‌طور خودکار بارگیری کند."
+
+#: kateprojectconfigpage.cpp:43
+#, kde-format
+msgid "&Git"
+msgstr "گیت"
+
+#: kateprojectconfigpage.cpp:46
+#, kde-format
+msgid "&Subversion"
+msgstr "ساب‌ورژن"
+
+#: kateprojectconfigpage.cpp:48
+#, kde-format
+msgid "&Mercurial"
+msgstr "مرکوریال"
+
+#: kateprojectconfigpage.cpp:50
+#, kde-format
+msgid "&Fossil"
+msgstr "فسیل"
+
+#: kateprojectconfigpage.cpp:52
+#, kde-format
+msgid "&CMake"
+msgstr "سی‌میک"
+
+#: kateprojectconfigpage.cpp:61
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Directory Listing"
+msgstr "فهرست شاخه"
+
+#: kateprojectconfigpage.cpp:63
+#, kde-format
+msgid ""
+"When directory listing is enabled, autoloaded repository projects show all "
+"files instead of only VCS-tracked files."
+msgstr ""
+"هنگامی که فهرست شاخه فعال باشد، پروژه‌های مخزن بارگذاری‌شده به‌طور خودکار "
+"به‌جای فقط پرونده‌های ردگیری‌شده توسط VCS، همهٔ پرونده‌ها را نمایش می‌دهند."
+
+#: kateprojectconfigpage.cpp:66
+#, kde-format
+msgid "Include files untracked by repository"
+msgstr "گنجاندن پرونده‌های ردگیری‌نشده توسط مخزن"
+
+#: kateprojectconfigpage.cpp:68
+#, kde-format
+msgid ""
+"Show all files in the project directory including files not tracked by the "
+"version control system, such as those excluded via .gitignore."
+msgstr ""
+"نمایش همهٔ پرونده‌ها در شاخهٔ پروژه، از جمله پرونده‌هایی که توسط سامانهٔ "
+"کنترل نسخه ردگیری نمی‌شوند، مانند مواردی که از طریق .gitignore مستثنی "
+"شده‌اند."
+
+#: kateprojectconfigpage.cpp:72
+#, kde-format
+msgid "Show hidden files in non-VCS projects"
+msgstr "نمایش پرونده‌های پنهان در پروژه‌های فاقد VCS"
+
+#: kateprojectconfigpage.cpp:73
+#, kde-format
+msgid ""
+"Show hidden files (dotfiles) in the project file tree for projects not "
+"loaded using version control."
+msgstr ""
+"نمایش پرونده‌های پنهان (پرونده‌های نقطه‌دار) در درخت پرونده‌های پروژه برای "
+"پروژه‌هایی که با استفاده از کنترل نسخه بارگذاری نشده‌اند."
+
+#: kateprojectconfigpage.cpp:82
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Session Behavior"
+msgstr "رفتار نشست"
+
+#: kateprojectconfigpage.cpp:83
+#, kde-format
+msgid "Session settings for projects"
+msgstr "تنظیمات نشست برای پروژه‌ها"
+
+#: kateprojectconfigpage.cpp:84
+#, kde-format
+msgid "Restore Open Projects"
+msgstr "بازیابی پروژه‌های باز"
+
+#: kateprojectconfigpage.cpp:91
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Project Index"
+msgstr "نمایهٔ پروژه"
+
+#: kateprojectconfigpage.cpp:92
+#, kde-format
+msgid "Project ctags index settings"
+msgstr "تنظیمات نمایهٔ ctags پروژه"
+
+#: kateprojectconfigpage.cpp:93 kateprojectinfoviewindex.cpp:208
+#, kde-format
+msgid "Enable indexing"
+msgstr "فعال‌سازی نمایه‌سازی"
+
+#: kateprojectconfigpage.cpp:96
+#, kde-format
+msgid "Directory for index files"
+msgstr "شاخهٔ پرونده‌های نمایه"
+
+#: kateprojectconfigpage.cpp:100
+#, kde-format
+msgid ""
+"The system temporary directory is used if not specified, which may overflow "
+"for very large repositories"
+msgstr ""
+"در صورت مشخص نشدن، از شاخهٔ موقت سامانه استفاده می‌شود که ممکن است برای "
+"مخازن بسیار بزرگ سرریز کند"
+
+#: kateprojectconfigpage.cpp:107
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Cross-Project Functionality"
+msgstr "قابلیت‌های میان‌پروژه‌ای"
+
+#: kateprojectconfigpage.cpp:108
+#, kde-format
+msgid ""
+"Project plugin is able to perform some operations across multiple projects"
+msgstr "افزونهٔ پروژه قادر است برخی از عملیات را میان چند پروژه انجام دهد"
+
+#: kateprojectconfigpage.cpp:109
+#, kde-format
+msgid "Cross-Project Completion"
+msgstr "تکمیل میان‌پروژه‌ای"
+
+#: kateprojectconfigpage.cpp:111
+#, kde-format
+msgid "Cross-Project Goto Symbol"
+msgstr "رفتن به نماد میان‌پروژه‌ای"
+
+#: kateprojectconfigpage.cpp:122
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Git"
+msgstr "گیت"
+
+#: kateprojectconfigpage.cpp:125
+#, kde-format
+msgid "Single click action in the git status view"
+msgstr "کنش تک‌کلیک در نمای وضعیت گیت"
+
+#: kateprojectconfigpage.cpp:127 kateprojectconfigpage.cpp:139
+#, kde-format
+msgid "No Action"
+msgstr "بدون کنش"
+
+#: kateprojectconfigpage.cpp:129 kateprojectconfigpage.cpp:141
+#, kde-format
+msgid "Open file"
+msgstr "باز کردن پرونده"
+
+#: kateprojectconfigpage.cpp:130 kateprojectconfigpage.cpp:142
+#, kde-format
+msgid "Stage / Unstage"
+msgstr "آماده‌سازی / لغو آماده‌سازی"
+
+#: kateprojectconfigpage.cpp:137
+#, kde-format
+msgid "Double click action in the git status view"
+msgstr "کنش دوبار کلیک در نمای وضعیت گیت"
+
+#: kateprojectconfigpage.cpp:153
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Git Hosting"
+msgstr "میزبانی گیت"
+
+#: kateprojectconfigpage.cpp:190 kateprojectpluginview.cpp:76
+#, kde-format
+msgid "Projects"
+msgstr "پروژه‌ها"
+
+#: kateprojectconfigpage.cpp:195
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Projects Properties"
+msgstr "ویژگی‌های پروژه‌ها"
+
+#: kateprojectinfoview.cpp:84
+#, kde-format
+msgctxt "@title:tab"
+msgid "Terminal"
+msgstr "پایانه"
+
+#: kateprojectinfoview.cpp:93
+#, kde-format
+msgctxt "@title:tab"
+msgid "Terminal (Project)"
+msgstr "پایانه (پروژه)"
+
+#: kateprojectinfoview.cpp:102
+#, kde-format
+msgctxt "@title:tab"
+msgid "Terminal (Base)"
+msgstr "پایانه (پایه)"
+
+#: kateprojectinfoview.cpp:111
+#, kde-format
+msgctxt "@title:tab"
+msgid "Terminal (Build)"
+msgstr "پایانه (ساخت)"
+
+#: kateprojectinfoview.cpp:118
+#, kde-format
+msgid "Code Index"
+msgstr "نمایهٔ کد"
+
+#: kateprojectinfoview.cpp:123
+#, kde-format
+msgid "Code Analysis"
+msgstr "تحلیل کد"
+
+#: kateprojectinfoview.cpp:128
+#, kde-format
+msgid "Notes"
+msgstr "یادداشت‌ها"
+
+#: kateprojectinfoviewcodeanalysis.cpp:34
+#, kde-format
+msgid "Start Analysis..."
+msgstr "شروع تحلیل..."
+
+#: kateprojectinfoviewcodeanalysis.cpp:42
+#, kde-format
+msgctxt "'%1' refers to project name, e.g,. Code Analysis - MyProject"
+msgid "Code Analysis - %1"
+msgstr "تحلیل کد - %1"
+
+#: kateprojectinfoviewcodeanalysis.cpp:96
+#, kde-format
+msgid ""
+"'%1' is not installed on your system, %2.<br/><br/>%3. The tool will be run "
+"on all project files which match this list of file extensions:<br/><b>%4</b>"
+msgstr ""
+"'%1' روی سیستم شما نصب نیست، %2.<br/><br/>%3. این ابزار روی تمام فایل‌های "
+"پروژه‌ای که با این فهرست از پسوندهای فایل مطابقت دارند اجرا خواهد "
+"شد:<br/><b>%4</b>"
+
+#: kateprojectinfoviewcodeanalysis.cpp:106
+#, kde-format
+msgid ""
+"Using %1 installed at: %2.<br/><br/>%3. The tool will be run on all project "
+"files which match this list of file extensions:<br/><b>%4</b>"
+msgstr ""
+"در حال استفاده از %1 نصب‌شده در: %2.<br/><br/>%3. این ابزار روی تمام "
+"فایل‌های پروژه‌ای که با این فهرست از پسوندهای فایل مطابقت دارند اجرا خواهد "
+"شد:<br/><b>%4</b>"
+
+#: kateprojectinfoviewcodeanalysis.cpp:148
+#: kateprojectinfoviewcodeanalysis.cpp:208
+#: kateprojectinfoviewcodeanalysis.cpp:212
+#, kde-format
+msgid "CodeAnalysis"
+msgstr "تحلیل کد"
+
+#: kateprojectinfoviewcodeanalysis.cpp:203
+#, kde-format
+msgctxt ""
+"Message to the user that analysis finished. %1 is the name of the program "
+"that did the analysis, %2 is a number. e.g., [clang-tidy]Analysis on 5 files"
+" finished"
+msgid "[%1]Analysis on %2 file finished."
+msgid_plural "[%1]Analysis on %2 files finished."
+msgstr[0] "[%1] تحلیل روی %2 فایل به پایان رسید."
+msgstr[1] "[%1] تحلیل روی %2 فایل به پایان رسید."
+
+#: kateprojectinfoviewcodeanalysis.cpp:211
+#, kde-format
+msgid "Analysis failed with exit code %1, Error: %2"
+msgstr "تحلیل با کد خروج %1 ناموفق بود، خطا: %2"
+
+#: kateprojectinfoviewindex.cpp:36
+#, kde-format
+msgid "Name"
+msgstr "نام"
+
+#: kateprojectinfoviewindex.cpp:36
+#, kde-format
+msgid "Kind"
+msgstr "نوع"
+
+#: kateprojectinfoviewindex.cpp:36
+#, kde-format
+msgid "File"
+msgstr "فایل"
+
+#: kateprojectinfoviewindex.cpp:36
+#, kde-format
+msgid "Line"
+msgstr "خط"
+
+#: kateprojectinfoviewindex.cpp:37
+#, kde-format
+msgid "Search"
+msgstr "جستجو"
+
+#: kateprojectinfoviewindex.cpp:197
+#, kde-format
+msgid "The index could not be created. Please install 'ctags'."
+msgstr "امکان ایجاد نمایه وجود نداشت. لطفاً 'ctags' را نصب کنید."
+
+#: kateprojectinfoviewindex.cpp:207
+#, kde-format
+msgid "Indexing is not enabled"
+msgstr "نمایه‌سازی فعال نیست"
+
+#: kateprojectitem.cpp:171
+#, kde-format
+msgid "Error"
+msgstr "خطا"
+
+#: kateprojectitem.cpp:171
+#, kde-format
+msgid "File name already exists"
+msgstr "نام فایل از قبل وجود دارد"
+
+#: kateprojectplugin.cpp:312
+#, kde-format
+msgid "Confirm project closing: %1"
+msgstr "تأیید بستن پروژه: %1"
+
+#: kateprojectplugin.cpp:313
+#, kde-format
+msgid "Do you want to close the project %1 and the related %2 open documents?"
+msgstr "آیا می‌خواهید پروژهٔ %1 و %2 سند باز مرتبط را ببندید؟"
+
+#: kateprojectplugin.cpp:746
+#, kde-format
+msgid "Full path to current project excluding the file name."
+msgstr "مسیر کامل به پروژهٔ فعلی بدون نام فایل."
+
+#: kateprojectplugin.cpp:763
+#, kde-format
+msgid ""
+"Full path to current project excluding the file name, with native path "
+"separator (backslash on Windows)."
+msgstr ""
+"مسیر کامل به پروژهٔ فعلی بدون نام فایل، با جداکنندهٔ مسیر بومی (بک‌اسلش در "
+"ویندوز)."
+
+#: kateprojectpluginview.cpp:66
+#, kde-format
+msgid "Project Manager"
+msgstr "مدیر پروژه"
+
+#: kateprojectpluginview.cpp:87
+#, kde-format
+msgid "Current Project"
+msgstr "پروژهٔ فعلی"
+
+#: kateprojectpluginview.cpp:89
+#, kde-format
+msgid "Open projects list"
+msgstr "فهرست پروژه‌های باز"
+
+#: kateprojectpluginview.cpp:97
+#, kde-format
+msgid "Reload project"
+msgstr "بارگذاری مجدد پروژه"
+
+#: kateprojectpluginview.cpp:100
+#, kde-format
+msgid "Close project"
+msgstr "بستن پروژه"
+
+#: kateprojectpluginview.cpp:176
+#, kde-format
+msgid "Open &Folder..."
+msgstr "باز کردن پوشه..."
+
+#: kateprojectpluginview.cpp:182
+#, kde-format
+msgid "Project TODOs"
+msgstr "وظایف پروژه"
+
+#: kateprojectpluginview.cpp:187
+#, kde-format
+msgid "Activate Previous Project"
+msgstr "فعال‌سازی پروژهٔ قبلی"
+
+#: kateprojectpluginview.cpp:193
+#, kde-format
+msgid "Activate Next Project"
+msgstr "فعال‌سازی پروژهٔ بعدی"
+
+#: kateprojectpluginview.cpp:199
+#, kde-format
+msgid "Lookup"
+msgstr "یافتن"
+
+#: kateprojectpluginview.cpp:204
+#, kde-format
+msgid "Close Project"
+msgstr "بستن پروژه"
+
+#: kateprojectpluginview.cpp:209
+#, kde-format
+msgid "Close All Projects"
+msgstr "بستن همهٔ پروژه‌ها"
+
+#: kateprojectpluginview.cpp:214
+#, kde-format
+msgid "Close Orphaned Projects"
+msgstr "بستن پروژه‌های رهاشده"
+
+#: kateprojectpluginview.cpp:219
+#, kde-format
+msgid "Reload Project"
+msgstr "بارگذاری مجدد پروژه"
+
+#: kateprojectpluginview.cpp:224
+#, kde-format
+msgid "Reload All Projects"
+msgstr "بارگذاری مجدد همهٔ پروژه‌ها"
+
+#: kateprojectpluginview.cpp:235
+#, kde-format
+msgid "Checkout Git Branch"
+msgstr "وارسی شاخهٔ Git"
+
+#: kateprojectpluginview.cpp:241 kateprojectpluginview.cpp:877
+#, kde-format
+msgid "Lookup: %1"
+msgstr "جست‌وجو: %1"
+
+#: kateprojectpluginview.cpp:242 kateprojectpluginview.cpp:878
+#, kde-format
+msgid "Goto: %1"
+msgstr "رفتن به: %1"
+
+#: kateprojectpluginview.cpp:244 kateprojecttreeviewcontextmenu.cpp:189
+#, kde-format
+msgid "Git Hosting"
+msgstr "میزبانی Git"
+
+#: kateprojectpluginview.cpp:248 kateprojectpluginview.cpp:892
+#: kateprojectpluginview.cpp:922
+#, kde-format
+msgid "Open on Git Hosting Service"
+msgstr "باز کردن در سرویس میزبانی Git"
+
+#: kateprojectpluginview.cpp:249 kateprojectpluginview.cpp:888
+#, kde-format
+msgid "Copy Git Hosting Link"
+msgstr "کپی پیوند میزبانی Git"
+
+#: kateprojectpluginview.cpp:331
+#, kde-format
+msgid "Projects Index"
+msgstr "نمایهٔ پروژه‌ها"
+
+#: kateprojectpluginview.cpp:887 kateprojecttreeviewcontextmenu.cpp:190
+#, kde-format
+msgid "Detecting Git hosting service…"
+msgstr "در حال شناسایی سرویس میزبانی Git…"
+
+#: kateprojectpluginview.cpp:919 kateprojecttreeviewcontextmenu.cpp:203
+#, kde-format
+msgid "Open on %1"
+msgstr "باز کردن در %1"
+
+#: kateprojectpluginview.cpp:920 kateprojecttreeviewcontextmenu.cpp:206
+#, kde-format
+msgid "Copy %1 Link"
+msgstr "کپی پیوند %1"
+
+#: kateprojectpluginview.cpp:985
+#, kde-format
+msgid "Choose a directory"
+msgstr "انتخاب یک پوشه"
+
+#: kateprojecttreeviewcontextmenu.cpp:54
+#, kde-format
+msgid "Enter name:"
+msgstr "نام را وارد کنید:"
+
+#: kateprojecttreeviewcontextmenu.cpp:119
+#, kde-format
+msgid "Copy Location"
+msgstr "کپی مکان"
+
+#: kateprojecttreeviewcontextmenu.cpp:126
+#, kde-format
+msgid "New File…"
+msgstr "فایل جدید…"
+
+#: kateprojecttreeviewcontextmenu.cpp:127
+#, kde-format
+msgid "New Folder…"
+msgstr "پوشهٔ جدید…"
+
+#: kateprojecttreeviewcontextmenu.cpp:134
+#, kde-format
+msgid "&Rename"
+msgstr "تغییر نام"
+
+#: kateprojecttreeviewcontextmenu.cpp:145
+#, kde-format
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+#: kateprojecttreeviewcontextmenu.cpp:149
+#, kde-format
+msgid "Open With"
+msgstr "باز کردن با"
+
+#: kateprojecttreeviewcontextmenu.cpp:157
+#, kde-format
+msgid "Open Internal Terminal Here"
+msgstr "باز کردن پایانهٔ داخلی در اینجا"
+
+#: kateprojecttreeviewcontextmenu.cpp:169
+#, kde-format
+msgid "Open External Terminal Here"
+msgstr "باز کردن پایانهٔ خارجی در اینجا"
+
+#: kateprojecttreeviewcontextmenu.cpp:175
+#, kde-format
+msgid "&Open Containing Folder"
+msgstr "باز کردن پوشهٔ حاوی"
+
+#: kateprojecttreeviewcontextmenu.cpp:184
+#, kde-format
+msgid "Show Git History"
+msgstr "نمایش تاریخچهٔ Git"
+
+#: kateprojecttreeviewcontextmenu.cpp:280
+#, kde-format
+msgid "New File"
+msgstr "فایل جدید"
+
+#: kateprojecttreeviewcontextmenu.cpp:285
+#, kde-format
+msgid "New Folder"
+msgstr "پوشهٔ جدید"
+
+#: kateprojectviewtree.cpp:384
+#, kde-format
+msgid "The file already exists"
+msgstr "فایل از قبل وجود دارد"
+
+#: kateprojectviewtree.cpp:395
+#, kde-format
+msgid "Failed to create file: %1, Error: %2"
+msgstr "ایجاد فایل ناموفق بود: %1، خطا: %2"
+
+#: kateprojectviewtree.cpp:425
+#, kde-format
+msgid "The directory already exists"
+msgstr "پوشه از قبل وجود دارد"
+
+#: kateprojectviewtree.cpp:432
+#, kde-format
+msgid "Failed to create dir: %1"
+msgstr "ایجاد پوشه ناموفق بود: %1"
+
+#: kateprojectworker.cpp:215
+#, kde-format
+msgid "Unable to find directory: %1"
+msgstr "یافتن پوشه امکان‌پذیر نیست: %1"
+
+#: kateprojectworker.cpp:318
+#, kde-format
+msgid "Invalid regex pattern in exclude_patterns %1"
+msgstr "الگوی regex نامعتبر در exclude_patterns %1"
+
+#: kateprojectworker.cpp:758
+#, kde-format
+msgid ""
+"Unable to load %1 based project because either %1 is not installed or it "
+"wasn't found in PATH environment variable. Please install %1 or "
+"alternatively disable the option 'Autoload Repositories && Build Trees' in "
+"project settings."
+msgstr ""
+"بارگذاری پروژهٔ مبتنی بر %1 امکان‌پذیر نیست زیرا یا %1 نصب نشده است یا در "
+"متغیر محیطی PATH یافت نشد. لطفاً %1 را نصب کنید یا گزینهٔ 'Autoload "
+"Repositories && Build Trees' را در تنظیمات پروژه غیرفعال کنید."
+
+#: project_commands.cpp:35
+#, kde-format
+msgid "Execute a command in the active project's terminal."
+msgstr "اجرای یک دستور در پایانهٔ پروژهٔ فعال."
+
+#: project_commands.cpp:47
+#, kde-format
+msgid "No cmd provided"
+msgstr "هیچ دستوری ارائه نشده است"
+
+#: project_commands.cpp:60
+#, kde-format
+msgid "Project Command"
+msgstr "دستور پروژه"
+
+#: stashdialog.cpp:36
+#, kde-format
+msgid "Stash message (optional). Enter to confirm, Esc to leave."
+msgstr "پیام استش (اختیاری). Enter برای تأیید، Esc برای خروج."
+
+#: stashdialog.cpp:44
+#, kde-format
+msgid "Type to filter, Enter to pop stash, Esc to leave."
+msgstr "تایپ برای فیلتر، Enter برای خارج کردن استش، Esc برای خروج."
+
+#: stashdialog.cpp:147
+#, kde-format
+msgid "Failed to stash changes %1"
+msgstr "ذخیرهٔ تغییرات در استش ناموفق بود %1"
+
+#: stashdialog.cpp:149
+#, kde-format
+msgid "Changes stashed successfully."
+msgstr "تغییرات با موفقیت در استش ذخیره شد."
+
+#: stashdialog.cpp:168
+#, kde-format
+msgid "Failed to get stash list. Error: "
+msgstr "دریافت فهرست استش ناموفق بود. خطا: "
+
+#: stashdialog.cpp:184
+#, kde-format
+msgid "Failed to apply stash. Error: "
+msgstr "اعمال استش ناموفق بود. خطا: "
+
+#: stashdialog.cpp:186
+#, kde-format
+msgid "Failed to drop stash. Error: "
+msgstr "حذف استش ناموفق بود. خطا: "
+
+#: stashdialog.cpp:188
+#, kde-format
+msgid "Failed to pop stash. Error: "
+msgstr "خارج کردن استش ناموفق بود. خطا: "
+
+#: stashdialog.cpp:192
+#, kde-format
+msgid "Stash applied successfully."
+msgstr "استش با موفقیت اعمال شد."
+
+#: stashdialog.cpp:194
+#, kde-format
+msgid "Stash dropped successfully."
+msgstr "استش با موفقیت حذف شد."
+
+#: stashdialog.cpp:196
+#, kde-format
+msgid "Stash popped successfully."
+msgstr "استش با موفقیت خارج شد."
+
+#: stashdialog.cpp:225
+#, kde-format
+msgid "Show stash failed. Error: "
+msgstr "نمایش استش ناموفق بود. خطا: "
+
+#: tools/clazy.h:25
+#, kde-format
+msgid "Clazy (Qt/C++)"
+msgstr "Clazy (Qt/C++)"
+
+#: tools/clazy.h:30
+#, kde-format
+msgid "Clazy is a static analysis tool for Qt/C++ code"
+msgstr "‏Clazy یک ابزار تحلیل ایستا برای کدهای Qt/C++‎ است"
+
+#: tools/clazy.h:71
+#, kde-format
+msgid "Please install 'clazy'"
+msgstr "لطفاً «clazy» را نصب کنید"
+
+#: tools/clazycurrent.h:24
+#, kde-format
+msgid "Clazy - Current File"
+msgstr "Clazy - فایل فعلی"
+
+#: tools/clazycurrent.h:29
+#, kde-format
+msgid "clang-tidy is a clang-based C++ “linter” tool"
+msgstr "‏clang-tidy یک ابزار «لینتر» C++‎ مبتنی بر clang است"
+
+#: tools/clippy.h:27
+#, kde-format
+msgid "Clippy (Rust)"
+msgstr "Clippy (Rust)"
+
+#: tools/clippy.h:32
+#, kde-format
+msgid "Clippy is a static analysis tool for Rust code"
+msgstr "‏Clippy یک ابزار تحلیل ایستا برای کدهای Rust است"
+
+#: tools/clippy.h:95
+#, kde-format
+msgid "Please install 'cargo'"
+msgstr "لطفاً «cargo» را نصب کنید"
+
+#: tools/cppcheck.h:26
+#, kde-format
+msgid "Cppcheck (C++)"
+msgstr "Cppcheck (C++)"
+
+#: tools/cppcheck.h:31
+#, kde-format
+msgid "Cppcheck is a static analysis tool for C/C++ code"
+msgstr "‏Cppcheck یک ابزار تحلیل ایستا برای کدهای C/C++‎ است"
+
+#: tools/cppcheck.h:64
+#, kde-format
+msgid "Please install 'cppcheck'"
+msgstr "لطفاً «cppcheck» را نصب کنید"
+
+#: tools/eslint.h:23
+#, kde-format
+msgid "ESLint"
+msgstr "ESLint"
+
+#: tools/eslint.h:28
+#, kde-format
+msgid ""
+"ESLint is a static analysis tool & style guide enforcer for "
+"JavaScript/Typescript code"
+msgstr ""
+"‏ESLint یک ابزار تحلیل ایستا و اعمال‌کنندهٔ شیوه‌نامه برای کدهای "
+"JavaScript/Typescript است"
+
+#: tools/eslint.h:67
+#, kde-format
+msgid "Please install 'eslint'"
+msgstr "لطفاً «eslint» را نصب کنید"
+
+#: tools/flake8.h:26
+#, kde-format
+msgid "Flake8 (Python)"
+msgstr "Flake8 (Python)"
+
+#: tools/flake8.h:31
+#, kde-format
+msgid "Flake8: Your Tool For Style Guide Enforcement for Python"
+msgstr "‏Flake8: ابزار شما برای اعمال شیوه‌نامه در پایتون"
+
+#: tools/flake8.h:77
+#, kde-format
+msgid "Please install 'flake8'"
+msgstr "لطفاً «flake8» را نصب کنید"
+
+#: tools/ruff.h:28
+#, kde-format
+msgid "Ruff (Python)"
+msgstr "Ruff (Python)"
+
+#: tools/ruff.h:33
+#, kde-format
+msgid "An extremely fast Python linter"
+msgstr "یک لینتر بسیار سریع پایتون"
+
+#: tools/ruff.h:64
+#, kde-format
+msgid ""
+"Ruff is not installed. Please use your package manager to install it. See "
+"https://docs.astral.sh/ruff/installation/"
+msgstr ""
+"‏Ruff نصب نشده است. لطفاً از مدیر بستهٔ خود برای نصب آن استفاده کنید. "
+"https://docs.astral.sh/ruff/installation/ را ببینید"
+
+#: tools/shellcheck.h:24
+#, kde-format
+msgid "ShellCheck (sh/bash)"
+msgstr "ShellCheck (sh/bash)"
+
+#: tools/shellcheck.h:29
+#, kde-format
+msgid "ShellCheck is a static analysis and linting tool for sh/bash scripts"
+msgstr ""
+"‏ShellCheck یک ابزار تحلیل ایستا و لینتینگ برای اسکریپت‌های sh/bash است"
+
+#: tools/shellcheck.h:73
+#, kde-format
+msgid "Please install ShellCheck (see https://www.shellcheck.net)"
+msgstr "لطفاً ShellCheck را نصب کنید (https://www.shellcheck.net را ببینید)"
+
+#: tools/tidy.h:24
+#, kde-format
+msgid "Html Tidy"
+msgstr "Html Tidy"
+
+#: tools/tidy.h:29
+#, kde-format
+msgid "Runs html tidy on current file"
+msgstr "اجرای Html Tidy روی پروندهٔ فعلی"
+
+#: tools/tidy.h:64
+#, kde-format
+msgid ""
+"Html tidy is not installed. Please use your package manager to install it. "
+"See https://www.html-tidy.org/"
+msgstr ""
+"Html tidy نصب نشده است. لطفاً برای نصب آن از مدیر بستهٔ خود استفاده کنید. "
+"https://www.html-tidy.org/ را ببینید"
+
+#. i18n: ectx: Menu (projects)
+#: ui.rc:9
+#, kde-format
+msgid "&Projects"
+msgstr "پروژه‌ها"
+
+#. i18n: ectx: ToolBar (projectplugin)
+#: ui.rc:30
+#, kde-format
+msgid "Project Plugin"
+msgstr "افزونهٔ پروژه"

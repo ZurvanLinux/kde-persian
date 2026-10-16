@@ -1,0 +1,2442 @@
+# translation of kplato.po to Persian
+#
+# MaryamSadat Razavi <razavi@itland.ir>, 2007.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2007.
+# Mohammad Reza Mirdamadi <mohi@ubuntu.ir>, 2011.
+# SPDX-FileCopyrightText: 2024 Mohi Mirdamadi <mohi.pub@gmail.com>
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kplato\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"PO-Revision-Date: 2026-10-15 15:02+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: ectx: Menu (file)
+#: calligraplan.rc:4 calligraplan_shell.rc:4
+#, kde-format
+msgid "&File"
+msgstr "پرونده"
+
+#. i18n: ectx: Menu (edit)
+#: calligraplan.rc:28
+#, kde-format
+msgid "&Edit"
+msgstr "ویرایش"
+
+#. i18n: ectx: Menu (view)
+#: calligraplan.rc:37 calligraplan_readonly.rc:4
+#, kde-format
+msgid "&View"
+msgstr "نمایش"
+
+#. i18n: ectx: Menu (project)
+#: calligraplan.rc:44
+#, kde-format
+msgid "&Project"
+msgstr "پروژه"
+
+#. i18n: ectx: Menu (tools)
+#: calligraplan.rc:52
+#, kde-format
+msgid "&Tools"
+msgstr "ابزارها"
+
+#. i18n: ectx: Menu (settings)
+#: calligraplan.rc:58 calligraplan_shell.rc:12
+#, kde-format
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: Menu (help)
+#: calligraplan.rc:62 calligraplan_shell.rc:24
+#, kde-format
+msgid "&Help"
+msgstr "راهنما"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: calligraplan.rc:66
+#, kde-format
+msgid "File"
+msgstr "پرونده"
+
+#. i18n: ectx: ToolBar (edit_toolbar)
+#: calligraplan.rc:72
+#, kde-format
+msgid "Edit"
+msgstr "ویرایش"
+
+#. i18n: ectx: label, entry (HoursPrYear), group (EstimateConversion)
+#: calligraplansettings.kcfg:9
+#, kde-format
+msgid "Hours per year"
+msgstr "ساعت در سال"
+
+#. i18n: ectx: label, entry (HoursPrMonth), group (EstimateConversion)
+#: calligraplansettings.kcfg:13
+#, kde-format
+msgid "Hours per month"
+msgstr "ساعت در ماه"
+
+#. i18n: ectx: label, entry (HoursPrWeek), group (EstimateConversion)
+#: calligraplansettings.kcfg:17
+#, kde-format
+msgid "Hours per week"
+msgstr "ساعت در هفته"
+
+#. i18n: ectx: label, entry (HoursPrDay), group (EstimateConversion)
+#: calligraplansettings.kcfg:21
+#, kde-format
+msgid "Hours per day"
+msgstr "ساعت در روز"
+
+#. i18n: ectx: label, entry (GenerateWeek), group (CalendarGeneration)
+#: calligraplansettings.kcfg:27
+#, kde-format
+msgid "Generate working week"
+msgstr "ایجاد هفته کاری"
+
+#. i18n: ectx: label, entry (GenerateWeekChoice), group (CalendarGeneration)
+#: calligraplansettings.kcfg:31
+#, kde-format
+msgid "Generate working week options"
+msgstr "گزینه‌های ایجاد هفته کاری"
+
+#. i18n: ectx: label, entry (GenerateWeekChoice), group (CalendarGeneration)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_GenerateWeekChoice)
+#: calligraplansettings.kcfg:34 config/ConfigWorkVacationPanel.ui:45
+#, kde-format
+msgid "If none exists"
+msgstr "اگر وجود نداشته باشد"
+
+#. i18n: ectx: label, entry (GenerateWeekChoice), group (CalendarGeneration)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_GenerateWeekChoice)
+#: calligraplansettings.kcfg:37 config/ConfigWorkVacationPanel.ui:50
+#, kde-format
+msgid "Always"
+msgstr "همیشه"
+
+#. i18n: ectx: label, entry (GenerateHolidays), group (CalendarGeneration)
+#: calligraplansettings.kcfg:43
+#, kde-format
+msgid "Generate holidays"
+msgstr "ایجاد تعطیلات"
+
+#. i18n: ectx: label, entry (GenerateHolidaysChoice), group
+#. (CalendarGeneration)
+#: calligraplansettings.kcfg:47
+#, kde-format
+msgid "Generate holidays options"
+msgstr "گزینه‌های ایجاد تعطیلات"
+
+#. i18n: ectx: label, entry (GenerateHolidaysChoice), group
+#. (CalendarGeneration)
+#: calligraplansettings.kcfg:50
+#, kde-format
+msgid "In base calendar"
+msgstr "در گاه‌شمار پایه"
+
+#. i18n: ectx: label, entry (GenerateHolidaysChoice), group
+#. (CalendarGeneration)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_GenerateHolidaysChoice)
+#: calligraplansettings.kcfg:53 config/ConfigWorkVacationPanel.ui:86
+#, kde-format
+msgid "As sub-calendar"
+msgstr "به عنوان تقویم فرعی"
+
+#. i18n: ectx: label, entry (GenerateHolidaysChoice), group
+#. (CalendarGeneration)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_GenerateHolidaysChoice)
+#: calligraplansettings.kcfg:56 config/ConfigWorkVacationPanel.ui:91
+#, kde-format
+msgid "As separate calendar"
+msgstr "به عنوان تقویم جداگانه"
+
+#. i18n: ectx: label, entry (Region), group (CalendarGeneration)
+#: calligraplansettings.kcfg:62
+#, kde-format
+msgid "Holiday region"
+msgstr "منطقهٔ تعطیلات"
+
+#. i18n: ectx: label, entry (Monday), group (WorkingWeek)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Monday)
+#: calligraplansettings.kcfg:68 config/ConfigWorkVacationPanel.ui:255
+#, kde-format
+msgid "Monday:"
+msgstr "دوشنبه:"
+
+#. i18n: ectx: label, entry (MondayStart), group (WorkingWeek)
+#. i18n: ectx: label, entry (TuesdayStart), group (WorkingWeek)
+#. i18n: ectx: label, entry (WednesdayStart), group (WorkingWeek)
+#. i18n: ectx: label, entry (ThursdayStart), group (WorkingWeek)
+#. i18n: ectx: label, entry (FridayStart), group (WorkingWeek)
+#. i18n: ectx: label, entry (SaturdayStart), group (WorkingWeek)
+#. i18n: ectx: label, entry (SundayStart), group (WorkingWeek)
+#: calligraplansettings.kcfg:72 calligraplansettings.kcfg:85
+#: calligraplansettings.kcfg:98 calligraplansettings.kcfg:111
+#: calligraplansettings.kcfg:124 calligraplansettings.kcfg:137
+#: calligraplansettings.kcfg:150
+#, kde-format
+msgid "Start of working day"
+msgstr "شروع روز کاری"
+
+#. i18n: ectx: label, entry (MondayEnd), group (WorkingWeek)
+#. i18n: ectx: label, entry (TuesdayEnd), group (WorkingWeek)
+#. i18n: ectx: label, entry (WednesdayEnd), group (WorkingWeek)
+#. i18n: ectx: label, entry (ThursdayEnd), group (WorkingWeek)
+#. i18n: ectx: label, entry (FridayEnd), group (WorkingWeek)
+#. i18n: ectx: label, entry (SaturdayEnd), group (WorkingWeek)
+#. i18n: ectx: label, entry (SundayEnd), group (WorkingWeek)
+#: calligraplansettings.kcfg:76 calligraplansettings.kcfg:89
+#: calligraplansettings.kcfg:102 calligraplansettings.kcfg:115
+#: calligraplansettings.kcfg:128 calligraplansettings.kcfg:141
+#: calligraplansettings.kcfg:154
+#, kde-format
+msgid "End of working day"
+msgstr "پایان روز کاری"
+
+#. i18n: ectx: label, entry (Tuesday), group (WorkingWeek)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Tuesday)
+#: calligraplansettings.kcfg:81 config/ConfigWorkVacationPanel.ui:195
+#, kde-format
+msgid "Tuesday:"
+msgstr "سه‌شنبه:"
+
+#. i18n: ectx: label, entry (Wednesday), group (WorkingWeek)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Wednesday)
+#: calligraplansettings.kcfg:94 config/ConfigWorkVacationPanel.ui:205
+#, kde-format
+msgid "Wednesday:"
+msgstr "چهارشنبه:"
+
+#. i18n: ectx: label, entry (Thursday), group (WorkingWeek)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Thursday)
+#: calligraplansettings.kcfg:107 config/ConfigWorkVacationPanel.ui:215
+#, kde-format
+msgid "Thursday:"
+msgstr "پنجشنبه:"
+
+#. i18n: ectx: label, entry (Friday), group (WorkingWeek)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Friday)
+#: calligraplansettings.kcfg:120 config/ConfigWorkVacationPanel.ui:225
+#, kde-format
+msgid "Friday:"
+msgstr "جمعه:"
+
+#. i18n: ectx: label, entry (Saturday), group (WorkingWeek)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Saturday)
+#: calligraplansettings.kcfg:133 config/ConfigWorkVacationPanel.ui:235
+#, kde-format
+msgid "Saturday:"
+msgstr "شنبه:"
+
+#. i18n: ectx: label, entry (Sunday), group (WorkingWeek)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Sunday)
+#: calligraplansettings.kcfg:146 config/ConfigWorkVacationPanel.ui:245
+#, kde-format
+msgid "Sunday:"
+msgstr "یکشنبه:"
+
+#. i18n: ectx: label, entry (Manager), group (Project settings)
+#: calligraplansettings.kcfg:161
+#, kde-format
+msgid "Name of project manager"
+msgstr "نام مدیر پروژه"
+
+#. i18n: ectx: label, entry (UseSharedResources), group (Project settings)
+#: calligraplansettings.kcfg:164
+#, kde-format
+msgid "Use shared resources"
+msgstr "استفاده از منابع مشترک"
+
+#. i18n: ectx: label, entry (SharedResourcesFile), group (Project settings)
+#: calligraplansettings.kcfg:168
+#, kde-format
+msgid "File to contain shared resources"
+msgstr "پرونده حاوی منابع مشترک"
+
+#. i18n: ectx: label, entry (ProjectDescription), group (Project settings)
+#: calligraplansettings.kcfg:171
+#, kde-format
+msgid "Project description"
+msgstr "توضیحات پروژه"
+
+#. i18n: ectx: label, entry (Leader), group (Task defaults)
+#: calligraplansettings.kcfg:176
+#, kde-format
+msgid "Name of task responsible"
+msgstr "نام مسئول وظیفه"
+
+#. i18n: ectx: label, entry (ConstraintType), group (Task defaults)
+#: calligraplansettings.kcfg:179
+#, kde-format
+msgid "Scheduling constraint type"
+msgstr "نوع قید زمان‌بندی"
+
+#. i18n: ectx: label, entry (StartTimeUsage), group (Task defaults)
+#: calligraplansettings.kcfg:192
+#, kde-format
+msgid "Defines how start constraint time is used"
+msgstr "نحوه استفاده از زمان قید شروع را مشخص می‌کند"
+
+#. i18n: ectx: label, entry (ConstraintStartTime), group (Task defaults)
+#: calligraplansettings.kcfg:201
+#, kde-format
+msgid "Constraint start date and time"
+msgstr "تاریخ و زمان شروع قید"
+
+#. i18n: ectx: label, entry (EndTimeUsage), group (Task defaults)
+#: calligraplansettings.kcfg:204
+#, kde-format
+msgid "Defines how end constraint time is used"
+msgstr "تعیین می‌کند که زمان قید پایان چگونه استفاده شود"
+
+#. i18n: ectx: label, entry (ConstraintEndTime), group (Task defaults)
+#: calligraplansettings.kcfg:213
+#, kde-format
+msgid "Constraint end date and time"
+msgstr "تاریخ و زمان قید پایان"
+
+#. i18n: ectx: label, entry (EstimateType), group (Task defaults)
+#: calligraplansettings.kcfg:217
+#, kde-format
+msgid "Type of estimate"
+msgstr "نوع برآورد"
+
+#. i18n: ectx: label, entry (Unit), group (Task defaults)
+#: calligraplansettings.kcfg:225
+#, kde-format
+msgid "Estimate time unit"
+msgstr "واحد زمان برآورد"
+
+#. i18n: ectx: label, entry (ExpectedEstimate), group (Task defaults)
+#: calligraplansettings.kcfg:239
+#, kde-format
+msgid "Estimate"
+msgstr "برآورد"
+
+#. i18n: ectx: label, entry (Risk), group (Task defaults)
+#: calligraplansettings.kcfg:243
+#, kde-format
+msgid "Risk"
+msgstr "ریسک"
+
+#. i18n: ectx: label, entry (OptimisticRatio), group (Task defaults)
+#: calligraplansettings.kcfg:252
+#, kde-format
+msgid "Optimistic estimate"
+msgstr "برآورد خوش‌بینانه"
+
+#. i18n: ectx: label, entry (PessimisticRatio), group (Task defaults)
+#: calligraplansettings.kcfg:256
+#, kde-format
+msgid "Pessimistic estimate"
+msgstr "برآورد بدبینانه"
+
+#. i18n: ectx: label, entry (Description), group (Task defaults)
+#: calligraplansettings.kcfg:261
+#, kde-format
+msgid "Task description"
+msgstr "توضیحات وظیفه"
+
+#. i18n: ectx: label, entry (ColorGradientType), group (TaskColors)
+#: calligraplansettings.kcfg:267
+#, kde-format
+msgid "Gradient"
+msgstr "گرادیان"
+
+#. i18n: ectx: label, entry (ColorGradientType), group (TaskColors)
+#: calligraplansettings.kcfg:269 config/kptcolorsconfigpanel.cpp:20
+#, kde-format
+msgid "Linear"
+msgstr "خطی"
+
+#. i18n: ectx: label, entry (ColorGradientType), group (TaskColors)
+#: calligraplansettings.kcfg:270 config/kptcolorsconfigpanel.cpp:21
+#, kde-format
+msgid "Flat"
+msgstr "مسطح"
+
+#. i18n: ectx: label, entry (SummaryTaskLevelColorsEnabled), group
+#. (TaskColors)
+#: calligraplansettings.kcfg:275
+#, kde-format
+msgid "Enable summary task level colors"
+msgstr "فعال‌سازی رنگ‌های سطوح وظایف خلاصه"
+
+#. i18n: ectx: label, entry (SummaryTaskDefaultColor), group (TaskColors)
+#: calligraplansettings.kcfg:279
+#, kde-format
+msgid "Summary task default color"
+msgstr "رنگ پیش‌فرض وظیفه خلاصه"
+
+#. i18n: ectx: label, entry (SummaryTaskLevelColor_1), group (TaskColors)
+#: calligraplansettings.kcfg:283
+#, kde-format
+msgid "Summary task color, level 1"
+msgstr "رنگ وظیفه خلاصه، سطح ۱"
+
+#. i18n: ectx: label, entry (SummaryTaskLevelColor_2), group (TaskColors)
+#: calligraplansettings.kcfg:287
+#, kde-format
+msgid "Summary task color, level 2"
+msgstr "رنگ وظیفه خلاصه، سطح ۲"
+
+#. i18n: ectx: label, entry (SummaryTaskLevelColor_3), group (TaskColors)
+#: calligraplansettings.kcfg:291
+#, kde-format
+msgid "Summary task color, level 3"
+msgstr "رنگ وظیفه خلاصه، سطح ۳"
+
+#. i18n: ectx: label, entry (SummaryTaskLevelColor_4), group (TaskColors)
+#: calligraplansettings.kcfg:295
+#, kde-format
+msgid "Summary task color, level 4"
+msgstr "رنگ وظیفه خلاصه، سطح ۴"
+
+#. i18n: ectx: label, entry (TaskNormalColor), group (TaskColors)
+#: calligraplansettings.kcfg:299
+#, kde-format
+msgid "Task color in normal state"
+msgstr "رنگ وظیفه در حالت عادی"
+
+#. i18n: ectx: label, entry (TaskCriticalColor), group (TaskColors)
+#: calligraplansettings.kcfg:303
+#, kde-format
+msgid "Task color in critical state"
+msgstr "رنگ وظیفه در حالت بحرانی"
+
+#. i18n: ectx: label, entry (TaskFinishedColor), group (TaskColors)
+#: calligraplansettings.kcfg:307
+#, kde-format
+msgid "Task color in finished state"
+msgstr "رنگ وظیفه در وضعیت تمام‌شده"
+
+#. i18n: ectx: label, entry (TaskErrorColor), group (TaskColors)
+#: calligraplansettings.kcfg:311
+#, kde-format
+msgid "Task color in error state"
+msgstr "رنگ وظیفه در وضعیت خطا"
+
+#. i18n: ectx: label, entry (MilestoneNormalColor), group (TaskColors)
+#: calligraplansettings.kcfg:315
+#, kde-format
+msgid "Milestone color in normal state"
+msgstr "رنگ نقطهٔ عطف در وضعیت عادی"
+
+#. i18n: ectx: label, entry (MilestoneCriticalColor), group (TaskColors)
+#: calligraplansettings.kcfg:319
+#, kde-format
+msgid "Milestone color in critical state"
+msgstr "رنگ نقطهٔ عطف در وضعیت بحرانی"
+
+#. i18n: ectx: label, entry (MilestoneFinishedColor), group (TaskColors)
+#: calligraplansettings.kcfg:323
+#, kde-format
+msgid "Milestone color in finished state"
+msgstr "رنگ نقطهٔ عطف در وضعیت تمام‌شده"
+
+#. i18n: ectx: label, entry (MilestoneErrorColor), group (TaskColors)
+#: calligraplansettings.kcfg:327
+#, kde-format
+msgid "Milestone color in error state"
+msgstr "رنگ نقطهٔ عطف در وضعیت خطا"
+
+#. i18n: ectx: label, entry (CheckForWorkPackages), group (Work Package)
+#: calligraplansettings.kcfg:334
+#, kde-format
+msgid "Automatically check for new work packages"
+msgstr "بررسی خودکار برای بسته‌های کاری جدید"
+
+#. i18n: ectx: label, entry (RetrieveUrl), group (Work Package)
+#: calligraplansettings.kcfg:337
+#, kde-format
+msgid "Directory where Plan retrieves work packages from project members"
+msgstr "شاخه‌ای که Plan بسته‌های کاری را از اعضای پروژه از آنجا دریافت می‌کند"
+
+#. i18n: ectx: label, entry (DeleteFile), group (Work Package)
+#: calligraplansettings.kcfg:340
+#, kde-format
+msgid "If set, Plan will delete the file after it has been read"
+msgstr "در صورت تنظیم، Plan پس از خوانده شدن پرونده، آن را حذف خواهد کرد"
+
+#. i18n: ectx: label, entry (SaveFile), group (Work Package)
+#: calligraplansettings.kcfg:343
+#, kde-format
+msgid "If set, Plan will save the file after it has been read"
+msgstr "در صورت تنظیم، Plan پس از خوانده شدن پرونده، آن را ذخیره خواهد کرد"
+
+#. i18n: ectx: label, entry (SaveUrl), group (Work Package)
+#: calligraplansettings.kcfg:346
+#, kde-format
+msgid ""
+"Directory where Plan saves work packages when the package has been read"
+msgstr "پوشه‌ای که در آن «طرح» بسته‌های کاری را پس از خوانده شدن ذخیره می‌کند"
+
+#. i18n: ectx: label, entry (PublishUrl), group (Work Package)
+#: calligraplansettings.kcfg:349
+#, kde-format
+msgid "Directory where Plan publishes work packages"
+msgstr "پوشه‌ای که «طرح» بسته‌های کاری را در آن منتشر می‌کند"
+
+#. i18n: ectx: label, entry (MinimumDurationUnit), group (Miscellaneous)
+#: calligraplansettings.kcfg:355
+#, kde-format
+msgid "The smallest duration unit allowed"
+msgstr "کوچک‌ترین واحد مجاز مدت‌زمان"
+
+#. i18n: ectx: label, entry (MaximumDurationUnit), group (Miscellaneous)
+#: calligraplansettings.kcfg:359
+#, kde-format
+msgid "The largest duration unit allowed"
+msgstr "بزرگ‌ترین واحد مجاز مدت‌زمان"
+
+#. i18n: ectx: label, entry (DocumentationPath), group (Documentation)
+#: calligraplansettings.kcfg:366
+#, kde-format
+msgid "Path to the documentation"
+msgstr "مسیر مستندات"
+
+#. i18n: ectx: label, entry (ContextPath), group (Documentation)
+#: calligraplansettings.kcfg:370
+#, kde-format
+msgid "Path to the context help documentation"
+msgstr "مسیر مستندات راهنمای متنی"
+
+#. i18n: ectx: label, entry (ContextLanguage), group (Documentation)
+#: calligraplansettings.kcfg:374
+#, kde-format
+msgid ""
+"The context help documentation must have been translated to the language"
+msgstr "مستندات راهنمای متنی باید به این زبان ترجمه شده باشد"
+
+#. i18n: ectx: label, entry (UseLocalTaskModules), group (Task Modules)
+#: calligraplansettings.kcfg:380
+#, kde-format
+msgid "Use the task modules from your private store"
+msgstr "استفاده از پودمان‌های وظیفه از مخزن خصوصی‌تان"
+
+#. i18n: ectx: label, entry (TaskModulePaths), group (Task Modules)
+#: calligraplansettings.kcfg:384
+#, kde-format
+msgid "List of paths to task modules"
+msgstr "فهرست مسیرهای پودمان‌های وظیفه"
+
+#. i18n: ectx: label, entry (ReportTemplatePaths), group (Report Templates)
+#: calligraplansettings.kcfg:390
+#, kde-format
+msgid "List of paths to report templates"
+msgstr "فهرست مسیرهای الگوهای گزارش"
+
+#. i18n: ectx: label, entry (ProjectTemplatePaths), group (Project Templates)
+#: calligraplansettings.kcfg:396
+#, kde-format
+msgid "List of paths to project templates"
+msgstr "فهرست مسیرهای الگوهای پروژه"
+
+#. i18n: ectx: label, entry (AutoSave), group (Interface)
+#: calligraplansettings.kcfg:402
+#, kde-format
+msgid "Autosave interval"
+msgstr "فاصله زمانی ذخیره خودکار"
+
+#. i18n: ectx: label, entry (CreateBackupFile), group (Interface)
+#: calligraplansettings.kcfg:406
+#, kde-format
+msgid "Create a backup file"
+msgstr "ایجاد فایل پشتیبان"
+
+#: config/ConfigDialog.cpp:36
+#, kde-format
+msgid "Project Defaults"
+msgstr "پیش‌فرض‌های پروژه"
+
+#: config/ConfigDialog.cpp:37 kptview.cpp:638
+#, kde-format
+msgid "Work & Vacation"
+msgstr "کار و تعطیلات"
+
+#: config/ConfigDialog.cpp:38
+#, kde-format
+msgid "Task Defaults"
+msgstr "پیش‌فرض‌های وظیفه"
+
+#: config/ConfigDialog.cpp:39
+#, kde-format
+msgid "Task Colors"
+msgstr "رنگ‌های وظیفه"
+
+#: config/ConfigDialog.cpp:41
+#, kde-format
+msgid "Task Modules"
+msgstr "ماژول‌های وظیفه"
+
+#: config/ConfigDialog.cpp:45
+#, kde-format
+msgid "Work Package"
+msgstr "بسته کاری"
+
+#: config/ConfigDialog.cpp:48
+#, kde-format
+msgid "Project Templates"
+msgstr "الگوهای پروژه"
+
+#: config/ConfigDialog.cpp:54
+#, kde-format
+msgid "Report Templates"
+msgstr "الگوهای گزارش"
+
+#: config/ConfigDialog.cpp:60
+#, kde-format
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "سند"
+
+#: config/ConfigProjectPanel.cpp:36
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "The project manager of this project."
+msgstr "مدیر این پروژه."
+
+#: config/ConfigProjectPanel.cpp:39
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Check to enable shared resources"
+msgstr "برای فعال‌سازی منابع اشتراکی علامت بزنید"
+
+#: config/ConfigProjectPanel.cpp:42
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "The file where shared resources are defined"
+msgstr "پرونده‌ای که منابع اشتراکی در آن تعریف شده‌اند"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: config/ConfigProjectPanel.ui:33 config/kptconfigtaskpanelbase.ui:34
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#. i18n: ectx: property (text), widget (QPushButton, resourceFileBrowseBtn)
+#: config/ConfigProjectPanel.ui:44
+#, kde-format
+msgid "Browse..."
+msgstr "مرور..."
+
+#. i18n: ectx: property (text), widget (QLabel, srflabel)
+#: config/ConfigProjectPanel.ui:57
+#, kde-format
+msgid "Shared resource file:"
+msgstr "پروندهٔ منابع اشتراکی:"
+
+#. i18n: ectx: property (text), widget (QLabel, leaderlabel)
+#: config/ConfigProjectPanel.ui:67
+#, kde-format
+msgid "&Manager:"
+msgstr "مدیر:"
+
+#. i18n: ectx: property (text), widget (QLabel, usrlabel)
+#: config/ConfigProjectPanel.ui:90
+#, kde-format
+msgid "Use shared resources:"
+msgstr "استفاده از منابع اشتراکی:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: ectx: attribute (title), widget (QWidget, widget)
+#: config/ConfigProjectPanel.ui:124 config/kptconfigtaskpanelbase.ui:528
+#, kde-format
+msgid "Description"
+msgstr "توضیحات"
+
+#: config/ConfigProjectTemplatesPanel.cpp:48
+#, kde-format
+msgid "Project Templates Path"
+msgstr "مسیر الگوهای پروژه"
+
+#. i18n: ectx: property (text), widget (QToolButton, insertModule)
+#. i18n: ectx: property (text), widget (QToolButton, insertTemplatePath)
+#: config/ConfigProjectTemplatesPanel.ui:17
+#: config/ConfigReportTemplatesPanel.ui:17 config/ConfigTaskModulesPanel.ui:37
+#, kde-format
+msgid "Insert"
+msgstr "درج"
+
+#. i18n: ectx: property (text), widget (QToolButton, removeModule)
+#. i18n: ectx: property (text), widget (QToolButton, removeTemplatePath)
+#: config/ConfigProjectTemplatesPanel.ui:41
+#: config/ConfigReportTemplatesPanel.ui:41 config/ConfigTaskModulesPanel.ui:48
+#: SharedResourcesDialog.cpp:248
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#: config/ConfigReportTemplatesPanel.cpp:48
+#: config/ConfigTaskModulesPanel.cpp:48
+#, kde-format
+msgid "Task Modules Path"
+msgstr "مسیر ماژول‌های وظیفه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseLocalTaskModules)
+#: config/ConfigTaskModulesPanel.ui:17
+#, kde-format
+msgid "Use local task modules"
+msgstr "استفاده از ماژول‌های وظیفه محلی"
+
+#: config/ConfigWorkVacationPanel.cpp:38
+#, kde-format
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: config/ConfigWorkVacationPanel.ui:22
+#, kde-format
+msgid "Working Hours"
+msgstr "ساعات کاری"
+
+#. i18n: info@whatsthis
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_3)
+#: config/ConfigWorkVacationPanel.ui:28
+#, kde-format
+msgid ""
+"<html><head/><body><p>Values used for generating default calendars for "
+"working weeks and holidays.</p><p>The <span style=\" font-"
+"style:italic;\">Week</span> calendar uses the values defined in <span "
+"style=\" font-style:italic;\">Working week</span>.</p><p>The <span style=\" "
+"font-style:italic;\">Week</span> calendar can be <span style=\" font-"
+"style:italic;\">Always</span> generated or only generated <span style=\" "
+"font-style:italic;\">If none exists</span>. The latter choice is the most "
+"common as you often have calendars defined as part of templates or shared "
+"resources.</p><p><span style=\" font-style:italic;\">Holidays</span> can be "
+"generated for your region (default) or any region you choose. The holidays "
+"can be added into the week calendar, as sub-calendar to the week calendar or"
+" as a separate calendar.</p><p>If a week calendar is not generated, the "
+"holidays are put into a separate calendar.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>مقادیر مورد استفاده برای ایجاد تقویم‌های پیش‌فرض برای "
+"هفته‌های کاری و روزهای تعطیل.</p><p>تقویم <span style=\" font-"
+"style:italic;\">هفته</span> از مقادیر تعریف‌شده در <span style=\" font-"
+"style:italic;\">هفته کاری</span> استفاده می‌کند.</p><p>تقویم <span style=\" "
+"font-style:italic;\">هفته</span> را می‌توان به‌صورت <span style=\" font-"
+"style:italic;\">همیشه</span> ایجاد کرد، یا تنها <span style=\" font-"
+"style:italic;\">در صورت نبود تقویم</span> تولید شود. گزینه دوم متداول‌تر "
+"است، زیرا معمولاً تقویم‌ها را به‌عنوان بخشی از الگوها یا منابع مشترک تعریف "
+"می‌کنید.</p><p><span style=\" font-style:italic;\">تعطیلات</span> را می‌توان"
+" برای منطقه شما (پیش‌فرض) یا هر منطقه دیگری که انتخاب می‌کنید ایجاد کرد. "
+"تعطیلات می‌توانند به تقویم هفته، به‌عنوان زیرتقویمِ تقویم هفته، یا به‌عنوان "
+"یک تقویم جداگانه اضافه شوند.</p><p>اگر تقویم هفته ایجاد نشود، تعطیلات در یک "
+"تقویم جداگانه قرار می‌گیرند.</p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: config/ConfigWorkVacationPanel.ui:31
+#, kde-format
+msgid "Calendar generation"
+msgstr "ایجاد تقویم"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_GenerateWeek)
+#: config/ConfigWorkVacationPanel.ui:37
+#, kde-format
+msgid "Week"
+msgstr "هفته"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_GenerateHolidays)
+#: config/ConfigWorkVacationPanel.ui:73 kptmaindocument.cpp:1758
+#: kptmaindocument.cpp:1762
+#, kde-format
+msgid "Holidays"
+msgstr "تعطیلات"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_GenerateHolidaysChoice)
+#: config/ConfigWorkVacationPanel.ui:81
+#, kde-format
+msgid "In week calendar"
+msgstr "در تقویم هفتگی"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/ConfigWorkVacationPanel.ui:99
+#, kde-format
+msgid "Holida&y region:"
+msgstr "منطقهٔ تعطیلات:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: config/ConfigWorkVacationPanel.ui:131
+#, kde-format
+msgid "Working week"
+msgstr "هفتهٔ کاری"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Tuesday)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Monday)
+#: config/ConfigWorkVacationPanel.ui:192 config/ConfigWorkVacationPanel.ui:252
+#, kde-format
+msgid "Tick  if working day"
+msgstr "در صورت روز کاری بودن علامت بزنید"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Wednesday)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Thursday)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Friday)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Saturday)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Sunday)
+#: config/ConfigWorkVacationPanel.ui:202 config/ConfigWorkVacationPanel.ui:212
+#: config/ConfigWorkVacationPanel.ui:222 config/ConfigWorkVacationPanel.ui:232
+#: config/ConfigWorkVacationPanel.ui:242
+#, kde-format
+msgid "Tick if working day"
+msgstr "در صورت روز کاری بودن علامت بزنید"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: config/ConfigWorkVacationPanel.ui:266
+#, kde-format
+msgid "Estimate Conversions"
+msgstr "تبدیل‌های تخمین"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
+#: config/ConfigWorkVacationPanel.ui:273
+#, kde-format
+msgid ""
+"These values are used if your estimate is not in hours.\n"
+"Let us say Hours per day is 8. If you estimate that a task needs 3 days effort to complete, this is converted to 24 hours when the task is scheduled. The actual time it will take to complete is of course dependent on the availability of the person (or persons) that is assigned to the task."
+msgstr ""
+"این مقادیر در صورتی استفاده می‌شوند که تخمین شما برحسب ساعت نباشد.\n"
+"فرض کنید ساعت کاری روزانه ۸ ساعت است. اگر تخمین بزنید که انجام یک کار ۳ روز تلاش لازم دارد، این مقدار هنگام زمان‌بندی کار به ۲۴ ساعت تبدیل می‌شود. زمان واقعی لازم برای تکمیل کار البته به در دسترس بودن فرد (یا افرادی) که به کار اختصاص داده شده‌اند بستگی دارد."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: config/ConfigWorkVacationPanel.ui:282
+#, kde-format
+msgid "Hours &per year:"
+msgstr "ساعت در سال:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: config/ConfigWorkVacationPanel.ui:311
+#, kde-format
+msgid "Hours per &month:"
+msgstr "ساعت در ماه:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabe3)
+#: config/ConfigWorkVacationPanel.ui:356
+#, kde-format
+msgid "Hours per wee&k:"
+msgstr "ساعت در هفته:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
+#: config/ConfigWorkVacationPanel.ui:385
+#, kde-format
+msgid ""
+"These values are used when you estimate the effort needed to complete a "
+"task."
+msgstr "این مقادیر هنگام برآورد تلاش لازم برای تکمیل یک کار استفاده می‌شوند."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: config/ConfigWorkVacationPanel.ui:388
+#, kde-format
+msgid "Hours per &day:"
+msgstr "ساعت در روز:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: config/kptcolorsconfigpanel.ui:28
+#, kde-format
+msgid "Gradient:"
+msgstr "گرادیان:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: config/kptcolorsconfigpanel.ui:57
+#, kde-format
+msgctxt "@title:tab"
+msgid "Summary task"
+msgstr "خلاصهٔ کار"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/kptcolorsconfigpanel.ui:69
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Default:"
+msgstr "پیش‌فرض:"
+
+#. i18n: ectx: property (title), widget (QGroupBox,
+#. kcfg_SummaryTaskLevelColorsEnabled)
+#: config/kptcolorsconfigpanel.ui:92
+#, kde-format
+msgctxt "@title:group"
+msgid "Use level colors"
+msgstr "استفاده از رنگ‌های سطح"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config/kptcolorsconfigpanel.ui:110
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Level 1"
+msgstr "سطح ۱"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config/kptcolorsconfigpanel.ui:139
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Level 2"
+msgstr "سطح ۲"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: config/kptcolorsconfigpanel.ui:168
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Level 3"
+msgstr "سطح ۳"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: config/kptcolorsconfigpanel.ui:197
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Level 4"
+msgstr "سطح ۴"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: config/kptcolorsconfigpanel.ui:231
+#, kde-format
+msgctxt "@title:tab"
+msgid "Task"
+msgstr "وظیفه"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: config/kptcolorsconfigpanel.ui:243 config/kptcolorsconfigpanel.ui:385
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Normal:"
+msgstr "عادی:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: config/kptcolorsconfigpanel.ui:275 config/kptcolorsconfigpanel.ui:417
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Critical:"
+msgstr "بحرانی:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: config/kptcolorsconfigpanel.ui:307 config/kptcolorsconfigpanel.ui:449
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Finished:"
+msgstr "پایان‌یافته:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: config/kptcolorsconfigpanel.ui:339 config/kptcolorsconfigpanel.ui:481
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Error:"
+msgstr "خطا:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: config/kptcolorsconfigpanel.ui:373
+#, kde-format
+msgctxt "@title:tab"
+msgid "Milestone"
+msgstr "مایل‌استون"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, leaderlabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_Leader)
+#: config/kptconfigtaskpanelbase.ui:42 config/kptconfigtaskpanelbase.ui:451
+#, kde-format
+msgid ""
+"The person responsible for this task.\n"
+"\n"
+"This is not limited to persons available in a resource group but can be anyone. You can even directly access your address book with the Choose button."
+msgstr ""
+"شخص مسئول این وظیفه.\n"
+"\n"
+"این مورد فقط محدود به افراد حاضر در گروه منابع نیست، بلکه می‌تواند هر کسی باشد. حتی می‌توانید با استفاده از دکمهٔ «انتخاب» مستقیماً به دفترچهٔ نشانی خود دسترسی پیدا کنید."
+
+#. i18n: ectx: property (text), widget (QLabel, leaderlabel)
+#: config/kptconfigtaskpanelbase.ui:45
+#, kde-format
+msgid "Responsible:"
+msgstr "مسئول:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EstimateType)
+#: config/kptconfigtaskpanelbase.ui:78
+#, kde-format
+msgid "Effort"
+msgstr "تلاش"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EstimateType)
+#: config/kptconfigtaskpanelbase.ui:83
+#, kde-format
+msgid "Duration"
+msgstr "مدت زمان"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: config/kptconfigtaskpanelbase.ui:110
+#, kde-format
+msgid "Pessimistic estimate:"
+msgstr "تخمین بدبینانه:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: config/kptconfigtaskpanelbase.ui:132
+#, kde-format
+msgid "Optimistic estimate:"
+msgstr "تخمین خوش‌بینانه:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartTimeUsage)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EndTimeUsage)
+#: config/kptconfigtaskpanelbase.ui:155 config/kptconfigtaskpanelbase.ui:331
+#, kde-format
+msgid "Current date and time"
+msgstr "تاریخ و زمان فعلی"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartTimeUsage)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EndTimeUsage)
+#: config/kptconfigtaskpanelbase.ui:160 config/kptconfigtaskpanelbase.ui:336
+#, kde-format
+msgid "Current date, specified time"
+msgstr "تاریخ فعلی، زمان مشخص‌شده"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartTimeUsage)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EndTimeUsage)
+#: config/kptconfigtaskpanelbase.ui:165 config/kptconfigtaskpanelbase.ui:341
+#, kde-format
+msgid "Specified date and time"
+msgstr "تاریخ و زمان مشخص‌شده"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_7)
+#: config/kptconfigtaskpanelbase.ui:186
+#, kde-format
+msgid "Estimate type:"
+msgstr "نوع تخمین:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_5)
+#: config/kptconfigtaskpanelbase.ui:208
+#, kde-format
+msgid "Constraint Start time usage:"
+msgstr "استفاده از زمان شروع قید:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_PessimisticRatio)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_OptimisticRatio)
+#: config/kptconfigtaskpanelbase.ui:234 config/kptconfigtaskpanelbase.ui:416
+#, no-c-format, kde-format
+msgid "%"
+msgstr "٪"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_6)
+#: config/kptconfigtaskpanelbase.ui:257
+#, kde-format
+msgid "Constraint End time usage:"
+msgstr "کاربرد زمان پایان قید:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_8)
+#: config/kptconfigtaskpanelbase.ui:279
+#, kde-format
+msgid "Expected estimate:"
+msgstr "برآورد مورد انتظار:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
+#: config/kptconfigtaskpanelbase.ui:301
+#, kde-format
+msgid "Constraint start time:"
+msgstr "زمان شروع قید:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: config/kptconfigtaskpanelbase.ui:356
+#, kde-format
+msgid "As Soon as Possible"
+msgstr "در زودترین زمان ممکن"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: config/kptconfigtaskpanelbase.ui:361
+#, kde-format
+msgid "As Late as Possible"
+msgstr "در دیرترین زمان ممکن"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: config/kptconfigtaskpanelbase.ui:366
+#, kde-format
+msgid "Must Start On"
+msgstr "باید شروع شود در"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: config/kptconfigtaskpanelbase.ui:371
+#, kde-format
+msgid "Must Finish On"
+msgstr "باید پایان یابد در"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: config/kptconfigtaskpanelbase.ui:376
+#, kde-format
+msgid "Start Not Earlier Than"
+msgstr "شروع نه زودتر از"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: config/kptconfigtaskpanelbase.ui:381
+#, kde-format
+msgid "Finish Not Later Than"
+msgstr "پایان نه دیرتر از"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: config/kptconfigtaskpanelbase.ui:386
+#, kde-format
+msgid "Fixed Interval"
+msgstr "بازهٔ زمانی ثابت"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_4)
+#: config/kptconfigtaskpanelbase.ui:400
+#, kde-format
+msgid "Constraint end time:"
+msgstr "زمان پایان محدودیت:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, chooseLeader)
+#: config/kptconfigtaskpanelbase.ui:458
+#, kde-format
+msgid "Insert a person from your address book"
+msgstr "درج مخاطب از دفترچه نشانی"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, chooseLeader)
+#: config/kptconfigtaskpanelbase.ui:461
+#, kde-format
+msgid "Insert a person from your address book."
+msgstr "درج مخاطب از دفترچه نشانی."
+
+#. i18n: ectx: property (text), widget (QPushButton, chooseLeader)
+#: config/kptconfigtaskpanelbase.ui:464
+#, kde-format
+msgid "Choose..."
+msgstr "انتخاب..."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: config/kptconfigtaskpanelbase.ui:482
+#, kde-format
+msgid "Scheduling constraint:"
+msgstr "محدودیت زمان‌بندی:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/kptconfigtaskpanelbase.ui:498
+#, kde-format
+msgid "Risk:"
+msgstr "ریسک:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Risk)
+#: config/kptconfigtaskpanelbase.ui:509
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Risk)
+#: config/kptconfigtaskpanelbase.ui:514
+#, kde-format
+msgid "Low"
+msgstr "کم"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Risk)
+#: config/kptconfigtaskpanelbase.ui:519
+#, kde-format
+msgid "High"
+msgstr "زیاد"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: config/kptworkpackageconfigpanel.ui:17
+#, kde-format
+msgid "Retrieve"
+msgstr "بازیابی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckForWorkPackages)
+#: config/kptworkpackageconfigpanel.ui:23
+#, kde-format
+msgid "Check for work packages"
+msgstr "بررسی برای بسته‌های کاری"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/kptworkpackageconfigpanel.ui:32
+#, kde-format
+msgid "Retrieve:"
+msgstr "بازیابی:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/kptworkpackageconfigpanel.ui:47
+#, kde-format
+msgid "Archive"
+msgstr "بایگانی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_DeleteFile)
+#: config/kptworkpackageconfigpanel.ui:53
+#, kde-format
+msgid "Delete file after it has been retrieved"
+msgstr "حذف پرونده پس از بازیابی آن"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_SaveFile)
+#: config/kptworkpackageconfigpanel.ui:60
+#, kde-format
+msgid "Archive file after it has been retrieved"
+msgstr "بایگانی پرونده پس از بازیابی آن"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config/kptworkpackageconfigpanel.ui:69
+#, kde-format
+msgid "Archive:"
+msgstr "بایگانی:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, ui_publishGroup)
+#: config/kptworkpackageconfigpanel.ui:84
+#, kde-format
+msgid "Publish"
+msgstr "انتشار"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: config/kptworkpackageconfigpanel.ui:92
+#, kde-format
+msgid "Publish:"
+msgstr "انتشار:"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog,
+#. CreateReportTemplateDialog)
+#: CreateReportTemplateDialog.ui:14
+#, kde-format
+msgid "Dialog"
+msgstr "گفتگو"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: CreateReportTemplateDialog.ui:36
+#, kde-format
+msgid "Base template:"
+msgstr "قالب پایه:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: CreateReportTemplateDialog.ui:49
+#, kde-format
+msgid "File name:"
+msgstr "نام پرونده:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, openAssistant)
+#: CreateReportTemplateDialog.ui:66
+#, kde-format
+msgid "Open assistant"
+msgstr "باز کردن دستیار"
+
+#: KPlatoXmlLoader.cpp:56
+#, kde-format
+msgid ""
+"This document has no syntax version.\n"
+"Opening it in Plan may lose information."
+msgstr ""
+"این سند فاقد نسخهٔ نحو است.\n"
+"باز کردن آن در Plan ممکن است باعث از دست رفتن اطلاعات شود."
+
+#: KPlatoXmlLoader.cpp:58 KPlatoXmlLoader.cpp:70 KPlatoXmlLoader.cpp:112
+#: kptmaindocument.cpp:375 kptmaindocument.cpp:699
+#, kde-format
+msgid "Continue"
+msgstr "ادامه"
+
+#: KPlatoXmlLoader.cpp:58
+#, kde-format
+msgid "File-Format Error"
+msgstr "خطای قالب پرونده"
+
+#: KPlatoXmlLoader.cpp:67
+#, kde-format
+msgid ""
+"This document was created with a newer version of KPlato than Plan can load.\n"
+"Syntax version: %1\n"
+"Opening it in this version of Plan may lose some information."
+msgstr ""
+"این سند با نسخه‌ای از KPlato ایجاد شده است که از نسخهٔ قابل بارگیری توسط Plan جدیدتر است.\n"
+"نسخهٔ نحو: %1\n"
+"باز کردن آن در این نسخه از Plan ممکن است باعث از دست رفتن برخی اطلاعات شود."
+
+#: KPlatoXmlLoader.cpp:70 KPlatoXmlLoader.cpp:112 kptmaindocument.cpp:375
+#: kptmaindocument.cpp:699
+#, kde-format
+msgid "File-Format Mismatch"
+msgstr "عدم تطابق قالب پرونده"
+
+#: KPlatoXmlLoader.cpp:110
+#, kde-format
+msgid ""
+"This document was created with a newer version of KPlatoWork (syntax version: %1)\n"
+"Opening it in this version of PlanWork will lose some information."
+msgstr ""
+"این سند با نسخهٔ جدیدتری از KPlatoWork ایجاد شده است (نسخهٔ نحو: %1)\n"
+"باز کردن آن در این نسخه از PlanWork باعث از دست رفتن برخی اطلاعات خواهد شد."
+
+#: kptaboutdata.h:24
+#, kde-format
+msgctxt "application name"
+msgid "Plan"
+msgstr "Plan"
+
+#: kptaboutdata.h:26
+#, kde-format
+msgid "Project Planning and Management Tool"
+msgstr "ابزار برنامه‌ریزی و مدیریت پروژه"
+
+#: kptaboutdata.h:28
+#, kde-format
+msgid "Copyright 1998-%1, The Plan Team"
+msgstr "حق نشر ‎1998-%1، گروه پلن (The Plan Team)"
+
+#: kptaboutdata.h:32
+#, kde-format
+msgid "Dag Andersen"
+msgstr "Dag Andersen"
+
+#: kptaboutdata.h:33
+#, kde-format
+msgid "Thomas Zander"
+msgstr "Thomas Zander"
+
+#: kptaboutdata.h:34
+#, kde-format
+msgid "Bo Thorsen"
+msgstr "Bo Thorsen"
+
+#: kptaboutdata.h:35
+#, kde-format
+msgid "Raphael Langerhorst"
+msgstr "Raphael Langerhorst"
+
+#. i18n translator strings
+#: kptaboutdata.h:38
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: kptaboutdata.h:39
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: kptbuiltinschedulerplugin.cpp:29
+#, kde-format
+msgctxt "Network = task dependency network"
+msgid "Network Scheduler"
+msgstr "زمان‌بند شبکه"
+
+#: kptbuiltinschedulerplugin.cpp:30
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Built-in network (PERT) based scheduler"
+msgstr "زمان‌بند توکار مبتنی بر شبکه (PERT)"
+
+#: kptbuiltinschedulerplugin.cpp:46
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Network (PERT) Scheduler</title><para>The network scheduler generally"
+" schedules tasks according to their dependencies. When a task is scheduled "
+"it is scheduled in full, booking the allocated resources if available. If "
+"overbooking is not allowed, subsequent tasks that requests the same resource"
+" will be scheduled later in time.</para><para>Tasks with time constraints "
+"will be scheduled first to minimize the problem with resource "
+"conflicts</para><para><note>This scheduler does not handle resource "
+"conflicts well.<nl/>You can try a different scheduler if available. You may "
+"also change resource allocations or add dummy dependencies to avoid the "
+"conflicts.</note></para>"
+msgstr ""
+"<title>زمان‌بند شبکه (PERT)</title><para>زمان‌بند شبکه به‌طور کلی وظایف را "
+"با توجه به وابستگی‌هایشان زمان‌بندی می‌کند. وقتی وظیفه‌ای زمان‌بندی می‌شود، "
+"به‌طور کامل زمان‌بندی شده و منابع تخصیص‌یافته را در صورت موجود بودن رزرو "
+"می‌کند. اگر رزرو بیش‌ازحد (Overbooking) مجاز نباشد، وظایف بعدی که همان منبع "
+"را درخواست می‌کنند، در زمان دیگری زمان‌بندی خواهند شد.</para><para>وظایف "
+"دارای محدودیت زمانی در اولویت زمان‌بندی قرار می‌گیرند تا تداخل منابع به "
+"حداقل برسد</para><para><note>این زمان‌بند تداخل منابع را به‌خوبی مدیریت "
+"نمی‌کند.<nl/>در صورت امکان می‌توانید از زمان‌بند دیگری استفاده کنید. همچنین "
+"می‌توانید تخصیص منابع را تغییر دهید یا برای جلوگیری از تداخل، وابستگی‌های "
+"صوری (Dummy) اضافه کنید.</note></para>"
+
+#: kptbuiltinschedulerplugin.cpp:251
+#, kde-format
+msgid "Scheduling started: %1"
+msgstr "زمان‌بندی آغاز شد: %1"
+
+#: kptbuiltinschedulerplugin.cpp:253
+#, kde-format
+msgid "Recalculating from: %1"
+msgstr "محاسبهٔ مجدد از: %1"
+
+#: kptbuiltinschedulerplugin.cpp:265
+#, kde-format
+msgid "Scheduling canceled"
+msgstr "زمان‌بندی لغو شد"
+
+#: kptbuiltinschedulerplugin.cpp:271
+#, kde-format
+msgid "Scheduling finished at %1, elapsed time: %2 seconds"
+msgstr "زمان‌بندی در %1 پایان یافت، زمان سپری‌شده: %2 ثانیه"
+
+#: kptbuiltinschedulerplugin.cpp:285
+#, kde-format
+msgid "Inserting resource bookings from project: %1"
+msgstr "درج رزروهای منبع از پروژه: %1"
+
+#: kptinsertfiledlg.cpp:21
+#, kde-format
+msgid "Insert File"
+msgstr "درج پرونده"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kptinsertfilepanel.ui:40
+#, kde-format
+msgid "Current node:"
+msgstr "گره فعلی:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_useProject)
+#: kptinsertfilepanel.ui:68
+#, kde-format
+msgid "Insert on top level"
+msgstr "درج در بالاترین سطح"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_isParent)
+#: kptinsertfilepanel.ui:75
+#, kde-format
+msgid "Insert as children to current node"
+msgstr "درج به‌عنوان فرزند گره فعلی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_isAfter)
+#: kptinsertfilepanel.ui:82
+#, kde-format
+msgid "Insert after current node"
+msgstr "درج پس از گره فعلی"
+
+#: kptmaindocument.cpp:322 kptmaindocument.cpp:669
+#, kde-format
+msgid "Invalid document. No mimetype specified."
+msgstr "سند نامعتبر است. نوع رسانه (mimetype) مشخص نشده است."
+
+#: kptmaindocument.cpp:364
+#, kde-format
+msgid "Invalid document. Expected mimetype application/x-vnd.kde.plan, got %1"
+msgstr ""
+"سند نامعتبر است. نوع رسانهٔ مورد انتظار application/x-vnd.kde.plan بود، اما "
+"%1 دریافت شد"
+
+#: kptmaindocument.cpp:373
+#, kde-format
+msgid ""
+"This document was created with a newer version of Plan (syntax version: %1)\n"
+"Opening it in this version of Plan will lose some information."
+msgstr ""
+"این سند با نسخهٔ جدیدتری از پلن ایجاد شده است (نسخهٔ نحو: %1)\n"
+"باز کردن آن در این نسخه از پلن باعث از دست رفتن برخی اطلاعات خواهد شد."
+
+#: kptmaindocument.cpp:459
+#, kde-format
+msgid "Failed to save to temporary file. No resource has been specified"
+msgstr "ذخیره در پروندهٔ موقت ناموفق بود. هیچ منبعی مشخص نشده است"
+
+#: kptmaindocument.cpp:474
+#, kde-format
+msgid "Failed to open work package file"
+msgstr "باز کردن پروندهٔ بستهٔ کاری ناموفق بود"
+
+#: kptmaindocument.cpp:481
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Failed to save to temporary file:<br/><filename>%1</filename>"
+msgstr "ذخیره در پروندهٔ موقت ناموفق بود:<br/><filename>%1</filename>"
+
+#: kptmaindocument.cpp:557
+#, kde-format
+msgid "Could not create the workpackage file for saving: %1"
+msgstr "ایجاد پروندهٔ بستهٔ کاری برای ذخیره‌سازی ممکن نشد: %1"
+
+#: kptmaindocument.cpp:565
+#, kde-format
+msgid "Not able to write '%1'. Partition full?"
+msgstr "نوشتن در «%1» امکان‌پذیر نیست. آیا پارتیشن پر است؟"
+
+#: kptmaindocument.cpp:592
+#, kde-format
+msgid "Saving..."
+msgstr "در حال ذخیره‌سازی..."
+
+#: kptmaindocument.cpp:686
+#, kde-format
+msgid "Invalid document. Expected mimetype %2, got %1"
+msgstr "سند نامعتبر است. نوع رسانهٔ مورد انتظار %2 بود، اما %1 دریافت شد"
+
+#: kptmaindocument.cpp:697
+#, kde-format
+msgid ""
+"This document was created with a newer version of PlanWork (syntax version: %1)\n"
+"Opening it in this version of PlanWork will lose some information."
+msgstr ""
+"این سند با نسخهٔ جدیدتری از PlanWork (نسخهٔ نحو: %1) ایجاد شده است\n"
+"باز کردن آن در این نسخه از PlanWork باعث از دست رفتن برخی اطلاعات خواهد شد."
+
+#: kptmaindocument.cpp:1113 kptmaindocument.cpp:1334
+#, kde-format
+msgid "Internal error, failed to insert file."
+msgstr "خطای داخلی، درج پرونده ناموفق بود."
+
+#: kptmaindocument.cpp:1185
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Failed to load shared resources into project %1:<nl/>Internal error, failed "
+"to insert file."
+msgstr ""
+"بارگذاری منابع هم‌رسانی‌شده در پروژهٔ %1 ناموفق بود:<nl/>خطای داخلی، درج "
+"پرونده ناموفق بود."
+
+#: kptmaindocument.cpp:1195
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Failed to load shared resources into project %1:<nl/>%2"
+msgstr "بارگذاری منابع هم‌رسانی‌شده در پروژهٔ %1 ناموفق بود:<nl/>%2"
+
+#: kptmaindocument.cpp:1365
+msgctxt "(qtundo-format)"
+msgid "Insert project"
+msgstr "درج پروژه"
+
+#: kptmaindocument.cpp:1450
+#, kde-format
+msgid "Group: %1"
+msgstr "گروه: %1"
+
+#: kptmaindocument.cpp:1457
+#, kde-format
+msgid "Resource: %1"
+msgstr "منبع: %1"
+
+#: kptmaindocument.cpp:1462
+#, kde-format
+msgid "Calendar: %1"
+msgstr "تقویم: %1"
+
+#: kptmaindocument.cpp:1464
+msgctxt "(qtundo-format)"
+msgid "Update Shared Resources"
+msgstr "به‌روزرسانی منابع هم‌رسانی‌شده"
+
+#: kptmaindocument.cpp:1481
+#, kde-format
+msgctxt "@title:window"
+msgid "Project: %1"
+msgstr "پروژه: %1"
+
+#: kptmaindocument.cpp:1728
+#, kde-format
+msgctxt "Base calendar name"
+msgid "Base"
+msgstr "پایه"
+
+#: kptpart.cpp:95
+#, kde-format
+msgid "Configure Plan..."
+msgstr "پیکربندی طرح..."
+
+#: kptschedulesdocker.cpp:26
+#, kde-format
+msgid "Schedule Selector"
+msgstr "انتخاب‌گر زمان‌بندی"
+
+#: kptview.cpp:186
+#, kde-format
+msgid "Create Project Template..."
+msgstr "ایجاد الگوی پروژه..."
+
+#: kptview.cpp:190
+#, kde-format
+msgid "Create New Project..."
+msgstr "ایجاد پروژه جدید..."
+
+#: kptview.cpp:202
+#, kde-format
+msgid "Show Selector"
+msgstr "نمایش انتخاب‌گر"
+
+#: kptview.cpp:209 kptview.cpp:250
+#, kde-format
+msgid "Edit..."
+msgstr "ویرایش..."
+
+#: kptview.cpp:213
+#, kde-format
+msgid "Define Estimate Conversions..."
+msgstr "تعریف تبدیل‌های برآورد..."
+
+#: kptview.cpp:217
+#, kde-format
+msgid "Define WBS Pattern..."
+msgstr "تعریف الگوی WBS..."
+
+#: kptview.cpp:221
+#, kde-format
+msgid "Define Currency..."
+msgstr "تعریف ارز..."
+
+#: kptview.cpp:225
+#, kde-format
+msgid "Edit Description..."
+msgstr "ویرایش توضیحات..."
+
+#: kptview.cpp:230
+#, kde-format
+msgid "Insert Project File..."
+msgstr "درج پروندهٔ پروژه..."
+
+#: kptview.cpp:234
+#, kde-format
+msgid "Update Shared Resources"
+msgstr "به‌روزرسانی منابع مشترک"
+
+#: kptview.cpp:239
+#, kde-format
+msgid "Open Report Definition File..."
+msgstr "باز کردن پروندهٔ تعریف گزارش..."
+
+#: kptview.cpp:244
+#, kde-format
+msgid "Create Report Template..."
+msgstr "ایجاد الگوی گزارش..."
+
+#: kptview.cpp:260
+#, kde-format
+msgid "Work Packages..."
+msgstr "بسته‌های کاری..."
+
+#: kptview.cpp:261
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Work packages available"
+msgstr "بسته‌های کاریِ موجود"
+
+#: kptview.cpp:352
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<note>This action cannot be undone.</note><nl/><nl/>Create a new Project "
+"from the current project with new project- and task "
+"identities.<nl/>Resource- and calendar identities are not changed.<nl/>All "
+"scheduling information is removed.<nl/><nl/>Do you want to continue?"
+msgstr ""
+"<note>این عمل قابل بازگشت نیست.</note><nl/><nl/>ایجاد یک پروژهٔ جدید از روی "
+"پروژهٔ فعلی با شناسه‌های جدید برای پروژه و وظایف.<nl/>شناسه‌های منابع و "
+"تقویم تغییر نمی‌کنند.<nl/>تمام اطلاعات زمان‌بندی حذف می‌شوند.<nl/><nl/>آیا "
+"می‌خواهید ادامه دهید؟"
+
+#: kptview.cpp:492
+#, kde-format
+msgid "Edit task scheduling constraints"
+msgstr "ویرایش محدودیت‌های زمان‌بندی وظیفه"
+
+#: kptview.cpp:492
+#, kde-format
+msgid "Task Constraints"
+msgstr "محدودیت‌های وظیفه"
+
+#: kptview.cpp:502
+#, kde-format
+msgid "Edit task cost"
+msgstr "ویرایش هزینهٔ تکلیف"
+
+#: kptview.cpp:502
+#, kde-format
+msgid "Task Cost"
+msgstr "هزینهٔ تکلیف"
+
+#: kptview.cpp:551
+#, kde-format
+msgid "Generate reports"
+msgstr "تولید گزارش‌ها"
+
+#: kptview.cpp:557 kptview.cpp:2461
+#, kde-format
+msgid "Task Status Report"
+msgstr "گزارش وضعیت تکلیف"
+
+#: kptview.cpp:639
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Edit working- and vacation days for resources"
+msgstr "ویرایش روزهای کاری و تعطیل برای منابع"
+
+#: kptview.cpp:641
+#, kde-format
+msgid "Cost Breakdown Structure"
+msgstr "ساختار شکست هزینه"
+
+#: kptview.cpp:642
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Edit cost breakdown structure."
+msgstr "ویرایش ساختار شکست هزینه."
+
+#: kptview.cpp:644
+#, kde-format
+msgid "Resource Breakdown Structure"
+msgstr "ساختار شکست منابع"
+
+#: kptview.cpp:645
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Edit resource breakdown structure"
+msgstr "ویرایش ساختار شکست منابع"
+
+#: kptview.cpp:647 SharedResourcesDialog.cpp:58
+#, kde-format
+msgid "Resources"
+msgstr "منابع"
+
+#: kptview.cpp:648
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Edit resources"
+msgstr "ویرایش منابع"
+
+#: kptview.cpp:650
+#, kde-format
+msgid "Tasks"
+msgstr "وظایف"
+
+#: kptview.cpp:651
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Edit work breakdown structure"
+msgstr "ویرایش ساختار شکست کار"
+
+#: kptview.cpp:653
+#, kde-format
+msgid "Dependencies (Graphic)"
+msgstr "وابستگی‌ها (گرافیکی)"
+
+#: kptview.cpp:654 kptview.cpp:657
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Edit task dependencies"
+msgstr "ویرایش وابستگی‌های وظیفه"
+
+#: kptview.cpp:656
+#, kde-format
+msgid "Dependencies (List)"
+msgstr "وابستگی‌ها (فهرست)"
+
+#: kptview.cpp:660 kptview.cpp:662
+#, kde-format
+msgid "Schedules"
+msgstr "زمان‌بندی‌ها"
+
+#: kptview.cpp:663
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Calculate and analyze project schedules"
+msgstr "محاسبه و تحلیل زمان‌بندی‌های پروژه"
+
+#: kptview.cpp:665 kptviewlistdialog.cpp:110
+#, kde-format
+msgid "Project Performance Chart"
+msgstr "نمودار عملکرد پروژه"
+
+#: kptview.cpp:666
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View project status information"
+msgstr "مشاهده اطلاعات وضعیت پروژه"
+
+#: kptview.cpp:668 kptviewlistdialog.cpp:101
+#, kde-format
+msgid "Task Status"
+msgstr "وضعیت تکلیف"
+
+#: kptview.cpp:669
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View task progress information"
+msgstr "نمایش اطلاعات پیشرفت تکلیف"
+
+#: kptview.cpp:671
+#, kde-format
+msgid "Task Execution"
+msgstr "اجرای تکلیف"
+
+#: kptview.cpp:672
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View task execution information"
+msgstr "نمایش اطلاعات اجرای تکلیف"
+
+#: kptview.cpp:674 kptviewlistdialog.cpp:103
+#, kde-format
+msgid "Work Package View"
+msgstr "نمای بسته کاری"
+
+#: kptview.cpp:675
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View task work package information"
+msgstr "نمایش اطلاعات بسته کاری تکلیف"
+
+#: kptview.cpp:677
+#, kde-format
+msgid "Gantt"
+msgstr "گانت"
+
+#: kptview.cpp:678
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View Gantt chart"
+msgstr "نمایش نمودار گانت"
+
+#: kptview.cpp:680
+#, kde-format
+msgid "Milestone Gantt"
+msgstr "گانت نقاط عطف"
+
+#: kptview.cpp:681
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View milestone Gantt chart"
+msgstr "نمایش نمودار گانت نقاط عطف"
+
+#: kptview.cpp:683 kptviewlistdialog.cpp:106
+#, kde-format
+msgid "Resource Assignments"
+msgstr "تخصیص‌های منبع"
+
+#: kptview.cpp:684
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View resource assignments in a table"
+msgstr "نمایش تخصیص‌های منبع در یک جدول"
+
+#: kptview.cpp:686 kptviewlistdialog.cpp:107
+#, kde-format
+msgid "Resource Assignments (Gantt)"
+msgstr "تخصیص‌های منبع (گانت)"
+
+#: kptview.cpp:687
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View resource assignments in Gantt chart"
+msgstr "نمایش تخصیص‌های منبع در نمودار گانت"
+
+#: kptview.cpp:689 kptviewlistdialog.cpp:108
+#, kde-format
+msgid "Resource Coverage"
+msgstr "پوشش منبع"
+
+#: kptview.cpp:690
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Inspect resource coverage"
+msgstr "بررسی پوشش منبع"
+
+#: kptview.cpp:692 kptviewlistdialog.cpp:109
+#, kde-format
+msgid "Cost Breakdown"
+msgstr "تفکیک هزینه‌ها"
+
+#: kptview.cpp:693
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View planned and actual cost"
+msgstr "نمایش هزینهٔ برنامه‌ریزی‌شده و واقعی"
+
+#: kptview.cpp:695 kptviewlistdialog.cpp:111
+#, kde-format
+msgid "Tasks Performance Chart"
+msgstr "نمودار عملکرد وظایف"
+
+#: kptview.cpp:696
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View tasks performance status information"
+msgstr "نمایش اطلاعات وضعیت عملکرد وظایف"
+
+#: kptview.cpp:698
+#, kde-format
+msgid "Reports Generator"
+msgstr "تولیدکننده گزارش‌ها"
+
+#: kptview.cpp:699
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Generate reports"
+msgstr "تولید گزارش‌ها"
+
+#: kptview.cpp:701 kptview.cpp:2458 kptviewlistdialog.cpp:114
+#: kptviewlistdialog.cpp:564
+#, kde-format, kde-kuit-format
+msgid "Report"
+msgstr "گزارش"
+
+#: kptview.cpp:702
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "View report"
+msgstr "نمایش گزارش"
+
+#: kptview.cpp:713
+#, kde-format
+msgid "Editors"
+msgstr "ویرایشگرها"
+
+#: kptview.cpp:715
+#, kde-format
+msgid "Views"
+msgstr "نماها"
+
+#: kptview.cpp:717
+#, kde-format
+msgctxt "Project execution views"
+msgid "Execution"
+msgstr "اجرا"
+
+#: kptview.cpp:719
+#, kde-format
+msgid "Reports"
+msgstr "گزارش‌ها"
+
+#: kptview.cpp:1481
+#, kde-format
+msgid "The file '%1' already exists, do you want to overwrite it?"
+msgstr "پروندهٔ «%1» از قبل وجود دارد، آیا می‌خواهید روی آن بازنویسی شود؟"
+
+#: kptview.cpp:1482
+#, kde-format
+msgctxt "@window:title"
+msgid "Report Template"
+msgstr "الگوی گزارش"
+
+#: kptview.cpp:1824
+#, kde-format
+msgctxt "ªtitle:window"
+msgid "Shared Resources"
+msgstr "منابع مشترک"
+
+#: kptview.cpp:1824
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Use shared resources has been activated.<nl/>Shall resources be updated?"
+msgstr "استفاده از منابع مشترک فعال شده است.<nl/>آیا منابع به‌روزرسانی شوند؟"
+
+#: kptview.cpp:2037
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot open file:<br/><filename>%1</filename>"
+msgstr "پرونده باز نمی‌شود:<br/><filename>%1</filename>"
+
+#: kptview.cpp:2152
+msgctxt "(qtundo-format)"
+msgid "Modify name"
+msgstr "تغییر نام"
+
+#: kptview.cpp:2154
+msgctxt "(qtundo-format)"
+msgid "Modify task name"
+msgstr "تغییر نام وظیفه"
+
+#: kptview.cpp:2155
+msgctxt "(qtundo-format)"
+msgid "Modify milestone name"
+msgstr "تغییر نام نقطهٔ عطف"
+
+#: kptview.cpp:2156
+msgctxt "(qtundo-format)"
+msgid "Modify summarytask name"
+msgstr "تغییر نام وظیفهٔ خلاصه"
+
+#: kptview.cpp:2157
+msgctxt "(qtundo-format)"
+msgid "Modify project name"
+msgstr "تغییر نام پروژه"
+
+#: kptview.cpp:2249
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Not scheduled"
+msgstr "زمان‌بندی‌نشده"
+
+#: kptview.cpp:2303
+#, kde-format
+msgid "Work Package for project: %1"
+msgstr "بستهٔ کاری برای پروژهٔ: %1"
+
+#: kptview.cpp:2459
+#, kde-format
+msgctxt "Project manager"
+msgid "Manager:"
+msgstr "مدیر:"
+
+#: kptview.cpp:2460
+#, kde-format
+msgid "Project:"
+msgstr "پروژه:"
+
+#: kptview.cpp:2462
+#, kde-format
+msgctxt "As in: Page 1 of 2"
+msgid "of"
+msgstr "از"
+
+#: kptview.cpp:2463
+#, kde-format
+msgid "Page"
+msgstr "صفحه"
+
+#: kptview.cpp:2464
+#, kde-format
+msgctxt "Task name"
+msgid "Name"
+msgstr "نام"
+
+#: kptview.cpp:2465
+#, kde-format
+msgctxt "Task completion"
+msgid "Completion (%)"
+msgstr "تکمیل (٪)"
+
+#: kptviewlist.cpp:335
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>View Selector</title><para>This is the list of views and "
+"editors.</para><para>You can configure the list by using the context "
+"menu:<list><item>Rename categories or views</item><item>Configure. Move, "
+"remove, rename or edit tool tip for categories or views</item><item>Insert "
+"categories and views</item></list><nl/><link url='%1'>More...</link></para>"
+msgstr ""
+"<title>انتخابگر نما</title><para>این فهرست نماها و ویرایشگرها "
+"است.</para><para>می‌توانید با استفاده از منوی زمینه‌ای فهرست را پیکربندی "
+"کنید:<list><item>تغییر نام دسته‌ها یا نماها</item><item>پیکربندی: جابه‌جایی،"
+" حذف، تغییر نام یا ویرایش پیش‌نمایش راهنما برای دسته‌ها یا "
+"نماها</item><item>درج دسته‌ها و نماها</item></list><nl/><link "
+"url='%1'>بیشتر...</link></para>"
+
+#: kptviewlist.cpp:357
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Schedule selector</title><para>Selects the schedule to be used when "
+"displaying schedule dependent data.<nl/><note>Unscheduled tasks are only "
+"shown in editors.</note><nl/><link url='%1'>More...</link></para>"
+msgstr ""
+"<title>انتخابگر زمان‌بندی</title><para>زمان‌بندی مورد استفاده هنگام نمایش "
+"داده‌های وابسته به زمان‌بندی را انتخاب می‌کند.<nl/><note>وظایف "
+"زمان‌بندی‌نشده فقط در ویرایشگرها نشان داده می‌شوند.</note><nl/><link "
+"url='%1'>بیشتر...</link></para>"
+
+#: kptviewlist.cpp:606
+#, kde-format
+msgid "Removing this category will also remove all its views."
+msgstr "حذف این دسته، تمام نماهای آن را نیز حذف خواهد کرد."
+
+#: kptviewlist.cpp:739
+#, kde-kuit-format
+msgctxt "@action:inmenu rename view"
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: kptviewlist.cpp:743
+#, kde-kuit-format
+msgctxt "@action:inmenu configure view"
+msgid "Configure..."
+msgstr "پیکربندی..."
+
+#: kptviewlist.cpp:747
+#, kde-kuit-format
+msgctxt "@action:inmenu remove view"
+msgid "Remove"
+msgstr "حذف"
+
+#: kptviewlist.cpp:756
+#, kde-kuit-format
+msgctxt "@action:inmenu rename view category"
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: kptviewlist.cpp:760
+#, kde-kuit-format
+msgctxt "@action:inmenu configure view category"
+msgid "Configure..."
+msgstr "پیکربندی..."
+
+#: kptviewlist.cpp:764
+#, kde-kuit-format
+msgctxt "@action:inmenu Remove view category"
+msgid "Remove"
+msgstr "حذف"
+
+#: kptviewlist.cpp:773
+#, kde-kuit-format
+msgctxt "@action:inmenu Insert View"
+msgid "Insert..."
+msgstr "درج..."
+
+#. i18n: ectx: property (toolTip), widget (QLabel, categoryLabel)
+#: kptviewlistaddview.ui:17 kptviewlisteditview.ui:20
+#, kde-format
+msgid "The category of the view"
+msgstr "دسته‌بندی نما"
+
+#. i18n: ectx: property (text), widget (QLabel, categoryLabel)
+#: kptviewlistaddview.ui:20 kptviewlisteditview.ui:23
+#, kde-format
+msgid "Category:"
+msgstr "دسته‌بندی:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, afterLabel)
+#: kptviewlistaddview.ui:49 kptviewlisteditview.ui:55
+#, kde-format
+msgid "The view is placed after this view"
+msgstr "نما پس از این نما قرار می‌گیرد"
+
+#. i18n: ectx: property (text), widget (QLabel, afterLabel)
+#: kptviewlistaddview.ui:52 kptviewlisteditcategory.ui:23
+#: kptviewlisteditview.ui:58
+#, kde-format
+msgid "After"
+msgstr "بعد از"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, viewtypeLabel)
+#: kptviewlistaddview.ui:72
+#, kde-format
+msgid "The type of view"
+msgstr "نوع نما"
+
+#. i18n: ectx: property (text), widget (QLabel, viewtypeLabel)
+#: kptviewlistaddview.ui:75
+#, kde-format
+msgid "View type:"
+msgstr "نوع نما:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, viewnameLabel)
+#: kptviewlistaddview.ui:92 kptviewlisteditview.ui:78
+#, kde-format
+msgid "The name of the view"
+msgstr "نام نما"
+
+#. i18n: ectx: property (text), widget (QLabel, categoryLabel)
+#. i18n: ectx: property (text), widget (QLabel, viewnameLabel)
+#: kptviewlistaddview.ui:95 kptviewlisteditcategory.ui:46
+#: kptviewlisteditview.ui:81
+#, kde-format
+msgid "Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, tooltipLabel)
+#: kptviewlistaddview.ui:108 kptviewlisteditview.ui:94
+#, kde-format
+msgid "The views description"
+msgstr "توضیحات نما"
+
+#. i18n: ectx: property (text), widget (QLabel, tooltipLabel)
+#: kptviewlistaddview.ui:111 kptviewlisteditcategory.ui:62
+#: kptviewlisteditview.ui:97
+#, kde-format
+msgid "Description:"
+msgstr "توضیحات:"
+
+#: kptviewlistdialog.cpp:29
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Add View"
+msgstr "افزودن نما"
+
+#: kptviewlistdialog.cpp:93
+#, kde-format
+msgid "Resource Group Editor"
+msgstr "ویرایشگر گروه منبع"
+
+#: kptviewlistdialog.cpp:94
+#, kde-format
+msgid "Resource Editor"
+msgstr "ویرایشگر منبع"
+
+#: kptviewlistdialog.cpp:95
+#, kde-format
+msgid "Task Editor"
+msgstr "ویرایشگر تکلیف"
+
+#: kptviewlistdialog.cpp:96
+#, kde-format
+msgid "Work & Vacation Editor"
+msgstr "ویرایشگر کار و مرخصی"
+
+#: kptviewlistdialog.cpp:97
+#, kde-format
+msgid "Accounts Editor"
+msgstr "ویرایشگر حساب‌ها"
+
+#: kptviewlistdialog.cpp:98
+#, kde-format
+msgid "Dependency Editor (Graphic)"
+msgstr "ویرایشگر وابستگی (گرافیکی)"
+
+#: kptviewlistdialog.cpp:99
+#, kde-format
+msgid "Dependency Editor (List)"
+msgstr "ویرایشگر وابستگی (فهرست)"
+
+#: kptviewlistdialog.cpp:100
+#, kde-format
+msgid "Schedule Handler"
+msgstr "گردانندهٔ زمان‌بندی"
+
+#: kptviewlistdialog.cpp:102
+#, kde-format
+msgid "Task View"
+msgstr "نمای تکلیف"
+
+#: kptviewlistdialog.cpp:104
+#, kde-format
+msgid "Gantt View"
+msgstr "نمای گانت"
+
+#: kptviewlistdialog.cpp:105
+#, kde-format
+msgid "Milestone Gantt View"
+msgstr "نمای گانت نقاط عطف"
+
+#: kptviewlistdialog.cpp:112
+#, kde-format
+msgid "Reports generator"
+msgstr "تولیدکنندهٔ گزارش‌ها"
+
+#: kptviewlistdialog.cpp:141
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>The category of the view</title><nl/>The view is placed under this "
+"category in the view selector.<nl/>You can edit the category name to create "
+"a new category."
+msgstr ""
+"<title>دستهٔ نما</title><nl/>نما در این دسته در گزینشگر نما قرار "
+"می‌گیرد.<nl/>می‌توانید نام دسته را برای ایجاد یک دستهٔ جدید ویرایش کنید."
+
+#: kptviewlistdialog.cpp:193 kptviewlistdialog.cpp:412
+#: kptviewlistdialog.cpp:503 kptviewlistdialog.cpp:632
+#, kde-format
+msgid "Top"
+msgstr "بالا"
+
+#: kptviewlistdialog.cpp:305
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Configure View"
+msgstr "پیکربندی نما"
+
+#: kptviewlistdialog.cpp:362
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>The category of the view</title><nl/>The view is placed under this "
+"category in the view selector.<nl/>Selecting a different category will move "
+"the view to the new category.<nl/>You can edit the category name to create a"
+" new category."
+msgstr ""
+"<title>دسته‌بندی نما</title><nl/>نما در این دسته‌بندی در انتخاب‌گر نما قرار "
+"می‌گیرد.<nl/>انتخاب دسته‌ای متفاوت، نما را به دستهٔ جدید منتقل "
+"می‌کند.<nl/>می‌توانید نام دسته‌بندی را برای ایجاد یک دستهٔ جدید ویرایش کنید."
+
+#: kptviewlistdialog.cpp:431
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Configure Category"
+msgstr "پیکربندی دسته‌بندی"
+
+#: kptviewlistdialog.cpp:522
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Add Report"
+msgstr "افزودن گزارش"
+
+#: kptviewlistdocker.cpp:54 kptviewlistdocker.cpp:60
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "View Selector [modified]"
+msgstr "انتخاب‌گر نما [تغییریافته]"
+
+#: kptviewlistdocker.cpp:62
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "View Selector"
+msgstr "انتخاب‌گر نما"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:22
+#, kde-format
+msgid "Words"
+msgstr "کلمات"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:27
+#, kde-format
+msgid "Sentences"
+msgstr "جملات"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:32
+#, kde-format
+msgid "Syllables"
+msgstr "هجاها"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:37
+#, kde-format
+msgid "Lines"
+msgstr "خطوط"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:42
+#, kde-format
+msgid "Characters incl. spaces"
+msgstr "نویسه‌ها با احتساب فاصله‌ها"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:47
+#, kde-format
+msgid "Characters without spaces"
+msgstr "نویسه‌ها بدون فاصله‌ها"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:52
+#, kde-format
+msgid "Flesch reading ease"
+msgstr "شاخص آسانی خواندن فلش"
+
+#. i18n: ectx: property (text), widget (QLineEdit, count)
+#: kptviewlistdocker.ui:63
+#, kde-format
+msgid "0"
+msgstr "۰"
+
+#. i18n: ectx: property (text), widget (QToolButton, refresh)
+#: kptviewlistdocker.ui:73
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, footEndNotes)
+#: kptviewlistdocker.ui:84
+#, kde-format
+msgid "Include text from foot- and endnotes"
+msgstr "شامل متن پانویس‌ها و پی‌نوشت‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoRefresh)
+#: kptviewlistdocker.ui:91
+#, kde-format
+msgid "Automatically refresh data"
+msgstr "تازه‌سازی خودکار داده‌ها"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, afterLabel)
+#: kptviewlisteditcategory.ui:20
+#, kde-format
+msgid "The category is placed after this category"
+msgstr "دسته‌بندی بعد از این دسته قرار می‌گیرد"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, categoryLabel)
+#: kptviewlisteditcategory.ui:43
+#, kde-format
+msgid "The name of the category"
+msgstr "نام دسته‌بندی"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, tooltipLabel)
+#: kptviewlisteditcategory.ui:59
+#, kde-format
+msgid "The description of the category"
+msgstr "توضیحات دسته"
+
+#: SharedResourcesDialog.cpp:30
+#, kde-format
+msgctxt "@title:column"
+msgid "Action"
+msgstr "کنش"
+
+#: SharedResourcesDialog.cpp:30
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "نام"
+
+#: SharedResourcesDialog.cpp:33
+#, kde-format
+msgid "Calendars"
+msgstr "تقویم‌ها"
+
+#: SharedResourcesDialog.cpp:84
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Shared Resource Dialog</title><para>Enables you to decide how to "
+"treat shared resources, shared resource groups and shared calendars when "
+"they have been deleted from the shared resources file.</para><para>You can "
+"select if an item shall be:<list><item><emphasis>Removed:</emphasis> Removes"
+" the item from your project too.</item><item><emphasis>Converted:</emphasis>"
+" Converts the item to local item.</item><item><emphasis>Kept:</emphasis> "
+"Keeps the item as a shared item.</item></list><nl/><link "
+"url='%1'>More...</link></para>"
+msgstr ""
+"<title>گفت‌وگوی منابع هم‌رسانی‌شده</title><para>به شما امکان می‌دهد تصمیم "
+"بگیرید که با منابع هم‌رسانی‌شده، گروه‌های منابع هم‌رسانی‌شده و تقویم‌های "
+"هم‌رسانی‌شده پس از حذف شدن از پروندهٔ منابع هم‌رسانی‌شده، چگونه برخورد "
+"شود.</para><para>می‌توانید انتخاب کنید که یک مورد:<list><item><emphasis>حذف "
+"شود:</emphasis> مورد از پروژهٔ شما نیز حذف "
+"می‌شود.</item><item><emphasis>تبدیل شود:</emphasis> مورد به یک مورد محلی "
+"تبدیل می‌شود.</item><item><emphasis>نگه‌داشته شود:</emphasis> مورد به‌عنوان "
+"یک مورد هم‌رسانی‌شده باقی می‌ماند.</item></list><nl/><link "
+"url='%1'>بیشتر...</link></para>"
+
+#: SharedResourcesDialog.cpp:248
+#, kde-format
+msgid "Convert"
+msgstr "تبدیل"
+
+#: SharedResourcesDialog.cpp:248
+#, kde-format
+msgid "Keep"
+msgstr "نگه‌داشتن"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QPushButton, markAsRemove)
+#: SharedResourcesDialog.ui:40
+#, kde-format
+msgid "Mark all selected items to be removed from your project"
+msgstr "علامت‌گذاری همهٔ موارد انتخاب‌شده برای حذف از پروژهٔ شما"
+
+#. i18n: @action:button
+#. i18n: ectx: property (text), widget (QPushButton, markAsRemove)
+#: SharedResourcesDialog.ui:43
+#, kde-format
+msgid "Mark as: Remove"
+msgstr "علامت‌گذاری به‌عنوان: حذف"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QPushButton, markAsConvert)
+#: SharedResourcesDialog.ui:50
+#, kde-format
+msgid "Mark all selected items to be converted to local resources"
+msgstr "علامت‌گذاری همهٔ موارد انتخاب‌شده برای تبدیل به منابع محلی"
+
+#. i18n: @action:button
+#. i18n: ectx: property (text), widget (QPushButton, markAsConvert)
+#: SharedResourcesDialog.ui:53
+#, kde-format
+msgid "Mark as: Convert"
+msgstr "علامت‌گذاری به‌عنوان: تبدیل"
+
+#. i18n: info:tooltip
+#. i18n: ectx: property (toolTip), widget (QPushButton, markAsKeep)
+#: SharedResourcesDialog.ui:60
+#, kde-format
+msgid "Mark all selected items to be kept as shared resources"
+msgstr "علامت‌گذاری همه موارد انتخاب‌شده برای نگه‌داری به‌عنوان منابع اشتراکی"
+
+#. i18n: @action:button
+#. i18n: ectx: property (text), widget (QPushButton, markAsKeep)
+#: SharedResourcesDialog.ui:63
+#, kde-format
+msgid "Mark as: Keep"
+msgstr "علامت‌گذاری به‌عنوان: نگه‌داری"

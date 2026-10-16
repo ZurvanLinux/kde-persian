@@ -1,0 +1,1376 @@
+# translation of kompare.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# translation of kompare.po to
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kompare\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-10-15 23:59+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: app/kompare_shell.cpp:69
+#, kde-format
+msgid "Could not load our KompareViewPart: %1"
+msgstr "بارگذاری KompareViewPart انجام نشد: %1"
+
+#: app/kompare_shell.cpp:73
+#, kde-format
+msgctxt "@title:window"
+msgid "Navigation"
+msgstr "ناوبری"
+
+#: app/kompare_shell.cpp:91
+#, kde-format
+msgid "Could not load our KompareNavigationPart: %1"
+msgstr "بارگذاری KompareNavigationPart انجام نشد: %1"
+
+#: app/kompare_shell.cpp:196
+#, kde-format
+msgctxt "@action"
+msgid "&Open Diff..."
+msgstr "باز کردن Diff..."
+
+#: app/kompare_shell.cpp:199
+#, kde-format
+msgctxt "@action"
+msgid "&Compare Files..."
+msgstr "مقایسهٔ پرونده‌ها..."
+
+#: app/kompare_shell.cpp:202
+#, kde-format
+msgctxt "@action"
+msgid "&Blend URL with Diff..."
+msgstr "ترکیب نشانی وب با Diff..."
+
+#: app/kompare_shell.cpp:208
+#, kde-format
+msgctxt "@action"
+msgid "Show T&ext View"
+msgstr "نمایش نمای متنی"
+
+#: app/kompare_shell.cpp:221
+#, kde-format
+msgid " 0 of 0 differences "
+msgstr " ۰ از ۰ تفاوت "
+
+#: app/kompare_shell.cpp:222
+#, kde-format
+msgid " 0 of 0 files "
+msgstr " ۰ از ۰ پرونده "
+
+#: app/kompare_shell.cpp:239
+#, kde-format
+msgid " %2 of %1 file "
+msgid_plural " %2 of %1 files "
+msgstr[0] " %2 از %1 پرونده "
+msgstr[1] " %2 از %1 پرونده "
+
+#: app/kompare_shell.cpp:241
+#, kde-format
+msgid " %1 file "
+msgid_plural " %1 files "
+msgstr[0] " %1 پرونده "
+msgstr[1] " %1 پرونده "
+
+#: app/kompare_shell.cpp:244
+#, kde-format
+msgid " %2 of %1 difference, %3 applied "
+msgid_plural " %2 of %1 differences, %3 applied "
+msgstr[0] " %2 از %1 تفاوت، %3 اعمال شد "
+msgstr[1] " %2 از %1 تفاوت، %3 اعمال شد "
+
+#: app/kompare_shell.cpp:247
+#, kde-format
+msgid " %1 difference "
+msgid_plural " %1 differences "
+msgstr[0] " %1 تفاوت "
+msgstr[1] " %1 تفاوت "
+
+#: app/kompare_shell.cpp:328
+#, kde-format
+msgctxt "@title:window"
+msgid "Blend File/Folder with diff Output"
+msgstr "ترکیب پرونده/پوشه با خروجی diff"
+
+#: app/kompare_shell.cpp:329
+#, kde-format
+msgctxt "@title:group"
+msgid "File/Folder"
+msgstr "پرونده/پوشه"
+
+#: app/kompare_shell.cpp:330
+#, kde-format
+msgctxt "@title:group"
+msgid "Diff Output"
+msgstr "خروجی diff"
+
+#: app/kompare_shell.cpp:333
+#, kde-format
+msgctxt "@action:button"
+msgid "Blend"
+msgstr "ترکیب"
+
+#: app/kompare_shell.cpp:334
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Blend this file or folder with the diff output"
+msgstr "ترکیب این پرونده یا پوشه با خروجی diff"
+
+#: app/kompare_shell.cpp:335
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If you have entered a file or folder name and a file that contains diff "
+"output in the fields in this dialog then this button will be enabled and "
+"pressing it will open kompare's main view where the output of the entered "
+"file or files from the folder are mixed with the diff output so you can then"
+" apply the difference(s) to a file or to the files. "
+msgstr ""
+"اگر در فیلدهای این پنجره نام یک پرونده یا پوشه و همچنین پرونده‌ای حاوی خروجی"
+" diff را وارد کرده باشید، این دکمه فعال خواهد شد و فشردن آن نمای اصلی "
+"Kompare را باز می‌کند؛ جایی که خروجی پرونده یا پرونده‌های واردشده از پوشه با"
+" خروجی diff ادغام می‌شوند تا بتوانید اختلاف(ها) را روی یک پرونده یا "
+"پرونده‌ها اعمال کنید."
+
+#: app/kompare_shell.cpp:358 app/main.cpp:195
+#, kde-format
+msgctxt "@title:window"
+msgid "Compare Files or Folders"
+msgstr "مقایسهٔ پرونده‌ها یا پوشه‌ها"
+
+#: app/kompare_shell.cpp:359 app/main.cpp:196
+#, kde-format
+msgctxt "@title:group"
+msgid "Source"
+msgstr "مبدأ"
+
+#: app/kompare_shell.cpp:360 app/main.cpp:197
+#, kde-format
+msgctxt "@title:group"
+msgid "Destination"
+msgstr "مقصد"
+
+#: app/kompare_shell.cpp:363 app/main.cpp:200
+#, kde-format
+msgctxt "@action:button"
+msgid "Compare"
+msgstr "مقایسه"
+
+#: app/kompare_shell.cpp:364 app/main.cpp:201
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Compare these files or folders"
+msgstr "مقایسهٔ این پرونده‌ها یا پوشه‌ها"
+
+#: app/kompare_shell.cpp:365 app/main.cpp:202
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If you have entered 2 filenames or 2 folders in the fields in this dialog "
+"then this button will be enabled and pressing it will start a comparison of "
+"the entered files or folders. "
+msgstr ""
+"اگر در فیلدهای این پنجره ۲ نام پرونده یا ۲ پوشه را وارد کرده باشید، این دکمه"
+" فعال می‌شود و فشردن آن مقایسهٔ پرونده‌ها یا پوشه‌های واردشده را آغاز "
+"می‌کند."
+
+#: app/kompare_shell.cpp:399
+#, kde-format
+msgctxt "@title:window"
+msgid "Text View"
+msgstr "نمای متنی"
+
+#. i18n: ectx: Menu (file)
+#: app/kompareui.rc:4 komparepart/komparepartui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "پرونده"
+
+#. i18n: ectx: Menu (settings)
+#: app/kompareui.rc:14 komparepart/komparepartui.rc:29
+#, kde-format
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: app/kompareui.rc:27
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#: app/kompareurldialog.cpp:38
+#, kde-format
+msgctxt "@title:tab"
+msgid "Files"
+msgstr "پرونده‌ها"
+
+#: app/kompareurldialog.cpp:40
+#, kde-format
+msgid "Here you can enter the files you want to compare."
+msgstr "اینجا می‌توانید پرونده‌هایی را که می‌خواهید مقایسه کنید وارد نمایید."
+
+#: app/kompareurldialog.cpp:46 dialogpages/diffpage.cpp:185
+#: komparepart/kompareprefdlg.cpp:43
+#, kde-format
+msgctxt "@title:tab"
+msgid "Diff"
+msgstr "تفاوت"
+
+#: app/kompareurldialog.cpp:48
+#, kde-format
+msgid "Here you can change the options for comparing the files."
+msgstr "اینجا می‌توانید گزینه‌های مقایسهٔ پرونده‌ها را تغییر دهید."
+
+#: app/kompareurldialog.cpp:53 dialogpages/viewpage.cpp:87
+#, kde-format
+msgctxt "@title:tab"
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: app/kompareurldialog.cpp:55
+#, kde-format
+msgid "Here you can change the options for the view."
+msgstr "اینجا می‌توانید گزینه‌های نما را تغییر دهید."
+
+#: app/kompareurldialog.cpp:101
+#, kde-format
+msgid ""
+"File used for excluding files cannot be found, please specify another file."
+msgstr ""
+"پروندهٔ مورد استفاده برای استثنا کردن پرونده‌ها یافت نشد، لطفاً پروندهٔ "
+"دیگری را مشخص کنید."
+
+#: app/main.cpp:46
+#, kde-format
+msgid "Kompare"
+msgstr "کامپیر"
+
+#: app/main.cpp:48
+#, kde-format
+msgid ""
+"A program to view the differences between files and optionally generate a "
+"diff"
+msgstr ""
+"برنامه‌ای برای مشاهدهٔ تفاوت بین پرونده‌ها و در صورت تمایل ایجاد یک diff"
+
+#: app/main.cpp:50
+#, kde-format
+msgid ""
+"(c) 2001-2004 John Firebaugh, (c) 2001-2005,2009 Otto Bruggeman, (c) "
+"2004-2005 Jeff Snyder, (c) 2007-2012 Kevin Kofler"
+msgstr ""
+"(c) 2001-2004 John Firebaugh, (c) 2001-2005,2009 Otto Bruggeman, (c) "
+"2004-2005 Jeff Snyder, (c) 2007-2012 Kevin Kofler"
+
+#: app/main.cpp:53
+#, kde-format
+msgid "John Firebaugh"
+msgstr "John Firebaugh"
+
+#: app/main.cpp:53 app/main.cpp:54
+#, kde-format
+msgid "Author"
+msgstr "نویسنده"
+
+#: app/main.cpp:54
+#, kde-format
+msgid "Otto Bruggeman"
+msgstr "Otto Bruggeman"
+
+#: app/main.cpp:55
+#, kde-format
+msgid "Jeff Snyder"
+msgstr "Jeff Snyder"
+
+#: app/main.cpp:55
+#, kde-format
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: app/main.cpp:56
+#, kde-format
+msgid "Kevin Kofler"
+msgstr "Kevin Kofler"
+
+#: app/main.cpp:56
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: app/main.cpp:57
+#, kde-format
+msgid "Chris Luetchford"
+msgstr "Chris Luetchford"
+
+#: app/main.cpp:57
+#, kde-format
+msgid "Kompare icon artist"
+msgstr "طراح نماد Kompare"
+
+#: app/main.cpp:58
+#, kde-format
+msgid "Malte Starostik"
+msgstr "Malte Starostik"
+
+#: app/main.cpp:58
+#, kde-format
+msgid "A lot of good advice"
+msgstr "تعداد زیادی توصیهٔ خوب"
+
+#: app/main.cpp:59
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: app/main.cpp:59
+#, kde-format
+msgid "Cervisia diff viewer"
+msgstr "نمایشگر diff سرویزیا"
+
+#: app/main.cpp:66
+#, kde-format
+msgid "This will compare URL1 with URL2"
+msgstr "این گزینه URL1 را با URL2 مقایسه می‌کند"
+
+#: app/main.cpp:67
+#, kde-format
+msgid ""
+"This will open URL1 and expect it to be diff output. URL1 can also be a '-' "
+"and then it will read from standard input. Can be used for instance for cvs "
+"diff | kompare -o -. Kompare will do a check to see if it can find the "
+"original file(s) and then blend the original file(s) into the diffoutput and"
+" show that in the viewer. -n disables the check."
+msgstr ""
+"این گزینه URL1 را باز می‌کند و انتظار دارد که خروجی diff باشد. URL1 می‌تواند"
+" «-» نیز باشد که در این صورت از ورودی استاندارد می‌خواند. می‌تواند مثلاً "
+"برای cvs diff | kompare -o - استفاده شود. کمپیر بررسی می‌کند که آیا می‌تواند"
+" پرونده(های) اصلی را پیدا کند و سپس پرونده(های) اصلی را با خروجی diff ترکیب "
+"کرده و در نمایشگر نشان دهد. گزینهٔ ‎-n این بررسی را غیرفعال می‌کند."
+
+#: app/main.cpp:68
+#, kde-format
+msgid ""
+"This will blend URL2 into URL1, URL2 is expected to be diff output and URL1 "
+"the file or folder that the diffoutput needs to be blended into. "
+msgstr ""
+"این گزینه URL2 را با URL1 ترکیب می‌کند، انتظار می‌رود که URL2 خروجی diff "
+"باشد و URL1 پرونده یا پوشه‌ای که خروجی diff باید با آن ترکیب شود."
+
+#: app/main.cpp:69
+#, kde-format
+msgid ""
+"Disables the check for automatically finding the original file(s) when using"
+" '-' as URL with the -o option."
+msgstr ""
+"بررسی برای یافتن خودکار پرونده(های) اصلی را هنگام استفاده از «-» به‌عنوان "
+"نشانی با گزینهٔ ‎-o غیرفعال می‌کند."
+
+#: app/main.cpp:70
+#, kde-format
+msgid ""
+"Use this to specify the encoding when calling it from the command line. It "
+"will default to the local encoding if not specified."
+msgstr ""
+"از این گزینه برای تعیین کدگذاری هنگام فراخوانی از خط فرمان استفاده کنید. در "
+"صورت عدم تعیین، به‌طور پیش‌فرض از کدگذاری محلی استفاده خواهد شد."
+
+#: dialogpages/diffpage.cpp:174
+#, kde-format
+msgctxt "@title:group"
+msgid "Diff Program"
+msgstr "برنامهٔ Diff"
+
+#: dialogpages/diffpage.cpp:179
+#, kde-format
+msgid ""
+"You can select a different diff program here. On Solaris the standard diff "
+"program does not support all the options that the GNU version does. This way"
+" you can select that version."
+msgstr ""
+"در اینجا می‌توانید یک برنامه diff دیگر انتخاب کنید. در سولاریس، برنامه "
+"استاندارد diff از همه گزینه‌هایی که نسخه گنو پشتیبانی می‌کند، پشتیبانی "
+"نمی‌کند. از این طریق می‌توانید آن نسخه را انتخاب کنید."
+
+#: dialogpages/diffpage.cpp:196
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select the format of the output generated by diff. Unified is the one that "
+"is used most frequently because it is very readable. The KDE developers like"
+" this format the best so use it for sending patches."
+msgstr ""
+"قالب خروجی تولیدشده توسط diff را انتخاب کنید. قالب یکپارچه (Unified) بیشترین"
+" کاربرد را دارد زیرا خوانایی بالایی دارد. توسعه‌دهندگان KDE این قالب را "
+"ترجیح می‌دهند، بنابراین برای ارسال وصله‌ها از آن استفاده کنید."
+
+#: dialogpages/diffpage.cpp:199
+#, kde-format
+msgctxt "@title:group"
+msgid "Output Format"
+msgstr "قالب خروجی"
+
+#: dialogpages/diffpage.cpp:201
+#, kde-format
+msgctxt "@option:radio format type"
+msgid "Context"
+msgstr "متن زمینه (Context)"
+
+#: dialogpages/diffpage.cpp:204
+#, kde-format
+msgctxt "@option:radio format type"
+msgid "Normal"
+msgstr "عادی"
+
+#: dialogpages/diffpage.cpp:207
+#, kde-format
+msgctxt "@option:radio format type"
+msgid "Unified"
+msgstr "یکپارچه (Unified)"
+
+#: dialogpages/diffpage.cpp:215
+#, kde-format
+msgctxt "@title:group"
+msgid "Lines of Context"
+msgstr "خطوط متن زمینه"
+
+#: dialogpages/diffpage.cpp:216 dialogpages/diffpage.cpp:221
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The number of context lines is normally 2 or 3. This makes the diff readable"
+" and applicable in most cases. More than 3 lines will only bloat the diff "
+"unnecessarily."
+msgstr ""
+"تعداد خطوط متن زمینه معمولاً ۲ یا ۳ است. این کار باعث خوانا بودن diff و قابل"
+" اعمال بودن آن در بیشتر موارد می‌شود. بیش از ۳ خط تنها حجم diff را بیهوده "
+"افزایش می‌دهد."
+
+#: dialogpages/diffpage.cpp:220
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Number of context lines:"
+msgstr "تعداد خطوط متن زمینه:"
+
+#: dialogpages/diffpage.cpp:225
+#, kde-format
+msgctxt "@title:tab"
+msgid "Format"
+msgstr "قالب"
+
+#: dialogpages/diffpage.cpp:237
+#, kde-format
+msgctxt "@title:group"
+msgid "General"
+msgstr "عمومی"
+
+#: dialogpages/diffpage.cpp:239
+#, kde-format
+msgctxt "@option:check"
+msgid "&Treat new files as empty"
+msgstr "پرونده‌های جدید خالی در نظر گرفته شوند"
+
+#: dialogpages/diffpage.cpp:240
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This option corresponds to the -N diff option."
+msgstr "این گزینه معادل گزینهٔ ‎-N در diff است."
+
+#: dialogpages/diffpage.cpp:241
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"With this option enabled diff will treat a file that only exists in one of "
+"the directories as empty in the other directory. This means that the file is"
+" compared with an empty file and because of this will appear as one big "
+"insertion or deletion."
+msgstr ""
+"با فعال بودن این گزینه، diff پرونده‌ای را که فقط در یکی از شاخه‌ها وجود "
+"دارد، در شاخهٔ دیگر خالی در نظر می‌گیرد. این بدان معناست که پرونده با یک "
+"پروندهٔ خالی مقایسه می‌شود و به همین دلیل به صورت یک درج یا حذف بزرگ نمایش "
+"داده خواهد شد."
+
+#: dialogpages/diffpage.cpp:244
+#, kde-format
+msgctxt "@option:check"
+msgid "&Look for smaller changes"
+msgstr "جست‌وجو برای تغییرات کوچک‌تر"
+
+#: dialogpages/diffpage.cpp:245
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This corresponds to the -d diff option."
+msgstr "این معادل گزینهٔ ‎-d در diff است."
+
+#: dialogpages/diffpage.cpp:246
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"With this option enabled diff will try a little harder (at the cost of more "
+"memory) to find fewer changes."
+msgstr ""
+"با فعال بودن این گزینه، diff تلاش بیشتری (به بهای مصرف حافظهٔ بیشتر) برای "
+"یافتن تغییرات کمتر انجام می‌دهد."
+
+#: dialogpages/diffpage.cpp:248
+#, kde-format
+msgctxt "@option:check"
+msgid "O&ptimize for large files"
+msgstr "بهینه‌سازی برای پرونده‌های بزرگ"
+
+#: dialogpages/diffpage.cpp:249
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This corresponds to the -H diff option."
+msgstr "این معادل گزینهٔ ‎-H در diff است."
+
+#: dialogpages/diffpage.cpp:250
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This option lets diff makes better diffs when using large files. The "
+"definition of large is nowhere to be found though."
+msgstr ""
+"این گزینه به diff اجازه می‌دهد تا هنگام استفاده از پرونده‌های بزرگ، "
+"تفاوت‌های بهتری ایجاد کند. هرچند تعریفی از «بزرگ» مشخص نشده است."
+
+#: dialogpages/diffpage.cpp:252
+#, kde-format
+msgctxt "@option:check"
+msgid "&Ignore changes in case"
+msgstr "نادیده‌گرفتن تغییرات در بزرگی و کوچکی حروف"
+
+#: dialogpages/diffpage.cpp:253
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This corresponds to the -i diff option."
+msgstr "این گزینه معادل گزینهٔ ‎-i در diff است."
+
+#: dialogpages/diffpage.cpp:254
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"With this option to ignore changes in case enabled, diff will not indicate a"
+" difference when something in one file is changed into SoMEthing in the "
+"other file."
+msgstr ""
+"با فعال بودن این گزینه برای نادیده‌گرفتن بزرگی و کوچکی حروف، چنانچه موردی در"
+" یک پرونده با حروف کوچک و در پروندهٔ دیگر با حروف بزرگ باشد (مانند something"
+" و SoMEthing)، diff تفاوتی نشان نخواهد داد."
+
+#: dialogpages/diffpage.cpp:262
+#, kde-format
+msgctxt "@option:check"
+msgid "Ignore regexp:"
+msgstr "نادیده‌گرفتن عبارت باقاعده:"
+
+#: dialogpages/diffpage.cpp:263
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This option corresponds to the -I diff option."
+msgstr "این گزینه معادل گزینهٔ ‎-I در diff است."
+
+#: dialogpages/diffpage.cpp:264
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"When this checkbox is enabled, an option to diff is given that will make "
+"diff ignore lines that match the regular expression."
+msgstr ""
+"وقتی این گزینه فعال باشد، گزینه‌ای به diff داده می‌شود تا خطوطی را که با این"
+" عبارت باقاعده مطابقت دارند، نادیده بگیرد."
+
+#: dialogpages/diffpage.cpp:268
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Add the regular expression here that you want to use\n"
+"to ignore lines that match it."
+msgstr ""
+"عبارت باقاعده‌ای را که می‌خواهید برای نادیده‌گرفتن خطوط\n"
+"مطابق با آن استفاده کنید، اینجا اضافه کنید."
+
+#: dialogpages/diffpage.cpp:274
+#, kde-format
+msgctxt "@title:group"
+msgid "Whitespace"
+msgstr "فاصله‌های خالی"
+
+#: dialogpages/diffpage.cpp:276
+#, kde-format
+msgctxt "@option:check"
+msgid "E&xpand tabs to spaces in output"
+msgstr "تبدیل تب‌ها به فاصله در خروجی"
+
+#: dialogpages/diffpage.cpp:277
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This option corresponds to the -t diff option."
+msgstr "این گزینه معادل گزینهٔ ‎-t در diff است."
+
+#: dialogpages/diffpage.cpp:278
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This option does not always produce the right result. Due to this expansion "
+"Kompare may have problems applying the change to the destination file."
+msgstr ""
+"این گزینه همیشه نتیجه درستی ایجاد نمی‌کند. به دلیل این بسط، ممکن است Kompare"
+" در اعمال تغییرات روی پرونده مقصد با مشکل مواجه شود."
+
+#: dialogpages/diffpage.cpp:280
+#, kde-format
+msgctxt "@option:check"
+msgid "I&gnore added or removed empty lines"
+msgstr "نادیده گرفتن خطوط خالی افزوده یا حذف‌شده"
+
+#: dialogpages/diffpage.cpp:281
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This option corresponds to the -B diff option."
+msgstr "این گزینه متناظر با گزینه -B در دستور diff است."
+
+#: dialogpages/diffpage.cpp:282
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This can be very useful in situations where code has been reorganized and "
+"empty lines have been added or removed to improve legibility."
+msgstr ""
+"این قابلیت می‌تواند در مواردی که کد بازسازماندهی شده و برای خوانایی بهتر، "
+"خطوط خالی اضافه یا حذف شده‌اند بسیار کاربردی باشد."
+
+#: dialogpages/diffpage.cpp:284
+#, kde-format
+msgctxt "@option:check"
+msgid "Ig&nore changes in the amount of whitespace"
+msgstr "نادیده گرفتن تغییرات در تعداد فاصله‌ها"
+
+#: dialogpages/diffpage.cpp:285
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This option corresponds to the -b diff option."
+msgstr "این گزینه متناظر با گزینه -b در دستور diff است."
+
+#: dialogpages/diffpage.cpp:286
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If you are uninterested in differences arising due to, for example, changes "
+"in indentation, then use this option."
+msgstr ""
+"اگر تفاوت‌های ناشی از تغییرات دندانه‌گذاری (تندانه) برایتان اهمیتی ندارد، از"
+" این گزینه استفاده کنید."
+
+#: dialogpages/diffpage.cpp:288
+#, kde-format
+msgctxt "@option:check"
+msgid "Ign&ore all whitespace"
+msgstr "نادیده گرفتن تمام فاصله‌ها"
+
+#: dialogpages/diffpage.cpp:289
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This option corresponds to the -w diff option."
+msgstr "این گزینه متناظر با گزینه -w در دستور diff است."
+
+#: dialogpages/diffpage.cpp:290
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This is useful for seeing the significant changes without being overwhelmed "
+"by all the white space changes."
+msgstr ""
+"این گزینه برای دیدن تغییرات مهم بدون سردرگمی ناشی از تغییرات فاصله‌های خالی "
+"مفید است."
+
+#: dialogpages/diffpage.cpp:292
+#, kde-format
+msgctxt "@option:check"
+msgid "Igno&re changes due to tab expansion"
+msgstr "نادیده گرفتن تغییرات ناشی از باز شدن تب"
+
+#: dialogpages/diffpage.cpp:293
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This option corresponds to the -E diff option."
+msgstr "این گزینه معادل گزینهٔ -E در diff است."
+
+#: dialogpages/diffpage.cpp:294
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If there is a change because tabs have been expanded into spaces in the "
+"other file, then this option will make sure that these do not show up. "
+"Kompare currently has some problems applying such changes so be careful when"
+" you use this option."
+msgstr ""
+"اگر تغییری به دلیل تبدیل نویسه‌های تب به فاصله در پروندهٔ دیگر رخ داده باشد،"
+" این گزینه تضمین می‌کند که این تغییرات نمایش داده نشوند. Kompare در حال حاضر"
+" در اِعمال چنین تغییراتی مشکلاتی دارد، بنابراین هنگام استفاده از این گزینه "
+"احتیاط کنید."
+
+#: dialogpages/diffpage.cpp:299
+#, kde-format
+msgctxt "@title:tab"
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: dialogpages/diffpage.cpp:311
+#, kde-format
+msgctxt "@title:group"
+msgid "File Pattern to Exclude"
+msgstr "الگوی پرونده برای مستثنی کردن"
+
+#: dialogpages/diffpage.cpp:312
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"If this is checked you can enter a shell pattern in the text box on the "
+"right or select entries from the list."
+msgstr ""
+"اگر این گزینه علامت خورده باشد، می‌توانید یک الگوی شل در کادر متنی سمت راست "
+"وارد کنید یا مواردی را از فهرست برگزینید."
+
+#: dialogpages/diffpage.cpp:318
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Here you can enter or remove a shell pattern or select one or more entries "
+"from the list."
+msgstr ""
+"در اینجا می‌توانید یک الگوی شل وارد یا حذف کنید، یا یک یا چند مورد را از "
+"فهرست انتخاب نمایید."
+
+#: dialogpages/diffpage.cpp:328
+#, kde-format
+msgctxt "@title:group"
+msgid "File with Filenames to Exclude"
+msgstr "پروندهٔ حاوی نام پرونده‌ها برای مستثنی کردن"
+
+#: dialogpages/diffpage.cpp:329
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "If this is checked you can enter a filename in the combo box below."
+msgstr ""
+"اگر این گزینه علامت خورده باشد، می‌توانید نام پرونده‌ای را در جعبهٔ کشویی "
+"زیر وارد کنید."
+
+#: dialogpages/diffpage.cpp:333
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Here you can enter the URL of a file with shell patterns to ignore during "
+"the comparison of the folders."
+msgstr ""
+"در اینجا می‌توانید نشانی اینترنتی (URL) پرونده‌ای حاوی الگوهای شل را وارد "
+"کنید تا در طول مقایسهٔ پوشه‌ها نادیده گرفته شوند."
+
+#: dialogpages/diffpage.cpp:337
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Any file you select in the dialog that pops up when you click it will be put"
+" in the dialog to the left of this button."
+msgstr ""
+"هر پرونده‌ای که در گفتگوی بازشده پس از کلیک روی آن انتخاب کنید، در گفتگوی "
+"سمت چپ این دکمه قرار می‌گیرد."
+
+#: dialogpages/diffpage.cpp:344
+#, kde-format
+msgctxt "@title:tab"
+msgid "Exclude"
+msgstr "مستثنی‌کردن"
+
+#: dialogpages/filespage.cpp:39 dialogpages/filespage.cpp:68
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select file"
+msgstr "انتخاب پرونده"
+
+#: dialogpages/filespage.cpp:51 dialogpages/filespage.cpp:80
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select folder"
+msgstr "انتخاب پوشه"
+
+#: dialogpages/filespage.cpp:87
+#, kde-format
+msgctxt "@title:group"
+msgid "Encoding"
+msgstr "کدگذاری"
+
+#: dialogpages/filespage.cpp:92
+#, kde-format
+msgctxt "@item:inlistbox encoding"
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: dialogpages/filespage.cpp:126
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Folder"
+msgstr "انتخاب پوشه"
+
+#: dialogpages/filespage.cpp:130
+#, kde-format
+msgctxt "@title:window"
+msgid "Select File"
+msgstr "انتخاب پرونده"
+
+#: dialogpages/viewpage.cpp:44
+#, kde-format
+msgctxt "@title:group"
+msgid "Colors"
+msgstr "رنگ‌ها"
+
+#: dialogpages/viewpage.cpp:50
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Removed color:"
+msgstr "رنگ موارد حذف‌شده:"
+
+#: dialogpages/viewpage.cpp:54
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Changed color:"
+msgstr "رنگ تغییریافته:"
+
+#: dialogpages/viewpage.cpp:58
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Added color:"
+msgstr "رنگ اضافه‌شده:"
+
+#: dialogpages/viewpage.cpp:62
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Applied color:"
+msgstr "رنگ اعمال‌شده:"
+
+#: dialogpages/viewpage.cpp:66
+#, kde-format
+msgctxt "@title:group"
+msgid "Mouse Wheel"
+msgstr "چرخ ماوس"
+
+#: dialogpages/viewpage.cpp:72
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Number of lines:"
+msgstr "تعداد خط‌ها:"
+
+#: dialogpages/viewpage.cpp:77
+#, kde-format
+msgctxt "@title:group"
+msgid "Tabs to Spaces"
+msgstr "تب به فاصله"
+
+#: dialogpages/viewpage.cpp:83
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Number of spaces to convert a tab character to:"
+msgstr "تعداد فاصله‌ها برای تبدیل نویسهٔ تب:"
+
+#: dialogpages/viewpage.cpp:94
+#, kde-format
+msgctxt "@title:group"
+msgid "Text Font"
+msgstr "قلم متن"
+
+#: dialogpages/viewpage.cpp:98
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Font:"
+msgstr "قلم:"
+
+#: dialogpages/viewpage.cpp:103
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Size:"
+msgstr "اندازه:"
+
+#: dialogpages/viewpage.cpp:107
+#, kde-format
+msgctxt "@title:tab"
+msgid "Fonts"
+msgstr "قلم‌ها"
+
+#: komparenavtreepart/komparenavtreepart.cpp:53
+#, kde-format
+msgctxt "@title:column"
+msgid "Source Folder"
+msgstr "پوشه مبدأ"
+
+#: komparenavtreepart/komparenavtreepart.cpp:59
+#, kde-format
+msgctxt "@title:column"
+msgid "Destination Folder"
+msgstr "پوشه مقصد"
+
+#: komparenavtreepart/komparenavtreepart.cpp:66
+#, kde-format
+msgctxt "@title:column"
+msgid "Source File"
+msgstr "پرونده مبدأ"
+
+#: komparenavtreepart/komparenavtreepart.cpp:67
+#, kde-format
+msgctxt "@title:column"
+msgid "Destination File"
+msgstr "پرونده مقصد"
+
+#: komparenavtreepart/komparenavtreepart.cpp:76
+#, kde-format
+msgctxt "@title:column"
+msgid "Source Line"
+msgstr "سطر مبدأ"
+
+#: komparenavtreepart/komparenavtreepart.cpp:77
+#, kde-format
+msgctxt "@title:column"
+msgid "Destination Line"
+msgstr "سطر مقصد"
+
+#: komparenavtreepart/komparenavtreepart.cpp:78
+#, kde-format
+msgctxt "@title:column"
+msgid "Difference"
+msgstr "تفاوت"
+
+#: komparenavtreepart/komparenavtreepart.cpp:453
+#, kde-format
+msgid "Applied: Changes made to %1 line undone"
+msgid_plural "Applied: Changes made to %1 lines undone"
+msgstr[0] "اعمال شد: تغییرات ایجادشده در %1 سطر برگردانده شد"
+msgstr[1] "اعمال شد: تغییرات ایجادشده در %1 سطر برگردانده شد"
+
+#: komparenavtreepart/komparenavtreepart.cpp:456
+#, kde-format
+msgid "Changed %1 line"
+msgid_plural "Changed %1 lines"
+msgstr[0] "%1 سطر تغییر یافت"
+msgstr[1] "%1 سطر تغییر یافت"
+
+#: komparenavtreepart/komparenavtreepart.cpp:461
+#, kde-format
+msgid "Applied: Insertion of %1 line undone"
+msgid_plural "Applied: Insertion of %1 lines undone"
+msgstr[0] "اعمال شد: درج %1 سطر لغو شد"
+msgstr[1] "اعمال شد: درج %1 سطر لغو شد"
+
+#: komparenavtreepart/komparenavtreepart.cpp:464
+#, kde-format
+msgid "Inserted %1 line"
+msgid_plural "Inserted %1 lines"
+msgstr[0] "%1 سطر درج شد"
+msgstr[1] "%1 سطر درج شد"
+
+#: komparenavtreepart/komparenavtreepart.cpp:469
+#, kde-format
+msgid "Applied: Deletion of %1 line undone"
+msgid_plural "Applied: Deletion of %1 lines undone"
+msgstr[0] "اعمال شد: حذف %1 سطر لغو شد"
+msgstr[1] "اعمال شد: حذف %1 سطر لغو شد"
+
+#: komparenavtreepart/komparenavtreepart.cpp:472
+#, kde-format
+msgid "Deleted %1 line"
+msgid_plural "Deleted %1 lines"
+msgstr[0] "%1 سطر حذف شد"
+msgstr[1] "%1 سطر حذف شد"
+
+#: komparenavtreepart/komparenavtreepart.cpp:627
+#, kde-format
+msgctxt "@item directory name not known"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: komparepart/kompare_part.cpp:177
+#, kde-format
+msgctxt "@action"
+msgid "Save &All"
+msgstr "ذخیرهٔ همه"
+
+#: komparepart/kompare_part.cpp:179
+#, kde-format
+msgctxt "@action"
+msgid "Save &Diff..."
+msgstr "ذخیرهٔ تفاوت‌ها..."
+
+#: komparepart/kompare_part.cpp:181
+#, kde-format
+msgctxt "@action"
+msgid "Swap Source with Destination"
+msgstr "جابه‌جایی مبدأ با مقصد"
+
+#: komparepart/kompare_part.cpp:188
+#, kde-format
+msgctxt "@action"
+msgid "Show Statistics"
+msgstr "نمایش آمار"
+
+#: komparepart/kompare_part.cpp:191
+#, kde-format
+msgctxt "@action"
+msgid "Refresh Diff"
+msgstr "تازه‌سازی تفاوت‌ها"
+
+#: komparepart/kompare_part.cpp:303 komparepart/kompare_part.cpp:316
+#, kde-format
+msgid "<qt>The URL <b>%1</b> cannot be downloaded.</qt>"
+msgstr "<qt>نشانی <b>%1</b> قابل بارگیری نیست.</qt>"
+
+#: komparepart/kompare_part.cpp:354
+#, kde-format
+msgid "<qt>The URL <b>%1</b> does not exist on your system.</qt>"
+msgstr "<qt>نشانی <b>%1</b> در سیستم شما وجود ندارد.</qt>"
+
+#: komparepart/kompare_part.cpp:542
+#, kde-format
+msgctxt "@title:window"
+msgid "Diff Options"
+msgstr "گزینه‌های تفاوت (Diff)"
+
+#: komparepart/kompare_part.cpp:561
+#, kde-format
+msgctxt "@title:window"
+msgid "Save .diff"
+msgstr "ذخیرهٔ diff."
+
+#: komparepart/kompare_part.cpp:563
+#, kde-format
+msgid "Patch Files (*.diff *.dif *.patch)"
+msgstr "پرونده‌های وصله (‎*.diff *.dif *.patch‎)"
+
+#: komparepart/kompare_part.cpp:624
+#, kde-format
+msgctxt "@info:status"
+msgid "Running diff..."
+msgstr "در حال اجرای diff..."
+
+#: komparepart/kompare_part.cpp:627
+#, kde-format
+msgctxt "@info:status"
+msgid "Parsing diff output..."
+msgstr "در حال تجزیهٔ خروجی diff..."
+
+#: komparepart/kompare_part.cpp:683
+#, kde-format
+msgctxt "@info:status"
+msgid "Comparing file %1 with file %2"
+msgstr "در حال مقایسهٔ پروندهٔ %1 با پروندهٔ %2"
+
+#: komparepart/kompare_part.cpp:688
+#, kde-format
+msgctxt "@info:status"
+msgid "Comparing files in %1 with files in %2"
+msgstr "در حال مقایسهٔ پرونده‌های موجود در %1 با پرونده‌های موجود در %2"
+
+#: komparepart/kompare_part.cpp:693
+#, kde-format
+msgctxt "@info:status"
+msgid "Viewing diff output from %1"
+msgstr "در حال مشاهدهٔ خروجی diff از %1"
+
+#: komparepart/kompare_part.cpp:696
+#, kde-format
+msgctxt "@info:status"
+msgid "Blending diff output from %1 into file %2"
+msgstr "در حال ادغام خروجی diff از %1 در پروندهٔ %2"
+
+#: komparepart/kompare_part.cpp:701
+#, kde-format
+msgctxt "@info:status"
+msgid "Blending diff output from %1 into folder %2"
+msgstr "در حال ادغام خروجی diff از %1 در پوشهٔ %2"
+
+#: komparepart/kompare_part.cpp:752 komparepart/kompare_part.cpp:783
+#: komparepart/kompare_part.cpp:899
+#, kde-format
+msgid ""
+"You have made changes to the destination file(s).\n"
+"Would you like to save them?"
+msgstr ""
+"تغییراتی در پرونده(های) مقصد ایجاد کرده‌اید.\n"
+"آیا می‌خواهید آن‌ها را ذخیره کنید؟"
+
+#: komparepart/kompare_part.cpp:754 komparepart/kompare_part.cpp:785
+#: komparepart/kompare_part.cpp:901
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Changes?"
+msgstr "تغییرات ذخیره شود؟"
+
+#: komparepart/kompare_part.cpp:824
+#, kde-format
+msgctxt "@item diff format"
+msgid "Unified"
+msgstr "یکپارچه"
+
+#: komparepart/kompare_part.cpp:827
+#, kde-format
+msgctxt "@item diff format"
+msgid "Context"
+msgstr "زمینه"
+
+#: komparepart/kompare_part.cpp:830
+#, kde-format
+msgctxt "@item diff format"
+msgid "RCS"
+msgstr "RCS"
+
+#: komparepart/kompare_part.cpp:833
+#, kde-format
+msgctxt "@item diff format"
+msgid "Ed"
+msgstr "Ed"
+
+#: komparepart/kompare_part.cpp:836
+#, kde-format
+msgctxt "@item diff format"
+msgid "Normal"
+msgstr "عادی"
+
+#: komparepart/kompare_part.cpp:840
+#, kde-format
+msgctxt "@item diff format"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: komparepart/kompare_part.cpp:856
+#, kde-format
+msgid ""
+"No diff file, or no 2 files have been diffed. Therefore no stats are "
+"available."
+msgstr ""
+"پروندهٔ diff وجود ندارد، یا ۲ پرونده با هم مقایسه نشده‌اند. بنابراین آماری "
+"در دسترس نیست."
+
+#: komparepart/kompare_part.cpp:858 komparepart/kompare_part.cpp:872
+#: komparepart/kompare_part.cpp:888
+#, kde-format
+msgctxt "@title:window"
+msgid "Diff Statistics"
+msgstr "آمار مقایسه"
+
+#: komparepart/kompare_part.cpp:862
+#, kde-format
+msgid ""
+"Statistics:\n"
+"\n"
+"Old file: %1\n"
+"New file: %2\n"
+"\n"
+"Format: %3\n"
+"Number of hunks: %4\n"
+"Number of differences: %5"
+msgstr ""
+"آمار:\n"
+"\n"
+"پروندهٔ قدیمی: %1\n"
+"پروندهٔ جدید: %2\n"
+"\n"
+"قالب: %3\n"
+"تعداد قطعات: %4\n"
+"تعداد تفاوت‌ها: %5"
+
+#: komparepart/kompare_part.cpp:875
+#, kde-format
+msgid ""
+"Statistics:\n"
+"\n"
+"Number of files in diff file: %1\n"
+"Format: %2\n"
+"\n"
+"Current old file: %3\n"
+"Current new file: %4\n"
+"\n"
+"Number of hunks: %5\n"
+"Number of differences: %6"
+msgstr ""
+"آمار:\n"
+"\n"
+"تعداد پرونده‌ها در پروندهٔ diff: %1\n"
+"قالب: %2\n"
+"\n"
+"پروندهٔ قدیمی فعلی: %3\n"
+"پروندهٔ جدید فعلی: %4\n"
+"\n"
+"تعداد قطعات: %5\n"
+"تعداد تفاوت‌ها: %6"
+
+#. i18n: ectx: Menu (difference)
+#: komparepart/komparepartui.rc:17
+#, kde-format
+msgid "&Difference"
+msgstr "تفاوت"
+
+#: komparepart/kompareprefdlg.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Preferences"
+msgstr "ترجیحات"
+
+#: komparepart/kompareprefdlg.cpp:37
+#, kde-format
+msgctxt "@title:tab"
+msgid "View"
+msgstr "نما"
+
+#: komparepart/kompareprefdlg.cpp:39
+#, kde-format
+msgctxt "@title"
+msgid "View Settings"
+msgstr "تنظیمات نما"
+
+#: komparepart/kompareprefdlg.cpp:45
+#, kde-format
+msgctxt "@title"
+msgid "Diff Settings"
+msgstr "تنظیمات مقایسه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_FormatGB)
+#: komparepart/komparesaveoptionsbase.ui:29
+#, kde-format
+msgid "Format"
+msgstr "قالب"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_ContextRB)
+#: komparepart/komparesaveoptionsbase.ui:35
+#, kde-format
+msgid "&Context"
+msgstr "زمینه"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_EdRB)
+#: komparepart/komparesaveoptionsbase.ui:42
+#, kde-format
+msgid "Ed"
+msgstr "Ed"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_NormalRB)
+#: komparepart/komparesaveoptionsbase.ui:49
+#, kde-format
+msgid "&Normal"
+msgstr "عادی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_RCSRB)
+#: komparepart/komparesaveoptionsbase.ui:56
+#, kde-format
+msgid "RCS"
+msgstr "RCS"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_UnifiedRB)
+#: komparepart/komparesaveoptionsbase.ui:63
+#, kde-format
+msgid "&Unified"
+msgstr "یکپارچه"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_SideBySideRB)
+#: komparepart/komparesaveoptionsbase.ui:73
+#, kde-format
+msgid "&Side-by-side"
+msgstr "کنار هم"
+
+#. i18n: ectx: property (text), widget (QLabel, m_ContextLinesLabel)
+#: komparepart/komparesaveoptionsbase.ui:85
+#, kde-format
+msgid "Number of context lines:"
+msgstr "تعداد خطوط زمینه:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_OptionsGB)
+#: komparepart/komparesaveoptionsbase.ui:126
+#, kde-format
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_SmallerChangesCB)
+#: komparepart/komparesaveoptionsbase.ui:132
+#, kde-format
+msgid "Look for smaller changes"
+msgstr "جستجو برای تغییرات کوچک‌تر"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_LargeFilesCB)
+#: komparepart/komparesaveoptionsbase.ui:142
+#, kde-format
+msgid "Optimize for large files"
+msgstr "بهینه‌سازی برای پرونده‌های بزرگ"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreCaseCB)
+#: komparepart/komparesaveoptionsbase.ui:152
+#, kde-format
+msgid "Ignore changes in case"
+msgstr "نادیده گرفتن تغییرات بزرگی و کوچکی حروف"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_ExpandTabsCB)
+#: komparepart/komparesaveoptionsbase.ui:159
+#, kde-format
+msgid "Expand tabs to spaces"
+msgstr "تبدیل تب‌ها به فاصله"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreEmptyLinesCB)
+#: komparepart/komparesaveoptionsbase.ui:166
+#, kde-format
+msgid "Ignore added or removed empty lines"
+msgstr "نادیده گرفتن خط‌های خالی اضافه‌شده یا حذف‌شده"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreWhiteSpaceCB)
+#: komparepart/komparesaveoptionsbase.ui:173
+#, kde-format
+msgid "Ignore changes in whitespace"
+msgstr "نادیده گرفتن تغییرات فاصله‌های خالی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_FunctionNamesCB)
+#: komparepart/komparesaveoptionsbase.ui:180
+#, kde-format
+msgid "Show function names"
+msgstr "نمایش نام توابع"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_RecursiveCB)
+#: komparepart/komparesaveoptionsbase.ui:190
+#, kde-format
+msgid "Compare folders recursively"
+msgstr "مقایسه بازگشتی پوشه‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_NewFilesCB)
+#: komparepart/komparesaveoptionsbase.ui:200
+#, kde-format
+msgid "Treat new files as empty"
+msgstr "در نظر گرفتن پرونده‌های جدید به عنوان خالی"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#: komparepart/komparesaveoptionsbase.ui:222
+#, kde-format
+msgid "Run Diff In"
+msgstr "اجرای Diff در"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_CommandLineGB)
+#: komparepart/komparesaveoptionsbase.ui:247
+#, kde-format
+msgid "Command Line"
+msgstr "خط فرمان"
+
+#. i18n: ectx: property (text), widget (QLabel, m_CommandLineLabel)
+#: komparepart/komparesaveoptionsbase.ui:256
+#, kde-format
+msgid "cd dir && diff -udHprNa -- source destination"
+msgstr "cd dir && diff -udHprNa -- source destination"

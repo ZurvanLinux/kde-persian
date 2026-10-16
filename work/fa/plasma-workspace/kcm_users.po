@@ -1,0 +1,728 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_users package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_users\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-04 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 03:55+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/fingerprintmodel.cpp:144 src/fingerprintmodel.cpp:228
+#, kde-format
+msgid "No fingerprint device found."
+msgstr "هیچ دستگاه اثر انگشتی پیدا نشد."
+
+#: src/fingerprintmodel.cpp:301
+#, kde-format
+msgid "Retry scanning your finger."
+msgstr "پویش انگشت خود را دوباره امتحان کنید."
+
+#: src/fingerprintmodel.cpp:303
+#, kde-format
+msgid "Swipe too short. Try again."
+msgstr "کشیدن انگشت بیش از حد کوتاه بود. دوباره تلاش کنید."
+
+#: src/fingerprintmodel.cpp:305
+#, kde-format
+msgid "Finger not centered on the reader. Try again."
+msgstr "انگشت در مرکز حسگر قرار نگرفته است. دوباره تلاش کنید."
+
+#: src/fingerprintmodel.cpp:307
+#, kde-format
+msgid "Remove your finger from the reader, and try again."
+msgstr "انگشت خود را از روی حسگر بردارید و دوباره تلاش کنید."
+
+#: src/fingerprintmodel.cpp:315
+#, kde-format
+msgid "Fingerprint enrollment has failed."
+msgstr "ثبت اثر انگشت ناموفق بود."
+
+#: src/fingerprintmodel.cpp:318
+#, kde-format
+msgid ""
+"There is no space left for this device, delete other fingerprints to "
+"continue."
+msgstr ""
+"فضایی برای این دستگاه باقی نمانده است؛ برای ادامه، اثر انگشت‌های دیگر را حذف"
+" کنید."
+
+#: src/fingerprintmodel.cpp:321
+#, kde-format
+msgid "The device was disconnected."
+msgstr "دستگاه قطع شد."
+
+#: src/fingerprintmodel.cpp:326
+#, kde-format
+msgid "An unknown error has occurred."
+msgstr "خطای ناشناخته‌ای رخ داده است."
+
+#: src/ui/ChangePassword.qml:29 src/ui/UserDetailsPage.qml:228
+#, kde-format
+msgid "Change Password"
+msgstr "تغییر گذرواژه"
+
+#: src/ui/ChangePassword.qml:35
+#, kde-format
+msgid "Set Password"
+msgstr "تنظیم گذرواژه"
+
+#: src/ui/ChangePassword.qml:56
+#, kde-format
+msgid "Password"
+msgstr "گذرواژه"
+
+#: src/ui/ChangePassword.qml:71
+#, kde-format
+msgid "Confirm password"
+msgstr "تأیید گذرواژه"
+
+#: src/ui/ChangePassword.qml:90 src/ui/CreateUser.qml:114
+#, kde-format
+msgid "Passwords must match"
+msgstr "گذرواژه‌ها باید یکسان باشند"
+
+#: src/ui/ChangeWalletPassword.qml:18
+#, kde-format
+msgid "Change Wallet Password?"
+msgstr "تغییر گذرواژهٔ کیف پول؟"
+
+#: src/ui/ChangeWalletPassword.qml:29
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Now that you have changed your login password, consider changing the "
+"password on your default KWallet to match it."
+msgstr ""
+"اکنون که گذرواژهٔ ورود خود را تغییر داده‌اید، پیشنهاد می‌شود گذرواژهٔ "
+"KWallet پیش‌فرض خود را نیز برای هم‌خوانی با آن تغییر دهید."
+
+#: src/ui/ChangeWalletPassword.qml:35
+#, kde-format
+msgid "What is KWallet?"
+msgstr "KWallet چیست؟"
+
+#: src/ui/ChangeWalletPassword.qml:45
+#, kde-format
+msgid ""
+"KWallet is a password manager that stores your passwords for wireless "
+"networks and other encrypted resources. It is locked with its own password "
+"which differs from your login password. If the two passwords match, it can "
+"be unlocked at login automatically so you don't have to enter the KWallet "
+"password yourself."
+msgstr ""
+"KWallet مدیر گذرواژه‌ای است که گذرواژه‌های شما را برای شبکه‌های بی‌سیم و "
+"دیگر منابع رمزگذاری‌شده ذخیره می‌کند. این برنامه با گذرواژهٔ مخصوص به خود که"
+" با گذرواژهٔ ورود شما تفاوت دارد قفل می‌شود. اگر هر دو گذرواژه یکسان باشند، "
+"می‌تواند هنگام ورود به‌طور خودکار قفل‌گشایی شود تا نیازی نباشد گذرواژهٔ "
+"KWallet را خودتان وارد کنید."
+
+#: src/ui/ChangeWalletPassword.qml:60
+#, kde-format
+msgid "Change Wallet Password"
+msgstr "تغییر گذرواژهٔ کیف پول"
+
+#: src/ui/ChangeWalletPassword.qml:69
+#, kde-format
+msgid "Leave Unchanged"
+msgstr "بدون تغییر بماند"
+
+#: src/ui/CreateUser.qml:15
+#, kde-format
+msgid "Create User"
+msgstr "ایجاد کاربر"
+
+#: src/ui/CreateUser.qml:40 src/ui/UserDetailsPage.qml:165
+#, kde-format
+msgid "Name:"
+msgstr "نام:"
+
+#: src/ui/CreateUser.qml:44 src/ui/UserDetailsPage.qml:171
+#, kde-format
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#: src/ui/CreateUser.qml:82
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Only lowercase letters, digits, dashes, and underscores are allowed. Invalid"
+" characters were removed."
+msgstr ""
+"فقط حروف کوچک، ارقام، خط تیره و زیرخط مجاز هستند. نویسه‌های نامعتبر حذف "
+"شدند."
+
+#: src/ui/CreateUser.qml:84
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Usernames must be lowercase. Uppercase characters were converted to "
+"lowercase."
+msgstr ""
+"نام‌های کاربری باید با حروف کوچک باشند. نویسه‌های بزرگ به حروف کوچک تبدیل "
+"شدند."
+
+#: src/ui/CreateUser.qml:93 src/ui/UserDetailsPage.qml:203
+#, kde-format
+msgid "Standard"
+msgstr "استاندارد"
+
+#: src/ui/CreateUser.qml:94 src/ui/UserDetailsPage.qml:204
+#, kde-format
+msgid "Administrator"
+msgstr "مدیر سامانه"
+
+#: src/ui/CreateUser.qml:97 src/ui/UserDetailsPage.qml:193
+#, kde-format
+msgid "Account type:"
+msgstr "نوع حساب:"
+
+#: src/ui/CreateUser.qml:102
+#, kde-format
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: src/ui/CreateUser.qml:107
+#, kde-format
+msgid "Confirm password:"
+msgstr "تأیید گذرواژه:"
+
+#: src/ui/CreateUser.qml:129
+#, kde-format
+msgctxt "@action:button Create a new user"
+msgid "Create"
+msgstr "ایجاد"
+
+#: src/ui/CreateUser.qml:152
+#, kde-format
+msgctxt "@action:button Cancel creating new user"
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/ui/CropSheet.qml:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Picture Area"
+msgstr "انتخاب ناحیهٔ تصویر"
+
+#: src/ui/EnrolledConfirmation.qml:20
+#, kde-format
+msgctxt "@info:status"
+msgid "Finger enrolled"
+msgstr "انگشت ثبت شد"
+
+#: src/ui/EnrollFeedback.qml:28
+#, kde-format
+msgid ""
+"Please repeatedly press your right index finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت اشارهٔ دست راست خود را به‌طور مکرر روی حسگر اثر انگشت فشار دهید."
+
+#: src/ui/EnrollFeedback.qml:30
+#, kde-format
+msgid ""
+"Please repeatedly press your right middle finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت میانی دست راست خود را به‌طور مکرر روی حسگر اثر انگشت فشار دهید."
+
+#: src/ui/EnrollFeedback.qml:32
+#, kde-format
+msgid ""
+"Please repeatedly press your right ring finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت حلقهٔ دست راست خود را به‌طور مکرر روی حسگر اثر انگشت فشار دهید."
+
+#: src/ui/EnrollFeedback.qml:34
+#, kde-format
+msgid ""
+"Please repeatedly press your right little finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت کوچک دست راست خود را به‌طور مکرر روی حسگر اثر انگشت فشار دهید."
+
+#: src/ui/EnrollFeedback.qml:36
+#, kde-format
+msgid "Please repeatedly press your right thumb on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت شست دست راست خود را به‌طور مکرر روی حسگر اثر انگشت فشار دهید."
+
+#: src/ui/EnrollFeedback.qml:38
+#, kde-format
+msgid ""
+"Please repeatedly press your left index finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت اشارهٔ دست چپ خود را به‌طور مکرر روی حسگر اثر انگشت فشار دهید."
+
+#: src/ui/EnrollFeedback.qml:40
+#, kde-format
+msgid ""
+"Please repeatedly press your left middle finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت میانی دست چپ خود را به‌طور مکرر روی حسگر اثر انگشت فشار دهید."
+
+#: src/ui/EnrollFeedback.qml:42
+#, kde-format
+msgid ""
+"Please repeatedly press your left ring finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت حلقهٔ دست چپ خود را به‌طور مکرر روی حسگر اثر انگشت فشار دهید."
+
+#: src/ui/EnrollFeedback.qml:44
+#, kde-format
+msgid ""
+"Please repeatedly press your left little finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت کوچک دست چپ خود را به‌طور مکرر روی حسگر اثر انگشت فشار دهید."
+
+#: src/ui/EnrollFeedback.qml:46
+#, kde-format
+msgid "Please repeatedly press your left thumb on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت شست دست چپ خود را به‌طور مکرر روی حسگر اثر انگشت فشار دهید."
+
+#: src/ui/EnrollFeedback.qml:50
+#, kde-format
+msgid ""
+"Please repeatedly swipe your right index finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت اشارهٔ دست راست خود را به‌طور مکرر روی حسگر اثر انگشت بکشید."
+
+#: src/ui/EnrollFeedback.qml:52
+#, kde-format
+msgid ""
+"Please repeatedly swipe your right middle finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت میانی دست راست خود را به‌طور مکرر روی حسگر اثر انگشت بکشید."
+
+#: src/ui/EnrollFeedback.qml:54
+#, kde-format
+msgid ""
+"Please repeatedly swipe your right ring finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت حلقهٔ دست راست خود را به‌طور مکرر روی حسگر اثر انگشت بکشید."
+
+#: src/ui/EnrollFeedback.qml:56
+#, kde-format
+msgid ""
+"Please repeatedly swipe your right little finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت کوچک دست راست خود را به‌طور مکرر روی حسگر اثر انگشت بکشید."
+
+#: src/ui/EnrollFeedback.qml:58
+#, kde-format
+msgid "Please repeatedly swipe your right thumb on the fingerprint sensor."
+msgstr "لطفاً انگشت شست دست راست خود را به‌طور مکرر روی حسگر اثر انگشت بکشید."
+
+#: src/ui/EnrollFeedback.qml:60
+#, kde-format
+msgid ""
+"Please repeatedly swipe your left index finger on the fingerprint sensor."
+msgstr ""
+"لطفاً انگشت اشارهٔ دست چپ خود را به‌طور مکرر روی حسگر اثر انگشت بکشید."
+
+#: src/ui/EnrollFeedback.qml:62
+#, kde-format
+msgid ""
+"Please repeatedly swipe your left middle finger on the fingerprint sensor."
+msgstr "لطفاً انگشت میانی دست چپ خود را پیاپی روی حسگر اثر انگشت بکشید."
+
+#: src/ui/EnrollFeedback.qml:64
+#, kde-format
+msgid ""
+"Please repeatedly swipe your left ring finger on the fingerprint sensor."
+msgstr "لطفاً انگشت حلقهٔ دست چپ خود را پیاپی روی حسگر اثر انگشت بکشید."
+
+#: src/ui/EnrollFeedback.qml:66
+#, kde-format
+msgid ""
+"Please repeatedly swipe your left little finger on the fingerprint sensor."
+msgstr "لطفاً انگشت کوچک دست چپ خود را پیاپی روی حسگر اثر انگشت بکشید."
+
+#: src/ui/EnrollFeedback.qml:68
+#, kde-format
+msgid "Please repeatedly swipe your left thumb on the fingerprint sensor."
+msgstr "لطفاً انگشت شست دست چپ خود را پیاپی روی حسگر اثر انگشت بکشید."
+
+#: src/ui/FingerprintDialog.qml:28
+#, kde-format
+msgid "Configure Fingerprints"
+msgstr "پیکربندی اثر انگشت‌ها"
+
+#: src/ui/FingerprintDialog.qml:39
+#, kde-format
+msgid "Add"
+msgstr "افزودن"
+
+#: src/ui/FingerprintDialog.qml:52
+#, kde-format
+msgid "Done"
+msgstr "انجام شد"
+
+#: src/ui/FingerprintList.qml:47
+#, kde-format
+msgid "Re-enroll finger"
+msgstr "ثبت دوبارهٔ انگشت"
+
+#: src/ui/FingerprintList.qml:59
+#, kde-format
+msgid "Delete fingerprint"
+msgstr "حذف اثر انگشت"
+
+#: src/ui/FingerprintList.qml:75
+#, kde-format
+msgid "No fingerprints added"
+msgstr "هیچ اثر انگشتی افزوده نشده است"
+
+#: src/ui/main.qml:20
+#, kde-format
+msgid "Users"
+msgstr "کاربران"
+
+#: src/ui/main.qml:31
+#, kde-format
+msgctxt "@action:button As in, 'add new user'"
+msgid "Add New…"
+msgstr "افزودن جدید…"
+
+#: src/ui/main.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Add New User…"
+msgstr "افزودن کاربر جدید…"
+
+#: src/ui/main.qml:137
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Press Space to edit the user profile"
+msgstr "برای ویرایش نمایهٔ کاربر، کلید فاصله را فشار دهید"
+
+#: src/ui/PickFinger.qml:28
+#, kde-format
+msgid "Pick a finger to enroll"
+msgstr "یک انگشت را برای ثبت انتخاب کنید"
+
+#: src/ui/PicturesSheet.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Change Avatar"
+msgstr "تغییر تصویر نمایه"
+
+#: src/ui/PicturesSheet.qml:28
+#, kde-format
+msgctxt "@item:intable"
+msgid "It's Nothing"
+msgstr "چیزی نیست"
+
+#: src/ui/PicturesSheet.qml:29
+#, kde-format
+msgctxt "@item:intable"
+msgid "Feisty Flamingo"
+msgstr "فلامینگوی جسور"
+
+#: src/ui/PicturesSheet.qml:30
+#, kde-format
+msgctxt "@item:intable"
+msgid "Dragon's Fruit"
+msgstr "میوهٔ اژدها"
+
+#: src/ui/PicturesSheet.qml:31
+#, kde-format
+msgctxt "@item:intable"
+msgid "Sweet Potato"
+msgstr "سیب‌زمینی شیرین"
+
+#: src/ui/PicturesSheet.qml:32
+#, kde-format
+msgctxt "@item:intable"
+msgid "Ambient Amber"
+msgstr "کهربایی محیطی"
+
+#: src/ui/PicturesSheet.qml:33
+#, kde-format
+msgctxt "@item:intable"
+msgid "Sparkle Sunbeam"
+msgstr "پرتو درخشان خورشید"
+
+#: src/ui/PicturesSheet.qml:34
+#, kde-format
+msgctxt "@item:intable"
+msgid "Lemon-Lime"
+msgstr "لیمو-لایم"
+
+#: src/ui/PicturesSheet.qml:35
+#, kde-format
+msgctxt "@item:intable"
+msgid "Verdant Charm"
+msgstr "افسون سرسبز"
+
+#: src/ui/PicturesSheet.qml:36
+#, kde-format
+msgctxt "@item:intable"
+msgid "Mellow Meadow"
+msgstr "چمنزار ملایم"
+
+#: src/ui/PicturesSheet.qml:37
+#, kde-format
+msgctxt "@item:intable"
+msgid "Tepid Teal"
+msgstr "سبزآبی ولرم"
+
+#: src/ui/PicturesSheet.qml:38
+#, kde-format
+msgctxt "@item:intable"
+msgid "Plasma Blue"
+msgstr "آبی پلاسما"
+
+#: src/ui/PicturesSheet.qml:39
+#, kde-format
+msgctxt "@item:intable"
+msgid "Pon Purple"
+msgstr "بنفش پون"
+
+#: src/ui/PicturesSheet.qml:40
+#, kde-format
+msgctxt "@item:intable"
+msgid "Bajo Purple"
+msgstr "بنفش باجو"
+
+#: src/ui/PicturesSheet.qml:41
+#, kde-format
+msgctxt "@item:intable"
+msgid "Burnt Charcoal"
+msgstr "زغالی سوخته"
+
+#: src/ui/PicturesSheet.qml:42
+#, kde-format
+msgctxt "@item:intable"
+msgid "Paper Perfection"
+msgstr "کاغذ بی‌نقص"
+
+#: src/ui/PicturesSheet.qml:43
+#, kde-format
+msgctxt "@item:intable"
+msgid "Cafétera Brown"
+msgstr "قهوه‌ای کافه‌ترا"
+
+#: src/ui/PicturesSheet.qml:44
+#, kde-format
+msgctxt "@item:intable"
+msgid "Rich Hardwood"
+msgstr "چوب سخت غنی"
+
+#: src/ui/PicturesSheet.qml:63
+#, kde-format
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr "بازگشت"
+
+#: src/ui/PicturesSheet.qml:81
+#, kde-format
+msgctxt "@action:button"
+msgid "Initials"
+msgstr "حروف آغازین"
+
+#: src/ui/PicturesSheet.qml:135
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose File…"
+msgstr "انتخاب پرونده…"
+
+#: src/ui/PicturesSheet.qml:140
+#, kde-format
+msgctxt "@title"
+msgid "Choose a picture"
+msgstr "انتخاب تصویر"
+
+#: src/ui/PicturesSheet.qml:144
+#, kde-format
+msgctxt ""
+"@option file type (mime type) for avif, bmp, gif, jp2, jpeg, jpg, pbm, pgm, "
+"png, ppm, tiff, wbmp, webp, xbm, xpm image file formats; do not translate "
+"*.avif, *.bmp, *.gif, *.jp2, *.jpeg, *.jpg, *.pbm, *.pgm, *.png, *.ppm, "
+"*.tiff, *.wbmp, *.webp, *.xbm, *.xpm"
+msgid ""
+"Image files (All major file types) (*.avif *.bmp *.gif *.jp2 *.jpeg *.jpg "
+"*.pbm *.pgm *.png *.ppm *.tiff *.wbmp *.webp *.xbm *.xpm)"
+msgstr ""
+"پرونده‌های تصویر (همهٔ انواع پرونده‌های اصلی) (*.avif *.bmp *.gif *.jp2 "
+"*.jpeg *.jpg *.pbm *.pgm *.png *.ppm *.tiff *.wbmp *.webp *.xbm *.xpm)"
+
+#: src/ui/PicturesSheet.qml:201
+#, kde-format
+msgctxt "@action:button"
+msgid "Placeholder Icon"
+msgstr "شمایل جای‌نگه‌دار"
+
+#: src/ui/PicturesSheet.qml:290
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "User avatar placeholder icon"
+msgstr "شمایل جای‌نگه‌دار چهرک کاربر"
+
+#: src/ui/UserDetailsPage.qml:114
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Logged-In User Without Deleting Files?"
+msgstr "حذف کاربر واردشده بدون حذف پرونده‌ها؟"
+
+#: src/ui/UserDetailsPage.qml:115
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Logged-In User?"
+msgstr "حذف کاربر واردشده؟"
+
+#: src/ui/UserDetailsPage.qml:117
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"%1 is currently logged in, so their files cannot be deleted. Delete just the"
+" account instead?<nl/><nl/>This will make %1 unable to log in again, and "
+"they may experience strange behaviors until they log out."
+msgstr ""
+"%1 در حال حاضر وارد شده است، بنابراین پرونده‌هایش قابل حذف نیستند. آیا "
+"به‌جای آن فقط حساب کاربری حذف شود؟<nl/><nl/>این کار باعث می‌شود %1 نتواند "
+"دوباره وارد شود و ممکن است تا زمان خروج از نشست با رفتارهای غیرعادی مواجه "
+"شود."
+
+#: src/ui/UserDetailsPage.qml:118
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"%1 is currently logged in. Deleting the account will make them unable to log"
+" in again, and they may experience strange behaviors until they log out."
+msgstr ""
+"%1 در حال حاضر وارد شده است. حذف حساب کاربری باعث می‌شود نتواند دوباره وارد "
+"شود و ممکن است تا زمان خروج از نشست با رفتارهای غیرعادی مواجه شود."
+
+#: src/ui/UserDetailsPage.qml:125
+#, kde-format
+msgctxt "@action: button"
+msgid "Delete %1"
+msgstr "حذف %1"
+
+#: src/ui/UserDetailsPage.qml:144
+#, kde-format
+msgid "Change avatar"
+msgstr "تغییر چهرک"
+
+#: src/ui/UserDetailsPage.qml:185
+#, kde-format
+msgctxt "@label:tooltip"
+msgid ""
+"Cannot change your own username while logged in; log out and then log in as "
+"another user to change this account’s username."
+msgstr ""
+"نمی‌توانید نام کاربری خود را هنگامی که وارد نشست شده‌اید تغییر دهید؛ برای "
+"تغییر نام کاربری این حساب، از نشست خارج شوید و سپس با کاربر دیگری وارد شوید."
+
+#: src/ui/UserDetailsPage.qml:186
+#, kde-format
+msgctxt "@label:tooltip"
+msgid ""
+"Cannot change the username of a logged-in user; wait until this user logs "
+"out first."
+msgstr ""
+"نمی‌توان نام کاربری کاربر واردشده را تغییر داد؛ ابتدا صبر کنید تا این کاربر "
+"از نشست خارج شود."
+
+#: src/ui/UserDetailsPage.qml:214
+#, kde-format
+msgid ""
+"Cannot change the account type to Standard unless there is at least one "
+"other Administrator account on the system. Without one, authentication would"
+" become impossible or require the insecure use of the root password."
+msgstr ""
+"امکان تغییر نوع حساب به «استاندارد» وجود ندارد، مگر اینکه دست‌کم یک حساب "
+"مدیر دیگر در سامانه وجود داشته باشد. بدون آن، احراز هویت غیرممکن خواهد شد یا"
+" نیازمند استفادهٔ ناامن از گذرواژهٔ root خواهد بود."
+
+#: src/ui/UserDetailsPage.qml:222
+#, kde-format
+msgid "Email address:"
+msgstr "نشانی رایانامه:"
+
+#: src/ui/UserDetailsPage.qml:254
+#, kde-format
+msgid "Delete files"
+msgstr "حذف پرونده‌ها"
+
+#: src/ui/UserDetailsPage.qml:261
+#, kde-format
+msgid "Keep files"
+msgstr "نگه‌داشتن پرونده‌ها"
+
+#: src/ui/UserDetailsPage.qml:268
+#, kde-format
+msgid "Delete User…"
+msgstr "حذف کاربر…"
+
+#: src/ui/UserDetailsPage.qml:274
+#, kde-format
+msgctxt "@label:tooltip"
+msgid ""
+"Cannot delete yourself! Log out and then log in as another user to delete "
+"this user account."
+msgstr ""
+"نمی‌توانید خودتان را حذف کنید! برای حذف این حساب کاربری، از نشست خارج شوید و"
+" سپس با کاربر دیگری وارد شوید."
+
+#: src/ui/UserDetailsPage.qml:286
+#, kde-format
+msgid "Configure Fingerprint Authentication…"
+msgstr "پیکربندی احراز هویت با اثر انگشت…"
+
+#: src/ui/UserDetailsPage.qml:318
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Fingerprints can be used in place of a password when unlocking the screen "
+"and providing administrator permissions to applications and command-line "
+"programs that request them.<nl/><nl/>Logging into the system with your "
+"fingerprint is not yet supported."
+msgstr ""
+"می‌توان از اثر انگشت به‌جای گذرواژه هنگام قفل‌گشایی صفحه و اعطای مجوزهای "
+"مدیر سامانه به برنامه‌ها و برنامه‌های خط فرمانی که آن‌ها را درخواست می‌کنند،"
+" استفاده کرد.<nl/><nl/>ورود به سامانه با اثر انگشت هنوز پشتیبانی نمی‌شود."
+
+#: src/user.cpp:141
+#, kde-format
+msgctxt "@info"
+msgid "Failed to crop image: %1"
+msgstr "برش تصویر ناموفق بود: %1"
+
+#: src/user.cpp:337
+#, kde-format
+msgid "Could not get permission to save user %1"
+msgstr "امکان دریافت مجوز برای ذخیرهٔ کاربر %1 وجود نداشت"
+
+#: src/user.cpp:342
+#, kde-format
+msgid "There was an error while saving changes"
+msgstr "هنگام ذخیرهٔ تغییرات خطایی رخ داد"
+
+#: src/user.cpp:474
+#, kde-format
+msgid "Failed to resize image: opening temp file failed"
+msgstr "تغییر اندازهٔ تصویر ناموفق بود: باز کردن پروندهٔ موقت ناموفق بود"
+
+#: src/user.cpp:482
+#, kde-format
+msgid "Failed to resize image: writing to temp file failed"
+msgstr "تغییر اندازهٔ تصویر ناموفق بود: نوشتن در پروندهٔ موقت ناموفق بود"
+
+#: src/usermodel.cpp:170
+#, kde-format
+msgid "Your Account"
+msgstr "حساب شما"
+
+#: src/usermodel.cpp:170
+#, kde-format
+msgid "Other Accounts"
+msgstr "حساب‌های دیگر"

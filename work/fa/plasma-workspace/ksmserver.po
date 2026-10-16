@@ -1,0 +1,117 @@
+# translation of ksmserver.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksmserver\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-06-20 00:46+0000\n"
+"PO-Revision-Date: 2026-10-15 04:22+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: logout.cpp:260
+#, kde-format
+msgid "Logout canceled by '%1'"
+msgstr "خروج از نشست توسط «%1» لغو شد"
+
+#: logout.cpp:354
+#, kde-format
+msgctxt "@info:status"
+msgid "Session is exiting"
+msgstr "نشست در حال خروج است"
+
+#: main.cpp:69 main.cpp:77
+#, kde-format
+msgid "No write access to '%1'."
+msgstr "دسترسی نوشتن به «%1» وجود ندارد."
+
+#: main.cpp:71 main.cpp:79
+#, kde-format
+msgid "No read access to '%1'."
+msgstr "دسترسی خواندن به «%1» وجود ندارد."
+
+#: main.cpp:84
+#, kde-format
+msgid ""
+"The following installation problem was detected\n"
+"while trying to start Plasma:"
+msgstr ""
+"هنگام تلاش برای راه‌اندازی پلاسما،\n"
+"مشکل نصب زیر شناسایی شد:"
+
+#: main.cpp:87
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"Plasma is unable to start.\n"
+msgstr ""
+"\n"
+"\n"
+"پلاسما قادر به راه‌اندازی نیست.\n"
+
+#: main.cpp:111
+#, kde-format
+msgid ""
+"The reliable Plasma session manager that talks the standard X11R6 \n"
+"session management protocol (XSMP)."
+msgstr ""
+"مدیر نشست قابل‌اعتماد پلاسما که با پروتکل استاندارد مدیریت نشست X11R6\n"
+"(XSMP) ارتباط برقرار می‌کند."
+
+#: main.cpp:115
+#, kde-format
+msgid "Restores the saved user session if available"
+msgstr "در صورت موجود بودن، نشست ذخیره‌شدهٔ کاربر را بازیابی می‌کند"
+
+#: main.cpp:118
+#, kde-format
+msgid "Also allow remote connections"
+msgstr "همچنین اجازه دادن به اتصال‌های از راه دور"
+
+#: server.cpp:764
+#, kde-format
+msgctxt "@label an unknown executable is using resources"
+msgid "[unknown]"
+msgstr "[ناشناخته]"
+
+#: server.cpp:787
+#, kde-kuit-format
+msgctxt "@label notification; %1 is a list of executables"
+msgid ""
+"Unable to manage some apps because the system's session management resources are exhausted. Here are the top three consumers of session resources:\n"
+"%1"
+msgstr ""
+"امکان مدیریت برخی از برنامه‌ها وجود ندارد زیرا منابع مدیریت نشست سامانه به پایان رسیده است. سه مصرف‌کنندهٔ برتر منابع نشست عبارت‌اند از:\n"
+"%1"
+
+#: server.cpp:1042
+#, kde-kuit-format
+msgctxt "@label notification; %1 is an executable name"
+msgid ""
+"Unable to restore <application>%1</application> because it is broken and has"
+" exhausted the system's session restoration resources. Please report this to"
+" the app's developers."
+msgstr ""
+"امکان بازیابی <application>%1</application> وجود ندارد زیرا دچار نقص است و "
+"منابع بازیابی نشست سامانه را تمام کرده است. لطفاً این موضوع را به "
+"توسعه‌دهندگان برنامه گزارش دهید."

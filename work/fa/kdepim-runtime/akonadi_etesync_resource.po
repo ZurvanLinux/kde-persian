@@ -1,0 +1,230 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the akonadi_etesync_resource package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_etesync_resource\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-07 00:45+0000\n"
+"PO-Revision-Date: 2026-10-15 20:47+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: etesyncclientstate.cpp:33
+#, kde-format
+msgctxt "@info:status"
+msgid "Empty account configuration"
+msgstr "پیکربندی حساب خالی است"
+
+#: etesyncclientstate.cpp:42
+#, kde-format
+msgctxt "@info:status"
+msgid "Etebase error when initializing client: %1"
+msgstr "خطای Etebase هنگام راه‌اندازی کلاینت: %1"
+
+#: etesyncclientstate.cpp:159
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to read password: %1"
+msgstr "خواندن گذرواژه امکان‌پذیر نیست: %1"
+
+#: etesyncclientstate.cpp:168
+#, kde-format
+msgctxt "@info:status"
+msgid "Could not get etebase account from cache"
+msgstr "حساب etebase از حافظهٔ موقت دریافت نشد"
+
+#: etesyncresource.cpp:57
+#, kde-format
+msgid "EteSync Resource"
+msgstr "منبع EteSync"
+
+#: etesyncresource.cpp:129
+#, kde-format
+msgid "EteSync Account"
+msgstr "حساب EteSync"
+
+#: etesyncresource.cpp:171
+#, kde-format
+msgid "Temporary server error"
+msgstr "خطای موقت کارساز"
+
+#: etesyncresource.cpp:175
+#, kde-format
+msgid "You do not have permission to perform this action."
+msgstr "شما اجازهٔ انجام این کار را ندارید."
+
+#: etesyncresource.cpp:178
+#, kde-format
+msgid "Permission denied"
+msgstr "دسترسی رد شد"
+
+#: etesyncresource.cpp:182
+#, kde-format
+msgid "A server error occurred."
+msgstr "خطایی در کارساز رخ داد."
+
+#: etesyncresource.cpp:185
+#, kde-format
+msgid "Server error"
+msgstr "خطای سرور"
+
+#: etesyncresource.cpp:204
+#, kde-format
+msgid ""
+"Your EteSync credentials were changed. Please click OK to re-enter your "
+"credentials."
+msgstr ""
+"اعتبارنامه‌های EteSync شما تغییر کرده است. لطفاً برای وارد کردن مجدد "
+"اعتبارنامه‌ها، روی «تأیید» کلیک کنید."
+
+#: etesyncresource.cpp:206
+#, kde-format
+msgid "Credentials Changed"
+msgstr "اعتبارنامه‌ها تغییر کرد"
+
+#: etesyncresource.cpp:207
+#, kde-format
+msgid "Your EteSync credentials were changed or are missing."
+msgstr "اعتبارنامه‌های EteSync شما تغییر کرده یا موجود نیست."
+
+#: etesyncresource.cpp:257
+#, kde-format
+msgid "Cannot retrieve items - account is null"
+msgstr "امکان بازیابی موارد وجود ندارد - حساب خالی است"
+
+#: etesyncresource.cpp:264 etesyncresource.cpp:394 etesyncresource.cpp:467
+#: etesyncresource.cpp:525 etesyncresource.cpp:655 etesyncresource.cpp:713
+#, kde-format
+msgid "Could not get etesyncCollection from cache '%1'"
+msgstr "امکان دریافت etesyncCollection از حافظهٔ پنهان «%1» وجود ندارد"
+
+#: etesyncresource.cpp:422
+#, kde-format
+msgid "Could not create new etesyncItem '%1'"
+msgstr "امکان ایجاد etesyncItem جدید «%1» وجود ندارد"
+
+#: etesyncresource.cpp:474 etesyncresource.cpp:532
+#, kde-format
+msgid "Could not get etesyncItem from cache '%1'"
+msgstr "امکان دریافت etesyncItem از حافظهٔ پنهان «%1» وجود ندارد"
+
+#: etesyncresource.cpp:594
+#, kde-format
+msgid "Could not create new etesyncCollection"
+msgstr "امکان ایجاد etesyncCollection جدید وجود ندارد"
+
+#: etesyncresource.h:58
+#, kde-format
+msgid "Something went wrong"
+msgstr "مشکلی پیش آمد"
+
+#. i18n: ectx: label, entry (BaseUrl), group (General)
+#: etesyncresource.kcfg:14
+#, kde-format
+msgid "Server URL"
+msgstr "نشانی سرور"
+
+#. i18n: ectx: tooltip, entry (BaseUrl), group (General)
+#. i18n: ectx: whatsthis, entry (BaseUrl), group (General)
+#: etesyncresource.kcfg:15 etesyncresource.kcfg:16
+#, kde-format
+msgid ""
+"The URL of the EteSync server, should be something like "
+"https://myserver.org/"
+msgstr "نشانی سرور EteSync، باید چیزی شبیه به https://myserver.org/ باشد"
+
+#. i18n: ectx: label, entry (Username), group (General)
+#: etesyncresource.kcfg:19
+#, kde-format
+msgctxt "the username to login on server"
+msgid "Username"
+msgstr "نام کاربری"
+
+#. i18n: ectx: tooltip, entry (Username), group (General)
+#. i18n: ectx: whatsthis, entry (Username), group (General)
+#: etesyncresource.kcfg:20 etesyncresource.kcfg:21
+#, kde-format
+msgid "The username that is used to log into the EteSync server"
+msgstr "نام کاربری مورد استفاده برای ورود به سرور EteSync"
+
+#. i18n: ectx: label, entry (BasePath), group (General)
+#: etesyncresource.kcfg:24
+#, kde-format
+msgid "Path to base directory"
+msgstr "مسیر پوشهٔ پایه"
+
+#: setupwizard.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "EteSync configuration wizard"
+msgstr "راهنمای پیکربندی EteSync"
+
+#: setupwizard.cpp:66
+#, kde-format
+msgid "Login Credentials"
+msgstr "اعتبارنامه‌های ورود"
+
+#: setupwizard.cpp:67
+#, kde-format
+msgid "Enter your credentials to login to the EteSync server"
+msgstr "اعتبارنامه‌های خود را برای ورود به سرور EteSync وارد کنید"
+
+#: setupwizard.cpp:76
+#, kde-format
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#: setupwizard.cpp:82
+#, kde-format
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: setupwizard.cpp:85
+#, kde-format
+msgctxt "@option:check"
+msgid "Advanced settings"
+msgstr "تنظیمات پیشرفته"
+
+#: setupwizard.cpp:90
+#, kde-format
+msgid "Server:"
+msgstr "سرور:"
+
+#: setupwizard.cpp:103
+#, kde-format
+msgid ""
+"🛈 The password field is empty because EteSync does not store it for security"
+" reasons."
+msgstr ""
+"🛈 به دلایل امنیتی، فیلد گذرواژه خالی است زیرا EteSync آن را ذخیره نمی‌کند."
+
+#: setupwizard.cpp:135
+#, kde-format
+msgid ""
+"Please ensure that the server URL is correct. The URL should start with "
+"http:// or https://."
+msgstr ""
+"لطفاً مطمئن شوید که نشانی اینترنتی سرور درست است. نشانی باید با http:// یا "
+"https:// شروع شود."
+
+#: setupwizard.cpp:137
+#, kde-format
+msgid ""
+"Could not connect to the server. Please ensure that the server URL is "
+"correct."
+msgstr ""
+"اتصال به سرور برقرار نشد. لطفاً مطمئن شوید که نشانی اینترنتی سرور درست است."
+
+#: setupwizard.cpp:139
+#, kde-format
+msgid ""
+"EteSync server not found. Please ensure that the server URL is correct."
+msgstr ""
+"سرور EteSync پیدا نشد. لطفاً مطمئن شوید که نشانی اینترنتی سرور درست است."

@@ -1,0 +1,445 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the akonadi_google_resource package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_google_resource\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-09 00:45+0000\n"
+"PO-Revision-Date: 2026-10-15 20:49+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: calendarhandler.cpp:92
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving calendars"
+msgstr "در حال دریافت تقویم‌ها"
+
+#: calendarhandler.cpp:143
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving events for calendar '%1'"
+msgstr "در حال دریافت رویدادها برای تقویم «%1»"
+
+#: calendarhandler.cpp:221 taskhandler.cpp:168
+#, kde-format
+msgctxt "@info:status"
+msgid "Adding event to calendar '%1'"
+msgstr "در حال افزودن رویداد به تقویم «%1»"
+
+#: calendarhandler.cpp:247
+#, kde-format
+msgctxt "@info:status"
+msgid "Changing event in calendar '%1'"
+msgstr "در حال تغییر رویداد در تقویم «%1»"
+
+#: calendarhandler.cpp:259
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing %1 event"
+msgid_plural "Removing %1 events"
+msgstr[0] "در حال حذف %1 رویداد"
+msgstr[1] "در حال حذف %1 رویداد"
+
+#: calendarhandler.cpp:275
+#, kde-format
+msgctxt "@info:status"
+msgid "Moving %1 event from calendar '%2' to calendar '%3'"
+msgid_plural "Moving %1 events from calendar '%2' to calendar '%3'"
+msgstr[0] "در حال انتقال %1 رویداد از تقویم «%2» به تقویم «%3»"
+msgstr[1] "در حال انتقال %1 رویداد از تقویم «%2» به تقویم «%3»"
+
+#: calendarhandler.cpp:342
+#, kde-format
+msgctxt "@info:status"
+msgid "Changing events tags"
+msgstr "در حال تغییر برچسب‌های رویدادها"
+
+#: calendarhandler.cpp:346
+#, kde-format
+msgid "Failed to change tags on events"
+msgstr "تغییر برچسب‌های رویدادها ناموفق بود"
+
+#: calendarhandler.cpp:358
+#, kde-format
+msgctxt "@info:status"
+msgid "Creating calendar '%1'"
+msgstr "در حال ایجاد تقویم «%1»"
+
+#: calendarhandler.cpp:386
+#, kde-format
+msgctxt "@info:status"
+msgid "Changing calendar '%1'"
+msgstr "در حال تغییر تقویم «%1»"
+
+#: calendarhandler.cpp:399
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing calendar '%1'"
+msgstr "در حال حذف تقویم «%1»"
+
+#: generichandler.cpp:24
+#, kde-format
+msgid "Cannot handle item linking"
+msgstr "پیوند دادن مورد امکان‌پذیر نیست"
+
+#: generichandler.cpp:29
+#, kde-format
+msgid "Cannot handle item unlinking"
+msgstr "حذف پیوند مورد امکان‌پذیر نیست"
+
+#: generichandler.cpp:34
+#, kde-format
+msgid "Cannot handle item tag changes"
+msgstr "تغییر برچسب‌های مورد امکان‌پذیر نیست"
+
+#: generichandler.cpp:61
+#, kde-format
+msgctxt "@status"
+msgid "Ready"
+msgstr "آماده"
+
+#: generichandler.h:66 generichandler.h:78
+#, kde-format
+msgid "Invalid item."
+msgstr "مورد نامعتبر."
+
+#: googleresource.cpp:86
+#, kde-format
+msgid "Fetching password…"
+msgstr "در حال دریافت گذرواژه…"
+
+#: googleresource.cpp:134
+#, kde-format
+msgctxt "@info:status"
+msgid "Ready"
+msgstr "آماده"
+
+#: googleresource.cpp:146
+#, kde-format
+msgid "Not configured"
+msgstr "پیکربندی‌نشده"
+
+#: googleresource.cpp:146
+#, kde-format
+msgctxt "%1 is account name (user@gmail.com)"
+msgid "Google Groupware (%1)"
+msgstr "گروه‌افزار گوگل (%1)"
+
+#: googleresource.cpp:197
+#, kde-format
+msgid "Account has been logged out."
+msgstr "از حساب خارج شدید."
+
+#: googleresource.cpp:200
+#, kde-format
+msgid ""
+"Google Groupware has been logged out from your account. Please log in to "
+"enable Google Contacts and Calendar sync again."
+msgstr ""
+"نرم‌افزار گروهی گوگل از حساب شما خارج شده است. لطفاً برای فعال‌سازی مجدد "
+"همگام‌سازی مخاطبین و تقویم گوگل وارد شوید."
+
+#: googleresource.cpp:201
+#, kde-format
+msgid ""
+"Google Groupware has been logged out from account %1. Please log in to "
+"enable Google Contacts and Calendar sync again."
+msgstr ""
+"نرم‌افزار گروهی گوگل از حساب %1 خارج شده است. لطفاً برای فعال‌سازی مجدد "
+"همگام‌سازی مخاطبین و تقویم گوگل وارد شوید."
+
+#: googleresource.cpp:205
+#, kde-format
+msgctxt "@title"
+msgid "%1 needs your attention."
+msgstr "%1 نیازمند توجه شماست."
+
+#: googleresource.cpp:210
+#, kde-format
+msgctxt "@action"
+msgid "Log in"
+msgstr "ورود"
+
+#: googleresource.cpp:222 googleresource.cpp:223
+#, kde-format
+msgctxt "@info:status"
+msgid "Resource is not configured"
+msgstr "منبع پیکربندی نشده است"
+
+#: googleresource.cpp:238
+#, kde-format
+msgid "Failed to refresh tokens"
+msgstr "تازه‌سازی نشانه‌ها ناموفق بود"
+
+#: googleresource.cpp:422 googleresource.cpp:436 googleresource.cpp:450
+#: googleresource.cpp:465 googleresource.cpp:479 googleresource.cpp:493
+#: googleresource.cpp:507
+#, kde-format
+msgid "Invalid payload type"
+msgstr "نوع بار داده نامعتبر است"
+
+#: googleresource.cpp:521 googleresource.cpp:535 googleresource.cpp:549
+#, kde-format
+msgid "Unknown collection mimetype"
+msgstr "نوع رسانه‌ای (mimetype) مجموعه ناشناخته است"
+
+#: googlesettings.cpp:44
+#, kde-format
+msgctxt "@info:status"
+msgid "No username set"
+msgstr "نام کاربری تنظیم نشده است"
+
+#: googlesettings.cpp:63
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to read password: %1"
+msgstr "خواندن گذرواژه ممکن نیست: %1"
+
+#: googlesettingswidget.cpp:38
+#, kde-format
+msgid "%v minute"
+msgid_plural "%v minutes"
+msgstr[0] "%v دقیقه"
+msgstr[1] "%v دقیقه"
+
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: googlesettingswidget.cpp:100 googlesettingswidget.ui:30
+#, kde-format
+msgid "<b>Not configured</b>"
+msgstr "<b>پیکربندی‌نشده</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, accountTextLabel)
+#: googlesettingswidget.ui:23
+#, kde-format
+msgid "Account:"
+msgstr "حساب:"
+
+#. i18n: ectx: property (text), widget (QPushButton, configureBtn)
+#: googlesettingswidget.ui:42
+#, kde-format
+msgid "Configure…"
+msgstr "پیکربندی…"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableRefresh)
+#: googlesettingswidget.ui:49
+#, kde-format
+msgid "Enable interval refresh"
+msgstr "فعال‌سازی بازآوری دوره‌ای"
+
+#. i18n: ectx: property (text), widget (QLabel, refreshLabel)
+#: googlesettingswidget.ui:56
+#, kde-format
+msgid "Refresh interval:"
+msgstr "بازهٔ بازآوری:"
+
+#. i18n: ectx: property (text), widget (QLabel, eventsLimitLabel)
+#: googlesettingswidget.ui:79
+#, kde-format
+msgid "Fetch only events since:"
+msgstr "فقط واکشی رویدادها از:"
+
+#. i18n: ectx: property (text), widget (QLabel, calendarsLabel)
+#: googlesettingswidget.ui:92
+#, kde-format
+msgid "Enabled Calendars:"
+msgstr "گاه‌شمارهای فعال:"
+
+#. i18n: ectx: property (text), widget (QPushButton, reloadCalendarsBtn)
+#. i18n: ectx: property (text), widget (QPushButton, reloadTaskListsBtn)
+#: googlesettingswidget.ui:123 googlesettingswidget.ui:166
+#, kde-format
+msgid "Reload"
+msgstr "بارگیری مجدد"
+
+#. i18n: ectx: property (text), widget (QLabel, taskListsLabel)
+#: googlesettingswidget.ui:135
+#, kde-format
+msgid "Enabled Tasklists:"
+msgstr "فهرست‌های کار فعال‌شده:"
+
+#: personhandler.cpp:87
+#, kde-format
+msgctxt "Name of a group of contacts"
+msgid "Coworkers"
+msgstr "همکاران"
+
+#: personhandler.cpp:89
+#, kde-format
+msgctxt "Name of a group of contacts"
+msgid "Friends"
+msgstr "دوستان"
+
+#: personhandler.cpp:91
+#, kde-format
+msgctxt "Name of a group of contacts"
+msgid "Family"
+msgstr "خانواده"
+
+#: personhandler.cpp:93
+#, kde-format
+msgctxt "Name of a group of contacts"
+msgid "My Contacts"
+msgstr "مخاطبین من"
+
+#: personhandler.cpp:117
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving contacts groups"
+msgstr "در حال دریافت گروه‌های مخاطبین"
+
+#: personhandler.cpp:124 personhandler.cpp:130
+#, kde-format
+msgid "Other Contacts"
+msgstr "سایر مخاطبین"
+
+#: personhandler.cpp:170
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving contacts for group '%1'"
+msgstr "در حال دریافت مخاطبین گروه «%1»"
+
+#: personhandler.cpp:370
+#, kde-format
+msgctxt "@info:status"
+msgid "Adding contact to group '%1'"
+msgstr "در حال افزودن مخاطب به گروه «%1»"
+
+#: personhandler.cpp:404
+#, kde-format
+msgctxt "@info:status"
+msgid "Changing contact"
+msgstr "در حال تغییر مخاطب"
+
+#: personhandler.cpp:418
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing %1 contact"
+msgid_plural "Removing %1 contacts"
+msgstr[0] "در حال حذف %1 مخاطب"
+msgstr[1] "در حال حذف %1 مخاطب"
+
+#: personhandler.cpp:438
+#, kde-format
+msgid "Invalid source or destination collection"
+msgstr "مجموعهٔ مبدأ یا مقصد نامعتبر است"
+
+#: personhandler.cpp:444
+#, kde-format
+msgctxt "@info:status"
+msgid "Moving %1 contact from group '%2' to '%3'"
+msgid_plural "Moving %1 contacts from group '%2' to '%3'"
+msgstr[0] "در حال انتقال %1 مخاطب از گروه «%2» به «%3»"
+msgstr[1] "در حال انتقال %1 مخاطب از گروه «%2» به «%3»"
+
+#: personhandler.cpp:461
+#, kde-format
+msgctxt "@info:status"
+msgid "Linking %1 contact"
+msgid_plural "Linking %1 contacts"
+msgstr[0] "در حال پیوند دادن %1 مخاطب"
+msgstr[1] "در حال پیوند دادن %1 مخاطب"
+
+#: personhandler.cpp:475
+#, kde-format
+msgctxt "@info:status"
+msgid "Unlinking %1 contact"
+msgid_plural "Unlinking %1 contacts"
+msgstr[0] "در حال لغو پیوند %1 مخاطب"
+msgstr[1] "در حال لغو پیوند %1 مخاطب"
+
+#: personhandler.cpp:508
+#, kde-format
+msgctxt "@info:status"
+msgid "Creating new contact group '%1'"
+msgstr "در حال ایجاد گروه مخاطب جدید «%1»"
+
+#: personhandler.cpp:529
+#, kde-format
+msgctxt "@info:status"
+msgid "Changing contact group '%1'"
+msgstr "در حال تغییر گروه مخاطب «%1»"
+
+#: personhandler.cpp:554
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing contact group '%1'"
+msgstr "در حال حذف گروه مخاطب «%1»"
+
+#. i18n: ectx: label, entry (Calendars), group (General)
+#: settingsbase.kcfg:13
+#, kde-format
+msgid "IDs of calendars in collection"
+msgstr "شناسه‌های تقویم‌ها در مجموعه"
+
+#. i18n: ectx: label, entry (TaskLists), group (General)
+#: settingsbase.kcfg:17
+#, kde-format
+msgid "IDs of task lists in collection"
+msgstr "شناسه‌های فهرست‌های وظیفه در مجموعه"
+
+#: taskhandler.cpp:68
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving task lists"
+msgstr "در حال دریافت فهرست‌های کارها"
+
+#: taskhandler.cpp:101
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving tasks for list '%1'"
+msgstr "در حال دریافت کارهای فهرست «%1»"
+
+#: taskhandler.cpp:193
+#, kde-format
+msgctxt "@info:status"
+msgid "Changing task in list '%1'"
+msgstr "در حال تغییر کار در فهرست «%1»"
+
+#: taskhandler.cpp:213
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing %1 task"
+msgid_plural "Removing %1 tasks"
+msgstr[0] "در حال حذف %1 کار"
+msgstr[1] "در حال حذف %1 کار"
+
+#: taskhandler.cpp:223
+#, kde-format
+msgid "Failed to delete task: %1"
+msgstr "حذف کار ناموفق بود: %1"
+
+#: taskhandler.cpp:259
+#, kde-format
+msgid "Failed to reparent subtasks: %1"
+msgstr "تغییر والد زیرکارها ناموفق بود: %1"
+
+#: taskhandler.cpp:290
+#, kde-format
+msgid "Moving tasks between task lists is not supported"
+msgstr "انتقال کارها میان فهرست‌های کار پشتیبانی نمی‌شود"
+
+#: taskhandler.cpp:295
+#, kde-format
+msgctxt "@info:status"
+msgid "Creating new task list '%1'"
+msgstr "در حال ایجاد فهرست کار جدید «%1»"
+
+#: taskhandler.cpp:320
+#, kde-format
+msgctxt "@info:status"
+msgid "Changing task list '%1'"
+msgstr "در حال تغییر فهرست کار «%1»"
+
+#: taskhandler.cpp:333
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing task list '%1'"
+msgstr "در حال حذف فهرست کار «%1»"

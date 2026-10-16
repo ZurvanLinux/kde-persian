@@ -1,0 +1,173 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma_runner_powerdevil package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_runner_powerdevil\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-10-15 03:28+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: PowerDevilRunner.cpp:31
+#, kde-format
+msgctxt "Note this is a KRunner keyword; 'power' as in 'power saving mode'"
+msgid "power"
+msgstr "توان"
+
+#: PowerDevilRunner.cpp:32
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "suspend"
+msgstr "تعلیق"
+
+#: PowerDevilRunner.cpp:33
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "to ram"
+msgstr "به رم"
+
+#: PowerDevilRunner.cpp:34
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "sleep"
+msgstr "خواب"
+
+#: PowerDevilRunner.cpp:35
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "hibernate"
+msgstr "خواب زمستانی"
+
+#: PowerDevilRunner.cpp:36
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "to disk"
+msgstr "به دیسک"
+
+#: PowerDevilRunner.cpp:37
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "hybrid sleep"
+msgstr "خواب ترکیبی"
+
+#: PowerDevilRunner.cpp:38
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "hybrid"
+msgstr "ترکیبی"
+
+#: PowerDevilRunner.cpp:39 PowerDevilRunner.cpp:40 PowerDevilRunner.cpp:66
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "dim screen"
+msgstr "کم‌نور کردن صفحه"
+
+#: PowerDevilRunner.cpp:50
+#, kde-format
+msgid ""
+"Lists system suspend (e.g. sleep, hibernate) options and allows them to be "
+"activated"
+msgstr ""
+"گزینه‌های تعلیق سامانه (مانند خواب، خواب زمستانی) را فهرست می‌کند و امکان "
+"فعال‌سازی آن‌ها را فراهم می‌سازد"
+
+#: PowerDevilRunner.cpp:54
+#, kde-format
+msgid "Suspends the system to RAM"
+msgstr "سامانه را در حافظهٔ رم تعلیق می‌کند"
+
+#: PowerDevilRunner.cpp:58
+#, kde-format
+msgid "Suspends the system to disk"
+msgstr "سامانه را در دیسک تعلیق می‌کند"
+
+#: PowerDevilRunner.cpp:62
+#, kde-format
+msgid "Sleeps now and falls back to hibernate"
+msgstr "اکنون به خواب می‌رود و در صورت نیاز به خواب زمستانی بازمی‌گردد"
+
+#: PowerDevilRunner.cpp:65
+#, kde-format
+msgctxt ""
+"Note this is a KRunner keyword, <> is a placeholder and should be at the end"
+msgid "screen brightness <percent value>"
+msgstr "روشنایی صفحه <percent value>"
+
+#: PowerDevilRunner.cpp:68
+#, no-c-format, kde-format
+msgid ""
+"Lists screen brightness options or sets it to the brightness defined by the "
+"search term; e.g. screen brightness 50 would dim the screen to 50% maximum "
+"brightness"
+msgstr ""
+"گزینه‌های روشنایی صفحه را فهرست می‌کند یا آن را روی روشنایی تعیین‌شده با "
+"عبارت جست‌وجو تنظیم می‌کند؛ برای مثال، «روشنایی صفحه ۵۰» نور صفحه را تا ۵۰٪ "
+"حداکثر روشنایی کاهش می‌دهد"
+
+#: PowerDevilRunner.cpp:89
+#, kde-format
+msgid "Set Brightness to %1%"
+msgstr "تنظیم روشنایی روی %1%"
+
+#: PowerDevilRunner.cpp:98
+#, kde-format
+msgid "Dim screen totally"
+msgstr "کم‌نور کردن کامل صفحه"
+
+#: PowerDevilRunner.cpp:106
+#, kde-format
+msgid "Dim screen by half"
+msgstr "کم‌نور کردن صفحه به نصف"
+
+#: PowerDevilRunner.cpp:135
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "خواب"
+
+#: PowerDevilRunner.cpp:136
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "تعلیق در رم"
+
+#: PowerDevilRunner.cpp:141
+#, kde-format
+msgctxt "Suspend to disk"
+msgid "Hibernate"
+msgstr "خواب زمستانی"
+
+#: PowerDevilRunner.cpp:142
+#, kde-format
+msgid "Suspend to disk"
+msgstr "تعلیق در دیسک"
+
+#: PowerDevilRunner.cpp:147
+#, kde-format
+msgctxt "Suspend to both RAM and disk"
+msgid "Hybrid sleep"
+msgstr "خواب ترکیبی"
+
+#: PowerDevilRunner.cpp:148
+#, kde-format
+msgid "Sleep now and fall back to hibernate"
+msgstr "اکنون به خواب رفتن و بازگشت به خواب زمستانی"
+
+#: PowerDevilRunner.cpp:226
+#, kde-format
+msgctxt "Note this is a KRunner keyword, it should end with a space"
+msgid "screen brightness "
+msgstr "روشنایی صفحه "
+
+#: PowerDevilRunner.cpp:228
+#, kde-format
+msgctxt "Note this is a KRunner keyword, it should end with a space"
+msgid "dim screen "
+msgstr "کم‌نور کردن صفحه "

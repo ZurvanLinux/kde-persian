@@ -1,0 +1,1002 @@
+# translation of kcmkwinrules.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkwinrules\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-17 00:45+0000\n"
+"PO-Revision-Date: 2026-10-15 02:12+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kcmrules.cpp:228
+#, kde-format
+msgid "Copy of %1"
+msgstr "رونوشت از %1"
+
+#: kcmrules.cpp:426
+#, kde-format
+msgid "Application settings for %1"
+msgstr "تنظیمات برنامه برای %1"
+
+#: kcmrules.cpp:448 rulesmodel.cpp:222 rulesmodel.cpp:225
+#, kde-format
+msgid "Window settings for %1"
+msgstr "تنظیمات پنجره برای %1"
+
+#: optionsmodel.cpp:199 optionsmodel.cpp:204
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Unimportant"
+msgstr "بی‌اهمیت"
+
+#: optionsmodel.cpp:200
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Exact match"
+msgstr "تطابق دقیق"
+
+#: optionsmodel.cpp:201
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Substring match"
+msgstr "تطابق زیررشته"
+
+#: optionsmodel.cpp:202
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Regular expression"
+msgstr "عبارت باقاعده"
+
+#: optionsmodel.cpp:205
+#, kde-format
+msgctxt "@item:inlistbox This is a noun"
+msgid "Match"
+msgstr "تطابق"
+
+#: optionsmodel.cpp:210
+#, kde-format
+msgid "Apply initially"
+msgstr "اعمال در ابتدا"
+
+#: optionsmodel.cpp:211
+#, kde-format
+msgid ""
+"The window property will be only set to the given value after the window is created.\n"
+"No further changes will be affected."
+msgstr ""
+"ویژگی پنجره تنها پس از ایجاد پنجره روی مقدار داده‌شده تنظیم خواهد شد.\n"
+"هیچ تغییر دیگری تحت تأثیر قرار نخواهد گرفت."
+
+#: optionsmodel.cpp:214
+#, kde-format
+msgid "Apply now"
+msgstr "اعمال اکنون"
+
+#: optionsmodel.cpp:215
+#, kde-format
+msgid ""
+"The window property will be set to the given value immediately and will not be affected later\n"
+"(this action will be deleted afterwards)."
+msgstr ""
+"ویژگی پنجره بلافاصله روی مقدار داده‌شده تنظیم خواهد شد و بعداً تحت تأثیر قرار نخواهد گرفت\n"
+"(این کنش پس از آن حذف خواهد شد)."
+
+#: optionsmodel.cpp:218
+#, kde-format
+msgid "Remember"
+msgstr "به‌خاطرسپاری"
+
+#: optionsmodel.cpp:219
+#, kde-format
+msgid ""
+"The value of the window property will be remembered and, every time the "
+"window is created, the last remembered value will be applied."
+msgstr ""
+"مقدار ویژگی پنجره به‌خاطر سپرده خواهد شد و هر بار که پنجره ایجاد شود، آخرین "
+"مقدار به‌خاطرسپرده‌شده اعمال خواهد شد."
+
+#: optionsmodel.cpp:222
+#, kde-format
+msgid "Do not affect"
+msgstr "تأثیر نگذاشتن"
+
+#: optionsmodel.cpp:223
+#, kde-format
+msgid ""
+"The window property will not be affected and therefore the default handling for it will be used.\n"
+"Specifying this will block more generic window settings from taking effect."
+msgstr ""
+"ویژگی پنجره تحت تأثیر قرار نخواهد گرفت و بنابراین از مدیریت پیش‌فرض برای آن استفاده خواهد شد.\n"
+"مشخص کردن این مورد مانع از اثرگذاری تنظیمات عمومی‌تر پنجره خواهد شد."
+
+#: optionsmodel.cpp:226
+#, kde-format
+msgid "Force"
+msgstr "اجبار"
+
+#: optionsmodel.cpp:227
+#, kde-format
+msgid "The window property will be always forced to the given value."
+msgstr "ویژگی پنجره همیشه به مقدار داده‌شده اجبار خواهد شد."
+
+#: optionsmodel.cpp:229
+#, kde-format
+msgid "Force temporarily"
+msgstr "اجبار موقت"
+
+#: optionsmodel.cpp:230
+#, kde-format
+msgid ""
+"The window property will be forced to the given value until it is hidden\n"
+"(this action will be deleted after the window is hidden)."
+msgstr ""
+"ویژگی پنجره تا زمان پنهان شدنش به مقدار داده‌شده اجبار خواهد شد\n"
+"(این کنش پس از پنهان شدن پنجره حذف خواهد شد)."
+
+#: rulesmodel.cpp:228
+#, kde-format
+msgid "Settings for %1"
+msgstr "تنظیمات برای %1"
+
+#: rulesmodel.cpp:231
+#, kde-format
+msgid "New window settings"
+msgstr "تنظیمات پنجرهٔ جدید"
+
+#: rulesmodel.cpp:247
+#, kde-format
+msgid ""
+"You have specified the window class as unimportant.\n"
+"This means the settings will possibly apply to windows from all applications. If you really want to create a generic setting, it is recommended you at least limit the window types to avoid special window types."
+msgstr ""
+"شما کلاس پنجره را بی‌اهمیت مشخص کرده‌اید.\n"
+"این بدان معناست که تنظیمات احتمالاً برای پنجره‌های همهٔ برنامه‌ها اعمال خواهد شد. اگر واقعاً می‌خواهید یک تنظیم عمومی ایجاد کنید، توصیه می‌شود حداقل انواع پنجره را محدود کنید تا از انواع خاص پنجره اجتناب شود."
+
+#: rulesmodel.cpp:254
+#, kde-format
+msgid ""
+"Some applications set their own geometry after starting, overriding your "
+"initial settings for size and position. To enforce these settings, also "
+"force the property \"%1\" to \"Yes\"."
+msgstr ""
+"برخی برنامه‌ها پس از راه‌اندازی، هندسهٔ خود را تنظیم می‌کنند و تنظیمات "
+"اولیهٔ شما برای اندازه و موقعیت را نادیده می‌گیرند. برای اعمال اجباری این "
+"تنظیمات، ویژگی «%1» را نیز روی «بله» اجبار کنید."
+
+#: rulesmodel.cpp:261
+#, kde-format
+msgid ""
+"Readability may be impaired with extremely low opacity values. At 0%, the "
+"window becomes invisible."
+msgstr ""
+"خوانایی ممکن است با مقادیر بسیار پایین کدر بودن دچار اختلال شود. در ۰٪، "
+"پنجره نامرئی می‌شود."
+
+#: rulesmodel.cpp:388
+#, kde-format
+msgid "Description"
+msgstr "توضیحات"
+
+#: rulesmodel.cpp:388 rulesmodel.cpp:396 rulesmodel.cpp:404 rulesmodel.cpp:411
+#: rulesmodel.cpp:417 rulesmodel.cpp:425 rulesmodel.cpp:430 rulesmodel.cpp:436
+#: rulesmodel.cpp:441 rulesmodel.cpp:447
+#, kde-format
+msgid "Window matching"
+msgstr "تطبیق پنجره"
+
+#: rulesmodel.cpp:396
+#, kde-format
+msgid "Window class (application)"
+msgstr "کلاس پنجره (برنامه)"
+
+#: rulesmodel.cpp:404
+#, kde-format
+msgid "Match whole window class"
+msgstr "تطبیق کل کلاس پنجره"
+
+#: rulesmodel.cpp:411
+#, kde-format
+msgid "Whole window class"
+msgstr "کل کلاس پنجره"
+
+#: rulesmodel.cpp:417
+#, kde-format
+msgid "Window types"
+msgstr "انواع پنجره"
+
+#: rulesmodel.cpp:425
+#, kde-format
+msgid "Window role"
+msgstr "نقش پنجره"
+
+#: rulesmodel.cpp:430
+#, kde-format
+msgid "Window title"
+msgstr "عنوان پنجره"
+
+#: rulesmodel.cpp:436
+#, kde-format
+msgid "Machine (hostname)"
+msgstr "رایانه (نام میزبان)"
+
+#: rulesmodel.cpp:441
+#, kde-format
+msgid "Window tag"
+msgstr "برچسب پنجره"
+
+#: rulesmodel.cpp:447
+#, kde-format
+msgid "Has parent window"
+msgstr "دارای پنجرهٔ والد"
+
+#: rulesmodel.cpp:453
+#, kde-format
+msgid "Position"
+msgstr "موقعیت"
+
+#: rulesmodel.cpp:453 rulesmodel.cpp:459 rulesmodel.cpp:465 rulesmodel.cpp:470
+#: rulesmodel.cpp:478 rulesmodel.cpp:484 rulesmodel.cpp:503 rulesmodel.cpp:519
+#: rulesmodel.cpp:524 rulesmodel.cpp:529 rulesmodel.cpp:534 rulesmodel.cpp:541
+#: rulesmodel.cpp:555 rulesmodel.cpp:560
+#, kde-format
+msgid "Size & Position"
+msgstr "اندازه و موقعیت"
+
+#: rulesmodel.cpp:459
+#, kde-format
+msgid "Size"
+msgstr "اندازه"
+
+#: rulesmodel.cpp:465
+#, kde-format
+msgid "Maximized horizontally"
+msgstr "بیشینه‌شده به‌صورت افقی"
+
+#: rulesmodel.cpp:470
+#, kde-format
+msgid "Maximized vertically"
+msgstr "بیشینه‌شده به‌صورت عمودی"
+
+#: rulesmodel.cpp:478
+#, kde-format
+msgid "Virtual desktop"
+msgstr "میزکار مجازی"
+
+#: rulesmodel.cpp:484
+#, kde-format
+msgid "Virtual desktops"
+msgstr "میزکارهای مجازی"
+
+#: rulesmodel.cpp:503
+#, kde-format
+msgid "Activities"
+msgstr "فعالیت‌ها"
+
+#: rulesmodel.cpp:519
+#, kde-format
+msgid "Screen"
+msgstr "صفحهٔ نمایش"
+
+#: rulesmodel.cpp:524 rulesmodel.cpp:924
+#, kde-format
+msgid "Fullscreen"
+msgstr "تمام‌صفحه"
+
+#: rulesmodel.cpp:529
+#, kde-format
+msgid "Minimized"
+msgstr "کمینه‌شده"
+
+#: rulesmodel.cpp:534
+#, kde-format
+msgid "Initial placement"
+msgstr "جای‌گذاری اولیه"
+
+#: rulesmodel.cpp:541
+#, kde-format
+msgid "Ignore requested geometry"
+msgstr "نادیده گرفتن هندسهٔ درخواستی"
+
+#: rulesmodel.cpp:544
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Some applications can set their own geometry, overriding the window manager "
+"preferences. Setting this property overrides their placement "
+"requests.<nl/><nl/>This affects <interface>Size</interface> and "
+"<interface>Position</interface> but not <interface>Maximized</interface> or "
+"<interface>Fullscreen</interface> states.<nl/><nl/>Note that the position "
+"can also be used to map to a different <interface>Screen</interface>"
+msgstr ""
+"برخی برنامه‌ها می‌توانند هندسهٔ خود را تنظیم کرده و ترجیحات مدیر پنجره را "
+"نادیده بگیرند. تنظیم این ویژگی، درخواست‌های جای‌گذاری آن‌ها را نادیده "
+"می‌گیرد.<nl/><nl/>این ویژگی بر <interface>اندازه</interface> و "
+"<interface>موقعیت</interface> اثر می‌گذارد، اما بر وضعیت‌های "
+"<interface>بیشینه‌شده</interface> یا <interface>تمام‌صفحه</interface> تأثیری"
+" ندارد.<nl/><nl/>توجه داشته باشید که از موقعیت می‌توان برای نگاشت به یک "
+"<interface>صفحهٔ نمایش</interface> دیگر نیز استفاده کرد."
+
+#: rulesmodel.cpp:555
+#, kde-format
+msgid "Minimum Size"
+msgstr "حداقل اندازه"
+
+#: rulesmodel.cpp:560
+#, kde-format
+msgid "Maximum Size"
+msgstr "حداکثر اندازه"
+
+#: rulesmodel.cpp:566
+#, kde-format
+msgid "Keep above other windows"
+msgstr "نگه‌داشتن روی پنجره‌های دیگر"
+
+#: rulesmodel.cpp:566 rulesmodel.cpp:571 rulesmodel.cpp:576 rulesmodel.cpp:582
+#: rulesmodel.cpp:588 rulesmodel.cpp:594
+#, kde-format
+msgid "Arrangement & Access"
+msgstr "چینش و دسترسی"
+
+#: rulesmodel.cpp:571
+#, kde-format
+msgid "Keep below other windows"
+msgstr "نگه‌داشتن زیر پنجره‌های دیگر"
+
+#: rulesmodel.cpp:576
+#, kde-format
+msgid "Skip taskbar"
+msgstr "نادیده‌گرفتن نوار وظیفه"
+
+#: rulesmodel.cpp:578
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Controls whether or not the window appears in the Task Manager."
+msgstr "کنترل می‌کند که پنجره در مدیر وظایف ظاهر شود یا خیر."
+
+#: rulesmodel.cpp:582
+#, kde-format
+msgid "Skip pager"
+msgstr "نادیده‌گرفتن صفحه‌بند"
+
+#: rulesmodel.cpp:584
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Controls whether or not the window appears in the Virtual Desktop manager."
+msgstr "کنترل می‌کند که پنجره در مدیر میزکار مجازی ظاهر شود یا خیر."
+
+#: rulesmodel.cpp:588
+#, kde-format
+msgid "Skip switcher"
+msgstr "نادیده‌گرفتن تعویض‌کننده"
+
+#: rulesmodel.cpp:590
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Controls whether or not the window appears in the "
+"<shortcut>Alt+Tab</shortcut> window list."
+msgstr ""
+"کنترل می‌کند که پنجره در فهرست پنجره‌های <shortcut>Alt+Tab</shortcut> ظاهر "
+"شود یا خیر."
+
+#: rulesmodel.cpp:594
+#, kde-format
+msgid "Shortcut"
+msgstr "میانبر"
+
+#: rulesmodel.cpp:600
+#, kde-format
+msgid "Window manager draws titlebar, frame, and shadows"
+msgstr "مدیر پنجره نوار عنوان، چارچوب و سایه‌ها را رسم می‌کند"
+
+#: rulesmodel.cpp:600 rulesmodel.cpp:606 rulesmodel.cpp:612 rulesmodel.cpp:617
+#: rulesmodel.cpp:623 rulesmodel.cpp:650 rulesmodel.cpp:678 rulesmodel.cpp:684
+#: rulesmodel.cpp:696 rulesmodel.cpp:701 rulesmodel.cpp:706 rulesmodel.cpp:712
+#: rulesmodel.cpp:717 rulesmodel.cpp:722
+#, kde-format
+msgid "Appearance & Fixes"
+msgstr "ظاهر و اصلاحات"
+
+#: rulesmodel.cpp:606
+#, kde-format
+msgid "Titlebar color scheme"
+msgstr "طرح رنگ نوار عنوان"
+
+#: rulesmodel.cpp:612
+#, kde-format
+msgid "Active opacity"
+msgstr "کدری فعال"
+
+#: rulesmodel.cpp:617
+#, kde-format
+msgid "Inactive opacity"
+msgstr "کدری غیرفعال"
+
+#: rulesmodel.cpp:623
+#, kde-format
+msgid "Focus stealing prevention"
+msgstr "جلوگیری از ربودن تمرکز"
+
+#: rulesmodel.cpp:625
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"KWin tries to prevent windows that were opened without direct user action "
+"from raising themselves and taking focus while you're currently interacting "
+"with another window. This property can be used to change the level of focus "
+"stealing prevention applied to individual windows and apps.<nl/><nl/>Here's "
+"what will happen to a window opened without your direct action at each level"
+" of focus stealing prevention:<nl/><list><item><emphasis "
+"strong='true'>None:</emphasis> The window will be raised and "
+"focused.</item><item><emphasis strong='true'>Low:</emphasis> Focus stealing "
+"prevention will be applied, but in the case of a situation KWin considers "
+"ambiguous, the window will be raised and focused.</item><item><emphasis "
+"strong='true'>Normal:</emphasis> Focus stealing prevention will be applied, "
+"but  in the case of a situation KWin considers ambiguous, the window will "
+"<emphasis>not</emphasis> be raised and focused.</item><item><emphasis "
+"strong='true'>High:</emphasis> The window will only be raised and focused if"
+" it belongs to the same app as the currently-focused "
+"window.</item><item><emphasis strong='true'>Extreme:</emphasis> The window "
+"will never be raised and focused.</item></list>"
+msgstr ""
+"KWin تلاش می‌کند تا از بالا آمدن و گرفتن تمرکز توسط پنجره‌هایی که بدون کنش "
+"مستقیم کاربر باز شده‌اند، در حالی که در حال تعامل با پنجرهٔ دیگری هستید، "
+"جلوگیری کند. از این ویژگی می‌توان برای تغییر سطح جلوگیری از ربودن تمرکز "
+"اعمال‌شده روی پنجره‌ها و برنامه‌های جداگانه استفاده کرد.<nl/><nl/>در اینجا "
+"اتفاقی که برای پنجرهٔ بازشده بدون کنش مستقیم شما در هر سطح از جلوگیری از "
+"ربودن تمرکز می‌افتد آمده است:<nl/><list><item><emphasis "
+"strong='true'>هیچ:</emphasis> پنجره بالا آورده شده و متمرکز خواهد "
+"شد.</item><item><emphasis strong='true'>پایین:</emphasis> جلوگیری از ربودن "
+"تمرکز اعمال می‌شود، اما در صورت بروز وضعیتی که KWin آن را مبهم بداند، پنجره "
+"بالا آورده شده و متمرکز خواهد شد.</item><item><emphasis "
+"strong='true'>عادی:</emphasis> جلوگیری از ربودن تمرکز اعمال می‌شود، اما در "
+"صورت بروز وضعیتی که KWin آن را مبهم بداند، پنجره بالا آورده "
+"<emphasis>نخواهد</emphasis> شد و متمرکز نمی‌شود.</item><item><emphasis "
+"strong='true'>بالا:</emphasis> پنجره فقط در صورتی بالا آورده شده و متمرکز "
+"خواهد شد که به همان برنامهٔ پنجرهٔ متمرکز کنونی تعلق داشته "
+"باشد.</item><item><emphasis strong='true'>بسیار زیاد:</emphasis> پنجره هرگز "
+"بالا آورده نشده و متمرکز نخواهد شد.</item></list>"
+
+#: rulesmodel.cpp:650
+#, kde-format
+msgid "Focus protection"
+msgstr "محافظت از تمرکز"
+
+#: rulesmodel.cpp:652
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"This property controls the focus protection level of the currently active "
+"window. It is used to override the focus stealing prevention applied to new "
+"windows that are opened without your direct action.<nl/><nl/>Here's what "
+"happens to new windows that are opened without your direct action at each "
+"level of focus protection while the window with this property applied to it "
+"has focus:<nl/><list><item><emphasis strong='true'>None</emphasis>: Newly-"
+"opened windows always raise themselves and take focus.</item><item><emphasis"
+" strong='true'>Low:</emphasis> Focus stealing prevention will be applied to "
+"the newly-opened window, but in the case of a situation KWin considers "
+"ambiguous, the window will be raised and focused.</item><item><emphasis "
+"strong='true'>Normal:</emphasis> Focus stealing prevention will be applied "
+"to the newly-opened window, but in the case of a situation KWin considers "
+"ambiguous, the window will <emphasis>not</emphasis> be raised and "
+"focused.</item><item><emphasis strong='true'>High:</emphasis> Newly-opened "
+"windows will only raise themselves and take focus if they belongs to the "
+"same app as the currently-focused window.</item><item><emphasis "
+"strong='true'>Extreme:</emphasis> Newly-opened windows never raise "
+"themselves and take focus.</item></list>"
+msgstr ""
+"این ویژگی سطح محافظت از تمرکز پنجرهٔ فعال کنونی را کنترل می‌کند. این برای "
+"لغو جلوگیری از ربودن تمرکز اعمال‌شده بر پنجره‌های جدیدی که بدون کنش مستقیم "
+"شما باز می‌شوند استفاده می‌شود.<nl/><nl/>در اینجا اتفاقی که برای پنجره‌های "
+"جدید بازشده بدون کنش مستقیم شما در هر سطح از محافظت از تمرکز در حالی که "
+"پنجره‌ای با این ویژگی تمرکز را در اختیار دارد می‌افتد آمده "
+"است:<nl/><list><item><emphasis strong='true'>هیچ</emphasis>: پنجره‌های "
+"تازه‌بازشده همیشه خود را بالا می‌آورند و تمرکز را "
+"می‌گیرند.</item><item><emphasis strong='true'>پایین:</emphasis> جلوگیری از "
+"ربودن تمرکز به پنجرهٔ تازه‌بازشده اعمال خواهد شد، اما در صورت وضعیتی که KWin"
+" آن را مبهم بداند، پنجره بالا آورده شده و متمرکز خواهد "
+"شد.</item><item><emphasis strong='true'>عادی:</emphasis> جلوگیری از ربودن "
+"تمرکز به پنجرهٔ تازه‌بازشده اعمال خواهد شد، اما در صورت وضعیتی که KWin آن را"
+" مبهم بداند، پنجره بالا آورده <emphasis>نخواهد</emphasis> شد و متمرکز "
+"نمی‌شود.</item><item><emphasis strong='true'>بالا:</emphasis> پنجره‌های "
+"تازه‌بازشده فقط در صورتی بالا می‌آیند و تمرکز را می‌گیرند که به همان برنامهٔ"
+" پنجرهٔ متمرکز کنونی تعلق داشته باشند.</item><item><emphasis "
+"strong='true'>بسیار زیاد:</emphasis> پنجره‌های تازه‌بازشده هرگز بالا "
+"نمی‌آیند و تمرکز را نمی‌گیرند.</item></list>"
+
+#: rulesmodel.cpp:678
+#, kde-format
+msgid "Accept focus"
+msgstr "پذیرش تمرکز"
+
+#: rulesmodel.cpp:680
+#, kde-format
+msgid "Controls whether or not the window becomes focused when clicked."
+msgstr "کنترل می‌کند که پنجره هنگام کلیک‌شدن متمرکز شود یا خیر."
+
+#: rulesmodel.cpp:684
+#, kde-format
+msgid "Ignore global shortcuts"
+msgstr "نادیده‌گرفتن میانبرهای سراسری"
+
+#: rulesmodel.cpp:686
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this property to prevent global keyboard shortcuts from working while "
+"the window is focused. This can be useful for apps like emulators or virtual"
+" machines that handle some of the same shortcuts themselves.<nl/><nl/>Note "
+"that you won't be able to <shortcut>Alt+Tab</shortcut> out of the window or "
+"use any other global shortcuts such as <shortcut>Alt+Space</shortcut> to "
+"activate KRunner."
+msgstr ""
+"از این ویژگی برای جلوگیری از کارکرد میانبرهای صفحه‌کلید سراسری در حالی که "
+"پنجره متمرکز است استفاده کنید. این می‌تواند برای برنامه‌هایی مانند "
+"شبیه‌سازها یا ماشین‌های مجازی که برخی از همان میانبرها را خودشان مدیریت "
+"می‌کنند مفید باشد.<nl/><nl/>توجه داشته باشید که نمی‌توانید با "
+"<shortcut>Alt+Tab</shortcut> از پنجره خارج شوید یا از میانبرهای سراسری دیگر "
+"مانند <shortcut>Alt+Space</shortcut> برای فعال‌سازی KRunner استفاده کنید."
+
+#: rulesmodel.cpp:696
+#, kde-format
+msgid "Closeable"
+msgstr "قابل بستن"
+
+#: rulesmodel.cpp:701
+#, kde-format
+msgid "Desktop file name"
+msgstr "نام پروندهٔ میزکار"
+
+#: rulesmodel.cpp:706
+#, kde-format
+msgid "Layer"
+msgstr "لایه"
+
+#: rulesmodel.cpp:712
+#, kde-format
+msgid "Adaptive sync"
+msgstr "همگام‌سازی تطبیقی"
+
+#: rulesmodel.cpp:717
+#, kde-format
+msgid "Allow tearing"
+msgstr "اجازه به گسیختگی تصویر"
+
+#: rulesmodel.cpp:722
+#, kde-format
+msgid "Hide from screenshots and screen recordings"
+msgstr "پنهان کردن از نماگرفت‌ها و ضبط‌های صفحه"
+
+#: rulesmodel.cpp:775
+#, kde-format
+msgid "Window class not available"
+msgstr "کلاس پنجره در دسترس نیست"
+
+#: rulesmodel.cpp:776
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This application is not providing a class for the window, so KWin cannot use"
+" it to match and apply any rules. If you still want to apply some rules to "
+"it, try to match other properties like the window title "
+"instead.<nl/><nl/>Please consider reporting this bug to the application's "
+"developers."
+msgstr ""
+"این برنامه کلاسی برای پنجره ارائه نمی‌دهد، بنابراین KWin نمی‌تواند از آن "
+"برای تطبیق و اعمال قواعد استفاده کند. اگر همچنان می‌خواهید قواعدی را برای آن"
+" اعمال کنید، در عوض ویژگی‌های دیگری مانند عنوان پنجره را تطبیق "
+"دهید.<nl/><nl/>لطفاً گزارش این اشکال به توسعه‌دهندگان برنامه را مد نظر قرار "
+"دهید."
+
+#: rulesmodel.cpp:810
+#, kde-format
+msgid "All window types"
+msgstr "همهٔ انواع پنجره"
+
+#: rulesmodel.cpp:811
+#, kde-format
+msgid "Normal window"
+msgstr "پنجرهٔ عادی"
+
+#: rulesmodel.cpp:812
+#, kde-format
+msgid "Dialog window"
+msgstr "پنجرهٔ محاوره‌ای"
+
+#: rulesmodel.cpp:813
+#, kde-format
+msgid "Utility window"
+msgstr "پنجرهٔ ابزار"
+
+#: rulesmodel.cpp:814
+#, kde-format
+msgid "Dock (panel)"
+msgstr "داک (تابلو)"
+
+#: rulesmodel.cpp:815
+#, kde-format
+msgid "Toolbar"
+msgstr "نوار ابزار"
+
+#: rulesmodel.cpp:816
+#, kde-format
+msgid "Torn-off menu"
+msgstr "منوی جداشده"
+
+#: rulesmodel.cpp:817
+#, kde-format
+msgid "Splash screen"
+msgstr "صفحهٔ آغازین"
+
+#: rulesmodel.cpp:818 rulesmodel.cpp:919
+#, kde-format
+msgid "Desktop"
+msgstr "میزکار"
+
+#. i18n("Unmanaged Window")},  deprecated
+#: rulesmodel.cpp:820
+#, kde-format
+msgid "Standalone menubar"
+msgstr "نوار منوی مستقل"
+
+#: rulesmodel.cpp:821 rulesmodel.cpp:927
+#, kde-format
+msgid "On-screen display"
+msgstr "نمایش روی صفحه"
+
+#: rulesmodel.cpp:831
+#, kde-format
+msgid "All desktops"
+msgstr "همهٔ میزکارها"
+
+#: rulesmodel.cpp:833
+#, kde-format
+msgctxt "@info:tooltip in the virtual desktop list"
+msgid "Make the window available on all desktops"
+msgstr "در دسترس قرار دادن پنجره در همهٔ میزکارها"
+
+#: rulesmodel.cpp:852
+#, kde-format
+msgid "All activities"
+msgstr "همهٔ فعالیت‌ها"
+
+#: rulesmodel.cpp:854
+#, kde-format
+msgctxt "@info:tooltip in the activity list"
+msgid "Make the window available on all activities"
+msgstr "در دسترس قرار دادن پنجره در همهٔ فعالیت‌ها"
+
+#: rulesmodel.cpp:875
+#, kde-format
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: rulesmodel.cpp:876
+#, kde-format
+msgid "No placement"
+msgstr "بدون جای‌گذاری"
+
+#: rulesmodel.cpp:877
+#, kde-format
+msgid "Minimal overlapping"
+msgstr "کمترین هم‌پوشانی"
+
+#: rulesmodel.cpp:878
+#, kde-format
+msgid "Maximized"
+msgstr "بیشینه‌شده"
+
+#: rulesmodel.cpp:879
+#, kde-format
+msgid "Centered"
+msgstr "در مرکز"
+
+#: rulesmodel.cpp:880
+#, kde-format
+msgid "Random"
+msgstr "تصادفی"
+
+#: rulesmodel.cpp:881
+#, kde-format
+msgid "In top-left corner"
+msgstr "در گوشهٔ بالا سمت چپ"
+
+#: rulesmodel.cpp:882
+#, kde-format
+msgid "Under mouse"
+msgstr "زیر موشی"
+
+#: rulesmodel.cpp:883
+#, kde-format
+msgid "On main window"
+msgstr "روی پنجرهٔ اصلی"
+
+#: rulesmodel.cpp:890
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: rulesmodel.cpp:891
+#, kde-format
+msgid "Low"
+msgstr "کم"
+
+#: rulesmodel.cpp:892 rulesmodel.cpp:921
+#, kde-format
+msgid "Normal"
+msgstr "عادی"
+
+#: rulesmodel.cpp:893
+#, kde-format
+msgid "High"
+msgstr "زیاد"
+
+#: rulesmodel.cpp:894
+#, kde-format
+msgid "Extreme"
+msgstr "شدید"
+
+#: rulesmodel.cpp:920
+#, kde-format
+msgid "Below"
+msgstr "پایین"
+
+#: rulesmodel.cpp:922
+#, kde-format
+msgid "Above"
+msgstr "بالا"
+
+#: rulesmodel.cpp:923
+#, kde-format
+msgid "Notification"
+msgstr "اعلان"
+
+#: rulesmodel.cpp:925
+#, kde-format
+msgid "Popup"
+msgstr "پنجرهٔ بازشو"
+
+#: rulesmodel.cpp:926
+#, kde-format
+msgid "Critical notification"
+msgstr "اعلان بحرانی"
+
+#: rulesmodel.cpp:928
+#, kde-format
+msgid "Overlay"
+msgstr "هم‌پوشان"
+
+#: rulesmodel.cpp:936
+#, kde-format
+msgctxt "Never draw a server side decoration"
+msgid "Never"
+msgstr "هرگز"
+
+#: rulesmodel.cpp:937
+#, kde-format
+msgctxt "Draw a server side decoration if the application asks for it"
+msgid "If the application asks"
+msgstr "در صورت درخواست برنامه"
+
+#: rulesmodel.cpp:938
+#, kde-format
+msgctxt "Always draw a server side decoration"
+msgid "Always"
+msgstr "همیشه"
+
+#: rulesmodel.cpp:939
+#, kde-format
+msgctxt "Always draw a server side drop shadow"
+msgid "Only shadow"
+msgstr "فقط سایه"
+
+#: rulesmodel.cpp:964
+#, kde-format
+msgid "Unmanaged window"
+msgstr "پنجرهٔ مدیریت‌نشده"
+
+#: rulesmodel.cpp:965
+#, kde-format
+msgid "Could not detect window properties. The window is not managed by KWin."
+msgstr "تشخیص ویژگی‌های پنجره ممکن نشد. پنجره توسط KWin مدیریت نمی‌شود."
+
+#: ui/FileDialogLoader.qml:15
+#, kde-format
+msgid "Select File"
+msgstr "انتخاب پرونده"
+
+#: ui/FileDialogLoader.qml:27
+#, kde-format
+msgid "KWin Rules (*.kwinrule)"
+msgstr "قواعد KWin (*.kwinrule)"
+
+#: ui/main.qml:28
+#, kde-format
+msgid "Add New…"
+msgstr "افزودن جدید…"
+
+#: ui/main.qml:35
+#, kde-format
+msgid "Import…"
+msgstr "درون‌ریزی…"
+
+#: ui/main.qml:40
+#, kde-format
+msgid "Cancel Export"
+msgstr "لغو برون‌ریزی"
+
+#: ui/main.qml:40
+#, kde-format
+msgid "Export…"
+msgstr "برون‌ریزی…"
+
+#: ui/main.qml:88
+#, kde-format
+msgid "No rules for specific windows are currently set"
+msgstr "در حال حاضر هیچ قاعده‌ای برای پنجره‌های خاص تنظیم نشده است"
+
+#: ui/main.qml:89
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click <interface>Add New…</interface> to add some"
+msgstr "برای افزودن، روی <interface>افزودن جدید…</interface> کلیک کنید"
+
+#: ui/main.qml:97
+#, kde-format
+msgid "Select the rules to export"
+msgstr "قواعد را برای برون‌ریزی انتخاب کنید"
+
+#: ui/main.qml:101
+#, kde-format
+msgid "Unselect All"
+msgstr "لغو انتخاب همه"
+
+#: ui/main.qml:101
+#, kde-format
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: ui/main.qml:115
+#, kde-format
+msgid "Save Rules"
+msgstr "ذخیرهٔ قواعد"
+
+#: ui/main.qml:202
+#, kde-format
+msgid "Edit"
+msgstr "ویرایش"
+
+#: ui/main.qml:208
+#, kde-format
+msgid "Duplicate"
+msgstr "تکثیر"
+
+#: ui/main.qml:214
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: ui/main.qml:246
+#, kde-format
+msgid "Import Rules"
+msgstr "درون‌ریزی قواعد"
+
+#: ui/main.qml:258
+#, kde-format
+msgid "Export Rules"
+msgstr "برون‌ریزی قواعد"
+
+#: ui/OptionsComboBox.qml:35
+#, kde-format
+msgid "None selected"
+msgstr "هیچ‌کدام انتخاب نشده"
+
+#: ui/OptionsComboBox.qml:41
+#, kde-format
+msgid "All selected"
+msgstr "همه انتخاب شده"
+
+#: ui/OptionsComboBox.qml:43
+#, kde-format
+msgid "%1 selected"
+msgid_plural "%1 selected"
+msgstr[0] "%1 مورد انتخاب شده"
+msgstr[1] "%1 مورد انتخاب شده"
+
+#: ui/RulesEditor.qml:66
+#, kde-format
+msgid "No window properties changed"
+msgstr "هیچ ویژگی پنجره‌ای تغییر نکرده است"
+
+#: ui/RulesEditor.qml:67
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Click the <interface>Add Property...</interface> button below to add some "
+"window properties that will be affected by the rule"
+msgstr ""
+"روی دکمهٔ <interface>افزودن ویژگی…</interface> در پایین کلیک کنید تا "
+"ویژگی‌های پنجره‌ای که تحت تأثیر این قاعده قرار می‌گیرند افزوده شوند"
+
+#: ui/RulesEditor.qml:88
+#, kde-format
+msgid "Add Property..."
+msgstr "افزودن ویژگی…"
+
+#: ui/RulesEditor.qml:99
+#, kde-format
+msgid "Detect Window Properties"
+msgstr "تشخیص ویژگی‌های پنجره"
+
+#: ui/RulesEditor.qml:115 ui/RulesEditor.qml:126
+#, kde-format
+msgid "Instantly"
+msgstr "بلافاصله"
+
+#: ui/RulesEditor.qml:116 ui/RulesEditor.qml:131
+#, kde-format
+msgid "After %1 second"
+msgid_plural "After %1 seconds"
+msgstr[0] "پس از %1 ثانیه"
+msgstr[1] "پس از %1 ثانیه"
+
+#: ui/RulesEditor.qml:178
+#, kde-format
+msgid "Add property to the rule"
+msgstr "افزودن ویژگی به قاعده"
+
+#: ui/RulesEditor.qml:269
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No properties left to add"
+msgstr "هیچ ویژگی‌ای برای افزودن باقی نمانده است"
+
+#: ui/RulesEditor.qml:271
+#, kde-format
+msgctxt "@info:placeholder %1 is a filter text introduced by the user"
+msgid "No properties match \"%1\""
+msgstr "هیچ ویژگی‌ای با «%1» مطابقت ندارد"
+
+#: ui/RulesEditor.qml:292 ui/ValueEditor.qml:54
+#, kde-format
+msgid "Yes"
+msgstr "بله"
+
+#: ui/RulesEditor.qml:292 ui/ValueEditor.qml:60
+#, kde-format
+msgid "No"
+msgstr "خیر"
+
+#: ui/RulesEditor.qml:294 ui/ValueEditor.qml:168 ui/ValueEditor.qml:175
+#, kde-format
+msgid "%1 %"
+msgstr "%1 ٪"
+
+#: ui/RulesEditor.qml:296
+#, kde-format
+msgctxt "Coordinates (x, y)"
+msgid "(%1, %2)"
+msgstr "(%1، %2)"
+
+#: ui/RulesEditor.qml:298
+#, kde-format
+msgctxt "Size (width, height)"
+msgid "(%1, %2)"
+msgstr "(%1، %2)"
+
+#: ui/ValueEditor.qml:203
+#, kde-format
+msgctxt "(x, y) coordinates separator in size/position"
+msgid "x"
+msgstr "x"

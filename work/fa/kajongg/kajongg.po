@@ -1,0 +1,2367 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kajongg package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kajongg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:49+0000\n"
+"PO-Revision-Date: 2026-10-15 18:58+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "kajongg"
+msgid "Game"
+msgstr "بازی"
+
+msgid "View"
+msgstr "نمایش"
+
+msgid "Toolbar"
+msgstr "نوار ابزار"
+
+#: src/background.py:71 src/tileset.py:48
+msgid "file <filename>%1</filename> contains no valid SVG"
+msgstr "پروندهٔ <filename>%1</filename> شامل SVG معتبری نیست"
+
+#: src/backgroundselector.py:107
+msgctxt "BackgroundSelector"
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: src/backgroundselector.py:108
+msgctxt "BackgroundSelector"
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+#: src/backgroundselector.py:109
+msgctxt "BackgroundSelector"
+msgid "Author:"
+msgstr "پدیدآورنده:"
+
+#: src/backgroundselector.py:110
+msgctxt "BackgroundSelector"
+msgid "Contact:"
+msgstr "تماس:"
+
+#: src/backgroundselector.py:111
+msgctxt "BackgroundSelector"
+msgid "Description:"
+msgstr "توضیحات:"
+
+#: src/board.py:335
+msgctxt "kajongg:arrow keys hjkl like in konqueror"
+msgid "hjklHJKL"
+msgstr "hjklHJKL"
+
+#: src/board.py:385
+msgid "Choose from"
+msgstr "انتخاب از"
+
+#: src/chat.py:51
+msgid "Time"
+msgstr "زمان"
+
+#: src/chat.py:51 src/playerlist.py:90
+msgid "Player"
+msgstr "بازیکن"
+
+#: src/chat.py:51
+msgid "Message"
+msgstr "پیام"
+
+#: src/chat.py:125
+msgid "Chat on table %1 at %2"
+msgstr "گپ روی میز %1 در %2"
+
+#: src/client.py:69
+msgctxt "table status"
+msgid "Suspended"
+msgstr "معلق"
+
+#: src/client.py:74
+msgctxt "table status"
+msgid "Running"
+msgstr "در حال اجرا"
+
+#: src/client.py:75
+msgctxt "table status"
+msgid "New"
+msgstr "جدید"
+
+#: src/configdialog.py:47
+msgid "Show tile shadows"
+msgstr "نمایش سایه کاشی‌ها"
+
+#: src/configdialog.py:50
+msgid "Rearrange undisclosed tiles to melds"
+msgstr "بازآرایی کاشی‌های پنهان در دسته‌ها"
+
+#: src/configdialog.py:53
+msgid "Show only possible actions"
+msgstr "فقط کنش‌های ممکن نشان داده شود"
+
+#: src/configdialog.py:56
+msgid "Propose what to do"
+msgstr "پیشنهاد کار بعدی"
+
+#: src/configdialog.py:62
+msgid "Animation speed:"
+msgstr "سرعت پویانمایی:"
+
+#: src/configdialog.py:66
+msgid "Use sounds if available"
+msgstr "استفاده از صدا در صورت دسترسی"
+
+#: src/configdialog.py:69
+msgid "Let others hear my voice"
+msgstr "اجازه به دیگران برای شنیدن صدای من"
+
+#: src/configdialog.py:103
+msgctxt "kajongg"
+msgid "Play"
+msgstr "بازی"
+
+#: src/configdialog.py:106
+msgid "Tiles"
+msgstr "کاشی‌ها"
+
+#: src/configdialog.py:109
+msgid "Backgrounds"
+msgstr "پس‌زمینه‌ها"
+
+#: src/deferredutil.py:272 src/deferredutil.py:436
+msgid "The game server lost connection to player %1"
+msgstr "اتصال کارساز بازی به بازیکن %1 قطع شد"
+
+#: src/deferredutil.py:275
+msgid ""
+"Error for player %1: %2\n"
+"%3"
+msgstr ""
+"خطا برای بازیکن %1: %2\n"
+"%3"
+
+#: src/differ.py:72
+msgctxt "Kajongg"
+msgid "Rule"
+msgstr "قاعده"
+
+#: src/differ.py:127
+msgctxt "@title:window"
+msgid "Compare"
+msgstr "مقایسه"
+
+#: src/differ.py:170 src/differ.py:172
+msgctxt "Kajongg-Rule"
+msgid "not defined"
+msgstr "تعریف‌نشده"
+
+#: src/game.py:404
+msgid "Score computed manually"
+msgstr "امتیاز به‌صورت دستی محاسبه شد"
+
+#: src/game.py:502
+msgid "Player %1 not known"
+msgstr "بازیکن %1 ناشناخته است"
+
+#: src/game.py:925
+msgid "Short living wall: Tile is invisible, hence dangerous"
+msgstr "دیوار زنده کوتاه: کاشی نامرئی است، در نتیجه خطرناک است"
+
+#: src/games.py:95 src/playerlist.py:67 src/tables.py:67
+msgid "Players"
+msgstr "بازیکنان"
+
+#: src/games.py:95
+msgid "Started"
+msgstr "شروع شد"
+
+#: src/games.py:107
+msgctxt "@title:window"
+msgid "Games"
+msgstr "بازی‌ها"
+
+#: src/games.py:124
+msgctxt "start a new game"
+msgid "&New"
+msgstr "جدید"
+
+#: src/games.py:129
+msgid "&Load"
+msgstr "بارگذاری"
+
+#: src/games.py:134 src/playerlist.py:56
+msgid "&Delete"
+msgstr "حذف"
+
+#: src/games.py:139
+msgid "Show only pending games"
+msgstr "فقط نمایش بازی‌های در انتظار"
+
+#: src/games.py:247
+msgid ""
+"Do you really want to delete <numid>%1</numid> games?<br>This will be final,"
+" you cannot cancel it with the cancel button"
+msgstr ""
+"آیا واقعاً می‌خواهید <numid>%1</numid> بازی را حذف کنید؟<br>این عمل قطعی "
+"خواهد بود و نمی‌توانید با دکمه لغو آن را لغو کنید"
+
+#: src/guiutil.py:134 src/kdestub.py:120 src/kdestub.py:123
+msgid "Kajongg"
+msgstr "کاجونگ"
+
+#: src/humanclient.py:66
+msgid "Which chow do you want to expose?"
+msgstr "کدام چو (chow) را می‌خواهید رو کنید؟"
+
+#: src/humanclient.py:104
+msgid "Which kong do you want to declare?"
+msgstr "کدام کونگ (kong) را می‌خواهید اعلان کنید؟"
+
+#: src/humanclient.py:172
+msgid "Choose"
+msgstr "انتخاب"
+
+#: src/humanclient.py:383
+msgid "You cannot say %1"
+msgstr "شما نمی‌توانید بگویید %1"
+
+#: src/humanclient.py:608
+msgid "Player %1 has left the table"
+msgstr "بازیکن %1 میز را ترک کرد"
+
+#: src/humanclient.py:671
+msgid ""
+"The game on table <numid>%1</numid> can begin. Are you ready to play now?"
+msgstr ""
+"بازی روی میز <numid>%1</numid> می‌تواند آغاز شود. آیا اکنون برای بازی "
+"آماده‌اید؟"
+
+#: src/humanclient.py:691
+msgid "Ready for next hand?"
+msgstr "برای دست بعد آماده‌اید؟"
+
+#: src/humanclient.py:967
+msgid "The connection to the server %1 broke, please try again later."
+msgstr "اتصال به کارساز %1 قطع شد، لطفاً بعداً دوباره تلاش کنید."
+
+#: src/kajongg.py:81 src/kdestub.py:1092
+msgid "Mah Jongg - the ancient Chinese board game for 4 players"
+msgstr "ماهجونگ - بازی تخته‌ای باستانی چینی برای ۴ بازیکن"
+
+#: src/kajongg.py:85
+msgid "all robots play with visible concealed tiles"
+msgstr "همهٔ ربات‌ها با کاشی‌های مخفیِ قابل مشاهده بازی کنند"
+
+#: src/kajongg.py:86
+msgid "start with demo mode"
+msgstr "شروع با حالت نمایشی"
+
+#: src/kajongg.py:87
+msgid "login to HOST"
+msgstr "ورود به میزبان"
+
+#: src/kajongg.py:88
+msgid "start new TABLE"
+msgstr "شروع میز جدید"
+
+#: src/kajongg.py:89
+msgid "join TABLE"
+msgstr "پیوستن به میز"
+
+#: src/kajongg.py:90
+msgid "use RULESET without asking"
+msgstr "استفاده از مجموعه قوانین بدون پرسش"
+
+#: src/kajongg.py:91
+msgid "prefer PLAYER for next login"
+msgstr "ترجیح PLAYER برای ورود بعدی"
+
+#: src/kajongg.py:92
+msgid "use AI variant for human player in demo mode"
+msgstr "استفاده از نوع هوش مصنوعی برای بازیکن انسان در حالت نمایشی"
+
+#: src/kajongg.py:93
+msgid "write statistics to CSV"
+msgstr "نوشتن آمار در فایل CSV"
+
+#: src/kajongg.py:94
+msgid "show all available rulesets"
+msgstr "نمایش همه مجموعه‌قوانین موجود"
+
+#: src/kajongg.py:95
+msgid "for testing purposes: Initializes the random generator"
+msgstr "برای اهداف آزمایشی: مقداردهی اولیه تولیدکننده تصادفی"
+
+#: src/kajongg.py:97
+msgid "show no graphical user interface. Intended only for testing"
+msgstr "عدم نمایش رابط کاربری گرافیکی. فقط برای آزمایش در نظر گرفته شده است"
+
+#: src/kajongg.py:99
+msgid ""
+"use a dedicated server already running and listening on SOCKET. Intended "
+"only for testing"
+msgstr ""
+"استفاده از سرور اختصاصی که از قبل در حال اجرا بوده و روی SOCKET گوش می‌دهد. "
+"فقط برای آزمایش در نظر گرفته شده است"
+
+#: src/kajongg.py:101
+msgid ""
+"use a dedicated server already running and listening on PORT. Intended only "
+"for testing"
+msgstr ""
+"استفاده از سرور اختصاصی که از قبل در حال اجرا بوده و روی PORT گوش می‌دهد. "
+"فقط برای آزمایش در نظر گرفته شده است"
+
+#: src/kdestub.py:278
+msgid "&OK"
+msgstr "تأیید"
+
+#: src/kdestub.py:279
+msgid "&Apply"
+msgstr "اعمال"
+
+#: src/kdestub.py:280
+msgid "&Cancel"
+msgstr "لغو"
+
+#: src/kdestub.py:281 src/kdestub.py:469
+msgid "&Help"
+msgstr "راهنما"
+
+#: src/kdestub.py:282
+msgid "&Defaults"
+msgstr "پیش‌فرض‌ها"
+
+#: src/kdestub.py:352
+msgctxt "@action:inmenu"
+msgid "Show St&atusbar"
+msgstr "نمایش نوار وضعیت"
+
+#: src/kdestub.py:358
+msgctxt "@action:inmenu"
+msgid "Show &Toolbar"
+msgstr "نمایش نوار ابزار"
+
+#: src/kdestub.py:364
+msgid "Configure Tool&bars..."
+msgstr "پیکربندی نوارهای ابزار..."
+
+#: src/kdestub.py:366
+msgid "Configure toolbars"
+msgstr "پیکربندی نوارهای ابزار"
+
+#: src/kdestub.py:373
+msgid "Configure &Kajongg..."
+msgstr "پیکربندی کاجونگ..."
+
+#: src/kdestub.py:375 src/kdestub.py:1153
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: src/kdestub.py:465
+msgid "&Game"
+msgstr "بازی"
+
+#: src/kdestub.py:466
+msgid "&View"
+msgstr "نما"
+
+#: src/kdestub.py:467
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#: src/kdestub.py:477
+msgctxt "@action:inmenu"
+msgid "&Help"
+msgstr "راهنما"
+
+#: src/kdestub.py:480 src/kdestub.py:857
+msgid "Switch Application Language"
+msgstr "تغییر زبان برنامه"
+
+#: src/kdestub.py:484
+msgctxt "@action:inmenu"
+msgid "About &Kajongg"
+msgstr "دربارهٔ کاجونگ"
+
+#: src/kdestub.py:862
+msgid "Please choose the language which should be used for this application:"
+msgstr "لطفاً زبانی را که باید برای این برنامه استفاده شود انتخاب کنید:"
+
+#: src/kdestub.py:881
+msgid "Add Fallback Language"
+msgstr "افزودن زبان جایگزین"
+
+#: src/kdestub.py:893
+msgid "Primary language:"
+msgstr "زبان اصلی:"
+
+#: src/kdestub.py:893
+msgid "Fallback language:"
+msgstr "زبان جایگزین:"
+
+#: src/kdestub.py:899
+msgid "Remove"
+msgstr "حذف"
+
+#: src/kdestub.py:903
+msgid ""
+"This is the main application language which will be used first, before any "
+"other languages."
+msgstr "این زبان اصلی برنامه است که پیش از هر زبان دیگری استفاده خواهد شد."
+
+#: src/kdestub.py:905
+msgid ""
+"This is the language which will be used if any previous languages do not "
+"contain a proper translation."
+msgstr ""
+"این زبانی است که در صورت نداشتن ترجمه مناسب در زبان‌های قبلی، استفاده خواهد "
+"شد."
+
+#: src/kdestub.py:1035
+msgid "About Kajongg"
+msgstr "دربارهٔ Kajongg"
+
+#: src/kdestub.py:1055
+msgid "Version: %1"
+msgstr "نسخه: %1"
+
+#: src/kdestub.py:1056
+msgid "Protocol version %1"
+msgstr "نسخهٔ پروتکل %1"
+
+#: src/kdestub.py:1059
+msgid "Original author"
+msgstr "نویسندهٔ اصلی"
+
+#: src/kdestub.py:1066
+msgid "KDE Frameworks (not installed or not usable)"
+msgstr "چارچوب‌های KDE (نصب‌نشده یا غیرقابل‌استفاده)"
+
+#: src/kdestub.py:1072
+msgctxt "kajongg"
+msgid "Using versions %1"
+msgstr "استفاده از نسخه‌های %1"
+
+#: src/kdestub.py:1093
+msgid ""
+"This is the classical Mah Jongg for four players. If you are looking for Mah"
+" Jongg solitaire please use the application kmahjongg."
+msgstr ""
+"این بازی کلاسیک ماژونگ برای چهار بازیکن است. اگر به‌دنبال بازی یک‌نفرهٔ "
+"ماژونگ (solitaire) هستید، لطفاً از برنامهٔ kmahjongg استفاده کنید."
+
+#: src/kdestub.py:1110
+msgid ""
+"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+"report bugs."
+msgstr ""
+"لطفاً برای گزارش خطاها از <a "
+"href=\"https://bugs.kde.org\">https://bugs.kde.org</a> استفاده کنید."
+
+#: src/kdestub.py:1115
+msgid "Authors:"
+msgstr "نویسندگان:"
+
+#: src/kdestub.py:1356
+msgid "Configure Toolbars"
+msgstr "پیکربندی نوارهای ابزار"
+
+#: src/kdestub.py:1358
+msgid "A&vailable actions:"
+msgstr "کنش‌های موجود:"
+
+#: src/kdestub.py:1369
+msgid "Curr&ent actions:"
+msgstr "کنش‌های کنونی:"
+
+#: src/login.py:177
+msgid "trying to start local server %1"
+msgstr "تلاش برای راه‌اندازی کارساز محلی %1"
+
+#: src/login.py:188 src/login.py:637
+msgid "removed stale socket <filename>%1</filename>"
+msgstr "سوکت بی‌استفاده <filename>%1</filename> حذف شد"
+
+#: src/login.py:208
+msgid "started the local kajongg server: pid=<numid>%1</numid> %2"
+msgstr "کارساز محلی kajongg راه‌اندازی شد: شناسه فرایند=<numid>%1</numid> %2"
+
+#: src/login.py:251
+msgctxt "kajongg"
+msgid "Login"
+msgstr "ورود"
+
+#: src/login.py:300 src/login.py:406
+msgid "Game server:"
+msgstr "کارساز بازی:"
+
+#: src/login.py:303 src/login.py:408
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#: src/login.py:306 src/login.py:411
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: src/login.py:308
+msgctxt "kajongg"
+msgid "Ruleset:"
+msgstr "مجموعه قوانین:"
+
+#: src/login.py:400
+msgctxt "@title:window"
+msgid "Create User Account"
+msgstr "ایجاد حساب کاربری"
+
+#: src/login.py:414
+msgid "Repeat password:"
+msgstr "تکرار گذرواژه:"
+
+#: src/login.py:565
+msgid "You are already connected to server %1"
+msgstr "شما از پیش به کارساز %1 متصل هستید"
+
+#: src/login.py:605
+msgctxt "USER is not known on SERVER"
+msgid "%1 is not known on %2, do you want to open an account?"
+msgstr "کاربر %1 در %2 ناشناخته است، آیا می‌خواهید حسابی باز کنید؟"
+
+#: src/login.py:618
+msgid "Server %1 did not answer"
+msgstr "کارساز %1 پاسخ نداد"
+
+#: src/login.py:620
+msgid "Server %1 refused connection"
+msgstr "کارساز %1 اتصال را رد کرد"
+
+#: src/login.py:622
+msgid "Server %1 does not run a kajongg server"
+msgstr "روی کارساز %1 کارساز kajongg اجرا نمی‌شود"
+
+#: src/login.py:624
+msgid "Address for server %1 cannot be found"
+msgstr "نشانی کارساز %1 یافت نمی‌شود"
+
+#: src/login.py:627
+msgid "Login to server %1 failed: You have no network connection"
+msgstr "ورود به سرور %1 ناموفق بود: اتصال شبکه ندارید"
+
+#: src/login.py:638
+msgid "Please try again"
+msgstr "لطفاً دوباره تلاش کنید"
+
+#: src/mainwindow.py:486
+msgctxt "@action:inmenu"
+msgid "&Score Manual Game"
+msgstr "امتیازدهی بازی دستی"
+
+#: src/mainwindow.py:488
+msgctxt "@action:intoolbar"
+msgid "Manual Game"
+msgstr "بازی دستی"
+
+#: src/mainwindow.py:491
+msgctxt "kajongg @info:tooltip"
+msgid "&Score a manual game."
+msgstr "امتیازدهی به یک بازی دستی."
+
+#: src/mainwindow.py:493
+msgctxt "@action:intoolbar"
+msgid "&Play"
+msgstr "بازی"
+
+#: src/mainwindow.py:496
+msgctxt "kajongg @info:tooltip"
+msgid "Start a new game."
+msgstr "شروع یک بازی جدید."
+
+#: src/mainwindow.py:498
+msgctxt "@action:inmenu"
+msgid "&Abort Game"
+msgstr "لغو بازی"
+
+#: src/mainwindow.py:502
+msgctxt "kajongg @info:tooltip"
+msgid "Abort the current game."
+msgstr "لغو بازی فعلی."
+
+#: src/mainwindow.py:504
+msgctxt "@action:inmenu"
+msgid "&Quit Kajongg"
+msgstr "خروج از کاجونگ"
+
+#: src/mainwindow.py:507
+msgctxt "@action:intoolbar"
+msgid "&Players"
+msgstr "بازیکنان"
+
+#: src/mainwindow.py:510
+msgctxt "kajongg @info:tooltip"
+msgid "define your players."
+msgstr "تعریف بازیکنانتان."
+
+#: src/mainwindow.py:512
+msgctxt "@action:intoolbar"
+msgid "&Rulesets"
+msgstr "مجموعه‌قوانین"
+
+#: src/mainwindow.py:515
+msgctxt "kajongg @info:tooltip"
+msgid "customize rulesets."
+msgstr "سفارشی‌سازی مجموعه‌قوانین."
+
+#: src/mainwindow.py:519
+msgctxt "@action:inmenu"
+msgid "&Change Visual Angle"
+msgstr "تغییر زاویه دید"
+
+#: src/mainwindow.py:520
+msgctxt "@action:intoolbar"
+msgid "Angle"
+msgstr "زاویه"
+
+#: src/mainwindow.py:523
+msgctxt "kajongg @info:tooltip"
+msgid "Change the visual appearance of the tiles."
+msgstr "تغییر ظاهر بصری کاشی‌ها."
+
+#: src/mainwindow.py:527
+msgctxt "@action:inmenu"
+msgid "F&ull Screen Mode"
+msgstr "حالت تمام‌صفحه"
+
+#: src/mainwindow.py:530
+msgctxt "kajongg @action:inmenu"
+msgid "&Score Table"
+msgstr "جدول امتیازها"
+
+#: src/mainwindow.py:532
+msgctxt "kajongg @action:intoolbar"
+msgid "&Scores"
+msgstr "امتیازها"
+
+#: src/mainwindow.py:534
+msgctxt "kajongg @info:tooltip"
+msgid "Show or hide the score table for the current game."
+msgstr "نمایش یا پنهان‌سازی جدول امتیازهای بازی فعلی."
+
+#: src/mainwindow.py:536
+msgctxt "@action:inmenu"
+msgid "&Explain Scores"
+msgstr "توضیح امتیازها"
+
+#: src/mainwindow.py:537
+msgctxt "@action:intoolbar"
+msgid "&Explain"
+msgstr "توضیح"
+
+#: src/mainwindow.py:539
+msgctxt "kajongg @info:tooltip"
+msgid "Explain the scoring for all players in the current game."
+msgstr "توضیح نحوهٔ امتیازدهی برای همهٔ بازیکنان در بازی فعلی."
+
+#: src/mainwindow.py:541
+msgctxt "@action:inmenu"
+msgid "&Demo Mode"
+msgstr "حالت نمایشی"
+
+#: src/mainwindow.py:544
+msgctxt "kajongg @info:tooltip"
+msgid "Let the computer take over for you. Start a new local game if needed."
+msgstr ""
+"اجازه دهید رایانه به‌جای شما بازی کند. در صورت نیاز یک بازی محلی جدید آغاز "
+"می‌شود."
+
+#: src/mainwindow.py:546
+msgid "C&hat"
+msgstr "گپ"
+
+#: src/mainwindow.py:549
+msgctxt "kajongg @info:tooltip"
+msgid "Chat with the other players."
+msgstr "گپ زدن با سایر بازیکنان."
+
+#: src/message.py:250
+msgid "saying %1 violates Original Call"
+msgstr "اعلام %1 ناقض «اعلام اولیه» (Original Call) است"
+
+#: src/message.py:263
+msgid ""
+"claiming %1 is dangerous because you will have to discard a dangerous tile"
+msgstr ""
+"درخواست %1 خطرناک است زیرا مجبور خواهید شد یک مهرهٔ خطرناک را کنار بگذارید"
+
+#: src/message.py:268
+msgid ""
+"claiming %1 for %2 is dangerous because you will have to discard a dangerous"
+" tile"
+msgstr ""
+"درخواست %1 برای %2 خطرناک است زیرا مجبور خواهید شد یک کاشی خطرناک را دور "
+"بیندازید"
+
+#: src/message.py:271
+msgid "You may say %1"
+msgstr "می‌توانید بگویید %1"
+
+#: src/message.py:280
+msgctxt "kajongg"
+msgid "Pung"
+msgstr "پونگ"
+
+#: src/message.py:281
+msgctxt "kajongg game dialog:Key for Pung"
+msgid "P"
+msgstr "پ"
+
+#: src/message.py:299
+msgctxt "kajongg"
+msgid "Kong"
+msgstr "کونگ"
+
+#: src/message.py:300
+msgctxt "kajongg game dialog:Key for Kong"
+msgid "K"
+msgstr "ک"
+
+#: src/message.py:326
+msgid "saying Kong for %1 violates Original Call"
+msgstr "گفتن کونگ برای %1، فراخوان اولیه (Original Call) را نقض می‌کند"
+
+#: src/message.py:330
+msgid "You may say Kong for %1"
+msgstr "می‌توانید برای %1 بگویید کونگ"
+
+#: src/message.py:344
+msgctxt "kajongg"
+msgid "Chow"
+msgstr "چو"
+
+#: src/message.py:345
+msgctxt "kajongg game dialog:Key for Chow"
+msgid "C"
+msgstr "چ"
+
+#: src/message.py:378
+msgctxt "kajongg"
+msgid "Mah Jongg"
+msgstr "ماه جونگ"
+
+#: src/message.py:379
+msgctxt "kajongg game dialog:Key for Mah Jongg"
+msgid "M"
+msgstr "M"
+
+#: src/message.py:387
+msgid "Press here and you win"
+msgstr "اینجا را فشار دهید تا برنده شوید"
+
+#: src/message.py:401
+msgctxt "kajongg"
+msgid "Original Call"
+msgstr "اعلام اولیه"
+
+#: src/message.py:402
+msgctxt "kajongg game dialog:Key for Original Call"
+msgid "O"
+msgstr "O"
+
+#: src/message.py:418
+msgid "discarding %1 and declaring Original Call makes this hand unwinnable"
+msgstr "دور انداختن %1 و اعلام اولیه، بردن این دست را غیرممکن می‌کند"
+
+#: src/message.py:422
+msgid ""
+"Discard a tile, declaring Original Call meaning you need only one tile to "
+"complete the hand and will not alter the hand in any way (except bonus "
+"tiles)"
+msgstr ""
+"یک کاشی را دور بیندازید و «اعلام اولیه» کنید، به این معنی که فقط به یک کاشی "
+"برای تکمیل دست نیاز دارید و به هیچ وجه دست را تغییر نخواهید داد (به جز "
+"کاشی‌های جایزه)"
+
+#: src/message.py:447
+msgctxt "kajongg"
+msgid "Discard"
+msgstr "دور انداختن"
+
+#: src/message.py:448
+msgctxt "kajongg game dialog:Key for Discard"
+msgid "D"
+msgstr "D"
+
+#: src/message.py:465
+msgid "discarding %1 violates Original Call"
+msgstr "دور انداختن %1، اعلام اولیه را نقض می‌کند"
+
+#: src/message.py:468
+msgid "discarding %1 is Dangerous Game"
+msgstr "دور انداختن %1 بازی خطرناکی است"
+
+#: src/message.py:471
+msgid "discard the least useful tile"
+msgstr "کم‌فایده‌ترین کاشی را دور بیندازید"
+
+#: src/message.py:551
+msgid "%1 is not ready to start the game"
+msgstr "%1 برای شروع بازی آماده نیست"
+
+#: src/message.py:590
+msgid "Kajongg <numid>%1</numid>"
+msgstr "کاجونگ <numid>%1</numid>"
+
+#: src/message.py:676
+msgctxt "kajongg"
+msgid "Violates Original Call"
+msgstr "نقض اعلان اولیه"
+
+#: src/message.py:819
+msgctxt "kajongg"
+msgid "Dangerous Game"
+msgstr "بازی خطرناک"
+
+#: src/message.py:834
+msgctxt "kajongg"
+msgid "No Choice"
+msgstr "بدون انتخاب"
+
+#: src/message.py:896
+msgctxt "kajongg"
+msgid "OK"
+msgstr "تأیید"
+
+#: src/message.py:897
+msgctxt "kajongg game dialog:Key for OK"
+msgid "O"
+msgstr "ت"
+
+#: src/message.py:901
+msgid "Confirm that you saw the message"
+msgstr "تأیید کنید که پیام را دیده‌اید"
+
+#: src/message.py:909
+msgctxt "kajongg"
+msgid "No Claim"
+msgstr "بدون ادعا"
+
+#: src/message.py:910
+msgctxt "kajongg game dialog:Key for No claim"
+msgid "N"
+msgstr "N"
+
+#: src/message.py:914
+msgid "You cannot or do not want to claim this tile"
+msgstr "شما نمی‌توانید یا نمی‌خواهید این کاشی را بردارید"
+
+#: src/mjresource.py:92
+msgid ""
+"cannot find any %1 in the following directories, is libkmahjongg installed?"
+msgstr "هیچ %1 در پوشه‌های زیر یافت نشد، آیا libkmahjongg نصب است؟"
+
+#: src/mjresource.py:116
+msgid "cannot find %1, using default"
+msgstr "%1 یافت نشد، از پیش‌فرض استفاده می‌شود"
+
+#: src/mjresource.py:131
+msgid "unknown name"
+msgstr "نام ناشناخته"
+
+#: src/mjresource.py:132
+msgid "unknown author"
+msgstr "نویسندهٔ ناشناخته"
+
+#: src/mjresource.py:135
+msgid "no description available"
+msgstr "هیچ توضیحی در دسترس نیست"
+
+#: src/mjresource.py:138
+msgid "no E-Mail address available"
+msgstr "هیچ نشانی رایانامه‌ای در دسترس نیست"
+
+#: src/player.py:725
+msgid "%1 claiming MahJongg: She does not really have tile %2"
+msgstr "%1 مدعی ماژونگ شد: او واقعاً کاشی %2 را ندارد"
+
+#: src/player.py:734
+msgid ""
+"%1 claiming MahJongg: She did not pass all concealed tiles to the server"
+msgstr "%1 مدعی ماهجونگ شد: او همه کاشی‌های پنهان را به سرور منتقل نکرد"
+
+#: src/player.py:855
+msgid "Player %1 has 3 or 4 exposed melds, all are green"
+msgstr "بازیکن %1 دارای ۳ یا ۴ دست رو شده است، همگی سبز هستند"
+
+#: src/player.py:863
+msgid "Player %1 may try a True Color Game"
+msgstr "بازیکن %1 ممکن است یک بازی رنگ واقعی را امتحان کند"
+
+#: src/player.py:866
+msgid "Player %1 may try an All Terminals Game"
+msgstr "بازیکن %1 ممکن است یک بازی همه پایانی‌ها را امتحان کند"
+
+#: src/player.py:879
+msgid "Player %1 exposed many winds"
+msgstr "بازیکن %1 بادهای زیادی را رو کرد"
+
+#: src/player.py:883
+msgid "Player %1 exposed many dragons"
+msgstr "بازیکن %1 اژدهایان زیادی را رو کرد"
+
+#: src/playerlist.py:50
+msgctxt "define a new player"
+msgid "&New"
+msgstr "جدید"
+
+#: src/playerlist.py:110
+msgid "Player %1 already exists"
+msgstr "بازیکن %1 از قبل وجود دارد"
+
+#: src/playerlist.py:121
+msgid "Error while adding player %1: %2"
+msgstr "خطا هنگام افزودن بازیکن %1: %2"
+
+#: src/playerlist.py:176
+msgid ""
+"There are %1 finished and %2 unfinished games for %3, delete %3 anyway?  "
+"This will also delete all games played by %3!"
+msgstr ""
+"%1 بازی تمام‌شده و %2 بازی ناتمام برای %3 وجود دارد، آیا %3 در هر صورت حذف "
+"شود؟ این کار همچنین تمام بازی‌های انجام‌شده توسط %3 را حذف خواهد کرد!"
+
+#: src/predefined.py:29
+msgid "Classical Chinese standard"
+msgstr "استاندارد چینی کلاسیک"
+
+#: src/predefined.py:35
+msgid "Classical Chinese"
+msgstr "چینی کلاسیک"
+
+#: src/predefined.py:41
+msgid "Last Tile Taken from Dead Wall"
+msgstr "آخرین مهره برداشته‌شده از دیوار مرده"
+
+#: src/predefined.py:43
+msgid ""
+"The dead wall is also called kong box: The last 16 tiles of the wall used as"
+" source of replacement tiles"
+msgstr ""
+"به دیوار مرده جعبهٔ کونگ نیز گفته می‌شود: ۱۶ مهرهٔ آخر دیوار که به عنوان "
+"منبع مهره‌های جایگزین استفاده می‌شوند"
+
+#: src/predefined.py:46
+msgid "Last Tile is Last Tile of Wall"
+msgstr "آخرین مهره، آخرین مهرهٔ دیوار است"
+
+#: src/predefined.py:48
+msgid ""
+"Winner said Mah Jong with the last tile taken from the living end of the "
+"wall"
+msgstr ""
+"برنده با آخرین مهره‌ای که از انتهای فعال دیوار برداشته شد، ماهجونگ اعلام کرد"
+
+#: src/predefined.py:50
+msgid "Last Tile is Last Tile of Wall Discarded"
+msgstr "آخرین مهره، آخرین مهرهٔ دور انداخته‌شده از دیوار است"
+
+#: src/predefined.py:52
+msgid ""
+"Winner said Mah Jong by claiming the last tile taken from the living end of "
+"the wall, discarded by another player"
+msgstr ""
+"برنده با تصاحب آخرین مهرهٔ برداشته‌شده از انتهای فعال دیوار که توسط بازیکن "
+"دیگری دور انداخته شده بود، ماهجونگ اعلام کرد"
+
+#: src/predefined.py:55
+msgid "Robbing the Kong"
+msgstr "ربودن کونگ"
+
+#: src/predefined.py:56
+msgid ""
+"Winner said Mah Jong by claiming the 4th tile of a kong another player just "
+"declared"
+msgstr ""
+"برنده با تصاحب چهارمین مهره از کونگی که بازیکنی دیگر به‌تازگی اعلام کرده "
+"بود، ماهجونگ اعلام کرد"
+
+#: src/predefined.py:59
+msgid "Mah Jongg with Original Call"
+msgstr "ماهجونگ با فراخوان اولیه"
+
+#: src/predefined.py:62
+msgid ""
+"Just before the first discard, a player can declare Original Call meaning "
+"she needs only one tile to complete the hand and announces she will not "
+"alter the hand in any way (except bonus tiles)"
+msgstr ""
+"درست قبل از اولین دور انداختن، بازیکن می‌تواند «فراخوان اولیه» (Original "
+"Call) اعلام کند، به این معنی که برای تکمیل دست تنها به یک کاشی نیاز دارد و "
+"اعلام می‌کند دست خود را به هیچ وجه تغییر نخواهد داد (به‌جز کاشی‌های امتیازی)"
+
+#: src/predefined.py:65
+msgid "Dangerous Game"
+msgstr "بازی خطرناک"
+
+#: src/predefined.py:66
+msgid ""
+"In some situations discarding a tile that has a high chance to help somebody"
+" to win is declared to be dangerous, and if that tile actually makes "
+"somebody win, the discarder pays the winner for all"
+msgstr ""
+"در برخی شرایط، دور انداختن کاشی‌ای که احتمال زیادی دارد به برد دیگری کمک "
+"کند، «خطرناک» اعلام می‌شود؛ و اگر آن کاشی واقعاً باعث برد کسی شود، "
+"پرتاب‌کننده جریمه برنده را به جای همه پرداخت می‌کند"
+
+#: src/predefined.py:70
+msgid "Twofold Fortune"
+msgstr "شانس دوچندان"
+
+#: src/predefined.py:71
+msgid ""
+"Kong after Kong: Declare Kong and a second Kong with the replacement tile "
+"and Mah Jong with the second replacement tile"
+msgstr ""
+"کونگ پس از کونگ: اعلام کونگ و کونگ دوم با کاشی جایگزین، و ماهجونگ با کاشی "
+"جایگزین دوم"
+
+#: src/predefined.py:75
+msgid "Blessing of Heaven"
+msgstr "برکت آسمان"
+
+#: src/predefined.py:76
+msgid "East says Mah Jong with the unmodified dealt tiles"
+msgstr "شرق با کاشی‌های اولیه توزیع‌شده و بدون تغییر اعلام ماهجونگ می‌کند"
+
+#: src/predefined.py:78
+msgid "Blessing of Earth"
+msgstr "برکت زمین"
+
+#: src/predefined.py:79
+msgid ""
+"South, West or North says Mah Jong with the first tile discarded by East"
+msgstr ""
+"جنوب، غرب یا شمال با اولین کاشی دور انداخته‌شده توسط شرق اعلام ماهجونگ "
+"می‌کند"
+
+#: src/predefined.py:81
+msgid "East won nine times in a row"
+msgstr "شرق نه بار پشت سر هم برنده شد"
+
+#: src/predefined.py:82
+msgid "If that happens, East gets a limit score and the winds rotate"
+msgstr ""
+"اگر این اتفاق بیفتد، شرق حداکثر امتیاز را می‌گیرد و جهت‌های باد می‌چرخند"
+
+#: src/predefined.py:87
+msgid ""
+"False Naming of Discard, Claimed for Mah Jongg and False Declaration of Mah "
+"Jongg"
+msgstr "نام‌گذاری اشتباه کارت سوخته، ادعای ماهجونگ و اعلام اشتباه ماهجونگ"
+
+#: src/predefined.py:93
+msgid "Own Flower and Own Season"
+msgstr "گل خودی و فصل خودی"
+
+#: src/predefined.py:96
+msgid "All Flowers"
+msgstr "همه گل‌ها"
+
+#: src/predefined.py:97
+msgid "All Seasons"
+msgstr "همه فصل‌ها"
+
+#: src/predefined.py:99
+msgid "Three Concealed Pongs"
+msgstr "سه پونگ پنهان"
+
+#: src/predefined.py:103
+msgid "Long Hand"
+msgstr "دست بلند"
+
+#: src/predefined.py:104
+msgid "The hand contains too many tiles"
+msgstr "دست دارای مهره‌های بسیار زیادی است"
+
+#: src/predefined.py:109
+msgid "Tiles in Hand"
+msgstr "مهره‌های موجود در دست"
+
+#: src/predefined.py:114
+msgid "Points Needed for Mah Jongg"
+msgstr "امتیاز لازم برای ماهجونگ"
+
+#: src/predefined.py:118
+msgid "Minimum number of doubles needed for Mah Jongg"
+msgstr "حداقل تعداد جفت‌های لازم برای ماهجونگ"
+
+#: src/predefined.py:121
+msgid "Points for a Limit Hand"
+msgstr "امتیاز دست حد نصاب (لیمیت)"
+
+#: src/predefined.py:125
+msgid "Play with the roof off"
+msgstr "بازی بدون سقف امتیاز"
+
+#: src/predefined.py:126
+msgid "Play with no upper scoring limit"
+msgstr "بازی بدون حد بالای امتیازدهی"
+
+#: src/predefined.py:128
+msgid "Claim Timeout"
+msgstr "مهلت زمان ادعا"
+
+#: src/predefined.py:132
+msgid "Size of Kong Box"
+msgstr "اندازه جعبه کونگ"
+
+#: src/predefined.py:133
+msgid "The Kong Box is used for replacement tiles when declaring kongs"
+msgstr "جعبه کونگ برای کاشی‌های جایگزین هنگام اعلام کونگ استفاده می‌شود"
+
+#: src/predefined.py:135
+msgid "Play with Bonus Tiles"
+msgstr "بازی با کاشی‌های جایزه"
+
+#: src/predefined.py:136
+msgid "Bonus tiles increase the luck factor"
+msgstr "کاشی‌های جایزه شانس را افزایش می‌دهند"
+
+#: src/predefined.py:138
+msgid "Minimum number of rounds in game"
+msgstr "حداقل تعداد دورها در بازی"
+
+#: src/predefined.py:142
+msgid "number of allowed chows"
+msgstr "تعداد چاوهای مجاز"
+
+#: src/predefined.py:143
+msgid "The number of chows a player may build"
+msgstr "تعداد چاوهایی که یک بازیکن می‌تواند بسازد"
+
+#: src/predefined.py:145
+msgid "must declare calling hand"
+msgstr "دست آماده به برد (calling hand) باید اعلام شود"
+
+#: src/predefined.py:147
+msgid "Mah Jongg is only allowed after having declared to have a calling hand"
+msgstr "ماه جونگ فقط پس از اعلام داشتن دست آماده به برد مجاز است"
+
+#: src/predefined.py:149
+msgid "Standard Rotation"
+msgstr "چرخش استاندارد"
+
+#: src/predefined.py:152
+msgid "Discard tiles ordered"
+msgstr "چیدن مرتب کاشی‌های سوخته"
+
+#: src/predefined.py:154
+msgid "Discard tiles ordered from top left"
+msgstr "چیدن مرتب کاشی‌های سوخته از بالا سمت چپ"
+
+#: src/predefined.py:156
+msgid "Leave holes for claimed discards"
+msgstr "خالی گذاشتن جای کاشی‌های سوختهٔ برداشته‌شده"
+
+#: src/predefined.py:159
+msgid ""
+"Only when discarding tiles ordered: Do not place the next discard where the "
+"claimed discard was"
+msgstr ""
+"فقط هنگام چیدن مرتب کاشی‌های سوخته: کاشی سوختهٔ بعدی را در جای کاشی "
+"برداشته‌شده قرار ندهید"
+
+#: src/predefined.py:168
+msgid "Last Tile Completes Pair of 2..8"
+msgstr "آخرین کاشی، جفت ۲ تا ۸ را کامل می‌کند"
+
+#: src/predefined.py:172
+msgid "Last Tile Completes Pair of Terminals or Honors"
+msgstr "آخرین کاشی، جفت پایانی یا افتخاری را کامل می‌کند"
+
+#: src/predefined.py:175
+msgid "Last Tile is Only Possible Tile"
+msgstr "آخرین کاشی، تنها کاشی ممکن است"
+
+#: src/predefined.py:179
+msgid "Won with Last Tile Taken from Wall"
+msgstr "برد با آخرین کاشی برداشته‌شده از دیوار"
+
+#: src/predefined.py:184
+msgid "Zero Point Hand"
+msgstr "دست بدون امتیاز"
+
+#: src/predefined.py:185
+msgid "The hand has 0 basis points excluding bonus tiles"
+msgstr "دست بدون در نظر گرفتن کاشی‌های جایزه، دارای ۰ امتیاز پایه است"
+
+#: src/predefined.py:186
+msgid "No Chow"
+msgstr "بدون چاو (Chow)"
+
+#: src/predefined.py:188
+msgid "Only Concealed Melds"
+msgstr "فقط ترکیب‌های مخفی"
+
+#: src/predefined.py:192
+msgid "False Color Game"
+msgstr "بازی رنگ نامتقارن (رنگ کاذب)"
+
+#: src/predefined.py:193
+msgid ""
+"Only same-colored tiles (only bamboo/stone/character) plus any number of "
+"winds and dragons"
+msgstr "فقط کاشی‌های هم‌رنگ (فقط بامبو/سنگ/حرف) به‌همراه هر تعداد باد و اژدها"
+
+#: src/predefined.py:196
+msgid "True Color Game"
+msgstr "بازی رنگ خالص"
+
+#: src/predefined.py:197
+msgid "Only same-colored tiles (only bamboo/stone/character)"
+msgstr "فقط کاشی‌های هم‌رنگ (فقط بامبو/سنگ/نویسه)"
+
+#: src/predefined.py:199
+msgid "Concealed True Color Game"
+msgstr "بازی رنگ خالص پنهان"
+
+#: src/predefined.py:200
+msgid "All tiles concealed and of the same suit, no honors"
+msgstr "تمام کاشی‌ها پنهان و از یک خال، بدون مهره‌های افتخار"
+
+#: src/predefined.py:202
+msgid "Only Terminals and Honors"
+msgstr "فقط کاشی‌های مرزی و مهره‌های افتخار"
+
+#: src/predefined.py:203
+msgid "Only winds, dragons, 1 and 9"
+msgstr "فقط بادها، اژدهاها، ۱ و ۹"
+
+#: src/predefined.py:204
+msgid "Only Honors"
+msgstr "فقط مهره‌های افتخار"
+
+#: src/predefined.py:205
+msgid "Only winds and dragons"
+msgstr "فقط بادها و اژدهاها"
+
+#: src/predefined.py:207
+msgid "Hidden Treasure"
+msgstr "گنج پنهان"
+
+#: src/predefined.py:208
+msgid "Only hidden Pungs or Kongs, last tile from wall"
+msgstr "فقط پونگ‌ها یا کونگ‌های پنهان، آخرین کاشی از دیوار"
+
+#: src/predefined.py:210
+msgid "Heads and Tails"
+msgstr "شیر و خط"
+
+#: src/predefined.py:211
+msgid "Only 1 and 9"
+msgstr "فقط ۱ و ۹"
+
+#: src/predefined.py:213
+msgid "Fourfold Plenty"
+msgstr "وفور چهارگانه"
+
+#: src/predefined.py:214
+msgid "4 Kongs"
+msgstr "۴ کونگ"
+
+#: src/predefined.py:216 src/predefined.py:430
+msgid "Three Great Scholars"
+msgstr "سه دانشمند بزرگ"
+
+#: src/predefined.py:217 src/predefined.py:337
+msgid "3 Pungs or Kongs of dragons"
+msgstr "۳ پونگ یا کونگ از اژدهایان"
+
+#: src/predefined.py:218
+msgid "Four Blessings Hovering over the Door"
+msgstr "چهار برکت بر فراز درگاه"
+
+#: src/predefined.py:220 src/predefined.py:342
+msgid "4 Pungs or Kongs of winds"
+msgstr "۴ پونگ یا کونگ از بادها"
+
+#: src/predefined.py:221
+msgid "Imperial Jade"
+msgstr "یشم امپراتوری"
+
+#: src/predefined.py:222
+msgid "Only green tiles: Green dragon and Bamboo 2,3,4,6,8"
+msgstr "فقط کاشی‌های سبز: اژدهای سبز و بامبو ۲، ۳، ۴، ۶، ۸"
+
+#: src/predefined.py:223
+msgid "Gathering the Plum Blossom from the Roof"
+msgstr "چیدن شکوفهٔ آلو از پشت‌بام"
+
+#: src/predefined.py:225
+msgid "Mah Jong with stone 5 from the dead wall"
+msgstr "ماهجونگ با مهرهٔ سنگ ۵ از دیوار مرده"
+
+#: src/predefined.py:227
+msgid "Plucking the Moon from the Bottom of the Sea"
+msgstr "گرفتن ماه از قعر دریا"
+
+#: src/predefined.py:228
+msgid "Mah Jong with the last tile from the wall being a stone 1"
+msgstr "ماهجونگ با آخرین مهره از دیوار که سنگ ۱ است"
+
+#: src/predefined.py:230
+msgid "Scratching a Carrying Pole"
+msgstr "خراشیدن تیر بارکشی"
+
+#: src/predefined.py:231
+msgid "Robbing the Kong of bamboo 2"
+msgstr "ربودن کانگ با بامبوی ۲"
+
+#: src/predefined.py:237 src/predefined.py:526
+msgid "Standard Mah Jongg"
+msgstr "ماهجونگ استاندارد"
+
+#: src/predefined.py:242
+msgid "Nine Gates"
+msgstr "نه دروازه"
+
+#: src/predefined.py:244
+msgid ""
+"A concealed hand in one color 1112345678999 plus last tile of this suit "
+"(from wall or discarded)"
+msgstr ""
+"یک دست پنهان در یک رنگ ۱۱۱۲۳۴۵۶۷۸۹۹۹ به همراه آخرین مهرهٔ این خال (از دیوار "
+"یا دور انداخته‌شده)"
+
+#: src/predefined.py:246
+msgid "Thirteen Orphans"
+msgstr "سیزده یتیم"
+
+#: src/predefined.py:247
+msgid ""
+"13 single tiles: All dragons, winds, 1, 9 and a 14th tile building a pair "
+"with one of them"
+msgstr ""
+"۱۳ کاشی تکی: همه اژدهاها، بادها، ۱، ۹ و یک کاشی چهاردهم که با یکی از آن‌ها "
+"یک جفت تشکیل می‌دهد"
+
+#: src/predefined.py:251
+msgid "Pung/Kong of Dragons"
+msgstr "پونگ/کونگ اژدهاها"
+
+#: src/predefined.py:253
+msgid "Pung/Kong of Own Wind"
+msgstr "پونگ/کونگ باد خود"
+
+#: src/predefined.py:256
+msgid "Pung/Kong of Round Wind"
+msgstr "پونگ/کونگ باد دور"
+
+#: src/predefined.py:260
+msgid "Exposed Kong"
+msgstr "کونگ نمایان"
+
+#: src/predefined.py:263
+msgid "Exposed Kong of Terminals"
+msgstr "کونگ نمایان ترمینال‌ها"
+
+#: src/predefined.py:266
+msgid "Exposed Kong of Honors"
+msgstr "کونگ نمایان افتخارات"
+
+#: src/predefined.py:269
+msgid "Exposed Pung"
+msgstr "پونگ نمایان"
+
+#: src/predefined.py:272
+msgid "Exposed Pung of Terminals"
+msgstr "پونگ نمایان ترمینال‌ها"
+
+#: src/predefined.py:275
+msgid "Exposed Pung of Honors"
+msgstr "پونگ نمایان افتخارات"
+
+#: src/predefined.py:279
+msgid "Concealed Kong"
+msgstr "کنگ پنهان"
+
+#: src/predefined.py:282
+msgid "Concealed Kong of Terminals"
+msgstr "کنگ پنهان ترمینال‌ها"
+
+#: src/predefined.py:285
+msgid "Concealed Kong of Honors"
+msgstr "کنگ پنهان افتخارات"
+
+#: src/predefined.py:288
+msgid "Concealed Pung"
+msgstr "پونگ پنهان"
+
+#: src/predefined.py:291
+msgid "Concealed Pung of Terminals"
+msgstr "پونگ پنهان ترمینال‌ها"
+
+#: src/predefined.py:294
+msgid "Concealed Pung of Honors"
+msgstr "پونگ پنهان افتخارات"
+
+#: src/predefined.py:297
+msgid "Pair of Own Wind"
+msgstr "جفت باد خود"
+
+#: src/predefined.py:299
+msgid "Pair of Round Wind"
+msgstr "جفت باد دور"
+
+#: src/predefined.py:301
+msgid "Pair of Dragons"
+msgstr "جفت اژدها"
+
+#: src/predefined.py:305
+msgid "Flower"
+msgstr "گل"
+
+#: src/predefined.py:307
+msgid "Season"
+msgstr "فصل"
+
+#: src/predefined.py:316
+msgid "Classical Chinese DMJL"
+msgstr "چینی کلاسیک DMJL"
+
+#: src/predefined.py:322
+msgid ""
+"Classical Chinese as defined by the Deutsche Mah Jongg Liga (DMJL) e.V."
+msgstr "چینی کلاسیک طبق تعریف Deutsche Mah Jongg Liga (DMJL) e.V."
+
+#: src/predefined.py:329
+msgid "Squirming Snake"
+msgstr "مار پیچان"
+
+#: src/predefined.py:330
+msgid ""
+"All tiles of same color. Pung or Kong of 1 and 9, pair of 2, 5 or 8 and two "
+"Chows of the remaining values"
+msgstr ""
+"همهٔ کاشی‌ها از یک رنگ. پونگ یا کونگ ۱ و ۹، جفت ۲، ۵ یا ۸ و دو چو از مقادیر "
+"باقی‌مانده"
+
+#: src/predefined.py:333
+msgid "Little Three Dragons"
+msgstr "سه اژدهای کوچک"
+
+#: src/predefined.py:334
+msgid "2 Pungs or Kongs of dragons and 1 pair of dragons"
+msgstr "۲ پونگ یا کونگ از اژدهایان و ۱ جفت اژدها"
+
+#: src/predefined.py:336
+msgid "Big Three Dragons"
+msgstr "سه اژدهای بزرگ"
+
+#: src/predefined.py:339
+msgid "Little Four Joys"
+msgstr "چهار شادی کوچک"
+
+#: src/predefined.py:340
+msgid "3 Pungs or Kongs of winds and 1 pair of winds"
+msgstr "۳ پونگ یا کونگ از بادها و ۱ جفت باد"
+
+#: src/predefined.py:341
+msgid "Big Four Joys"
+msgstr "چهار شادی بزرگ"
+
+#: src/predefined.py:347
+msgid "False Naming of Discard, Claimed for Chow"
+msgstr "نام‌گذاری اشتباه مهره سوخته، ادعاشده برای چو"
+
+#: src/predefined.py:350
+msgid "False Naming of Discard, Claimed for Pung/Kong"
+msgstr "نام‌گذاری اشتباه مهره سوخته، ادعاشده برای پونگ/کونگ"
+
+#: src/predefined.py:353 src/predefined.py:444 src/predefined.py:556
+msgid "False Declaration of Mah Jongg by One Player"
+msgstr "اعلام نادرست ماهجونگ توسط یک بازیکن"
+
+#: src/predefined.py:356
+msgid "False Declaration of Mah Jongg by Two Players"
+msgstr "اعلام نادرست ماهجونگ توسط دو بازیکن"
+
+#: src/predefined.py:359
+msgid "False Declaration of Mah Jongg by Three Players"
+msgstr "اعلام نادرست ماهجونگ توسط سه بازیکن"
+
+#: src/predefined.py:362 src/predefined.py:447 src/predefined.py:559
+msgid "False Naming of Discard, Claimed for Mah Jongg"
+msgstr "نام‌گذاری اشتباه مهره سوخته، ادعاشده برای ماهجونگ"
+
+#: src/predefined.py:371
+msgid "Classical Chinese BMJA"
+msgstr "چینی کلاسیک BMJA"
+
+#: src/predefined.py:377
+msgid "Classical Chinese as defined by the British Mah-Jong Association"
+msgstr "چینی کلاسیک بر اساس تعریف انجمن ماهجونگ بریتانیا"
+
+#: src/predefined.py:392 src/predefined.py:532
+msgid "Original Call"
+msgstr "اعلام اولیه"
+
+#: src/predefined.py:396
+msgid "Gates of Heaven"
+msgstr "دروازه‌های بهشت"
+
+#: src/predefined.py:397
+msgid ""
+"All tiles concealed of same color: Values 1112345678999 with one pair from 2"
+" to 8 (last tile from wall or discarded)"
+msgstr ""
+"تمام مهره‌های مخفی از یک خال: مقادیر ۱۱۱۲۳۴۵۶۷۸۹۹۹ با یک جفت بین ۲ تا ۸ "
+"(آخرین مهره از دیوار یا دور انداخته‌شده)"
+
+#: src/predefined.py:400
+msgid "Wriggling Snake"
+msgstr "مار پیچان"
+
+#: src/predefined.py:401
+msgid ""
+"Pair of 1s and a run from 2 to 9 in the same suit with each of the winds"
+msgstr "یک جفت ۱ و یک دنباله از ۲ تا ۹ در همان خال همراه با هر یک از بادها"
+
+#: src/predefined.py:403
+msgid "Triple Knitting"
+msgstr "بافت سه‌گانه"
+
+#: src/predefined.py:404
+msgid ""
+"Four sets of three tiles in the different suits and a pair: No Winds or "
+"Dragons"
+msgstr "چهار دسته‌ی سه‌تایی مهره در خال‌های مختلف و یک جفت: بدون باد یا اژدها"
+
+#: src/predefined.py:405
+msgid "Knitting"
+msgstr "بافتنی"
+
+#: src/predefined.py:406
+msgid "7 pairs of tiles in any 2 out of 3 suits; no Winds or Dragons"
+msgstr "۷ جفت مهره از هر ۲ خال از بین ۳ خال؛ بدون باد یا اژدها"
+
+#: src/predefined.py:408
+msgid "All pair honors"
+msgstr "تمام جفت‌های افتخاری"
+
+#: src/predefined.py:409
+msgid "7 pairs of 1s/9s/Winds/Dragons"
+msgstr "۷ جفت از ۱ها/۹ها/بادها/اژدهاها"
+
+#: src/predefined.py:412 src/predefined.py:536
+msgid "Own Flower"
+msgstr "گل خود"
+
+#: src/predefined.py:413 src/predefined.py:537
+msgid "Own Season"
+msgstr "فصل خود"
+
+#: src/predefined.py:425
+msgid "Buried Treasure"
+msgstr "گنج پنهان"
+
+#: src/predefined.py:426
+msgid "Concealed pungs of one suit with winds/dragons and a pair"
+msgstr "پونگ‌های پنهان از یک خال همراه با بادها/اژدهایان و یک جفت"
+
+#: src/predefined.py:427 src/predefined.py:548
+msgid "Purity"
+msgstr "خلوص"
+
+#: src/predefined.py:428 src/predefined.py:549
+msgid "Only same-colored tiles (no chows, dragons or winds)"
+msgstr "فقط مهره‌های همرنگ (بدون چاو، اژدها یا باد)"
+
+#: src/predefined.py:431
+msgid "3 Pungs or Kongs of dragons plus any pung/kong and a pair"
+msgstr "۳ پونگ یا کونگ از اژدهایان به‌همراه هر پونگ/کونگ دلخواه و یک جفت"
+
+#: src/predefined.py:434
+msgid "The 13 Unique Wonders"
+msgstr "۱۳ شگفتی بی‌نظیر"
+
+#: src/predefined.py:441 src/predefined.py:553
+msgid "False Naming of Discard, Claimed for Chow/Pung/Kong"
+msgstr "نام‌گذاری اشتباه مهرهٔ سوخته، درخواست‌شده برای چاو/پونگ/کونگ"
+
+#: src/predefined.py:451
+msgid "Calling for Only Honors"
+msgstr "آماده برای برد فقط با مهره‌های افتخار"
+
+#: src/predefined.py:455
+msgid "Calling for Wriggling Snake"
+msgstr "در انتظار مار لغزان"
+
+#: src/predefined.py:459
+msgid "Calling for Triple Knitting"
+msgstr "در انتظار بافت سه‌گانه"
+
+#: src/predefined.py:463
+msgid "Calling for Gates of Heaven"
+msgstr "در انتظار دروازه‌های بهشت"
+
+#: src/predefined.py:466
+msgid "Calling for Knitting"
+msgstr "در انتظار بافت"
+
+#: src/predefined.py:470
+msgid "Calling for Imperial Jade"
+msgstr "در انتظار یشم امپراتوری"
+
+#: src/predefined.py:474
+msgid "Calling for The 13 Unique Wonders"
+msgstr "در انتظار ۱۳ شگفتی بی‌نظیر"
+
+#: src/predefined.py:477
+msgid "Calling for Three Great Scholars"
+msgstr "در انتظار سه دانشمند بزرگ"
+
+#: src/predefined.py:480
+msgid "Calling for All pair honors"
+msgstr "در انتظار تمام جفت‌های افتخار"
+
+#: src/predefined.py:484
+msgid "Calling for Heads and Tails"
+msgstr "در انتظار ابتدا و انتها"
+
+#: src/predefined.py:488
+msgid "Calling for Four Blessings Hovering over the Door"
+msgstr "در انتظار چهار برکت بر فراز درگاه"
+
+#: src/predefined.py:491
+msgid "Calling for Buried Treasure"
+msgstr "فراخوانی گنج دفن‌شده"
+
+#: src/predefined.py:495
+msgid "Calling for Fourfold Plenty"
+msgstr "فراخوانی برکت چهارگانه"
+
+#: src/predefined.py:499
+msgid "Calling for Purity"
+msgstr "فراخوانی خلوص"
+
+#: src/predefined.py:509
+msgid "Taiwanese 16-tile game, FOR DEVELOPERS"
+msgstr "بازی ۱۶ کاشی تایوانی، مخصوص توسعه‌دهندگان"
+
+#: src/predefined.py:515
+msgid ""
+"Taiwanese 16-Tiles Mah Jongg, early alpha. See "
+"https://bugs.kde.org/show_bug.cgi?id=298821"
+msgstr ""
+"ماهجونگ ۱۶ کاشی تایوانی، آلفای اولیه. مراجعه کنید به "
+"https://bugs.kde.org/show_bug.cgi?id=298821"
+
+#: src/query.py:197
+msgctxt "kajongg name for local game server"
+msgid "Local Game"
+msgstr "بازی محلی"
+
+#: src/query.py:430
+msgid "Database %1 updated from schema %2 to %3"
+msgstr "پایگاه‌دادهٔ %1 از طرح‌وارهٔ %2 به %3 به‌روزرسانی شد"
+
+#: src/rule.py:49 src/scoringdialog.py:703 src/scoringdialog.py:782
+msgid "points"
+msgstr "امتیازها"
+
+#: src/rule.py:50
+msgctxt "kajongg"
+msgid "doubles"
+msgstr "دو برابرها"
+
+#: src/rule.py:51
+msgctxt "kajongg"
+msgid "limits"
+msgstr "حدود"
+
+#: src/rule.py:91
+msgctxt "Kajongg"
+msgid "%1 points"
+msgstr "%1 امتیاز"
+
+#: src/rule.py:93
+msgctxt "Kajongg"
+msgid "%1 doubles"
+msgstr "%1 برابر"
+
+#: src/rule.py:98
+msgctxt "Kajongg"
+msgid "%1 limits"
+msgstr "%1 حد"
+
+#: src/rule.py:366
+msgid "Meld Rules"
+msgstr "قوانین ترکیب"
+
+#: src/rule.py:367
+msgid ""
+"Meld rules are applied to single melds independent of the rest of the hand"
+msgstr "قوانین ترکیب مستقل از بقیهٔ دست، روی تک‌تک ترکیب‌ها اعمال می‌شوند"
+
+#: src/rule.py:368
+msgid "Hand Rules"
+msgstr "قوانین دست"
+
+#: src/rule.py:369
+msgid "Hand rules are applied to the entire hand, for all players"
+msgstr "قوانین دست روی کل دست، برای همهٔ بازیکنان اعمال می‌شوند"
+
+#: src/rule.py:370
+msgid "Winner Rules"
+msgstr "قوانین برنده"
+
+#: src/rule.py:371
+msgid "Winner rules are applied to the entire hand but only for the winner"
+msgstr "قوانین برنده روی کل دست، اما فقط برای برنده اعمال می‌شوند"
+
+#: src/rule.py:372
+msgid "Loser Rules"
+msgstr "قوانین بازنده"
+
+#: src/rule.py:373
+msgid "Loser rules are applied to the entire hand but only for non-winners"
+msgstr ""
+"قوانین بازنده برای کل دست اعمال می‌شود، اما فقط برای کسانی که برنده نشده‌اند"
+
+#: src/rule.py:374
+msgid "Mah Jongg Rules"
+msgstr "قوانین ماهجونگ"
+
+#: src/rule.py:375
+msgid "Only hands matching a Mah Jongg rule can win"
+msgstr ""
+"فقط دست‌هایی که با یکی از قوانین ماهجونگ مطابقت دارند می‌توانند برنده شوند"
+
+#: src/rule.py:376
+msgctxt "kajongg"
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: src/rule.py:377
+msgid "Here we have several special game related options"
+msgstr "در اینجا چند گزینهٔ ویژه مربوط به بازی وجود دارد"
+
+#: src/rule.py:378
+msgid "Penalties"
+msgstr "جریمه‌ها"
+
+#: src/rule.py:379
+msgid ""
+"Penalties are applied manually by the user. They are only used for scoring games.\n"
+"When playing against the computer or over the net, Kajongg will never let you get\n"
+"into a situation where you have to pay a penalty"
+msgstr ""
+"جریمه‌ها به‌صورت دستی توسط کاربر اعمال می‌شوند. آن‌ها فقط برای امتیازدهی بازی‌ها استفاده می‌شوند.\n"
+"هنگام بازی در برابر رایانه یا از طریق شبکه، کاجونگ هرگز اجازه نخواهد داد\n"
+"در شرایطی قرار بگیرید که مجبور به پرداخت جریمه شوید"
+
+#: src/rule.py:579
+msgctxt "Ruleset._newKey:%1 is empty or space plus number"
+msgid "Copy%1 of %2"
+msgstr "رونوشت%1 از %2"
+
+#: src/rule.py:935
+msgctxt "%1 can be a sentence"
+msgid "%4 have impossible values %2/%3 in rule \"%1\""
+msgstr "‏%4 مقادیر غیرممکن %2/%3 را در قانون «%1» دارد"
+
+#: src/rule.py:1023
+msgctxt "wrong value for rule"
+msgid "%1: %2 is too small, minimal value is %3"
+msgstr "‏%1: %2 بسیار کوچک است، کمترین مقدار مجاز %3 است"
+
+#: src/rulesetselector.py:511
+msgctxt "@title:window"
+msgid "Customize rulesets"
+msgstr "سفارشی‌سازی مجموعه‌قوانین"
+
+#: src/rulesetselector.py:530
+msgctxt "kajongg"
+msgid "Rule"
+msgstr "قاعده"
+
+#: src/rulesetselector.py:592
+msgid "C&opy"
+msgstr "رونوشت"
+
+#: src/rulesetselector.py:593
+msgctxt "Kajongg ruleset comparer"
+msgid "Co&mpare"
+msgstr "مقایسه"
+
+#: src/rulesetselector.py:594
+msgid "&Remove"
+msgstr "حذف"
+
+#: src/rulesetselector.py:595
+msgid "&Close"
+msgstr "بستن"
+
+#: src/scene.py:389 src/scene.py:517
+msgid "Do you really want to abort this game?"
+msgstr "آیا واقعاً می‌خواهید این بازی را لغو کنید؟"
+
+#: src/scoring.py:60
+msgctxt "@title:window"
+msgid "Swap Seats"
+msgstr "جابه‌جایی جایگاه‌ها"
+
+#: src/scoring.py:62
+msgid "By the rules, %1 and %2 should now exchange their seats. "
+msgstr "بر اساس قوانین، %1 و %2 اکنون باید صندلی‌های خود را جابه‌جا کنند. "
+
+#: src/scoring.py:64
+msgid "&Exchange"
+msgstr "جابه‌جایی"
+
+#: src/scoring.py:66
+msgid "&Keep seat"
+msgstr "حفظ جایگاه"
+
+#: src/scoring.py:85
+msgctxt "@title:window"
+msgid "Select four players"
+msgstr "چهار بازیکن را انتخاب کنید"
+
+#: src/scoring.py:360
+msgid "Move Exposed Tiles Here"
+msgstr "کاشی‌های آشکار را به اینجا منتقل کنید"
+
+#: src/scoring.py:361
+msgid "Move Concealed Tiles Here"
+msgstr "کاشی‌های پنهان را به اینجا منتقل کنید"
+
+#: src/scoring.py:673
+msgid "Please define four players in <interface>Settings|Players</interface>"
+msgstr ""
+"لطفاً چهار بازیکن را در <interface>تنظیمات|بازیکنان</interface> مشخص کنید"
+
+#: src/scoringdialog.py:258
+msgid "Round/Hand"
+msgstr "دور/دست"
+
+#: src/scoringdialog.py:299 src/scoringdialog.py:834
+msgctxt "kajongg"
+msgid "Score"
+msgstr "امتیاز"
+
+#: src/scoringdialog.py:299
+msgctxt "kajongg"
+msgid "Payments"
+msgstr "پرداخت‌ها"
+
+#: src/scoringdialog.py:300
+msgctxt "kajongg"
+msgid "Balance"
+msgstr "موجودی"
+
+#: src/scoringdialog.py:300
+msgctxt "kajongg"
+msgid "Chart"
+msgstr "نمودار"
+
+#: src/scoringdialog.py:410
+msgctxt "kajongg"
+msgid "Scores"
+msgstr "امتیازها"
+
+#: src/scoringdialog.py:452
+msgctxt "kajongg"
+msgid "Used Rules"
+msgstr "قوانین استفاده‌شده"
+
+#: src/scoringdialog.py:487
+msgid "Final scores for game <numid>%1</numid>"
+msgstr "امتیازهای نهایی برای بازی <numid>%1</numid>"
+
+#: src/scoringdialog.py:489
+msgid "Scores for game <numid>%1</numid>"
+msgstr "امتیازهای بازی <numid>%1</numid>"
+
+#: src/scoringdialog.py:569
+msgctxt "@title:window"
+msgid "Explain Scores"
+msgstr "توضیح امتیازها"
+
+#: src/scoringdialog.py:585
+msgid "There is no active game"
+msgstr "هیچ بازی فعالی وجود ندارد"
+
+#: src/scoringdialog.py:588
+msgid "%1"
+msgstr "%1"
+
+#: src/scoringdialog.py:602
+msgid "Manual score for %1: %2 points"
+msgstr "امتیاز دستی برای %1: %2 امتیاز"
+
+#: src/scoringdialog.py:689
+msgid "Penalty"
+msgstr "جریمه"
+
+#: src/scoringdialog.py:692
+msgid "Offense:"
+msgstr "خطا:"
+
+#: src/scoringdialog.py:699
+msgid "Total Penalty"
+msgstr "مجموع جریمه"
+
+#: src/scoringdialog.py:727
+msgid "&Execute"
+msgstr "اجرا"
+
+#: src/scoringdialog.py:805
+msgctxt "penalty dialog, appears behind paying player combobox"
+msgid "pays %1 points"
+msgstr "%1 امتیاز پرداخت می‌کند"
+
+#: src/scoringdialog.py:810
+msgctxt "penalty dialog, appears behind profiting player combobox"
+msgid "gets %1 points"
+msgstr "%1 امتیاز دریافت می‌کند"
+
+#: src/scoringdialog.py:821
+msgctxt "@title:window"
+msgid "Scoring for this Hand"
+msgstr "امتیازدهی برای این دست"
+
+#: src/scoringdialog.py:832
+msgctxt "kajongg"
+msgid "Player"
+msgstr "بازیکن"
+
+#: src/scoringdialog.py:833
+msgctxt "kajongg"
+msgid "Wind"
+msgstr "باد"
+
+#: src/scoringdialog.py:835
+msgid "Winner"
+msgstr "برنده"
+
+#: src/scoringdialog.py:841
+msgctxt "kajongg"
+msgid "Draw"
+msgstr "مساوی"
+
+#: src/scoringdialog.py:843
+msgid "&Penalties"
+msgstr "جریمه‌ها"
+
+#: src/scoringdialog.py:845
+msgid "&Save Hand"
+msgstr "ذخیرهٔ دست"
+
+#: src/scoringdialog.py:867
+msgid "&Last Tile:"
+msgstr "آخرین کاشی:"
+
+#: src/scoringdialog.py:876
+msgid "L&ast Meld:"
+msgstr "آخرین ترکیب:"
+
+#: src/server.py:122
+msgid "Wrong password"
+msgstr "گذرواژه نادرست است"
+
+#: src/server.py:218
+msgid "table with id <numid>%1</numid> not found"
+msgstr "میز با شناسهٔ <numid>%1</numid> پیدا نشد"
+
+#: src/server.py:366
+msgid "Player %1 has logged out"
+msgstr "بازیکن %1 خارج شد"
+
+#: src/server.py:436
+msgid "the server will listen on PORT ({int(defaultPort)})"
+msgstr "سرور به درگاه گوش خواهد داد ({int(defaultPort)})"
+
+#: src/server.py:439
+msgid "the server will listen on SOCKET"
+msgstr "سرور به سوکت گوش خواهد داد"
+
+#: src/server.py:443
+msgid "name of the database"
+msgstr "نام پایگاه داده"
+
+#: src/server.py:447
+msgid "do not terminate local game server after last client disconnects"
+msgstr "سرور بازی محلی پس از قطع اتصال آخرین کلاینت متوقف نشود"
+
+#: src/servertable.py:181
+msgid "You already joined this table"
+msgstr "شما قبلاً به این میز پیوسته‌اید"
+
+#: src/servertable.py:183
+msgid "All seats are already taken"
+msgstr "تمام صندلی‌ها قبلاً پر شده‌اند"
+
+#: src/servertable.py:188
+msgid "takes a seat"
+msgstr "می‌نشیند"
+
+#: src/servertable.py:196
+msgid "leaves the table"
+msgstr "میز را ترک می‌کند"
+
+#: src/servertable.py:242
+msgctxt "kajongg, name of robot player, to be translated"
+msgid "Robot 1"
+msgstr "ربات ۱"
+
+#: src/servertable.py:245
+msgctxt "kajongg, name of robot player, to be translated"
+msgid "Robot 2"
+msgstr "ربات ۲"
+
+#: src/servertable.py:246
+msgctxt "kajongg, name of robot player, to be translated"
+msgid "Robot 3"
+msgstr "ربات ۳"
+
+#: src/servertable.py:302
+msgid "Only the initiator %1 can start this game, you are %2"
+msgstr "فقط آغازگر بازی %1 می‌تواند بازی را شروع کند، شما %2 هستید"
+
+#: src/servertable.py:701
+msgid "Game <numid>%1</numid> is over!"
+msgstr "بازی <numid>%1</numid> تمام شد!"
+
+#: src/servertable.py:730
+msgid "%1 wrongly said %2 for meld %3"
+msgstr "%1 اشتباهاً گفت %2 برای جور %3"
+
+#: src/servertable.py:735
+msgid "%1 wrongly said %2: claims to have concealed tiles %3 but only has %4"
+msgstr "%1 به اشتباه گفت %2: مدعی داشتن کاشی‌های پنهان %3 است اما فقط %4 دارد"
+
+#: src/servertable.py:772
+msgid "declareKong:%1 wrongly said Kong for meld %2"
+msgstr "declareKong:%1 به اشتباه برای ترکیب %2 اعلام کنگ (Kong) کرد"
+
+#: src/servertable.py:821
+msgid "%1 claiming MahJongg: This is not a winning hand: %2"
+msgstr "%1 مدعی ماژونگ شد: این دست برنده نیست: %2"
+
+#: src/sound.py:70
+msgid "No voices will be heard because the program %1 is missing"
+msgstr "هیچ صدایی شنیده نخواهد شد زیرا برنامهٔ %1 وجود ندارد"
+
+#: src/sound.py:375
+msgid "cannot write <filename>%1</filename>: %2"
+msgstr "نمی‌توان در <filename>%1</filename> نوشت: %2"
+
+#: src/sound.py:378
+msgid "The voice files have changed, their checksum has changed."
+msgstr ""
+"فایل‌های صوتی تغییر کرده‌اند، مجموع مقابله‌ای (checksum) آن‌ها تغییر کرده "
+"است."
+
+#: src/sound.py:379
+msgid "Please reinstall kajongg or do, with sufficient permissions:"
+msgstr ""
+"لطفاً kajongg را دوباره نصب کنید یا با دسترسی‌های کافی دستور زیر را اجرا "
+"کنید:"
+
+#: src/tables.py:65
+msgid "Table"
+msgstr "میز"
+
+#: src/tables.py:69
+msgctxt "table status"
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/tables.py:70
+msgid "Ruleset"
+msgstr "مجموعه‌قوانین"
+
+#: src/tables.py:149
+msgid "Select a ruleset"
+msgstr "انتخاب یک مجموعه قوانین"
+
+#: src/tables.py:186
+msgctxt "allocate a new table"
+msgid "&New"
+msgstr "جدید"
+
+#: src/tables.py:187 src/tables.py:331 src/tables.py:363
+msgid "Allocate a new table"
+msgstr "تخصیص یک میز جدید"
+
+#: src/tables.py:193 src/tables.py:332 src/tables.py:364
+msgid "&Join"
+msgstr "پیوستن"
+
+#: src/tables.py:194 src/tables.py:333 src/tables.py:365
+msgid "Join a table"
+msgstr "پیوستن به یک میز"
+
+#: src/tables.py:200
+msgid "&Leave"
+msgstr "ترک کردن"
+
+#: src/tables.py:201
+msgid "Leave a table"
+msgstr "ترک یک میز"
+
+#: src/tables.py:207
+msgctxt "Kajongg-Ruleset"
+msgid "Compare"
+msgstr "مقایسه"
+
+#: src/tables.py:208
+msgid "Compare the rules of this table with my own rulesets"
+msgstr "مقایسه قوانین این میز با مجموعه‌های قوانین خودم"
+
+#: src/tables.py:214
+msgid "&Chat"
+msgstr "گفتگو"
+
+#: src/tables.py:221
+msgid "&Start"
+msgstr "شروع"
+
+#: src/tables.py:222
+msgid "Start playing on a table. Empty seats will be taken by robot players."
+msgstr ""
+"شروع بازی روی یک میز. جایگاه‌های خالی توسط بازیکنان روبات پر خواهند شد."
+
+#: src/tables.py:281
+msgid "opens a chat window"
+msgstr "یک پنجرهٔ گفتگو باز می‌کند"
+
+#: src/tables.py:300
+msgid "Local Games with Ruleset %1"
+msgstr "بازی‌های محلی با مجموعه قوانین %1"
+
+#: src/tables.py:304
+msgid "Tables at %1"
+msgstr "میزها در %1"
+
+#: src/tables.py:357
+msgid "Start a new game"
+msgstr "شروع بازی جدید"
+
+#: src/tables.py:359
+msgctxt "resuming a local suspended game"
+msgid "&Resume"
+msgstr "ادامه"
+
+#: src/tables.py:361
+msgid "Resume the selected suspended game"
+msgstr "ادامهٔ بازی معلق انتخاب‌شده"
+
+#: src/tables.py:379
+msgid "Chat with others on this table"
+msgstr "گفتگو با دیگران در این میز"
+
+#: src/tables.py:382
+msgid "For chatting with others on this table, please first take a seat"
+msgstr "برای گفتگو با دیگران در این میز، لطفاً ابتدا یک جایگاه انتخاب کنید"
+
+#: src/tile.py:277
+msgctxt "kajongg"
+msgid "hidden"
+msgstr "پنهان"
+
+#: src/tile.py:278
+msgctxt "kajongg"
+msgid "stone"
+msgstr "سنگ"
+
+#: src/tile.py:279
+msgctxt "kajongg"
+msgid "bamboo"
+msgstr "بامبو"
+
+#: src/tile.py:280
+msgctxt "kajongg"
+msgid "character"
+msgstr "نویسه"
+
+#: src/tile.py:281
+msgctxt "kajongg"
+msgid "wind"
+msgstr "باد"
+
+#: src/tile.py:282
+msgctxt "kajongg"
+msgid "dragon"
+msgstr "اژدها"
+
+#: src/tile.py:283
+msgctxt "kajongg"
+msgid "flower"
+msgstr "گل"
+
+#: src/tile.py:284
+msgctxt "kajongg"
+msgid "season"
+msgstr "فصل"
+
+#: src/tile.py:290
+msgctxt "kajongg"
+msgid "tile"
+msgstr "کاشی"
+
+#: src/tile.py:291
+msgctxt "kajongg"
+msgid "white"
+msgstr "سفید"
+
+#: src/tile.py:292
+msgctxt "kajongg"
+msgid "red"
+msgstr "قرمز"
+
+#: src/tile.py:293
+msgctxt "kajongg"
+msgid "green"
+msgstr "سبز"
+
+#: src/tile.py:294
+msgctxt "kajongg"
+msgid "East"
+msgstr "شرق"
+
+#: src/tile.py:295
+msgctxt "kajongg"
+msgid "South"
+msgstr "جنوب"
+
+#: src/tile.py:296
+msgctxt "kajongg"
+msgid "West"
+msgstr "غرب"
+
+#: src/tile.py:297
+msgctxt "kajongg"
+msgid "North"
+msgstr "شمال"
+
+#: src/tile.py:306
+msgid "East Wind"
+msgstr "باد شرق"
+
+#: src/tile.py:307
+msgid "South Wind"
+msgstr "باد جنوب"
+
+#: src/tile.py:308
+msgid "West Wind"
+msgstr "باد غرب"
+
+#: src/tile.py:309
+msgid "North Wind"
+msgstr "باد شمال"
+
+#: src/tile.py:311
+#, python-brace-format
+msgctxt "kajongg tile name"
+msgid "{group} {value}"
+msgstr "{group} {value}"
+
+#: src/tile.py:880
+msgctxt "kajongg meld type"
+msgid "Bonus"
+msgstr "امتیاز ویژه"
+
+#: src/tile.py:882
+msgctxt "kajongg meld type"
+msgid "&single"
+msgstr "تک"
+
+#: src/tile.py:884
+msgctxt "kajongg meld type"
+msgid "&pair"
+msgstr "جفت"
+
+#: src/tile.py:886
+msgctxt "kajongg meld type"
+msgid "&chow"
+msgstr "چاو"
+
+#: src/tile.py:888
+msgctxt "kajongg meld type"
+msgid "p&ung"
+msgstr "پونگ"
+
+#: src/tile.py:890
+msgctxt "kajongg meld type"
+msgid "c&laimed kong"
+msgstr "کونگ ادعاشده"
+
+#: src/tile.py:892
+msgctxt "kajongg meld type"
+msgid "k&ong"
+msgstr "کونگ"
+
+#: src/tile.py:893
+msgctxt "kajongg meld type"
+msgid "rest of tiles"
+msgstr "بقیه مهره‌ها"
+
+#: src/tile.py:900
+msgctxt "kajongg meld state"
+msgid "Exposed"
+msgstr "روشده"
+
+#: src/tile.py:901
+msgctxt "kajongg meld state"
+msgid "Concealed"
+msgstr "پنهان"
+
+#: src/tile.py:907
+#, python-brace-format
+msgctxt "kajongg meld name, do not translate parameter names"
+msgid "{state} {meldType} {name}"
+msgstr "{state} {meldType} {name}"
+
+#: src/tilesetselector.py:141
+msgctxt "TilesetSelector"
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: src/tilesetselector.py:142
+msgctxt "TilesetSelector"
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+#: src/tilesetselector.py:143
+msgctxt "TilesetSelector"
+msgid "Author:"
+msgstr "نویسنده:"
+
+#: src/tilesetselector.py:144
+msgctxt "TilesetSelector"
+msgid "Contact:"
+msgstr "تماس:"
+
+#: src/tilesetselector.py:145
+msgctxt "TilesetSelector"
+msgid "Description:"
+msgstr "توضیحات:"
+
+#: src/user.py:94
+msgid ""
+"Your client has a version older than 4.9.0 but you need %1 for this server"
+msgstr ""
+"نسخهٔ کلاینت شما قدیمی‌تر از ۴٫۹٫۰ است، اما برای این کارساز به %1 نیاز دارید"
+
+#: src/user.py:98
+msgid "Your client has version %1 but you need %2 for this server"
+msgstr "نسخهٔ کلاینت شما %1 است، اما برای این کارساز به %2 نیاز دارید"

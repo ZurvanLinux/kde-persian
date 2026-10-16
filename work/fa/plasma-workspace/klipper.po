@@ -1,0 +1,893 @@
+# translation of klipper.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: klipper\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-14 00:50+0000\n"
+"PO-Revision-Date: 2026-10-15 04:14+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: configdialog.cpp:82
+#, kde-format
+msgid "Clipboard history:"
+msgstr "تاریخچهٔ تخته‌گیره:"
+
+#: configdialog.cpp:88
+#, kde-format
+msgctxt "Number of entries"
+msgid "%v entry"
+msgid_plural "%v entries"
+msgstr[0] "%v ورودی"
+msgstr[1] "%v ورودی"
+
+#: configdialog.cpp:97
+#, kde-format
+msgid "Selection and Clipboard:"
+msgstr "انتخاب و تخته‌گیره:"
+
+#: configdialog.cpp:104
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"When text or an area of the screen is highlighted with the mouse or "
+"keyboard, this is the <emphasis>selection</emphasis>. It can be pasted using"
+" the middle mouse button.<nl/><nl/>If the selection is explicitly copied "
+"using a <interface>Copy</interface> or <interface>Cut</interface> action, it"
+" is saved to the <emphasis>clipboard</emphasis>. It can be pasted using a "
+"<interface>Paste</interface> action.<nl/><nl/>When turned on, this option "
+"keeps the selection and the clipboard the same,  so that any selection is "
+"immediately available to paste by any means. If it is turned off, the "
+"selection may still be saved in the clipboard history (subject to the option"
+" below), but it can only be pasted using the middle mouse button."
+msgstr ""
+"هنگامی که متنی یا ناحیه‌ای از صفحه با موشی یا صفحه‌کلید برجسته می‌شود، این "
+"همان <emphasis>انتخاب</emphasis> است. می‌توان آن را با استفاده از دکمهٔ "
+"میانی موشی چسباند.<nl/><nl/>اگر انتخاب صریحاً با کنش "
+"<interface>رونوشت</interface> یا <interface>برش</interface> کپی شود، در "
+"<emphasis>تخته‌گیره</emphasis> ذخیره می‌شود. می‌توان آن را با کنش "
+"<interface>چسباندن</interface> چسباند.<nl/><nl/>وقتی این گزینه فعال باشد، "
+"انتخاب و تخته‌گیره را یکسان نگه می‌دارد، به‌طوری که هر انتخابی بی‌درنگ از هر"
+" راهی برای چسباندن در دسترس خواهد بود. اگر خاموش باشد، ممکن است انتخاب "
+"همچنان در تاریخچهٔ تخته‌گیره ذخیره شود (مشروط به گزینهٔ زیر)، اما فقط با "
+"دکمهٔ میانی موشی می‌توان آن را چسباند."
+
+#: configdialog.cpp:123
+#, kde-format
+msgctxt "@option:check Part of the setting 'Include in history:'"
+msgid "Text selected with the pointer or keyboard"
+msgstr "متن انتخاب‌شده با اشاره‌گر یا صفحه‌کلید"
+
+#: configdialog.cpp:125
+#, kde-format
+msgctxt "Followed e.g. by 'Text selected with the pointer or keyboard'"
+msgid "Include in history:"
+msgstr "گنجاندن در تاریخچه:"
+
+#: configdialog.cpp:127
+#, kde-format
+msgid ""
+"Text copied explicitly is always saved unless it is marked as a password."
+msgstr ""
+"متنی که صریحاً رونوشت‌برداری شده است، همیشه ذخیره می‌شود مگر آنکه به عنوان "
+"گذرواژه نشانه‌گذاری شده باشد."
+
+#: configdialog.cpp:132
+#, kde-format
+msgctxt "@option:check Part of the setting 'Include in history:'"
+msgid "Image data copied explicitly"
+msgstr "داده‌های تصویر صریحاً رونوشت‌برداری‌شده"
+
+#: configdialog.cpp:136
+#, kde-format
+msgid ""
+"For example, layers and selections copied in image editors like Krita or "
+"GIMP.<br/><a href=\"1\">More about images in the clipboard.</a>"
+msgstr ""
+"برای نمونه، لایه‌ها و انتخاب‌های رونوشت‌شده در ویرایشگرهای تصویر مانند Krita"
+" یا GIMP.<br/><a href=\"1\">اطلاعات بیشتر دربارهٔ تصاویر در تخته‌گیره.</a>"
+
+#: configdialog.cpp:145
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Clipboard will always allow copying image files as filenames and will show "
+"their thumbnails.  This setting covers cases where images are stored "
+"directly as data.  Some applications support both cases, but some only "
+"accept images as data.<nl/><nl/>Also note that the Spectacle screenshot tool"
+" will ignore this setting when configured to save screenshots to the "
+"clipboard. Any application that sends both text and image will also ignore "
+"it."
+msgstr ""
+"تخته‌گیره همیشه اجازهٔ رونوشت‌برداری از پرونده‌های تصویر را به عنوان نام "
+"پرونده می‌دهد و بندانگشتی‌های آن‌ها را نمایش خواهد داد. این تنظیم مواردی را "
+"شامل می‌شود که در آن‌ها تصاویر مستقیماً به عنوان داده ذخیره می‌شوند. برخی "
+"برنامه‌ها از هر دو حالت پشتیبانی می‌کنند، اما برخی فقط تصاویر را به عنوان "
+"داده می‌پذیرند.<nl/><nl/>همچنین توجه داشته باشید که ابزار نماگرفت Spectacle،"
+" هنگامی که برای ذخیرهٔ نماگرفت‌ها در تخته‌گیره پیکربندی شده باشد، این تنظیم "
+"را نادیده خواهد گرفت. هر برنامه‌ای نیز که هم متن و هم تصویر بفرستد، آن را "
+"نادیده خواهد گرفت."
+
+#: configdialog.cpp:170
+#, kde-format
+msgid "Show action popup menu:"
+msgstr "نمایش منوی بازشوی کنش:"
+
+#: configdialog.cpp:179
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"When text that matches an action pattern is selected or is chosen from the "
+"clipboard history, automatically show the popup menu with applicable "
+"actions. If the automatic menu is turned off here, or it is not shown for an"
+" excluded window, then it can be shown by using the <shortcut>%1</shortcut> "
+"key shortcut."
+msgstr ""
+"هنگامی که متنی منطبق بر یک الگوی کنش انتخاب می‌شود یا از تاریخچهٔ تخته‌گیره "
+"برگزیده می‌شود، به‌طور خودکار منوی بازشو با کنش‌های کاربردی نشان داده "
+"می‌شود. اگر منوی خودکار در اینجا خاموش باشد، یا برای پنجره‌ای مستثنی‌شده "
+"نشان داده نشود، می‌توان آن را با استفاده از میانبر کلید "
+"<shortcut>%1</shortcut> نمایش داد."
+
+#: configdialog.cpp:191
+#, kde-format
+msgctxt "Unit of time"
+msgid "%v second"
+msgid_plural "%v seconds"
+msgstr[0] "%v ثانیه"
+msgstr[1] "%v ثانیه"
+
+#: configdialog.cpp:192
+#, kde-format
+msgctxt "No timeout"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: configdialog.cpp:201
+#, kde-format
+msgid "Options:"
+msgstr "گزینه‌ها:"
+
+#: configdialog.cpp:226
+#, kde-format
+msgctxt "@title:column"
+msgid "Match pattern and commands"
+msgstr "الگوی تطبیق و فرمان‌ها"
+
+#: configdialog.cpp:226
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr "شرح"
+
+#: configdialog.cpp:232
+#, kde-format
+msgid "Add Action..."
+msgstr "افزودن کنش…"
+
+#: configdialog.cpp:236
+#, kde-format
+msgid "Edit Action..."
+msgstr "ویرایش کنش…"
+
+#: configdialog.cpp:241
+#, kde-format
+msgid "Delete Action"
+msgstr "حذف کنش"
+
+#: configdialog.cpp:426
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Delete the selected action <resource>%1</resource><nl/>and all of its "
+"commands?"
+msgstr ""
+"کنش انتخاب‌شدهٔ <resource>%1</resource><nl/>و همهٔ فرمان‌های آن حذف شوند؟"
+
+#: configdialog.cpp:427
+#, kde-format
+msgid "Confirm Delete Action"
+msgstr "تأیید حذف کنش"
+
+#: configdialog.cpp:480
+#, kde-format
+msgctxt "General Config"
+msgid "General"
+msgstr "عمومی"
+
+#: configdialog.cpp:480
+#, kde-format
+msgid "General Configuration"
+msgstr "پیکربندی عمومی"
+
+#: configdialog.cpp:481
+#, kde-format
+msgctxt "Popup Menu Config"
+msgid "Action Menu"
+msgstr "منوی کنش"
+
+#: configdialog.cpp:481
+#, kde-format
+msgid "Action Menu"
+msgstr "منوی کنش‌ها"
+
+#: configdialog.cpp:482
+#, kde-format
+msgctxt "Actions Config"
+msgid "Actions Configuration"
+msgstr "پیکربندی کنش‌ها"
+
+#: configdialog.cpp:482
+#, kde-format
+msgid "Actions Configuration"
+msgstr "پیکربندی کنش‌ها"
+
+#: configdialog.cpp:489
+#, kde-format
+msgctxt "Shortcuts Config"
+msgid "Shortcuts"
+msgstr "میانبرها"
+
+#: configdialog.cpp:489
+#, kde-format
+msgid "Shortcuts Configuration"
+msgstr "پیکربندی میانبرها"
+
+#: declarative/qml/BarcodePage.qml:48
+#, kde-format
+msgid "Return to Clipboard"
+msgstr "بازگشت به تخته‌گیره"
+
+#: declarative/qml/BarcodePage.qml:72
+#, kde-format
+msgctxt "@action:button Copy to clipboard"
+msgid "Copy"
+msgstr "رونوشت"
+
+#: declarative/qml/BarcodePage.qml:78
+#, kde-format
+msgctxt "@info:status"
+msgid "An image of the QR code has been copied to clipboard"
+msgstr "تصویری از کد QR در تخته‌گیره رونوشت شد"
+
+#: declarative/qml/BarcodePage.qml:81
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy QR code image to clipboard"
+msgstr "رونوشت تصویر کد QR در تخته‌گیره"
+
+#: declarative/qml/BarcodePage.qml:116
+#, kde-format
+msgid "QR Code"
+msgstr "کد QR"
+
+#: declarative/qml/BarcodePage.qml:166
+#, kde-format
+msgid ""
+"There is not enough space to display the QR code. Try resizing this applet."
+msgstr ""
+"فضای کافی برای نمایش کد QR وجود ندارد. تغییر اندازهٔ این ابزارک را "
+"بیازمایید."
+
+#: declarative/qml/BarcodePage.qml:166
+#, kde-format
+msgid "Creating QR code failed"
+msgstr "ایجاد کد QR ناموفق بود"
+
+#: declarative/qml/ClipboardItemDelegate.qml:222
+#, kde-format
+msgctxt "@action:button"
+msgid "Collapse"
+msgstr "جمع کردن"
+
+#: declarative/qml/ClipboardItemDelegate.qml:222
+#, kde-format
+msgctxt "@action:button"
+msgid "Expand"
+msgstr "گسترش دادن"
+
+#: declarative/qml/ClipboardMenu.qml:305
+#, kde-format
+msgid "Clear History"
+msgstr "پاک کردن تاریخچه"
+
+#: declarative/qml/ClipboardMenu.qml:362
+#, kde-format
+msgid "All History"
+msgstr "همهٔ تاریخچه"
+
+#: declarative/qml/ClipboardMenu.qml:367
+#, kde-format
+msgid "Starred Only"
+msgstr "فقط ستاره‌دار"
+
+#: declarative/qml/ClipboardMenu.qml:376
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The clipboard and the selection currently hold a sensitive piece of data "
+"that will not be stored in history."
+msgstr ""
+"تخته‌گیره و بخش انتخابی در حال حاضر حاوی داده‌ای حساس هستند که در تاریخچه "
+"ذخیره نخواهد شد."
+
+#: declarative/qml/ClipboardMenu.qml:378
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The clipboard currently holds a sensitive piece of data that will not be "
+"stored in history."
+msgstr ""
+"تخته‌گیره در حال حاضر حاوی داده‌ای حساس است که در تاریخچه ذخیره نخواهد شد."
+
+#: declarative/qml/ClipboardMenu.qml:380
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The selection currently holds a sensitive piece of data that will not be "
+"stored in history."
+msgstr ""
+"بخش انتخابی در حال حاضر حاوی داده‌ای حساس است که در تاریخچه ذخیره نخواهد شد."
+
+#: declarative/qml/ClipboardMenu.qml:392
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear Secret Data"
+msgstr "پاک کردن داده‌های محرمانه"
+
+#: declarative/qml/ClipboardMenu.qml:530
+#, kde-format
+msgid "No matches"
+msgstr "موردی یافت نشد"
+
+#: declarative/qml/ClipboardMenu.qml:530
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "تخته‌گیره خالی است"
+
+#: declarative/qml/DelegateToolButtons.qml:37
+#, kde-format
+msgid "Invoke action"
+msgstr "اجرای کنش"
+
+#: declarative/qml/DelegateToolButtons.qml:43
+#, kde-format
+msgid "Show QR code"
+msgstr "نمایش کد QR"
+
+#: declarative/qml/DelegateToolButtons.qml:49
+#, kde-format
+msgid "Edit contents"
+msgstr "ویرایش محتوا"
+
+#: declarative/qml/DelegateToolButtons.qml:55
+#, kde-format
+msgid "Remove from history"
+msgstr "حذف از تاریخچه"
+
+#: declarative/qml/DelegateToolButtons.qml:60
+#, kde-format
+msgid "Remove Star"
+msgstr "حذف ستاره"
+
+#: declarative/qml/DelegateToolButtons.qml:60
+#, kde-format
+msgid "Star"
+msgstr "ستاره‌دار کردن"
+
+#: declarative/qml/EditPage.qml:63
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Text edit area"
+msgstr "ناحیهٔ ویرایش متن"
+
+#: declarative/qml/EditPage.qml:81
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "ذخیره"
+
+#: declarative/qml/EditPage.qml:89
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "لغو"
+
+#: declarative/qml/UrlItemDelegate.qml:99
+#, kde-format
+msgctxt ""
+"Indicator that there are more urls in the clipboard than previews shown"
+msgid "+%1"
+msgstr "+%1"
+
+#: editactiondialog.cpp:36 editcommanddialog.cpp:91
+#, kde-format
+msgid "Ignore"
+msgstr "نادیده گرفتن"
+
+#: editactiondialog.cpp:38
+#, kde-format
+msgid "Replace Clipboard"
+msgstr "جایگزینی تخته‌گیره"
+
+#: editactiondialog.cpp:40
+#, kde-format
+msgid "Add to Clipboard"
+msgstr "افزودن به تخته‌گیره"
+
+#: editactiondialog.cpp:128
+#, kde-format
+msgid "Command"
+msgstr "فرمان"
+
+#: editactiondialog.cpp:130
+#, kde-format
+msgid "Output"
+msgstr "خروجی"
+
+#: editactiondialog.cpp:132
+#, kde-format
+msgid "Description"
+msgstr "توضیحات"
+
+#: editactiondialog.cpp:185
+#, kde-format
+msgid "Action Properties"
+msgstr "ویژگی‌های کنش"
+
+#: editactiondialog.cpp:198
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"An action takes effect when its <interface>match pattern</interface> matches"
+" the clipboard contents. When this happens, the action's "
+"<interface>commands</interface> appear in the Klipper popup menu; if one of "
+"them is chosen, the command is executed."
+msgstr ""
+"یک کنش زمانی اعمال می‌شود که <interface>الگوی تطبیق</interface> آن با محتوای"
+" تخته‌گیره مطابقت داشته باشد. هنگامی که این اتفاق می‌افتد، "
+"<interface>فرمان‌های</interface> کنش در منوی بازشوی کلیپر ظاهر می‌شوند؛ اگر "
+"یکی از آن‌ها انتخاب شود، فرمان اجرا می‌شود."
+
+#: editactiondialog.cpp:210
+#, kde-format
+msgid "Enter a pattern to match against the clipboard"
+msgstr "الگویی را برای تطبیق با تخته‌گیره وارد کنید"
+
+#: editactiondialog.cpp:212
+#, kde-format
+msgid "Match pattern:"
+msgstr "الگوی تطبیق:"
+
+#: editactiondialog.cpp:215
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The match pattern is a regular expression. For more information see the "
+"<link url=\"https://en.wikipedia.org/wiki/Regular_expression\">Wikipedia "
+"entry</link> for this topic."
+msgstr ""
+"الگوی تطبیق یک عبارت باقاعده است. برای اطلاعات بیشتر، <link "
+"url=\"https://en.wikipedia.org/wiki/Regular_expression\">مدخل "
+"ویکی‌پدیا</link> را دربارهٔ این موضوع ببینید."
+
+#: editactiondialog.cpp:226
+#, kde-format
+msgid "Enter a description for the action"
+msgstr "توضیحی برای کنش وارد کنید"
+
+#: editactiondialog.cpp:227 editcommanddialog.cpp:85
+#, kde-format
+msgid "Description:"
+msgstr "توضیحات:"
+
+#: editactiondialog.cpp:230
+#, kde-format
+msgid "Include in automatic popup"
+msgstr "گنجاندن در بازشوی خودکار"
+
+#: editactiondialog.cpp:234
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The commands for this match will be included in the automatic action popup, "
+"if it is enabled in the <interface>Action Menu</interface> page. If this "
+"option is turned off, the commands for this match will not be included in "
+"the automatic popup but they will be included if the popup is activated "
+"manually with the <shortcut>%1</shortcut> key shortcut."
+msgstr ""
+"فرمان‌های این تطبیق در صورتی که در صفحهٔ <interface>منوی کنش</interface> "
+"فعال شده باشد، در بازشوی خودکار کنش گنجانده خواهند شد. اگر این گزینه خاموش "
+"باشد، فرمان‌های این تطبیق در بازشوی خودکار گنجانده نمی‌شوند، اما اگر بازشو "
+"به‌صورت دستی با میانبر کلید <shortcut>%1</shortcut> فعال شود، گنجانده خواهند"
+" شد."
+
+#: editactiondialog.cpp:269
+#, kde-format
+msgid "Add Command..."
+msgstr "افزودن فرمان…"
+
+#: editactiondialog.cpp:274
+#, kde-format
+msgid "Edit Command..."
+msgstr "ویرایش فرمان…"
+
+#: editactiondialog.cpp:280
+#, kde-format
+msgid "Delete Command"
+msgstr "حذف دستور"
+
+#: editactiondialog.cpp:397
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Delete the selected command <resource>%1</resource>?"
+msgstr "دستور انتخاب‌شدهٔ <resource>%1</resource> حذف شود؟"
+
+#: editactiondialog.cpp:398
+#, kde-format
+msgid "Confirm Delete Command"
+msgstr "تأیید حذف دستور"
+
+#: editcommanddialog.cpp:48
+#, kde-format
+msgid "Command Properties"
+msgstr "ویژگی‌های دستور"
+
+#: editcommanddialog.cpp:61
+#, kde-format
+msgid "Enter the command and arguments"
+msgstr "دستور و آرگومان‌ها را وارد کنید"
+
+#: editcommanddialog.cpp:64
+#, kde-format
+msgid "Command:"
+msgstr "دستور:"
+
+#: editcommanddialog.cpp:73
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"A <b>&#37;s</b> in the command will be replaced by the complete clipboard "
+"contents. <b>&#37;0</b> through <b>&#37;9</b> will be replaced by the "
+"corresponding captured texts from the match pattern."
+msgstr ""
+"عبارت <b>&#37;s</b> در دستور، با کل محتوای تخته‌گیره جایگزین خواهد شد. "
+"<b>&#37;0</b> تا <b>&#37;9</b> با متن‌های متناظرِ به‌دست‌آمده از الگوی تطبیق"
+" جایگزین خواهند شد."
+
+#: editcommanddialog.cpp:83
+#, kde-format
+msgid "Enter a description for the command"
+msgstr "توضیحی برای دستور وارد کنید"
+
+#: editcommanddialog.cpp:93
+#, kde-format
+msgid "Output from command:"
+msgstr "خروجی دستور:"
+
+#: editcommanddialog.cpp:95
+#, kde-format
+msgid "Replace current clipboard"
+msgstr "جایگزینی تخته‌گیرهٔ کنونی"
+
+#: editcommanddialog.cpp:99
+#, kde-format
+msgid "Append to clipboard"
+msgstr "الحاق به تخته‌گیره"
+
+#: editcommanddialog.cpp:103
+#, kde-format
+msgid "What happens to the standard output of the command executed."
+msgstr "آنچه برای خروجی استاندارد دستور اجراشده رخ می‌دهد."
+
+#: editcommanddialog.cpp:117
+#, kde-format
+msgid "Reset the icon to the default for the command"
+msgstr "بازنشانی شمایل به پیش‌فرض دستور"
+
+#: editcommanddialog.cpp:123
+#, kde-format
+msgid "Icon:"
+msgstr "شمایل:"
+
+#: historymodel.cpp:375
+#, kde-format
+msgid "Do you really want to clear and delete the entire clipboard history?"
+msgstr "آیا واقعاً می‌خواهید تمام تاریخچهٔ تخته‌گیره را پاک و حذف کنید؟"
+
+#: historymodel.cpp:377
+#, kde-format
+msgid "Clear Clipboard History"
+msgstr "پاک کردن تاریخچهٔ تخته‌گیره"
+
+#: historymodel.cpp:379 historymodel.cpp:679
+#, kde-format
+msgctxt "@option:check"
+msgid "Do not ask again"
+msgstr "دیگر پرسیده نشود"
+
+#: historymodel.cpp:486
+#, kde-format
+msgctxt "@info:tooltip width x height"
+msgid "%1x%2"
+msgstr "%1x%2"
+
+#: historymodel.cpp:675
+#, kde-format
+msgid "This item is starred. Do you really want to remove it from history?"
+msgstr ""
+"این مورد ستاره‌دار است. آیا واقعاً می‌خواهید آن را از تاریخچه حذف کنید؟"
+
+#: historymodel.cpp:677
+#, kde-format
+msgid "Remove Starred Item"
+msgstr "حذف مورد ستاره‌دار"
+
+#: klipper.cpp:70
+#, kde-format
+msgctxt "@title shortcut group"
+msgid "Clipboard"
+msgstr "تخته‌گیره"
+
+#: klipper.cpp:74
+#, kde-format
+msgctxt "@action:inmenu Toggle automatic action"
+msgid "Toggle Automatic Popping Up of Action Menu"
+msgstr "تغییر وضعیت باز شدن خودکار منوی کنش‌ها"
+
+#: klipper.cpp:94
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "C&lear Clipboard History"
+msgstr "پاک کردن تاریخچهٔ تخته‌گیره"
+
+#: klipper.cpp:99
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Manually Invoke Action on Current Clipboard"
+msgstr "فراخوانی دستی کنش روی تخته‌گیرهٔ کنونی"
+
+#: klipper.cpp:107
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Edit Contents…"
+msgstr "ویرایش محتوا…"
+
+#: klipper.cpp:115
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Show Barcode…"
+msgstr "نمایش بارکد…"
+
+#: klipper.cpp:124
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Next History Item"
+msgstr "مورد بعدی تاریخچه"
+
+#: klipper.cpp:129
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Previous History Item"
+msgstr "مورد قبلی تاریخچه"
+
+#: klipper.cpp:136
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Clipboard Items at Mouse Position"
+msgstr "نمایش موارد تخته‌گیره در موقعیت موشی"
+
+#: klipper.cpp:385 klipper.cpp:394
+#, kde-format
+msgid "Clipboard history"
+msgstr "تاریخچهٔ تخته‌گیره"
+
+#: klipper.cpp:411
+#, kde-format
+msgid "up"
+msgstr "بالا"
+
+#: klipper.cpp:418
+#, kde-format
+msgid "current"
+msgstr "کنونی"
+
+#: klipper.cpp:425
+#, kde-format
+msgid "down"
+msgstr "پایین"
+
+#. i18n: ectx: label, entry (Version), group (General)
+#: klipper.kcfg:10
+#, kde-format
+msgid "Klipper version"
+msgstr "نسخهٔ کلیپر"
+
+#. i18n: ectx: label, entry (KeepClipboardContents), group (General)
+#: klipper.kcfg:13
+#, kde-format
+msgid "Save history across desktop sessions"
+msgstr "ذخیرهٔ تاریخچه بین نشست‌های میزکار"
+
+#. i18n: ectx: tooltip, entry (KeepClipboardContents), group (General)
+#: klipper.kcfg:15
+#, kde-format
+msgid ""
+"Retain the clipboard history, so it will be available the next time you log "
+"in."
+msgstr "نگه‌داری تاریخچهٔ تخته‌گیره تا در ورود بعدی شما در دسترس باشد."
+
+#. i18n: ectx: label, entry (PreventEmptyClipboard), group (General)
+#: klipper.kcfg:18
+#, kde-format
+msgid "Prevent the clipboard from being cleared"
+msgstr "جلوگیری از پاک شدن تخته‌گیره"
+
+#. i18n: ectx: whatsthis, entry (PreventEmptyClipboard), group (General)
+#: klipper.kcfg:20
+#, kde-format
+msgid ""
+"Do not allow the clipboard to be cleared, for example when an application "
+"exits."
+msgstr "اجازه ندادن به پاک شدن تخته‌گیره، برای نمونه هنگام خروج یک برنامه."
+
+#. i18n: ectx: label, entry (SyncClipboards), group (General)
+#: klipper.kcfg:23
+#, kde-format
+msgid "Keep the selection and clipboard the same"
+msgstr "یکسان نگه داشتن گزینش و تخته‌گیره"
+
+#. i18n: ectx: whatsthis, entry (SyncClipboards), group (General)
+#: klipper.kcfg:25
+#, kde-format
+msgid ""
+"Content selected with the pointer is automatically copied to the clipboard "
+"so that it can be pasted with either a <i>Paste</i> action or a middle-"
+"click.<br/><a href=\"1\">More about the selection and clipboard</a>."
+msgstr ""
+"محتوای انتخاب‌شده با اشاره‌گر به‌طور خودکار در تخته‌گیره رونوشت می‌شود تا "
+"بتوان آن را با کنش <i>چسباندن</i> یا کلیک میانی چسباند.<br/><a "
+"href=\"1\">اطلاعات بیشتر دربارهٔ گزینش و تخته‌گیره</a>."
+
+#. i18n: ectx: label, entry (SaveSelection), group (General)
+#: klipper.kcfg:28
+#, kde-format
+msgid "Save the selection"
+msgstr "ذخیرهٔ گزینش"
+
+#. i18n: ectx: whatsthis, entry (SaveSelection), group (General)
+#: klipper.kcfg:30
+#, kde-format
+msgid ""
+"Content selected with the pointer but not explicitly copied to the clipboard"
+" is automatically stored in the clipboard history."
+msgstr ""
+"محتوای انتخاب‌شده با اشاره‌گر که به‌صراحت در تخته‌گیره رونوشت نشده است، "
+"به‌طور خودکار در تاریخچهٔ تخته‌گیره ذخیره می‌شود."
+
+#. i18n: ectx: label, entry (SaveImages), group (General)
+#: klipper.kcfg:33
+#, kde-format
+msgid "Save images"
+msgstr "ذخیرهٔ تصاویر"
+
+#. i18n: ectx: whatsthis, entry (SaveImages), group (General)
+#: klipper.kcfg:35
+#, kde-format
+msgid "Store images in the clipboard history."
+msgstr "ذخیرهٔ تصاویر در تاریخچهٔ تخته‌گیره."
+
+#. i18n: ectx: label, entry (URLGrabberEnabled), group (General)
+#: klipper.kcfg:38
+#, kde-format
+msgid "Immediately on selection"
+msgstr "بلافاصله پس از گزینش"
+
+#. i18n: ectx: tooltip, entry (URLGrabberEnabled), group (General)
+#: klipper.kcfg:39
+#, kde-format
+msgid ""
+"Show the popup menu of applicable actions as soon as a selection is made."
+msgstr "نمایش منوی بازشوی کنش‌های کاربردی به محض انجام گزینش."
+
+#. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
+#: klipper.kcfg:43
+#, kde-format
+msgid "Automatic action menu time:"
+msgstr "زمان منوی کنش خودکار:"
+
+#. i18n: ectx: tooltip, entry (TimeoutForActionPopups), group (General)
+#: klipper.kcfg:47
+#, kde-format
+msgid "Display the automatic action popup menu for this time."
+msgstr "نمایش منوی بازشوی کنش خودکار برای این مدت زمان."
+
+#. i18n: ectx: label, entry (MaxClipItems), group (General)
+#: klipper.kcfg:50
+#, kde-format
+msgid "History size:"
+msgstr "اندازهٔ تاریخچه:"
+
+#. i18n: ectx: tooltip, entry (MaxClipItems), group (General)
+#: klipper.kcfg:54
+#, kde-format
+msgid ""
+"The clipboard history will store up to this many items. Maximum is 2048."
+msgstr ""
+"تاریخچهٔ تخته‌گیره تا این تعداد مورد را ذخیره خواهد کرد. بیشینه 2048 است."
+
+#. i18n: ectx: label, entry (ActionList), group (General)
+#: klipper.kcfg:57
+#, kde-format
+msgid "Dummy entry for indicating changes in an action's tree widget"
+msgstr "ورودی ساختگی برای نشان دادن تغییرات در ابزارک درختی یک کنش"
+
+#. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
+#: klipper.kcfg:64
+#, kde-format
+msgid "Trim whitespace"
+msgstr "حذف فاصله‌های خالی"
+
+#. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
+#: klipper.kcfg:66
+#, kde-format
+msgid ""
+"Remove any whitespace from the start and end of the text passed to an "
+"action. The text saved in history is not affected."
+msgstr ""
+"حذف هرگونه فاصلهٔ خالی از آغاز و پایان متنی که به یک کنش فرستاده می‌شود. متن"
+" ذخیره‌شده در تاریخچه تغییری نمی‌کند."
+
+#. i18n: ectx: label, entry (ReplayActionInHistory), group (Actions)
+#: klipper.kcfg:69
+#, kde-format
+msgid "For an item chosen from history"
+msgstr "برای موردی که از تاریخچه انتخاب شده است"
+
+#. i18n: ectx: tooltip, entry (ReplayActionInHistory), group (Actions)
+#: klipper.kcfg:71
+#, kde-format
+msgid ""
+"Show the popup menu of applicable actions if an entry is chosen from the "
+"clipboard history."
+msgstr ""
+"نمایش منوی بازشوی کنش‌های قابل اجرا در صورت انتخاب یک ورودی از تاریخچهٔ "
+"تخته‌گیره."
+
+#. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
+#: klipper.kcfg:74
+#, kde-format
+msgid "Offer applications for copied links and files"
+msgstr "پیشنهاد برنامه‌ها برای پیوندها و پرونده‌های رونوشت‌شده"
+
+#. i18n: ectx: whatsthis, entry (EnableMagicMimeActions), group (Actions)
+#: klipper.kcfg:76
+#, kde-format
+msgid ""
+"For a link starting with <i>http://</i> or <i>https://</i> or for files, "
+"applications that can open them will be offered alongside your matching "
+"actions, if any."
+msgstr ""
+"برای پیوندی که با <i>http://</i> یا <i>https://</i> آغاز می‌شود یا برای "
+"پرونده‌ها، برنامه‌هایی که می‌توانند آن‌ها را باز کنند در کنار کنش‌های منطبق "
+"شما (در صورت وجود) پیشنهاد خواهند شد."
+
+#: klipperpopup.cpp:36
+#, kde-format
+msgid "Clipboard Popup"
+msgstr "پنجرهٔ بازشوی تخته‌گیره"
+
+#: urlgrabber.cpp:218
+#, kde-format
+msgid "&Cancel"
+msgstr "لغو"

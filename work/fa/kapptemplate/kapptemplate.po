@@ -1,0 +1,328 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kapptemplate package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kapptemplate\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-30 00:49+0000\n"
+"PO-Revision-Date: 2026-10-15 19:22+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/application/apptemplatesmodel.cpp:164
+#, kde-format
+msgctxt "@title:column"
+msgid "Templates Projects"
+msgstr "پروژه‌های الگو"
+
+#: src/application/ChoicePage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Choose Template"
+msgstr "انتخاب الگو"
+
+#: src/application/ChoicePage.qml:26
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Install Template From File"
+msgstr "نصب الگو از پرونده"
+
+#: src/application/ChoicePage.qml:33
+#, kde-format
+msgctxt "file dialog name filter"
+msgid "Archive Files (*.tar.bz2 *.zip)"
+msgstr "پرونده‌های بایگانی (‎*.tar.bz2 *.zip‎)"
+
+#: src/application/ChoicePage.qml:96
+#, kde-format
+msgctxt "@title"
+msgid "No Template Selected"
+msgstr "هیچ الگویی انتخاب نشده است"
+
+#: src/application/ChoicePage.qml:129 src/application/ConfigurePage.qml:87
+#: src/application/GeneratorPage.qml:67
+#, kde-format
+msgctxt "@action:button Go to the previous page"
+msgid "Previous"
+msgstr "قبلی"
+
+#: src/application/ChoicePage.qml:138 src/application/IntroductionPage.qml:39
+#, kde-format
+msgctxt "@action:button Go to the next page"
+msgid "Next"
+msgstr "بعدی"
+
+#: src/application/ConfigurePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: src/application/ConfigurePage.qml:25
+#, kde-format
+msgctxt "@title:group"
+msgid "General"
+msgstr "عمومی"
+
+#: src/application/ConfigurePage.qml:32
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "نام:"
+
+#: src/application/ConfigurePage.qml:44
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr "مکان:"
+
+#: src/application/ConfigurePage.qml:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No folder selected"
+msgstr "هیچ پوشه‌ای انتخاب نشده است"
+
+#: src/application/ConfigurePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Metadata"
+msgstr "فراردادگان"
+
+#: src/application/ConfigurePage.qml:62
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Version:"
+msgstr "نگارش:"
+
+#: src/application/ConfigurePage.qml:70
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Author name:"
+msgstr "نام پدیدآور:"
+
+#: src/application/ConfigurePage.qml:78
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Author email:"
+msgstr "رایانامهٔ پدیدآور:"
+
+#: src/application/ConfigurePage.qml:93
+#, kde-format
+msgctxt "@action:button Generate the application"
+msgid "Generate"
+msgstr "تولید"
+
+#: src/application/generator.cpp:128
+#, kde-format
+msgid "%1 cannot be created."
+msgstr "ایجاد %1 امکان‌پذیر نیست."
+
+#: src/application/generator.cpp:148
+#, kde-format
+msgid "Path %1 could not be created."
+msgstr "امکان ایجاد مسیر %1 وجود نداشت."
+
+#: src/application/generator.cpp:164
+#, kde-format
+msgid ""
+"Could not copy template file to %1, because the file is already exists. The "
+"project has not been generated and all temporary files will be removed."
+msgstr ""
+"امکان رونوشت پرونده الگو در %1 وجود نداشت، زیرا این پرونده از قبل وجود دارد."
+" پروژه ایجاد نشد و تمام پرونده‌های موقت حذف خواهند شد."
+
+#: src/application/generator.cpp:178
+#, kde-format
+msgid ""
+"Failed to integrate your project information into the file %1. The project "
+"has not been generated and all temporary files will be removed."
+msgstr ""
+"یکپارچه‌سازی اطلاعات پروژه شما در پرونده %1 ناموفق بود. پروژه ایجاد نشد و "
+"تمام پرونده‌های موقت حذف خواهند شد."
+
+#: src/application/generator.cpp:186
+#, kde-format
+msgid "Could not copy template file to %1."
+msgstr "امکان رونوشت پرونده الگو در %1 وجود نداشت."
+
+#: src/application/generator.cpp:266
+#, kde-format
+msgid "Could not load template archive for %1."
+msgstr "امکان بارگیری آرشیو الگو برای %1 وجود نداشت."
+
+#: src/application/generator.cpp:355
+#, kde-format
+msgid ""
+"Your project name is: <b>%1</b>, based on the <b>%2</b> template.<br />"
+msgstr "نام پروژه شما: <b>%1</b>، بر پایه الگوی <b>%2</b>.<br />"
+
+#: src/application/generator.cpp:356
+#, kde-format
+msgid "Version: %1 <br /><br />"
+msgstr "نسخه: %1 <br /><br />"
+
+#: src/application/generator.cpp:357
+#, kde-format
+msgid "Installed in: %1 <br /><br />"
+msgstr "نصب‌شده در: %1 <br /><br />"
+
+#: src/application/generator.cpp:358
+#, kde-format
+msgid ""
+"You will find a README in your project folder <b>%1</b><br /> to help you "
+"get started with your project."
+msgstr ""
+"برای شروع کار با پروژه، یک پرونده README در پوشه پروژه خود <b>%1</b><br /> "
+"پیدا خواهید کرد."
+
+#: src/application/GeneratorPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Project Generation"
+msgstr "ایجاد پروژه"
+
+#: src/application/GeneratorPage.qml:73
+#, kde-format
+msgctxt "@action:button Close the application"
+msgid "Close"
+msgstr "بستن"
+
+#: src/application/IntroductionPage.qml:13
+#, kde-format
+msgctxt "@title"
+msgid "Introduction"
+msgstr "مقدمه"
+
+#: src/application/IntroductionPage.qml:19
+#, kde-format
+msgid ""
+"This wizard will help you generate a new project to get started with Qt and "
+"KDE development."
+msgstr ""
+"این راهنما به شما کمک می‌کند تا یک پروژهٔ جدید برای شروع توسعه با کیوت و "
+"کی‌دی‌ای ایجاد کنید."
+
+#. i18n: ectx: label, entry (appName), group (Project)
+#: src/application/kapptemplate.kcfg:11
+#, kde-format
+msgid "Name of the project"
+msgstr "نام پروژه"
+
+#. i18n: ectx: label, entry (appVersion), group (Project)
+#: src/application/kapptemplate.kcfg:15
+#, kde-format
+msgid "Project version"
+msgstr "نسخهٔ پروژه"
+
+#. i18n: ectx: label, entry (url), group (Project)
+#: src/application/kapptemplate.kcfg:19
+#, kde-format
+msgid "Home dir of the user"
+msgstr "شاخهٔ خانگی کاربر"
+
+#. i18n: ectx: label, entry (name), group (User)
+#: src/application/kapptemplate.kcfg:27
+#, kde-format
+msgid "Name of the user"
+msgstr "نام کاربر"
+
+#. i18n: ectx: label, entry (email), group (User)
+#: src/application/kapptemplate.kcfg:38
+#, kde-format
+msgid "Email of the user"
+msgstr "رایانامهٔ کاربر"
+
+#: src/application/main.cpp:42
+#, kde-format
+msgid "KAppTemplate"
+msgstr "KAppTemplate"
+
+#: src/application/main.cpp:44
+#, kde-format
+msgid "KAppTemplate is a KDE project template generator"
+msgstr "برنامهٔ KAppTemplate یک سازندهٔ الگوی پروژه برای کی‌دی‌ای است"
+
+#: src/application/main.cpp:46
+#, kde-format
+msgid "(C) 2008 Anne-Marie Mahfouf"
+msgstr "© ۲۰۰۸ Anne-Marie Mahfouf"
+
+#: src/application/main.cpp:50
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#: src/application/main.cpp:51
+#, kde-format
+msgid "Sean Wilson"
+msgstr "Sean Wilson"
+
+#: src/application/main.cpp:51
+#, kde-format
+msgid "Icons from Oxygen Team icons"
+msgstr "شمایل‌ها برگرفته از شمایل‌های تیم اکسیژن"
+
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:25
+#: src/templates/C++/kde-frameworks6/src/main.cpp:32
+#, kde-format
+msgid "%{APPNAME}"
+msgstr "%{APPNAME}"
+
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:27
+#: src/templates/C++/kde-frameworks6/src/main.cpp:34
+#, kde-format
+msgid "A Simple Application written with KDE Frameworks"
+msgstr "یک برنامهٔ ساده نوشته‌شده با چارچوب‌های KDE"
+
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:29
+#: src/templates/C++/kde-frameworks6/src/main.cpp:36
+#, kde-format
+msgid "Copyright %{CURRENT_YEAR}, %{AUTHOR} <%{EMAIL}>"
+msgstr "حق نشر %{CURRENT_YEAR}، %{AUTHOR} <%{EMAIL}>"
+
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:31
+#: src/templates/C++/kde-frameworks6/src/main.cpp:38
+#, kde-format
+msgid "%{AUTHOR}"
+msgstr "%{AUTHOR}"
+
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:31
+#: src/templates/C++/kde-frameworks6/src/main.cpp:38
+#, kde-format
+msgid "Author"
+msgstr "نویسنده"
+
+#. i18n : internationalization
+#: src/templates/C++/kde-frameworks6/src/%{APPNAMELC}view.cpp:44
+#, kde-format
+msgid "This project is %1 days old"
+msgstr "این پروژه %1 روزه است"
+
+#: src/templates/C++/kde-frameworks6/src/%{APPNAMELC}window.cpp:26
+#, kde-format
+msgctxt "@action"
+msgid "Switch Colors"
+msgstr "تعویض رنگ‌ها"
+
+#: src/templates/C++/kde-frameworks6/src/%{APPNAMELC}window.cpp:62
+#, kde-format
+msgctxt "@title:tab"
+msgid "General"
+msgstr "عمومی"

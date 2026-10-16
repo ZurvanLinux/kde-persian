@@ -1,0 +1,393 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the hashomatic package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: hashomatic\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"PO-Revision-Date: 2026-10-15 18:07+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: hashhelper.cpp:66
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This file has been signed VS-NfD compliant using the key <a "
+"href=\"%1\">%2</a>."
+msgstr ""
+"این پرونده به شیوه‌ای سازگار با VS-NfD با استفاده از کلید <a "
+"href=\"%1\">%2</a> امضا شده است."
+
+#: hashhelper.cpp:71
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
+msgstr "این پرونده با استفاده از کلید <a href=\"%1\">%2</a> امضا شده است."
+
+#: hashhelper.cpp:74
+#, kde-format
+msgctxt "@label"
+msgid "The key details are not available."
+msgstr "جزئیات کلید در دسترس نیست."
+
+#: hashhelper.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed VS-NfD compliant by %1."
+msgstr "این پرونده به شیوه‌ای سازگار با VS-NfD توسط %1 امضا شده است."
+
+#: hashhelper.cpp:79
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed by %1."
+msgstr "این پرونده توسط %1 امضا شده است."
+
+#: hashhelper.cpp:82
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was revoked."
+msgstr "<a href=\"%1\">کلید</a> لغو شده است."
+
+#: hashhelper.cpp:85
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was expired."
+msgstr "<a href=\"%1\">کلید</a> منقضی شده است."
+
+#: hashhelper.cpp:89
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid, but the <a href=\"%1\">key</a>'s validity is "
+"unknown."
+msgstr "امضا معتبر است، اما اعتبار <a href=\"%1\">کلید</a> نامشخص است."
+
+#: hashhelper.cpp:91
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
+msgstr "امضا معتبر است و <a href=\"%1\">کلید</a> تا حدی مورد اعتماد است."
+
+#: hashhelper.cpp:93
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
+msgstr "امضا معتبر است و <a href=\"%1\">کلید</a> کاملاً مورد اعتماد است."
+
+#: hashhelper.cpp:95
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
+msgstr "امضا معتبر است و <a href=\"%1\">کلید</a> نهایت اعتماد را دارد."
+
+#: hashhelper.cpp:97
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
+msgstr "امضا معتبر است، اما <a href=\"%1\">کلید</a> غیرقابل اعتماد است."
+
+#: hashhelper.cpp:101
+#, kde-format
+msgctxt "@label"
+msgid "The signature is invalid."
+msgstr "امضا نامعتبر است."
+
+#: hashhelper.cpp:159
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr "، "
+
+#: hashhelper.cpp:196
+#, kde-format
+msgid "Hash-o-matic doesn't support directories."
+msgstr "برنامهٔ Hash-o-matic از پوشه‌ها پشتیبانی نمی‌کند."
+
+#: hashhelper.cpp:268
+#, kde-format
+msgid "The file doesn't exist or is not readable."
+msgstr "پرونده وجود ندارد یا خواندنی نیست."
+
+#: main.cpp:96
+#, kde-format
+msgctxt "@title"
+msgid "Hash-o-matic"
+msgstr "هش‌اوماتیک"
+
+#: main.cpp:99
+#, kde-format
+msgid "Check hashes for your files"
+msgstr "بررسی درهم‌سازهای پرونده‌های شما"
+
+#: main.cpp:103
+#, kde-format
+msgid "© 2021-2024 KDE Community"
+msgstr "© 2021-2024 KDE Community"
+
+#: main.cpp:104
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:104
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: main.cpp:109
+#, kde-format
+msgid "Generate hashes for file"
+msgstr "تولید درهم‌سازها برای پرونده"
+
+#: main.cpp:110
+#, kde-format
+msgid "Local file url"
+msgstr "نشانی پروندهٔ محلی"
+
+#: qml/ComparePage.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "مقایسهٔ پرونده‌ها"
+
+#: qml/ComparePage.qml:30
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "مقایسهٔ دو پرونده"
+
+#: qml/ComparePage.qml:43
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "پروندهٔ ۱"
+
+#: qml/ComparePage.qml:49 qml/ComparePage.qml:63 qml/GeneratePage.qml:46
+#: qml/VerifyPage.qml:50
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "انتخاب پرونده"
+
+#: qml/ComparePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "پروندهٔ ۲"
+
+#: qml/ComparePage.qml:90
+#, kde-format
+msgid "They match!"
+msgstr "تطابق دارند!"
+
+#: qml/ComparePage.qml:90
+#, kde-format
+msgid "They don't match!"
+msgstr "هم‌خوانی ندارند!"
+
+#: qml/ComparePage.qml:138 qml/ComparePage.qml:151
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "برای مقایسه، پرونده را به اینجا بکشید"
+
+#: qml/GeneratePage.qml:19
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "ایجاد هش"
+
+#: qml/GeneratePage.qml:31
+#, kde-format
+msgid "Display Checksums"
+msgstr "نمایش مجموع‌های مقابله‌ای"
+
+#: qml/GeneratePage.qml:55
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "هش‌ها"
+
+#: qml/GeneratePage.qml:63
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "MD5:"
+msgstr "MD5:"
+
+#: qml/GeneratePage.qml:66 qml/GeneratePage.qml:81 qml/GeneratePage.qml:96
+#, kde-format
+msgid "Copy hash"
+msgstr "رونوشت از هش"
+
+#: qml/GeneratePage.qml:70 qml/GeneratePage.qml:85 qml/GeneratePage.qml:100
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "هش در تخته‌گیره رونوشت شد"
+
+#: qml/GeneratePage.qml:78
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA1:"
+msgstr "SHA1:"
+
+#: qml/GeneratePage.qml:93
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA256:"
+msgstr "SHA256:"
+
+#: qml/GeneratePage.qml:128
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "برای هم‌رسانی، موارد را به اینجا بکشید"
+
+#: qml/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "پرونده"
+
+#: qml/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "باز کردن…"
+
+#: qml/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "دربارهٔ Hash-o-matic"
+
+#: qml/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "خروج"
+
+#: qml/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "نمایش"
+
+#: qml/GlobalMenu.qml:41 qml/Main.qml:70
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "تولید"
+
+#: qml/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "مقایسه"
+
+#: qml/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "تأیید اعتبار"
+
+#: qml/Main.qml:54
+#, kde-format
+msgid "About"
+msgstr "درباره"
+
+#: qml/Main.qml:59
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "دربارهٔ KDE"
+
+#: qml/Main.qml:78
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr "مقایسه"
+
+#: qml/Main.qml:86
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr "اعتبارسنجی"
+
+#: qml/VerifyPage.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "اعتبارسنجی هش"
+
+#: qml/VerifyPage.qml:30
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "اعتبارسنجی مجموع‌های مقابله‌ای و امضاها"
+
+#: qml/VerifyPage.qml:30
+#, kde-format
+msgid "Verify checksums"
+msgstr "اعتبارسنجی مجموع‌های مقابله‌ای"
+
+#: qml/VerifyPage.qml:44
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "پرونده"
+
+#: qml/VerifyPage.qml:58
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "اعتبارسنجی مجموع مقابله‌ای"
+
+#: qml/VerifyPage.qml:65
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "مجموع مقابله‌ای"
+
+#: qml/VerifyPage.qml:89
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "مجموع مقابله‌ای با پرونده هم‌خوانی دارد!"
+
+#: qml/VerifyPage.qml:89
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "چک‌سام با پرونده مطابقت ندارد!"
+
+#: qml/VerifyPage.qml:95
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "اعتبارسنجی امضا"
+
+#: qml/VerifyPage.qml:102
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "انتخاب پروندهٔ امضا"
+
+#: qml/VerifyPage.qml:169
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "برای اعتبارسنجی موارد، آن‌ها را به اینجا بکشید"

@@ -1,0 +1,2483 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcachegrind_qt package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcachegrind_qt\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-15 19:35+0330\n"
+"PO-Revision-Date: 2026-10-15 19:35+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: libcore/cachegrindloader.cpp:135
+msgctxt "QObject|"
+msgid "Import filter for Cachegrind/Callgrind generated profile data files"
+msgstr ""
+"پالایهٔ درون‌ریزی برای پرونده‌های داده‌های نمایهٔ تولیدشده توسط "
+"Cachegrind/Callgrind"
+
+#: libcore/context.cpp:60
+msgctxt "ProfileContext|"
+msgid "Invalid Context"
+msgstr "بافت نامعتبر"
+
+#: libcore/context.cpp:61
+msgctxt "ProfileContext|"
+msgid "Unknown Context"
+msgstr "بافت ناشناخته"
+
+#: libcore/context.cpp:62
+msgctxt "ProfileContext|"
+msgid "Part Source Line"
+msgstr "خط سورس بخش"
+
+#: libcore/context.cpp:63
+msgctxt "ProfileContext|"
+msgid "Source Line"
+msgstr "خط سورس"
+
+#: libcore/context.cpp:64
+msgctxt "ProfileContext|"
+msgid "Part Line Call"
+msgstr "فراخوانی خط بخش"
+
+#: libcore/context.cpp:65
+msgctxt "ProfileContext|"
+msgid "Line Call"
+msgstr "فراخوانی خط"
+
+#: libcore/context.cpp:66
+msgctxt "ProfileContext|"
+msgid "Part Jump"
+msgstr "پرش بخش"
+
+#: libcore/context.cpp:67
+msgctxt "ProfileContext|"
+msgid "Jump"
+msgstr "پرش"
+
+#: libcore/context.cpp:68
+msgctxt "ProfileContext|"
+msgid "Part Instruction"
+msgstr "دستورالعمل بخش"
+
+#: libcore/context.cpp:69
+msgctxt "ProfileContext|"
+msgid "Instruction"
+msgstr "دستورالعمل"
+
+#: libcore/context.cpp:70
+msgctxt "ProfileContext|"
+msgid "Part Instruction Jump"
+msgstr "پرش دستورالعمل بخش"
+
+#: libcore/context.cpp:71
+msgctxt "ProfileContext|"
+msgid "Instruction Jump"
+msgstr "پرش دستورالعمل"
+
+#: libcore/context.cpp:72
+msgctxt "ProfileContext|"
+msgid "Part Instruction Call"
+msgstr "فراخوانی دستورالعمل بخش"
+
+#: libcore/context.cpp:73
+msgctxt "ProfileContext|"
+msgid "Instruction Call"
+msgstr "فراخوانی دستورالعمل"
+
+#: libcore/context.cpp:74
+msgctxt "ProfileContext|"
+msgid "Part Call"
+msgstr "فراخوانی بخش"
+
+#: libcore/context.cpp:75
+msgctxt "ProfileContext|"
+msgid "Call"
+msgstr "فراخوانی"
+
+#: libcore/context.cpp:76
+msgctxt "ProfileContext|"
+msgid "Part Function"
+msgstr "تابع بخش"
+
+#: libcore/context.cpp:77
+msgctxt "ProfileContext|"
+msgid "Function Source File"
+msgstr "پروندهٔ منبع تابع"
+
+#: libcore/context.cpp:78
+msgctxt "ProfileContext|"
+msgid "Function"
+msgstr "تابع"
+
+#: libcore/context.cpp:79
+msgctxt "ProfileContext|"
+msgid "Function Cycle"
+msgstr "چرخهٔ تابع"
+
+#: libcore/context.cpp:80
+msgctxt "ProfileContext|"
+msgid "Part Class"
+msgstr "کلاس بخش"
+
+#: libcore/context.cpp:81
+msgctxt "ProfileContext|"
+msgid "Class"
+msgstr "کلاس"
+
+#: libcore/context.cpp:82
+msgctxt "ProfileContext|"
+msgid "Part Source File"
+msgstr "پروندهٔ منبع بخش"
+
+#: libcore/context.cpp:83
+msgctxt "ProfileContext|"
+msgid "Source File"
+msgstr "پروندهٔ منبع"
+
+#: libcore/context.cpp:84
+msgctxt "ProfileContext|"
+msgid "Part ELF Object"
+msgstr "شیء ELF بخش"
+
+#: libcore/context.cpp:85
+msgctxt "ProfileContext|"
+msgid "ELF Object"
+msgstr "شیء ELF"
+
+#: libcore/context.cpp:86
+msgctxt "ProfileContext|"
+msgid "Profile Part"
+msgstr "بخش نمایه"
+
+#: libcore/context.cpp:87
+msgctxt "ProfileContext|"
+msgid "Program Trace"
+msgstr "ردیابی برنامه"
+
+#: libcore/context.cpp:88
+msgctxt "ProfileContext|"
+msgid "BasicBlock"
+msgstr "بلوک پایه"
+
+#: libcore/costitem.cpp:48
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 from %2"
+msgstr "%1 از %2"
+
+#: libcore/costitem.cpp:54 libcore/costitem.cpp:59 libcore/tracedata.cpp:1984
+#: libcore/tracedata.cpp:2046 libcore/tracedata.cpp:3024
+#: libcore/tracedata.cpp:3125 libviews/partgraph.cpp:409
+msgctxt "QObject|"
+msgid "(unknown)"
+msgstr "(ناشناخته)"
+
+#: libcore/globalconfig.cpp:77
+msgctxt "QObject|"
+msgid "Instruction Fetch"
+msgstr "واکشی دستورالعمل"
+
+#: libcore/globalconfig.cpp:78
+msgctxt "QObject|"
+msgid "Data Read Access"
+msgstr "دسترسی خواندن داده"
+
+#: libcore/globalconfig.cpp:79
+msgctxt "QObject|"
+msgid "Data Write Access"
+msgstr "دسترسی نوشتن داده"
+
+#: libcore/globalconfig.cpp:80
+msgctxt "QObject|"
+msgid "L1 Instr. Fetch Miss"
+msgstr "خطای واکشی دستورالعمل L1"
+
+#: libcore/globalconfig.cpp:81
+msgctxt "QObject|"
+msgid "L1 Data Read Miss"
+msgstr "خطای خواندن داده L1"
+
+#: libcore/globalconfig.cpp:82
+msgctxt "QObject|"
+msgid "L1 Data Write Miss"
+msgstr "خطای نوشتن داده L1"
+
+#: libcore/globalconfig.cpp:83
+msgctxt "QObject|"
+msgid "L2 Instr. Fetch Miss"
+msgstr "خطای واکشی دستورالعمل L2"
+
+#: libcore/globalconfig.cpp:84
+msgctxt "QObject|"
+msgid "L2 Data Read Miss"
+msgstr "خطای خواندن داده L2"
+
+#: libcore/globalconfig.cpp:85
+msgctxt "QObject|"
+msgid "L2 Data Write Miss"
+msgstr "خطای نوشتن داده L2"
+
+#: libcore/globalconfig.cpp:86
+msgctxt "QObject|"
+msgid "LL Instr. Fetch Miss"
+msgstr "خطای واکشی دستورالعمل LL"
+
+#: libcore/globalconfig.cpp:87
+msgctxt "QObject|"
+msgid "LL Data Read Miss"
+msgstr "خطای خواندن داده LL"
+
+#: libcore/globalconfig.cpp:88
+msgctxt "QObject|"
+msgid "LL Data Write Miss"
+msgstr "خطای نوشتن داده LL"
+
+#: libcore/globalconfig.cpp:89
+msgctxt "QObject|"
+msgid "L1 Miss Sum"
+msgstr "مجموع خطاهای L1"
+
+#: libcore/globalconfig.cpp:90
+msgctxt "QObject|"
+msgid "L2 Miss Sum"
+msgstr "مجموع خطاهای L2"
+
+#: libcore/globalconfig.cpp:91
+msgctxt "QObject|"
+msgid "Last-level Miss Sum"
+msgstr "مجموع خطاهای سطح آخر (LL)"
+
+#: libcore/globalconfig.cpp:92
+msgctxt "QObject|"
+msgid "Indirect Branch"
+msgstr "شاخه غیرمستقیم"
+
+#: libcore/globalconfig.cpp:93
+msgctxt "QObject|"
+msgid "Mispredicted Ind. Branch"
+msgstr "شاخه غیرمستقیم با پیش‌بینی نادرست"
+
+#: libcore/globalconfig.cpp:94
+msgctxt "QObject|"
+msgid "Conditional Branch"
+msgstr "شاخه شرطی"
+
+#: libcore/globalconfig.cpp:95
+msgctxt "QObject|"
+msgid "Mispredicted Cond. Branch"
+msgstr "انشعاب شرطی پیش‌بینی‌نشده"
+
+#: libcore/globalconfig.cpp:96
+msgctxt "QObject|"
+msgid "Mispredicted Branch"
+msgstr "انشعاب پیش‌بینی‌نشده"
+
+#: libcore/globalconfig.cpp:97
+msgctxt "QObject|"
+msgid "Global Bus Event"
+msgstr "رویداد گذرگاه عمومی"
+
+#: libcore/globalconfig.cpp:98
+msgctxt "QObject|"
+msgid "Samples"
+msgstr "نمونه‌ها"
+
+#: libcore/globalconfig.cpp:99
+msgctxt "QObject|"
+msgid "System Time"
+msgstr "زمان سیستم"
+
+#: libcore/globalconfig.cpp:100
+msgctxt "QObject|"
+msgid "User Time"
+msgstr "زمان کاربر"
+
+#: libcore/globalconfig.cpp:101
+msgctxt "QObject|"
+msgid "Cycle Estimation"
+msgstr "تخمین چرخه"
+
+#: libcore/tracedata.cpp:1245
+msgctxt "QObject|"
+msgid "(no caller)"
+msgstr "(بدون فراخواننده)"
+
+#: libcore/tracedata.cpp:1252 libcore/tracedata.cpp:1271
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 via %2"
+msgstr "%1 از طریق %2"
+
+#: libcore/tracedata.cpp:1261
+msgctxt "QObject|"
+msgid "(no callee)"
+msgstr "(بدون فراخوانده)"
+
+#: libcore/tracedata.cpp:2873
+msgctxt "QObject|"
+msgid "(global)"
+msgstr "(سراسری)"
+
+#: libcore/tracedata.cpp:3308
+msgctxt "QObject|"
+msgid "(not found)"
+msgstr "(یافت نشد)"
+
+#: libcore/tracedata.cpp:3856
+msgctxt "TraceData|"
+msgid "Recalculating Function Cycles..."
+msgstr "محاسبهٔ مجدد چرخه‌های تابع..."
+
+#: libviews/callgraphview.cpp:414
+#, qt-format
+msgctxt "QObject|"
+msgid "Call(s) from %1"
+msgstr "فراخوانی(ها) از %1"
+
+#: libviews/callgraphview.cpp:417
+#, qt-format
+msgctxt "QObject|"
+msgid "Call(s) to %1"
+msgstr "فراخوانی(ها) به %1"
+
+#: libviews/callgraphview.cpp:419
+msgctxt "QObject|"
+msgid "(unknown call)"
+msgstr "(فراخوانی ناشناخته)"
+
+#: libviews/callgraphview.cpp:908 libviews/controlflowgraphview.cpp:1414
+#: libviews/controlflowgraphview.cpp:2449
+msgctxt "QObject|"
+msgid "Export Graph"
+msgstr "برون‌بری نمودار"
+
+#: libviews/callgraphview.cpp:1591
+msgctxt "CallGraphView|"
+msgid ""
+"<b>Call Graph around active Function</b><p>Depending on configuration, this "
+"view shows the call graph environment of the active function. Note: the "
+"shown cost is <b>only</b> the cost which is spent while the active function "
+"was actually running; i.e. the cost shown for main() - if it is visible - "
+"should be the same as the cost of the active function, as that is the part "
+"of inclusive cost of main() spent while the active function was "
+"running.</p><p>For cycles, blue call arrows indicate that this is an "
+"artificial call added for correct drawing which actually never "
+"happened.</p><p>If the graph is larger than the widget area, an overview "
+"panner is shown in one edge. There are similar visualization options to the "
+"Call Treemap; the selected function is highlighted.</p>"
+msgstr ""
+"<b>نمودار فراخوانی پیرامون تابع فعال</b><p>بسته به پیکربندی، این نما محیط "
+"نمودار فراخوانی تابع فعال را نشان می‌دهد. توجه: هزینهٔ نمایش‌داده‌شده "
+"<b>صرفاً</b> هزینه‌ای است که در زمان اجرای واقعی تابع فعال صرف شده است؛ یعنی"
+" هزینهٔ نمایش‌داده‌شده برای ()main — در صورت قابل مشاهده بودن — باید برابر "
+"با هزینهٔ تابع فعال باشد، زیرا این همان بخشی از هزینهٔ کلی ()main است که "
+"هنگام اجرای تابع فعال صرف شده است.</p><p>برای چرخه‌ها، فلش‌های آبی‌رنگ "
+"فراخوانی نشان‌دهندهٔ فراخوانی ساختگی‌ای هستند که برای رسم صحیح اضافه شده‌اند"
+" و در واقعیت هرگز اتفاق نیفتاده‌اند.</p><p>اگر نمودار بزرگ‌تر از ناحیهٔ عنصر"
+" واسط باشد، یک نمای کلی برای پیمایش در یکی از گوشه‌ها نشان داده می‌شود. "
+"گزینه‌های بصری‌سازی مشابهی با «نقشه درختی فراخوانی» وجود دارد؛ تابع "
+"انتخاب‌شده متمایز می‌شود.</p>"
+
+#: libviews/callgraphview.cpp:2003
+msgctxt "CallGraphView|"
+msgid ""
+"Warning: a long lasting graph layouting is in progress.\n"
+"Reduce node/edge limits for speedup.\n"
+msgstr ""
+"هشدار: یک صفحه‌بندی طولانی نمودار در حال انجام است.\n"
+"برای افزایش سرعت، محدودیت‌های گره/یال را کاهش دهید.\n"
+
+#: libviews/callgraphview.cpp:2006
+msgctxt "CallGraphView|"
+msgid "Layouting stopped.\n"
+msgstr "صفحه‌بندی متوقف شد.\n"
+
+#: libviews/callgraphview.cpp:2008
+#, qt-format
+msgctxt "CallGraphView|"
+msgid "The call graph has %1 nodes and %2 edges.\n"
+msgstr "گراف فراخوانی دارای %1 گره و %2 یال است.\n"
+
+#: libviews/callgraphview.cpp:2017
+msgctxt "CallGraphView|"
+msgid "No graph available because the layouting process failed.\n"
+msgstr "هیچ گرافی در دسترس نیست زیرا فرایند صفحه‌آرایی ناموفق بود.\n"
+
+#: libviews/callgraphview.cpp:2019
+#, qt-format
+msgctxt "CallGraphView|"
+msgid ""
+"Trying to run the following command did not work:\n"
+"'%1'\n"
+msgstr ""
+"تلاش برای اجرای فرمان زیر ناموفق بود:\n"
+"'%1'\n"
+
+#: libviews/callgraphview.cpp:2021 libviews/callgraphview.cpp:2538
+msgctxt "CallGraphView|"
+msgid "Please check that 'dot' is installed (package GraphViz)."
+msgstr "لطفاً بررسی کنید که 'dot' نصب شده باشد (بستهٔ GraphViz)."
+
+#: libviews/callgraphview.cpp:2063
+msgctxt "CallGraphView|"
+msgid "No item activated for which to draw the call graph."
+msgstr "هیچ موردی برای رسم گراف فراخوانی فعال نشده است."
+
+#: libviews/callgraphview.cpp:2075
+msgctxt "CallGraphView|"
+msgid "No call graph can be drawn for the active item."
+msgstr "امکان رسم گراف فراخوانی برای مورد فعال وجود ندارد."
+
+#: libviews/callgraphview.cpp:2537
+msgctxt "CallGraphView|"
+msgid "Error running the graph layouting tool.\n"
+msgstr "خطا در اجرای ابزار صفحه‌آرایی گراف.\n"
+
+#: libviews/callgraphview.cpp:2542
+#, qt-format
+msgctxt "CallGraphView|"
+msgid ""
+"There is no call graph available for function\n"
+"\t'%1'\n"
+"because it has no cost of the selected event type."
+msgstr ""
+"هیچ گراف فراخوانی برای تابع\n"
+"\t'%1'\n"
+"در دسترس نیست زیرا هیچ هزینه‌ای برای نوع رویداد انتخاب‌شده ندارد."
+
+#: libviews/callgraphview.cpp:2783
+msgctxt "CallGraphView|"
+msgid "Caller Depth"
+msgstr "عمق فراخواننده"
+
+#: libviews/callgraphview.cpp:2784 libviews/callgraphview.cpp:2824
+msgctxt "CallGraphView|"
+msgid "Unlimited"
+msgstr "نامحدود"
+
+#: libviews/callgraphview.cpp:2787 libviews/callgraphview.cpp:2827
+msgctxt "CallGraphView|None"
+msgid "Depth 0"
+msgstr "عمق ۰"
+
+#: libviews/callgraphview.cpp:2788 libviews/callgraphview.cpp:2828
+msgctxt "CallGraphView|"
+msgid "max. 1"
+msgstr "حداکثر ۱"
+
+#: libviews/callgraphview.cpp:2789 libviews/callgraphview.cpp:2829
+msgctxt "CallGraphView|"
+msgid "max. 2"
+msgstr "حداکثر ۲"
+
+#: libviews/callgraphview.cpp:2790 libviews/callgraphview.cpp:2830
+msgctxt "CallGraphView|"
+msgid "max. 5"
+msgstr "حداکثر ۵"
+
+#: libviews/callgraphview.cpp:2791 libviews/callgraphview.cpp:2831
+msgctxt "CallGraphView|"
+msgid "max. 10"
+msgstr "حداکثر ۱۰"
+
+#: libviews/callgraphview.cpp:2792 libviews/callgraphview.cpp:2832
+msgctxt "CallGraphView|"
+msgid "max. 15"
+msgstr "حداکثر ۱۵"
+
+#: libviews/callgraphview.cpp:2823
+msgctxt "CallGraphView|"
+msgid "Callee Depth"
+msgstr "عمق فراخوانی‌شونده"
+
+#: libviews/callgraphview.cpp:2863
+msgctxt "CallGraphView|"
+msgid "Min. Node Cost"
+msgstr "حداقل هزینهٔ گره"
+
+#: libviews/callgraphview.cpp:2864
+msgctxt "CallGraphView|"
+msgid "No Minimum"
+msgstr "بدون حداقل"
+
+#: libviews/callgraphview.cpp:2870
+msgctxt "CallGraphView|"
+msgid "50 %"
+msgstr "۵۰ ٪"
+
+#: libviews/callgraphview.cpp:2871
+msgctxt "CallGraphView|"
+msgid "20 %"
+msgstr "۲۰ ٪"
+
+#: libviews/callgraphview.cpp:2872
+msgctxt "CallGraphView|"
+msgid "10 %"
+msgstr "۱۰ ٪"
+
+#: libviews/callgraphview.cpp:2873
+msgctxt "CallGraphView|"
+msgid "5 %"
+msgstr "۵ ٪"
+
+#: libviews/callgraphview.cpp:2874
+msgctxt "CallGraphView|"
+msgid "2 %"
+msgstr "۲ ٪"
+
+#: libviews/callgraphview.cpp:2875
+msgctxt "CallGraphView|"
+msgid "1 %"
+msgstr "۱ ٪"
+
+#: libviews/callgraphview.cpp:2905
+msgctxt "CallGraphView|"
+msgid "Min. Call Cost"
+msgstr "حداقل هزینه فراخوانی"
+
+#: libviews/callgraphview.cpp:2906
+msgctxt "CallGraphView|"
+msgid "Same as Node"
+msgstr "مشابه گره"
+
+#: libviews/callgraphview.cpp:2908
+msgctxt "CallGraphView|"
+msgid "50 % of Node"
+msgstr "۵۰ ٪ گره"
+
+#: libviews/callgraphview.cpp:2910
+msgctxt "CallGraphView|"
+msgid "20 % of Node"
+msgstr "۲۰ ٪ گره"
+
+#: libviews/callgraphview.cpp:2912
+msgctxt "CallGraphView|"
+msgid "10 % of Node"
+msgstr "۱۰ ٪ گره"
+
+#: libviews/callgraphview.cpp:2941
+msgctxt "CallGraphView|"
+msgid "Birds-eye View"
+msgstr "نمای کلی"
+
+#: libviews/callgraphview.cpp:2942
+msgctxt "CallGraphView|"
+msgid "Top Left"
+msgstr "بالا چپ"
+
+#: libviews/callgraphview.cpp:2943
+msgctxt "CallGraphView|"
+msgid "Top Right"
+msgstr "بالا راست"
+
+#: libviews/callgraphview.cpp:2944
+msgctxt "CallGraphView|"
+msgid "Bottom Left"
+msgstr "پایین چپ"
+
+#: libviews/callgraphview.cpp:2945
+msgctxt "CallGraphView|"
+msgid "Bottom Right"
+msgstr "پایین راست"
+
+#: libviews/callgraphview.cpp:2946
+msgctxt "CallGraphView|"
+msgid "Automatic"
+msgstr "خودکار"
+
+#: libviews/callgraphview.cpp:2947
+msgctxt "CallGraphView|"
+msgid "Hide"
+msgstr "پنهان کردن"
+
+#: libviews/callgraphview.cpp:2977
+msgctxt "CallGraphView|"
+msgid "Layout"
+msgstr "طرح‌بندی"
+
+#: libviews/callgraphview.cpp:2978
+msgctxt "CallGraphView|"
+msgid "Top to Down"
+msgstr "بالا به پایین"
+
+#: libviews/callgraphview.cpp:2979
+msgctxt "CallGraphView|"
+msgid "Left to Right"
+msgstr "چپ به راست"
+
+#: libviews/callgraphview.cpp:2980
+msgctxt "CallGraphView|"
+msgid "Circular"
+msgstr "دایره‌ای"
+
+#: libviews/callgraphview.cpp:3020 libviews/callgraphview.cpp:3025
+#: libviews/callgraphview.cpp:3045
+#, qt-format
+msgctxt "CallGraphView|"
+msgid "Go to '%1'"
+msgstr "رفتن به «%1»"
+
+#: libviews/callgraphview.cpp:3056
+msgctxt "CallGraphView|"
+msgid "Stop Layouting"
+msgstr "توقف چیدمان"
+
+#: libviews/callgraphview.cpp:3063
+msgctxt "CallGraphView|"
+msgid "Export Graph"
+msgstr "برون‌ریزی گراف"
+
+#: libviews/callgraphview.cpp:3064
+msgctxt "CallGraphView|"
+msgid "As DOT file..."
+msgstr "به عنوان پروندهٔ DOT..."
+
+#: libviews/callgraphview.cpp:3065
+msgctxt "CallGraphView|"
+msgid "As Image..."
+msgstr "به عنوان تصویر..."
+
+#: libviews/callgraphview.cpp:3068
+msgctxt "CallGraphView|"
+msgid "Graph"
+msgstr "گراف"
+
+#: libviews/callgraphview.cpp:3076
+msgctxt "CallGraphView|"
+msgid "Arrows for Skipped Calls"
+msgstr "پیکان‌ها برای فراخوانی‌های نادیده‌گرفته‌شده"
+
+#: libviews/callgraphview.cpp:3081
+msgctxt "CallGraphView|"
+msgid "Inner-cycle Calls"
+msgstr "فراخوانی‌های درون‌چرخه"
+
+#: libviews/callgraphview.cpp:3086
+msgctxt "CallGraphView|"
+msgid "Cluster Groups"
+msgstr "گروه‌های خوشه‌ای"
+
+#: libviews/callgraphview.cpp:3090
+msgctxt "CallGraphView|"
+msgid "Visualization"
+msgstr "بصری‌سازی"
+
+#: libviews/callgraphview.cpp:3091
+msgctxt "CallGraphView|"
+msgid "Compact"
+msgstr "فشرده"
+
+#: libviews/callgraphview.cpp:3094
+msgctxt "CallGraphView|"
+msgid "Normal"
+msgstr "عادی"
+
+#: libviews/callgraphview.cpp:3097
+msgctxt "CallGraphView|"
+msgid "Tall"
+msgstr "بلند"
+
+#: libviews/callgraphview.cpp:3129
+msgctxt "CallGraphView|"
+msgid "Export Graph As Image"
+msgstr "برون‌ریزی گراف به عنوان تصویر"
+
+#: libviews/callgraphview.cpp:3131
+msgctxt "CallGraphView|"
+msgid "Images (*.png *.jpg)"
+msgstr "تصاویر (‎*.png *.jpg‎)"
+
+#: libviews/callitem.cpp:73 libviews/partlistitem.cpp:131
+msgctxt "QObject|"
+msgid "(active)"
+msgstr "(فعال)"
+
+#: libviews/callmapview.cpp:52
+msgctxt "CallMapView|Name"
+msgid "A thing's name"
+msgstr "نام مورد"
+
+#: libviews/callmapview.cpp:53
+msgctxt "CallMapView|"
+msgid "Cost"
+msgstr "هزینه"
+
+#: libviews/callmapview.cpp:54
+msgctxt "CallMapView|"
+msgid "Location"
+msgstr "مکان"
+
+#: libviews/callmapview.cpp:56
+msgctxt "CallMapView|"
+msgid "Calls"
+msgstr "فراخوانی‌ها"
+
+#: libviews/callmapview.cpp:91
+msgctxt "CallMapView|"
+msgid ""
+"<b>Caller Map</b><p>This graph shows the nested hierarchy of all callers of "
+"the current activated function. Each colored rectangle represents a "
+"function; its size tries to be proportional to the cost spent therein while "
+"the active function is running (however, there are drawing constraints).</p>"
+msgstr ""
+"<b>نقشهٔ فراخواننده‌ها</b><p>این نمودار سلسله‌مراتب تودرتوی همهٔ "
+"فراخواننده‌های تابع فعال کنونی را نشان می‌دهد. هر مستطیل رنگی نشان‌دهندهٔ یک"
+" تابع است؛ اندازهٔ آن تلاش می‌کند متناسب با هزینهٔ صرف‌شده در آن هنگام اجرای"
+" تابع فعال باشد (هرچند محدودیت‌های رسم وجود دارد).</p>"
+
+#: libviews/callmapview.cpp:98
+msgctxt "CallMapView|"
+msgid ""
+"<b>Call Map</b><p>This graph shows the nested hierarchy of all callees of "
+"the current activated function. Each colored rectangle represents a "
+"function; its size tries to be proportional to the cost spent therein while "
+"the active function is running (however, there are drawing constraints).</p>"
+msgstr ""
+"<b>نقشهٔ فراخوانی</b><p>این نمودار سلسله‌مراتب تودرتوی همهٔ فراخوانده‌های "
+"تابع فعال کنونی را نشان می‌دهد. هر مستطیل رنگی نشان‌دهندهٔ یک تابع است؛ "
+"اندازهٔ آن تلاش می‌کند متناسب با هزینهٔ صرف‌شده در آن هنگام اجرای تابع فعال "
+"باشد (هرچند محدودیت‌های رسم وجود دارد).</p>"
+
+#: libviews/callmapview.cpp:106
+msgctxt "CallMapView|"
+msgid ""
+"<p>Appearance options can be found in the context menu. To get exact size "
+"proportions, choose 'Hide incorrect borders'. As this mode can be "
+"<em>very</em> time consuming, you may want to limit the maximum drawn "
+"nesting level before. 'Best' determinates the split direction for children "
+"from the aspect ratio of the parent. 'Always Best' decides on remaining "
+"space for each sibling. 'Ignore Proportions' takes space for function name "
+"drawing <em>before</em> drawing children. Note that size proportions can get"
+" <em>heavily</em> wrong.</p><p>This is a <em>TreeMap</em> widget. Keyboard "
+"navigation is available with the left/right arrow keys for traversing "
+"siblings, and up/down arrow keys to go a nesting level up/down. "
+"<em>Return</em> activates the current item.</p>"
+msgstr ""
+"<p>گزینه‌های ظاهر را می‌توانید در منوی زمینه‌ای پیدا کنید. برای دستیابی به "
+"تناسب دقیق اندازه‌ها، «پنهان‌سازی حاشیه‌های نادرست» را انتخاب کنید. از آنجا "
+"که این حالت می‌تواند <em>بسیار</em> زمان‌بر باشد، ممکن است بخواهید پیش از آن"
+" حداکثر عمق تودرتویی رسم‌شده را محدود کنید. گزینهٔ «بهترین» جهت تقسیم "
+"فرزندان را بر اساس نسبت ابعاد والد تعیین می‌کند. «همیشه بهترین» بر اساس فضای"
+" باقی‌مانده برای هر هم‌سطح تصمیم می‌گیرد. «نادیده‌گرفتن تناسبات» فضا را برای"
+" رسم نام تابع <em>پیش از</em> رسم فرزندان اختصاص می‌دهد. توجه داشته باشید که"
+" ممکن است نسبت اندازه‌ها <em>شدیداً</em> نادرست شود.</p><p>این یک ابزارک "
+"<em>نقشهٔ درختی (TreeMap)</em> است. پیمایش با صفحه‌کلید از طریق کلیدهای "
+"جهت‌نمای چپ/راست برای پیمایش میان هم‌سطح‌ها، و کلیدهای بالا/پایین برای "
+"بالا/پایین رفتن در سطوح تودرتویی امکان‌پذیر است. کلید <em>Return</em> مورد "
+"فعلی را فعال می‌کند.</p>"
+
+#: libviews/callmapview.cpp:139
+msgctxt "CallMapView|"
+msgid "Go To"
+msgstr "برو به"
+
+#: libviews/callmapview.cpp:170
+msgctxt "CallMapView|"
+msgid "Stop at Depth"
+msgstr "توقف در عمق"
+
+#: libviews/callmapview.cpp:171
+msgctxt "CallMapView|"
+msgid "No Depth Limit"
+msgstr "بدون محدودیت عمق"
+
+#: libviews/callmapview.cpp:173
+msgctxt "CallMapView|"
+msgid "Depth 10"
+msgstr "عمق ۱۰"
+
+#: libviews/callmapview.cpp:174
+msgctxt "CallMapView|"
+msgid "Depth 15"
+msgstr "عمق ۱۵"
+
+#: libviews/callmapview.cpp:175
+msgctxt "CallMapView|"
+msgid "Depth 20"
+msgstr "عمق ۲۰"
+
+#: libviews/callmapview.cpp:178
+#, qt-format
+msgctxt "CallMapView|"
+msgid "Depth of '%1' (%2)"
+msgstr "عمق «%1» (%2)"
+
+#: libviews/callmapview.cpp:185
+#, qt-format
+msgctxt "CallMapView|"
+msgid "Decrement Depth (to %1)"
+msgstr "کاهش عمق (به %1)"
+
+#: libviews/callmapview.cpp:187
+#, qt-format
+msgctxt "CallMapView|"
+msgid "Increment Depth (to %1)"
+msgstr "افزایش عمق (به %1)"
+
+#: libviews/callmapview.cpp:213
+msgctxt "CallMapView|"
+msgid "Stop at Function"
+msgstr "توقف در تابع"
+
+#: libviews/callmapview.cpp:214
+msgctxt "CallMapView|"
+msgid "No Function Limit"
+msgstr "بدون محدودیت تابع"
+
+#: libviews/callmapview.cpp:257
+msgctxt "CallMapView|"
+msgid "Stop at Area"
+msgstr "توقف در ناحیه"
+
+#: libviews/callmapview.cpp:258
+msgctxt "CallMapView|"
+msgid "No Area Limit"
+msgstr "بدون محدودیت ناحیه"
+
+#: libviews/callmapview.cpp:260
+msgctxt "CallMapView|"
+msgid "100 Pixels"
+msgstr "۱۰۰ پیکسل"
+
+#: libviews/callmapview.cpp:261
+msgctxt "CallMapView|"
+msgid "200 Pixels"
+msgstr "۲۰۰ پیکسل"
+
+#: libviews/callmapview.cpp:262
+msgctxt "CallMapView|"
+msgid "500 Pixels"
+msgstr "۵۰۰ پیکسل"
+
+#: libviews/callmapview.cpp:263
+msgctxt "CallMapView|"
+msgid "1000 Pixels"
+msgstr "۱۰۰۰ پیکسل"
+
+#: libviews/callmapview.cpp:269
+#, qt-format
+msgctxt "CallMapView|"
+msgid "Area of '%1' (%2)"
+msgstr "مساحت «%1» (%2)"
+
+#: libviews/callmapview.cpp:275
+#, qt-format
+msgctxt "CallMapView|"
+msgid "Double Area Limit (to %1)"
+msgstr "دو برابر کردن حد مساحت (به %1)"
+
+#: libviews/callmapview.cpp:277
+#, qt-format
+msgctxt "CallMapView|"
+msgid "Half Area Limit (to %1)"
+msgstr "نصف کردن حد مساحت (به %1)"
+
+#: libviews/callmapview.cpp:327
+msgctxt "CallMapView|"
+msgid "Visualization"
+msgstr "بصری‌سازی"
+
+#: libviews/callmapview.cpp:328
+msgctxt "CallMapView|"
+msgid "Split Direction"
+msgstr "جهت تقسیم"
+
+#: libviews/callmapview.cpp:331
+msgctxt "CallMapView|"
+msgid "Skip Incorrect Borders"
+msgstr "نادیده گرفتن مرزهای نادرست"
+
+#: libviews/callmapview.cpp:336
+msgctxt "CallMapView|"
+msgid "Border Width"
+msgstr "عرض مرز"
+
+#: libviews/callmapview.cpp:337
+msgctxt "CallMapView|"
+msgid "Border 0"
+msgstr "مرز ۰"
+
+#: libviews/callmapview.cpp:339
+msgctxt "CallMapView|"
+msgid "Border 1"
+msgstr "مرز ۱"
+
+#: libviews/callmapview.cpp:340
+msgctxt "CallMapView|"
+msgid "Border 2"
+msgstr "حاشیه ۲"
+
+#: libviews/callmapview.cpp:341
+msgctxt "CallMapView|"
+msgid "Border 3"
+msgstr "حاشیه ۳"
+
+#: libviews/callmapview.cpp:346
+msgctxt "CallMapView|"
+msgid "Draw Symbol Names"
+msgstr "رسم نام‌های نماد"
+
+#: libviews/callmapview.cpp:348
+msgctxt "CallMapView|"
+msgid "Draw Cost"
+msgstr "رسم هزینه"
+
+#: libviews/callmapview.cpp:350
+msgctxt "CallMapView|"
+msgid "Draw Location"
+msgstr "رسم مکان"
+
+#: libviews/callmapview.cpp:352
+msgctxt "CallMapView|"
+msgid "Draw Calls"
+msgstr "رسم فراخوانی‌ها"
+
+#: libviews/callmapview.cpp:356
+msgctxt "CallMapView|"
+msgid "Ignore Proportions"
+msgstr "نادیده گرفتن نسبت‌ها"
+
+#: libviews/callmapview.cpp:358
+msgctxt "CallMapView|"
+msgid "Allow Rotation"
+msgstr "مجاز بودن چرخش"
+
+#: libviews/callmapview.cpp:376
+msgctxt "CallMapView|"
+msgid "Shading"
+msgstr "سایه‌زنی"
+
+#: libviews/callmapview.cpp:428
+#, qt-format
+msgctxt "CallMapView|"
+msgid "Call Map: Current is '%1'"
+msgstr "نقشه فراخوانی: مورد فعلی «%1» است"
+
+#: libviews/callmapview.cpp:621
+msgctxt "QObject|"
+msgid "(no function)"
+msgstr "(بدون تابع)"
+
+#: libviews/callmapview.cpp:761 libviews/callmapview.cpp:880
+msgctxt "QObject|"
+msgid "(no call)"
+msgstr "(بدون فراخوانی)"
+
+#: libviews/callview.cpp:37
+msgctxt "CallView|"
+msgid "Cost"
+msgstr "هزینه"
+
+#: libviews/callview.cpp:38
+msgctxt "CallView|"
+msgid "Cost per call"
+msgstr "هزینه در هر فراخوانی"
+
+#: libviews/callview.cpp:39
+msgctxt "CallView|"
+msgid "Cost 2"
+msgstr "هزینه ۲"
+
+#: libviews/callview.cpp:40
+msgctxt "CallView|"
+msgid "Cost 2 per call"
+msgstr "هزینه ۲ در هر فراخوانی"
+
+#: libviews/callview.cpp:41
+msgctxt "CallView|"
+msgid "Count"
+msgstr "تعداد"
+
+#: libviews/callview.cpp:42
+msgctxt "CallView|"
+msgid "Caller"
+msgstr "فراخواننده"
+
+#: libviews/callview.cpp:42
+msgctxt "CallView|"
+msgid "Callee"
+msgstr "فراخوانده‌شده"
+
+#: libviews/callview.cpp:76
+msgctxt "CallView|"
+msgid ""
+"<b>List of direct Callers</b><p>This list shows all functions calling the "
+"current selected one directly, together with a call count and the cost spent"
+" in the current selected function while being called from the function from "
+"the list.</p><p>An icon instead of an inclusive cost specifies that this is "
+"a call inside of a recursive cycle. An inclusive cost makes no sense "
+"here.</p><p>Selecting a function makes it the current selected one of this "
+"information panel. If there are two panels (Split mode), the function of the"
+" other panel is changed instead.</p>"
+msgstr ""
+"<b>فهرست فراخواننده‌های مستقیم</b><p>این فهرست، تمام توابعی را نشان می‌دهد "
+"که تابع انتخاب‌شده فعلی را مستقیماً فراخوانی می‌کنند، همراه با تعداد "
+"فراخوانی‌ها و هزینه‌ای که در تابع انتخاب‌شده فعلی صرف شده است در حالی که از "
+"طریق تابع موجود در این فهرست فراخوانی می‌شود.</p><p>نمایش یک نقشک به جای "
+"هزینه فراگیر، نشان‌دهنده این است که این فراخوانی درون یک چرخه بازگشتی قرار "
+"دارد؛ در این حالت، هزینه فراگیر معنایی ندارد.</p><p>با انتخاب یک تابع، آن "
+"تابع به عنوان تابع انتخاب‌شده فعلی این پانل اطلاعات قرار می‌گیرد. اگر دو "
+"پانل وجود داشته باشد (حالت دونیم)، به جای آن، تابع پانل دیگر تغییر "
+"می‌یابد.</p>"
+
+#: libviews/callview.cpp:89
+msgctxt "CallView|"
+msgid ""
+"<b>List of direct Callees</b><p>This list shows all functions called by the "
+"current selected one directly, together with a call count and the cost spent"
+" in this function while being called from the selected "
+"function.</p><p>Selecting a function makes it the current selected one of "
+"this information panel. If there are two panels (Split mode), the function "
+"of the other panel is changed instead.</p>"
+msgstr ""
+"<b>فهرست فراخوانده‌شده‌های مستقیم</b><p>این فهرست تمام توابعی را که مستقیماً"
+" توسط تابع انتخاب‌شده فعلی فراخوانی شده‌اند، همراه با تعداد فراخوانی و هزینه"
+" صرف‌شده در این تابع هنگام فراخوانی از تابع انتخاب‌شده نشان "
+"می‌دهد.</p><p>انتخاب یک تابع، آن را به تابع انتخاب‌شده فعلی این پانل اطلاعات"
+" تبدیل می‌کند. اگر دو پانل وجود داشته باشد (حالت دونیم)، به جای آن تابع پانل"
+" دیگر تغییر می‌کند.</p>"
+
+#: libviews/callview.cpp:118 libviews/callview.cpp:123
+#, qt-format
+msgctxt "CallView|"
+msgid "Go to '%1'"
+msgstr "رفتن به «%1»"
+
+#: libviews/callview.cpp:257 libviews/callview.cpp:261
+#, qt-format
+msgctxt "CallView|"
+msgid "%1 per call"
+msgstr "%1 در هر فراخوانی"
+
+#: libviews/controlflowgraphview.cpp:623
+msgctxt "QObject|"
+msgid ""
+"Control-flow graph requires running callgrind with option --dump-instr=yes"
+msgstr ""
+"گراف جریان کنترل به اجرای callgrind با گزینه --dump-instr=yes نیاز دارد"
+
+#: libviews/controlflowgraphview.cpp:932
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"For annotated machine code, the following object file is needed\n"
+"    '%1'\n"
+"This file cannot be found.\n"
+msgstr ""
+"برای کد ماشین حاشیه‌نویسی‌شده، به پرونده شیء زیر نیاز است:\n"
+"    '%1'\n"
+"این پرونده یافت نشد.\n"
+
+#: libviews/controlflowgraphview.cpp:936
+msgctxt "QObject|"
+msgid "If cross-compiled, set SYSROOT variable."
+msgstr "در صورت کامپایل متقابل (cross-compiled)، متغیر SYSROOT را تنظیم کنید."
+
+#: libviews/controlflowgraphview.cpp:960
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"There is an error trying to execute the command\n"
+"    '%1'\n"
+"Check that you have installed 'objdump'.\n"
+"This utility can be found in the 'binutils' package"
+msgstr ""
+"هنگام تلاش برای اجرای دستور زیر خطایی رخ داد:\n"
+"    '%1'\n"
+"بررسی کنید که 'objdump' را نصب کرده باشید.\n"
+"این ابزار در بسته 'binutils' موجود است"
+
+#: libviews/controlflowgraphview.cpp:1041
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"There are %1 cost line(s) without machine code.\n"
+"This happens because the code of %2 does not seem to match the profile data file.\n"
+"Are you using an old profile data file or is the abovementioned\n"
+"ELF object from an updated installation/another machine?"
+msgstr ""
+"%1 خط هزینه بدون کد ماشین وجود دارد.\n"
+"این اتفاق به این دلیل می‌افتد که به نظر نمی‌رسد کد %2 با پرونده داده نمایه مطابقت داشته باشد.\n"
+"آیا از پرونده داده نمایه قدیمی استفاده می‌کنید یا شیء ELF یادشده مربوط به یک نصب به‌روزشده/دستگاه دیگری است؟"
+
+#: libviews/controlflowgraphview.cpp:1051
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"There seems to be an error trying to execute the command '%1'.\n"
+"Check that the ELF object used in the command exists.\n"
+"Check that you have installed 'objdump'.\n"
+"This utility can be found in the 'binutils' package."
+msgstr ""
+"به نظر می‌رسد هنگام تلاش برای اجرای دستور '%1' خطایی رخ داده است.\n"
+"بررسی کنید که شیء ELF استفاده‌شده در دستور وجود داشته باشد.\n"
+"بررسی کنید که 'objdump' را نصب کرده باشید.\n"
+"این ابزار در بسته 'binutils' موجود است."
+
+#: libviews/controlflowgraphview.cpp:1772
+msgctxt "QObject|"
+msgid "This is Control Flow Graph by KetchuppOfficial"
+msgstr "این گراف جریان کنترل توسط KetchuppOfficial است"
+
+#: libviews/controlflowgraphview.cpp:1828
+msgctxt "QObject|"
+msgid ""
+"Warning: a long lasting graph layouting is in progress.\n"
+"Reduce node/edge limits for speedup.\n"
+msgstr ""
+"هشدار: یک چیدمان طولانی گراف در حال انجام است.\n"
+"برای افزایش سرعت، محدودیت‌های گره/یال را کاهش دهید.\n"
+
+#: libviews/controlflowgraphview.cpp:1831
+msgctxt "QObject|"
+msgid "Layouting stopped.\n"
+msgstr "چیدمان متوقف شد.\n"
+
+#: libviews/controlflowgraphview.cpp:1833
+#, qt-format
+msgctxt "QObject|"
+msgid "The call graph has %1 nodes and %2 edges.\n"
+msgstr "گراف فراخوانی دارای %1 گره و %2 یال است.\n"
+
+#: libviews/controlflowgraphview.cpp:1841
+msgctxt "QObject|"
+msgid "No graph available because the layouting process failed.\n"
+msgstr "هیچ گرافی در دسترس نیست زیرا فرآیند چیدمان با شکست مواجه شد.\n"
+
+#: libviews/controlflowgraphview.cpp:1843
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"Trying to run the following command did not work:\n"
+"'%1'\n"
+msgstr ""
+"تلاش برای اجرای فرمان زیر ناموفق بود:\n"
+"'%1'\n"
+
+#: libviews/controlflowgraphview.cpp:1845
+msgctxt "QObject|"
+msgid "Please check that 'dot' is installed (package GraphViz)."
+msgstr "لطفاً بررسی کنید که 'dot' نصب شده باشد (بسته GraphViz)."
+
+#: libviews/controlflowgraphview.cpp:2209
+msgctxt "QObject|"
+msgid ""
+"Error running the graph layouting tool.\n"
+"Please check that 'dot' is installed (package Graphviz)."
+msgstr ""
+"خطا در اجرای ابزار چیدمان گراف.\n"
+"لطفاً بررسی کنید که 'dot' نصب شده باشد (بسته Graphviz)."
+
+#: libviews/controlflowgraphview.cpp:2399
+msgctxt "QObject|"
+msgid "This basic block"
+msgstr "این بلوک پایه"
+
+#: libviews/controlflowgraphview.cpp:2401
+#: libviews/controlflowgraphview.cpp:2432
+msgctxt "QObject|"
+msgid "PC only"
+msgstr "فقط PC"
+
+#: libviews/controlflowgraphview.cpp:2405
+#: libviews/controlflowgraphview.cpp:2436
+msgctxt "QObject|"
+msgid "Show instructions' PC"
+msgstr "نمایش PC دستورالعمل‌ها"
+
+#: libviews/controlflowgraphview.cpp:2409
+#: libviews/controlflowgraphview.cpp:2440
+msgctxt "QObject|"
+msgid "Show instructions' cost"
+msgstr "نمایش هزینهٔ دستورالعمل‌ها"
+
+#: libviews/controlflowgraphview.cpp:2426
+msgctxt "QObject|"
+msgid "Intel ASM Syntax"
+msgstr "نحو اسمبلی اینتل (Intel ASM)"
+
+#: libviews/controlflowgraphview.cpp:2450
+msgctxt "QObject|"
+msgid "As DOT file..."
+msgstr "به عنوان پروندهٔ DOT..."
+
+#: libviews/controlflowgraphview.cpp:2451
+msgctxt "QObject|"
+msgid "As Image..."
+msgstr "به عنوان تصویر..."
+
+#: libviews/controlflowgraphview.cpp:2562
+msgctxt "QObject|"
+msgid "Export Graph as Image"
+msgstr "برون‌بری گراف به عنوان تصویر"
+
+#: libviews/controlflowgraphview.cpp:2564
+msgctxt "QObject|"
+msgid "Images (*.png *.jpg)"
+msgstr "تصاویر (‎*.png *.jpg)"
+
+#: libviews/controlflowgraphview.cpp:2997
+msgctxt "QObject|"
+msgid "No trace data"
+msgstr "دادهٔ ردیابی وجود ندارد"
+
+#: libviews/controlflowgraphview.cpp:3002
+msgctxt "QObject|"
+msgid "No item activated for which to draw the control-flow graph."
+msgstr "هیچ موردی برای رسم گراف جریان کنترل فعال نشده است."
+
+#: libviews/controlflowgraphview.cpp:3014
+msgctxt "QObject|"
+msgid "No control-flow graph can be drawn for the active item."
+msgstr "برای مورد فعال، امکان رسم گراف جریان کنترل وجود ندارد."
+
+#: libviews/controlflowgraphview.cpp:3109
+msgctxt "QObject|"
+msgid "Stop Layouting"
+msgstr "توقف چیدمان"
+
+#: libviews/controlflowgraphview.cpp:3172
+msgctxt "QObject|"
+msgid "Birds-eye View"
+msgstr "نمای دید پرنده"
+
+#: libviews/controlflowgraphview.cpp:3174
+msgctxt "QObject|"
+msgid "Top Left"
+msgstr "بالا چپ"
+
+#: libviews/controlflowgraphview.cpp:3175
+msgctxt "QObject|"
+msgid "Top Right"
+msgstr "بالا راست"
+
+#: libviews/controlflowgraphview.cpp:3176
+msgctxt "QObject|"
+msgid "Bottom Left"
+msgstr "پایین چپ"
+
+#: libviews/controlflowgraphview.cpp:3177
+msgctxt "QObject|"
+msgid "Bottom Right"
+msgstr "پایین راست"
+
+#: libviews/controlflowgraphview.cpp:3178
+msgctxt "QObject|"
+msgid "Automatic"
+msgstr "خودکار"
+
+#: libviews/controlflowgraphview.cpp:3179
+msgctxt "QObject|"
+msgid "Hide"
+msgstr "پنهان‌کردن"
+
+#: libviews/controlflowgraphview.cpp:3189
+msgctxt "QObject|"
+msgid "Layout"
+msgstr "چیدمان"
+
+#: libviews/controlflowgraphview.cpp:3191
+msgctxt "QObject|"
+msgid "Top to Down"
+msgstr "بالا به پایین"
+
+#: libviews/controlflowgraphview.cpp:3192
+msgctxt "QObject|"
+msgid "Left to Right"
+msgstr "چپ به راست"
+
+#: libviews/controlflowgraphview.cpp:3202
+msgctxt "QObject|"
+msgid "Min. basic block cost"
+msgstr "حداقل هزینه بلوک پایه"
+
+#: libviews/controlflowgraphview.cpp:3204
+msgctxt "QObject|"
+msgid "Undefined"
+msgstr "تعریف‌نشده"
+
+#: libviews/controlflowgraphview.cpp:3207
+#, qt-format
+msgctxt "QObject|"
+msgid "%1%"
+msgstr "‎%1%‎"
+
+#: libviews/costlistitem.cpp:53
+#, qt-format
+msgctxt "QObject|"
+msgid "(%n item(s) skipped)"
+msgid_plural "(%n item(s) skipped)"
+msgstr[0] "(%n مورد نادیده گرفته شد)"
+msgstr[1] "(%n مورد نادیده گرفته شد)"
+
+#: libviews/coverageitem.cpp:58 libviews/coverageitem.cpp:195
+#, qt-format
+msgctxt "QObject|"
+msgid "(%n function(s) skipped)"
+msgid_plural "(%n function(s) skipped)"
+msgstr[0] "(%n تابع نادیده گرفته شد)"
+msgstr[1] "(%n تابع نادیده گرفته شد)"
+
+#: libviews/coverageview.cpp:37
+msgctxt "CoverageView|"
+msgid "Incl."
+msgstr "شامل"
+
+#: libviews/coverageview.cpp:40 libviews/coverageview.cpp:47
+msgctxt "CoverageView|"
+msgid "Distance"
+msgstr "فاصله"
+
+#: libviews/coverageview.cpp:41
+msgctxt "CoverageView|"
+msgid "Called"
+msgstr "فراخوانده‌شده"
+
+#: libviews/coverageview.cpp:42
+msgctxt "CoverageView|"
+msgid "Caller"
+msgstr "فراخواننده"
+
+#: libviews/coverageview.cpp:46
+msgctxt "CoverageView|"
+msgid "Self"
+msgstr "خود"
+
+#: libviews/coverageview.cpp:48
+msgctxt "CoverageView|"
+msgid "Calling"
+msgstr "فراخوانی‌کننده"
+
+#: libviews/coverageview.cpp:49
+msgctxt "CoverageView|"
+msgid "Callee"
+msgstr "فراخوانی‌شونده"
+
+#: libviews/coverageview.cpp:84
+msgctxt "CoverageView|"
+msgid ""
+"<b>List of all Callers</b><p>This list shows all functions calling the "
+"current selected one, either directly or with several functions in-between "
+"on the stack; the number of functions in-between plus one is called the "
+"<em>Distance</em> (e.g. for function A,B,C there exists a call from A to C "
+"when A calls B and B calls C, i.e. A => B => C. The distance here is "
+"2).</p><p>Absolute cost shown is the cost spent in the selected function "
+"while a listed function is active; relative cost is the percentage of all "
+"cost spent in the selected function while the listed one is active. The cost"
+" graphic shows logarithmic percentage with a different color for each "
+"distance.</p><p>As there can be many calls from the same function, the "
+"distance column sometimes shows the range of distances for all calls "
+"happening; then, in parentheses, there is the medium distance, i.e. the "
+"distance where most of the call costs happened.</p><p>Selecting a function "
+"makes it the current selected one of this information panel. If there are "
+"two panels (Split mode), the function of the other panel is changed "
+"instead.</p>"
+msgstr ""
+"<b>فهرست تمام فراخوان‌ها (Callers)</b><p>این فهرست تمام توابعی را نشان "
+"می‌دهد که تابع انتخاب‌شده فعلی را فراخوانی می‌کنند، چه به‌طور مستقیم یا با "
+"چندین تابع واسطه در پشته؛ تعداد توابع واسطه به‌علاوه یک، <em>فاصله</em> "
+"(Distance) نامیده می‌شود (مثلاً برای توابع A، B و C زمانی فراخوانی از A به C"
+" وجود دارد که A تابع B و B تابع C را فراخوانی کند، یعنی A => B => C. در "
+"اینجا فاصله ۲ است).</p><p>هزینه مطلق نمایش‌داده‌شده، هزینه‌ای است که در تابع"
+" انتخاب‌شده صرف شده در حالی که یک تابع فهرست‌شده فعال است؛ هزینه نسبی درصد "
+"کل هزینه‌ای است که در تابع انتخاب‌شده در زمان فعال بودن تابع فهرست‌شده صرف "
+"شده است. نمودار هزینه، درصد لگاریتمی را با رنگ متفاوتی برای هر فاصله نشان "
+"می‌دهد.</p><p>از آنجا که ممکن است فراخوانی‌های زیادی از یک تابع وجود داشته "
+"باشد، ستون فاصله گاهی محدوده فاصله‌ها را برای تمام فراخوانی‌های انجام‌شده "
+"نشان می‌دهد؛ سپس، در پرانتز، فاصله میانگین قرار دارد، یعنی فاصله‌ای که بیشتر"
+" هزینه‌های فراخوانی در آن رخ داده است.</p><p>انتخاب یک تابع، آن را به تابع "
+"انتخاب‌شده فعلی این پانل اطلاعات تبدیل می‌کند. اگر دو پانل وجود داشته باشد "
+"(حالت Split)، تابع پانل دیگر تغییر می‌کند.</p>"
+
+#: libviews/coverageview.cpp:114
+msgctxt "CoverageView|"
+msgid ""
+"<b>List of all Callees</b><p>This list shows all functions called by the "
+"current selected one, either directly or with several function in-between on"
+" the stack; the number of function in-between plus one is called the "
+"<em>Distance</em> (e.g. for function A,B,C there exists a call from A to C "
+"when A calls B and B calls C, i.e. A => B => C. The distance here is "
+"2).</p><p>Absolute cost shown is the cost spent in the listed function while"
+" the selected is active; relative cost is the percentage of all cost spent "
+"in the listed function while the selected one is active. The cost graphic "
+"always shows logarithmic percentage with a different color for each "
+"distance.</p><p>As there can be many calls to the same function, the "
+"distance column sometimes shows the range of distances for all calls "
+"happening; then, in parentheses, there is the medium distance, i.e. the "
+"distance where most of the call costs happened.</p><p>Selecting a function "
+"makes it the current selected one of this information panel. If there are "
+"two panels (Split mode), the function of the other panel is changed "
+"instead.</p>"
+msgstr ""
+"<b>فهرست تمام فراخوانی‌شدگان (Callees)</b><p>این فهرست تمام توابعی را نشان "
+"می‌دهد که توسط تابع انتخاب‌شده فعلی فراخوانی می‌شوند، چه به‌طور مستقیم یا با"
+" چندین تابع واسطه در پشته؛ تعداد توابع واسطه به‌علاوه یک، <em>فاصله</em> "
+"(Distance) نامیده می‌شود (مثلاً برای توابع A، B و C زمانی فراخوانی از A به C"
+" وجود دارد که A تابع B و B تابع C را فراخوانی کند، یعنی A => B => C. در "
+"اینجا فاصله ۲ است).</p><p>هزینه مطلق نمایش‌داده‌شده، هزینه‌ای است که در تابع"
+" فهرست‌شده صرف شده در حالی که تابع انتخاب‌شده فعال است؛ هزینه نسبی درصد کل "
+"هزینه‌ای است که در تابع فهرست‌شده در زمان فعال بودن تابع انتخاب‌شده صرف شده "
+"است. نمودار هزینه همیشه درصد لگاریتمی را با رنگ متفاوتی برای هر فاصله نشان "
+"می‌دهد.</p><p>از آنجا که ممکن است فراخوانی‌های زیادی به یک تابع وجود داشته "
+"باشد، ستون فاصله گاهی محدوده فاصله‌ها را برای تمام فراخوانی‌های انجام‌شده "
+"نشان می‌دهد؛ سپس، در پرانتز، فاصله میانگین قرار دارد، یعنی فاصله‌ای که بیشتر"
+" هزینه‌های فراخوانی در آن رخ داده است.</p><p>انتخاب یک تابع، آن را به تابع "
+"انتخاب‌شده فعلی این پانل اطلاعات تبدیل می‌کند. اگر دو پانل وجود داشته باشد "
+"(حالت Split)، تابع پانل دیگر تغییر می‌کند.</p>"
+
+#: libviews/coverageview.cpp:160
+#, qt-format
+msgctxt "CoverageView|"
+msgid "Go to '%1'"
+msgstr "رفتن به «%1»"
+
+#: libviews/eventtypeitem.cpp:48
+msgctxt "QObject|"
+msgid "Unknown Type"
+msgstr "نوع ناشناخته"
+
+#: libviews/eventtypeview.cpp:37
+msgctxt "EventTypeView|"
+msgid "Event Type"
+msgstr "نوع رویداد"
+
+#: libviews/eventtypeview.cpp:38
+msgctxt "EventTypeView|"
+msgid "Incl."
+msgstr "شامل"
+
+#: libviews/eventtypeview.cpp:39
+msgctxt "EventTypeView|"
+msgid "Self"
+msgstr "خود"
+
+#: libviews/eventtypeview.cpp:40
+msgctxt "EventTypeView|"
+msgid "Short"
+msgstr "کوتاه"
+
+#: libviews/eventtypeview.cpp:42
+msgctxt "EventTypeView|"
+msgid "Formula"
+msgstr "فرمول"
+
+#: libviews/eventtypeview.cpp:76
+msgctxt "EventTypeView|"
+msgid ""
+"<b>Cost Types List</b><p>This list shows all cost types available and what "
+"the self/inclusive cost of the current selected function is for that cost "
+"type.</p><p>By choosing a cost type from the list, you change the cost type "
+"of costs shown all over KCachegrind to be the selected one.</p>"
+msgstr ""
+"<b>فهرست انواع هزینه</b><p>این فهرست تمام انواع هزینهٔ موجود و هزینهٔ "
+"خود/فراگیر تابع انتخاب‌شدهٔ فعلی را برای آن نوع هزینه نشان می‌دهد.</p><p>با "
+"انتخاب یک نوع هزینه از این فهرست، نوع هزینهٔ نمایش‌داده‌شده در سراسر "
+"KCachegrind به گزینهٔ انتخابی تغییر می‌یابد.</p>"
+
+#: libviews/eventtypeview.cpp:96
+msgctxt "EventTypeView|"
+msgid "Set as Secondary Event Type"
+msgstr "تنظیم به‌عنوان نوع رویداد ثانویه"
+
+#: libviews/eventtypeview.cpp:98
+msgctxt "EventTypeView|"
+msgid "Hide Secondary Event Type"
+msgstr "پنهان‌سازی نوع رویداد ثانویه"
+
+#: libviews/eventtypeview.cpp:107
+msgctxt "EventTypeView|"
+msgid "Edit Long Name"
+msgstr "ویرایش نام کامل"
+
+#: libviews/eventtypeview.cpp:108
+msgctxt "EventTypeView|"
+msgid "Edit Short Name"
+msgstr "ویرایش نام کوتاه"
+
+#: libviews/eventtypeview.cpp:109
+msgctxt "EventTypeView|"
+msgid "Edit Formula"
+msgstr "ویرایش فرمول"
+
+#: libviews/eventtypeview.cpp:110
+msgctxt "EventTypeView|"
+msgid "Remove"
+msgstr "حذف"
+
+#: libviews/eventtypeview.cpp:119
+msgctxt "EventTypeView|"
+msgid "New Event Type..."
+msgstr "نوع رویداد جدید..."
+
+#: libviews/eventtypeview.cpp:154 libviews/eventtypeview.cpp:159
+#, qt-format
+msgctxt "EventTypeView|"
+msgid "New%1"
+msgstr "جدید %1"
+
+#: libviews/eventtypeview.cpp:160
+#, qt-format
+msgctxt "EventTypeView|"
+msgid "New Event Type %1"
+msgstr "نوع رویداد جدید %1"
+
+#: libviews/functionlistmodel.cpp:45
+msgctxt "FunctionListModel|"
+msgid "Incl."
+msgstr "شامل"
+
+#: libviews/functionlistmodel.cpp:46
+msgctxt "FunctionListModel|"
+msgid "Self"
+msgstr "خود"
+
+#: libviews/functionlistmodel.cpp:47
+msgctxt "FunctionListModel|"
+msgid "Called"
+msgstr "فراخوانی‌شده"
+
+#: libviews/functionlistmodel.cpp:48
+msgctxt "FunctionListModel|"
+msgid "Function"
+msgstr "تابع"
+
+#: libviews/functionlistmodel.cpp:49
+msgctxt "FunctionListModel|"
+msgid "Location"
+msgstr "مکان"
+
+#: libviews/functionlistmodel.cpp:89
+#, qt-format
+msgctxt "FunctionListModel|"
+msgid "(%1 function(s) skipped)"
+msgstr "(از %1 تابع رد شد)"
+
+#: libviews/functionselection.cpp:87
+msgctxt "FunctionSelection|"
+msgid "Function Profile"
+msgstr "نمایه تابع"
+
+#: libviews/functionselection.cpp:95
+msgctxt "FunctionSelection|"
+msgid "&Search:"
+msgstr "جستجو:"
+
+#: libviews/functionselection.cpp:101
+msgctxt "FunctionSelection|"
+msgid "Search Query"
+msgstr "پرس‌وجوی جستجو"
+
+#: libviews/functionselection.cpp:116
+msgctxt "FunctionSelection|"
+msgid "Self"
+msgstr "خود"
+
+#: libviews/functionselection.cpp:116
+msgctxt "FunctionSelection|"
+msgid "Group"
+msgstr "گروه"
+
+#: libviews/functionselection.cpp:159 libviews/functionselection.cpp:504
+msgctxt "FunctionSelection|"
+msgid "(No Grouping)"
+msgstr "(بدون گروه‌بندی)"
+
+#: libviews/functionselection.cpp:209
+msgctxt "FunctionSelection|"
+msgid ""
+"<b>The Flat Profile</b><p>The flat profile contains a group and a function "
+"selection list. The group list contains all groups where costs are spent in,"
+" depending on the chosen group type. The group list is hidden when group "
+"type 'Function' is selected.</p><p>The function list contains the functions "
+"of the selected group (or all for 'Function' group type), ordered by the "
+"costs spent therein. Functions with costs less than 1% are hidden on "
+"default.</p>"
+msgstr ""
+"<b>نمایه مسطح</b><p>نمایه مسطح شامل یک گروه و یک فهرست انتخاب تابع است. "
+"فهرست گروه شامل تمام گروه‌هایی است که هزینه در آنها صرف شده است، که به نوع "
+"گروه انتخاب‌شده بستگی دارد. هنگامی که نوع گروه «تابع» انتخاب شود، فهرست گروه"
+" پنهان می‌شود.</p><p>فهرست توابع شامل توابعِ گروه انتخاب‌شده است (یا همه "
+"توابع برای نوع گروه «تابع»)، که بر اساس هزینه صرف‌شده در آنها مرتب شده‌اند. "
+"توابع با هزینه کمتر از ۱٪ به طور پیش‌فرض پنهان هستند.</p>"
+
+#: libviews/functionselection.cpp:287
+#, qt-format
+msgctxt "FunctionSelection|"
+msgid "Go to '%1'"
+msgstr "رفتن به «%1»"
+
+#: libviews/functionselection.cpp:297 libviews/functionselection.cpp:317
+msgctxt "FunctionSelection|"
+msgid "Grouping"
+msgstr "گروه‌بندی"
+
+#: libviews/functionselection.cpp:353
+msgctxt "FunctionSelection|"
+msgid "No Grouping"
+msgstr "بدون گروه‌بندی"
+
+#: libviews/instritem.cpp:114 libviews/sourceitem.cpp:94
+#, qt-format
+msgctxt "QObject|"
+msgid "Active call to '%1'"
+msgstr "فراخوانی فعال به «%1»"
+
+#: libviews/instritem.cpp:116 libviews/sourceitem.cpp:96
+#, qt-format
+msgctxt "QObject|"
+msgid "Call to '%1'"
+msgstr "فراخوانی به «%1»"
+
+#: libviews/instritem.cpp:122 libviews/sourceitem.cpp:100
+#, qt-format
+msgctxt "QObject|"
+msgid "%n call(s) to '%2'"
+msgid_plural "%n call(s) to '%2'"
+msgstr[0] "%n فراخوانی به «%2»"
+msgstr[1] "%n فراخوانی به «%2»"
+
+#: libviews/instritem.cpp:155
+#, qt-format
+msgctxt "QObject|"
+msgid "Jump %1 of %2 times to 0x%3"
+msgstr "پرش %1 از %2 بار به 0x%3"
+
+#: libviews/instritem.cpp:160
+#, qt-format
+msgctxt "QObject|"
+msgid "Jump %1 times to 0x%2"
+msgstr "پرش %1 بار به 0x%2"
+
+#: libviews/instritem.cpp:201 libviews/sourceitem.cpp:184
+msgctxt "QObject|"
+msgid "(cycle)"
+msgstr "(چرخه)"
+
+#: libviews/instrview.cpp:193
+msgctxt "InstrView|"
+msgid "#"
+msgstr "#"
+
+#: libviews/instrview.cpp:194
+msgctxt "InstrView|"
+msgid "Cost"
+msgstr "هزینه"
+
+#: libviews/instrview.cpp:195
+msgctxt "InstrView|"
+msgid "Cost 2"
+msgstr "هزینه ۲"
+
+#: libviews/instrview.cpp:197
+msgctxt "InstrView|"
+msgid "Hex"
+msgstr "شانزده‌شانزدهی (Hex)"
+
+#: libviews/instrview.cpp:199
+msgctxt "InstrView|"
+msgid "Assembly Instructions"
+msgstr "دستورالعمل‌های اسمبلی"
+
+#: libviews/instrview.cpp:200
+msgctxt "InstrView|"
+msgid "Source Position"
+msgstr "موقعیت در سورس"
+
+#: libviews/instrview.cpp:236
+msgctxt "InstrView|"
+msgid ""
+"<b>Annotated Machine Code</b><p>The annotated machine code list shows the "
+"assembly instructions of the current selected function together with (self) "
+"cost spent while executing an instruction. If this is a call instruction, "
+"lines with details on the call happening are inserted into the source: the "
+"cost spent inside of the call, the number of calls happening, and the call "
+"destination.</p><p>The machine code shown is generated with the 'objdump' "
+"utility from the 'binutils' package.</p><p>Select a line with call "
+"information to make the destination function of this call current.</p>"
+msgstr ""
+"<b>کد ماشین نشانه‌گذاری‌شده</b><p>فهرست کد ماشین نشانه‌گذاری‌شده، "
+"دستورالعمل‌های اسمبلی تابع انتخاب‌شده فعلی را به همراه هزینه (داخلی) صرف‌شده"
+" هنگام اجرای یک دستورالعمل نشان می‌دهد. اگر این یک دستور فراخوانی باشد، "
+"خطوطی با جزئیات فراخوانی رخ‌داده در سورس درج می‌شوند: هزینه صرف‌شده در داخل "
+"فراخوانی، تعداد فراخوانی‌های رخ‌داده و مقصد فراخوانی.</p><p>کد ماشین "
+"نمایش‌داده‌شده با ابزار «objdump» از بسته «binutils» تولید شده "
+"است.</p><p>برای فعال کردن تابع مقصد این فراخوانی، خط حاوی اطلاعات فراخوانی "
+"را انتخاب کنید.</p>"
+
+#: libviews/instrview.cpp:265
+#, qt-format
+msgctxt "InstrView|"
+msgid "Go to '%1'"
+msgstr "رفتن به «%1»"
+
+#: libviews/instrview.cpp:270
+#, qt-format
+msgctxt "InstrView|"
+msgid "Go to Address %1"
+msgstr "رفتن به نشانی %1"
+
+#: libviews/instrview.cpp:282
+msgctxt "InstrView|"
+msgid "Hex Code"
+msgstr "کد هگزادسیمال"
+
+#: libviews/instrview.cpp:290
+msgctxt "InstrView|"
+msgid "Intel Syntax"
+msgstr "نحو اینتل"
+
+#: libviews/instrview.cpp:585
+msgctxt "InstrView|"
+msgid "There is no instruction info in the profile data file."
+msgstr "هیچ اطلاعات دستوری در پروندهٔ داده‌های نمایه وجود ندارد."
+
+#: libviews/instrview.cpp:587
+msgctxt "InstrView|"
+msgid "Tip: For Callgrind, rerun with option"
+msgstr "نکته: برای Callgrind، دوباره با این گزینه اجرا کنید"
+
+#: libviews/instrview.cpp:588
+msgctxt "InstrView|"
+msgid "      --dump-instr=yes"
+msgstr "      ‎--dump-instr=yes"
+
+#: libviews/instrview.cpp:589
+msgctxt "InstrView|"
+msgid "To see (conditional) jumps, additionally specify"
+msgstr "برای دیدن پرش‌های (شرطی)، این گزینه را نیز مشخص کنید"
+
+#: libviews/instrview.cpp:590
+msgctxt "InstrView|"
+msgid "      --collect-jumps=yes"
+msgstr "      ‎--collect-jumps=yes"
+
+#: libviews/instrview.cpp:839
+msgctxt "InstrView|"
+msgid "For annotated machine code, the following object file is needed:"
+msgstr "برای کد ماشین حاشیه‌نویسی‌شده، به پروندهٔ شیء زیر نیاز است:"
+
+#: libviews/instrview.cpp:844
+msgctxt "InstrView|"
+msgid "This file can not be found."
+msgstr "این پرونده یافت نشد."
+
+#: libviews/instrview.cpp:847
+msgctxt "InstrView|"
+msgid "If cross-compiled, set SYSROOT variable."
+msgstr "در صورت کامپایل متقابل (cross-compile)، متغیر SYSROOT را تنظیم کنید."
+
+#: libviews/instrview.cpp:872
+msgctxt "InstrView|"
+msgid "There is an error trying to execute the command"
+msgstr "هنگام تلاش برای اجرای دستور خطایی رخ داد"
+
+#: libviews/instrview.cpp:876 libviews/instrview.cpp:1172
+msgctxt "InstrView|"
+msgid "Check that you have installed 'objdump'."
+msgstr "بررسی کنید که «objdump» نصب شده باشد."
+
+#: libviews/instrview.cpp:878 libviews/instrview.cpp:1174
+msgctxt "InstrView|"
+msgid "This utility can be found in the 'binutils' package."
+msgstr "این ابزار را می‌توانید در بستهٔ «binutils» پیدا کنید."
+
+#: libviews/instrview.cpp:980
+msgctxt "InstrView|"
+msgid "(No Instruction)"
+msgstr "(بدون دستورالعمل)"
+
+#: libviews/instrview.cpp:1148
+#, qt-format
+msgctxt "InstrView|"
+msgid "There are %n cost line(s) without machine code."
+msgid_plural "There are %n cost line(s) without machine code."
+msgstr[0] "%n سطر هزینه بدون کد ماشین وجود دارد."
+msgstr[1] "%n سطر هزینه بدون کد ماشین وجود دارد."
+
+#: libviews/instrview.cpp:1150
+msgctxt "InstrView|"
+msgid "This happens because the code of"
+msgstr "این اتفاق به این دلیل می‌افتد که کدِ"
+
+#: libviews/instrview.cpp:1153
+msgctxt "InstrView|"
+msgid "does not seem to match the profile data file."
+msgstr "با پرونده داده‌های نمایه همخوانی ندارد."
+
+#: libviews/instrview.cpp:1156
+msgctxt "InstrView|"
+msgid "Are you using an old profile data file or is the above mentioned"
+msgstr ""
+"آیا از یک پرونده داده‌های نمایه قدیمی استفاده می‌کنید یا مورد ذکر شده در "
+"بالا"
+
+#: libviews/instrview.cpp:1158
+msgctxt "InstrView|"
+msgid "ELF object from an updated installation/another machine?"
+msgstr "شیء ELF از یک نصب به‌روزشده/دستگاه دیگری است؟"
+
+#: libviews/instrview.cpp:1166
+msgctxt "InstrView|"
+msgid "There seems to be an error trying to execute the command"
+msgstr "به‌نظر می‌رسد هنگام اجرای دستور خطایی رخ داده است"
+
+#: libviews/instrview.cpp:1170
+msgctxt "InstrView|"
+msgid "Check that the ELF object used in the command exists."
+msgstr "بررسی کنید که شیء ELF استفاده‌شده در دستور وجود داشته باشد."
+
+#: libviews/partgraph.cpp:155
+#, qt-format
+msgctxt "QObject|"
+msgid "Profile Part %1"
+msgstr "بخش نمایه %1"
+
+#: libviews/partgraph.cpp:212
+msgctxt "QObject|"
+msgid "(no trace)"
+msgstr "(بدون ردگیری)"
+
+#: libviews/partgraph.cpp:215
+msgctxt "QObject|"
+msgid "(no part)"
+msgstr "(بدون بخش)"
+
+#: libviews/partlistitem.cpp:39
+msgctxt "QObject|"
+msgid "(none)"
+msgstr "(هیچ)"
+
+#: libviews/partselection.cpp:48
+msgctxt "PartSelection|"
+msgid "Parts Overview"
+msgstr "نمای کلی بخش‌ها"
+
+#: libviews/partselection.cpp:61
+msgctxt "PartSelection|A thing's name"
+msgid "Name"
+msgstr "نام"
+
+#: libviews/partselection.cpp:62
+msgctxt "PartSelection|"
+msgid "Cost"
+msgstr "هزینه"
+
+#: libviews/partselection.cpp:69
+msgctxt "PartSelection|"
+msgid "(no trace parts)"
+msgstr "(بدون بخش‌های ردگیری)"
+
+#: libviews/partselection.cpp:96
+msgctxt "PartSelection|"
+msgid ""
+"<b>The Parts Overview</b><p>A trace consists of multiple trace parts when "
+"there are several profile data files from one profile run. The Trace Part "
+"Overview dockable shows these, horizontally ordered in execution time; the "
+"rectangle sizes are proportional to the total cost spent in the parts. You "
+"can select one or several parts to constrain all costs shown to these parts "
+"only.</p><p>The parts are further subdivided: there is a partitioning and an"
+" callee split mode: <ul><li>Partitioning: You see the partitioning into "
+"groups for a trace part, according to the group type selected. E.g. if ELF "
+"object groups are selected, you see colored rectangles for each used ELF "
+"object (shared library or executable), sized according to the cost spent "
+"therein.</li><li>Callee: A rectangle showing the inclusive cost of the "
+"current selected function in the trace part is shown. This is split up into "
+"smaller rectangles to show the costs of its callees.</li></ul></p>"
+msgstr ""
+"<b>نمای کلی بخش‌ها</b><p>زمانی که چندین پروندهٔ دادهٔ نمایه از یک اجرای "
+"نمایه‌سازی وجود داشته باشد، یک ردگیری از چندین بخش ردگیری تشکیل می‌شود. "
+"پنجرهٔ مهارشدنی «نمای کلی بخش ردگیری»، این موارد را به ترتیب افقی در زمان "
+"اجرا نشان می‌دهد؛ اندازهٔ مستطیل‌ها متناسب با کل هزینهٔ صرف‌شده در بخش‌ها "
+"است. می‌توانید یک یا چند بخش را انتخاب کنید تا تمام هزینه‌های نشان‌داده‌شده "
+"را تنها به همین بخش‌ها محدود کنید.</p><p>بخش‌ها به زیربخش‌های بیشتری تقسیم "
+"می‌شوند: یک حالت افراز و یک حالت تقسیم فراخوانده وجود دارد: <ul><li>افراز: "
+"شما تقسیم‌بندی به گروه‌ها را برای یک بخش ردگیری، بر اساس نوع گروهِ "
+"انتخاب‌شده مشاهده می‌کنید. برای مثال اگر گروه‌های شیء ELF انتخاب شده باشند، "
+"مستطیل‌های رنگی را برای هر شیء ELF استفاده‌شده (کتابخانهٔ مشترک یا فایل "
+"اجرایی) می‌بینید که اندازهٔ آن‌ها متناسب با هزینهٔ صرف‌شده در آن‌ها "
+"است.</li><li>فراخوانده: مستطیلی نشان داده می‌شود که هزینهٔ فراگیر تابعِ "
+"انتخاب‌شدهٔ فعلی را در بخش ردگیری نمایش می‌دهد. این مستطیل به مستطیل‌های "
+"کوچک‌تری تقسیم می‌شود تا هزینه‌های فراخوانده‌های آن را نشان "
+"دهد.</li></ul></p>"
+
+#: libviews/partselection.cpp:231
+#, qt-format
+msgctxt "PartSelection|"
+msgid "Profile Part Overview: Current is '%1'"
+msgstr "نمای کلی بخش نمایه: بخش فعلی «%1» است"
+
+#: libviews/partselection.cpp:337
+#, qt-format
+msgctxt "PartSelection|"
+msgid "Deselect '%1'"
+msgstr "لغو انتخاب «%1»"
+
+#: libviews/partselection.cpp:339
+#, qt-format
+msgctxt "PartSelection|"
+msgid "Select '%1'"
+msgstr "انتخاب «%1»"
+
+#: libviews/partselection.cpp:344
+msgctxt "PartSelection|"
+msgid "Select All Parts"
+msgstr "انتخاب همهٔ بخش‌ها"
+
+#: libviews/partselection.cpp:345
+msgctxt "PartSelection|"
+msgid "Visible Parts"
+msgstr "بخش‌های مرئی"
+
+#: libviews/partselection.cpp:346
+msgctxt "PartSelection|"
+msgid "Hide Selected Parts"
+msgstr "پنهان‌کردن بخش‌های انتخاب‌شده"
+
+#: libviews/partselection.cpp:347
+msgctxt "PartSelection|"
+msgid "Show Hidden Parts"
+msgstr "نمایش بخش‌های پنهان"
+
+#: libviews/partselection.cpp:361
+#, qt-format
+msgctxt "PartSelection|"
+msgid "Go to '%1'"
+msgstr "رفتن به «%1»"
+
+#: libviews/partselection.cpp:370
+msgctxt "PartSelection|"
+msgid "Visualization"
+msgstr "بصری‌سازی"
+
+#: libviews/partselection.cpp:371
+msgctxt "PartSelection|"
+msgid "Partitioning Mode"
+msgstr "حالت پارتیشن‌بندی"
+
+#: libviews/partselection.cpp:373
+msgctxt "PartSelection|"
+msgid "Zoom Function"
+msgstr "عملکرد بزرگ‌نمایی"
+
+#: libviews/partselection.cpp:375
+msgctxt "PartSelection|"
+msgid "Show Direct Calls"
+msgstr "نمایش فراخوانی‌های مستقیم"
+
+#: libviews/partselection.cpp:376
+msgctxt "PartSelection|"
+msgid "Increment Shown Call Levels"
+msgstr "افزایش سطوح فراخوانی نمایش‌داده‌شده"
+
+#: libviews/partselection.cpp:377
+msgctxt "PartSelection|"
+msgid "Diagram Mode"
+msgstr "حالت نمودار"
+
+#: libviews/partselection.cpp:392
+msgctxt "PartSelection|"
+msgid "Draw Names"
+msgstr "رسم نام‌ها"
+
+#: libviews/partselection.cpp:394
+msgctxt "PartSelection|"
+msgid "Draw Costs"
+msgstr "رسم هزینه‌ها"
+
+#: libviews/partselection.cpp:396
+msgctxt "PartSelection|"
+msgid "Ignore Proportions"
+msgstr "نادیده‌گرفتن تناسب‌ها"
+
+#: libviews/partselection.cpp:398
+msgctxt "PartSelection|"
+msgid "Allow Rotation"
+msgstr "مجاز بودن چرخش"
+
+#: libviews/partselection.cpp:400
+msgctxt "PartSelection|"
+msgid "Draw Frames"
+msgstr "رسم قاب‌ها"
+
+#: libviews/partselection.cpp:414
+msgctxt "PartSelection|"
+msgid "Hide Info"
+msgstr "پنهان‌کردن اطلاعات"
+
+#: libviews/partselection.cpp:414
+msgctxt "PartSelection|"
+msgid "Show Info"
+msgstr "نمایش اطلاعات"
+
+#: libviews/partselection.cpp:562
+msgctxt "PartSelection|"
+msgid "(no trace loaded)"
+msgstr "(هیچ ردیابی بارگذاری نشده)"
+
+#: libviews/partview.cpp:37
+msgctxt "PartView|"
+msgid "Profile Part"
+msgstr "بخش نمایه"
+
+#: libviews/partview.cpp:38
+msgctxt "PartView|"
+msgid "Incl."
+msgstr "شامل"
+
+#: libviews/partview.cpp:39
+msgctxt "PartView|"
+msgid "Self"
+msgstr "خود"
+
+#: libviews/partview.cpp:40
+msgctxt "PartView|"
+msgid "Called"
+msgstr "فراخوانده‌شده"
+
+#: libviews/partview.cpp:41
+msgctxt "PartView|"
+msgid "Comment"
+msgstr "توضیح"
+
+#: libviews/partview.cpp:68
+msgctxt "PartView|"
+msgid ""
+"<b>Trace Part List</b><p>This list shows all trace parts of the loaded "
+"trace. For each part, the self/inclusive cost of the current selected "
+"function, spent in the part, is shown; percentage costs are always relative "
+"to the total cost <em>of the part</em> (not to the whole trace as in the "
+"Trace Part Overview). Also shown are the calls happening to/from the current"
+" function inside of the trace part.</p><p>By choosing one or more trace "
+"parts from the list, the costs shown all over KCachegrind will only be the "
+"ones spent in the selected part(s). If no list selection is shown, in fact "
+"all trace parts are selected implicitly.</p><p>This is a multi-selection "
+"list. You can select ranges by dragging the mouse or use SHIFT/CTRL "
+"modifiers. Selection/Deselection of trace parts can also be done by using "
+"the Trace Part Overview Dockable. This one also supports multiple "
+"selection.</p><p>Note that the list is hidden if only one trace part is "
+"loaded.</p>"
+msgstr ""
+"<b>فهرست بخش‌های ردیابی</b><p>این فهرست تمام بخش‌های ردیابیِ ردیابیِ "
+"بارگذاری‌شده را نشان می‌دهد. برای هر بخش، هزینهٔ خود/شامل تابعِ انتخاب‌شدهٔ "
+"فعلی که در آن بخش صرف شده، نمایش داده می‌شود؛ درصدهای هزینه همیشه نسبت به کل"
+" هزینهٔ <em>آن بخش</em> سنجیده می‌شوند (نه کل ردیابی، مانند آنچه در «نمای "
+"کلی بخش ردیابی» وجود دارد). همچنین فراخوانی‌های انجام‌شده به/از تابع فعلی در"
+" درون بخش ردیابی نشان داده می‌شوند.</p><p>با انتخاب یک یا چند بخش ردیابی از "
+"فهرست، هزینه‌های نمایش‌داده‌شده در سرتاسر KCachegrind فقط مواردی خواهند بود "
+"که در بخش(های) انتخابی صرف شده‌اند. اگر انتخابی در فهرست مشخص نباشد، در واقع"
+" تمام بخش‌های ردیابی به‌طور ضمنی انتخاب شده‌اند.</p><p>این یک فهرست با "
+"قابلیت انتخاب چندگانه است. می‌توانید با کشیدن موش‌واره محدوده‌ای را انتخاب "
+"کنید یا از کلیدهای تبدیل SHIFT/CTRL استفاده نمایید. انتخاب یا لغو انتخاب "
+"بخش‌های ردیابی را می‌توان از طریق بخش قابل‌لنگراندازی «نمای کلی بخش ردیابی» "
+"نیز انجام داد که آن هم از انتخاب چندگانه پشتیبانی می‌کند.</p><p>توجه داشته "
+"باشید که اگر تنها یک بخش ردیابی بارگذاری شده باشد، این فهرست پنهان "
+"می‌شود.</p>"
+
+#: libviews/sourceitem.cpp:141
+#, qt-format
+msgctxt "QObject|"
+msgid "Jump %1 of %2 times to %3"
+msgstr "پرش %1 از %2 بار به %3"
+
+#: libviews/sourceitem.cpp:146
+#, qt-format
+msgctxt "QObject|"
+msgid "Jump %1 times to %2"
+msgstr "پرش %1 بار به %2"
+
+#: libviews/sourceview.cpp:51
+msgctxt "SourceView|"
+msgid "#"
+msgstr "#"
+
+#: libviews/sourceview.cpp:52
+msgctxt "SourceView|"
+msgid "Cost"
+msgstr "هزینه"
+
+#: libviews/sourceview.cpp:53
+msgctxt "SourceView|"
+msgid "Cost 2"
+msgstr "هزینهٔ ۲"
+
+#: libviews/sourceview.cpp:55
+msgctxt "SourceView|"
+msgid "Source"
+msgstr "مبدأ"
+
+#: libviews/sourceview.cpp:83
+msgctxt "SourceView|"
+msgid ""
+"<b>Annotated Source</b><p>The annotated source list shows the source lines "
+"of the current selected function together with (self) cost spent while "
+"executing the code of this source line. If there was a call in a source "
+"line, lines with details on the call happening are inserted into the source:"
+" the cost spent inside of the call, the number of calls happening, and the "
+"call destination.</p><p>Select a inserted call information line to make the "
+"destination function current.</p>"
+msgstr ""
+"<b>مبدأ حاشیه‌نویسی‌شده</b><p>فهرست مبدأ حاشیه‌نویسی‌شده، خطوط مبدأ تابع "
+"انتخاب‌شدهٔ فعلی را به همراه هزینهٔ صرف‌شده (خود خط) هنگام اجرای کد این خط "
+"مبدأ نشان می‌دهد. اگر در یک خط مبدأ فراخوانی وجود داشته باشد، خطوطی با "
+"جزئیات فراخوانی انجام‌شده در مبدأ درج می‌شوند: هزینهٔ صرف‌شده در داخل "
+"فراخوانی، تعداد فراخوانی‌های انجام‌شده و مقصد فراخوانی.</p><p>یک خط اطلاعات "
+"فراخوانی درج‌شده را انتخاب کنید تا تابع مقصد به تابع فعلی تبدیل شود.</p>"
+
+#: libviews/sourceview.cpp:110
+#, qt-format
+msgctxt "SourceView|"
+msgid "Go to '%1'"
+msgstr "رفتن به «%1»"
+
+#: libviews/sourceview.cpp:115
+#, qt-format
+msgctxt "SourceView|"
+msgid "Go to Line %1"
+msgstr "رفتن به سطر %1"
+
+#: libviews/sourceview.cpp:627
+msgctxt "SourceView|"
+msgid "There is no cost of current selected type associated"
+msgstr "هیچ هزینه‌ای از نوع انتخاب‌شدهٔ فعلی مرتبط نیست"
+
+#: libviews/sourceview.cpp:629
+msgctxt "SourceView|"
+msgid "with any source line of this function in file"
+msgstr "با هر خط کُد منبع این تابع در پرونده"
+
+#: libviews/sourceview.cpp:633
+msgctxt "SourceView|"
+msgid "Thus, no annotated source can be shown."
+msgstr "بنابراین، هیچ منبع حاشیه‌نویسی‌شده‌ای قابل نمایش نیست."
+
+#: libviews/sourceview.cpp:658
+#, qt-format
+msgctxt "SourceView|"
+msgid "--- From '%1' ---"
+msgstr "--- از «%1» ---"
+
+#: libviews/sourceview.cpp:663
+#, qt-format
+msgctxt "SourceView|"
+msgid "--- Inlined from '%1' ---"
+msgstr "--- درون‌خطی‌شده از «%1» ---"
+
+#: libviews/sourceview.cpp:664
+msgctxt "SourceView|"
+msgid "--- Inlined from unknown source ---"
+msgstr "--- درون‌خطی‌شده از منبع نامشخص ---"
+
+#: libviews/sourceview.cpp:669
+msgctxt "SourceView|"
+msgid "There is no source available for the following function:"
+msgstr "هیچ کُد منبعی برای این تابع موجود نیست:"
+
+#: libviews/sourceview.cpp:674
+msgctxt "SourceView|"
+msgid "This is because no debug information is present."
+msgstr "دلیل این امر عدم وجود اطلاعات اشکال‌زدایی است."
+
+#: libviews/sourceview.cpp:676
+msgctxt "SourceView|"
+msgid "Recompile source and redo the profile run."
+msgstr ""
+"کُد منبع را دوباره کامپایل کرده و اجرای تحلیل کارایی (پروفایل) را مجدداً "
+"انجام دهید."
+
+#: libviews/sourceview.cpp:679
+msgctxt "SourceView|"
+msgid "The function is located in this ELF object:"
+msgstr "این تابع در این شیء ELF قرار دارد:"
+
+#: libviews/sourceview.cpp:687
+msgctxt "SourceView|"
+msgid "This is because its source file cannot be found:"
+msgstr "دلیل این امر این است که پروندهٔ منبع آن یافت نمی‌شود:"
+
+#: libviews/sourceview.cpp:691
+msgctxt "SourceView|"
+msgid "Add the folder of this file to the source folder list."
+msgstr "پوشهٔ این پرونده را به فهرست پوشه‌های منبع اضافه کنید."
+
+#: libviews/sourceview.cpp:693
+msgctxt "SourceView|"
+msgid "The list can be found in the configuration dialog."
+msgstr "این فهرست را می‌توانید در کادر گفتگوی پیکربندی پیدا کنید."
+
+#: libviews/stackselection.cpp:36
+msgctxt "StackSelection|"
+msgid "Stack Selection"
+msgstr "انتخاب پشته"
+
+#: libviews/stackselection.cpp:44
+msgctxt "StackSelection|"
+msgid "Cost"
+msgstr "هزینه"
+
+#: libviews/stackselection.cpp:45
+msgctxt "StackSelection|"
+msgid "Cost2"
+msgstr "هزینه ۲"
+
+#: libviews/stackselection.cpp:46
+msgctxt "StackSelection|"
+msgid "Calls"
+msgstr "فراخوانی‌ها"
+
+#: libviews/stackselection.cpp:47
+msgctxt "StackSelection|"
+msgid "Function"
+msgstr "تابع"
+
+#: libviews/tabview.cpp:104
+msgctxt "TabBar|"
+msgid "Move to Top"
+msgstr "انتقال به بالا"
+
+#: libviews/tabview.cpp:105
+msgctxt "TabBar|Move to Top"
+msgid "Top"
+msgstr "بالا"
+
+#: libviews/tabview.cpp:108
+msgctxt "TabBar|"
+msgid "Move to Right"
+msgstr "انتقال به راست"
+
+#: libviews/tabview.cpp:109
+msgctxt "TabBar|Move to Right"
+msgid "Right"
+msgstr "راست"
+
+#: libviews/tabview.cpp:112
+msgctxt "TabBar|"
+msgid "Move to Bottom"
+msgstr "انتقال به پایین"
+
+#: libviews/tabview.cpp:113
+msgctxt "TabBar|Move to Bottom"
+msgid "Bottom"
+msgstr "پایین"
+
+#: libviews/tabview.cpp:116
+msgctxt "TabBar|"
+msgid "Move to Bottom Left"
+msgstr "انتقال به پایین چپ"
+
+#: libviews/tabview.cpp:117
+msgctxt "TabBar|Move to Bottom Left"
+msgid "Bottom Left"
+msgstr "پایین چپ"
+
+#: libviews/tabview.cpp:119
+msgctxt "TabBar|"
+msgid "Move Area To"
+msgstr "انتقال ناحیه به"
+
+#: libviews/tabview.cpp:122
+msgctxt "TabBar|"
+msgid "Hide This Tab"
+msgstr "پنهان کردن این برگه"
+
+#: libviews/tabview.cpp:123
+msgctxt "TabBar|"
+msgid "Hide Area"
+msgstr "پنهان کردن ناحیه"
+
+#: libviews/tabview.cpp:132
+msgctxt "TabBar|Show on Top"
+msgid "Top"
+msgstr "بالا"
+
+#: libviews/tabview.cpp:133
+msgctxt "TabBar|Show on Right"
+msgid "Right"
+msgstr "راست"
+
+#: libviews/tabview.cpp:134
+msgctxt "TabBar|Show on Bottom"
+msgid "Bottom"
+msgstr "پایین"
+
+#: libviews/tabview.cpp:135
+msgctxt "TabBar|Show on Bottom Left"
+msgid "Bottom Left"
+msgstr "پایین سمت چپ"
+
+#: libviews/tabview.cpp:136
+msgctxt "TabBar|"
+msgid "Show Hidden On"
+msgstr "نمایش موارد پنهان در"
+
+#: libviews/tabview.cpp:309 libviews/tabview.cpp:311 libviews/tabview.cpp:730
+msgctxt "TabView|"
+msgid "(No profile data file loaded)"
+msgstr "(هیچ پروندهٔ داده‌های پروفایلی بارگذاری نشده است)"
+
+#: libviews/tabview.cpp:371
+msgctxt "TabView|"
+msgid "Types"
+msgstr "انواع"
+
+#: libviews/tabview.cpp:374
+msgctxt "TabView|"
+msgid "Callers"
+msgstr "فراخواننده‌ها"
+
+#: libviews/tabview.cpp:375
+msgctxt "TabView|"
+msgid "All Callers"
+msgstr "همهٔ فراخواننده‌ها"
+
+#: libviews/tabview.cpp:376
+msgctxt "TabView|"
+msgid "Callee Map"
+msgstr "نقشهٔ فراخوانده‌شده‌ها"
+
+#: libviews/tabview.cpp:379
+msgctxt "TabView|"
+msgid "Source Code"
+msgstr "کد منبع"
+
+#: libviews/tabview.cpp:380
+msgctxt "TabView|"
+msgid "Control Flow Graph"
+msgstr "گراف جریان کنترل"
+
+#: libviews/tabview.cpp:383
+msgctxt "TabView|"
+msgid "Parts"
+msgstr "بخش‌ها"
+
+#: libviews/tabview.cpp:384
+msgctxt "TabView|"
+msgid "Callees"
+msgstr "فراخوانده‌شده‌ها"
+
+#: libviews/tabview.cpp:385
+msgctxt "TabView|"
+msgid "Call Graph"
+msgstr "گراف فراخوانی"
+
+#: libviews/tabview.cpp:388
+msgctxt "TabView|"
+msgid "All Callees"
+msgstr "تمام فراخوانده‌شده‌ها"
+
+#: libviews/tabview.cpp:389
+msgctxt "TabView|"
+msgid "Caller Map"
+msgstr "نقشه فراخواننده‌ها"
+
+#: libviews/tabview.cpp:392
+msgctxt "TabView|"
+msgid "Machine Code"
+msgstr "کد ماشین"
+
+#: libviews/tabview.cpp:646
+msgctxt "TabView|"
+msgid ""
+"<b>Information Tabs</b><p>This widget shows information for the currently "
+"selected function in different tabs: <ul><li>The Costs tab shows a list of "
+"available event types and the inclusive and self-costs related to these "
+"types.</li><li>The Parts tab shows a list of trace parts if the trace "
+"consists of more than one part (otherwise, this tab is hidden). The cost of "
+"the selected function spent in the different parts together with the calls "
+"happening is shown.</li><li>The Call Lists tab shows direct callers and "
+"callees of the function in more detail.</li><li>The Coverage tab shows the "
+"same as the Call Lists tab, but also shows indirect callers and callees, not"
+" just direct ones.</li><li>The Call Graph tab shows a graphical "
+"visualization of the calls made by this function.</li><li>The Source Code "
+"tab presents annotated source code if debugging information and the source "
+"file are available.</li><li>The Machine Code tab presents annotated assembly"
+" instructions if profile information at instruction level is "
+"available.</li></ul>For more information, see the <em>What's This?</em> help"
+" of the corresponding tab widget.</p>"
+msgstr ""
+"<b>تب‌های اطلاعات</b><p>این ویجت اطلاعات تابع انتخاب‌شده فعلی را در تب‌های "
+"مختلف نمایش می‌دهد: <ul><li>تب هزینه‌ها فهرستی از انواع رویدادهای موجود و "
+"هزینه‌های فراگیر و اختصاصی مربوط به آن‌ها را نشان می‌دهد.</li><li>تب بخش‌ها "
+"فهرستی از بخش‌های ردگیری (trace) را در صورتی که ردگیری از بیش از یک بخش "
+"تشکیل شده باشد نمایش می‌دهد (در غیر این صورت، این تب پنهان است). هزینه "
+"صرف‌شده برای تابع انتخاب‌شده در بخش‌های مختلف به همراه فراخوانی‌های "
+"انجام‌شده نشان داده می‌شود.</li><li>تب فهرست‌های فراخوانی، فراخواننده‌ها و "
+"فراخوانده‌شده‌های مستقیم تابع را با جزئیات بیشتر نشان می‌دهد.</li><li>تب "
+"پوشش همان موارد تب فهرست‌های فراخوانی را نشان می‌دهد، اما علاوه بر موارد "
+"مستقیم، فراخواننده‌ها و فراخوانده‌شده‌های غیرمستقیم را نیز نمایش "
+"می‌دهد.</li><li>تب گراف فراخوانی یک نمایش گرافیکی از فراخوانی‌های انجام‌شده "
+"توسط این تابع را نشان می‌دهد.</li><li>تب کد منبع در صورت در دسترس بودن "
+"اطلاعات اشکال‌زدایی و فایل منبع، کد منبع نشانه‌گذاری‌شده را ارائه "
+"می‌دهد.</li><li>تب کد ماشین در صورت در دسترس بودن اطلاعات پروفایل در سطح "
+"دستورالعمل، دستورالعمل‌های اسمبلی نشانه‌گذاری‌شده را ارائه "
+"می‌دهد.</li></ul>برای اطلاعات بیشتر، راهنمای <em>این چیست؟</em> مربوط به "
+"ویجت تب مورد نظر را ببینید.</p>"
+
+#: libviews/tabview.cpp:731
+msgctxt "TabView|"
+msgid "(No function selected)"
+msgstr "(هیچ تابعی انتخاب نشده است)"
+
+#: libviews/traceitemview.cpp:67
+msgctxt "QObject|"
+msgid "No description available"
+msgstr "هیچ توضیحی در دسترس نیست"
+
+#: libviews/treemap.cpp:1335
+#, qt-format
+msgctxt "TreeMapWidget|"
+msgid "Text %1"
+msgstr "متن %1"
+
+#: libviews/treemap.cpp:2860
+msgctxt "TreeMapWidget|"
+msgid "Recursive Bisection"
+msgstr "تنصیف بازگشتی"
+
+#: libviews/treemap.cpp:2861
+msgctxt "TreeMapWidget|"
+msgid "Columns"
+msgstr "ستون‌ها"
+
+#: libviews/treemap.cpp:2862
+msgctxt "TreeMapWidget|"
+msgid "Rows"
+msgstr "سطرها"
+
+#: libviews/treemap.cpp:2863
+msgctxt "TreeMapWidget|"
+msgid "Always Best"
+msgstr "همیشه بهترین"
+
+#: libviews/treemap.cpp:2864
+msgctxt "TreeMapWidget|"
+msgid "Best"
+msgstr "بهترین"
+
+#: libviews/treemap.cpp:2865
+msgctxt "TreeMapWidget|"
+msgid "Alternate (V)"
+msgstr "متناوب (عمودی)"
+
+#: libviews/treemap.cpp:2866
+msgctxt "TreeMapWidget|"
+msgid "Alternate (H)"
+msgstr "متناوب (افقی)"
+
+#: libviews/treemap.cpp:2867
+msgctxt "TreeMapWidget|"
+msgid "Horizontal"
+msgstr "افقی"
+
+#: libviews/treemap.cpp:2868
+msgctxt "TreeMapWidget|"
+msgid "Vertical"
+msgstr "عمودی"

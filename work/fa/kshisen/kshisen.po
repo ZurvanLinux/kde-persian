@@ -1,0 +1,549 @@
+# translation of kshisen.po to Persian
+# Mahdi Foladgar <foladgar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2007.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kshisen\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-16 00:38+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/app.cpp:81 src/app.cpp:318
+#, kde-format
+msgid "Select a tile"
+msgstr "یک کاشی را انتخاب کنید"
+
+#: src/app.cpp:84
+#, kde-format
+msgid "Time: 0:00:00"
+msgstr "زمان: ۰:۰۰:۰۰"
+
+#: src/app.cpp:87
+#, kde-format
+msgid "Removed: 0/0"
+msgstr "حذف‌شده: ۰/۰"
+
+#: src/app.cpp:90
+#, kde-format
+msgid "Cheat mode"
+msgstr "حالت تقلب"
+
+#: src/app.cpp:110
+#, kde-format
+msgctxt "@option:check"
+msgid "Play Sounds"
+msgstr "پخش صداها"
+
+#: src/app.cpp:240
+#, kde-format
+msgctxt "time string: hh:mm:ss"
+msgid "%1:%2:%3"
+msgstr "%1:%2:%3"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Gravity)
+#: src/app.cpp:249 src/app.cpp:350 src/settings.ui:26
+#, kde-format
+msgid "Gravity"
+msgstr "گرانش"
+
+#: src/app.cpp:252
+#, kde-format
+msgid "Yes"
+msgstr "بله"
+
+#: src/app.cpp:254
+#, kde-format
+msgid "No"
+msgstr "خیر"
+
+#: src/app.cpp:260
+#, kde-format
+msgid ""
+"\n"
+"You could have been in the high scores\n"
+"if you did not use Undo or Hint.\n"
+"Try without them next time."
+msgstr ""
+"\n"
+"اگر از «واگرد» یا «راهنمایی» استفاده نکرده بودید،\n"
+"می‌توانستید در جدول برترین امتیازها باشید.\n"
+"دفعه بعد بدون آن‌ها امتحان کنید."
+
+#: src/app.cpp:261 src/app.cpp:269
+#, kde-format
+msgctxt "@title:window"
+msgid "End of Game"
+msgstr "پایان بازی"
+
+#: src/app.cpp:264
+#, kde-format
+msgid ""
+"Congratulations!\n"
+"You made it into the hall of fame."
+msgstr ""
+"تبریک!\n"
+"به تالار مشاهیر راه یافتید."
+
+#: src/app.cpp:268
+#, kde-format
+msgctxt "%1 - time string like hh:mm:ss"
+msgid "You made it in %1"
+msgstr "در مدت زمان %1 به پایان رساندید"
+
+#: src/app.cpp:284
+#, kde-format
+msgid "Your time: %1:%2:%3 %4"
+msgstr "زمان شما: %1:%2:%3 %4"
+
+#: src/app.cpp:288
+#, kde-format
+msgid "(Paused) "
+msgstr "(مکث‌شده) "
+
+#: src/app.cpp:296
+#, kde-format
+msgid "Removed: %1/%2 "
+msgstr "حذف‌شده: %1/%2 "
+
+#: src/app.cpp:323
+#, kde-format
+msgid "Select a matching tile"
+msgstr "یک کاشی منطبق انتخاب کنید"
+
+#: src/app.cpp:328
+#, kde-format
+msgid "Select the move you want by clicking on the blue line"
+msgstr "حرکت مورد نظر خود را با کلیک روی خط آبی انتخاب کنید"
+
+#: src/app.cpp:333
+#, kde-format
+msgid "This tile did not match the one you selected"
+msgstr "این کاشی با کاشی انتخابی شما مطابقت نداشت"
+
+#: src/app.cpp:338
+#, kde-format
+msgid "You cannot make this move"
+msgstr "نمی‌توانید این حرکت را انجام دهید"
+
+#: src/app.cpp:369
+#, kde-format
+msgctxt "@title:tab"
+msgid "General"
+msgstr "عمومی"
+
+#: src/board.cpp:69
+#, kde-format
+msgctxt "%1 is a path to a tile set file"
+msgid ""
+"An error occurred when loading the default tile set.\n"
+"Please install the KMahjongg library."
+msgstr ""
+"هنگام بارگذاری مجموعه کاشی پیش‌فرض خطایی رخ داد.\n"
+"لطفاً کتابخانهٔ KMahjongg را نصب کنید."
+
+#: src/board.cpp:70 src/board.cpp:79 src/board.cpp:85 src/board.cpp:102
+#: src/board.cpp:111 src/board.cpp:117
+#, kde-format
+msgctxt "@title:window"
+msgid "Error Loading Tiles"
+msgstr "خطا در بارگذاری کاشی‌ها"
+
+#: src/board.cpp:78
+#, kde-format
+msgctxt "%1 is a path to a tile set file"
+msgid ""
+"An error occurred when loading the tile set %1. The default tile set has "
+"been loaded."
+msgstr ""
+"هنگام بارگذاری مجموعه کاشی %1 خطایی رخ داد. مجموعه کاشی پیش‌فرض بارگذاری شد."
+
+#: src/board.cpp:84
+#, kde-format
+msgctxt "%1 is a path to a tile set file"
+msgid ""
+"An error occurred when loading the tile set %1. The default tile set could also not be loaded.\n"
+"Please install the KMahjongg library."
+msgstr ""
+"هنگام بارگذاری مجموعه کاشی %1 خطایی رخ داد. مجموعه کاشی پیش‌فرض نیز قابل بارگذاری نبود.\n"
+"لطفاً کتابخانهٔ KMahjongg را نصب کنید."
+
+#: src/board.cpp:101
+#, kde-format
+msgctxt "%1 is a path to a background image file"
+msgid ""
+"An error occurred when loading the default background.\n"
+"Please install the KMahjongg library."
+msgstr ""
+"هنگام بارگذاری پس‌زمینهٔ پیش‌فرض خطایی رخ داد.\n"
+"لطفاً کتابخانهٔ KMahjongg را نصب کنید."
+
+#: src/board.cpp:110
+#, kde-format
+msgctxt "%1 is a path to a background image file"
+msgid ""
+"An error occurred when loading the background %1. The default background has"
+" been loaded."
+msgstr ""
+"هنگام بارگذاری پس‌زمینهٔ %1 خطایی رخ داد. پس‌زمینهٔ پیش‌فرض بارگذاری شد."
+
+#: src/board.cpp:116
+#, kde-format
+msgctxt "%1 is a path to a background image  file"
+msgid ""
+"An error occurred when loading the background %1. The default background could also not be loaded.\n"
+"Please install the KMahjongg library."
+msgstr ""
+"هنگام بارگذاری پس‌زمینهٔ %1 خطایی رخ داد. پس‌زمینهٔ پیش‌فرض نیز قابل بارگذاری نبود.\n"
+"لطفاً کتابخانهٔ KMahjongg را نصب کنید."
+
+#: src/board.cpp:678
+#, kde-format
+msgid ""
+"Game Paused\n"
+"Click to resume game."
+msgstr ""
+"بازی متوقف شد\n"
+"برای ادامهٔ بازی کلیک کنید."
+
+#: src/board.cpp:682
+#, kde-format
+msgid ""
+"Game Stuck\n"
+"No more moves possible."
+msgstr ""
+"بازی قفل شد\n"
+"حرکت دیگری ممکن نیست."
+
+#: src/board.cpp:685
+#, kde-format
+msgid ""
+"Game Over\n"
+"Click to start a new game."
+msgstr ""
+"پایان بازی\n"
+"برای شروع یک بازی جدید کلیک کنید."
+
+#. i18n: ectx: label, entry (TileSet), group (General)
+#: src/kshisen.kcfg:9
+#, kde-format
+msgid "The tile set to use."
+msgstr "مجموعهٔ کاشی مورد استفاده."
+
+#. i18n: ectx: label, entry (Background), group (General)
+#: src/kshisen.kcfg:12
+#, kde-format
+msgid "The background to use."
+msgstr "پس‌زمینهٔ مورد استفاده."
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/kshisenui.rc:13
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#: src/main.cpp:52
+#, kde-format
+msgid "Shisen-Sho"
+msgstr "شیسن-شو"
+
+#: src/main.cpp:54
+#, kde-format
+msgid "A game similar to Mahjongg"
+msgstr "بازی مشابه ماهجونگ"
+
+#: src/main.cpp:56
+#, kde-format
+msgid "Copyright 1997 Mario Weilguni"
+msgstr "حق نشر ۱۹۹۷ Mario Weilguni"
+
+#: src/main.cpp:59
+#, kde-format
+msgid "Frederik Schwarzer"
+msgstr "Frederik Schwarzer"
+
+#: src/main.cpp:59
+#, kde-format
+msgid "Current Maintainer"
+msgstr "نگه‌دارندهٔ کنونی"
+
+#: src/main.cpp:60
+#, kde-format
+msgid "Dave Corrie"
+msgstr "دیو کوری"
+
+#: src/main.cpp:60
+#, kde-format
+msgid "Former Maintainer"
+msgstr "نگه‌دارندهٔ قبلی"
+
+#: src/main.cpp:61
+#, kde-format
+msgid "Mario Weilguni"
+msgstr "ماریو ویلگونی"
+
+#: src/main.cpp:61
+#, kde-format
+msgid "Original Author"
+msgstr "نویسندهٔ اصلی"
+
+#: src/main.cpp:62
+#, kde-format
+msgid "Mauricio Piacentini"
+msgstr "مائوریسیو پیاسنتینی"
+
+#: src/main.cpp:62
+#, kde-format
+msgid "KMahjonggLib integration for KDE4"
+msgstr "یکپارچه‌سازی با KMahjonggLib برای KDE4"
+
+#: src/main.cpp:63
+#, kde-format
+msgid "Jason Lane"
+msgstr "جیسون لین"
+
+#: src/main.cpp:63
+#, kde-format
+msgid ""
+"Added 'tiles removed' counter<br/>Tile smooth-scaling and window resizing"
+msgstr ""
+"افزودن شمارشگر «کاشی‌های برداشته‌شده»<br/>تغییر مقیاس نرم کاشی‌ها و تغییر "
+"اندازهٔ پنجره"
+
+#: src/main.cpp:64
+#, kde-format
+msgid "Thanks also to everyone who should be listed here but is not!"
+msgstr ""
+"همچنین با تشکر از همهٔ کسانی که باید نامشان در این‌جا می‌بود ولی نیست!"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Gravity)
+#: src/settings.ui:23
+#, kde-format
+msgid ""
+"<b>Gravity</b><p>Checking this makes the game even harder: If a tile is "
+"removed, all tiles lying above it will fall down one step.</p>"
+msgstr ""
+"<b>گرانش</b><p>علامت‌زدن این گزینه بازی را سخت‌تر می‌کند: اگر یک کاشی "
+"برداشته شود، تمام کاشی‌های بالای آن یک ردیف به پایین سقوط خواهند کرد.</p>"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Solvable)
+#: src/settings.ui:33
+#, kde-format
+msgid ""
+"<b>Create solvable games only</b><p>If checked, you will only be presented "
+"with games that are possible to solve.</p><p>Note: Even in solvable games "
+"you can fail to complete if you remove the tiles in the wrong order.</p>"
+msgstr ""
+"<b>فقط ایجاد بازی‌های قابل حل</b><p>در صورت انتخاب، فقط بازی‌هایی به شما "
+"ارائه می‌شوند که قابل حل‌کردن باشند.</p><p>نکته: حتی در بازی‌های قابل حل، در"
+" صورت حذف کاشی‌ها با ترتیب نادرست ممکن است نتوانید بازی را به پایان "
+"برسانید.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Solvable)
+#: src/settings.ui:36
+#, kde-format
+msgid "Create solvable games only"
+msgstr "فقط ایجاد بازی‌های قابل حل"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox,
+#. kcfg_ShowUnsolvableMessage)
+#: src/settings.ui:43
+#, kde-format
+msgid ""
+"<b>Show message if board can no longer be solved</b><p>Checking this makes "
+"the game show a message to abort the game in case there are no possible "
+"moves left to win the game.</p>"
+msgstr ""
+"<b>نمایش پیام در صورت غیرقابل حل شدن صفحه</b><p>با علامت زدن این گزینه، در "
+"صورتی که هیچ حرکت ممکنی برای بردن بازی باقی نمانده باشد، پیامی برای لغو بازی"
+" نشان داده می‌شود.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowUnsolvableMessage)
+#: src/settings.ui:46
+#, kde-format
+msgid "Show message if board can no longer be solved"
+msgstr "نمایش پیام در صورت غیرقابل حل شدن صفحه"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ChineseStyle)
+#: src/settings.ui:53
+#, kde-format
+msgid ""
+"<b>Use Chinese style: any flower match any flower, any season match any "
+"season</b><p>Use the traditional rules for matching the tiles. Previous "
+"version of the game used to allow only exact tiles matches, which is "
+"inconsistent with Mah-jongg rules. It is recommended to keep this option "
+"checked.</p>"
+msgstr ""
+"<b>استفاده از سبک چینی: تطبیق هر گل با هر گل، هر فصل با هر فصل</b><p>استفاده"
+" از قوانین سنتی برای تطبیق کاشی‌ها. نسخه قبلی بازی فقط تطبیق دقیق کاشی‌های "
+"یکسان را مجاز می‌دانست که با قوانین ماژونگ ناهمخوان است. توصیه می‌شود این "
+"گزینه را فعال نگه دارید.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ChineseStyle)
+#: src/settings.ui:56
+#, kde-format
+msgid ""
+"Use Chinese style: any flower match any flower, any season match any season"
+msgstr "استفاده از سبک چینی: تطبیق هر گل با هر گل، هر فصل با هر فصل"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_TilesCanSlide)
+#: src/settings.ui:63
+#, kde-format
+msgid ""
+"<b>Tiles can slide, but you can connect only in 2 lines instead of "
+"3</b><p>This option changes the rules to the point where it almost becomes a"
+" completely different game. When it is active, you can only remove the tiles"
+" if they can be connected by a line consisting of only two segments instead "
+"of the customary three. However, you are allowed to slide the tiles on the "
+"board, if the row or column where they are placed has some empty space. To "
+"make a sliding move, you have to click on the tile containing the column or "
+"row that can slide, and then on the matching tile. If there are two possible"
+" sliding moves, you will have to click on one of the two connecting lines to"
+" choose your preferred move.</p>"
+msgstr ""
+"<b>کاشی‌ها می‌توانند بلغزند، اما فقط با ۲ خط به‌جای ۳ خط متصل "
+"می‌شوند</b><p>این گزینه قوانین را تا جایی تغییر می‌دهد که تقریباً به یک بازی"
+" کاملاً متفاوت تبدیل می‌شود. وقتی فعال باشد، کاشی‌ها را تنها در صورتی "
+"می‌توانید حذف کنید که با خطی متشکل از حداکثر دو پاره‌خط به‌جای سه پاره‌خط "
+"معمول به هم متصل شوند. با این حال، اگر سطر یا ستونی که کاشی‌ها در آن قرار "
+"دارند فضای خالی داشته باشد، مجاز به لغزاندن کاشی‌ها روی صفحه هستید. برای "
+"انجام یک حرکت لغزشی، باید روی کاشی در سطر یا ستونی که امکان لغزش دارد کلیک "
+"کنید و سپس روی کاشی مشابه آن کلیک نمایید. اگر دو حرکت لغزشی ممکن وجود داشته "
+"باشد، باید روی یکی از دو خط اتصال کلیک کنید تا حرکت مورد نظرتان انتخاب "
+"شود.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TilesCanSlide)
+#: src/settings.ui:66
+#, kde-format
+msgid "Tiles can slide, but you can connect only in 2 lines instead of 3"
+msgstr "کاشی‌ها می‌توانند بلغزند، اما فقط با ۲ خط به‌جای ۳ خط متصل می‌شوند"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, difficulty_groupBox)
+#: src/settings.ui:73
+#, kde-format
+msgid ""
+"<b>Board Difficulty</b><p>The slider controls the difficulty of the board "
+"from Easy to Hard.</p>"
+msgstr ""
+"<b>درجه سختی صفحه</b><p>این لغزنده درجه سختی صفحه را از آسان تا سخت تنظیم "
+"می‌کند.</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, difficulty_groupBox)
+#: src/settings.ui:76
+#, kde-format
+msgid "Board Difficulty"
+msgstr "درجه سختی صفحه"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/settings.ui:103
+#, kde-format
+msgid "Easy"
+msgstr "آسان"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/settings.ui:123
+#, kde-format
+msgid "Hard"
+msgstr "سخت"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, speed_groupBox)
+#: src/settings.ui:138
+#, kde-format
+msgid ""
+"<b>Piece Removal Speed</b><p>Adjusting this slider alters the speed at which"
+" the pieces are removed from the screen after a match has been made.</p>"
+msgstr ""
+"<b>سرعت حذف مهره‌ها</b><p>تنظیم این لغزنده، سرعت حذف مهره‌ها از صفحه را پس "
+"از جور شدن تغییر می‌دهد.</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, speed_groupBox)
+#: src/settings.ui:141
+#, kde-format
+msgid "Piece Removal Speed"
+msgstr "سرعت حذف مهره‌ها"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: src/settings.ui:168
+#, kde-format
+msgid "Slow"
+msgstr "آهسته"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: src/settings.ui:188
+#, kde-format
+msgid "Fast"
+msgstr "سریع"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, size_groupBox)
+#: src/settings.ui:203
+#, kde-format
+msgid ""
+"<b>Board Size</b><p>This slider allows you to change the number of tiles on "
+"the board. The more tiles you have, the harder (and longer) the game will "
+"be.</p>"
+msgstr ""
+"<b>اندازه صفحه</b><p>این لغزنده به شما امکان می‌دهد تعداد کاشی‌های روی صفحه "
+"را تغییر دهید. هر چه کاشی‌های بیشتری داشته باشید، بازی سخت‌تر (و طولانی‌تر) "
+"خواهد شد.</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, size_groupBox)
+#: src/settings.ui:206
+#, kde-format
+msgid "Board Size"
+msgstr "اندازه صفحه"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: src/settings.ui:236
+#, kde-format
+msgid "14x6"
+msgstr "۱۴x۶"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#: src/settings.ui:256
+#, kde-format
+msgid "16x9"
+msgstr "16x9"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: src/settings.ui:279
+#, kde-format
+msgid "18x8"
+msgstr "18x8"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#: src/settings.ui:302
+#, kde-format
+msgid "24x12"
+msgstr "24x12"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel11)
+#: src/settings.ui:325
+#, kde-format
+msgid "26x14"
+msgstr "26x14"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel12)
+#: src/settings.ui:348
+#, kde-format
+msgid "30x16"
+msgstr "30x16"

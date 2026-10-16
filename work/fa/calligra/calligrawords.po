@@ -1,0 +1,1879 @@
+# translation of kword.po to Persian
+# Copyright (C) 2003, 2004, 2007 Free Software Foundation, Inc.
+#
+# FarsiKDE Team <info@farsikde.org>, 2003.
+# Abbas Izad <abbasizad@hotmail.com>, 2003.
+# Arash Zeini <info@farsikde.org>, 2003.
+# MaryamSadat Razavi <razavi@itland.ir>, 2007.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2007.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kword\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-10 00:46+0000\n"
+"PO-Revision-Date: 2026-10-15 14:58+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: ectx: Menu (file)
+#: part/calligrawords.rc:4 part/calligrawords_readonly.rc:4
+#, kde-format
+msgid "&File"
+msgstr "پرونده"
+
+#. i18n: ectx: Menu (edit)
+#: part/calligrawords.rc:11 part/calligrawords_readonly.rc:7
+#, kde-format
+msgid "&Edit"
+msgstr "ویرایش"
+
+#. i18n: ectx: Menu (view)
+#: part/calligrawords.rc:30 part/calligrawords_readonly.rc:13
+#, kde-format
+msgid "&View"
+msgstr "نمایش"
+
+#. i18n: ectx: Menu (view_displaymodes)
+#. i18n: ectx: Menu (view)
+#: part/calligrawords.rc:32 part/calligrawords_readonly.rc:15
+#, kde-format
+msgid "&Display Mode"
+msgstr "حالت نمایش"
+
+#. i18n: ectx: Menu (semantic)
+#: part/calligrawords.rc:62
+#, kde-format
+msgid "Semantics"
+msgstr "معناشناسی"
+
+#. i18n: ectx: Menu (format)
+#: part/calligrawords.rc:74
+#, kde-format
+msgid "S&tyles"
+msgstr "سبک‌ها"
+
+#. i18n: ectx: Menu (settings)
+#: part/calligrawords.rc:78
+#, kde-format
+msgid "&Settings"
+msgstr "تنظیمات"
+
+#. i18n: ectx: Menu (SpellCheck)
+#: part/calligrawords.rc:79
+#, kde-format
+msgid "Spellcheck"
+msgstr "غلط‌یابی املایی"
+
+#. i18n: ectx: Menu (AutoCorrection)
+#: part/calligrawords.rc:83
+#, kde-format
+msgid "AutoCorrection"
+msgstr "تصحیح خودکار"
+
+#. i18n: ectx: ToolBar (edit_toolbar)
+#: part/calligrawords.rc:94
+#, kde-format
+msgid "Edit"
+msgstr "ویرایش"
+
+#. i18n: ectx: Menu (check_spell_list)
+#: part/calligrawords.rc:147
+#, kde-format
+msgid "Spell Check Result"
+msgstr "نتیجهٔ غلط‌یابی املایی"
+
+#. i18n: ectx: Menu (variable_list)
+#: part/calligrawords.rc:174
+#, kde-format
+msgid "Change Variable To"
+msgstr "تغییر متغیر به"
+
+#. i18n: ectx: Menu (tools)
+#: part/calligrawords_readonly.rc:30
+#, kde-format
+msgid "&Tools"
+msgstr "ابزارها"
+
+#: part/commands/KWChangePageStyleCommand.cpp:11
+msgctxt "(qtundo-format)"
+msgid "Set Page Style"
+msgstr "تنظیم سبک صفحه"
+
+#: part/commands/KWNewPageStyleCommand.cpp:12
+msgctxt "(qtundo-format)"
+msgid "Insert Page Style"
+msgstr "درج سبک صفحه"
+
+#: part/commands/KWPageStylePropertiesCommand.cpp:19
+msgctxt "(qtundo-format)"
+msgid "Page Properties"
+msgstr "ویژگی‌های صفحه"
+
+#: part/commands/KWShapeCreateCommand.cpp:42
+msgctxt "(qtundo-format)"
+msgid "Create shape"
+msgstr "ایجاد شکل"
+
+#: part/dialogs/KWAnchoringProperties.cpp:412
+#, kde-format
+msgid "Baseline"
+msgstr "خط پایه"
+
+#: part/dialogs/KWAnchoringProperties.cpp:413
+#: part/dialogs/KWAnchoringProperties.cpp:424
+#, kde-format
+msgid "Character"
+msgstr "نویسه"
+
+#: part/dialogs/KWAnchoringProperties.cpp:416
+#, kde-format
+msgid "Row"
+msgstr "سطر"
+
+#: part/dialogs/KWAnchoringProperties.cpp:417
+#: part/dialogs/KWAnchoringProperties.cpp:425
+#, kde-format
+msgid "Page (entire) area"
+msgstr "ناحیهٔ صفحه (کل)"
+
+#: part/dialogs/KWAnchoringProperties.cpp:418
+#: part/dialogs/KWAnchoringProperties.cpp:426
+#, kde-format
+msgid "Page text area"
+msgstr "ناحیهٔ متن صفحه"
+
+#: part/dialogs/KWAnchoringProperties.cpp:419
+#: part/dialogs/KWAnchoringProperties.cpp:433
+#, kde-format
+msgid "Paragraph area"
+msgstr "ناحیهٔ بند"
+
+#: part/dialogs/KWAnchoringProperties.cpp:420
+#: part/dialogs/KWAnchoringProperties.cpp:434
+#, kde-format
+msgid "Paragraph text area"
+msgstr "ناحیهٔ متن بند"
+
+#: part/dialogs/KWAnchoringProperties.cpp:427
+#, kde-format
+msgid "Left page border"
+msgstr "حاشیهٔ چپ صفحه"
+
+#: part/dialogs/KWAnchoringProperties.cpp:428
+#, kde-format
+msgid "Right page border"
+msgstr "حاشیهٔ راست صفحه"
+
+#: part/dialogs/KWAnchoringProperties.cpp:435
+#, kde-format
+msgid "Right paragraph border"
+msgstr "حاشیهٔ راست بند"
+
+#: part/dialogs/KWAnchoringProperties.cpp:436
+#, kde-format
+msgid "Left paragraph border"
+msgstr "حاشیهٔ چپ بند"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: part/dialogs/KWAnchoringProperties.ui:17
+#, kde-format
+msgid "Shape relation to text is:"
+msgstr "ارتباط شکل با متن:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorAsCharacter)
+#: part/dialogs/KWAnchoringProperties.ui:23
+#, kde-format
+msgid "Inline with text (behaves as a character)"
+msgstr "درون خط با متن (رفتار مانند نویسه)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorToCharacter)
+#: part/dialogs/KWAnchoringProperties.ui:30
+#, kde-format
+msgid "Floating, but anchored to a character position"
+msgstr "شناور، اما مهارشده به موقعیت نویسه"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorParagraph)
+#: part/dialogs/KWAnchoringProperties.ui:37
+#, kde-format
+msgid "Floating, but anchored to a paragraph"
+msgstr "شناور، اما مهارشده به بند"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorPage)
+#: part/dialogs/KWAnchoringProperties.ui:44
+#, kde-format
+msgid "Floating free (not anchored to text)"
+msgstr "کاملاً شناور (مهارنشده به متن)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpVert)
+#: part/dialogs/KWAnchoringProperties.ui:54
+#, kde-format
+msgid "Vertical Positioning"
+msgstr "موقعیت‌یابی عمودی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rTop)
+#: part/dialogs/KWAnchoringProperties.ui:60
+#, kde-format
+msgid "Top align with:"
+msgstr "هم‌ترازی از بالا با:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rVCenter)
+#. i18n: ectx: property (text), widget (QRadioButton, rHCenter)
+#: part/dialogs/KWAnchoringProperties.ui:77
+#: part/dialogs/KWAnchoringProperties.ui:186
+#, kde-format
+msgid "Center align with:"
+msgstr "هم‌ترازی از وسط با:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rBottom)
+#: part/dialogs/KWAnchoringProperties.ui:87
+#, kde-format
+msgid "Bottom align with:"
+msgstr "هم‌ترازی از پایین با:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rVOffset)
+#. i18n: ectx: property (text), widget (QRadioButton, rHOffset)
+#: part/dialogs/KWAnchoringProperties.ui:97
+#: part/dialogs/KWAnchoringProperties.ui:206
+#, kde-format
+msgid "Offset"
+msgstr "فاصلهٔ نسبی"
+
+#. i18n: ectx: property (text), widget (QLabel, lVOffset)
+#. i18n: ectx: property (text), widget (QLabel, lHOffset)
+#: part/dialogs/KWAnchoringProperties.ui:119
+#: part/dialogs/KWAnchoringProperties.ui:228
+#, kde-format
+msgid "from:"
+msgstr "از:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpHoriz)
+#: part/dialogs/KWAnchoringProperties.ui:163
+#, kde-format
+msgid "Horizontal Positioning"
+msgstr "موقعیت‌یابی افقی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rLeft)
+#: part/dialogs/KWAnchoringProperties.ui:169
+#, kde-format
+msgid "Left align with:"
+msgstr "تراز از چپ با:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rRight)
+#: part/dialogs/KWAnchoringProperties.ui:196
+#, kde-format
+msgid "Right align with:"
+msgstr "تراز از راست با:"
+
+#: part/dialogs/KWConfigureDialog.cpp:29
+#, kde-format
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: part/dialogs/KWConfigureDialog.cpp:33 part/dialogs/KWConfigureDialog.cpp:34
+#, kde-format
+msgid "Misc"
+msgstr "متفرقه"
+
+#: part/dialogs/KWConfigureDialog.cpp:38 part/dialogs/KWConfigureDialog.cpp:39
+#, kde-format
+msgid "Grid"
+msgstr "شبکه"
+
+#: part/dialogs/KWConfigureDialog.cpp:45
+#, kde-format
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "سند"
+
+#: part/dialogs/KWConfigureDialog.cpp:46
+#, kde-format
+msgid "Document Settings"
+msgstr "تنظیمات سند"
+
+#: part/dialogs/KWConfigureDialog.cpp:50
+#, kde-format
+msgctxt "@title:tab Author page"
+msgid "Author"
+msgstr "نویسنده"
+
+#: part/dialogs/KWConfigureDialog.cpp:51
+#, kde-format
+msgid "Author"
+msgstr "نویسنده"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CreateBookmark)
+#: part/dialogs/KWCreateBookmark.ui:13
+#: part/dialogs/KWCreateBookmarkDialog.cpp:37
+#, kde-format
+msgid "Create New Bookmark"
+msgstr "ایجاد نشانک جدید"
+
+#. i18n: ectx: property (text), widget (QLabel, lExplain)
+#: part/dialogs/KWCreateBookmark.ui:20
+#, kde-format
+msgid ""
+"Bookmarks allow you to jump between parts of your document.\n"
+"Please provide the name of your bookmark."
+msgstr ""
+"نشانک‌ها به شما امکان می‌دهند بین بخش‌های مختلف سند خود جابه‌جا شوید.\n"
+"لطفاً نام نشانک خود را وارد کنید."
+
+#. i18n: ectx: property (text), widget (QLabel, lName)
+#: part/dialogs/KWCreateBookmark.ui:38
+#, kde-format
+msgid "Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (text), widget (QLabel, columnsLabel)
+#: part/dialogs/KWDocumentColumns.ui:21
+#, kde-format
+msgid "Columns:"
+msgstr "ستون‌ها:"
+
+#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
+#: part/dialogs/KWDocumentColumns.ui:41
+#, kde-format
+msgid "Column spacing:"
+msgstr "فاصلهٔ ستون‌ها:"
+
+#: part/dialogs/KWFrameConnectSelector.cpp:98
+#, kde-format
+msgid "frameset"
+msgstr "مجموعه‌فریم"
+
+#: part/dialogs/KWFrameConnectSelector.cpp:123
+#, kde-format
+msgid "No framesets in document"
+msgstr "هیچ مجموعه‌فریمی در سند وجود ندارد"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: part/dialogs/KWFrameConnectSelector.ui:67
+#, kde-format
+msgid "Name of frameset:"
+msgstr "نام مجموعه‌فریم:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, newRadio)
+#: part/dialogs/KWFrameConnectSelector.ui:82
+#, kde-format
+msgid "Create a new frameset:"
+msgstr "ایجاد مجموعه‌فریم جدید:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, existingRadio)
+#: part/dialogs/KWFrameConnectSelector.ui:89
+#, kde-format
+msgid "Select existing frameset to connect to:"
+msgstr "انتخاب مجموعه‌فریم موجود برای اتصال به آن:"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, framesList)
+#: part/dialogs/KWFrameConnectSelector.ui:122
+#, kde-format
+msgid "Frameset Name"
+msgstr "نام مجموعه‌فریم"
+
+#: part/dialogs/KWFrameDialog.cpp:29
+#, kde-format
+msgid "Smart Positioning"
+msgstr "موقعیت‌یابی هوشمند"
+
+#: part/dialogs/KWFrameDialog.cpp:33 part/dialogs/KWShapeConfigFactory.cpp:60
+#, kde-format
+msgid "Text Run Around"
+msgstr "پیچش متن به دور شیء"
+
+#: part/dialogs/KWFrameDialog.cpp:41 part/dialogs/KWShapeConfigFactory.cpp:26
+#, kde-format
+msgid "Connect Text Frames"
+msgstr "اتصال کادرهای متن"
+
+#: part/dialogs/KWFrameDialog.cpp:64
+msgctxt "(qtundo-format)"
+msgid "Change Shape Properties"
+msgstr "تغییر ویژگی‌های شکل"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpAnchor)
+#: part/dialogs/KWInsertImage.ui:17
+#, kde-format
+msgid "Anchor to..."
+msgstr "لنگر انداختن به..."
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorPage)
+#: part/dialogs/KWInsertImage.ui:23
+#, kde-format
+msgid "&Page"
+msgstr "صفحه"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorParagraph)
+#: part/dialogs/KWInsertImage.ui:30
+#, kde-format
+msgid "Para&graph"
+msgstr "پاراگراف"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorToCharacter)
+#: part/dialogs/KWInsertImage.ui:40
+#, kde-format
+msgid "&To Character"
+msgstr "به نویسه"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorAsCharacter)
+#: part/dialogs/KWInsertImage.ui:47
+#, kde-format
+msgid "&As Character"
+msgstr "به‌عنوان نویسه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpHAlign)
+#: part/dialogs/KWInsertImage.ui:59
+#, kde-format
+msgid "Horizontal Alignment"
+msgstr "تراز افقی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignLeft)
+#: part/dialogs/KWInsertImage.ui:65
+#, kde-format
+msgid "&Left"
+msgstr "چپ"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignCenter)
+#: part/dialogs/KWInsertImage.ui:75
+#, kde-format
+msgid "&Center"
+msgstr "وسط"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignRight)
+#: part/dialogs/KWInsertImage.ui:82
+#, kde-format
+msgid "&Right"
+msgstr "راست"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpVAlign)
+#: part/dialogs/KWInsertImage.ui:92
+#, kde-format
+msgid "Vertical Alignment"
+msgstr "تراز عمودی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignTop)
+#: part/dialogs/KWInsertImage.ui:98
+#, kde-format
+msgid "&Top"
+msgstr "بالا"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignMiddle)
+#: part/dialogs/KWInsertImage.ui:105
+#, kde-format
+msgid "&Middle"
+msgstr "میانه"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignBottom)
+#: part/dialogs/KWInsertImage.ui:115
+#, kde-format
+msgid "&Bottom"
+msgstr "پایین"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpWrap)
+#: part/dialogs/KWInsertImage.ui:127
+#, kde-format
+msgid "Text Wrap-around"
+msgstr "پیچش متن به دور شیء"
+
+#. i18n: ectx: property (text), widget (QRadioButton, runThrough)
+#: part/dialogs/KWInsertImage.ui:133 part/dialogs/KWRunAroundProperties.ui:26
+#, kde-format
+msgid "Run through this shape"
+msgstr "عبور از روی این شکل"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noRunaround)
+#: part/dialogs/KWInsertImage.ui:140 part/dialogs/KWRunAroundProperties.ui:33
+#, kde-format
+msgid "Skip below this shape"
+msgstr "پرش به زیر این شکل"
+
+#. i18n: ectx: property (text), widget (QRadioButton, left)
+#: part/dialogs/KWInsertImage.ui:147 part/dialogs/KWRunAroundProperties.ui:40
+#, kde-format
+msgid "Run on left side of this shape"
+msgstr "اجرا در سمت چپ این شکل"
+
+#. i18n: ectx: property (text), widget (QRadioButton, right)
+#: part/dialogs/KWInsertImage.ui:154 part/dialogs/KWRunAroundProperties.ui:47
+#, kde-format
+msgid "Run on right side of this shape"
+msgstr "اجرا در سمت راست این شکل"
+
+#. i18n: ectx: property (text), widget (QRadioButton, longest)
+#: part/dialogs/KWInsertImage.ui:161 part/dialogs/KWRunAroundProperties.ui:54
+#, kde-format
+msgid "Run on longest side of this shape"
+msgstr "اجرا در طولانی‌ترین سمت این شکل"
+
+#. i18n: ectx: property (text), widget (QRadioButton, both)
+#: part/dialogs/KWInsertImage.ui:168 part/dialogs/KWRunAroundProperties.ui:61
+#, kde-format
+msgid "Run on both sides of this shape"
+msgstr "اجرا در هر دو طرف این شکل"
+
+#. i18n: ectx: property (text), widget (QRadioButton, enough)
+#: part/dialogs/KWInsertImage.ui:180 part/dialogs/KWRunAroundProperties.ui:73
+#, kde-format
+msgid "Run on sides that are wider than:"
+msgstr "اجرا در طرف‌هایی که پهن‌تر هستند از:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: part/dialogs/KWInsertImage.ui:194
+#, kde-format
+msgid "Distance Between Shape and Text:"
+msgstr "فاصله بین شکل و متن:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, columnsTab)
+#: part/dialogs/KWPageSettingsDialog.cpp:38 part/dialogs/KWStartupWidget.ui:37
+#, kde-format
+msgid "Columns"
+msgstr "ستون‌ها"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:44
+#, kde-format
+msgid "Style"
+msgstr "سبک"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:60
+#, kde-format
+msgid "Clone"
+msgstr "شبیه‌سازی"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:65 part/KWView.cpp:304
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:154
+msgctxt "(qtundo-format)"
+msgid "Change Page Style"
+msgstr "تغییر سبک صفحه"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:235
+#, kde-format
+msgid "Clone Page Style"
+msgstr "همانندسازی سبک صفحه"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:236
+#, kde-format
+msgid "Add a new page style with the name:"
+msgstr "افزودن سبک صفحه جدید با نام:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: part/dialogs/KWRunAroundProperties.ui:19
+#, kde-format
+msgid "Text elsewhere will:"
+msgstr "متن در جای دیگر:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: part/dialogs/KWRunAroundProperties.ui:92
+#, kde-format
+msgid "The shape affects the text by its:"
+msgstr "شکل بر متن اثر می‌گذارد از طریق:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, box)
+#: part/dialogs/KWRunAroundProperties.ui:99
+#, kde-format
+msgid "Bounding box"
+msgstr "جعبهٔ احاطه‌کننده"
+
+#. i18n: ectx: property (text), widget (QRadioButton, outside)
+#: part/dialogs/KWRunAroundProperties.ui:106
+#, kde-format
+msgid "Contour"
+msgstr "خط دور"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: part/dialogs/KWRunAroundProperties.ui:116
+#, kde-format
+msgid "Shape and text are separated left by:"
+msgstr "فاصله شکل و متن از چپ:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: part/dialogs/KWRunAroundProperties.ui:129
+#, kde-format
+msgid "Right by:"
+msgstr "از راست:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: part/dialogs/KWRunAroundProperties.ui:142
+#, kde-format
+msgid "Above by:"
+msgstr "از بالا:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: part/dialogs/KWRunAroundProperties.ui:155
+#, kde-format
+msgid "Below by:"
+msgstr "پایین بر اساس:"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonRename)
+#: part/dialogs/KWSelectBookmark.ui:20
+#, kde-format
+msgid "&Rename"
+msgstr "تغییر نام"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonDelete)
+#: part/dialogs/KWSelectBookmark.ui:27
+#, kde-format
+msgid "&Delete"
+msgstr "حذف"
+
+#: part/dialogs/KWSelectBookmarkDialog.cpp:66
+#, kde-format
+msgid "Please provide a new name for the bookmark"
+msgstr "لطفاً یک نام جدید برای نشانک وارد کنید"
+
+#: part/dialogs/KWSelectBookmarkDialog.cpp:66
+#, kde-format
+msgid "Rename Bookmark"
+msgstr "تغییر نام نشانک"
+
+#: part/dialogs/KWSelectBookmarkDialog.cpp:72
+#, kde-format
+msgid "A bookmark with the name \"%1\" already exists."
+msgstr "نشانکی با نام «%1» از قبل وجود دارد."
+
+#: part/dialogs/KWSelectBookmarkDialog.cpp:104
+#, kde-format
+msgid "Select Bookmark"
+msgstr "انتخاب نشانک"
+
+#: part/dialogs/KWShapeConfigFactory.cpp:43
+#, kde-format
+msgid "Geometry"
+msgstr "هندسه"
+
+#. i18n: ectx: attribute (title), widget (QWidget, sizeTab)
+#: part/dialogs/KWStartupWidget.ui:32
+#, kde-format
+msgid "Page Size && Margins"
+msgstr "اندازه صفحه و حاشیه‌ها"
+
+#. i18n: ectx: property (text), widget (QPushButton, createButton)
+#: part/dialogs/KWStartupWidget.ui:91 part/KWView.cpp:409
+#, kde-format
+msgid "Create"
+msgstr "ایجاد"
+
+#: part/dockers/KWDebugDocker.cpp:18
+#, kde-format
+msgid "Debug"
+msgstr "اشکال‌زدایی"
+
+#: part/dockers/KWNavigationDocker.cpp:20
+#, kde-format
+msgid "Navigation"
+msgstr "پیمایش"
+
+#: part/dockers/KWNavigationWidget.cpp:92
+#, kde-format
+msgid "Page #"
+msgstr "شمارهٔ صفحه"
+
+#: part/dockers/KWNavigationWidget.cpp:92
+#, kde-format
+msgid "Section"
+msgstr "بخش"
+
+#: part/dockers/KWRdfDocker.cpp:38
+#, kde-format
+msgid "RDF"
+msgstr "RDF"
+
+#: part/dockers/KWStatisticsDocker.cpp:20
+#, kde-format
+msgid "Statistics"
+msgstr "آمار"
+
+#: part/dockers/KWStatisticsWidget.cpp:125
+#, kde-format
+msgid "Words:"
+msgstr "کلمات:"
+
+#: part/dockers/KWStatisticsWidget.cpp:128
+#, kde-format
+msgid "Sentences:"
+msgstr "جملات:"
+
+#: part/dockers/KWStatisticsWidget.cpp:131
+#, kde-format
+msgid "Syllables:"
+msgstr "هجاها:"
+
+#: part/dockers/KWStatisticsWidget.cpp:134
+#, kde-format
+msgid "Characters (spaces):"
+msgstr "نویسه‌ها (با فاصله):"
+
+#: part/dockers/KWStatisticsWidget.cpp:137
+#, kde-format
+msgid "Characters (no spaces):"
+msgstr "نویسه‌ها (بدون فاصله):"
+
+#: part/dockers/KWStatisticsWidget.cpp:140
+#, kde-format
+msgid "Lines:"
+msgstr "سطرها:"
+
+#: part/dockers/KWStatisticsWidget.cpp:143
+#, kde-format
+msgid "Readability:"
+msgstr "خوانایی:"
+
+#: part/dockers/KWStatisticsWidget.cpp:145
+#, kde-format
+msgid "Flesch reading ease"
+msgstr "شاخص آسانی خواندن فلش"
+
+#: part/dockers/KWStatisticsWidget.cpp:147
+#, kde-format
+msgid "East asian characters:"
+msgstr "نویسه‌های آسیای شرقی:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_words)
+#: part/dockers/StatisticsPreferencesPopup.ui:17
+#, kde-format
+msgid "Words"
+msgstr "کلمه‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_sentences)
+#: part/dockers/StatisticsPreferencesPopup.ui:24
+#, kde-format
+msgid "Sentences"
+msgstr "جمله‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_syllables)
+#: part/dockers/StatisticsPreferencesPopup.ui:31
+#, kde-format
+msgid "Syllables"
+msgstr "هجاها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_lines)
+#: part/dockers/StatisticsPreferencesPopup.ui:38
+#, kde-format
+msgid "Lines"
+msgstr "سطرها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_charspace)
+#: part/dockers/StatisticsPreferencesPopup.ui:45
+#, kde-format
+msgid "Characters With Spaces"
+msgstr "نویسه‌ها با فاصله"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_charnospace)
+#: part/dockers/StatisticsPreferencesPopup.ui:52
+#, kde-format
+msgid "Characters without spaces"
+msgstr "نویسه‌ها بدون فاصله‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_east)
+#: part/dockers/StatisticsPreferencesPopup.ui:59
+#, kde-format
+msgid "East Asian characters"
+msgstr "نویسه‌های آسیای شرقی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_flesch)
+#: part/dockers/StatisticsPreferencesPopup.ui:66
+#, kde-format
+msgid "Flesch Reading Ease"
+msgstr "شاخص خوانایی فلش"
+
+#: part/i18n/stylenames.cpp:8
+#, kde-format
+msgctxt "Style name"
+msgid "Standard"
+msgstr "استاندارد"
+
+#: part/i18n/stylenames.cpp:9
+#, kde-format
+msgctxt "Style name"
+msgid "Head 1"
+msgstr "سربرگ ۱"
+
+#: part/i18n/stylenames.cpp:10
+#, kde-format
+msgctxt "Style name"
+msgid "Head 2"
+msgstr "سربرگ ۲"
+
+#: part/i18n/stylenames.cpp:11
+#, kde-format
+msgctxt "Style name"
+msgid "Head 3"
+msgstr "سربرگ ۳"
+
+#: part/i18n/stylenames.cpp:12
+#, kde-format
+msgctxt "Style name"
+msgid "Enumerated List"
+msgstr "فهرست شماره‌دار"
+
+#: part/i18n/stylenames.cpp:13
+#, kde-format
+msgctxt "Style name"
+msgid "Alphabetical List"
+msgstr "فهرست الفبایی"
+
+#: part/i18n/stylenames.cpp:14
+#, kde-format
+msgctxt "Style name"
+msgid "Bullet List"
+msgstr "فهرست نشانه‌دار"
+
+#: part/i18n/stylenames.cpp:15
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Title"
+msgstr "عنوان فهرست مطالب"
+
+#: part/i18n/stylenames.cpp:16
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Head 1"
+msgstr "سربرگ فهرست مطالب ۱"
+
+#: part/i18n/stylenames.cpp:17
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Head 2"
+msgstr "سربرگ فهرست مطالب ۲"
+
+#: part/i18n/stylenames.cpp:18
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Head 3"
+msgstr "سربرگ فهرست مطالب ۳"
+
+#: part/i18n/stylenames.cpp:19
+#, kde-format
+msgctxt "Style name"
+msgid "Document Title"
+msgstr "عنوان سند"
+
+#: part/i18n/stylenames.cpp:20
+#, kde-format
+msgctxt "Style name"
+msgid "Header"
+msgstr "سرصفحه"
+
+#: part/i18n/stylenames.cpp:21
+#, kde-format
+msgctxt "Style name"
+msgid "Footer"
+msgstr "پانویس"
+
+#: part/i18n/stylenames.cpp:24
+#, kde-format
+msgctxt "Style name"
+msgid "Plain"
+msgstr "ساده"
+
+#: part/i18n/stylenames.cpp:25
+#, kde-format
+msgctxt "Style name"
+msgid "Borders 1"
+msgstr "حاشیه‌ها ۱"
+
+#: part/i18n/stylenames.cpp:26
+#, kde-format
+msgctxt "Style name"
+msgid "Borders 2"
+msgstr "حاشیه‌ها ۲"
+
+#: part/i18n/stylenames.cpp:27
+#, kde-format
+msgctxt "Style name"
+msgid "Borders 3"
+msgstr "حاشیه‌ها ۳"
+
+#: part/i18n/stylenames.cpp:28
+#, kde-format
+msgctxt "Style name"
+msgid "Row"
+msgstr "سطر"
+
+#: part/i18n/stylenames.cpp:29
+#, kde-format
+msgctxt "Style name"
+msgid "Column"
+msgstr "ستون"
+
+#: part/i18n/stylenames.cpp:30
+#, kde-format
+msgctxt "Style name"
+msgid "Light Gray"
+msgstr "خاکستری روشن"
+
+#: part/i18n/stylenames.cpp:31
+#, kde-format
+msgctxt "Style name"
+msgid "Dark Gray"
+msgstr "خاکستری تیره"
+
+#: part/i18n/stylenames.cpp:32
+#, kde-format
+msgctxt "Style name"
+msgid "Black"
+msgstr "سیاه"
+
+#: part/i18n/stylenames.cpp:33
+#, kde-format
+msgctxt "Style name"
+msgid "Light Blue"
+msgstr "آبی روشن"
+
+#: part/i18n/stylenames.cpp:34
+#, kde-format
+msgctxt "Style name"
+msgid "Dark Blue"
+msgstr "آبی تیره"
+
+#: part/i18n/stylenames.cpp:35
+#, kde-format
+msgctxt "Style name"
+msgid "Red"
+msgstr "قرمز"
+
+#: part/i18n/stylenames.cpp:36
+#, kde-format
+msgctxt "Style name"
+msgid "Yellow"
+msgstr "زرد"
+
+#: part/i18n/stylenames.cpp:37
+#, kde-format
+msgctxt "Style name"
+msgid "Colorful"
+msgstr "رنگارنگ"
+
+#: part/i18n/stylenames.cpp:38
+#, kde-format
+msgctxt "Style name"
+msgid "Bluish"
+msgstr "متمایل به آبی"
+
+#: part/i18n/stylenames.cpp:41
+#, kde-format
+msgctxt "Style name"
+msgid "Simple 1"
+msgstr "ساده ۱"
+
+#: part/i18n/stylenames.cpp:42
+#, kde-format
+msgctxt "Style name"
+msgid "Simple 2"
+msgstr "ساده ۲"
+
+#: part/i18n/stylenames.cpp:43
+#, kde-format
+msgctxt "Style name"
+msgid "Simple 3"
+msgstr "ساده ۳"
+
+#: part/i18n/stylenames.cpp:44
+#, kde-format
+msgctxt "Style name"
+msgid "Header 1"
+msgstr "سرصفحه ۱"
+
+#: part/i18n/stylenames.cpp:45
+#, kde-format
+msgctxt "Style name"
+msgid "Header 2"
+msgstr "سرصفحه ۲"
+
+#: part/i18n/stylenames.cpp:46
+#, kde-format
+msgctxt "Style name"
+msgid "Header 3"
+msgstr "سرصفحه ۳"
+
+#: part/i18n/stylenames.cpp:47
+#, kde-format
+msgctxt "Style name"
+msgid "Header 4"
+msgstr "سرصفحه ۴"
+
+#: part/i18n/stylenames.cpp:50
+#, kde-format
+msgctxt "Style name"
+msgid "Columns 1"
+msgstr "ستون‌ها ۱"
+
+#: part/i18n/stylenames.cpp:51
+#, kde-format
+msgctxt "Style name"
+msgid "Columns 2"
+msgstr "ستون‌های ۲"
+
+#: part/i18n/stylenames.cpp:52
+#, kde-format
+msgctxt "Style name"
+msgid "Grid 1"
+msgstr "شبکه ۱"
+
+#: part/i18n/stylenames.cpp:53
+#, kde-format
+msgctxt "Style name"
+msgid "Grid 2"
+msgstr "شبکه ۲"
+
+#: part/i18n/stylenames.cpp:54
+#, kde-format
+msgctxt "Style name"
+msgid "Grid 3"
+msgstr "شبکه ۳"
+
+#: part/i18n/stylenames.cpp:55
+#, kde-format
+msgctxt "Style name"
+msgid "Gray Heading"
+msgstr "عنوان خاکستری"
+
+#: part/i18n/stylenames.cpp:56
+#, kde-format
+msgctxt "Style name"
+msgid "Blue Heading"
+msgstr "عنوان آبی"
+
+#: part/i18n/stylenames.cpp:57
+#, kde-format
+msgctxt "Style name"
+msgid "Blue Traditional"
+msgstr "سنتی آبی"
+
+#: part/i18n/stylenames.cpp:58
+#, kde-format
+msgctxt "Style name"
+msgid "Gray Traditional"
+msgstr "سنتی خاکستری"
+
+#: part/i18n/stylenames.cpp:59
+#, kde-format
+msgctxt "Style name"
+msgid "Blue Top and Bottom"
+msgstr "بالا و پایین آبی"
+
+#: part/i18n/stylenames.cpp:60
+#, kde-format
+msgctxt "Style name"
+msgid "Gray Top and Bottom"
+msgstr "بالا و پایین خاکستری"
+
+#: part/KWAboutData.h:18
+#, kde-format
+msgctxt "application name"
+msgid "Calligra Words"
+msgstr "واژه‌پرداز کالیگرا"
+
+#: part/KWAboutData.h:20
+#, kde-format
+msgid "Word processor"
+msgstr "واژه‌پرداز"
+
+#: part/KWAboutData.h:22
+#, kde-format
+msgid "Copyright 1998-%1, The Words Team"
+msgstr "حق نشر ‎1998-%1، گروه Words"
+
+#: part/KWAboutData.h:28
+#, kde-format
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: part/KWAboutData.h:29
+#, kde-format
+msgid "Co Maintainer/Port to Qt6"
+msgstr "هم‌نگه‌دارنده / پورت به Qt6"
+
+#: part/KWAboutData.h:33 part/KWAboutData.h:34 part/KWAboutData.h:35
+#, kde-format
+msgid "Co maintainer"
+msgstr "هم‌نگه‌دارنده"
+
+#: part/KWAboutData.h:33 part/KWAboutData.h:34
+#, kde-format
+msgid "Pierre Ducroquet"
+msgstr "Pierre Ducroquet"
+
+#: part/KWAboutData.h:35
+#, kde-format
+msgid "C. Boemann"
+msgstr "C. Boemann"
+
+#: part/KWAboutData.h:36 part/KWAboutData.h:37 part/KWAboutData.h:38
+#: part/KWAboutData.h:40
+#, kde-format
+msgid "Everything"
+msgstr "همه‌چیز"
+
+#: part/KWAboutData.h:36
+#, kde-format
+msgid "Sebastian Sauer"
+msgstr "Sebastian Sauer"
+
+#: part/KWAboutData.h:37
+#, kde-format
+msgid "Boudewijn Rempt"
+msgstr "Boudewijn Rempt"
+
+#: part/KWAboutData.h:38
+#, kde-format
+msgid "Pierre Stirnweiss"
+msgstr "Pierre Stirnweiss"
+
+#: part/KWAboutData.h:39
+#, kde-format
+msgid "Formatting stuff"
+msgstr "موارد قالب‌بندی"
+
+#: part/KWAboutData.h:39
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: part/KWAboutData.h:40
+#, kde-format
+msgid "Thorsten Zachmann"
+msgstr "Thorsten Zachmann"
+
+#: part/KWAboutData.h:41 part/KWAboutData.h:47 part/KWAboutData.h:48
+#: part/KWAboutData.h:49 part/KWAboutData.h:61 part/KWAboutData.h:62
+#: part/KWAboutData.h:63 part/KWAboutData.h:64 part/KWAboutData.h:65
+#: part/KWAboutData.h:66 part/KWAboutData.h:67 part/KWAboutData.h:68
+#: part/KWAboutData.h:69 part/KWAboutData.h:70
+#, kde-format
+msgid "Filter"
+msgstr "فیلتر"
+
+#: part/KWAboutData.h:41
+#, kde-format
+msgid "Matus Uzak"
+msgstr "Matus Uzak"
+
+#: part/KWAboutData.h:42
+#, kde-format
+msgid "Layout and Painting"
+msgstr "صفحه‌بندی و ترسیم"
+
+#: part/KWAboutData.h:42
+#, kde-format
+msgid "Pavol Korinek"
+msgstr "Pavol Korinek"
+
+#: part/KWAboutData.h:43
+#, kde-format
+msgid "Shreya Pandit"
+msgstr "Shreya Pandit"
+
+#: part/KWAboutData.h:43
+#, kde-format
+msgid "Statistics docker"
+msgstr "داکر آمار"
+
+#: part/KWAboutData.h:44
+#, kde-format
+msgid "Brijesh Patel"
+msgstr "Brijesh Patel"
+
+#: part/KWAboutData.h:44
+#, kde-format
+msgid "Foot and endnotes"
+msgstr "پاورقی‌ها و پی‌نوشت‌ها"
+
+#: part/KWAboutData.h:45
+#, kde-format
+msgid "Bibliography"
+msgstr "کتاب‌شناسی"
+
+#: part/KWAboutData.h:45
+#, kde-format
+msgid "Smit Patel"
+msgstr "Smit Patel"
+
+#: part/KWAboutData.h:46
+#, kde-format
+msgid "Mojtaba Shahi"
+msgstr "Mojtaba Shahi"
+
+#: part/KWAboutData.h:46
+#, kde-format
+msgid "Style Manager"
+msgstr "مدیر سبک"
+
+#: part/KWAboutData.h:47
+#, kde-format
+msgid "Lassi Nieminen"
+msgstr "Lassi Nieminen"
+
+#: part/KWAboutData.h:48
+#, kde-format
+msgid "Hanzes Matus"
+msgstr "Hanzes Matus"
+
+#: part/KWAboutData.h:49
+#, kde-format
+msgid "Lukáš Tvrdý"
+msgstr "Lukáš Tvrdý"
+
+#: part/KWAboutData.h:50
+#, kde-format
+msgid "Thomas Zander"
+msgstr "Thomas Zander"
+
+#: part/KWAboutData.h:51
+#, kde-format
+msgid "Girish Ramakrishnan"
+msgstr "Girish Ramakrishnan"
+
+#: part/KWAboutData.h:51 part/KWAboutData.h:52
+#, kde-format
+msgid "ODF Support"
+msgstr "پشتیبانی از ODF"
+
+#: part/KWAboutData.h:52
+#, kde-format
+msgid "Robert Mathias Marmorstein"
+msgstr "Robert Mathias Marmorstein"
+
+#: part/KWAboutData.h:53
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#: part/KWAboutData.h:54
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: part/KWAboutData.h:55
+#, kde-format
+msgid "Sven Lüppken"
+msgstr "Sven Lüppken"
+
+#: part/KWAboutData.h:56
+#, kde-format
+msgid "Frank Dekervel"
+msgstr "Frank Dekervel"
+
+#: part/KWAboutData.h:57
+#, kde-format
+msgid "Krister Wicksell Eriksson"
+msgstr "Krister Wicksell Eriksson"
+
+#: part/KWAboutData.h:58
+#, kde-format
+msgid "Dag Andersen"
+msgstr "Dag Andersen"
+
+#: part/KWAboutData.h:59
+#, kde-format
+msgid "Nash Hoogwater"
+msgstr "نش هوگ‌واتر"
+
+#: part/KWAboutData.h:60
+#, kde-format
+msgid "KFormula"
+msgstr "KFormula"
+
+#: part/KWAboutData.h:60
+#, kde-format
+msgid "Ulrich Kuettler"
+msgstr "اولریش کوتلر"
+
+#: part/KWAboutData.h:61
+#, kde-format
+msgid "Shaheed Haque"
+msgstr "شهید حق"
+
+#: part/KWAboutData.h:62
+#, kde-format
+msgid "Werner Trobin"
+msgstr "ورنر تروبین"
+
+#: part/KWAboutData.h:63
+#, kde-format
+msgid "Nicolas Goutte"
+msgstr "نیکولا گوته"
+
+#: part/KWAboutData.h:64
+#, kde-format
+msgid "Ariya Hidayat"
+msgstr "آریا هدایت"
+
+#: part/KWAboutData.h:65
+#, kde-format
+msgid "Clarence Dang"
+msgstr "کلارنس دانگ"
+
+#: part/KWAboutData.h:66
+#, kde-format
+msgid "Robert Jacolin"
+msgstr "روبر ژاکولن"
+
+#: part/KWAboutData.h:67
+#, kde-format
+msgid "Enno Bartels"
+msgstr "انو بارتلز"
+
+#: part/KWAboutData.h:68
+#, kde-format
+msgid "Ewald Snel"
+msgstr "اوالد اسنل"
+
+#: part/KWAboutData.h:69
+#, kde-format
+msgid "Tomasz Grobelny"
+msgstr "توماش گروبلنی"
+
+#: part/KWAboutData.h:70
+#, kde-format
+msgid "Michael Johnson"
+msgstr "مایکل جانسون"
+
+#: part/KWAboutData.h:71
+#, kde-format
+msgid "Fatcow Web Hosting"
+msgstr "میزبانی وب Fatcow"
+
+#: part/KWAboutData.h:71
+#, kde-format
+msgid "Page break icon"
+msgstr "نماد شکستن صفحه"
+
+#: part/KWAboutData.h:73
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#. i18n translator strings
+#: part/KWAboutData.h:73
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#: part/KWDocument.cpp:494
+#, kde-format
+msgid "Copy"
+msgstr "رونوشت"
+
+#: part/KWDocument.cpp:544 part/KWStatusBar.cpp:154
+#, kde-format
+msgid "Standard"
+msgstr "استاندارد"
+
+#: part/KWDocument.cpp:550
+#, kde-format
+msgid "Document Title"
+msgstr "عنوان سند"
+
+#: part/KWDocument.cpp:557
+#, kde-format
+msgid "Head 1"
+msgstr "تیتر ۱"
+
+#: part/KWDocument.cpp:563
+#, kde-format
+msgid "Head 2"
+msgstr "تیتر ۲"
+
+#: part/KWDocument.cpp:569
+#, kde-format
+msgid "Head 3"
+msgstr "تیتر ۳"
+
+#: part/KWDocument.cpp:575
+#, kde-format
+msgid "Bullet List"
+msgstr "فهرست نشانه‌دار"
+
+#: part/KWGui.cpp:68
+#, kde-format
+msgid "Tools"
+msgstr "ابزارها"
+
+#: part/KWOdfLoader.cpp:81
+#, kde-format
+msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+msgstr ""
+"پروندهٔ OASIS OpenDocument نامعتبر است. هیچ برچسب office:body یافت نشد."
+
+#: part/KWOdfLoader.cpp:92
+#, kde-format
+msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+msgstr ""
+"پروندهٔ OASIS OpenDocument نامعتبر است. هیچ برچسبی درون office:body یافت "
+"نشد."
+
+#: part/KWOdfLoader.cpp:94
+#, kde-format
+msgid ""
+"This is not a word processing document, but %1. Please try opening it with "
+"the appropriate application."
+msgstr ""
+"این یک سند واژه‌پرداز نیست، بلکه %1 است. لطفاً آن را با برنامهٔ مناسب باز "
+"کنید."
+
+#: part/KWPageManager.cpp:24 part/KWPageManager.cpp:413
+#, kde-format
+msgctxt "Default page style display name"
+msgid "Standard"
+msgstr "استاندارد"
+
+#: part/KWPart.cpp:139
+#, kde-format
+msgid "Can not find needed text component, Words will quit now"
+msgstr "جزء متنی مورد نیاز یافت نشد، برنامهٔ Words اکنون بسته خواهد شد"
+
+#: part/KWPart.cpp:139
+#, kde-format
+msgid "Installation Error"
+msgstr "خطای نصب"
+
+#: part/KWStatusBar.cpp:35
+#, kde-format
+msgid "Modified"
+msgstr "تغییریافته"
+
+#: part/KWStatusBar.cpp:36
+#, kde-format
+msgid "Saved"
+msgstr "ذخیره شد"
+
+#: part/KWStatusBar.cpp:37
+#, kde-format
+msgid "Page %1 of %2"
+msgstr "صفحهٔ %1 از %2"
+
+#: part/KWStatusBar.cpp:38
+#, kde-format
+msgid "Page %1-%2 of %3"
+msgstr "صفحهٔ %1-%2 از %3"
+
+#: part/KWStatusBar.cpp:39
+#, kde-format
+msgid "Line %1"
+msgstr "سطر %1"
+
+#: part/KWStatusBar.cpp:132
+#, kde-format
+msgid "Page Number"
+msgstr "شمارهٔ صفحه"
+
+#: part/KWStatusBar.cpp:145
+#, kde-format
+msgid "Line Number"
+msgstr "شمارهٔ سطر"
+
+#: part/KWStatusBar.cpp:157
+#, kde-format
+msgid "Change the page style"
+msgstr "تغییر سبک صفحه"
+
+#: part/KWStatusBar.cpp:165
+#, kde-format
+msgid "Page Style"
+msgstr "سبک صفحه"
+
+#: part/KWStatusBar.cpp:179
+#, kde-format
+msgid "Page Size"
+msgstr "اندازهٔ صفحه"
+
+#: part/KWStatusBar.cpp:194
+#, kde-format
+msgid "Saved/Modified"
+msgstr "ذخیره‌شده/تغییریافته"
+
+#: part/KWStatusBar.cpp:207
+#, kde-format
+msgid "Mouse Cursor X:Y"
+msgstr "مکان‌نمای موشی X:Y"
+
+#: part/KWStatusBar.cpp:220
+#, kde-format
+msgid "Zoom Controller"
+msgstr "کنترل‌کنندهٔ بزرگ‌نمایی"
+
+#: part/KWView.cpp:186
+#, kde-format
+msgid "Exit Fullscreen Mode"
+msgstr "خروج از حالت تمام‌صفحه"
+
+#: part/KWView.cpp:278
+#, kde-format
+msgid "Shape Properties..."
+msgstr "ویژگی‌های شکل..."
+
+#: part/KWView.cpp:280
+#, kde-format
+msgid "Change how the shape behave"
+msgstr "تغییر نحوهٔ رفتار شکل"
+
+#: part/KWView.cpp:289
+#, kde-format
+msgid "Create Template From Document..."
+msgstr "ایجاد الگو از سند..."
+
+#: part/KWView.cpp:290
+#, kde-format
+msgid "Save this document and use it later as a template"
+msgstr "ذخیرهٔ این سند و استفاده از آن به‌عنوان الگو در آینده"
+
+#: part/KWView.cpp:292
+#, kde-format
+msgid ""
+"You can save this document as a template.<br><br>You can use this new "
+"template as a starting point for another document."
+msgstr ""
+"می‌توانید این سند را به‌عنوان الگو ذخیره کنید.<br><br>می‌توانید از این الگوی"
+" جدید به‌عنوان نقطهٔ شروعی برای سندی دیگر استفاده کنید."
+
+#: part/KWView.cpp:311
+#, kde-format
+msgid "Show Formatting Characters"
+msgstr "نمایش نویسه‌های قالب‌بندی"
+
+#: part/KWView.cpp:317
+#, kde-format
+msgid "Toggle the display of non-printing characters"
+msgstr "تغییر وضعیت نمایش نویسه‌های غیرقابل‌چاپ"
+
+#: part/KWView.cpp:319
+#, kde-format
+msgid ""
+"Toggle the display of non-printing characters.<br/><br/>When this is "
+"enabled, Words shows you tabs, spaces, carriage returns and other non-"
+"printing characters."
+msgstr ""
+"تغییر وضعیت نمایش نویسه‌های غیرقابل‌چاپ.<br/><br/>با فعال‌بودن این گزینه، "
+"«واژه‌ها» نویسه‌های جهش (تب)، فاصله‌ها، سرخط‌ها و سایر نویسه‌های غیرقابل‌چاپ"
+" را به شما نشان می‌دهد."
+
+#: part/KWView.cpp:322
+#, kde-format
+msgid "Show Field Shadings"
+msgstr "نمایش سایه‌بندی فیلدها"
+
+#: part/KWView.cpp:328
+#, kde-format
+msgid "Toggle the shaded background of fields"
+msgstr "تغییر وضعیت پس‌زمینهٔ سایه‌دار فیلدها"
+
+#: part/KWView.cpp:329
+#, kde-format
+msgid ""
+"Toggle the visualization of fields (variables etc.) by drawing their "
+"background in a contrasting color."
+msgstr ""
+"تغییر وضعیت نمایش بصری فیلدها (متغیرها و غیره) با کشیدن پس‌زمینهٔ آن‌ها با "
+"رنگی متمایز."
+
+#: part/KWView.cpp:331
+#, kde-format
+msgid "Show Text Shape Borders"
+msgstr "نمایش کادرهای شکل متن"
+
+#: part/KWView.cpp:332
+#, kde-format
+msgid "Turns the border display on and off"
+msgstr "روشن و خاموش کردن نمایش کادر"
+
+#: part/KWView.cpp:339
+#, kde-format
+msgid ""
+"Turns the border display on and off.<br/><br/>The borders are never printed."
+" This option is useful to see how the document will appear on the printed "
+"page."
+msgstr ""
+"روشن و خاموش کردن نمایش کادر.<br/><br/>کادرها هرگز چاپ نمی‌شوند. این گزینه "
+"برای مشاهدهٔ ظاهر سند در صفحهٔ چاپ‌شده مفید است."
+
+#: part/KWView.cpp:342
+#, kde-format
+msgid "Show Table Borders"
+msgstr "نمایش کادرهای جدول"
+
+#: part/KWView.cpp:348
+#, kde-format
+msgid "Toggle the display of table borders"
+msgstr "تغییر وضعیت نمایش حاشیه‌های جدول"
+
+#: part/KWView.cpp:350
+#, kde-format
+msgid ""
+"Toggle the display of table borders.<br/><br/>When this is enabled, Words "
+"shows you any invisible table borders with a thin gray line."
+msgstr ""
+"تغییر وضعیت نمایش حاشیه‌های جدول.<br/><br/>هنگامی که این گزینه فعال باشد، "
+"Words تمام حاشیه‌های نامرئی جدول را با یک خط باریک خاکستری نشان می‌دهد."
+
+#: part/KWView.cpp:352
+#, kde-format
+msgid "Show Section Bounds"
+msgstr "نمایش مرزهای بخش"
+
+#: part/KWView.cpp:358
+#, kde-format
+msgid "Toggle the display of section bounds"
+msgstr "تغییر وضعیت نمایش مرزهای بخش"
+
+#: part/KWView.cpp:360
+#, kde-format
+msgid ""
+"Toggle the display of section bounds.<br/><br/>When this is enabled, any "
+"section bounds will be indicated with a thin gray horizontal brackets."
+msgstr ""
+"تغییر وضعیت نمایش مرزهای بخش.<br/><br/>هنگامی که این گزینه فعال باشد، مرزهای"
+" بخش با قلاب‌های افقی باریک و خاکستری نشان داده می‌شوند."
+
+#: part/KWView.cpp:362
+#, kde-format
+msgid "Show Rulers"
+msgstr "نمایش خط‌کش‌ها"
+
+#: part/KWView.cpp:364
+#, kde-format
+msgid "Shows or hides rulers"
+msgstr "نمایش یا پنهان‌سازی خط‌کش‌ها"
+
+#: part/KWView.cpp:366
+#, kde-format
+msgid ""
+"The rulers are the white measuring spaces top and left of the document. The "
+"rulers show the position and width of pages and of frames and can be used to"
+" position tabulators among others.<p>Uncheck this to disable the rulers from"
+" being displayed.</p>"
+msgstr ""
+"خط‌کش‌ها فضاهای اندازه‌گیری سفید در بالا و سمت چپ سند هستند. خط‌کش‌ها موقعیت"
+" و عرض صفحات و چارچوب‌ها را نشان می‌دهند و می‌توان از آن‌ها، از جمله برای "
+"تعیین موقعیت تب‌ها، استفاده کرد.<p>برای جلوگیری از نمایش خط‌کش‌ها، علامت این"
+" گزینه را بردارید.</p>"
+
+#: part/KWView.cpp:377
+#, kde-format
+msgid "Snap to Grid"
+msgstr "چسبیدن به شبکه"
+
+#: part/KWView.cpp:385
+#, kde-format
+msgid "Show Status Bar"
+msgstr "نمایش نوار وضعیت"
+
+#: part/KWView.cpp:386
+#, kde-format
+msgid "Shows or hides the status bar"
+msgstr "نمایش یا پنهان کردن نوار وضعیت"
+
+#: part/KWView.cpp:392
+#, kde-format
+msgid "Fullscreen Mode"
+msgstr "حالت تمام‌صفحه"
+
+#: part/KWView.cpp:393
+#, kde-format
+msgid "Set view in fullscreen mode"
+msgstr "تنظیم نما در حالت تمام‌صفحه"
+
+#: part/KWView.cpp:400
+#, kde-format
+msgid "Semantic Stylesheets..."
+msgstr "شیوه‌نامه‌های معنایی..."
+
+#: part/KWView.cpp:402
+#, kde-format
+msgid "Modify and add semantic stylesheets"
+msgstr "تغییر و افزودن شیوه‌نامه‌های معنایی"
+
+#: part/KWView.cpp:403
+#, kde-format
+msgid ""
+"Stylesheets are used to format the display of information which is stored in"
+" RDF."
+msgstr ""
+"شیوه‌نامه‌ها برای قالب‌بندی نحوه نمایش اطلاعات ذخیره‌شده در RDF استفاده "
+"می‌شوند."
+
+#: part/KWView.cpp:418
+#, kde-format
+msgid "Configure..."
+msgstr "پیکربندی..."
+
+#: part/KWView.cpp:427
+#, kde-format
+msgid "Page Layout..."
+msgstr "طرح‌بندی صفحه..."
+
+#: part/KWView.cpp:429
+#, kde-format
+msgid "Change properties of entire page"
+msgstr "تغییر ویژگی‌های کل صفحه"
+
+#: part/KWView.cpp:431
+#, kde-format
+msgid ""
+"Change properties of the entire page.<p>Currently you can change paper size,"
+" paper orientation, header and footer sizes, and column settings.</p>"
+msgstr ""
+"تغییر ویژگی‌های کل صفحه.<p>در حال حاضر می‌توانید اندازه کاغذ، جهت کاغذ، "
+"اندازه‌های سرصفحه و پانویس و تنظیمات ستون را تغییر دهید.</p>"
+
+#: part/KWView.cpp:434
+#, kde-format
+msgid "Create Header"
+msgstr "ایجاد سرصفحه"
+
+#: part/KWView.cpp:440
+#, kde-format
+msgid "Create Footer"
+msgstr "ایجاد پاصفحه"
+
+#: part/KWView.cpp:447
+#, kde-format
+msgid "Show Comments"
+msgstr "نمایش یادداشت‌ها"
+
+#: part/KWView.cpp:448
+#, kde-format
+msgid "Shows comments in the document"
+msgstr "نمایش یادداشت‌ها در سند"
+
+#: part/KWView.cpp:454
+#, kde-format
+msgid "Word Count"
+msgstr "تعداد کلمات"
+
+#: part/KWView.cpp:455
+#, kde-format
+msgid "Shows or hides word counting in status bar"
+msgstr "نمایش یا پنهان کردن تعداد کلمات در نوار وضعیت"
+
+#: part/pagetool/KWPageTool.cpp:83
+#, kde-format
+msgid "Page Setup"
+msgstr "تنظیمات صفحه"
+
+#: part/pagetool/KWPageTool.cpp:87
+#, kde-format
+msgid "Header & Footer"
+msgstr "سرصفحه و پاصفحه"
+
+#: part/pagetool/KWPageToolFactory.cpp:17
+#, kde-format
+msgid "Page layout"
+msgstr "طرح‌بندی صفحه"
+
+#. i18n: ectx: property (text), widget (QToolButton, setup)
+#: part/pagetool/SimpleSetupWidget.ui:32
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#: part/widgets/KoFindToolbar.cpp:64
+#, kde-format
+msgctxt "Label for the Find text input box"
+msgid "Find:"
+msgstr "یافتن:"
+
+#: part/widgets/KoFindToolbar.cpp:81
+#, kde-format
+msgctxt "Next search result"
+msgid "Next"
+msgstr "بعدی"
+
+#: part/widgets/KoFindToolbar.cpp:93
+#, kde-format
+msgctxt "Previous search result"
+msgid "Previous"
+msgstr "قبلی"
+
+#: part/widgets/KoFindToolbar.cpp:104
+#, kde-format
+msgctxt "Search options"
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: part/widgets/KoFindToolbar.cpp:134
+#, kde-format
+msgctxt "Label for the Replace text input box"
+msgid "Replace:"
+msgstr "جایگزینی:"
+
+#: part/widgets/KoFindToolbar.cpp:146
+#, kde-format
+msgctxt "Replace the current match"
+msgid "Replace"
+msgstr "جایگزینی"
+
+#: part/widgets/KoFindToolbar.cpp:154
+#, kde-format
+msgctxt "Replace all found matches"
+msgid "Replace All"
+msgstr "جایگزینی همه"
+
+#: part/widgets/KoFindToolbar.cpp:164
+#, kde-format
+msgid "Replace"
+msgstr "جایگزینی"
+
+#: part/widgets/KoFindToolbar.cpp:225
+#, kde-format
+msgctxt "Total number of matches"
+msgid "1 match found"
+msgid_plural "%1 matches found"
+msgstr[0] "۱ مورد پیدا شد"
+msgstr[1] "%1 مورد پیدا شد"
+
+#: part/widgets/KoFindToolbar.cpp:235
+#, kde-format
+msgid "No matches found"
+msgstr "هیچ موردی پیدا نشد"
+
+#: part/widgets/KoFindToolbar.cpp:241
+#, kde-format
+msgid "Search hit bottom, continuing from top."
+msgstr "جستجو به پایان رسید، ادامه از ابتدا."
+
+#: part/widgets/KoFindToolbar.cpp:243
+#, kde-format
+msgid "Search hit top, continuing from bottom."
+msgstr "جستجو به ابتدا رسید، ادامه از پایان."
+
+#: part/Words.cpp:41
+#, kde-format
+msgid "Odd Pages Header"
+msgstr "سربرگ صفحه‌های فرد"
+
+#: part/Words.cpp:43
+#, kde-format
+msgid "Even Pages Header"
+msgstr "سربرگ صفحه‌های زوج"
+
+#: part/Words.cpp:45
+#, kde-format
+msgid "Odd Pages Footer"
+msgstr "پابرگ صفحه‌های فرد"
+
+#: part/Words.cpp:47
+#, kde-format
+msgid "Even Pages Footer"
+msgstr "پابرگ صفحه‌های زوج"
+
+#: part/Words.cpp:49
+#, kde-format
+msgid "Main text"
+msgstr "متن اصلی"
+
+#: part/Words.cpp:51
+#, kde-format
+msgid "Other text"
+msgstr "متن دیگر"

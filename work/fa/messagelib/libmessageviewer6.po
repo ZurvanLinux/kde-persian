@@ -1,0 +1,2385 @@
+# translation of kmail.po to Persian
+# MaryamSadat Razavi <razavi@itland.ir>, 2006, 2007.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmail\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-11 00:52+0000\n"
+"PO-Revision-Date: 2026-10-16 01:18+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:2
+msgid "Sorry, certificate could not be imported."
+msgstr "متأسفانه، گواهی وارد نشد."
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:4
+#, kde-format
+msgid "Reason: %1"
+msgstr "دلیل: %1"
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:7
+msgid "Sorry, no certificates were found in this message."
+msgstr "متأسفانه، هیچ گواهی‌ای در این پیام پیدا نشد."
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:9
+msgid "Certificate import status:"
+msgstr "وضعیت وارد کردن گواهی:"
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:13
+#, kde-format
+msgid "1 new certificate was imported."
+msgid_plural "%1 new certificates were imported."
+msgstr[0] "۱ گواهی جدید وارد شد."
+msgstr[1] "%1 گواهی جدید وارد شد."
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:16
+#, kde-format
+msgid "1 certificate was unchanged."
+msgid_plural "%1 certificates were unchanged."
+msgstr[0] "۱ گواهی بدون تغییر ماند."
+msgstr[1] "%1 گواهی بدون تغییر ماند."
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:19
+#, kde-format
+msgid "1 new secret key was imported."
+msgid_plural "%1 new secret keys were imported."
+msgstr[0] "۱ کلید مخفی جدید وارد شد."
+msgstr[1] "%1 کلید مخفی جدید وارد شد."
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:22
+#, kde-format
+msgid "1 secret key was unchanged."
+msgid_plural "%1 secret keys were unchanged."
+msgstr[0] "۱ کلید مخفی بدون تغییر ماند."
+msgstr[1] "%1 کلید مخفی بدون تغییر ماند."
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:28
+msgid "Sorry, no details on certificate import available."
+msgstr "متأسفانه، جزئیاتی درباره وارد کردن گواهی در دسترس نیست."
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:30
+msgid "Certificate import details:"
+msgstr "جزئیات وارد کردن گواهی:"
+
+#: ./messagepartthemes/default/templates/certmessagepart.html:34
+#, kde-format
+msgctxt "Certificate import failed."
+msgid "Failed: %1 (%2)"
+msgstr "ناموفق: %1 (%2)"
+
+#: ./messagepartthemes/default/templates/encapsulatedrfc822messagepart.html:5
+#: ./messagepartthemes/default/templates/encapsulatedrfc822messagepart.html:7
+msgid "Encapsulated message"
+msgstr "پیام کپسوله‌شده"
+
+#: ./messagepartthemes/default/templates/encapsulatedrfc822messagepart.html:19
+msgid "End of encapsulated message"
+msgstr "پایان پیام کپسوله‌شده"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:3
+msgid "This message is encrypted."
+msgstr "این پیام رمزگذاری شده است."
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:7
+msgid "Decrypt Message"
+msgstr "رمزگشایی پیام"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:14
+msgid "Please wait while the message is being decrypted..."
+msgstr "لطفاً تا رمزگشایی پیام صبر کنید..."
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:18
+msgid "The message is encrypted for the following keys:"
+msgstr "پیام برای کلیدهای زیر رمزگذاری شده است:"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:20
+msgid "Hide Details"
+msgstr "پنهان کردن جزئیات"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:27
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:69
+msgid "unknown key"
+msgstr "کلید ناشناخته"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:32
+#, kde-format
+msgctxt "Compliance: status/type of compliance"
+msgid "Compliance: %1"
+msgstr "انطباق: %1"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:38
+#, kde-format
+msgctxt "Encrypted message (status/type of compliance)"
+msgid "Encrypted message (%1)"
+msgstr "پیام رمزگذاری‌شده (%1)"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:40
+msgid "Encrypted message"
+msgstr "پیام رمزگذاری‌شده"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:43
+msgid "Show Details"
+msgstr "نمایش جزئیات"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:48
+msgid "Encrypted message (decryption not possible)"
+msgstr "پیام رمزگذاری‌شده (رمزگشایی ممکن نیست)"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:51
+msgid "Reason: "
+msgstr "دلیل: "
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:63
+msgid ""
+"No secret key found to decrypt the message. The message is encrypted for the"
+" following keys:"
+msgstr ""
+"هیچ کلید خصوصی‌ای برای رمزگشایی پیام یافت نشد. پیام برای این کلیدها رمزگذاری"
+" شده است:"
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:74
+msgid "Could not decrypt the data."
+msgstr "رمزگشایی داده‌ها ممکن نشد."
+
+#: ./messagepartthemes/default/templates/encryptedmessagepart.html:81
+msgid "End of encrypted message"
+msgstr "پایان پیام رمزگذاری‌شده"
+
+#: ./messagepartthemes/default/templates/htmlmessagepart.html:6
+msgid ""
+"<b>Note:</b> This is an HTML message. For security reasons, only the raw "
+"HTML code is shown. If you trust the sender of this message then you can "
+"activate formatted HTML display for this message <a href='kmail:showHTML'>by"
+" clicking here</a>."
+msgstr ""
+"<b>نکته:</b> این یک پیام HTML است. به دلایل امنیتی، فقط کد خام HTML نمایش "
+"داده می‌شود. اگر به فرستندهٔ این پیام اعتماد دارید، می‌توانید نمایش "
+"قالب‌بندی‌شدهٔ HTML را برای این پیام <a href='kmail:showHTML'>با کلیک در "
+"اینجا</a> فعال کنید."
+
+#: ./messagepartthemes/default/templates/htmlmessagepart.html:12
+msgid ""
+"<b>Note:</b> This HTML message may contain external references to images "
+"etc. For security/privacy reasons external references are not loaded. If you"
+" trust the sender of this message then you can load the external references "
+"for this message <a href='kmail:loadExternal'>by clicking here</a>."
+msgstr ""
+"<b>نکته:</b> این پیام HTML ممکن است حاوی ارجاعات خارجی به تصاویر و غیره "
+"باشد. به دلایل امنیتی/حریم خصوصی، ارجاعات خارجی بارگیری نمی‌شوند. اگر به "
+"فرستندهٔ این پیام اعتماد دارید، می‌توانید ارجاعات خارجی را برای این پیام <a "
+"href='kmail:loadExternal'>با کلیک در اینجا</a> بارگیری کنید."
+
+#: ./messagepartthemes/default/templates/signedmessagepart.html:5
+msgid "Please wait while the signature is being verified..."
+msgstr "لطفاً تا اعتبارسنجی امضا صبر کنید..."
+
+#: ./messagepartthemes/default/templates/signedmessagepart.html:17
+msgid "End of signed message"
+msgstr "پایان پیام امضاشده"
+
+#: dkim-verify/dkimmanagerkeytreeview.cpp:73
+#, kde-format
+msgid "Copy Key"
+msgstr "رونوشت از کلید"
+
+#: dkim-verify/dkimmanagerkeytreeview.cpp:79
+#, kde-format
+msgid "Remove Key"
+msgid_plural "Remove Keys"
+msgstr[0] "حذف کلید"
+msgstr[1] "حذف کلیدها"
+
+#: dkim-verify/dkimmanagerkeytreeview.cpp:81
+#, kde-format
+msgid "Do you want to delete this key?"
+msgid_plural "Do you want to delete these keys?"
+msgstr[0] "آیا می‌خواهید این کلید را حذف کنید؟"
+msgstr[1] "آیا می‌خواهید این کلیدها را حذف کنید؟"
+
+#: dkim-verify/dkimmanagerkeytreeview.cpp:82
+#, kde-format
+msgid "Delete Key"
+msgid_plural "Delete Keys"
+msgstr[0] "حذف کلید"
+msgstr[1] "حذف کلیدها"
+
+#: dkim-verify/dkimmanagerkeytreeview.cpp:92
+#: dkim-verify/dkimmanageruleswidget.cpp:225
+#, kde-format
+msgid "Delete All"
+msgstr "حذف همه"
+
+#: dkim-verify/dkimmanagerkeytreeview.cpp:94
+#, kde-format
+msgid "Do you want to delete all keys?"
+msgstr "آیا می‌خواهید همهٔ کلیدها را حذف کنید؟"
+
+#: dkim-verify/dkimmanagerkeytreeview.cpp:95
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Keys"
+msgstr "حذف کلیدها"
+
+#: dkim-verify/dkimmanagerkeywidget.cpp:35
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr "جست‌وجو..."
+
+#: dkim-verify/dkimmanagerulescombobox.cpp:20
+#, kde-format
+msgid "Must be signed"
+msgstr "باید امضا شده باشد"
+
+#: dkim-verify/dkimmanagerulescombobox.cpp:21
+#, kde-format
+msgid "Can be signed"
+msgstr "می‌تواند امضا شده باشد"
+
+#: dkim-verify/dkimmanagerulescombobox.cpp:22
+#, kde-format
+msgid "Ignore if not signed"
+msgstr "نادیده گرفتن در صورت امضا نشدن"
+
+#: dkim-verify/dkimmanagerulesdialog.cpp:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Export..."
+msgstr "برون‌ریزی..."
+
+#: dkim-verify/dkimmanagerulesdialog.cpp:33
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Rule"
+msgstr "پیکربندی قاعده"
+
+#: dkim-verify/dkimmanagerulesdialog.cpp:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Rule..."
+msgstr "افزودن قاعده..."
+
+#: dkim-verify/dkimmanagerulesdialog.cpp:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Import..."
+msgstr "درون‌ریزی..."
+
+#: dkim-verify/dkimmanagerulesdialog.cpp:81
+#, kde-format
+msgid "No rules found"
+msgstr "هیچ قاعده‌ای پیدا نشد"
+
+#: dkim-verify/dkimmanagerulesdialog.cpp:81
+#: dkim-verify/dkimmanagerulesdialog.cpp:84
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Rules"
+msgstr "برون‌ریزی قواعد"
+
+#: dkim-verify/dkimmanagerulesdialog.cpp:92
+#: dkim-verify/dkimmanagerulesdialog.cpp:95
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Rules"
+msgstr "درون‌ریزی قواعد"
+
+#: dkim-verify/dkimmanagerulesdialog.cpp:95
+#, kde-format
+msgid "No rules imported."
+msgstr "هیچ قانونی وارد نشد."
+
+#: dkim-verify/dkimmanageruleswidget.cpp:75
+#: remote-content/remotecontentconfigurewidget.cpp:54
+#, kde-format
+msgid "Domain"
+msgstr "دامنه"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:75
+#, kde-format
+msgid "Active"
+msgstr "فعال"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:75
+#, kde-format
+msgid "List-ID"
+msgstr "شناسهٔ فهرست (List-ID)"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:75
+#, kde-format
+msgid "From"
+msgstr "از"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:75
+#, kde-format
+msgid "SDID"
+msgstr "SDID"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:75
+#, kde-format
+msgid "Rule type"
+msgstr "نوع قانون"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:75
+#, kde-format
+msgid "Priority"
+msgstr "اولویت"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:198
+#: remote-content/remotecontentconfigurewidget.cpp:82
+#, kde-format
+msgid "Add..."
+msgstr "افزودن..."
+
+#: dkim-verify/dkimmanageruleswidget.cpp:203
+#: remote-content/remotecontentconfigurewidget.cpp:85
+#, kde-format
+msgid "Modify..."
+msgstr "تغییر..."
+
+#: dkim-verify/dkimmanageruleswidget.cpp:207
+#, kde-format
+msgid "Duplicate Rule"
+msgstr "تکرار قاعده"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:211
+#: remote-content/remotecontentconfigurewidget.cpp:89
+#, kde-format
+msgid "Remove Rule"
+msgstr "حذف قاعده"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:213
+#, kde-format
+msgid "Do you want to delete this rule?"
+msgstr "آیا می‌خواهید این قاعده را حذف کنید؟"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:214
+#: remote-content/remotecontentconfigurewidget.cpp:92
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Rule"
+msgstr "حذف قاعده"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:227
+#, kde-format
+msgid "Do you want to delete all the rules?"
+msgstr "آیا می‌خواهید همهٔ قواعد را حذف کنید؟"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:228
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Rules"
+msgstr "حذف قواعد"
+
+#: dkim-verify/dkimruledialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Rule"
+msgstr "افزودن قاعده"
+
+#: dkim-verify/dkimruledialog.cpp:75
+#, kde-format
+msgctxt "@title:window"
+msgid "Modify Rule"
+msgstr "تغییر قاعده"
+
+#: dkim-verify/dkimrulewidget.cpp:20
+#, kde-format
+msgctxt "@option:check"
+msgid "Enabled"
+msgstr "فعال"
+
+#: dkim-verify/dkimrulewidget.cpp:38
+#, kde-format
+msgid "Domain:"
+msgstr "دامنه:"
+
+#: dkim-verify/dkimrulewidget.cpp:43 header/grantleeheaderformatter.cpp:186
+#, kde-format
+msgid "List-Id:"
+msgstr "شناسه فهرست:"
+
+#: dkim-verify/dkimrulewidget.cpp:47 header/grantleeheaderformatter.cpp:273
+#, kde-format
+msgid "From:"
+msgstr "از:"
+
+#: dkim-verify/dkimrulewidget.cpp:48
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Use '*' to specify all emails from domain"
+msgstr "برای مشخص کردن همه رایانامه‌های دامنه از «*» استفاده کنید"
+
+#: dkim-verify/dkimrulewidget.cpp:53
+#, kde-format
+msgid "SDID:"
+msgstr "‏SDID:"
+
+#: dkim-verify/dkimrulewidget.cpp:56
+#, kde-format
+msgid "Rule:"
+msgstr "قاعده:"
+
+#: dkim-verify/dkimrulewidget.cpp:62
+#, kde-format
+msgid "Priority:"
+msgstr "اولویت:"
+
+#: dkim-verify/dkimviewermenu.cpp:14
+#, kde-format
+msgid "DKIM"
+msgstr "‏DKIM"
+
+#: dkim-verify/dkimviewermenu.cpp:36
+#, kde-format
+msgid "Recheck DKIM Signature"
+msgstr "بررسی دوباره امضای DKIM"
+
+#: dkim-verify/dkimviewermenu.cpp:39
+#, kde-format
+msgid "Update DKIM key"
+msgstr "به‌روزرسانی کلید DKIM"
+
+#: dkim-verify/dkimviewermenu.cpp:43
+#, kde-format
+msgid "Rules..."
+msgstr "قاعده‌ها..."
+
+#: dkim-verify/dkimwidgetinfo.cpp:98
+#, kde-format
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: dkim-verify/dkimwidgetinfo.cpp:104
+#, kde-format
+msgid "DKIM: valid (signed by %1)"
+msgstr "‏DKIM: معتبر (امضاشده توسط %1)"
+
+#: dkim-verify/dkimwidgetinfo.cpp:111
+#, kde-format
+msgid "DKIM: invalid"
+msgstr "‏DKIM: نامعتبر"
+
+#: dkim-verify/dkimwidgetinfo.cpp:114
+#, kde-format
+msgid "DKIM: Not signed"
+msgstr "‏DKIM: امضا نشده"
+
+#: dkim-verify/dkimwidgetinfo.cpp:119
+#, kde-format
+msgid "DKIM: Should Be Signed by %1"
+msgstr "‏DKIM: باید توسط %1 امضا شود"
+
+#: dkim-verify/dkimwidgetinfo.cpp:135
+#, kde-format
+msgid "Body Hash was corrupted."
+msgstr "درهم‌سازی بدنه (Body Hash) خراب شده بود."
+
+#: dkim-verify/dkimwidgetinfo.cpp:138
+#, kde-format
+msgid "The domain doesn't exist."
+msgstr "دامنه وجود ندارد."
+
+#: dkim-verify/dkimwidgetinfo.cpp:141
+#, kde-format
+msgid "Missing header From."
+msgstr "سرآیند From یافت نشد."
+
+#: dkim-verify/dkimwidgetinfo.cpp:144
+#, kde-format
+msgid "Missing signature."
+msgstr "امضا وجود ندارد."
+
+#: dkim-verify/dkimwidgetinfo.cpp:147
+#, kde-format
+msgid "Invalid query method."
+msgstr "روش پرس‌وجو نامعتبر است."
+
+#: dkim-verify/dkimwidgetinfo.cpp:150
+#, kde-format
+msgid "Invalid header canonicalization."
+msgstr "استانداردسازی (کانونیکال‌سازی) سرآیند نامعتبر است."
+
+#: dkim-verify/dkimwidgetinfo.cpp:153
+#, kde-format
+msgid "Invalid body canonicalization."
+msgstr "استانداردسازی (کانونیکال‌سازی) بدنه نامعتبر است."
+
+#: dkim-verify/dkimwidgetinfo.cpp:156
+#, kde-format
+msgid "Unknown Body Hash Algorithm."
+msgstr "الگوریتم هش بدنه ناشناخته است."
+
+#: dkim-verify/dkimwidgetinfo.cpp:159
+#, kde-format
+msgid "Signature algorithm is invalid."
+msgstr "الگوریتم امضا نامعتبر است."
+
+#: dkim-verify/dkimwidgetinfo.cpp:162
+#, kde-format
+msgid "The public key was revoked."
+msgstr "کلید عمومی لغو شده است."
+
+#: dkim-verify/dkimwidgetinfo.cpp:165
+#, kde-format
+msgid "Signature is too large."
+msgstr "اندازه امضا بیش از حد بزرگ است."
+
+#: dkim-verify/dkimwidgetinfo.cpp:168
+#, kde-format
+msgid "Hash Algorithm is unsupported."
+msgstr "الگوریتم هش پشتیبانی نمی‌شود."
+
+#: dkim-verify/dkimwidgetinfo.cpp:171
+#, kde-format
+msgid "Public key is too small."
+msgstr "کلید عمومی بیش از حد کوچک است."
+
+#: dkim-verify/dkimwidgetinfo.cpp:174
+#, kde-format
+msgid "Impossible to verify signature."
+msgstr "تأیید اعتبار امضا امکان‌پذیر نیست."
+
+#: dkim-verify/dkimwidgetinfo.cpp:177
+#, kde-format
+msgid "AUID must be in the same domain as SDID (s-flag set in key record)."
+msgstr ""
+"‏AUID باید در همان دامنه SDID باشد (پرچم s در رکورد کلید تنظیم شده است)."
+
+#: dkim-verify/dkimwidgetinfo.cpp:180
+#, kde-format
+msgid "The signing domain is only testing DKIM."
+msgstr "دامنه امضاکننده فقط در حال آزمایش DKIM است."
+
+#: dkim-verify/dkimwidgetinfo.cpp:183
+#, kde-format
+msgid "Impossible to download key."
+msgstr "بارگیری کلید امکان‌پذیر نیست."
+
+#: dkim-verify/dkimwidgetinfo.cpp:186 dkim-verify/dkimwidgetinfo.cpp:210
+#, kde-format
+msgid "Hash Algorithm unsafe (sha1)"
+msgstr "الگوریتم درهم‌سازی ناامن است (sha1)"
+
+#: dkim-verify/dkimwidgetinfo.cpp:189
+#, kde-format
+msgid "AUID is not in a subdomain of SDID"
+msgstr "شناسه AUID در زیردامنه‌ای از SDID نیست"
+
+#: dkim-verify/dkimwidgetinfo.cpp:192
+#, kde-format
+msgid "Problem during converting public key"
+msgstr "مشکل در تبدیل کلید عمومی"
+
+#: dkim-verify/dkimwidgetinfo.cpp:201
+#, kde-format
+msgid "Signature expired"
+msgstr "امضا منقضی شده است"
+
+#: dkim-verify/dkimwidgetinfo.cpp:204
+#, kde-format
+msgid "Signature created in the future"
+msgstr "امضا در آینده ایجاد شده است"
+
+#: dkim-verify/dkimwidgetinfo.cpp:207
+#, kde-format
+msgid "Signature too small"
+msgstr "امضا بیش از حد کوچک است"
+
+#: dkim-verify/dkimwidgetinfo.cpp:213
+#, kde-format
+msgid "Public Key too small"
+msgstr "کلید عمومی بیش از حد کوچک است"
+
+#: dkim-verify/dkimwidgetinfo.cpp:236 dkim-verify/dkimwidgetinfo.cpp:284
+#, kde-format
+msgctxt "method name: info about it from parsing"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: dkim-verify/dkimwidgetinfo.cpp:261
+#, kde-format
+msgid "%1: None"
+msgstr "%1: هیچ‌کدام"
+
+#: dkim-verify/dkimwidgetinfo.cpp:276
+#, kde-format
+msgid "%1: Valid (Signed by %2)"
+msgstr "%1: معتبر (امضاشده توسط %2)"
+
+#: dkim-verify/dkimwidgetinfo.cpp:298
+#, kde-format
+msgid "%1: Valid"
+msgstr "%1: معتبر"
+
+#: dkim-verify/dkimwidgetinfo.cpp:312
+#, kde-format
+msgid "Not Signed"
+msgstr "امضا نشده"
+
+#: header/grantleeheaderformatter.cpp:206
+#, kde-format
+msgid "Subject:"
+msgstr "موضوع:"
+
+#: header/grantleeheaderformatter.cpp:226
+#, kde-format
+msgid "Date:"
+msgstr "تاریخ:"
+
+#: header/grantleeheaderformatter.cpp:241
+#, kde-format
+msgid "Message-Id:"
+msgstr "شناسهٔ پیام:"
+
+#: header/grantleeheaderformatter.cpp:265
+#, kde-format
+msgid "To:"
+msgstr "به:"
+
+#: header/grantleeheaderformatter.cpp:267
+#, kde-format
+msgid "Reply To:"
+msgstr "پاسخ به:"
+
+#: header/grantleeheaderformatter.cpp:269
+#, kde-format
+msgid "CC:"
+msgstr "رونوشت:"
+
+#: header/grantleeheaderformatter.cpp:271
+#, kde-format
+msgid "BCC:"
+msgstr "رونوشت پنهان:"
+
+#: header/grantleeheaderformatter.cpp:275
+#, kde-format
+msgid "Sender:"
+msgstr "فرستنده:"
+
+#: header/grantleeheaderformatter.cpp:277
+#, kde-format
+msgid "resent from:"
+msgstr "ارسال دوباره از:"
+
+#: header/grantleeheaderformatter.cpp:279
+#, kde-format
+msgid "resent to:"
+msgstr "ارسال دوباره به:"
+
+#: header/grantleeheaderformatter.cpp:395
+#, kde-format
+msgid "Grantlee theme \"%1\" is not valid."
+msgstr "پوستهٔ گرنتلی «%1» معتبر نیست."
+
+#: header/grantleeheaderformatter.cpp:483 header/headerstyle_util.cpp:85
+#: header/headerstyle_util.cpp:90 header/headerstyle_util.cpp:101
+#, kde-format
+msgid "No Subject"
+msgstr "بدون موضوع"
+
+#: header/grantleeheaderformatter.cpp:488
+#, kde-format
+msgid "Spam Status:"
+msgstr "وضعیت هرزنامه:"
+
+#: header/grantleeheaderformatter.cpp:500
+#, kde-format
+msgid "Printing mode"
+msgstr "حالت چاپ"
+
+#: header/grantleeheaderformatter.cpp:542
+#, kde-format
+msgid "[vcard]"
+msgstr "[کارت ویزیت]"
+
+#: header/grantleeheaderformatter.cpp:549
+#, kde-format
+msgid "Attachments:"
+msgstr "پیوست‌ها:"
+
+#: header/grantleeheaderformatter.cpp:575
+#, kde-format
+msgid "Security:"
+msgstr "امنیت:"
+
+#: header/headerstyle_util.cpp:60
+#, kde-format
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: header/headerstyle_util.cpp:149
+#, kde-format
+msgid ""
+"%1% probability of being spam with confidence %3%.\n"
+"\n"
+"Full report:\n"
+"Probability=%2\n"
+"Confidence=%4"
+msgstr ""
+"احتمال هرزنامه بودن: %1٪ با اطمینان %3٪.\n"
+"\n"
+"گزارش کامل:\n"
+"احتمال=%2\n"
+"اطمینان=%4"
+
+#: header/headerstyle_util.cpp:158
+#, kde-format
+msgid ""
+"%1% probability of being spam.\n"
+"\n"
+"Full report:\n"
+"Probability=%2"
+msgstr ""
+"احتمال هرزنامه بودن: %1٪.\n"
+"\n"
+"گزارش کامل:\n"
+"احتمال=%2"
+
+#: header/headerstyle_util.cpp:167
+#, kde-format
+msgid "No Spam agent"
+msgstr "بدون عامل هرزنامه‌گیر"
+
+#: header/headerstyle_util.cpp:170
+#, kde-format
+msgid "Spam filter score not a number"
+msgstr "امتیاز پالایهٔ هرزنامه عدد نیست"
+
+#: header/headerstyle_util.cpp:173
+#, kde-format
+msgid "Threshold not a valid number"
+msgstr "آستانه یک عدد معتبر نیست"
+
+#: header/headerstyle_util.cpp:176
+#, kde-format
+msgid "Spam filter score could not be extracted from header"
+msgstr "امکان استخراج امتیاز پالایهٔ هرزنامه از سرآیند وجود نداشت"
+
+#: header/headerstyle_util.cpp:179
+#, kde-format
+msgid "Threshold could not be extracted from header"
+msgstr "امکان استخراج آستانه از سرآیند وجود نداشت"
+
+#: header/headerstyle_util.cpp:182
+#, kde-format
+msgid "Error evaluating spam score"
+msgstr "خطا در ارزیابی امتیاز هرزنامه"
+
+#: header/headerstyle_util.cpp:187
+#, kde-format
+msgid ""
+"%1.\n"
+"\n"
+"Full report:\n"
+"%2"
+msgstr ""
+"%1.\n"
+"\n"
+"گزارش کامل:\n"
+"%2"
+
+#: header/headerstylemenumanager.cpp:105
+#, kde-format
+msgctxt "View->"
+msgid "&Headers"
+msgstr "سرآیندها"
+
+#: header/headerstylemenumanager.cpp:109
+#, kde-format
+msgid "Choose display style of message headers"
+msgstr "سبک نمایش سرآیندهای پیام را انتخاب کنید"
+
+#: header/plainheaderstyle.cpp:103
+#, kde-format
+msgid "Date: "
+msgstr "تاریخ: "
+
+#: header/plainheaderstyle.cpp:107
+#, kde-format
+msgid "From: "
+msgstr "از: "
+
+#: header/plainheaderstyle.cpp:109
+#, kde-format
+msgid "[vCard]"
+msgstr "[vCard]"
+
+#: header/plainheaderstyle.cpp:120
+#, kde-format
+msgctxt "To-field of the mailheader."
+msgid "To: "
+msgstr "به: "
+
+#: header/plainheaderstyle.cpp:127
+#, kde-format
+msgid "CC: "
+msgstr "رونوشت: "
+
+#: header/plainheaderstyle.cpp:134
+#, kde-format
+msgid "BCC: "
+msgstr "رونوشت پنهان: "
+
+#: header/plainheaderstyle.cpp:139
+#, kde-format
+msgid "Reply to: "
+msgstr "پاسخ به: "
+
+#: mdn/mdnwarningwidget.cpp:16
+#, kde-format
+msgctxt "@action"
+msgid "Ignore"
+msgstr "نادیده‌گرفتن"
+
+#: mdn/mdnwarningwidget.cpp:17
+#, kde-format
+msgctxt "@action"
+msgid "Send"
+msgstr "ارسال"
+
+#: mdn/mdnwarningwidget.cpp:18
+#, kde-format
+msgctxt "@action"
+msgid "Send Deny"
+msgstr "ارسال رد"
+
+#: remote-content/remotecontentconfiguredialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Remote Content"
+msgstr "پیکربندی محتوای دوردست"
+
+#: remote-content/remotecontentconfigurewidget.cpp:54
+#, kde-format
+msgid "Status"
+msgstr "وضعیت"
+
+#: remote-content/remotecontentconfigurewidget.cpp:91
+#, kde-format
+msgid "Do you want to delete this rule '%1'?"
+msgstr "آیا می‌خواهید قاعدهٔ «%1» را حذف کنید؟"
+
+#: remote-content/remotecontentconfigurewidget.cpp:109
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Remote Content"
+msgstr "ویرایش محتوای دوردست"
+
+#: remote-content/remotecontentconfigurewidget.cpp:125
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Remote Content"
+msgstr "افزودن محتوای دوردست"
+
+#: remote-content/remotecontentconfigurewidget.cpp:134
+#, kde-format
+msgid "An entry already defines this url. Please modify it."
+msgstr "یک مدخل قبلاً این نشانی وب را تعریف کرده است. لطفاً آن را تغییر دهید."
+
+#: remote-content/remotecontentconfigurewidget.cpp:134
+#, kde-format
+msgctxt "@title:window"
+msgid "Add new Url"
+msgstr "افزودن نشانی وب جدید"
+
+#: remote-content/remotecontentmenu.cpp:19
+#, kde-format
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: remote-content/remotecontentmenu.cpp:21
+#, kde-format
+msgid "Remote Content"
+msgstr "محتوای دوردست"
+
+#: remote-content/remotecontentmenu.cpp:52
+#, kde-format
+msgid "Authorize %1"
+msgstr "مجاز کردن %1"
+
+#: remote-content/remotecontentmenu.cpp:60
+#, kde-format
+msgid "Authorize all Urls"
+msgstr "مجاز کردن همه نشانی‌ها"
+
+#: remote-content/remotecontentstatustypecombobox.cpp:12
+#, kde-format
+msgid "Authorized"
+msgstr "مجاز شده"
+
+#: remote-content/remotecontentstatustypecombobox.cpp:13
+#, kde-format
+msgid "Blocked"
+msgstr "مسدود شده"
+
+#: remote-content/remotecontentwidget.cpp:30
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Domain:"
+msgstr "دامنه:"
+
+#: scamdetection/scamdetectiondetailsdialog.cpp:40
+#, kde-format
+msgctxt "@title:window"
+msgid "Details"
+msgstr "جزئیات"
+
+#: scamdetection/scamdetectionwarningwidget.cpp:36
+#, kde-format
+msgid "This message may be a scam. <a href=\"scamdetails\">(Details...)</a>"
+msgstr ""
+"این پیام ممکن است کلاهبرداری باشد. <a href=\"scamdetails\">(جزئیات...)</a>"
+
+#: scamdetection/scamdetectionwarningwidget.cpp:41
+#, kde-format
+msgctxt "@action"
+msgid "Move to Trash"
+msgstr "انتقال به سطل زباله"
+
+#: scamdetection/scamdetectionwarningwidget.cpp:46
+#, kde-format
+msgctxt "@action"
+msgid "I confirm it's not a scam"
+msgstr "تأیید می‌کنم که کلاهبرداری نیست"
+
+#: scamdetection/scamdetectionwarningwidget.cpp:50
+#, kde-format
+msgctxt "@action"
+msgid "Add email to whitelist"
+msgstr "افزودن ایمیل به فهرست سفید"
+
+#: scamdetection/scamdetectionwarningwidget.cpp:54
+#, kde-format
+msgctxt "@action"
+msgid "Disable scam detection for all messages"
+msgstr "غیرفعال‌سازی تشخیص کلاهبرداری برای همهٔ پیام‌ها"
+
+#: scamdetection/scamdetectionwebengine.cpp:141
+#: scamdetection/scamdetectionwebengine.cpp:239
+#, kde-format
+msgid ""
+"This email contains a link which reads as '%1' in the text, but actually "
+"points to '%2'. This is often the case in scam emails to mislead the "
+"recipient"
+msgstr ""
+"این رایانامه حاوی پیوندی است که در متن «%1» خوانده می‌شود، اما در واقع به "
+"«%2» اشاره دارد. این مورد اغلب در رایانامه‌های کلاهبرداری برای گمراه کردن "
+"گیرنده رخ می‌دهد"
+
+#: scamdetection/scamdetectionwebengine.cpp:155
+#, kde-format
+msgid ""
+"This email contains a link which points to a numerical IP address (%1) "
+"instead of a typical textual website address. This is often the case in scam"
+" emails."
+msgstr ""
+"این رایانامه حاوی پیوندی است که به جای یک نشانی وب متنی معمول، به یک نشانی "
+"آی‌پی عددی (%1) اشاره دارد. این مورد اغلب در رایانامه‌های کلاهبرداری رخ "
+"می‌دهد."
+
+#: scamdetection/scamdetectionwebengine.cpp:162
+#, kde-format
+msgid ""
+"This email contains a link which points to a hexadecimal IP address (%1) "
+"instead of a typical textual website address. This is often the case in scam"
+" emails."
+msgstr ""
+"این رایانامه حاوی پیوندی است که به جای یک نشانی وب متنی معمول، به یک نشانی "
+"آی‌پی هگزادسیمال (%1) اشاره دارد. این مورد اغلب در رایانامه‌های کلاهبرداری "
+"رخ می‌دهد."
+
+#: scamdetection/scamdetectionwebengine.cpp:168
+#, kde-format
+msgid "This email contains a link (%1) which has a redirection"
+msgstr "این رایانامه حاوی پیوندی (%1) است که دارای تغییر مسیر است"
+
+#: scamdetection/scamdetectionwebengine.cpp:173
+#, kde-format
+msgid ""
+"This email contains a link (%1) which contains multiple http://. This is "
+"often the case in scam emails."
+msgstr ""
+"این رایانامه حاوی پیوندی (%1) است که شامل چندین //:http است. این مورد اغلب "
+"در رایانامه‌های کلاهبرداری رخ می‌دهد."
+
+#: scamdetection/scamdetectionwebengine.cpp:184
+#, kde-format
+msgid ""
+"This email contains a shorturl (%1). It can redirect to another server."
+msgstr ""
+"این رایانامه حاوی یک نشانی کوتاه (%1) است. این نشانی می‌تواند به کارساز "
+"دیگری تغییر مسیر دهد."
+
+#: scamdetection/scamdetectionwebengine.cpp:257
+#, kde-format
+msgid ""
+"The text of this link contains invisible characters, which are not displayed"
+" but make it look different from the address it really points to. This is "
+"often the case in scam emails."
+msgstr ""
+"متن این پیوند حاوی نویسه‌های نامرئی است که نمایش داده نمی‌شوند، اما باعث "
+"می‌شوند با نشانی واقعی که به آن اشاره دارد متفاوت به نظر برسد. این مورد اغلب"
+" در رایانامه‌های کلاهبرداری رخ می‌دهد."
+
+#: scamdetection/scamdetectionwebengine.cpp:263
+#, kde-format
+msgid "Message contains form element. This is often the case in scam emails."
+msgstr ""
+"پیام شامل عنصر فرم است. این مورد اغلب در رایانامه‌های کلاهبرداری دیده "
+"می‌شود."
+
+#: scamdetection/scamdetectionwebengine.cpp:267
+#, kde-format
+msgid "Details:"
+msgstr "جزئیات:"
+
+#: scamdetection/scamexpandurljob.cpp:52
+#, kde-format
+msgid "No network connection detected, we cannot expand url."
+msgstr "هیچ اتصال شبکه‌ای شناسایی نشد، نمی‌توان نشانی اینترنتی را باز کرد."
+
+#: scamdetection/scamexpandurljob.cpp:86 scamdetection/scamexpandurljob.cpp:92
+#, kde-format
+msgid "Impossible to expand '%1'."
+msgstr "باز کردن «%1» غیرممکن است."
+
+#: scamdetection/scamexpandurljob.cpp:90
+#, kde-format
+msgid "Short url '%1' redirects to '%2'."
+msgstr "نشانی کوتاه «%1» به «%2» تغییر مسیر می‌دهد."
+
+#. i18n: ectx: label, entry (PrintSelectedText), group (Print)
+#: settings/messageviewer.kcfg:7
+#, kde-format
+msgid "Only print selected text in viewer"
+msgstr "فقط چاپ متن انتخاب‌شده در نمایشگر"
+
+#. i18n: ectx: label, entry (RespectExpandCollapseSettings), group (Print)
+#: settings/messageviewer.kcfg:11
+#, kde-format
+msgid ""
+"Respect expand/collapse quote mark which is defined in settings during "
+"printing."
+msgstr ""
+"رعایت علامت نقل‌قول گسترش/جمع‌شدن که در تنظیمات تعریف شده است هنگام چاپ."
+
+#. i18n: ectx: label, entry (PrintBackgroundColorImages), group (Print)
+#: settings/messageviewer.kcfg:15
+#, kde-format
+msgid ""
+"Specifies whether the background color and images are also drawn when the "
+"page is printed."
+msgstr ""
+"مشخص می‌کند که آیا رنگ و تصاویر پس‌زمینه نیز هنگام چاپ صفحه رسم شوند یا خیر."
+
+#. i18n: ectx: label, entry (AlwaysShowEncryptionSignatureDetails), group
+#. (Print)
+#: settings/messageviewer.kcfg:19
+#, kde-format
+msgid "Always show encryption/signature details when we print message"
+msgstr "نمایش همیشگی جزئیات رمزنگاری/امضا هنگام چاپ پیام"
+
+#. i18n: ectx: label, entry (MinimumFontSize), group (Fonts)
+#: settings/messageviewer.kcfg:28
+#, kde-format
+msgid "When we render html do not use font size inferior to minimum size."
+msgstr "هنگام رندر کردن HTML از اندازه قلم کمتر از حداقل اندازه استفاده نشود."
+
+#. i18n: ectx: label, entry (BodyFont), group (Fonts)
+#: settings/messageviewer.kcfg:32
+#, kde-format
+msgid "Specifies the font to use for the message body"
+msgstr "قلم مورد استفاده برای متن پیام را مشخص می‌کند"
+
+#. i18n: ectx: label, entry (PrintFont), group (Fonts)
+#: settings/messageviewer.kcfg:36
+#, kde-format
+msgid "Specifies the font to use for printing"
+msgstr "قلم مورد استفاده برای چاپ را مشخص می‌کند"
+
+#. i18n: ectx: label, entry (CheckPhishingUrl), group (Security)
+#: settings/messageviewer.kcfg:42
+#, kde-format
+msgid "Check if url can be a phishing"
+msgstr "بررسی احتمال فیشینگ بودن نشانی اینترنتی"
+
+#. i18n: ectx: label, entry (CloseAfterReplyOrForward), group (Reader)
+#: settings/messageviewer.kcfg:48
+#, kde-format
+msgid "Close message window after replying or forwarding"
+msgstr "بستن پنجرهٔ پیام پس از پاسخ دادن یا بازفرستادن"
+
+#. i18n: ectx: label, entry (ShowExpandQuotesMark), group (Reader)
+#: settings/messageviewer.kcfg:62
+#, kde-format
+msgid "Show expand/collapse quote marks"
+msgstr "نمایش نشانه‌های باز/بسته کردن نقل‌قول"
+
+#. i18n: ectx: whatsthis, entry (ShowExpandQuotesMark), group (Reader)
+#: settings/messageviewer.kcfg:63
+#, kde-format
+msgid ""
+"Enable this option to show different levels of quoted text. Disable to hide "
+"the levels of quoted text."
+msgstr ""
+"برای نمایش سطوح مختلف متن نقل‌قول‌شده این گزینه را فعال کنید. برای پنهان "
+"کردن سطوح، آن را غیرفعال کنید."
+
+#. i18n: ectx: label, entry (CollapseQuoteLevelSpin), group (Reader)
+#: settings/messageviewer.kcfg:66
+#, kde-format
+msgid "Automatic collapse level:"
+msgstr "سطح جمع‌کردن خودکار:"
+
+#. i18n: ectx: label, entry (ShrinkQuotes), group (Reader)
+#: settings/messageviewer.kcfg:73
+#, kde-format
+msgid "Reduce font size for quoted text"
+msgstr "کاهش اندازهٔ قلم برای متن نقل‌قول"
+
+#. i18n: ectx: whatsthis, entry (ShrinkQuotes), group (Reader)
+#: settings/messageviewer.kcfg:74
+#, kde-format
+msgid "Enable this option to show quoted text with a smaller font."
+msgstr "برای نمایش متن نقل‌قول‌شده با قلم کوچک‌تر، این گزینه را فعال کنید."
+
+#. i18n: ectx: label, entry (AlwaysDecrypt), group (Reader)
+#: settings/messageviewer.kcfg:78
+#, kde-format
+msgid "Always decrypt messages when viewing or ask before decrypting"
+msgstr "رمزگشایی همیشگی پیام‌ها هنگام مشاهده یا پرسش پیش از رمزگشایی"
+
+#. i18n: ectx: label, entry (MimeTreeMode2), group (Reader)
+#: settings/messageviewer.kcfg:81
+#, kde-format
+msgid "Message Structure Viewer"
+msgstr "نمایشگر ساختار پیام"
+
+#. i18n: ectx: label, entry (MimeTreeMode2), group (Reader)
+#: settings/messageviewer.kcfg:84
+#, kde-format
+msgid "Show never"
+msgstr "هرگز نشان داده نشود"
+
+#. i18n: ectx: label, entry (MimeTreeMode2), group (Reader)
+#: settings/messageviewer.kcfg:87
+#, kde-format
+msgid "Show always"
+msgstr "همیشه نشان داده شود"
+
+#. i18n: ectx: label, entry (headerPluginStyleName), group (Reader)
+#. i18n: ectx: label, entry (headerStyle), group (Reader)
+#: settings/messageviewer.kcfg:99 settings/messageviewer.kcfg:103
+#, kde-format
+msgid "What style of headers should be displayed"
+msgstr "چه سبکی از سرآیندها نمایش داده شود"
+
+#. i18n: ectx: label, entry (headerSetDisplayed), group (Reader)
+#: settings/messageviewer.kcfg:107
+#, kde-format
+msgid "How much of headers should be displayed"
+msgstr "چه میزانی از سرآیندها نمایش داده شود"
+
+#. i18n: ectx: label, entry (htmlMail), group (Reader)
+#: settings/messageviewer.kcfg:111
+#, kde-format
+msgid "Prefer HTML to plain text"
+msgstr "ترجیح HTML به متن ساده"
+
+#. i18n: ectx: label, entry (htmlLoadExternal), group (Reader)
+#: settings/messageviewer.kcfg:115
+#, kde-format
+msgid "Allow messages to load external references from the Internet"
+msgstr "اجازه به پیام‌ها برای بارگیری ارجاع‌های خارجی از اینترنت"
+
+#. i18n: ectx: label, entry (attachmentStrategy), group (Reader)
+#: settings/messageviewer.kcfg:119
+#, kde-format
+msgid "How attachments are shown"
+msgstr "نحوه نمایش پیوست‌ها"
+
+#. i18n: ectx: label, entry (RecycleQuoteColors), group (Reader)
+#: settings/messageviewer.kcfg:123
+#, kde-format
+msgid "Specifies whether to reuse the quote color, beyond the 3rd level"
+msgstr "مشخص می‌کند که آیا رنگ نقل‌قول پس از سطح ۳ دوباره استفاده شود یا خیر"
+
+#. i18n: ectx: label, entry (AccessKeyEnabled), group (Reader)
+#: settings/messageviewer.kcfg:127
+#, kde-format
+msgid "Activate Access Key"
+msgstr "فعال‌سازی کلید دسترسی"
+
+#. i18n: ectx: label, entry (ScamDetectionEnabled), group (Reader)
+#: settings/messageviewer.kcfg:131
+#, kde-format
+msgid ""
+"KMail can analyze messages for suspected email scams by looking for common "
+"techniques used to deceive you"
+msgstr ""
+"کی‌میل می‌تواند پیام‌ها را با جستجوی روش‌های رایجی که برای فریب شما به کار "
+"می‌روند، جهت شناسایی کلاهبرداری‌های احتمالی بررسی کند"
+
+#. i18n: ectx: label, entry (ScamDetectionWhiteList), group (Reader)
+#: settings/messageviewer.kcfg:135
+#, kde-format
+msgid "List of emails in scam white list"
+msgstr "فهرست رایانامه‌های موجود در فهرست مجاز کلاهبرداری"
+
+#. i18n: ectx: label, entry (MailTrackingUrlEnabled), group (Reader)
+#: settings/messageviewer.kcfg:139
+#, kde-format
+msgid "Scan emails for tracking URLs"
+msgstr "پویش رایانامه‌ها برای نشانی‌های اینترنتی ردیاب"
+
+#. i18n: ectx: label, entry (notSendWhenEncrypted), group (MDN)
+#: settings/messageviewer.kcfg:145
+#, kde-format
+msgid "Do not send MDNs in response to encrypted messages"
+msgstr "عدم ارسال MDN در پاسخ به پیام‌های رمزنگاری‌شده"
+
+#. i18n: ectx: label, entry (LegacyMangleFromToHeaders), group (Invitations)
+#: settings/messageviewer.kcfg:165
+#, kde-format
+msgid "Mangle From:/To: headers in replies to replies"
+msgstr "دستکاری سرآیندهای From:/To: در پاسخ به پاسخ‌ها"
+
+#. i18n: ectx: whatsthis, entry (LegacyMangleFromToHeaders), group
+#. (Invitations)
+#: settings/messageviewer.kcfg:166
+#, kde-format
+msgid ""
+"Microsoft Outlook has a number of shortcomings in its implementation of the "
+"iCalendar standard; this option works around one of them. If you have "
+"problems with Outlook users not being able to get your replies, try setting "
+"this option."
+msgstr ""
+"مایکروسافت اوت‌لوک کاستی‌هایی در پیاده‌سازی استاندارد iCalendar دارد؛ این "
+"گزینه یکی از آن‌ها را برطرف می‌کند. اگر کاربران اوت‌لوک در دریافت پاسخ‌های "
+"شما مشکل دارند، این گزینه را فعال کنید."
+
+#. i18n: ectx: label, entry (LegacyBodyInvites), group (Invitations)
+#: settings/messageviewer.kcfg:170
+#, kde-format
+msgid "Send groupware invitations in the mail body"
+msgstr "ارسال دعوت‌نامه‌های نرم‌افزار گروهی در متن رایانامه"
+
+#. i18n: ectx: whatsthis, entry (LegacyBodyInvites), group (Invitations)
+#: settings/messageviewer.kcfg:171
+#, kde-format
+msgid ""
+"Microsoft Outlook has a number of shortcomings in its implementation of the "
+"iCalendar standard; this option works around one of them. If you have "
+"problems with Outlook users not being able to get your invitations, try "
+"setting this option."
+msgstr ""
+"مایکروسافت اوت‌لوک کاستی‌هایی در پیاده‌سازی استاندارد iCalendar دارد؛ این "
+"گزینه یکی از آن‌ها را برطرف می‌کند. اگر کاربران اوت‌لوک در دریافت "
+"دعوت‌نامه‌های شما مشکل دارند، این گزینه را فعال کنید."
+
+#. i18n: ectx: label, entry (ExchangeCompatibleInvitations), group
+#. (Invitations)
+#: settings/messageviewer.kcfg:175
+#, kde-format
+msgid "Exchange-compatible invitation naming"
+msgstr "نام‌گذاری دعوت‌نامه سازگار با Exchange"
+
+#. i18n: ectx: whatsthis, entry (ExchangeCompatibleInvitations), group
+#. (Invitations)
+#: settings/messageviewer.kcfg:176
+#, kde-format
+msgid ""
+"Microsoft Outlook, when used in combination with a Microsoft Exchange "
+"server, has a problem understanding standards-compliant groupware email. "
+"Turn this option on to send groupware invitations in a way that Microsoft "
+"Exchange understands."
+msgstr ""
+"مایکروسافت اوت‌لوک هنگام استفاده همراه با سرور مایکروسافت اکسچنج، در درک "
+"رایانامه‌های نرم‌افزار گروهی سازگار با استاندارد دچار مشکل می‌شود. این گزینه"
+" را فعال کنید تا دعوت‌نامه‌های نرم‌افزار گروهی به شکلی ارسال شوند که "
+"مایکروسافت اکسچنج آن‌ها را متوجه شود."
+
+#. i18n: ectx: label, entry (AutomaticSending), group (Invitations)
+#: settings/messageviewer.kcfg:180
+#, kde-format
+msgid "Automatic invitation sending"
+msgstr "ارسال خودکار دعوت‌نامه"
+
+#. i18n: ectx: whatsthis, entry (AutomaticSending), group (Invitations)
+#: settings/messageviewer.kcfg:181
+#, kde-format
+msgid ""
+"When this is checked, you will not see the mail composer window. Instead, "
+"all invitation mails are sent automatically. If you want to see the mail "
+"before sending it, you can uncheck this option. However, be aware that the "
+"text in the composer window is in iCalendar syntax, and you should not try "
+"modifying it by hand."
+msgstr ""
+"در صورت فعال بودن این گزینه، پنجرهٔ نگارش رایانامه را مشاهده نخواهید کرد. در"
+" عوض، تمام رایانامه‌های دعوت به صورت خودکار ارسال می‌شوند. اگر می‌خواهید قبل"
+" از ارسال، رایانامه را ببینید، می‌توانید علامت این گزینه را بردارید. با این "
+"حال، توجه داشته باشید که متن موجود در پنجرهٔ نگارش با ساختار نحوی iCalendar "
+"است و نباید آن را به صورت دستی دستکاری کنید."
+
+#. i18n: ectx: label, entry (DeleteInvitationEmailsAfterSendingReply), group
+#. (Invitations)
+#. i18n: ectx: property (text), widget (QCheckBox, mDeleteInvitations)
+#: settings/messageviewer.kcfg:185 ui/invitationsettings.ui:74
+#, kde-format
+msgid "Delete invitation emails after the reply to them has been sent"
+msgstr "حذف رایانامه‌های دعوت‌نامه پس از ارسال پاسخ به آن‌ها"
+
+#. i18n: ectx: whatsthis, entry (DeleteInvitationEmailsAfterSendingReply),
+#. group (Invitations)
+#: settings/messageviewer.kcfg:186
+#, kde-format
+msgid ""
+"When this is checked, received invitation emails that have been replied to "
+"will be moved to the Trash folder, once the reply has been successfully "
+"sent."
+msgstr ""
+"در صورت فعال بودن این گزینه، پس از ارسال موفقیت‌آمیز پاسخ، رایانامه‌های "
+"دعوتِ دریافتی که پاسخ داده شده‌اند به پوشهٔ سطل زباله منتقل می‌شوند."
+
+#. i18n: ectx: label, entry (UseFixedFont), group (Composer)
+#: settings/messageviewer.kcfg:206 viewer/viewer_p.cpp:1540
+#, kde-format
+msgid "Use Fi&xed Font"
+msgstr "استفاده از قلم با عرض ثابت"
+
+#. i18n: ectx: whatsthis, entry (LastSelectedFolder), group (Todo)
+#: settings/messageviewer.kcfg:212
+#, kde-format
+msgid "The most recent selected folder used for Todo."
+msgstr "آخرین پوشهٔ انتخاب‌شدهٔ مورد استفاده برای وظایف."
+
+#. i18n: ectx: whatsthis, entry (LastEventSelectedFolder), group (Event)
+#: settings/messageviewer.kcfg:218
+#, kde-format
+msgid "The most recent selected folder used for Event."
+msgstr "آخرین پوشهٔ انتخاب‌شدهٔ مورد استفاده برای رویدادها."
+
+#. i18n: ectx: whatsthis, entry (LastNoteSelectedFolder), group (Note)
+#: settings/messageviewer.kcfg:224
+#, kde-format
+msgid "The most recent selected folder used for Notes."
+msgstr "آخرین پوشهٔ انتخاب‌شدهٔ مورد استفاده برای یادداشت‌ها."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: ui/invitationsettings.ui:17
+#, kde-format
+msgid "Groupware Compatibility && Legacy Options"
+msgstr "سازگاری با نرم‌افزارهای گروهی و گزینه‌های قدیمی"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mLegacyMangleFromTo)
+#: ui/invitationsettings.ui:23
+#, kde-format
+msgid ""
+"Turn this option on in order to make Outlook(tm) understand your answers to "
+"invitation replies"
+msgstr ""
+"این گزینه را فعال کنید تا Outlook(tm) بتواند پاسخ‌های شما به دعوت‌نامه‌ها را"
+" تشخیص دهد"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mLegacyMangleFromTo)
+#: ui/invitationsettings.ui:26
+#, kde-format
+msgid "&Mangle From:/To: headers in replies to invitations"
+msgstr "تغییر سرآیندهای From:/To: در پاسخ به دعوت‌نامه‌ها"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mLegacyBodyInvites)
+#: ui/invitationsettings.ui:33
+#, kde-format
+msgid ""
+"Turn this option on in order to make Outlook(tm) understand your answers to "
+"invitations"
+msgstr ""
+"این گزینه را فعال کنید تا Outlook(tm) بتواند پاسخ‌های شما به دعوت‌نامه‌ها را"
+" متوجه شود"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mLegacyBodyInvites)
+#: ui/invitationsettings.ui:36
+#, kde-format
+msgid "Send &invitations in the mail body"
+msgstr "ارسال دعوت‌نامه‌ها در بدنهٔ رایانامه"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. mExchangeCompatibleInvitations)
+#: ui/invitationsettings.ui:45
+#, kde-format
+msgid ""
+"Microsoft Outlook, when used in combination with a Microsoft Exchange server,\n"
+"has a problem understanding standards-compliant groupware email.\n"
+"Turn this option on to send groupware invitations in a way that Microsoft Exchange understands."
+msgstr ""
+"مایکروسافت اوت‌لوک، هنگامی که به همراه کارساز مایکروسافت اکسچنج استفاده می‌شود،\n"
+"در درک رایانامه‌های گروهی سازگار با استاندارد دچار مشکل است.\n"
+"این گزینه را فعال کنید تا دعوت‌نامه‌های گروهی به روشی ارسال شوند که مایکروسافت اکسچنج متوجه شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. mExchangeCompatibleInvitations)
+#: ui/invitationsettings.ui:48
+#, kde-format
+msgid "Exchange-compatible invitation &naming"
+msgstr "نام‌گذاری دعوت‌نامهٔ سازگار با اکسچنج"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mAutomaticSending)
+#: ui/invitationsettings.ui:55
+#, kde-format
+msgid ""
+"When this is on, the user will not see the mail composer window. Invitation "
+"mails are sent automatically."
+msgstr ""
+"هنگامی که این گزینه فعال باشد، کاربر پنجرهٔ ایجاد رایانامه را نخواهد دید. "
+"رایانامه‌های دعوت به‌طور خودکار ارسال می‌شوند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, mAutomaticSending)
+#: ui/invitationsettings.ui:58
+#, kde-format
+msgid "&Automatic invitation sending"
+msgstr "ارسال خودکار دعوت‌نامه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: ui/invitationsettings.ui:68
+#, kde-format
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mPrintEmptySelectedText)
+#: ui/printingsettings.ui:17
+#, kde-format
+msgid "Print only selected text"
+msgstr "چاپ فقط متن انتخاب‌شده"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. respectExpandCollapseSettings)
+#: ui/printingsettings.ui:24
+#, kde-format
+msgid "Respect &expand/collapse quote marks settings"
+msgstr "رعایت تنظیمات باز/بسته کردن نشانه‌های نقل‌قول"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. printBackgroundColorAndImages)
+#: ui/printingsettings.ui:31
+#, kde-format
+msgid "Print background color and images"
+msgstr "چاپ رنگ و تصاویر پس‌زمینه"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. alwaysShowEncryptionSignatureDetail)
+#: ui/printingsettings.ui:38
+#, kde-format
+msgid "Always show encryption/signature details"
+msgstr "همیشه جزئیات رمزگذاری/امضا نمایش داده شود"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Settings)
+#: ui/settings.ui:19
+#, kde-format
+msgid "Viewer settings"
+msgstr "تنظیمات نمایشگر"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/settings.ui:47
+#, kde-format
+msgid "O&verride character encoding:"
+msgstr "لغو کدگذاری نویسه‌ها:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccessKeyEnabled)
+#: ui/settings.ui:79
+#, kde-format
+msgid "Enable access key"
+msgstr "فعال‌سازی کلید دسترسی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShrinkQuotes)
+#: ui/settings.ui:86
+#, kde-format
+msgid "Reduce font size for &quoted text"
+msgstr "کاهش اندازهٔ قلم برای متن نقل‌قول‌شده"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowExpandQuotesMark)
+#: ui/settings.ui:93
+#, kde-format
+msgid "Show &expand/collapse quote marks"
+msgstr "نمایش نشانه‌های گسترش/جمع‌کردن نقل‌قول"
+
+#. i18n: ectx: property (text), widget (QLabel, collapseQuoteLevelLabel)
+#: ui/settings.ui:121
+#, kde-format
+msgid "Automatic collapse &level:"
+msgstr "سطح جمع‌کردن خودکار:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/settings.ui:190
+#, kde-format
+msgid "&Minimum font size:"
+msgstr "حداقل اندازهٔ قلم:"
+
+#: utils/messageviewerutil.cpp:122
+#, kde-format
+msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+"پرونده‌ای با نام «%1» از قبل وجود دارد. آیا مطمئنید می‌خواهید آن را بازنویسی"
+" کنید؟"
+
+#: utils/messageviewerutil.cpp:125
+#, kde-format
+msgctxt "@title:window"
+msgid "Overwrite File?"
+msgstr "بازنویسی پرونده؟"
+
+#: utils/messageviewerutil.cpp:158
+#, kde-format
+msgid "Save Attachments To"
+msgstr "ذخیرهٔ پیوست‌ها در"
+
+#: utils/messageviewerutil.cpp:175
+#, kde-format
+msgctxt "filename for an unnamed attachment"
+msgid "attachment.1"
+msgstr "attachment.1"
+
+#: utils/messageviewerutil.cpp:181
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Attachment"
+msgstr "ذخیرهٔ پیوست"
+
+#: utils/messageviewerutil.cpp:205
+#, kde-format
+msgctxt "filename for the %1-th unnamed attachment"
+msgid "attachment.%1"
+msgstr "attachment.%1"
+
+#: utils/messageviewerutil.cpp:304
+#, kde-format
+msgid ""
+"The part %1 of the message is encrypted. Do you want to keep the encryption "
+"when saving?"
+msgstr ""
+"بخش %1 از پیام رمزگذاری شده است. آیا می‌خواهید هنگام ذخیره، رمزگذاری حفظ "
+"شود؟"
+
+#: utils/messageviewerutil.cpp:306 utils/messageviewerutil.cpp:319
+#, kde-format
+msgid "KMail Question"
+msgstr "پرسش کی‌میل"
+
+#: utils/messageviewerutil.cpp:306
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep Encryption"
+msgstr "حفظ رمزگذاری"
+
+#: utils/messageviewerutil.cpp:307 utils/messageviewerutil.cpp:320
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Keep"
+msgstr "حفظ نشود"
+
+#: utils/messageviewerutil.cpp:317
+#, kde-format
+msgid ""
+"The part %1 of the message is signed. Do you want to keep the signature when"
+" saving?"
+msgstr "بخش %1 از پیام امضا شده است. آیا می‌خواهید هنگام ذخیره، امضا حفظ شود؟"
+
+#: utils/messageviewerutil.cpp:319
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep Signature"
+msgstr "نگه‌داشتن امضا"
+
+#: utils/messageviewerutil.cpp:383 utils/messageviewerutil.cpp:406
+#: utils/messageviewerutil.cpp:424 utils/messageviewerutil.cpp:547
+#, kde-kuit-format
+msgctxt "1 = file name, 2 = error string"
+msgid ""
+"<qt>Could not write to the file<br /><filename>%1</filename><br /><br "
+"/>%2</qt>"
+msgstr ""
+"<qt>نوشتن در پرونده امکان‌پذیر نبود:<br /><filename>%1</filename><br /><br "
+"/>%2</qt>"
+
+#: utils/messageviewerutil.cpp:386 utils/messageviewerutil.cpp:395
+#, kde-format
+msgctxt "@title:window"
+msgid "Error saving attachment"
+msgstr "خطا در ذخیرهٔ پیوست"
+
+#: utils/messageviewerutil.cpp:394 utils/messageviewerutil.cpp:504
+#, kde-format, kde-kuit-format
+msgctxt "1 = error string"
+msgid "Could not create temporary file: <message>%1</message>"
+msgstr "ایجاد پروندهٔ موقت امکان‌پذیر نبود: <message>%1</message>"
+
+#: utils/messageviewerutil.cpp:409 utils/messageviewerutil.cpp:427
+#, kde-format
+msgid "Error saving attachment"
+msgstr "خطا در ذخیرهٔ پیوست"
+
+#: utils/messageviewerutil.cpp:440
+#, kde-format
+msgid "Found no attachments to save."
+msgstr "پیوستی برای ذخیره‌سازی یافت نشد."
+
+#: utils/messageviewerutil.cpp:456
+#, kde-format
+msgid "message"
+msgstr "پیام"
+
+#: utils/messageviewerutil.cpp:478
+#, kde-format
+msgid "Mailbox file (*.mbox);;All Files (*)"
+msgstr "پروندهٔ صندوق پستی ‎(*.mbox);;همهٔ پرونده‌ها (*)‎"
+
+#: utils/messageviewerutil.cpp:488
+#, kde-format
+msgid "Save Message"
+msgid_plural "Save Messages"
+msgstr[0] "ذخیرهٔ پیام"
+msgstr[1] "ذخیرهٔ پیام‌ها"
+
+#: utils/messageviewerutil.cpp:505 utils/messageviewerutil.cpp:516
+#: utils/messageviewerutil.cpp:550
+#, kde-format
+msgctxt "@title:window"
+msgid "Error saving message"
+msgstr "خطا در ذخیرهٔ پیام"
+
+#: utils/messageviewerutil.cpp:514
+#, kde-format
+msgid "File %1 could not be loaded."
+msgstr "پروندهٔ %1 بارگیری نشد."
+
+#: utils/messageviewerutil.cpp:514
+#, kde-format
+msgctxt "@title:window"
+msgid "Error loading message"
+msgstr "خطا در بارگیری پیام"
+
+#: utils/messageviewerutil.cpp:516
+#, kde-format
+msgid "File %1 could not be created."
+msgstr "پروندهٔ %1 ایجاد نشد."
+
+#: utils/messageviewerutil.cpp:523
+#, kde-format
+msgid "We cannot append message to mbox."
+msgstr "افزودن پیام به mbox امکان‌پذیر نیست."
+
+#: utils/messageviewerutil.cpp:523 utils/messageviewerutil.cpp:530
+#, kde-format
+msgid "Error saving message"
+msgstr "خطا در ذخیرهٔ پیام"
+
+#: utils/messageviewerutil.cpp:530
+#, kde-format
+msgid "We cannot save message."
+msgstr "ذخیرهٔ پیام امکان‌پذیر نیست."
+
+#: utils/messageviewerutil.cpp:596
+#, kde-format
+msgctxt "Argument is the original name of the deleted attachment"
+msgid "Deleted: %1"
+msgstr "حذف‌شده: %1"
+
+#: utils/messageviewerutil.cpp:607
+#, kde-format
+msgid ""
+"You deleted an attachment from this message. The original MIME headers for "
+"the attachment were:"
+msgstr ""
+"پیوستی را از این پیام حذف کردید. سرآیندهای MIME اصلی این پیوست عبارت بودند "
+"از:"
+
+#: utils/messageviewerutil.cpp:635
+#, kde-format
+msgid "Open &with %1"
+msgstr "باز کردن با %1"
+
+#: utils/messageviewerutil.cpp:637
+#, kde-format
+msgctxt "@item:inmenu Open With, %1 is application name"
+msgid "%1"
+msgstr "%1"
+
+#: viewer/mimeparttree/mimetreemodel.cpp:62
+#, kde-format
+msgid "body part"
+msgstr "بخش بدنه"
+
+#: viewer/mimeparttree/mimetreemodel.cpp:269
+#, kde-format
+msgid "Description"
+msgstr "توضیحات"
+
+#: viewer/mimeparttree/mimetreemodel.cpp:271
+#, kde-format
+msgid "Type"
+msgstr "نوع"
+
+#: viewer/mimeparttree/mimetreemodel.cpp:273
+#, kde-format
+msgid "Size"
+msgstr "اندازه"
+
+#: viewer/printmessage.cpp:68
+#, kde-format
+msgid "Could not generate print preview."
+msgstr "پیش‌نمایش چاپ ایجاد نشد."
+
+#: viewer/printmessage.cpp:104
+#, kde-format
+msgctxt "@title:window"
+msgid "Print Document"
+msgstr "چاپ سند"
+
+#: viewer/urlhandlermanager.cpp:410
+#, kde-format
+msgid "Turn on HTML rendering for this message."
+msgstr "روشن کردن رندر HTML برای این پیام."
+
+#: viewer/urlhandlermanager.cpp:412 viewer/viewer_p.cpp:1609
+#, kde-format
+msgid "Load external references from the Internet for this message."
+msgstr "بارگیری ارجاع‌های خارجی از اینترنت برای این پیام."
+
+#: viewer/urlhandlermanager.cpp:414
+#, kde-format
+msgid "Work online."
+msgstr "کار به‌صورت برخط."
+
+#: viewer/urlhandlermanager.cpp:416
+#, kde-format
+msgid "Make account online."
+msgstr "برخط کردن حساب."
+
+#: viewer/urlhandlermanager.cpp:418
+#, kde-format
+msgid "Decrypt message."
+msgstr "رمزگشایی پیام."
+
+#: viewer/urlhandlermanager.cpp:420
+#, kde-format
+msgid "Show signature details."
+msgstr "نمایش جزئیات امضا."
+
+#: viewer/urlhandlermanager.cpp:422
+#, kde-format
+msgid "Hide signature details."
+msgstr "پنهان کردن جزئیات امضا."
+
+#: viewer/urlhandlermanager.cpp:424
+#, kde-format
+msgid "Show encryption details."
+msgstr "نمایش جزئیات رمزگذاری."
+
+#: viewer/urlhandlermanager.cpp:426
+#, kde-format
+msgid "Hide encryption details."
+msgstr "پنهان کردن جزئیات رمزگذاری."
+
+#: viewer/urlhandlermanager.cpp:431
+#, kde-format
+msgid "Open Documentation"
+msgstr "باز کردن مستندات"
+
+#: viewer/urlhandlermanager.cpp:465
+#, kde-format
+msgid "Expand all quoted text."
+msgstr "گسترش تمام متن‌های نقل‌قول شده."
+
+#: viewer/urlhandlermanager.cpp:467
+#, kde-format
+msgid "Collapse quoted text."
+msgstr "جمع کردن متن نقل‌قول شده."
+
+#: viewer/urlhandlermanager.cpp:493
+#, kde-format
+msgid "Could not start certificate manager. Please check your installation."
+msgstr "مدیر گواهی راه‌اندازی نشد. لطفاً نصب خود را بررسی کنید."
+
+#: viewer/urlhandlermanager.cpp:495
+#, kde-format
+msgid "KMail Error"
+msgstr "خطای KMail"
+
+#: viewer/urlhandlermanager.cpp:512
+#, kde-format
+msgid "Show certificate 0x%1"
+msgstr "نمایش گواهی 0x%1"
+
+#: viewer/urlhandlermanager.cpp:571
+#, kde-format
+msgid "&Open in Address Book"
+msgstr "باز کردن در دفترچه نشانی"
+
+#: viewer/urlhandlermanager.cpp:573
+#, kde-format
+msgid "&Copy Email Address"
+msgstr "رونوشت از نشانی رایانامه"
+
+#: viewer/urlhandlermanager.cpp:586 viewer/viewer_p.cpp:2704
+#, kde-format
+msgid "Address copied to clipboard."
+msgstr "نشانی در تخته‌گیره رونوشت شد."
+
+#: viewer/urlhandlermanager.cpp:597
+#, kde-format
+msgid "Lookup the contact in KAddressbook"
+msgstr "جستجوی مخاطب در KAddressbook"
+
+#: viewer/urlhandlermanager.cpp:778
+#, kde-format
+msgid "Attachment: %1"
+msgstr "پیوست: %1"
+
+#: viewer/urlhandlermanager.cpp:781
+#, kde-format
+msgid "Encapsulated Message (Subject: %1)"
+msgstr "پیام ضمیمه‌شده (موضوع: %1)"
+
+#: viewer/urlhandlermanager.cpp:783
+#, kde-format
+msgid "Encapsulated Message"
+msgstr "پیام ضمیمه‌شده"
+
+#: viewer/urlhandlermanager.cpp:786
+#, kde-format
+msgid "Unnamed attachment"
+msgstr "پیوست بی‌نام"
+
+#: viewer/urlhandlermanager.cpp:822
+#, kde-format
+msgid "Show GnuPG Audit Log for this operation"
+msgstr "نمایش گزارش حسابرسی GnuPG برای این عملیات"
+
+#: viewer/urlhandlermanager.cpp:860
+#, kde-format
+msgid "Opening URL..."
+msgstr "در حال باز کردن نشانی اینترنتی..."
+
+#: viewer/urlhandlermanager.cpp:869
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Do you really want to execute <filename>%1</filename>?"
+msgstr "آیا واقعاً می‌خواهید <filename>%1</filename> را اجرا کنید؟"
+
+#: viewer/urlhandlermanager.cpp:871
+#, kde-format
+msgctxt "@action:button"
+msgid "Execute"
+msgstr "اجرا"
+
+#: viewer/viewer.cpp:152
+#, kde-format
+msgid "Loading message..."
+msgstr "در حال بارگذاری پیام..."
+
+#: viewer/viewer_p.cpp:203
+#, kde-format
+msgid ""
+"Stored DKIM key is different from the current one. Do you want to store this"
+" one too?"
+msgstr ""
+"کلید DKIM ذخیره‌شده با کلید فعلی متفاوت است. می‌خواهید این کلید را هم ذخیره "
+"کنید؟"
+
+#: viewer/viewer_p.cpp:204
+#, kde-format
+msgctxt "@title:window"
+msgid "Key Changed"
+msgstr "کلید تغییر کرد"
+
+#: viewer/viewer_p.cpp:205
+#, kde-format
+msgctxt "@action:button"
+msgid "Store"
+msgstr "ذخیره"
+
+#: viewer/viewer_p.cpp:378
+#, kde-format
+msgid ""
+"Deleting an attachment might invalidate any digital signature on this "
+"message."
+msgstr "حذف پیوست ممکن است هرگونه امضای دیجیتال این پیام را باطل کند."
+
+#: viewer/viewer_p.cpp:379 viewer/viewer_p.cpp:414
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Attachment"
+msgstr "حذف پیوست"
+
+#: viewer/viewer_p.cpp:413
+#, kde-format
+msgid ""
+"Deleting an attachment from an encrypted or old-style mailman message is not"
+" supported."
+msgstr ""
+"حذف پیوست از یک پیام رمزگذاری‌شده یا پیام میل‌من قدیمی پشتیبانی نمی‌شود."
+
+#: viewer/viewer_p.cpp:511 viewer/viewer_p.cpp:1722
+#, kde-format
+msgctxt "to view something"
+msgid "View"
+msgstr "نمایش"
+
+#: viewer/viewer_p.cpp:519
+#, kde-format
+msgid "Scroll To"
+msgstr "پیمایش به"
+
+#: viewer/viewer_p.cpp:524
+#, kde-format
+msgid "Save As..."
+msgstr "ذخیره به عنوان..."
+
+#: viewer/viewer_p.cpp:530 viewer/viewer_p.cpp:1732
+#, kde-format
+msgid "Copy"
+msgstr "رونوشت"
+
+#: viewer/viewer_p.cpp:541 viewer/viewer_p.cpp:1736
+#, kde-format
+msgid "Delete Attachment"
+msgstr "حذف پیوست"
+
+#: viewer/viewer_p.cpp:552
+#, kde-format
+msgid "Reply To Author"
+msgstr "پاسخ به نویسنده"
+
+#: viewer/viewer_p.cpp:560
+#, kde-format
+msgid "Reply To All"
+msgstr "پاسخ به همه"
+
+#: viewer/viewer_p.cpp:566 viewer/viewer_p.cpp:1741
+#, kde-format
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+#: viewer/viewer_p.cpp:709
+#, kde-format
+msgid "KMail"
+msgstr "KMail"
+
+#: viewer/viewer_p.cpp:709
+#, kde-format
+msgid "The KDE Mail Client"
+msgstr "کارگیر رایانامه KDE"
+
+#: viewer/viewer_p.cpp:1260
+#, kde-format
+msgctxt "@title:window"
+msgid "View Attachment: %1"
+msgstr "نمایش پیوست: %1"
+
+#: viewer/viewer_p.cpp:1462
+#, kde-format
+msgctxt "View->"
+msgid "&Attachments"
+msgstr "پیوست‌ها"
+
+#: viewer/viewer_p.cpp:1464
+#, kde-format
+msgid "Choose display style of attachments"
+msgstr "سبک نمایش پیوست‌ها را انتخاب کنید"
+
+#: viewer/viewer_p.cpp:1467
+#, kde-format
+msgctxt "View->attachments->"
+msgid "&As Icons"
+msgstr "به صورت نقشک"
+
+#: viewer/viewer_p.cpp:1470
+#, kde-format
+msgid "Show all attachments as icons. Click to see them."
+msgstr "نمایش همهٔ پیوست‌ها به صورت نقشک. برای دیدن آن‌ها کلیک کنید."
+
+#: viewer/viewer_p.cpp:1474
+#, kde-format
+msgctxt "View->attachments->"
+msgid "&Smart"
+msgstr "هوشمند"
+
+#: viewer/viewer_p.cpp:1477
+#, kde-format
+msgid "Show attachments as suggested by sender."
+msgstr "نمایش پیوست‌ها طبق پیشنهاد فرستنده."
+
+#: viewer/viewer_p.cpp:1481
+#, kde-format
+msgctxt "View->attachments->"
+msgid "&Inline"
+msgstr "درون‌خطی"
+
+#: viewer/viewer_p.cpp:1484
+#, kde-format
+msgid "Show all attachments inline (if possible)"
+msgstr "نمایش همهٔ پیوست‌ها به‌صورت درون‌خطی (در صورت امکان)"
+
+#: viewer/viewer_p.cpp:1488
+#, kde-format
+msgctxt "View->attachments->"
+msgid "&Hide"
+msgstr "پنهان کردن"
+
+#: viewer/viewer_p.cpp:1491
+#, kde-format
+msgid "Do not show attachments in the message viewer"
+msgstr "پیوست‌ها در نمایشگر پیام نشان داده نشوند"
+
+#: viewer/viewer_p.cpp:1495
+#, kde-format
+msgctxt "View->attachments->"
+msgid "In Header Only"
+msgstr "فقط در سرآیند"
+
+#: viewer/viewer_p.cpp:1498
+#, kde-format
+msgid "Show Attachments only in the header of the mail"
+msgstr "نمایش پیوست‌ها فقط در سرآیند نامه"
+
+#: viewer/viewer_p.cpp:1503
+#, kde-format
+msgid "&Set Encoding"
+msgstr "تنظیم کدگذاری"
+
+#: viewer/viewer_p.cpp:1508 widgets/configurewidget.cpp:45
+#: widgets/configurewidget.cpp:79
+#, kde-format
+msgid "Auto"
+msgstr "خودکار"
+
+#: viewer/viewer_p.cpp:1518
+#, kde-format
+msgid "Copy Text"
+msgstr "رونوشت از متن"
+
+#: viewer/viewer_p.cpp:1524
+#, kde-format
+msgctxt "@action"
+msgid "Select All Text"
+msgstr "انتخاب همهٔ متن"
+
+#: viewer/viewer_p.cpp:1530 viewer/viewer_p.cpp:2047
+#, kde-format
+msgid "Copy Link Address"
+msgstr "رونوشت از نشانی پیوند"
+
+#: viewer/viewer_p.cpp:1535
+#, kde-format
+msgid "Open URL"
+msgstr "باز کردن نشانی وب"
+
+#: viewer/viewer_p.cpp:1546
+#, kde-format
+msgid "Show Message Structure"
+msgstr "نمایش ساختار پیام"
+
+#: viewer/viewer_p.cpp:1551
+#, kde-format
+msgctxt "@action"
+msgid "&View Source"
+msgstr "نمایش منبع"
+
+#: viewer/viewer_p.cpp:1556
+#, kde-format
+msgid "&Save Message..."
+msgstr "ذخیره پیام..."
+
+#: viewer/viewer_p.cpp:1562
+#, kde-format
+msgctxt "@action"
+msgid "&Save Display Format"
+msgstr "ذخیره قالب نمایش"
+
+#: viewer/viewer_p.cpp:1566
+#, kde-format
+msgctxt "@action"
+msgid "&Reset Display Format"
+msgstr "بازنشانی قالب نمایش"
+
+#: viewer/viewer_p.cpp:1573
+#, kde-format
+msgctxt "@action"
+msgid "Scroll Message Up"
+msgstr "پیمایش پیام به بالا"
+
+#: viewer/viewer_p.cpp:1578
+#, kde-format
+msgctxt "@action"
+msgid "Scroll Message Down"
+msgstr "پیمایش پیام به پایین"
+
+#: viewer/viewer_p.cpp:1583
+#, kde-format
+msgctxt "@action"
+msgid "Scroll Message Up (More)"
+msgstr "پیمایش پیام به بالا (بیشتر)"
+
+#: viewer/viewer_p.cpp:1588
+#, kde-format
+msgctxt "@action"
+msgid "Scroll Message Down (More)"
+msgstr "پیمایش پیام به پایین (بیشتر)"
+
+#: viewer/viewer_p.cpp:1598
+#, kde-format
+msgid "Toggle HTML Display Mode"
+msgstr "تغییر حالت نمایش HTML"
+
+#: viewer/viewer_p.cpp:1602
+#, kde-format
+msgid "Toggle display mode between HTML and plain text"
+msgstr "تغییر حالت نمایش بین HTML و متن ساده"
+
+#: viewer/viewer_p.cpp:1605
+#, kde-format
+msgctxt "@action"
+msgid "Load external references"
+msgstr "بارگیری ارجاع‌های خارجی"
+
+#: viewer/viewer_p.cpp:1611
+#, kde-format
+msgctxt "@action"
+msgid "Speak Text"
+msgstr "خواندن متن"
+
+#: viewer/viewer_p.cpp:1617
+#, kde-format
+msgctxt "@action"
+msgid "Share Text..."
+msgstr "هم‌رسانی متن..."
+
+#: viewer/viewer_p.cpp:1635
+#, kde-format
+msgctxt "@action"
+msgid "Copy Image Location"
+msgstr "رونوشت از نشانی تصویر"
+
+#: viewer/viewer_p.cpp:1641
+#, kde-format
+msgid "&Find in Message..."
+msgstr "یافتن در پیام..."
+
+#: viewer/viewer_p.cpp:1650
+#, kde-format
+msgid "Disable Emoticon"
+msgstr "غیرفعال کردن شکلک"
+
+#: viewer/viewer_p.cpp:1716
+#, kde-format
+msgid "Save &As..."
+msgstr "ذخیره به نام..."
+
+#: viewer/viewer_p.cpp:1727
+#, kde-format
+msgid "Save All Attachments..."
+msgstr "ذخیرهٔ همهٔ پیوست‌ها..."
+
+#: viewer/viewer_p.cpp:1968
+#, kde-format
+msgid "The network is broken."
+msgstr "شبکه قطع است."
+
+#: viewer/viewer_p.cpp:1968 viewer/viewer_p.cpp:1971
+#, kde-format
+msgctxt "@title:window"
+msgid "Check Phishing URL"
+msgstr "بررسی نشانی فیشینگ"
+
+#: viewer/viewer_p.cpp:1971
+#, kde-format
+msgid "The URL %1 is not valid."
+msgstr "نشانی وب %1 نامعتبر است."
+
+#: viewer/viewer_p.cpp:1991
+#, kde-format
+msgid "This web site is a malware, do you want to continue to show it?"
+msgstr "این وب‌گاه یک بدافزار است، آیا می‌خواهید نمایش آن ادامه یابد؟"
+
+#: viewer/viewer_p.cpp:1992
+#, kde-format
+msgctxt "@title:window"
+msgid "Malware"
+msgstr "بدافزار"
+
+#: viewer/viewer_p.cpp:2045
+#, kde-format
+msgid "Copy Email Address"
+msgstr "رونوشت از نشانی رایانامه"
+
+#: viewer/viewer_p.cpp:2128
+#, kde-format
+msgctxt "@title:window"
+msgid "Message as Plain Text"
+msgstr "پیام به‌صورت متن ساده"
+
+#: viewer/viewer_p.cpp:2710
+#, kde-format
+msgid "URL copied to clipboard."
+msgstr "نشانی وب در تخته‌گیره رونوشت شد."
+
+#: viewer/viewer_p.cpp:2872
+#, kde-format
+msgid "Message loading failed: %1."
+msgstr "بارگذاری پیام ناموفق بود: %1."
+
+#: viewer/viewer_p.cpp:2877
+#, kde-format
+msgid "Message not found."
+msgstr "پیام پیدا نشد."
+
+#: widgets/attachmentdialog.cpp:28
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Open attachment <filename>%1</filename>?<nl/>Note that opening an attachment"
+" may compromise your system's security."
+msgstr ""
+"پیوست <filename>%1</filename> باز شود؟<nl/>توجه داشته باشید که باز کردن "
+"پیوست ممکن است امنیت سیستم شما را به خطر بیندازد."
+
+#: widgets/attachmentdialog.cpp:33
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Attachment?"
+msgstr "پیوست باز شود؟"
+
+#: widgets/attachmentdialog.cpp:40
+#, kde-format
+msgid "&Open With '%1'"
+msgstr "باز کردن با «%1»"
+
+#: widgets/attachmentdialog.cpp:47
+#, kde-format
+msgid "Open &With..."
+msgstr "باز کردن با..."
+
+#: widgets/attachmentdialog.cpp:69
+#, kde-format
+msgid "Do not ask again"
+msgstr "دیگر پرسیده نشود"
+
+#: widgets/htmlstatusbar.cpp:110
+#, kde-format
+msgctxt ""
+"'HTML Message' with html linebreaks between each letter and in bold text."
+msgid ""
+"<qt><b><br />H<br />T<br />M<br />L<br /> <br />M<br />e<br />s<br />s<br "
+"/>a<br />g<br />e</b></qt>"
+msgstr ""
+"<qt><b><br />پ<br />ی<br />ا<br />م<br /> <br />H<br />T<br />M<br "
+"/>L</b></qt>"
+
+#: widgets/htmlstatusbar.cpp:114
+#, kde-format
+msgctxt "'No HTML Message' with html linebreaks between each letter."
+msgid ""
+"<qt><br />N<br />o<br /> <br />H<br />T<br />M<br />L<br /> <br />M<br "
+"/>e<br />s<br />s<br />a<br />g<br />e</qt>"
+msgstr ""
+"<qt><br />پ<br />ی<br />ا<br />م<br /> <br />H<br />T<br />M<br />L<br "
+"/>ی<br /> <br />ن<br />ی<br />س<br />ت</qt>"
+
+#: widgets/htmlstatusbar.cpp:119
+#, kde-format
+msgctxt "'Plain Message' with html linebreaks between each letter."
+msgid ""
+"<qt><br />P<br />l<br />a<br />i<br />n<br /> <br />M<br />e<br />s<br "
+"/>s<br />a<br />g<br />e<br /></qt>"
+msgstr ""
+"<qt><br />پ<br />ی<br />ا<br />م<br /> <br />س<br />ا<br />د<br />ه<br /><br"
+" /><br /><br /><br /><br /></qt>"
+
+#: widgets/htmlstatusbar.cpp:123
+#, kde-format
+msgctxt "'Calendar Message' with html linebreaks between each letter."
+msgid ""
+"<qt><br />C<br />a<br />l<br />e<br />n<br />d<br />a<br />r<br /> <br "
+"/>M<br />e<br />s<br />s<br />a<br />g<br />e<br /></qt>"
+msgstr ""
+"<qt><br />پ<br />ی<br />ا<br />م<br /> <br />ت<br />ق<br />و<br />ی<br "
+"/>م<br /><br /><br /><br /><br /><br /><br /><br /></qt>"
+
+#: widgets/htmlstatusbar.cpp:137
+#, kde-format
+msgid "Click to toggle between HTML, plain text and calendar."
+msgstr "برای جابه‌جایی بین HTML، متن ساده و تقویم کلیک کنید."
+
+#: widgets/invitationsettings.cpp:72
+#, kde-format
+msgid ""
+"<qt>Invitations are normally sent as attachments to a mail. This switch "
+"changes the invitation mails to be sent in the text of the mail instead; "
+"this is necessary to send invitations and replies to Microsoft Outlook.<br "
+"/>But, when you do this, you no longer get descriptive text that mail "
+"programs can read; so, to people who have email programs that do not "
+"understand the invitations, the resulting messages look very odd.<br "
+"/>People that have email programs that do understand invitations will still "
+"be able to work with this.</qt>"
+msgstr ""
+"<qt>دعوت‌نامه‌ها معمولاً به صورت پیوست به ایمیل ارسال می‌شوند. این گزینه "
+"باعث می‌شود که ایمیل‌های دعوت به جای آن درون متن نامه ارسال شوند؛ این کار "
+"برای ارسال دعوت‌نامه‌ها و پاسخ‌ها به Microsoft Outlook ضروری است.<br />اما "
+"هنگامی که این کار را انجام می‌دهید، دیگر متن توصیفی که برنامه‌های ایمیل "
+"بتوانند بخوانند دریافت نمی‌کنید؛ بنابراین، برای افرادی که برنامه‌های ایمیل "
+"آن‌ها این دعوت‌نامه‌ها را تشخیص نمی‌دهند، پیام‌های دریافتی بسیار نامتعارف به"
+" نظر می‌رسند.<br />افرادی که برنامه‌های ایمیل آن‌ها قابلیت درک این "
+"دعوت‌نامه‌ها را دارند، همچنان می‌توانند با آن کار کنند.</qt>"
+
+#: widgets/mailsourceviewtextbrowserwidget.cpp:134
+#, kde-format
+msgid "Speak Text"
+msgstr "خواندن متن"
+
+#: widgets/mailsourcewebengineviewer.cpp:48
+#, kde-format
+msgctxt "Unchanged mail message"
+msgid "Raw Source"
+msgstr "منبع خام"
+
+#: widgets/mailsourcewebengineviewer.cpp:49
+#, kde-format
+msgid ""
+"Raw, unmodified mail as it is stored on the filesystem or on the server"
+msgstr ""
+"نامه خام و دست‌نخورده، همان‌گونه که در سامانهٔ پرونده یا کارساز ذخیره شده "
+"است"
+
+#: widgets/mailsourcewebengineviewer.cpp:52
+#, kde-format
+msgctxt "Mail message as shown, in HTML format"
+msgid "HTML Source"
+msgstr "منبع HTML"
+
+#: widgets/mailsourcewebengineviewer.cpp:53
+#, kde-format
+msgid "HTML code for displaying the message to the user"
+msgstr "کد HTML برای نمایش پیام به کاربر"
+
+#: widgets/shownextmessagewidget.cpp:17
+#, kde-format
+msgctxt "@action:button"
+msgid "Next Message"
+msgstr "پیام بعدی"
+
+#: widgets/shownextmessagewidget.cpp:18
+#, kde-format
+msgctxt "@action:button"
+msgid "Previous Message"
+msgstr "پیام قبلی"

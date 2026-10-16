@@ -1,0 +1,155 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Mohamad Reza Mirdamadi <mohi@ubuntu.ir>, 2011.
+# Mohi Mirdamadi <mohi.pub@gmail.com>, 2014.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-23 00:45+0000\n"
+"PO-Revision-Date: 2026-10-15 05:40+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
+#: DeviceAutomounterKCM.ui:17
+#, kde-format
+msgid ""
+"This list contains the storage devices known to the system. If \"Automount "
+"on Login\" is checked, devices will be automatically mounted even though "
+"\"Mount all removable media at login\" is unchecked. The same applies for "
+"\"Automount on Attach\"."
+msgstr ""
+"این فهرست شامل دستگاه‌های ذخیره‌سازی شناخته‌شده برای سامانه است. اگر «سوار "
+"کردن خودکار هنگام ورود» علامت زده شده باشد، دستگاه‌ها به‌طور خودکار سوار "
+"می‌شوند، حتی اگر «سوار کردن همهٔ رسانه‌های جداشدنی هنگام ورود» علامت نخورده "
+"باشد. همین مورد برای «سوار کردن خودکار هنگام اتصال» نیز صدق می‌کند."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:54
+#, kde-format
+msgid ""
+"Clicking this button causes the selected devices to be 'forgotten'. This is "
+"only useful if \"Only automatically mount removable media that has been "
+"manually mounted before\" is checked. Once a device is forgotten and the "
+"system is set to only automatically mount familiar devices, the device will "
+"not be automatically mounted."
+msgstr ""
+"کلیک روی این دکمه باعث می‌شود دستگاه‌های انتخاب‌شده «فراموش» شوند. این "
+"قابلیت تنها زمانی مفید است که «فقط سوار کردن خودکار رسانه‌های جداشدنی که "
+"قبلاً دستی سوار شده‌اند» علامت زده شده باشد. هنگامی که یک دستگاه فراموش شود "
+"و سامانه روی سوار کردن خودکارِ فقط دستگاه‌های آشنا تنظیم شده باشد، آن دستگاه"
+" به‌طور خودکار سوار نخواهد شد."
+
+#. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:57
+#, kde-format
+msgid "Forget Device"
+msgstr "فراموش کردن دستگاه"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox,
+#. kcfg_AutomountUnknownDevices)
+#: DeviceAutomounterKCM.ui:67
+#, kde-format
+msgid ""
+"When this is not checked, only remembered devices will be automatically "
+"mounted. A device is 'remembered' if it has ever been mounted before. For "
+"instance, plugging in a USB media player to charge is not sufficient to "
+"'remember' it - if the files are not accessed, it will not be automatically "
+"mounted the next time it is seen. Once they have been accessed, however, the"
+" device's contents will be automatically made available to the system."
+msgstr ""
+"هنگامی که این گزینه علامت نخورده باشد، فقط دستگاه‌های به‌خاطرسپرده‌شده "
+"به‌طور خودکار سوار می‌شوند. یک دستگاه زمانی «به‌خاطرسپرده‌شده» محسوب می‌شود "
+"که حداقل یک بار قبلاً سوار شده باشد. برای نمونه، وصل کردن یک پخش‌کنندهٔ "
+"چندرسانه‌ای USB برای شارژ کردن برای «به‌خاطرسپردن» آن کافی نیست؛ اگر به "
+"پرونده‌ها دسترسی پیدا نشود، دفعهٔ بعد که شناسایی شود به‌طور خودکار سوار "
+"نخواهد شد. با این حال، به محض این که به پرونده‌ها دسترسی پیدا شود، محتویات "
+"دستگاه به‌طور خودکار در دسترس سامانه قرار خواهد گرفت."
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_AutomountUnknownDevices)
+#: DeviceAutomounterKCM.ui:70
+#, kde-format
+msgid ""
+"Automatically mount removable media that have never been mounted before"
+msgstr "سوار کردن خودکار رسانه‌های جداشدنی که تا کنون هرگز سوار نشده‌اند"
+
+#: DeviceModel.cpp:52
+#, kde-format
+msgid "Automount Device"
+msgstr "سوار کردن خودکار دستگاه"
+
+#: DeviceModel.cpp:54
+#, kde-format
+msgctxt "As in automount on login"
+msgid "On Login"
+msgstr "هنگام ورود"
+
+#: DeviceModel.cpp:56
+#, kde-format
+msgctxt "As in automount on attach"
+msgid "On Attach"
+msgstr "هنگام اتصال"
+
+#: DeviceModel.cpp:258
+#, kde-format
+msgid "All Devices"
+msgstr "همهٔ دستگاه‌ها"
+
+#: DeviceModel.cpp:258
+#, kde-format
+msgid "All Known Devices"
+msgstr "همهٔ دستگاه‌های شناخته‌شده"
+
+#: DeviceModel.cpp:260
+#, kde-format
+msgid "Attached Devices"
+msgstr "دستگاه‌های متصل"
+
+#: DeviceModel.cpp:262
+#, kde-format
+msgid "Disconnected Devices"
+msgstr "دستگاه‌های قطع‌شده"
+
+#: DeviceModel.cpp:298 DeviceModel.cpp:307
+#, kde-format
+msgid "UDI: %1"
+msgstr "UDI: %1"
+
+#: DeviceModel.cpp:318
+#, kde-format
+msgid "This device will be automatically mounted at login."
+msgstr "این دستگاه هنگام ورود به‌طور خودکار سوار خواهد شد."
+
+#: DeviceModel.cpp:318
+#, kde-format
+msgid "This device will not be automatically mounted at login."
+msgstr "این دستگاه هنگام ورود به‌طور خودکار سوار نخواهد شد."
+
+#: DeviceModel.cpp:326
+#, kde-format
+msgid "This device will be automatically mounted when attached."
+msgstr "این دستگاه هنگام اتصال به‌طور خودکار سوار خواهد شد."
+
+#: DeviceModel.cpp:327
+#, kde-format
+msgid "This device will not be automatically mounted when attached."
+msgstr "این دستگاه هنگام اتصال به‌طور خودکار سوار نخواهد شد."

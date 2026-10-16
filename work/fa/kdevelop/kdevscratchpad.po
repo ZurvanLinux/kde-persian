@@ -1,0 +1,128 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdevscratchpad package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevscratchpad\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-10-15 21:42+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: scratchpad.cpp:130 scratchpadview.cpp:88
+#, kde-format
+msgctxt "@title:window"
+msgid "Scratchpad"
+msgstr "چرکنویس"
+
+#: scratchpad.cpp:187
+#, kde-format
+msgid "Failed to remove scratch: %1"
+msgstr "حذف چرکنویس شکست خورد: %1"
+
+#: scratchpad.cpp:194
+#, kde-format
+msgid "Failed to create scratch: Name already in use"
+msgstr "ایجاد چرکنویس شکست خورد: نام از قبل استفاده شده است"
+
+#: scratchpad.cpp:206
+#, kde-format
+msgid "Failed to create new scratch"
+msgstr "ایجاد چرکنویس جدید شکست خورد"
+
+#: scratchpad.cpp:215
+#, kde-format
+msgid "Failed to rename scratch: Names must not include path separator"
+msgstr "تغییر نام چرکنویس شکست خورد: نام‌ها نباید شامل جداکنندهٔ مسیر باشند"
+
+#: scratchpad.cpp:256
+#, kde-format
+msgid "Failed renaming scratch."
+msgstr "تغییر نام چرکنویس شکست خورد."
+
+#: scratchpad.cpp:299 scratchpadjob.cpp:33
+#, kde-format
+msgctxt "prefix to distinguish scratch tabs"
+msgid "scratch:%1"
+msgstr "چرکنویس:%1"
+
+#: scratchpadjob.cpp:57
+#, kde-format
+msgid "Running %1..."
+msgstr "در حال اجرای %1..."
+
+#: scratchpadjob.cpp:73
+#, kde-format
+msgid "Process finished with exit code %1."
+msgstr "فرایند با کد خروج %1 به پایان رسید."
+
+#: scratchpadjob.cpp:80
+#, kde-format
+msgid "Failed to run scratch: %1"
+msgstr "اجرای چرکنویس شکست خورد: %1"
+
+#: scratchpadview.cpp:101
+#, kde-format
+msgid ""
+"Scratchpad lets you quickly run and experiment with code without a full "
+"project, and even store todos. Create a new scratch to start."
+msgstr ""
+"چرکنویس به شما امکان می‌دهد بدون نیاز به یک پروژه کامل، سریعاً کد را اجرا "
+"کرده و آزمایش کنید، و حتی کارهای انجام‌دادنی را ذخیره کنید. برای شروع، یک "
+"چرکنویس جدید ایجاد کنید."
+
+#: scratchpadview.cpp:115
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Command to run this scratch. '$f' will expand to the scratch path."
+msgstr ""
+"فرمان برای اجرای این چرکنویس. «‎$f» به مسیر چرکنویس بسط داده خواهد شد."
+
+#: scratchpadview.cpp:138
+#, kde-format
+msgctxt "@action"
+msgid "New Scratch"
+msgstr "چرکنویس جدید"
+
+#: scratchpadview.cpp:142
+#, kde-format
+msgctxt "@action"
+msgid "Remove Scratch"
+msgstr "حذف چرکنویس"
+
+#: scratchpadview.cpp:153
+#, kde-format
+msgctxt "@action"
+msgid "Rename Scratch"
+msgstr "تغییر نام چرکنویس"
+
+#: scratchpadview.cpp:162
+#, kde-format
+msgctxt "@action"
+msgid "Run Scratch"
+msgstr "اجرای چرکنویس"
+
+#: scratchpadview.cpp:168
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Filter..."
+msgstr "صافی..."
+
+#: scratchpadview.cpp:210
+#, kde-format
+msgctxt "@title:window"
+msgid "Create New Scratch"
+msgstr "ایجاد چرکنویس جدید"
+
+#: scratchpadview.cpp:211
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name for scratch file:"
+msgstr "نام پرونده چرکنویس:"

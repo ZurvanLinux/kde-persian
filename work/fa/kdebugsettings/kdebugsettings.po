@@ -1,0 +1,612 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdebugsettings package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebugsettings\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-13 00:49+0000\n"
+"PO-Revision-Date: 2026-10-15 19:52+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/apps/main.cpp:46
+#, kde-format
+msgid "KDebugSettings"
+msgstr "KDebugSettings"
+
+#: src/apps/main.cpp:48
+#, kde-format
+msgid "Configure debug settings"
+msgstr "پیکربندی تنظیمات اشکال‌زدایی"
+
+#: src/apps/main.cpp:50
+#, kde-format
+msgid "(c) 2015-%1 kdebugsettings authors"
+msgstr "© ۲۰۱۵-%1 نویسندگان kdebugsettings"
+
+#: src/apps/main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: src/apps/main.cpp:51
+#, kde-format
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: src/apps/main.cpp:75
+#, kde-format
+msgid "List of categories:"
+msgstr "فهرست دسته‌ها:"
+
+#: src/apps/main.cpp:86 src/apps/main.cpp:97 src/apps/main.cpp:110
+#, kde-format
+msgid "Impossible to change debug mode"
+msgstr "تغییر حالت اشکال‌زدایی ممکن نیست"
+
+#: src/apps/main.cpp:115
+#, kde-format
+msgid "--debug-mode requires at least one logging category name."
+msgstr "گزینهٔ ‎--debug-mode نیازمند حداقل یک نام دستهٔ گزارش‌گیری است."
+
+#: src/core/kdebugsettingscommandlineparser.cpp:22
+#, kde-format
+msgid ""
+"Enable QStandardPaths test mode, i.e. read/write settings used by unittests"
+msgstr ""
+"فعال‌سازی حالت آزمایشی QStandardPaths، یعنی تنظیمات خواندن/نوشتن استفاده‌شده"
+" توسط آزمون‌های واحد"
+
+#: src/core/kdebugsettingscommandlineparser.cpp:26
+#, kde-format
+msgid "Show categories list."
+msgstr "نمایش فهرست دسته‌ها."
+
+#: src/core/kdebugsettingscommandlineparser.cpp:31
+#, kde-format
+msgid "Activate full debug for all modules."
+msgstr "فعال‌سازی اشکال‌زدایی کامل برای همهٔ ماژول‌ها."
+
+#: src/core/kdebugsettingscommandlineparser.cpp:35
+#, kde-format
+msgid "Disable full debug for all modules."
+msgstr "غیرفعال‌سازی اشکال‌زدایی کامل برای همهٔ ماژول‌ها."
+
+#: src/core/kdebugsettingscommandlineparser.cpp:40
+#, kde-format
+msgid "Change debug mode as console (in console)"
+msgstr "تغییر حالت اشکال‌زدایی به کنسول (در کنسول)"
+
+#: src/core/kdebugsettingscommandlineparser.cpp:43
+#, kde-format
+msgid ""
+"Specify logging category name that you want to change debug mode (in "
+"console)"
+msgstr ""
+"نام دسته‌بندی گزارش‌گیری را که می‌خواهید حالت اشکال‌زدایی آن تغییر کند، مشخص"
+" کنید (در کنسول)"
+
+#: src/core/kdebugsettingsutil.cpp:412
+#, kde-format
+msgid "Full Debug"
+msgstr "اشکال‌زدایی کامل"
+
+#: src/core/kdebugsettingsutil.cpp:415
+#, kde-format
+msgid "Info"
+msgstr "اطلاعات"
+
+#: src/core/kdebugsettingsutil.cpp:418
+#, kde-format
+msgid "Warning"
+msgstr "هشدار"
+
+#: src/core/kdebugsettingsutil.cpp:421
+#, kde-format
+msgid "Critical"
+msgstr "بحرانی"
+
+#: src/core/kdebugsettingsutil.cpp:424
+#, kde-format
+msgid "Off"
+msgstr "خاموش"
+
+#: src/core/kdebugsettingsutil.cpp:427 src/core/loggingcategory.cpp:147
+#, kde-format
+msgid "Undefined"
+msgstr "تعریف‌نشده"
+
+#: src/core/loggingcategory.cpp:116
+#, kde-format
+msgid "Category name: %1"
+msgstr "نام دسته: %1"
+
+#: src/core/loggingcategory.cpp:118
+#, kde-format
+msgid "Identifier: %1"
+msgstr "شناسه: %1"
+
+#: src/core/loggingcategory.cpp:120
+#, kde-format
+msgid "Default Severity: %1"
+msgstr "شدت پیش‌فرض: %1"
+
+#: src/core/loggingcategory.cpp:129
+#, kde-format
+msgid "All Debug Messages"
+msgstr "تمام پیام‌های اشکال‌زدایی"
+
+#: src/core/loggingcategory.cpp:132
+#, kde-format
+msgid "Info Messages"
+msgstr "پیام‌های اطلاعاتی"
+
+#: src/core/loggingcategory.cpp:135
+#, kde-format
+msgid "Warning Messages"
+msgstr "پیام‌های هشدار"
+
+#: src/core/loggingcategory.cpp:138
+#, kde-format
+msgid "Debug Messages"
+msgstr "پیام‌های اشکال‌زدایی"
+
+#: src/core/loggingcategory.cpp:141
+#, kde-format
+msgid "Critical Messages"
+msgstr "پیام‌های حیاتی"
+
+#: src/core/loggingcategory.cpp:144
+#, kde-format
+msgid "No Debug Messages"
+msgstr "بدون پیام اشکال‌زدایی"
+
+#: src/kcm/ui/CustomRulesPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Custom Rules"
+msgstr "قواعد سفارشی"
+
+#: src/kcm/ui/CustomRulesPage.qml:70
+#, kde-format
+msgctxt "@action add custom rule"
+msgid "Add Rule…"
+msgstr "افزودن قاعده…"
+
+#: src/kcm/ui/CustomRulesPage.qml:82
+#, kde-format
+msgctxt "@action edit custom rule"
+msgid "Edit Rule…"
+msgstr "ویرایش قاعده…"
+
+#: src/kcm/ui/CustomRulesPage.qml:93
+#, kde-format
+msgctxt "@action remove custom rule"
+msgid "Remove Rule"
+msgstr "حذف قاعده"
+
+#: src/kcm/ui/CustomRulesPage.qml:101
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Rule"
+msgstr "حذف قاعده"
+
+#: src/kcm/ui/CustomRulesPage.qml:102
+#, kde-format
+msgid "Are you sure you want to remove rule ?"
+msgstr "آیا از حذف این قاعده مطمئن هستید؟"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:11
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Custom Rule"
+msgstr "ویرایش قاعدهٔ سفارشی"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:11
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Custom Rule"
+msgstr "ایجاد قاعدهٔ سفارشی"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:29
+#, kde-format
+msgctxt "@label:button"
+msgid "Save"
+msgstr "ذخیره"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:42
+#: src/widgets/configurecustomsettingwidget.cpp:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Category:"
+msgstr "دسته‌بندی:"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:51
+#: src/widgets/configurecustomsettingwidget.cpp:42
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Type:"
+msgstr "نوع:"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:62
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Enabled"
+msgstr "فعال"
+
+#: src/kcm/ui/EnvironmentVariableRulesPage.qml:12
+#, kde-format
+msgctxt "@title"
+msgid "Rules Settings with Environment Variable"
+msgstr "تنظیمات قواعد با متغیر محیطی"
+
+#: src/kcm/ui/EnvironmentVariableRulesPage.qml:21
+#: src/widgets/environmentplaintextedit.cpp:43
+#, kde-format
+msgid ""
+"No rules have been defined in the environment variable \"QT_LOGGING_RULES\"."
+msgstr "هیچ قاعده‌ای در متغیر محیطی «QT_LOGGING_RULES» تعریف نشده است."
+
+#: src/kcm/ui/KDEApplicationRulesPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "KDE Application Rules"
+msgstr "قواعد برنامه‌های KDE"
+
+#: src/kcm/ui/main.qml:19
+#, kde-format
+msgctxt "@action"
+msgid "Show KDE Application Categories"
+msgstr "نمایش دسته‌بندی‌های برنامه‌های KDE"
+
+#: src/kcm/ui/main.qml:26
+#, kde-format
+msgctxt "@action"
+msgid "Show Custom Categories"
+msgstr "نمایش دسته‌بندی‌های سفارشی"
+
+#: src/kcm/ui/main.qml:33
+#, kde-format
+msgctxt "@action"
+msgid "Show Environment Categories"
+msgstr "نمایش دسته‌بندی‌های محیط"
+
+#: src/widgets/categorywarning.cpp:16
+#, kde-format
+msgid ""
+"A custom rule '*=true' or '*=false' is present, which may override more "
+"specific rules. It is better to remove it."
+msgstr ""
+"یک قاعدهٔ سفارشی «*=true» یا «*=false» وجود دارد که ممکن است قواعد خاص‌تر را"
+" باطل کند. بهتر است آن را حذف کنید."
+
+#: src/widgets/configurecustomsettingdialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Add custom rule"
+msgstr "افزودن قاعدهٔ سفارشی"
+
+#: src/widgets/configurecustomsettingdialog.cpp:42
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit custom rule"
+msgstr "ویرایش قاعدهٔ سفارشی"
+
+#: src/widgets/configurecustomsettingwidget.cpp:24
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable"
+msgstr "فعال‌سازی"
+
+#: src/widgets/customdebuglistview.cpp:48
+#, kde-format
+msgctxt "@action"
+msgid "Add Rule…"
+msgstr "افزودن قاعده…"
+
+#: src/widgets/customdebuglistview.cpp:50
+#, kde-format
+msgctxt "@action"
+msgid "Edit Rule"
+msgstr "ویرایش قاعده"
+
+#: src/widgets/customdebuglistview.cpp:56
+#: src/widgets/customdebuglistview.cpp:94
+#, kde-format
+msgid "Remove Rule"
+msgid_plural "Remove Rules"
+msgstr[0] "حذف قاعده"
+msgstr[1] "حذف قاعده‌ها"
+
+#: src/widgets/customdebuglistview.cpp:89
+#, kde-format
+msgid "Do you want to remove this rule?"
+msgid_plural "Do you want to remove these %1 rules?"
+msgstr[0] "آیا می‌خواهید این قاعده را حذف کنید؟"
+msgstr[1] "آیا می‌خواهید این %1 قاعده را حذف کنید؟"
+
+#: src/widgets/customdebugsettingspage.cpp:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit…"
+msgstr "ویرایش…"
+
+#: src/widgets/customdebugsettingspage.cpp:24
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove…"
+msgstr "حذف…"
+
+#: src/widgets/customdebugsettingspage.cpp:40
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:33
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "جستجو…"
+
+#: src/widgets/customdebugsettingspage.cpp:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Add…"
+msgstr "افزودن…"
+
+#: src/widgets/environmentsettingsrulespage.cpp:31
+#, kde-format
+msgid ""
+"These rules cannot be edited with this application. You need to set them in "
+"QT_LOGGING_RULES variable directly."
+msgstr ""
+"این قاعده‌ها با این برنامه قابل ویرایش نیستند. باید آن‌ها را مستقیماً در "
+"متغیر QT_LOGGING_RULES تنظیم کنید."
+
+#: src/widgets/environmentsettingsrulespage.cpp:33
+#, kde-format
+msgid "Current rules:"
+msgstr "قوانین فعلی:"
+
+#: src/widgets/groupmanagementdialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Manage Group"
+msgstr "مدیریت گروه"
+
+#: src/widgets/groupmanagementwidget.cpp:51
+#: src/widgets/groupmanagementwidget.cpp:54
+#: src/widgets/groupmanagementwidget.cpp:56
+#, kde-format
+msgid "Export Group"
+msgstr "برون‌بری گروه"
+
+#: src/widgets/groupmanagementwidget.cpp:54
+#, kde-format
+msgid "Group exported to %1"
+msgstr "گروه به %1 صادر شد"
+
+#: src/widgets/groupmanagementwidget.cpp:56
+#, kde-format
+msgid "Impossible to export group '%2' to '%1'"
+msgstr "برون‌بری گروه «%2» به «%1» ممکن نیست"
+
+#: src/widgets/groupmanagementwidget.cpp:69
+#: src/widgets/groupmanagementwidget.cpp:74
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename Group"
+msgstr "تغییر نام گروه"
+
+#: src/widgets/groupmanagementwidget.cpp:69
+#, kde-format
+msgid "New Name:"
+msgstr "نام جدید:"
+
+#: src/widgets/groupmanagementwidget.cpp:74
+#, kde-format
+msgid "Impossible to rename group as '%1'."
+msgstr "تغییر نام گروه به «%1» امکان‌پذیر نیست."
+
+#: src/widgets/groupmanagementwidget.cpp:90
+#, kde-format
+msgctxt "@action"
+msgid "Rename Group…"
+msgstr "تغییر نام گروه…"
+
+#: src/widgets/groupmanagementwidget.cpp:94
+#, kde-format
+msgctxt "@action"
+msgid "Export Group…"
+msgstr "برون‌بری گروه…"
+
+#: src/widgets/groupmanagementwidget.cpp:99
+#, kde-format
+msgctxt "@action"
+msgid "Remove Groups"
+msgstr "حذف گروه‌ها"
+
+#: src/widgets/groupmanagementwidget.cpp:105
+#, kde-format
+msgid "Impossible to remove '%1'"
+msgstr "حذف «%1» ممکن نیست"
+
+#: src/widgets/groupmanagementwidget.cpp:105
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Group"
+msgstr "حذف گروه"
+
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable All Debug"
+msgstr "فعال‌سازی همهٔ اشکال‌زدایی‌ها"
+
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:24
+#, kde-format
+msgctxt "@action:button"
+msgid "Turn Off Debug"
+msgstr "خاموش کردن اشکال‌زدایی"
+
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:25
+#, kde-format
+msgctxt "@action:button"
+msgid "Turn Off All Messages"
+msgstr "خاموش کردن همهٔ پیام‌ها"
+
+#: src/widgets/kdebugsettingsdialog.cpp:70
+#, kde-format
+msgid "KDE Application"
+msgstr "برنامهٔ KDE"
+
+#: src/widgets/kdebugsettingsdialog.cpp:71
+#, kde-format
+msgid "Custom Rules"
+msgstr "قواعد سفارشی"
+
+#: src/widgets/kdebugsettingsdialog.cpp:72
+#, kde-format
+msgid "Rules Settings With Environment Variable"
+msgstr "تنظیمات قواعد با متغیر محیطی"
+
+#: src/widgets/kdebugsettingsdialog.cpp:80
+#, kde-format
+msgctxt "@action:button"
+msgid "Preview…"
+msgstr "پیش‌نمایش…"
+
+#: src/widgets/kdebugsettingsdialog.cpp:86 src/widgets/savetoolbutton.cpp:17
+#, kde-format
+msgid "Save As…"
+msgstr "ذخیره به نام…"
+
+#: src/widgets/kdebugsettingsdialog.cpp:99
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert…"
+msgstr "درج…"
+
+#: src/widgets/kdebugsettingsdialog.cpp:183
+#, kde-format
+msgid "'%1' cannot be opened. Please verify it."
+msgstr "باز کردن «%1» امکان‌پذیر نیست. لطفاً آن را بررسی کنید."
+
+#: src/widgets/kdebugsettingsdialog.cpp:208
+#, kde-format
+msgid "Insert Categories"
+msgstr "درج دسته‌ها"
+
+#: src/widgets/kdebugsettingsdialog.cpp:208
+#, kde-format
+msgid "Categories Files"
+msgstr "پرونده‌های دسته‌ها"
+
+#: src/widgets/kdebugsettingsdialog.cpp:222
+#, kde-format
+msgid "Categories from file '%1' inserted."
+msgstr "دسته‌ها از پروندهٔ «%1» درج شدند."
+
+#: src/widgets/kdebugsettingsdialog.cpp:222
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Categories"
+msgstr "درج دسته‌ها"
+
+#: src/widgets/kdebugsettingsdialog.cpp:230
+#, kde-format
+msgctxt "@title:window"
+msgid "Group Name"
+msgstr "نام گروه"
+
+#: src/widgets/kdebugsettingsdialog.cpp:230
+#, kde-format
+msgid "Name:"
+msgstr "نام:"
+
+#: src/widgets/kdebugsettingsdialog.cpp:235
+#, kde-format
+msgid ""
+"<b>'%1'</b> is already used as a group name.\n"
+"Please save as another name."
+msgstr ""
+"‏<b>«%1»</b> از قبل به عنوان نام گروه استفاده شده است.\n"
+"لطفاً با نام دیگری ذخیره کنید."
+
+#: src/widgets/kdebugsettingsdialog.cpp:244
+#, kde-format
+msgid "Can not save as empty name. Please use a new one."
+msgstr ""
+"امکان ذخیره با نام خالی وجود ندارد. لطفاً از یک نام جدید استفاده کنید."
+
+#: src/widgets/kdebugsettingsdialog.cpp:251
+#, kde-format
+msgctxt "@title:window"
+msgid "Save As"
+msgstr "ذخیره به نام"
+
+#: src/widgets/kdebugsettingsdialog.cpp:251
+#: src/widgets/kdebugsettingsdialog.cpp:260
+#, kde-format
+msgid "KDebugSettings File (*.kdebugsettingsrules)"
+msgstr "پروندهٔ KDebugSettings (*.kdebugsettingsrules)"
+
+#: src/widgets/kdebugsettingsdialog.cpp:260
+#, kde-format
+msgctxt "@title:window"
+msgid "Load Debug Settings Files"
+msgstr "بارگیری پرونده‌های تنظیمات اشکال‌زدایی"
+
+#: src/widgets/loadgroupmenu.cpp:22
+#, kde-format
+msgid "Load Group"
+msgstr "بارگیری گروه"
+
+#: src/widgets/loadgroupmenu.cpp:67
+#, kde-format
+msgctxt "@action"
+msgid "Manage Group"
+msgstr "مدیریت گروه"
+
+#: src/widgets/loadtoolbutton.cpp:21
+#, kde-format
+msgid "Load…"
+msgstr "بارگیری…"
+
+#: src/widgets/loadtoolbutton.cpp:25
+#, kde-format
+msgctxt "@action"
+msgid "Load From File…"
+msgstr "بارگیری از پرونده…"
+
+#: src/widgets/previewgeneratedfiledialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Preview Generated File"
+msgstr "پیش‌نمایش پروندهٔ تولیدشده"
+
+#: src/widgets/qtloggingfilechangedwarning.cpp:16
+#, kde-format
+msgid "qtlogging.ini was changed. Do you want to reload it?"
+msgstr "پروندهٔ qtlogging.ini تغییر کرده است. می‌خواهید دوباره بارگیری شود؟"
+
+#: src/widgets/qtloggingfilechangedwarning.cpp:19
+#, kde-format
+msgid "Reload"
+msgstr "بارگیری مجدد"
+
+#: src/widgets/savetoolbutton.cpp:22
+#, kde-format
+msgctxt "@action"
+msgid "Save As File…"
+msgstr "ذخیره به عنوان پرونده…"
+
+#: src/widgets/savetoolbutton.cpp:25
+#, kde-format
+msgctxt "@action"
+msgid "Save As Group…"
+msgstr "ذخیره به عنوان گروه…"

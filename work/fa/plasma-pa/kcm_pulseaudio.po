@@ -1,0 +1,644 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_pulseaudio package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_pulseaudio\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-18 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 09:48+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: devicerenamesaver.cpp:115
+#, kde-kuit-format
+msgctxt "@info:status error message"
+msgid ""
+"Changes have not been applied.<nl/>Failed to restart wireplumber.service. "
+"The command crashed."
+msgstr ""
+"تغییرات اعمال نشدند.<nl/>راه‌اندازی مجدد wireplumber.service ناموفق بود. "
+"فرمان از کار افتاد."
+
+#: devicerenamesaver.cpp:125
+#, kde-kuit-format
+msgctxt "@info:status error message %1 is an integer exit code"
+msgid ""
+"Changes have not been applied.<nl/>Failed to restart wireplumber.service. "
+"The command terminated with code: %1."
+msgstr ""
+"تغییرات اعمال نشدند.<nl/>راه‌اندازی مجدد wireplumber.service ناموفق بود. "
+"فرمان با کد %1 پایان یافت."
+
+#: devicerenamesaver.cpp:237
+#, kde-format
+msgctxt "@info error %1 is a list of device identifiers"
+msgid "Failed to handle devices: %1."
+msgstr "مدیریت دستگاه‌ها ناموفق بود: %1."
+
+#: devicerenamesaver.cpp:250
+#, kde-format
+msgctxt "@info error %1 is a path"
+msgid "Failed to create directory: %1."
+msgstr "ایجاد پوشه ناموفق بود: %1."
+
+#: devicerenamesaver.cpp:258
+#, kde-format
+msgctxt "@info error %1 is a path"
+msgid "Failed to open file for writing: %1."
+msgstr "باز کردن پرونده برای نوشتن ناموفق بود: %1."
+
+#: kcm/ui/CardListItem.qml:52 kcm/ui/DeviceListItem.qml:151
+#, kde-format
+msgctxt "@label"
+msgid "Profile:"
+msgstr "نمایه:"
+
+#: kcm/ui/ContextBrokenOverlay.qml:25
+#, kde-format
+msgctxt "@label"
+msgid "Connection to the Sound Service Lost"
+msgstr "اتصال به سرویس صدا قطع شد"
+
+#: kcm/ui/ContextBrokenOverlay.qml:28
+#, kde-format
+msgctxt "@info reconnecting to pulseaudio"
+msgid "Trying to reconnect…"
+msgstr "تلاش برای اتصال دوباره…"
+
+#: kcm/ui/ContextBrokenOverlay.qml:36
+#, kde-format
+msgctxt "@action retry connecting to pulseaudio"
+msgid "Retry"
+msgstr "تلاش دوباره"
+
+#: kcm/ui/DeviceListItem.qml:57 kded/audioshortcutsservice.cpp:235
+#, kde-format
+msgid "Device name not found"
+msgstr "نام دستگاه پیدا نشد"
+
+#: kcm/ui/DeviceListItem.qml:105
+#, kde-format
+msgid "Port:"
+msgstr "درگاه:"
+
+#: kcm/ui/DeviceListItem.qml:128 qml/listitemmenu.cpp:373
+#, kde-format
+msgctxt "Port is unavailable"
+msgid "%1 (unavailable)"
+msgstr "%1 (در دسترس نیست)"
+
+#: kcm/ui/DeviceListItem.qml:130 qml/listitemmenu.cpp:375
+#, kde-format
+msgctxt "Port is unplugged"
+msgid "%1 (unplugged)"
+msgstr "%1 (وصل‌نشده)"
+
+#: kcm/ui/DeviceListItem.qml:205
+#, kde-format
+msgctxt "Placeholder is channel name"
+msgid "%1:"
+msgstr "%1:"
+
+#: kcm/ui/DeviceListItem.qml:231
+#, kde-format
+msgctxt "Perform an audio test of the device"
+msgid "Test"
+msgstr "آزمایش"
+
+#: kcm/ui/DeviceListItem.qml:238
+#, kde-format
+msgctxt "Perform an audio test of the device"
+msgid "Test…"
+msgstr "آزمایش…"
+
+#: kcm/ui/DeviceListItem.qml:246
+#, kde-format
+msgctxt "Show audio channels (e.g. to control left/right audio balance"
+msgid "Show Channels"
+msgstr "نمایش کانال‌ها"
+
+#: kcm/ui/main.qml:74
+#, kde-format
+msgid "Show Inactive Devices"
+msgstr "نمایش دستگاه‌های غیرفعال"
+
+#: kcm/ui/main.qml:81
+#, kde-format
+msgid "Rename Devices…"
+msgstr "تغییر نام دستگاه‌ها…"
+
+#: kcm/ui/main.qml:87
+#, kde-format
+msgid "Configure Volume Controls…"
+msgstr "پیکربندی کنترل‌های بلندی صدا…"
+
+#: kcm/ui/main.qml:94
+#, kde-format
+msgid "Configure…"
+msgstr "پیکربندی…"
+
+#: kcm/ui/main.qml:97
+#, kde-format
+msgid "Requires %1 PulseAudio module"
+msgstr "نیازمند ماژول پالس‌اودیو %1 است"
+
+#: kcm/ui/main.qml:100
+#, kde-format
+msgid ""
+"Add virtual output device for simultaneous output on all local sound cards"
+msgstr ""
+"افزودن دستگاه خروجی مجازی برای خروجی هم‌زمان روی همهٔ کارت‌های صدای محلی"
+
+#: kcm/ui/main.qml:106
+#, kde-format
+msgid ""
+"Automatically switch all running streams when a new output becomes available"
+msgstr ""
+"تغییر خودکار همهٔ جریان‌های در حال اجرا هنگام در دسترس قرار گرفتن خروجی جدید"
+
+#: kcm/ui/main.qml:143 kcm/ui/RenameDevices.qml:205
+#, kde-format
+msgid "Playback Devices"
+msgstr "دستگاه‌های پخش"
+
+#: kcm/ui/main.qml:167 kcm/ui/RenameDevices.qml:229
+#, kde-format
+msgid "Recording Devices"
+msgstr "دستگاه‌های ضبط"
+
+#: kcm/ui/main.qml:191
+#, kde-format
+msgid "Inactive Cards"
+msgstr "کارت‌های غیرفعال"
+
+#: kcm/ui/main.qml:226
+#, kde-format
+msgid "Playback Streams"
+msgstr "جریان‌های پخش"
+
+#: kcm/ui/main.qml:278
+#, kde-format
+msgid "Recording Streams"
+msgstr "جریان‌های ضبط"
+
+#: kcm/ui/main.qml:312
+#, kde-kuit-format
+msgctxt ""
+"@info %1 is an error string produced by an external component, and probably "
+"untranslated"
+msgid ""
+"The PulseAudio audio subsystem was unable to play a test sound, and reported"
+" the following error:<nl/><nl/>“%1”<nl/><nl/>Restart the system and try "
+"again."
+msgstr ""
+"زیرسامانهٔ صوتی پالس‌اودیو قادر به پخش صدای آزمایشی نبود و خطای زیر را گزارش"
+" داد:<nl/><nl/>«%1»<nl/><nl/>سامانه را دوباره راه‌اندازی کرده و دوباره تلاش "
+"کنید."
+
+#: kcm/ui/main.qml:416
+#, kde-format
+msgid "Front Left"
+msgstr "جلو چپ"
+
+#: kcm/ui/main.qml:417
+#, kde-format
+msgid "Front Center"
+msgstr "جلو مرکز"
+
+#: kcm/ui/main.qml:418
+#, kde-format
+msgid "Front Right"
+msgstr "جلو راست"
+
+#: kcm/ui/main.qml:419
+#, kde-format
+msgid "Side Left"
+msgstr "کنار چپ"
+
+#: kcm/ui/main.qml:420
+#, kde-format
+msgid "Side Right"
+msgstr "کنار راست"
+
+#: kcm/ui/main.qml:421
+#, kde-format
+msgid "Rear Left"
+msgstr "عقب چپ"
+
+#: kcm/ui/main.qml:422
+#, kde-format
+msgid "Subwoofer"
+msgstr "ساب‌ووفر"
+
+#: kcm/ui/main.qml:423
+#, kde-format
+msgid "Rear Right"
+msgstr "عقب راست"
+
+#: kcm/ui/main.qml:424
+#, kde-format
+msgid "Mono"
+msgstr "مونو"
+
+#: kcm/ui/main.qml:492
+#, kde-format
+msgid "Click on any speaker to test sound"
+msgstr "برای آزمایش صدا، روی هر بلندگو کلیک کنید"
+
+#: kcm/ui/main.qml:507
+#, kde-kuit-format
+msgctxt ""
+"@info %1 is an error string produced by an external component, and probably "
+"untranslated"
+msgid ""
+"The PulseAudio audio subsystem was unable to record sound, and reported the "
+"following error:<nl/><nl/>“%1”<nl/><nl/>Restart the system and try again."
+msgstr ""
+"زیرسیستم صوتی PulseAudio قادر به ضبط صدا نبود و خطای زیر را گزارش "
+"کرد:<nl/><nl/>«%1»<nl/><nl/>سیستم را بازراه‌اندازی کرده و دوباره تلاش کنید."
+
+#: kcm/ui/main.qml:572
+#, kde-format
+msgctxt "Button to stop microphone recording in test mode"
+msgid "Stop"
+msgstr "توقف"
+
+#: kcm/ui/main.qml:572
+#, kde-format
+msgctxt "Button to start microphone recording in test mode"
+msgid "Record"
+msgstr "ضبط"
+
+#: kcm/ui/main.qml:585
+#, kde-format
+msgctxt "Button to stop microphone playing in test mode"
+msgid "Stop"
+msgstr "توقف"
+
+#: kcm/ui/main.qml:585
+#, kde-format
+msgctxt "Button to start microphone playing in test mode"
+msgid "Play"
+msgstr "پخش"
+
+#: kcm/ui/main.qml:604
+#, kde-format
+msgctxt "Label above the microphone volume meter in test overlay"
+msgid "Volume level"
+msgstr "سطح صدا"
+
+#: kcm/ui/main.qml:634
+#, kde-format
+msgctxt "Label showing current microphone input level percentage in test mode"
+msgid "%1 %"
+msgstr "%1 ٪"
+
+#: kcm/ui/main.qml:649
+#, kde-format
+msgctxt "Label above the microphone sensitivity slider in test overlay"
+msgid "Sensitivity"
+msgstr "حساسیت"
+
+#: kcm/ui/main.qml:680 kcm/ui/VolumeSlider.qml:68
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1٪"
+
+#: kcm/ui/main.qml:693 kcm/ui/VolumeSlider.qml:89
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "۱۰۰٪"
+
+#: kcm/ui/MuteButton.qml:24
+#, kde-format
+msgctxt "Unmute audio stream"
+msgid "Unmute %1"
+msgstr "لغو بی‌صدا کردن %1"
+
+#: kcm/ui/MuteButton.qml:24
+#, kde-format
+msgctxt "Mute audio stream"
+msgid "Mute %1"
+msgstr "بی‌صدا کردن %1"
+
+#: kcm/ui/RenameDevices.qml:31
+#, kde-format
+msgctxt "@title rename audio devices"
+msgid "Rename Devices"
+msgstr "تغییر نام دستگاه‌ها"
+
+#: kcm/ui/RenameDevices.qml:38
+#, kde-format
+msgctxt "@action save changes"
+msgid "Save"
+msgstr "ذخیره"
+
+#: kcm/ui/RenameDevices.qml:68
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Saving changes will restart audio services. Apps playing audio will "
+"experience interruptions and may need to be restarted."
+msgstr ""
+"ذخیرهٔ تغییرات، سرویس‌های صوتی را مجدداً راه‌اندازی می‌کند. برنامه‌های در "
+"حال پخش صدا دچار اختلال خواهند شد و ممکن است نیاز به راه‌اندازی مجدد داشته "
+"باشند."
+
+#: kcm/ui/RenameDevices.qml:80
+#, kde-format
+msgctxt "@action"
+msgid "Report Bug"
+msgstr "گزارش اشکال"
+
+#: kcm/ui/RenameDevices.qml:92
+#, kde-format
+msgctxt "@info:status reloading the backing data"
+msgid "Reloading"
+msgstr "در حال بازخوانی"
+
+#: kcm/ui/RenameDevices.qml:130
+#, kde-format
+msgctxt "place holder text, %1 is a device name"
+msgid "%1 (click 'Save' to apply)"
+msgstr "%1 (برای اعمال، روی «ذخیره» کلیک کنید)"
+
+#: kcm/ui/RenameDevices.qml:153
+#, kde-format
+msgctxt "@action apply currently editing test"
+msgid "Apply"
+msgstr "اعمال"
+
+#: kcm/ui/RenameDevices.qml:159
+#, kde-format
+msgctxt "@action reset device name to default"
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: kcm/ui/RenameDevices.qml:166
+#, kde-format
+msgctxt ""
+"@label placeholder text when we don't know the default value of a device yet"
+msgid "DEFAULT"
+msgstr "پیش‌فرض"
+
+#: kcm/ui/StreamListItem.qml:59
+#, kde-format
+msgid "Notification Sounds"
+msgstr "صداهای اعلان"
+
+#: kcm/ui/StreamListItem.qml:65
+#, kde-format
+msgctxt "label of stream items"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: kcm/ui/VolumeControlsConfig.qml:15
+#, kde-format
+msgid "Volume Controls"
+msgstr "کنترل‌های بلندی صدا"
+
+#: kcm/ui/VolumeControlsConfig.qml:30
+#, kde-format
+msgid "Raise maximum volume"
+msgstr "افزایش حداکثر بلندی صدا"
+
+#: kcm/ui/VolumeControlsConfig.qml:38
+#, kde-format
+msgid "Volume change step:"
+msgstr "گام تغییر بلندی صدا:"
+
+#: kcm/ui/VolumeControlsConfig.qml:67
+#, kde-format
+msgid "Play audio feedback for changes to:"
+msgstr "پخش بازخورد صوتی برای تغییرات:"
+
+#: kcm/ui/VolumeControlsConfig.qml:68 kcm/ui/VolumeControlsConfig.qml:77
+#, kde-format
+msgid "Audio volume"
+msgstr "بلندی صدا"
+
+#: kcm/ui/VolumeControlsConfig.qml:76
+#, kde-format
+msgid "Show OSD popups for changes to:"
+msgstr "نمایش پنجره‌های بازشوی OSD برای تغییرات:"
+
+#: kcm/ui/VolumeControlsConfig.qml:84
+#, kde-format
+msgid "Microphone sensitivity"
+msgstr "حساسیت میکروفون"
+
+#: kcm/ui/VolumeControlsConfig.qml:91
+#, kde-format
+msgid "Mute state"
+msgstr "وضعیت بی‌صدا"
+
+#: kcm/ui/VolumeControlsConfig.qml:98
+#, kde-format
+msgctxt "Show OSD when"
+msgid "Push to talk"
+msgstr "فشردن برای گفت‌وگو"
+
+#: kcm/ui/VolumeControlsConfig.qml:104
+#, kde-format
+msgctxt "Show OSD when"
+msgid "Application starts using muted microphone"
+msgstr "برنامه‌ای شروع به استفاده از میکروفون بی‌صدا کند"
+
+#: kcm/ui/VolumeControlsConfig.qml:111
+#, kde-format
+msgid "Default output device"
+msgstr "دستگاه خروجی پیش‌فرض"
+
+#: kded/audioshortcutsservice.cpp:84
+#, kde-format
+msgid "Increase Volume"
+msgstr "افزایش بلندی صدا"
+
+#: kded/audioshortcutsservice.cpp:99
+#, kde-format
+msgid "Decrease Volume"
+msgstr "کاهش بلندی صدا"
+
+#: kded/audioshortcutsservice.cpp:114
+#, kde-format
+msgid "Increase Volume by 1%"
+msgstr "افزایش بلندی صدا به میزان ۱٪"
+
+#: kded/audioshortcutsservice.cpp:129
+#, kde-format
+msgid "Decrease Volume by 1%"
+msgstr "کاهش بلندی صدا به میزان ۱٪"
+
+#: kded/audioshortcutsservice.cpp:144
+#, kde-format
+msgid "Increase Microphone Volume"
+msgstr "افزایش بلندی صدای میکروفون"
+
+#: kded/audioshortcutsservice.cpp:158
+#, kde-format
+msgid "Decrease Microphone Volume"
+msgstr "کاهش بلندی صدای میکروفون"
+
+#: kded/audioshortcutsservice.cpp:172 qml/microphoneindicator.cpp:133
+#, kde-format
+msgid "Mute"
+msgstr "بی‌صدا کردن"
+
+#: kded/audioshortcutsservice.cpp:185
+#, kde-format
+msgid "Mute Microphone"
+msgstr "بی‌صدا کردن میکروفون"
+
+#: kded/audioshortcutsservice.cpp:198
+#, kde-format
+msgctxt "Microphone unmuted only while holding the key"
+msgid "Push to talk"
+msgstr "فشردن برای گفت‌وگو"
+
+#: kded/audioshortcutsservice.cpp:206
+#, kde-format
+msgid "Audio Volume"
+msgstr "بلندی صدا"
+
+#: kded/audioshortcutsservice.cpp:224
+#, kde-format
+msgid "No such device"
+msgstr "چنین دستگاهی وجود ندارد"
+
+#: kded/audioshortcutsservice.cpp:270
+#, kde-format
+msgid "No output device"
+msgstr "هیچ دستگاه خروجی وجود ندارد"
+
+#: kded/audioshortcutsservice.cpp:291 kded/audioshortcutsservice.cpp:311
+#, kde-format
+msgctxt "Device name (Battery percent)"
+msgid "%1 (%2% Battery)"
+msgstr "%1 (%2٪ باتری)"
+
+#: kded/audioshortcutsservice.cpp:397
+#, kde-format
+msgctxt "Push to talk button depressed, microphone unmuted"
+msgid "Speak…"
+msgstr "صحبت کنید…"
+
+#: kded/mutedmicrophonereminder.cpp:131
+#, kde-format
+msgctxt "Microphone name: is currently muted (osd, keep short)"
+msgid "%1: Muted"
+msgstr "%1: بی‌صدا"
+
+#: microphonetest.cpp:105 microphonetest.cpp:147 microphonetest.cpp:258
+#, kde-format
+msgctxt "@info:status"
+msgid "PulseAudio context is not ready."
+msgstr "زمینهٔ PulseAudio آماده نیست."
+
+#: microphonetest.cpp:155
+#, kde-format
+msgctxt "@info:status"
+msgid "Couldn’t create a recording stream."
+msgstr "ایجاد جریان ضبط ممکن نشد."
+
+#: microphonetest.cpp:171
+#, kde-format
+msgctxt "@info:status"
+msgid "Couldn’t connect to recording stream: %1."
+msgstr "اتصال به جریان ضبط ممکن نشد: %1."
+
+#: microphonetest.cpp:268
+#, kde-format
+msgctxt "@info:status"
+msgid "Couldn’t create a playback stream."
+msgstr "ایجاد جریان پخش ممکن نشد."
+
+#: microphonetest.cpp:284
+#, kde-format
+msgctxt "@info:status"
+msgid "Couldn’t connect to playback stream: %1"
+msgstr "اتصال به جریان پخش ممکن نشد: %1"
+
+#: qml/listitemmenu.cpp:323
+#, kde-format
+msgid "Play all audio via this device"
+msgstr "پخش همهٔ صداها از طریق این دستگاه"
+
+#: qml/listitemmenu.cpp:330
+#, kde-format
+msgid "Record all audio via this device"
+msgstr "ضبط همهٔ صداها از طریق این دستگاه"
+
+#: qml/listitemmenu.cpp:361
+#, kde-format
+msgctxt ""
+"Heading for a list of ports of a device (for example built-in laptop "
+"speakers or a plug for headphones)"
+msgid "Ports"
+msgstr "درگاه‌ها"
+
+#: qml/listitemmenu.cpp:431
+#, kde-format
+msgctxt ""
+"Heading for a list of device profiles (5.1 surround sound, stereo, speakers "
+"only, ...)"
+msgid "Profiles"
+msgstr "نمایه‌ها"
+
+#: qml/listitemmenu.cpp:465
+#, kde-format
+msgctxt ""
+"Heading for a list of possible output devices (speakers, headphones, ...) to"
+" choose"
+msgid "Play audio using"
+msgstr "پخش صدا با استفاده از"
+
+#: qml/listitemmenu.cpp:467
+#, kde-format
+msgctxt ""
+"Heading for a list of possible input devices (built-in microphone, headset, "
+"...) to choose"
+msgid "Record audio using"
+msgstr "ضبط صدا با استفاده از"
+
+#: qml/microphoneindicator.cpp:167 qml/microphoneindicator.cpp:169
+#, kde-format
+msgid "Microphone"
+msgstr "میکروفون"
+
+#: qml/microphoneindicator.cpp:169
+#, kde-format
+msgid "Microphone Muted"
+msgstr "میکروفون بی‌صدا"
+
+#: qml/microphoneindicator.cpp:316
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr "، "
+
+#: qml/microphoneindicator.cpp:316
+#, kde-format
+msgctxt "List of apps is using mic"
+msgid "%1 are using the microphone"
+msgstr "%1 در حال استفاده از میکروفون هستند"
+
+#: qml/microphoneindicator.cpp:342
+#, kde-format
+msgctxt "App %1 is using mic with name %2"
+msgid "%1 is using the microphone (%2)"
+msgstr "%1 در حال استفاده از میکروفون است (%2)"
+
+#: qml/microphoneindicator.cpp:349
+#, kde-format
+msgctxt "App is using mic"
+msgid "%1 is using the microphone"
+msgstr "%1 در حال استفاده از میکروفون است"

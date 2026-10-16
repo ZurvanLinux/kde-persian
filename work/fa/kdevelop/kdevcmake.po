@@ -1,0 +1,427 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdevcmake package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevcmake\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-10 00:42+0000\n"
+"PO-Revision-Date: 2026-10-15 21:21+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cmakebuilddirchooser.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure a Build Directory - %1"
+msgstr "پیکربندی پوشهٔ ساخت - %1"
+
+#: cmakebuilddirchooser.cpp:86
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure a Build Directory for %1"
+msgstr "پیکربندی پوشهٔ ساخت برای %1"
+
+#: cmakebuilddirchooser.cpp:196
+#, kde-format
+msgid "You need to specify a build directory."
+msgstr "باید یک پوشهٔ ساخت مشخص کنید."
+
+#: cmakebuilddirchooser.cpp:203
+#, kde-format
+msgid "Using an already created build directory."
+msgstr "استفاده از پوشهٔ ساختِ از پیش ایجادشده."
+
+#: cmakebuilddirchooser.cpp:214
+#, kde-format
+msgid "Creating a new build directory."
+msgstr "ایجاد یک پوشهٔ ساخت جدید."
+
+#: cmakebuilddirchooser.cpp:220
+#, kde-format
+msgid "Build directory already configured."
+msgstr "پوشهٔ ساخت از قبل پیکربندی شده است."
+
+#: cmakebuilddirchooser.cpp:222
+#, kde-format
+msgid "This build directory is for %1, but the project directory is %2."
+msgstr "این پوشهٔ ساخت برای %1 است، اما پوشهٔ پروژه %2 می‌باشد."
+
+#: cmakebuilddirchooser.cpp:225
+#, kde-format
+msgid "You may not select a relative build directory."
+msgstr "نمی‌توانید یک پوشهٔ ساخت نسبی را انتخاب کنید."
+
+#: cmakebuilddirchooser.cpp:227
+#, kde-format
+msgid "The selected build directory is not empty."
+msgstr "پوشهٔ ساخت انتخاب‌شده خالی نیست."
+
+#. i18n: ectx: property (text), widget (QLabel, availableLabel)
+#: cmakebuilddirchooser.ui:32
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Available build directories:"
+msgstr "پوشه‌های ساخت موجود:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, availableBuildDirs)
+#: cmakebuilddirchooser.ui:40
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "New build directory"
+msgstr "پوشهٔ ساخت جدید"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: cmakebuilddirchooser.ui:48
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Build &directory:"
+msgstr "پوشهٔ ساخت:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cmakebuilddirchooser.ui:84
+#, kde-format
+msgctxt "@label:chooser"
+msgid "&Installation prefix:"
+msgstr "پیشوند نصب:"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, installPrefix)
+#: cmakebuilddirchooser.ui:109
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The prefix under which the project will be installed. Leaving this empty "
+"will let CMake use its default install prefix."
+msgstr ""
+"پیشوندی که پروژه تحت آن نصب خواهد شد. خالی گذاشتن این مورد باعث می‌شود CMake"
+" از پیشوند نصب پیش‌فرض خود استفاده کند."
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester,
+#. installPrefix)
+#: cmakebuilddirchooser.ui:112
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "CMake's default install prefix"
+msgstr "پیشوند نصب پیش‌فرض CMake"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: cmakebuilddirchooser.ui:119
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Build &type:"
+msgstr "نوع ساخت:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, extraArgumentsLabel)
+#: cmakebuilddirchooser.ui:162 settings/cmakebuildsettings.ui:178
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Extra arguments:"
+msgstr "آرگومان‌های اضافی:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: cmakebuilddirchooser.ui:182
+#, kde-format
+msgctxt "@label:chooser"
+msgid "CMake &executable:"
+msgstr "فایل اجرایی CMake:"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. autoConfigureOnCMakeListsChanges)
+#: cmakebuilddirchooser.ui:205 settings/cmakebuildsettings.ui:232
+#, kde-format
+msgctxt "@option:check"
+msgid "Automatically reconfigure when CMake project files change"
+msgstr "پیکربندی مجدد خودکار هنگام تغییر پرونده‌های پروژهٔ CMake"
+
+#: cmakecodecompletionmodel.cpp:192
+#, kde-format
+msgid "INVALID"
+msgstr "نامعتبر"
+
+#: cmakecodecompletionmodel.cpp:200
+#, kde-format
+msgctxt "@item"
+msgid "Command"
+msgstr "دستور"
+
+#: cmakecodecompletionmodel.cpp:201
+#, kde-format
+msgctxt "@item"
+msgid "Variable"
+msgstr "متغیر"
+
+#: cmakecodecompletionmodel.cpp:202
+#, kde-format
+msgctxt "@item"
+msgid "Macro"
+msgstr "ماکرو"
+
+#: cmakecodecompletionmodel.cpp:203
+#, kde-format
+msgctxt "@item"
+msgid "Path"
+msgstr "مسیر"
+
+#: cmakecodecompletionmodel.cpp:204
+#, kde-format
+msgctxt "@item"
+msgid "Target"
+msgstr "هدف"
+
+#: cmakecodecompletionmodel.cpp:256
+#, kde-format
+msgid "wrong"
+msgstr "نادرست"
+
+#: cmakecommandscontents.cpp:29
+#, kde-format
+msgctxt "@item cmake"
+msgid "Commands"
+msgstr "دستورها"
+
+#: cmakecommandscontents.cpp:30
+#, kde-format
+msgctxt "@item cmake"
+msgid "Variables"
+msgstr "متغیرها"
+
+#: cmakecommandscontents.cpp:31
+#, kde-format
+msgctxt "@item cmake"
+msgid "Modules"
+msgstr "پیمانه‌ها"
+
+#: cmakecommandscontents.cpp:32
+#, kde-format
+msgctxt "@item cmake"
+msgid "Properties"
+msgstr "ویژگی‌ها"
+
+#: cmakecommandscontents.cpp:33
+#, kde-format
+msgctxt "@item cmake"
+msgid "Policies"
+msgstr "خط‌مشی‌ها"
+
+#: cmakecommandscontents.cpp:102
+#, kde-format
+msgid "<p>For better CMake documentation rendering, install rst2html.</p>"
+msgstr "<p>برای رندر بهتر مستندات CMake، برنامه rst2html را نصب کنید.</p>"
+
+#: cmakedocumentation.cpp:46 cmakemanager.cpp:76
+#, kde-format
+msgid "Unable to find a CMake executable. Is one installed on the system?"
+msgstr "فایل اجرایی CMake یافت نشد. آیا روی سیستم نصب شده است؟"
+
+#: cmakedocumentation.cpp:81
+#, kde-format
+msgid "<br /><em>Cache Value:</em> %1\n"
+msgstr "<br /><em>مقدار حافظه پنهان:</em> %1\n"
+
+#: cmakedocumentation.cpp:84
+#, kde-format
+msgid "<br /><em>Cache Documentation:</em> %1\n"
+msgstr "<br /><em>مستندات حافظه پنهان:</em> %1\n"
+
+#: cmakefileapiimportjob.cpp:41
+#, kde-format
+msgctxt "error message"
+msgid "invalid CMake file API project data"
+msgstr "داده‌های پروژه CMake file API نامعتبر است"
+
+#: cmakehelpdocumentation.cpp:21
+#, kde-format
+msgid "CMake Content Page"
+msgstr "صفحه محتوای CMake"
+
+#: cmakemanager.cpp:692
+#, kde-format
+msgid ""
+"Configured project '%1' with outdated CMake data. As a result, KDevelop's code understanding may be wrong.\n"
+"\n"
+"To fix this issue, please right-click the project item in the projects tool view and click 'Reload'."
+msgstr ""
+"پروژه «%1» با داده‌های قدیمی CMake پیکربندی شده است. در نتیجه، ممکن است درک کد KDevelop نادرست باشد.\n"
+"\n"
+"برای رفع این مشکل، لطفاً روی آیتم پروژه در نمای ابزار پروژه‌ها راست‌کلیک کرده و «بارگذاری مجدد» را انتخاب کنید."
+
+#: cmakemanager.cpp:703
+#, kde-format
+msgid ""
+"Failed to configure project '%1' (error message: %2). As a result, KDevelop's code understanding will likely be broken.\n"
+"\n"
+"To fix this issue, please ensure that the project's CMakeLists.txt files are correct, and KDevelop is configured to use the correct CMake version and settings. Then right-click the project item in the projects tool view and click 'Reload'."
+msgstr ""
+"پیکربندی پروژه «%1» ناموفق بود (پیام خطا: %2). در نتیجه، احتمالاً درک کد KDevelop دچار مشکل خواهد شد.\n"
+"\n"
+"برای رفع این مشکل، لطفاً مطمئن شوید که فایل‌های CMakeLists.txt پروژه صحیح هستند و KDevelop برای استفاده از نسخه و تنظیمات درست CMake پیکربندی شده است. سپس روی آیتم پروژه در نمای ابزار پروژه‌ها راست‌کلیک کرده و «بارگذاری مجدد» را انتخاب کنید."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/cmakebuildsettings.ui:74
+#, kde-format
+msgctxt "@title:group"
+msgid "Cache Values"
+msgstr "مقادیر حافظه پنهان"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: settings/cmakebuildsettings.ui:89
+#, kde-format
+msgctxt "@label"
+msgid "Comment:"
+msgstr "توضیح:"
+
+#. i18n: ectx: property (text), widget (QPushButton, showAdvanced)
+#: settings/cmakebuildsettings.ui:106
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Advanced"
+msgstr "نمایش پیشرفته"
+
+#. i18n: ectx: property (title), widget (QGroupBox, advancedBox)
+#: settings/cmakebuildsettings.ui:125
+#, kde-format
+msgctxt "@title:group"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#. i18n: ectx: property (text), widget (QLabel, installationPrefixLabel)
+#: settings/cmakebuildsettings.ui:134
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Installation prefix:"
+msgstr "پیشوند نصب:"
+
+#. i18n: ectx: property (text), widget (QLabel, buildTypeLabel)
+#: settings/cmakebuildsettings.ui:144
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Build type:"
+msgstr "نوع ساخت:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/cmakebuildsettings.ui:198
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Configure environment:"
+msgstr "پیکربندی محیط:"
+
+#. i18n: ectx: property (toolTip), widget
+#. (KDevelop::EnvironmentSelectionWidget, environment)
+#: settings/cmakebuildsettings.ui:213
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select an environment to be used"
+msgstr "محیطی را برای استفاده انتخاب کنید"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showInternal)
+#: settings/cmakebuildsettings.ui:225
+#, kde-format
+msgctxt "@option:check"
+msgid "Show advanced values"
+msgstr "نمایش مقادیر پیشرفته"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/cmakebuildsettings.ui:242
+#, kde-format
+msgctxt "@label:chooser"
+msgid "CMake executable:"
+msgstr "فایل اجرایی CMake:"
+
+#: settings/cmakecachemodel.cpp:36
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "نام"
+
+#: settings/cmakecachemodel.cpp:37
+#, kde-format
+msgctxt "@title:column"
+msgid "Type"
+msgstr "نوع"
+
+#: settings/cmakecachemodel.cpp:38
+#, kde-format
+msgctxt "@title:column"
+msgid "Value"
+msgstr "مقدار"
+
+#: settings/cmakecachemodel.cpp:39
+#, kde-format
+msgctxt "@title:column"
+msgid "Comment"
+msgstr "توضیح"
+
+#: settings/cmakecachemodel.cpp:40
+#, kde-format
+msgctxt "@title:column"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: settings/cmakecachemodel.cpp:41
+#, kde-format
+msgctxt "@title:column"
+msgid "Strings"
+msgstr "رشته‌ها"
+
+#: settings/cmakepreferences.cpp:370
+#, kde-format
+msgid ""
+"The %1 directory is about to be removed in KDevelop's list.\n"
+"Do you want KDevelop to delete it in the file system as well?"
+msgstr ""
+"پوشهٔ %1 در شرف حذف از فهرست KDevelop است.\n"
+"آیا می‌خواهید KDevelop آن را از سامانهٔ پرونده نیز حذف کند؟"
+
+#: settings/cmakepreferences.cpp:374
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Delete"
+msgstr "حذف نشود"
+
+#: settings/cmakepreferences.cpp:379
+#, kde-format
+msgid "Could not remove: %1"
+msgstr "حذف نشد: %1"
+
+#: settings/cmakepreferences.cpp:425
+#, kde-format
+msgctxt "@title:tab"
+msgid "CMake"
+msgstr "CMake"
+
+#: settings/cmakepreferences.cpp:430
+#, kde-format
+msgctxt "@title:tab"
+msgid "Configure CMake Settings"
+msgstr "پیکربندی تنظیمات CMake"
+
+#: testing/ctestfindjob.cpp:23
+#, kde-format
+msgid "Parse test suite %1"
+msgstr "تجزیه مجموعه آزمون %1"
+
+#: testing/ctestrunjob.cpp:77
+#, kde-format
+msgid "CTest"
+msgstr "CTest"
+
+#: testing/ctestrunjob.cpp:127
+#, kde-format
+msgctxt "running test %1, %2 test case"
+msgid "CTest %1: %2"
+msgstr "CTest %1: %2"
+
+#: testing/ctestrunjob.cpp:129
+#, kde-format
+msgctxt "running test %1, %2 number of test cases"
+msgid "CTest %2 (%1)"
+msgid_plural "CTest %2 (%1)"
+msgstr[0] "CTest %2 (%1)"
+msgstr[1] "CTest %2 (%1)"

@@ -1,0 +1,2014 @@
+# translation of krdc.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: krdc\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-01 00:45+0000\n"
+"PO-Revision-Date: 2026-10-16 00:21+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: bookmarkmanager.cpp:125
+#, kde-format
+msgid "History"
+msgstr "تاریخچه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberSessions)
+#: config/general.ui:17
+#, kde-format
+msgid "Remember open sessions for next startup"
+msgstr "به‌خاطر سپردن نشست‌های باز برای راه‌اندازی بعدی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberHistory)
+#: config/general.ui:24
+#, kde-format
+msgid "Remember connection history"
+msgstr "به‌خاطر سپردن تاریخچهٔ اتصالات"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WalletSupport)
+#: config/general.ui:31
+#, kde-format
+msgid "Remember passwords"
+msgstr "به‌خاطر سپردن گذرواژه‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SystemTrayIcon)
+#: config/general.ui:38
+#, kde-format
+msgid "Enable system tray icon"
+msgstr "فعال‌سازی نماد سینی سیستم"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStatusBar)
+#: config/general.ui:45
+#, kde-format
+msgid "Show status bar"
+msgstr "نمایش نوار وضعیت"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepAspectRatio)
+#: config/general.ui:52
+#, kde-format
+msgid "Keep aspect ratio when scaling"
+msgstr "حفظ نسبت ابعاد هنگام مقیاس‌بندی"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundLabel)
+#: config/general.ui:61
+#, kde-format
+msgid "Background color of empty place:"
+msgstr "رنگ پس‌زمینهٔ فضای خالی:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, connectionGroupBox)
+#: config/general.ui:93
+#, kde-format
+msgid "When Connecting"
+msgstr "هنگام اتصال"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_ShowPreferencesForNewConnections)
+#: config/general.ui:99
+#, kde-format
+msgid "Show the preferences dialog for new connections"
+msgstr "نمایش گفتگوی ترجیحات برای اتصالات جدید"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResizeOnConnect)
+#: config/general.ui:106
+#, kde-format
+msgid ""
+"This option will resize the window to fit the connection size.  If it is too"
+" big, it will maximize the window."
+msgstr ""
+"این گزینه اندازه پنجره را متناسب با اندازه اتصال تغییر می‌دهد. اگر خیلی بزرگ"
+" باشد، پنجره را بیشینه می‌کند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResizeOnConnect)
+#: config/general.ui:109
+#, kde-format
+msgid "Resize to fit"
+msgstr "تغییر اندازه متناسب با صفحه"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_FullscreenOnConnect)
+#: config/general.ui:116
+#, kde-format
+msgid ""
+"This option switches to fullscreen only if the connection resolution is the "
+"same as the current screen resolution"
+msgstr ""
+"این گزینه تنها در صورتی به حالت تمام‌صفحه می‌رود که وضوح اتصال با وضوح فعلی "
+"صفحه نمایش یکسان باشد"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FullscreenOnConnect)
+#: config/general.ui:119
+#, kde-format
+msgid "Switch to Fullscreen if appropriate"
+msgstr "تغییر به تمام‌صفحه در صورت مناسب بودن"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_GrabAllKeysOnFullscreen)
+#: config/general.ui:126
+#, kde-format
+msgid ""
+"Automatically grab all keys when entering fullscreen mode and release them "
+"when leaving fullscreen"
+msgstr ""
+"گرفتن خودکار همه کلیدها هنگام ورود به حالت تمام‌صفحه و رها کردن آن‌ها هنگام "
+"خروج از تمام‌صفحه"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_GrabAllKeysOnFullscreen)
+#: config/general.ui:129
+#, kde-format
+msgid "Grab all keys when entering fullscreen"
+msgstr "گرفتن همه کلیدها هنگام ورود به تمام‌صفحه"
+
+#. i18n: ectx: property (text), widget (QLabel, defaultProtocolLabel)
+#: config/general.ui:138
+#, kde-format
+msgid "Default protocol:"
+msgstr "پروتکل پیش‌فرض:"
+
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_DefaultProtocol)
+#: config/general.ui:145
+#, kde-format
+msgid "vnc"
+msgstr "vnc"
+
+#. i18n: ectx: property (title), widget (QGroupBox, tabGroupBox)
+#: config/general.ui:157
+#, kde-format
+msgid "Tab Settings"
+msgstr "تنظیمات زبانه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTabBar)
+#: config/general.ui:163
+#, kde-format
+msgid "Always show tab bar"
+msgstr "همیشه نوار زبانه نشان داده شود"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabCloseButton)
+#: config/general.ui:170
+#, kde-format
+msgid "Show close button on tabs"
+msgstr "نمایش دکمهٔ بستن روی زبانه‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabMiddleClick)
+#: config/general.ui:177
+#, kde-format
+msgid "Middle-click on a tab closes it"
+msgstr "کلیک وسط روی یک زبانه آن را ببندد"
+
+#. i18n: ectx: property (text), widget (QLabel, tabOrientationLabel)
+#: config/general.ui:186
+#, kde-format
+msgid "Tab position:"
+msgstr "موقعیت زبانه:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#: config/general.ui:194
+#, kde-format
+msgid "Top"
+msgstr "بالا"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#: config/general.ui:199
+#, kde-format
+msgid "Bottom"
+msgstr "پایین"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#: config/general.ui:204
+#, kde-format
+msgid "Left"
+msgstr "چپ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#: config/general.ui:209
+#, kde-format
+msgid "Right"
+msgstr "راست"
+
+#: config/hostpreferenceslist.cpp:30
+#, kde-format
+msgid "Configure…"
+msgstr "پیکربندی…"
+
+#: config/hostpreferenceslist.cpp:36
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#: config/hostpreferenceslist.cpp:99 mainwindow.cpp:299 mainwindow.cpp:800
+#: mainwindow.cpp:816
+#, kde-format
+msgid "Unusable URL"
+msgstr "نشانی وب غیرقابل استفاده"
+
+#: config/hostpreferenceslist.cpp:99 mainwindow.cpp:816
+#, kde-format
+msgid "The selected host cannot be handled."
+msgstr "میزبان انتخاب‌شده قابل پردازش نیست."
+
+#: config/preferencesdialog.cpp:24
+#, kde-format
+msgctxt "General Config"
+msgid "General"
+msgstr "عمومی"
+
+#: config/preferencesdialog.cpp:24
+#, kde-format
+msgid "General Configuration"
+msgstr "پیکربندی عمومی"
+
+#: config/preferencesdialog.cpp:28
+#, kde-format
+msgid "Hosts"
+msgstr "میزبان‌ها"
+
+#: config/preferencesdialog.cpp:28 core/hostpreferences.cpp:220
+#: core/hostpreferences.cpp:224
+#, kde-format
+msgid "Host Configuration"
+msgstr "پیکربندی میزبان"
+
+#: config/preferencesdialog.cpp:33 config/preferencesdialog.cpp:34
+#, kde-format
+msgid "Plugins"
+msgstr "افزونه‌ها"
+
+#: config/preferencesdialog.cpp:34
+#, kde-format
+msgid "Plugin Configuration"
+msgstr "پیکربندی افزونه"
+
+#: connectiondelegate.cpp:34
+#, kde-format
+msgid "Less than a minute ago"
+msgstr "کمتر از یک دقیقه پیش"
+
+#: connectiondelegate.cpp:35
+#, kde-format
+msgid "A minute ago"
+msgid_plural "%1 minutes ago"
+msgstr[0] "یک دقیقه پیش"
+msgstr[1] "%1 دقیقه پیش"
+
+#: connectiondelegate.cpp:37
+#, kde-format
+msgid "An hour ago"
+msgid_plural "%1 hours ago"
+msgstr[0] "یک ساعت پیش"
+msgstr[1] "%1 ساعت پیش"
+
+#: connectiondelegate.cpp:41
+#, kde-format
+msgid "Yesterday"
+msgid_plural "%1 days ago"
+msgstr[0] "دیروز"
+msgstr[1] "%1 روز پیش"
+
+#: connectiondelegate.cpp:43
+#, kde-format
+msgid "Over a month ago"
+msgid_plural "%1 months ago"
+msgstr[0] "بیش از یک ماه پیش"
+msgstr[1] "%1 ماه پیش"
+
+#: connectiondelegate.cpp:44
+#, kde-format
+msgid "A year ago"
+msgid_plural "%1 years ago"
+msgstr[0] "یک سال پیش"
+msgstr[1] "%1 سال پیش"
+
+#: core/hostpreferences.cpp:230
+#, kde-format
+msgctxt "@label:textbox Name of a remote connection"
+msgid "Name:"
+msgstr "نام:"
+
+#: core/hostpreferences.cpp:231
+#, kde-format
+msgctxt "@label:textbox URL of a remote connection"
+msgid "URL:"
+msgstr "نشانی وب:"
+
+#: core/hostpreferences.cpp:249
+#, kde-format
+msgid ""
+"Note that settings might only apply when you connect next time to this host."
+msgstr ""
+"توجه داشته باشید که ممکن است تنظیمات تنها در اتصال بعدی شما به این میزبان "
+"اعمال شوند."
+
+#: core/hostpreferences.cpp:278
+#, kde-format
+msgid "Show this dialog again for this host"
+msgstr "نمایش دوباره این گفتگو برای این میزبان"
+
+#: core/hostpreferences.cpp:282
+#, kde-format
+msgid "Remember password"
+msgstr "به‌خاطربسپار گذرواژه"
+
+#. i18n: ectx: label, entry (OpenSessions), group (General)
+#: core/krdc.kcfg:16
+#, kde-format
+msgid "Sessions"
+msgstr "نشست‌ها"
+
+#: core/remoteview.cpp:649
+#, kde-format
+msgid "Please enter the SSH password."
+msgstr "لطفاً گذرواژهٔ SSH را وارد کنید."
+
+#: core/remoteview.cpp:667
+#, kde-format
+msgid "SSH Tunnel failure"
+msgstr "شکست تونل SSH"
+
+#: core/sshtunnelthread.cpp:104
+#, kde-format
+msgid "Error connecting to %1: %2"
+msgstr "خطا در اتصال به %1: %2"
+
+#: core/sshtunnelthread.cpp:129
+#, kde-format
+msgid "Error authenticating with password: %1"
+msgstr "خطا در احراز هویت با گذرواژه: %1"
+
+#: core/sshtunnelthread.cpp:135 core/sshtunnelthread.cpp:153
+#: core/sshtunnelthread.cpp:160 core/sshtunnelthread.cpp:168
+#: core/sshtunnelthread.cpp:181
+#, kde-format
+msgid "Error creating tunnel socket"
+msgstr "خطا در ایجاد سوکت تونل"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SshTunnelWidget)
+#: core/sshtunnelwidget.ui:14
+#, kde-format
+msgid "SSH tunnel"
+msgstr "تونل SSH"
+
+#. i18n: ectx: property (text), widget (QCheckBox, use_ssh_tunnel)
+#: core/sshtunnelwidget.ui:32
+#, kde-format
+msgid "Connect via SSH tunnel"
+msgstr "اتصال از طریق تونل SSH"
+
+#. i18n: ectx: property (title), widget (QGroupBox, ssh_groupBox)
+#: core/sshtunnelwidget.ui:39
+#, kde-format
+msgid "SSH tunnel options"
+msgstr "گزینه‌های تونل SSH"
+
+#. i18n: ectx: property (text), widget (QCheckBox, use_loopback)
+#: core/sshtunnelwidget.ui:45
+#, kde-format
+msgid "Tunnel via loopback address"
+msgstr "تونل از طریق نشانی loopback"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: core/sshtunnelwidget.ui:52
+#, kde-format
+msgid "Port:"
+msgstr "درگاه:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: core/sshtunnelwidget.ui:75
+#, kde-format
+msgid "User name:"
+msgstr "نام کاربری:"
+
+#. i18n: ectx: Menu (session)
+#: krdcui.rc:8
+#, kde-format
+msgid "&Session"
+msgstr "نشست"
+
+#. i18n: ectx: ToolBar (krdc_remote_view_toolbar)
+#: krdcui.rc:23
+#, kde-format
+msgid "Remote View Toolbar"
+msgstr "نوار ابزار نمای دوردست"
+
+#: main.cpp:33
+#, kde-format
+msgid "KRDC"
+msgstr "KRDC"
+
+#: main.cpp:33 systemtrayicon.cpp:24
+#, kde-format
+msgid "KDE Remote Desktop Client"
+msgstr "کلاینت میزکار دوردست KDE"
+
+#: main.cpp:36
+#, kde-format
+msgid ""
+"(c) 2007-2016, Urs Wolfer\n"
+"(c) 2001-2003, Tim Jansen\n"
+"(c) 2002-2003, Arend van Beelen jr.\n"
+"(c) 2000-2002, Const Kaplinsky\n"
+"(c) 2000, Tridia Corporation\n"
+"(c) 1999, AT&T Laboratories Boston\n"
+"(c) 1999-2003, Matthew Chapman\n"
+"(c) 2009, Collabora Ltd"
+msgstr ""
+"حق نشر ۲۰۰۷-۲۰۱۶، Urs Wolfer\n"
+"حق نشر ۲۰۰۱-۲۰۰۳، Tim Jansen\n"
+"حق نشر ۲۰۰۲-۲۰۰۳، Arend van Beelen jr.\n"
+"حق نشر ۲۰۰۰-۲۰۰۲، Const Kaplinsky\n"
+"حق نشر ۲۰۰۰، Tridia Corporation\n"
+"حق نشر ۱۹۹۹، ATT Laboratories Boston\n"
+"حق نشر ۱۹۹۹-۲۰۰۳، Matthew Chapman\n"
+"حق نشر ۲۰۰۹، Collabora Ltd"
+
+#: main.cpp:45
+#, kde-format
+msgid "Urs Wolfer"
+msgstr "Urs Wolfer"
+
+#: main.cpp:45
+#, kde-format
+msgid "Developer, Maintainer"
+msgstr "توسعه‌دهنده، نگه‌دارنده"
+
+#: main.cpp:46
+#, kde-format
+msgid "Tony Murray"
+msgstr "Tony Murray"
+
+#: main.cpp:46
+#, kde-format
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: main.cpp:47
+#, kde-format
+msgid "Tim Jansen"
+msgstr "Tim Jansen"
+
+#: main.cpp:47
+#, kde-format
+msgid "Former Developer"
+msgstr "توسعه‌دهنده پیشین"
+
+#: main.cpp:48
+#, kde-format
+msgid "Arend van Beelen jr."
+msgstr "Arend van Beelen jr."
+
+#: main.cpp:48
+#, kde-format
+msgid "Initial RDP backend"
+msgstr "پشتانه اولیه RDP"
+
+#: main.cpp:49
+#, kde-format
+msgid "Brad Hards"
+msgstr "Brad Hards"
+
+#: main.cpp:49
+#, kde-format
+msgid "Google Summer of Code 2007 KRDC project mentor"
+msgstr "منتور پروژه KRDC در Google Summer of Code 2007"
+
+#: main.cpp:50
+#, kde-format
+msgid "LibVNCServer / LibVNCClient developers"
+msgstr "توسعه‌دهندگان LibVNCServer / LibVNCClient"
+
+#: main.cpp:51
+#, kde-format
+msgid "VNC client library"
+msgstr "کتابخانه کلاینت VNC"
+
+#: main.cpp:66
+#, kde-format
+msgid ""
+"Start KRDC with the provided URL in fullscreen mode (works only with one "
+"URL)"
+msgstr ""
+"اجرای KRDC با نشانی وب ارائه‌شده در حالت تمام‌صفحه (تنها با یک نشانی وب کار "
+"می‌کند)"
+
+#: main.cpp:67
+#, kde-format
+msgid "URLs to connect after startup"
+msgstr "نشانی‌های اینترنتی برای اتصال پس از راه‌اندازی"
+
+#: mainwindow.cpp:108
+#, kde-format
+msgid "KDE Remote Desktop Client started"
+msgstr "کلاینت میزکار از راه دور KDE آغاز شد"
+
+#: mainwindow.cpp:113 mainwindow.cpp:130 mainwindow.cpp:1285
+#: mainwindow.cpp:1382
+#, kde-format
+msgid "New Connection"
+msgstr "اتصال جدید"
+
+#: mainwindow.cpp:138
+#, kde-format
+msgid "Copy Screenshot to Clipboard"
+msgstr "رونوشت از نماگرفت در تخته‌گیره"
+
+#: mainwindow.cpp:139
+#, kde-format
+msgid "Screenshot"
+msgstr "نماگرفت"
+
+#: mainwindow.cpp:145 mainwindow.cpp:568
+#, kde-format
+msgid "Switch to Full Screen Mode"
+msgstr "تغییر به حالت تمام‌صفحه"
+
+#: mainwindow.cpp:146 mainwindow.cpp:569
+#, kde-format
+msgid "Full Screen"
+msgstr "تمام‌صفحه"
+
+#: mainwindow.cpp:153
+#, kde-format
+msgid "View Only"
+msgstr "فقط مشاهده"
+
+#: mainwindow.cpp:159
+#, kde-format
+msgid "Clipboard Sharing"
+msgstr "اشتراک‌گذاری تخته‌گیره"
+
+#: mainwindow.cpp:164
+#, kde-format
+msgid "Disconnect"
+msgstr "قطع اتصال"
+
+#: mainwindow.cpp:172
+#, kde-format
+msgid "Show Local Cursor"
+msgstr "نمایش مکان‌نمای محلی"
+
+#: mainwindow.cpp:173
+#, kde-format
+msgid "Local Cursor"
+msgstr "مکان‌نمای محلی"
+
+#: mainwindow.cpp:179
+#, kde-format
+msgid "Grab All Possible Keys"
+msgstr "گرفتن همه کلیدهای ممکن"
+
+#: mainwindow.cpp:180
+#, kde-format
+msgid "Grab Keys"
+msgstr "گرفتن کلیدها"
+
+#: mainwindow.cpp:186
+#, kde-format
+msgid "Scale Remote Screen to Fit Window Size"
+msgstr "تغییر مقیاس صفحه دوردست برای همخوانی با اندازه پنجره"
+
+#: mainwindow.cpp:187
+#, kde-format
+msgid "Scale"
+msgstr "تغییر مقیاس"
+
+#: mainwindow.cpp:190
+#, kde-format
+msgid "Scaling Factor"
+msgstr "ضریب مقیاس"
+
+#: mainwindow.cpp:201
+#, kde-format
+msgid "Bookmarks"
+msgstr "نشانک‌ها"
+
+#: mainwindow.cpp:272
+#, kde-format
+msgid "Unable to load connection data from the provided file."
+msgstr "بارگیری داده‌های اتصال از پرونده ارائه شده امکان‌پذیر نیست."
+
+#: mainwindow.cpp:272
+#, kde-format
+msgid "Load failed"
+msgstr "بارگیری ناموفق بود"
+
+#: mainwindow.cpp:278
+#, kde-format
+msgid ""
+"The entered address does not have the required form.\n"
+" Syntax: [username@]host[:port]"
+msgstr ""
+"نشانی واردشده قالب لازم را ندارد.\n"
+" ساختار: [username@]host[:port]"
+
+#: mainwindow.cpp:278
+#, kde-format
+msgid "Malformed URL"
+msgstr "نشانی وب نامعتبر"
+
+#: mainwindow.cpp:299
+#, kde-format
+msgid "The entered address cannot be handled."
+msgstr "نشانی واردشده قابل پردازش نیست."
+
+#: mainwindow.cpp:450
+#, kde-format
+msgid "Connecting to %1"
+msgstr "در حال اتصال به %1"
+
+#: mainwindow.cpp:454
+#, kde-format
+msgid "Authenticating at %1"
+msgstr "در حال احراز هویت در %1"
+
+#: mainwindow.cpp:458
+#, kde-format
+msgid "Preparing connection to %1"
+msgstr "در حال آماده‌سازی اتصال به %1"
+
+#: mainwindow.cpp:462
+#, kde-format
+msgid "Connected to %1"
+msgstr "متصل به %1"
+
+#: mainwindow.cpp:615
+#, kde-format
+msgid "Switch to Window Mode"
+msgstr "تغییر به حالت پنجره‌ای"
+
+#: mainwindow.cpp:616
+#, kde-format
+msgid "Window Mode"
+msgstr "حالت پنجره‌ای"
+
+#: mainwindow.cpp:800
+#, kde-format
+msgid "The entered address cannot be handled by this connection type."
+msgstr "نشانی واردشده توسط این نوع اتصال پشتیبانی نمی‌شود."
+
+#: mainwindow.cpp:835
+#, kde-format
+msgid "Connect"
+msgstr "اتصال"
+
+#: mainwindow.cpp:836
+#, kde-format
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: mainwindow.cpp:837
+#, kde-format
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: mainwindow.cpp:838
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: mainwindow.cpp:841 remotedesktopsmodel.cpp:108
+#, kde-format
+msgctxt "Where each displayed link comes from"
+msgid "Bookmarks"
+msgstr "نشانک‌ها"
+
+#: mainwindow.cpp:841 remotedesktopsmodel.cpp:110
+#, kde-format
+msgctxt "Where each displayed link comes from"
+msgid "History"
+msgstr "تاریخچه"
+
+#: mainwindow.cpp:853
+#, kde-format
+msgid "Rename %1"
+msgstr "تغییر نام %1"
+
+#: mainwindow.cpp:853
+#, kde-format
+msgid "Rename %1 to"
+msgstr "تغییر نام %1 به"
+
+#: mainwindow.cpp:860
+#, kde-format
+msgid "Are you sure you want to delete %1?"
+msgstr "آیا از حذف %1 مطمئن هستید؟"
+
+#: mainwindow.cpp:860
+#, kde-format
+msgid "Delete %1"
+msgstr "حذف %1"
+
+#: mainwindow.cpp:884
+#, kde-format
+msgid "Add Bookmark"
+msgstr "افزودن نشانک"
+
+#: mainwindow.cpp:885
+#, kde-format
+msgid "Close Tab"
+msgstr "بستن زبانه"
+
+#: mainwindow.cpp:1002
+#, kde-format
+msgid "Minimize Full Screen Window"
+msgstr "کمینه‌کردن پنجره تمام‌صفحه"
+
+#: mainwindow.cpp:1019
+#, kde-format
+msgid "Stick Toolbar"
+msgstr "چسباندن نوار ابزار"
+
+#: mainwindow.cpp:1139
+#, kde-format
+msgid "Are you sure you want to quit the KDE Remote Desktop Client?"
+msgstr "آیا مطمئنید که می‌خواهید از کلاینت میزکار دوردست KDE خارج شوید؟"
+
+#: mainwindow.cpp:1140
+#, kde-format
+msgid "Confirm Quit"
+msgstr "تأیید خروج"
+
+#: mainwindow.cpp:1308
+#, kde-format
+msgid "Connect to:"
+msgstr "اتصال به:"
+
+#: mainwindow.cpp:1312
+#, kde-format
+msgid "Type here to connect to an address and filter the list."
+msgstr "برای اتصال به یک نشانی و پالایش فهرست اینجا بنویسید."
+
+#: mainwindow.cpp:1323
+#, kde-format
+msgid ""
+"Type an IP or DNS Name here. Clear the line to get a list of connection "
+"methods."
+msgstr ""
+"یک IP یا نام DNS اینجا بنویسید. خط را پاک کنید تا فهرستی از روش‌های اتصال "
+"نمایش داده شود."
+
+#: mainwindow.cpp:1326
+#, kde-format
+msgid "Goto Address"
+msgstr "رفتن به نشانی"
+
+#: mainwindow.cpp:1418
+#, kde-format
+msgid "Remote Desktops"
+msgstr "میزکارهای دوردست"
+
+#: mainwindow.cpp:1447
+#, kde-format
+msgid "Filter"
+msgstr "فیلتر"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mainSettingsTab)
+#: rdp/rdppreferences.ui:21
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#. i18n: ectx: property (text), widget (QLabel, resolutionLabel)
+#: rdp/rdppreferences.ui:27
+#, kde-format
+msgid "Resolution"
+msgstr "وضوح تصویر"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_Resolution)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, resolutionComboBox)
+#: rdp/rdppreferences.ui:49 vnc/vncpreferences.ui:86
+#, kde-format
+msgid ""
+"Here you can specify the resolution of the remote desktop. This resolution "
+"determines the size of the desktop that will be presented to you."
+msgstr ""
+"در اینجا می‌توانید وضوح تصویر میزکار دوردست را مشخص کنید. این وضوح، اندازهٔ "
+"میزکاری را که به شما نمایش داده می‌شود تعیین می‌کند."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#: rdp/rdppreferences.ui:56 spice/spicepreferences.ui:46
+#, kde-format
+msgid "Small (1280x720)"
+msgstr "کوچک (1280x720)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#: rdp/rdppreferences.ui:61 spice/spicepreferences.ui:51
+#, kde-format
+msgid "Medium (1600x900)"
+msgstr "متوسط (1600x900)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#: rdp/rdppreferences.ui:66 spice/spicepreferences.ui:56
+#, kde-format
+msgid "Large (1920x1080)"
+msgstr "بزرگ (1920x1080)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#: rdp/rdppreferences.ui:71 spice/spicepreferences.ui:61
+#, kde-format
+msgid "Current Window Size"
+msgstr "اندازهٔ کنونی پنجره"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: rdp/rdppreferences.ui:76 spice/spicepreferences.ui:66
+#: vnc/vncpreferences.ui:118
+#, kde-format
+msgid "Current Screen Resolution"
+msgstr "وضوح تصویر کنونی صفحه"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: rdp/rdppreferences.ui:81 spice/spicepreferences.ui:71
+#: vnc/vncpreferences.ui:123
+#, kde-format
+msgid "Custom Resolution (…)"
+msgstr "تفکیک‌پذیری سفارشی (…)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#: rdp/rdppreferences.ui:86
+#, kde-format
+msgid "Use All Screens Resolution"
+msgstr "استفاده از تفکیک‌پذیری همهٔ صفحه‌ها"
+
+#. i18n: ectx: property (text), widget (QLabel, widthLabel)
+#: rdp/rdppreferences.ui:99 spice/spicepreferences.ui:84
+#: vnc/vncpreferences.ui:136
+#, kde-format
+msgid "&Width:"
+msgstr "عرض:"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Width)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_ScalingWidth)
+#: rdp/rdppreferences.ui:115 vnc/vncpreferences.ui:152
+#, kde-format
+msgid ""
+"This is the width of the remote desktop. You can only change this value "
+"manually if you select Custom as desktop resolution above."
+msgstr ""
+"این عرض میزکار دوردست است. تنها در صورتی می‌توانید این مقدار را به‌صورت دستی"
+" تغییر دهید که در بالا گزینهٔ «سفارشی» را برای تفکیک‌پذیری میزکار انتخاب "
+"کرده باشید."
+
+#. i18n: ectx: property (text), widget (QLabel, heightLabel)
+#: rdp/rdppreferences.ui:131 spice/spicepreferences.ui:116
+#: vnc/vncpreferences.ui:168
+#, kde-format
+msgid "H&eight:"
+msgstr "ارتفاع:"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Height)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_ScalingHeight)
+#: rdp/rdppreferences.ui:147 vnc/vncpreferences.ui:184
+#, kde-format
+msgid ""
+"This is the height of the remote desktop. You can only change this value "
+"manually if you select Custom as desktop resolution above."
+msgstr ""
+"این ارتفاع میزکار دوردست است. تنها در صورتی می‌توانید این مقدار را به‌صورت "
+"دستی تغییر دهید که در بالا گزینهٔ «سفارشی» را برای تفکیک‌پذیری میزکار انتخاب"
+" کرده باشید."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ScaleToSize)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ScaleToWindow)
+#: rdp/rdppreferences.ui:168 spice/spicepreferences.ui:147
+#, kde-format
+msgid "Scale window contents to match resolution"
+msgstr "مقیاس‌بندی محتویات پنجره برای تطابق با تفکیک‌پذیری"
+
+#. i18n: ectx: property (text), widget (QLabel, accelerationLabel)
+#: rdp/rdppreferences.ui:178
+#, kde-format
+msgid "Acceleration:"
+msgstr "شتاب‌دهی:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Acceleration)
+#: rdp/rdppreferences.ui:201
+#, kde-format
+msgctxt "Use best acceleration supported by both the server and krdc"
+msgid "Use Best Available"
+msgstr "استفاده از بهترین موجود"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Acceleration)
+#: rdp/rdppreferences.ui:206
+#, kde-format
+msgid "Force H.264"
+msgstr "اجبار به H.264"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Acceleration)
+#: rdp/rdppreferences.ui:211
+#, kde-format
+msgid "Force RemoteFX"
+msgstr "اجبار RemoteFX"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Acceleration)
+#: rdp/rdppreferences.ui:216
+#, kde-format
+msgid "Disable All Acceleration"
+msgstr "غیرفعال‌سازی همه شتاب‌دهنده‌ها"
+
+#. i18n: ectx: property (text), widget (QLabel, colorDepthLabel)
+#: rdp/rdppreferences.ui:224
+#, kde-format
+msgid "Color &depth:"
+msgstr "عمق رنگ:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#: rdp/rdppreferences.ui:250
+#, kde-format
+msgctxt "Use best color depth supported by both the server and krdc"
+msgid "Use Best Available"
+msgstr "استفاده از بهترین مقدار موجود"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#: rdp/rdppreferences.ui:255
+#, kde-format
+msgid "True Color with Alpha (32 Bit)"
+msgstr "رنگ واقعی همراه با آلفا (۳۲ بیت)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#: rdp/rdppreferences.ui:260
+#, kde-format
+msgid "True Color (24 Bit)"
+msgstr "رنگ واقعی (۲۴ بیت)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#: rdp/rdppreferences.ui:265
+#, kde-format
+msgid "High Color (16 Bit)"
+msgstr "رنگ بالا (۱۶ بیت)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#: rdp/rdppreferences.ui:270
+#, kde-format
+msgid "Low Color (8 Bit)"
+msgstr "رنگ پایین (۸ بیت)"
+
+#. i18n: ectx: property (text), widget (QLabel, desktopScaleFactorLabel)
+#: rdp/rdppreferences.ui:278
+#, kde-format
+msgid "Desktop scale factor:"
+msgstr "ضریب مقیاس میزکار:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox,
+#. kcfg_DesktopScaleFactor)
+#. i18n: ectx: property (text), item, widget (KComboBox,
+#. kcfg_DeviceScaleFactor)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_GatewayTransportType)
+#: rdp/rdppreferences.ui:300 rdp/rdppreferences.ui:368
+#: rdp/rdppreferences.ui:982
+#, kde-format
+msgid "Auto"
+msgstr "خودکار"
+
+#. i18n: ectx: property (text), item, widget (KComboBox,
+#. kcfg_DesktopScaleFactor)
+#: rdp/rdppreferences.ui:305
+#, kde-format
+msgid "Do not scale"
+msgstr "مقیاس‌بندی نشود"
+
+#. i18n: ectx: property (text), item, widget (KComboBox,
+#. kcfg_DesktopScaleFactor)
+#: rdp/rdppreferences.ui:310
+#, kde-format
+msgid "Custom"
+msgstr "سفارشی"
+
+#. i18n: ectx: property (text), widget (QLabel, deviceScaleFactorLabel)
+#: rdp/rdppreferences.ui:342
+#, kde-format
+msgid "Device scale factor:"
+msgstr "ضریب مقیاس دستگاه:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox,
+#. kcfg_DeviceScaleFactor)
+#: rdp/rdppreferences.ui:373
+#, kde-format
+msgid "100"
+msgstr "۱۰۰"
+
+#. i18n: ectx: property (text), item, widget (KComboBox,
+#. kcfg_DeviceScaleFactor)
+#: rdp/rdppreferences.ui:378
+#, kde-format
+msgid "140"
+msgstr "۱۴۰"
+
+#. i18n: ectx: property (text), item, widget (KComboBox,
+#. kcfg_DeviceScaleFactor)
+#: rdp/rdppreferences.ui:383
+#, kde-format
+msgid "180"
+msgstr "۱۸۰"
+
+#. i18n: ectx: property (text), widget (QLabel, layoutLabel)
+#: rdp/rdppreferences.ui:391
+#, kde-format
+msgid "&Keyboard layout:"
+msgstr "طرح‌بندی صفحه‌کلید:"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:416
+#, kde-format
+msgid ""
+"Use this to specify your keyboard layout. This layout setting is used to "
+"send the correct keyboard codes to the server."
+msgstr ""
+"از این گزینه برای مشخص کردن طرح‌بندی صفحه‌کلید خود استفاده کنید. این تنظیم "
+"طرح‌بندی برای ارسال کدهای صحیح صفحه‌کلید به سرور به کار می‌رود."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:423
+#, kde-format
+msgid "Arabic (ar)"
+msgstr "عربی (ar)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:428
+#, kde-format
+msgid "Czech (cs)"
+msgstr "چکی (cs)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:433
+#, kde-format
+msgid "Danish (da)"
+msgstr "دانمارکی (da)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:438
+#, kde-format
+msgid "German (de)"
+msgstr "آلمانی (de)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:443
+#, kde-format
+msgid "Swiss German (de-ch)"
+msgstr "آلمانی سوئیسی (de-ch)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:448
+#, kde-format
+msgid "American Dvorak (en-dv)"
+msgstr "دُوُرَک آمریکایی (en-dv)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:453
+#, kde-format
+msgid "British English (en-gb)"
+msgstr "انگلیسی بریتانیایی (en-gb)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:458
+#, kde-format
+msgid "US English (en-us)"
+msgstr "انگلیسی آمریکایی (en-us)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:463
+#, kde-format
+msgid "Spanish (es)"
+msgstr "اسپانیایی (es)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:468
+#, kde-format
+msgid "Estonian (et)"
+msgstr "استونیایی (et)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:473
+#, kde-format
+msgid "Finnish (fi)"
+msgstr "فنلاندی (fi)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:478
+#, kde-format
+msgid "Faroese (fo)"
+msgstr "فارویی (fo)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:483
+#, kde-format
+msgid "French (fr)"
+msgstr "فرانسوی (fr)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:488
+#, kde-format
+msgid "Belgian (fr-be)"
+msgstr "بلژیکی (fr-be)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:493
+#, kde-format
+msgid "French Canadian (fr-ca)"
+msgstr "فرانسوی کانادایی (fr-ca)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:498
+#, kde-format
+msgid "Swiss French (fr-ch)"
+msgstr "فرانسوی سوئیسی (fr-ch)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:503
+#, kde-format
+msgid "Hebrew (he)"
+msgstr "عبری (he)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:508
+#, kde-format
+msgid "Croatian (hr)"
+msgstr "کرواتی (hr)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:513
+#, kde-format
+msgid "Hungarian (hu)"
+msgstr "مجاری (hu)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:518
+#, kde-format
+msgid "Icelandic (is)"
+msgstr "ایسلندی (is)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:523
+#, kde-format
+msgid "Italian (it)"
+msgstr "ایتالیایی (it)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:528
+#, kde-format
+msgid "Japanese (ja)"
+msgstr "ژاپنی (ja)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:533
+#, kde-format
+msgid "Korean (ko)"
+msgstr "کره‌ای (ko)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:538
+#, kde-format
+msgid "Lithuanian (lt)"
+msgstr "لیتوانیایی (lt)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:543
+#, kde-format
+msgid "Latvian (lv)"
+msgstr "لتونیایی (lv)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:548
+#, kde-format
+msgid "Macedonian (mk)"
+msgstr "مقدونی (mk)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:553
+#, kde-format
+msgid "Dutch (nl)"
+msgstr "هلندی (nl)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:558
+#, kde-format
+msgid "Belgian Dutch (nl-be)"
+msgstr "هلندی بلژیک (nl-be)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:563
+#, kde-format
+msgid "Norwegian (no)"
+msgstr "نروژی (no)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:568
+#, kde-format
+msgid "Polish (pl)"
+msgstr "لهستانی (pl)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:573
+#, kde-format
+msgid "Portuguese (pt)"
+msgstr "پرتغالی (pt)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:578
+#, kde-format
+msgid "Brazilian (pt-br)"
+msgstr "برزیلی (pt-br)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:583
+#, kde-format
+msgid "Russian (ru)"
+msgstr "روسی (ru)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:588
+#, kde-format
+msgid "Slovenian (sl)"
+msgstr "اسلوونیایی (sl)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:593
+#, kde-format
+msgid "Swedish (sv)"
+msgstr "سوئدی (sv)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:598
+#, kde-format
+msgid "Thai (th)"
+msgstr "تایلندی (th)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: rdp/rdppreferences.ui:603
+#, kde-format
+msgid "Turkish (tr)"
+msgstr "ترکی (tr)"
+
+#. i18n: ectx: property (text), widget (QLabel, soundLabel)
+#: rdp/rdppreferences.ui:611
+#, kde-format
+msgctxt "label for soundsettings in preferences dialog"
+msgid "Sound:"
+msgstr "صدا:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
+#: rdp/rdppreferences.ui:637
+#, kde-format
+msgid "On This Computer"
+msgstr "در این رایانه"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
+#: rdp/rdppreferences.ui:642
+#, kde-format
+msgid "On Remote Computer"
+msgstr "در رایانهٔ دوردست"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
+#: rdp/rdppreferences.ui:647
+#, kde-format
+msgid "Disable Sound"
+msgstr "غیرفعال‌سازی صدا"
+
+#. i18n: ectx: property (text), widget (QLabel, shareMediaLabel)
+#: rdp/rdppreferences.ui:655
+#, kde-format
+msgid "Share Media:"
+msgstr "اشتراک‌گذاری رسانه:"
+
+#. i18n: ectx: property (text), widget (QLabel, shareSmartcardLabel)
+#: rdp/rdppreferences.ui:681
+#, kde-format
+msgid "Share Smartcard:"
+msgstr "اشتراک‌گذاری کارت هوشمند:"
+
+#. i18n: ectx: property (text), widget (QLabel, consoleModeLabel)
+#: rdp/rdppreferences.ui:694
+#, kde-format
+msgid "Alternate Session Type:"
+msgstr "نوع نشست جایگزین:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ConsoleMode)
+#: rdp/rdppreferences.ui:704
+#, kde-format
+msgid "Admin (or console) session"
+msgstr "نشست مدیر (یا کنسول)"
+
+#. i18n: ectx: property (text), widget (QLabel, preventSessionLockLabel)
+#: rdp/rdppreferences.ui:711
+#, kde-format
+msgid "Session lock:"
+msgstr "قفل نشست:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PreventSessionLock)
+#: rdp/rdppreferences.ui:721
+#, kde-format
+msgid "Prevent remote session lock"
+msgstr "جلوگیری از قفل شدن نشست از راه دور"
+
+#. i18n: ectx: attribute (title), widget (QWidget, securitySettingsTab)
+#: rdp/rdppreferences.ui:729
+#, kde-format
+msgid "Security"
+msgstr "امنیت"
+
+#. i18n: ectx: property (text), widget (QLabel, gSecurityLabel)
+#: rdp/rdppreferences.ui:737
+#, kde-format
+msgid "Security:"
+msgstr "امنیت:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityNLA)
+#: rdp/rdppreferences.ui:749
+#, kde-format
+msgid "NLA"
+msgstr "NLA"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityTLS)
+#: rdp/rdppreferences.ui:756
+#, kde-format
+msgid "TLS"
+msgstr "TLS"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityRDP)
+#: rdp/rdppreferences.ui:763
+#, kde-format
+msgid "RDP"
+msgstr "RDP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityEXT)
+#: rdp/rdppreferences.ui:770
+#, kde-format
+msgid "Ext"
+msgstr "پسوند"
+
+#. i18n: ectx: property (text), widget (QLabel, TlsSecLevelLabel)
+#: rdp/rdppreferences.ui:779
+#, kde-format
+msgid "TLS security level:"
+msgstr "سطح امنیت TLS:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#: rdp/rdppreferences.ui:805
+#, kde-format
+msgid "any"
+msgstr "هرکدام"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#: rdp/rdppreferences.ui:810
+#, kde-format
+msgid "80 bit"
+msgstr "۸۰ بیتی"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#: rdp/rdppreferences.ui:815
+#, kde-format
+msgid "112 bit"
+msgstr "۱۱۲ بیتی"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#: rdp/rdppreferences.ui:820
+#, kde-format
+msgid "128 bit"
+msgstr "۱۲۸ بیتی"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#: rdp/rdppreferences.ui:825
+#, kde-format
+msgid "192 bit"
+msgstr "۱۹۲ بیتی"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#: rdp/rdppreferences.ui:830
+#, kde-format
+msgid "256 bit"
+msgstr "۲۵۶ بیتی"
+
+#. i18n: ectx: property (text), widget (QLabel, authPkgListLabel)
+#: rdp/rdppreferences.ui:838
+#, kde-format
+msgid "Authentication Package List:"
+msgstr "فهرست بسته‌های احراز هویت:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, proxySettingsTab)
+#: rdp/rdppreferences.ui:854
+#, kde-format
+msgid "Proxy"
+msgstr "پروکسی"
+
+#. i18n: ectx: property (text), widget (QLabel, protocolLabel)
+#: rdp/rdppreferences.ui:862
+#, kde-format
+msgid "Protocol:"
+msgstr "پروتکل:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ProxyProtocol)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_GatewayTransportType)
+#: rdp/rdppreferences.ui:876 rdp/rdppreferences.ui:987
+#, kde-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ProxyProtocol)
+#: rdp/rdppreferences.ui:881
+#, kde-format
+msgid "SOCKS"
+msgstr "SOCKS"
+
+#. i18n: ectx: property (text), widget (QLabel, pPasswordLabel)
+#. i18n: ectx: property (text), widget (QLabel, gPasswordLabel)
+#: rdp/rdppreferences.ui:892 rdp/rdppreferences.ui:948
+#, kde-format
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#. i18n: ectx: property (text), widget (QLabel, pUsernameLabel)
+#. i18n: ectx: property (text), widget (QLabel, gUsernameLabel)
+#: rdp/rdppreferences.ui:902 rdp/rdppreferences.ui:941
+#, kde-format
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#. i18n: ectx: property (text), widget (QLabel, pHostLabel)
+#. i18n: ectx: property (text), widget (QLabel, gServerLabel)
+#: rdp/rdppreferences.ui:909 rdp/rdppreferences.ui:934
+#, kde-format
+msgid "Server:"
+msgstr "سرور:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, kcfg_ProxyHost)
+#. i18n: ectx: property (placeholderText), widget (KLineEdit,
+#. kcfg_GatewayServer)
+#: rdp/rdppreferences.ui:916 rdp/rdppreferences.ui:955
+#, kde-format
+msgid "host:port"
+msgstr "host:port"
+
+#. i18n: ectx: attribute (title), widget (QWidget, gatewaySettingsTab)
+#: rdp/rdppreferences.ui:926
+#, kde-format
+msgid "Gateway"
+msgstr "دروازه شبکه (Gateway)"
+
+#. i18n: ectx: property (text), widget (QLabel, gTransportTypeLabel)
+#: rdp/rdppreferences.ui:968
+#, kde-format
+msgid "Transport type:"
+msgstr "نوع انتقال:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_GatewayTransportType)
+#: rdp/rdppreferences.ui:992
+#, kde-format
+msgid "RPC"
+msgstr "RPC"
+
+#. i18n: ectx: property (text), widget (QLabel, gDomainLabel)
+#: rdp/rdppreferences.ui:1000
+#, kde-format
+msgid "Domain:"
+msgstr "دامنه:"
+
+#: rdp/rdpsession.cpp:1284
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Host: %1:%2\n"
+"Common Name: %3\n"
+"Subject: %4\n"
+"Issuer: %5\n"
+"Fingerprint: %6\n"
+msgstr ""
+"میزبان: %1:%2\n"
+"نام عمومی: %3\n"
+"موضوع: %4\n"
+"صادرکننده: %5\n"
+"اثر انگشت: %6\n"
+
+#: rdp/rdpview.cpp:232
+#, kde-format
+msgctxt "@label"
+msgid "Access to this system requires a username and password."
+msgstr "دسترسی به این سیستم نیازمند نام کاربری و گذرواژه است."
+
+#: rdp/rdpview.cpp:265
+#, kde-format
+msgctxt "@label"
+msgid "The certificate for this system is unknown. Do you wish to continue?"
+msgstr "گواهی این سیستم ناشناخته است. آیا مایل به ادامه هستید؟"
+
+#: rdp/rdpview.cpp:266
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Verify Certificate"
+msgstr "تأیید گواهی"
+
+#: rdp/rdpview.cpp:271 rdp/rdpview.cpp:296
+#, kde-format
+msgctxt "@label"
+msgid "Remember this certificate"
+msgstr "به‌خاطرسپاری این گواهی"
+
+#: rdp/rdpview.cpp:290
+#, kde-format
+msgctxt "@label"
+msgid "The certificate for this system has changed. Do you wish to continue?"
+msgstr "گواهی این سیستم تغییر کرده است. آیا مایل به ادامه هستید؟"
+
+#: rdp/rdpview.cpp:291
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Certificate has Changed"
+msgstr "گواهی تغییر کرده است"
+
+#: rdp/rdpview.cpp:294
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Previous certificate:\n"
+"%1\n"
+"New Certificate:\n"
+"%2"
+msgstr ""
+"گواهی قبلی:\n"
+"%1\n"
+"گواهی جدید:\n"
+"%2"
+
+#: rdp/rdpview.cpp:326
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Login Failure"
+msgstr "شکست در ورود"
+
+#: rdp/rdpview.cpp:327
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Unable to login with the provided credentials. Please double check the user "
+"and password."
+msgstr ""
+"ورود به سامانه با اطلاعات ارائه‌شده ممکن نیست. لطفاً نام کاربری و گذرواژه را"
+" دوباره بررسی کنید."
+
+#: rdp/rdpview.cpp:336
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Account Problems"
+msgstr "مشکلات حساب کاربری"
+
+#: rdp/rdpview.cpp:337
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The provided account is not allowed to log in to this machine. Please "
+"contact your system administrator."
+msgstr ""
+"حساب کاربری ارائه‌شده مجاز به ورود به این دستگاه نیست. لطفاً با مدیر سامانهٔ"
+" خود تماس بگیرید."
+
+#: rdp/rdpview.cpp:342
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Password Problems"
+msgstr "مشکلات گذرواژه"
+
+#: rdp/rdpview.cpp:343
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Unable to login with the provided password. Please contact your system "
+"administrator to change it."
+msgstr ""
+"ورود به سامانه با گذرواژهٔ ارائه‌شده ممکن نیست. لطفاً برای تغییر آن با مدیر "
+"سامانهٔ خود تماس بگیرید."
+
+#: rdp/rdpview.cpp:349
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Connection Lost"
+msgstr "اتصال قطع شد"
+
+#: rdp/rdpview.cpp:350
+#, kde-format
+msgctxt "@label"
+msgid "Lost connection to the server."
+msgstr "اتصال به سرور قطع شد."
+
+#: rdp/rdpview.cpp:352
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Could not Connect"
+msgstr "اتصال برقرار نشد"
+
+#: rdp/rdpview.cpp:353
+#, kde-format
+msgctxt "@label"
+msgid "Could not connect to the server."
+msgstr "امکان اتصال به سرور وجود ندارد."
+
+#: rdp/rdpview.cpp:358
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Server not Found"
+msgstr "سرور پیدا نشد"
+
+#: rdp/rdpview.cpp:359
+#, kde-format
+msgctxt "@label"
+msgid "Could not find the server."
+msgstr "کارساز پیدا نشد."
+
+#: rdp/rdpview.cpp:362
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Connection Refused"
+msgstr "اتصال رد شد"
+
+#: rdp/rdpview.cpp:363
+#, kde-format
+msgctxt "@label"
+msgid "The server refused the connection request."
+msgstr "کارساز درخواست اتصال را رد کرد."
+
+#: rdp/rdpview.cpp:373
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Connection Closed"
+msgstr "اتصال بسته شد"
+
+#: rdp/rdpview.cpp:378
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Connection Failed"
+msgstr "اتصال ناموفق بود"
+
+#: rdp/rdpview.cpp:379
+#, kde-format
+msgctxt "@label"
+msgid "An unknown error occurred"
+msgstr "خطای ناشناخته‌ای رخ داد"
+
+#: rdp/rdpview.cpp:390
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Logon Error"
+msgstr "خطای ورود به سیستم"
+
+#: rdp/rdpview.cpp:767
+#, kde-format
+msgctxt "@title:window"
+msgid "KRDC – Screen %1"
+msgstr "KRDC – صفحهٔ %1"
+
+#: rdp/rdpviewfactory.cpp:26
+#, kde-format
+msgid "Connect to a Windows Remote Desktop (RDP)"
+msgstr "اتصال به میزکار دوردست ویندوز (RDP)"
+
+#: rdp/rdpviewfactory.cpp:109
+#, kde-format
+msgid "New RDP Connection…"
+msgstr "اتصال RDP جدید…"
+
+#: rdp/rdpviewfactory.cpp:120
+#, kde-format
+msgid ""
+"<html>Enter the address here. Port is optional.<br /><i>Example: "
+"rdpserver:3389 (host:port)</i></html>"
+msgstr ""
+"<html>نشانی را اینجا وارد کنید. درگاه اختیاری است.<br /><i>مثال: "
+"rdpserver:3389 (میزبان:درگاه)</i></html>"
+
+#: remotedesktopsmodel.cpp:112
+#, kde-format
+msgctxt "Where each displayed link comes from"
+msgid "Zeroconf"
+msgstr "پیکربندی صفر (Zeroconf)"
+
+#: remotedesktopsmodel.cpp:114
+#, kde-format
+msgctxt "Where each displayed link comes from"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: remotedesktopsmodel.cpp:130
+#, kde-format
+msgctxt "Remove the selected url from the bookarks menu"
+msgid "Remove the bookmark for %1."
+msgstr "حذف نشانک برای %1."
+
+#: remotedesktopsmodel.cpp:132
+#, kde-format
+msgctxt "Add the selected url to the bookmarks menu"
+msgid "Bookmark %1."
+msgstr "نشانک‌گذاری %1."
+
+#: remotedesktopsmodel.cpp:170
+#, kde-format
+msgctxt "Header of the connections list, title/url for remote connection"
+msgid "Remote Desktop"
+msgstr "میزکار دوردست"
+
+#: remotedesktopsmodel.cpp:172
+#, kde-format
+msgctxt ""
+"Header of the connections list, the last time this connection was initiated"
+msgid "Last Connected"
+msgstr "آخرین اتصال"
+
+#: remotedesktopsmodel.cpp:174
+#, kde-format
+msgctxt ""
+"Header of the connections list, the number of times this connection has been"
+" visited"
+msgid "Visits"
+msgstr "تعداد بازدیدها"
+
+#: remotedesktopsmodel.cpp:176
+#, kde-format
+msgctxt "Header of the connections list, the time when this entry was created"
+msgid "Created"
+msgstr "ایجادشده"
+
+#: remotedesktopsmodel.cpp:178
+#, kde-format
+msgctxt "Header of the connections list, where this entry comes from"
+msgid "Source"
+msgstr "منبع"
+
+#. i18n: ectx: property (title), widget (QGroupBox, displayGroupBox)
+#: spice/spicepreferences.ui:17
+#, kde-format
+msgid "Display"
+msgstr "نمایشگر"
+
+#. i18n: ectx: property (text), widget (QLabel, resolutionLabel)
+#: spice/spicepreferences.ui:23
+#, kde-format
+msgid "Resolution:"
+msgstr "تفکیک‌پذیری:"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_Resolution)
+#: spice/spicepreferences.ui:39
+#, kde-format
+msgid ""
+"The resolution requested from the remote desktop. The guest must have spice-"
+"vdagent running for dynamic resize to work."
+msgstr ""
+"تفکیک‌پذیری درخواستی از میزکار دوردست. برای کارکرد تغییر اندازهٔ پویا، باید "
+"spice-vdagent روی مهمان در حال اجرا باشد."
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Width)
+#: spice/spicepreferences.ui:100
+#, kde-format
+msgid ""
+"Custom desktop width. Only editable when Custom Resolution is selected "
+"above."
+msgstr ""
+"عرض سفارشی میزکار. تنها زمانی قابل ویرایش است که در بالا «تفکیک‌پذیری "
+"سفارشی» انتخاب شده باشد."
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Height)
+#: spice/spicepreferences.ui:132
+#, kde-format
+msgid ""
+"Custom desktop height. Only editable when Custom Resolution is selected "
+"above."
+msgstr ""
+"ارتفاع سفارشی میزکار. تنها زمانی قابل ویرایش است که در بالا «تفکیک‌پذیری "
+"سفارشی» انتخاب شده باشد."
+
+#. i18n: ectx: property (title), widget (QGroupBox, spiceGroupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, vncGroupBox)
+#: spice/spicepreferences.ui:160 vnc/vncpreferences.ui:17
+#, kde-format
+msgid "Connection"
+msgstr "اتصال"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableAudio)
+#: spice/spicepreferences.ui:166
+#, kde-format
+msgid "Enable &audio playback"
+msgstr "فعال‌سازی پخش صدا"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_EnableAudio)
+#: spice/spicepreferences.ui:169
+#, kde-format
+msgid "Play audio from the remote host on this machine."
+msgstr "پخش صدای میزبان دوردست روی این دستگاه."
+
+#: spice/spiceview.cpp:819
+#, kde-format
+msgid "Authentication is required to connect to <b>%1</b>."
+msgstr "برای اتصال به <b>%1</b> به احراز هویت نیاز است."
+
+#: spice/spiceviewfactory.cpp:47
+#, kde-format
+msgid "New SPICE Connection…"
+msgstr "اتصال جدید SPICE…"
+
+#: spice/spiceviewfactory.cpp:52
+#, kde-format
+msgid "Connect to a SPICE Remote Desktop"
+msgstr "اتصال به میزکار از راه دور SPICE"
+
+#: spice/spiceviewfactory.cpp:58
+#, kde-format
+msgid ""
+"<html>Enter the address here.<br /><i>Example: "
+"spice://myhost:5900</i></html>"
+msgstr ""
+"<html>نشانی را اینجا وارد کنید.<br /><i>مثال: spice://myhost:5900</i></html>"
+
+#: vnc/vncclientthread.cpp:315
+#, kde-format
+msgid "VNC authentication type is not supported."
+msgstr "نوع احراز هویت VNC پشتیبانی نمی‌شود."
+
+#: vnc/vncclientthread.cpp:332
+#, kde-format
+msgid "Server not found."
+msgstr "سرور پیدا نشد."
+
+#: vnc/vncclientthread.cpp:349 vnc/vncclientthread.cpp:423
+#, kde-format
+msgid "VNC authentication failed."
+msgstr "احراز هویت VNC ناموفق بود."
+
+#: vnc/vncclientthread.cpp:354
+#, kde-format
+msgid "VNC authentication failed because of too many authentication tries."
+msgstr "احراز هویت VNC به دلیل تلاش‌های بیش از حد برای احراز هویت ناموفق بود."
+
+#: vnc/vncclientthread.cpp:358
+#, kde-format
+msgid "VNC server closed connection."
+msgstr "سرور VNC اتصال را بست."
+
+#: vnc/vncclientthread.cpp:365
+#, kde-format
+msgid "Disconnected: %1."
+msgstr "قطع شد: %1."
+
+#: vnc/vncclientthread.cpp:570
+#, kde-format
+msgid "Reconnecting."
+msgstr "در حال اتصال مجدد."
+
+#: vnc/vncclientthread.cpp:638
+#, kde-format
+msgid "Reconnected."
+msgstr "دوباره متصل شد."
+
+#: vnc/vncclientthread.cpp:640
+#, kde-format
+msgid "Connected."
+msgstr "متصل شد."
+
+#. i18n: ectx: property (text), widget (QLabel, connectionLabel)
+#: vnc/vncpreferences.ui:23
+#, kde-format
+msgid "Connection &type:"
+msgstr "نوع اتصال:"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_Quality)
+#: vnc/vncpreferences.ui:39
+#, kde-format
+msgid ""
+"Use this to specify the performance of your connection. Note that you should"
+" select the speed of the weakest link - even if you have a high speed "
+"connection, it will not help you if the remote computer uses a slow modem. "
+"Choosing a level of quality that is too high on a slow link will cause "
+"slower response times. Choosing a lower quality will increase latencies in "
+"high speed connections and results in lower image quality, especially in "
+"'Low Quality' mode."
+msgstr ""
+"از این گزینه برای تعیین عملکرد اتصال خود استفاده کنید. توجه داشته باشید که "
+"باید سرعت ضعیف‌ترین پیوند (لینک) را انتخاب کنید - حتی اگر اتصال پرسرعتی "
+"داشته باشید، در صورتی که رایانهٔ مقصد از مودم کندی استفاده کند کمکی به شما "
+"نخواهد کرد. انتخاب سطح کیفیت بسیار بالا در یک اتصال کُند باعث افزایش زمان "
+"پاسخ‌دهی می‌شود. انتخاب کیفیت پایین‌تر نیز در اتصالات پرسرعت باعث افزایش "
+"تاخیر و کاهش کیفیت تصویر به‌ویژه در حالت «کیفیت پایین» خواهد شد."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
+#: vnc/vncpreferences.ui:43
+#, kde-format
+msgid "High Quality (LAN, direct connection)"
+msgstr "کیفیت بالا (شبکهٔ محلی، اتصال مستقیم)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
+#: vnc/vncpreferences.ui:48
+#, kde-format
+msgid "Medium Quality (DSL, Cable, fast Internet)"
+msgstr "کیفیت متوسط (DSL، کابلی، اینترنت سریع)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
+#: vnc/vncpreferences.ui:53
+#, kde-format
+msgid "Low Quality (Modem, ISDN, slow Internet)"
+msgstr "کیفیت پایین (مودم، ISDN، اینترنت کُند)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Scaling)
+#: vnc/vncpreferences.ui:63
+#, kde-format
+msgid "Scale to Size:"
+msgstr "مقیاس به اندازهٔ:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: vnc/vncpreferences.ui:93
+#, kde-format
+msgid "Minimal (640x480)"
+msgstr "حداقل (۶۴۰x۴۸۰)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: vnc/vncpreferences.ui:98
+#, kde-format
+msgid "Small (800x600)"
+msgstr "کوچک (۸۰۰x۶۰۰)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: vnc/vncpreferences.ui:103
+#, kde-format
+msgid "Normal (1024x768)"
+msgstr "عادی (۱۰۲۴x۷۶۸)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: vnc/vncpreferences.ui:108
+#, kde-format
+msgid "Large (1280x1024)"
+msgstr "بزرگ (۱۲۸۰×۱۰۲۴)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: vnc/vncpreferences.ui:113
+#, kde-format
+msgid "Very Large (1600x1200)"
+msgstr "خیلی بزرگ (۱۶۰۰×۱۲۰۰)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dont_copy_passwords)
+#: vnc/vncpreferences.ui:211
+#, kde-format
+msgid "Don't copy passwords from supported password managers to remote hosts"
+msgstr ""
+"گذرواژه‌ها از مدیرهای گذرواژهٔ پشتیبانی‌شده به میزبان‌های دوردست رونوشت "
+"نشوند"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, dont_copy_passwords)
+#: vnc/vncpreferences.ui:214
+#, kde-format
+msgid ""
+"Supported password managers (like KeePassXC) mark copied passwords with an "
+"additional MIME type \"x-kde-passwordManagerHint\" which is used for "
+"filtering."
+msgstr ""
+"مدیرهای گذرواژهٔ پشتیبانی‌شده (مانند KeePassXC) گذرواژه‌های رونوشت‌شده را با"
+" یک نوع MIME اضافی با عنوان «x-kde-passwordManagerHint» علامت‌گذاری می‌کنند "
+"که برای پالایش استفاده می‌شود."
+
+#: vnc/vncview.cpp:240
+#, kde-format
+msgid "Access to the system requires a password."
+msgstr "دسترسی به سامانه نیازمند گذرواژه است."
+
+#: vnc/vncview.cpp:240
+#, kde-format
+msgid "Authentication failed. Please try again."
+msgstr "تأیید هویت ناموفق بود. لطفاً دوباره تلاش کنید."
+
+#: vnc/vncview.cpp:266
+#, kde-format
+msgid "VNC failure"
+msgstr "شکست VNC"
+
+#: vnc/vncviewfactory.cpp:47
+#, kde-format
+msgid "New VNC Connection…"
+msgstr "اتصال VNC جدید…"
+
+#: vnc/vncviewfactory.cpp:52
+#, kde-format
+msgid "Connect to a VNC Remote Desktop"
+msgstr "اتصال به میزکار دوردست VNC"
+
+#: vnc/vncviewfactory.cpp:58
+#, kde-format
+msgid ""
+"<html>Enter the address here.<br /><i>Example: vncserver:1 (host:port / "
+"screen)</i></html>"
+msgstr ""
+"<html>نشانی را اینجا وارد کنید.<br /><i>مثال: vncserver:1 (میزبان:درگاه / "
+"صفحه)</i></html>"

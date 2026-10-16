@@ -1,0 +1,984 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_powerdevilprofilesconfig package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_powerdevilprofilesconfig\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-06 00:48+0000\n"
+"PO-Revision-Date: 2026-10-15 03:20+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: PowerButtonActionModel.cpp:31
+#, kde-format
+msgid "Do nothing"
+msgstr "کاری انجام نشود"
+
+#: PowerButtonActionModel.cpp:40
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "خواب"
+
+#: PowerButtonActionModel.cpp:50
+#, kde-format
+msgid "Hibernate"
+msgstr "خواب زمستانی"
+
+#: PowerButtonActionModel.cpp:59
+#, kde-format
+msgctxt "Power down the computer"
+msgid "Shut down"
+msgstr "خاموش کردن"
+
+#: PowerButtonActionModel.cpp:67
+#, kde-format
+msgid "Lock screen"
+msgstr "قفل کردن صفحه"
+
+#: PowerButtonActionModel.cpp:75
+#, kde-format
+msgid "Show logout screen"
+msgstr "نمایش صفحهٔ خروج از نشست"
+
+#: PowerButtonActionModel.cpp:83
+#, kde-format
+msgid "Turn off screen"
+msgstr "خاموش کردن صفحهٔ نمایش"
+
+#: PowerButtonActionModel.cpp:91
+#, kde-format
+msgid "Toggle screen on/off"
+msgstr "روشن/خاموش کردن صفحهٔ نمایش"
+
+#: PowerKCM.cpp:461
+#, kde-format
+msgid "The Power Management Service appears not to be running."
+msgstr "به نظر می‌رسد خدمت مدیریت توان در حال اجرا نیست."
+
+#: PowerProfileModel.cpp:42
+#, kde-format
+msgctxt "@option:combobox Power profile"
+msgid "Power Save"
+msgstr "صرفه‌جویی در مصرف توان"
+
+#: PowerProfileModel.cpp:43
+#, kde-format
+msgctxt "@option:combobox Power profile"
+msgid "Balanced"
+msgstr "متعادل"
+
+#: PowerProfileModel.cpp:44
+#, kde-format
+msgctxt "@option:combobox Power profile"
+msgid "Performance"
+msgstr "کارایی"
+
+#: PowerProfileModel.cpp:48
+#, kde-format
+msgid "Leave unchanged"
+msgstr "بدون تغییر"
+
+#: SleepModeModel.cpp:20
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Standby"
+msgstr "آماده‌به‌کار"
+
+#: SleepModeModel.cpp:21
+#, kde-format
+msgctxt "Subtitle description for 'Standby' sleep option"
+msgid "Save session to memory"
+msgstr "ذخیرهٔ نشست در حافظه"
+
+#: SleepModeModel.cpp:28
+#, kde-format
+msgid "Hybrid sleep"
+msgstr "خواب ترکیبی"
+
+#: SleepModeModel.cpp:29
+#, kde-format
+msgctxt "Subtitle description for 'Hybrid sleep' sleep option"
+msgid "Save session to both memory and disk"
+msgstr "ذخیرهٔ نشست در حافظه و دیسک"
+
+#: SleepModeModel.cpp:36
+#, kde-format
+msgid "Standby, then hibernate"
+msgstr "آماده‌به‌کار، سپس خواب زمستانی"
+
+#: SleepModeModel.cpp:38
+#, kde-format
+msgctxt "Subtitle description for 'Standby, then hibernate' sleep option"
+msgid "Switch to hibernation when battery runs low"
+msgstr "رفتن به خواب زمستانی هنگام کم شدن شارژ باتری"
+
+#: SleepModeModel.cpp:39
+#, kde-format
+msgctxt "Subtitle description for 'Standby, then hibernate' sleep option"
+msgid "Switch to hibernation after a period of inactivity"
+msgstr "رفتن به خواب زمستانی پس از مدتی بی‌کاری"
+
+#: ui/DurationPromptDialog.qml:131
+#, kde-format
+msgctxt "The unit of the time input field"
+msgid "millisecond"
+msgid_plural "milliseconds"
+msgstr[0] "میلی‌ثانیه"
+msgstr[1] "میلی‌ثانیه"
+
+#: ui/DurationPromptDialog.qml:133
+#, kde-format
+msgctxt "The unit of the time input field"
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "ثانیه"
+msgstr[1] "ثانیه"
+
+#: ui/DurationPromptDialog.qml:135
+#, kde-format
+msgctxt "The unit of the time input field"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "دقیقه"
+msgstr[1] "دقیقه"
+
+#: ui/DurationPromptDialog.qml:137
+#, kde-format
+msgctxt "The unit of the time input field"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ساعت"
+msgstr[1] "ساعت"
+
+#: ui/DurationPromptDialog.qml:139
+#, kde-format
+msgctxt "The unit of the time input field"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "روز"
+msgstr[1] "روز"
+
+#: ui/DurationPromptDialog.qml:141
+#, kde-format
+msgctxt "The unit of the time input field"
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "هفته"
+msgstr[1] "هفته"
+
+#: ui/DurationPromptDialog.qml:143
+#, kde-format
+msgctxt "The unit of the time input field"
+msgid "month"
+msgid_plural "months"
+msgstr[0] "ماه"
+msgstr[1] "ماه"
+
+#: ui/DurationPromptDialog.qml:145
+#, kde-format
+msgctxt "The unit of the time input field"
+msgid "year"
+msgid_plural "years"
+msgstr[0] "سال"
+msgstr[1] "سال"
+
+#: ui/DurationPromptDialog.qml:169
+#, kde-format
+msgctxt "@text:radiobutton Unit of the time input field"
+msgid "milliseconds"
+msgstr "میلی‌ثانیه"
+
+#: ui/DurationPromptDialog.qml:171
+#, kde-format
+msgctxt "@text:radiobutton Unit of the time input field"
+msgid "seconds"
+msgstr "ثانیه"
+
+#: ui/DurationPromptDialog.qml:173
+#, kde-format
+msgctxt "@text:radiobutton Unit of the time input field"
+msgid "minutes"
+msgstr "دقیقه"
+
+#: ui/DurationPromptDialog.qml:175
+#, kde-format
+msgctxt "@text:radiobutton Unit of the time input field"
+msgid "hours"
+msgstr "ساعت"
+
+#: ui/DurationPromptDialog.qml:177
+#, kde-format
+msgctxt "@text:radiobutton Unit of the time input field"
+msgid "days"
+msgstr "روز"
+
+#: ui/DurationPromptDialog.qml:179
+#, kde-format
+msgctxt "@text:radiobutton Unit of the time input field"
+msgid "weeks"
+msgstr "هفته"
+
+#: ui/DurationPromptDialog.qml:181
+#, kde-format
+msgctxt "@text:radiobutton Unit of the time input field"
+msgid "months"
+msgstr "ماه"
+
+#: ui/DurationPromptDialog.qml:183
+#, kde-format
+msgctxt "@text:radiobutton Unit of the time input field"
+msgid "years"
+msgstr "سال"
+
+#: ui/GlobalConfig.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Advanced Power Settings"
+msgstr "تنظیمات پیشرفتهٔ توان"
+
+#: ui/GlobalConfig.qml:21
+#, kde-format
+msgctxt ""
+"Percentage value example, used for formatting battery levels in the power "
+"management settings"
+msgid "10%"
+msgstr "۱۰٪"
+
+#: ui/GlobalConfig.qml:59
+#, kde-format
+msgctxt "@title:group"
+msgid "Battery Levels"
+msgstr "سطوح باتری"
+
+#: ui/GlobalConfig.qml:67
+#, kde-format
+msgctxt ""
+"@label:spinbox Low battery level percentage for the main power supply "
+"battery"
+msgid "&Low level:"
+msgstr "سطح پایین:"
+
+#: ui/GlobalConfig.qml:75
+#, kde-format
+msgctxt "@accessible:name:spinbox"
+msgid "Low battery level"
+msgstr "سطح پایین باتری"
+
+#: ui/GlobalConfig.qml:100
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The battery charge will be considered low when it drops to this level. "
+"Settings for low battery will be used instead of regular battery settings."
+msgstr ""
+"هنگامی که شارژ باتری به این سطح برسد، کم در نظر گرفته می‌شود. در این حالت، "
+"تنظیمات باتری کم به‌جای تنظیمات عادی باتری اعمال خواهد شد."
+
+#: ui/GlobalConfig.qml:107
+#, kde-format
+msgctxt ""
+"@label:spinbox Critical battery level percentage for the main power supply "
+"battery"
+msgid "Cr&itical level:"
+msgstr "سطح بحرانی:"
+
+#: ui/GlobalConfig.qml:115
+#, kde-format
+msgctxt "@accessible:name:spinbox"
+msgid "Critical battery level"
+msgstr "سطح بحرانی باتری"
+
+#: ui/GlobalConfig.qml:140
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The battery charge will be considered critical when it drops to this level. "
+"After a brief warning, the system will automatically suspend or shut down, "
+"according to the configured critical battery level action."
+msgstr ""
+"هنگامی که شارژ باتری به این سطح برسد، بحرانی در نظر گرفته می‌شود. پس از یک "
+"هشدار کوتاه، سامانه بر اساس کنش پیکربندی‌شده برای سطح بحرانی باتری، به‌طور "
+"خودکار به حالت تعلیق می‌رود یا خاموش می‌شود."
+
+#: ui/GlobalConfig.qml:149
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"The action you had previously configured for reaching the critical battery "
+"level is now unsupported on your system. Please select a different one."
+msgstr ""
+"کنشی که پیش‌تر برای رسیدن به سطح بحرانی باتری پیکربندی کرده بودید، اکنون در "
+"سامانهٔ شما پشتیبانی نمی‌شود. لطفاً کنش دیگری انتخاب کنید."
+
+#: ui/GlobalConfig.qml:156
+#, kde-format
+msgctxt ""
+"@label:combobox Power action such as sleep/hibernate that will be executed "
+"when the critical battery level is reached"
+msgid "A&t critical level:"
+msgstr "در سطح بحرانی:"
+
+#: ui/GlobalConfig.qml:158
+#, kde-format
+msgctxt "@accessible:name:combobox"
+msgid "Action performed at critical battery level"
+msgstr "کنش انجام‌شده در سطح بحرانی باتری"
+
+#: ui/GlobalConfig.qml:183
+#, kde-format
+msgctxt "@label:spinbox Low battery level percentage for peripheral devices"
+msgid "Low level for peripheral d&evices:"
+msgstr "سطح پایین برای دستگاه‌های جانبی:"
+
+#: ui/GlobalConfig.qml:191
+#, kde-format
+msgctxt "@accessible:name:spinbox"
+msgid "Low battery level for peripheral devices"
+msgstr "سطح پایین باتری برای دستگاه‌های جانبی"
+
+#: ui/GlobalConfig.qml:216
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The battery charge for peripheral devices will be considered low when it "
+"reaches this level."
+msgstr ""
+"شارژ باتری دستگاه‌های جانبی هنگامی که به این سطح برسد، کم در نظر گرفته "
+"می‌شود."
+
+#: ui/GlobalConfig.qml:224
+#, kde-format
+msgctxt "@title:group"
+msgid "Charge Limit"
+msgstr "محدودیت شارژ"
+
+#: ui/GlobalConfig.qml:235
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "&Battery protection:"
+msgstr "محافظت از باتری:"
+
+#: ui/GlobalConfig.qml:236
+#, kde-format
+msgctxt "@text:checkbox"
+msgid "Limit the maximum battery charge"
+msgstr "محدود کردن حداکثر شارژ باتری"
+
+#: ui/GlobalConfig.qml:244
+#, kde-format
+msgctxt ""
+"@label:spinbox Battery will stop charging when this charge percentage is "
+"reached"
+msgid "&Stop charging at:"
+msgstr "توقف شارژ در:"
+
+#: ui/GlobalConfig.qml:295
+#, kde-format
+msgctxt ""
+"@label:spinbox Battery will start charging again when this charge percentage"
+" is reached, after having hit the stop-charging threshold earlier"
+msgid "Start charging once &below:"
+msgstr "آغاز شارژ در صورت کاهش به زیر:"
+
+#: ui/GlobalConfig.qml:373
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"You might have to disconnect and re-connect the power source to start "
+"charging the battery again."
+msgstr ""
+"ممکن است برای آغاز دوبارهٔ شارژ باتری، لازم باشد منبع تغذیه را جدا کرده و "
+"دوباره وصل کنید."
+
+#: ui/GlobalConfig.qml:384
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Regularly charging the battery close to 100%, or fully discharging it, may "
+"accelerate deterioration of battery health. By limiting the maximum battery "
+"charge, you can help extend the battery lifespan."
+msgstr ""
+"شارژ مداوم باتری تا نزدیک ۱۰۰٪ یا تخلیهٔ کامل آن، ممکن است فرسودگی باتری را "
+"تسریع کند. با محدود کردن حداکثر شارژ باتری، می‌توانید به افزایش طول عمر آن "
+"کمک کنید."
+
+#: ui/GlobalConfig.qml:392
+#, kde-format
+msgctxt ""
+"@title:group Miscellaneous power management settings that didn't fit "
+"elsewhere"
+msgid "Other Settings"
+msgstr "تنظیمات دیگر"
+
+#: ui/GlobalConfig.qml:400
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "&Media playback:"
+msgstr "پخش چندرسانه‌ای:"
+
+#: ui/GlobalConfig.qml:401
+#, kde-format
+msgctxt "@text:checkbox"
+msgid "Pause media players when suspending"
+msgstr "مکث پخش‌کننده‌های چندرسانه‌ای هنگام تعلیق"
+
+#: ui/GlobalConfig.qml:414
+#, kde-format
+msgctxt "@label:button"
+msgid "Related pages:"
+msgstr "صفحه‌های مرتبط:"
+
+#: ui/GlobalConfig.qml:431
+#, kde-format
+msgctxt ""
+"@text:button Name of KCM, plus Power Management notification category"
+msgid "Notifications: Power Management"
+msgstr "اعلان‌ها: مدیریت مصرف برق"
+
+#: ui/GlobalConfig.qml:433
+#, kde-format
+msgid "Open \"Notifications\" settings page, \"Power Management\" section"
+msgstr "باز کردن صفحهٔ تنظیمات «اعلان‌ها»، بخش «مدیریت مصرف برق»"
+
+#: ui/GlobalConfig.qml:442
+#, kde-format
+msgctxt "@text:button Name of KCM, plus Power Management shortcut category"
+msgid "Shortcuts: Power Management"
+msgstr "میانبرها: مدیریت مصرف برق"
+
+#: ui/GlobalConfig.qml:444
+#, kde-format
+msgid "Open \"Shortcuts\" settings page, \"Power Management\" section"
+msgstr "باز کردن صفحهٔ تنظیمات «میانبرها»، بخش «مدیریت مصرف برق»"
+
+#: ui/GlobalConfig.qml:451
+#, kde-format
+msgctxt "@text:button Name of KCM"
+msgid "Screen Locking"
+msgstr "قفل صفحه‌نمایش"
+
+#: ui/GlobalConfig.qml:452
+#, kde-format
+msgid "Open \"Screen Locking\" settings page"
+msgstr "باز کردن صفحهٔ تنظیمات «قفل صفحه‌نمایش»"
+
+#: ui/GlobalConfig.qml:459
+#, kde-format
+msgctxt "@text:button Name of KCM"
+msgid "Desktop Session"
+msgstr "نشست میزکار"
+
+#: ui/GlobalConfig.qml:460
+#, kde-format
+msgid "Open \"Desktop Session\" settings page"
+msgstr "باز کردن صفحهٔ تنظیمات «نشست میزکار»"
+
+#: ui/GlobalConfig.qml:467
+#, kde-format
+msgctxt "@text:button Name of KCM"
+msgid "Activities"
+msgstr "فعالیت‌ها"
+
+#: ui/GlobalConfig.qml:468
+#, kde-format
+msgid "Open \"Activities\" settings page"
+msgstr "باز کردن صفحهٔ تنظیمات «فعالیت‌ها»"
+
+#: ui/main.qml:19
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Advanced &Settings…"
+msgstr "پیکربندی تنظیمات پیشرفته…"
+
+#: ui/main.qml:44
+#, kde-format
+msgctxt "@text:placeholdermessage"
+msgid "Power Management settings could not be loaded"
+msgstr "تنظیمات مدیریت مصرف برق بارگذاری نشد"
+
+#: ui/main.qml:66
+#, kde-format
+msgid "On AC Power"
+msgstr "با برق شهر"
+
+#: ui/main.qml:67
+#, kde-format
+msgid "On Battery"
+msgstr "با باتری"
+
+#: ui/main.qml:68
+#, kde-format
+msgid "On Low Battery"
+msgstr "با باتری کم"
+
+#: ui/ProfileConfig.qml:25
+#, kde-format
+msgctxt ""
+"Percentage value example, used for formatting brightness levels in the power"
+" management settings"
+msgid "10%"
+msgstr "۱۰٪"
+
+#: ui/ProfileConfig.qml:44
+#, kde-format
+msgctxt "@title:group"
+msgid "Suspend Session"
+msgstr "تعلیق نشست"
+
+#: ui/ProfileConfig.qml:59
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"The action you had previously configured to happen when inactive is now "
+"unsupported on your system. Please select a different one."
+msgstr ""
+"کنشی که پیش‌تر برای زمان غیرفعال بودن پیکربندی کرده بودید، اکنون در سامانهٔ "
+"شما پشتیبانی نمی‌شود. لطفاً کنش دیگری انتخاب کنید."
+
+#: ui/ProfileConfig.qml:66
+#, kde-format
+msgctxt ""
+"@label:combobox Suspend action such as sleep/hibernate to perform when the "
+"system is idle"
+msgid "When &inactive:"
+msgstr "هنگام غیرفعال بودن:"
+
+#: ui/ProfileConfig.qml:75
+#, kde-format
+msgctxt "@accessible:name:combobox"
+msgid "Action to perform when the system is idle"
+msgstr "کنشی که هنگام بیکار بودن سامانه انجام می‌شود"
+
+#: ui/ProfileConfig.qml:106
+#, kde-format
+msgctxt "@option:combobox"
+msgid "After %1 second"
+msgid_plural "After %1 seconds"
+msgstr[0] "پس از %1 ثانیه"
+msgstr[1] "پس از %1 ثانیه"
+
+#: ui/ProfileConfig.qml:108
+#, kde-format
+msgctxt "@option:combobox"
+msgid "After %1 minute"
+msgid_plural "After %1 minutes"
+msgstr[0] "پس از %1 دقیقه"
+msgstr[1] "پس از %1 دقیقه"
+
+#: ui/ProfileConfig.qml:121 ui/ProfileConfig.qml:416 ui/ProfileConfig.qml:557
+#: ui/ProfileConfig.qml:870
+#, kde-format
+msgctxt ""
+"@option:combobox Choose a custom value outside the list of preset values"
+msgid "Custom…"
+msgstr "سفارشی…"
+
+#: ui/ProfileConfig.qml:167
+#, kde-format
+msgctxt "@info:status"
+msgid "Disabling automatic suspend will result in higher energy consumption."
+msgstr "غیرفعال کردن تعلیق خودکار منجر به مصرف انرژی بیشتر خواهد شد."
+
+#: ui/ProfileConfig.qml:169
+#, kde-format
+msgctxt "@info:status A long duration until suspend/shutdown"
+msgid "A long duration will result in higher energy consumption."
+msgstr "مدت‌زمان طولانی منجر به مصرف انرژی بیشتر خواهد شد."
+
+#: ui/ProfileConfig.qml:181
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"The action you had previously configured for when the power button is "
+"pressed is now unsupported on your system. Please select a different one."
+msgstr ""
+"کنشی که پیش‌تر برای فشردن دکمهٔ روشن/خاموش پیکربندی کرده بودید، اکنون در "
+"سامانهٔ شما پشتیبانی نمی‌شود. لطفاً کنش دیگری انتخاب کنید."
+
+#: ui/ProfileConfig.qml:188
+#, kde-format
+msgctxt ""
+"@label:combobox Suspend action such as sleep/hibernate to perform when the "
+"power button is pressed"
+msgid "When &power button pressed:"
+msgstr "هنگام فشردن دکمهٔ روشن/خاموش:"
+
+#: ui/ProfileConfig.qml:190
+#, kde-format
+msgctxt "@accessible:name:combobox"
+msgid "Action to perform when the power button is pressed"
+msgstr "کنشی که هنگام فشردن دکمهٔ روشن/خاموش انجام می‌شود"
+
+#: ui/ProfileConfig.qml:220
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"The action you had previously configured for when the lid is closed is now "
+"unsupported on your system. Please select a different one."
+msgstr ""
+"کنشی که پیش‌تر برای بسته شدن درپوش لپ‌تاپ پیکربندی کرده بودید، اکنون در "
+"سامانهٔ شما پشتیبانی نمی‌شود. لطفاً کنش دیگری انتخاب کنید."
+
+#: ui/ProfileConfig.qml:227
+#, kde-format
+msgctxt ""
+"@label:combobox Suspend action such as sleep/hibernate to perform when the "
+"power button is pressed"
+msgid "When laptop &lid closed:"
+msgstr "هنگام بسته شدن درپوش لپ‌تاپ:"
+
+#: ui/ProfileConfig.qml:229
+#, kde-format
+msgctxt "@accessible:name:combobox"
+msgid "Action to perform when the laptop lid is closed"
+msgstr "کنشی که هنگام بسته شدن درپوش لپ‌تاپ انجام می‌شود"
+
+#: ui/ProfileConfig.qml:258
+#, kde-format
+msgctxt ""
+"@text:checkbox Trigger laptop lid action even when an external monitor is "
+"connected"
+msgid "Even when an external monitor is connected"
+msgstr "حتی زمانی که نمایشگر بیرونی متصل است"
+
+#: ui/ProfileConfig.qml:260
+#, kde-format
+msgid "Perform laptop lid action even when an external monitor is connected"
+msgstr "انجام کنش مربوط به درپوش لپ‌تاپ حتی زمانی که نمایشگر بیرونی متصل است"
+
+#: ui/ProfileConfig.qml:278
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"The sleep mode you had previously configured is now unsupported on your "
+"system. Please select a different one."
+msgstr ""
+"حالت خوابی که پیش‌تر پیکربندی کرده بودید، اکنون در سامانهٔ شما پشتیبانی "
+"نمی‌شود. لطفاً حالت دیگری انتخاب کنید."
+
+#: ui/ProfileConfig.qml:285
+#, kde-format
+msgctxt ""
+"@label:combobox Sleep mode selection - suspend to memory, disk or both"
+msgid "When sleeping, enter:"
+msgstr "هنگام خواب، رفتن به:"
+
+#: ui/ProfileConfig.qml:287
+#, kde-format
+msgctxt "@accessible:name:combobox"
+msgid "When sleeping, enter this power-save mode"
+msgstr "هنگام خواب، رفتن به این حالت صرفه‌جویی در مصرف انرژی"
+
+#: ui/ProfileConfig.qml:336
+#, kde-format
+msgctxt "@title:group"
+msgid "Display and Brightness"
+msgstr "نمایشگر و روشنایی"
+
+#: ui/ProfileConfig.qml:346
+#, kde-format
+msgctxt "@label:slider Brightness level"
+msgid "Change scr&een brightness:"
+msgstr "تغییر روشنایی صفحه:"
+
+#: ui/ProfileConfig.qml:393
+#, kde-format
+msgctxt "@label:combobox Dim screen after X minutes"
+msgid "Di&m automatically:"
+msgstr "کم‌نور شدن خودکار:"
+
+#: ui/ProfileConfig.qml:395
+#, kde-format
+msgctxt "@label:spinbox Dim screen after X minutes"
+msgid "Di&m automatically after:"
+msgstr "کم‌نور شدن خودکار پس از:"
+
+#: ui/ProfileConfig.qml:400
+#, kde-format
+msgctxt "@option:combobox"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 ثانیه"
+msgstr[1] "%1 ثانیه"
+
+#: ui/ProfileConfig.qml:402
+#, kde-format
+msgctxt "@option:combobox"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 دقیقه"
+msgstr[1] "%1 دقیقه"
+
+#: ui/ProfileConfig.qml:409
+#, kde-format
+msgctxt "@option:combobox Dim screen automatically"
+msgid "Never"
+msgstr "هرگز"
+
+#: ui/ProfileConfig.qml:461
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"The screen will not be dimmed because it is configured to turn off sooner."
+msgstr ""
+"صفحه‌نمایش کم‌نور نخواهد شد زیرا طوری پیکربندی شده است که زودتر خاموش شود."
+
+#: ui/ProfileConfig.qml:466
+#, kde-format
+msgctxt "@label:combobox After X minutes"
+msgid "&Turn off screen:"
+msgstr "خاموش کردن صفحه‌نمایش:"
+
+#: ui/ProfileConfig.qml:478
+#, kde-format
+msgctxt "@label:spinbox After X minutes"
+msgid "Turn off screen after:"
+msgstr "خاموش کردن صفحه‌نمایش پس از:"
+
+#: ui/ProfileConfig.qml:482
+#, kde-format
+msgctxt "@option:combobox Turn off screen (caution: watch for string length)"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 ثانیه"
+msgstr[1] "%1 ثانیه"
+
+#: ui/ProfileConfig.qml:484
+#, kde-format
+msgctxt "@option:combobox Turn off screen (caution: watch for string length)"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 دقیقه"
+msgstr[1] "%1 دقیقه"
+
+#: ui/ProfileConfig.qml:491
+#, kde-format
+msgctxt "@option:combobox Turn off screen (caution: watch for string length)"
+msgid "Never"
+msgstr "هرگز"
+
+#: ui/ProfileConfig.qml:498
+#, kde-format
+msgctxt ""
+"@option:combobox Choose a custom value outside the list of preset values "
+"(caution: watch for string length)"
+msgid "Custom…"
+msgstr "سفارشی…"
+
+#: ui/ProfileConfig.qml:537
+#, kde-format
+msgctxt "@label:spinbox After X minutes"
+msgid "When locked, turn off screen after:"
+msgstr "هنگام قفل بودن، خاموش کردن صفحه‌نمایش پس از:"
+
+#: ui/ProfileConfig.qml:541
+#, kde-format
+msgctxt "@option:combobox Turn off screen (caution: watch for string length)"
+msgid "When locked: %1 second"
+msgid_plural "When locked: %1 seconds"
+msgstr[0] "هنگام قفل بودن: %1 ثانیه"
+msgstr[1] "هنگام قفل بودن: %1 ثانیه"
+
+#: ui/ProfileConfig.qml:543
+#, kde-format
+msgctxt "@option:combobox Turn off screen (caution: watch for string length)"
+msgid "When locked: %1 minute"
+msgid_plural "When locked: %1 minutes"
+msgstr[0] "هنگام قفل بودن: %1 دقیقه"
+msgstr[1] "هنگام قفل بودن: %1 دقیقه"
+
+#: ui/ProfileConfig.qml:550
+#, kde-format
+msgctxt ""
+"@option:combobox Turn off screen after X minutes regardless of lock screen "
+"(caution: watch for string length)"
+msgid "When locked and unlocked"
+msgstr "هنگام قفل و باز بودن"
+
+#: ui/ProfileConfig.qml:552
+#, kde-format
+msgctxt "@option:combobox Turn off screen (caution: watch for string length)"
+msgid "When locked: Immediately"
+msgstr "هنگام قفل بودن: بلافاصله"
+
+#: ui/ProfileConfig.qml:591
+#, kde-format
+msgctxt "@label:slider Brightness level"
+msgid "Change key&board brightness:"
+msgstr "تغییر روشنایی صفحه‌کلید:"
+
+#: ui/ProfileConfig.qml:639
+#, kde-format
+msgctxt "@title:group"
+msgid "Other Settings"
+msgstr "تنظیمات دیگر"
+
+#: ui/ProfileConfig.qml:647
+#, kde-format
+msgctxt ""
+"@label:combobox Power Save, Balanced or Performance profile - same options "
+"as in the Battery applet"
+msgid "Switch to po&wer profile:"
+msgstr "تغییر به نمایهٔ انرژی:"
+
+#: ui/ProfileConfig.qml:651
+#, kde-format
+msgctxt ""
+"@accessible:name:combobox Power Save, Balanced or Performance profile - same"
+" options as in the Battery applet"
+msgid "Switch to power profile"
+msgstr "تغییر به نمایهٔ انرژی"
+
+#: ui/ProfileConfig.qml:678
+#, kde-format
+msgctxt "@label:button"
+msgid "Run command or script:"
+msgstr "اجرای دستور یا اسکریپت:"
+
+#: ui/ProfileConfig.qml:688
+#, kde-format
+msgctxt ""
+"@text:button Determine what will trigger a command or script to run in this "
+"power state"
+msgid "Choose run conditions"
+msgstr "انتخاب شرایط اجرا"
+
+#: ui/ProfileConfig.qml:690
+#, kde-format
+msgctxt "@accessible:name:button"
+msgid "Choose run conditions for command or script"
+msgstr "انتخاب شرایط اجرا برای دستور یا اسکریپت"
+
+#: ui/ProfileConfig.qml:710
+#, kde-format
+msgctxt ""
+"@text:action:menu Command or script to run for power state (On AC Power, On "
+"Battery, ...)"
+msgid "When entering \"%1\" state"
+msgstr "هنگام ورود به وضعیت «%1»"
+
+#: ui/ProfileConfig.qml:728
+#, kde-format
+msgctxt ""
+"@text:action:menu Command or script to run for power state (On AC Power, On "
+"Battery, ...)"
+msgid "When exiting \"%1\" state"
+msgstr "هنگام خروج از حالت «%1»"
+
+#: ui/ProfileConfig.qml:746
+#, kde-format
+msgctxt "@text:action:menu Command or script to run"
+msgid "When inactive"
+msgstr "هنگام غیرفعال بودن"
+
+#: ui/ProfileConfig.qml:769
+#, kde-format
+msgctxt ""
+"@label:textfield Command or script to run for power state (On AC Power, On "
+"Battery, ...)"
+msgid "When e&ntering \"%1\" state:"
+msgstr "هنگام ورود به حالت «%1»:"
+
+#: ui/ProfileConfig.qml:773
+#, kde-format
+msgctxt "@label:textfield for power state (On AC Power, On Battery, ...)"
+msgid "Command or script when entering \"%1\" state"
+msgstr "فرمان یا اسکریپت هنگام ورود به حالت «%1»"
+
+#: ui/ProfileConfig.qml:804
+#, kde-format
+msgctxt ""
+"@label:textfield Command or script to run for power state (On AC Power, On "
+"Battery, ...)"
+msgid "When e&xiting \"%1\" state:"
+msgstr "هنگام خروج از حالت «%1»:"
+
+#: ui/ProfileConfig.qml:808
+#, kde-format
+msgctxt "@label:textfield for power state (On AC Power, On Battery, ...)"
+msgid "Command or script when exiting \"%1\" state"
+msgstr "فرمان یا اسکریپت هنگام خروج از حالت «%1»"
+
+#: ui/ProfileConfig.qml:837
+#, kde-format
+msgctxt "@accessible:name:spinbox"
+msgid "Duration of inactivity before the command or script runs"
+msgstr "مدت غیرفعالی پیش از اجرای فرمان یا اسکریپت"
+
+#: ui/ProfileConfig.qml:843
+#, kde-format
+msgctxt "@label:textfield Command or script to run"
+msgid "When i&nactive:"
+msgstr "هنگام غیرفعال بودن:"
+
+#: ui/ProfileConfig.qml:846
+#, kde-format
+msgctxt "@label:spinbox After X minutes"
+msgid "Run command or script after:"
+msgstr "اجرای فرمان یا اسکریپت پس از:"
+
+#: ui/ProfileConfig.qml:855
+#, kde-format
+msgctxt "@option:combobox"
+msgid "Run after %1 second"
+msgid_plural "Run after %1 seconds"
+msgstr[0] "اجرا پس از %1 ثانیه"
+msgstr[1] "اجرا پس از %1 ثانیه"
+
+#: ui/ProfileConfig.qml:857
+#, kde-format
+msgctxt "@option:combobox"
+msgid "Run after %1 minute"
+msgid_plural "Run after %1 minutes"
+msgstr[0] "اجرا پس از %1 دقیقه"
+msgstr[1] "اجرا پس از %1 دقیقه"
+
+#: ui/ProfileConfig.qml:899
+#, kde-format
+msgctxt "@accessible:name:textfield"
+msgid "Command or script when inactive"
+msgstr "فرمان یا اسکریپت هنگام غیرفعال بودن"
+
+#: ui/RunScriptEdit.qml:35
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter command or script file"
+msgstr "فرمان یا پروندهٔ اسکریپت را وارد کنید"
+
+#: ui/RunScriptEdit.qml:36
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Enter command or choose script file"
+msgstr "فرمان را وارد کنید یا پروندهٔ اسکریپت را انتخاب کنید"
+
+#: ui/RunScriptEdit.qml:54
+#, kde-format
+msgctxt "@action:button opens file picker"
+msgid "Choose…"
+msgstr "انتخاب…"
+
+#: ui/RunScriptEdit.qml:55
+#, kde-format
+msgctxt "@action:button opens file picker"
+msgid "Choose script file"
+msgstr "انتخاب پروندهٔ اسکریپت"
+
+#: ui/RunScriptEdit.qml:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose script file"
+msgstr "انتخاب پروندهٔ اسکریپت"
+
+#: ui/TimeDurationComboBox.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Custom Duration"
+msgstr "مدت سفارشی"

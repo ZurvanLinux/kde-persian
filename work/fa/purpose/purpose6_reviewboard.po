@@ -1,0 +1,127 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the purpose6_reviewboard package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: purpose6_reviewboard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:49+0000\n"
+"PO-Revision-Date: 2026-10-16 01:53+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: reviewboardjobs.cpp:166
+#, kde-format
+msgid "JSON error: %1"
+msgstr "خطای JSON: %1"
+
+#: reviewboardjobs.cpp:171
+#, kde-format
+msgid "Request Error: %1"
+msgstr "خطای درخواست: %1"
+
+#: reviewboardjobs.cpp:200
+#, kde-format
+msgid ""
+"Could not create the new request:\n"
+"%1"
+msgstr ""
+"ایجاد درخواست جدید ممکن نشد:\n"
+"%1"
+
+#: reviewboardjobs.cpp:239
+#, kde-format
+msgid "Could not upload the patch"
+msgstr "بارگذاری وصله ممکن نشد"
+
+#: reviewboardjobs.cpp:332
+#, kde-format
+msgid "Could not get reviews list"
+msgstr "دریافت فهرست بازبینی‌ها ممکن نشد"
+
+#: reviewboardjobs.cpp:372
+#, kde-format
+msgid "Could not set metadata"
+msgstr "تنظیم فرا‌داده ممکن نشد"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: reviewboardplugin_config.qml:34 reviewpatch.ui:26
+#, kde-format
+msgid "Server:"
+msgstr "کارساز:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: reviewboardplugin_config.qml:42 reviewpatch.ui:65
+#, kde-format
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: reviewboardplugin_config.qml:49 reviewpatch.ui:79
+#, kde-format
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: reviewboardplugin_config.qml:58
+#, kde-format
+msgid "Repository:"
+msgstr "مخزن:"
+
+#: reviewboardplugin_config.qml:83
+#, kde-format
+msgid "Update Review:"
+msgstr "به‌روزرسانی بازبینی:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: reviewpatch.ui:17
+#, kde-format
+msgid "Destination"
+msgstr "مقصد"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: reviewpatch.ui:36
+#, kde-format
+msgid "Base Dir:"
+msgstr "پوشهٔ پایه:"
+
+#. i18n: ectx: property (text), widget (QLineEdit, basedir)
+#: reviewpatch.ui:43
+#, kde-format
+msgid "/"
+msgstr "/"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, basedir)
+#: reviewpatch.ui:46
+#, kde-format
+msgid "Where this project was checked out from"
+msgstr "جایی که این پروژه از آن واکشی (Check out) شده است"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: reviewpatch.ui:56
+#, kde-format
+msgid "Authentication"
+msgstr "احراز هویت"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, username)
+#: reviewpatch.ui:72
+#, kde-format
+msgid "User name in the specified service"
+msgstr "نام کاربری در سرویس مشخص‌شده"
+
+#. i18n: ectx: property (title), widget (QGroupBox, repositoriesBox)
+#: reviewpatch.ui:99
+#, kde-format
+msgid "Repository"
+msgstr "مخزن"
+
+#. i18n: ectx: property (title), widget (QGroupBox, reviewsBox)
+#: reviewpatch.ui:111
+#, kde-format
+msgid "Update review"
+msgstr "به‌روزرسانی بازبینی"

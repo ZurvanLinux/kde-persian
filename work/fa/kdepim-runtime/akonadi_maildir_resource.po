@@ -1,0 +1,225 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the akonadi_maildir_resource package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_maildir_resource\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"PO-Revision-Date: 2026-10-15 20:51+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: configwidget.cpp:36
+#, kde-format
+msgid "Archive Folder"
+msgstr "پوشهٔ بایگانی"
+
+#: configwidget.cpp:39
+#, kde-format
+msgid "Activities"
+msgstr "فعالیت‌ها"
+
+#: configwidget.cpp:54
+#, kde-format
+msgid "The selected path is empty."
+msgstr "مسیر انتخاب‌شده خالی است."
+
+#: configwidget.cpp:67
+#, kde-format
+msgid "The selected path contains valid Maildir folders."
+msgstr "مسیر انتخاب‌شده شامل پوشه‌های معتبر Maildir است."
+
+#: configwidget.cpp:74
+#, kde-format
+msgid "The selected path is a valid Maildir."
+msgstr "مسیر انتخاب‌شده یک Maildir معتبر است."
+
+#: configwidget.cpp:80
+#, kde-format
+msgid "The selected path does not exist yet, a new Maildir will be created."
+msgstr "مسیر انتخاب‌شده هنوز وجود ندارد، یک Maildir جدید ایجاد خواهد شد."
+
+#: configwidget.cpp:84
+#, kde-format
+msgid "The selected path does not exist."
+msgstr "مسیر انتخاب‌شده وجود ندارد."
+
+#: libmaildir/maildir.cpp:214 libmaildir/maildir.cpp:219
+#, kde-format
+msgid "Error opening %1; this folder is missing."
+msgstr "خطا در باز کردن %1؛ این پوشه وجود ندارد."
+
+#: libmaildir/maildir.cpp:225
+#, kde-format
+msgid ""
+"Error opening %1; either this is not a valid maildir folder, or you do not "
+"have sufficient access permissions."
+msgstr ""
+"خطا در باز کردن %1؛ این پوشه یا یک پوشهٔ معتبر maildir نیست، یا مجوز دسترسی "
+"کافی ندارید."
+
+#: libmaildir/maildir.cpp:452 libmaildir/maildir.cpp:474
+#: libmaildir/maildir.cpp:492 libmaildir/maildir.cpp:512
+#: libmaildir/maildir.cpp:531 libmaildir/maildir.cpp:555
+#: libmaildir/maildir.cpp:630 libmaildir/maildir.cpp:780
+#, kde-format
+msgid "Cannot locate mail file %1."
+msgstr "پروندهٔ رایانامهٔ %1 پیدا نشد."
+
+#: libmaildir/maildir.cpp:458 libmaildir/maildir.cpp:480
+#, kde-format
+msgid "Cannot open mail file %1."
+msgstr "پروندهٔ نامهٔ %1 باز نمی‌شود."
+
+#: libmaildir/maildir.cpp:563 libmaildir/maildir.cpp:590
+#, kde-format
+msgid "Cannot write to mail file %1."
+msgstr "نوشتن در پروندهٔ نامهٔ %1 امکان‌پذیر نیست."
+
+#: libmaildir/maildir.cpp:604
+#, kde-format
+msgid "Failed to create mail file %1. The error was: %2"
+msgstr "ایجاد پروندهٔ نامهٔ %1 ناموفق بود. خطا: %2"
+
+#: libmaildir/maildir.cpp:698
+#, kde-format
+msgid ""
+"Failed to update the file name %1 to %2 on the disk. The error was: %3."
+msgstr "به‌روزرسانی نام پرونده از %1 به %2 روی دیسک ناموفق بود. خطا: %3."
+
+#: maildirresource.cpp:122 maildirresource.cpp:254 maildirresource.cpp:293
+#: maildirresource.cpp:387 maildirresource.cpp:428 maildirresource.cpp:548
+#: maildirresource.cpp:578 maildirresource.cpp:621 maildirresource.cpp:654
+#, kde-format
+msgid "Unusable configuration."
+msgstr "پیکربندی غیرقابل‌استفاده."
+
+#: maildirresource.cpp:187
+#, kde-format
+msgid "Unable to fetch item: The maildir folder \"%1\" is not valid."
+msgstr "واکشی مورد ممکن نیست: پوشهٔ maildir «%1» معتبر نیست."
+
+#: maildirresource.cpp:265
+#, kde-format
+msgid "Error: Unsupported type."
+msgstr "خطا: نوع پشتیبانی‌نشده."
+
+#: maildirresource.cpp:331
+#, kde-format
+msgid "Failed to change the flags for the mail. %1"
+msgstr "تغییر پرچم‌های نامه ناموفق بود. %1"
+
+#: maildirresource.cpp:366
+#, kde-format
+msgid "Maildir resource got a non-mail content."
+msgstr "منبع Maildir محتوایی غیر از نامه دریافت کرد."
+
+#: maildirresource.cpp:393
+#, kde-format
+msgid "Source folder is invalid: '%1'."
+msgstr "پوشهٔ منبع نامعتبر است: «%1»."
+
+#: maildirresource.cpp:399
+#, kde-format
+msgid "Destination folder is invalid: '%1'."
+msgstr "پوشهٔ مقصد نامعتبر است: «%1»."
+
+#: maildirresource.cpp:416
+#, kde-format
+msgid "Could not move message '%1' from '%2' to '%3'. The error was %4."
+msgstr "انتقال پیام «%1» از «%2» به «%3» امکان‌پذیر نبود. خطا: %4."
+
+#: maildirresource.cpp:438
+#, kde-format
+msgid "Failed to delete message: %1"
+msgstr "حذف پیام ناموفق بود: %1"
+
+#: maildirresource.cpp:527
+#, kde-format
+msgid "Maildir '%1' for collection '%2' is invalid."
+msgstr "پوشهٔ Maildir «%1» برای مجموعهٔ «%2» نامعتبر است."
+
+#: maildirresource.cpp:606
+#, kde-format
+msgid "Unable to rename maildir folder '%1'."
+msgstr "تغییر نام پوشهٔ maildir «%1» امکان‌پذیر نیست."
+
+#: maildirresource.cpp:627
+#, kde-format
+msgid "Cannot move root maildir folder '%1'."
+msgstr "نمی‌توان پوشهٔ ریشهٔ maildir «%1» را جابه‌جا کرد."
+
+#: maildirresource.cpp:642
+#, kde-format
+msgid "Unable to move maildir folder '%1' from '%2' to '%3'."
+msgstr "انتقال پوشهٔ maildir «%1» از «%2» به «%3» امکان‌پذیر نیست."
+
+#: maildirresource.cpp:660
+#, kde-format
+msgid "Cannot delete top-level maildir folder '%1'."
+msgstr "نمی‌توان پوشهٔ سطح بالای maildir «%1» را حذف کرد."
+
+#: maildirresource.cpp:669
+#, kde-format
+msgid "Failed to delete sub-folder '%1'."
+msgstr "حذف زیرپوشهٔ «%1» ناموفق بود."
+
+#: maildirresource.cpp:683
+#, kde-format
+msgid "Unable to create maildir '%1'."
+msgstr "ایجاد maildir «%1» امکان‌پذیر نیست."
+
+#: maildirresource.cpp:693
+#, kde-format
+msgid "No usable storage location configured."
+msgstr "هیچ مکان ذخیره‌سازی قابل استفاده‌ای پیکربندی نشده است."
+
+#. i18n: ectx: label, entry (Path), group (General)
+#: maildirresource.kcfg:10
+#, kde-format
+msgid "Path to maildir"
+msgstr "مسیر Maildir"
+
+#. i18n: ectx: label, entry (TopLevelIsContainer), group (General)
+#: maildirresource.kcfg:14
+#, kde-format
+msgid ""
+"Path points to a folder containing Maildirs instead of to a maildir itself."
+msgstr "مسیر به جای یک maildir، به پوشه‌ای حاوی Maildirها اشاره می‌کند."
+
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: maildirresource.kcfg:18
+#, kde-format
+msgid "Do not change the actual backend data."
+msgstr "داده‌های واقعی پشتیبان تغییر داده نشود."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigWidget)
+#: settings.ui:15
+#, kde-format
+msgid "Mail Directory Settings"
+msgstr "تنظیمات پوشهٔ پست"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: settings.ui:37
+#, kde-format
+msgid "Maildir"
+msgstr "Maildir"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings.ui:43
+#, kde-format
+msgid "Select the folder containing the maildir information:"
+msgstr "پوشهٔ حاوی اطلاعات maildir را انتخاب کنید:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
+#: settings.ui:53
+#, kde-format
+msgid "Open in read-only mode"
+msgstr "باز کردن در حالت فقط-خواندنی"

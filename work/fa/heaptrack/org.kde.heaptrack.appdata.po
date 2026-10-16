@@ -1,0 +1,89 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the org.kde.heaptrack.appdata package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.heaptrack.appdata\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-10-15 18:09+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. (itstool) path: component/name
+#: org.kde.heaptrack.appdata.xml:6
+msgid "Heaptrack"
+msgstr "Heaptrack"
+
+#. (itstool) path: component/summary
+#: org.kde.heaptrack.appdata.xml:7
+msgid "A heap memory profiler for Linux"
+msgstr "نمایه‌ساز حافظهٔ هیپ (Heap) برای لینوکس"
+
+#. (itstool) path: description/p
+#: org.kde.heaptrack.appdata.xml:9
+msgid ""
+"Heaptrack traces all memory allocations and annotates these events with "
+"stack traces. Dedicated analysis tools then allow you to interpret the heap "
+"memory profile to:"
+msgstr ""
+"برنامهٔ Heaptrack تمام تخصیص‌های حافظه را ردگیری کرده و این رویدادها را با "
+"رد پشته (Stack Trace) مشخص می‌کند. سپس ابزارهای اختصاصی تحلیل به شما امکان "
+"می‌دهند تا پروفایل حافظهٔ هیپ را به این منظور تفسیر کنید:"
+
+#. (itstool) path: ul/li
+#: org.kde.heaptrack.appdata.xml:13
+msgid ""
+"find hotspots that need to be optimized to reduce the memory footprint of "
+"your application"
+msgstr ""
+"یافتن نقاط حساسی (Hotspots) که برای کاهش مصرف حافظهٔ برنامه نیاز به "
+"بهینه‌سازی دارند"
+
+#. (itstool) path: ul/li
+#: org.kde.heaptrack.appdata.xml:14
+msgid ""
+"find memory leaks, i.e. locations that allocate memory which is never "
+"deallocated"
+msgstr ""
+"یافتن نشت‌های حافظه (Memory Leaks)، یعنی بخش‌هایی که حافظه تخصیص می‌دهند اما"
+" هرگز آن را آزاد نمی‌کنند"
+
+#. (itstool) path: ul/li
+#: org.kde.heaptrack.appdata.xml:15
+msgid ""
+"find allocation hotspots, i.e. code locations that trigger a lot of memory "
+"allocation calls"
+msgstr ""
+"یافتن نقاط حساس تخصیص، یعنی بخش‌هایی از کد که فراخوانی‌های مکرر تخصیص حافظه "
+"انجام می‌دهند"
+
+#. (itstool) path: ul/li
+#: org.kde.heaptrack.appdata.xml:16
+msgid ""
+"find temporary allocations, which are allocations that are directly followed"
+" by their deallocation"
+msgstr ""
+"یافتن تخصیص‌های موقت، یعنی تخصیص‌هایی که بلافاصله پس از آن‌ها حافظه آزاد "
+"می‌شود"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.heaptrack.appdata.xml:25
+msgid "Summary of tracked heap memory allocation data"
+msgstr "خلاصهٔ داده‌های ردگیری‌شدهٔ تخصیص حافظهٔ هیپ"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.heaptrack.appdata.xml:29
+msgid "Flamegraph visualization of number of heap memory allocations"
+msgstr "نمودار شعله‌ای (Flamegraph) تعداد تخصیص‌های حافظهٔ هیپ"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.heaptrack.appdata.xml:33
+msgid "Chart of heap memory allocations over time"
+msgstr "نمودار تخصیص‌های حافظهٔ هیپ در طول زمان"

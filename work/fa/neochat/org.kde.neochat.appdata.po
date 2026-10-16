@@ -1,0 +1,591 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the org.kde.neochat.appdata package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.neochat.appdata\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:46+0000\n"
+"PO-Revision-Date: 2026-10-16 01:24+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. (itstool) path: component/name
+#: org.kde.neochat.appdata.xml:12
+msgid "NeoChat"
+msgstr "نئوچت"
+
+#. (itstool) path: component/summary
+#: org.kde.neochat.appdata.xml:13
+msgid "Chat on Matrix"
+msgstr "گفتگو در ماتریکس"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:15
+msgid ""
+"NeoChat is a chat app that lets you take full advantage of the Matrix "
+"network. It provides you with a secure way to send text messages, videos and"
+" audio files to your family, colleagues and friends."
+msgstr ""
+"نئوچت یک برنامهٔ گفتگو است که به شما امکان می‌دهد از تمام مزایای شبکهٔ "
+"ماتریکس بهره‌مند شوید. این برنامه روشی امن برای ارسال پیام‌های متنی، ویدیوها"
+" و پرونده‌های صوتی به خانواده، همکاران و دوستانتان فراهم می‌کند."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:16
+msgid ""
+"NeoChat aims to be a fully featured application for the Matrix "
+"specification. As such everything in the current stable specification with "
+"the notable exceptions of VoIP, threads and some aspects of End-to-End "
+"Encryption are supported. There are a few other smaller omissions due to the"
+" fact that the Matrix spec is constantly evolving but the aim remains to "
+"provide eventual support for the entire spec."
+msgstr ""
+"هدف نئوچت این است که یک برنامهٔ کامل و پر از امکانات برای مشخصات ماتریکس "
+"باشد. به همین ترتیب، همه‌چیز در مشخصات پایدار فعلی پشتیبانی می‌شود، به‌جز "
+"موارد قابل‌توجهی مانند VoIP، رشته‌ها (threads) و برخی جنبه‌های رمزگذاری "
+"سرتاسر. به دلیل اینکه مشخصات ماتریکس دائماً در حال تکامل است، چند مورد کوچک "
+"دیگر نیز از قلم افتاده‌اند، اما هدف نهایی همچنان پشتیبانی از کل مشخصات است."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:17
+msgid ""
+"Due to the nature of the Matrix specification development NeoChat also "
+"supports numerous unstable features. Currently these are:"
+msgstr ""
+"با توجه به ماهیت توسعهٔ مشخصات ماتریکس، نئوچت از چندین ویژگی ناپایدار نیز "
+"پشتیبانی می‌کند. در حال حاضر این موارد عبارتند از:"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:19
+msgid "Polls - MSC3381"
+msgstr "نظرسنجی‌ها - MSC3381"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:20
+msgid "Sticker Packs - MSC2545"
+msgstr "بسته‌های برچسب - MSC2545"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:21
+msgid "Location Events - MSC3488"
+msgstr "رویدادهای مکان - MSC3488"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.neochat.appdata.xml:56 org.kde.neochat.appdata.xml:71
+msgid "Main view with room list, chat, and room information"
+msgstr "نمای اصلی با فهرست اتاق‌ها، گفتگو و اطلاعات اتاق"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.neochat.appdata.xml:60
+msgid "Discover new communities with Matrix Spaces"
+msgstr "کشف جوامع جدید با فضاهای ماتریکس"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.neochat.appdata.xml:75
+msgid "Login screen"
+msgstr "صفحهٔ ورود"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:117
+msgid ""
+"In the newest version, when launching the app, you will get a welcome page "
+"that lets you choose which account you want to use and lets you log in to "
+"other accounts. The welcome screen will also warn you when NeoChat cannot "
+"load an account."
+msgstr ""
+"در جدیدترین نگارش، هنگام اجرای برنامه، صفحهٔ خوش‌آمدگویی دریافت خواهید کرد "
+"که به شما امکان می‌دهد انتخاب کنید از کدام حساب می‌خواهید استفاده کنید و "
+"اجازه می‌دهد به حساب‌های دیگر وارد شوید. همچنین صفحهٔ خوش‌آمدگویی زمانی که "
+"NeoChat نتواند حسابی را بارگذاری کند به شما هشدار می‌دهد."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:118
+msgid ""
+"NeoChat will also let you register a new account directly from the app "
+"itself. Deactivating your Matrix account is also possible from within "
+"NeoChat."
+msgstr ""
+"همچنین NeoChat به شما امکان می‌دهد مستقیماً از خود برنامه یک حساب جدید ثبت "
+"کنید. غیرفعال کردن حساب ماتریکس شما نیز از درون NeoChat امکان‌پذیر است."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:119
+msgid ""
+"Spaces are a relatively new feature of Matrix that let you group chat "
+"channels together. This is used to improve the discoverability of rooms, "
+"manage large communities, or just tidy all the channels you are in. You can "
+"now do all this without leaving NeoChat."
+msgstr ""
+"فضاها (Spaces) یکی از ویژگی‌های نسبتاً جدید ماتریکس هستند که به شما امکان "
+"می‌دهند کانال‌های گفتگو را گروه‌بندی کنید. این قابلیت برای بهبود قابلیت کشف "
+"اتاق‌ها، مدیریت جوامع بزرگ یا فقط مرتب‌سازی تمام کانال‌هایی که در آن‌ها عضو "
+"هستید استفاده می‌شود. اکنون می‌توانید همهٔ این کارها را بدون خروج از NeoChat"
+" انجام دهید."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:120
+msgid ""
+"NeoChat won't let you miss any new notifications anymore. We added a new "
+"page that includes all your recent notifications and when NeoChat is closed,"
+" you will still be able to receive push notifications. The main timeline "
+"will let you know when more messages are loading and when you reach the end "
+"of it."
+msgstr ""
+"NeoChat دیگر نمی‌گذارد هیچ اعلان جدیدی را از دست بدهید. ما صفحهٔ جدیدی اضافه"
+" کرده‌ایم که شامل تمام اعلان‌های اخیر شماست، و زمانی که NeoChat بسته است، "
+"همچنان می‌توانید اعلان‌های آنی (Push) را دریافت کنید. خط زمانی اصلی به شما "
+"اطلاع می‌دهد که پیام‌های بیشتری در حال بارگذاری هستند و چه زمانی به انتهای "
+"آن رسیده‌اید."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:121
+msgid "More NeoChat Goodies"
+msgstr "امکانات جذاب بیشتر در NeoChat"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:123
+msgid "QR Codes to share contacts"
+msgstr "کدهای QR برای هم‌رسانی مخاطبان"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:124
+msgid "Improved room upgrades"
+msgstr "ارتقای بهبودیافتهٔ اتاق‌ها"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:125
+msgid "Added button to reject invitation and ignore user"
+msgstr "افزوده شدن دکمه برای رد دعوت و نادیده گرفتن کاربر"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:126
+msgid "Display device security details"
+msgstr "نمایش جزئیات امنیت دستگاه"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:127
+msgid "Added room security settings"
+msgstr "تنظیمات امنیت اتاق اضافه شد"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:138
+msgid ""
+"Apart from a visual overhaul, NeoChat can now display location events and "
+"also a map with the location of all the users currently broadcasting their "
+"location using Itineray's Matrix integration. Great for locating where your "
+"friends are."
+msgstr ""
+"جدا از بازطراحی بصری، NeoChat اکنون می‌تواند رویدادهای مکان و همچنین نقشه‌ای"
+" حاوی مکان همه کاربرانی که در حال حاضر مکان خود را با استفاده از ادغام "
+"Matrix در Itinerary هم‌رسانی می‌کنند نمایش دهد. برای پیدا کردن مکان "
+"دوستانتان عالی است."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:147
+msgid ""
+"NeoChat improves its design with tweaks that provide a more compact layout "
+"and a simpler menu which works better for the collapsed room list."
+msgstr ""
+"‏NeoChat طراحی خود را با تغییراتی که چیدمان فشرده‌تر و منوی ساده‌تری را "
+"فراهم می‌کند بهبود می‌بخشد، که برای فهرست جمع‌شدهٔ اتاق‌ها بهتر کار می‌کند."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:148
+msgid ""
+"We have also improved the video controls, added a new command /knock "
+"&lt;room-id&gt; to send a knock event to a room, and you can now edit a "
+"prior message inline, within the chat pane."
+msgstr ""
+"ما همچنین کنترل‌های ویدیو را بهبود بخشیده‌ایم، یک دستور جدید ‎/knock "
+"&lt;room-id&gt;‎ برای ارسال رویداد تقاضای ورود (knock) به اتاق اضافه "
+"کرده‌ایم، و اکنون می‌توانید پیام قبلی را به‌صورت درون‌خطی و در همان پنجرهٔ "
+"گفتگو ویرایش کنید."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:149
+msgid ""
+"Other usability improvements include an overhaul of the keyboard navigation "
+"and shortcuts like Ctrl+PgUp/PgDn that allow you to skip from room to room."
+msgstr ""
+"از دیگر بهبودهای قابلیت استفاده می‌توان به بازنگری کلی در ناوبری صفحه‌کلید و"
+" میان‌برهایی مانند Ctrl+PgUp/PgDn اشاره کرد که به شما امکان می‌دهد بین "
+"اتاق‌ها جابه‌جا شوید."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:162
+msgid "New features and bugfixes:"
+msgstr "ویژگی‌های جدید و رفع اشکال‌ها:"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:164
+msgid ""
+"Notifications will now be shown for all accounts, not just the active one"
+msgstr "اکنون اعلان‌ها برای همه حساب‌ها نمایش داده می‌شوند، نه فقط حساب فعال"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:165
+msgid "There is a new \"compact\" mode for the room list"
+msgstr "یک حالت «فشرده» جدید برای فهرست اتاق‌ها وجود دارد"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:166
+msgid "You can now search in the room history"
+msgstr "اکنون می‌توانید در تاریخچهٔ اتاق جستجو کنید"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:167
+msgid "Emojis and Reactions have been significantly improved"
+msgstr "ایموجی‌ها و واکنش‌ها به‌طور چشمگیری بهبود یافته‌اند"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:168
+msgid "Fixed several crashes around user invitations"
+msgstr "رفع چندین مورد خرابی هنگام دعوت از کاربران"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:169
+msgid "Room permission settings can now be configured"
+msgstr "تنظیمات دسترسی‌های اتاق اکنون قابل پیکربندی است"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:182
+msgid "This release brings you various small bugfixes and improvements:"
+msgstr "این نسخه شامل رفع اشکالات جزئی و بهبودهای گوناگون است:"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:184
+msgid "Sending of typing notifications can now be disabled."
+msgstr "اکنون می‌توان ارسال اعلان‌های در حال نوشتن را غیرفعال کرد."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:185
+msgid ""
+"In the room list, the scrollbar will now disappear correctly when it is not "
+"needed."
+msgstr ""
+"در فهرست اتاق‌ها، نوار پیمایش اکنون در صورت عدم نیاز، به‌درستی پنهان می‌شود."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:186
+msgid ""
+"On wayland, NeoChat will now raise correctly when clicking on a "
+"notification."
+msgstr ""
+"در وی‌لند، نئوچت اکنون با کلیک روی یک اعلان به‌درستی به جلو آورده می‌شود."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:187
+msgid ""
+"Several bugs have been fixed that would sometimes cause messages containing "
+"markdown and/or HTML elements to be sent incorrectly."
+msgstr ""
+"چندین باگ که گهگاه باعث ارسال نادرست پیام‌های حاوی عناصر مارک‌داون و/یا HTML"
+" می‌شدند، برطرف شدند."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:188
+msgid "The quick switcher can now be controlled using the mouse."
+msgstr "اکنون می‌توان تغییردهندهٔ سریع را با موشواره کنترل کرد."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:189
+msgid ""
+"There is now an option to disable automatic room sidebar opening when "
+"resizing the window."
+msgstr ""
+"اکنون گزینه‌ای برای غیرفعال کردن باز شدن خودکار نوار کناری اتاق هنگام تغییر "
+"اندازهٔ پنجره وجود دارد."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:190
+msgid "Creation of custom emojis has been fixed."
+msgstr "ایجاد ایموجی‌های سفارشی رفع اشکال شد."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:191
+msgid ""
+"Editing or replying to the last message using the keyboard shortcuts now "
+"works correctly."
+msgstr ""
+"ویرایش یا پاسخ به آخرین پیام با استفاده از میان‌برهای صفحه‌کلید اکنون به "
+"درستی کار می‌کند."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:192
+msgid ""
+"When switching between rooms using the keyboard, the switching direction is "
+"now correct."
+msgstr ""
+"هنگام جابه‌جایی بین اتاق‌ها با استفاده از صفحه‌کلید، جهت جابه‌جایی اکنون "
+"درست است."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:199
+msgid ""
+"NeoChat now lets you filter and enter a room directly from KRunner (Plasma "
+"Search). Aside from that there is also various bug fixes regarding the "
+"typing notifications."
+msgstr ""
+"نیوچت اکنون به شما امکان می‌دهد مستقیماً از طریق KRunner (جستجوی پلاسما) "
+"اتاق‌ها را پالایش کرده و وارد آن‌ها شوید. به غیر از آن، رفع اشکالات مختلفی "
+"نیز در رابطه با اعلان‌های در حال نوشتن انجام شده است."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:204
+msgid ""
+"NeoChat 22.02 focus on stability and adds a few quality of life improvements"
+msgstr ""
+"نیوچت ۲۲٫۰۲ بر پایداری تمرکز دارد و چندین بهبود در کیفیت تجربه کاربری اضافه "
+"می‌کند"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:206
+msgid "Add support for minimizing to system tray on startup"
+msgstr "افزودن پشتیبانی از کمینه‌سازی در سینی سیستم هنگام راه‌اندازی"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:207
+msgid "Improved internet connectivity check"
+msgstr "بهبود بررسی اتصال اینترنت"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:208
+msgid ""
+"Add support for sharing images and files with other apps (Nextcloud, Imgur, "
+"...)"
+msgstr ""
+"افزودن پشتیبانی از هم‌رسانی تصاویر و پرونده‌ها با دیگر برنامه‌ها (Nextcloud،"
+" Imgur و...)"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:209
+msgid ""
+"Implement adding labels for account. This allow for an easier organization "
+"when using multiple accounts."
+msgstr ""
+"پیاده‌سازی افزودن برچسب برای حساب‌ها. این ویژگی امکان سازمان‌دهی آسان‌تر را "
+"هنگام استفاده از چندین حساب فراهم می‌کند."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:210
+msgid ""
+"Redesign of our config dialogs to follow the new Plasma System Settings "
+"style"
+msgstr "طراحی دوبارهٔ گفتگوهای پیکربندی بر اساس سبک جدید تنظیمات سیستم پلاسما"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:211
+msgid ""
+"Fix various others issues and small feature requests. Decreasing the total "
+"amount of open issues by 20%."
+msgstr ""
+"رفع مشکلات گوناگون دیگر و درخواست‌های قابلیت‌های کوچک که باعث کاهش ۲۰٪ تعداد"
+" کل اشکالات باز شده است."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:218
+msgid "NeoChat 21.12 brings lots of new features and fixes"
+msgstr "نیوچت ۲۱.۱۲ ویژگی‌های جدید و رفع اشکالات فراوانی را به همراه دارد"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:220
+msgid "Solved various problems related to login, logout and account switching"
+msgstr "مشکلات گوناگون مربوط به ورود، خروج و تعویض حساب حل شد"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:221
+msgid "Fixed a few problems in the timeline layout"
+msgstr "چندین مشکل در چیدمان خط زمانی برطرف شد"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:222
+msgid "Added Spell checking while writing a message"
+msgstr "غلط‌یابی املایی هنگام نوشتن پیام اضافه شد"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:223
+msgid "Improved Settings pages"
+msgstr "صفحات تنظیمات بهبود یافت"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:224
+msgid "Many improvements to the android and general mobile support"
+msgstr "بهبودهای بسیار در پشتیبانی از اندروید و دستگاه‌های همراه به طور کلی"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:225
+msgid "Show blurhashes while images load"
+msgstr "نمایش blurhash هنگام بارگیری تصاویر"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:226
+msgid "Support showing custom emojis"
+msgstr "پشتیبانی از نمایش ایموجی‌های سفارشی"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:227
+msgid "Added a global menu"
+msgstr "یک منوی سراسری اضافه شد"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:228
+msgid "Added support for spoilers"
+msgstr "پشتیبانی از اسپویلرها اضافه شد"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:229
+msgid "Added a quick switcher to switch between rooms"
+msgstr "افزودن گزینش‌گر سریع برای جابه‌جایی بین اتاق‌ها"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:230
+msgid "Added support for an optional fancy blur background effect"
+msgstr "افزودن پشتیبانی از جلوهٔ پس‌زمینهٔ مات اختیاری و شیک"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:231
+msgid "Resizable left and right drawers"
+msgstr "کشوهای چپ و راست با قابلیت تغییر اندازه"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:232
+msgid "Added Syntax highlighting in raw json messages"
+msgstr "افزودن پررنگ‌سازی نحو در پیام‌های خام json"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:233
+msgid "Better wayland support"
+msgstr "پشتیبانی بهتر از ویلند"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:234
+msgid "Improved file reception and download"
+msgstr "بهبود دریافت و بارگیری پرونده"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:241
+msgid ""
+"NeoChat 1.2 brings a major redesign of the user interface. The chat page is "
+"now using bubbles for the messages and the input component was completely "
+"rewritten with a nicer look as well."
+msgstr ""
+"نیوچت ۱.۲ بازطراحی بزرگی را برای رابط کاربری به ارمغان می‌آورد. صفحهٔ گپ "
+"اکنون از حباب‌ها برای پیام‌ها استفاده می‌کند و جزء ورودی نیز کاملاً با ظاهری"
+" زیباتر بازنویسی شده است."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:242
+msgid ""
+"It's now possible to send custom reactions by replying to a comment with "
+"/react &lt;message&gt;."
+msgstr ""
+"اکنون می‌توانید با پاسخ دادن به یک نظر با ‎/react &lt;message&gt;‎ واکنش‌های"
+" سفارشی ارسال کنید."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:243
+msgid "NeoChat now supports opening Matrix URIs from your browser."
+msgstr ""
+"نیوچت اکنون از باز کردن نشانی‌های Matrix از مرورگرتان پشتیبانی می‌کند."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:250
+msgid ""
+"Probably the highlight of this release is the completely new login page. It "
+"detects the server configuration based on your Matrix Id. This allows you to"
+" login to servers requiring Single Sign On (SSO) (like the Mozilla or the "
+"incoming Fedora Matrix instance)."
+msgstr ""
+"شاید برجسته‌ترین ویژگی این انتشار، صفحهٔ ورود کاملاً جدید آن باشد. این صفحه "
+"پیکربندی کارساز را بر اساس شناسهٔ ماتریکس شما شناسایی می‌کند. این ویژگی به "
+"شما اجازه می‌دهد به کارسازهایی که به تک‌ورود (SSO) نیاز دارند (مانند موزیلا "
+"یا نمونهٔ ماتریکس فدورا) وارد شوید."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:251
+msgid ""
+"Servers that require agreeing to the TOS before usage are correctly detected"
+" now and redirect to their TOS webpage, allowing the user to agree to them "
+"instead of silently failing to load the account."
+msgstr ""
+"سرورهایی که پیش از استفاده نیازمند پذیرش شرایط خدمات هستند اکنون به‌درستی "
+"شناسایی می‌شوند و به صفحهٔ وب شرایط خدمات هدایت می‌کنند، که این امر به کاربر"
+" امکان پذیرش آن‌ها را می‌دهد به‌جای اینکه بارگیری حساب بی‌صدا با شکست مواجه "
+"شود."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:252
+msgid ""
+"It is now possible to open a room into a new window. This allows you to view"
+" and interact with multiple rooms at the same time."
+msgstr ""
+"اکنون امکان باز کردن یک اتاق در پنجره‌ای جدید وجود دارد. این قابلیت به شما "
+"اجازه می‌دهد چندین اتاق را به‌طور هم‌زمان مشاهده کرده و با آن‌ها تعامل داشته"
+" باشید."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:253
+msgid ""
+"We added a few commands to NeoChat (/shrug, /lenny, /join, /ignore, ...)."
+msgstr "چند دستور به نئوچت اضافه کردیم (/shrug, /lenny, /join, /ignore, ...)."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:254
+msgid ""
+"We improved the Plasma integration a bit. Now the number of unread messages "
+"is displayed in the Plasma Taskbar."
+msgstr ""
+"یکپارچه‌سازی با پلاسما را کمی بهبود دادیم. اکنون تعداد پیام‌های خوانده‌نشده "
+"در نوار وظیفهٔ پلاسما نمایش داده می‌شود."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:260
+msgid "This version fixes several bugs."
+msgstr "این نسخه چندین اشکال را برطرف می‌کند."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:262
+msgid ""
+"NeoChat doesn't require a .well-know configuration in the server to work."
+msgstr "نئوچت برای کار کردن نیازی به پیکربندی .well-know در سرور ندارد."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:263
+msgid "Edited messages won't show up duplicated anymore."
+msgstr "پیام‌های ویرایش‌شده دیگر به‌صورت تکراری نمایش داده نخواهند شد."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:264
+msgid "Various graphic glitches have been fixed."
+msgstr "اشکالات گرافیکی مختلفی برطرف شده‌اند."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:265
+msgid ""
+"NeoChat now ask for consent to terms and conditions if required instead of "
+"displaying nothing."
+msgstr ""
+"اکنون نئوچت در صورت نیاز، به‌جای عدم نمایش هیچ‌چیز، رضایت برای شرایط و ضوابط"
+" را درخواست می‌کند."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:266
+msgid "Users avatar in the room list are now displayed correctly."
+msgstr "آواتار کاربران در فهرست اتاق‌ها اکنون به‌درستی نمایش داده می‌شود."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:267
+msgid "Fix image saving"
+msgstr "رفع مشکل ذخیرهٔ تصویر"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:274
+msgid "Initial release of NeoChat, the KDE matrix client."
+msgstr "انتشار اولیهٔ نئوچت (NeoChat)، کلاینت ماتریکس برای KDE."

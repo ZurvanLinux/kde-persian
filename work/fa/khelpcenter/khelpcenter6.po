@@ -1,0 +1,459 @@
+# translation of khelpcenter.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Mohammad Reza Mirdamadi <mohi@linuxshop.ir>, 2011, 2012.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: khelpcenter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-28 00:48+0000\n"
+"PO-Revision-Date: 2026-10-15 22:56+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: application.cpp:30
+#, kde-format
+msgid "Documentation to open"
+msgstr "مستندات برای باز کردن"
+
+#: application.cpp:103 application.cpp:105
+#, kde-format
+msgid "Help Center"
+msgstr "مرکز راهنما"
+
+#: application.cpp:107
+#, kde-format
+msgid "(c) 1999-2023, The KHelpCenter developers"
+msgstr "(c) ۱۹۹۹-۲۰۲۳، توسعه‌دهندگان KHelpCenter"
+
+#: application.cpp:109
+#, kde-format
+msgid "Current maintainer"
+msgstr "نگه‌دارندهٔ کنونی"
+
+#: application.cpp:110
+#, kde-format
+msgid "Xapian-based search, lot of bugfixes"
+msgstr "جست‌وجوی مبتنی بر Xapian، رفع اشکالات متعدد"
+
+#: application.cpp:111
+#, kde-format
+msgid "Former maintainer"
+msgstr "نگه‌دارندهٔ پیشین"
+
+#: application.cpp:113
+#, kde-format
+msgid "Original Author"
+msgstr "نویسندهٔ اصلی"
+
+#: application.cpp:114
+#, kde-format
+msgid "Info page support"
+msgstr "پشتیبانی از صفحهٔ Info"
+
+#: docmetainfo.cpp:36
+#, kde-format
+msgid "Top-Level Documentation"
+msgstr "مستندات سطح بالا"
+
+#: docmetainfo.cpp:79
+#, kde-format
+msgctxt "doctitle (language)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: docmetainfo.cpp:112
+#, kde-format
+msgctxt "Describes documentation entries that are in English"
+msgid "English"
+msgstr "انگلیسی"
+
+#: fontdialog.cpp:36
+#, kde-format
+msgid "Font Configuration"
+msgstr "پیکربندی قلم"
+
+#: fontdialog.cpp:62
+#, kde-format
+msgid "Sizes"
+msgstr "اندازه‌ها"
+
+#: fontdialog.cpp:66
+#, kde-format
+msgctxt "The smallest size a will have"
+msgid "M&inimum font size:"
+msgstr "حداقل اندازهٔ قلم:"
+
+#: fontdialog.cpp:73
+#, kde-format
+msgctxt "The normal size a font will have"
+msgid "M&edium font size:"
+msgstr "اندازهٔ قلم متوسط:"
+
+#: fontdialog.cpp:83
+#, kde-format
+msgid "Fonts"
+msgstr "قلم‌ها"
+
+#: fontdialog.cpp:87
+#, kde-format
+msgid "S&tandard font:"
+msgstr "قلم استاندارد:"
+
+#: fontdialog.cpp:93
+#, kde-format
+msgid "F&ixed font:"
+msgstr "قلم ثابت:"
+
+#: fontdialog.cpp:99
+#, kde-format
+msgid "S&erif font:"
+msgstr "قلم با سریف:"
+
+#: fontdialog.cpp:105
+#, kde-format
+msgid "S&ans serif font:"
+msgstr "قلم بدون سریف:"
+
+#: fontdialog.cpp:111
+#, kde-format
+msgid "&Italic font:"
+msgstr "قلم مورب:"
+
+#: fontdialog.cpp:117
+#, kde-format
+msgid "&Fantasy font:"
+msgstr "قلم فانتزی:"
+
+#: fontdialog.cpp:126
+#, kde-format
+msgid "Encoding"
+msgstr "کدگذاری"
+
+#: fontdialog.cpp:131
+#, kde-format
+msgid "&Default encoding:"
+msgstr "کدگذاری پیش‌فرض:"
+
+#: fontdialog.cpp:136 fontdialog.cpp:198
+#, kde-format
+msgid "Use Language Encoding"
+msgstr "استفاده از کدگذاری زبان"
+
+#: fontdialog.cpp:140
+#, kde-format
+msgid "&Font size adjustment:"
+msgstr "تنظیم اندازه قلم:"
+
+#: glossary.cpp:74
+#, kde-format
+msgid "By Topic"
+msgstr "بر اساس موضوع"
+
+#: glossary.cpp:78 infotree.cpp:76
+#, kde-format
+msgid "Alphabetically"
+msgstr "بر اساس الفبا"
+
+#: glossary.cpp:130
+#, kde-format
+msgid "Rebuilding glossary cache..."
+msgstr "در حال بازسازی حافظهٔ پنهان واژه‌نامه..."
+
+#: glossary.cpp:178
+#, kde-format
+msgid "Rebuilding cache... done."
+msgstr "در حال بازسازی حافظهٔ پنهان... انجام شد."
+
+#: grantleeformatter.cpp:97
+#, kde-format
+msgctxt "%1 is a glossary term"
+msgid "KDE Glossary: %1"
+msgstr "واژه‌نامهٔ KDE: %1"
+
+#: grantleeformatter.cpp:98
+#, kde-format
+msgid "KDE Glossary"
+msgstr "واژه‌نامهٔ KDE"
+
+#: grantleeformatter.cpp:102
+#, kde-format
+msgid "See also: %1"
+msgstr "همچنین ببینید: %1"
+
+#: grantleeformatter.cpp:122
+#, kde-format
+msgid "Search Results"
+msgstr "نتایج جستجو"
+
+#: grantleeformatter.cpp:123 searchengine.cpp:266
+#, kde-format
+msgid "Search Results for '%1':"
+msgstr "نتایج جستجو برای «%1»:"
+
+#: infotree.cpp:79
+#, kde-format
+msgid "By Category"
+msgstr "بر اساس دسته‌بندی"
+
+#. i18n: ectx: label, entry, group (Search)
+#: khelpcenter.kcfg:31
+#, kde-format
+msgid "Path to index directory."
+msgstr "مسیر شاخهٔ نمایه."
+
+#. i18n: ectx: whatsthis, entry, group (Search)
+#: khelpcenter.kcfg:32
+#, kde-format
+msgid "Path to directory containing search indices."
+msgstr "مسیر شاخهٔ حاوی نمایه‌های جستجو."
+
+#. i18n: ectx: label, entry, group (Layout)
+#: khelpcenter.kcfg:46
+#, kde-format
+msgid "Currently visible navigator tab"
+msgstr "زبانهٔ ناوبری در حال حاضر قابل مشاهده"
+
+#. i18n: ectx: Menu (edit)
+#: khelpcenterui.rc:5
+#, kde-format
+msgid "&Edit"
+msgstr "ویرایش"
+
+#. i18n: ectx: Menu (view)
+#: khelpcenterui.rc:13
+#, kde-format
+msgid "&View"
+msgstr "نمایش"
+
+#. i18n: ectx: Menu (go)
+#: khelpcenterui.rc:24
+#, kde-format
+msgid "&Go"
+msgstr "برو"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: khelpcenterui.rc:41
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#: mainwindow.cpp:61
+#, kde-format
+msgid "Search Error Log"
+msgstr "گزارش خطای جستجو"
+
+#: mainwindow.cpp:118
+#, kde-format
+msgid "Preparing Index"
+msgstr "در حال آماده‌سازی نمایه"
+
+#: mainwindow.cpp:145
+#, kde-format
+msgid "Ready"
+msgstr "آماده"
+
+#: mainwindow.cpp:205
+#, kde-format
+msgid "Table of &Contents"
+msgstr "فهرست مطالب"
+
+#: mainwindow.cpp:206
+#, kde-format
+msgid "Table of contents"
+msgstr "فهرست مطالب"
+
+#: mainwindow.cpp:207
+#, kde-format
+msgid "Go back to the table of contents"
+msgstr "بازگشت به فهرست مطالب"
+
+#: mainwindow.cpp:233
+#, kde-format
+msgid "&Last Search Result"
+msgstr "آخرین نتیجهٔ جست‌وجو"
+
+#: mainwindow.cpp:261
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Bookmarks"
+msgstr "نشانک‌ها"
+
+#: navigator.cpp:64
+#, kde-format
+msgid "Search..."
+msgstr "جست‌وجو..."
+
+#: navigator.cpp:119
+#, kde-format
+msgid "&Contents"
+msgstr "محتویات"
+
+#: navigator.cpp:128
+#, kde-format
+msgid "Search Options"
+msgstr "گزینه‌های جست‌وجو"
+
+#: navigator.cpp:135
+#, kde-format
+msgid "G&lossary"
+msgstr "واژه‌نامه"
+
+#: navigator.cpp:483
+#, kde-format
+msgid "Start Page"
+msgstr "صفحهٔ آغازین"
+
+#: navigator.cpp:484
+#, kde-format
+msgid "KDE Help Center"
+msgstr "مرکز راهنمای KDE"
+
+#: navigator.cpp:568
+#, kde-format
+msgid "Unable to run search program."
+msgstr "اجرای برنامهٔ جست‌وجو امکان‌پذیر نیست."
+
+#: navigator.cpp:660
+#, kde-format
+msgid "Updating search index..."
+msgstr "در حال به‌روزرسانی نمایه‌ی جست‌وجو..."
+
+#: navigator.cpp:671
+#, kde-format
+msgid "Updating search index... done."
+msgstr "در حال به‌روزرسانی نمایه‌ی جست‌وجو... انجام شد."
+
+#: printdoc.cpp:60
+#, kde-format
+msgid "Could not generate print preview."
+msgstr "تولید پیش‌نمایش چاپ امکان‌پذیر نبود."
+
+#: printdoc.cpp:96
+#, kde-format
+msgctxt "@title:window"
+msgid "Print Document"
+msgstr "چاپ سند"
+
+#: searchengine.cpp:62
+#, kde-format
+msgid "Error: No document type specified."
+msgstr "خطا: نوع سند مشخص نشده است."
+
+#: searchengine.cpp:64
+#, kde-format
+msgid "Error: No search handler for document type '%1'."
+msgstr "خطا: گرداننده‌ی جست‌وجویی برای نوع سند «%1» وجود ندارد."
+
+#: searchengine.cpp:234
+#, kde-format
+msgid "No valid search handler found."
+msgstr "هیچ گرداننده‌ی جست‌وجوی معتبری یافت نشد."
+
+#: searchhandler.cpp:38
+#, kde-format
+msgid "Error executing search command '%1'."
+msgstr "خطا در اجرای فرمان جست‌وجوی «%1»."
+
+#: searchhandler.cpp:76
+#, kde-format
+msgid "Error: %1"
+msgstr "خطا: %1"
+
+#: searchhandler.cpp:139 searchhandler.cpp:144
+#, kde-format
+msgid "'%1' not found, check your installation"
+msgstr "«%1» یافت نشد، نصب خود را بررسی کنید"
+
+#: searchhandler.cpp:149
+#, kde-format
+msgid "'%1' not found, install the package containing it"
+msgstr "«%1» یافت نشد، بسته‌ی حاوی آن را نصب کنید"
+
+#: searchhandler.cpp:194
+#, kde-format
+msgid "No search command or URL specified."
+msgstr "هیچ دستور جستجو یا نشانی اینترنتی (URL) مشخص نشده است."
+
+#: searchwidget.cpp:41
+#, kde-format
+msgid "and"
+msgstr "و"
+
+#: searchwidget.cpp:42
+#, kde-format
+msgid "or"
+msgstr "یا"
+
+#: searchwidget.cpp:44
+#, kde-format
+msgid "&Method:"
+msgstr "روش:"
+
+#: searchwidget.cpp:62
+#, kde-format
+msgid "Max. &results:"
+msgstr "حداکثر نتایج:"
+
+#: searchwidget.cpp:77
+#, kde-format
+msgid "&Scope selection:"
+msgstr "انتخاب محدوده:"
+
+#: searchwidget.cpp:85
+#, kde-format
+msgid "Scope"
+msgstr "محدوده"
+
+#: searchwidget.cpp:337
+#, kde-format
+msgctxt "Label for searching documentation using custom (user defined) scope"
+msgid "Custom"
+msgstr "سفارشی"
+
+#: searchwidget.cpp:339
+#, kde-format
+msgctxt "Label for searching documentation using default search scope"
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: searchwidget.cpp:341
+#, kde-format
+msgctxt "Label for searching documentation in all subsections"
+msgid "All"
+msgstr "همه"
+
+#: searchwidget.cpp:343
+#, kde-format
+msgctxt "Label for scope that deselects all search subsections"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: searchwidget.cpp:345
+#, kde-format
+msgctxt "Label for Unknown search scope, that should never appear"
+msgid "unknown"
+msgstr "ناشناخته"
+
+#: view.cpp:327
+#, kde-format
+msgid "Save Page"
+msgstr "ذخیرهٔ صفحه"

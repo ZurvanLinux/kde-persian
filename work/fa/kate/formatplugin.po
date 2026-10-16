@@ -1,0 +1,100 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the formatplugin package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: formatplugin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-16 00:48+0000\n"
+"PO-Revision-Date: 2026-10-15 10:17+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: FormatApply.h:22 FormatApply.h:33 FormatApply.h:38 FormatPlugin.cpp:88
+#: FormatPlugin.cpp:245 Formatters.cpp:271 Formatters.cpp:291
+#: Formatters.cpp:314 Formatters.cpp:346
+#, kde-format
+msgid "Format"
+msgstr "قالب‌بندی"
+
+#: FormatApply.h:22
+#, kde-format
+msgid "Failed to write a temp file"
+msgstr "نوشتن فایل موقت ناموفق بود"
+
+#: FormatApply.h:33
+#, kde-format
+msgid "Failed to run git diff: git not installed"
+msgstr "اجرای git diff ناموفق بود: git نصب نشده است"
+
+#: FormatApply.h:38
+#, kde-format
+msgid "Failed to run git diff: %1"
+msgstr "اجرای git diff ناموفق بود: %1"
+
+#: FormatConfig.h:18 FormatPlugin.cpp:118
+#, kde-format
+msgid "Formatting"
+msgstr "قالب‌بندی"
+
+#: FormatConfig.h:23
+#, kde-format
+msgid "Formatting Settings"
+msgstr "تنظیمات قالب‌بندی"
+
+#: FormatPlugin.cpp:88
+#, kde-format
+msgid "Failed to read settings.json. Error: %1"
+msgstr "خواندن settings.json ناموفق بود. خطا: %1"
+
+#: FormatPlugin.cpp:124
+#, kde-format
+msgid "Format Document"
+msgstr "قالب‌بندی سند"
+
+#: FormatPlugin.cpp:134
+#, kde-format
+msgid "Format on Save"
+msgstr "قالب‌بندی هنگام ذخیره"
+
+#: FormatPlugin.cpp:137
+#, kde-format
+msgid "Disable formatting on save without persisting it in settings"
+msgstr "غیرفعال کردن قالب‌بندی هنگام ذخیره بدون ذخیرهٔ دائمی در تنظیمات"
+
+#: Formatters.cpp:129
+#, kde-format
+msgid "%1: Unexpected empty command!"
+msgstr "%1: دستور خالی غیرمنتظره!"
+
+#: Formatters.cpp:136
+#, kde-format
+msgid ""
+"%1 is not installed, please install it to be able to format this document!"
+msgstr "%1 نصب نشده است، لطفاً برای قالب‌بندی این سند آن را نصب کنید!"
+
+#: Formatters.cpp:271
+#, kde-format
+msgid "Unknown formatterForJson: %1"
+msgstr "‏formatterForJson ناشناخته: %1"
+
+#: Formatters.cpp:291
+#, kde-format
+msgid "Unknown formatterForPython: %1"
+msgstr "‏formatterForPython ناشناخته: %1"
+
+#: Formatters.cpp:314
+#, kde-format
+msgid "Unknown formatterForYaml: %1, falling back to yamlfmt"
+msgstr "‏formatterForYaml ناشناخته: %1، بازگشت به yamlfmt"
+
+#: Formatters.cpp:346
+#, kde-format
+msgid "Failed to run formatter. Unsupported language %1"
+msgstr "اجرای قالب‌بند ناموفق بود. زبان %1 پشتیبانی نمی‌شود"

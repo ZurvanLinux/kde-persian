@@ -1,0 +1,146 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the dolphin_servicemenuinstaller package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: dolphin_servicemenuinstaller\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-09 00:48+0000\n"
+"PO-Revision-Date: 2026-10-15 02:05+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: servicemenuinstaller.cpp:46
+#, kde-format
+msgid "Dolphin service menu installation failed"
+msgstr "نصب منوی خدمات دلفین ناموفق بود"
+
+#: servicemenuinstaller.cpp:73
+#, kde-format
+msgid "Failed to install \"%1\", exited with status \"%2\""
+msgstr "نصب \"%1\" ناموفق بود، با وضعیت \"%2\" خارج شد"
+
+#: servicemenuinstaller.cpp:102
+#, kde-format
+msgid "Failed to uninstall \"%1\", exited with status \"%2\""
+msgstr "حذف \"%1\" ناموفق بود، با وضعیت \"%2\" خارج شد"
+
+#: servicemenuinstaller.cpp:114
+#, kde-format
+msgid "The file does not exist!"
+msgstr "پرونده وجود ندارد!"
+
+#: servicemenuinstaller.cpp:123
+#, kde-format
+msgid "Unknown error when installing package"
+msgstr "خطای ناشناخته هنگام نصب بسته"
+
+#: servicemenuinstaller.cpp:189
+#, kde-format
+msgid "Unsupported archive type %1: %2"
+msgstr "نوع بایگانی پشتیبانی‌نشدهٔ %1: %2"
+
+#: servicemenuinstaller.cpp:195
+#, kde-format
+msgid "Failed to run uncompressor command for %1"
+msgstr "اجرای دستور فشرده‌گشایی برای %1 ناموفق بود"
+
+#: servicemenuinstaller.cpp:199
+#, kde-format
+msgid "Process did not finish in reasonable time: %1 %2"
+msgstr "فرایند در زمان معقول پایان نیافت: %1 %2"
+
+#: servicemenuinstaller.cpp:203
+#, kde-format
+msgid "Failed to uncompress %1"
+msgstr "فشرده‌گشایی %1 ناموفق بود"
+
+#: servicemenuinstaller.cpp:240
+#, kde-format
+msgid "Failed to run installer script %1"
+msgstr "اجرای اسکریپت نصب %1 ناموفق بود"
+
+#: servicemenuinstaller.cpp:263
+#, kde-format
+msgid "Failed to set permissions on %1: %2"
+msgstr "تنظیم مجوزها روی %1 ناموفق بود: %2"
+
+#: servicemenuinstaller.cpp:279
+#, kde-format
+msgctxt "%2 = comma separated list of arguments"
+msgid "Installer script %1 failed, tried arguments \"%2\"."
+msgstr "اسکریپت نصب %1 ناموفق بود، آرگومان‌های \"%2\" امتحان شدند."
+
+#: servicemenuinstaller.cpp:281
+#, kde-format
+msgctxt "Separator between arguments"
+msgid "\", \""
+msgstr "\"، \""
+
+#: servicemenuinstaller.cpp:295
+#, kde-format
+msgid "Failed to create path %1"
+msgstr "ایجاد مسیر %1 ناموفق بود"
+
+#: servicemenuinstaller.cpp:309
+#, kde-format
+msgid "Failed to copy .desktop file %1 to %2: %3"
+msgstr "رونوشت‌برداری از پروندهٔ .desktop %1 به %2 ناموفق بود: %3"
+
+#: servicemenuinstaller.cpp:321 servicemenuinstaller.cpp:429
+#, kde-format
+msgid "Failed to remove directory %1"
+msgstr "حذف شاخهٔ %1 ناموفق بود"
+
+#: servicemenuinstaller.cpp:327
+#, kde-format
+msgid "Failed to create directory %1"
+msgstr "ایجاد شاخهٔ %1 ناموفق بود"
+
+#: servicemenuinstaller.cpp:366
+#, kde-format
+msgid "Failed to find an installation script in %1"
+msgstr "یافتن اسکریپت نصب در %1 ناموفق بود"
+
+#: servicemenuinstaller.cpp:380
+#, kde-format
+msgid "Failed to remove .desktop file %1: %2"
+msgstr "حذف پروندهٔ .desktop %1 ناموفق بود: %2"
+
+#: servicemenuinstaller.cpp:423
+#, kde-format
+msgid "Failed to find an uninstallation script in %1"
+msgstr "یافتن اسکریپت حذف در %1 ناموفق بود"
+
+#: servicemenuinstaller.cpp:442
+#, kde-format
+msgctxt "@info:shell"
+msgid "Command to execute: install or uninstall."
+msgstr "دستور برای اجرا: install یا uninstall."
+
+#: servicemenuinstaller.cpp:443
+#, kde-format
+msgctxt "@info:shell"
+msgid "Path to archive."
+msgstr "مسیر بایگانی."
+
+#: servicemenuinstaller.cpp:448
+#, kde-format
+msgid "Command is required."
+msgstr "دستور الزامی است."
+
+#: servicemenuinstaller.cpp:451
+#, kde-format
+msgid "Path to archive is required."
+msgstr "مسیر بایگانی الزامی است."
+
+#: servicemenuinstaller.cpp:467
+#, kde-format
+msgid "Unsupported command %1"
+msgstr "دستور پشتیبانی‌نشدهٔ %1"

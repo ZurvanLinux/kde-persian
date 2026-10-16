@@ -1,0 +1,421 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the konqsidebar package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: konqsidebar\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-10-16 00:04+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bookmarks_module/bookmarks_module.cpp:273
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "Bookmarks Sidebar Module"
+msgstr "پیمانهٔ نوار کناری نشانک‌ها"
+
+#: bookmarks_module/bookmarks_module.cpp:296
+#, kde-format
+msgctxt "@title:tab"
+msgid "Bookmarks"
+msgstr "نشانک‌ها"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbDefaultAction)
+#: history_module/history_dlg.ui:17
+#, kde-format
+msgid "Default action"
+msgstr "کنش پیش‌فرض"
+
+#. i18n: ectx: property (text), widget (QLabel, lDefault)
+#: history_module/history_dlg.ui:23
+#, kde-format
+msgid "Default action when double clicking an URL"
+msgstr "کنش پیش‌فرض هنگام دو بار کلیک روی نشانی وب"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
+#: history_module/history_dlg.ui:36
+#, kde-format
+msgid "Limits"
+msgstr "محدودیت‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
+#: history_module/history_dlg.ui:61
+#, kde-format
+msgid "URLs e&xpire after"
+msgstr "انقضای نشانی‌های وب پس از"
+
+#. i18n: ectx: property (text), widget (QLabel, lEntries)
+#: history_module/history_dlg.ui:71
+#, kde-format
+msgid "Maximum &number of URLs:"
+msgstr "حداکثر تعداد نشانی‌های وب:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
+#: history_module/history_dlg.ui:87
+#, kde-format
+msgid "Custom Fonts For"
+msgstr "قلم‌های سفارشی برای"
+
+#. i18n: ectx: property (text), widget (QLabel, lbNewer)
+#: history_module/history_dlg.ui:102
+#, kde-format
+msgid "URLs newer than"
+msgstr "نشانی‌های وب جدیدتر از"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnFontOlder)
+#. i18n: ectx: property (text), widget (QPushButton, btnFontNewer)
+#: history_module/history_dlg.ui:118 history_module/history_dlg.ui:138
+#, kde-format
+msgid "Choose Font..."
+msgstr "انتخاب قلم..."
+
+#. i18n: ectx: property (text), widget (QLabel, lbOlder)
+#: history_module/history_dlg.ui:125
+#, kde-format
+msgid "URLs older than"
+msgstr "نشانی‌های اینترنتی قدیمی‌تر از"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
+#: history_module/history_dlg.ui:148
+#, kde-format
+msgid "Details"
+msgstr "جزئیات"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbDetailedTips)
+#: history_module/history_dlg.ui:154
+#, kde-format
+msgid ""
+"Shows the number of times visited and the dates of the first and last "
+"visits, in addition to the URL"
+msgstr ""
+"علاوه بر نشانی اینترنتی، تعداد دفعات بازدید و تاریخ اولین و آخرین بازدید را "
+"نشان می‌دهد"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
+#: history_module/history_dlg.ui:157
+#, kde-format
+msgid "Detailed tooltips"
+msgstr "پیش‌نمایش‌های متنی با جزئیات"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
+#: history_module/history_dlg.ui:169
+#, kde-format
+msgid "Clear History"
+msgstr "پاک کردن تاریخچه"
+
+#: history_module/history_module.cpp:139
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "History Sidebar Module"
+msgstr "ماژول نوار کناری تاریخچه"
+
+#: history_module/history_module.cpp:162
+#, kde-format
+msgctxt "@title:tab"
+msgid "History"
+msgstr "تاریخچه"
+
+#: history_module/kcmhistory.cpp:49
+#, kde-format
+msgctxt "Automatically decide which action to perform"
+msgid "Auto"
+msgstr "خودکار"
+
+#: history_module/kcmhistory.cpp:50
+#, kde-format
+msgctxt "Open URL in new tab"
+msgid "Open in new tab"
+msgstr "باز کردن در برگهٔ جدید"
+
+#: history_module/kcmhistory.cpp:51
+#, kde-format
+msgctxt "Open URL in current tab"
+msgid "Open in current tab"
+msgstr "باز کردن در برگهٔ فعلی"
+
+#: history_module/kcmhistory.cpp:52
+#, kde-format
+msgctxt "Open URL in new window"
+msgid "Open in new window"
+msgstr "باز کردن در پنجره جدید"
+
+#: history_module/kcmhistory.cpp:54
+#, kde-format
+msgid ""
+"Action to carry out when opening an URL from "
+"history:<dl><dl><dt>Auto:</dt><dd>opens the URL in a new tab unless the "
+"current tab is empty or an intro page</dd><dt>Open URL in a new "
+"tab:</dt><dd>always opens the URL in a new tab</dd><dt>Open URL in current "
+"tab:</dt><dd>always opens the URL in the current tab</dd><dt>Open URL in new"
+" window:</dt><dd>always opens the URL in a new window</dd></dl>"
+msgstr ""
+"اقدامی که هنگام باز کردن یک نشانی از تاریخچه انجام "
+"می‌شود:<dl><dl><dt>خودکار:</dt><dd>نشانی را در یک زبانه جدید باز می‌کند مگر "
+"اینکه زبانه فعلی خالی یا یک صفحه معرفی باشد</dd><dt>باز کردن نشانی در زبانه "
+"جدید:</dt><dd>همیشه نشانی را در یک زبانه جدید باز می‌کند</dd><dt>باز کردن "
+"نشانی در زبانه فعلی:</dt><dd>همیشه نشانی را در زبانه فعلی باز "
+"می‌کند</dd><dt>باز کردن نشانی در پنجره جدید:</dt><dd>همیشه نشانی را در یک "
+"پنجره جدید باز می‌کند</dd></dl>"
+
+#: history_module/kcmhistory.cpp:65
+#, kde-format
+msgid "days"
+msgstr "روز"
+
+#: history_module/kcmhistory.cpp:71 history_module/kcmhistory.cpp:76
+#: history_module/kcmhistory.cpp:200 history_module/kcmhistory.cpp:213
+#, kde-format
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "دقیقه"
+msgstr[1] "دقیقه"
+
+#: history_module/kcmhistory.cpp:73 history_module/kcmhistory.cpp:78
+#: history_module/kcmhistory.cpp:198 history_module/kcmhistory.cpp:211
+#, kde-format
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "روز"
+msgstr[1] "روزها"
+
+#: history_module/kcmhistory.cpp:245
+#, kde-format
+msgid "Do you really want to clear the entire history?"
+msgstr "آیا واقعاً می‌خواهید کل تاریخچه را پاک کنید؟"
+
+#: history_module/kcmhistory.cpp:247
+#, kde-format
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "پاک کردن تاریخچه؟"
+
+#: places_module/places_module.cpp:76
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "Places Sidebar Module"
+msgstr "پیمانه نوار کناری مکان‌ها"
+
+#: places_module/places_module.cpp:99
+#, kde-format
+msgctxt "@title:tab"
+msgid "Places"
+msgstr "مکان‌ها"
+
+#: sidebar_widget.cpp:84
+#, kde-format
+msgid "Restore All Removed Default Buttons"
+msgstr "بازیابی همه دکمه‌های پیش‌فرض حذف‌شده"
+
+#: sidebar_widget.cpp:85
+#, kde-format
+msgid "Rollback to System Default"
+msgstr "بازگردانی به پیش‌فرض سامانه"
+
+#: sidebar_widget.cpp:144 sidebar_widget.cpp:430
+#, kde-format
+msgid "Configure Sidebar"
+msgstr "پیکربندی نوار کناری"
+
+#: sidebar_widget.cpp:146
+#, kde-format
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: sidebar_widget.cpp:150
+#, kde-format
+msgid "Multiple Views"
+msgstr "نماهای چندگانه"
+
+#: sidebar_widget.cpp:152 sidebar_widget.cpp:269
+#, kde-format
+msgid "Show Tabs on Left"
+msgstr "نمایش زبانه‌ها در چپ"
+
+#: sidebar_widget.cpp:153
+#, kde-format
+msgid "Show Configuration Button"
+msgstr "نمایش دکمهٔ پیکربندی"
+
+#: sidebar_widget.cpp:156
+#, kde-format
+msgid "Close Sidebar"
+msgstr "بستن نوار کناری"
+
+#: sidebar_widget.cpp:211
+#, kde-format
+msgid "This entry already exists."
+msgstr "این مدخل از قبل وجود دارد."
+
+#: sidebar_widget.cpp:227
+#, kde-format
+msgid ""
+"<qt>This removes all your entries from the sidebar and adds the system "
+"default ones.<br /><b>This procedure is irreversible.</b><br />Do you want "
+"to proceed?</qt>"
+msgstr ""
+"<qt>این کار همهٔ مدخل‌های شما را از نوار کناری حذف کرده و موارد پیش‌فرض "
+"سامانه را اضافه می‌کند.<br /><b>این فرایند برگشت‌ناپذیر است.</b><br />آیا "
+"می‌خواهید ادامه دهید؟</qt>"
+
+#: sidebar_widget.cpp:269
+#, kde-format
+msgid "Show Tabs on Right"
+msgstr "نمایش زبانه‌ها در راست"
+
+#: sidebar_widget.cpp:280
+#, kde-format
+msgctxt "@title:window"
+msgid "Set Name"
+msgstr "تنظیم نام"
+
+#: sidebar_widget.cpp:281
+#, kde-format
+msgid "Enter the name:"
+msgstr "نام را وارد کنید:"
+
+#: sidebar_widget.cpp:299
+#, kde-format
+msgid "Enter a URL:"
+msgstr "یک نشانی وب وارد کنید:"
+
+#: sidebar_widget.cpp:323
+#, kde-format
+msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
+msgstr "<qt>آیا واقعاً می‌خواهید زبانهٔ <b>%1</b> را حذف کنید؟</qt>"
+
+#: sidebar_widget.cpp:373
+#, kde-format
+msgid ""
+"You have hidden the sidebar configuration button. To make it visible again, "
+"click the right mouse button on any of the sidebar buttons and select \"Show"
+" Configuration Button\"."
+msgstr ""
+"دکمهٔ پیکربندی نوار کناری را پنهان کرده‌اید. برای نمایش دوبارهٔ آن، روی یکی "
+"از دکمه‌های نوار کناری راست‌کلیک کرده و «نمایش دکمهٔ پیکربندی» را انتخاب "
+"کنید."
+
+#: sidebar_widget.cpp:574
+#, kde-format
+msgid "Set Name..."
+msgstr "تنظیم نام..."
+
+#: sidebar_widget.cpp:575
+#, kde-format
+msgid "Set URL..."
+msgstr "تنظیم نشانی وب..."
+
+#: sidebar_widget.cpp:576
+#, kde-format
+msgid "Set Icon..."
+msgstr "تنظیم نماد..."
+
+#: sidebar_widget.cpp:578
+#, kde-format
+msgid "Show Hidden Folders..."
+msgstr "نمایش پوشه‌های پنهان..."
+
+#: sidebar_widget.cpp:583
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#: sidebar_widget.cpp:907
+#, kde-format
+msgid "Web module"
+msgstr "پیمانهٔ وب"
+
+#: tree_module/tree_module.cpp:259
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "Tree Sidebar Module"
+msgstr "پیمانهٔ نوار کناری درختی"
+
+#: tree_module/tree_module.cpp:282
+#, kde-format
+msgctxt "@title:tab"
+msgid "Tree"
+msgstr "درخت"
+
+#: vertical_tabbar/vertical_tabbar.cpp:91
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "Vertical Tab Bar"
+msgstr "نوار زبانهٔ عمودی"
+
+#: vertical_tabbar/vertical_tabbar.cpp:114
+#, kde-format
+msgctxt "@title:tab"
+msgid "Tabs"
+msgstr "زبانه‌ها"
+
+#: web_module/web_module.cpp:42
+#, kde-format
+msgid "&Open Link"
+msgstr "باز کردن پیوند"
+
+#: web_module/web_module.cpp:46
+#, kde-format
+msgid "Open in New &Window"
+msgstr "باز کردن در پنجرهٔ جدید"
+
+#: web_module/web_module.cpp:52
+#, kde-format
+msgid "&Reload"
+msgstr "بازآوری"
+
+#: web_module/web_module.cpp:57
+#, kde-format
+msgid "Set &Automatic Reload"
+msgstr "تنظیم بازآوری خودکار"
+
+#: web_module/web_module.cpp:121
+#, kde-format
+msgctxt "@title:window"
+msgid "Set Refresh Timeout (0 disables)"
+msgstr "تنظیم زمان‌بندی بازخوانی (۰ غیرفعال می‌کند)"
+
+#: web_module/web_module.cpp:132
+#, kde-format
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " دقیقه"
+msgstr[1] " دقیقه"
+
+#: web_module/web_module.cpp:136
+#, kde-format
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " ثانیه"
+msgstr[1] " ثانیه"
+
+#: web_module/web_module.cpp:269
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "پیمانهٔ نوار کناری وب"
+
+#: web_module/web_module.cpp:289
+#, kde-format
+msgctxt "@label"
+msgid "Name:"
+msgstr "نام:"
+
+#: web_module/web_module.cpp:289
+#, kde-format
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr "مسیر یا نشانی وب:"
+
+#: web_module/web_module.cpp:290
+#, kde-format
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr "افزودن پیمانهٔ نوار کناری وب"

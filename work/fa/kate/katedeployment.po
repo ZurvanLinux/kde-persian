@@ -1,0 +1,374 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the katedeployment package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: katedeployment\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-05 00:50+0000\n"
+"PO-Revision-Date: 2026-10-15 10:39+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: deploymentconfig.cpp:102
+#, kde-format
+msgid "deployment must be an object"
+msgstr "استقرار باید یک شیء باشد"
+
+#: deploymentconfig.cpp:118
+#, kde-format
+msgid "deployment host must not be empty"
+msgstr "میزبان استقرار نباید خالی باشد"
+
+#: deploymentconfig.cpp:122 deploymentconfig.cpp:126 deploymentconfig.cpp:196
+#, kde-format
+msgid "deployment host is invalid"
+msgstr "میزبان استقرار نامعتبر است"
+
+#: deploymentconfig.cpp:136
+#, kde-format
+msgid "deployment port must be between 1 and 65535"
+msgstr "درگاه استقرار باید بین ۱ و ۶۵۵۳۵ باشد"
+
+#: deploymentconfig.cpp:142
+#, kde-format
+msgid "project base must not be empty"
+msgstr "پایهٔ پروژه نباید خالی باشد"
+
+#: deploymentconfig.cpp:148
+#, kde-format
+msgid "project base must be an existing directory"
+msgstr "پایهٔ پروژه باید یک پوشهٔ موجود باشد"
+
+#: deploymentconfig.cpp:157
+#, kde-format
+msgid "deployment localRoot must not contain traversal"
+msgstr "localRoot استقرار نباید شامل پیمایش مسیر باشد"
+
+#: deploymentconfig.cpp:165
+#, kde-format
+msgid ""
+"deployment localRoot must be an existing directory inside the project base"
+msgstr "localRoot استقرار باید یک پوشهٔ موجود درون پایهٔ پروژه باشد"
+
+#: deploymentconfig.cpp:171
+#, kde-format
+msgid "deployment remoteRoot must be an absolute path without traversal"
+msgstr "remoteRoot استقرار باید یک مسیر مطلق بدون پیمایش مسیر باشد"
+
+#: deploymentconfig.cpp:184
+#, kde-format
+msgid "deployment exclude entries must be strings"
+msgstr "ورودی‌های exclude استقرار باید رشته باشند"
+
+#: deploymentconfig.cpp:190
+#, kde-format
+msgid "deployment exclude must be a list of strings"
+msgstr "exclude استقرار باید فهرستی از رشته‌ها باشد"
+
+#: deploymentplugin.cpp:116
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Deployment"
+msgstr "پیکربندی استقرار"
+
+#: deploymentplugin.cpp:121
+#, kde-format
+msgid ""
+"Configure the SFTP destination for <filename>%1</filename>. Authentication "
+"is handled by KIO."
+msgstr ""
+"پیکربندی مقصد SFTP برای <filename>%1</filename>. احراز هویت توسط KIO انجام "
+"می‌شود."
+
+#: deploymentplugin.cpp:138
+#, kde-format
+msgid "One project-relative glob per line"
+msgstr "در هر سطر یک الگوی glob نسبت به پروژه"
+
+#: deploymentplugin.cpp:140
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Host:"
+msgstr "میزبان:"
+
+#: deploymentplugin.cpp:141
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Port:"
+msgstr "درگاه:"
+
+#: deploymentplugin.cpp:142
+#, kde-format
+msgctxt "@label:textbox"
+msgid "User:"
+msgstr "کاربر:"
+
+#: deploymentplugin.cpp:143
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Local root:"
+msgstr "ریشهٔ محلی:"
+
+#: deploymentplugin.cpp:144
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Remote root:"
+msgstr "ریشهٔ دوردست:"
+
+#: deploymentplugin.cpp:145
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Exclude:"
+msgstr "استثنا:"
+
+#: deploymentplugin.cpp:179
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid Deployment Configuration"
+msgstr "پیکربندی نامعتبر استقرار"
+
+#: deploymentplugin.cpp:214 deploymentplugin.cpp:949
+#, kde-format
+msgid "Deployment"
+msgstr "استقرار"
+
+#: deploymentplugin.cpp:220
+#, kde-format
+msgctxt "@action"
+msgid "Upload Current File"
+msgstr "بارگذاری پروندهٔ جاری"
+
+#: deploymentplugin.cpp:230
+#, kde-format
+msgctxt "@action"
+msgid "Upload Project"
+msgstr "بارگذاری پروژه"
+
+#: deploymentplugin.cpp:237 deploymentplugin.cpp:749
+#, kde-format
+msgctxt "@action"
+msgid "Cancel Deployment Transfers"
+msgstr "لغو انتقال‌های استقرار"
+
+#: deploymentplugin.cpp:242
+#, kde-format
+msgctxt "@action"
+msgid "Configure Deployment..."
+msgstr "پیکربندی استقرار..."
+
+#: deploymentplugin.cpp:247
+#, kde-format
+msgctxt "@action"
+msgid "Browse Remote Host"
+msgstr "مرور میزبان دوردست"
+
+#: deploymentplugin.cpp:254
+#, kde-format
+msgid "Remote Host"
+msgstr "میزبان دوردست"
+
+#: deploymentplugin.cpp:280
+#, kde-format
+msgctxt "@action"
+msgid "Deployment Root"
+msgstr "ریشهٔ استقرار"
+
+#: deploymentplugin.cpp:293
+#, kde-format
+msgid "File Transfer"
+msgstr "انتقال پرونده"
+
+#: deploymentplugin.cpp:301
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "لغو"
+
+#: deploymentplugin.cpp:304
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear"
+msgstr "پاک‌سازی"
+
+#: deploymentplugin.cpp:361
+#, kde-format
+msgid "Loading %1..."
+msgstr "در حال بارگیری %1..."
+
+#: deploymentplugin.cpp:368
+#, kde-format
+msgid "Connected to %1"
+msgstr "متصل به %1"
+
+#: deploymentplugin.cpp:377
+#, kde-format
+msgid "Failed to list %1 (KIO error %2): %3"
+msgstr "فهرست کردن %1 ناموفق بود (خطای KIO %2): %3"
+
+#: deploymentplugin.cpp:485
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Upload Folder to Remote Host"
+msgstr "بارگذاری پوشه در میزبان دوردست"
+
+#: deploymentplugin.cpp:486
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Upload to Remote Host"
+msgstr "بارگذاری در میزبان دوردست"
+
+#: deploymentplugin.cpp:533
+#, kde-format
+msgid "Open or select a Kate project before configuring deployment."
+msgstr "پیش از پیکربندی استقرار، یک پروژهٔ Kate را باز یا انتخاب کنید."
+
+#: deploymentplugin.cpp:537
+#, kde-format
+msgid ""
+"Deployment configuration requires a file-backed "
+"<filename>.kateproject</filename>."
+msgstr ""
+"پیکربندی استقرار نیازمند یک <filename>.kateproject</filename> مبتنی بر "
+"پرونده است."
+
+#: deploymentplugin.cpp:553
+#, kde-format
+msgid "Could not read <filename>%1</filename>."
+msgstr "خواندن <filename>%1</filename> ممکن نشد."
+
+#: deploymentplugin.cpp:561
+#, kde-format
+msgid "Could not update malformed JSON in <filename>%1</filename>: %2"
+msgstr "به‌روزرسانی JSON بدشکل در <filename>%1</filename> ممکن نشد: %2"
+
+#: deploymentplugin.cpp:574
+#, kde-format
+msgid "Could not write <filename>%1</filename>."
+msgstr "نوشتن <filename>%1</filename> ممکن نشد."
+
+#: deploymentplugin.cpp:581
+#, kde-format
+msgid "Saved deployment configuration to %1"
+msgstr "پیکربندی استقرار در %1 ذخیره شد"
+
+#: deploymentplugin.cpp:595
+#, kde-format
+msgid "The current document is not a local file."
+msgstr "سند فعلی یک پروندهٔ محلی نیست."
+
+#: deploymentplugin.cpp:631
+#, kde-format
+msgid "The file could not be saved before upload."
+msgstr "ذخیرهٔ پرونده پیش از بارگذاری ممکن نشد."
+
+#: deploymentplugin.cpp:646
+#, kde-format
+msgid "Deployment is not configured for this project."
+msgstr "استقرار برای این پروژه پیکربندی نشده است."
+
+#: deploymentplugin.cpp:651
+#, kde-format
+msgid "A deployment transfer is already running."
+msgstr "یک انتقال استقرار در حال اجرا است."
+
+#: deploymentplugin.cpp:661
+#, kde-format
+msgid "Cannot upload %1 because its remote version is open in Kate."
+msgstr "بارگذاری %1 ممکن نیست زیرا نسخهٔ دوردست آن در Kate باز است."
+
+#: deploymentplugin.cpp:672
+#, kde-format
+msgid "No deployable files were selected."
+msgstr "هیچ پروندهٔ قابل استقراری انتخاب نشد."
+
+#: deploymentplugin.cpp:678
+#, kde-format
+msgid "Queued one file for upload."
+msgid_plural "Queued %1 files for upload."
+msgstr[0] "یک پرونده در صف بارگذاری قرار گرفت."
+msgstr[1] "%1 پرونده در صف بارگذاری قرار گرفت."
+
+#: deploymentplugin.cpp:696 deploymentplugin.cpp:762
+#, kde-format
+msgid "The remote file is open in Kate."
+msgstr "پروندهٔ دوردست در Kate باز است."
+
+#: deploymentplugin.cpp:706
+#, kde-format
+msgid "Uploading %1 to %2"
+msgstr "در حال بارگذاری %1 در %2"
+
+#: deploymentplugin.cpp:744
+#, kde-format
+msgctxt "@action"
+msgid "Cancel Deployment Transfers (%1%)"
+msgstr "لغو انتقال‌های استقرار (%1%)"
+
+#: deploymentplugin.cpp:785
+#, kde-format
+msgid "Failed to upload %1: %2"
+msgstr "بارگذاری %1 شکست خورد: %2"
+
+#: deploymentplugin.cpp:787
+#, kde-format
+msgid "Uploaded %1"
+msgstr "%1 بارگذاری شد"
+
+#: deploymentplugin.cpp:807
+#, kde-format
+msgid "Cancelled deployment transfers."
+msgstr "انتقال‌های استقرار لغو شد."
+
+#: deploymentplugin.cpp:839
+#, kde-format
+msgid "Not connected"
+msgstr "متصل نیست"
+
+#: deploymentplugin.cpp:856
+#, kde-format
+msgid ""
+"The SFTP KIO worker is not installed or does not support directory listing."
+msgstr ""
+"کارگر KIO برای SFTP نصب نشده است یا از فهرست‌کردن شاخه پشتیبانی نمی‌کند."
+
+#: deploymentplugin.cpp:887
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Remote File"
+msgstr "باز کردن پروندهٔ دوردست"
+
+#: deploymentplugin.cpp:898
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Mapped Local File"
+msgstr "باز کردن پروندهٔ محلی نگاشت‌شده"
+
+#: deploymentplugin.cpp:905
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Upload Mapped Local File"
+msgstr "بارگذاری پروندهٔ محلی نگاشت‌شده"
+
+#: deploymentplugin.cpp:915
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Remote URL"
+msgstr "رونوشت از نشانی دوردست"
+
+#: deploymentplugin.cpp:922
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Remote Path"
+msgstr "رونوشت از مسیر دوردست"
+
+#: deploymentplugin.cpp:932
+#, kde-format
+msgid "No mapped local file exists for %1."
+msgstr "هیچ پروندهٔ محلی نگاشت‌شده‌ای برای %1 وجود ندارد."

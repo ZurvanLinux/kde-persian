@@ -1,0 +1,4462 @@
+# translation of kvoctrain.po to Persian
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Mahdi Foladgar <foladgar@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kvoctrain\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-11 00:39+0000\n"
+"PO-Revision-Date: 2026-10-16 01:26+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/collection/containermodel.cpp:150
+#, kde-format
+msgid "Unit"
+msgstr "واحد"
+
+#: src/collection/containermodel.cpp:158
+#, kde-format
+msgid "Number of entries in this lesson."
+msgstr "تعداد مدخل‌ها در این درس."
+
+#: src/collection/entryfilter.cpp:113
+#, kde-format
+msgid ""
+"The vocabulary document contains no entries that can be used for the chosen "
+"type of practice."
+msgstr ""
+"سند واژگان شامل هیچ مدخلی نیست که بتوان برای نوع تمرین انتخاب‌شده استفاده "
+"کرد."
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, EntryFilterDialog)
+#: src/collection/entryfilterdialog.ui:14
+#, kde-format
+msgid "Start Practice"
+msgstr "شروع تمرین"
+
+#. i18n: ectx: property (text), widget (QLabel, headerLabel)
+#: src/collection/entryfilterdialog.ui:20
+#, kde-format
+msgid ""
+"<p>Your selection of vocabulary for the practice is empty.</p><p>Below you "
+"can choose to ignore some of your configuration settings to start a practice"
+" anyway.</p>"
+msgstr ""
+"<p>واژگان انتخابی شما برای تمرین خالی است.</p><p>در ادامه می‌توانید برخی از "
+"تنظیمات پیکربندی خود را نادیده بگیرید تا تمرین در هر صورت آغاز شود.</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, ignoreGroupBox)
+#: src/collection/entryfilterdialog.ui:30
+#, kde-format
+msgid "Ignore Configuration for:"
+msgstr "نادیده‌گرفتن پیکربندی برای:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lessonCheckBox)
+#: src/collection/entryfilterdialog.ui:36
+#, kde-format
+msgid "Ignore Lessons"
+msgstr "نادیده‌گرفتن درس‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, wordTypeCheckBox)
+#: src/collection/entryfilterdialog.ui:56
+#, kde-format
+msgid "Ignore Word Types"
+msgstr "نادیده‌گرفتن انواع کلمه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, blockedCheckBox)
+#: src/collection/entryfilterdialog.ui:76
+#, kde-format
+msgid "Ignore Blocked"
+msgstr "نادیده گرفتن مسدودشده‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, timesWrongCheckBox)
+#: src/collection/entryfilterdialog.ui:96
+#, kde-format
+msgid "Ignore Times Answered Incorrectly"
+msgstr "نادیده گرفتن دفعات پاسخ نادرست"
+
+#. i18n: ectx: property (text), widget (QCheckBox, timesPracticedCheckBox)
+#: src/collection/entryfilterdialog.ui:116
+#, kde-format
+msgid "Ignore Times Practiced"
+msgstr "نادیده گرفتن دفعات تمرین"
+
+#. i18n: ectx: property (text), widget (QCheckBox, minMaxGradeCheckBox)
+#: src/collection/entryfilterdialog.ui:136
+#, kde-format
+msgid "Ignore Minimum/Maximum Grade"
+msgstr "نادیده گرفتن حداقل/حداکثر نمره"
+
+#. i18n: ectx: property (text), widget (QLabel, numberAffectedWordsLabel)
+#: src/collection/entryfilterdialog.ui:156
+#, kde-format
+msgid "Number of Affected Words"
+msgstr "تعداد واژه‌های تحت تأثیر"
+
+#. i18n: ectx: property (text), widget (QLabel, documentTotalDescriptionLabel)
+#: src/collection/entryfilterdialog.ui:171
+#, kde-format
+msgid "Total number of entries:"
+msgstr "تعداد کل مدخل‌ها:"
+
+#. i18n: ectx: property (text), widget (QLabel, totalDescriptionLabel)
+#: src/collection/entryfilterdialog.ui:192
+#, kde-format
+msgid "Resulting number of words to practice:"
+msgstr "تعداد واژه‌های حاصل برای تمرین:"
+
+#: src/collection/lessonmodel.cpp:47
+#, kde-format
+msgctxt "display of the name of the vocabulary collection"
+msgid "Collection: %1"
+msgstr "مجموعه: %1"
+
+#: src/collection/readonlycontainermodel.cpp:131
+#, kde-format
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: src/collection/vocabularymodel.cpp:185
+#, kde-format
+msgid "You can drag and drop words onto their word type."
+msgstr "می‌توانید کلمات را بکشید و روی نوع کلمهٔ آن‌ها رها کنید."
+
+#: src/collection/vocabularymodel.cpp:187
+#, kde-format
+msgid "Enable the synonym view to edit synonyms."
+msgstr "برای ویرایش مترادف‌ها، نمای مترادف را فعال کنید."
+
+#: src/collection/vocabularymodel.cpp:189
+#, kde-format
+msgid "Enable the antonym view to edit antonyms."
+msgstr "برای ویرایش متضادها، نمای متضاد را فعال کنید."
+
+#: src/collection/vocabularymodel.cpp:281
+#, kde-format
+msgid "Pronunciation (%1)"
+msgstr "تلفظ (%1)"
+
+#: src/collection/vocabularymodel.cpp:281
+#, kde-format
+msgid "Pronunciation"
+msgstr "تلفظ"
+
+#: src/collection/vocabularymodel.cpp:283
+#, kde-format
+msgid "Word Type (%1)"
+msgstr "نوع کلمه (%1)"
+
+#: src/collection/vocabularymodel.cpp:283
+#, kde-format
+msgid "Word Type"
+msgstr "نوع کلمه"
+
+#. i18n: ectx: property (text), widget (QPushButton, synonymButton)
+#: src/collection/vocabularymodel.cpp:285 src/editor/synonymwidget.ui:26
+#, kde-format
+msgid "Synonym"
+msgstr "مترادف"
+
+#: src/collection/vocabularymodel.cpp:285
+#, kde-format
+msgid "Synonym (%1)"
+msgstr "مترادف (%1)"
+
+#: src/collection/vocabularymodel.cpp:287
+#, kde-format
+msgid "Antonym (%1)"
+msgstr "متضاد (%1)"
+
+#: src/collection/vocabularymodel.cpp:287
+#, kde-format
+msgid "Antonym"
+msgstr "متضاد"
+
+#: src/collection/vocabularymodel.cpp:289
+#, kde-format
+msgid "Example (%1)"
+msgstr "مثال (%1)"
+
+#: src/collection/vocabularymodel.cpp:289
+#, kde-format
+msgid "Example"
+msgstr "مثال"
+
+#: src/collection/vocabularymodel.cpp:291
+#, kde-format
+msgid "Comment (%1)"
+msgstr "توضیح (%1)"
+
+#: src/collection/vocabularymodel.cpp:291
+#, kde-format
+msgid "Comment"
+msgstr "توضیح"
+
+#: src/collection/vocabularymodel.cpp:293
+#, kde-format
+msgid "Paraphrase (%1)"
+msgstr "نقل به مضمون (%1)"
+
+#: src/collection/vocabularymodel.cpp:293
+#, kde-format
+msgid "Paraphrase"
+msgstr "نقل به مضمون"
+
+#: src/collection/vocabularymodel.cpp:312
+#, kde-format
+msgid "Please use Edit -> Languages to set up your document."
+msgstr "لطفاً برای راه‌اندازی سند خود از ویرایش -> زبان‌ها استفاده کنید."
+
+#: src/collection/vocabularymodel.cpp:312
+#, kde-format
+msgid "No Languages Defined"
+msgstr "هیچ زبانی تعریف نشده است"
+
+#: src/collection/vocabularymodel.cpp:317
+#, kde-format
+msgid "Select a unit before adding vocabulary."
+msgstr "پیش از افزودن واژگان، یک واحد را انتخاب کنید."
+
+#: src/collection/vocabularymodel.cpp:317
+#, kde-format
+msgid "No Unit Selected"
+msgstr "هیچ واحدی انتخاب نشده است"
+
+#: src/dashboard/barwidget.cpp:120
+#, kde-format
+msgid "%1 word due"
+msgid_plural "%1 words due"
+msgstr[0] "%1 واژه موعد سررسید"
+msgstr[1] "%1 واژه موعد سررسید"
+
+#: src/dashboard/barwidget.cpp:122
+#, kde-format
+msgid "Fully learned"
+msgstr "کامل یاد گرفته شد"
+
+#: src/dashboard/buttondelegate.cpp:32
+#, kde-format
+msgid "Open this vocabulary collection in the editor"
+msgstr "باز کردن این مجموعه‌واژگان در ویرایشگر"
+
+#: src/dashboard/collectionwidget.cpp:96
+#, kde-format
+msgid "Practice Anyway"
+msgstr "تمرین در هر صورت"
+
+#: src/dashboard/collectionwidget.cpp:98 src/editor/editor.cpp:375
+#: src/editor/editor.cpp:376
+#, kde-format
+msgid "Practice"
+msgstr "تمرین"
+
+#. i18n: ectx: property (text), widget (QLabel, recentLabel)
+#: src/dashboard/dashboard.cpp:225 src/dashboard/dashboard.ui:38
+#, kde-format
+msgid "Active Collections"
+msgstr "مجموعه‌های فعال"
+
+#. i18n: ectx: property (text), widget (QLabel, completedLabel)
+#: src/dashboard/dashboard.cpp:230 src/dashboard/dashboard.ui:77
+#, kde-format
+msgid "Completed Collections"
+msgstr "مجموعه‌های تکمیل‌شده"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeChoiceButton)
+#: src/dashboard/dashboard.cpp:278 src/editor/multiplechoicewidget.ui:28
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#: src/dashboard/dashboard.cpp:278
+#, kde-format
+msgid "Are you sure you want to remove this collection?"
+msgstr "آیا مطمئنید که می‌خواهید این مجموعه را حذف کنید؟"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Dashboard)
+#: src/dashboard/dashboard.ui:14 src/main.cpp:25
+#, kde-format
+msgid "Parley"
+msgstr "پارلی"
+
+#. i18n: ectx: property (text), widget (QPushButton, newButton)
+#: src/dashboard/dashboard.ui:120
+#, kde-format
+msgid "Create a New Collection..."
+msgstr "ایجاد یک مجموعه جدید..."
+
+#. i18n: ectx: property (text), widget (QPushButton, openButton)
+#: src/dashboard/dashboard.ui:127
+#, kde-format
+msgid "Open an Existing Collection..."
+msgstr "باز کردن یک مجموعه موجود..."
+
+#. i18n: ectx: property (text), widget (KNSWidgets::Button, ghnsButton)
+#: src/dashboard/dashboard.ui:134
+#, kde-format
+msgid "Download New Collections..."
+msgstr "بارگیری مجموعه‌های جدید..."
+
+#. i18n: ectx: property (text), widget (QLabel, headingLabel)
+#: src/dashboard/dashboard.ui:141
+#, kde-format
+msgid "<h1>Parley</h1>"
+msgstr "<h1>پارلی</h1>"
+
+#. i18n: ectx: property (text), widget (QPushButton, playButton)
+#. i18n: ectx: property (text), widget (Practice::AudioButton,
+#. solutionSoundButton)
+#. i18n: ectx: property (text), widget (Practice::AudioButton,
+#. questionSoundButton)
+#: src/editor/audiowidget.ui:19 src/practice/audiobutton.cpp:19
+#: src/practice/audiobutton.cpp:20 src/practice/audiobutton.cpp:65
+#: src/practice/audiobutton.cpp:66
+#: src/practice/practice_widget_flashcard.ui:48
+#: src/practice/practice_widget_flashcard.ui:103
+#, kde-format
+msgid "Play"
+msgstr "پخش"
+
+#. i18n: ectx: property (text), widget (QPushButton, recordButton)
+#: src/editor/audiowidget.ui:26
+#, kde-format
+msgid "Record"
+msgstr "ضبط"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, downloadButton)
+#: src/editor/audiowidget.ui:33
+#, kde-format
+msgid "Download audio file with webservice"
+msgstr "بارگیری پرونده صوتی با وب‌سرویس"
+
+#. i18n: ectx: property (text), widget (QPushButton, downloadButton)
+#: src/editor/audiowidget.ui:36
+#, kde-format
+msgid "Download"
+msgstr "بارگیری"
+
+#. i18n: ectx: property (text), widget (QPushButton, showCurrentButton)
+#: src/editor/browserwidget.ui:18
+#, kde-format
+msgid "Lookup Current"
+msgstr "جستجوی مورد فعلی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, followTableCheckBox)
+#: src/editor/browserwidget.ui:33
+#, kde-format
+msgid "Follow Table"
+msgstr "پیروی از جدول"
+
+#: src/editor/comparisonwidget.cpp:76
+#, kde-format
+msgid "Could not determine word type of adjectives"
+msgstr "نوع کلمهٔ صفت‌ها مشخص نشد"
+
+#: src/editor/comparisonwidget.cpp:95
+#, kde-format
+msgid "Could not determine word type of adverbs"
+msgstr "نوع کلمهٔ قیدها مشخص نشد"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, absoluteLabel)
+#. i18n: ectx: property (toolTip), widget (QLabel, comparativeLabel)
+#: src/editor/comparisonwidget.ui:24 src/editor/comparisonwidget.ui:56
+#, kde-format
+msgid "The comparative is used to compare nouns or verbs (faster)"
+msgstr "صفت تفضیلی برای مقایسهٔ اسم‌ها یا فعل‌ها به‌کار می‌رود (faster)"
+
+#. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
+#: src/editor/comparisonwidget.ui:27
+#, kde-format
+msgid "Absolute:"
+msgstr "مطلق:"
+
+#. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
+#: src/editor/comparisonwidget.ui:59
+#, kde-format
+msgid "Comparative:"
+msgstr "تفضیلی:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, superlativeLabel)
+#: src/editor/comparisonwidget.ui:88
+#, kde-format
+msgid "The superlative (fastest)"
+msgstr "صفت عالی (fastest)"
+
+#. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
+#: src/editor/comparisonwidget.ui:91
+#, kde-format
+msgid "Superlative:"
+msgstr "عالی:"
+
+#. i18n: ectx: property (text), widget (QPushButton, makeAdjectiveButton)
+#: src/editor/comparisonwidget.ui:116 src/editor/inflectionwidget.cpp:42
+#: src/editor/wordtypeview.cpp:96 src/parleydocument.cpp:488
+#, kde-format
+msgid "Adjective"
+msgstr "صفت"
+
+#. i18n: ectx: property (text), widget (QPushButton, makeAdverbButton)
+#: src/editor/comparisonwidget.ui:123 src/editor/wordtypeview.cpp:104
+#: src/parleydocument.cpp:492
+#, kde-format
+msgid "Adverb"
+msgstr "قید"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DocumentProperties)
+#. i18n: ectx: property (windowTitle), widget (QWidget, OptionListForm)
+#. i18n: ectx: property (windowTitle), widget (QWidget, FromToEntryPageForm)
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConjugationWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, DeclensionWidget)
+#: src/editor/conjugationwidget.ui:26 src/editor/declensionwidget.ui:26
+#: src/editor/FromToEntryPageForm.ui:20 src/settings/documentproperties.ui:20
+#: src/settings/optionlistform.ui:19
+#, kde-format
+msgid "-"
+msgstr "-"
+
+#. i18n: ectx: property (title), widget (QGroupBox, layout)
+#: src/editor/conjugationwidget.ui:32
+#, kde-format
+msgid "Conjugation Forms"
+msgstr "شکل‌های صرف فعل"
+
+#. i18n: ectx: property (text), widget (QLabel, singularFirstPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, dualFirstPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, pluralFirstPersonLabel)
+#: src/editor/conjugationwidget.ui:38 src/editor/conjugationwidget.ui:132
+#: src/editor/conjugationwidget.ui:209
+#, kde-format
+msgid "First"
+msgstr "اول"
+
+#. i18n: ectx: property (text), widget (QLabel, singularSecondPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, dualSecondPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, pluralSecondPersonLabel)
+#: src/editor/conjugationwidget.ui:61 src/editor/conjugationwidget.ui:148
+#: src/editor/conjugationwidget.ui:225
+#, kde-format
+msgid "Second"
+msgstr "دوم"
+
+#. i18n: ectx: property (text), widget (QLabel, singularThirdMalePersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, dualThirdMalePersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdMalePersonLabel)
+#: src/editor/conjugationwidget.ui:84 src/editor/conjugationwidget.ui:164
+#: src/editor/conjugationwidget.ui:241
+#, kde-format
+msgid "Third Male"
+msgstr "سوم‌شخص مذکر"
+
+#. i18n: ectx: property (text), widget (QLabel,
+#. singularThirdFemalePersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, dualThirdFemalePersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdFemalePersonLabel)
+#: src/editor/conjugationwidget.ui:100 src/editor/conjugationwidget.ui:177
+#: src/editor/conjugationwidget.ui:260
+#, kde-format
+msgid "Third Female"
+msgstr "سوم‌شخص مؤنث"
+
+#. i18n: ectx: property (text), widget (QLabel,
+#. singularThirdNeutralPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, dualThirdNeutralPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdNeutralPersonLabel)
+#: src/editor/conjugationwidget.ui:116 src/editor/conjugationwidget.ui:193
+#: src/editor/conjugationwidget.ui:279
+#, kde-format
+msgid "Third Neutral"
+msgstr "سوم‌شخص خنثی"
+
+#. i18n: ectx: property (text), widget (QPushButton, nextTenseButton)
+#: src/editor/conjugationwidget.ui:317
+#, kde-format
+msgid "Ne&xt"
+msgstr "بعدی"
+
+#. i18n: ectx: property (text), widget (QLabel, tenselabel)
+#: src/editor/conjugationwidget.ui:330
+#, kde-format
+msgid "&Tense:"
+msgstr "زمان:"
+
+#. i18n: ectx: property (text), widget (QLabel, male_label_3)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_2)
+#. i18n: ectx: property (text), widget (QLabel, singularLabel)
+#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
+#: src/editor/conjugationwidget.ui:349 src/editor/declensionwidget.cpp:120
+#: src/editor/declensionwidget.ui:459
+#: src/settings/languagepropertiespage.ui:378
+#: src/settings/languagepropertiespage.ui:486
+#, kde-format
+msgid "Singular"
+msgstr "مفرد"
+
+#. i18n: ectx: property (text), widget (QLabel, dualLabel)
+#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
+#: src/editor/conjugationwidget.ui:368 src/editor/declensionwidget.cpp:121
+#: src/editor/declensionwidget.ui:464
+#: src/settings/languagepropertiespage.ui:493
+#, kde-format
+msgid "Dual"
+msgstr "تثنیه"
+
+#. i18n: ectx: property (text), widget (QLabel, male_label_4)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_3)
+#. i18n: ectx: property (text), widget (QLabel, pluralLabel)
+#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
+#: src/editor/conjugationwidget.ui:387 src/editor/declensionwidget.cpp:122
+#: src/editor/declensionwidget.ui:469
+#: src/settings/languagepropertiespage.ui:388
+#: src/settings/languagepropertiespage.ui:500
+#, kde-format
+msgid "Plural"
+msgstr "جمع"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/editor/declensionwidget.cpp:153 src/editor/declensionwidget.ui:185
+#: src/editor/inflectionwidget.cpp:114 src/parleydocument.cpp:474
+#, kde-format
+msgid "Masculine"
+msgstr "مذکر"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/editor/declensionwidget.cpp:154 src/editor/declensionwidget.ui:271
+#: src/editor/inflectionwidget.cpp:116 src/parleydocument.cpp:477
+#, kde-format
+msgid "Feminine"
+msgstr "مؤنث"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/editor/declensionwidget.cpp:155 src/editor/declensionwidget.ui:357
+#: src/editor/inflectionwidget.cpp:115 src/parleydocument.cpp:480
+#, kde-format
+msgid "Neuter"
+msgstr "خنثی"
+
+#. i18n: ectx: property (title), widget (QGroupBox, declensionGroupBox)
+#: src/editor/declensionwidget.ui:38
+#, kde-format
+msgid "Declension Forms"
+msgstr "صورت‌های تصریف"
+
+#. i18n: ectx: property (text), widget (QLabel, nominativeLabel)
+#: src/editor/declensionwidget.ui:52
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Nominative:"
+msgstr "فاعلی:"
+
+#. i18n: ectx: property (text), widget (QLabel, genitivLabel)
+#: src/editor/declensionwidget.ui:71
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Genitive:"
+msgstr "اضافی:"
+
+#. i18n: ectx: property (text), widget (QLabel, dativLabel)
+#: src/editor/declensionwidget.ui:90
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Dative:"
+msgstr "مفعولی به (متممی):"
+
+#. i18n: ectx: property (text), widget (QLabel, accusativeLabel)
+#: src/editor/declensionwidget.ui:109
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Accusative:"
+msgstr "مفعولی مستقیم:"
+
+#. i18n: ectx: property (text), widget (QLabel, ablativLabel)
+#: src/editor/declensionwidget.ui:128
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Ablative:"
+msgstr "مفعول‌عنهی:"
+
+#. i18n: ectx: property (text), widget (QLabel, locativeLabel)
+#: src/editor/declensionwidget.ui:147
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Locative:"
+msgstr "حالت مکانی:"
+
+#. i18n: ectx: property (text), widget (QLabel, vocativeLabel)
+#: src/editor/declensionwidget.ui:166
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Vocative:"
+msgstr "حالت ندایی:"
+
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#: src/editor/declensionwidget.ui:445
+#, kde-format
+msgid "Number:"
+msgstr "تعداد:"
+
+#. i18n: ectx: property (text), widget (QPushButton, nextButton)
+#: src/editor/declensionwidget.ui:477
+#, kde-format
+msgid "Next"
+msgstr "بعدی"
+
+#: src/editor/editor.cpp:140
+#, kde-format
+msgid "Units"
+msgstr "درس‌ها"
+
+#: src/editor/editor.cpp:151
+#, kde-format
+msgid ""
+"Right click to add, delete, or rename units. \n"
+"With the checkboxes you can select which units you want to practice. \n"
+"Only checked units [x] will be asked in the practice!"
+msgstr ""
+"برای افزودن، حذف یا تغییر نام درس‌ها راست‌کلیک کنید. \n"
+"با استفاده از کادرهای علامت‌زدن می‌توانید درس‌هایی را که می‌خواهید تمرین کنید، انتخاب نمایید. \n"
+"فقط درس‌های علامت‌خورده [x] در تمرین پرسیده خواهند شد!"
+
+#: src/editor/editor.cpp:162
+#, kde-format
+msgid "Word Types"
+msgstr "انواع کلمه"
+
+#: src/editor/editor.cpp:182
+#, kde-format
+msgid "Inflection (verbs, adjectives, nouns)"
+msgstr "صرف (افعال، صفت‌ها، اسم‌ها)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, comparisonForms)
+#: src/editor/editor.cpp:196 src/statistics/statisticsmainwindow.ui:135
+#, kde-format
+msgid "Comparison Forms"
+msgstr "صورت‌های مقایسه‌ای"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/editor/editor.cpp:211
+#: src/practice/configure/specificpracticeoptions.ui:17
+#, kde-format
+msgid "Multiple Choice"
+msgstr "چهارگزینه‌ای"
+
+#. i18n: ectx: property (text), widget (QLabel, synonymLabel)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/editor/editor.cpp:225 src/editor/synonymwidget.ui:16
+#: src/practice/configure/generalpracticeoptions.ui:152
+#, kde-format
+msgid "Synonyms"
+msgstr "مترادف‌ها"
+
+#: src/editor/editor.cpp:238
+#, kde-format
+msgid "Antonyms"
+msgstr "متضادها"
+
+#: src/editor/editor.cpp:252
+#, kde-format
+msgid "False Friends"
+msgstr "واژگان گمراه‌کننده"
+
+#: src/editor/editor.cpp:267
+#, kde-format
+msgid "Phonetic Symbols"
+msgstr "نمادهای آوانگاری"
+
+#: src/editor/editor.cpp:282
+#, kde-format
+msgid "Image"
+msgstr "تصویر"
+
+#: src/editor/editor.cpp:297
+#, kde-format
+msgid "Summary"
+msgstr "خلاصه"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PracticeSoundEnabled)
+#: src/editor/editor.cpp:311
+#: src/practice/configure/generalpracticeoptions.ui:139
+#, kde-format
+msgid "Sound"
+msgstr "صدا"
+
+#: src/editor/editor.cpp:327
+#, kde-format
+msgid "Internet"
+msgstr "اینترنت"
+
+#: src/editor/editor.cpp:343
+#, kde-format
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: src/editor/editor.cpp:418
+#, kde-format
+msgid "Enter search terms here"
+msgstr "عبارت‌های جستجو را اینجا وارد کنید"
+
+#: src/editor/editor.cpp:419
+#, kde-format
+msgid "Search your vocabulary"
+msgstr "جستجوی واژگان شما"
+
+#: src/editor/editor.cpp:421
+#, kde-format
+msgid "S&earch:"
+msgstr "جستجو:"
+
+#. i18n: ectx: Menu (file)
+#: src/editor/editorui.rc:7 src/practice/practicesummaryui.rc:7
+#: src/practice/practiceui.rc:7 src/statistics/statisticsui.rc:7
+#, kde-format
+msgid "&File"
+msgstr "پرونده"
+
+#. i18n: ectx: Menu (edit)
+#: src/editor/editorui.rc:12
+#, kde-format
+msgid "&Edit"
+msgstr "ویرایش"
+
+#. i18n: ectx: Menu (view)
+#: src/editor/editorui.rc:25 src/practice/practiceui.rc:12
+#, kde-format
+msgid "&View"
+msgstr "نمایش"
+
+#. i18n: ectx: Menu (lesson)
+#: src/editor/editorui.rc:51
+#, kde-format
+msgid "&Unit"
+msgstr "واحد"
+
+#. i18n: ectx: Menu (learning)
+#: src/editor/editorui.rc:65 src/practice/practicesummaryui.rc:12
+#: src/statistics/statisticsui.rc:12
+#, kde-format
+msgid "&Practice"
+msgstr "تمرین"
+
+#. i18n: ectx: ToolBar (editorToolBar)
+#: src/editor/editorui.rc:72 src/parleyui.rc:24
+#, kde-format
+msgid "Editor Toolbar"
+msgstr "نوار ابزار ویرایشگر"
+
+#. i18n: ectx: property (title), widget (QGroupBox, direc_label)
+#: src/editor/FromToEntryPageForm.ui:26
+#, kde-format
+msgid "Properties From Original"
+msgstr "ویژگی‌ها از نسخه اصلی"
+
+#. i18n: ectx: property (text), widget (QLabel, grade_label)
+#: src/editor/FromToEntryPageForm.ui:72
+#, kde-format
+msgid "&Confidence Level:"
+msgstr "سطح اطمینان:"
+
+#. i18n: ectx: property (text), widget (QLabel, fauxami_label)
+#: src/editor/FromToEntryPageForm.ui:95
+#, kde-format
+msgid "&False friend:"
+msgstr "واژه فریبنده:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox3)
+#: src/editor/FromToEntryPageForm.ui:110
+#, kde-format
+msgid "Practice &Counts"
+msgstr "تعداد تمرین‌ها"
+
+#. i18n: ectx: property (text), widget (QLabel, bcount_label)
+#: src/editor/FromToEntryPageForm.ui:142
+#, kde-format
+msgid "&Wrong:"
+msgstr "نادرست:"
+
+#. i18n: ectx: property (text), widget (QLabel, qcount_label)
+#: src/editor/FromToEntryPageForm.ui:155
+#, kde-format
+msgid "Tot&al:"
+msgstr "کل:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#: src/editor/FromToEntryPageForm.ui:171
+#, kde-format
+msgid "&Last Practiced"
+msgstr "آخرین تمرین"
+
+#. i18n: ectx: property (text), widget (QPushButton, never)
+#: src/editor/FromToEntryPageForm.ui:183
+#, kde-format
+msgid "&Never"
+msgstr "هرگز"
+
+#. i18n: ectx: property (text), widget (QPushButton, today)
+#: src/editor/FromToEntryPageForm.ui:190
+#, kde-format
+msgid "T&oday"
+msgstr "امروز"
+
+#. i18n: ectx: property (toolTip), widget (QDateEdit, queryDateEdit)
+#: src/editor/FromToEntryPageForm.ui:206
+#, kde-format
+msgid "The date this expression was last practiced"
+msgstr "تاریخ آخرین باری که این عبارت تمرین شد"
+
+#. i18n: ectx: property (specialValueText), widget (QDateEdit, queryDateEdit)
+#: src/editor/FromToEntryPageForm.ui:209
+#, kde-format
+msgid "Not Practiced Yet"
+msgstr "هنوز تمرین نشده"
+
+#. i18n: ectx: property (displayFormat), widget (QDateEdit, queryDateEdit)
+#: src/editor/FromToEntryPageForm.ui:229
+#, kde-format
+msgid "dd.MM.yyyy"
+msgstr "yyyy/MM/dd"
+
+#. i18n: ectx: property (text), widget (QPushButton, resetGradesButton)
+#: src/editor/FromToEntryPageForm.ui:260
+#, kde-format
+msgid "&Reset Confidence Levels"
+msgstr "بازنشانی سطوح اطمینان"
+
+#: src/editor/inflectionwidget.cpp:32 src/editor/wordtypeview.cpp:112
+#: src/parleydocument.cpp:484
+#, kde-format
+msgid "Verb"
+msgstr "فعل"
+
+#: src/editor/inflectionwidget.cpp:37 src/editor/wordtypeview.cpp:64
+#: src/parleydocument.cpp:470
+#, kde-format
+msgid "Noun"
+msgstr "اسم"
+
+#: src/editor/inflectionwidget.cpp:81
+#, kde-format
+msgid "\"%1\" is a:"
+msgstr "«%1» یک:"
+
+#: src/editor/inflectionwidget.cpp:124
+#, kde-format
+msgctxt "@title:window"
+msgid "Please select the noun's gender"
+msgstr "لطفاً جنسیت اسم را انتخاب کنید"
+
+#: src/editor/latexwidget.cpp:22
+#, kde-format
+msgid "Enter LaTeX code here."
+msgstr "کد LaTeX را اینجا وارد کنید."
+
+#. i18n: ectx: property (text), widget (QLabel, texLabel)
+#: src/editor/latexwidget.ui:17
+#, kde-format
+msgid "LaTeX code:"
+msgstr "کد LaTeX:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/editor/latexwidget.ui:37
+#: src/settings/kgametheme/kgamethemeselector.ui:52
+#, kde-format
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mathModeCheckBox)
+#: src/editor/latexwidget.ui:57
+#, kde-format
+msgid "Math mode"
+msgstr "حالت ریاضی"
+
+#: src/editor/lessonview.cpp:32
+#, kde-format
+msgid "New Unit"
+msgstr "واحد جدید"
+
+#: src/editor/lessonview.cpp:34
+#, kde-format
+msgid "Add a new unit to your document"
+msgstr "افزودن یک واحد جدید به سند"
+
+#: src/editor/lessonview.cpp:40
+#, kde-format
+msgid "Rename Unit"
+msgstr "تغییر نام واحد"
+
+#: src/editor/lessonview.cpp:48
+#, kde-format
+msgid "Delete Unit"
+msgstr "حذف واحد"
+
+#: src/editor/lessonview.cpp:50
+#, kde-format
+msgid "Delete the selected unit."
+msgstr "حذف واحد انتخاب‌شده."
+
+#: src/editor/lessonview.cpp:56
+#, kde-format
+msgid "Split Unit into Smaller Units"
+msgstr "تقسیم واحد به واحدهای کوچک‌تر"
+
+#: src/editor/lessonview.cpp:58
+#, kde-format
+msgid "Make multiple smaller units out of one big unit."
+msgstr "ایجاد چند واحد کوچک‌تر از یک واحد بزرگ."
+
+#: src/editor/lessonview.cpp:64
+#, kde-format
+msgid "Move to new lesson"
+msgstr "انتقال به درس جدید"
+
+#: src/editor/lessonview.cpp:66
+#, kde-format
+msgid "Moves the selected vocabulary to a new lesson"
+msgstr "واژگان انتخاب‌شده را به درس جدیدی منتقل می‌کند"
+
+#: src/editor/lessonview.cpp:72 src/parleyactions.cpp:150
+#, kde-format
+msgid "Remove Confidence Levels"
+msgstr "حذف سطوح اطمینان"
+
+#: src/editor/lessonview.cpp:74
+#, kde-format
+msgid "Remove confidence levels from this unit."
+msgstr "حذف سطوح اطمینان از این واحد."
+
+#: src/editor/lessonview.cpp:80
+#, kde-format
+msgid "Remove Confidence Levels From This Unit And All Subunits"
+msgstr "حذف سطوح اطمینان از این واحد و همهٔ زیرواحدها"
+
+#: src/editor/lessonview.cpp:82
+#, kde-format
+msgid "Remove confidence levels from this unit and all subunits."
+msgstr "حذف سطوح اطمینان از این واحد و همهٔ زیرواحدها."
+
+#: src/editor/lessonview.cpp:88
+#, kde-format
+msgid "Expand Units and Subunits"
+msgstr "گسترش واحدها و زیرواحدها"
+
+#: src/editor/lessonview.cpp:90
+#, kde-format
+msgid "Expand all units and subunits."
+msgstr "گسترش همهٔ واحدها و زیرواحدها."
+
+#: src/editor/lessonview.cpp:96
+#, kde-format
+msgid "Collapse All Units And Subunits"
+msgstr "جمع‌کردن همهٔ واحدها و زیرواحدها"
+
+#: src/editor/lessonview.cpp:98
+#, kde-format
+msgid "Collapse all units and subunits."
+msgstr "جمع‌کردن همهٔ واحدها و زیرواحدها."
+
+#: src/editor/lessonview.cpp:190
+#, kde-format
+msgid "The root lesson cannot be deleted."
+msgstr "درس ریشه را نمی‌توان حذف کرد."
+
+#: src/editor/lessonview.cpp:200
+#, kde-format
+msgid "There is %1 word left in this unit. Do you want to delete it?"
+msgid_plural ""
+"There are %1 words left in this unit. Do you want to delete them?"
+msgstr[0] "%1 کلمه در این واحد باقی مانده است. می‌خواهید آن را حذف کنید؟"
+msgstr[1] "%1 کلمه در این واحد باقی مانده است. می‌خواهید آن‌ها را حذف کنید؟"
+
+#: src/editor/lessonview.cpp:221
+#, kde-format
+msgid "Entries per Unit"
+msgstr "مدخل‌ها در هر واحد"
+
+#: src/editor/lessonview.cpp:222
+#, kde-format
+msgid ""
+"The unit will be split into smaller unit. How many entries in each unit do "
+"you want?"
+msgstr ""
+"این واحد به واحدهای کوچک‌تر تقسیم خواهد شد. می‌خواهید در هر واحد چند مدخل "
+"وجود داشته باشد؟"
+
+#: src/editor/lessonview.cpp:245
+#, kde-format
+msgid "New Lesson"
+msgstr "درس جدید"
+
+#. i18n: ectx: property (text), widget (QPushButton, addChoiceButton)
+#: src/editor/multiplechoicewidget.ui:21
+#, kde-format
+msgid "Add"
+msgstr "افزودن"
+
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
+#: src/editor/summarywordwidget.ui:16
+#, kde-format
+msgid "Language"
+msgstr "زبان"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/editor/summarywordwidget.ui:32
+#, kde-format
+msgid "Lesson"
+msgstr "درس"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/editor/summarywordwidget.ui:42
+#, kde-format
+msgid "Word type:"
+msgstr "نوع کلمه:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/editor/summarywordwidget.ui:55
+#, kde-format
+msgid "Pronunciation:"
+msgstr "تلفظ:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/editor/summarywordwidget.ui:71
+#, kde-format
+msgid "Example:"
+msgstr "مثال:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/editor/summarywordwidget.ui:87
+#, kde-format
+msgid "Paraphrase:"
+msgstr "توضیح:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/editor/summarywordwidget.ui:103
+#, kde-format
+msgid "Comment:"
+msgstr "نظر:"
+
+#: src/editor/synonymwidget.cpp:59
+#, kde-format
+msgid "Select Synonyms"
+msgstr "انتخاب مترادف‌ها"
+
+#: src/editor/synonymwidget.cpp:65
+#, kde-format
+msgid "%1 and %2 are not Synonyms"
+msgstr "%1 و %2 مترادف نیستند"
+
+#: src/editor/synonymwidget.cpp:67
+#, kde-format
+msgid "%1 and %2 are Synonyms"
+msgstr "%1 و %2 مترادف هستند"
+
+#: src/editor/synonymwidget.cpp:72
+#, kde-format
+msgid "%1 and %2 are not Antonyms"
+msgstr "%1 و %2 متضاد نیستند"
+
+#: src/editor/synonymwidget.cpp:74
+#, kde-format
+msgid "%1 and %2 are Antonyms"
+msgstr "%1 و %2 متضاد هستند"
+
+#: src/editor/synonymwidget.cpp:79
+#, kde-format
+msgid "%1 and %2 are not False Friends"
+msgstr "%1 و %2 واژه‌های گول‌زننده نیستند"
+
+#: src/editor/synonymwidget.cpp:81
+#, kde-format
+msgid "%1 and %2 are False Friends"
+msgstr "%1 و %2 واژه‌های گول‌زننده هستند"
+
+#: src/editor/synonymwidget.cpp:90
+#, kde-format
+msgctxt "Title for a list of synonyms for a word"
+msgid "Synonyms of %1:"
+msgstr "مترادف‌های %1:"
+
+#: src/editor/synonymwidget.cpp:93
+#, kde-format
+msgctxt "Title for a list of antonyms (opposites) for a word"
+msgid "Antonyms of %1:"
+msgstr "متضادهای %1:"
+
+#: src/editor/synonymwidget.cpp:97
+#, kde-format
+msgctxt ""
+"Title for a list of false friend (things that sound similar but have "
+"different meanings) for a word"
+msgid "False Friends of %1:"
+msgstr "واژه‌های گول‌زننده برای %1:"
+
+#: src/editor/vocabularycolumnsdialog.cpp:43
+#, kde-format
+msgctxt "@title:window"
+msgid "Vocabulary Columns"
+msgstr "ستون‌های واژگان"
+
+#: src/editor/vocabularycolumnsdialog.cpp:58
+#, kde-format
+msgid "Enable/Disable the columns for each language"
+msgstr "فعال/غیرفعال کردن ستون‌ها برای هر زبان"
+
+#: src/editor/vocabularydelegate.cpp:145
+#, kde-format
+msgid "Sound file selected: %1"
+msgstr "پرونده صوتی انتخاب‌شده: %1"
+
+#: src/editor/vocabularydelegate.cpp:147
+#, kde-format
+msgid "Image file selected: %1"
+msgstr "پرونده تصویری انتخاب‌شده: %1"
+
+#: src/editor/vocabularyview.cpp:79
+#, kde-format
+msgid "&Add New Entry"
+msgstr "افزودن مدخل جدید"
+
+#: src/editor/vocabularyview.cpp:82
+#, kde-format
+msgid "Append a new row to the vocabulary"
+msgstr "افزودن سطر جدید به واژگان"
+
+#: src/editor/vocabularyview.cpp:91
+#, kde-format
+msgid "&Delete Entry"
+msgstr "حذف مدخل"
+
+#: src/editor/vocabularyview.cpp:94
+#, kde-format
+msgid "Delete the selected rows"
+msgstr "حذف سطرهای انتخاب‌شده"
+
+#: src/editor/vocabularyview.cpp:105
+#, kde-format
+msgid "Copy"
+msgstr "رونوشت"
+
+#: src/editor/vocabularyview.cpp:112
+#, kde-format
+msgid "Cut"
+msgstr "برش"
+
+#: src/editor/vocabularyview.cpp:119
+#, kde-format
+msgid "Paste"
+msgstr "چسباندن"
+
+#: src/editor/vocabularyview.cpp:126
+#, kde-format
+msgid "Select all rows"
+msgstr "انتخاب همهٔ سطرها"
+
+#: src/editor/vocabularyview.cpp:132
+#, kde-format
+msgid "Deselect all rows"
+msgstr "لغو انتخاب همهٔ سطرها"
+
+#: src/editor/vocabularyview.cpp:140
+#, kde-format
+msgid "Vocabulary Columns..."
+msgstr "ستون‌های واژگان..."
+
+#: src/editor/vocabularyview.cpp:141
+#, kde-format
+msgid "Toggle display of individual vocabulary columns"
+msgstr "تغییر وضعیت نمایش ستون‌های تکی واژگان"
+
+#: src/editor/vocabularyview.cpp:253
+#, kde-format
+msgid "Do you really want to delete the selected entry?"
+msgid_plural "Do you really want to delete the selected %1 entries?"
+msgstr[0] "آیا واقعاً می‌خواهید مدخل انتخاب‌شده را حذف کنید؟"
+msgstr[1] "آیا واقعاً می‌خواهید %1 مدخل انتخاب‌شده را حذف کنید؟"
+
+#: src/editor/vocabularyview.cpp:254
+#, kde-format
+msgid "Delete"
+msgstr "حذف"
+
+#: src/editor/vocabularyview.cpp:358
+#, kde-format
+msgid "Nothing to spell check."
+msgstr "چیزی برای غلط‌یابی املایی وجود ندارد."
+
+#: src/editor/vocabularyview.cpp:383
+#, kde-format
+msgctxt "@title of a popup"
+msgid "No Spell Checker Available"
+msgstr "هیچ غلط‌یاب املایی دردسترس نیست"
+
+#: src/editor/vocabularyview.cpp:384
+#, kde-format
+msgctxt "@popupmessage"
+msgid ""
+"Either the language set up is incorrect or no spellchecker was installed for"
+" this locale: %1."
+msgstr ""
+"یا پیکربندی زبان نادرست است یا هیچ غلط‌یاب املایی برای این زبان محلی نصب "
+"نشده است: %1."
+
+#: src/editor/wordtypeview.cpp:31
+#, kde-format
+msgid "New"
+msgstr "جدید"
+
+#: src/editor/wordtypeview.cpp:33
+#, kde-format
+msgid "Add a new word type to your document"
+msgstr "افزودن نوع کلمه جدید به سند"
+
+#: src/editor/wordtypeview.cpp:39
+#, kde-format
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: src/editor/wordtypeview.cpp:41
+#, kde-format
+msgid "Rename the selected word type"
+msgstr "تغییر نام نوع کلمه انتخاب‌شده"
+
+#: src/editor/wordtypeview.cpp:47
+#, kde-format
+msgid "Delete Word Type"
+msgstr "حذف نوع کلمه"
+
+#: src/editor/wordtypeview.cpp:49
+#, kde-format
+msgid "Delete the selected word type."
+msgstr "حذف نوع کلمه انتخاب‌شده."
+
+#: src/editor/wordtypeview.cpp:56
+#, kde-format
+msgctxt ""
+"Let the user select what grammatical meaning is connected to a word type "
+"(nouns have gender, verbs conjugations etc)"
+msgid "Grammar"
+msgstr "دستور زبان"
+
+#: src/editor/wordtypeview.cpp:58
+#, kde-format
+msgid "To let Parley know the grammatical meaning of a word type."
+msgstr "برای اطلاع پارلی از نقش دستوری یک نوع کلمه."
+
+#: src/editor/wordtypeview.cpp:66
+#, kde-format
+msgid "This word type folder contains nouns."
+msgstr "این پوشهٔ نوع کلمه حاوی اسم‌ها است."
+
+#: src/editor/wordtypeview.cpp:72
+#, kde-format
+msgid "Masculine Noun"
+msgstr "اسم مذکر"
+
+#: src/editor/wordtypeview.cpp:74
+#, kde-format
+msgid "This word type folder contains masculine nouns."
+msgstr "این پوشهٔ نوع کلمه حاوی اسم‌های مذکر است."
+
+#: src/editor/wordtypeview.cpp:80
+#, kde-format
+msgid "Feminine Noun"
+msgstr "اسم مؤنث"
+
+#: src/editor/wordtypeview.cpp:82
+#, kde-format
+msgid "This word type folder contains feminine nouns."
+msgstr "این پوشه نوع کلمه حاوی اسامی مؤنث است."
+
+#: src/editor/wordtypeview.cpp:88
+#, kde-format
+msgid "Neuter Noun"
+msgstr "اسم خنثی"
+
+#: src/editor/wordtypeview.cpp:90
+#, kde-format
+msgid "This word type folder contains neuter nouns."
+msgstr "این پوشه نوع کلمه حاوی اسامی خنثی است."
+
+#: src/editor/wordtypeview.cpp:98
+#, kde-format
+msgid "This word type folder contains adjectives."
+msgstr "این پوشه نوع کلمه حاوی صفت‌ها است."
+
+#: src/editor/wordtypeview.cpp:106
+#, kde-format
+msgid "This word type folder contains adverbs."
+msgstr "این پوشه نوع کلمه حاوی قیدها است."
+
+#: src/editor/wordtypeview.cpp:114
+#, kde-format
+msgid "This word type folder contains verbs."
+msgstr "این پوشه نوع کلمه حاوی فعل‌ها است."
+
+#: src/editor/wordtypeview.cpp:120 src/parleydocument.cpp:496
+#, kde-format
+msgid "Conjunction"
+msgstr "حرف ربط"
+
+#: src/editor/wordtypeview.cpp:122
+#, kde-format
+msgid "This word type folder contains conjunctions."
+msgstr "این پوشه نوع کلمه حاوی حروف ربط است."
+
+#: src/editor/wordtypeview.cpp:128
+#, kde-format
+msgid "No Special Type"
+msgstr "بدون نوع خاص"
+
+#: src/editor/wordtypeview.cpp:131
+#, kde-format
+msgid "This word type folder contains no word type with special meaning."
+msgstr "این پوشهٔ نوع کلمه حاوی هیچ نوع کلمه‌ای با معنای خاص نیست."
+
+#: src/editor/wordtypeview.cpp:209
+#, kde-format
+msgid "The root word type cannot be deleted."
+msgstr "نوع کلمهٔ ریشه را نمی‌توان حذف کرد."
+
+#: src/editor/wordtypeview.cpp:219
+#, kde-format
+msgid ""
+"There is a word left with this word type. It will lose its type. Continue?"
+msgid_plural ""
+"There are %1 words left with this word type. They will lose their word type."
+" Continue?"
+msgstr[0] ""
+"یک کلمه با این نوع کلمه باقی مانده است که نوع خود را از دست خواهد داد. ادامه"
+" می‌دهید؟"
+msgstr[1] ""
+"%1 کلمه با این نوع کلمه باقی مانده است که نوع کلمهٔ خود را از دست خواهند "
+"داد. ادامه می‌دهید؟"
+
+#: src/exportdialog.cpp:55
+#, kde-format
+msgctxt "@title:window"
+msgid "Export"
+msgstr "برون‌بری"
+
+#: src/exportdialog.cpp:81
+#, kde-format
+msgid "HTML document"
+msgstr "سند HTML"
+
+#: src/exportdialog.cpp:104
+#, kde-format
+msgid "Could not write to file \"%1\""
+msgstr "نوشتن در پروندهٔ «%1» امکان‌پذیر نبود"
+
+#: src/exportdialog.cpp:121
+#, kde-format
+msgid "Export As"
+msgstr "برون‌بری با نام"
+
+#: src/exportdialog.cpp:122 src/parleymainwindow.cpp:137
+#, kde-format
+msgid "Untitled"
+msgstr "بدون عنوان"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExportOptions)
+#: src/exportdialog.ui:14
+#, kde-format
+msgid "Export"
+msgstr "برون‌بری"
+
+#. i18n: ectx: property (text), widget (QRadioButton, flashCardRadio)
+#: src/exportdialog.ui:20
+#, kde-format
+msgid "Flash Cards - to print learning cards (HTML)"
+msgstr "فلش‌کارت‌ها - برای چاپ کارت‌های یادگیری (HTML)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, tableRadio)
+#: src/exportdialog.ui:30
+#, kde-format
+msgid ""
+"A vocabulary list that works in a web-browser and can be printed (HTML)"
+msgstr "فهرست واژگانی که در مرورگر وب کار می‌کند و قابل چاپ است (HTML)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, csvRadio)
+#: src/exportdialog.ui:40
+#, kde-format
+msgid "Comma separated values (CSV)"
+msgstr "مقادیر جداشده با کاما (CSV)"
+
+#: src/main.cpp:26
+#, kde-format
+msgid "Vocabulary Trainer"
+msgstr "تمرین‌دهنده واژگان"
+
+#: src/main.cpp:28
+#, kde-format
+msgid ""
+"© 1999-2002\tEwald Arnold\n"
+"© 2001-2002\tThe KDE team\n"
+"© 2004-2007\tPeter Hedlund\n"
+"© 2007-2010\tFrederik Gladhorn\n"
+msgstr ""
+"© 1999-2002\tEwald Arnold\n"
+"© 2001-2002\tThe KDE team\n"
+"© 2004-2007\tPeter Hedlund\n"
+"© 2007-2010\tFrederik Gladhorn\n"
+
+#: src/main.cpp:33
+#, kde-format
+msgid "Helps you train your vocabulary"
+msgstr "به شما در تمرین واژگانتان کمک می‌کند"
+
+#: src/main.cpp:37
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: src/main.cpp:37 src/main.cpp:39
+#, kde-format
+msgid "Developer and Co-maintainer"
+msgstr "توسعه‌دهنده و هم‌نگه‌دارنده"
+
+#: src/main.cpp:39
+#, kde-format
+msgid "Amarvir Singh"
+msgstr "Amarvir Singh"
+
+#: src/main.cpp:41
+#, kde-format
+msgid "Frederik Gladhorn"
+msgstr "Frederik Gladhorn"
+
+#: src/main.cpp:41
+#, kde-format
+msgid "Developer, former maintainer"
+msgstr "توسعه‌دهنده، نگه‌دارنده سابق"
+
+#: src/main.cpp:43
+#, kde-format
+msgid "Daniel Laidig"
+msgstr "Daniel Laidig"
+
+#: src/main.cpp:43
+#, kde-format
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: src/main.cpp:45
+#, kde-format
+msgid "David Capel"
+msgstr "David Capel"
+
+#: src/main.cpp:45
+#, kde-format
+msgid "Practice Dialogs"
+msgstr "گفتگوهای تمرین"
+
+#: src/main.cpp:47
+#, kde-format
+msgid "Avgoustinos Kadis"
+msgstr "Avgoustinos Kadis"
+
+#: src/main.cpp:47
+#, kde-format
+msgid "Scripting"
+msgstr "اسکریپت‌نویسی"
+
+#: src/main.cpp:49
+#, kde-format
+msgid "Peter Hedlund"
+msgstr "Peter Hedlund"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "Countless fixes, former maintainer, port to KDE4"
+msgstr "اصلاحات بی‌شمار، نگهدارنده پیشین، پورت به KDE4"
+
+#: src/main.cpp:53
+#, kde-format
+msgid "Ewald Arnold"
+msgstr "Ewald Arnold"
+
+#: src/main.cpp:54
+#, kde-format
+msgid "Original Author"
+msgstr "نویسنده اصلی"
+
+#: src/main.cpp:58
+#, kde-format
+msgid "Lee Olson"
+msgstr "Lee Olson"
+
+#: src/main.cpp:58
+#, kde-format
+msgid "Artwork and Oxygen Icons"
+msgstr "آثار هنری و نقشک‌های اکسیژن"
+
+#: src/main.cpp:60
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr "آن-ماری محفوف"
+
+#: src/main.cpp:60
+#, kde-format
+msgid "Port to KConfig XT"
+msgstr "پورت به KConfig XT"
+
+#: src/main.cpp:62
+#, kde-format
+msgid "Jeremy Whiting"
+msgstr "جرمی وایتینگ"
+
+#: src/main.cpp:62
+#, kde-format
+msgid "Rewriting the kvtml library for KDE4"
+msgstr "بازنویسی کتابخانهٔ kvtml برای KDE4"
+
+#: src/main.cpp:64
+#, kde-format
+msgid "Markus Büchele"
+msgstr "مارکوس بوشله"
+
+#: src/main.cpp:64
+#, kde-format
+msgid "Bug reports and testing on the way to KDE4"
+msgstr "گزارش‌های اشکال و آزمایش در مسیر KDE4"
+
+#: src/main.cpp:66
+#, kde-format
+msgid "Ramona Knapp"
+msgstr "رامونا کناپ"
+
+#: src/main.cpp:66
+#, kde-format
+msgid "Conceived the name Parley"
+msgstr "ابداع نام پارلی"
+
+#: src/main.cpp:74
+#, kde-format
+msgid "[file]"
+msgstr "[پرونده]"
+
+#: src/main.cpp:74
+#, kde-format
+msgid "Document file to open"
+msgstr "پروندهٔ سند برای باز کردن"
+
+#: src/parleyactions.cpp:71
+#, kde-format
+msgid "Creates a new vocabulary collection"
+msgstr "ایجاد یک مجموعه واژگان جدید"
+
+#: src/parleyactions.cpp:76
+#, kde-format
+msgid "Opens an existing vocabulary collection"
+msgstr "باز کردن یک مجموعه واژگان موجود"
+
+#: src/parleyactions.cpp:84
+#, kde-format
+msgid "Open &Downloaded Vocabularies..."
+msgstr "باز کردن واژگان بارگیری‌شده..."
+
+#: src/parleyactions.cpp:85
+#, kde-format
+msgid "Open downloaded vocabulary collections"
+msgstr "باز کردن مجموعه‌های واژگان بارگیری‌شده"
+
+#: src/parleyactions.cpp:90
+#, kde-format
+msgid "Save the active vocabulary collection"
+msgstr "ذخیرهٔ مجموعه واژگان فعال"
+
+#: src/parleyactions.cpp:97
+#, kde-format
+msgid "Save the active vocabulary collection with a different name"
+msgstr "ذخیرهٔ مجموعه واژگان فعال با نامی دیگر"
+
+#: src/parleyactions.cpp:104
+#, kde-format
+msgid "&Export..."
+msgstr "برون‌ریزی..."
+
+#: src/parleyactions.cpp:105
+#, kde-format
+msgid "Export to HTML or CSV"
+msgstr "برون‌ریزی به HTML یا CSV"
+
+#: src/parleyactions.cpp:113
+#, kde-format
+msgid "&Properties..."
+msgstr "ویژگی‌ها..."
+
+#: src/parleyactions.cpp:114
+#, kde-format
+msgid "Edit document properties"
+msgstr "ویرایش ویژگی‌های سند"
+
+#: src/parleyactions.cpp:122
+#, kde-format
+msgid "Dashboard"
+msgstr "پیشخوان"
+
+#: src/parleyactions.cpp:123
+#, kde-format
+msgid "Close the current vocabulary collection and show the dashboard"
+msgstr "بستن مجموعه واژگان فعلی و نمایش پیشخوان"
+
+#: src/parleyactions.cpp:129
+#, kde-format
+msgid "Quit Parley"
+msgstr "خروج از Parley"
+
+#: src/parleyactions.cpp:134
+#, kde-format
+msgid "Show the configuration dialog"
+msgstr "نمایش پنجرهٔ پیکربندی"
+
+#: src/parleyactions.cpp:141
+#, kde-format
+msgid "&Languages..."
+msgstr "زبان‌ها..."
+
+#: src/parleyactions.cpp:142
+#, kde-format
+msgid ""
+"Edit which languages are in the collection and their grammar properties."
+msgstr "ویرایش زبان‌های موجود در مجموعه و ویژگی‌های دستوری آن‌ها."
+
+#: src/parleyactions.cpp:151
+#, kde-format
+msgid "Remove all confidence levels from the current document"
+msgstr "حذف تمام سطوح اطمینان از سند فعلی"
+
+#: src/parleyactions.cpp:162
+#, kde-format
+msgid "Show Entries from Child Units"
+msgstr "نمایش مدخل‌های واحدهای فرزند"
+
+#: src/parleyactions.cpp:163
+#, kde-format
+msgid "Enable to also see the entries of child units in each unit."
+msgstr "برای دیدن مدخل‌های واحدهای فرزند در هر واحد، این گزینه را فعال کنید."
+
+#: src/parleyactions.cpp:173
+#, kde-format
+msgid "Automatic Translation"
+msgstr "ترجمهٔ خودکار"
+
+#. i18n: ectx: label, entry (AutomaticTranslation), group (General)
+#: src/parleyactions.cpp:174 src/settings/parley.kcfg:50
+#, kde-format
+msgid "Enable automatic translation of the unit entries."
+msgstr "فعال‌سازی ترجمهٔ خودکار مدخل‌های درس."
+
+#: src/parleyactions.cpp:184
+#, kde-format
+msgid "Start Practice..."
+msgstr "شروع تمرین..."
+
+#: src/parleyactions.cpp:185
+#, kde-format
+msgid "Start practicing"
+msgstr "شروع تمرین کردن"
+
+#: src/parleyactions.cpp:193
+#, kde-format
+msgid "Configure Practice..."
+msgstr "پیکربندی تمرین..."
+
+#: src/parleyactions.cpp:194
+#, kde-format
+msgid "Change practice settings"
+msgstr "تغییر تنظیمات تمرین"
+
+#: src/parleyactions.cpp:202
+#, kde-format
+msgid "Export Results..."
+msgstr "برون‌بری نتایج..."
+
+#: src/parleyactions.cpp:203
+#, kde-format
+msgid "Write a file with the results of the practice"
+msgstr "نوشتن نتایج تمرین در یک پرونده"
+
+#: src/parleyactions.cpp:211
+#, kde-format
+msgid "Editor"
+msgstr "ویرایشگر"
+
+#: src/parleyactions.cpp:212
+#, kde-format
+msgid "Switch to vocabulary editor"
+msgstr "رفتن به ویرایشگر واژگان"
+
+#: src/parleyactions.cpp:220
+#, kde-format
+msgid "Show Se&arch"
+msgstr "نمایش جست‌وجو"
+
+#: src/parleyactions.cpp:221
+#, kde-format
+msgid "Toggle display of the search bar"
+msgstr "تغییر وضعیت نمایش نوار جست‌وجو"
+
+#: src/parleydocument.cpp:123 src/parleydocument.cpp:579
+#, kde-format
+msgctxt "@title:window document properties"
+msgid "Properties for %1"
+msgstr "ویژگی‌های %1"
+
+#: src/parleydocument.cpp:160
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Vocabulary Collection"
+msgstr "باز کردن مجموعهٔ واژگان"
+
+#: src/parleydocument.cpp:161
+#, kde-format
+msgid "Open in practice &mode"
+msgstr "باز کردن در حالت تمرین"
+
+#: src/parleydocument.cpp:203
+#, kde-format
+msgid ""
+"The vocabulary collection is locked by another process.  You can open the file if you take over the lock, but you will lose any changes from the other process.\n"
+"\n"
+"Do you want to take over the lock?\n"
+msgstr ""
+"مجموعهٔ واژگان توسط فرایند دیگری قفل شده است. اگر قفل را در دست بگیرید می‌توانید پرونده را باز کنید، اما هر تغییری از فرایند دیگر را از دست خواهید داد.\n"
+"\n"
+"آیا می‌خواهید قفل را در دست بگیرید؟\n"
+
+#: src/parleydocument.cpp:205
+#, kde-format
+msgid "Take Over Lock"
+msgstr "در دست گرفتن قفل"
+
+#: src/parleydocument.cpp:236
+#, kde-format
+msgid "Opening collection \"%1\" resulted in an error: %2"
+msgstr "باز کردن مجموعهٔ «%1» منجر به خطا شد: %2"
+
+#: src/parleydocument.cpp:237
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Collection"
+msgstr "باز کردن مجموعه"
+
+#: src/parleydocument.cpp:265
+#, kde-format
+msgid ""
+"Vocabulary is modified.\n"
+"\n"
+"Save file before exit?\n"
+msgstr ""
+"مجموعهٔ واژگان تغییر کرده است.\n"
+"\n"
+"پیش از خروج، پرونده ذخیره شود؟\n"
+
+#: src/parleydocument.cpp:298
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Downloaded Vocabulary Collection"
+msgstr "باز کردن مجموعه واژگان بارگیری‌شده"
+
+#: src/parleydocument.cpp:337 src/parleydocument.cpp:425
+#, kde-format
+msgid ""
+"File \"%1\" is locked by another process.  You can save to the file if you take over the lock, but you will lose any changes from the other process.\n"
+"\n"
+"Do you want to take over the lock?\n"
+msgstr ""
+"پروندهٔ «%1» توسط فرایند دیگری قفل شده است. اگر قفل را در دست بگیرید می‌توانید پرونده را ذخیره کنید، اما تغییرات فرایند دیگر را از دست خواهید داد.\n"
+"\n"
+"آیا می‌خواهید قفل را در دست بگیرید؟\n"
+
+#: src/parleydocument.cpp:368 src/parleydocument.cpp:461
+#, kde-format
+msgid "Writing file \"%1\" resulted in an error: %2"
+msgstr "نوشتن در پروندهٔ «%1» با خطا مواجه شد: %2"
+
+#: src/parleydocument.cpp:369 src/parleydocument.cpp:462
+#, kde-format
+msgctxt "@title:window"
+msgid "Save File"
+msgstr "ذخیرهٔ پرونده"
+
+#: src/parleydocument.cpp:384
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Vocabulary As"
+msgstr "ذخیرهٔ واژگان به نام"
+
+#: src/parleydocument.cpp:396
+#, kde-format
+msgid ""
+"<qt>The file<p><b>%1</b></p>already exists. Do you want to overwrite "
+"it?</qt>"
+msgstr ""
+"<qt>پروندهٔ<p><b>%1</b></p>از قبل وجود دارد. آیا می‌خواهید بازنویسی "
+"شود؟</qt>"
+
+#: src/parleydocument.cpp:404
+#, kde-format
+msgctxt "@info:status saving a file"
+msgid "Saving %1"
+msgstr "در حال ذخیرهٔ %1"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
+#: src/parleydocument.cpp:508 src/settings/documentproperties.ui:234
+#, kde-format
+msgid "Public Domain"
+msgstr "مالکیت عمومی"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#. i18n: ectx: property (title), widget (QGroupBox, languageGroupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxLanguages)
+#: src/parleydocument.cpp:509 src/settings/documentproperties.ui:180
+#: src/settings/documentproperties.ui:250
+#: src/statistics/statisticsmainwindow.ui:23
+#, kde-format
+msgid "Languages"
+msgstr "زبان‌ها"
+
+#: src/parleydocument.cpp:517
+#, kde-format
+msgid "A Second Language"
+msgstr "یک زبان دوم"
+
+#: src/parleydocument.cpp:520
+#, kde-format
+msgid "Lesson 1"
+msgstr "درس ۱"
+
+#: src/parleydocument.cpp:562
+#, kde-format
+msgid "Could not open vocabulary collection \"%1\""
+msgstr "مجموعه واژگان «%1» باز نشد"
+
+#: src/parleymainwindow.cpp:134
+#, kde-format
+msgctxt ""
+"Title and a modified status indicator.  [*] is exact and will be shown only "
+"when document is modified"
+msgid "%1 [*]"
+msgstr "%1 [*]"
+
+#: src/parleymainwindow.cpp:174
+#, kde-format
+msgid ""
+"You cannot start to practice when the known language is the same as the "
+"language to learn."
+msgstr ""
+"وقتی زبان مبدأ و زبان مقصد یکسان باشند، نمی‌توانید تمرین را شروع کنید."
+
+#: src/parleymainwindow.cpp:174
+#, kde-format
+msgid "Select languages"
+msgstr "انتخاب زبان‌ها"
+
+#: src/parleymainwindow.cpp:212
+#, kde-format
+msgid "Download New Vocabularies..."
+msgstr "بارگیری واژگان جدید..."
+
+#: src/parleymainwindow.cpp:218
+#, kde-format
+msgid "Downloads new vocabulary collections"
+msgstr "مجموعه‌های واژگان جدید را بارگیری می‌کند"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/parleyui.rc:21
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#. i18n: ectx: ToolBar (practiceToolBar)
+#: src/parleyui.rc:29 src/practice/practiceui.rc:18
+#, kde-format
+msgid "Practice Toolbar"
+msgstr "نوار ابزار تمرین"
+
+#. i18n: ectx: ToolBar (statisticsToolBar)
+#: src/parleyui.rc:33 src/statistics/statisticsui.rc:19
+#, kde-format
+msgid "Statistics Toolbar"
+msgstr "نوار ابزار آمار"
+
+#. i18n: ectx: ToolBar (practiceSummaryToolBar)
+#: src/parleyui.rc:40 src/practice/practicesummaryui.rc:20
+#, kde-format
+msgid "Practice Summary Toolbar"
+msgstr "نوارابزار خلاصهٔ تمرین"
+
+#: src/practice/audiobutton.cpp:59 src/practice/audiobutton.cpp:60
+#, kde-format
+msgid "Stop"
+msgstr "توقف"
+
+#: src/practice/comparisonbackendmode.cpp:59
+#, kde-format
+msgid "All comparison forms were right."
+msgstr "تمام حالت‌های مقایسه‌ای درست بودند."
+
+#: src/practice/comparisonbackendmode.cpp:65
+#, kde-format
+msgctxt ""
+"the user entered the wrong absolute form when practicing comparison forms of"
+" adjectives (the base form of the adjective is wrong)"
+msgid "\"%1\" is the wrong word."
+msgstr "«%1» کلمهٔ نادرستی است."
+
+#: src/practice/comparisonbackendmode.cpp:70
+#, kde-format
+msgctxt ""
+"the user entered the wrong comparison forms when practicing comparison forms"
+" of adjectives (good, better, best)"
+msgid "Both comparison forms (comparative and superlative) are wrong."
+msgstr "هر دو حالت مقایسه‌ای (برتر و برترین) نادرست هستند."
+
+#: src/practice/comparisonbackendmode.cpp:74
+#, kde-format
+msgctxt ""
+"the user entered the wrong comparison forms when practicing comparison forms"
+" of adjectives (second form wrong - better)"
+msgid "The comparative is wrong."
+msgstr "صفت برتر نادرست است."
+
+#: src/practice/comparisonbackendmode.cpp:78
+#, kde-format
+msgctxt ""
+"the user entered the wrong comparison forms when practicing comparison forms"
+" of adjectives (third form wrong - best)"
+msgid "The superlative is wrong."
+msgstr "صفت برترین نادرست است."
+
+#: src/practice/comparisonmodewidget.cpp:65
+#, kde-format
+msgid "Enter the comparison forms."
+msgstr "حالت‌های مقایسه‌ای را وارد کنید."
+
+#: src/practice/configure/blockoptions.cpp:22
+msgid "Do not Care"
+msgstr "مهم نیست"
+
+#: src/practice/configure/blockoptions.cpp:24
+msgid "30 Min"
+msgstr "۳۰ دقیقه"
+
+#: src/practice/configure/blockoptions.cpp:25
+msgid "1 Hour"
+msgstr "۱ ساعت"
+
+#: src/practice/configure/blockoptions.cpp:26
+msgid "2 Hours"
+msgstr "۲ ساعت"
+
+#: src/practice/configure/blockoptions.cpp:27
+msgid "4 Hours"
+msgstr "۴ ساعت"
+
+#: src/practice/configure/blockoptions.cpp:28
+msgid "8 Hours"
+msgstr "۸ ساعت"
+
+#: src/practice/configure/blockoptions.cpp:29
+msgid "12 Hours"
+msgstr "۱۲ ساعت"
+
+#: src/practice/configure/blockoptions.cpp:30
+msgid "18 Hours"
+msgstr "۱۸ ساعت"
+
+#: src/practice/configure/blockoptions.cpp:32
+msgid "1 Day"
+msgstr "۱ روز"
+
+#: src/practice/configure/blockoptions.cpp:33
+msgid "2 Days"
+msgstr "۲ روز"
+
+#: src/practice/configure/blockoptions.cpp:34
+msgid "3 Days"
+msgstr "۳ روز"
+
+#: src/practice/configure/blockoptions.cpp:35
+msgid "4 Days"
+msgstr "۴ روز"
+
+#: src/practice/configure/blockoptions.cpp:36
+msgid "5 Days"
+msgstr "۵ روز"
+
+#: src/practice/configure/blockoptions.cpp:37
+msgid "6 Days"
+msgstr "۶ روز"
+
+#: src/practice/configure/blockoptions.cpp:39
+msgid "1 Week"
+msgstr "۱ هفته"
+
+#: src/practice/configure/blockoptions.cpp:40
+msgid "2 Weeks"
+msgstr "۲ هفته"
+
+#: src/practice/configure/blockoptions.cpp:41
+msgid "3 Weeks"
+msgstr "۳ هفته"
+
+#: src/practice/configure/blockoptions.cpp:42
+msgid "4 Weeks"
+msgstr "۴ هفته"
+
+#: src/practice/configure/blockoptions.cpp:44
+msgid "1 Month"
+msgstr "۱ ماه"
+
+#: src/practice/configure/blockoptions.cpp:45
+msgid "2 Months"
+msgstr "۲ ماه"
+
+#: src/practice/configure/blockoptions.cpp:46
+msgid "3 Months"
+msgstr "۳ ماه"
+
+#: src/practice/configure/blockoptions.cpp:47
+msgid "4 Months"
+msgstr "۴ ماه"
+
+#: src/practice/configure/blockoptions.cpp:48
+msgid "5 Months"
+msgstr "۵ ماه"
+
+#: src/practice/configure/blockoptions.cpp:49
+msgid "6 Months"
+msgstr "۶ ماه"
+
+#: src/practice/configure/blockoptions.cpp:50
+msgid "10 Months"
+msgstr "۱۰ ماه"
+
+#: src/practice/configure/blockoptions.cpp:51
+msgid "12 Months"
+msgstr "۱۲ ماه"
+
+#: src/practice/configure/blockoptions.cpp:220
+#, kde-format
+msgid "Illogical blocking times.\n"
+msgstr "زمان‌های مسدودسازی نامعقول هستند.\n"
+
+#: src/practice/configure/blockoptions.cpp:222
+#: src/practice/configure/blockoptions.cpp:235
+#, kde-format
+msgid "The time for level %1 should be lower than the time for level %2.\n"
+msgstr "زمان سطح %1 باید کمتر از زمان سطح %2 باشد.\n"
+
+#: src/practice/configure/blockoptions.cpp:233
+#, kde-format
+msgid ""
+"\n"
+"Illogical expiration times.\n"
+msgstr ""
+"\n"
+"زمان‌های انقضای نامعقول.\n"
+
+#: src/practice/configure/blockoptions.cpp:247
+#, kde-format
+msgid ""
+"\n"
+"Illogical blocking vs. expiration times.\n"
+msgstr ""
+"\n"
+"زمان‌های نامعقول مسدودسازی در برابر انقضا.\n"
+
+#: src/practice/configure/blockoptions.cpp:249
+#, kde-format
+msgid ""
+"The blocking time at level %1 should be lower than the expiration time.\n"
+msgstr "زمان مسدودسازی در سطح %1 باید کمتر از زمان انقضا باشد.\n"
+
+#: src/practice/configure/blockoptions.cpp:255
+#, kde-format
+msgid "Illogical Values"
+msgstr "مقادیر نامعقول"
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev2)
+#: src/practice/configure/blockoptions.ui:40
+#, kde-format
+msgid "Level &2:"
+msgstr "سطح ۲:"
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev5)
+#: src/practice/configure/blockoptions.ui:53
+#, kde-format
+msgid "Level &5:"
+msgstr "سطح ۵:"
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev6)
+#: src/practice/configure/blockoptions.ui:63
+#, kde-format
+msgid "Level &6:"
+msgstr "سطح ۶:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Expire)
+#: src/practice/configure/blockoptions.ui:79
+#, kde-format
+msgid "E&xpiring"
+msgstr "در حال انقضا"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Block)
+#: src/practice/configure/blockoptions.ui:95
+#, kde-format
+msgid "Bl&ocking"
+msgstr "مسدودسازی"
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev4)
+#: src/practice/configure/blockoptions.ui:118
+#, kde-format
+msgid "Level &4:"
+msgstr "سطح ۴:"
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev7)
+#: src/practice/configure/blockoptions.ui:128
+#, kde-format
+msgid "Level &7:"
+msgstr "سطح ۷:"
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev1)
+#: src/practice/configure/blockoptions.ui:150
+#, kde-format
+msgid "Level &1:"
+msgstr "سطح ۱:"
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev3)
+#: src/practice/configure/blockoptions.ui:192
+#, kde-format
+msgid "Level &3:"
+msgstr "سطح ۳:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/practice/configure/blockoptions.ui:218
+#, kde-format
+msgid "Do not practice vocabulary that has been asked within:"
+msgstr "تمرین نکردن واژگانی که پرسیده شده‌اند در بازهٔ:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/practice/configure/blockoptions.ui:228
+#, kde-format
+msgid "Vocabulary drops one grade after this much time:"
+msgstr "افت نمره واژگان با یک درجه پس از این مدت:"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_ComparisonIncludeAdjective)
+#: src/practice/configure/comparisonoptionswidget.ui:16
+#, kde-format
+msgid "Include Adjectives"
+msgstr "شامل صفت‌ها"
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_ComparisonIncludeAdverb)
+#: src/practice/configure/comparisonoptionswidget.ui:23
+#, kde-format
+msgid "Include Adverbs"
+msgstr "شامل قیدها"
+
+#: src/practice/configure/configurepracticedialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Practice"
+msgstr "پیکربندی تمرین"
+
+#: src/practice/configure/configurepracticedialog.cpp:28
+#, kde-format
+msgctxt ""
+"@title:group Configure general settings for practicing vocabulary, short "
+"title in config dialog."
+msgid "General"
+msgstr "عمومی"
+
+#: src/practice/configure/configurepracticedialog.cpp:30
+#, kde-format
+msgctxt "Configure general settings for practicing vocabulary."
+msgid "General Practice Settings"
+msgstr "تنظیمات عمومی تمرین"
+
+#: src/practice/configure/configurepracticedialog.cpp:35
+#, kde-format
+msgctxt ""
+"@title:group vocabulary can be set to be blocked for a certain amount of "
+"time"
+msgid "Blocking"
+msgstr "مسدودسازی"
+
+#: src/practice/configure/configurepracticedialog.cpp:37
+#, kde-format
+msgid "Blocking Settings"
+msgstr "تنظیمات مسدودسازی"
+
+#: src/practice/configure/configurepracticedialog.cpp:42
+#, kde-format
+msgctxt ""
+"@title:group ignore vocabulary based on some properties like word type"
+msgid "Thresholds"
+msgstr "آستانه‌ها"
+
+#: src/practice/configure/configurepracticedialog.cpp:44
+#, kde-format
+msgid "Threshold Settings"
+msgstr "تنظیمات آستانه"
+
+#: src/practice/configure/configurepracticedialog.cpp:49
+#, kde-format
+msgctxt ""
+"@title:group Configure specific settings for practicing vocabulary, short "
+"title in config dialog."
+msgid "Specific"
+msgstr "ویژه"
+
+#: src/practice/configure/configurepracticedialog.cpp:51
+#, kde-format
+msgctxt "Configure specific settings for practicing vocabulary."
+msgid "Specific Practice Settings"
+msgstr "تنظیمات تمرین ویژه"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/practice/configure/generalpracticeoptions.ui:17
+#, kde-format
+msgid "Correction"
+msgstr "تصحیح"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_IgnoreAccentMistakes)
+#: src/practice/configure/generalpracticeoptions.ui:23
+#, kde-format
+msgid "Answers with wrong accents are still counted as correct."
+msgstr "پاسخ‌ها با اکسان‌های نادرست همچنان درست به شمار می‌روند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreAccentMistakes)
+#: src/practice/configure/generalpracticeoptions.ui:26
+#, kde-format
+msgid "Ignore accents"
+msgstr "نادیده گرفتن اکسان‌ها"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_IgnoreCapitalizationMistakes)
+#: src/practice/configure/generalpracticeoptions.ui:36
+#, kde-format
+msgid "Any captitalization in the answer is counted as correct."
+msgstr "هرگونه به‌کارگیری حروف بزرگ یا کوچک در پاسخ درست به شمار می‌رود."
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_IgnoreCapitalizationMistakes)
+#: src/practice/configure/generalpracticeoptions.ui:39
+#, kde-format
+msgid "Ignore capitalization"
+msgstr "نادیده گرفتن بزرگی و کوچکی حروف"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_IgnorePunctuationMistakes)
+#: src/practice/configure/generalpracticeoptions.ui:49
+#, kde-format
+msgid "Any punctuation mistake in the answer is counted as correct."
+msgstr "هرگونه اشتباه در نشانه‌گذاری در پاسخ درست به شمار می‌رود."
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_IgnorePunctuationMistakes)
+#: src/practice/configure/generalpracticeoptions.ui:52
+#, kde-format
+msgid "Ignore punctuation"
+msgstr "نادیده گرفتن نشانه‌گذاری"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowHints)
+#: src/practice/configure/generalpracticeoptions.ui:62
+#, kde-format
+msgid ""
+"During the practice you can use the hint button to see parts of the "
+"solution."
+msgstr ""
+"در طول تمرین می‌توانید از دکمهٔ راهنما برای دیدن بخش‌هایی از راه‌حل استفاده "
+"کنید."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHints)
+#: src/practice/configure/generalpracticeoptions.ui:65
+#, kde-format
+msgid "Enable hints"
+msgstr "فعال‌سازی راهنماها"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/practice/configure/generalpracticeoptions.ui:91
+#, kde-format
+msgid "Images and Sound"
+msgstr "تصاویر و صدا"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_FlashcardsFrontImage)
+#: src/practice/configure/generalpracticeoptions.ui:97
+#, kde-format
+msgid "During the practice, images are shown for the question."
+msgstr "در طول تمرین، تصاویر برای سؤال نمایش داده می‌شوند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsFrontImage)
+#: src/practice/configure/generalpracticeoptions.ui:100
+#, kde-format
+msgid "Image for question"
+msgstr "تصویر برای سؤال"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_FlashcardsBackImage)
+#: src/practice/configure/generalpracticeoptions.ui:110
+#, kde-format
+msgid "During the practice, images are shown for the solution."
+msgstr "در طول تمرین، تصاویر برای پاسخ نمایش داده می‌شوند."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsBackImage)
+#: src/practice/configure/generalpracticeoptions.ui:113
+#, kde-format
+msgid "Image for solution"
+msgstr "تصویر برای پاسخ"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_AllowImageInsteadOfWord)
+#: src/practice/configure/generalpracticeoptions.ui:123
+#, kde-format
+msgid "Allow using images instead of words in flashcards."
+msgstr "اجازه استفاده از تصاویر به جای کلمات در فلش‌کارت‌ها."
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_AllowImageInsteadOfWord)
+#: src/practice/configure/generalpracticeoptions.ui:126
+#, kde-format
+msgid "Allow images instead of words"
+msgstr "مجاز بودن تصاویر به جای کلمات"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_PracticeSoundEnabled)
+#: src/practice/configure/generalpracticeoptions.ui:136
+#, kde-format
+msgid "Enable playing of pronunciation sound files during the practice."
+msgstr "فعال‌سازی پخش فایل‌های صوتی تلفظ در طول تمرین."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/practice/configure/generalpracticeoptions.ui:158
+#, kde-format
+msgid ""
+"By default you are asked to enter synonyms until you enter the one that is "
+"associated directly with the current word. With this option enabled any "
+"synonym is accepted."
+msgstr ""
+"به‌طور پیش‌فرض از شما خواسته می‌شود مترادف‌ها را وارد کنید تا زمانی که موردی"
+" را وارد کنید که مستقیماً با کلمهٔ فعلی مرتبط است. با فعال بودن این گزینه، "
+"هر مترادفی پذیرفته می‌شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_CountSynonymsAsCorrect)
+#: src/practice/configure/generalpracticeoptions.ui:168
+#, kde-format
+msgid "Accept any synonym"
+msgstr "پذیرفتن هرگونه مترادف"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/practice/configure/generalpracticeoptions.ui:191
+#, kde-format
+msgid "Sessions"
+msgstr "جلسات"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/practice/configure/generalpracticeoptions.ui:202
+#, kde-format
+msgid "Max session size:"
+msgstr "حداکثر اندازهٔ جلسه:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/practice/configure/generalpracticeoptions.ui:251
+#, kde-format
+msgid "Max number of new words:"
+msgstr "حداکثر تعداد واژه‌های جدید:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox,
+#. kcfg_MultipleChoiceWordTypeConsistancy)
+#: src/practice/configure/specificpracticeoptions.ui:23
+#, kde-format
+msgid ""
+"When creating multiple choice practices, try to show answers of the same "
+"word type."
+msgstr ""
+"هنگام ایجاد تمرین‌های چندگزینه‌ای، سعی شود پاسخ‌هایی از یک نوع کلمه نمایش "
+"داده شوند."
+
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_MultipleChoiceWordTypeConsistancy)
+#: src/practice/configure/specificpracticeoptions.ui:26
+#, kde-format
+msgid "Use choices of the same word type"
+msgstr "استفاده از گزینه‌هایی با نوع کلمهٔ یکسان"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/practice/configure/specificpracticeoptions.ui:41
+#, kde-format
+msgid "Number of choices:"
+msgstr "تعداد گزینه‌ها:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: src/practice/configure/thresholdoptions.ui:17
+#, kde-format
+msgid "Only practice vocabulary that fulfills the following conditions:"
+msgstr "فقط واژگانی تمرین شوند که شرایط زیر را دارند:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/practice/configure/thresholdoptions.ui:26
+#, kde-format
+msgid "At least"
+msgstr "حداقل"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/practice/configure/thresholdoptions.ui:33
+#, kde-format
+msgid "At most"
+msgstr "حداکثر"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/practice/configure/thresholdoptions.ui:43
+#, kde-format
+msgid "Grade:"
+msgstr "نمره:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/practice/configure/thresholdoptions.ui:53
+#, kde-format
+msgid "Times practiced:"
+msgstr "دفعات تمرین:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/practice/configure/thresholdoptions.ui:80
+#, kde-format
+msgid "Answered incorrectly:"
+msgstr "پاسخ‌های نادرست:"
+
+#: src/practice/conjugationbackendmode.cpp:93
+#, kde-format
+msgid "All conjugation forms were right."
+msgstr "تمام حالت‌های صرف درست بودند."
+
+#: src/practice/conjugationbackendmode.cpp:97
+#, kde-format
+msgctxt "You did not get the conjugation forms right."
+msgid "You answered %1 conjugation form correctly."
+msgid_plural "You answered %1 conjugation forms correctly."
+msgstr[0] "شما %1 حالت صرف را درست پاسخ دادید."
+msgstr[1] "شما %1 حالت صرف را درست پاسخ دادید."
+
+#: src/practice/conjugationmodewidget.cpp:111
+#, kde-format
+msgid "Enter all conjugation forms."
+msgstr "تمام حالت‌های صرف را وارد کنید."
+
+#: src/practice/genderbackendmode.cpp:62
+#, kde-format
+msgid "Choose the right article for \"%1\""
+msgstr "حرف تعریف مناسب را برای «%1» انتخاب کنید"
+
+#: src/practice/genderbackendmode.cpp:82
+#, kde-format
+msgctxt "@label the gender of the word: masculine"
+msgid "%1 is masculine"
+msgstr "‏%1 مذکر است"
+
+#: src/practice/genderbackendmode.cpp:87
+#, kde-format
+msgctxt "@label the gender of the word: feminine"
+msgid "%1 is feminine"
+msgstr "‏%1 مؤنث است"
+
+#: src/practice/genderbackendmode.cpp:92
+#, kde-format
+msgctxt "@label the gender of the word: neuter"
+msgid "%1 is neuter"
+msgstr "‏%1 خنثی است"
+
+#: src/practice/guifrontend.cpp:122
+#, kde-format
+msgctxt "Display of the current unit during practice"
+msgid "Unit: %1"
+msgstr "درس: %1"
+
+#: src/practice/guifrontend.cpp:128
+#, kde-format
+msgid "New word"
+msgstr "واژهٔ جدید"
+
+#: src/practice/guifrontend.cpp:131
+#, kde-format
+msgctxt ""
+"Display of the current confidence level during practice, 1st param is either"
+" initial or long term"
+msgid "%1, confidence %2"
+msgstr "%1، اطمینان %2"
+
+#: src/practice/guifrontend.cpp:132
+#, kde-format
+msgid "initial"
+msgstr "اولیه"
+
+#: src/practice/guifrontend.cpp:132
+#, kde-format
+msgid "long term"
+msgstr "بلندمدت"
+
+#: src/practice/guifrontend.cpp:198
+#, kde-format
+msgid ""
+"You answered correctly %2 of a total of %1 word.\n"
+"You are %3% done."
+msgid_plural ""
+"You answered correctly %2 of a total of %1 words.\n"
+"You are %3% done."
+msgstr[0] ""
+"شما به %2 واژه از مجموع %1 واژه پاسخ درست دادید.\n"
+"%3٪ انجام شده است."
+msgstr[1] ""
+"شما به %2 واژه از مجموع %1 واژه پاسخ درست دادید.\n"
+"%3٪ انجام شده است."
+
+#: src/practice/latexrenderer.cpp:47
+#, kde-format
+msgid "Rendering..."
+msgstr "در حال رندر…"
+
+#: src/practice/latexrenderer.cpp:137
+#, kde-format
+msgid "LaTeX error."
+msgstr "خطای لاتک."
+
+#: src/practice/multiplechoicebackendmode.cpp:103
+#: src/practice/writtenbackendmode.cpp:145
+#, kde-format
+msgid "You revealed the answer by using too many hints."
+msgstr "پاسخ را با استفاده از راهنمایی‌های بیش از حد آشکار کردید."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, answerLaterButton)
+#: src/practice/practice_mainwindow.ui:128
+#, kde-format
+msgid "Skip this word for now and ask again later"
+msgstr "فعلاً از این واژه بگذر و بعداً دوباره بپرس"
+
+#. i18n: ectx: property (text), widget (QPushButton, answerLaterButton)
+#: src/practice/practice_mainwindow.ui:131
+#, kde-format
+msgid "Answer Later"
+msgstr "پاسخ بعداً"
+
+#. i18n: ectx: property (text), widget (QPushButton, hintButton)
+#: src/practice/practice_mainwindow.ui:141
+#, kde-format
+msgid "Hint"
+msgstr "راهنمایی"
+
+#. i18n: ectx: property (text), widget (QPushButton, continueButton)
+#: src/practice/practice_mainwindow.ui:202
+#, kde-format
+msgid "Continue"
+msgstr "ادامه"
+
+#. i18n: ectx: property (text), widget (QPushButton, countAsWrongButton)
+#: src/practice/practice_mainwindow.ui:219
+#, kde-format
+msgid "I Did not Know it"
+msgstr "نمی‌دانستم"
+
+#. i18n: ectx: property (text), widget (QPushButton, countAsCorrectButton)
+#: src/practice/practice_mainwindow.ui:226
+#, kde-format
+msgid "I Knew it"
+msgstr "می‌دانستم"
+
+#. i18n: ectx: property (format), widget (QProgressBar, totalProgress)
+#: src/practice/practice_mainwindow.ui:300
+#, no-c-format, kde-format
+msgid "%v/%m"
+msgstr "%v/%m"
+
+#. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
+#: src/practice/practice_widget_comparison.ui:35
+#, kde-format
+msgid "absolute"
+msgstr "مطلق"
+
+#. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
+#: src/practice/practice_widget_comparison.ui:80
+#, kde-format
+msgid "comparative"
+msgstr "تفاضلی"
+
+#. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
+#: src/practice/practice_widget_comparison.ui:125
+#, kde-format
+msgid "superlative"
+msgstr "عالی"
+
+#: src/practice/practicemainwindow.cpp:70
+#, kde-format
+msgid "Stop Practice"
+msgstr "توقف تمرین"
+
+#: src/practice/practicemainwindow.cpp:72
+#, kde-format
+msgid "Stop practicing"
+msgstr "توقف تمرین"
+
+#: src/practice/practicemainwindow.cpp:79
+#, kde-format
+msgid "Change answer to right/wrong"
+msgstr "تغییر پاسخ به درست/نادرست"
+
+#: src/practice/practicemainwindow.cpp:81
+#, kde-format
+msgid ""
+"When you answered, Parley will display that the answer was right or wrong.\n"
+"This shortcut changes how the answer is counted."
+msgstr ""
+"وقتی پاسخ دادید، پارلی درست یا نادرست بودن پاسخ را نمایش می‌دهد.\n"
+"این میان‌بُر نحوه محاسبه پاسخ را تغییر می‌دهد."
+
+#: src/practice/practicesummarycomponent.cpp:57
+#, kde-format
+msgctxt "number of words, minutes, seconds"
+msgid "You practiced %1 in %2 and %3."
+msgstr "شما %1 را در %2 و %3 تمرین کردید."
+
+#: src/practice/practicesummarycomponent.cpp:58
+#, kde-format
+msgid "one word"
+msgid_plural "%1 words"
+msgstr[0] "یک کلمه"
+msgstr[1] "%1 کلمه"
+
+#: src/practice/practicesummarycomponent.cpp:59
+#, kde-format
+msgid "one minute"
+msgid_plural "%1 minutes"
+msgstr[0] "یک دقیقه"
+msgstr[1] "%1 دقیقه"
+
+#: src/practice/practicesummarycomponent.cpp:60
+#, kde-format
+msgid "one second"
+msgid_plural "%1 seconds"
+msgstr[0] "یک ثانیه"
+msgstr[1] "%1 ثانیه"
+
+#: src/practice/practicesummarycomponent.cpp:68
+#, kde-format
+msgid "Practice Overview"
+msgstr "نمای کلی تمرین"
+
+#: src/practice/practicesummarycomponent.cpp:69
+#, kde-format
+msgid "Switch to the Practice Overview page"
+msgstr "رفتن به صفحه نمای کلی تمرین"
+
+#: src/practice/practicesummarycomponent.cpp:136
+#, kde-format
+msgid "HTML Files"
+msgstr "پرونده‌های HTML"
+
+#: src/practice/practicesummarycomponent.cpp:136
+#, kde-format
+msgid "OpenDocument text files"
+msgstr "پرونده‌های متنی OpenDocument"
+
+#: src/practice/practicesummarycomponent.cpp:146
+#, kde-format
+msgid "Practice results"
+msgstr "نتایج تمرین"
+
+#: src/practice/practicesummarycomponent.cpp:151
+#, kde-format
+msgid "Answered questions: %1\n"
+msgstr "پرسش‌های پاسخ‌داده‌شده: %1\n"
+
+#: src/practice/practicesummarycomponent.cpp:152
+#, kde-format
+msgid "Correct answers: %1\n"
+msgstr "پاسخ‌های درست: %1\n"
+
+#: src/practice/practicesummarycomponent.cpp:153
+#, kde-format
+msgid "Wrong answers: %1\n"
+msgstr "پاسخ‌های نادرست: %1\n"
+
+#: src/practice/practicesummarycomponent.cpp:160
+#, kde-format
+msgid "<b>Attempts</b>"
+msgstr "<b>تلاش‌ها</b>"
+
+#: src/practice/practicesummarycomponent.cpp:161
+#, kde-format
+msgid "<b>Question</b>"
+msgstr "<b>پرسش</b>"
+
+#: src/practice/practicesummarycomponent.cpp:162
+#, kde-format
+msgid "<b>Correct answer</b>"
+msgstr "<b>پاسخ درست</b>"
+
+#: src/practice/practicesummarycomponent.cpp:163
+#, kde-format
+msgid "<b>Your errors</b>"
+msgstr "<b>خطاهای شما</b>"
+
+#: src/practice/practicesummarycomponent.cpp:178
+#, kde-format
+msgid "Could not write to %1"
+msgstr "نوشتن در %1 امکان‌پذیر نبود"
+
+#: src/practice/practicesummarycomponent.cpp:178
+#, kde-format
+msgid "Could not write file"
+msgstr "نوشتن در پرونده امکان‌پذیر نبود"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: src/practice/practicesummarywidget.ui:28
+#, kde-format
+msgid "Attempts"
+msgstr "تلاش‌ها"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: src/practice/practicesummarywidget.ui:33
+#, kde-format
+msgid "Question"
+msgstr "پرسش"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: src/practice/practicesummarywidget.ui:38
+#, kde-format
+msgid "Solution"
+msgstr "راه‌حل"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: src/practice/practicesummarywidget.ui:43
+#, kde-format
+msgid "Your Answer"
+msgstr "پاسخ شما"
+
+#: src/practice/sessionmanagerbase.cpp:53
+#, kde-format
+msgid "The vocabulary collection contains fewer than two languages."
+msgstr "مجموعه واژگان شامل کمتر از دو زبان است."
+
+#: src/practice/sessionmanagerbase.cpp:53
+#, kde-format
+msgid "Could not start practice"
+msgstr "شروع تمرین امکان‌پذیر نبود"
+
+#: src/practice/statustoggle.cpp:77
+#, kde-format
+msgid ""
+"This answer will be counted as correct.\n"
+"Words will only be counted as correct if they are answered correctly on the first attempt."
+msgstr ""
+"این پاسخ درست در نظر گرفته خواهد شد.\n"
+"کلمات تنها در صورتی درست به حساب می‌آیند که در نخستین تلاش به درستی پاسخ داده شوند."
+
+#: src/practice/statustoggle.cpp:78
+#, kde-format
+msgid "Count this answer as wrong"
+msgstr "در نظر گرفتن این پاسخ به عنوان نادرست"
+
+#: src/practice/statustoggle.cpp:81
+#, kde-format
+msgid ""
+"This answer will be counted as wrong.\n"
+"Words will only be counted as correct if they are answered correctly on the first attempt."
+msgstr ""
+"این پاسخ نادرست در نظر گرفته خواهد شد.\n"
+"کلمات تنها در صورتی درست به حساب می‌آیند که در نخستین تلاش به درستی پاسخ داده شوند."
+
+#: src/practice/statustoggle.cpp:82
+#, kde-format
+msgid "Count this answer as correct"
+msgstr "درست در نظر گرفتن این پاسخ"
+
+#: src/practice/summarybarwidget.cpp:78
+#, kde-format
+msgctxt "test results"
+msgid "%1 % correct"
+msgstr "٪%1 درست"
+
+#: src/practice/summarybarwidget.cpp:80
+#, kde-format
+msgctxt "test results"
+msgid "%1 % wrong"
+msgstr "٪%1 نادرست"
+
+#: src/practice/summarybarwidget.cpp:82
+#, kde-format
+msgctxt "test results"
+msgid "%1 % not answered"
+msgstr "٪%1 بی‌پاسخ"
+
+#: src/practice/summarybarwidget.cpp:140
+#, kde-format
+msgid "Answered correctly on the first attempt: %1 of %2 (%3 %)"
+msgstr "پاسخ درست در اولین تلاش: %1 از %2 (٪%3)"
+
+#: src/practice/summarybarwidget.cpp:147
+#, kde-format
+msgid "Answered wrong on the first attempt: %1 of %2 (%3 %)"
+msgstr "پاسخ نادرست در اولین تلاش: %1 از %2 (٪%3)"
+
+#: src/practice/summarybarwidget.cpp:154
+#, kde-format
+msgid "Not answered during this practice: %1 of %2 (%3 %)"
+msgstr "بدون پاسخ در طول این تمرین: %1 از %2 (٪%3)"
+
+#: src/practice/writtenbackendmode.cpp:70
+#, kde-format
+msgid "Your answer was wrong."
+msgstr "پاسخ شما نادرست بود."
+
+#: src/practice/writtenbackendmode.cpp:84
+#, kde-format
+msgid ""
+"Your answer was a synonym. Please enter another word with the same "
+"translation."
+msgstr "پاسخ شما یک مترادف بود. لطفاً کلمه دیگری با همان ترجمه وارد کنید."
+
+#: src/practice/writtenbackendmode.cpp:88
+#, kde-format
+msgid "Your answer was an already entered synonym."
+msgstr "پاسخ شما یک مترادف از قبل واردشده بود."
+
+#: src/practice/writtenbackendmode.cpp:91
+#, kde-format
+msgid "Your answer was a synonym and your punctuation was wrong."
+msgstr "پاسخ شما یک کلمهٔ مترادف بود و نشانه‌گذاری شما اشتباه بود."
+
+#: src/practice/writtenbackendmode.cpp:93
+#, kde-format
+msgid "Your answer was a synonym and your capitalization was wrong."
+msgstr "پاسخ شما یک کلمهٔ مترادف بود و رعایت حروف بزرگ و کوچک شما اشتباه بود."
+
+#: src/practice/writtenbackendmode.cpp:95
+#, kde-format
+msgid "Your answer was a synonym and accents were wrong."
+msgstr "پاسخ شما یک کلمهٔ مترادف بود و اعراب‌گذاری‌ها اشتباه بودند."
+
+#: src/practice/writtenbackendmode.cpp:97
+#, kde-format
+msgid "Your answer was a synonym."
+msgstr "پاسخ شما یک کلمهٔ مترادف بود."
+
+#: src/practice/writtenbackendmode.cpp:105
+#, kde-format
+msgid ""
+"Your answer was wrong as punctuation mistakes are not accepted. Please try "
+"again."
+msgstr ""
+"پاسخ شما اشتباه بود زیرا خطاهای نشانه‌گذاری پذیرفته نیستند. لطفاً دوباره "
+"تلاش کنید."
+
+#: src/practice/writtenbackendmode.cpp:107
+#, kde-format
+msgid ""
+"Your answer was wrong as capitalization mistakes are not accepted. Please "
+"try again."
+msgstr ""
+"پاسخ شما اشتباه بود زیرا خطاهای مربوط به حروف بزرگ و کوچک پذیرفته نیستند. "
+"لطفاً دوباره تلاش کنید."
+
+#: src/practice/writtenbackendmode.cpp:109
+#, kde-format
+msgid ""
+"Your answer was wrong as accent mistakes are not accepted. Please try again."
+msgstr ""
+"پاسخ شما اشتباه بود زیرا خطاهای مربوط به اعراب‌گذاری پذیرفته نیستند. لطفاً "
+"دوباره تلاش کنید."
+
+#: src/practice/writtenbackendmode.cpp:111
+#, kde-format
+msgid "Your answer was wrong. Please try again."
+msgstr "پاسخ شما نادرست بود. لطفاً دوباره تلاش کنید."
+
+#: src/practice/writtenbackendmode.cpp:118
+#, kde-format
+msgid "Your answer was right, but your punctuation was wrong."
+msgstr "پاسخ شما درست بود، اما نشانه‌گذاری شما اشتباه بود."
+
+#: src/practice/writtenbackendmode.cpp:120
+#, kde-format
+msgid "Your answer was right, but your capitalization was wrong."
+msgstr "پاسخ شما درست بود، اما رعایت حروف بزرگ و کوچک شما اشتباه بود."
+
+#: src/practice/writtenbackendmode.cpp:122
+#, kde-format
+msgid "Your answer was right, but accents were wrong."
+msgstr "پاسخ شما درست بود، اما اعراب‌گذاری/تکیه‌ها نادرست بودند."
+
+#: src/practice/writtenbackendmode.cpp:124
+#, kde-format
+msgid "Your answer was right."
+msgstr "پاسخ شما درست بود."
+
+#: src/practice/writtenbackendmode.cpp:128
+#, kde-format
+msgid ""
+"Your answer was right... but not on the first try and your punctuation was "
+"wrong."
+msgstr ""
+"پاسخ شما درست بود... اما نه در تلاش اول و نشانه‌گذاری شما نیز نادرست بود."
+
+#: src/practice/writtenbackendmode.cpp:130
+#, kde-format
+msgid ""
+"Your answer was right... but not on the first try and your capitalization "
+"was wrong."
+msgstr ""
+"پاسخ شما درست بود... اما نه در تلاش اول و استفاده از حروف بزرگ و کوچک نیز "
+"نادرست بود."
+
+#: src/practice/writtenbackendmode.cpp:132
+#, kde-format
+msgid ""
+"Your answer was right... but not on the first try and accents were wrong."
+msgstr ""
+"پاسخ شما درست بود... اما نه در تلاش اول و اعراب‌گذاری/تکیه‌ها نیز نادرست "
+"بودند."
+
+#: src/practice/writtenbackendmode.cpp:134
+#, kde-format
+msgid "Your answer was right... but not on the first try."
+msgstr "پاسخ شما درست بود... اما نه در تلاش اول."
+
+#: src/practice/writtenbackendmode.cpp:154
+#, kde-format
+msgid "The solution starts with: %1"
+msgstr "راه‌حل با این شروع می‌شود: %1"
+
+#: src/practice/writtenpracticewidget.cpp:130
+#, kde-format
+msgid "Synonym: "
+msgstr "مترادف: "
+
+#. i18n: ectx: property (title), widget (QGroupBox, tiltle_group)
+#: src/settings/documentproperties.ui:38
+#, kde-format
+msgid "General Document Properties"
+msgstr "ویژگی‌های عمومی سند"
+
+#. i18n: ectx: property (text), widget (QLabel, label_title)
+#: src/settings/documentproperties.ui:50
+#, kde-format
+msgid "&Title:"
+msgstr "عنوان:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, titleLineEdit)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, authorLineEdit)
+#: src/settings/documentproperties.ui:69 src/settings/documentproperties.ui:95
+#, kde-format
+msgid "A title for your document."
+msgstr "عنوان سند شما."
+
+#. i18n: ectx: property (text), widget (QLabel, label_author)
+#: src/settings/documentproperties.ui:76
+#, kde-format
+msgid "&Author:"
+msgstr "نویسنده:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_author_2)
+#: src/settings/documentproperties.ui:102
+#, kde-format
+msgid "E&mail:"
+msgstr "رایانامه:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, contactLineEdit)
+#: src/settings/documentproperties.ui:121
+#, kde-format
+msgid "A way to contact you (email or a webpage)."
+msgstr "راهی برای تماس با شما (رایانامه یا صفحه وب)."
+
+#. i18n: ectx: property (text), widget (QLabel, label_remark)
+#: src/settings/documentproperties.ui:128
+#, kde-format
+msgid "&Comment:"
+msgstr "توضیح:"
+
+#. i18n: ectx: property (toolTip), widget (KTextEdit, commentTextEdit)
+#: src/settings/documentproperties.ui:147
+#, kde-format
+msgid "Any additional information."
+msgstr "هرگونه اطلاعات اضافی."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/settings/documentproperties.ui:160
+#, kde-format
+msgid "Cate&gory:"
+msgstr "دسته‌بندی:"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:173
+#, kde-format
+msgid "A general category into which your document belongs."
+msgstr "دسته‌بندی کلی که سند شما در آن قرار می‌گیرد."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:185
+#, kde-format
+msgid "Music"
+msgstr "موسیقی"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:190
+#, kde-format
+msgid "Geography"
+msgstr "جغرافیا"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:195
+#, kde-format
+msgid "Anatomy"
+msgstr "کالبدشناسی"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:200
+#, kde-format
+msgid "History"
+msgstr "تاریخچه"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:205
+#, kde-format
+msgid "Test Preparation"
+msgstr "آمادگی برای آزمون"
+
+#. i18n: ectx: property (text), widget (QLabel, label_license)
+#: src/settings/documentproperties.ui:213
+#, kde-format
+msgid "&License:"
+msgstr "مجوز:"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, licenseComboBox)
+#: src/settings/documentproperties.ui:227
+#, kde-format
+msgid ""
+"The license under which your document will be.\n"
+"If you consider contributing your file to KDE in the future, an appropriate license is required."
+msgstr ""
+"مجوزی که سند شما تحت آن قرار خواهد گرفت.\n"
+"اگر در آینده قصد مشارکت دادن پروندهٔ خود را در KDE دارید، داشتن یک مجوز مناسب الزامی است."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
+#: src/settings/documentproperties.ui:239
+#, kde-format
+msgid "GPLv2+ (GNU General Public License version 2 or later)"
+msgstr "GPLv2+ (مجوز عمومی کلی گنو نسخهٔ ۲ یا بالاتر)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_language_1)
+#: src/settings/documentproperties.ui:256
+#, kde-format
+msgid "&First language:"
+msgstr "زبان اول:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_language_2)
+#: src/settings/documentproperties.ui:282
+#, kde-format
+msgid "&Second language:"
+msgstr "زبان دوم:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, grammarCheckBox)
+#: src/settings/documentproperties.ui:311
+#, kde-format
+msgid "&Setup grammar details"
+msgstr "برپایی جزئیات دستور زبان"
+
+#. i18n: ectx: property (text), widget (QCheckBox, downloadGrammarCheckBox)
+#: src/settings/documentproperties.ui:321
+#, kde-format
+msgctxt "Attept to download grammar properties for the selected languages"
+msgid "Download grammar"
+msgstr "بارگیری دستور زبان"
+
+#. i18n: ectx: label, entry (ConjugationTenses), group (Document $(fileurl))
+#. i18n: ectx: whatsthis, entry (ConjugationTenses), group (Document
+#. $(fileurl))
+#. i18n: ectx: label, entry (ConjugationTenses), group (Locale $(locale))
+#. i18n: ectx: whatsthis, entry (ConjugationTenses), group (Locale $(locale))
+#: src/settings/documentsettings.kcfg:11 src/settings/documentsettings.kcfg:12
+#: src/settings/languagesettings.kcfg:23 src/settings/languagesettings.kcfg:24
+#, kde-format
+msgid "Selected tenses for conjugation practice."
+msgstr "زمان‌های انتخاب‌شده برای تمرین صرف فعل."
+
+#. i18n: ectx: label, entry (VisibleColumns), group (Document $(fileurl))
+#. i18n: ectx: whatsthis, entry (VisibleColumns), group (Document $(fileurl))
+#. i18n: ectx: label, entry (VisibleColumns), group (Locale $(locale))
+#. i18n: ectx: whatsthis, entry (VisibleColumns), group (Locale $(locale))
+#: src/settings/documentsettings.kcfg:16 src/settings/documentsettings.kcfg:17
+#: src/settings/languagesettings.kcfg:28 src/settings/languagesettings.kcfg:29
+#, kde-format
+msgid "Visible columns in the main editor window."
+msgstr "ستون‌های مرئی در پنجرهٔ ویرایشگر اصلی."
+
+#. i18n: ectx: label, entry (CollapsedStatisticsViewItems), group (Document
+#. $(fileurl))
+#. i18n: ectx: whatsthis, entry (CollapsedStatisticsViewItems), group
+#. (Document $(fileurl))
+#: src/settings/documentsettings.kcfg:20 src/settings/documentsettings.kcfg:21
+#, kde-format
+msgid "Collapsed tree view items of statistics view window."
+msgstr "موارد جمع‌شدهٔ نمای درختی در پنجرهٔ نمای آمار."
+
+#: src/settings/generaloptions.cpp:43
+#, kde-format
+msgctxt "CSV separator"
+msgid ";"
+msgstr "؛"
+
+#: src/settings/generaloptions.cpp:44
+#, kde-format
+msgctxt "CSV separator"
+msgid "#"
+msgstr "#"
+
+#: src/settings/generaloptions.cpp:45
+#, kde-format
+msgctxt "CSV separator"
+msgid "!"
+msgstr "!"
+
+#: src/settings/generaloptions.cpp:46
+#, kde-format
+msgctxt "CSV separator"
+msgid "|"
+msgstr "|"
+
+#: src/settings/generaloptions.cpp:47
+#, kde-format
+msgctxt "CSV separator"
+msgid ","
+msgstr "،"
+
+#: src/settings/generaloptions.cpp:48
+#, kde-format
+msgctxt "CSV separator: tabulator"
+msgid "TAB"
+msgstr "TAB"
+
+#: src/settings/generaloptions.cpp:49
+#, kde-format
+msgctxt "CSV separator"
+msgid ">= 2 SPACES"
+msgstr ">= ۲ فاصله"
+
+#: src/settings/generaloptions.cpp:50
+#, kde-format
+msgctxt "CSV separator"
+msgid " : "
+msgstr " : "
+
+#: src/settings/generaloptions.cpp:51
+#, kde-format
+msgctxt "CSV separator"
+msgid " :: "
+msgstr " :: "
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/settings/generaloptionsbase.ui:17
+#, kde-format
+msgid "Open/Save"
+msgstr "باز کردن/ذخیره"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoOpenLast)
+#: src/settings/generaloptionsbase.ui:23
+#, kde-format
+msgid "Always open the collection that was active when quitting Parley"
+msgstr "همیشه مجموعه‌ای که هنگام خروج از Parley فعال بود باز شود"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoOpenLast)
+#: src/settings/generaloptionsbase.ui:26
+#, kde-format
+msgid ""
+"When this option is checked, the last active collection will be loaded "
+"automatically when starting Parley instead of showing the welcome screen."
+msgstr ""
+"با علامت زدن این گزینه، به‌جای نمایش صفحهٔ خوش‌آمدگویی، آخرین مجموعهٔ فعال "
+"به‌طور خودکار هنگام راه‌اندازی Parley بارگذاری می‌شود."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoOpenLast)
+#: src/settings/generaloptionsbase.ui:29
+#, kde-format
+msgid "Always load the last opened collection on start"
+msgstr "همیشه آخرین مجموعهٔ بازشده هنگام شروع بارگذاری شود"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoSave)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoBackup)
+#: src/settings/generaloptionsbase.ui:39 src/settings/generaloptionsbase.ui:60
+#, kde-format
+msgid "Allow automatic saving of your work"
+msgstr "اجازه دادن به ذخیرهٔ خودکار کار شما"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoSave)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoBackup)
+#: src/settings/generaloptionsbase.ui:42 src/settings/generaloptionsbase.ui:63
+#, kde-format
+msgid "Your work will be automatically saved if you check this option"
+msgstr "در صورت علامت زدن این گزینه، کارهای شما به‌طور خودکار ذخیره می‌شوند"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoSave)
+#: src/settings/generaloptionsbase.ui:45
+#, kde-format
+msgid "&Save vocabularies automatically on close and quit"
+msgstr "ذخیرهٔ خودکار واژگان هنگام بستن و خروج"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoBackup)
+#: src/settings/generaloptionsbase.ui:66
+#, kde-format
+msgid "&Create a backup every"
+msgstr "ایجاد نسخهٔ پشتیبان هر"
+
+#. i18n: ectx: property (text), widget (QLabel, lblBackupInterva)
+#: src/settings/generaloptionsbase.ui:89
+#, kde-format
+msgid "minutes"
+msgstr "دقیقه"
+
+#. i18n: ectx: property (text), widget (QLabel, label_sep)
+#: src/settings/generaloptionsbase.ui:100
+#, kde-format
+msgid "Sep&arator for text file import/export (CSV):"
+msgstr "جداکننده برای وارد/صادر کردن پروندهٔ متنی (CSV):"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_SeparatorCombo)
+#: src/settings/generaloptionsbase.ui:116
+#, kde-format
+msgid ""
+"Choose which separator you want to use to separate your data when importing "
+"and exporting text."
+msgstr ""
+"جداکننده‌ای را که می‌خواهید هنگام وارد و صادر کردن متن برای جداسازی "
+"داده‌هایتان استفاده شود، انتخاب کنید."
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_SeparatorCombo)
+#: src/settings/generaloptionsbase.ui:119
+#, kde-format
+msgid ""
+"Choose the separator to use to divide the parts of an expression when "
+"importing or exporting data as text."
+msgstr ""
+"جداکننده‌ای را که می‌خواهید هنگام وارد یا صادر کردن داده‌ها به‌صورت متن برای"
+" تقسیم بخش‌های یک عبارت استفاده شود، انتخاب کنید."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/settings/generaloptionsbase.ui:144
+#, kde-format
+msgid "Editing"
+msgstr "ویرایش"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SmartAppend)
+#: src/settings/generaloptionsbase.ui:162
+#, kde-format
+msgid "&Append new rows automatically when editing"
+msgstr "پیوست کردن خودکار ردیف‌های جدید هنگام ویرایش"
+
+#. i18n: ectx: property (text), widget (KNSWidgets::Button, getNewButton)
+#: src/settings/kgametheme/kgamethemeselector.ui:37
+#, kde-format
+msgid "&Get New Themes..."
+msgstr "دریافت پوسته‌های جدید..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/settings/kgametheme/kgamethemeselector.ui:94
+#, kde-format
+msgid "Theme Details"
+msgstr "جزئیات پوسته"
+
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: src/settings/kgametheme/kgamethemeselector.ui:128
+#, kde-format
+msgid "Contact:"
+msgstr "تماس:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: src/settings/kgametheme/kgamethemeselector.ui:163
+#, kde-format
+msgid "Description:"
+msgstr "توضیحات:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: src/settings/kgametheme/kgamethemeselector.ui:198
+#, kde-format
+msgid "Author:"
+msgstr "نویسنده:"
+
+#: src/settings/languageproperties.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Languages"
+msgstr "ویرایش زبان‌ها"
+
+#: src/settings/languageproperties.cpp:27
+#, kde-format
+msgid "Add language"
+msgstr "افزودن زبان"
+
+#: src/settings/languageproperties.cpp:30
+#, kde-format
+msgid "Remove language"
+msgstr "حذف زبان"
+
+#: src/settings/languageproperties.cpp:45
+#, kde-format
+msgid "New Language"
+msgstr "زبان جدید"
+
+#: src/settings/languageproperties.cpp:58
+#, kde-format
+msgctxt "Edit language properties"
+msgid "Properties for %1"
+msgstr "ویژگی‌های %1"
+
+#: src/settings/languageproperties.cpp:88
+#, kde-format
+msgid "Really delete language: %1?"
+msgstr "آیا واقعاً زبان «%1» حذف شود؟"
+
+#: src/settings/languageproperties.cpp:89
+#, kde-format
+msgid "Remove Language"
+msgstr "حذف زبان"
+
+#: src/settings/languagepropertiespage.cpp:85
+#, kde-format
+msgid "No KDE keyboard selector found."
+msgstr "هیچ انتخاب‌گر صفحه‌کلید KDE یافت نشد."
+
+#: src/settings/languagepropertiespage.cpp:348
+#: src/settings/languagepropertiespage.cpp:370
+#, kde-format
+msgid "Tense Name"
+msgstr "نام زمان فعل"
+
+#: src/settings/languagepropertiespage.cpp:348
+#: src/settings/languagepropertiespage.cpp:370
+#, kde-format
+msgid "Enter name of tense:"
+msgstr "نام زمان را وارد کنید:"
+
+#: src/settings/languagepropertiespage.cpp:400
+#, kde-format
+msgid ""
+"The selected user defined tense could not be deleted\n"
+"because it is in use."
+msgstr ""
+"زمان تعریف‌شده توسط کاربر انتخاب‌شده حذف نشد\n"
+"زیرا در حال استفاده است."
+
+#: src/settings/languagepropertiespage.cpp:401
+#, kde-format
+msgid "Deleting Tense Description"
+msgstr "حذف شرح زمان"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/settings/languagepropertiespage.ui:21
+#, kde-format
+msgid "General"
+msgstr "عمومی"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: src/settings/languagepropertiespage.ui:30
+#, kde-format
+msgid "Name:"
+msgstr "نام:"
+
+#. i18n: ectx: property (text), widget (QLabel, keyboardLayoutLabel)
+#: src/settings/languagepropertiespage.ui:46
+#, kde-format
+msgid "Keyboard layout:"
+msgstr "چیدمان صفحه‌کلید:"
+
+#. i18n: ectx: property (text), widget (QPushButton, downloadGrammarButton)
+#: src/settings/languagepropertiespage.ui:75
+#, kde-format
+msgid "&Download grammar"
+msgstr "بارگیری دستور زبان"
+
+#. i18n: ectx: property (text), widget (QLabel, spellcheckerLabel)
+#: src/settings/languagepropertiespage.ui:88
+#, kde-format
+msgid "Spell checker:"
+msgstr "غلط‌یاب املایی:"
+
+#. i18n: ectx: property (text), widget (QLabel, localeSelectionLabel)
+#: src/settings/languagepropertiespage.ui:101
+#, kde-format
+msgid "Language:"
+msgstr "زبان:"
+
+#. i18n: ectx: property (text), widget (QLabel, fontLabel_2)
+#: src/settings/languagepropertiespage.ui:117
+#, kde-format
+msgid "Font (practice):"
+msgstr "قلم (تمرین):"
+
+#. i18n: ectx: property (text), widget (QLabel, fontLabel_3)
+#: src/settings/languagepropertiespage.ui:127
+#, kde-format
+msgid "Font (editor):"
+msgstr "قلم (ویرایشگر):"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: src/settings/languagepropertiespage.ui:141
+#, kde-format
+msgid "Articles"
+msgstr "حروف تعریف"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
+#: src/settings/languagepropertiespage.ui:153
+#: src/settings/languagepropertiespage.ui:404
+#, kde-format
+msgid "Definite"
+msgstr "معرفه"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
+#: src/settings/languagepropertiespage.ui:160
+#: src/settings/languagepropertiespage.ui:411
+#, kde-format
+msgid "Indefinite"
+msgstr "نکره"
+
+#. i18n: ectx: property (text), widget (QLabel, male_label)
+#. i18n: ectx: property (text), widget (QLabel, male_label_2)
+#: src/settings/languagepropertiespage.ui:167
+#: src/settings/languagepropertiespage.ui:365
+#, kde-format
+msgid "&Male:"
+msgstr "مذکر:"
+
+#. i18n: ectx: property (text), widget (QLabel, female_label)
+#. i18n: ectx: property (text), widget (QLabel, female_label_2)
+#: src/settings/languagepropertiespage.ui:190
+#: src/settings/languagepropertiespage.ui:352
+#, kde-format
+msgid "&Female:"
+msgstr "مؤنث:"
+
+#. i18n: ectx: property (text), widget (QLabel, natural_label)
+#. i18n: ectx: property (text), widget (QLabel, natural_label_2)
+#: src/settings/languagepropertiespage.ui:223
+#: src/settings/languagepropertiespage.ui:339
+#, kde-format
+msgid "&Neutral:"
+msgstr "خنثی:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: src/settings/languagepropertiespage.ui:451
+#, kde-format
+msgid "Personal Pronouns"
+msgstr "ضمایر شخصی"
+
+#. i18n: ectx: property (text), widget (QLabel, pers1_label)
+#: src/settings/languagepropertiespage.ui:507
+#, kde-format
+msgid "&1. Person:"
+msgstr "۱. شخص:"
+
+#. i18n: ectx: property (text), widget (QLabel, pers2_label)
+#: src/settings/languagepropertiespage.ui:543
+#, kde-format
+msgid "&2. Person:"
+msgstr "۲. شخص:"
+
+#. i18n: ectx: property (text), widget (QLabel, pers3_label)
+#: src/settings/languagepropertiespage.ui:579
+#, kde-format
+msgid "3. Person:"
+msgstr "شخص ۳:"
+
+#. i18n: ectx: property (text), widget (QLabel, male_c_label)
+#: src/settings/languagepropertiespage.ui:589
+#, kde-format
+msgid "M&ale:"
+msgstr "مذکر:"
+
+#. i18n: ectx: property (text), widget (QLabel, female_c_label)
+#: src/settings/languagepropertiespage.ui:625
+#, kde-format
+msgid "F&emale:"
+msgstr "مؤنث:"
+
+#. i18n: ectx: property (text), widget (QLabel, natural_c_label)
+#: src/settings/languagepropertiespage.ui:661
+#, kde-format
+msgid "Neu&ter:"
+msgstr "خنثی:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dualCheckBox)
+#: src/settings/languagepropertiespage.ui:697
+#, kde-format
+msgid "Dual conjugations"
+msgstr "صرف‌های مثنی"
+
+#. i18n: ectx: property (text), widget (QCheckBox, neutralCheckBox)
+#: src/settings/languagepropertiespage.ui:704
+#, kde-format
+msgid "A neutral conjugation form exists"
+msgstr "یک حالت صرف خنثی وجود دارد"
+
+#. i18n: ectx: property (text), widget (QCheckBox, maleFemaleDifferCheckBox)
+#: src/settings/languagepropertiespage.ui:717
+#, kde-format
+msgid "Male/female have different conjugations"
+msgstr "مذکر/مؤنث صرف‌های متفاوتی دارند"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: src/settings/languagepropertiespage.ui:725
+#: src/statistics/conjugationoptions.cpp:24
+#, kde-format
+msgid "Tenses"
+msgstr "زمان‌ها"
+
+#. i18n: ectx: property (text), widget (QPushButton, newButton)
+#: src/settings/languagepropertiespage.ui:752
+#: src/settings/optionlistform.ui:63
+#, kde-format
+msgid "&New..."
+msgstr "جدید..."
+
+#. i18n: ectx: property (text), widget (QPushButton, modifyButton)
+#: src/settings/languagepropertiespage.ui:765
+#: src/settings/optionlistform.ui:78
+#, kde-format
+msgid "&Modify..."
+msgstr "تغییر..."
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: src/settings/languagepropertiespage.ui:778
+#: src/settings/optionlistform.ui:93
+#, kde-format
+msgid "&Delete"
+msgstr "حذف"
+
+#. i18n: ectx: label, entry (KeyboardLayout), group (Locale $(locale))
+#. i18n: ectx: whatsthis, entry (KeyboardLayout), group (Locale $(locale))
+#: src/settings/languagesettings.kcfg:12 src/settings/languagesettings.kcfg:13
+#, kde-format
+msgid "Keyboard layout for this locale"
+msgstr "چیدمان صفحه‌کلید برای این زبان و منطقه"
+
+#. i18n: ectx: label, entry (SpellChecker), group (Locale $(locale))
+#. i18n: ectx: whatsthis, entry (SpellChecker), group (Locale $(locale))
+#: src/settings/languagesettings.kcfg:17 src/settings/languagesettings.kcfg:18
+#, kde-format
+msgid "Spell checker for this language"
+msgstr "غلط‌یاب املایی برای این زبان"
+
+#. i18n: ectx: label, entry (PracticeFont), group (Locale $(locale))
+#: src/settings/languagesettings.kcfg:32
+#, kde-format
+msgid "The font used during practice"
+msgstr "قلم مورداستفاده در حین تمرین"
+
+#. i18n: ectx: label, entry (EditorFont), group (Locale $(locale))
+#: src/settings/languagesettings.kcfg:36
+#, kde-format
+msgid "The font used in the editor"
+msgstr "قلم مورداستفاده در ویرایشگر"
+
+#. i18n: ectx: property (text), widget (QPushButton, cleanUpButton)
+#: src/settings/optionlistform.ui:124
+#, kde-format
+msgid "&Clean Up"
+msgstr "پاک‌سازی"
+
+#. i18n: ectx: label, entry (Theme), group (General)
+#: src/settings/parley.kcfg:11
+#, kde-format
+msgid "Theme to use for practice and welcome screen"
+msgstr "پوستهٔ مورداستفاده برای تمرین و صفحهٔ خوش‌آمدگویی"
+
+#. i18n: ectx: label, entry (NumPreSetting), group (General)
+#: src/settings/parley.kcfg:15
+#, kde-format
+msgid "Number of stored setting profiles"
+msgstr "تعداد نمایه‌های تنظیمات ذخیره‌شده"
+
+#. i18n: ectx: label, entry (SmartAppend), group (General)
+#: src/settings/parley.kcfg:19
+#, kde-format
+msgid ""
+"If true, when using the entry dialog, new rows will be appended as needed"
+msgstr ""
+"در صورت فعال بودن، هنگام استفاده از گفتگوی ورودی، ردیف‌های جدید در صورت نیاز"
+" افزوده خواهند شد"
+
+#. i18n: ectx: label, entry (Separator), group (General)
+#: src/settings/parley.kcfg:23
+#, kde-format
+msgid "This sets the separator used when copying/pasting text, default is Tab"
+msgstr ""
+"این گزینه جداکنندهٔ مورداستفاده هنگام رونوشت/چسباندن متن را تنظیم می‌کند؛ "
+"پیش‌فرض Tab است"
+
+#. i18n: ectx: label, entry (EntriesPerLesson), group (General)
+#: src/settings/parley.kcfg:27
+#, kde-format
+msgid "The number of entries per unit"
+msgstr "تعداد ورودی‌ها در هر واحد"
+
+#. i18n: ectx: label, entry (AutoOpenLast), group (General)
+#: src/settings/parley.kcfg:31
+#, kde-format
+msgid "If true, on each application start the last opened file will be loaded"
+msgstr ""
+"در صورت فعال بودن، در هر بار شروع برنامه، آخرین پروندهٔ بازشده بارگذاری "
+"می‌شود"
+
+#. i18n: ectx: label, entry (AutoSave), group (General)
+#: src/settings/parley.kcfg:35
+#, kde-format
+msgid "If true, vocabularies are automatically saved on close and exit"
+msgstr ""
+"در صورت فعال بودن، واژگان به‌طور خودکار هنگام بستن و خروج ذخیره می‌شوند"
+
+#. i18n: ectx: label, entry (AutoBackup), group (General)
+#: src/settings/parley.kcfg:42
+#, kde-format
+msgid "If true, a backup is saved every BackupTime minutes"
+msgstr "در صورت فعال بودن، هر BackupTime دقیقه یک نسخهٔ پشتیبان ذخیره می‌شود"
+
+#. i18n: ectx: label, entry (BackupTime), group (General)
+#: src/settings/parley.kcfg:46
+#, kde-format
+msgid "Time interval between two automatic backups"
+msgstr "فاصلهٔ زمانی بین دو پشتیبان‌گیری خودکار"
+
+#. i18n: ectx: label, entry (FlashcardsFrontImage), group (PracticeOptions)
+#: src/settings/parley.kcfg:57
+#, kde-format
+msgid "Show images on the front of the flashcard."
+msgstr "نمایش تصاویر روی فلش‌کارت."
+
+#. i18n: ectx: label, entry (FlashcardsBackImage), group (PracticeOptions)
+#: src/settings/parley.kcfg:61
+#, kde-format
+msgid "Show images on the back of the flashcard."
+msgstr "نمایش تصاویر پشت فلش‌کارت."
+
+#. i18n: ectx: label, entry (Block), group (PracticeOptions)
+#: src/settings/parley.kcfg:65
+#, kde-format
+msgid "In Blocking Query Tab Dialog, if checked then the Query is blocked"
+msgstr ""
+"در گفت‌وگوی زبانهٔ پرس‌وجوی مسدودکننده، در صورت علامت‌زدن، پرس‌وجو مسدود "
+"می‌شود"
+
+#. i18n: ectx: label, entry (Expire), group (PracticeOptions)
+#: src/settings/parley.kcfg:69
+#, kde-format
+msgid ""
+"In Blocking Query Tab Dialog, if checked then the Query accepts an expiring "
+"time"
+msgstr ""
+"در گفت‌وگوی زبانهٔ پرس‌وجوی مسدودکننده، در صورت علامت‌زدن، پرس‌وجو زمان "
+"انقضا می‌پذیرد"
+
+#. i18n: ectx: label, entry (TestOrderLesson), group (PracticeOptions)
+#: src/settings/parley.kcfg:73
+#, kde-format
+msgid ""
+"Append new vocabulary in a collection in order of their units. Note that "
+"this will not be a hard transition, but a slow mix from one unit to the "
+"next."
+msgstr ""
+"افزودن واژگان جدید به یک مجموعه به ترتیب واحدهای آن‌ها. توجه داشته باشید که "
+"این یک تغییر ناگهانی نخواهد بود، بلکه یک ترکیب تدریجی از یک واحد به واحد "
+"بعدی است."
+
+#. i18n: ectx: label, entry (TestNumberOfEntries), group (PracticeOptions)
+#: src/settings/parley.kcfg:77
+#, kde-format
+msgid ""
+"The number of entries that are practiced at the same time. If one of these "
+"is answered correctly another entry will be appended."
+msgstr ""
+"تعداد مواردی که هم‌زمان تمرین می‌شوند. اگر به یکی از این موارد پاسخ درست "
+"داده شود، مورد دیگری اضافه خواهد شد."
+
+#. i18n: ectx: label, entry (SwapDirection), group (PracticeOptions)
+#: src/settings/parley.kcfg:81
+#, kde-format
+msgid "Swap direction randomly"
+msgstr "تغییر جهت به‌صورت تصادفی"
+
+#. i18n: ectx: label, entry (PracticeTimeout), group (PracticeOptions)
+#: src/settings/parley.kcfg:86
+#, kde-format
+msgid "Limit the time for the user to answer in a test."
+msgstr "محدود کردن زمان پاسخگویی کاربر در آزمون."
+
+#. i18n: ectx: label, entry (PracticeTimeoutMode), group (PracticeOptions)
+#: src/settings/parley.kcfg:90
+#, kde-format
+msgid ""
+"Show - show the solution after the given time; Continue - go to the next "
+"question after the given time."
+msgstr ""
+"نمایش - نمایش راه‌حل پس از زمان مشخص‌شده؛ ادامه - رفتن به سؤال بعدی پس از "
+"زمان مشخص‌شده."
+
+#. i18n: ectx: label, entry (PracticeTimeoutTimePerAnswer), group
+#. (PracticeOptions)
+#: src/settings/parley.kcfg:98
+#, kde-format
+msgid "Maximum time allowed to answer."
+msgstr "حداکثر زمان مجاز برای پاسخ‌گویی."
+
+#. i18n: ectx: label, entry (Suggestions), group (PracticeOptions)
+#: src/settings/parley.kcfg:103
+#, kde-format
+msgid "Enable suggestion lists in written practice."
+msgstr "فعال کردن فهرست پیشنهادها در تمرین نوشتاری."
+
+#. i18n: ectx: label, entry (ShowHints), group (PracticeOptions)
+#: src/settings/parley.kcfg:107
+#, kde-format
+msgid "Enable the showing of hints."
+msgstr "فعال‌سازی نمایش راهنمایی‌ها."
+
+#. i18n: ectx: label, entry (IgnoreAccentMistakes), group (PracticeOptions)
+#: src/settings/parley.kcfg:111
+#, kde-format
+msgid "Count answers as right when only the accentuation is wrong."
+msgstr ""
+"درست در نظر گرفتن پاسخ‌ها در صورتی که فقط تکیه/اعراب‌گذاری اشتباه باشد."
+
+#. i18n: ectx: label, entry (IgnoreCapitalizationMistakes), group
+#. (PracticeOptions)
+#: src/settings/parley.kcfg:115
+#, kde-format
+msgid "Count answers as right when only the capitalization is wrong."
+msgstr ""
+"درست در نظر گرفتن پاسخ‌ها در صورتی که فقط بزرگی و کوچکی حروف اشتباه باشد."
+
+#. i18n: ectx: label, entry (IgnorePunctuationMistakes), group
+#. (PracticeOptions)
+#: src/settings/parley.kcfg:119
+#, kde-format
+msgid "Count answers as right when only the punctuation is wrong."
+msgstr "درست در نظر گرفتن پاسخ‌ها در صورتی که فقط نشانه‌گذاری اشتباه باشد."
+
+#. i18n: ectx: label, entry (SplitTranslations), group (PracticeOptions)
+#: src/settings/parley.kcfg:124
+#, kde-format
+msgid "Split translations in written practice."
+msgstr "تقسیم ترجمه‌ها در تمرین نوشتاری."
+
+#. i18n: ectx: label, entry (Periods), group (PracticeOptions)
+#: src/settings/parley.kcfg:128
+#, kde-format
+msgid "Split translations at periods."
+msgstr "تقسیم ترجمه‌ها در نقطه‌ها."
+
+#. i18n: ectx: label, entry (Colons), group (PracticeOptions)
+#: src/settings/parley.kcfg:132
+#, kde-format
+msgid "Split translations at colons."
+msgstr "تقسیم ترجمه‌ها در دونقطه‌ها."
+
+#. i18n: ectx: label, entry (Semicolons), group (PracticeOptions)
+#: src/settings/parley.kcfg:136
+#, kde-format
+msgid "Split translations at semicolons."
+msgstr "تقسیم ترجمه‌ها در نقطه‌ویرگول‌ها."
+
+#. i18n: ectx: label, entry (Commas), group (PracticeOptions)
+#: src/settings/parley.kcfg:140
+#, kde-format
+msgid "Split translations at commas."
+msgstr "تقسیم ترجمه‌ها در ویرگول‌ها."
+
+#. i18n: ectx: label, entry (ShowMore), group (PracticeOptions)
+#: src/settings/parley.kcfg:146
+#, kde-format
+msgid ""
+"Enable Show More button to reveal parts of the solution in written practice."
+msgstr ""
+"فعال‌سازی دکمهٔ «نمایش بیشتر» برای آشکار کردن بخش‌هایی از پاسخ در تمرین "
+"نوشتاری."
+
+#. i18n: ectx: label, entry (SkipKnownEnabled), group (PracticeOptions)
+#: src/settings/parley.kcfg:150
+#, kde-format
+msgid "Enable Skip (I Know It) button in written practice."
+msgstr "فعال‌سازی دکمهٔ «رد شدن (بلدم)» در تمرین نوشتاری."
+
+#. i18n: ectx: label, entry (CountSynonymsAsCorrect), group (PracticeOptions)
+#: src/settings/parley.kcfg:154
+#, kde-format
+msgid ""
+"When the synonym instead of the word was entered, does it count as correct?"
+msgstr "وقتی به جای کلمه، مترادف آن وارد شد، درست به حساب بیاید؟"
+
+#. i18n: ectx: label, entry (PracticeImagesEnabled), group (PracticeOptions)
+#: src/settings/parley.kcfg:158
+#, kde-format
+msgid "Enable image display in the practice dialogs."
+msgstr "فعال‌سازی نمایش تصویر در پنجره‌های گفتگوی تمرین."
+
+#. i18n: ectx: label, entry (PracticeSoundEnabled), group (PracticeOptions)
+#: src/settings/parley.kcfg:162
+#, kde-format
+msgid "Enable sound playback in the practice dialogs."
+msgstr "فعال‌سازی پخش صدا در پنجره‌های گفتگوی تمرین."
+
+#. i18n: ectx: label, entry (AllowImageInsteadOfWord), group (PracticeOptions)
+#: src/settings/parley.kcfg:166
+#, kde-format
+msgid ""
+"Allow using images instead of words in flashcards. This will only be done if"
+" there is no word in the entry."
+msgstr ""
+"اجازه دادن به استفاده از تصاویر به جای واژه‌ها در فلش‌کارت‌ها. این کار تنها "
+"در صورتی انجام می‌شود که هیچ واژه‌ای در مدخل وجود نداشته باشد."
+
+#. i18n: ectx: label, entry (SessionMaxSize), group (PracticeOptions)
+#: src/settings/parley.kcfg:172
+#, kde-format
+msgid ""
+"The maximum number of words that will be practiced in a training session."
+msgstr "حداکثر تعداد واژه‌هایی که در یک جلسهٔ تمرینی، تمرین داده خواهند شد."
+
+#. i18n: ectx: label, entry (SessionMaxNewWords), group (PracticeOptions)
+#: src/settings/parley.kcfg:176
+#, kde-format
+msgid ""
+"The maximum number of new (untrained) words that will be used in a training "
+"session."
+msgstr ""
+"حداکثر تعداد واژه‌های جدید (تمرین‌نشده) که در یک جلسهٔ تمرینی استفاده خواهند"
+" شد."
+
+#. i18n: ectx: label, entry (SessionLimitWordsInitialPhase), group
+#. (PracticeOptions)
+#: src/settings/parley.kcfg:180
+#, kde-format
+msgid "Limit the number of words in the initial phase."
+msgstr "محدود کردن تعداد واژه‌ها در مرحلهٔ اولیه."
+
+#. i18n: ectx: label, entry (SessionMaxWordsInitialPhase), group
+#. (PracticeOptions)
+#: src/settings/parley.kcfg:184
+#, kde-format
+msgid ""
+"The maximum number of words in the initial phase. If this limit is exceeded,"
+" no new words will be introduced."
+msgstr ""
+"حداکثر تعداد واژه‌ها در مرحلهٔ اولیه. اگر این محدودیت رد شود، هیچ واژهٔ "
+"جدیدی معرفی نخواهد شد."
+
+#. i18n: ectx: label, entry (MultipleChoiceWordTypeConsistancy), group
+#. (PracticeOptions)
+#: src/settings/parley.kcfg:190
+#, kde-format
+msgid ""
+"Use the same word type as the solution for the incorrect answers in a "
+"multiple choice practice."
+msgstr ""
+"استفاده از نوع واژهٔ یکسان با پاسخ برای گزینه‌های نادرست در تمرین "
+"چندگزینه‌ای."
+
+#. i18n: ectx: label, entry (NumberMultipleChoiceAnswers), group
+#. (PracticeOptions)
+#: src/settings/parley.kcfg:194
+#, kde-format
+msgid ""
+"How many answers are provided for a multiple choice question, including the "
+"correct answer."
+msgstr "تعداد گزینه‌های ارائه‌شده برای یک سؤال چندگزینه‌ای، شامل پاسخ درست."
+
+#. i18n: ectx: label, entry (ShowSearch), group (Appearance)
+#: src/settings/parley.kcfg:201
+#, kde-format
+msgid "Toggle display of the search bar."
+msgstr "تغییر وضعیت نمایش نوار جست‌وجو."
+
+#. i18n: ectx: label, entry (ShowSublessonentries), group (Appearance)
+#: src/settings/parley.kcfg:206
+#, kde-format
+msgid "When enabled a unit also shows entries from its subunits."
+msgstr "در صورت فعال بودن، یک واحد مدخل‌های زیرواحدهایش را نیز نشان می‌دهد."
+
+#. i18n: ectx: label, entry (TableLessonColumnVisible), group (Appearance)
+#: src/settings/parley.kcfg:211
+#, kde-format
+msgid "Show/hide the unit column."
+msgstr "نمایش/نهفتن ستون واحد."
+
+#. i18n: ectx: label, entry (TableActiveColumnVisible), group (Appearance)
+#: src/settings/parley.kcfg:216
+#, kde-format
+msgid "Show/hide the active column."
+msgstr "نمایش/نهفتن ستون فعال."
+
+#. i18n: ectx: label, entry (LessonEditingSelection), group (Appearance)
+#: src/settings/parley.kcfg:221
+#, kde-format
+msgid "Select which units are displayed for editing"
+msgstr "واحدهایی را که برای ویرایش نمایش داده می‌شوند انتخاب کنید"
+
+#. i18n: ectx: label, entry (MainWindowSplitter), group (Appearance)
+#: src/settings/parley.kcfg:231
+#, kde-format
+msgid "How the main window is divided."
+msgstr "نحوه تقسیم پنجره اصلی."
+
+#. i18n: ectx: label, entry (PracticeFont), group (Appearance)
+#: src/settings/parley.kcfg:235
+#, kde-format
+msgid "The font used in the vocabulary table"
+msgstr "قلم استفاده‌شده در جدول واژگان"
+
+#. i18n: ectx: label, entry (IPAFont), group (Appearance)
+#: src/settings/parley.kcfg:239
+#, kde-format
+msgid "The font used for phonetics"
+msgstr "قلم استفاده‌شده برای آواشناسی"
+
+#. i18n: ectx: label, entry (CurrentCol), group (Appearance)
+#: src/settings/parley.kcfg:243
+#, kde-format
+msgid "Currently selected column"
+msgstr "ستون انتخاب‌شده کنونی"
+
+#. i18n: ectx: label, entry (CurrentRow), group (Appearance)
+#: src/settings/parley.kcfg:247
+#, kde-format
+msgid "Currently selected row"
+msgstr "سطر انتخاب‌شده کنونی"
+
+#. i18n: ectx: label, entry (GradeColor), group (Appearance)
+#: src/settings/parley.kcfg:251
+#, kde-format
+msgid "Color used to display the confidence levels"
+msgstr "رنگ استفاده‌شده برای نمایش سطوح اطمینان"
+
+#. i18n: ectx: label, entry (PreGradeColor), group (Appearance)
+#: src/settings/parley.kcfg:255
+#, kde-format
+msgid "Color used to display the early confidence levels"
+msgstr "رنگ استفاده‌شده برای نمایش سطوح اطمینان اولیه"
+
+#. i18n: ectx: label, entry (InvalidUnitColor), group (Appearance)
+#. i18n: ectx: property (toolTip), widget (KColorButton,
+#. kcfg_InvalidUnitColor)
+#: src/settings/parley.kcfg:259 src/settings/viewoptionsbase.ui:184
+#, kde-format
+msgid "Color used to display invalid units"
+msgstr "رنگ استفاده‌شده برای نمایش واحدهای نامعتبر"
+
+#. i18n: ectx: label, entry (PracticeMinimumTimesAsked), group (Thresholds)
+#: src/settings/parley.kcfg:267
+#, kde-format
+msgid ""
+"The entry must have been asked at least this often to be included in the "
+"practice."
+msgstr ""
+"مدخل باید حداقل این تعداد بار پرسیده شده باشد تا در تمرین گنجانده شود."
+
+#. i18n: ectx: label, entry (PracticeMaximumTimesAsked), group (Thresholds)
+#: src/settings/parley.kcfg:271
+#, kde-format
+msgid ""
+"The entry must have been asked at most this often to be included in the "
+"practice."
+msgstr ""
+"مدخل باید حداکثر این تعداد بار پرسیده شده باشد تا در تمرین گنجانده شود."
+
+#. i18n: ectx: label, entry (PracticeMinimumWrongCount), group (Thresholds)
+#: src/settings/parley.kcfg:276
+#, kde-format
+msgid ""
+"The entry must have been answered incorrectly at least this often to be "
+"included in the practice."
+msgstr ""
+"مدخل باید حداقل این تعداد بار نادرست پاسخ داده شده باشد تا در تمرین گنجانده "
+"شود."
+
+#. i18n: ectx: label, entry (PracticeMaximumWrongCount), group (Thresholds)
+#: src/settings/parley.kcfg:280
+#, kde-format
+msgid ""
+"The entry must have been answered incorrectly at most this often to be "
+"included in the practice."
+msgstr ""
+"مدخل باید حداکثر این تعداد بار نادرست پاسخ داده شده باشد تا در تمرین گنجانده"
+" شود."
+
+#. i18n: ectx: label, entry (PracticeMinimumGrade), group (Thresholds)
+#: src/settings/parley.kcfg:285
+#, kde-format
+msgid ""
+"The entry must have at least this confidence level to be included in the "
+"practice (0..7)."
+msgstr ""
+"مدخل باید حداقل دارای این سطح اطمینان باشد تا در تمرین گنجانده شود (۰ تا ۷)."
+
+#. i18n: ectx: label, entry (PracticeMaximumGrade), group (Thresholds)
+#: src/settings/parley.kcfg:289
+#, kde-format
+msgid ""
+"The entry must have at most this confidence level to be included in the "
+"practice (0..7)."
+msgstr ""
+"مدخل باید حداکثر دارای این سطح اطمینان باشد تا در تمرین گنجانده شود (۰ تا "
+"۷)."
+
+#. i18n: ectx: label, entry (WordTypesInPracticeEnabled), group (Thresholds)
+#: src/settings/parley.kcfg:293
+#, kde-format
+msgid "Only selected word types will be included in practice."
+msgstr "فقط انواع کلمات انتخاب‌شده در تمرین گنجانده خواهند شد."
+
+#. i18n: ectx: label, entry (WordTypesInPractice), group (Thresholds)
+#. i18n: ectx: whatsthis, entry (WordTypesInPractice), group (Thresholds)
+#: src/settings/parley.kcfg:297 src/settings/parley.kcfg:298
+#, kde-format
+msgid "Selected word types for practices."
+msgstr "انواع کلمات انتخاب‌شده برای تمرین‌ها."
+
+#. i18n: ectx: label, entry (SubWordTypesInPractice), group (Thresholds)
+#. i18n: ectx: whatsthis, entry (SubWordTypesInPractice), group (Thresholds)
+#: src/settings/parley.kcfg:301 src/settings/parley.kcfg:302
+#, kde-format
+msgid "Selected sub word types for practices."
+msgstr "انواع فرعی کلمات انتخاب‌شده برای تمرین‌ها."
+
+#. i18n: ectx: label, entry (LearningLanguage), group (PracticeManager)
+#: src/settings/parley.kcfg:309
+#, kde-format
+msgid "The language that you are learning."
+msgstr "زبانی که در حال یادگیری آن هستید."
+
+#. i18n: ectx: label, entry (KnownLanguage), group (PracticeManager)
+#: src/settings/parley.kcfg:313
+#, kde-format
+msgid "The language that you know already."
+msgstr "زبانی که هم‌اکنون می‌دانید."
+
+#. i18n: ectx: label, entry (ShowSolutionAfterAnswer), group (PracticeManager)
+#: src/settings/parley.kcfg:318
+#, kde-format
+msgid "Show the solution after an answer was given."
+msgstr "نمایش پاسخ پس از ثبت جواب."
+
+#. i18n: ectx: label, entry (ShowSolutionAfterAnswerTime), group
+#. (PracticeManager)
+#: src/settings/parley.kcfg:322
+#, kde-format
+msgid "The time the solution is shown (seconds). 0 is unlimited."
+msgstr "مدت‌زمان نمایش پاسخ (ثانیه). ۰ یعنی نامحدود."
+
+#. i18n: ectx: label, entry (PracticeMode), group (PracticeManager)
+#: src/settings/parley.kcfg:337
+#, kde-format
+msgid "The practice method that is currently selected."
+msgstr "روش تمرینی که هم‌اکنون انتخاب شده است."
+
+#. i18n: ectx: label, entry (PracticeDirection), group (PracticeManager)
+#: src/settings/parley.kcfg:348
+#, kde-format
+msgid "The practice mode that is currently selected."
+msgstr "حالت تمرینی که هم‌اکنون انتخاب شده است."
+
+#. i18n: ectx: label, entry (BlockItem$(Grade)), group (PracticeManager)
+#: src/settings/parley.kcfg:354
+#, kde-format
+msgid "Amount of time different confidence levels should be blocked"
+msgstr "مدت‌زمانی که سطوح مختلف اطمینان باید مسدود شوند"
+
+#. i18n: ectx: label, entry (ExpireItem$(Grade)), group (PracticeManager)
+#: src/settings/parley.kcfg:365
+#, kde-format
+msgid "Amount of time after which different confidence levels should expire"
+msgstr "مدت‌زمانی که پس از آن سطوح مختلف اطمینان باید منقضی شوند"
+
+#. i18n: ectx: label, entry (RememberPracticeDirection), group
+#. (PracticeManager)
+#: src/settings/parley.kcfg:375
+#, kde-format
+msgid "If true, the practice direction for each practice mode is stored."
+msgstr "اگر درست باشد، جهت تمرین برای هر حالت تمرینی ذخیره می‌شود."
+
+#. i18n: ectx: whatsthis, entry (RememberPracticeDirection), group
+#. (PracticeManager)
+#: src/settings/parley.kcfg:376
+#, kde-format
+msgid "Should the practice direction for each practice mode be stored?"
+msgstr "آیا جهت تمرین برای هر حالت تمرین ذخیره شود؟"
+
+#. i18n: ectx: label, entry (PracticeDirectionsByPracticeMode), group
+#. (PracticeManager)
+#. i18n: ectx: whatsthis, entry (PracticeDirectionsByPracticeMode), group
+#. (PracticeManager)
+#: src/settings/parley.kcfg:380 src/settings/parley.kcfg:381
+#, kde-format
+msgid "Stored values of practice direction for each practice mode."
+msgstr "مقادیر ذخیره‌شدهٔ جهت تمرین برای هر حالت تمرین."
+
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
+#: src/settings/parley.kcfg:387
+#, kde-format
+msgid "The Providers path for Parley"
+msgstr "مسیر فراهم‌کنندگان برای پارلی"
+
+#. i18n: ectx: label, entry (InstallationCommand), group (KNewStuff)
+#: src/settings/parley.kcfg:391
+#, kde-format
+msgid "The command used to start a downloaded vocabulary"
+msgstr "فرمانی که برای شروع یک واژه‌نامه بارگیری‌شده استفاده می‌شود"
+
+#. i18n: ectx: label, entry (InstallPath), group (KNewStuff)
+#: src/settings/parley.kcfg:395
+#, kde-format
+msgid "The folder where downloaded vocabularies are saved by default"
+msgstr ""
+"پوشه‌ای که واژه‌نامه‌های بارگیری‌شده به‌طور پیش‌فرض در آن ذخیره می‌شوند"
+
+#: src/settings/parleyprefs.cpp:24
+#, kde-format
+msgid "Theme"
+msgstr "پوسته"
+
+#: src/settings/parleyprefs.cpp:27
+#, kde-format
+msgctxt "title:window general settings"
+msgid "General"
+msgstr "عمومی"
+
+#: src/settings/parleyprefs.cpp:27
+#, kde-format
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: src/settings/parleyprefs.cpp:30
+#, kde-format
+msgid "View"
+msgstr "نما"
+
+#: src/settings/parleyprefs.cpp:30
+#, kde-format
+msgid "View Settings"
+msgstr "تنظیمات نما"
+
+#: src/settings/parleyprefs.cpp:33
+#, kde-format
+msgid "Online Translations"
+msgstr "ترجمه‌های برخط"
+
+#: src/settings/parleyprefs.cpp:33
+#, kde-format
+msgid "Online Translation Services"
+msgstr "خدمات ترجمه برخط"
+
+#: src/settings/translationshelloptions.cpp:22
+#, kde-format
+msgid "translate-shell is available."
+msgstr "برنامهٔ translate-shell در دسترس است."
+
+#: src/settings/translationshelloptions.cpp:25
+#, kde-format
+msgid "translate-shell executable could not be found."
+msgstr "فایل اجرایی translate-shell پیدا نشد."
+
+#: src/settings/translationshelloptions.cpp:40
+#, kde-format
+msgid "Error"
+msgstr "خطا"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxInstalledStatus)
+#: src/settings/translationshellpage.ui:18
+#, kde-format
+msgid "Translation Shell Integration"
+msgstr "یکپارچه‌سازی Translation Shell"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/settings/translationshellpage.ui:52
+#, kde-format
+msgid "Run Interactive Functionality Test"
+msgstr "اجرای آزمون کارکرد تعاملی"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/settings/translationshellpage.ui:58
+#, kde-format
+msgid ""
+"The interaction test request translation of English word \"parley\" into "
+"German."
+msgstr ""
+"آزمون تعاملی، ترجمهٔ واژهٔ انگلیسی «parley» به آلمانی را درخواست می‌کند."
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonRunTest)
+#: src/settings/translationshellpage.ui:68
+#, kde-format
+msgid "Start online test"
+msgstr "شروع آزمون برخط"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/settings/translationshellpage.ui:88
+#, kde-format
+msgid "Result:"
+msgstr "نتیجه:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelResultArea)
+#: src/settings/translationshellpage.ui:101
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_IPAFont)
+#: src/settings/viewoptionsbase.ui:41
+#, kde-format
+msgid ""
+"Specify which font to use for displaying pronunciations using phonetic "
+"symbols."
+msgstr "قلم مورد استفاده برای نمایش تلفظ‌ها با نمادهای آوانگاری را مشخص کنید."
+
+#. i18n: ectx: property (text), widget (QLabel, IPAFontLabel)
+#: src/settings/viewoptionsbase.ui:48
+#, kde-format
+msgid "&Pronunciation symbols font:"
+msgstr "قلم نمادهای تلفظ:"
+
+#. i18n: ectx: property (text), widget (QLabel, gradeColorLabel)
+#: src/settings/viewoptionsbase.ui:77
+#, kde-format
+msgid "Base color for displaying grades:"
+msgstr "رنگ پایه برای نمایش نمرات:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor)
+#: src/settings/viewoptionsbase.ui:96
+#, kde-format
+msgid "Color used to display the progress"
+msgstr "رنگ مورد استفاده برای نمایش پیشرفت"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor)
+#: src/settings/viewoptionsbase.ui:99
+#, kde-format
+msgid "Click here to change the color used to display the progress."
+msgstr "برای تغییر رنگ مورد استفاده برای نمایش پیشرفت، اینجا کلیک کنید."
+
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor)
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_PreGradeColor)
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_InvalidUnitColor)
+#: src/settings/viewoptionsbase.ui:102 src/settings/viewoptionsbase.ui:146
+#: src/settings/viewoptionsbase.ui:190
+#, kde-format
+msgid "&Base"
+msgstr "پایه"
+
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor)
+#: src/settings/viewoptionsbase.ui:105
+#, kde-format
+msgid "Alt+0"
+msgstr "Alt+0"
+
+#. i18n: ectx: property (text), widget (QLabel, preGradeColorLabel)
+#: src/settings/viewoptionsbase.ui:121
+#, kde-format
+msgid "Color for displaying early progress:"
+msgstr "رنگ نمایش پیشرفت اولیه:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_PreGradeColor)
+#: src/settings/viewoptionsbase.ui:140
+#, kde-format
+msgid "Color used to display the early progress"
+msgstr "رنگ مورد استفاده برای نمایش پیشرفت اولیه"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_PreGradeColor)
+#: src/settings/viewoptionsbase.ui:143
+#, kde-format
+msgid "Click here to change the color used to display the early progress."
+msgstr "برای تغییر رنگ مورد استفاده برای نمایش پیشرفت اولیه، اینجا کلیک کنید."
+
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_PreGradeColor)
+#: src/settings/viewoptionsbase.ui:149
+#, kde-format
+msgid "Alt+1"
+msgstr "Alt+1"
+
+#. i18n: ectx: property (text), widget (QLabel, invalidUnitColorLabel)
+#: src/settings/viewoptionsbase.ui:165
+#, kde-format
+msgid "Color used to display the grades:"
+msgstr "رنگ استفاده‌شده برای نمایش نمرات:"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton,
+#. kcfg_InvalidUnitColor)
+#: src/settings/viewoptionsbase.ui:187
+#, kde-format
+msgid "Click here to change the color used to display invalid units."
+msgstr "برای تغییر رنگ استفاده‌شده جهت نمایش واحدهای نامعتبر اینجا کلیک کنید."
+
+#. i18n: ectx: property (shortcut), widget (KColorButton,
+#. kcfg_InvalidUnitColor)
+#: src/settings/viewoptionsbase.ui:193
+#, kde-format
+msgid "Alt+2"
+msgstr "Alt+2"
+
+#: src/statistics/lessonstatisticsview.cpp:76
+#: src/statistics/lessonstatisticsview.cpp:78
+#, kde-format
+msgid "Remove confidence levels from this unit"
+msgstr "حذف سطوح اطمینان از این واحد"
+
+#: src/statistics/lessonstatisticsview.cpp:86
+#, kde-format
+msgid "Remove confidence levels from this unit and all sub-units"
+msgstr "حذف سطوح اطمینان از این واحد و تمام زیرواحدها"
+
+#: src/statistics/lessonstatisticsview.cpp:88
+#, kde-format
+msgid "Remove confidence level from this unit and all sub-units"
+msgstr "حذف سطح اطمینان از این واحد و تمام زیرواحدها"
+
+#: src/statistics/statisticslegendwidget.cpp:29
+#, kde-format
+msgid "Progress gradients"
+msgstr "شیب‌های رنگی پیشرفت"
+
+#: src/statistics/statisticslegendwidget.cpp:30
+#, kde-format
+msgid "Early progress"
+msgstr "پیشرفت اولیه"
+
+#: src/statistics/statisticslegendwidget.cpp:31
+#, kde-format
+msgid "Not Practiced"
+msgstr "تمرین‌نشده"
+
+#: src/statistics/statisticslegendwidget.cpp:32
+#, kde-format
+msgid "Invalid Entries"
+msgstr "ورودی‌های نامعتبر"
+
+#: src/statistics/statisticslegendwidget.cpp:48
+#, kde-format
+msgctxt "adjective, The word has been properly and fully learned by the user"
+msgid "Fully learned"
+msgstr "کامل یاد گرفته‌شده"
+
+#: src/statistics/statisticslegendwidget.cpp:49
+#, kde-format
+msgctxt "adjective, The word has not even been practiced once by the user"
+msgid "Not practiced"
+msgstr "تمرین‌نشده"
+
+#: src/statistics/statisticsmainwindow.cpp:192
+#, kde-format
+msgid "Known to Learning"
+msgstr "آشنا به در حال یادگیری"
+
+#: src/statistics/statisticsmainwindow.cpp:193
+#, kde-format
+msgid "Learning to Known"
+msgstr "در حال یادگیری به آشنا"
+
+#: src/statistics/statisticsmainwindow.cpp:194
+#, kde-format
+msgid "Mixed Directions"
+msgstr "جهت‌های ترکیبی"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/statistics/statisticsmainwindow.ui:29
+#, kde-format
+msgid "Language to Learn"
+msgstr "زبان برای یادگیری"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/statistics/statisticsmainwindow.ui:39
+#, kde-format
+msgid "Known Language"
+msgstr "زبان آشنا"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxPracticeMode)
+#: src/statistics/statisticsmainwindow.ui:75
+#, kde-format
+msgid "Practice Mode"
+msgstr "حالت تمرین"
+
+#. i18n: ectx: property (text), widget (QRadioButton, flashCard)
+#: src/statistics/statisticsmainwindow.ui:81
+#, kde-format
+msgid "Flash Cards"
+msgstr "فلش‌کارت‌ها"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mixedLetters)
+#: src/statistics/statisticsmainwindow.ui:91
+#, kde-format
+msgid "Mixed &Letters"
+msgstr "حروف درهم"
+
+#. i18n: ectx: property (text), widget (QRadioButton, multipleChoice)
+#: src/statistics/statisticsmainwindow.ui:98
+#, kde-format
+msgid "M&ultiple Choice"
+msgstr "چندگزینه‌ای"
+
+#. i18n: ectx: property (text), widget (QRadioButton, written)
+#: src/statistics/statisticsmainwindow.ui:105
+#, kde-format
+msgid "Wri&tten"
+msgstr "کتبی"
+
+#. i18n: ectx: property (text), widget (QRadioButton, exampleSentence)
+#: src/statistics/statisticsmainwindow.ui:115
+#, kde-format
+msgid "E&xample Sentences"
+msgstr "جمله‌های نمونه"
+
+#. i18n: ectx: property (text), widget (QRadioButton, gender)
+#: src/statistics/statisticsmainwindow.ui:125
+#, kde-format
+msgid "&Gender of Nouns"
+msgstr "جنسیت اسم‌ها"
+
+#. i18n: ectx: property (text), widget (QRadioButton, conjugations)
+#: src/statistics/statisticsmainwindow.ui:145
+#, kde-format
+msgid "Co&njugations"
+msgstr "صرف‌ها"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxPracticeDirection)
+#: src/statistics/statisticsmainwindow.ui:191
+#, kde-format
+msgid "Practice Direction"
+msgstr "جهت تمرین"
+
+#. i18n: ectx: property (text), widget (QCheckBox, rememberPracticeDirection)
+#: src/statistics/statisticsmainwindow.ui:200
+#, kde-format
+msgid "Remember for each Practice Mode"
+msgstr "به‌خاطرسپاری برای هر حالت تمرین"
+
+#: src/statistics/statisticsmodel.cpp:26
+#, kde-format
+msgctxt "Confidence level in language, table header"
+msgid "Confidence (%1)"
+msgstr "میزان اطمینان (%1)"

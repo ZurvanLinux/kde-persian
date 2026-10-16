@@ -1,0 +1,351 @@
+# translation of knetwalk.po to Persian
+# Mahdi Foladgar <foladgar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Zahra Dadkhah <dadkhah@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2007.
+# Emil Sedgh <emilsedgh@gmail.com>, 2008.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: knetwalk\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-10-15 23:54+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, width)
+#: customgame.ui:30
+#, kde-format
+msgid "Width of the grid"
+msgstr "عرض شبکه"
+
+#. i18n: ectx: property (text), widget (QLabel, width)
+#: customgame.ui:33
+#, kde-format
+msgid "Width:"
+msgstr "عرض:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Wrapping)
+#: customgame.ui:56
+#, kde-format
+msgid "Wrap from left to right and from top to bottom"
+msgstr "چرخش از چپ به راست و از بالا به پایین"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Wrapping)
+#: customgame.ui:59
+#, kde-format
+msgid "Wrapping"
+msgstr "پیوستگی لبه‌ها"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, height)
+#: customgame.ui:66
+#, kde-format
+msgid "Height of the grid"
+msgstr "ارتفاع شبکه"
+
+#. i18n: ectx: property (text), widget (QLabel, height)
+#: customgame.ui:69
+#, kde-format
+msgid "Height:"
+msgstr "ارتفاع:"
+
+#: gameview.cpp:162
+#, kde-format
+msgid ""
+"Note: to win the game all terminals <strong>and all <em>cables</em></strong>"
+" need to be connected to the server!"
+msgstr ""
+"نکته: برای بردن بازی، تمام پایانه‌ها <strong>و تمام "
+"<em>کابل‌ها</em></strong> باید به سرور متصل شوند!"
+
+#: gameview.cpp:165
+#, kde-format
+msgid "The game is not won yet!"
+msgstr "بازی هنوز برده نشده است!"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: general.ui:17
+#, kde-format
+msgid "Duration for cell to complete one rotation in milliseconds"
+msgstr "مدت‌زمان چرخش کامل یک خانه به میلی‌ثانیه"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: general.ui:20
+#, kde-format
+msgid "Rotate duration:"
+msgstr "مدت‌زمان چرخش:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PlaySounds)
+#: general.ui:40
+#, kde-format
+msgid "Play sounds on actions"
+msgstr "پخش صدا هنگام انجام کارها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PlaySounds)
+#: general.ui:43
+#, kde-format
+msgid "Play sounds"
+msgstr "پخش صداها"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Autolock)
+#: general.ui:60
+#, kde-format
+msgid "Automatically lock cell after rotation"
+msgstr "قفل کردن خودکار خانه پس از چرخش"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Autolock)
+#: general.ui:63
+#, kde-format
+msgid "Auto lock"
+msgstr "قفل خودکار"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReverseButtons)
+#: general.ui:83
+#, kde-format
+msgid "Reverse mouse buttons"
+msgstr "معکوس کردن دکمه‌های ماوس"
+
+#. i18n: ectx: label, entry (username), group (Preferences)
+#: knetwalk.kcfg:9
+#, kde-format
+msgid "Default user name"
+msgstr "نام کاربری پیش‌فرض"
+
+#. i18n: ectx: label, entry (PlaySounds), group (General)
+#: knetwalk.kcfg:14
+#, kde-format
+msgid "Whether game sounds are played."
+msgstr "این‌که صداهای بازی پخش شوند یا نه."
+
+#. i18n: ectx: label, entry (Autolock), group (General)
+#: knetwalk.kcfg:18
+#, kde-format
+msgid "Whether lock cell after rotation."
+msgstr "این‌که خانه پس از چرخش قفل شود یا نه."
+
+#. i18n: ectx: label, entry (ReverseButtons), group (General)
+#: knetwalk.kcfg:22
+#, kde-format
+msgid "Use left click for clockwise and right click for counter-clockwise."
+msgstr ""
+"برای چرخش در جهت عقربه‌های ساعت از کلیک چپ و برای پادساعت‌گرد از کلیک راست "
+"استفاده کنید."
+
+#. i18n: ectx: label, entry (RotateDuration), group (General)
+#: knetwalk.kcfg:26
+#, kde-format
+msgid "Duration for cell to complete one rotation."
+msgstr "مدت‌زمان لازم برای تکمیل یک چرخش توسط سلول."
+
+#. i18n: ectx: label, entry (Width), group (Custom)
+#: knetwalk.kcfg:34
+#, kde-format
+msgid "The width of the board."
+msgstr "عرض صفحه."
+
+#. i18n: ectx: label, entry (Height), group (Custom)
+#: knetwalk.kcfg:40
+#, kde-format
+msgid "The height of the board."
+msgstr "ارتفاع صفحه."
+
+#. i18n: ectx: label, entry (Wrapping), group (Custom)
+#: knetwalk.kcfg:46
+#, kde-format
+msgid "Whether wrap from left to right and from top to bottom is enabled."
+msgstr "اینکه آیا پیچش از چپ به راست و از بالا به پایین فعال باشد یا خیر."
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: knetwalkui.rc:13
+#, kde-format
+msgid "Main Toolbar"
+msgstr "نوار ابزار اصلی"
+
+#: main.cpp:46
+#, kde-format
+msgid "KNetWalk"
+msgstr "KNetWalk"
+
+#: main.cpp:47
+#, kde-format
+msgid "KNetWalk, a game for system administrators."
+msgstr "‏KNetWalk، یک بازی برای مدیران سیستم."
+
+#: main.cpp:48
+#, kde-format
+msgid ""
+"(C) 2004-2005 Andi Peredri, ported to KDE by Thomas Nagy\n"
+"(C) 2007-2008 Fela Winkelmolen\n"
+"(C) 2013 Ashwin Rajeev"
+msgstr ""
+"© 2004-2005 Andi Peredri، منتقل‌شده به KDE توسط Thomas Nagy\n"
+"(C) 2007-2008 Fela Winkelmolen\n"
+"(C) 2013 Ashwin Rajeev"
+
+#: main.cpp:53
+#, kde-format
+msgid "Andi Peredri"
+msgstr "Andi Peredri"
+
+#: main.cpp:54
+#, kde-format
+msgid "original author"
+msgstr "نویسندهٔ اصلی"
+
+#: main.cpp:57
+#, kde-format
+msgid "Thomas Nagy"
+msgstr "Thomas Nagy"
+
+#: main.cpp:58
+#, kde-format
+msgid "KDE port"
+msgstr "پورت به KDE"
+
+#: main.cpp:61
+#, kde-format
+msgid "Ashwin Rajeev"
+msgstr "Ashwin Rajeev"
+
+#: main.cpp:62
+#, kde-format
+msgid "Port to QtQuick"
+msgstr "پورت به QtQuick"
+
+#: main.cpp:65
+#, kde-format
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: main.cpp:66
+#, kde-format
+msgid "icon design"
+msgstr "طراحی نقشک"
+
+#: main.cpp:69
+#, kde-format
+msgid "Brian Croom"
+msgstr "Brian Croom"
+
+#: main.cpp:70
+#, kde-format
+msgid "Port to use the QGraphicsView framework"
+msgstr "پورت برای استفاده از چارچوب QGraphicsView"
+
+#: mainwindow.cpp:84
+#, kde-format
+msgctxt "@item difficulty"
+msgid "Custom"
+msgstr "سفارشی"
+
+#: mainwindow.cpp:130
+#, kde-format
+msgctxt "@action"
+msgid "&Unlock All"
+msgstr "باز کردن قفل همه"
+
+#: mainwindow.cpp:135
+#, kde-format
+msgctxt "@action"
+msgid "Move Right"
+msgstr "حرکت به راست"
+
+#: mainwindow.cpp:140
+#, kde-format
+msgctxt "@action"
+msgid "Move Left"
+msgstr "حرکت به چپ"
+
+#: mainwindow.cpp:145
+#, kde-format
+msgctxt "@action"
+msgid "Move Up"
+msgstr "حرکت به بالا"
+
+#: mainwindow.cpp:150
+#, kde-format
+msgctxt "@action"
+msgid "Move Down"
+msgstr "حرکت به پایین"
+
+#: mainwindow.cpp:155
+#, kde-format
+msgctxt "@action"
+msgid "Turn Clockwise"
+msgstr "چرخش در جهت عقربه‌های ساعت"
+
+#: mainwindow.cpp:160
+#, kde-format
+msgctxt "@action"
+msgid "Turn Counterclockwise"
+msgstr "چرخش در خلاف جهت عقربه‌های ساعت"
+
+#: mainwindow.cpp:165
+#, kde-format
+msgctxt "@action"
+msgid "Toggle Lock"
+msgstr "تغییر وضعیت قفل"
+
+#: mainwindow.cpp:176
+#, kde-format
+msgctxt "@title:tab"
+msgid "General"
+msgstr "عمومی"
+
+#: mainwindow.cpp:177
+#, kde-format
+msgctxt "@title:tab"
+msgid "Theme"
+msgstr "پوسته"
+
+#: mainwindow.cpp:178
+#, kde-format
+msgctxt "@title:tab"
+msgid "Custom Game"
+msgstr "بازی سفارشی"
+
+#: mainwindow.cpp:187 mainwindow.cpp:244
+#, kde-format
+msgid "Moves Penalty"
+msgstr "جریمهٔ حرکت‌ها"
+
+#: mainwindow.cpp:248
+#, kde-format
+msgid "Your score was %1, you did not make it to the high score list."
+msgid_plural "Your score was %1, you did not make it to the high score list."
+msgstr[0] "امتیاز شما %1 شد، به فهرست بالاترین امتیازها نرسیدید."
+msgstr[1] "امتیاز شما %1 شد، به فهرست بالاترین امتیازها نرسیدید."
+
+#: mainwindow.cpp:273
+#, kde-format
+msgctxt "Number of mouse clicks"
+msgid "Moves: %1"
+msgstr "حرکت‌ها: %1"
+
+#: mainwindow.cpp:274
+#, kde-format
+msgctxt "Time elapsed"
+msgid "Time: %1"
+msgstr "زمان: %1"
+
+#: qml/main.qml:66
+#, kde-format
+msgid "Paused"
+msgstr "مکث"

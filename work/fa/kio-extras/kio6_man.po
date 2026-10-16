@@ -1,0 +1,230 @@
+# translation of kio_man.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohamad Reza Mirdamadi <mohi@linuxshop.ir>, 2011, 2013.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_man\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:46+0000\n"
+"PO-Revision-Date: 2026-10-15 23:28+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kio_man.cpp:517
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"No man page matching <resource>%1</resource> could be found.<nl/><nl/>Check "
+"that you have not mistyped the name of the page, and note that man page "
+"names are case sensitive.<nl/><nl/>If the name is correct, then you may need"
+" to extend the search path for man pages, either using the "
+"<envar>MANPATH</envar> environment variable or a configuration file in the "
+"<filename>/etc</filename> directory."
+msgstr ""
+"هیچ صفحهٔ راهنمای منطبق با <resource>%1</resource> پیدا نشد.<nl/><nl/>بررسی "
+"کنید که نام صفحه را اشتباه تایپ نکرده باشید، و توجه داشته باشید که نام‌های "
+"صفحات راهنما به کوچک و بزرگی حروف حساس هستند.<nl/><nl/>اگر نام درست است، "
+"ممکن است لازم باشد مسیر جستجوی صفحات راهنما را با استفاده از متغیر محیطی "
+"<envar>MANPATH</envar> یا یک پروندهٔ پیکربندی در شاخهٔ "
+"<filename>/etc</filename> گسترش دهید."
+
+#: kio_man.cpp:632
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The specified man page references another page "
+"<filename>%1</filename>,<nl/>but the referenced page <filename>%2</filename>"
+" could not be found."
+msgstr ""
+"صفحهٔ راهنمای مشخص‌شده به صفحهٔ دیگری به نام <filename>%1</filename> ارجاع "
+"می‌دهد،<nl/>اما صفحهٔ ارجاع داده‌شده یعنی <filename>%2</filename> پیدا نشد."
+
+#: kio_man.cpp:649
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The man page <filename>%1</filename> could not be read."
+msgstr "صفحهٔ راهنمای <filename>%1</filename> قابل خواندن نبود."
+
+#: kio_man.cpp:658
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The man page <filename>%1</filename> could not be converted."
+msgstr "صفحهٔ راهنمای <filename>%1</filename> قابل تبدیل نبود."
+
+#: kio_man.cpp:713
+#, kde-format
+msgid "Manual Page Viewer Error"
+msgstr "خطای نمایشگر صفحهٔ راهنما"
+
+#: kio_man.cpp:747
+#, kde-format
+msgid "Multiple Manual Pages"
+msgstr "چندین صفحهٔ راهنما"
+
+#: kio_man.cpp:748
+#, kde-format
+msgid "There is more than one matching man page:"
+msgstr "بیش از یک صفحهٔ راهنمای منطبق وجود دارد:"
+
+#: kio_man.cpp:749
+#, kde-format
+msgid ""
+"Note: if you read a man page in your language, be aware it can contain some "
+"mistakes or be obsolete. In case of doubt, you should have a look at the "
+"English version."
+msgstr ""
+"نکته: اگر صفحهٔ راهنما را به زبان خود می‌خوانید، آگاه باشید که ممکن است حاوی"
+" اشتباهاتی باشد یا منسوخ شده باشد. در صورت تردید، باید به نسخهٔ انگلیسی "
+"نگاهی بیندازید."
+
+#: kio_man.cpp:757
+#, kde-format
+msgid "Possible Alternative Manual Pages"
+msgstr "صفحات راهنمای جایگزین احتمالی"
+
+#: kio_man.cpp:758
+#, kde-format
+msgid "There were possible close matches:"
+msgstr "موارد منطبقِ نزدیکِ احتمالی وجود داشت:"
+
+#: kio_man.cpp:760
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"No man page matching <resource>%1</resource> could be found, but there were "
+"close or case insensitive matches as above."
+msgstr ""
+"هیچ صفحهٔ راهنمایی منطبق با <resource>%1</resource> پیدا نشد، اما موارد "
+"مشابه یا بدون در نظر گرفتن بزرگی و کوچکی حروف مانند بالا وجود دارند."
+
+#: kio_man.cpp:788 kio_man.cpp:1382
+#, kde-format
+msgctxt "@item the folder that holds every manual page"
+msgid "Manual Pages"
+msgstr "صفحه‌های راهنما"
+
+#: kio_man.cpp:842
+#, kde-format
+msgid "Header Files"
+msgstr "پرونده‌های سرایند"
+
+#: kio_man.cpp:844
+#, kde-format
+msgid "Header Files (POSIX)"
+msgstr "پرونده‌های سرایند (POSIX)"
+
+#: kio_man.cpp:846
+#, kde-format
+msgid "User Commands"
+msgstr "دستورهای کاربر"
+
+#: kio_man.cpp:848
+#, kde-format
+msgid "User Commands (POSIX)"
+msgstr "دستورهای کاربر (POSIX)"
+
+#: kio_man.cpp:850
+#, kde-format
+msgid "System Calls"
+msgstr "فراخوان‌های سیستم"
+
+#: kio_man.cpp:852
+#, kde-format
+msgid "Subroutines"
+msgstr "زیرروال‌ها"
+
+#: kio_man.cpp:855
+#, kde-format
+msgid "Perl Modules"
+msgstr "پیمانه‌های پرل"
+
+#: kio_man.cpp:857
+#, kde-format
+msgid "Network Functions"
+msgstr "توابع شبکه"
+
+#: kio_man.cpp:859
+#, kde-format
+msgid "Devices"
+msgstr "دستگاه‌ها"
+
+#: kio_man.cpp:861
+#, kde-format
+msgid "File Formats"
+msgstr "قالب‌های پرونده"
+
+#: kio_man.cpp:863
+#, kde-format
+msgid "Games"
+msgstr "بازی‌ها"
+
+#: kio_man.cpp:865
+#, kde-format
+msgid "Miscellaneous"
+msgstr "متفرقه"
+
+#: kio_man.cpp:867
+#, kde-format
+msgid "System Administration"
+msgstr "مدیریت سیستم"
+
+#: kio_man.cpp:869
+#, kde-format
+msgid "Kernel"
+msgstr "هسته"
+
+#: kio_man.cpp:871
+#, kde-format
+msgid "Local Documentation"
+msgstr "مستندات محلی"
+
+#: kio_man.cpp:874
+#, kde-format
+msgid "New"
+msgstr "جدید"
+
+#: kio_man.cpp:901
+#, kde-format
+msgid "Main Manual Page Index"
+msgstr "فهرست اصلی صفحه‌های راهنما"
+
+#: kio_man.cpp:926
+#, kde-format
+msgid "Section %1"
+msgstr "بخش %1"
+
+#: kio_man.cpp:1177
+#, kde-format
+msgid "Index for section %1: %2"
+msgstr "نمایه برای بخش %1: %2"
+
+#: kio_man.cpp:1177
+#, kde-format
+msgid "Manual Page Index"
+msgstr "نمایهٔ صفحهٔ راهنما"
+
+#: kio_man.cpp:1186
+#, kde-format
+msgid "Generating Index"
+msgstr "در حال ایجاد نمایه"
+
+#: kio_man.cpp:1444
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Could not find the <command>%1</command> program on your system. Please "
+"install it if necessary, and ensure that it can be found using the "
+"environment variable <envar>PATH</envar>."
+msgstr ""
+"برنامهٔ <command>%1</command> در سامانهٔ شما پیدا نشد. لطفاً در صورت نیاز آن"
+" را نصب کرده و مطمئن شوید که با استفاده از متغیر محیطی <envar>PATH</envar> "
+"قابل یافتن است."

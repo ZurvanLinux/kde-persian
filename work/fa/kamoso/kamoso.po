@@ -1,0 +1,244 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kamoso package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kamoso\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-21 00:42+0000\n"
+"PO-Revision-Date: 2026-10-15 19:20+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد شفیعی سروستانی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "muhammad.shafiee@gmail.com"
+
+#: src/kamoso.cpp:86 src/qml/Main.qml:256
+#, kde-format
+msgid "No device found"
+msgstr "هیچ دستگاهی یافت نشد"
+
+#. i18n: ectx: label, entry (saveUrl), group (General)
+#. i18n: ectx: label, entry (saveVideos), group (General)
+#: src/kamosoSettings.kcfg:11 src/kamosoSettings.kcfg:15
+#, kde-format
+msgid "Where the photos are saved."
+msgstr "محل ذخیرهٔ عکس‌ها."
+
+#. i18n: ectx: label, entry (mirrored), group (WebcamSettings)
+#: src/kamosoSettings.kcfg:22
+#, kde-format
+msgid "Vertically mirror the camera view."
+msgstr "آینه‌ای کردن عمودی نمای دوربین."
+
+#. i18n: ectx: label, entry (DeviceObjectId), group (WebcamSettings)
+#: src/kamosoSettings.kcfg:25
+#, kde-format
+msgid "Points to the last used webcam."
+msgstr "به آخرین وب‌بین استفاده‌شده اشاره می‌کند."
+
+#: src/main.cpp:23 src/qml/Main.qml:20
+#, kde-format
+msgid "Kamoso"
+msgstr "کاموسو"
+
+#: src/main.cpp:23
+#, kde-format
+msgid "Utility for taking photos and videos using a webcam"
+msgstr "ابزاری برای گرفتن عکس و ویدیو با وب‌بین"
+
+#: src/main.cpp:24
+#, kde-format
+msgid "(C) 2008-2025 Alex Fiestas and Aleix Pol"
+msgstr "حق نشر ۲۰۰۸-۲۰۲۵ الکس فستاس و الیکس پل"
+
+#: src/main.cpp:26
+#, kde-format
+msgid "Aleix Pol Gonzalez"
+msgstr "الیکس پل گونزالس"
+
+#: src/main.cpp:26
+#, kde-format
+msgid "Semaphore hacker"
+msgstr "هکر سِمافور"
+
+#: src/main.cpp:27
+#, kde-format
+msgid "Alex Fiestas"
+msgstr "Alex Fiestas"
+
+#: src/main.cpp:27
+#, kde-format
+msgid "Coffee drinker"
+msgstr "قهوه‌نوش"
+
+#: src/main.cpp:28
+#, kde-format
+msgid "caseymoura"
+msgstr "caseymoura"
+
+#: src/main.cpp:28
+#, kde-format
+msgid ""
+"Uploaded the shutter sound: "
+"https://freesound.org/people/caseymoura/sounds/445482/"
+msgstr ""
+"صدای شاتر را بارگذاری کرد: "
+"https://freesound.org/people/caseymoura/sounds/445482/"
+
+#: src/qml/ImagesView.qml:42
+#, kde-format
+msgid "Share"
+msgstr "هم‌رسانی"
+
+#: src/qml/ImagesView.qml:107 src/qml/ImagesView.qml:152
+#: src/qml/ImagesView.qml:292
+#, kde-format
+msgid "Back"
+msgstr "بازگشت"
+
+#: src/qml/ImagesView.qml:146
+#, kde-format
+msgid "Media now exported"
+msgstr "رسانه صادر شد"
+
+#: src/qml/ImagesView.qml:173
+#, kde-format
+msgid "Configure Kamoso"
+msgstr "پیکربندی کاموسو"
+
+#: src/qml/ImagesView.qml:181
+#, kde-format
+msgid "Save Locations"
+msgstr "مکان‌های ذخیره‌سازی"
+
+#: src/qml/ImagesView.qml:188
+#, kde-format
+msgid "Pictures:"
+msgstr "تصاویر:"
+
+#: src/qml/ImagesView.qml:203 src/qml/ImagesView.qml:212
+#, kde-format
+msgid "Choose the folder where Kamoso will save pictures"
+msgstr "پوشه‌ای را که کاموسو تصاویر را در آن ذخیره می‌کند انتخاب کنید"
+
+#: src/qml/ImagesView.qml:227
+#, kde-format
+msgid "Videos:"
+msgstr "ویدیوها:"
+
+#: src/qml/ImagesView.qml:242 src/qml/ImagesView.qml:252
+#, kde-format
+msgid "Choose the folder where Kamoso will save videos"
+msgstr "پوشه‌ای را که کاموسو ویدیوها را در آن ذخیره می‌کند انتخاب کنید"
+
+#: src/qml/ImagesView.qml:264
+#, kde-format
+msgid "Cameras"
+msgstr "دوربین‌ها"
+
+#: src/qml/ImagesView.qml:280
+#, kde-format
+msgctxt "@option:check as in, 'mirror the camera'"
+msgid "Mirror camera"
+msgstr "آینه‌ای کردن دوربین"
+
+#: src/qml/ImagesView.qml:319
+#, kde-kuit-format
+msgctxt "@info"
+msgid "There are no images in <filename>%1</filename>"
+msgstr "هیچ تصویری در <filename>%1</filename> وجود ندارد"
+
+#: src/qml/ImagesView.qml:333
+#, kde-format
+msgid "Share %1 Item..."
+msgid_plural "Share %1 Items..."
+msgstr[0] "هم‌رسانی %1 مورد..."
+msgstr[1] "هم‌رسانی %1 مورد..."
+
+#: src/qml/ImagesView.qml:333
+#, kde-format
+msgid "Share Item..."
+msgstr "هم‌رسانی مورد..."
+
+#: src/qml/ImagesView.qml:343
+#, kde-format
+msgid "Move %1 Item to Trash"
+msgid_plural "Move %1 Items to Trash"
+msgstr[0] "انتقال %1 مورد به سطل زباله"
+msgstr[1] "انتقال %1 مورد به سطل زباله"
+
+#: src/qml/ImagesView.qml:343
+#, kde-format
+msgid "Move Item to Trash"
+msgstr "انتقال مورد به سطل زباله"
+
+#: src/qml/ImagesView.qml:354
+#, kde-format
+msgid "Open Pictures Folder"
+msgstr "باز کردن پوشهٔ تصاویر"
+
+#: src/qml/ImagesView.qml:363
+#, kde-format
+msgid "Configure Kamoso..."
+msgstr "پیکربندی کاموسو..."
+
+#: src/qml/Main.qml:84
+#, kde-format
+msgid "Take a Picture"
+msgstr "گرفتن عکس"
+
+#: src/qml/Main.qml:110
+#, kde-format
+msgid "End Burst"
+msgstr "پایان عکس‌برداری پیاپی"
+
+#: src/qml/Main.qml:110
+#, kde-format
+msgid "Capture a Burst"
+msgstr "عکس‌برداری پیاپی"
+
+#: src/qml/Main.qml:112
+#, kde-format
+msgid "1 photo taken"
+msgid_plural "%1 photos taken"
+msgstr[0] "۱ عکس گرفته شد"
+msgstr[1] "%1 عکس گرفته شد"
+
+#: src/qml/Main.qml:138
+#, kde-format
+msgid "Stop Recording"
+msgstr "توقف ضبط"
+
+#: src/qml/Main.qml:138
+#, kde-format
+msgid "Record a Video"
+msgstr "ضبط ویدیو"
+
+#: src/qml/Main.qml:201
+#, kde-format
+msgid "Effects Gallery"
+msgstr "نگارخانهٔ جلوه‌ها"
+
+#: src/video/webcamcontrol.cpp:412
+#, kde-format
+msgid "Photo taken"
+msgstr "عکس گرفته شد"
+
+#: src/video/webcamcontrol.cpp:412
+#, kde-format
+msgid "Saved in %1"
+msgstr "در %1 ذخیره شد"

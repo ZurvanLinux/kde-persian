@@ -1,0 +1,299 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the libtextedittexttospeech package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: libtextedittexttospeech\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-01 17:39+0000\n"
+"PO-Revision-Date: 2026-10-16 00:45+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kokoro/texttospeechkokoro.cpp:124
+#, kde-format
+msgid "Kokoro is not installed. Please install it first."
+msgstr "Kokoro نصب نشده است. لطفاً ابتدا آن را نصب کنید."
+
+#: kokoro/texttospeechkokoro.cpp:146
+#, kde-format
+msgid "The Kokoro backend stopped unexpectedly."
+msgstr "بک‌اند Kokoro به طور غیرمنتظره‌ای متوقف شد."
+
+#: kokoro/texttospeechkokoro.cpp:156
+#, kde-format
+msgid "Unable to start the Kokoro backend."
+msgstr "امکان راه‌اندازی بک‌اند Kokoro وجود ندارد."
+
+#: kokoro/texttospeechkokoro.cpp:257
+#, kde-format
+msgid "Kokoro was unable to synthesize the text: %1"
+msgstr "Kokoro نتوانست متن را سنتز کند: %1"
+
+#: kokoro/texttospeechkokoro.cpp:272
+#, kde-format
+msgid "Kokoro reported an unusable audio format."
+msgstr "Kokoro یک قالب صوتی غیرقابل استفاده گزارش کرد."
+
+#: kokoro/texttospeechkokoro.cpp:329
+#, kde-format
+msgid "Unable to open the audio device."
+msgstr "امکان باز کردن دستگاه صوتی وجود ندارد."
+
+#: kokoro/texttospeechkokoro.cpp:344
+#, kde-format
+msgid "The audio device stopped working."
+msgstr "دستگاه صوتی از کار افتاد."
+
+#: kokoroinstall/texttospeechkokorocheckjob.cpp:51
+#, kde-format
+msgid "Kokoro is not usable. Please reinstall it."
+msgstr "Kokoro قابل استفاده نیست. لطفاً دوباره آن را نصب کنید."
+
+#: kokoroinstall/texttospeechkokorocheckjob.cpp:54
+#: texttospeechconfigwidget.cpp:318
+#, kde-format
+msgid "Kokoro is not installed. Missing: %1"
+msgstr "Kokoro نصب نشده است. مورد ناموجود: %1"
+
+#: kokoroinstall/texttospeechkokorodownloadvoicejob.cpp:96
+#, kde-format
+msgid "Downloading %1…"
+msgstr "در حال بارگیری %1…"
+
+#: kokoroinstall/texttospeechkokorodownloadvoicejob.cpp:103
+#, kde-format
+msgid "Unable to download %1: %2"
+msgstr "امکان بارگیری %1 وجود ندارد: %2"
+
+#: kokoroinstall/texttospeechkokoroinstallmessagewidget.cpp:18
+#, kde-format
+msgctxt "@action"
+msgid "Install"
+msgstr "نصب"
+
+#: kokoroinstall/texttospeechkokoroinstallpythondialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Install Kokoro Package"
+msgstr "نصب بستهٔ Kokoro"
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:48
+#, kde-format
+msgid "Select Voice(s):"
+msgstr "انتخاب صدا(ها):"
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:50
+#, kde-format
+msgid "Download Voice(s)"
+msgstr "بارگیری صدا(ها)"
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:58
+#, kde-format
+msgid "Download Voices done."
+msgstr "بارگیری صداها انجام شد."
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:64
+#, kde-format
+msgid "Unable to download voice."
+msgstr "امکان بارگیری صدا وجود ندارد."
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:91
+#, kde-format
+msgid "espeak-ng is missing. Please install it with your package manager."
+msgstr "‏espeak-ng یافت نشد. لطفاً آن را با مدیر بسته‌های خود نصب کنید."
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:95
+#, kde-format
+msgid "Nothing to install."
+msgstr "چیزی برای نصب وجود ندارد."
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:101
+#, kde-format
+msgid "Creating the python virtual environment…"
+msgstr "در حال ایجاد محیط مجازی پایتون…"
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:104
+#, kde-format
+msgid "Python virtual environment created."
+msgstr "محیط مجازی پایتون ایجاد شد."
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:108
+#, kde-format
+msgid "Unable to create the python virtual environment."
+msgstr "ایجاد محیط مجازی پایتون ناموفق بود."
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:125
+#, kde-format
+msgid "Installing modules: %1"
+msgstr "در حال نصب پودمان‌ها: %1"
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:130
+#, kde-format
+msgid "Installation done."
+msgstr "نصب انجام شد."
+
+#: kokoroinstall/texttospeechkokoroinstallpythonwidget.cpp:134
+#, kde-format
+msgid "Installation failed."
+msgstr "نصب شکست خورد."
+
+#: kokoroinstall/texttospeechkokorovoicecombobox.cpp:24
+#, kde-format
+msgctxt "@item:intext gender of a voice"
+msgid "Female"
+msgstr "زن"
+
+#: kokoroinstall/texttospeechkokorovoicecombobox.cpp:26
+#, kde-format
+msgctxt "@item:intext gender of a voice"
+msgid "Male"
+msgstr "مرد"
+
+#: kokoroinstall/texttospeechkokorovoicecombobox.cpp:30
+#, kde-format
+msgctxt "@item:intext gender of a voice"
+msgid "Unknown"
+msgstr "نامشخص"
+
+#: kokoroinstall/texttospeechkokorovoicecombobox.cpp:38
+#, kde-format
+msgctxt "@item:intext <language> (<country>)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kokoroinstall/texttospeechkokorovoicecombobox.cpp:78
+#, kde-format
+msgctxt "@item:inlistbox <voice name> (<gender>)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kokoroinstall/texttospeechkokorovoicecombobox.cpp:80
+#, kde-format
+msgctxt "@info:tooltip <voice name> (<language>, <gender>)"
+msgid "%1 (%2, %3)"
+msgstr "%1 (%2، %3)"
+
+#: kokoroinstall/texttospeechkokorovoicecombobox.cpp:129
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No voice selected"
+msgstr "هیچ صدایی انتخاب نشده است"
+
+#: texttospeechactions.cpp:30
+#, kde-format
+msgctxt "@action"
+msgid "Stop"
+msgstr "توقف"
+
+#: texttospeechactions.cpp:33
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Stop"
+msgstr "توقف"
+
+#: texttospeechactions.cpp:73
+#, kde-format
+msgid "Pause"
+msgstr "مکث"
+
+#: texttospeechactions.cpp:73
+#, kde-format
+msgid "Play"
+msgstr "پخش"
+
+#: texttospeechconfigdialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Text-To-Speech"
+msgstr "پیکربندی متن‌به‌گفتار"
+
+#: texttospeechconfiginterface.cpp:94
+#, kde-format
+msgid "Morning, this is the test for testing settings."
+msgstr "صبح بخیر، این یک آزمایش برای بررسی تنظیمات است."
+
+#: texttospeechconfigwidget.cpp:42
+#, kde-format
+msgid "Test"
+msgstr "آزمایش"
+
+#: texttospeechconfigwidget.cpp:45
+#, kde-format
+msgid "Configure…"
+msgstr "پیکربندی…"
+
+#: texttospeechconfigwidget.cpp:62
+#, kde-format
+msgid "Volume:"
+msgstr "بلندی صدا:"
+
+#: texttospeechconfigwidget.cpp:66
+#, kde-format
+msgid "Rate:"
+msgstr "سرعت:"
+
+#: texttospeechconfigwidget.cpp:72
+#, kde-format
+msgid "Pitch:"
+msgstr "زیروبمی:"
+
+#: texttospeechconfigwidget.cpp:90
+#, kde-format
+msgid "Engine:"
+msgstr "موتور:"
+
+#: texttospeechconfigwidget.cpp:94
+#, kde-format
+msgid "Language:"
+msgstr "زبان:"
+
+#: texttospeechconfigwidget.cpp:98
+#, kde-format
+msgid "Voice:"
+msgstr "صدا:"
+
+#: texttospeechconfigwidget.cpp:118
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: texttospeechconfigwidget.cpp:323
+#, kde-format
+msgid "Kokoro installation is broken. Please verify with your sysadmin."
+msgstr "نصب Kokoro خراب است. لطفاً با مدیر سیستم خود بررسی کنید."
+
+#: texttospeechwidget.cpp:56
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "بستن"
+
+#: texttospeechwidget.cpp:61
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Volume:"
+msgstr "بلندی صدا:"
+
+#: texttospeechwidget.cpp:83
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Configure…"
+msgstr "پیکربندی…"
+
+#: texttospeechwidget.cpp:136 texttospeechwidget.cpp:148
+#, kde-format
+msgid "Engine has a problem."
+msgstr "موتور با مشکل مواجه شده است."
+
+#: texttospeechwidget.cpp:136 texttospeechwidget.cpp:148
+#, kde-format
+msgctxt "@title:window"
+msgid "Text To Speech"
+msgstr "متن به گفتار"

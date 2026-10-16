@@ -1,0 +1,225 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcm_nighttime package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_nighttime\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-15 00:48+0000\n"
+"PO-Revision-Date: 2026-10-15 03:47+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ui/main.qml:26
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Time-based features such as Night Light and dynamic wallpapers can be "
+"synchronized with the day-night cycle. Choose your preferred cycle here."
+msgstr ""
+"ویژگی‌های مبتنی بر زمان مانند «نور شب» و کاغذدیواری‌های پویا می‌توانند با "
+"چرخهٔ شبانه‌روز همگام شوند. چرخهٔ دلخواه خود را در اینجا انتخاب کنید."
+
+#: ui/main.qml:63
+#, kde-format
+msgctxt ""
+"@label:listbox part of a sentence: 'Determine sunrise and sunset times "
+"[based on]'"
+msgid "Determine sunrise and sunset times:"
+msgstr "تعیین زمان‌های طلوع و غروب خورشید:"
+
+#: ui/main.qml:68
+#, kde-format
+msgctxt ""
+"@item:inlistbox part of a sentence: 'Determine sunrise and sunset times'"
+msgid "Based on device's location"
+msgstr "بر پایهٔ مکان دستگاه"
+
+#: ui/main.qml:69
+#, kde-format
+msgctxt ""
+"@item:inlistbox part of a sentence: 'Determine sunrise and sunset times'"
+msgid "Using custom times"
+msgstr "با استفاده از زمان‌های سفارشی"
+
+#: ui/main.qml:84
+#, kde-format
+msgctxt "@label"
+msgid "Sunrise:"
+msgstr "طلوع خورشید:"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@label"
+msgid "Sunset:"
+msgstr "غروب خورشید:"
+
+#: ui/main.qml:117
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Transition duration:"
+msgstr "مدت‌زمان گذار:"
+
+#: ui/main.qml:122
+#, kde-format
+msgctxt "@item:valuesuffix transition duration"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 دقیقه"
+msgstr[1] "%1 دقیقه"
+
+#: ui/main.qml:140
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The <application>GeoClue2</application> service will be used to periodically"
+" update the device's location using GPS or cell tower triangulation if "
+"available, or else by sending its IP address to <link "
+"url='https://geoip.com/privacy/'>GeoIP</link>."
+msgstr ""
+"از خدمت <application>GeoClue2</application> برای به‌روزرسانی دوره‌ای مکان "
+"دستگاه استفاده خواهد شد؛ در صورت دردسترس بودن از GPS یا مثلث‌بندی دکل‌های "
+"مخابراتی، و در غیر این صورت با ارسال نشانی IP آن به <link "
+"url='https://geoip.com/privacy/'>GeoIP</link>."
+
+#: ui/main.qml:141
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The <application>%1</application> service will be used to periodically "
+"update the device's location. Please open a bug report at <link "
+"url='https://bugs.kde.org'>https://bugs.kde.org</link> asking KDE developers"
+" to write a detailed description of what this service will do."
+msgstr ""
+"از خدمت <application>%1</application> برای به‌روزرسانی دوره‌ای مکان دستگاه "
+"استفاده خواهد شد. لطفاً یک گزارش اشکال در <link "
+"url='https://bugs.kde.org'>https://bugs.kde.org</link> ثبت کنید و از "
+"توسعه‌دهندگان KDE بخواهید شرح مفصلی از عملکرد این خدمت بنویسند."
+
+#: ui/main.qml:144
+#, kde-format
+msgctxt "@option:radio"
+msgid "Automatically detect location"
+msgstr "تشخیص خودکار مکان"
+
+#: ui/main.qml:167
+#, kde-format
+msgctxt "@option:radio"
+msgid "Use manual location:"
+msgstr "استفاده از مکان دستی:"
+
+#: ui/main.qml:179
+#, kde-format
+msgctxt "@label"
+msgid "Latitude:"
+msgstr "عرض جغرافیایی:"
+
+#: ui/main.qml:199
+#, kde-format
+msgctxt "@label"
+msgid "Longitude:"
+msgstr "طول جغرافیایی:"
+
+#: ui/SunPath.qml:52
+#, kde-format
+msgctxt "@info:tooltip; the variables are times of day, e.g. 07:30"
+msgid "Sunrise starts at %1 and ends at %2"
+msgstr "طلوع خورشید در %1 آغاز می‌شود و در %2 پایان می‌یابد"
+
+#: ui/SunPath.qml:57
+#, kde-format
+msgctxt "@label"
+msgid "Sunrise"
+msgstr "طلوع خورشید"
+
+#: ui/SunPath.qml:77
+#, kde-format
+msgctxt "@info:tooltip; the variables are times of day, e.g. 07:30"
+msgid "Sunset starts at %1 and ends at %2"
+msgstr "غروب خورشید در %1 آغاز می‌شود و در %2 پایان می‌یابد"
+
+#: ui/SunPath.qml:82
+#, kde-format
+msgctxt "@label"
+msgid "Sunset"
+msgstr "غروب خورشید"
+
+#: ui/SunPath.qml:107
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Sunrise and sunset times cannot be determined at your location due to polar "
+"day. Choose custom times instead."
+msgstr ""
+"زمان‌های طلوع و غروب خورشید به دلیل روز قطبی در مکان شما قابل تعیین نیست. به"
+" جای آن، زمان‌های سفارشی را انتخاب کنید."
+
+#: ui/SunPath.qml:109
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Sunrise and sunset times cannot be determined at your location due to polar "
+"night. Choose custom times instead."
+msgstr ""
+"زمان‌های طلوع و غروب خورشید به دلیل شب قطبی در مکان شما قابل تعیین نیست. به "
+"جای آن، زمان‌های سفارشی را انتخاب کنید."
+
+#: ui/SunPath.qml:111
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Sunrise and sunset times cannot be reliably determined at your location. "
+"Choose custom times instead."
+msgstr ""
+"زمان‌های طلوع و غروب خورشید در مکان شما به‌طور قابل اطمینانی قابل تعیین "
+"نیست. به جای آن، زمان‌های سفارشی را انتخاب کنید."
+
+#: ui/TimeField.qml:31
+#, kde-format
+msgctxt "Time separator between hours and minutes"
+msgid ":"
+msgstr ":"
+
+#: ui/WorldMap.qml:76
+#, kde-format
+msgctxt ""
+"@label:chooser Tap should be translated to mean touching using a touchscreen"
+msgid "Tap to choose your location on the map."
+msgstr "برای انتخاب مکان خود روی نقشه ضربه بزنید."
+
+#: ui/WorldMap.qml:77
+#, kde-format
+msgctxt ""
+"@label:chooser Click should be translated to mean clicking using a mouse"
+msgid "Click to choose your location on the map."
+msgstr "برای انتخاب مکان خود روی نقشه کلیک کنید."
+
+#: ui/WorldMap.qml:190
+#, kde-format
+msgid "Zoom in"
+msgstr "بزرگ‌نمایی"
+
+#: ui/WorldMap.qml:207
+#, kde-format
+msgid "Zoom out"
+msgstr "کوچک‌نمایی"
+
+#: ui/WorldMap.qml:236
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Modified from <link "
+"url='https://commons.wikimedia.org/wiki/File:World_location_map_(equirectangular_180).svg'>World"
+" location map</link> by TUBS / Wikimedia Commons / <link "
+"url='https://creativecommons.org/licenses/by-sa/3.0'>CC BY-SA 3.0</link>"
+msgstr ""
+"تغییریافته از <link "
+"url='https://commons.wikimedia.org/wiki/File:World_location_map_(equirectangular_180).svg'>نقشهٔ"
+" موقعیت جهان</link> اثر TUBS / ویکی‌انبار / <link "
+"url='https://creativecommons.org/licenses/by-sa/3.0'>CC BY-SA 3.0</link>"

@@ -1,0 +1,1241 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the org.kde.clazy.metainfo package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: org.kde.clazy.metainfo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-31 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 15:23+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. (itstool) path: component/name
+#: org.kde.clazy.metainfo.xml:10
+msgid "Clazy"
+msgstr "Clazy"
+
+#. (itstool) path: component/summary
+#: org.kde.clazy.metainfo.xml:11
+msgid ""
+"A Clang compiler plugin which emits warnings related to Qt best practices"
+msgstr ""
+"یک افزونه کامپایلر Clang که هشدارهای مربوط به بهترین شیوه‌های کیوت (Qt) را "
+"ارائه می‌دهد"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:13
+msgid ""
+"Clazy is a clang compiler plugin which emits warnings related to Qt best "
+"practices."
+msgstr ""
+"برنامه Clazy یک افزونه کامپایلر Clang است که هشدارهای مربوط به بهترین "
+"شیوه‌های کیوت (Qt) را ارائه می‌دهد."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:33 org.kde.clazy.metainfo.xml:275
+msgid "This release fixes the following bug:"
+msgstr "این نسخه باگ زیر را برطرف می‌کند:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:35
+msgid ""
+"fully-qualified-moc-types: Fix false positive regression for "
+"pointer/reference types in generics."
+msgstr ""
+"fully-qualified-moc-types: رفع مشکل بازگشت مثبت کاذب برای انواع "
+"اشاره‌گر/مرجع در generics."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:41
+msgid "This is a patch release to fix QtCreator integration issues and"
+msgstr "این یک نسخه وصله (patch) برای رفع مشکلات یکپارچگی با QtCreator و"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:42
+msgid ""
+"compatibility with new Qt versions. This release supports LLVM versions 19 "
+"to 21."
+msgstr ""
+"سازگاری با نسخه‌های جدید Qt است. این نسخه از نسخه‌های ۱۹ تا ۲۱ LLVM پشتیبانی"
+" می‌کند."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:43 org.kde.clazy.metainfo.xml:54
+#: org.kde.clazy.metainfo.xml:77 org.kde.clazy.metainfo.xml:105
+#: org.kde.clazy.metainfo.xml:144 org.kde.clazy.metainfo.xml:181
+#: org.kde.clazy.metainfo.xml:192 org.kde.clazy.metainfo.xml:224
+#: org.kde.clazy.metainfo.xml:251 org.kde.clazy.metainfo.xml:341
+msgid "This release fixes the following bugs:"
+msgstr "این نسخه باگ‌های زیر را برطرف می‌کند:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:45
+msgid ""
+"Diagnostics are always emitted even if they contain no fixit. This is used"
+msgstr ""
+"عیب‌یابی‌ها همیشه ارائه می‌شوند، حتی اگر فاقد fixit باشند. این قابلیت برای"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:46
+msgid ""
+"for integration in IDEs where the clazy process writes a YAML file "
+"containing"
+msgstr ""
+"یکپارچگی در محیط‌های توسعه (IDE) استفاده می‌شود که در آن فرایند clazy یک "
+"پرونده YAML شامل"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:47
+msgid "the messages, ranges and optionally fixits"
+msgstr "پیام‌ها، محدوده‌ها و در صورت تمایل اصلاحات خودکار (fixits)"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:48 org.kde.clazy.metainfo.xml:64
+msgid "Adjust readlock-detaching check to work properly with Qt 6.11 changes"
+msgstr "تنظیم بررسی readlock-detaching برای کارکرد صحیح با تغییرات Qt 6.11"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:56
+msgid ""
+"Fix non-pod-static check emitting warning for each entry of a container"
+msgstr ""
+"رفع مشکل ارسال هشدار بررسی non-pod-static برای هر یک از ورودی‌های یک ظرف "
+"(container)"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:57
+msgid ""
+"Fix use-arrow-operator-instead-of-data emitting false positive when value is"
+" casted"
+msgstr ""
+"رفع مشکل مثبت کاذب در بررسی use-arrow-operator-instead-of-data هنگام تبدیل "
+"نوع مقدار (cast)"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:58
+msgid ""
+"Do not whitelist QVariant for detaching-temporary. QVariant::toString will "
+"provide a QString that is not detached"
+msgstr ""
+"عدم قرار دادن QVariant در فهرست مجاز برای detaching-temporary. تابع "
+"QVariant::toString یک QString جدا نشده (not detached) ارائه می‌دهد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:59
+msgid ""
+"detaching-temporary properly checks conditions when more than two method "
+"calls are chained"
+msgstr ""
+"بررسی صحیح شرایط توسط detaching-temporary هنگامی که بیش از دو فراخوانی متد "
+"زنجیره‌ای شده‌اند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:60
+msgid ""
+"Fixits for detaching-temporary/detaching-member are more reliable with fixit"
+" ranges for operator calls"
+msgstr ""
+"اصلاحات خودکار (Fixits) برای detaching-temporary/detaching-member با "
+"محدوده‌های fixit برای فراخوانی عملگرها قابل‌اعتمادتر هستند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:61
+msgid ""
+"When using QT_NAMESPACE, clazy properly handles Qt classes being in this "
+"specific namespace"
+msgstr ""
+"هنگام استفاده از QT_NAMESPACE، clazy قرار داشتن کلاس‌های Qt در این فضای نام "
+"خاص را به‌درستی مدیریت می‌کند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:62
+msgid "Fix wrong replacement method for QMap::operator[]"
+msgstr "رفع روش جایگزینی اشتباه برای QMap::operator[]"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:63
+msgid ""
+"Make project compile with LLVM22. qhash-namespace, fully-qualified-moc-"
+"types, old-style-connect tests are fixed"
+msgstr ""
+"امکان کامپایل پروژه با LLVM22. آزمون‌های qhash-namespace، fully-qualified-"
+"moc-types و old-style-connect برطرف شدند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:65
+msgid "Move qstring-ref to manuallevel since it is not compatible with Qt6"
+msgstr "انتقال qstring-ref به manuallevel به دلیل عدم سازگاری با Qt6"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:67
+msgid "This release adds the following feature:"
+msgstr "این نسخه قابلیت زیر را اضافه می‌کند:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:69
+msgid ""
+"New checks: - compare-member-check: Checks whether comparison operators do "
+"not use all member variables of a class."
+msgstr ""
+"بررسی‌های جدید: - compare-member-check: بررسی می‌کند که آیا عملگرهای مقایسه "
+"از تمام متغیرهای عضو یک کلاس استفاده می‌کنند یا خیر."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:71
+msgid "C++20 is now required for compilation"
+msgstr "اکنون برای کامپایل به C++20 نیاز است"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:72
+msgid "qt6-\\* porting checks are removed"
+msgstr "بررسی‌های انتقال qt6-\\* حذف شدند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:79
+msgid ""
+"unused-result-check: Fix crash when method decleration can not be resolved"
+msgstr "unused-result-check: رفع کرش هنگام عدم امکان تحلیل اعلان متد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:80
+msgid "use-chrono-in-qtimer: Fix crash when using precompiled headers"
+msgstr ""
+"use-chrono-in-qtimer: رفع کرش هنگام استفاده از هدرهای از پیش کامپایل‌شده "
+"(PCH)"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:81
+msgid ""
+"qt6-qhash-signature: Adapt check to use more proper logic for casts and fix "
+"crash in edgecases"
+msgstr ""
+"qt6-qhash-signature: تطبیق بررسی برای استفاده از منطق مناسب‌تر برای تبدیل "
+"نوع‌ها (casts) و رفع کرش در حالت‌های خاص (edge cases)"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:82
+msgid ""
+"Ensure that clang21 works properly with clazy and produces same line/letter "
+"number as before (mismatches with operator calls)"
+msgstr ""
+"اطمینان از عملکرد صحیح clang21 با clazy و ایجاد همان شماره خط/نویسه قبلی "
+"(عدم تطابق با فراخوانی عملگرها)"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:83
+msgid ""
+"non-pod-global-static: Fix false positive with Q_IMPORT_PLUGIN in Qt-6.10"
+msgstr "non-pod-global-static: رفع مثبت کاذب با Q_IMPORT_PLUGIN در Qt-6.10"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:85 org.kde.clazy.metainfo.xml:113
+#: org.kde.clazy.metainfo.xml:130 org.kde.clazy.metainfo.xml:139
+#: org.kde.clazy.metainfo.xml:159 org.kde.clazy.metainfo.xml:169
+#: org.kde.clazy.metainfo.xml:202 org.kde.clazy.metainfo.xml:215
+#: org.kde.clazy.metainfo.xml:234 org.kde.clazy.metainfo.xml:260
+#: org.kde.clazy.metainfo.xml:283 org.kde.clazy.metainfo.xml:314
+#: org.kde.clazy.metainfo.xml:333 org.kde.clazy.metainfo.xml:358
+msgid "This release adds the following features:"
+msgstr "این نسخه ویژگی‌های زیر را اضافه می‌کند:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:87
+msgid "Clazy can finally be integrated into clang-tidy - one command to rule"
+msgstr ""
+"سرانجام Clazy می‌تواند با clang-tidy ادغام شود - یک دستور برای فرمان‌روایی "
+"بر"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:88
+msgid ""
+"them all! All checks can be enabled using \"clazy-&lt;checkname&gt;\". For "
+"example:"
+msgstr ""
+"همه! همهٔ بررسی‌ها را می‌توان با «clazy-&lt;checkname&gt;» فعال کرد. برای "
+"مثال:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:89
+msgid "`clazy-qstring-arg,clazy-qfileinfo-exists`, enabling all checks using"
+msgstr ""
+"«clazy-qstring-arg,clazy-qfileinfo-exists»، فعال کردن همهٔ بررسی‌ها با "
+"استفاده از"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:90
+msgid ""
+"`clazy-*` will also enable manual checks. It is recommended to be more "
+"granular."
+msgstr ""
+"«clazy-*» بررسی‌های دستی را نیز فعال می‌کند. توصیه می‌شود دقیق‌تر و "
+"گزینشی‌تر عمل کنید."
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:91
+msgid ""
+"The plugin can be loaded using `-load=ClazyClangTidy.so`, for this, the "
+"plugin"
+msgstr ""
+"پلاگین را می‌توان با «-load=ClazyClangTidy.so» بارگذاری کرد، برای این کار، "
+"پلاگین"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:92
+msgid ""
+"must be in the LD_LIBRARY_PATH. Otherwise, an absolute path may be "
+"specified."
+msgstr ""
+"باید در LD_LIBRARY_PATH باشد. در غیر این صورت، می‌توان یک مسیر مطلق مشخص "
+"کرد."
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:93
+msgid ""
+"isempty-vs-count now provides fixits for all scenarios. Also, cases where"
+msgstr ""
+"اکنون isempty-vs-count برای همهٔ سناریوها اصلاح خودکار (fixit) ارائه می‌دهد."
+" همچنین مواردی که"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:94
+msgid ""
+"the length is compared using \"== 0\", \"&lt; 1\", \"&gt; 0\" are now "
+"reported and have fixits."
+msgstr ""
+"طول با «== 0»، «&lt; 1»، «&gt; 0» مقایسه می‌شود اکنون گزارش شده و دارای "
+"اصلاح خودکار هستند."
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:95
+msgid ""
+"qt6-\\* Porting checks are considered deprecated now and will be removed in "
+"the next release of clazy"
+msgstr ""
+"بررسی‌های انتقال به qt6-\\* اکنون منسوخ در نظر گرفته می‌شوند و در نسخهٔ بعدی"
+" clazy حذف خواهند شد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:96
+msgid ""
+"detaching-temporary and detaching-member checks provide fixits for methods "
+"that have const coutnerparts"
+msgstr ""
+"بررسی‌های detaching-temporary و detaching-member راه‌حل‌های خودکار (fixit) "
+"برای متدهایی که معادل‌های const دارند ارائه می‌دهند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:97
+msgid "NOLINT/NOLINTNEXTLINE/NOLINTBEGIN/NOLINTEND all work in clazy now as"
+msgstr ""
+"اکنون NOLINT/NOLINTNEXTLINE/NOLINTBEGIN/NOLINTEND همگی در clazy همان‌طور که"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:98
+msgid "expected. Individual clazy checks can be disabled when using a \"clazy-\""
+msgstr ""
+"انتظار می‌رفت کار می‌کنند. بررسی‌های تکی clazy را می‌توان با استفاده از "
+"پیشوند \"-clazy\""
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:99
+msgid ""
+"prefix. For example \"NOLINTNEXTLINE(clazy-qfileinfo-exists, clazy-qstring-"
+"arg)\""
+msgstr ""
+"غیرفعال کرد. برای مثال: «NOLINTNEXTLINE(clazy-qfileinfo-exists, clazy-"
+"qstring-arg)»"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:107
+msgid ""
+"install-event-filter: Fix crash when there is no child at the given depth. "
+"BUG: 464372"
+msgstr ""
+"‏install-event-filter: رفع خرابی ناشی از نبود فرزند در عمق مشخص‌شده. اشکال: "
+"464372"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:108
+msgid ""
+"fully-qualified-moc-types: Fix enum/enum class not being evaluated. BUG: "
+"423780"
+msgstr ""
+"‏fully-qualified-moc-types: رفع مشکل ارزیابی نشدن enum/enum class. اشکال: "
+"423780"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:109
+msgid "Fixed crash in qstring-comparison-to-implicit-char. BUG: 502458"
+msgstr "رفع خرابی در qstring-comparison-to-implicit-char. اشکال: 502458"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:110
+msgid ""
+"Fixed crash when fully-qualified-moc-types encounters signals with "
+"expressions like \"std::bitset&lt;int(8)&gt;\""
+msgstr ""
+"رفع خرابی هنگام مواجهه fully-qualified-moc-types با سیگنال‌های دارای عباراتی"
+" مانند «std::bitset&lt;int(8)&gt;»"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:111
+msgid "Fixed crash in qvariant-template-instantiation"
+msgstr "رفع خرابی در qvariant-template-instantiation"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:115 org.kde.clazy.metainfo.xml:132
+#: org.kde.clazy.metainfo.xml:316 org.kde.clazy.metainfo.xml:335
+#: org.kde.clazy.metainfo.xml:361
+msgid "New checks:"
+msgstr "بررسی‌های جدید:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:116
+msgid "readlock-detaching"
+msgstr "readlock-detaching"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:117
+msgid "Update minimum Clang/LLVM to 19"
+msgstr "به‌روزرسانی حداقل نگارش Clang/LLVM به ۱۹"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:118
+msgid ""
+"`clazy-standalone --version` contains git version ( output of `git "
+"describe`) if it is not a tagged commit"
+msgstr ""
+"دستور `clazy-standalone --version` در صورت برچسب‌گذاری‌نشدن کامیت، شامل "
+"نگارش گیت (خروجی `git describe`) خواهد بود"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:119
+msgid ""
+"Added missing methods to checks for detaching temporary/member lists or maps"
+msgstr "افزودن متدهای گمشده به بررسی‌های جداشدن لیست‌ها یا مپ‌های موقت/عضو"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:125
+msgid ""
+"Clazy warnings for the following line can be disabled, for example: "
+"clazy:exclude-next-line=check1,check2"
+msgstr ""
+"هشدارهای Clazy را می‌توان برای خط بعدی غیرفعال کرد، برای نمونه: "
+"clazy:exclude-next-line=check1,check2"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:126
+msgid "Support for compilation against Clang 20"
+msgstr "پشتیبانی از کامپایل با Clang 20"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:127
+msgid "increase verbosity of some warning messages"
+msgstr "افزایش جزئیات برخی پیام‌های هشدار"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:128
+msgid ""
+"checks `function-args-by-value` and `function-args-by-ref`: add function "
+"name and parameter name to warning message"
+msgstr ""
+"بررسی‌های `function-args-by-value` و `function-args-by-ref`: افزودن نام تابع"
+" و نام پارامتر به پیام هشدار"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:129
+msgid ""
+"checks `unused-non-trivial-variable` and `non-pod-global-static`: add "
+"variable name to warning message"
+msgstr ""
+"بررسی‌های `unused-non-trivial-variable` و `non-pod-global-static`: افزودن "
+"نام متغیر به پیام هشدار"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:133
+msgid "qbytearray-conversion-to-c-style"
+msgstr "qbytearray-conversion-to-c-style"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:141 org.kde.clazy.metainfo.xml:161
+#: org.kde.clazy.metainfo.xml:171 org.kde.clazy.metainfo.xml:204
+#: org.kde.clazy.metainfo.xml:217 org.kde.clazy.metainfo.xml:236
+#: org.kde.clazy.metainfo.xml:262 org.kde.clazy.metainfo.xml:285
+msgid "New Checks:"
+msgstr "بررسی‌های جدید:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:142
+msgid "used-qunused-variable"
+msgstr "used-qunused-variable"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:146
+msgid "qstring-arg check provides a fix-it"
+msgstr "بررسی qstring-arg یک اصلاح خودکار (fix-it) ارائه می‌دهد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:147
+msgid ""
+"Fixed unused-non-trivial-variable to not warn when [[maybe_unused]] set"
+msgstr ""
+"رفع مشکل unused-non-trivial-variable برای عدم هشدار در صورت تنظیم "
+"[[maybe_unused]]"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:148
+msgid "Fixed qstring-arg for upcoming Qt 6.9"
+msgstr "رفع مشکل qstring-arg برای نسخه پیشِ روی Qt 6.9"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:149
+msgid ""
+"Fixed fully-qualified-moc-types false positive for const modifiers of "
+"generic arguments"
+msgstr ""
+"رفع مثبت کاذب fully-qualified-moc-types برای تغییردهنده‌های const در "
+"آرگومان‌های جنریک"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:150
+msgid ""
+"Silence false positive non-pod-global-static warning for QML module "
+"initialization"
+msgstr ""
+"بی‌صدا کردن هشدار مثبت کاذب non-pod-global-static برای مقداردهی اولیه ماژول "
+"QML"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:151
+msgid ""
+"Fix function-args-by-value false positive that would cause compile error"
+msgstr "رفع مثبت کاذب function-args-by-value که باعث خطای کامپایل می‌شد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:152
+msgid "in copy constructors, assignment operators and equal checks"
+msgstr "در سازنده‌های کپی، عملگرهای انتساب و بررسی‌های برابری"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:153
+msgid "False positives for `Q_EMIT(someSignal())` are now fixed"
+msgstr "موارد مثبت کاذب برای `Q_EMIT(someSignal())` اکنون برطرف شده‌اند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:162
+msgid "qt-keyword-emit"
+msgstr "qt-keyword-emit"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:163
+msgid "sanitize-inline-keyword"
+msgstr "sanitize-inline-keyword"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:172
+msgid "use-arrow-operator-instead-of-data"
+msgstr "use-arrow-operator-instead-of-data"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:173
+msgid "use-static-qregularexpression"
+msgstr "use-static-qregularexpression"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:174
+msgid "unexpected-flag-enumerator-value"
+msgstr "unexpected-flag-enumerator-value"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:175
+msgid "Removed inefficient-qlist check (Fixed in Qt6)"
+msgstr "بررسی inefficient-qlist حذف شد (در Qt6 رفع شد)"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:183
+msgid "Requires C++17"
+msgstr "نیازمند C++17 است"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:184
+msgid "Bugfixes:"
+msgstr "رفع اشکالات:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:185
+msgid "Fixed a -Wclazy-lambda-in-connect false-positive"
+msgstr "رفع یک مورد مثبت کاذب در -Wclazy-lambda-in-connect"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:186
+msgid "Fixed crash in copyable-polymorphic when PCH was enabled"
+msgstr "رفع خرابی در copyable-polymorphic هنگام فعال بودن PCH"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:194
+msgid "Fixed clazy slowdown introduced in 1.8. I can be up to 4x faster now."
+msgstr ""
+"کندی clazy معرفی‌شده در نسخهٔ ۱.۸ برطرف شد. اکنون می‌تواند تا ۴ برابر "
+"سریع‌تر باشد."
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:195
+msgid "range-loop was split in range-loop-detach and range-loop-reference"
+msgstr ""
+"بررسی range-loop به دو بخش range-loop-detach و range-loop-reference تقسیم شد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:196
+msgid "Fixed -Wclazy-connect-non-signal false positives"
+msgstr "هشدارهای کاذب ‎-Wclazy-connect-non-signal برطرف شدند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:205
+msgid "qt6-qhash-signature"
+msgstr "qt6-qhash-signature"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:206
+msgid "qt6-header-fixes"
+msgstr "qt6-header-fixes"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:207
+msgid "qt6-deprecated-api-fixes"
+msgstr "qt6-deprecated-api-fixes"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:208
+msgid "use-chrono-in-qtimer"
+msgstr "use-chrono-in-qtimer"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:209
+msgid "fixit for missing-qobject-macro"
+msgstr "اصلاح خودکار (fixit) برای missing-qobject-macro"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:218
+msgid "overloaded signal"
+msgstr "سیگنال سربارگذاری‌شده (overloaded)"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:219
+msgid "invalid JNI signatures"
+msgstr "امضاهای JNI نامعتبر"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:220
+msgid "qstring-comparison-to-implicit-char"
+msgstr "qstring-comparison-to-implicit-char"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:221
+msgid "qt6-qlatin1string-to-u"
+msgstr "qt6-qlatin1string-to-u"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:222
+msgid "heap-allocated-small-trivial-type: less false-positives"
+msgstr "heap-allocated-small-trivial-type: خطاهای مثبت کاذب کمتر"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:226
+msgid "connect-non-signal: Fix case where it didn't find the pmf"
+msgstr "connect-non-signal: رفع موردی که در آن pmf پیدا نمی‌شد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:227
+msgid ""
+"qstring-arg warns when using QLatin1String::arg(int), as it casts to QChar"
+msgstr ""
+"‏qstring-arg هنگام استفاده از QLatin1String::arg(int) هشدار می‌دهد، زیرا به "
+"QChar تبدیل نوع (cast) می‌شود"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:229
+msgid "Building clazy itself is 30% faster"
+msgstr "ساخت خود clazy ۳۰٪ سریع‌تر شده است"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:237
+msgid "heap-allocated-small-trivial-type"
+msgstr "heap-allocated-small-trivial-type"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:238
+msgid "signal-with-return-value"
+msgstr "signal-with-return-value"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:239
+msgid "qproperty-type-mismatch, contributed by Jean-Michaël Celerier"
+msgstr "‏qproperty-type-mismatch، با مشارکت Jean-Michaël Celerier"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:241
+msgid ""
+"Removed level3. Moved all level3 checks to manual level. Doesn't make sense "
+"to enable all of them."
+msgstr ""
+"سطح ۳ (level3) حذف شد. همه بررسی‌های سطح ۳ به سطح دستی (manual) منتقل شدند. "
+"فعال کردن همه آن‌ها منطقی نیست."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:242
+msgid "Each one must be carefully considered."
+msgstr "هر کدام باید به دقت بررسی شوند."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:243
+msgid "Minimum LLVM was bumped to 5.0"
+msgstr "حداقل نسخهٔ LLVM به ۵٫۰ ارتقا یافت"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:244
+msgid ""
+"Clazy no longer rewrites files directly, to avoid races when parallel "
+"invocations change the same header."
+msgstr ""
+"Clazy دیگر پرونده‌ها را مستقیماً بازنویسی نمی‌کند، تا از تداخل هنگام تغییر "
+"یک سرآیند یکسان توسط فراخوانی‌های هم‌زمان جلوگیری شود."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:245
+msgid ""
+"Clazy now exports a yaml file with the replacements, to be applied with "
+"clang-apply-replacements."
+msgstr ""
+"اکنون Clazy یک پروندهٔ yaml شامل جایگزینی‌ها صادر می‌کند تا با clang-apply-"
+"replacements اعمال شوند."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:246
+msgid "The same way other clang tooling does it."
+msgstr "همان شیوه‌ای که دیگر ابزارهای clang انجام می‌دهند."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:247
+msgid ""
+"The way to enable code rewrite is now: -Xclang -plugin-arg-clazy -Xclang "
+"export-fixes for clang"
+msgstr ""
+"روش فعال‌سازی بازنویسی کد اکنون بدین صورت است: ‎-Xclang -plugin-arg-clazy "
+"-Xclang export-fixes‎ برای clang"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:248
+msgid "or -export-fixes=somefile.yaml for clazy-standalone"
+msgstr "یا ‎-export-fixes=somefile.yaml‎ برای clazy-standalone"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:249
+msgid "All other fixit arguments and fixit env variables were removed"
+msgstr "همهٔ آرگومان‌های دیگر fixit و متغیرهای محیطی fixit حذف شدند"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:250
+msgid ""
+"Thanks to Christian Gagneraud for contributing the fixit yaml exporter!"
+msgstr ""
+"با تشکر از Christian Gagneraud برای مشارکت در صادرکنندهٔ yaml مربوط به "
+"fixit!"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:253
+msgid "Fixed regressions with LLVM 9.0"
+msgstr "مشکلات پس‌رفت با LLVM 9.0 برطرف شدند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:254
+msgid "Fixit infrastructure was overhauled"
+msgstr "زیرساخت Fixit بازنگری شد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:263
+msgid "ifndef-define-typo"
+msgstr "ifndef-define-typo"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:264
+msgid "lowercase-qml-type-name"
+msgstr "lowercase-qml-type-name"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:265
+msgid "qrequiredresult-candidates"
+msgstr "qrequiredresult-candidates"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:266
+msgid "New Fixits:"
+msgstr "Fixitهای جدید:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:267
+msgid "range-loop now supports adding missing refs or const-ref"
+msgstr ""
+"بررسی range-loop اکنون از افزودن ارجاع‌ها یا const-ref ناموجود پشتیبانی "
+"می‌کند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:268
+msgid "range-loop now supports adding qAsConst()"
+msgstr "بررسی range-loop اکنون از افزودن ()qAsConst پشتیبانی می‌کند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:269
+msgid ""
+"function-args-by-ref now adding missing refs or const-ref (experimental)"
+msgstr ""
+"بررسی function-args-by-ref اکنون ارجاع‌ها یا const-ref ناموجود را اضافه "
+"می‌کند (آزمایشی)"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:270
+msgid "Introduced CLAZY_FIXIT_SUFFIX env variable"
+msgstr "متغیر محیطی CLAZY_FIXIT_SUFFIX معرفی شد"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:272
+msgid ""
+"Removed support for the obscure -DCLAZY_BUILD_UTILS_LIB to simplify the "
+"CMakeLists.txt"
+msgstr ""
+"پشتیبانی از گزینهٔ مبهم ‎-DCLAZY_BUILD_UTILS_LIB به منظور ساده‌سازی "
+"CMakeLists.txt حذف شد"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:273
+msgid "Renamed the clazy plugin from ClangLazy.so to ClazyPlugin.so"
+msgstr "تغییر نام افزونهٔ clazy از ClangLazy.so به ClazyPlugin.so"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:274
+msgid ""
+"fully-qualified-moc-types now warns for slot/invokable return values too. "
+"They need to be fully qualified for QML."
+msgstr ""
+"بررسی fully-qualified-moc-types اکنون برای مقادیر بازگشتی slot/invokable نیز"
+" هشدار می‌دهد. آن‌ها برای QML باید به‌طور کامل مشخص (fully qualified) باشند."
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:277
+msgid "Fixed a crash (clang assert) in raw-environment-function"
+msgstr "رفع یک مورد خرابی (clang assert) در raw-environment-function"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:286
+msgid "connect-by-name"
+msgstr "connect-by-name"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:287
+msgid "skipped-base-method"
+msgstr "skipped-base-method"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:288
+msgid "qstring-varargs"
+msgstr "qstring-varargs"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:289
+msgid "fully-qualified-moc-types"
+msgstr "fully-qualified-moc-types"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:290
+msgid "qt-keywords, with fixit included"
+msgstr "qt-keywords، به همراه fixit"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:291
+msgid "qhash-with-char-pointer-key"
+msgstr "qhash-with-char-pointer-key"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:292
+msgid "wrong-qevent-cast"
+msgstr "wrong-qevent-cast"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:293
+msgid "static-pmf"
+msgstr "static-pmf"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:294
+msgid "raw-environment-function"
+msgstr "raw-environment-function"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:295
+msgid "empty-qstringliteral"
+msgstr "empty-qstringliteral"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:296
+msgid ""
+"auto-unexpected-qstringbuilder now also warns for lambdas returning "
+"QStringBuilder"
+msgstr ""
+"بررسی auto-unexpected-qstringbuilder اکنون برای توابع لامبدا که "
+"QStringBuilder برمی‌گردانند نیز هشدار می‌دهد"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:298
+msgid "performance optimizations"
+msgstr "بهینه‌سازی‌های کارایی"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:299
+msgid ""
+"Added -header-filter=&lt;regex&gt; option to clazy-standalone. Only headers "
+"matching the regexp will"
+msgstr ""
+"گزینهٔ -header-filter=&lt;regex&gt; به clazy-standalone اضافه شد. تنها "
+"سرآیندهای منطبق بر این عبارت باقاعده"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:300
+msgid ""
+"have warnings, besides the .cpp file from the translation unit, which is "
+"never filtered out."
+msgstr ""
+"دارای هشدار خواهند بود، به جز پروندهٔ .cpp واحد ترجمه که هرگز فیلتر نمی‌شود."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:301
+msgid ""
+"Added -ignore-dirs=&lt;regex&gt; option to clazy-standalone, and its "
+"CLAZY_IGNORE_DIRS env variable equivalent."
+msgstr ""
+"گزینهٔ -ignore-dirs=&lt;regex&gt; و معادل متغیر محیطی آن CLAZY_IGNORE_DIRS "
+"به clazy-standalone اضافه شد."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:302
+msgid ""
+"Added CLAZY_HEADER_FILTER env variable which adds above functionality to "
+"both clazy and clazy-standalone"
+msgstr ""
+"متغیر محیطی CLAZY_HEADER_FILTER اضافه شد که قابلیت فوق را به هر دو ابزار "
+"clazy و clazy-standalone می‌افزاید"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:303
+msgid ""
+"unused-non-trivial-variable got unused-non-trivial-variable-no-whitelist "
+"option"
+msgstr ""
+"بررسی unused-non-trivial-variable گزینهٔ unused-non-trivial-variable-no-"
+"whitelist را دریافت کرد"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:304
+msgid ""
+"unused-non-trivial-variable got user-blacklist and user-whitelist support"
+msgstr ""
+"بررسی unused-non-trivial-variable از فهرست سیاه و سفید کاربر پشتیبانی می‌کند"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:305
+msgid "container-inside-loop is now a manual check instead of level2"
+msgstr ""
+"بررسی container-inside-loop اکنون به‌جای level2 یک بررسی دستی (manual) است"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:306
+msgid "HiddenLevel was renamed to ManualLevel"
+msgstr "نام HiddenLevel به ManualLevel تغییر یافت"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:307
+msgid ""
+"connect-3arg-lambda now warns when passing a lambda to QTimer::singleShot() "
+"or QMenu::addAction()"
+msgstr ""
+"بررسی connect-3arg-lambda اکنون هنگام ارسال لامبدا به ()QTimer::singleShot "
+"یا ()QMenu::addAction هشدار می‌دهد"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:308
+msgid "without a context object"
+msgstr "بدون شیء زمینه (context object)"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:309
+msgid ""
+"old-style-connect warns for QMenu::addAction() and QMessageBox::open() too "
+"now"
+msgstr ""
+"بررسی old-style-connect اکنون برای ()QMenu::addAction و ()QMessageBox::open "
+"نیز هشدار می‌دهد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:317
+msgid "thread-with-slots"
+msgstr "thread-with-slots"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:318
+msgid "connect-3arg-lambda"
+msgstr "connect-3arg-lambda"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:319
+msgid "qproperty-without-notify"
+msgstr "qproperty-without-notify"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:320
+msgid "virtual-signal"
+msgstr "virtual-signal"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:321
+msgid "overridden-signal"
+msgstr "overridden-signal"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:322
+msgid "qhash-namespace"
+msgstr "qhash-namespace"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:323
+msgid "const-signal-or-slot"
+msgstr "const-signal-or-slot"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:324
+msgid "lambda-unique-connection"
+msgstr "lambda-unique-connection"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:326
+msgid ""
+"missing-qobject-macro is now a level2 check, instead of level1. Because, "
+"people can omit Q_OBJECT intentionally."
+msgstr ""
+"بررسی missing-qobject-macro اکنون به‌جای سطح ۱، یک بررسی سطح ۲ است. زیرا "
+"ممکن است افراد عمداً Q_OBJECT را حذف کنند."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:327
+msgid ""
+"Added -only-qt option, which will make clazy bailout early on non-Qt files. "
+"For this purpose, the definition of a Qt file is whenever -DQT_CORE_LIB is "
+"passed, which is usually the case in most build systems."
+msgstr ""
+"گزینهٔ -only-qt اضافه شد که باعث می‌شود clazy در فایل‌های غیر Qt فوراً خارج "
+"شود. برای این منظور، تعریف فایل Qt مواردی است که -DQT_CORE_LIB ارسال شده "
+"باشد، که معمولاً در اکثر سامانه‌های ساخت چنین است."
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:328
+msgid ""
+"Added -qt-developer option, when building Qt with clazy it will honour "
+"specific guidelines for Qt, which are not many right now but the list will "
+"grow."
+msgstr ""
+"گزینهٔ -qt-developer اضافه شد؛ هنگام ساخت Qt با clazy، دستورالعمل‌های خاص Qt"
+" رعایت خواهد شد، که در حال حاضر زیاد نیستند اما به این فهرست افزوده خواهد "
+"شد."
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:336
+msgid "install-event-filter"
+msgstr "install-event-filter"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:337
+msgid "qcolor-from-literal"
+msgstr "qcolor-from-literal"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:338
+msgid "strict-iterators"
+msgstr "strict-iterators"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:339
+msgid "connect-not-normalized"
+msgstr "connect-not-normalized"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:343
+msgid ""
+"clazy-standalone executable. Allows to run clazy against a JSON compilation "
+"database instead of as a plugin. clang-tidy doesn't support loading external"
+" modules (https://github.com/llvm/llvm-project/issues/32086) so this is a "
+"good workaround."
+msgstr ""
+"فایل اجرایی clazy-standalone. امکان اجرای clazy را روی یک پایگاه داده "
+"کامپایل JSON به‌جای افزونه فراهم می‌کند. clang-tidy از بارگذاری ماژول‌های "
+"خارجی پشتیبانی نمی‌کند (https://github.com/llvm/llvm-project/issues/32086)، "
+"بنابراین این روش یک راه‌حل جایگزین مناسب است."
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:344
+msgid ""
+"qt-compat mode. Allows to disable Qt5 specific checks by passing -Xclang "
+"-plugin-arg-clazy -Xclang qt4-compat"
+msgstr ""
+"حالت qt-compat. امکان غیرفعال کردن بررسی‌های مختص Qt5 را با ارسال ‎-Xclang "
+"-plugin-arg-clazy -Xclang qt4-compat فراهم می‌کند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:345
+msgid ""
+"returning-data-from-temporary now checks for temporary QByteArrays casting "
+"to char* when returned"
+msgstr ""
+"بررسی returning-data-from-temporary اکنون تبدیل QByteArrayهای موقت به *char "
+"را هنگام بازگردانده شدن بررسی می‌کند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:346
+msgid ""
+"returning-data-from-temporary now checks for assignment too, not only return"
+" statements"
+msgstr ""
+"بررسی returning-data-from-temporary اکنون علاوه بر دستورات return، انتساب‌ها"
+" را نیز بررسی می‌کند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:347
+msgid ""
+"unused-non-trivial-variable now warns for unused QList, QVector and many "
+"more types"
+msgstr ""
+"بررسی unused-non-trivial-variable اکنون برای QList، QVector و انواع بسیار "
+"دیگری که استفاده نشده‌اند هشدار می‌دهد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:348
+msgid "ASTMatchers based checks are now supported"
+msgstr "بررسی‌های مبتنی بر ASTMatchers اکنون پشتیبانی می‌شوند"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:349
+msgid "clang 3.7 was dropped due to ASTMatchers source incompatibilities."
+msgstr ""
+"پشتیبانی از clang 3.7 به‌دلیل ناسازگاری‌های سورس‌کد ASTMatchers متوقف شد."
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:350
+msgid "Use clazy v1.1 for clang &gt;= 3.6 support"
+msgstr "برای پشتیبانی از clang &gt;= 3.6 از clazy نسخه ۱.۱ استفاده کنید"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:351
+msgid ""
+"clazylib.so no longer gets built by default, only the plugin (ClangLazy.so) "
+"gets built. Pass -DCLAZY_BUILD_UTILS_LIB=ON to enable the utils library if "
+"you're developing tools using clazy's convenience functions, which you're "
+"probably not."
+msgstr ""
+"فایل clazylib.so دیگر به‌طور پیش‌فرض ساخته نمی‌شود و تنها افزونه "
+"(ClangLazy.so) ساخته می‌شود. اگر در حال توسعه ابزارهایی با استفاده از توابع "
+"کمکی clazy هستید (که احتمالاً نیستید)، برای فعال‌سازی کتابخانه utils عبارت "
+"‎-DCLAZY_BUILD_UTILS_LIB=ON را ارسال کنید."
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:352
+msgid ""
+"CLAZY_INSTALL_NO_HEADERS option was removed. Either install the utils "
+"library and headers or nothing at all. By default nothing is installed, "
+"except the plugin and man pages."
+msgstr ""
+"گزینهٔ CLAZY_INSTALL_NO_HEADERS حذف شد. یا کتابخانهٔ utils و سرآیندها را نصب"
+" کنید یا اصلاً چیزی نصب نکنید. به‌طور پیش‌فرض، به‌جز افزونه و صفحات راهنما "
+"(man pages) چیزی نصب نمی‌شود."
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:360
+msgid "macOS and Windows support"
+msgstr "پشتیبانی از macOS و ویندوز"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:362
+msgid "child-event-qobject-cast"
+msgstr "child-event-qobject-cast"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:363
+msgid "ctor-missing-parent-argument"
+msgstr "ctor-missing-parent-argument"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:364
+msgid "returning-data-from-temporary"
+msgstr "returning-data-from-temporary"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:365
+msgid "qt-macros"
+msgstr "qt-macros"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:366
+msgid "base-class-event"
+msgstr "base-class-event"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:367
+msgid "connect-non-signal"
+msgstr "connect-non-signal"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:368
+msgid "incorrect-emit"
+msgstr "incorrect-emit"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:369
+msgid "tr-non-literal"
+msgstr "tr-non-literal"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:370
+msgid "Fixes against:"
+msgstr "اصلاحات مربوط به:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:371
+msgid "clang 4.0"
+msgstr "clang 4.0"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:372
+msgid "Qt 5.9"
+msgstr "Qt 5.9"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:373
+msgid "Notes:"
+msgstr "یادداشت‌ها:"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:374
+msgid "60% performance improvement"
+msgstr "۶۰٪ بهبود عملکرد"
+
+#. (itstool) path: ul/li
+#: org.kde.clazy.metainfo.xml:375
+msgid "Fixed many false positives"
+msgstr "رفع بسیاری از موارد مثبت کاذب"
+
+#. (itstool) path: description/p
+#: org.kde.clazy.metainfo.xml:382
+msgid "First release"
+msgstr "اولین انتشار"

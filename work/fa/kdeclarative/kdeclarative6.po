@@ -1,0 +1,152 @@
+# translation of kdelibs4.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Mahdi Foladgar <foladgar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2007.
+# Nooshin Asiaie <asiaie@itland.ir>, 2007.
+# Mohamad Reza Mirdamadi <mohi@linuxshop.ir>, 2009, 2010, 2011, 2012.
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-07 00:40+0000\n"
+"PO-Revision-Date: 2026-10-15 19:52+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: qmlcontrols/kquickcontrols/ColorButton.qml:67
+#, kde-format
+msgctxt "@info:whatsthis for a button"
+msgid "Color button"
+msgstr "دکمهٔ رنگ"
+
+#: qmlcontrols/kquickcontrols/ColorButton.qml:69
+#, kde-format
+msgctxt "@info:whatsthis for a button of current color code %1"
+msgid "Current color is %1. This button will open a color chooser dialog."
+msgstr "رنگ فعلی %1 است. این دکمه گفت‌وگوی انتخاب رنگ را باز می‌کند."
+
+#: qmlcontrols/kquickcontrols/ColorButton.qml:70
+#, kde-format
+msgctxt "@info:whatsthis for a button of current color code %1"
+msgid "Current color is %1."
+msgstr "رنگ فعلی %1 است."
+
+#: qmlcontrols/kquickcontrols/KeySequenceItem.qml:184
+#, kde-format
+msgctxt "What the user inputs now will be taken as the new shortcut"
+msgid "Input"
+msgstr "ورودی"
+
+#: qmlcontrols/kquickcontrols/KeySequenceItem.qml:185
+#, kde-format
+msgctxt "No shortcut defined"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: qmlcontrols/kquickcontrols/KeySequenceItem.qml:196
+#, kde-format
+msgid ""
+"Click on the button, then enter the shortcut like you would in the program.\n"
+"Example for Ctrl+A: hold the Ctrl key and press A."
+msgstr ""
+"روی دکمه کلیک کنید، سپس میان‌بر را همان‌طور که در برنامه می‌زنید وارد کنید.\n"
+"مثال برای Ctrl+A: کلید Ctrl را نگه داشته و A را فشار دهید."
+
+#: qmlcontrols/kquickcontrols/KeySequenceItem.qml:239
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear Key Sequence"
+msgstr "پاک کردن توالی کلید"
+
+#: qmlcontrols/kquickcontrols/KeySequenceItem.qml:256
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel Key Sequence Recording"
+msgstr "لغو ضبط توالی کلید"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:121
+#, kde-format
+msgid "Reserved Shortcut"
+msgstr "میان‌بر رزرو شده"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:123
+#, kde-format
+msgid ""
+"The F12 key is reserved on Windows, so cannot be used for a global shortcut.\n"
+"Please choose another one."
+msgstr ""
+"کلید F12 در ویندوز رزرو شده است، بنابراین نمی‌تواند به عنوان میان‌بر سراسری استفاده شود.\n"
+"لطفاً کلید دیگری انتخاب کنید."
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:145
+#, kde-format
+msgid "Global Shortcut Shadowing"
+msgstr "هم‌پوشانی کلید میان‌بر سراسری"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:148
+#, kde-format
+msgid "The '%1' key combination is shadowed by following global actions:\n"
+msgstr "ترکیب کلید «%1» توسط این کنش‌های سراسری پوشانده شده است:\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:150
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:156
+#, kde-format
+msgid "Action '%1' in context '%2'\n"
+msgstr "کنش «%1» در زمینهٔ «%2»\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:154
+#, kde-format
+msgid "The '%1' key combination shadows following global actions:\n"
+msgstr "ترکیب کلید «%1» بر این کنش‌های سراسری سایه می‌اندازد:\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:165
+#, kde-format
+msgctxt "@dialog:title"
+msgid "Found Conflict"
+msgstr "تداخل پیدا شد"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:170
+#, kde-format
+msgid ""
+"Shortcut '%1' is already assigned to action '%2' of %3.\n"
+"Do you want to reassign it?"
+msgstr ""
+"میان‌بر «%1» از قبل به کنش «%2» از %3 اختصاص یافته است.\n"
+"آیا می‌خواهید آن را دوباره اختصاص دهید؟"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:175
+#, kde-format
+msgid "Shortcut '%1' is already assigned to the following actions:\n"
+msgstr "میان‌بر «%1» از قبل به کنش‌های زیر اختصاص یافته است:\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:177
+#, kde-format
+msgid "Action '%1' of %2\n"
+msgstr "کنش «%1» از %2\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:179
+#, kde-format
+msgid "Do you want to reassign it?"
+msgstr "آیا می‌خواهید دوباره اختصاص دهید؟"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:195
+#, kde-format
+msgid "Conflict with Standard Application Shortcut"
+msgstr "تداخل با میان‌بر استاندارد برنامه"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:197
+#, kde-format
+msgid ""
+"The '%1' key combination is also used for the standard action \"%2\" that some applications use.\n"
+"Do you really want to use it as a global shortcut as well?"
+msgstr ""
+"ترکیب کلید «%1» برای کنش استاندارد «%2» که برخی برنامه‌ها استفاده می‌کنند نیز به‌کار رفته است.\n"
+"آیا واقعاً می‌خواهید از آن به‌عنوان یک میان‌بُر سراسری هم استفاده کنید؟"

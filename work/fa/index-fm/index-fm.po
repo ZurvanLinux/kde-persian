@@ -1,0 +1,798 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the index-fm package.
+#
+# SPDX-FileCopyrightText: 2024 Sohrab Behdani <behdanisohrab@proton.me>
+# Gnkalk <gnkalk@yahoo.com>, 2024.
+#
+# SPDX-FileCopyrightText: 2024 Mohi Mirdamadi <mohi.pub@gmail.com>
+# Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: index-fm\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-10-15 18:12+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/index.cpp:292 src/widgets/views/SettingsDialog.qml:340
+#, kde-format
+msgid "Overview"
+msgstr "نمای کلی"
+
+#: src/index.cpp:298
+#, kde-format
+msgid "Favorite"
+msgstr "نشان‌شده"
+
+#: src/index.cpp:304 src/widgets/views/BrowserView.qml:141
+#: src/widgets/views/TagsSection.qml:20
+#, kde-format
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: src/main.cpp:65
+#, kde-format
+msgid "Index"
+msgstr "نمایه"
+
+#: src/main.cpp:67
+#, kde-format
+msgid "Browse, organize and preview your files."
+msgstr "مرور، سازماندهی و پیش‌نمایش پرونده‌های خود."
+
+#: src/main.cpp:72 src/main.cpp:73
+#, kde-format
+msgid "Developer"
+msgstr "توسعه‌دهنده"
+
+#: src/main.cpp:90
+#, kde-format
+msgid "Open url in a new window."
+msgstr "باز کردن نشانی اینترنتی در پنجره‌ای جدید."
+
+#: src/main.qml:146
+#, kde-format
+msgid "New tab"
+msgstr "زبانه جدید"
+
+#: src/main.qml:154
+#, kde-format
+msgid "View Hidden"
+msgstr "نمایش موارد پنهان"
+
+#: src/main.qml:163
+#, kde-format
+msgid "Split View"
+msgstr "نمای دوپاره"
+
+#: src/main.qml:173 src/widgets/views/Browser.qml:322
+#: src/widgets/views/SettingsDialog.qml:365
+#: src/widgets/views/ShortcutsDialog.qml:78
+#, kde-format
+msgid "Terminal"
+msgstr "پایانه"
+
+#: src/main.qml:192
+#, kde-format
+msgid "Tagged"
+msgstr "برچسب‌گذاری‌شده"
+
+#: src/main.qml:193
+#, kde-format
+msgid "File was tagged successfully"
+msgstr "پرونده با موفقیت برچسب‌گذاری شد"
+
+#: src/main.qml:375
+#, kde-format
+msgid "Toggle sidebar"
+msgstr "تغییر وضعیت نوار کناری"
+
+#: src/main.qml:407 src/widgets/views/SettingsDialog.qml:120
+#, kde-format
+msgid "List"
+msgstr "فهرست"
+
+#: src/main.qml:422 src/widgets/views/SettingsDialog.qml:132
+#, kde-format
+msgid "Grid"
+msgstr "شبکه‌ای"
+
+#: src/main.qml:463
+#, kde-format
+msgid "Paste"
+msgstr "جای‌گذاری"
+
+#: src/main.qml:479 src/widgets/views/ShortcutsDialog.qml:163
+#, kde-format
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: src/main.qml:490
+#, kde-format
+msgid "New Item"
+msgstr "مورد جدید"
+
+#: src/main.qml:502 src/widgets/views/SettingsDialog.qml:147
+#, kde-format
+msgid "Sort"
+msgstr "مرتب‌سازی"
+
+#: src/main.qml:506 src/widgets/views/SettingsDialog.qml:159
+#, kde-format
+msgid "Type"
+msgstr "نوع"
+
+#: src/main.qml:518 src/widgets/views/SettingsDialog.qml:171
+#, kde-format
+msgid "Date"
+msgstr "تاریخ"
+
+#: src/main.qml:531 src/widgets/views/SettingsDialog.qml:182
+#, kde-format
+msgid "Modified"
+msgstr "تغییر یافته"
+
+#: src/main.qml:544 src/widgets/views/SettingsDialog.qml:193
+#, kde-format
+msgid "Size"
+msgstr "اندازه"
+
+#: src/main.qml:557 src/widgets/views/SettingsDialog.qml:204
+#, kde-format
+msgid "Name"
+msgstr "نام"
+
+#: src/main.qml:581
+#, kde-format
+msgid "Open Terminal Here"
+msgstr "باز کردن پایانه در اینجا"
+
+#: src/main.qml:594 src/widgets/views/ShortcutsDialog.qml:9
+#, kde-format
+msgid "Shortcuts"
+msgstr "میان‌برها"
+
+#: src/main.qml:605
+#, kde-format
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: src/main.qml:612
+#, kde-format
+msgid "About"
+msgstr "درباره"
+
+#: src/main.qml:679 src/widgets/views/FileMenu.qml:201
+#, kde-format
+msgid "Bookmark"
+msgstr "نشانک"
+
+#: src/main.qml:686 src/widgets/views/FileMenu.qml:221
+#: src/widgets/views/PlacesSideBar.qml:83
+#, kde-format
+msgid "Open in New Tab"
+msgstr "باز کردن در برگه جدید"
+
+#: src/main.qml:694 src/widgets/views/FileMenu.qml:241
+#: src/widgets/views/PlacesSideBar.qml:98
+#, kde-format
+msgid "Open in Split View"
+msgstr "باز کردن در نمای دونمایی"
+
+#: src/widgets/previewer/FilePreviewer.qml:96
+#, kde-format
+msgid "Details"
+msgstr "جزئیات"
+
+#: src/widgets/previewer/FilePreviewer.qml:97
+#, kde-format
+msgid "File information"
+msgstr "اطلاعات پرونده"
+
+#: src/widgets/previewer/FileProperties.qml:43
+#, kde-format
+msgid "Permissions"
+msgstr "مجوزها"
+
+#: src/widgets/previewer/FileProperties.qml:44
+#: src/widgets/previewer/FileProperties.qml:154
+#, kde-format
+msgid "Set file permissions to access this file"
+msgstr "تنظیم مجوزهای پرونده برای دسترسی به این پرونده"
+
+#: src/widgets/previewer/FileProperties.qml:52
+#: src/widgets/previewer/FileProperties.qml:163
+#, kde-format
+msgid "Owner"
+msgstr "مالک"
+
+#: src/widgets/previewer/FileProperties.qml:62
+#: src/widgets/previewer/FileProperties.qml:95
+#: src/widgets/previewer/FileProperties.qml:128
+#, kde-format
+msgid "Read"
+msgstr "خواندن"
+
+#: src/widgets/previewer/FileProperties.qml:69
+#: src/widgets/previewer/FileProperties.qml:102
+#: src/widgets/previewer/FileProperties.qml:134
+#, kde-format
+msgid "Write"
+msgstr "نوشتن"
+
+#: src/widgets/previewer/FileProperties.qml:76
+#: src/widgets/previewer/FileProperties.qml:110
+#: src/widgets/previewer/FileProperties.qml:140
+#, kde-format
+msgid "Execute"
+msgstr "اجرا"
+
+#: src/widgets/previewer/FileProperties.qml:84
+#: src/widgets/previewer/FileProperties.qml:170
+#: src/widgets/views/SettingsDialog.qml:231
+#, kde-format
+msgid "Group"
+msgstr "گروه"
+
+#: src/widgets/previewer/FileProperties.qml:118
+#, kde-format
+msgid "Everyone"
+msgstr "همه"
+
+#: src/widgets/previewer/FileProperties.qml:153
+#, kde-format
+msgid "Ownership"
+msgstr "مالکیت"
+
+#: src/widgets/previewer/FontPreviewer.qml:31
+#, kde-format
+msgid "Install"
+msgstr "نصب"
+
+#: src/widgets/previewer/PreviewerDialog.qml:52
+#: src/widgets/previewer/PreviewerWindow.qml:50
+#: src/widgets/views/BrowserView.qml:119 src/widgets/views/HomeView.qml:35
+#, kde-format
+msgid "Open"
+msgstr "باز کردن"
+
+#: src/widgets/views/Browser.qml:57
+#, kde-format
+msgid "Edit"
+msgstr "ویرایش"
+
+#: src/widgets/views/Browser.qml:65 src/widgets/views/BrowserView.qml:151
+#: src/widgets/views/FileMenu.qml:86 src/widgets/views/PlacesSideBar.qml:108
+#, kde-format
+msgid "Remove"
+msgstr "حذف"
+
+#: src/widgets/views/Browser.qml:82
+#, kde-format
+msgid "Remove '%1'"
+msgstr "حذف «%1»"
+
+#: src/widgets/views/Browser.qml:85
+#, kde-format
+msgid ""
+"Are you sure you want to remove this tag? This operation can not be undone."
+msgstr "آیا از حذف این برچسب اطمینان دارید؟ این عملیات قابل بازگشت نیست."
+
+#: src/widgets/views/Browser.qml:168
+#, kde-format
+msgid "Create new"
+msgstr "ایجاد مورد جدید"
+
+#: src/widgets/views/BrowserView.qml:88 src/widgets/views/FileMenu.qml:54
+#, kde-format
+msgid "Copy"
+msgstr "رونوشت"
+
+#: src/widgets/views/BrowserView.qml:98 src/widgets/views/FileMenu.qml:65
+#, kde-format
+msgid "Cut"
+msgstr "بریدن"
+
+#: src/widgets/views/BrowserView.qml:108 src/widgets/views/FileMenu.qml:190
+#: src/widgets/views/HomeView.qml:47
+#, kde-format
+msgid "Share"
+msgstr "هم‌رسانی"
+
+#: src/widgets/views/BrowserView.qml:130 src/widgets/views/FileMenu.qml:267
+#, kde-format
+msgid "Compress"
+msgstr "فشرده‌سازی"
+
+#: src/widgets/views/BrowserView.qml:179
+#, kde-format
+msgid "Detach Tab"
+msgstr "جدا کردن زبانه"
+
+#: src/widgets/views/DisksSection.qml:18
+#, kde-format
+msgid "Devices and Remote"
+msgstr "دستگاه‌ها و دوردست"
+
+#: src/widgets/views/DisksSection.qml:19
+#, kde-format
+msgid "Remote locations and devices like disks, phones and cameras"
+msgstr "مکان‌های دوردست و دستگاه‌هایی مانند دیسک‌ها، تلفن‌ها و دوربین‌ها"
+
+#: src/widgets/views/FavoritesSection.qml:20
+#, kde-format
+msgid "Favorite files"
+msgstr "پرونده‌های برگزیده"
+
+#: src/widgets/views/FavoritesSection.qml:21
+#, kde-format
+msgid "Your files marked as favorites"
+msgstr "پرونده‌های شما که به عنوان برگزیده علامت‌گذاری شده‌اند"
+
+#: src/widgets/views/FileMenu.qml:43
+#, kde-format
+msgid " items"
+msgstr " مورد"
+
+#: src/widgets/views/FileMenu.qml:76
+#, kde-format
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: src/widgets/views/FileMenu.qml:102
+#: src/widgets/views/ShortcutsDialog.qml:183
+#, kde-format
+msgid "Select"
+msgstr "انتخاب"
+
+#: src/widgets/views/FileMenu.qml:120 src/widgets/views/HomeView.qml:41
+#, kde-format
+msgid "Open with"
+msgstr "باز کردن با"
+
+#: src/widgets/views/FileMenu.qml:132
+#, kde-format
+msgid "Preview and Info"
+msgstr "پیش‌نمایش و اطلاعات"
+
+#: src/widgets/views/FileMenu.qml:152
+#, kde-format
+msgid "Add to '%1'"
+msgstr "افزودن به «%1»"
+
+#: src/widgets/views/FileMenu.qml:163
+#, kde-format
+msgid "Add Tag"
+msgstr "افزودن برچسب"
+
+#: src/widgets/views/FileMenu.qml:174
+#, kde-format
+msgid "UnFav"
+msgstr "حذف از نشان‌شده‌ها"
+
+#: src/widgets/views/FileMenu.qml:174
+#, kde-format
+msgid "Fav"
+msgstr "افزودن به نشان‌شده‌ها"
+
+#: src/widgets/views/FileMenu.qml:231 src/widgets/views/PlacesSideBar.qml:90
+#, kde-format
+msgid "Open in New Window"
+msgstr "باز کردن در پنجره جدید"
+
+#: src/widgets/views/FileMenu.qml:253
+#, kde-format
+msgid "Extract"
+msgstr "استخراج"
+
+#: src/widgets/views/home/SectionGroup.qml:53
+#, kde-format
+msgid "Nothing in here yet."
+msgstr "هنوز چیزی در اینجا نیست."
+
+#: src/widgets/views/home/SectionGroup.qml:54
+#, kde-format
+msgid "Check back later."
+msgstr "بعداً دوباره بررسی کنید."
+
+#: src/widgets/views/HomeView.qml:53
+#, kde-format
+msgid "Open folder"
+msgstr "باز کردن پوشه"
+
+#: src/widgets/views/HomeView.qml:65
+#, kde-format
+msgid "Search for files"
+msgstr "جستجوی پرونده‌ها"
+
+#: src/widgets/views/HomeView.qml:75
+#, kde-format
+msgid "Browser"
+msgstr "مرورگر"
+
+#: src/widgets/views/HomeView.qml:132
+#, kde-format
+msgid "Downloads"
+msgstr "بارگیری‌ها"
+
+#: src/widgets/views/HomeView.qml:133
+#, kde-format
+msgid "Your most recent downloaded files"
+msgstr "تازه‌ترین پرونده‌های بارگیری‌شده شما"
+
+#: src/widgets/views/HomeView.qml:173
+#, kde-format
+msgid "Music"
+msgstr "موسیقی"
+
+#: src/widgets/views/HomeView.qml:174
+#, kde-format
+msgid "Your most recent music files"
+msgstr "تازه‌ترین پرونده‌های موسیقی شما"
+
+#: src/widgets/views/HomeView.qml:214
+#, kde-format
+msgid "Images"
+msgstr "تصاویر"
+
+#: src/widgets/views/HomeView.qml:215
+#, kde-format
+msgid "Your most recent image files"
+msgstr "تازه‌ترین پرونده‌های تصویر شما"
+
+#: src/widgets/views/PlacesSection.qml:19
+#: src/widgets/views/SettingsDialog.qml:434
+#: src/widgets/views/SettingsDialog.qml:438
+#, kde-format
+msgid "Places"
+msgstr "مکان‌ها"
+
+#: src/widgets/views/PlacesSection.qml:20
+#, kde-format
+msgid "Quick access to common places."
+msgstr "دسترسی سریع به مکان‌های متداول."
+
+#: src/widgets/views/PlacesSection.qml:36
+#: src/widgets/views/RecentSection.qml:27
+#, kde-format
+msgid "More"
+msgstr "بیشتر"
+
+#: src/widgets/views/PlacesSideBar.qml:58
+#: src/widgets/views/SettingsDialog.qml:456
+#, kde-format
+msgid "Bookmarks"
+msgstr "نشانک‌ها"
+
+#: src/widgets/views/PlacesSideBar.qml:59
+#, kde-format
+msgid "Your bookmarks will be listed here"
+msgstr "نشانک‌های شما در اینجا فهرست خواهند شد"
+
+#: src/widgets/views/PlacesSideBar.qml:237
+#, kde-format
+msgid "Mount"
+msgstr "سوار کردن"
+
+#: src/widgets/views/PlacesSideBar.qml:245
+#, kde-format
+msgid ""
+"This device needs to be mounted before accessing it. Do you want to set up "
+"this device?"
+msgstr ""
+"این دستگاه پیش از دسترسی باید سوار شود. آیا می‌خواهید این دستگاه را برپا "
+"کنید؟"
+
+#: src/widgets/views/SettingsDialog.qml:14
+#, kde-format
+msgid "Behaviour"
+msgstr "رفتار"
+
+#: src/widgets/views/SettingsDialog.qml:19
+#, kde-format
+msgid "Save Session"
+msgstr "ذخیرهٔ نشست"
+
+#: src/widgets/views/SettingsDialog.qml:20
+#, kde-format
+msgid "Save and restore tabs."
+msgstr "ذخیره و بازیابی برگه‌ها."
+
+#: src/widgets/views/SettingsDialog.qml:32
+#, kde-format
+msgid "Dynamic Preferences"
+msgstr "ترجیحات پویا"
+
+#: src/widgets/views/SettingsDialog.qml:33
+#, kde-format
+msgid ""
+"Save custom preferences per directory, otherwise use the default "
+"preferences."
+msgstr ""
+"ذخیرهٔ ترجیحات سفارشی برای هر پوشه، در غیر این صورت از ترجیحات پیش‌فرض "
+"استفاده شود."
+
+#: src/widgets/views/SettingsDialog.qml:46
+#, kde-format
+msgid "Previews"
+msgstr "پیش‌نمایش‌ها"
+
+#: src/widgets/views/SettingsDialog.qml:52
+#, kde-format
+msgid "Open in Window"
+msgstr "باز کردن در پنجره"
+
+#: src/widgets/views/SettingsDialog.qml:53
+#, kde-format
+msgid "Show the file previews in a new window."
+msgstr "نمایش پیش‌نمایش پرونده‌ها در پنجره‌ای جدید."
+
+#: src/widgets/views/SettingsDialog.qml:65
+#, kde-format
+msgid "Autoplay"
+msgstr "پخش خودکار"
+
+#: src/widgets/views/SettingsDialog.qml:66
+#, kde-format
+msgid "Auto start playing audio and video file previews."
+msgstr "شروع خودکار پخش پیش‌نمایش پرونده‌های صوتی و تصویری."
+
+#: src/widgets/views/SettingsDialog.qml:78
+#, kde-format
+msgid "Prefer Preview"
+msgstr "اولویت با پیش‌نمایش"
+
+#: src/widgets/views/SettingsDialog.qml:79
+#, kde-format
+msgid ""
+"Open files in a preview mode instead of opening them in a dedicated "
+"application."
+msgstr ""
+"باز کردن پرونده‌ها در حالت پیش‌نمایش به‌جای باز کردن آن‌ها در برنامه‌ای "
+"جداگانه."
+
+#: src/widgets/views/SettingsDialog.qml:92
+#, kde-format
+msgid "Browsing & Navigation"
+msgstr "مرور و ناوبری"
+
+#: src/widgets/views/SettingsDialog.qml:96
+#, kde-format
+msgid "Thumbnails"
+msgstr "بندانگشتی‌ها"
+
+#: src/widgets/views/SettingsDialog.qml:97
+#, kde-format
+msgid "Show previews of images, videos and PDF files."
+msgstr "نمایش پیش‌نمایش تصویرها، ویدیوها و پرونده‌های PDF."
+
+#: src/widgets/views/SettingsDialog.qml:109
+#, kde-format
+msgid "View Type"
+msgstr "نوع نما"
+
+#: src/widgets/views/SettingsDialog.qml:110
+#, kde-format
+msgid "Default view type."
+msgstr "نوع نمای پیش‌فرض."
+
+#: src/widgets/views/SettingsDialog.qml:148
+#, kde-format
+msgid "Default sorting value."
+msgstr "مقدار مرتب‌سازی پیش‌فرض."
+
+#: src/widgets/views/SettingsDialog.qml:217
+#, kde-format
+msgid "Show Folders First"
+msgstr "نمایش پوشه‌ها در ابتدا"
+
+#: src/widgets/views/SettingsDialog.qml:245
+#, kde-format
+msgid "Interface"
+msgstr "رابط کاربری"
+
+#: src/widgets/views/SettingsDialog.qml:250
+#, kde-format
+msgid "Grid Items Size"
+msgstr "اندازه موارد شبکه‌ای"
+
+#: src/widgets/views/SettingsDialog.qml:251
+#, kde-format
+msgid "Size of the grid view."
+msgstr "اندازه نمای شبکه‌ای."
+
+#: src/widgets/views/SettingsDialog.qml:269
+#: src/widgets/views/SettingsDialog.qml:317
+#, kde-format
+msgid "M"
+msgstr "متوسط"
+
+#: src/widgets/views/SettingsDialog.qml:276
+#: src/widgets/views/SettingsDialog.qml:324
+#, kde-format
+msgid "L"
+msgstr "بزرگ"
+
+#: src/widgets/views/SettingsDialog.qml:283
+#: src/widgets/views/SettingsDialog.qml:331
+#, kde-format
+msgid "X"
+msgstr "خیلی بزرگ"
+
+#: src/widgets/views/SettingsDialog.qml:290
+#, kde-format
+msgid "XL"
+msgstr "بسیار بزرگ"
+
+#: src/widgets/views/SettingsDialog.qml:299
+#, kde-format
+msgid "List Items Size"
+msgstr "اندازهٔ موارد فهرست"
+
+#: src/widgets/views/SettingsDialog.qml:300
+#, kde-format
+msgid "Size of the list view."
+msgstr "اندازهٔ نمای فهرست."
+
+#: src/widgets/views/SettingsDialog.qml:310
+#, kde-format
+msgid "S"
+msgstr "کوچک"
+
+#: src/widgets/views/SettingsDialog.qml:341
+#, kde-format
+msgid "Use overview mode as default on launch."
+msgstr "استفاده از حالت نمای کلی به‌صورت پیش‌فرض هنگام اجرا."
+
+#: src/widgets/views/SettingsDialog.qml:352
+#, kde-format
+msgid "Actions Bar"
+msgstr "نوار کنش‌ها"
+
+#: src/widgets/views/SettingsDialog.qml:353
+#, kde-format
+msgid ""
+"Show the actions bar in the main view. Otherwise it will be shown in the "
+"application menu."
+msgstr ""
+"نمایش نوار کنش‌ها در نمای اصلی. در غیر این صورت، در منوی برنامه نشان داده "
+"خواهد شد."
+
+#: src/widgets/views/SettingsDialog.qml:366
+#, kde-format
+msgid "Embedded terminal options."
+msgstr "گزینه‌های پایانهٔ تعبیه‌شده."
+
+#: src/widgets/views/SettingsDialog.qml:371
+#, kde-format
+msgid "Sync Terminal"
+msgstr "همگام‌سازی پایانه"
+
+#: src/widgets/views/SettingsDialog.qml:372
+#, kde-format
+msgid "Sync the terminal current working directory to the browser location."
+msgstr "همگام‌سازی پوشهٔ کاری فعلی پایانه با مکان مرورگر."
+
+#: src/widgets/views/SettingsDialog.qml:384
+#, kde-format
+msgid "Adaptive Color Scheme"
+msgstr "طرح رنگ تطبیقی"
+
+#: src/widgets/views/SettingsDialog.qml:385
+#, kde-format
+msgid "Colors based on the current style."
+msgstr "رنگ‌ها بر اساس سبک فعلی."
+
+#: src/widgets/views/SettingsDialog.qml:396
+#, kde-format
+msgid "Color Scheme"
+msgstr "طرح رنگ"
+
+#: src/widgets/views/SettingsDialog.qml:397
+#, kde-format
+msgid "Change the color scheme of the terminal."
+msgstr "تغییر طرح رنگ پایانه."
+
+#: src/widgets/views/SettingsDialog.qml:416
+#: src/widgets/views/SettingsDialog.qml:443
+#, kde-format
+msgid "Quick places"
+msgstr "مکان‌های سریع"
+
+#: src/widgets/views/SettingsDialog.qml:417
+#: src/widgets/views/SettingsDialog.qml:444
+#: src/widgets/views/SettingsDialog.qml:457
+#, kde-format
+msgid "Access to standard locations."
+msgstr "دسترسی به مکان‌های استاندارد."
+
+#: src/widgets/views/SettingsDialog.qml:472
+#, kde-format
+msgid "Remote"
+msgstr "دوردست"
+
+#: src/widgets/views/SettingsDialog.qml:473
+#, kde-format
+msgid "Access to network locations."
+msgstr "دسترسی به مکان‌های شبکه."
+
+#: src/widgets/views/SettingsDialog.qml:488
+#, kde-format
+msgid "Removable"
+msgstr "جداشدنی"
+
+#: src/widgets/views/SettingsDialog.qml:489
+#, kde-format
+msgid "Access to USB sticks and SD Cards."
+msgstr "دسترسی به حافظه‌های USB و کارت‌های SD."
+
+#: src/widgets/views/SettingsDialog.qml:504
+#, kde-format
+msgid "Devices"
+msgstr "دستگاه‌ها"
+
+#: src/widgets/views/SettingsDialog.qml:505
+#, kde-format
+msgid "Access drives."
+msgstr "دسترسی به درایوها."
+
+#: src/widgets/views/ShortcutsDialog.qml:13
+#, kde-format
+msgid "Navigation"
+msgstr "پیمایش"
+
+#: src/widgets/views/ShortcutsDialog.qml:14
+#, kde-format
+msgid "Browser navigation with keyboard."
+msgstr "پیمایش در مرورگر با صفحه‌کلید."
+
+#: src/widgets/views/ShortcutsDialog.qml:18
+#, kde-format
+msgid "New Tab"
+msgstr "برگهٔ جدید"
+
+#: src/widgets/views/ShortcutsDialog.qml:38
+#, kde-format
+msgid "Close Tab"
+msgstr "بستن برگه"
+
+#: src/widgets/views/ShortcutsDialog.qml:58
+#, kde-format
+msgid "Path Edit"
+msgstr "ویرایش مسیر"
+
+#: src/widgets/views/ShortcutsDialog.qml:93
+#, kde-format
+msgid "Split"
+msgstr "تقسیم"
+
+#: src/widgets/views/ShortcutsDialog.qml:108
+#, kde-format
+msgid "New File"
+msgstr "پروندهٔ جدید"
+
+#: src/widgets/views/ShortcutsDialog.qml:128
+#, kde-format
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: src/widgets/views/ShortcutsDialog.qml:143
+#, kde-format
+msgid "Find Tab"
+msgstr "یافتن زبانه"
+
+#: src/widgets/views/TagsSection.qml:21
+#, kde-format
+msgid "Tagged files for quick access"
+msgstr "پرونده‌های برچسب‌خورده برای دسترسی سریع"
+
+#: src/widgets/views/Terminal.qml:30
+#, kde-format
+msgid "Sync"
+msgstr "همگام‌سازی"

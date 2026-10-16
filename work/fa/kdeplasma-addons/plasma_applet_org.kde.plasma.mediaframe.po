@@ -1,0 +1,219 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma_applet_org.kde.plasma.mediaframe package.
+# SPDX-FileCopyrightText: 2026 Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.mediaframe\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-25 00:47+0000\n"
+"PO-Revision-Date: 2026-10-15 21:04+0330\n"
+"Last-Translator: Mohammad Shafiee Sarvestani <muhammad.shafiee@gmail.com>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title"
+msgid "Media"
+msgstr "رسانه"
+
+#: qml/config.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Behavior"
+msgstr "رفتار"
+
+#: qml/ConfigBehavior.qml:48
+#, kde-format
+msgid "Change picture every:"
+msgstr "تغییر تصویر هر:"
+
+#: qml/ConfigBehavior.qml:65
+#, kde-format
+msgid "Hours"
+msgstr "ساعت"
+
+#: qml/ConfigBehavior.qml:79
+#, kde-format
+msgid "Minutes"
+msgstr "دقیقه"
+
+#: qml/ConfigBehavior.qml:93
+#, kde-format
+msgid "Seconds"
+msgstr "ثانیه"
+
+#: qml/ConfigBehavior.qml:103
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Image fill mode:"
+msgstr "حالت پر کردن تصویر:"
+
+#: qml/ConfigBehavior.qml:110
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Stretch"
+msgstr "کشیدن"
+
+#: qml/ConfigBehavior.qml:111
+#, kde-format
+msgctxt "@info"
+msgid "The image is scaled to fit the frame"
+msgstr "اندازه تصویر برای جا گرفتن در کادر تغییر می‌کند"
+
+#: qml/ConfigBehavior.qml:115
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Preserve aspect fit"
+msgstr "حفظ تناسب و جا دادن"
+
+#: qml/ConfigBehavior.qml:116
+#, kde-format
+msgctxt "@info"
+msgid "The image is scaled uniformly to fit without cropping"
+msgstr "تصویر به‌طور یکنواخت برای جا شدن بدون برش مقیاس‌بندی می‌شود"
+
+#: qml/ConfigBehavior.qml:120
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Preserve aspect crop"
+msgstr "حفظ نسبت ابعاد با برش"
+
+#: qml/ConfigBehavior.qml:121
+#, kde-format
+msgctxt "@info"
+msgid "The image is scaled uniformly to fill, cropping if necessary"
+msgstr ""
+"تصویر به‌طور یکنواخت برای پر کردن مقیاس‌بندی می‌شود و در صورت نیاز برش "
+"می‌خورد"
+
+#: qml/ConfigBehavior.qml:125
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Tile"
+msgstr "کاشی‌کاری"
+
+#: qml/ConfigBehavior.qml:126
+#, kde-format
+msgctxt "@info"
+msgid "The image is duplicated horizontally and vertically"
+msgstr "تصویر به‌صورت افقی و عمودی تکرار می‌شود"
+
+#: qml/ConfigBehavior.qml:130
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Tile vertically"
+msgstr "کاشی‌کاری عمودی"
+
+#: qml/ConfigBehavior.qml:131
+#, kde-format
+msgctxt "@info"
+msgid "The image is stretched horizontally and tiled vertically"
+msgstr "تصویر به‌صورت افقی کشیده و به‌صورت عمودی کاشی‌کاری می‌شود"
+
+#: qml/ConfigBehavior.qml:135
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Tile horizontally"
+msgstr "کاشی‌کاری افقی"
+
+#: qml/ConfigBehavior.qml:136
+#, kde-format
+msgctxt "@info"
+msgid "The image is stretched vertically and tiled horizontally"
+msgstr "تصویر به‌صورت عمودی کشیده و به‌صورت افقی کاشی‌کاری می‌شود"
+
+#: qml/ConfigBehavior.qml:140
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Pad"
+msgstr "حاشیه‌دار"
+
+#: qml/ConfigBehavior.qml:141
+#, kde-format
+msgctxt "@info"
+msgid "The image is not transformed"
+msgstr "تصویر تبدیل نشده است"
+
+#: qml/ConfigBehavior.qml:186
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "General:"
+msgstr "عمومی:"
+
+#: qml/ConfigBehavior.qml:187
+#, kde-format
+msgctxt "@option:check"
+msgid "Randomize order"
+msgstr "ترتیب تصادفی"
+
+#: qml/ConfigBehavior.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Pause slideshow when cursor is over image"
+msgstr "مکث نمایش اسلاید هنگام قرارگیری مکان‌نما روی تصویر"
+
+#: qml/ConfigBehavior.qml:197
+#, kde-format
+msgctxt "@option:check"
+msgid "Click on image to open in external application"
+msgstr "کلیک روی تصویر برای باز کردن در برنامه‌ای بیرونی"
+
+#: qml/ConfigMedia.qml:27
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Folder…"
+msgstr "افزودن پوشه…"
+
+#: qml/ConfigMedia.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Files…"
+msgstr "افزودن پرونده‌ها…"
+
+#: qml/ConfigMedia.qml:90
+#, kde-format
+msgctxt "@action:button tooltip on icon-only button"
+msgid "Remove path"
+msgstr "حذف مسیر"
+
+#: qml/ConfigMedia.qml:100
+#, kde-format
+msgctxt "@info placeholdermessage if no paths set"
+msgid "No media configured"
+msgstr "هیچ رسانه‌ای پیکربندی نشده است"
+
+#: qml/ConfigMedia.qml:101
+#, kde-format
+msgctxt "@info placeholdermessage explanation"
+msgid "Add files or folders to display them in the widget."
+msgstr "برای نمایش پرونده‌ها یا پوشه‌ها در ابزارک، آن‌ها را اضافه کنید."
+
+#: qml/ConfigMedia.qml:107
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Files"
+msgstr "انتخاب پرونده‌ها"
+
+#: qml/ConfigMedia.qml:127
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a Folder"
+msgstr "انتخاب یک پوشه"
+
+#: qml/main.qml:366
+#, kde-format
+msgctxt "@info placeholdermessage if no media loaded"
+msgid "No media selected"
+msgstr "هیچ رسانه‌ای انتخاب نشده است"
+
+#: qml/main.qml:370 qml/main.qml:380
+#, kde-format
+msgctxt "@action:button opens settings dialog"
+msgid "Choose media…"
+msgstr "انتخاب رسانه…"
